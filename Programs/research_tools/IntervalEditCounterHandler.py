@@ -1,6 +1,8 @@
 import osmium
 import csv
 from datetime import datetime, timezone, timedelta
+from shapely.geometry import shape, Point, MultiPolygon, Polygon
+import json
 """
 A handler that counts the number of creates, modifications, and deletions 
 of OSM elements (nodes, ways, and relations) within specified time intervals.
@@ -20,6 +22,7 @@ class IntervalChanges():
         self.creates = 0
         self.edits = 0
         self.deletes = 0
+        self.total = 0
         self.start_date = start_date
     
     def increment_creates(self):
@@ -32,27 +35,40 @@ class IntervalChanges():
         self.deletes+=1 
 
     def print(self):
-        print(f'{datetime.fromtimestamp(self.start_date).strftime("%Y-%m-%d")}: C:{self.creates} E:{self.edits} D:{self.deletes}')
+        print(f'{datetime.fromtimestamp(self.start_date).strftime("%Y-%m-%d")}: C:{self.creates} E:{self.edits} D:{self.deletes} T:{self.creates + self.edits + self.deletes}')
     
     def get_data(self):
         # Returns data as a dictionary for easy CSV writing
+        self.total = self.creates + self.edits + self.deletes
         return {
             "start_date": datetime.fromtimestamp(self.start_date).strftime("%Y-%m-%d"),
             "creates": self.creates,
             "edits": self.edits,
-            "deletes": self.deletes
+            "deletes": self.deletes,
+            "total": self.total
         }
 
 class IntervalEditCounterHandler(osmium.SimpleHandler):
 
-    def __init__(self, start_date, end_date, interval):
+    def __init__(self, start_date, end_date, interval, geojson_path, filtered):
         # For now the interval is daily, from the start time to the end time
         super().__init__()
         self.start_date = start_date
         self.end_date = end_date
         self.interval = interval
         self.intervals = {}
+        self.filtered = filtered
         self.initialize_intervals()
+
+         # Load GeoJSON and create a MultiPolygon from the geometries
+        with open(geojson_path) as f:
+            geojson_data = json.load(f)
+
+            # Extract the geometry and create the shape
+            geometry = geojson_data['geometry']
+            self.area_multipolygon = shape(geometry)
+
+            
 
 
     def initialize_intervals(self):
@@ -85,9 +101,8 @@ class IntervalEditCounterHandler(osmium.SimpleHandler):
                     current = current.replace(month=current.month + 1)
 
 
-    
+    def update_interval(self, obj):
 
-    def add_to_interval(self, obj):
         # Determine the appropriate interval based on the object's timestamp
         timestamp = obj.timestamp.astimezone(timezone.utc)
         interval_start = self._get_interval_start(timestamp)
@@ -98,13 +113,34 @@ class IntervalEditCounterHandler(osmium.SimpleHandler):
         if interval:
             if not obj.visible:
                 interval.increment_deletes()
-                print(f"{obj.id} deleted")
             elif obj.version > 1:
                 interval.increment_edits()
             else:
                 interval.increment_creates()
         else:
             print("Interval did not exist for some reason.")
+
+    def add_to_interval(self, obj):
+
+        # Check that the objects coordinates are inside the geojson multipolygon, 
+        if isinstance(obj, osmium.osm.Node):
+            if self.point_in_geojson(obj):
+                self.update_interval(obj)
+            else:
+                #print("excluded: ")
+                #print(obj)
+                pass
+        
+        # Check that the objects coordinates are inside the geojson multipolygon, 
+        if isinstance(obj, osmium.osm.Way):
+            for node_ref in obj.nodes:
+                if self.point_in_geojson(node_ref):
+                    self.update_interval(obj)
+                    break
+
+        if isinstance(obj, osmium.osm.Relation):
+            self.update_interval(obj)
+
 
     def _get_interval_start(self, timestamp):
         """
@@ -121,6 +157,16 @@ class IntervalEditCounterHandler(osmium.SimpleHandler):
         elif self.interval == "month":
             # Set to the first day of the month
             return timestamp.replace(day=1, hour=0, minute=0, second=0, microsecond=0)
+        
+    
+    def point_in_geojson(self, obj):
+        if self.filtered:
+            try:
+                return self.area_multipolygon.contains(Point(obj.lon, obj.lat))
+            except:
+                return True
+        else:
+            return True
 
 
     def print_intervals(self):
@@ -129,8 +175,9 @@ class IntervalEditCounterHandler(osmium.SimpleHandler):
 
     def output_csv(self, file_path):
         # Define the CSV headers
-        headers = ["start_date", "creates", "edits", "deletes"]
+        headers = ["start_date", "creates", "edits", "deletes", "total"]
 
+        create_total, edit_total, delete_total, total_total = 0, 0, 0, 0
         # Write data to CSV file
         with open(file_path, mode="w", newline='', encoding="utf-8") as csv_file:
             writer = csv.DictWriter(csv_file, fieldnames=headers)
@@ -138,7 +185,15 @@ class IntervalEditCounterHandler(osmium.SimpleHandler):
 
             # Write each interval's data to the CSV
             for interval in self.intervals.values():
-                writer.writerow(interval.get_data())
+                interval_data = interval.get_data()
+                writer.writerow(interval_data)
+                create_total += interval_data["creates"]
+                edit_total += interval_data["edits"]
+                delete_total += interval_data["deletes"]
+                total_total += interval_data["total"]
+            
+            # Write the final output of the total
+            writer.writerow({"start_date": "total", "creates": create_total, "edits": edit_total, "deletes": delete_total, "total": total_total})
 
     def node(self, n):
         if self.start_date <= n.timestamp <= self.end_date:

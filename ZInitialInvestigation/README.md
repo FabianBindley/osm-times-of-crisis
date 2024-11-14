@@ -55,3 +55,13 @@ To get a reliable time extract - use initial extract, time filter, then extract 
 
 
 osmium extract -p Data/GeocodedBoundaries/Broxbourne-geocode-boundary.geojson Data/Broxbourne/Broxbourne.osh -o  Data/Broxbourne/BroxbourneAgain.osh -H
+
+
+## To filter out relations
+osmium tags-filter Data/EmiliaRomagna/EmiliaRomagna.osh.pbf n/ w/ -o Data/EmiliaRomagna/EmiliaRomagnaNodesWays.osh
+osmium tags-filter Data/Broxbourne/Broxbourne.osh.pbf n/ w/ -o Data/EmiliaRomagna/BroxbourneNodesWays.osh
+
+osmium cat Data/Broxbourne/Broxbourne.osh.pbf --object-type=node --object-type=way -o Data/Broxbourne/BroxbourneNodesWays.osh.pbf --overwrite
+osmium cat Data/UnitedKingdom/UnitedKingdom.osh.pbf --object-type=node --object-type=way -o Data/UnitedKingdom/UnitedKingdomNodesWays.osh.pbf --overwrite
+osmium cat Data/Haiti/Haiti.osh.pbf --object-type=node --object-type=way -o Data/Haiti/HaitiNodesWays.osh.pbf --overwrite
+osmium cat Data/EmiliaRomagna/EmiliaRomagna.osh.pbf --object-type=node --object-type=way -o Data/EmiliaRomagna/EmiliaRomagnaNodesWays.osh.pbf --overwrite
