@@ -18,7 +18,8 @@ class DB_Utils:
         return self.connection 
     
 
-    def insert_data(self, value_list, connection, success_count):
+    def insert_data(self, value_list, success_count, connection):
+        self.connection = connection
         insert_query = """
             INSERT INTO public.changes (
                 element_id, edit_type, element_type, timestamp, disaster_id, version, visible, changeset, tags, building, highway, coordinates, uid
@@ -37,7 +38,7 @@ class DB_Utils:
         )
 
         # Commit the transaction
-        connection.commit()
+        self.connection.commit()
 
         print(f"Inserted {success_count} elements")
 
@@ -86,7 +87,7 @@ class DB_Utils:
 
     def insert_disasters(self, disaster_list, connection):
         insert_query = """
-            INSERT INTO public.disasters (id, country, area, area_geometry, date)
+            INSERT INTO public.disasters (id, country, area, area_geometry, date, h3_resolution)
             VALUES %s
             ON CONFLICT (id)
             DO NOTHING;
@@ -96,33 +97,38 @@ class DB_Utils:
         data_to_insert = [
             (
                 disaster["id"],
-                disaster["country"],
-                disaster["area"],
+                disaster["country"],  # Ensure this matches the column type (likely TEXT[] or JSON)
+                disaster["area"],  # Ensure this matches the column type (likely TEXT[] or JSON)
                 disaster["geometry"].wkt,  # Convert Shapely geometry to WKT
-                disaster["date"]
+                disaster["date"],  # This is already a UNIX timestamp
+                disaster["h3_resolution"]
             )
             for disaster in disaster_list
         ]
 
+        # Log data to debug
+        print(f"Data to insert: {data_to_insert}")
+
         try:
             cursor = connection.cursor()
 
-            # Execute the bulk insert with coordinates formatted in the query
+            # Execute the bulk insert with proper formatting
             execute_values(
                 cursor,
                 insert_query,
                 data_to_insert,
-                template = "(%s, %s, %s, ST_SetSRID(ST_GeomFromText(%s), 4326), to_timestamp(%s))"
+                template="(%s, %s, %s, ST_SetSRID(ST_GeomFromText(%s), 4326), to_timestamp(%s), %s)"
             )
 
             # Commit the transaction
             connection.commit()
 
-            print(f"Inserted {len(data_to_insert)} elements")
+            print(f"Inserted {len(data_to_insert)} disasters.")
 
         except Exception as e:
             print(f"Error inserting disasters: {e}")
             connection.rollback()  # Roll back if there's an error
+
 
 
         
@@ -185,11 +191,12 @@ class DB_Utils:
             FROM changes
             WHERE disaster_id = %s AND timestamp >= %s AND timestamp < %s;
         """
+        
 
         cursor = self.connection.cursor()
         cursor.execute(query, (disaster_id, start_date, end_date))
 
-        results = cursor.fetchall()
+        return cursor.fetchall()
     
 
 

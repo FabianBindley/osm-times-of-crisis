@@ -26,7 +26,7 @@ if __name__ == "__main__":
         start_date = datetime.strptime(start_date_str, "%Y-%m-%d").replace(tzinfo=timezone.utc)
         end_date = datetime.strptime(end_date_str, "%Y-%m-%d").replace(tzinfo=timezone.utc)
 
-        handler = BulkUpdateHandler(start_date, end_date, geojson_path, True, disaster_id, connection, column_to_update)
+        handler = BulkUpdateHandler(start_date, end_date, geojson_path, True, disaster_id, column_to_update)
 
         start_time = datetime.now()
         print(f"Start time: {start_time}")

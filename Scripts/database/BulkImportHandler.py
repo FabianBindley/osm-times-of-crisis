@@ -1,8 +1,13 @@
 import osmium
 from db_utils import DB_Utils
 from datetime import datetime, timezone, timedelta
-from shapely.geometry import shape, Point, MultiPolygon, Polygon
+from shapely.geometry import shape, Point, MultiPolygon, Polygon, LineString
 import json
+
+class Coordinate:
+    def __init__(self, lon, lat):
+        self.lon = lon
+        self.lat = lat
 
 class BulkImportHandler(osmium.SimpleHandler):
 
@@ -31,6 +36,14 @@ class BulkImportHandler(osmium.SimpleHandler):
             self.area_multipolygon = shape(geometry)
 
 
+    def compute_way_centroid(self, way):
+
+        coordinates = [(self.location_cache[node.ref].lon, self.location_cache[node.ref].lat) for node in way.nodes if node.ref in self.location_cache]
+        if len(coordinates) < 2:
+            return Coordinate(0, 0)
+        centroid = LineString(coordinates).centroid
+        return Coordinate(centroid.x, centroid.y)
+
     def initiate_insert(self, obj):
 
         # Check that the objects coordinates are inside the geojson multipolygon, 
@@ -42,7 +55,9 @@ class BulkImportHandler(osmium.SimpleHandler):
         # Check that the way has a node within the MultiPolygon
         elif isinstance(obj, osmium.osm.Way):
             for node_ref in obj.nodes:
-                if self.point_in_geojson(node_ref):
+                if not node_ref.ref in self.location_cache:
+                    continue
+                if self.point_in_geojson(self.location_cache[node_ref.ref]):
                     self.add_tuple(obj, "way")
                     break
 
@@ -54,18 +69,18 @@ class BulkImportHandler(osmium.SimpleHandler):
         
         if not obj.visible:
             edit_type = "delete"
-            location = self.location_cache[obj.id] if isinstance(obj, osmium.osm.Node) and obj.id in self.location_cache else None
+            coordinate = self.location_cache[obj.id] if isinstance(obj, osmium.osm.Node) and obj.id in self.location_cache else None
         elif obj.version == 1:
             edit_type = "create"
-            location = obj.location if isinstance(obj, osmium.osm.Node) else None
+            coordinate = Coordinate(obj.location.lon, obj.location.lat) if isinstance(obj, osmium.osm.Node) else self.compute_way_centroid(obj)
         else:
             edit_type = "edit"
-            location = obj.location if isinstance(obj, osmium.osm.Node) else None
+            coordinate = Coordinate(obj.location.lon, obj.location.lat) if isinstance(obj, osmium.osm.Node) else self.compute_way_centroid(obj)
 
         try:
             self.insert_list.append((obj.id, edit_type, obj_type, int(obj.timestamp.timestamp()), self.disaster_id, obj.version, obj.visible, obj.changeset, json.dumps(dict(obj.tags)),
                                   True if "building" in obj.tags else False, True if "highway" in obj.tags else False, 
-                                  location.lon if location else 0, location.lat if location else 0, obj.uid))
+                                  coordinate.lon if coordinate else 0, coordinate.lat if coordinate else 0, obj.uid))
             
             self.success_count += 1
         except:
@@ -74,7 +89,7 @@ class BulkImportHandler(osmium.SimpleHandler):
         
 
     def flush_inserts(self):
-        self.db_utils.insert_data(self.insert_list, self.connection, self.success_count)
+        self.db_utils.insert_data(self.insert_list, self.success_count, self.connection)
         self.location_cache = {}
  
 
@@ -99,10 +114,11 @@ class BulkImportHandler(osmium.SimpleHandler):
 
     def node(self, n):
         # Cache the location in case needed by a delete
-        if n.visible:
-            self.location_cache[n.id] = n.location
 
         if self.start_date <= n.timestamp <= self.end_date:
+            if n.visible:
+                self.location_cache[n.id] = Coordinate(n.location.lon, n.location.lat)
+        
             self.initiate_insert(n)
 
 

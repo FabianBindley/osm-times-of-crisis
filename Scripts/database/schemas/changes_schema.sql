@@ -14,3 +14,39 @@ CREATE TABLE changes (
     coordinates GEOGRAPHY(POINT, 4326),   -- Coordinates stored as a geographic point (latitude/longitude in WGS84)
     uid BIGINT                           -- UID of user who made change
 );
+
+
+
+SELECT 
+    id, 
+    element_id, 
+    element_type, 
+    edit_type, 
+    timestamp, 
+    disaster_id, 
+    version, 
+    visible, 
+    changeset, 
+    tags, 
+    building, 
+    highway, 
+    ST_X(coordinates::geometry) AS longitude, 
+    ST_Y(coordinates::geometry) AS latitude, 
+    uid
+FROM changes
+WHERE disaster_id = 1
+LIMIT 10;
+
+
+SELECT 
+    id, 
+    element_id, 
+    element_type, 
+    edit_type, 
+    disaster_id, 
+    ST_X(coordinates::geometry) AS longitude, 
+    ST_Y(coordinates::geometry) AS latitude, 
+    uid
+FROM changes
+WHERE disaster_id = 1
+LIMIT 10;

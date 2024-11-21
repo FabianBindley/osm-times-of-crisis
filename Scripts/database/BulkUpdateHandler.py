@@ -6,7 +6,7 @@ import json
 
 class BulkUpdateHandler(osmium.SimpleHandler):
 
-    def __init__(self, start_date, end_date, geojson_path, geojson_filtered, disaster_id, connection, column_to_update):
+    def __init__(self, start_date, end_date, geojson_path, geojson_filtered, disaster_id,  column_to_update):
         # For now the interval is daily, from the start time to the end time
         super().__init__()
         self.start_date = start_date
@@ -20,7 +20,6 @@ class BulkUpdateHandler(osmium.SimpleHandler):
         self.failed_count = 0
         self.location_cache = {}
         self.disaster_id = disaster_id
-        self.connection = connection
         self.column_to_update = column_to_update
 
         # Load GeoJSON and create a MultiPolygon from the geometries
@@ -40,7 +39,7 @@ class BulkUpdateHandler(osmium.SimpleHandler):
         
 
     def flush_updates(self):
-        self.success_count += self.db_utils.update_data(self.update_list, self.connection, self.column_to_update)
+        self.success_count += self.db_utils.update_data(self.update_list,  self.column_to_update)
 
     def print_statistics(self):
         print(f"Success: {self.success_count}")
