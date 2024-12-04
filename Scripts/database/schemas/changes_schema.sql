@@ -50,3 +50,12 @@ SELECT
 FROM changes
 WHERE disaster_id = 1
 LIMIT 10;
+
+
+SELECT 
+    id,
+    element_id,
+    version,
+    ROW_NUMBER() OVER (PARTITION BY element_id, version ORDER BY id) AS row_number
+FROM changes;
+

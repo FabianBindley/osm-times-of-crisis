@@ -210,5 +210,45 @@ class DB_Utils:
         cursor.execute(disaster_query)
 
         return cursor.fetchone()
+    
 
+    def get_broken_coordinates(self):
+        cursor = self.connection.cursor()
+
+        # Coordinates are broken if they are at 0,0 and have the value - 0101000020E610000000000000000000000000000000000000
+
+        changes_query = f"""
+        SELECT id, element_id, disaster_id, coordinates FROM changes WHERE coordinates = '0101000020E610000000000000000000000000000000000000';
+        """
+
+        cursor.execute(changes_query)
+
+        return cursor.fetchall()
+    
+
+    def get_changes_same_element_id(self, element_id, diaster_id):
+        cursor = self.connection.cursor()
+
+        # Coordinates are broken if they are at 0,0 and have the value - 0101000020E610000000000000000000000000000000000000
+
+        changes_query = f"""
+        SELECT id, coordinates, visible FROM changes WHERE element_id = {element_id} AND disaster_id = {diaster_id} ORDER BY version DESC;
+        """
+
+        cursor.execute(changes_query)
+
+        return cursor.fetchall()
+
+    def update_change_coordinates(self, id, new_coordinate):
+        cursor = self.connection.cursor()
+
+        # Coordinates are broken if they are at 0,0 and have the value - 0101000020E610000000000000000000000000000000000000
+
+        changes_query = f"""
+        UPDATE changes SET coordinates = ST_SetSRID(ST_MakePoint(%s, %s), 4326)  WHERE id = %s;
+        """
+
+        cursor.execute(changes_query, (new_coordinate[0], new_coordinate[1], id))
+        self.connection.commit()  # Commit the changes to the database
+        cursor.close()
 

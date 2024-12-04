@@ -13,4 +13,4 @@ if __name__ == "__main__":
 
     data = [(1234567891011121314, "delete", "node", 1732185321, 7, 2, False, 17321, json.dumps({}), False, False, 0, 0, 12345)]
     success_count = 1
-    utils.insert_data(data, success_count)
+    utils.insert_data(data, success_count, connection)

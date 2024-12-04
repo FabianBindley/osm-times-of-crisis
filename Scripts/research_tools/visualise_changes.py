@@ -209,11 +209,11 @@ if __name__ == "__main__":
     db_utils = DB_Utils()
     db_utils.db_connect()
 
-    resolutions = {1: 8, 2: 7, 3:7, 4:6, 5:6, 6:6}
+    resolutions = {1: 9, 2: 8, 3:7, 4:6, 5:6, 6:6}
 
     use_db_resolution = False
 
-    for disaster_id in range(1,6):
+    for disaster_id in range(2,3):
         start_time = datetime.now()
         # Get the information for the disaster with the given disaster_id
         (_, disaster_country, disaster_area, disaster_geojson_encoded, disaster_date, disaster_h3_resolution ) = db_utils.get_disaster_with_id(disaster_id)
