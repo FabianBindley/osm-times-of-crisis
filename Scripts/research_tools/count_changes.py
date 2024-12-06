@@ -62,18 +62,29 @@ if __name__ == "__main__":
     db_utils = DB_Utils()
     db_utils.db_connect()
 
-    for disaster_id in range(1,2):
+    for disaster_id in range(1,7):
         start_time = datetime.now()
         # Get the information for the disaster with the given disaster_id
-        (_, disaster_country, disaster_area, disaster_geojson, disaster_date ) = db_utils.get_disaster_with_id(disaster_id)
+        (_, disaster_country, disaster_area, disaster_geojson, disaster_date, h3_resolution ) = db_utils.get_disaster_with_id(disaster_id)
         print(f"Generating counts for {disaster_area[0]}")
         # Generate the intervals for the disaster 
-        intervals = generate_intervals(disaster_date, interval_width=7, before_after_time_length=365)
-
+        intervals = generate_intervals(disaster_date, interval_width=1, before_after_time_length=365)
         counts = db_utils.count_changes_in_interval(disaster_id, intervals)
-        print(f"Query count for {disaster_area[0]} took {round(datetime.now().timestamp()-start_time.timestamp(),2)} seconds")
-    
+        print(f"Query count for {disaster_area[0]} 1 day took {round(datetime.now().timestamp()-start_time.timestamp(),2)} seconds")
         save_counts(counts, intervals)
+
+        intervals = generate_intervals(disaster_date, interval_width=7, before_after_time_length=365)
+        counts = db_utils.count_changes_in_interval(disaster_id, intervals)
+        print(f"Query count for {disaster_area[0]} 7 days took {round(datetime.now().timestamp()-start_time.timestamp(),2)} seconds")
+        save_counts(counts, intervals)
+        
+        intervals = generate_intervals(disaster_date, interval_width=30, before_after_time_length=365)
+        counts = db_utils.count_changes_in_interval(disaster_id, intervals)
+        print(f"Query count for {disaster_area[0]} 30 days took {round(datetime.now().timestamp()-start_time.timestamp(),2)} seconds")
+        save_counts(counts, intervals)
+
+    
+
 
 
     

@@ -73,8 +73,7 @@ HAVING
 ORDER BY 
     changes_count DESC;
 
-
-CREATE TABLE changes_backup (
+CREATE TABLE emilia_romagna_bumb_changes (
     id SERIAL PRIMARY KEY,                -- Unique identifier for each change
     element_id BIGINT NOT NULL,           -- ID of the OSM element (e.g., node, way)
     element_type VARCHAR(10),             -- Node or Way

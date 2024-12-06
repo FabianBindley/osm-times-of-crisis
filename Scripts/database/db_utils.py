@@ -252,10 +252,10 @@ class DB_Utils:
         cursor.close()
 
 
-    def get_detected_bulk_imports(self):
+    def get_detected_bulk_imports(self, changes_threshold, seconds_threshold):
         cursor = self.connection.cursor()
 
-        bulk_imports_query = """
+        bulk_imports_query = f"""
         SELECT 
             changeset, 
             uid, 
@@ -265,8 +265,8 @@ class DB_Utils:
         GROUP BY 
             changeset, uid
         HAVING 
-            COUNT(*) > 1000 AND
-            MAX(timestamp) - MIN(timestamp) <= INTERVAL '0.1 second'
+            COUNT(*) > {changes_threshold} AND
+            MAX(timestamp) - MIN(timestamp) <= INTERVAL '{seconds_threshold} second'
         ORDER BY 
             changes_count DESC;
         """
@@ -279,18 +279,23 @@ class DB_Utils:
 
         # Insert query to copy rows
         copy_query = f"""
-        INSERT INTO import_deleted_changes
+        INSERT INTO import_filtered_changes
         SELECT * FROM changes
-        WHERE changeset = {changeset}
+        WHERE changeset = {str(changeset)} ON CONFLICT (id)
+        DO NOTHING;
         """
+
         cursor.execute(copy_query)
+        self.connection.commit()
         cursor.close()
     
     def remove_changes_from_changeset(self, changeset):
         cursor = self.connection.cursor()
         delete_query = f"""
-        DELETE FROM changes WHERE changeset = {changeset}
+        DELETE FROM changes WHERE changeset = '{changeset}';
         """
+
+        print(f"Deleting changes for changeset: {changeset}")
         cursor.execute(delete_query)
         self.connection.commit()  
         cursor.close()
