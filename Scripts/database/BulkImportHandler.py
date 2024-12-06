@@ -3,6 +3,8 @@ from db_utils import DB_Utils
 from datetime import datetime, timezone, timedelta
 from shapely.geometry import shape, Point, MultiPolygon, Polygon, LineString
 import json
+import subprocess
+import xml.etree.ElementTree as ET
 
 class Coordinate:
     def __init__(self, lon, lat):
@@ -11,7 +13,7 @@ class Coordinate:
 
 class BulkImportHandler(osmium.SimpleHandler):
 
-    def __init__(self, start_date, end_date, geojson_path, geojson_filtered, disaster_id, connection):
+    def __init__(self, start_date, end_date, geojson_path, geojson_filtered, disaster_id, connection, input_file):
         # For now the interval is daily, from the start time to the end time
         super().__init__()
         self.start_date = start_date
@@ -21,11 +23,12 @@ class BulkImportHandler(osmium.SimpleHandler):
         self.db_utils = DB_Utils()
         self.success_count = 0
         self.filtered_count = 0
-        self.flush_threshold = 10000
+        self.flush_threshold = 20000
         self.failed_count = 0
         self.location_cache = {}
         self.disaster_id = disaster_id
         self.connection = connection
+        self.input_file = input_file
 
         # Load GeoJSON and create a MultiPolygon from the geometries
         with open(geojson_path) as f:
@@ -34,6 +37,56 @@ class BulkImportHandler(osmium.SimpleHandler):
             # Extract the geometry and create the shape
             geometry = geojson_data['geometry']
             self.area_multipolygon = shape(geometry)
+
+    def get_way_previous_version_coordinate(self, obj):
+        element_id = obj.id
+        previous_version = obj.version
+        previous_version -= 1
+        node_ids = []
+
+        # Look back at previous versions of the way and get its nodes
+        while previous_version >= 0:
+            node_ids = list(map(int, self.get_way_node_refs(element_id, previous_version)))
+            if len(node_ids) > 0:
+                break
+            change_version -= 1
+
+        if len(node_ids) == 0:
+            return Coordinate(0,0)
+        
+        # Get the node coordinates from the location cache
+
+        coordinates = [(coord.lon, coord.lat) for coord in filter(None, map(lambda node_id: self.location_cache.get(node_id, None), node_ids))]
+        centroid = LineString(coordinates).centroid
+        return Coordinate(centroid.x, centroid.y)
+        
+
+    def get_way_node_refs(self, way_id, version):
+    # Construct the osmium command to get the way by ID
+        command = [
+            "osmium",
+            "getid",
+            self.input_file,
+            f"w{way_id}",
+            "--output-format=osm"
+        ]
+
+        # Execute the command and capture the output
+        result = subprocess.run(command, capture_output=True, text=True, check=True)
+        osm_data = result.stdout
+
+        # Parse the OSM XML output
+        root = ET.fromstring(osm_data)
+
+        # Find the way element with the specific version
+        for way in root.findall(".//way"):
+            if int(way.get("version", 0)) == version:
+                # Extract all node references
+                node_refs = [nd.get("ref") for nd in way.findall(".//nd")]
+                return node_refs
+
+        # If no matching version is found, return an empty list
+        return []
 
 
     def compute_way_centroid(self, way):
@@ -44,23 +97,34 @@ class BulkImportHandler(osmium.SimpleHandler):
         centroid = LineString(coordinates).centroid
         return Coordinate(centroid.x, centroid.y)
 
+
+
     def initiate_insert(self, obj):
 
         # Check that the objects coordinates are inside the geojson multipolygon, 
         if isinstance(obj, osmium.osm.Node):
-            if self.point_in_geojson(obj):
-                self.add_tuple(obj, "node")
+            #if self.point_in_geojson(obj):
+            self.add_tuple(obj, "node")
 
         
         # Check that the way has a node within the MultiPolygon
         elif isinstance(obj, osmium.osm.Way):
+            self.add_tuple(obj, "way")
+            """
+            found_node = False
             for node_ref in obj.nodes:
-                if not node_ref.ref in self.location_cache:
-                    continue
-                if self.point_in_geojson(self.location_cache[node_ref.ref]):
-                    self.add_tuple(obj, "way")
-                    break
 
+                if node_ref.ref in self.location_cache:
+                    
+                    found_node = True
+                    if self.point_in_geojson(self.location_cache[node_ref.ref]):
+                        self.add_tuple(obj, "way")
+                        break
+            
+            # If we didn't find a node in the location cache, add the node for now and we will update its coordinates and filter it out later.
+            if not found_node:
+                self.add_tuple(obj, "way")
+            """
     
     def add_tuple(self, obj, obj_type):
         if len(self.insert_list) >= self.flush_threshold:
@@ -69,7 +133,12 @@ class BulkImportHandler(osmium.SimpleHandler):
         
         if not obj.visible:
             edit_type = "delete"
-            coordinate = self.location_cache[obj.id] if isinstance(obj, osmium.osm.Node) and obj.id in self.location_cache else None
+            if isinstance(obj, osmium.osm.Node) and obj.id in self.location_cache:
+                coordinate = self.location_cache[obj.id]
+            else:
+                #coordinate = self.get_way_previous_version_coordinate(obj)
+                coordinate = None
+
         elif obj.version == 1:
             edit_type = "create"
             coordinate = Coordinate(obj.location.lon, obj.location.lat) if isinstance(obj, osmium.osm.Node) else self.compute_way_centroid(obj)
@@ -90,7 +159,6 @@ class BulkImportHandler(osmium.SimpleHandler):
 
     def flush_inserts(self):
         self.db_utils.insert_data(self.insert_list, self.success_count, self.connection)
-        self.location_cache = {}
  
 
         
@@ -113,12 +181,11 @@ class BulkImportHandler(osmium.SimpleHandler):
         print(f"Success: {self.success_count} Failed: {self.failed_count} Filtered: {self.filtered_count}")
 
     def node(self, n):
-        # Cache the location in case needed by a delete
+        # Cache the location in case needed
+        if n.visible:
+            self.location_cache[n.id] = Coordinate(n.location.lon, n.location.lat)
 
-        if self.start_date <= n.timestamp <= self.end_date:
-            if n.visible:
-                self.location_cache[n.id] = Coordinate(n.location.lon, n.location.lat)
-        
+        if self.start_date <= n.timestamp <= self.end_date:        
             self.initiate_insert(n)
 
 

@@ -107,7 +107,7 @@ class DB_Utils:
         ]
 
         # Log data to debug
-        print(f"Data to insert: {data_to_insert}")
+        #print(f"Data to insert: {data_to_insert}")
 
         try:
             cursor = connection.cursor()
@@ -212,13 +212,13 @@ class DB_Utils:
         return cursor.fetchone()
     
 
-    def get_broken_coordinates(self):
+    def get_broken_coordinates(self, disaster_id):
         cursor = self.connection.cursor()
 
         # Coordinates are broken if they are at 0,0 and have the value - 0101000020E610000000000000000000000000000000000000
 
         changes_query = f"""
-        SELECT id, element_id, disaster_id, coordinates FROM changes WHERE coordinates = '0101000020E610000000000000000000000000000000000000';
+        SELECT id, element_id, disaster_id, coordinates, version, element_type, visible FROM changes WHERE coordinates = '0101000020E610000000000000000000000000000000000000' AND disaster_id = {disaster_id};
         """
 
         cursor.execute(changes_query)
@@ -241,7 +241,6 @@ class DB_Utils:
 
     def update_change_coordinates(self, id, new_coordinate):
         cursor = self.connection.cursor()
-
         # Coordinates are broken if they are at 0,0 and have the value - 0101000020E610000000000000000000000000000000000000
 
         changes_query = f"""
@@ -251,4 +250,49 @@ class DB_Utils:
         cursor.execute(changes_query, (new_coordinate[0], new_coordinate[1], id))
         self.connection.commit()  # Commit the changes to the database
         cursor.close()
+
+
+    def get_detected_bulk_imports(self):
+        cursor = self.connection.cursor()
+
+        bulk_imports_query = """
+        SELECT 
+            changeset, 
+            uid, 
+            COUNT(*) AS changes_count
+        FROM 
+            changes
+        GROUP BY 
+            changeset, uid
+        HAVING 
+            COUNT(*) > 1000 AND
+            MAX(timestamp) - MIN(timestamp) <= INTERVAL '0.1 second'
+        ORDER BY 
+            changes_count DESC;
+        """
+
+        cursor.execute(bulk_imports_query)
+        return cursor.fetchall()
+    
+    def copy_to_deleted_changes_table(self, changeset):
+        cursor = self.connection.cursor()
+
+        # Insert query to copy rows
+        copy_query = f"""
+        INSERT INTO import_deleted_changes
+        SELECT * FROM changes
+        WHERE changeset = {changeset}
+        """
+        cursor.execute(copy_query)
+        cursor.close()
+    
+    def remove_changes_from_changeset(self, changeset):
+        cursor = self.connection.cursor()
+        delete_query = f"""
+        DELETE FROM changes WHERE changeset = {changeset}
+        """
+        cursor.execute(delete_query)
+        self.connection.commit()  
+        cursor.close()
+
 
