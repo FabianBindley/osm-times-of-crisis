@@ -3,58 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Summary</title>
+    <title>Disaster Editing maps</title>
     <style>
+        body {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: Arial, sans-serif;
+        }
+
+        h1, h2 {
+            text-align: center;
+            margin: 10px 0;
+        }
+
         .iframe-container {
             margin: 20px 0;
-            width: 100vw;
-            height: 90vh; /* Adjust the height as needed */
+            width: 85vw;
+            height: 85vh; /* Adjust the height as needed */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #f0f0f0; /* Optional for better visibility of the container */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional styling */
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
         }
     </style>
 </head>
 <body>
     <h1>Summary of Maps</h1>
 
-    <h2>Broxbourne Resolution 8</h2>
-
-    <!-- First map -->
-    <div class="iframe-container">
-        <iframe src="disaster_map_1.html" width="100%" height="100%" frameborder="0"></iframe>
-    </div>
-
     <h2>Emilia Romagna Resolution 7</h2>
-
-    <!-- First map -->
     <div class="iframe-container">
-        <iframe src="disaster_map_2.html" width="100%" height="100%" frameborder="0"></iframe>
+        <iframe src="disaster_map_2.html"></iframe>
     </div>
 
     <h2>Haiti 2010 Resolution 7</h2>
-
-    <!-- Second map -->
     <div class="iframe-container">
-        <iframe src="disaster_map_3.html" width="100%" height="100%" frameborder="0"></iframe>
+        <iframe src="disaster_map_3.html"></iframe>
     </div>
 
-    <h2>Haiti 2016 Resolution 6</h2>
 
-    <!-- Second map -->
+    <h2>Haiti 2021 Resolution 7</h2>
     <div class="iframe-container">
-        <iframe src="disaster_map_4.html" width="100%" height="100%" frameborder="0"></iframe>
+        <iframe src="disaster_map_5.html"></iframe>
     </div>
 
-    <h2>Haiti 2021 Resolution 6</h2>
-
-    <!-- Second map -->
+    <h2>Nepal Resolution 7</h2>
     <div class="iframe-container">
-        <iframe src="disaster_map_5.html" width="100%" height="100%" frameborder="0"></iframe>
+        <iframe src="disaster_map_6.html"></iframe>
     </div>
 
-    <h2>Nepal Resolution 6</h2>
+    <h1>Extra Maps</h1>
 
-    <!-- Third map -->
+    <h2>Broxbourne Resolution 9</h2>
     <div class="iframe-container">
-        <iframe src="disaster_map_6.html" width="100%" height="100%" frameborder="0"></iframe>
+        <iframe src="disaster_map_1.html"></iframe>
+    </div>
+
+    <h2>Haiti 2016 Resolution 7</h2>
+    <div class="iframe-container">
+        <iframe src="disaster_map_4.html"></iframe>
     </div>
 </body>
 </html>

@@ -11,8 +11,9 @@ CREATE TABLE changes (
     tags JSONB,                           -- JSONB field for storing tags (e.g., key-value pairs)
     building BOOLEAN,                     -- Boolean flag for building information
     highway BOOLEAN,                      -- Boolean flag for highway information
-    coordinates GEOGRAPHY(POINT, 4326),   -- Coordinates stored as a geographic point (latitude/longitude in WGS84)
+    coordinates GEOMETRY(POINT, 4326),   -- Coordinates stored as a geometric point (latitude/longitude in WGS84)
     uid BIGINT                           -- UID of user who made change
+    geojson_verified BOOLEAN DEFAULT FALSE -- Indicates whether the GeoJSON has been verified
 );
 
 
@@ -86,6 +87,6 @@ CREATE TABLE emilia_romagna_bumb_changes (
     tags JSONB,                           -- JSONB field for storing tags (e.g., key-value pairs)
     building BOOLEAN,                     -- Boolean flag for building information
     highway BOOLEAN,                      -- Boolean flag for highway information
-    coordinates GEOGRAPHY(POINT, 4326),   -- Coordinates stored as a geographic point (latitude/longitude in WGS84)
+    coordinates GEOMETRY(POINT, 4326),   -- Coordinates stored as a geographic point (latitude/longitude in WGS84)
     uid BIGINT                           -- UID of user who made change
 );

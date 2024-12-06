@@ -14,8 +14,12 @@ def load_geometry_geocded(place):
 
     return shape(geojson_data['geometry'])
 
-def load_geometry_manually_defined(place):
-    geojson_path = f"./Data/{place}/{place}ManuallyDefined.geojson"
+def load_geometry_manually_defined(place, year):
+    if place != "Haiti":
+        suffix = place
+    else:
+        suffix = place+year
+    geojson_path = f"./Data/{place}/{suffix}ManuallyDefined.geojson"
     # Load GeoJSON and create a MultiPolygon from the geometries
     with open(geojson_path) as f:
         geojson_data = json.load(f)
@@ -30,11 +34,11 @@ if __name__ == "__main__":
 
     disasters = [
         {"id": 1, "country": ["UnitedKingdom"], "area": ["Broxbourne"], "geometry": load_geometry_geocded("Broxbourne"), "date": datetime.strptime("2024-08-15", "%Y-%m-%d").timestamp(), "h3_resolution":8},
-        {"id": 2, "country": ["Italy"], "area": ["EmiliaRomagna"], "geometry": load_geometry_manually_defined("EmiliaRomagna"), "date": datetime.strptime("2023-05-02", "%Y-%m-%d").timestamp(), "h3_resolution":7},
-        {"id": 3, "country": ["Haiti"], "area": ["Haiti"], "geometry": load_geometry_geocded("Haiti"), "date": datetime.strptime("2010-01-12", "%Y-%m-%d").timestamp(), "h3_resolution":6},
+        {"id": 2, "country": ["Italy"], "area": ["EmiliaRomagna"], "geometry": load_geometry_manually_defined("EmiliaRomagna","2023"), "date": datetime.strptime("2023-05-02", "%Y-%m-%d").timestamp(), "h3_resolution":7},
+        {"id": 3, "country": ["Haiti"], "area": ["Haiti"], "geometry": load_geometry_manually_defined("Haiti", "2010"), "date": datetime.strptime("2010-01-12", "%Y-%m-%d").timestamp(), "h3_resolution":6},
         {"id": 4, "country": ["Haiti"], "area": ["Haiti"], "geometry": load_geometry_geocded("Haiti"), "date": datetime.strptime("2016-10-09", "%Y-%m-%d").timestamp(), "h3_resolution":6},
-        {"id": 5, "country": ["Haiti"], "area": ["Haiti"], "geometry": load_geometry_geocded("Haiti"), "date": datetime.strptime("2021-08-14", "%Y-%m-%d").timestamp(), "h3_resolution":6},
-        {"id": 6, "country": ["Nepal"], "area": ["Nepal"], "geometry": load_geometry_manually_defined("Nepal"), "date": datetime.strptime("2015-04-25", "%Y-%m-%d").timestamp(), "h3_resolution":6},
+        {"id": 5, "country": ["Haiti"], "area": ["Haiti"], "geometry": load_geometry_manually_defined("Haiti", "2021"), "date": datetime.strptime("2021-08-14", "%Y-%m-%d").timestamp(), "h3_resolution":6},
+        {"id": 6, "country": ["Nepal"], "area": ["Nepal"], "geometry": load_geometry_manually_defined("Nepal", "2015"), "date": datetime.strptime("2015-04-25", "%Y-%m-%d").timestamp(), "h3_resolution":6},
 
     ]
 

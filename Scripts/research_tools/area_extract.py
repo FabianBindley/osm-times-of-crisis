@@ -9,7 +9,7 @@ from osmium_tools.OsmiumExtract import OsmiumExtract
 
 history_file = "./Data/Nepal/nepal-internal.osh.pbf"
 output_file = "./Data/Nepal/Nepal.osh.pbf"
-geojson_file= "./Data/GeocodedBoundaries/Nepal-geocode-boundary.geojson"
+geojson_file= "./Data/Nepal/NepalManuallyDefined.geojson"
 
 
 

@@ -43,7 +43,9 @@ osmium tags-filter DataExtracts/uk-2024-01.osm w/highway=trunk -o DataExtracts/u
 
 osmium extract -p Data/GeocodedBoundaries/Broxbourne-geocode-boundary.geojson Data/Broxbourne/hertfordshire-internal.osh.pbf -o  Data/Broxbourne/Broxbourne.osh.pbf -H
 
-osmium extract -p Data/GeocodedBoundaries/Emilia-Romagna-geocode-boundary.geojson Data/EmiliaRomagna/nord-est-internal.osh.pbf -o  Data/EmiliaRomagna/EmiliaRomagna.osh.pbf -H
+osmium extract -p Data/EmiliaRomagna/EmiliaRomagnaManuallyDefined.geojson Data/EmiliaRomagna/nord-est-internal.osh.pbf -o  Data/EmiliaRomagna/EmiliaRomagna.osh.pbf -H
+
+osmium extract -p Data/Nepal/NepalManuallyDefined.geojson Data/Nepal/nepal-internal.osh.pbf -o  Data/Nepal/Nepal.osh.pbf -H --overwrite
 
 ### Filter at a specific time 
 osmium time-filter Data/EmiliaRomagna/EmiliaRomagna.osh.pbf 2024-06-11T00:00:00Z -o Data/EmiliaRomagna/EmiliaRomagna-2024-06-11.osm.pbf

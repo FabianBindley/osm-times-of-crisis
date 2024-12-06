@@ -22,7 +22,7 @@ class DB_Utils:
         self.connection = connection
         insert_query = """
             INSERT INTO public.changes (
-                element_id, edit_type, element_type, timestamp, disaster_id, version, visible, changeset, tags, building, highway, coordinates, uid
+                element_id, edit_type, element_type, timestamp, disaster_id, version, visible, changeset, tags, building, highway, coordinates, uid, geojson_verified
             )
             VALUES %s
         """
@@ -34,7 +34,7 @@ class DB_Utils:
             cursor,
             insert_query,
             value_list,
-            template="(%s, %s, %s, to_timestamp(%s), %s, %s, %s, %s, %s, %s, %s, ST_SetSRID(ST_MakePoint(%s, %s), 4326), %s)"
+            template="(%s, %s, %s, to_timestamp(%s), %s, %s, %s, %s, %s, %s, %s, ST_SetSRID(ST_MakePoint(%s, %s), 4326), %s, %s)"
         )
 
         # Commit the transaction
@@ -301,3 +301,68 @@ class DB_Utils:
         cursor.close()
 
 
+    def verify_changes_geojson(self, disaster_id):
+        cursor = self.connection.cursor()
+        # Count total changes for the disaster
+        count_total_query = """
+        SELECT COUNT(*)
+        FROM changes
+        WHERE disaster_id = %s;
+        """
+        cursor.execute(count_total_query, (disaster_id,))
+        total = cursor.fetchone()[0]
+
+        print(f"Total: {total}")
+        print(f"Checking coordinates:")
+        # Update changes that are within the disaster's geojson boundary
+        update_query = """
+        UPDATE changes
+        SET geojson_verified = TRUE
+        WHERE disaster_id = %s AND
+            ST_Contains(
+                (SELECT area_geometry FROM disasters WHERE id = %s),
+                coordinates
+            );
+        """
+        cursor.execute(update_query, (disaster_id, disaster_id))
+
+        # Count valid changes
+        count_valid_query = """
+        SELECT COUNT(*)
+        FROM changes
+        WHERE disaster_id = %s AND geojson_verified = TRUE;
+        """
+        cursor.execute(count_valid_query, (disaster_id,))
+        valid = cursor.fetchone()[0]
+
+        # Commit the transaction
+        self.connection.commit()
+        cursor.close()
+
+        return valid, total
+    
+
+    def remove_invalid(self, disaster_id):
+        cursor = self.connection.cursor()
+
+        # Insert query to copy rows
+        copy_query = f"""
+        INSERT INTO import_filtered_changes
+        SELECT * FROM changes
+        WHERE disaster_id = {disaster_id} AND geojson_verified = False ON CONFLICT (id)
+        DO NOTHING;
+        """
+        print(f"Copying invalid changes for disaster_id: {disaster_id}")
+        cursor.execute(copy_query)
+
+        delete_query = f"""
+        DELETE FROM changes WHERE disaster_id = {disaster_id} AND geojson_verified = False;
+        """
+        print(f"Deleting invalid changes for disaster_id: {disaster_id}")
+        cursor.execute(delete_query)
+        removed_count = cursor.rowcount
+
+        self.connection.commit()  
+        cursor.close()
+        
+        return removed_count

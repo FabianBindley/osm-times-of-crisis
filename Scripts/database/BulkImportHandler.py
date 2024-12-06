@@ -149,7 +149,7 @@ class BulkImportHandler(osmium.SimpleHandler):
         try:
             self.insert_list.append((obj.id, edit_type, obj_type, int(obj.timestamp.timestamp()), self.disaster_id, obj.version, obj.visible, obj.changeset, json.dumps(dict(obj.tags)),
                                   True if "building" in obj.tags else False, True if "highway" in obj.tags else False, 
-                                  coordinate.lon if coordinate else 0, coordinate.lat if coordinate else 0, obj.uid))
+                                  coordinate.lon if coordinate else 0, coordinate.lat if coordinate else 0, obj.uid, False))
             
             self.success_count += 1
         except:

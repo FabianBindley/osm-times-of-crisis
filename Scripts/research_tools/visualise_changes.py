@@ -64,8 +64,11 @@ def compute_hexagon_counts(multipolygon, changes, resolution):
         # Get the H3 index of the hexagon and increment the count
         h3_index = h3.latlng_to_cell(lat, lon, resolution)
 
+        # This adds the hexagons where changes were not in the area multipolygon. Useful to check that filtering is working
+        if h3_index not in hex_counts:
+            hex_counts[h3_index] = [0,0,0,0]
+
         if h3_index in hex_counts:
-            #hex_counts[h3_index] = [0,0,0,0]
 
             edit_type = change[2]
             if edit_type == "create":
@@ -209,11 +212,11 @@ if __name__ == "__main__":
     db_utils = DB_Utils()
     db_utils.db_connect()
 
-    resolutions = {1: 9, 2: 8, 3:7, 4:6, 5:6, 6:6}
+    resolutions = {1: 9, 2: 6, 3:6, 4:6, 5:6, 6:6}
 
     use_db_resolution = False
 
-    for disaster_id in range(2,3):
+    for disaster_id in range(5,6):
         start_time = datetime.now()
         # Get the information for the disaster with the given disaster_id
         (_, disaster_country, disaster_area, disaster_geojson_encoded, disaster_date, disaster_h3_resolution ) = db_utils.get_disaster_with_id(disaster_id)
