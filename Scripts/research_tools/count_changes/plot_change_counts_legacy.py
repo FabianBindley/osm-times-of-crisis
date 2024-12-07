@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 import sys
 import os
 
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'database')))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..', 'database')))
 from db_utils import DB_Utils
 
 def get_disaster_with_id(disaster_id, connection):
@@ -93,8 +93,7 @@ if __name__ == "__main__":
     connection = db_utils.db_connect()
 
     for disaster_id in range(1,7):
-        if disaster_id == 3:
-            continue
+
         disaster_country, disaster_area, disaster_date = get_disaster_with_id(disaster_id, connection)
         plot_counts(disaster_id, disaster_country, disaster_area, disaster_date, before_after_time_length=365)
         plot_counts(disaster_id, disaster_country, disaster_area, disaster_date, before_after_time_length=90)

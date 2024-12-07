@@ -138,9 +138,9 @@ class DB_Utils:
         # Calculate the difference in time between the intervals
         delta = intervals[1] - intervals[0]
 
-        for i in range(len(intervals)):
+        for i in range(len(intervals)-1):
             start_date = intervals[i]
-            end_date = start_date + delta
+            end_date = intervals[i+1]
 
             # Query to count changes within the interval for the given disaster_id
             query = """
