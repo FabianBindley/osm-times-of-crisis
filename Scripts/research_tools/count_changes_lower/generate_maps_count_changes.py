@@ -137,11 +137,11 @@ if __name__ == "__main__":
     db_utils.db_connect()
 
     # Define the periods before and after the disaster we want to count for. Pre-disaster can be negative to only count after disaster
-    pre_disaster_days = 180
+    pre_disaster_days = 365
     # The post disaster is how many days after the disaster, imm is not included
     post_disaster_days = 365
 
-    resolutions = [6,7,8]
+    resolutions = [8]
 
     for disaster_id in range(1,7):
         for resolution in resolutions:

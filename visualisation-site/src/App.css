@@ -55,3 +55,20 @@ iframe {
   height: 100%;
   border: none;
 }
+
+.iframe-container {
+  margin: 20px 0;
+  position: relative;
+}
+
+.iframe-container div {
+  text-align: center;
+  border: 1px solid #ddd;
+  background-color: #f0f0f0;
+  color: #555;
+  font-size: 16px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

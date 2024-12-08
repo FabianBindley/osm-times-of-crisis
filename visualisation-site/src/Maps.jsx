@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Select } from "antd"; 
+import { Select, Switch } from "antd"; 
 import Map from './Map'
 import "./App.css";
 
@@ -22,6 +22,7 @@ function Maps() {
     const [resolution, setResolution] = useState("7")
     const [mapStyle, setMapStyle] = useState("count_changes")
     const [interval, setInterval] = useState({start:"365", end:"365"})
+    const [lazyLoading, setLazyLoading] = useState(localStorage.getItem("lazyLoading")=="false" ? false : true);
 
     const intervalMap = {
         "365-365": { start: "365", end: "365" },
@@ -69,6 +70,11 @@ function Maps() {
     const handleIntervalChange = (key) => {
         // Map the key to the corresponding interval object
         setInterval(intervalMap[key]);
+      };
+
+      const handleChangeLazyLoading = (checked) => {
+        setLazyLoading(checked);
+        localStorage.setItem("lazyLoading", checked)
       };
 
 
@@ -155,6 +161,12 @@ function Maps() {
             
                 }
                 
+                <div style={{ marginBottom: 20 }}>
+                    <label style={{ marginLeft: 150, marginRight: 10 }}>Lazy Loading:</label>
+                    <Switch checked={lazyLoading} onChange={handleChangeLazyLoading} />
+                </div> 
+
+                
 
             </div>
 
@@ -163,12 +175,12 @@ function Maps() {
             </div>
 
             {maps.map((map, index) => (
-                <Map index={index} map={map} resolution={resolution} mapStyle={mapStyle} interval={interval}/>
+                <Map index={index} map={map} resolution={resolution} mapStyle={mapStyle} interval={interval} lazyLoading={lazyLoading}/>
             ))}
 
             <h2>Additional Maps</h2>
             {additional_maps.map((map, index) => (
-                <Map index={index} map={map} resolution={resolution} mapStyle={mapStyle} interval={interval}/>
+                <Map index={index} map={map} resolution={resolution} mapStyle={mapStyle} interval={interval} lazyLoading={lazyLoading}/>
             ))}
         </>
     );
