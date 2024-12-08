@@ -7,13 +7,12 @@ import csv
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..', 'database')))
 from db_utils import DB_Utils
 
-# Define the period lengths
-pre_disaster = timedelta(days=365)
-imm_disaster = timedelta(days=28)
-# The post disaster is 365 days starting after the imm disaster
-post_disaster = timedelta(days=365)
 
-def count_full_periods(disaster_id, disaster_date):
+def count_full_periods(disaster_id, disaster_date, pre_disaster_days, imm_disaster_days, post_disaster_days):
+    pre_disaster = timedelta(pre_disaster_days)
+    imm_disaster = timedelta(imm_disaster_days)
+    post_disaster = timedelta(post_disaster_days)
+
     pre_disaster_start_date = disaster_date - pre_disaster
 
     imm_disaster_start_date = disaster_date
@@ -35,7 +34,7 @@ def count_full_periods(disaster_id, disaster_date):
         os.makedirs(f"Results/ChangeCounting/disaster{disaster_id}/data")
 
     headers = ["creates", "edits", "deletes", "total"]
-    file_path = f"Results/ChangeCounting/disaster{disaster_id}/data/full_periods_change_count.csv"
+    file_path = f"Results/ChangeCounting/disaster{disaster_id}/data/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_full_periods_change_count.csv"
 
     with open(file_path, mode="w", newline='', encoding="utf-8") as csv_file:
         writer = csv.DictWriter(csv_file, fieldnames=headers)
@@ -54,7 +53,10 @@ def count_full_periods(disaster_id, disaster_date):
 
         print("Saved full periods")
 
-def count_by_interval_length(disaster_id, disaster_date, interval_length):
+def count_by_interval_length(disaster_id, disaster_date, pre_disaster_days, imm_disaster_days, post_disaster_days, interval_length):
+    pre_disaster = timedelta(pre_disaster_days)
+    imm_disaster = timedelta(imm_disaster_days)
+    post_disaster = timedelta(post_disaster_days)
 
     # Calculate the start and end date range
     start_range = disaster_date - pre_disaster
@@ -75,7 +77,7 @@ def count_by_interval_length(disaster_id, disaster_date, interval_length):
 
     print(f"Counting {interval_length}")
 
-    file_path = f"./Results/ChangeCounting/disaster{disaster_id}/data/{str(interval_length)}_change_count.csv"
+    file_path = f"./Results/ChangeCounting/disaster{disaster_id}/data/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_{str(interval_length)}_change_count.csv"
     headers = ["start_date", "end_date", "creates", "edits", "deletes", "total"]
     
     total_creates = 0
@@ -111,7 +113,13 @@ if __name__ == "__main__":
     db_utils = DB_Utils()
     db_utils.db_connect()
 
-    for disaster_id in range(1,7):
+    # Define the period lengths
+    pre_disaster_days = 365
+    imm_disaster_days = 30
+    # The post disaster is 365 days starting after the imm disaster
+    post_disaster_days = 365
+
+    for disaster_id in range(6,7):
 
         if disaster_id in []:
             continue
@@ -123,8 +131,8 @@ if __name__ == "__main__":
         # First lets do the total counts for each period
         print("Counting full periods")
 
-        count_full_periods(disaster_id, disaster_date)
-        count_by_interval_length(disaster_id, disaster_date, interval_length=1)
-        count_by_interval_length(disaster_id, disaster_date, interval_length=7)
-        count_by_interval_length(disaster_id, disaster_date, interval_length=30)
+        count_full_periods(disaster_id, disaster_date, pre_disaster_days, imm_disaster_days, post_disaster_days)
+        count_by_interval_length(disaster_id, disaster_date, pre_disaster_days, imm_disaster_days, post_disaster_days, interval_length=1)
+        count_by_interval_length(disaster_id, disaster_date, pre_disaster_days, imm_disaster_days, post_disaster_days, interval_length=7)
+        count_by_interval_length(disaster_id, disaster_date, pre_disaster_days, imm_disaster_days, post_disaster_days, interval_length=30)
 

@@ -15,7 +15,7 @@ import h3
 from collections import Counter
 
 
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'database')))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..', 'database')))
 from db_utils import DB_Utils
 
 

@@ -16,10 +16,26 @@ const additional_maps = [
 ]
 
 
+
 function Maps() {
 
     const [resolution, setResolution] = useState("7")
-    const [mapStyle, setMapStyle] = useState("change_count")
+    const [mapStyle, setMapStyle] = useState("count_changes")
+    const [interval, setInterval] = useState({start:"365", end:"365"})
+
+    const intervalMap = {
+        "365-365": { start: "365", end: "365" },
+        "180-365": { start: "180", end: "365" },
+        "0-365": { start: "0", end: "365" },
+        "0-30": { start: "0", end: "30" },
+      };
+
+    const count_change_intervals = [{start:"365", end:"365"},{start:"180", end:"365"},{start:"0", end:"365"},{start:"0", end:"30"}]
+    const count_change_resolutions = ["6", "7", "8"]
+
+    const percent_difference_intervals = [{start:"365", end:"365"},{start:"180", end:"365"}]
+    const percent_difference_resolutions = ["6", "7"]
+      
 
     const handleResolutionChange = (value) => {
         setResolution(value);
@@ -27,7 +43,33 @@ function Maps() {
 
     const handleMapStyleChange = (value) => {
         setMapStyle(value);
+
+        // Check for valid intervals and resolutions based on map style
+        const isValidInterval =
+            value === "count_changes"
+                ? count_change_intervals.some(
+                      (item) => item.start === interval.start && item.end === interval.end
+                  )
+                : percent_difference_intervals.some(
+                      (item) => item.start === interval.start && item.end === interval.end
+                  );
+    
+        const isValidResolution =
+            value === "count_changes"
+                ? count_change_resolutions.includes(resolution)
+                : percent_difference_resolutions.includes(resolution);
+    
+        if (!isValidInterval || !isValidResolution) {
+            console.log("Resetting interval and resolution to defaults");
+            setInterval({ start: "365", end: "365" });
+            setResolution("7");
+        }
     };
+
+    const handleIntervalChange = (key) => {
+        // Map the key to the corresponding interval object
+        setInterval(intervalMap[key]);
+      };
 
 
     return (
@@ -36,43 +78,97 @@ function Maps() {
                 Maps are generated using Folium and OpenStreetMap data, and Uber H3 Hexagons
             </p>
             <div className="maps-header">
-                <div style={{ marginBottom: 20 }}>
-                    <label style={{ marginLeft: 10 }}>Map Hexagon Resolution:</label>
-                    <Select
-                        defaultValue={resolution}
-                        style={{ width: 60, marginLeft: 10 }}
-                        onChange={handleResolutionChange}
-                    >
-                        <Option value="5">5</Option>
-                        <Option value="6">6</Option>
-                        <Option value="7">7</Option>
-                        <Option value="8">8</Option>
-                        <Option value="9">9</Option>
-                    </Select>
-                </div>
 
                 <div style={{ marginBottom: 20 }}>
-                    <label style={{ marginLeft: 10 }}>Map Style:</label>
+                    <label style={{ marginLeft: 20 }}>Map Style:</label>
                     <Select
                         defaultValue={mapStyle}
                         style={{ width: 200, marginLeft: 10 }}
                         onChange={handleMapStyleChange}
                     >
-                        <Option value="change_count">Change count</Option>
-                        <Option value="percentage_difference">Change % Difference</Option>
+                        <Select.Option value="count_changes">Change count</Select.Option>
+                        <Select.Option value="percent_difference">Change % Difference</Select.Option>
 
                     </Select>
+
+                    
                 </div>
+                {
+                    mapStyle == "count_changes" ? 
+                    <div style={{ marginBottom: 20 }}>
+                        <label style={{ marginLeft: 10 }}>Resolution:</label>
+                        <Select
+                            defaultValue={resolution}
+                            value={resolution}
+                            style={{ width: 60, marginLeft: 10 }}
+                            onChange={handleResolutionChange}
+                        >
+                            <Select.Option value="6">6</Select.Option>
+                            <Select.Option value="7">7</Select.Option>
+                            <Select.Option value="8">8</Select.Option>
+                        </Select>
+                    </div> 
+                    : 
+                    <div style={{ marginBottom: 20 }}>
+                        <label style={{ marginLeft: 10 }}>Resolution:</label>
+                        <Select
+                            defaultValue={resolution}
+                            value={resolution}
+                            style={{ width: 60, marginLeft: 10 }}
+                            onChange={handleResolutionChange}
+                        >
+                            <Select.Option value="6">6</Select.Option>
+                            <Select.Option value="7">7</Select.Option>
+                        </Select>
+                    </div> 
+                    }
+
+                {
+                    mapStyle == "count_changes" ? 
+                    <div style={{ marginBottom: 20 }}>
+                        <label style={{ marginLeft: 20 }}>Map Intervals:</label>
+                        <Select
+                            defaultValue="365-365"
+                            value={`${interval.start}-${interval.end}`}
+                            style={{ width: 200, marginLeft: 10 }}
+                            onChange={handleIntervalChange}
+                        >
+                            <Option value="365-365">365 Before - 365 After</Option>
+                            <Option value="180-365">180 Before - 365 After</Option>
+                            <Option value="0-365">0 Before - 365 After</Option>
+                            <Option value="0-30">0 Before - 30 After</Option>
+                        </Select>
+                    </div> 
+                    : 
+                    <div style={{ marginBottom: 20 }}>
+                        <label style={{ marginLeft: 20 }}>Map Intervals:</label>
+                        <Select
+                            defaultValue="365-365"
+                            value={`${interval.start}-${interval.end}`}
+                            style={{ width: 200, marginLeft: 10 }}
+                            onChange={handleIntervalChange}
+                        >
+                            <Option value="365-365">365 Before - 365 After</Option>
+                            <Option value="180-365">180 Before - 365 After</Option>
+                        </Select>
+                 </div>
+            
+                }
+                
+
+            </div>
+
+            <div className="maps-header">
 
             </div>
 
             {maps.map((map, index) => (
-                <Map index={index} map={map} resolution={resolution} mapStyle={mapStyle}/>
+                <Map index={index} map={map} resolution={resolution} mapStyle={mapStyle} interval={interval}/>
             ))}
 
             <h2>Additional Maps</h2>
             {additional_maps.map((map, index) => (
-                <Map index={index} map={map} resolution={resolution} mapStyle={mapStyle}/>
+                <Map index={index} map={map} resolution={resolution} mapStyle={mapStyle} interval={interval}/>
             ))}
         </>
     );

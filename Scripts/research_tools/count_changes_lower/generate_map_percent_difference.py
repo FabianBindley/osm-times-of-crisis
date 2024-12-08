@@ -1,0 +1,146 @@
+import sys
+import os
+from datetime import datetime, timedelta
+from shapely import wkb
+
+from shapely.geometry import mapping
+from shapely.ops import transform
+import math
+import folium
+
+import h3
+from collections import Counter
+import csv
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..', 'database')))
+from db_utils import DB_Utils
+
+def load_percent_differences_from_csv(file_path):
+    if not os.path.exists(file_path):
+        print(f"Percent Difference File does not exist: {file_path}")
+        return {}
+
+    percent_differences = {}
+    with open(file_path, mode='r') as file:
+        reader = csv.DictReader(file)
+        for row in reader:
+            h3_index = row["h3_index"]
+            percent_difference_row = [float(row["creates_percent_difference"]), float(row["edits_percent_difference"]), float(row["deletes_percent_difference"]), float(row["total_percent_difference"])]
+            percent_differences[h3_index] = percent_difference_row
+
+    print(f"Percent Differences loaded from {file_path}")
+    return percent_differences
+
+
+
+def plot_hexagons_on_map(m, percent_differences):
+    min_opacity = 0.01
+    max_opacity = 0.75
+    sigmoid_scale = 0.01  # Smaller values compress outliers more; adjust as needed
+
+    # Helper function to apply sigmoid scaling
+    def sigmoid(value, scale):
+        return 1 / (1 + math.exp(-scale * value))
+
+    for hex_index, percent_difference in percent_differences.items():
+        creates_percent_difference = percent_difference[0]
+        edits_percent_difference = percent_difference[1]
+        deletes_percent_difference = percent_difference[2]
+        total_percent_difference = percent_difference[3]
+
+        # Apply sigmoid scaling to the total percent difference. Scale so that in range [-1, 1]
+        scaled_value = sigmoid(total_percent_difference, sigmoid_scale) * 2 -1 
+
+        if scaled_value > 0:
+            fill_colour = "red"
+        else:
+            fill_colour = "green"
+        # Normalize scaled value to the opacity range
+        fill_opacity = min_opacity + (abs(scaled_value) * (max_opacity - min_opacity))
+
+        # Get the hexagon boundary for the H3 index
+        hex_boundary = h3.cell_to_boundary(hex_index)
+
+        # Format boundary for Folium (Folium expects a list of lists)
+        formatted_boundary = [(lat, lon) for lat, lon in hex_boundary]
+
+        # Add hexagon to the map
+        folium.Polygon(
+            locations=formatted_boundary,
+            color="black",
+            weight=0.5,
+            fill=True,
+            fill_color=fill_colour,
+            fill_opacity=fill_opacity,
+            popup=folium.Popup(
+                f"C: {creates_percent_difference}%  E: {edits_percent_difference}%  D: {deletes_percent_difference}%  T: {total_percent_difference}%",
+                min_width=150, max_width=150,
+            ),
+        ).add_to(m)
+
+
+
+def generate_map(disaster_id, disaster_geojson_encoded, resolution, pre_disaster_days, post_disaster_days):
+    disaster_multipolygon = wkb.loads(disaster_geojson_encoded)
+
+    centroid = disaster_multipolygon.centroid
+    # Create a Folium map centered on the provided location
+    m = folium.Map(location=(centroid.y, centroid.x), tiles="OpenStreetMap")
+
+    # Convert MultiPolygon to GeoJSON
+    geojson = mapping(disaster_multipolygon)
+
+    # Add the MultiPolygon as a layer
+    folium.GeoJson(
+        geojson,
+        style_function=lambda x: {
+            "fillColor": "blue",
+            "color": "red",
+            "weight": 1,
+            "fillOpacity": 0.03,
+        },
+    ).add_to(m)
+
+    # Add the hexagons
+    file_path = f"Results/ChangeDensityMapping/disaster{disaster_id}/data/{pre_disaster_days}_{post_disaster_days}_{resolution}_percent_difference.csv"
+    percent_differences = load_percent_differences_from_csv(file_path)
+
+    plot_hexagons_on_map(m, percent_differences)
+
+    # Fit the map to the bounding box of the multipolygon
+    min_x, min_y, max_x, max_y = disaster_multipolygon.bounds
+    m.fit_bounds([[min_y, min_x], [max_y, max_x]])
+
+    # Save the charts
+    if not os.path.exists(f"Results/ChangeDensityMapping/disaster{disaster_id}/charts"):
+        os.makedirs(f"Results/ChangeDensityMapping/disaster{disaster_id}/charts")
+
+    m.save(f"Results/ChangeDensityMapping/disaster{disaster_id}/charts/{pre_disaster_days}_{post_disaster_days}_{resolution}_percent_difference.html")
+    
+    # Save the charts
+    if not os.path.exists(f"visualisation-site/public/ChangeDensityMapping/disaster{disaster_id}/charts"):
+        os.makedirs(f"visualisation-site/public/ChangeDensityMapping/disaster{disaster_id}/charts")
+    
+    m.save(f"visualisation-site/public/ChangeDensityMapping/disaster{disaster_id}/charts/{pre_disaster_days}_{post_disaster_days}_{resolution}_percent_difference.html")
+    
+
+
+if __name__ == "__main__":
+
+    start_time = datetime.now()
+    db_utils = DB_Utils()
+    db_utils.db_connect()
+
+    # Define the periods before and after the disaster we want to count for. Pre-disaster can be negative to only count after disaster
+    pre_disaster_days = 180
+    # The post disaster is how many days after the disaster, imm is not included
+    post_disaster_days = 365
+
+    resolutions = [6,7]
+
+    for disaster_id in range(1,7):
+        for resolution in resolutions:
+
+            (_, disaster_country, disaster_area, disaster_geojson_encoded, disaster_date, disaster_h3_resolution ) = db_utils.get_disaster_with_id(disaster_id)
+            print(f"Generating map for {disaster_area[0]} {disaster_date.year} | resolution {resolution}")
+            generate_map(disaster_id, disaster_geojson_encoded, resolution, pre_disaster_days, post_disaster_days)
