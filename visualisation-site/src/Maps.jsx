@@ -35,7 +35,7 @@ function Maps() {
     const count_change_resolutions = ["6", "7", "8"]
 
     const percent_difference_intervals = [{start:"365", end:"365"},{start:"180", end:"365"}]
-    const percent_difference_resolutions = ["6", "7"]
+    const percent_difference_resolutions = ["6", "7", "8"]
       
 
     const handleResolutionChange = (value) => {
@@ -125,6 +125,7 @@ function Maps() {
                         >
                             <Select.Option value="6">6</Select.Option>
                             <Select.Option value="7">7</Select.Option>
+                            <Select.Option value="8">8</Select.Option>
                         </Select>
                     </div> 
                     }
