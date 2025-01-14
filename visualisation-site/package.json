@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
      "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+     "deploy": "gh-pages -d dist -r https://github.com/FabianBindley/osm-times-of-crisis.git"
   },
   "dependencies": {
     "antd": "^5.22.3",

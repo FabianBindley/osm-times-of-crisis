@@ -37,7 +37,7 @@ const Map = memo(function Map({ index, map, resolution, mapStyle, interval, lazy
           <iframe
             src={mapPath}
             title={map.title}
-            style={{ width: "100%", height: "500px", border: "none" }}
+            style={{ width: "100%", height: "100%", border: "none" }}
           ></iframe>
         ) : (
           <div

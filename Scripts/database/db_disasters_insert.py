@@ -23,8 +23,8 @@ def load_geometry_manually_defined(place, year):
     # Load GeoJSON and create a MultiPolygon from the geometries
     with open(geojson_path) as f:
         geojson_data = json.load(f)
-
-    return shape(geojson_data['geometry'])
+    print(geojson_data)
+    return shape(geojson_data["features"][0]['geometry'])
 
 if __name__ == "__main__":
     utils = DB_Utils()
@@ -42,7 +42,8 @@ if __name__ == "__main__":
 
     ]
 
-
+    utils.delete_disasters()
+    print("Deleted disasters")
     utils.insert_disasters(disasters, connection)
 
      # Close cursor and connection

@@ -39,7 +39,7 @@ def count_full_periods(disaster_id, disaster_date, pre_disaster_days, imm_disast
     with open(file_path, mode="w", newline='', encoding="utf-8") as csv_file:
         writer = csv.DictWriter(csv_file, fieldnames=headers)
         writer.writeheader()        
-        
+        print(counts)
         for creates, edits, deletes, total in counts:
 
             total_creates += creates
@@ -114,25 +114,28 @@ if __name__ == "__main__":
     db_utils.db_connect()
 
     # Define the period lengths
-    pre_disaster_days = 365
-    imm_disaster_days = 30
-    # The post disaster is 365 days starting after the imm disaster
-    post_disaster_days = 365
+    periods = [(365, 30, 365), (180, 30, 365), (90, 30, 365), (90, 30, 180)]
+    periods = [(365, 30, 365)]
 
-    for disaster_id in range(6,7):
+    for disaster_id in range(1,7):
 
-        if disaster_id in []:
-            continue
+        for period in periods:
 
-        (_, disaster_country, disaster_area, _, disaster_date, _ ) = db_utils.get_disaster_with_id(disaster_id)
-        # For each disaster, count the aggregate count in each time period - pre, imm, post, and as before count the number of changes in each period
-        # File system, generate 1 folder for each disaster, and output the aggregate total in each period for each type, as well as pretty much the same file we had before
-        print(f"{disaster_id} {disaster_area[0]} {disaster_date}")
-        # First lets do the total counts for each period
-        print("Counting full periods")
+            if disaster_id in []:
+                continue
 
-        count_full_periods(disaster_id, disaster_date, pre_disaster_days, imm_disaster_days, post_disaster_days)
-        count_by_interval_length(disaster_id, disaster_date, pre_disaster_days, imm_disaster_days, post_disaster_days, interval_length=1)
-        count_by_interval_length(disaster_id, disaster_date, pre_disaster_days, imm_disaster_days, post_disaster_days, interval_length=7)
-        count_by_interval_length(disaster_id, disaster_date, pre_disaster_days, imm_disaster_days, post_disaster_days, interval_length=30)
+            (_, disaster_country, disaster_area, _, disaster_date, _ ) = db_utils.get_disaster_with_id(disaster_id)
+            # For each disaster, count the aggregate count in each time period - pre, imm, post, and as before count the number of changes in each period
+            # File system, generate 1 folder for each disaster, and output the aggregate total in each period for each type, as well as pretty much the same file we had before
+            print(f"{disaster_id} {disaster_area[0]} {disaster_date}")
+            # First lets do the total counts for each period
+
+            pre_disaster_days = period[0]
+            imm_disaster_days = period[1]
+            post_disaster_days = period[2]
+
+            count_full_periods(disaster_id, disaster_date, pre_disaster_days, imm_disaster_days, post_disaster_days)
+            count_by_interval_length(disaster_id, disaster_date, pre_disaster_days, imm_disaster_days, post_disaster_days, interval_length=1)
+            count_by_interval_length(disaster_id, disaster_date, pre_disaster_days, imm_disaster_days, post_disaster_days, interval_length=7)
+            count_by_interval_length(disaster_id, disaster_date, pre_disaster_days, imm_disaster_days, post_disaster_days, interval_length=30)
 

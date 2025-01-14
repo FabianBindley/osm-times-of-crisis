@@ -101,16 +101,108 @@ def plot_percent_difference(disaster_id, disaster_country, disaster_area, disast
 
     plt.close()
 
+def plot_percent_difference_single(disaster_id, disaster_country, disaster_area, disaster_date, post_only, pre_disaster_days, imm_disaster_days, post_disaster_days, time_period):
+    print(f"Plotting {time_period} data for {pre_disaster_days}, {post_disaster_days}")
+
+    # Load datasets
+    try:
+        data_day = pd.read_csv(
+            f'./Results/ChangeCounting/disaster{disaster_id}/data/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_1_percent_difference_time_series.csv')[:-1]
+        data_week = pd.read_csv(
+            f'./Results/ChangeCounting/disaster{disaster_id}/data/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_7_percent_difference_time_series.csv')[:-1]
+        data_month = pd.read_csv(
+            f'./Results/ChangeCounting/disaster{disaster_id}/data/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_30_percent_difference_time_series.csv')[:-1]
+    except FileNotFoundError:
+        print("Using default")
+        data_day = pd.read_csv(
+            f'./Results/ChangeCounting/disaster{disaster_id}/data/365_30_365_1_percent_difference_time_series.csv')[:-1]
+        data_week = pd.read_csv(
+            f'./Results/ChangeCounting/disaster{disaster_id}/data/365_30_365_7_percent_difference_time_series.csv')[:-1]
+        data_month = pd.read_csv(
+            f'./Results/ChangeCounting/disaster{disaster_id}/data/365_30_365_30_percent_difference_time_series.csv')[:-1]
+
+    # Ensure `start_date` is parsed as datetime
+    data_day['start_date'] = pd.to_datetime(data_day['start_date'])
+    data_week['start_date'] = pd.to_datetime(data_week['start_date'])
+    data_month['start_date'] = pd.to_datetime(data_month['start_date'])
+
+    # Filter data
+    if post_only:
+        before = disaster_date + timedelta(days=imm_disaster_days)
+        after = disaster_date + timedelta(days=imm_disaster_days + post_disaster_days) + timedelta(days=1)
+    else:
+        before = disaster_date - timedelta(days=pre_disaster_days)
+        after = disaster_date + timedelta(days=imm_disaster_days + post_disaster_days) + timedelta(days=1)
+
+    data_day = data_day[(data_day['start_date'] > before) & (data_day['start_date'] < after)]
+    data_week = data_week[(data_week['start_date'] > before) & (data_week['start_date'] < after)]
+    data_month = data_month[(data_month['start_date'] > before) & (data_month['start_date'] < after)]
+
+    # Select dataset based on time_period
+    if time_period == "day":
+        data = data_day
+        title = "Daily Changes"
+    elif time_period == "week":
+        data = data_week
+        title = "Weekly Changes"
+    elif time_period == "month":
+        data = data_month
+        title = "Monthly Changes"
+    else:
+        raise ValueError("Invalid time_period. Must be 'day', 'week', or 'month'.")
+
+    # Plot data
+    plt.figure(figsize=(12, 6))
+    plt.plot(data['start_date'], data['creates'], label='Creates', marker='.', linestyle='-')
+    plt.plot(data['start_date'], data['edits'], label='Edits', marker='.', linestyle='-')
+    plt.plot(data['start_date'], data['deletes'], label='Deletes', marker='.', linestyle='-')
+    plt.plot(data['start_date'], data['total'], label='Total', marker='.', linestyle='-')
+    plt.title(f'{title} Percent Difference in {disaster_country}, {disaster_area} {"(Post only)" if post_only else ""}')
+    plt.xlabel('Date')
+    plt.ylabel('% Difference')
+    plt.legend()
+    plt.grid(which='major', color='black', linestyle='-', linewidth=0.5)
+    plt.grid(which='minor', color='gray', linestyle=':', linewidth=0.5)
+    plt.minorticks_on()
+    plt.gca().xaxis.set_major_locator(mdates.MonthLocator())
+    plt.gca().xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m'))
+    plt.xticks(rotation=45)
+
+        # Save the figure
+    if not os.path.exists(f"Results/ChangeCounting/disaster{disaster_id}/charts"):
+        os.makedirs(f"Results/ChangeCounting/disaster{disaster_id}/charts")
+
+    save_path = f'./Results/ChangeCounting/disaster{disaster_id}/charts/{pre_disaster_days}_{post_disaster_days}_{time_period}_percent_difference_time_series{"_post_only" if post_only else ""}.png'
+    print(save_path)
+    plt.savefig(save_path, dpi=350)
+
+       # Save the charts
+    if not os.path.exists(f"visualisation-site/public/ChangeCounting/disaster{disaster_id}/charts"):
+        os.makedirs(f"visualisation-site/public/ChangeCounting/disaster{disaster_id}/charts")
+    
+    save_path = f'visualisation-site/public/ChangeCounting/disaster{disaster_id}/charts/{pre_disaster_days}_{post_disaster_days}_{time_period}_percent_difference_time_series{"_post_only" if post_only else ""}.png'
+    plt.savefig(save_path, dpi=350)
+    plt.close()
+
+
 
 if __name__ == "__main__":
     db_utils = DB_Utils()
     connection = db_utils.db_connect()
-    post_only = False
+    # We do post only so that we have a nice chart in the post that excludes the huge peak
+    post_only = True
 
-    for disaster_id in range(1,7):
-        _, disaster_country, disaster_area, _, disaster_date, _  = db_utils.get_disaster_with_id(disaster_id)
-        print(f"{disaster_id} {disaster_area[0]} {disaster_date}")
-        plot_percent_difference(disaster_id, disaster_country[0], disaster_area[0], disaster_date, post_only, pre_disaster_days=180, imm_disaster_days=30, post_disaster_days=365)
-        plot_percent_difference(disaster_id, disaster_country[0], disaster_area[0], disaster_date, post_only, pre_disaster_days=90, imm_disaster_days=30, post_disaster_days=365)
-        plot_percent_difference(disaster_id, disaster_country[0], disaster_area[0], disaster_date, post_only, pre_disaster_days=90, imm_disaster_days=30, post_disaster_days=180)
-        plot_percent_difference(disaster_id, disaster_country[0], disaster_area[0], disaster_date, post_only, pre_disaster_days=365, imm_disaster_days=30, post_disaster_days=365)
+    # Define periods as an array of tuples
+    periods = [(365, 30, 365), (180, 30, 365), (90, 30, 365), (90, 30, 180)]
+
+    # Loop through disasters and periods
+    for disaster_id in range(1, 7):
+        _, disaster_country, disaster_area, _, disaster_date, _ = db_utils.get_disaster_with_id(disaster_id)
+        print(f"Processing Disaster {disaster_id} - {disaster_area[0]}")
+        for period in periods:
+            pre_disaster_days, imm_disaster_days, post_disaster_days = period
+
+            plot_percent_difference(disaster_id, disaster_country[0], disaster_area[0], disaster_date, post_only, pre_disaster_days, imm_disaster_days, post_disaster_days)
+            #plot_percent_difference_single(disaster_id, disaster_country[0], disaster_area[0], disaster_date, post_only, pre_disaster_days, imm_disaster_days, post_disaster_days, "day")
+            #plot_percent_difference_single(disaster_id, disaster_country[0], disaster_area[0], disaster_date, post_only, pre_disaster_days, imm_disaster_days, post_disaster_days, "week")
+            #plot_percent_difference_single(disaster_id, disaster_country[0], disaster_area[0], disaster_date, post_only, pre_disaster_days, imm_disaster_days, post_disaster_days, "month")

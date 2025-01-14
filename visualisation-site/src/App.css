@@ -14,7 +14,16 @@ p {
   display: flex;
   align-items: center; /* Aligns items vertically */
   gap: 20px; /* Adds spacing between items */
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  position: sticky;
+  top: 0; /* Position it at the top of the viewport */
+  z-index: 1000; /* Ensure it stays above other content */
+  background-color: white; /* Optional: Add background to prevent overlap with content */
+  border-radius: 5px;
+  
+  width: 99.5%;
 }
 
 .resolution-select {

@@ -123,7 +123,7 @@ def generate_map(disaster_id, disaster_geojson_encoded, resolution, pre_disaster
         os.makedirs(f"Results/ChangeDensityMapping/disaster{disaster_id}/charts")
 
     m.save(f"Results/ChangeDensityMapping/disaster{disaster_id}/charts/{pre_disaster_days}_{post_disaster_days}_{resolution}_count_changes.html")
-    
+    print(f"Results/ChangeDensityMapping/disaster{disaster_id}/charts/{pre_disaster_days}_{post_disaster_days}_{resolution}_count_changes.html")
     # Save the charts
     if not os.path.exists(f"visualisation-site/public/ChangeDensityMapping/disaster{disaster_id}/charts"):
         os.makedirs(f"visualisation-site/public/ChangeDensityMapping/disaster{disaster_id}/charts")
@@ -137,15 +137,13 @@ if __name__ == "__main__":
     db_utils.db_connect()
 
     # Define the periods before and after the disaster we want to count for. Pre-disaster can be negative to only count after disaster
-    pre_disaster_days = 365
-    # The post disaster is how many days after the disaster, imm is not included
-    post_disaster_days = 365
+    disaster_days = [(365,365), (180,365), (0,365)]
 
-    resolutions = [8]
+    resolutions = [6,7,8]
+    for disaster_day_tuple in disaster_days:
+        for disaster_id in range(6,7):
+            for resolution in resolutions:
 
-    for disaster_id in range(1,7):
-        for resolution in resolutions:
-
-            (_, disaster_country, disaster_area, disaster_geojson_encoded, disaster_date, disaster_h3_resolution ) = db_utils.get_disaster_with_id(disaster_id)
-            print(f"Generating map for {disaster_area[0]} {disaster_date.year} | resolution {resolution}")
-            generate_map(disaster_id, disaster_geojson_encoded, resolution, pre_disaster_days, post_disaster_days)
+                (_, disaster_country, disaster_area, disaster_geojson_encoded, disaster_date, disaster_h3_resolution ) = db_utils.get_disaster_with_id(disaster_id)
+                print(f"Generating map for {disaster_area[0]} {disaster_date.year} | resolution {resolution}")
+                generate_map(disaster_id, disaster_geojson_encoded, resolution, disaster_day_tuple[0], disaster_day_tuple[1])

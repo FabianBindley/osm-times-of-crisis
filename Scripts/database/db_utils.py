@@ -83,7 +83,16 @@ class DB_Utils:
 
         print(f"Updated {cursor.rowcount} elements")
         return cursor.rowcount
-
+    
+    def delete_disasters(self):
+        delete_query = """
+            DELETE FROM public.disasters;
+        """
+        
+        # Commit the transaction
+        cursor = self.connection.cursor()
+        cursor.execute(delete_query)
+        self.connection.commit()  
 
     def insert_disasters(self, disaster_list, connection):
         insert_query = """
