@@ -10,18 +10,18 @@ from db_utils import DB_Utils
 
 
 
-def plot_percent_difference(disaster_id, disaster_country, disaster_area, disaster_date, post_only, pre_disaster_days, imm_disaster_days, post_disaster_days):
+def plot_percent_difference(disaster_id, disaster_country, disaster_area, disaster_date, post_only, pre_disaster_days, imm_disaster_days, post_disaster_days, average_metric):
     print(f"Ploting {pre_disaster_days} {post_disaster_days}")
     # Load datasets
     try:
-        data_day = pd.read_csv(f'./Results/ChangeCounting/disaster{disaster_id}/data/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_1_percent_difference_time_series.csv')[:-1]
-        data_week = pd.read_csv(f'./Results/ChangeCounting/disaster{disaster_id}/data/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_7_percent_difference_time_series.csv')[:-1]
-        data_month = pd.read_csv(f'./Results/ChangeCounting/disaster{disaster_id}/data/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_30_percent_difference_time_series.csv')[:-1]
+        data_day = pd.read_csv(f'./Results/ChangeCounting/disaster{disaster_id}/data/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_1_percent_difference_time_series_{average_metric}.csv')[:-1]
+        data_week = pd.read_csv(f'./Results/ChangeCounting/disaster{disaster_id}/data/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_7_percent_difference_time_series_{average_metric}.csv')[:-1]
+        data_month = pd.read_csv(f'./Results/ChangeCounting/disaster{disaster_id}/data/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_30_percent_difference_time_series_{average_metric}.csv')[:-1]
     except FileNotFoundError:
         print("Using default")
-        data_day = pd.read_csv(f'./Results/ChangeCounting/disaster{disaster_id}/data/365_30_365_1_percent_difference_time_series.csv')[:-1]
-        data_week = pd.read_csv(f'./Results/ChangeCounting/disaster{disaster_id}/data/365_30_365_7_percent_difference_time_series.csv')[:-1]
-        data_month = pd.read_csv(f'./Results/ChangeCounting/disaster{disaster_id}/data/365_30_365_30_percent_difference_time_series.csv')[:-1]
+        data_day = pd.read_csv(f'./Results/ChangeCounting/disaster{disaster_id}/data/365_30_365_1_percent_difference_time_series_{average_metric}.csv')[:-1]
+        data_week = pd.read_csv(f'./Results/ChangeCounting/disaster{disaster_id}/data/365_30_365_7_percent_difference_time_series_{average_metric}.csv')[:-1]
+        data_month = pd.read_csv(f'./Results/ChangeCounting/disaster{disaster_id}/data/365_30_365_30_percent_difference_time_series_{average_metric}.csv')[:-1]
 
     # Ensure `start_date` is parsed as datetime
     data_day['start_date'] = pd.to_datetime(data_day['start_date'])
@@ -51,6 +51,7 @@ def plot_percent_difference(disaster_id, disaster_country, disaster_area, disast
     axes[0].plot(data_day['start_date'], data_day['total'], label='Total', marker='.', linestyle='-')
     axes[0].set_title(f'% Difference in changes daily, compared to mean pre-disaster in {disaster_country}, {disaster_area} {"Post only" if post_only else ""}')
     axes[0].set_ylabel('% Difference')
+    axes[0].axvline(x=disaster_date, color='purple', linestyle='--', linewidth=1, label='Disaster Date')
     axes[0].legend()
     axes[0].grid(which='major', color='black', linestyle='-', linewidth=0.5)
     axes[0].grid(which='minor', color='gray', linestyle=':', linewidth=0.5)
@@ -63,6 +64,7 @@ def plot_percent_difference(disaster_id, disaster_country, disaster_area, disast
     axes[1].plot(data_week['start_date'], data_week['total'], label='Total', marker='.', linestyle='-')
     axes[1].set_title(f'Difference in changes Weekly, compared to mean pre-disaster in {disaster_country}, {disaster_area} {"Post only" if post_only else ""}')
     axes[1].set_ylabel('% Difference')
+    axes[1].axvline(x=disaster_date, color='purple', linestyle='--', linewidth=1, label='Disaster Date')
     axes[1].legend()
     axes[1].grid(which='major', color='black', linestyle='-', linewidth=0.5)
     axes[1].grid(which='minor', color='gray', linestyle=':', linewidth=0.5)
@@ -76,6 +78,7 @@ def plot_percent_difference(disaster_id, disaster_country, disaster_area, disast
     axes[2].set_title(f'Difference in changes Monthly, compared to mean pre-disaster in {disaster_country}, {disaster_area} {"Post only" if post_only else ""}')
     axes[2].set_xlabel('Date')
     axes[2].set_ylabel('% Difference')
+    axes[2].axvline(x=disaster_date, color='purple', linestyle='--', linewidth=1, label='Disaster Date')
     axes[2].legend()
     axes[2].grid(which='major', color='black', linestyle='-', linewidth=0.5)
     axes[2].grid(which='minor', color='gray', linestyle=':', linewidth=0.5)
@@ -101,17 +104,17 @@ def plot_percent_difference(disaster_id, disaster_country, disaster_area, disast
 
     plt.close()
 
-def plot_percent_difference_single(disaster_id, disaster_country, disaster_area, disaster_date, post_only, pre_disaster_days, imm_disaster_days, post_disaster_days, time_period):
+def plot_percent_difference_single(disaster_id, disaster_country, disaster_area, disaster_date, post_only, pre_disaster_days, imm_disaster_days, post_disaster_days, time_period, average_metric):
     print(f"Plotting {time_period} data for {pre_disaster_days}, {post_disaster_days}")
 
     # Load datasets
     try:
         data_day = pd.read_csv(
-            f'./Results/ChangeCounting/disaster{disaster_id}/data/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_1_percent_difference_time_series.csv')[:-1]
+            f'./Results/ChangeCounting/disaster{disaster_id}/data/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_1_percent_difference_time_series_{average_metric}.csv')[:-1]
         data_week = pd.read_csv(
-            f'./Results/ChangeCounting/disaster{disaster_id}/data/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_7_percent_difference_time_series.csv')[:-1]
+            f'./Results/ChangeCounting/disaster{disaster_id}/data/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_7_percent_difference_time_series_{average_metric}.csv')[:-1]
         data_month = pd.read_csv(
-            f'./Results/ChangeCounting/disaster{disaster_id}/data/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_30_percent_difference_time_series.csv')[:-1]
+            f'./Results/ChangeCounting/disaster{disaster_id}/data/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_30_percent_difference_time_series_{average_metric}.csv')[:-1]
     except FileNotFoundError:
         print("Using default")
         data_day = pd.read_csv(
@@ -160,6 +163,7 @@ def plot_percent_difference_single(disaster_id, disaster_country, disaster_area,
     plt.title(f'{title} Percent Difference in {disaster_country}, {disaster_area} {"(Post only)" if post_only else ""}')
     plt.xlabel('Date')
     plt.ylabel('% Difference')
+    plt.axvline(x=disaster_date, color='purple', linestyle='--', linewidth=1, label='Disaster Date')
     plt.legend()
     plt.grid(which='major', color='black', linestyle='-', linewidth=0.5)
     plt.grid(which='minor', color='gray', linestyle=':', linewidth=0.5)
@@ -194,15 +198,17 @@ if __name__ == "__main__":
 
     # Define periods as an array of tuples
     periods = [(365, 30, 365), (180, 30, 365), (90, 30, 365), (90, 30, 180)]
+    average_metric = "median" # mean or median
 
     # Loop through disasters and periods
-    for disaster_id in range(1, 7):
-        _, disaster_country, disaster_area, _, disaster_date, _ = db_utils.get_disaster_with_id(disaster_id)
-        print(f"Processing Disaster {disaster_id} - {disaster_area[0]}")
-        for period in periods:
-            pre_disaster_days, imm_disaster_days, post_disaster_days = period
+    for post_only in [True, False]:
+        for disaster_id in range(1, 7):
+            _, disaster_country, disaster_area, _, disaster_date, _ = db_utils.get_disaster_with_id(disaster_id)
+            print(f"Processing Disaster {disaster_id} - {disaster_area[0]}")
+            for period in periods:
+                pre_disaster_days, imm_disaster_days, post_disaster_days = period
 
-            plot_percent_difference(disaster_id, disaster_country[0], disaster_area[0], disaster_date, post_only, pre_disaster_days, imm_disaster_days, post_disaster_days)
-            #plot_percent_difference_single(disaster_id, disaster_country[0], disaster_area[0], disaster_date, post_only, pre_disaster_days, imm_disaster_days, post_disaster_days, "day")
-            #plot_percent_difference_single(disaster_id, disaster_country[0], disaster_area[0], disaster_date, post_only, pre_disaster_days, imm_disaster_days, post_disaster_days, "week")
-            #plot_percent_difference_single(disaster_id, disaster_country[0], disaster_area[0], disaster_date, post_only, pre_disaster_days, imm_disaster_days, post_disaster_days, "month")
+                plot_percent_difference(disaster_id, disaster_country[0], disaster_area[0], disaster_date, post_only, pre_disaster_days, imm_disaster_days, post_disaster_days, average_metric)
+                plot_percent_difference_single(disaster_id, disaster_country[0], disaster_area[0], disaster_date, post_only, pre_disaster_days, imm_disaster_days, post_disaster_days, "day", average_metric)
+                plot_percent_difference_single(disaster_id, disaster_country[0], disaster_area[0], disaster_date, post_only, pre_disaster_days, imm_disaster_days, post_disaster_days, "week", average_metric)
+                plot_percent_difference_single(disaster_id, disaster_country[0], disaster_area[0], disaster_date, post_only, pre_disaster_days, imm_disaster_days, post_disaster_days, "month", average_metric)

@@ -11,7 +11,7 @@ from db_utils import DB_Utils
 # Take the existing counts we've computed, both overall and by interval
 # And compute the percentage difference compared to the means from the pre-disaster period
 
-def percentage_difference_full_period(disaster_id, pre_disaster_days, imm_disaster_days, post_disaster_days, use_mean, period_length):
+def percentage_difference_full_period(disaster_id, pre_disaster_days, imm_disaster_days, post_disaster_days, average_metric, period_length):
     print(f"Computing Full Period")
     # Load datasets
     if average_metric == "mean":
@@ -23,7 +23,6 @@ def percentage_difference_full_period(disaster_id, pre_disaster_days, imm_disast
     else:
         data = pd.read_csv(f'./Results/ChangeCounting/disaster{disaster_id}/data/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_{period_length}_change_count.csv')
         data = data.drop(['start_date','end_date'], axis=1)
-        print(data)
 
 
         pre_disaster = data.iloc[:pre_disaster_days // period_length]
@@ -33,22 +32,13 @@ def percentage_difference_full_period(disaster_id, pre_disaster_days, imm_disast
         # Some months have no changes in some places
         pre_disaster[pre_disaster == 0] = 1
 
-        pre_disaster_changes_per_day = pre_disaster.median() / pre_disaster_days
-        imm_disaster_changes_per_day = imm_disaster / imm_disaster_days
-        post_disaster_changes_per_day = post_disaster.median() / post_disaster_days
+        pre_disaster_changes_per_day = pre_disaster.median() / period_length
+        imm_disaster_changes_per_day = imm_disaster / period_length
+        post_disaster_changes_per_day = post_disaster.median() / period_length
 
-        print("here")
-        print(pre_disaster_changes_per_day)
-        print(imm_disaster_changes_per_day)
-        print(post_disaster_changes_per_day)
-        print("def")
 
     imm_disaster_diff = (imm_disaster_changes_per_day - pre_disaster_changes_per_day) / pre_disaster_changes_per_day * 100
     post_disaster_diff = (post_disaster_changes_per_day - pre_disaster_changes_per_day) / pre_disaster_changes_per_day  * 100
-    print("a")
-    print(imm_disaster_diff)
-    print("b")
-    print(post_disaster_diff)
 
 
     headers = ["creates", "edits", "deletes", "total"]
@@ -74,7 +64,6 @@ def percentage_difference_time_series(disaster_id, pre_disaster_days, imm_disast
     data_time_series = pd.read_csv(f'Results/ChangeCounting/disaster{disaster_id}/data/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_{interval_length}_change_count.csv')[:-1]
     data_changes_per_day = pd.read_csv(f"Results/ChangeCounting/disaster{disaster_id}/data/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_changes_per_day_{average_metric}.csv")
     
-    print(data_changes_per_day)
 
     to_percent_multiplier = 100
 
@@ -105,11 +94,11 @@ if __name__ == "__main__":
     db_utils.db_connect()
 
     
-    periods = [(365, 30, 365)]
-    period_length = 30
+    periods = [(365, 30, 365), (180, 30, 365), (90, 30, 365), (90, 30, 180)]
+    #periods = [(365, 30, 365)]
     average_metric = "median" # mean or median
 
-    for disaster_id in range(1,7):
+    for disaster_id in range(2,7):
 
         for period in periods:
             pre_disaster_days, imm_disaster_days, post_disaster_days = period
@@ -118,9 +107,9 @@ if __name__ == "__main__":
             # File system, generate 1 folder for each disaster, and output the aggregate total in each period for each type, as well as pretty much the same file we had before
             print(f"{disaster_id} {disaster_area[0]} {disaster_date}")
             # First lets do the total counts for each period
-            percentage_difference_full_period(disaster_id, pre_disaster_days, imm_disaster_days, post_disaster_days, average_metric, period_length)
+            percentage_difference_full_period(disaster_id, pre_disaster_days, imm_disaster_days, post_disaster_days, average_metric, imm_disaster_days)
 
-            percentage_difference_time_series(disaster_id, pre_disaster_days, imm_disaster_days, post_disaster_days, average_metric, interval_length=1,)
+            percentage_difference_time_series(disaster_id, pre_disaster_days, imm_disaster_days, post_disaster_days, average_metric, interval_length=1)
             percentage_difference_time_series(disaster_id, pre_disaster_days, imm_disaster_days, post_disaster_days, average_metric, interval_length=7)
             percentage_difference_time_series(disaster_id, pre_disaster_days, imm_disaster_days, post_disaster_days, average_metric, interval_length=30)
 

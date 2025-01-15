@@ -182,12 +182,14 @@ if __name__ == "__main__":
 
 
     resolutions = [6,7,8]
+    #resolutions = [7]
 
     # Define the periods before and after the disaster we want to count for. Pre-disaster can be negative to only count after disaster
     disaster_days = [(365,365), (180,365)]
+    #disaster_days = [(365,365)]
 
     for disaster_day_tuple in disaster_days:
-        for disaster_id in range(6,7):
+        for disaster_id in range(1,7):
             for resolution in resolutions:
 
                 (_, disaster_country, disaster_area, disaster_geojson_encoded, disaster_date, disaster_h3_resolution ) = db_utils.get_disaster_with_id(disaster_id)

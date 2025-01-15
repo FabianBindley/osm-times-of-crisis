@@ -141,7 +141,7 @@ if __name__ == "__main__":
 
     resolutions = [6,7,8]
     for disaster_day_tuple in disaster_days:
-        for disaster_id in range(6,7):
+        for disaster_id in range(2,7):
             for resolution in resolutions:
 
                 (_, disaster_country, disaster_area, disaster_geojson_encoded, disaster_date, disaster_h3_resolution ) = db_utils.get_disaster_with_id(disaster_id)

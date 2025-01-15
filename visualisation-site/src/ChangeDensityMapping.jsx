@@ -81,7 +81,7 @@ function ChangeDensityMapping() {
     return (
         <>  
             <p>
-                Maps are generated using Folium and OpenStreetMap data, and Uber H3 Hexagons
+                Maps are generated using Folium and OpenStreetMap data, and Uber H3 Hexagons. In all cases, the immediate period is set to 30 days.
             </p>
             <div className="maps-header">
 
@@ -140,10 +140,10 @@ function ChangeDensityMapping() {
                             style={{ width: 200, marginLeft: 10 }}
                             onChange={handleIntervalChange}
                         >
-                            <Option value="365-365">365 Before - 365 After</Option>
-                            <Option value="180-365">180 Before - 365 After</Option>
-                            <Option value="0-365">0 Before - 365 After</Option>
-                            <Option value="0-30">0 Before - 30 After</Option>
+                            <Option value="365-365">365 Pre - 365 Post</Option>
+                            <Option value="180-365">180 Pre - 365 Post</Option>
+                            <Option value="0-365">0 Pre - 365 Post</Option>
+                            <Option value="0-30">0 Pre - 30 Post</Option>
                         </Select>
                     </div> 
                     : 
@@ -155,8 +155,8 @@ function ChangeDensityMapping() {
                             style={{ width: 200, marginLeft: 10 }}
                             onChange={handleIntervalChange}
                         >
-                            <Option value="365-365">365 Before - 365 After</Option>
-                            <Option value="180-365">180 Before - 365 After</Option>
+                            <Option value="365-365">365 Pre - 365 Post</Option>
+                            <Option value="180-365">180 Pre - 365 Post</Option>
                         </Select>
                  </div>
             

@@ -115,7 +115,7 @@ if __name__ == "__main__":
 
     # Define the period lengths
     periods = [(365, 30, 365), (180, 30, 365), (90, 30, 365), (90, 30, 180)]
-    periods = [(365, 30, 365)]
+    #periods = [(365, 30, 365)]
 
     for disaster_id in range(1,7):
 

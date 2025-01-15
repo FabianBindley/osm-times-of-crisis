@@ -10,7 +10,7 @@ from db_utils import DB_Utils
 
 
 
-def plot_counts(disaster_id, disaster_country, disaster_area, disaster_date, pre_disaster_days, imm_disaster_days, post_disaster_days):
+def plot_counts(disaster_id, disaster_country, disaster_area, disaster_date, prophet_model, pre_disaster_days, imm_disaster_days, post_disaster_days):
     print(f"Ploting {pre_disaster_days} {post_disaster_days}")
     # Load datasets
     try:
@@ -36,6 +36,8 @@ def plot_counts(disaster_id, disaster_country, disaster_area, disaster_date, pre
     data_week = data_week[(before < data_week['start_date']) & (data_week['start_date'] < after)]
     data_month = data_month[(before < data_month['start_date']) & (data_month['start_date'] < after)]
 
+    # retrieve the prophet models
+
 
     # Create subplots
     fig, axes = plt.subplots(3, 1, figsize=(12, 18), sharex=True)
@@ -47,10 +49,13 @@ def plot_counts(disaster_id, disaster_country, disaster_area, disaster_date, pre
     axes[0].plot(data_day['start_date'], data_day['total'], label='Total', marker='.', linestyle='-')
     axes[0].set_title(f'Daily Changes in {disaster_country}, {disaster_area}')
     axes[0].set_ylabel('Count')
+    axes[0].axvline(x=disaster_date, color='purple', linestyle='--', linewidth=1, label='Disaster Date')
     axes[0].legend()
     axes[0].grid(which='major', color='black', linestyle='-', linewidth=0.5)
     axes[0].grid(which='minor', color='gray', linestyle=':', linewidth=0.5)
     axes[0].minorticks_on()
+
+    # plot the day prophet model
 
     # Plot data for 'week'
     axes[1].plot(data_week['start_date'], data_week['creates'], label='Creates', marker='.', linestyle='-')
@@ -59,10 +64,13 @@ def plot_counts(disaster_id, disaster_country, disaster_area, disaster_date, pre
     axes[1].plot(data_week['start_date'], data_week['total'], label='Total', marker='.', linestyle='-')
     axes[1].set_title(f'Weekly Changes in {disaster_country}, {disaster_area}')
     axes[1].set_ylabel('Count')
+    axes[1].axvline(x=disaster_date, color='purple', linestyle='--', linewidth=1, label='Disaster Date')
     axes[1].legend()
     axes[1].grid(which='major', color='black', linestyle='-', linewidth=0.5)
     axes[1].grid(which='minor', color='gray', linestyle=':', linewidth=0.5)
     axes[1].minorticks_on()
+
+    # plot the week prophet model
 
     # Plot data for 'month'
     axes[2].plot(data_month['start_date'], data_month['creates'], label='Creates', marker='.', linestyle='-')
@@ -72,10 +80,13 @@ def plot_counts(disaster_id, disaster_country, disaster_area, disaster_date, pre
     axes[2].set_title(f'Monthly Changes in {disaster_country}, {disaster_area}')
     axes[2].set_xlabel('Date')
     axes[2].set_ylabel('Count')
+    axes[2].axvline(x=disaster_date, color='purple', linestyle='--', linewidth=1, label='Disaster Date')
     axes[2].legend()
     axes[2].grid(which='major', color='black', linestyle='-', linewidth=0.5)
     axes[2].grid(which='minor', color='gray', linestyle=':', linewidth=0.5)
     axes[2].minorticks_on()
+
+    # plot the month prophet model
 
     # Format x-axis with rotated datetime labels
     for ax in axes:
@@ -96,7 +107,7 @@ def plot_counts(disaster_id, disaster_country, disaster_area, disaster_date, pre
     plt.close()
 
 
-def plot_counts_specific(disaster_id, disaster_country, disaster_area, disaster_date, pre_disaster_days, imm_disaster_days, post_disaster_days, time_period):
+def plot_counts_specific(disaster_id, disaster_country, disaster_area, disaster_date, prophet_model, pre_disaster_days, imm_disaster_days, post_disaster_days, time_period):
     print(f"Plotting {time_period} data for {pre_disaster_days}, {post_disaster_days}")
 
     # Load datasets
@@ -123,6 +134,8 @@ def plot_counts_specific(disaster_id, disaster_country, disaster_area, disaster_
     data_week = data_week[(before < data_week['start_date']) & (data_week['start_date'] < after)]
     data_month = data_month[(before < data_month['start_date']) & (data_month['start_date'] < after)]
 
+    # Load the appropriate prophet models
+
     # Select data based on time_period
     if time_period == "day":
         data = data_day
@@ -142,9 +155,13 @@ def plot_counts_specific(disaster_id, disaster_country, disaster_area, disaster_
     plt.plot(data['start_date'], data['edits'], label='Edits', marker='.', linestyle='-')
     plt.plot(data['start_date'], data['deletes'], label='Deletes', marker='.', linestyle='-')
     plt.plot(data['start_date'], data['total'], label='Total', marker='.', linestyle='-')
+
+    # Plot the prophet models
+    
     plt.title(f'{title} in {disaster_country}, {disaster_area}')
     plt.xlabel('Date')
     plt.ylabel('Count')
+    plt.axvline(x=disaster_date, color='purple', linestyle='--', linewidth=1, label='Disaster Date')
     plt.legend()
     plt.grid(which='major', color='black', linestyle='-', linewidth=0.5)
     plt.grid(which='minor', color='gray', linestyle=':', linewidth=0.5)
@@ -173,14 +190,26 @@ if __name__ == "__main__":
     db_utils = DB_Utils()
     connection = db_utils.db_connect()
     periods = [(365,30,365), (180,30,365), (90,30,365), (90,30,180)]
+    prophet_model = False
+
     for disaster_id in range(1,7):
         _, disaster_country, disaster_area, _, disaster_date, _  = db_utils.get_disaster_with_id(disaster_id)
 
         for period in periods:
             print(f"{disaster_id} {disaster_area[0]} {disaster_date}")
-            plot_counts(disaster_id, disaster_country[0], disaster_area[0], disaster_date, pre_disaster_days=period[0], imm_disaster_days=period[1], post_disaster_days=period[2])
-            plot_counts_specific(disaster_id, disaster_country[0], disaster_area[0], disaster_date, pre_disaster_days=period[0], imm_disaster_days=period[1], post_disaster_days=period[2], time_period="day")
-            plot_counts_specific(disaster_id, disaster_country[0], disaster_area[0], disaster_date, pre_disaster_days=period[0], imm_disaster_days=period[1], post_disaster_days=period[2], time_period="week")
-            plot_counts_specific(disaster_id, disaster_country[0], disaster_area[0], disaster_date, pre_disaster_days=period[0], imm_disaster_days=period[1], post_disaster_days=period[2], time_period="month")
+            plot_counts(disaster_id, disaster_country[0], disaster_area[0], disaster_date, prophet_model, pre_disaster_days=period[0], imm_disaster_days=period[1], post_disaster_days=period[2])
+            plot_counts_specific(disaster_id, disaster_country[0], disaster_area[0], prophet_model, disaster_date, pre_disaster_days=period[0], imm_disaster_days=period[1], post_disaster_days=period[2], time_period="day")
+            plot_counts_specific(disaster_id, disaster_country[0], disaster_area[0], prophet_model, disaster_date, pre_disaster_days=period[0], imm_disaster_days=period[1], post_disaster_days=period[2], time_period="week")
+            plot_counts_specific(disaster_id, disaster_country[0], disaster_area[0], prophet_model, disaster_date, pre_disaster_days=period[0], imm_disaster_days=period[1], post_disaster_days=period[2], time_period="month")
 
+    prophet_model = True
+    for disaster_id in range(2,3):
+        _, disaster_country, disaster_area, _, disaster_date, _  = db_utils.get_disaster_with_id(disaster_id)
+
+        for period in periods:
+            print(f"{disaster_id} {disaster_area[0]} {disaster_date}")
+            plot_counts(disaster_id, disaster_country[0], disaster_area[0], disaster_date, prophet_model, pre_disaster_days=period[0], imm_disaster_days=period[1], post_disaster_days=period[2])
+            plot_counts_specific(disaster_id, disaster_country[0], disaster_area[0], prophet_model, disaster_date, pre_disaster_days=period[0], imm_disaster_days=period[1], post_disaster_days=period[2], time_period="day")
+            plot_counts_specific(disaster_id, disaster_country[0], disaster_area[0], prophet_model, disaster_date, pre_disaster_days=period[0], imm_disaster_days=period[1], post_disaster_days=period[2], time_period="week")
+            plot_counts_specific(disaster_id, disaster_country[0], disaster_area[0], prophet_model, disaster_date, pre_disaster_days=period[0], imm_disaster_days=period[1], post_disaster_days=period[2], time_period="month")
 

@@ -14,8 +14,8 @@ function ChangeCounting() {
   const intervalMap = {
     "365-365": { start: "365", end: "365" },
     "180-365": { start: "180", end: "365" },
-    "0-365": { start: "90", end: "365" },
-    "0-30": { start: "90", end: "180" },
+    "90-365": { start: "90", end: "365" },
+    "90-180": { start: "90", end: "180" },
   };
 
   const graphs = [
@@ -74,7 +74,7 @@ const additional_graphs = [
   return (
     <>  
             <p>
-                Maps are generated using the counts from the Postgres DB and Matplotlib
+                Maps are generated using the counts from the Postgres DB and Matplotlib. In all cases, the immediate period is set to 30 days.
             </p>
             <div className="maps-header">
 
@@ -102,10 +102,10 @@ const additional_graphs = [
                         style={{ width: 200, marginLeft: 10 }}
                         onChange={handleIntervalChange}
                     >
-                        <Select.Option value="365-365">365 Before - 365 After</Select.Option>
-                        <Select.Option value="180-365">180 Before - 365 After</Select.Option>
-                        <Select.Option value="90-365">90 Before - 365 After</Select.Option>
-                        <Select.Option value="90-180">90 Before - 180 After</Select.Option>
+                        <Select.Option value="365-365">365 Pre - 365 Post</Select.Option>
+                        <Select.Option value="180-365">180 Pre - 365 Post</Select.Option>
+                        <Select.Option value="90-365">90 Pre - 365 Post</Select.Option>
+                        <Select.Option value="90-180">90 Pre - 180 Post</Select.Option>
                     </Select>
                 </div> 
 

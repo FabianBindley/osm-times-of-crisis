@@ -62,8 +62,9 @@ def plot_disaster_percent_differences(disaster_percent_differences, average_metr
     axes[0].bar(x + width/2, deletes_imm, width, label="Deletes", zorder=3)
     axes[0].bar(x + width*1.5, total_imm, width, label="Total", zorder=3)
 
-    axes[0].set_ylabel(f"% Difference During Disaster({average_metric.title()}) SymLog Scale")
-    axes[0].set_title("Immediate Period Percent Differences in OSM Activity")
+    axes[0].set_ylabel(f"% Difference Imm Disaster({average_metric.title()}) SymLog Scale")
+    axes[0].set_title(f"Immediate Period % differences in OSM Activity")
+    
 
     # Plot for post-disaster period
     axes[1].bar(x - width*1.5, creates_post, width, label="Creates", zorder=3)
@@ -72,7 +73,7 @@ def plot_disaster_percent_differences(disaster_percent_differences, average_metr
     axes[1].bar(x + width*1.5, total_post, width, label="Total", zorder=3)
 
     axes[1].set_ylabel(f"% Difference Post-Disaster ({average_metric.title()}) SymLog Scale")
-    axes[1].set_title("Post-Disaster Percent Differences in OSM Activity")
+    axes[1].set_title(f"Post-Disaster Period % differences in OSM Activity")
 
     for axis in axes:
         axis.axhline(y=0, color='black', linewidth=0.8, linestyle='--')

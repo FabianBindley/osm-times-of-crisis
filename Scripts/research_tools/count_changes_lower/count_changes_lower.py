@@ -26,7 +26,6 @@ def changes_for_interval(disaster_id, disaster_date, pre_disaster_days, post_dis
     interval_start_date = disaster_date - pre_disaster
     interval_end_date = disaster_date + post_disaster + timedelta(days=1)
     
-
     return db_utils.get_changes_in_interval(interval_start_date, interval_end_date, disaster_id)
 
 
@@ -111,11 +110,13 @@ if __name__ == "__main__":
     db_utils.db_connect()
 
     # Define the periods before and after the disaster we want to count for. Pre-disaster can be negative to only count after disaster
+    disaster_days = [(365,0),(180,365)]
     disaster_days = [(365,365)]
 
     resolutions = [6,7,8]
+    #resolutions = [7]
     for disaster_day_tuple in disaster_days:
-        for disaster_id in range(6,7):
+        for disaster_id in range(2,7):
             for resolution in resolutions:
 
                 (_, disaster_country, disaster_area, disaster_geojson_encoded, disaster_date, disaster_h3_resolution ) = db_utils.get_disaster_with_id(disaster_id)
