@@ -23,5 +23,10 @@ dist-ssr
 *.sln
 *.sw?
 
-public/maps/
-public/ChangeDensityMapping/
+
+public/ChangeDensityMapping/disaster4/charts/365_365_8_count_changes.html
+public/ChangeDensityMapping/disaster4/charts/0_30_8_count_changes.html
+public/ChangeDensityMapping/disaster4/charts/0_365_8_count_changes.html
+public/ChangeDensityMapping/disaster4/charts/365_365_8_percent_difference.html
+public/ChangeDensityMapping/disaster4/charts/180_365_8_count_changes.html
+public/ChangeDensityMapping/disaster4/charts/180_365_8_percent_difference.html

@@ -25,6 +25,7 @@ class DB_Utils:
                 element_id, edit_type, element_type, timestamp, disaster_id, version, visible, changeset, tags, building, highway, coordinates, uid, geojson_verified
             )
             VALUES %s
+            ON CONFLICT (element_id, disaster_id, version) DO NOTHING
         """
 
         cursor = connection.cursor()
@@ -375,3 +376,60 @@ class DB_Utils:
         cursor.close()
         
         return removed_count
+    
+
+    def get_tag_key_usage(self):
+        cursor = self.connection.cursor()
+
+        # Query to get the count of each tag
+        tag_key_count_query = """
+        SELECT key, COUNT(*) AS usage_count
+            FROM (
+                SELECT jsonb_object_keys(tags) AS key
+                FROM changes
+                WHERE tags IS NOT NULL
+            ) subquery
+            GROUP BY key
+            ORDER BY usage_count DESC, key;
+        """
+
+        cursor.execute(tag_key_count_query)
+        return cursor.fetchall()
+    
+    def get_tag_key_usage_for_disaster(self, disaster_id, intervals):
+        cursor = self.connection.cursor()
+
+        # Query to get the count of each tag
+        tag_key_count_query = """
+        SELECT key, COUNT(*) AS usage_count
+            FROM (
+                SELECT jsonb_object_keys(tags) AS key
+                FROM changes
+                WHERE disaster_id = %s AND timestamp >= %s AND timestamp < %s AND tags IS NOT NULL
+            ) subquery
+            GROUP BY key
+            ORDER BY usage_count DESC, key;
+        """
+
+        results = []
+        for i in range(len(intervals)-1):
+            start_date = intervals[i]
+            end_date = intervals[i+1]
+
+            cursor.execute(tag_key_count_query, (disaster_id, start_date, end_date))
+            results.append(cursor.fetchall())
+
+        return results
+    
+
+    def get_total_changes(self):
+        cursor = self.connection.cursor()
+
+        # Query to get the total count of changes
+        total_changes_query = """
+        SELECT COUNT(*)
+        FROM changes;
+        """
+
+        cursor.execute(total_changes_query)
+        return cursor.fetchone()[0]

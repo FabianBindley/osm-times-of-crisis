@@ -5,6 +5,7 @@ import "antd/dist/reset.css"; // Ant Design styles
 import { Menu } from "antd";
 import ChangeDensityMapping from "./ChangeDensityMapping";
 import ChangeCounting from "./ChangeCounting";
+import WordCloud from "./WordCloud";
 
 function App() {
   const [currentTab, setCurrentTab] = useState(localStorage.getItem("currentTab") ? localStorage.getItem("currentTab") : "changeDensityMapping");
@@ -30,12 +31,14 @@ function App() {
       >
         <Menu.Item key="changeCounting">Change Counting</Menu.Item>
         <Menu.Item key="changeDensityMapping">Change Density Mapping</Menu.Item>
+        <Menu.Item key="tagWordCloud">Tag Word Cloud</Menu.Item>
       </Menu>
 
       {/* Conditional Rendering Based on Selected Tab */}
       <div>
         {currentTab === "changeCounting" && <ChangeCounting />}
         {currentTab === "changeDensityMapping" && <ChangeDensityMapping />}
+        {currentTab === "tagWordCloud" && <WordCloud />}
       </div>
     </div>
   );

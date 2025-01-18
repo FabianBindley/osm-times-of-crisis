@@ -13,7 +13,7 @@ class Coordinate:
 
 class BulkImportHandler(osmium.SimpleHandler):
 
-    def __init__(self, start_date, end_date, geojson_path, geojson_filtered, disaster_id, connection, input_file):
+    def __init__(self, start_date, end_date, geojson_path, geojson_filtered, disaster_id, place, year, connection, input_file):
         # For now the interval is daily, from the start time to the end time
         super().__init__()
         self.start_date = start_date
@@ -31,12 +31,30 @@ class BulkImportHandler(osmium.SimpleHandler):
         self.input_file = input_file
 
         # Load GeoJSON and create a MultiPolygon from the geometries
+        if "ManuallyDefined" in geojson_path:
+            self.area_multipolygon = self.load_geometry_manually_defined(place, year)
+        else:
+            self.area_multipolygon = self.load_geometry_geocded(place)
+
+    def load_geometry_geocded(self, place):
+        geojson_path = f"./Data/GeocodedBoundaries/{place}-geocode-boundary.geojson"
+        # Load GeoJSON and create a MultiPolygon from the geometries
         with open(geojson_path) as f:
             geojson_data = json.load(f)
 
-            # Extract the geometry and create the shape
-            geometry = geojson_data['geometry']
-            self.area_multipolygon = shape(geometry)
+        return shape(geojson_data['geometry'])
+
+    def load_geometry_manually_defined(self, place, year):
+        if place != "Haiti":
+            suffix = place
+        else:
+            suffix = place+year
+        geojson_path = f"./Data/{place}/{suffix}ManuallyDefined.geojson"
+        # Load GeoJSON and create a MultiPolygon from the geometries
+        with open(geojson_path) as f:
+            geojson_data = json.load(f)
+     
+        return shape(geojson_data["features"][0]['geometry'])
 
     def get_way_previous_version_coordinate(self, obj):
         element_id = obj.id

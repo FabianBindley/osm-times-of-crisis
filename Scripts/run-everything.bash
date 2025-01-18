@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#RQ1 - Aggregate Counts
 # Function to run a Python script and print its status
 run_script() {
     script_path=$1
@@ -27,3 +28,7 @@ run_script "scripts/research_tools/count_changes/count_changes.py"
 run_script "scripts/research_tools/count_changes/plot_count_changes.py"
 run_script "scripts/research_tools/count_changes/percent_difference.py"
 run_script scripts/"research_tools/count_changes/plot_percent_difference.py"
+
+
+# RQ2 - Tags 
+run_script "scripts/research_tools/investigate_tags/initial_tag_investigation.py"

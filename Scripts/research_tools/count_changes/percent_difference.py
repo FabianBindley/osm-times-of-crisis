@@ -94,7 +94,7 @@ if __name__ == "__main__":
     db_utils.db_connect()
 
     
-    periods = [(365, 30, 365), (180, 30, 365), (90, 30, 365), (90, 30, 180)]
+    periods = [(365, 30, 365), (180, 30, 365)]
     #periods = [(365, 30, 365)]
     average_metric = "median" # mean or median
 

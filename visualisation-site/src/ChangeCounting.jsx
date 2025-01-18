@@ -8,11 +8,13 @@ function ChangeCounting() {
   
   const [interval, setInterval] = useState({start:"365", end:"365"})
   const [graphStyle, setGraphStyle] = useState("count_changes")
-  const [periodLength, setPeriodLength] = useState("week")
+  const [periodLength, setPeriodLength] = useState(localStorage.getItem("period") ? localStorage.getItem("period") : "week")
   const [postOnly, setPostOnly] = useState(localStorage.getItem("postOnly")=="true" ? true : false);
+  const [prophetForecast, setProphetForecast] = useState(localStorage.getItem("prophetForecast")=="true" ? true : false);
   
   const intervalMap = {
     "365-365": { start: "365", end: "365" },
+    "1095-365": { start: "1095", end: "365" },
     "180-365": { start: "180", end: "365" },
     "90-365": { start: "90", end: "365" },
     "90-180": { start: "90", end: "180" },
@@ -30,7 +32,7 @@ const additional_graphs = [
     { title: "Haiti Hurricane Matthew | 2016", disaster_id: 4},
 ]
 
-  const count_change_intervals = [{start:"365", end:"365"},{start:"180", end:"365"},{start:"90", end:"365"},{start:"90", end:"180"}]
+  const count_change_intervals = [{start:"365", end:"365"},{start:"1095", end:"365"},{start:"180", end:"365"},{start:"90", end:"365"},{start:"90", end:"180"}]
 
   const percent_difference_intervals = [{start:"365", end:"365"},{start:"180", end:"365"},{start:"90", end:"365"},{start:"90", end:"180"}]
 
@@ -64,12 +66,18 @@ const additional_graphs = [
 
   const handlePeriodLengthChange = (value) => {
     setPeriodLength(value);
+    localStorage.setItem("period", value)
   };
 
   const handlePostOnlyChange = (checked) => {
         setPostOnly(checked);
         localStorage.setItem("postOnly", checked)
   }
+
+  const handleChangeProphetForecast = (checked) => {
+    setProphetForecast(checked);
+    localStorage.setItem("prophetForecast", checked)
+}
 
   return (
     <>  
@@ -106,6 +114,7 @@ const additional_graphs = [
                         <Select.Option value="180-365">180 Pre - 365 Post</Select.Option>
                         <Select.Option value="90-365">90 Pre - 365 Post</Select.Option>
                         <Select.Option value="90-180">90 Pre - 180 Post</Select.Option>
+                        <Select.Option value="1095-365">1095 Pre - 365 Post</Select.Option>
                     </Select>
                 </div> 
 
@@ -126,6 +135,13 @@ const additional_graphs = [
                 </Select>
                 </div>
 
+                { graphStyle == "count_changes" ? 
+                <div style={{marginTop:5,marginBottom:5}}>
+                    <label style={{ marginLeft: 20, marginRight: 10 }}>Prophet Forecast:</label>
+                    <Switch checked={prophetForecast} onChange={handleChangeProphetForecast} />
+                </div> 
+                : <></>}
+
                 { graphStyle == "percent_difference_time_series" ? 
                     <div style={{marginTop:5,marginBottom:5}}>
                     <label style={{ marginLeft: 20, marginRight: 10 }}>Post Disaster Only:</label>
@@ -139,12 +155,12 @@ const additional_graphs = [
             </div>
 
             {graphs.map((graph, index) => (
-                <Graph index={index} graph={graph}  graphStyle={graphStyle} interval={interval} periodLength={periodLength} postOnly={postOnly}/>
+                <Graph index={index} graph={graph}  graphStyle={graphStyle} interval={interval} periodLength={periodLength} postOnly={postOnly} prophetForecast={prophetForecast}/>
             ))}
 
             <h2>Additional Graphs</h2>
             {additional_graphs.map((graph, index) => (
-                <Graph index={index} graph={graph}  graphStyle={graphStyle} interval={interval} periodLength={periodLength}  postOnly={postOnly}/>
+                <Graph index={index} graph={graph}  graphStyle={graphStyle} interval={interval} periodLength={periodLength}  postOnly={postOnly} prophetForecast={prophetForecast}/>
             ))}
     </>
   )

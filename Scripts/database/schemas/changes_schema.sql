@@ -45,8 +45,7 @@ SELECT
     element_type, 
     edit_type, 
     disaster_id, 
-    ST_X(coordinates::geometry) AS longitude, 
-    ST_Y(coordinates::geometry) AS latitude, 
+    tags
     uid
 FROM changes
 WHERE disaster_id = 1
@@ -90,3 +89,7 @@ CREATE TABLE emilia_romagna_bumb_changes (
     coordinates GEOMETRY(POINT, 4326),   -- Coordinates stored as a geographic point (latitude/longitude in WGS84)
     uid BIGINT                           -- UID of user who made change
 );
+
+SELECT COUNT(*)
+FROM changes
+WHERE tags IS NOT NULL   AND jsonb_array_length(tags) > 0;
