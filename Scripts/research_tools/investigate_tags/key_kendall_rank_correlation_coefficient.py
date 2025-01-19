@@ -31,6 +31,9 @@ def all_disasters_compute_correlation_metrics(specified_keys):
         writer.writerow(pre_imm)
         writer.writerow(pre_post)
         writer.writerow(imm_post)
+
+    visualisation_file_path = f"visualisation-site/public/TagInvestigation/summary/key_correlation_rank_analysis.csv"
+    shutil.copyfile(file_path, visualisation_file_path)
     
 
 def specific_disaster_compute_correlation_metrics(disaster_id, specified_keys):
@@ -52,6 +55,9 @@ def specific_disaster_compute_correlation_metrics(disaster_id, specified_keys):
         writer.writerow(pre_imm)
         writer.writerow(pre_post)
         writer.writerow(imm_post)
+
+    visualisation_file_path = f"visualisation-site/public/TagInvestigation/disaster{disaster_id}/key_correlation_rank_analysis.csv"
+    shutil.copyfile(file_path, visualisation_file_path)
 
 def periods_compute_correlation_metrics(period1, period2, period1_data, period2_data, specified_keys):
 
@@ -92,7 +98,7 @@ if __name__ == "__main__":
     db_utils.db_connect()
 
     specified_keys = ["building","highway","name","surface","amenity","landuse","waterway","natural"]
-    disaster_ids =  [1,2,3,4,5,6]
+    disaster_ids =  [2,3,4,5,6]
 
     print("Getting all disaster correlation metrics")
     all_disasters_compute_correlation_metrics(specified_keys)

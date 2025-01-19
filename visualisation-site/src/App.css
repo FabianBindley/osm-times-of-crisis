@@ -101,3 +101,8 @@ iframe {
   gap: 20px;
   width: 85vw;
 }
+
+.tag-keys-correlation-container{
+  width: 85vw;
+  height: 85vh;
+}

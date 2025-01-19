@@ -17,17 +17,17 @@ export default function About() {
           All data used in this project has been sourced from OpenStreetMap (OSM) and downloaded through the&nbsp;
           <a href="https://download.geofabrik.de/" target="_blank" rel="noopener noreferrer" className="about-link">
             Geofabrik
-          </a> platform. OSM history data is used, which Geofabrik access from the OSM internal server, containing personally identifiable information. 
+          </a> platform. OSM history data is used, which Geofabrik accesses from the OSM internal server, containing personally identifiable information. 
           All data that may be accessed on <a href="https://osm.fbindley.com/" target="_blank" rel="noopener noreferrer" className="about-link">
             osm.fbindley.com
-          </a> is fully aggregated and anonymised, it is not possible to view individual changes and personally identifiable information.
+          </a> is fully aggregated and anonymised: it is not possible to view individual changes and personally identifiable information.
         </p>
       </div>
 
       <div className="about-section">
         <h3>Included Disasters</h3>
         <p>
-          The project focuses on analyzing natural disasters from various regions of the world. Below is the list of disasters being studied:
+          The project focuses on analysing natural disasters from various regions of the world. Below is the list of disasters being studied:
         </p>
 
         <div className="disaster-list">
@@ -72,7 +72,7 @@ export default function About() {
         <ul>
           <li><b>Change count variations:</b> how the number of changes users make varies in the pre-disaster, immediate and post-disaster periods,</li>
           <li><b>Change count density mapping:</b> how the spread of changes varies across different areas in the disaster</li>
-          <li><b>Tags of changed items: </b>the key=value tags associated with items which users change</li>
+          <li><b>Tags of changed items: </b>the key,value tags associated with items which users change</li>
         </ul>
       </div>
 
@@ -87,9 +87,38 @@ export default function About() {
       <div className="about-section">
         <h3>Acknowledgments</h3>
         <p>
-          We thank the OpenStreetMap community and the Geofabrik platform for providing access to the data used in this analysis.
+          We thank the OpenStreetMap community and the Geofabrik platform for providing access to the data used in this analysis. 
+            <br/>
+          Many libraries have been used to develop this website and its content. These include:
+          <h4><b>Research </b></h4>
+          <ul>
+            <li>Matplotlib</li>
+            <li>Pandas</li>
+            <li>Postgresql</li>
+            <li>PostGIS</li>
+            <li>Numpy</li>
+            <li>folium</li>
+            <li>Osmium</li>
+            <li>scipy</li>
+            <li>scikit-learn</li>
+          </ul>
+          <h4><b>Website </b></h4>
+          <ul>
+            <li>React</li>
+            <li>Ant design</li>
+            <li>Visx</li>
+          </ul>
         </p>
       </div>
+
+      <div className="about-section">
+        <h3>Authors</h3>
+        <p>
+          Fabian Bindley; supervised by Professor Licia Capra
+        </p>
+      </div>
+
     </div>
+
   );
 }
