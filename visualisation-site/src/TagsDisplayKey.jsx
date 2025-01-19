@@ -88,7 +88,7 @@ export default function TagsDisplay({csv_source}) {
                     <td style={{ border: '1px solid black', padding: '10px' }}>{word.text}</td>
                     <td style={{ border: '1px solid black', padding: '10px' }}>{word.value}</td>
                     <td style={{ border: '1px solid black', padding: '10px' }}>
-                    {word.percent_of_total_changes.toFixed(2)}%
+                    {word.percent_of_total_changes.toFixed(3)}%
                     </td>
                 </tr>
                 ))}
