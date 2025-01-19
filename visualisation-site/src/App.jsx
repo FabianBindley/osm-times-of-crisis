@@ -5,7 +5,7 @@ import "antd/dist/reset.css"; // Ant Design styles
 import { Menu } from "antd";
 import ChangeDensityMapping from "./ChangeDensityMapping";
 import ChangeCounting from "./ChangeCounting";
-import WordCloud from "./WordCloud";
+import Tags from "./Tags";
 
 function App() {
   const [currentTab, setCurrentTab] = useState(localStorage.getItem("currentTab") ? localStorage.getItem("currentTab") : "changeDensityMapping");
@@ -38,7 +38,7 @@ function App() {
       <div>
         {currentTab === "changeCounting" && <ChangeCounting />}
         {currentTab === "changeDensityMapping" && <ChangeDensityMapping />}
-        {currentTab === "tagWordCloud" && <WordCloud />}
+        {currentTab === "tagWordCloud" && <Tags />}
       </div>
     </div>
   );

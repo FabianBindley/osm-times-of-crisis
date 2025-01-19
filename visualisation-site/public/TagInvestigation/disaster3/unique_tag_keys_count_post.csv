@@ -1,851 +1,655 @@
 key,count,percent_of_total_changes
-source,110399,28.77
-name,60084,15.66
-highway,55069,14.35
-attribute_source_date,44909,11.7
-attribute_source_type,43506,11.34
-geometry_source_type,39178,10.21
-geometry_source_date,38089,9.92
-addr:country,28668,7.47
-SurfaceCondition,28487,7.42
-operational_status,26087,6.8
-Surface,25922,6.75
-Practicability,24596,6.41
-operational_status_quality,24358,6.35
-building,24256,6.32
-Operational_status,22040,5.74
-Operational_status_quality,20549,5.35
-amenity,16731,4.36
-Geometry_source_type,13221,3.44
-practicability,12738,3.32
-Geometry_source_date,12184,3.17
-surface,10735,2.8
-waterway,9274,2.42
-Attribute_source_date,9165,2.39
-Attribute_source_type,9153,2.38
-landuse,9109,2.37
-operator_type,8348,2.18
-Source,7700,2.01
-pcode,6802,1.77
-source:health_facility,6797,1.77
-surface_condition,6792,1.77
-paho:id,5972,1.56
-paho:department,5963,1.55
-paho:commune,5962,1.55
-paho:district_id,5962,1.55
-paho:region_id,5962,1.55
-paho:commune_id,5958,1.55
-health_facility:type,5897,1.54
-operator,4058,1.06
-tourism,3617,0.94
-natural,3525,0.92
-place,3520,0.92
-refugee,3399,0.89
-addr:street,3264,0.85
-type,3013,0.79
-scolar_type,2991,0.78
-scolar_district,2785,0.73
-id:ssid,2780,0.72
-website,2777,0.72
-commune,2770,0.72
-households,2741,0.71
-sectional,2739,0.71
-attribute_source_name,2575,0.67
-paho:type,2233,0.58
-geometry_source_name,2103,0.55
-Date,1980,0.52
-addr:city,1977,0.52
-phone,1919,0.5
-earthquake:damage,1908,0.5
-haiti:code,1808,0.47
-barrier,1801,0.47
-haiti:source_file,1787,0.47
-haiti:source,1784,0.46
-haiti:import_file,1783,0.46
-haiti:objectid,1781,0.46
-haiti:type,1767,0.46
-haiti:nom2,1762,0.46
-haiti:nom,1760,0.46
-note,1687,0.44
-contact_person,1680,0.44
-source:name,1624,0.42
-power_source,1568,0.41
-camp,1400,0.36
-gender_access,1339,0.35
-boundary,1325,0.35
-admin_level,1307,0.34
-disability_access,1289,0.34
-layer,1252,0.33
-FIXME,1243,0.32
-school_type,1107,0.29
-shop,1078,0.28
-height,995,0.26
-bridge,984,0.26
-man_made,977,0.25
-damage_status,965,0.25
-water_type,944,0.25
-school_district,938,0.24
-hfac_type,899,0.23
-pump_type,829,0.22
-health_facility:department,825,0.21
-health_facility:commune,815,0.21
-health_facility:commune_id,815,0.21
-health_facility:paho_id,815,0.21
-water_quality_issue,797,0.21
-boat,786,0.2
-health_facility:bed,779,0.2
-source:image,762,0.2
-maxspeed,662,0.17
-proximity,636,0.17
-education_structure_type,629,0.16
-source:imagery,593,0.15
-area,582,0.15
-ref,547,0.14
-souce,535,0.14
-Attribute source date,526,0.14
-leisure,525,0.14
-sahana_id,493,0.13
-ford,460,0.12
-hfac_bed,459,0.12
-sector,449,0.12
-bed,421,0.11
-school_sector,400,0.1
-source:sahana,398,0.1
-humanitarian_use,394,0.1
-religion,392,0.1
-opening_hours,391,0.1
-OperationalStatus,373,0.1
-OperationalStatusQuality,337,0.09
-base material values,335,0.09
-transportation_use_category,333,0.09
-description,332,0.09
-access,330,0.09
-name:en,316,0.08
-Humanitarian:HealthFacility:OrganizationType,310,0.08
-bridge_type,307,0.08
-foot,297,0.08
-school_ht_fondamental_1er_et_2e_cycle,294,0.08
-fixme,287,0.07
-noexit,285,0.07
-denomination,283,0.07
-sport,275,0.07
-task,263,0.07
-school_license,257,0.07
-name:fr,250,0.07
-bicycle,244,0.06
-date,234,0.06
-AttributeSourceType,231,0.06
-power,221,0.06
-barrier:obstacle_type,215,0.06
-health_facility:organisation,214,0.06
-address:country,213,0.06
-name:botanical,203,0.05
-ele,200,0.05
-density,195,0.05
-motorcycle,195,0.05
+source,91575,23.8612
+name,51285,13.3631
+highway,47519,12.3818
+attribute_source_date,42373,11.0409
+attribute_source_type,40547,10.5651
+geometry_source_type,36211,9.4353
+geometry_source_date,35525,9.2566
+SurfaceCondition,28025,7.3023
+Surface,25386,6.6147
+operational_status,24563,6.4002
+Practicability,23940,6.2379
+operational_status_quality,22880,5.9617
+building,22535,5.8718
+Operational_status,21531,5.6102
+Operational_status_quality,20497,5.3408
+addr:country,17457,4.5487
+Geometry_source_type,13195,3.4381
+practicability,12592,3.281
+Geometry_source_date,12158,3.1679
+amenity,12099,3.1526
+surface,10463,2.7263
+Attribute_source_date,9139,2.3813
+Attribute_source_type,9127,2.3782
+operator_type,7781,2.0275
+Source,7691,2.004
+surface_condition,6656,1.7343
+landuse,6588,1.7166
+waterway,3963,1.0326
+tourism,3304,0.8609
+pcode,3221,0.8393
+source:health_facility,3217,0.8382
+refugee,3182,0.8291
+scolar_type,2990,0.7791
+type,2845,0.7413
+paho:id,2810,0.7322
+paho:commune,2800,0.7296
+paho:district_id,2800,0.7296
+paho:region_id,2800,0.7296
+paho:department,2798,0.7291
+paho:commune_id,2796,0.7285
+scolar_district,2779,0.7241
+id:ssid,2698,0.703
+commune,2686,0.6999
+website,2680,0.6983
+households,2660,0.6931
+sectional,2658,0.6926
+natural,2596,0.6764
+operator,2586,0.6738
+health_facility:type,2501,0.6517
+addr:street,2317,0.6037
+attribute_source_name,2222,0.579
+geometry_source_name,2090,0.5446
+Date,1980,0.5159
+place,1804,0.4701
+earthquake:damage,1690,0.4404
+barrier,1645,0.4286
+note,1505,0.3921
+phone,1424,0.371
+contact_person,1348,0.3512
+camp,1347,0.351
+gender_access,1242,0.3236
+disability_access,1191,0.3103
+power_source,1138,0.2965
+school_type,1104,0.2877
+addr:city,1078,0.2809
+paho:type,1002,0.2611
+school_district,935,0.2436
+haiti:code,894,0.2329
+haiti:source_file,869,0.2264
+haiti:source,867,0.2259
+haiti:import_file,865,0.2254
+haiti:objectid,865,0.2254
+haiti:type,855,0.2228
+haiti:nom2,844,0.2199
+haiti:nom,842,0.2194
+height,819,0.2134
+shop,806,0.21
+hfac_type,795,0.2071
+man_made,788,0.2053
+water_type,766,0.1996
+source:image,750,0.1954
+source:name,739,0.1926
+damage_status,708,0.1845
+pump_type,665,0.1733
+bridge,664,0.173
+water_quality_issue,657,0.1712
+FIXME,654,0.1704
+maxspeed,641,0.167
+layer,628,0.1636
+education_structure_type,623,0.1623
+proximity,616,0.1605
+source:imagery,571,0.1488
+boat,527,0.1373
+Attribute source date,526,0.1371
+health_facility:bed,480,0.1251
+sector,449,0.117
+hfac_bed,445,0.116
+souce,436,0.1136
+health_facility:department,407,0.106
+leisure,401,0.1045
+health_facility:commune,397,0.1034
+health_facility:commune_id,397,0.1034
+health_facility:paho_id,397,0.1034
+boundary,387,0.1008
+OperationalStatus,373,0.0972
+admin_level,369,0.0961
+humanitarian_use,357,0.093
+OperationalStatusQuality,337,0.0878
+area,329,0.0857
+bed,317,0.0826
+Humanitarian:HealthFacility:OrganizationType,310,0.0808
+description,306,0.0797
+access,304,0.0792
+foot,281,0.0732
+ref,278,0.0724
+noexit,249,0.0649
+school_sector,245,0.0638
+sahana_id,239,0.0623
+bicycle,237,0.0618
+AttributeSourceType,231,0.0602
+religion,218,0.0568
+fixme,216,0.0563
+sport,214,0.0558
+address:country,213,0.0555
+ford,201,0.0524
+density,194,0.0505
 Attribut_source_type,192,0.05
-address:city,191,0.05
-Geometry source date,189,0.05
-Attribute_Source_Type,187,0.05
-school_ht_prescolaire,186,0.05
-AttributeSource date,185,0.05
-oneway,178,0.05
-copythis,176,0.05
-program_aquatab,169,0.04
-Geometry source name,168,0.04
-health_facility_type,166,0.04
-settlement_type,161,0.04
-HasCampResidentCommittee,159,0.04
-motorcar,146,0.04
-capacity,145,0.04
-service,142,0.04
-source2,142,0.04
-Geometrie_source_type,141,0.04
-horse,141,0.04
-office,141,0.04
-hum_use,140,0.04
-fee,139,0.04
-school_ht_fondamental_3e_cycle_et_Secondaire,138,0.04
-pcode:2,137,0.04
-psv,133,0.03
-hgv,131,0.03
-addr:full,130,0.03
-orig:location,130,0.03
-agricultural,127,0.03
-addr:housenumber,126,0.03
-camp_registered,126,0.03
-goods,123,0.03
-camp_management_agency,122,0.03
-paho:damage:date,119,0.03
-paho:damage:source,119,0.03
-is_in,115,0.03
-Attribute source name,114,0.03
-phoneemergency,113,0.03
-wheelchair,113,0.03
-name:ht,111,0.03
-operator id,111,0.03
-paho:damage,110,0.03
-address,109,0.03
-aerialway,105,0.03
-tunnel,104,0.03
-phonebusiness,101,0.03
-address:ward,99,0.03
-average_waiting_time,99,0.03
-paved,95,0.02
-population,94,0.02
-intermittent,93,0.02
-source_ref,91,0.02
-source:ref,89,0.02
-camp_assessed,85,0.02
-barrier_bypass,83,0.02
-email,78,0.02
-name:source,77,0.02
-dispensing,76,0.02
-boundary_admin_level1_name,75,0.02
-aeroway,73,0.02
-note:by,73,0.02
-quantity,70,0.02
-historic,68,0.02
-operational,67,0.02
-hfac_current_bed_use,66,0.02
-source type,65,0.02
-geometrie_source_type,64,0.02
-waterpoint_type,64,0.02
-source:name:fr,63,0.02
-Genre,60,0.02
-attribute_source-date,60,0.02
-Atribut Source date,59,0.02
-is_in:country,59,0.02
-width,59,0.02
-source:building,58,0.02
-is_in:city,57,0.01
-firesideint:schooltag,56,0.01
-level,56,0.01
-contact,54,0.01
-source:url,54,0.01
-tracktype,54,0.01
-wikipedia:en,52,0.01
-paho:operational_status,51,0.01
-paho:operational_status:date,51,0.01
-paho:operational_status:source,51,0.01
-type de stucture,49,0.01
-operator type,48,0.01
-operator_installation,48,0.01
-attribut_source_date,46,0.01
-contact_ person,46,0.01
-place:area,46,0.01
-security,46,0.01
-Name,45,0.01
-departement,45,0.01
-is_in:Department,45,0.01
-obstacle_type,45,0.01
-Geometrie_source_date,44,0.01
-url,44,0.01
-ID,43,0.01
-addr:ward,43,0.01
-alt_name,43,0.01
-passing_places,43,0.01
-tower:type,41,0.01
-type de structure,41,0.01
-Commune,40,0.01
-addr,40,0.01
-source_name,40,0.01
-registry_name,39,0.01
-cuisine,38,0.01
-source:health_facility:MCH,38,0.01
-health_facility:MCH,37,0.01
-source:health_facility:access,37,0.01
-wikipedia:ht,37,0.01
-attribute_ source_ date,36,0.01
-medecins,36,0.01
-type d'alimentation,36,0.01
-Capacite,35,0.01
-point,35,0.01
-adress,34,0.01
-classe,34,0.01
-source_2,34,0.01
-Organization_Name,33,0.01
-atribut souce name,33,0.01
-hcare_ctc,33,0.01
-infirmieres,33,0.01
-pop_estimates_site_hou,33,0.01
-source:addr,33,0.01
-internet_access,32,0.01
-pos_sol:,32,0.01
-camp_management_agency_name,31,0.01
-health_facility:access,31,0.01
-is_in:Arrondissement,31,0.01
-NAME,30,0.01
-school_zone,30,0.01
-statut operationnel,30,0.01
-Operator type,29,0.01
-source:name:ht,29,0.01
-source:nanme,29,0.01
-surfacecondition,29,0.01
-telecommunication,29,0.01
-camp_type,28,0.01
-earthquake_damage,28,0.01
-name:es,28,0.01
-source_ref:CDC/USAID PMTCT,28,0.01
-Adress,27,0.01
-Quantity,27,0.01
-address:street,27,0.01
-addresse,27,0.01
-alimentation electrique,27,0.01
-quantité,27,0.01
-Capacity,26,0.01
-impassable,26,0.01
-smoking,26,0.01
-statut operationel,26,0.01
-Geometry_source_name,25,0.01
-address:country_national_code,25,0.01
-mapping_practices,25,0.01
-parking,25,0.01
-source:date,25,0.01
-alimentation,24,0.01
-internet_access:fee,24,0.01
-source:alt_name,24,0.01
-source:is_in,24,0.01
-voltage:,24,0.01
-wikipedia,24,0.01
-geometrie souce name,23,0.01
-history,23,0.01
-source:geometry,23,0.01
-Attribut_source-date,22,0.01
-HealthFacilityCapacityDescription,22,0.01
-HealthFacilityConstructionDescription,22,0.01
-HealthFacilityServiceDescription,22,0.01
-is_in:country_code,22,0.01
-mapping_error,22,0.01
-Attribute_source_name,21,0.01
-addr:postal_code,21,0.01
-wikipedia:fr,21,0.01
-ims:id,20,0.01
-place:area-alternate,20,0.01
-seasonal,20,0.01
-toll,20,0.01
-addr street,19,0.0
-addr:postcode,19,0.0
-backrest,19,0.0
-hcare_ctu,19,0.0
-imagery,19,0.0
-keepme,19,0.0
-lanes,19,0.0
-material,19,0.0
-colour,18,0.0
-hcare_ors,18,0.0
-key,18,0.0
-note1,18,0.0
-seats,18,0.0
-AttributeSourceDate,17,0.0
-addr city,17,0.0
-country,17,0.0
-ims:media_type,17,0.0
-source 2,17,0.0
-source_ref:CDC/USAID PMTCT Baseline,17,0.0
-Phone,16,0.0
-hospital,16,0.0
-iata,16,0.0
-park_ride,16,0.0
-source_ref:ref,16,0.0
-wetland,16,0.0
-Objet,15,0.0
-add:city,15,0.0
-camp_registered_agency_name,15,0.0
-operator_id,15,0.0
-personne_contact,15,0.0
-railway,15,0.0
-sahana:address,15,0.0
-brand,14,0.0
-id:uuid,14,0.0
-id_commune,14,0.0
-scolar district,14,0.0
-source d'alimentation,14,0.0
-source2:date,14,0.0
-21 mai 2010,13,0.0
-Geometie _source_type,13,0.0
-address:streeet,13,0.0
-adress street,13,0.0
-attribution,13,0.0
-fuel:diesel,13,0.0
-hospital_facility:access,13,0.0
-name_old,13,0.0
-paiement,13,0.0
-stars,13,0.0
-wood,13,0.0
-Date Geometie,12,0.0
-Geometrie source type,12,0.0
-addr:electronique,12,0.0
-capacite,12,0.0
-capacity:disabled,12,0.0
-capacity:parent,12,0.0
-capacity:women,12,0.0
-geometrie source type,12,0.0
-personnel_suport,12,0.0
-scolar type,12,0.0
-Type de source electricque,11,0.0
-atm,11,0.0
-attr:steet,11,0.0
-boundary_admin_level2_name,11,0.0
-comment,11,0.0
-contact person,11,0.0
-icao,11,0.0
-ims:frequency,11,0.0
-name_1,11,0.0
-pcode_3,11,0.0
-phone_emergency,11,0.0
-ref:sahana_id,11,0.0
-risk_impact_pop,11,0.0
-risk_level,11,0.0
-sogebank,11,0.0
-wikipedia:de,11,0.0
-Operateur,10,0.0
-damage,10,0.0
-health_facility:number_of_beds,10,0.0
-health_facility:operational_status,10,0.0
-infimieres,10,0.0
-lit,10,0.0
-medecin,10,0.0
-medical_service_description,10,0.0
-name:ru,10,0.0
-organization,10,0.0
-source:discussion,10,0.0
-statut_operationnel,10,0.0
-Atelier,9,0.0
-Espace,9,0.0
-camp_assessment_agency_name,9,0.0
-contact personne,9,0.0
-crossing,9,0.0
-damage_assessment_date,9,0.0
-frequence,9,0.0
-geometrie   source date,9,0.0
-int_name,9,0.0
-pcode_2,9,0.0
-pop_estimates_site_ind,9,0.0
-sahana:facility_status,9,0.0
-sahana:phone_business,9,0.0
-sensor,9,0.0
-Pers Resp,8,0.0
-URL,8,0.0
-depatement,8,0.0
-information,8,0.0
-military,8,0.0
-source:hospital_facility:access,8,0.0
-structure operationel,8,0.0
-voltage,8,0.0
-Point,7,0.0
-add:street,7,0.0
-address:housenumber,7,0.0
-alt_name:ht,7,0.0
-capacite en lits/matelas,7,0.0
-capacite_lits,7,0.0
-effectif,7,0.0
-famille,7,0.0
-geometry_ source _date,7,0.0
-hfac_beds,7,0.0
-hfac_capacity_description,7,0.0
-hospital_specialization,7,0.0
-impassible,7,0.0
-info_date,7,0.0
-picture,7,0.0
-seamark:landmark:category,7,0.0
-seamark:landmark:name,7,0.0
-seamark:light:1,7,0.0
-seamark:light:1:colour,7,0.0
-seamark:light:character,7,0.0
-seamark:light:height,7,0.0
-seamark:light:ref,7,0.0
-seamark:type,7,0.0
-source3,7,0.0
-source:operator,7,0.0
-source:population,7,0.0
-Attribute_additionelle,6,0.0
-Geometrie_source type,6,0.0
-SOURCE,6,0.0
-addres,6,0.0
-attribut-source-type,6,0.0
-cables,6,0.0
-closest_town,6,0.0
-contact-person,6,0.0
-contact_peraon,6,0.0
-crossing_ref,6,0.0
-geometry_ source_ type,6,0.0
-name:kr,6,0.0
-narrow,6,0.0
-nom de l'organisation,6,0.0
-nombre,6,0.0
-pers resp,6,0.0
-personne de support,6,0.0
-place:nearestlandmark,6,0.0
-sahana:is_in:city,6,0.0
-sahana:name,6,0.0
-seamark:light:1:nominal_range,6,0.0
-seamark:light:period,6,0.0
-source:alt_name:ht,6,0.0
-source:source,6,0.0
-statut,6,0.0
-target,6,0.0
-Famille,5,0.0
-Option,5,0.0
-Water_quality_issue,5,0.0
-adress:street,5,0.0
-ameinity,5,0.0
-capital:Department,5,0.0
-city_served,5,0.0
-contact:email,5,0.0
-contact_personne,5,0.0
-figure,5,0.0
-fixed,5,0.0
-name:alt,5,0.0
-name_2,5,0.0
-name_en,5,0.0
-nom du centre de soin cholera,5,0.0
-nom et prenom du representant de l'organisation,5,0.0
-orientation,5,0.0
-payment:notes,5,0.0
-pcode:3,5,0.0
-person_contact,5,0.0
-personnel de support,5,0.0
-residential,5,0.0
-service_quality,5,0.0
-source:amenity,5,0.0
-source:is_in:city,5,0.0
-source:waterway,5,0.0
-source_ref:addr,5,0.0
-source_ref:capacity,5,0.0
-source_ref:is_in:city,5,0.0
-traffic_calming,5,0.0
-water_provision,5,0.0
-wikipedia:es,5,0.0
-Adresse,4,0.0
-Attribute_source,4,0.0
-Effectif,4,0.0
-Humanitarian:Obstacle:Type,4,0.0
-Nom du camp,4,0.0
-Note,4,0.0
-Paiement,4,0.0
-Tel,4,0.0
-Type,4,0.0
-addr:conscriptionnumber,4,0.0
-attribution source date,4,0.0
-capacite en lits,4,0.0
-contact _person,4,0.0
-contact:person,4,0.0
-containers,4,0.0
-ecole,4,0.0
-extensible a lits,4,0.0
-fees,4,0.0
-frequency,4,0.0
-fuel:HGV_diesel,4,0.0
-health_facility,4,0.0
-hfac_current_floor_space_use,4,0.0
-hires,4,0.0
-kerb,4,0.0
-length,4,0.0
-loc_name,4,0.0
-mvdgis:cod_nombre,4,0.0
-mvdgis:padron,4,0.0
-nom du centre de soin colera,4,0.0
-official_name,4,0.0
-payment:coins,4,0.0
-payment:telephone_cards,4,0.0
-person contact,4,0.0
-personne_de_support,4,0.0
-shower_number,4,0.0
-site_type,4,0.0
-soruce,4,0.0
-source:capacity,4,0.0
-source:length:url,4,0.0
-source:loc,4,0.0
-source_ref:alt_name,4,0.0
-structure,4,0.0
-tactile_paving,4,0.0
-tel,4,0.0
-temporary,4,0.0
-wires,4,0.0
-Figure,3,0.0
-KSJ2:coordinate,3,0.0
-KSJ2:curve_id,3,0.0
-KSJ2:filename,3,0.0
-KSJ2:lat,3,0.0
-KSJ2:long,3,0.0
-abandoned,3,0.0
-addr:,3,0.0
-addr_country,3,0.0
-addr_street,3,0.0
-address:postal_code,3,0.0
-att ribute source type,3,0.0
-attribution source name,3,0.0
-autre_contact_person,3,0.0
-cafeteriat,3,0.0
-canal,3,0.0
-capacity_lits,3,0.0
-contact_person_crc,3,0.0
-contributed_by,3,0.0
-earthquake,3,0.0
-extensible alits,3,0.0
-fax:,3,0.0
-harbour,3,0.0
-harbour:LOCODE,3,0.0
-harbour:name,3,0.0
-harbour:namenational,3,0.0
-harbour:size,3,0.0
-hfac_medical_service_description,3,0.0
-higthway,3,0.0
-humanitarian:obstacle:operationalstatus,3,0.0
-humanitarian:obstacle:operationalstatusquality,3,0.0
-import,3,0.0
-is_in:county,3,0.0
-is_in:town,3,0.0
-junction,3,0.0
-license_classes,3,0.0
-lieu,3,0.0
-note:ja,3,0.0
-note:question,3,0.0
-original:source,3,0.0
-personnel_support,3,0.0
-phone_crc,3,0.0
-pid,3,0.0
-radio,3,0.0
-resolution,3,0.0
-seamark:light:group,3,0.0
-secteur,3,0.0
-source:abandoned,3,0.0
-telecomunication,3,0.0
-telephone,3,0.0
-vehicle,3,0.0
-Beds,2,0.0
-Bridge,2,0.0
-Contact,2,0.0
-Damage,2,0.0
-Geometry_Source_name,2,0.0
-Humanitarian:Obstacle:OperationalStatus,2,0.0
-Humanitarian:Road:Practicability,2,0.0
-Humanitarian:Road:Security,2,0.0
-Operational_status_status,2,0.0
-Phonne,2,0.0
-Scolar;ditrict,2,0.0
-Surgical,2,0.0
-abutters,2,0.0
-addess-street,2,0.0
-addr: street,2,0.0
-addr;street,2,0.0
-address_street,2,0.0
-alt_source,2,0.0
-altname,2,0.0
-atatut operationnel,2,0.0
-atatutoperationnel,2,0.0
-autre_phone,2,0.0
-bureau,2,0.0
-capacite_en_lits,2,0.0
-car,2,0.0
-castle_type,2,0.0
-ce centre est il rattache ou situe dans une structure de sante,2,0.0
-channel,2,0.0
-community,2,0.0
-community:de,2,0.0
-community:en,2,0.0
-community:fr,2,0.0
-community:it,2,0.0
-community_centre,2,0.0
-"contact_person du lieu d""intervention",2,0.0
-contact_persoon,2,0.0
-contact_phone,2,0.0
-country:name,2,0.0
-craft,2,0.0
-created_by,2,0.0
-date d'attribution,2,0.0
-directeur,2,0.0
-disused,2,0.0
-extensible_lits,2,0.0
-farmland,2,0.0
-fax,2,0.0
-fuel:cng,2,0.0
-fuel:octane_91,2,0.0
-fuel:octane_95,2,0.0
-garden,2,0.0
-geometrie source date,2,0.0
-haitiantag,2,0.0
-hcare_orc,2,0.0
-horaire d'ouverture,2,0.0
-imappasble,2,0.0
-import_tools,2,0.0
-lieux des cultes,2,0.0
-lighthouse,2,0.0
-loc_name:source,2,0.0
-mayor,2,0.0
-name:MINUSTAH,2,0.0
-name_ruelle,2,0.0
-no_natural,2,0.0
-nom,2,0.0
-nom et prenom de la personne de contact,2,0.0
-nom_organisation,2,0.0
-nom_utc,2,0.0
-numero de tel,2,0.0
-organisation,2,0.0
-osak:identifier,2,0.0
-osak:municipality_no,2,0.0
-osak:revision,2,0.0
-osak:street_no,2,0.0
-personne-contact,2,0.0
-phone_business,2,0.0
-phone_wash,2,0.0
-postal_code,2,0.0
-question,2,0.0
-re_opening_date,2,0.0
-satut,2,0.0
-seamark:light:1:sector_end,2,0.0
-seamark:light:1:sector_start,2,0.0
-secteur communale ou arrondissement,2,0.0
-source d'attribution,2,0.0
-source:landuse,2,0.0
-source:name/,2,0.0
-source:oneway,2,0.0
-source:ushahidi,2,0.0
-soure,2,0.0
-stairs,2,0.0
-stucture rattache,2,0.0
-tower:type:fixme,2,0.0
-track,2,0.0
-trees,2,0.0
-type d'operateur,2,0.0
-type-de structure,2,0.0
-uic_ref,2,0.0
-unsure,2,0.0
-water,2,0.0
-website2,2,0.0
-ADRESS,1,0.0
-Attribute_Source_Date,1,0.0
-Capacity de service,1,0.0
-Capacité,1,0.0
-Damage_status,1,0.0
-Description,1,0.0
-Facebook,1,0.0
-Hauteur,1,0.0
-Mare-D'eau,1,0.0
-Nombre de chambre,1,0.0
-Operator,1,0.0
-Sahana:is_in:city,1,0.0
-Sahana:name,1,0.0
-Source:name,1,0.0
-Type D'Obstacle,1,0.0
-UN Delta Camp,1,0.0
-Website,1,0.0
-Zone,1,0.0
-addr:Street,1,0.0
-addr:country_national_code,1,0.0
-addr:countrya,1,0.0
-addr:housename,1,0.0
-addr:provisionalnumber,1,0.0
-addr:strees,1,0.0
-address:email,1,0.0
-adr:street,1,0.0
-adresfull,1,0.0
-adress:city,1,0.0
-aera,1,0.0
-agent autorise,1,0.0
-airway,1,0.0
-atribute_source_type,1,0.0
-attribute source type,1,0.0
-attribute_ source_ type,1,0.0
-attribution source type,1,0.0
-atttribute_source_date,1,0.0
-barrier:type,1,0.0
-billboard,1,0.0
-cable,1,0.0
-centre_cholera,1,0.0
-cine,1,0.0
-collapsed,1,0.0
-construction,1,0.0
-covered,1,0.0
-denomination:fr,1,0.0
-denotation,1,0.0
-disco,1,0.0
-disusedd:comment,1,0.0
-drinkable,1,0.0
-drive-in,1,0.0
-embankment,1,0.0
-end_date,1,0.0
-entrance,1,0.0
-espace,1,0.0
-extensible a lits/matelas,1,0.0
-fenced,1,0.0
-fort,1,0.0
-fuel:GTL_diesel,1,0.0
-fuel:biodiesel,1,0.0
-geometrie_source_name,1,0.0
-grade,1,0.0
-grometry_source-type,1,0.0
-haut,1,0.0
-health_facility:beds,1,0.0
-high,1,0.0
-id,1,0.0
-id:uid,1,0.0
-it,1,0.0
-map_extent,1,0.0
-mapping_error:note,1,0.0
-mapping_practicalities,1,0.0
-mapping_pratices,1,0.0
-medcin,1,0.0
-medical facility,1,0.0
-medical_facility,1,0.0
-nama,1,0.0
-name:,1,0.0
-name:de,1,0.0
-name:it,1,0.0
-name:pt,1,0.0
-name:pt-br,1,0.0
-name:zh,1,0.0
-name_alt,1,0.0
-name_fr,1,0.0
-network,1,0.0
-network_service,1,0.0
-note:fixme,1,0.0
-note:source_ref:name,1,0.0
-note_2,1,0.0
-note_3,1,0.0
-obstacle,1,0.0
-official_name:en,1,0.0
-old_name,1,0.0
-old_name:it,1,0.0
-old_name:pt,1,0.0
-operator-type,1,0.0
-oprator,1,0.0
-osak:subdivision,1,0.0
-path,1,0.0
-pcode:,1,0.0
-peak,1,0.0
-persone contact,1,0.0
-personel de support,1,0.0
-place_name,1,0.0
-pop_estimates_area,1,0.0
-pos_sol,1,0.0
-ref:Sahana_id,1,0.0
-responsable,1,0.0
-retaining wall,1,0.0
-seamark:light:#:sector_end,1,0.0
-seamark:light:#:sector_start,1,0.0
-smoothness,1,0.0
-so,1,0.0
-soruce2,1,0.0
-souce2,1,0.0
-sour:is_in,1,0.0
-source:bridge,1,0.0
-source:highway,1,0.0
-source:original,1,0.0
-source:position,1,0.0
-source_ref1,1,0.0
-source_ref:name,1,0.0
-sources,1,0.0
-sourcw,1,0.0
-sourse,1,0.0
-start_date,1,0.0
-store,1,0.0
-structure scolaire,1,0.0
-supervised,1,0.0
-surveillance,1,0.0
-tents,1,0.0
-tower:construction,1,0.0
-undefined,1,0.0
-vending,1,0.0
-well,1,0.0
+address:city,191,0.0498
+Geometry source date,189,0.0492
+source:sahana,189,0.0492
+Attribute_Source_Type,187,0.0487
+AttributeSource date,185,0.0482
+motorcycle,181,0.0472
+name:botanical,181,0.0472
+transportation_use_category,181,0.0472
+base material values,177,0.0461
+name:en,177,0.0461
+power,172,0.0448
+oneway,171,0.0446
+denomination,169,0.044
+Geometry source name,168,0.0438
+school_ht_fondamental_1er_et_2e_cycle,166,0.0433
+opening_hours,159,0.0414
+HasCampResidentCommittee,153,0.0399
+settlement_type,152,0.0396
+bridge_type,144,0.0375
+school_license,142,0.037
+Geometrie_source_type,141,0.0367
+horse,141,0.0367
+program_aquatab,141,0.0367
+psv,133,0.0347
+motorcar,132,0.0344
+hgv,131,0.0341
+agricultural,127,0.0331
+service,126,0.0328
+source2,126,0.0328
+office,124,0.0323
+camp_registered,123,0.032
+goods,123,0.032
+camp_management_agency,122,0.0318
+fee,121,0.0315
+name:fr,116,0.0302
+Attribute source name,114,0.0297
+hum_use,114,0.0297
+wheelchair,106,0.0276
+operator id,105,0.0274
+phoneemergency,102,0.0266
+health_facility:organisation,100,0.0261
+school_ht_prescolaire,100,0.0261
+address,99,0.0258
+address:ward,99,0.0258
+barrier:obstacle_type,99,0.0258
+average_waiting_time,98,0.0255
+paho:damage:date,95,0.0248
+paho:damage:source,95,0.0248
+tunnel,90,0.0235
+ele,88,0.0229
+orig:location,86,0.0224
+paho:damage,86,0.0224
+intermittent,83,0.0216
+camp_assessed,81,0.0211
+capacity,76,0.0198
+task,75,0.0195
+note:by,71,0.0185
+quantity,70,0.0182
+operational,67,0.0175
+aerialway,66,0.0172
+date,66,0.0172
+addr:housenumber,65,0.0169
+source type,65,0.0169
+copythis,64,0.0167
+geometrie_source_type,64,0.0167
+hfac_current_bed_use,64,0.0167
+waterpoint_type,64,0.0167
+name:ht,63,0.0164
+is_in,62,0.0162
+phonebusiness,61,0.0159
+Genre,60,0.0156
+attribute_source-date,60,0.0156
+dispensing,59,0.0154
+school_ht_fondamental_3e_cycle_et_Secondaire,59,0.0154
+source:ref,58,0.0151
+health_facility_type,57,0.0149
+firesideint:schooltag,56,0.0146
+width,55,0.0143
+source:url,53,0.0138
+paho:operational_status,51,0.0133
+paho:operational_status:date,51,0.0133
+paho:operational_status:source,51,0.0133
+tracktype,50,0.013
+operator type,48,0.0125
+operator_installation,48,0.0125
+addr:full,47,0.0122
+attribut_source_date,46,0.012
+contact_ person,46,0.012
+place:area,46,0.012
+Name,45,0.0117
+departement,45,0.0117
+email,45,0.0117
+Geometrie_source_date,44,0.0115
+ID,43,0.0112
+passing_places,43,0.0112
+Commune,40,0.0104
+source_name,40,0.0104
+historic,38,0.0099
+registry_name,37,0.0096
+attribute_ source_ date,36,0.0094
+medecins,36,0.0094
+obstacle_type,36,0.0094
+population,36,0.0094
+Capacite,35,0.0091
+point,35,0.0091
+classe,34,0.0089
+url,34,0.0089
+Organization_Name,33,0.0086
+aeroway,33,0.0086
+atribut souce name,33,0.0086
+pcode:2,33,0.0086
+pop_estimates_site_hou,33,0.0086
+source_ref,33,0.0086
+infirmieres,32,0.0083
+pos_sol:,32,0.0083
+tower:type,32,0.0083
+camp_management_agency_name,31,0.0081
+NAME,30,0.0078
+Operator type,29,0.0076
+alt_name,29,0.0076
+surfacecondition,29,0.0076
+Adress,27,0.007
+Quantity,27,0.007
+address:street,27,0.007
+quantité,27,0.007
+source:building,27,0.007
+cuisine,26,0.0068
+impassable,26,0.0068
+school_zone,26,0.0068
+Geometry_source_name,25,0.0065
+addr:ward,25,0.0065
+address:country_national_code,25,0.0065
+adress,25,0.0065
+source:date,25,0.0065
+alimentation,24,0.0063
+voltage:,24,0.0063
+geometrie souce name,23,0.006
+source:geometry,23,0.006
+Attribut_source-date,22,0.0057
+HealthFacilityCapacityDescription,22,0.0057
+HealthFacilityConstructionDescription,22,0.0057
+HealthFacilityServiceDescription,22,0.0057
+mapping_error,22,0.0057
+mapping_practices,22,0.0057
+Attribute_source_name,21,0.0055
+name:source,21,0.0055
+security,21,0.0055
+wikipedia,21,0.0055
+name:es,20,0.0052
+place:area-alternate,20,0.0052
+toll,20,0.0052
+backrest,19,0.005
+barrier_bypass,19,0.005
+contact,19,0.005
+keepme,19,0.005
+material,19,0.005
+Capacity,18,0.0047
+camp_type,18,0.0047
+colour,18,0.0047
+is_in:country,18,0.0047
+parking,18,0.0047
+seats,18,0.0047
+AttributeSourceDate,17,0.0044
+country,17,0.0044
+Phone,16,0.0042
+hospital,16,0.0042
+park_ride,16,0.0042
+Objet,15,0.0039
+add:city,15,0.0039
+camp_registered_agency_name,15,0.0039
+ims:id,15,0.0039
+personne_contact,15,0.0039
+source:addr,15,0.0039
+wikipedia:en,15,0.0039
+earthquake_damage,14,0.0036
+imagery,14,0.0036
+scolar district,14,0.0036
+source2:date,14,0.0036
+21 mai 2010,13,0.0034
+Geometie _source_type,13,0.0034
+name_old,13,0.0034
+paiement,13,0.0034
+Date Geometie,12,0.0031
+Geometrie source type,12,0.0031
+addr:postal_code,12,0.0031
+adress street,12,0.0031
+attribution,12,0.0031
+capacity:disabled,12,0.0031
+capacity:parent,12,0.0031
+capacity:women,12,0.0031
+ims:media_type,12,0.0031
+is_in:Department,12,0.0031
+key,12,0.0031
+scolar type,12,0.0031
+source:alt_name,12,0.0031
+Type de source electricque,11,0.0029
+attr:steet,11,0.0029
+comment,11,0.0029
+name_1,11,0.0029
+pcode_3,11,0.0029
+sogebank,11,0.0029
+Operateur,10,0.0026
+addr,10,0.0026
+addr:postcode,10,0.0026
+hcare_ors,10,0.0026
+id:uuid,10,0.0026
+lanes,10,0.0026
+level,10,0.0026
+operator_id,10,0.0026
+ref:sahana_id,10,0.0026
+source:discussion,10,0.0026
+wikipedia:fr,10,0.0026
+Atelier,9,0.0023
+Espace,9,0.0023
+hcare_ctu,9,0.0023
+is_in:city,9,0.0023
+pcode_2,9,0.0023
+sahana:address,9,0.0023
+sahana:facility_status,9,0.0023
+sahana:phone_business,9,0.0023
+telecommunication,9,0.0023
+Pers Resp,8,0.0021
+URL,8,0.0021
+camp_assessment_agency_name,8,0.0021
+capacite,8,0.0021
+contact person,8,0.0021
+depatement,8,0.0021
+iata,8,0.0021
+ims:frequency,8,0.0021
+is_in:country_code,8,0.0021
+phone_emergency,8,0.0021
+pop_estimates_site_ind,8,0.0021
+voltage,8,0.0021
+Point,7,0.0018
+address:housenumber,7,0.0018
+capacite en lits/matelas,7,0.0018
+famille,7,0.0018
+geometry_ source _date,7,0.0018
+impassible,7,0.0018
+lit,7,0.0018
+picture,7,0.0018
+railway,7,0.0018
+smoking,7,0.0018
+source:name:fr,7,0.0018
+source:name:ht,7,0.0018
+Attribute_additionelle,6,0.0016
+Geometrie_source type,6,0.0016
+SOURCE,6,0.0016
+addres,6,0.0016
+attribut-source-type,6,0.0016
+cables,6,0.0016
+closest_town,6,0.0016
+contact_peraon,6,0.0016
+geometry_ source_ type,6,0.0016
+hcare_ctc,6,0.0016
+history,6,0.0016
+icao,6,0.0016
+internet_access,6,0.0016
+is_in:Arrondissement,6,0.0016
+name:kr,6,0.0016
+narrow,6,0.0016
+nom de l'organisation,6,0.0016
+pers resp,6,0.0016
+personne de support,6,0.0016
+seamark:landmark:category,6,0.0016
+seamark:landmark:name,6,0.0016
+seamark:light:1,6,0.0016
+seamark:light:1:colour,6,0.0016
+seamark:light:character,6,0.0016
+seamark:light:height,6,0.0016
+seamark:light:ref,6,0.0016
+seamark:type,6,0.0016
+source:is_in,6,0.0016
+source:nanme,6,0.0016
+target,6,0.0016
+wikipedia:de,6,0.0016
+Famille,5,0.0013
+Option,5,0.0013
+Water_quality_issue,5,0.0013
+ameinity,5,0.0013
+brand,5,0.0013
+contact:email,5,0.0013
+contact_personne,5,0.0013
+figure,5,0.0013
+fixed,5,0.0013
+fuel:diesel,5,0.0013
+information,5,0.0013
+name:alt,5,0.0013
+name_2,5,0.0013
+name_en,5,0.0013
+nom du centre de soin cholera,5,0.0013
+nom et prenom du representant de l'organisation,5,0.0013
+payment:notes,5,0.0013
+person_contact,5,0.0013
+personnel de support,5,0.0013
+residential,5,0.0013
+seamark:light:1:nominal_range,5,0.0013
+seamark:light:period,5,0.0013
+source:amenity,5,0.0013
+source:is_in:city,5,0.0013
+source:waterway,5,0.0013
+source_ref:addr,5,0.0013
+source_ref:is_in:city,5,0.0013
+water_provision,5,0.0013
+wetland,5,0.0013
+wikipedia:es,5,0.0013
+wikipedia:ht,5,0.0013
+Adresse,4,0.001
+Attribute_source,4,0.001
+Humanitarian:Obstacle:Type,4,0.001
+Nom du camp,4,0.001
+Paiement,4,0.001
+Tel,4,0.001
+Type,4,0.001
+atm,4,0.001
+capacite en lits,4,0.001
+contact _person,4,0.001
+containers,4,0.001
+extensible a lits,4,0.001
+fees,4,0.001
+health_facility,4,0.001
+hires,4,0.001
+id_commune,4,0.001
+internet_access:fee,4,0.001
+name:ru,4,0.001
+nom du centre de soin colera,4,0.001
+official_name,4,0.001
+personne_de_support,4,0.001
+sensor,4,0.001
+shower_number,4,0.001
+soruce,4,0.001
+source_ref:alt_name,4,0.001
+stars,4,0.001
+statut_operationnel,4,0.001
+tel,4,0.001
+temporary,4,0.001
+wires,4,0.001
+Figure,3,0.0008
+addr:,3,0.0008
+addr_country,3,0.0008
+addr_street,3,0.0008
+address:postal_code,3,0.0008
+att ribute source type,3,0.0008
+cafeteriat,3,0.0008
+capacite_lits,3,0.0008
+contributed_by,3,0.0008
+extensible alits,3,0.0008
+fax:,3,0.0008
+harbour,3,0.0008
+harbour:LOCODE,3,0.0008
+harbour:name,3,0.0008
+harbour:namenational,3,0.0008
+harbour:size,3,0.0008
+higthway,3,0.0008
+humanitarian:obstacle:operationalstatus,3,0.0008
+humanitarian:obstacle:operationalstatusquality,3,0.0008
+lieu,3,0.0008
+note:question,3,0.0008
+original:source,3,0.0008
+payment:coins,3,0.0008
+pid,3,0.0008
+resolution,3,0.0008
+seamark:light:group,3,0.0008
+telecomunication,3,0.0008
+vehicle,3,0.0008
+Beds,2,0.0005
+Bridge,2,0.0005
+Contact,2,0.0005
+Damage,2,0.0005
+Geometry_Source_name,2,0.0005
+Humanitarian:Obstacle:OperationalStatus,2,0.0005
+Humanitarian:Road:Practicability,2,0.0005
+Humanitarian:Road:Security,2,0.0005
+Operational_status_status,2,0.0005
+Phonne,2,0.0005
+Scolar;ditrict,2,0.0005
+Surgical,2,0.0005
+addess-street,2,0.0005
+addr street,2,0.0005
+addr: street,2,0.0005
+addr;street,2,0.0005
+address_street,2,0.0005
+alt_source,2,0.0005
+altname,2,0.0005
+capacite_en_lits,2,0.0005
+ce centre est il rattache ou situe dans une structure de sante,2,0.0005
+community,2,0.0005
+community:de,2,0.0005
+community:en,2,0.0005
+community:fr,2,0.0005
+community:it,2,0.0005
+community_centre,2,0.0005
+"contact_person du lieu d""intervention",2,0.0005
+contact_persoon,2,0.0005
+contact_phone,2,0.0005
+craft,2,0.0005
+crossing,2,0.0005
+earthquake,2,0.0005
+ecole,2,0.0005
+extensible_lits,2,0.0005
+farmland,2,0.0005
+garden,2,0.0005
+hfac_current_floor_space_use,2,0.0005
+imappasble,2,0.0005
+junction,2,0.0005
+lighthouse,2,0.0005
+loc_name,2,0.0005
+loc_name:source,2,0.0005
+mayor,2,0.0005
+no_natural,2,0.0005
+nom et prenom de la personne de contact,2,0.0005
+nom_organisation,2,0.0005
+nom_utc,2,0.0005
+numero de tel,2,0.0005
+organisation,2,0.0005
+personnel_support,2,0.0005
+phone_business,2,0.0005
+phone_wash,2,0.0005
+seamark:light:1:sector_end,2,0.0005
+seamark:light:1:sector_start,2,0.0005
+secteur communale ou arrondissement,2,0.0005
+service_quality,2,0.0005
+source:oneway,2,0.0005
+source:ushahidi,2,0.0005
+source_2,2,0.0005
+stairs,2,0.0005
+stucture rattache,2,0.0005
+telephone,2,0.0005
+tower:type:fixme,2,0.0005
+traffic_calming,2,0.0005
+trees,2,0.0005
+uic_ref,2,0.0005
+unsure,2,0.0005
+website2,2,0.0005
+ADRESS,1,0.0003
+Attribute_Source_Date,1,0.0003
+Capacité,1,0.0003
+Damage_status,1,0.0003
+Description,1,0.0003
+Facebook,1,0.0003
+Hauteur,1,0.0003
+Mare-D'eau,1,0.0003
+Nombre de chambre,1,0.0003
+Note,1,0.0003
+Operator,1,0.0003
+Type D'Obstacle,1,0.0003
+UN Delta Camp,1,0.0003
+Website,1,0.0003
+Zone,1,0.0003
+addr:Street,1,0.0003
+addr:country_national_code,1,0.0003
+addr:housename,1,0.0003
+addr:strees,1,0.0003
+aera,1,0.0003
+atribute_source_type,1,0.0003
+attribute source type,1,0.0003
+attribute_ source_ type,1,0.0003
+atttribute_source_date,1,0.0003
+barrier:type,1,0.0003
+billboard,1,0.0003
+bureau,1,0.0003
+cable,1,0.0003
+capacity_lits,1,0.0003
+centre_cholera,1,0.0003
+collapsed,1,0.0003
+construction,1,0.0003
+crossing_ref,1,0.0003
+denomination:fr,1,0.0003
+disused,1,0.0003
+disusedd:comment,1,0.0003
+drinkable,1,0.0003
+drive-in,1,0.0003
+espace,1,0.0003
+extensible a lits/matelas,1,0.0003
+fuel:GTL_diesel,1,0.0003
+fuel:biodiesel,1,0.0003
+fuel:octane_91,1,0.0003
+fuel:octane_95,1,0.0003
+geometrie source type,1,0.0003
+grade,1,0.0003
+grometry_source-type,1,0.0003
+haut,1,0.0003
+high,1,0.0003
+length,1,0.0003
+mapping_error:note,1,0.0003
+mapping_practicalities,1,0.0003
+mapping_pratices,1,0.0003
+name:,1,0.0003
+name:de,1,0.0003
+name:it,1,0.0003
+name:pt,1,0.0003
+name:pt-br,1,0.0003
+name:zh,1,0.0003
+name_alt,1,0.0003
+name_fr,1,0.0003
+obstacle,1,0.0003
+official_name:en,1,0.0003
+old_name,1,0.0003
+old_name:it,1,0.0003
+old_name:pt,1,0.0003
+operator-type,1,0.0003
+orientation,1,0.0003
+peak,1,0.0003
+person contact,1,0.0003
+persone contact,1,0.0003
+personel de support,1,0.0003
+pos_sol,1,0.0003
+retaining wall,1,0.0003
+seamark:light:#:sector_end,1,0.0003
+seamark:light:#:sector_start,1,0.0003
+smoothness,1,0.0003
+so,1,0.0003
+soruce2,1,0.0003
+source:bridge,1,0.0003
+source:highway,1,0.0003
+source:landuse,1,0.0003
+source:length:url,1,0.0003
+source:original,1,0.0003
+source:population,1,0.0003
+source:position,1,0.0003
+sourse,1,0.0003
+surveillance,1,0.0003
+tents,1,0.0003
+tower:construction,1,0.0003
+undefined,1,0.0003
+vending,1,0.0003
+well,1,0.0003

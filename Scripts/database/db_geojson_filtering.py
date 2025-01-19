@@ -21,7 +21,7 @@ if __name__ == "__main__":
     utils.db_connect()
 
 
-    for disaster_id in range(6,7):
+    for disaster_id in range(1,7):
         validate_coordinates(disaster_id)
         remove_invalid(disaster_id)
 

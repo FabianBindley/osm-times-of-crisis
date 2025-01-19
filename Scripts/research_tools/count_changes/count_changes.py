@@ -106,7 +106,7 @@ def count_by_interval_length(disaster_id, disaster_date, pre_disaster_days, imm_
         current += timedelta(days=interval_length)
     intervals.append(end_range)  # Include the final end date
 
-    counts = db_utils.count_changes_in_interval(disaster_id, intervals)
+    counts = db_utils.count_changes_in_interval_3_years_pre(disaster_id, intervals)
 
     delta = timedelta(interval_length)
 

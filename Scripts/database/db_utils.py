@@ -193,6 +193,57 @@ class DB_Utils:
         return results
     
 
+    def count_changes_in_interval(self, disaster_id, intervals):
+        results = []
+        cursor = self.connection.cursor()
+        # Calculate the difference in time between the intervals
+        delta = intervals[1] - intervals[0]
+
+        for i in range(len(intervals)-1):
+            start_date = intervals[i]
+            end_date = intervals[i+1]
+
+            # Query to count changes within the interval for the given disaster_id
+            query = """
+                SELECT COUNT(*)
+                FROM changes_3_year_pre
+                WHERE disaster_id = %s AND timestamp >= %s AND timestamp < %s;
+            """
+            cursor.execute(query, (disaster_id, start_date, end_date))
+            total_count = cursor.fetchone()[0]
+
+            # Query to count changes within the interval for the given disaster_id
+            query = """
+                SELECT COUNT(*)
+                FROM changes_3_year_pre
+                WHERE disaster_id = %s AND timestamp >= %s AND timestamp < %s AND edit_type = 'create';
+            """
+            cursor.execute(query, (disaster_id, start_date, end_date))
+            create_count = cursor.fetchone()[0]
+
+            # Query to count changes within the interval for the given disaster_id
+            query = """
+                SELECT COUNT(*)
+                FROM changes_3_year_pre
+                WHERE disaster_id = %s AND timestamp >= %s AND timestamp < %s AND edit_type = 'edit';
+            """
+            cursor.execute(query, (disaster_id, start_date, end_date))
+            edit_count = cursor.fetchone()[0]
+
+            # Query to count changes within the interval for the given disaster_id
+            query = """
+                SELECT COUNT(*)
+                FROM changes_3_year_pre
+                WHERE disaster_id = %s AND timestamp >= %s AND timestamp < %s AND edit_type = 'delete';
+            """
+            cursor.execute(query, (disaster_id, start_date, end_date))
+            delete_count = cursor.fetchone()[0]
+
+            # Append results as a tuple of (start_date, end_date, count)
+            results.append((create_count, edit_count, delete_count,total_count))
+        return results
+    
+
 
     def get_changes_in_interval(self, start_date, end_date, disaster_id):
 
@@ -433,3 +484,54 @@ class DB_Utils:
 
         cursor.execute(total_changes_query)
         return cursor.fetchone()[0]
+    
+
+    def get_tag_key_value_usage(self, keys):
+        cursor = self.connection.cursor()
+        keys_sql = ", ".join(["%s"] * len(keys))
+
+        # Query to get the count of each value for the provided keys
+        tag_key_value_count_query = f"""
+        SELECT key, value, COUNT(*) AS usage_count
+        FROM (
+            SELECT jsonb_object_keys(tags) AS key, 
+                tags ->> jsonb_object_keys(tags) AS value
+            FROM changes
+            WHERE tags IS NOT NULL
+        ) subquery
+        WHERE key IN ({keys_sql})
+        GROUP BY key, value
+        ORDER BY key, usage_count DESC, value
+        """
+
+        # Execute the query with keys as parameters
+        cursor.execute(tag_key_value_count_query, keys)
+        return cursor.fetchall()
+
+    def get_tag_key_value_usage_for_disaster(self, keys, disaster_id, intervals):
+        cursor = self.connection.cursor()
+        keys_sql = ", ".join(["%s"] * len(keys))
+
+        # Query to get the count of each tag
+        tag_key_count_query = f"""
+        SELECT key, value, COUNT(*) AS usage_count
+            FROM (
+                SELECT jsonb_object_keys(tags) AS key,
+                    tags ->> jsonb_object_keys(tags) AS value
+                FROM changes
+                WHERE disaster_id = %s AND timestamp >= %s AND timestamp < %s AND tags IS NOT NULL
+            ) subquery
+            WHERE key IN ({keys_sql})
+            GROUP BY key, value
+            ORDER BY key, usage_count DESC, value
+        """
+
+        results = []
+        for i in range(len(intervals)-1):
+            start_date = intervals[i]
+            end_date = intervals[i+1]
+
+            cursor.execute(tag_key_count_query, (disaster_id, start_date, end_date, *keys))
+            results.append(cursor.fetchall())
+
+        return results

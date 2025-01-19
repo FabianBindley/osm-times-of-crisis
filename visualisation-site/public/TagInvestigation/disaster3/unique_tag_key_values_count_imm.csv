@@ -1,0 +1,4442 @@
+key,value,count,percent_of_total_changes_for_key
+amenity,hospital,321,34.7027
+amenity,school,127,13.7297
+amenity,place_of_worship,105,11.3514
+amenity,fuel,55,5.9459
+amenity,grave_yard,53,5.7297
+amenity,parking,52,5.6216
+amenity,embassy,26,2.8108
+amenity,police,26,2.8108
+amenity,dispensary,25,2.7027
+amenity,public_building,24,2.5946
+amenity,clinic,20,2.1622
+amenity,fountain,16,1.7297
+amenity,post_office,8,0.8649
+amenity,university,8,0.8649
+amenity,camp,7,0.7568
+amenity,bank,6,0.6486
+amenity,drinking_water,6,0.6486
+amenity,airport,4,0.4324
+amenity,college,4,0.4324
+amenity,studio,4,0.4324
+amenity,telephone,4,0.4324
+amenity,bar,2,0.2162
+amenity,fast_food,2,0.2162
+amenity,market,2,0.2162
+amenity,marketplace,2,0.2162
+amenity,prison,2,0.2162
+amenity,telegraph_office,2,0.2162
+amenity,townhall,2,0.2162
+amenity,bus_station,1,0.1081
+amenity,cinema,1,0.1081
+amenity,courthouse,1,0.1081
+amenity,harbor,1,0.1081
+amenity,library,1,0.1081
+amenity,logistic_base,1,0.1081
+amenity,nightclub,1,0.1081
+amenity,pharmacy,1,0.1081
+amenity,pub,1,0.1081
+amenity,radio or tv station;studio,1,0.1081
+building,yes,19517,73.284
+building,collapsed,6406,24.0538
+building,collapse,369,1.3856
+building,<different>,176,0.6609
+building,undefined,93,0.3492
+building,tank,33,0.1239
+building,container,8,0.03
+building,collasped,5,0.0188
+building,"was marked as building, but looks more like a camp",5,0.0188
+building,risky,4,0.015
+building,hangar,3,0.0113
+building,y,3,0.0113
+building,exhibition_airplane,2,0.0075
+building,"GeoEye,13/01/2010",1,0.0038
+building,Partial Collapse,1,0.0038
+building,church,1,0.0038
+building,colapsed,1,0.0038
+building,colllapse,1,0.0038
+building,colllapsed,1,0.0038
+building,monument,1,0.0038
+building,partially_collapsed,1,0.0038
+highway,unclassified,14970,26.1024
+highway,track,13570,23.6613
+highway,residential,10878,18.9674
+highway,path,4669,8.1411
+highway,service,3682,6.4201
+highway,footway,2784,4.8543
+highway,road,2540,4.4289
+highway,primary,1389,2.4219
+highway,secondary,1109,1.9337
+highway,tertiary,1075,1.8744
+highway,ford,319,0.5562
+highway,pedestrian,170,0.2964
+highway,living_street,46,0.0802
+highway,turning_circle,23,0.0401
+highway,obstacle,14,0.0244
+highway,secondary_link,13,0.0227
+highway,primary_link,11,0.0192
+highway,undefined,11,0.0192
+highway,trail,10,0.0174
+highway,unclassified; residential,7,0.0122
+highway,mini_roundabout,6,0.0105
+highway,raceway,6,0.0105
+highway,steps,6,0.0105
+highway,trak,5,0.0087
+highway,gate,3,0.0052
+highway,residential; unclassified,3,0.0052
+highway,tertiary_link,3,0.0052
+highway,bridleway,2,0.0035
+highway,pah,2,0.0035
+highway,residentia,2,0.0035
+highway,residential;unclassified,2,0.0035
+highway,stream,2,0.0035
+highway,tertiary; residential,2,0.0035
+highway,trunk,2,0.0035
+highway, track,1,0.0017
+highway,Path,1,0.0017
+highway,Sentier menant à une batisse isolée,1,0.0017
+highway,bus_stop,1,0.0017
+highway,footway; pedestrian,1,0.0017
+highway,path;track,1,0.0017
+highway,r,1,0.0017
+highway,re,1,0.0017
+highway,residential; road,1,0.0017
+highway,road; residential,1,0.0017
+highway,ter,1,0.0017
+highway,tra,1,0.0017
+highway,track; unclassified,1,0.0017
+highway,unclassified/waterway?,1,0.0017
+highway,unclassified; road,1,0.0017
+landuse,residential,4344,75.7983
+landuse,farmland,275,4.7985
+landuse,industrial,237,4.1354
+landuse,forest,205,3.577
+landuse,cemetery,153,2.6697
+landuse,farm,139,2.4254
+landuse,greenfield,118,2.059
+landuse,grass,48,0.8376
+landuse,farmyard,45,0.7852
+landuse,quarry,35,0.6107
+landuse,meadow,26,0.4537
+landuse,orchard,16,0.2792
+landuse,basin,15,0.2617
+landuse,recreation_ground,14,0.2443
+landuse,village_green,10,0.1745
+landuse,commercial,8,0.1396
+landuse,unknown,7,0.1221
+landuse,residental,5,0.0872
+landuse,landfill,3,0.0523
+landuse,military,3,0.0523
+landuse,reservoir,3,0.0523
+landuse,retail,3,0.0523
+landuse,scrub,3,0.0523
+landuse,Est-ce une installation de traitement des eaux ?,2,0.0349
+landuse,allotments,2,0.0349
+landuse,brownfield,2,0.0349
+landuse,construction,2,0.0349
+landuse,residentialX,2,0.0349
+landuse,wood,2,0.0349
+landuse,Ceci semble être une zone habitée,1,0.0174
+landuse,park,1,0.0174
+landuse,pitch,1,0.0174
+landuse,residential-FIXME,1,0.0174
+name,Nationale No 2,614,5.6042
+name,Nationale No 3,209,1.9076
+name,Nationale No 1,137,1.2505
+name,R9,124,1.1318
+name,Boulevard Jean-Jacques Dessalines,92,0.8397
+name,Boulevard Henri Truman,85,0.7758
+name,Route de Tabarre,73,0.6663
+name,Route des Dalles,69,0.6298
+name,Rue Metellus,64,0.5842
+name,Route de Kenscoff,62,0.5659
+name,Riviere Froide,55,0.502
+name,Route de Delmas,51,0.4655
+name,refugee camp,41,0.3742
+name,Avenue Hailé Sélassié,40,0.3651
+name,Rue Oswald Durand,38,0.3468
+name,Boulevard la Saline,36,0.3286
+name,Rivière de l'Artibonite,36,0.3286
+name,CARREFOUR,35,0.3195
+name,Grande Riviere De Jacmel,35,0.3195
+name,102,34,0.3103
+name,Port-au-Prince,33,0.3012
+name,ANSE-A-GALET,32,0.2921
+name,Avenue Monseigneur Guilloux,32,0.2921
+name,Nationale No 4,30,0.2738
+name,Bd Toussaint Louverture,29,0.2647
+name,KENSCOFF,29,0.2647
+name,Delmas 105 (Rte de Freres),27,0.2464
+name,LEOGANE,27,0.2464
+name,ARCAHAIE,26,0.2373
+name,Avenue Christophe,26,0.2373
+name,Rue Alerte,26,0.2373
+name,JACMEL,25,0.2282
+name,Avenue Mais Gate,24,0.2191
+name,Avenue Mais Gaté,23,0.2099
+name,POINTE A RAQUETTE,23,0.2099
+name,THOMAZEAU,23,0.2099
+name,Avenue John Brown,22,0.2008
+name,Rivière Grise,22,0.2008
+name,Unknown SAR zone,22,0.2008
+name,Rue Soleil 9,21,0.1917
+name,GRAND-GOAVE,20,0.1825
+name,Route du Canapé Vert,20,0.1825
+name,Rue Chretien,20,0.1825
+name,BOUCAN CARRE,19,0.1734
+name,Boulevard Harry Truman,19,0.1734
+name,Etang Saumâtre,19,0.1734
+name,PETION-VILLE,19,0.1734
+name,CABARET,18,0.1643
+name,DELMAS,18,0.1643
+name,PETITE RIVIERE DE L'ARTI,18,0.1643
+name,Rue Grégoire,18,0.1643
+name,Ruelle Faustin,18,0.1643
+name,Carrefour,17,0.1552
+name,Delmas 33,17,0.1552
+name,MIREBALAIS,17,0.1552
+name,Rue du Quai,17,0.1552
+name,SAUT-D'EAU,17,0.1552
+name,CROIX-DES-BOUQUES,16,0.146
+name,Clercine,16,0.146
+name,Léogâne,16,0.146
+name,Route des Dalle,16,0.146
+name,Rue Magny,16,0.146
+name,Avenida Martin Luther King,15,0.1369
+name,LA CHAPELLE,15,0.1369
+name,MIRAGOANE,15,0.1369
+name,PETIT-GOAVE,15,0.1369
+name,PORT-AU-PRINCE,15,0.1369
+name,Riviere Grise,15,0.1369
+name,Avenue Lamartinière,14,0.1278
+name,Delmas 31,14,0.1278
+name,Impasse Inginac,14,0.1278
+name,R. Fragneauville,14,0.1278
+name,Rue M Latortue,14,0.1278
+name,Rue Marcadieu,14,0.1278
+name,avenue Lamartinière,14,0.1278
+name,Avenue Pan-Américaine,13,0.1187
+name,Delmas 32,13,0.1187
+name,GRESSIER,13,0.1187
+name,Gressier,13,0.1187
+name,Lac de Péligre,13,0.1187
+name,Rue Archile,13,0.1187
+name,Rue Républicaine,13,0.1187
+name,Wadi,13,0.1187
+name,rue Capois,13,0.1187
+name,Avenue Jean Paul II,12,0.1095
+name,CORNILLON / GRD BOIS,12,0.1095
+name,DESSALINES / MARCHANDES,12,0.1095
+name,Rue Lambert,12,0.1095
+name,Rue Louverture,12,0.1095
+name,Rue Ogé,12,0.1095
+name,Ruelle Malet,12,0.1095
+name,Ruelle Muller,12,0.1095
+name,VERRETTES,12,0.1095
+name,Avenue Monsseigneur Guilloux,11,0.1004
+name,Avenue N,11,0.1004
+name,Delmas 48,11,0.1004
+name,Rue Carre,11,0.1004
+name,Rue Dessalines,11,0.1004
+name,Rue Fernand,11,0.1004
+name,Rue Fouchard,11,0.1004
+name,Rue Lisius,11,0.1004
+name,Rue Maurepas,11,0.1004
+name,Rue des Remparts,11,0.1004
+name,Shodecosa Industrial Park,11,0.1004
+name,Valerio Canez,11,0.1004
+name,Avenue Ovide,10,0.0913
+name,Darboun,10,0.0913
+name,Delmas 60,10,0.0913
+name,Delmas 83,10,0.0913
+name,Nursing School (FSIL),10,0.0913
+name,Rue Audain,10,0.0913
+name,Rue Cameau,10,0.0913
+name,Rue Carl Brouard,10,0.0913
+name,Rue Charles Summer,10,0.0913
+name,Rue Darguin,10,0.0913
+name,Rue Fort Mercredi,10,0.0913
+name,Rue Lysius Salomon,10,0.0913
+name,Rue Malval,10,0.0913
+name,Rue St Paul,10,0.0913
+name,SAINT-MARC,10,0.0913
+name,Avenue Ambroise,9,0.0821
+name,Avenue Martin Luther King,9,0.0821
+name,Basilique Notre-Dame,9,0.0821
+name,Corridor Brea,9,0.0821
+name,Delmas 19,9,0.0821
+name,Galette Millet,9,0.0821
+name,Rivière Pouillone,9,0.0821
+name,Rue Barthelemy,9,0.0821
+name,Rue Benoit,9,0.0821
+name,Rue Bouckmann,9,0.0821
+name,Rue Courbe,9,0.0821
+name,Rue Macajoux,9,0.0821
+name,Rue Pierre Anselme,9,0.0821
+name,Rue St. Martin,9,0.0821
+name,Rue Thimmer,9,0.0821
+name,Rue Tiremasse,9,0.0821
+name,Rue du Centre,9,0.0821
+name,Ruelle Balmir,9,0.0821
+name,Ruelle Melisse Souchet,9,0.0821
+name,Santo,9,0.0821
+name,Étang Saumâtre,9,0.0821
+name,Avenue H. Christophe,8,0.073
+name,Boulevard des Industries,8,0.073
+name,Delmas,8,0.073
+name,Kenscoff,8,0.073
+name,LASCAHOBAS,8,0.073
+name,La Hatte,8,0.073
+name,R Brouard,8,0.073
+name,Rivière Gauche,8,0.073
+name,Route Lillavois,8,0.073
+name,Rue Bathier,8,0.073
+name,Rue Bornéo,8,0.073
+name,Rue Dantes,8,0.073
+name,Rue Duncombe,8,0.073
+name,Rue Hubert,8,0.073
+name,Rue Nazon 1ère,8,0.073
+name,Rue Ovide 15,8,0.073
+name,Rue Saint-Honoré,8,0.073
+name,Rue Seneque,8,0.073
+name,Rue Théodule,8,0.073
+name,Rue Titus,8,0.073
+name,Rue Toussaint Louverture,8,0.073
+name,Rue du Travail 3ème,8,0.073
+name,Ruelle Archille,8,0.073
+name,Ruelle Boisson,8,0.073
+name,Ruelle Butte,8,0.073
+name,Ruelle Crepsac,8,0.073
+name,Ruelle Domond,8,0.073
+name,Ruelle Jules,8,0.073
+name,Ruelle Lafontant,8,0.073
+name,Ruelle Magnolia,8,0.073
+name,Ruelle Mgr. Testard,8,0.073
+name,Ruelle Moise,8,0.073
+name,Ruelle Tunnel,8,0.073
+name,St. Croix Hospital / Leogane,8,0.073
+name,1�re Palma,7,0.0639
+name,Acacia,7,0.0639
+name,Ave Gaston,7,0.0639
+name,Cité Soleil,7,0.0639
+name,Clercine 16,7,0.0639
+name,Delmas 27,7,0.0639
+name,Delmas 4,7,0.0639
+name,Etang de Miragoane,7,0.0639
+name,GRANDE SALINE,7,0.0639
+name,Imp Louco,7,0.0639
+name,Impasse Beauboeuf,7,0.0639
+name,Impasse du Terasse,7,0.0639
+name,PETITE RIVIERE DE NIPPES,7,0.0639
+name,Petite-Rivière-de-l'Artibonite,7,0.0639
+name,Ravine Pintade,7,0.0639
+name,Route de Freres,7,0.0639
+name,Route de Freres 22,7,0.0639
+name,Route de Jacquet,7,0.0639
+name,Rue Archille,7,0.0639
+name,Rue Aubran,7,0.0639
+name,Rue Bois Patate,7,0.0639
+name,Rue Bolosse 2ème,7,0.0639
+name,Rue Bolosse 4ème,7,0.0639
+name,Rue Bonne Foi,7,0.0639
+name,Rue Bouckman,7,0.0639
+name,Rue Charéron,7,0.0639
+name,Rue Clerveau,7,0.0639
+name,Rue Coliser,7,0.0639
+name,Rue Derenoncourt,7,0.0639
+name,Rue Despestre,7,0.0639
+name,Rue F. Cardozo,7,0.0639
+name,Rue Joseph Janvier,7,0.0639
+name,Rue Lamarre,7,0.0639
+name,Rue Lamothe,7,0.0639
+name,Rue M Laham,7,0.0639
+name,Rue Nord Alexis,7,0.0639
+name,Rue Octave Francis,7,0.0639
+name,Rue Pacot,7,0.0639
+name,Rue Pavée,7,0.0639
+name,Rue Villate,7,0.0639
+name,Rue dela Lumiere,7,0.0639
+name,Rue du Magasin de l'Etat,7,0.0639
+name,Ruelle Baptiste,7,0.0639
+name,Ruelle Dahlia,7,0.0639
+name,Ruelle L Jeudy,7,0.0639
+name,Ruelle Prosper,7,0.0639
+name,THOMONDE,7,0.0639
+name,2�me Petite Source,6,0.0548
+name,3�me Grande Source,6,0.0548
+name,Ambassade de France,6,0.0548
+name,Avenue M. Ambroise,6,0.0548
+name,Avenue Paul VI,6,0.0548
+name,Avenue de la République,6,0.0548
+name,Bd des Entrepreneurs,6,0.0548
+name,Clercine 19,6,0.0548
+name,Delmas 105,6,0.0548
+name,Delmas 28-B,6,0.0548
+name,Delmas 3,6,0.0548
+name,Delmas 42,6,0.0548
+name,Impasse Samarre,6,0.0548
+name,La Source,6,0.0548
+name,Le Jardin,6,0.0548
+name,MINUSTAH - UN Stabilization Mission in Haiti,6,0.0548
+name,Medical Center,6,0.0548
+name,Ravine du Bois de Chêne,6,0.0548
+name,Riviere Momance,6,0.0548
+name,Riviere de La Artibonite,6,0.0548
+name,Route de la Hasco,6,0.0548
+name,Rte T. Cavaller,6,0.0548
+name,Rue 22 Septembre,6,0.0548
+name,Rue 7,6,0.0548
+name,Rue Alberjode,6,0.0548
+name,Rue Armand Holly,6,0.0548
+name,Rue Babiole,6,0.0548
+name,Rue C. Péralte,6,0.0548
+name,Rue Camille Léon,6,0.0548
+name,Rue Cemen Neuf,6,0.0548
+name,Rue Christ-Roi,6,0.0548
+name,Rue Colin,6,0.0548
+name,Rue Dalencourt,6,0.0548
+name,Rue Daut,6,0.0548
+name,Rue Docteur Aubry,6,0.0548
+name,Rue Du Port,6,0.0548
+name,Rue Geffrard,6,0.0548
+name,Rue Glor,6,0.0548
+name,Rue Guignard,6,0.0548
+name,Rue H. Killick,6,0.0548
+name,Rue Jasmin,6,0.0548
+name,Rue José Marti,6,0.0548
+name,Rue Maguana,6,0.0548
+name,Rue Martin,6,0.0548
+name,Rue O. Zamor,6,0.0548
+name,Rue P. Guilbaud,6,0.0548
+name,Rue Rigaud,6,0.0548
+name,Rue Stella,6,0.0548
+name,Rue Thébaud,6,0.0548
+name,Rue Victor Hugo,6,0.0548
+name,Rue de L'Enterrement,6,0.0548
+name,Rue des Césars,6,0.0548
+name,Rue des Fronts-Forts,6,0.0548
+name,Ruelle Anglade,6,0.0548
+name,Ruelle Anne,6,0.0548
+name,Ruelle C Nicolas,6,0.0548
+name,Ruelle JN Philippe,6,0.0548
+name,Ruelle Wilson 1ère,6,0.0548
+name,Village Zao,6,0.0548
+name,collapsed building,6,0.0548
+name,234,5,0.0456
+name,Acra Industrial Complex,5,0.0456
+name,Ave La Liberte,5,0.0456
+name,Avenue Pie XI,5,0.0456
+name,Avenue de la Liberté,5,0.0456
+name,Bassan,5,0.0456
+name,Bizoton 63,5,0.0456
+name,Bois Neuf,5,0.0456
+name,Cimetière,5,0.0456
+name,Corail,5,0.0456
+name,Cormier,5,0.0456
+name,Delmas 37,5,0.0456
+name,Delmas 46,5,0.0456
+name,Delmas 66 B,5,0.0456
+name,Drouillard,5,0.0456
+name,GANTHIER,5,0.0456
+name,Gros Morne,5,0.0456
+name,Hospital Albert Schweitzer,5,0.0456
+name,Impasse Blaise,5,0.0456
+name,Impasse Brave,5,0.0456
+name,Impasse Dumond,5,0.0456
+name,Impasse Duverger,5,0.0456
+name,Impasse Joseph,5,0.0456
+name,Impasse Larose,5,0.0456
+name,Impasse Madrid,5,0.0456
+name,Impasse Rousseau,5,0.0456
+name,Jehovah's Witnesses Branch Office,5,0.0456
+name,Lamatin 54,5,0.0456
+name,Mon Repos 40,5,0.0456
+name,Nerette,5,0.0456
+name,Palais National,5,0.0456
+name,Pétionville,5,0.0456
+name,Ravine du Bois de Chene,5,0.0456
+name,Riviere de l'Artibonite,5,0.0456
+name,Riviere des Vignes,5,0.0456
+name,Rivière de Grand Goâve,5,0.0456
+name,Rivière des Orangers,5,0.0456
+name,Rue 6,5,0.0456
+name,Rue Belvil,5,0.0456
+name,Rue Bernardo Ohiggins,5,0.0456
+name,Rue Bolosse 1ère,5,0.0456
+name,Rue Borgella,5,0.0456
+name,Rue Brouard,5,0.0456
+name,Rue Brutus,5,0.0456
+name,Rue Brédy,5,0.0456
+name,Rue Cheriez,5,0.0456
+name,Rue Corail,5,0.0456
+name,Rue Cretonne,5,0.0456
+name,Rue Dartiguenave,5,0.0456
+name,Rue Deschamps,5,0.0456
+name,Rue Desdallers,5,0.0456
+name,Rue Despins,5,0.0456
+name,Rue Fougère,5,0.0456
+name,Rue Féquière,5,0.0456
+name,Rue Férou,5,0.0456
+name,Rue Gaou Guinou,5,0.0456
+name,Rue Gollette,5,0.0456
+name,Rue Hyppolite,5,0.0456
+name,Rue Jacques Premiere,5,0.0456
+name,Rue La Montagne; Rue Lafleur Ducheine,5,0.0456
+name,Rue Lafleur Ducheine,5,0.0456
+name,Rue Lazarre,5,0.0456
+name,Rue Leconte,5,0.0456
+name,Rue Leger,5,0.0456
+name,Rue M. Latortue,5,0.0456
+name,Rue Marien,5,0.0456
+name,Rue Nicolas,5,0.0456
+name,Rue Paul Moral,5,0.0456
+name,Rue Prévost,5,0.0456
+name,Rue Saint Remy,5,0.0456
+name,Rue Sicot,5,0.0456
+name,Rue St. Francois,5,0.0456
+name,Rue Tulipe,5,0.0456
+name,Rue de la Réunion,5,0.0456
+name,Rue des Collines,5,0.0456
+name,Rue du Champ de Mars,5,0.0456
+name,Ruelle,5,0.0456
+name,Ruelle Bernier,5,0.0456
+name,Ruelle Cannes-A-Sucre,5,0.0456
+name,Ruelle Caravelle,5,0.0456
+name,Ruelle Choucoune,5,0.0456
+name,Ruelle Lota Jeremie,5,0.0456
+name,Ruelle Maillart,5,0.0456
+name,Ruelle Oriol,5,0.0456
+name,Ruelle Saint-Laurent,5,0.0456
+name,Ruelle St Rémy,5,0.0456
+name,Ruelle Sylvia,5,0.0456
+name,Ruelle T. Louverture,5,0.0456
+name,Ruines,5,0.0456
+name,Spain SAR zone,5,0.0456
+name,Tabarre 50,5,0.0456
+name,Thor 67 - Charpentier,5,0.0456
+name,Toussaint Louverture International Airport,5,0.0456
+name,10�me Pickmy,4,0.0365
+name,11�me Petite Anse,4,0.0365
+name,4�me Grand Lagon,4,0.0365
+name,4�me Grand Lagon;5�me Gros Mangle,4,0.0365
+name,4�me Grand Lagon;9�me Pointe � Raquette,4,0.0365
+name,6�me La Source,4,0.0365
+name,7�me Grand Vide,4,0.0365
+name,9�me Pointe � Raquette,4,0.0365
+name,Arachon 32,4,0.0365
+name,Avenue Charles Sumner,4,0.0365
+name,Bellevue,4,0.0365
+name,Bizoton 53,4,0.0365
+name,Blanchard,4,0.0365
+name,Blvd Toussaint Louverture,4,0.0365
+name,Centre Hospitalier du Sacre Coeur (Hopital CDTI),4,0.0365
+name,Chavannes,4,0.0365
+name,Cim,4,0.0365
+name,Corridor Icare,4,0.0365
+name,Delmas 29,4,0.0365
+name,Delmas 39,4,0.0365
+name,Delmas 47,4,0.0365
+name,Delmas 56,4,0.0365
+name,Deschapelles,4,0.0365
+name,Digicel,4,0.0365
+name,Dufour,4,0.0365
+name,Dumarsais Estime,4,0.0365
+name,Embassy of the United States in Haiti,4,0.0365
+name,Fontamara 45,4,0.0365
+name,Ganthier,4,0.0365
+name,Grande Ravine,4,0.0365
+name,Hopital Adventiste de Diquini,4,0.0365
+name,Hospital Cardinal Leger - Institut Fame Pereo,4,0.0365
+name,Hospital La Saline (Pediatrie Sociale),4,0.0365
+name,Hospital Notre Dame De Petit Goave,4,0.0365
+name,Hospital Pierre Payen,4,0.0365
+name,Hospital da Cruz Vermelha,4,0.0365
+name,Imp B,4,0.0365
+name,Impasse Akene,4,0.0365
+name,Impasse Alexis,4,0.0365
+name,Impasse Ascensio,4,0.0365
+name,Impasse Boulos,4,0.0365
+name,Impasse Centrope,4,0.0365
+name,Impasse Clesca,4,0.0365
+name,Impasse Damase,4,0.0365
+name,Impasse Darguin,4,0.0365
+name,Impasse Denesvar,4,0.0365
+name,Impasse Télémaque,4,0.0365
+name,Jammeau,4,0.0365
+name,L'Union,4,0.0365
+name,La Croix,4,0.0365
+name,LaCour Watson,4,0.0365
+name,Latournelle se,4,0.0365
+name,MAISSADE,4,0.0365
+name,Martissant 7,4,0.0365
+name,Maternité de Pétion-Ville,4,0.0365
+name,Menelas,4,0.0365
+name,Mirebalais,4,0.0365
+name,Morne Michel,4,0.0365
+name,National Road,4,0.0365
+name,Palais des Ministères,4,0.0365
+name,Petion-Ville,4,0.0365
+name,Petit-Goâve,4,0.0365
+name,Pla Boule,4,0.0365
+name,Place Saint-Pierre,4,0.0365
+name,Pointe du Cul de Sac,4,0.0365
+name,Port de Petit-Goâve,4,0.0365
+name,Potier,4,0.0365
+name,R. Diquini 63,4,0.0365
+name,R. des Ficus,4,0.0365
+name,Ravine Tingue,4,0.0365
+name,Riviere la Digue,4,0.0365
+name,Rivière Froide,4,0.0365
+name,Rivière de Saint-Marc,4,0.0365
+name,Roulottes,4,0.0365
+name,Route Saint Gérard,4,0.0365
+name,Route de Freres 25,4,0.0365
+name,Route de Freres 34,4,0.0365
+name,Rte de Peguyvilla,4,0.0365
+name,Rue A Féry,4,0.0365
+name,Rue A. Féry,4,0.0365
+name,Rue Alexander Fleming,4,0.0365
+name,Rue Alta,4,0.0365
+name,Rue Amichel,4,0.0365
+name,Rue Baussan,4,0.0365
+name,Rue Bolosse 5ème,4,0.0365
+name,Rue Borno,4,0.0365
+name,Rue C Péralte,4,0.0365
+name,Rue Casséus,4,0.0365
+name,Rue Cayemite,4,0.0365
+name,Rue Chauvet,4,0.0365
+name,Rue Christophe Chanel,4,0.0365
+name,Rue Clermont,4,0.0365
+name,Rue Colza,4,0.0365
+name,Rue Courtilien,4,0.0365
+name,Rue Damier,4,0.0365
+name,Rue Dellen,4,0.0365
+name,Rue Du Foyer,4,0.0365
+name,Rue Duquella,4,0.0365
+name,Rue Duroseau,4,0.0365
+name,Rue Faustin 1er,4,0.0365
+name,Rue François,4,0.0365
+name,Rue Frazelie,4,0.0365
+name,Rue Germain,4,0.0365
+name,Rue Goulard,4,0.0365
+name,Rue J Roumain,4,0.0365
+name,Rue J. Poupelard,4,0.0365
+name,Rue Jean Augustin,4,0.0365
+name,Rue Jérémie 2ème,4,0.0365
+name,Rue Killick,4,0.0365
+name,Rue La Violette,4,0.0365
+name,Rue Laraque,4,0.0365
+name,Rue Maguaga,4,0.0365
+name,Rue Mathon,4,0.0365
+name,Rue Micasa,4,0.0365
+name,Rue Moise,4,0.0365
+name,Rue Montalais,4,0.0365
+name,Rue Numa Rigaud,4,0.0365
+name,Rue O,4,0.0365
+name,Rue Oscar,4,0.0365
+name,Rue Ovide 20,4,0.0365
+name,Rue Ovide 23,4,0.0365
+name,Rue Patrice Lumumba,4,0.0365
+name,Rue Pephinere,4,0.0365
+name,Rue Pinchinnat,4,0.0365
+name,Rue Prevost,4,0.0365
+name,Rue R. Jules,4,0.0365
+name,Rue Rameau,4,0.0365
+name,Rue Rebecca,4,0.0365
+name,Rue Reimbold,4,0.0365
+name,Rue S Pradel,4,0.0365
+name,Rue Saint-Alexandre,4,0.0365
+name,Rue Salomon,4,0.0365
+name,Rue Sapotille,4,0.0365
+name,Rue Senghor,4,0.0365
+name,Rue St Francius,4,0.0365
+name,Rue Sully,4,0.0365
+name,Rue T Auguste,4,0.0365
+name,Rue Tonnere,4,0.0365
+name,Rue V Jacques,4,0.0365
+name,Rue Ville Franche,4,0.0365
+name,Rue Waag,4,0.0365
+name,Rue de la Mairie,4,0.0365
+name,Rue du Peuple,4,0.0365
+name,Rue du Quai Douane,4,0.0365
+name,Ruelle 7 Fevrier,4,0.0365
+name,Ruelle A. Innocent,4,0.0365
+name,Ruelle Buteau,4,0.0365
+name,Ruelle C. Flon,4,0.0365
+name,Ruelle C. Nicolas,4,0.0365
+name,Ruelle Dalton,4,0.0365
+name,Ruelle Docteur Kernisan,4,0.0365
+name,Ruelle Dr. P. Boncy,4,0.0365
+name,Ruelle Emeric,4,0.0365
+name,Ruelle Hudicourt,4,0.0365
+name,Ruelle J. Perez,4,0.0365
+name,Ruelle Lamartine,4,0.0365
+name,Ruelle M. Narcisse,4,0.0365
+name,Ruelle Martineau 2ème,4,0.0365
+name,Ruelle Milscent,4,0.0365
+name,Ruelle Miot,4,0.0365
+name,Ruelle Mérisier,4,0.0365
+name,Ruelle Narcisse,4,0.0365
+name,Ruelle Nina,4,0.0365
+name,Ruelle Nogues,4,0.0365
+name,Ruelle Paillard,4,0.0365
+name,Ruelle Pedan,4,0.0365
+name,Ruelle Renoncule,4,0.0365
+name,Ruelle Souchet,4,0.0365
+name,Ruelle Verna,4,0.0365
+name,Ruelle Wilson,4,0.0365
+name,Ruelle Wilson 2ème,4,0.0365
+name,Saint-Louis de Gonzague,4,0.0365
+name,Sonapi Industrial Park,4,0.0365
+name,St. Croix Hospital,4,0.0365
+name,Tabarre 10,4,0.0365
+name,Tabarre 9,4,0.0365
+name,Ti Place,4,0.0365
+name,Wayne 89,4,0.0365
+name,temple Adventiste Maranatha,4,0.0365
+name,10/28,3,0.0274
+name,131,3,0.0274
+name,3�me Grande Source;9�me Pointe � Raquette,3,0.0274
+name,4�me Grand Lagon;8�me Trou Louis,3,0.0274
+name,5�me Gros Mangle,3,0.0274
+name,8�me Trou Louis,3,0.0274
+name,? Toureau,3,0.0274
+name,A. PAMPHILE,3,0.0274
+name,Administration Portuaire,3,0.0274
+name,Arcahaie,3,0.0274
+name,Ave des Abeiles,3,0.0274
+name,Avenue Marie Jeanne,3,0.0274
+name,Avenue Pan Américaine,3,0.0274
+name,Barreau,3,0.0274
+name,Barriere Rouge,3,0.0274
+name,Belekou,3,0.0274
+name,Bizoton,3,0.0274
+name,Bizoton 49,3,0.0274
+name,Bolosse,3,0.0274
+name,Boston,3,0.0274
+name,Brooklyn,3,0.0274
+name,Brouillard,3,0.0274
+name,Bâtarde,3,0.0274
+name,CDTI Hospital,3,0.0274
+name,CENTRE MEDICO SOCIAL,3,0.0274
+name,Caifle-Pify,3,0.0274
+name,Canann Market,3,0.0274
+name,Cazeau,3,0.0274
+name,Centre Hospitalier du Sacré-Coeur (Hopital CDTI),3,0.0274
+name,Centre Materno-Chirurgical,3,0.0274
+name,Champs de Mars,3,0.0274
+name,Charlemagne,3,0.0274
+name,"Choscal Hospital, St. Catherine, MSF Hospital",3,0.0274
+name,Cité Brisson,3,0.0274
+name,Cité Gérard,3,0.0274
+name,Cité Numéro Deux,3,0.0274
+name,Cité Numéro Un,3,0.0274
+name,Cité Simone,3,0.0274
+name,Clocher,3,0.0274
+name,Cote Plage 18,3,0.0274
+name,Croix Bleue,3,0.0274
+name,Croix des Bouquets,3,0.0274
+name,Delmas 10,3,0.0274
+name,Delmas 11,3,0.0274
+name,Delmas 21,3,0.0274
+name,Delmas 34,3,0.0274
+name,Delmas 36,3,0.0274
+name,Delmas 64,3,0.0274
+name,Delmas 75,3,0.0274
+name,Delmas 77,3,0.0274
+name,Delmas 87,3,0.0274
+name,Delmas 89,3,0.0274
+name,Delmas 91,3,0.0274
+name,Deslandes,3,0.0274
+name,Deux Cité,3,0.0274
+name,Dieu Seul,3,0.0274
+name,Doctor Coles,3,0.0274
+name,Dos Morne,3,0.0274
+name,Dr. P. Boncy,3,0.0274
+name,Du Parc,3,0.0274
+name,Duval,3,0.0274
+name,Ecole Wesleyen,3,0.0274
+name,Embassy of the United States of America,3,0.0274
+name,Est-ce un canal ?,3,0.0274
+name,Filature Brandt,3,0.0274
+name,Fontamara 43,3,0.0274
+name,Fontamara 47,3,0.0274
+name,Fort National,3,0.0274
+name,Fragneau Ville,3,0.0274
+name,Frères Academie Militaire Camp D'Application,3,0.0274
+name,Fréres,3,0.0274
+name,Furcy,3,0.0274
+name,GOC Universite,3,0.0274
+name,Gilbert,3,0.0274
+name,Grand Goâve,3,0.0274
+name,Grand Place,3,0.0274
+name,Grande Rivière,3,0.0274
+name,HINCHE,3,0.0274
+name,Hatte Marie,3,0.0274
+name,Haut-Turgeau,3,0.0274
+name,Hopital St. Nicolas,3,0.0274
+name,Hopital-Maternite Sapiens,3,0.0274
+name,Hospital Medicos Sem Fronteiras,3,0.0274
+name,Hospital St. Charbel,3,0.0274
+name,Hospital Universitario de la Paiz,3,0.0274
+name,Imp Desduness,3,0.0274
+name,Imp Jeanrovil,3,0.0274
+name,Impasse Alexandre,3,0.0274
+name,Impasse Bazile,3,0.0274
+name,Impasse Cabèche,3,0.0274
+name,Impasse Colomb,3,0.0274
+name,Impasse Dumain,3,0.0274
+name,Impasse Elisee,3,0.0274
+name,Impasse Estinval,3,0.0274
+name,Impasse Fouchard,3,0.0274
+name,Impasse Fremont,3,0.0274
+name,Impasse French,3,0.0274
+name,Impasse G Fouchard,3,0.0274
+name,Impasse Janvier,3,0.0274
+name,Impasse Jeannot,3,0.0274
+name,Impasse Josaphat,3,0.0274
+name,Impasse Madiou,3,0.0274
+name,Impasse Malet,3,0.0274
+name,Impasse Moore,3,0.0274
+name,Impasse Pommeyrac,3,0.0274
+name,Impasse Price,3,0.0274
+name,Impasse Pépon,3,0.0274
+name,Impasse Ridore,3,0.0274
+name,Impasse Robert,3,0.0274
+name,Impasse Sauge,3,0.0274
+name,Impasse Sureau,3,0.0274
+name,Impasse V. Jacques,3,0.0274
+name,Israeli Field Hospital,3,0.0274
+name,Kawas Prolenger,3,0.0274
+name,La Saline,3,0.0274
+name,Linteau 1,3,0.0274
+name,Linteau 2,3,0.0274
+name,Lompre,3,0.0274
+name,MARIGOT,3,0.0274
+name,MIRAGOANE HOSPITAL PAILLANT,3,0.0274
+name,MSF Hospital,3,0.0274
+name,Macary,3,0.0274
+name,Marché,3,0.0274
+name,Martissant 23,3,0.0274
+name,Martissant 5,3,0.0274
+name,Mayotte,3,0.0274
+name,Mon Repos 38,3,0.0274
+name,Mon Repos 42,3,0.0274
+name,Morne Hercule,3,0.0274
+name,Ménélas,3,0.0274
+name,Nan Duval,3,0.0274
+name,Nanraguette,3,0.0274
+name,Nazon,3,0.0274
+name,PCS,3,0.0274
+name,PNH,3,0.0274
+name,Pacot,3,0.0274
+name,Park Hotel,3,0.0274
+name,Pensionnat Ste. Rose de Lima,3,0.0274
+name,Perrier,3,0.0274
+name,Petit Guinée,3,0.0274
+name,Peyrard,3,0.0274
+name,Place Sainte Anne,3,0.0274
+name,Plaisance,3,0.0274
+name,Police Station,3,0.0274
+name,Port,3,0.0274
+name,R. Brochette 97,3,0.0274
+name,R. Candou,3,0.0274
+name,R. Esteve,3,0.0274
+name,R. Ibolelee,3,0.0274
+name,R. S. Menos,3,0.0274
+name,Ravine Basillier,3,0.0274
+name,Ravine Court Bouillon,3,0.0274
+name,Ravine Provence,3,0.0274
+name,Ravine Redoute,3,0.0274
+name,Riviere Baret,3,0.0274
+name,Riviere La Gosseline,3,0.0274
+name,Rivière Momance,3,0.0274
+name,Rivière Tamarin,3,0.0274
+name,Rou Lavandye,3,0.0274
+name,Route Du Rail,3,0.0274
+name,Route de Drouillard,3,0.0274
+name,Route de Freres 40,3,0.0274
+name,Rte A. Leonard,3,0.0274
+name,Rte Janvier,3,0.0274
+name,Rte Jean Coradin,3,0.0274
+name,Rue 4,3,0.0274
+name,Rue 5,3,0.0274
+name,Rue A. Gedeon,3,0.0274
+name,Rue Abbé Cessens,3,0.0274
+name,Rue Antonio Macéo,3,0.0274
+name,Rue Armand,3,0.0274
+name,Rue B. Canal,3,0.0274
+name,Rue B. De Lanarge,3,0.0274
+name,Rue Barrau,3,0.0274
+name,Rue Bellevue,3,0.0274
+name,Rue Berne,3,0.0274
+name,Rue Berthol,3,0.0274
+name,Rue Bijou,3,0.0274
+name,Rue Blondcourt,3,0.0274
+name,Rue Boisrand Canal,3,0.0274
+name,Rue Bolosse 3ème,3,0.0274
+name,Rue C. Dumerlin,3,0.0274
+name,Rue C. Henri,3,0.0274
+name,Rue Cadet Jérémie,3,0.0274
+name,Rue Cafeiere,3,0.0274
+name,Rue Caméleau,3,0.0274
+name,Rue Carrelet,3,0.0274
+name,Rue Casimir,3,0.0274
+name,Rue Chavannes,3,0.0274
+name,Rue Chevalier,3,0.0274
+name,Rue Christophe,3,0.0274
+name,Rue Christopher,3,0.0274
+name,Rue Cité Louverture 2ème,3,0.0274
+name,Rue Codada,3,0.0274
+name,Rue D. Bellegarde,3,0.0274
+name,Rue Debussy,3,0.0274
+name,Rue Dela Amitieh,3,0.0274
+name,Rue Delmas 41,3,0.0274
+name,Rue Delmas 43,3,0.0274
+name,Rue Delmas 44,3,0.0274
+name,Rue Delmas 45,3,0.0274
+name,Rue Des Pins,3,0.0274
+name,Rue Doret,3,0.0274
+name,Rue Dr. Jean Bartholy,3,0.0274
+name,Rue Ducoste,3,0.0274
+name,Rue Démesvar,3,0.0274
+name,Rue E. Sanon,3,0.0274
+name,Rue Eden,3,0.0274
+name,Rue Elie,3,0.0274
+name,Rue Estimé,3,0.0274
+name,Rue F. Cardozo Avenue,3,0.0274
+name,Rue Flambert,3,0.0274
+name,Rue Gabart,3,0.0274
+name,Rue Garoute,3,0.0274
+name,Rue Grosmorne,3,0.0274
+name,Rue H. Léchaud,3,0.0274
+name,Rue J B. Dessables,3,0.0274
+name,Rue J Price Maris,3,0.0274
+name,Rue Jean Baptiste,3,0.0274
+name,Rue Jerome Bijou,3,0.0274
+name,Rue Jeune,3,0.0274
+name,Rue Jn Louis,3,0.0274
+name,Rue Kawas,3,0.0274
+name,Rue La Montagne,3,0.0274
+name,Rue La Paix,3,0.0274
+name,Rue Laporte,3,0.0274
+name,Rue Lavange,3,0.0274
+name,Rue Lilac,3,0.0274
+name,Rue LouissaInt,3,0.0274
+name,Rue Lévèque,3,0.0274
+name,Rue Mackandal,3,0.0274
+name,Rue Magua,3,0.0274
+name,Rue Marcel Toureau,3,0.0274
+name,Rue Marcellin,3,0.0274
+name,Rue Massillon Coicou,3,0.0274
+name,Rue Mercier,3,0.0274
+name,Rue Momplaisir,3,0.0274
+name,Rue Moravia,3,0.0274
+name,Rue Ovide 17,3,0.0274
+name,Rue Ovide 24,3,0.0274
+name,Rue Ovide 3,3,0.0274
+name,Rue Ovide 6,3,0.0274
+name,Rue P. Lumumba,3,0.0274
+name,Rue P. Sully,3,0.0274
+name,Rue Pepredo,3,0.0274
+name,Rue Pinson,3,0.0274
+name,Rue Primeira Paloma,3,0.0274
+name,Rue Pélican,3,0.0274
+name,Rue Pétion 1 Ére,3,0.0274
+name,Rue Reforme,3,0.0274
+name,Rue Rennes,3,0.0274
+name,Rue Romain,3,0.0274
+name,Rue Rousseau,3,0.0274
+name,Rue Roy,3,0.0274
+name,Rue S. Rouzier,3,0.0274
+name,Rue Saint-Paul,3,0.0274
+name,Rue Sainte-Anne,3,0.0274
+name,Rue Sainte-Bernadette,3,0.0274
+name,Rue Soleil 11,3,0.0274
+name,Rue Soleil 13,3,0.0274
+name,Rue St. Hubert,3,0.0274
+name,Rue Sunchine,3,0.0274
+name,Rue Vilfort,3,0.0274
+name,Rue de l'Enterrement,3,0.0274
+name,Rue des Miracles,3,0.0274
+name,Rue du Port,3,0.0274
+name,Rue du Travail 1ère,3,0.0274
+name,Rue la liberte,3,0.0274
+name,Ruelle A. Césaire,3,0.0274
+name,Ruelle Aigle,3,0.0274
+name,Ruelle Alpheé,3,0.0274
+name,Ruelle Archile,3,0.0274
+name,Ruelle Bouget,3,0.0274
+name,Ruelle Cassagnol,3,0.0274
+name,Ruelle Cheraquite,3,0.0274
+name,Ruelle Cigogne,3,0.0274
+name,Ruelle Célie,3,0.0274
+name,Ruelle Dorismond,3,0.0274
+name,Ruelle Durandis,3,0.0274
+name,Ruelle Euclide,3,0.0274
+name,Ruelle F. Duthiers,3,0.0274
+name,Ruelle Flamand,3,0.0274
+name,Ruelle Gore,3,0.0274
+name,Ruelle J.J. Acaau,3,0.0274
+name,Ruelle Jeudi,3,0.0274
+name,Ruelle L. Jeudy,3,0.0274
+name,Ruelle Laleau,3,0.0274
+name,Ruelle Lamarriniere,3,0.0274
+name,Ruelle Laraque 1ère,3,0.0274
+name,Ruelle Martineau 1ère,3,0.0274
+name,Ruelle Martineau 3ème,3,0.0274
+name,Ruelle Milord,3,0.0274
+name,Ruelle N. Sambour,3,0.0274
+name,Ruelle Neptune,3,0.0274
+name,Ruelle Odéide,3,0.0274
+name,Ruelle Olivier,3,0.0274
+name,Ruelle P. Roberson,3,0.0274
+name,Ruelle Peroquet,3,0.0274
+name,Ruelle Placide,3,0.0274
+name,Ruelle Porcelaine,3,0.0274
+name,Ruelle Pédan,3,0.0274
+name,Ruelle Rosemond,3,0.0274
+name,Ruelle Safran,3,0.0274
+name,Ruelle Saint Surin,3,0.0274
+name,Ruelle Saint-Gérard,3,0.0274
+name,Ruelle St Leger,3,0.0274
+name,Ruelle Thomas Edison,3,0.0274
+name,Ruelle Vilgrain,3,0.0274
+name,Ruelle a Césaire,3,0.0274
+name,Russian Field Hospital,3,0.0274
+name,Rélé Simon,3,0.0274
+name,Saint-Martin,3,0.0274
+name,Sainte Claire,3,0.0274
+name,Simon 3,3,0.0274
+name,Simon 4,3,0.0274
+name,Soleil 19,3,0.0274
+name,Soleil 4,3,0.0274
+name,Sorofos,3,0.0274
+name,Spanish Field Hospital,3,0.0274
+name,St. Damien Hospital,3,0.0274
+name,St. Vincent,3,0.0274
+name,Stade Sylvio Cator,3,0.0274
+name,Tapion,3,0.0274
+name,Thomazeau,3,0.0274
+name,Thomonde,3,0.0274
+name,Thozin,3,0.0274
+name,Ti Canada,3,0.0274
+name,Ti Haiti,3,0.0274
+name,Trois Bébés,3,0.0274
+name,Verretes,3,0.0274
+name,Vieux Caille,3,0.0274
+name,Village Démocratie,3,0.0274
+name,Waaf,3,0.0274
+name,Waaf Jérémie,3,0.0274
+name,debris?,3,0.0274
+name,field clinic,3,0.0274
+name,field?,3,0.0274
+name,refugeecamp access,3,0.0274
+name,stream,3,0.0274
+name,Église Paroissiale Saint-Joseph,3,0.0274
+name,10�me Pickmy;11�me Petite Anse,2,0.0183
+name,11�me Petite Anse;1�re Palma,2,0.0183
+name,170,2,0.0183
+name,1�re Palma;2�me Petite Source,2,0.0183
+name,233,2,0.0183
+name,290,2,0.0183
+name,2�me Petite Source;3�me Grande Source,2,0.0183
+name,3�me Grande Source;3�me Grande Source;4�me Grand Lagon,2,0.0183
+name,5�me Gros Mangle;8�me Trou Louis,2,0.0183
+name,6�me La Source;7�me Grand Vide,2,0.0183
+name,7�me Grand Vide;8�me Trou Louis,2,0.0183
+name,ANSE A GALETS HOSPITAL WESLEYEN (LE DE LA GONAVE),2,0.0183
+name,Abraham,2,0.0183
+name,Albert-Schweitzer Hôpital,2,0.0183
+name,Ansagalèt,2,0.0183
+name,Anse-à-Galets,2,0.0183
+name,Arcachon,2,0.0183
+name,Arnaud,2,0.0183
+name,Arnoux,2,0.0183
+name,Aupont,2,0.0183
+name,Avenue Oscar,2,0.0183
+name,Avenue des Tourterelles,2,0.0183
+name,BELLE ANSE,2,0.0183
+name,Bambou,2,0.0183
+name,Baque,2,0.0183
+name,Barriere Battant,2,0.0183
+name,Baussan,2,0.0183
+name,Beau Sejour,2,0.0183
+name,Beauger,2,0.0183
+name,Belair,2,0.0183
+name,Belle Fortune,2,0.0183
+name,Bernard,2,0.0183
+name,Berot,2,0.0183
+name,Bissard,2,0.0183
+name,Bistouri,2,0.0183
+name,Bizoton 59,2,0.0183
+name,Blvd 15 Octobre,2,0.0183
+name,Bodian,2,0.0183
+name,Bois Brule,2,0.0183
+name,Bois Caradeux,2,0.0183
+name,Bois Patate,2,0.0183
+name,Bois d'Orme,2,0.0183
+name,Boucan,2,0.0183
+name,Boucan Careé,2,0.0183
+name,Boucan Carre,2,0.0183
+name,Boutin,2,0.0183
+name,Brochette,2,0.0183
+name,Brochette 101,2,0.0183
+name,Brochette 99,2,0.0183
+name,Buteau,2,0.0183
+name,CAYES-JACMEL,2,0.0183
+name,CENTRE DE SANTE APROCIPHA,2,0.0183
+name,CENTRE DE SANTE DE SAUT - D'EAU (CSSD),2,0.0183
+name,CENTRE DE SANTE ST ANTOINE DE TITANYEN,2,0.0183
+name,CENTRE MEDICO SOCIAL ANTOINE LAVOISIER,2,0.0183
+name,CENTRE SANTE DICOU,2,0.0183
+name,CLINIQUE COMMUNAUTAIRE DE DELMAS 75,2,0.0183
+name,Ca Biédo,2,0.0183
+name,Ca Compte,2,0.0183
+name,Ca Dubreuil,2,0.0183
+name,Ca Mando,2,0.0183
+name,Ca Martin,2,0.0183
+name,Ca Poule,2,0.0183
+name,Cabaret,2,0.0183
+name,Cacouille,2,0.0183
+name,Canal Petite Riviere,2,0.0183
+name,Caradeux,2,0.0183
+name,Caritas Hospital,2,0.0183
+name,Carrefour Feuilles,2,0.0183
+name,Centre De Psychiatrie Et De Neurologie Mars,2,0.0183
+name,Centre de Reeducation,2,0.0183
+name,Centre de Rééducation,2,0.0183
+name,Chalon,2,0.0183
+name,Chambon,2,0.0183
+name,Chancerelles,2,0.0183
+name,Chapelle Notre Dame de Lourdes,2,0.0183
+name,Chapelle de St Jean Bosco,2,0.0183
+name,Chateau Blond,2,0.0183
+name,Chauffard,2,0.0183
+name,Chevrie,2,0.0183
+name,Christian,2,0.0183
+name,Christian Leader School,2,0.0183
+name,Cimitiére de Pétion-Ville,2,0.0183
+name,Ciné Capitol,2,0.0183
+name,Ciné Théatre Triomphe,2,0.0183
+name,Cite Militaire,2,0.0183
+name,Citronier,2,0.0183
+name,Citymed,2,0.0183
+name,Cité Saint-Georges,2,0.0183
+name,Clercine 2,2,0.0183
+name,Clinique Neuro Psychiatrique De Port-Au-Prince,2,0.0183
+name,Clinique-Hopital Le Messie,2,0.0183
+name,Coconut Villa,2,0.0183
+name,Corridor Bois De Chene,2,0.0183
+name,Corridor Bois De Chéne,2,0.0183
+name,Corridor Saintonge,2,0.0183
+name,Coulon,2,0.0183
+name,Coupon,2,0.0183
+name,Croix Hilaire,2,0.0183
+name,Croix de Deprez,2,0.0183
+name,Croix des Missions,2,0.0183
+name,Célicou,2,0.0183
+name,DISPENSAIRE DE NIEL,2,0.0183
+name,DISPENSAIRE SAINT LOUIS,2,0.0183
+name,DP BEREE DE DROUIN,2,0.0183
+name,DP CLEMENTINE ET LORISMENE,2,0.0183
+name,DP COMMUNAUTAIRE DE MARIN,2,0.0183
+name,DP DE BOSSOU,2,0.0183
+name,DP DE CHARETTE,2,0.0183
+name,DP DE CHRISTIAN (SOE),2,0.0183
+name,DP DE DESARMES (SOE),2,0.0183
+name,DP DE DESCHAPELLES,2,0.0183
+name,DP DE GRESSOT,2,0.0183
+name,DP DE JEAN DENIS,2,0.0183
+name,DP DE JEANTON,2,0.0183
+name,DP DE LACHAPELLE,2,0.0183
+name,DP DE MONTROUIS,2,0.0183
+name,DP DE PONT SONDE,2,0.0183
+name,DP DE SEGUR,2,0.0183
+name,DP MAX FERDINAND,2,0.0183
+name,DP PA NOU AN,2,0.0183
+name,Damiens,2,0.0183
+name,Davillien,2,0.0183
+name,Debas,2,0.0183
+name,Degand,2,0.0183
+name,Delatre,2,0.0183
+name,Delma 95,2,0.0183
+name,Delmar,2,0.0183
+name,Delmas 1,2,0.0183
+name,Delmas 103,2,0.0183
+name,Delmas 13,2,0.0183
+name,Delmas 14,2,0.0183
+name,Delmas 46-A,2,0.0183
+name,Delmas 49,2,0.0183
+name,Delmas 57A,2,0.0183
+name,Delmas 58,2,0.0183
+name,Delmas 62,2,0.0183
+name,Delmas 66,2,0.0183
+name,Delmas 68,2,0.0183
+name,Delmas 85,2,0.0183
+name,Delmas 9,2,0.0183
+name,Delmas B-1,2,0.0183
+name,Dieudon,2,0.0183
+name,DigitalGlobe,2,0.0183
+name,Digneron,2,0.0183
+name,Diquini,2,0.0183
+name,Dos Calé,2,0.0183
+name,Douane,2,0.0183
+name,Doucet,2,0.0183
+name,Douyac,2,0.0183
+name,Dufort,2,0.0183
+name,Dumay,2,0.0183
+name,Délize,2,0.0183
+name,Ecole Nationale de Gressier,2,0.0183
+name,Ecole du Sacre Coeur,2,0.0183
+name,Eglise Catholique,2,0.0183
+name,Embassy Argentina,2,0.0183
+name,Embassy of Canada,2,0.0183
+name,Embassy of the United States of America improvised helipad,2,0.0183
+name,Etheard,2,0.0183
+name,F 41A,2,0.0183
+name,F Massac,2,0.0183
+name,FOND PARISIEN HOSPITAL HEALTH CENTER,2,0.0183
+name,FRERES HOSPITAL DE LA COMMUNAUTEE HATIENNE,2,0.0183
+name,Fermate,2,0.0183
+name,Ferry,2,0.0183
+name,Fleurant,2,0.0183
+name,Fond Baptiste,2,0.0183
+name,Fond Coupeau,2,0.0183
+name,Fond Gérard,2,0.0183
+name,Fontamara,2,0.0183
+name,Frances,2,0.0183
+name,Franciscan Friary,2,0.0183
+name,Galette,2,0.0183
+name,Garde Cote,2,0.0183
+name,Garde L'Acul,2,0.0183
+name,Garnier,2,0.0183
+name,Godet,2,0.0183
+name,Grand Savane,2,0.0183
+name,Grande Savane,2,0.0183
+name,Grenier,2,0.0183
+name,Gérardeau,2,0.0183
+name,HOPITAL DE FERMATHE,2,0.0183
+name,HOPITAL RENAISSANCE,2,0.0183
+name,HOPITAL STE THERESE DE MIRAGOANE,2,0.0183
+name,Habitation Hatt,2,0.0183
+name,Hopital St. Esprit,2,0.0183
+name,Hopital de l'OFATMA (Cite Militaire),2,0.0183
+name,Hospital Beudet(Defilee),2,0.0183
+name,Hospital Bombardopolis,2,0.0183
+name,Hospital Bonneau St. Joseph,2,0.0183
+name,Hospital Caritas,2,0.0183
+name,Hospital La Sainte Famille,2,0.0183
+name,Hospital Raboteau,2,0.0183
+name,Hospital Saint Joseph,2,0.0183
+name,Hospital Sainte Thérése,2,0.0183
+name,Hospital du Canapé Vert,2,0.0183
+name,"Hospital of Peace, Hopital de Paix",2,0.0183
+name,Hotel Montana,2,0.0183
+name,Hôpital Georges Gauvin,2,0.0183
+name,IMP Lifeline,2,0.0183
+name,Imp Augusta,2,0.0183
+name,Imp Breda,2,0.0183
+name,Imp Desdunes,2,0.0183
+name,Imp Family,2,0.0183
+name,Imp La Joie,2,0.0183
+name,Imp La Paix,2,0.0183
+name,Imp Lahens,2,0.0183
+name,Imp Martine,2,0.0183
+name,Imp Rampy,2,0.0183
+name,Imp Sambour,2,0.0183
+name,Imp Viller,2,0.0183
+name,Impase Lamarque,2,0.0183
+name,Impasse ,2,0.0183
+name,Impasse Amandier,2,0.0183
+name,Impasse Ambroise,2,0.0183
+name,Impasse Bazilic,2,0.0183
+name,Impasse Besse,2,0.0183
+name,Impasse Cedor,2,0.0183
+name,Impasse Desduness,2,0.0183
+name,Impasse Dunant,2,0.0183
+name,Impasse Eddy,2,0.0183
+name,Impasse Ekman,2,0.0183
+name,Impasse Fauvette,2,0.0183
+name,Impasse Felizor,2,0.0183
+name,Impasse Frere Leon,2,0.0183
+name,Impasse Frère Léon,2,0.0183
+name,Impasse Goulard,2,0.0183
+name,Impasse Jerusalem,2,0.0183
+name,Impasse Jn Baptiste,2,0.0183
+name,Impasse L. Jeremie,2,0.0183
+name,Impasse La Joie,2,0.0183
+name,Impasse La Paix,2,0.0183
+name,Impasse Lavache,2,0.0183
+name,Impasse Lavisse,2,0.0183
+name,Impasse Lescot,2,0.0183
+name,Impasse Lilas,2,0.0183
+name,Impasse M Augustin,2,0.0183
+name,Impasse Martineau,2,0.0183
+name,Impasse Milan,2,0.0183
+name,Impasse Morel,2,0.0183
+name,Impasse Nadal,2,0.0183
+name,Impasse Nemorin,2,0.0183
+name,Impasse Norman,2,0.0183
+name,Impasse P. Weiner,2,0.0183
+name,Impasse Petion,2,0.0183
+name,Impasse Pressoir,2,0.0183
+name,Impasse Ridoré,2,0.0183
+name,Impasse Rodrigue,2,0.0183
+name,Impasse Rodrique,2,0.0183
+name,Impasse Saponaire,2,0.0183
+name,Impasse Sully,2,0.0183
+name,Impasse Sylvar,2,0.0183
+name,Impasse Viller,2,0.0183
+name,Impasse Vital,2,0.0183
+name,Impasse Yayou,2,0.0183
+name,Impassse Telemaque,2,0.0183
+name,Institut Haitano-Américian,2,0.0183
+name,Inviter,2,0.0183
+name,Jacquet,2,0.0183
+name,Janvier,2,0.0183
+name,Jet d'Eau,2,0.0183
+name,Karibe Hotel,2,0.0183
+name,La Chapelle,2,0.0183
+name,La Couline,2,0.0183
+name,La Ferronay,2,0.0183
+name,La Tournelle/Zoranje,2,0.0183
+name,Labadie,2,0.0183
+name,Lamatin 52,2,0.0183
+name,Lamentin,2,0.0183
+name,Larousse,2,0.0183
+name,Lascahobas,2,0.0183
+name,Laval,2,0.0183
+name,Le Nouveau Centre Medico Hospitalier de la Rue Capois,2,0.0183
+name,Lycee,2,0.0183
+name,Lycee FAuistin Soufouque,2,0.0183
+name,Lycée Toussaint Louverture,2,0.0183
+name,MDM GRIFFIF Hospital,2,0.0183
+name,MIRAGOANE HOSPITAL SAINT THERESE,2,0.0183
+name,MIREBALAIS CLINIC PROFAMIL FAMILY PLAN,2,0.0183
+name,MIREBALAIS HOSPITAL COMMUNAUTAIRE,2,0.0183
+name,MSF Field Hospital Carrefour ,2,0.0183
+name,Mahothière,2,0.0183
+name,Mahotiere,2,0.0183
+name,Mahotiere 73,2,0.0183
+name,Maison Vendre,2,0.0183
+name,Maleare,2,0.0183
+name,Marassa,2,0.0183
+name,Marche,2,0.0183
+name,Marché de Fer ou Marché Vallières,2,0.0183
+name,Mardi Gras,2,0.0183
+name,Mare,2,0.0183
+name,Market,2,0.0183
+name,Martel,2,0.0183
+name,Martissant,2,0.0183
+name,Martissant 1,2,0.0183
+name,Martissant 15,2,0.0183
+name,Martissant 17,2,0.0183
+name,Martissant 25,2,0.0183
+name,Martissant 3,2,0.0183
+name,Massia,2,0.0183
+name,Maternitie de Christ Roi,2,0.0183
+name,Medical Center Boulevard la Salines,2,0.0183
+name,Medical Center near Blanchard,2,0.0183
+name,Medical University at Tabarre,2,0.0183
+name,Metevier,2,0.0183
+name,Ministère de l'Agriculture,2,0.0183
+name,Moguodé,2,0.0183
+name,Molière,2,0.0183
+name,Mon Repos,2,0.0183
+name,Mon Repos 34,2,0.0183
+name,Mon Repos 50,2,0.0183
+name,Mon Repos 52,2,0.0183
+name,Montagne Terrible,2,0.0183
+name,Morel,2,0.0183
+name,Morne Babou,2,0.0183
+name,Morne Blanchard,2,0.0183
+name,Morne Bois Chandel,2,0.0183
+name,Morne Cajou,2,0.0183
+name,Morne Calvaire,2,0.0183
+name,Morne Canne,2,0.0183
+name,Morne Chaînneau,2,0.0183
+name,Morne Crabe,2,0.0183
+name,Morne D'Argent,2,0.0183
+name,Morne Jacques,2,0.0183
+name,Morne Jean-Jean,2,0.0183
+name,Morne La Source,2,0.0183
+name,Morne Rouge,2,0.0183
+name,Morne a Tuf,2,0.0183
+name,Moulin,2,0.0183
+name,Mouline,2,0.0183
+name,Musseau,2,0.0183
+name,Médecins Sans Frontières,2,0.0183
+name,N. Dupre,2,0.0183
+name,NOAA,2,0.0183
+name,Nan Coucou,2,0.0183
+name,Nan Doval,2,0.0183
+name,Nan Grand Bois,2,0.0183
+name,Nan Roseau,2,0.0183
+name,Nan Zaboca,2,0.0183
+name,Oranger,2,0.0183
+name,Orphinalat de l'Immaculée Conception,2,0.0183
+name,PIERRE CLINIC PAYDEN HEALTH CENTER,2,0.0183
+name,PORT AU PRINCE HOSPITAL ASILE COMMUNAL,2,0.0183
+name,PORT AU PRINCE HOSPITAL BERNARD MEVS,2,0.0183
+name,PORT AU PRINCE HOSPITAL GRACE CHILDRENS,2,0.0183
+name,PORT AU PRINCE HOSPITAL MATERNITE ISAIE JEANTY,2,0.0183
+name,PORT AU PRINCE HOSPITAL MINUSTAH,2,0.0183
+name,Pain de Sucre,2,0.0183
+name,Parc des Palmistes,2,0.0183
+name,Peguyville,2,0.0183
+name,Pere Tevno,2,0.0183
+name,Pernier,2,0.0183
+name,Petite Palace Cazeau,2,0.0183
+name,Pierre Payen,2,0.0183
+name,Place du Marche,2,0.0183
+name,Platon,2,0.0183
+name,Platon Balais,2,0.0183
+name,Platon Trou Bigaille,2,0.0183
+name,Plaza,2,0.0183
+name,Pointe a Raquettes,2,0.0183
+name,Poste Marchand,2,0.0183
+name,Péligre Hydroelectric Dam,2,0.0183
+name,R La mothe,2,0.0183
+name,R Moise,2,0.0183
+name,R St Preux,2,0.0183
+name,R Villavaleix,2,0.0183
+name,R du Fond,2,0.0183
+name,R. Cité Absalon,2,0.0183
+name,R. de la Grand' Anse,2,0.0183
+name,R. des Nimes,2,0.0183
+name,Ravine Bois Cerceuil,2,0.0183
+name,Ravine Curtis,2,0.0183
+name,Ravine Gd Tabe,2,0.0183
+name,Ravine Glaise,2,0.0183
+name,Ravine Majanier,2,0.0183
+name,Ravine Montas,2,0.0183
+name,Ravine Papette,2,0.0183
+name,Ravines ?,2,0.0183
+name,"Refugee camp, football field",2,0.0183
+name,Rideau,2,0.0183
+name,Ritz Kinam 2,2,0.0183
+name,Riviere Berzeaud,2,0.0183
+name,Riviere Caiman,2,0.0183
+name,Riviere de Saint-Marc,2,0.0183
+name,Rivière Canot,2,0.0183
+name,Rivière De Bonga,2,0.0183
+name,Rivière La Fièvre,2,0.0183
+name,Rivière La Vallée,2,0.0183
+name,Rivière Momance ou Grande Rivière,2,0.0183
+name,Rivière Mory,2,0.0183
+name,Rivière Poillone,2,0.0183
+name,Rivière Roy,2,0.0183
+name,Rivière de Chauffard,2,0.0183
+name,Robert,2,0.0183
+name,Rock Maringoin,2,0.0183
+name,Romarin,2,0.0183
+name,Route De Desprez,2,0.0183
+name,Route de Freres 23,2,0.0183
+name,Route de Freres 34 (Cacolette),2,0.0183
+name,Route de Freres 44,2,0.0183
+name,Route de Péguy Ville,2,0.0183
+name,Rue 3,2,0.0183
+name,Rue 3eme Cite,2,0.0183
+name,Rue A Mentor,2,0.0183
+name,Rue Acacia,2,0.0183
+name,Rue Adrien,2,0.0183
+name,Rue Alexandre,2,0.0183
+name,Rue Ampère,2,0.0183
+name,Rue Assad,2,0.0183
+name,Rue B. De Marbois,2,0.0183
+name,Rue Barbancourt,2,0.0183
+name,Rue Barthélemy,2,0.0183
+name,Rue Baudière,2,0.0183
+name,Rue Baudières,2,0.0183
+name,Rue Berthold,2,0.0183
+name,Rue Betanee,2,0.0183
+name,Rue Bethanie,2,0.0183
+name,Rue Bienheureux,2,0.0183
+name,Rue Bon Repos,2,0.0183
+name,Rue Brice,2,0.0183
+name,Rue Brénord Prophète,2,0.0183
+name,Rue C Mayard,2,0.0183
+name,Rue C. Chauveau,2,0.0183
+name,Rue Cafe Matinal,2,0.0183
+name,Rue Capois,2,0.0183
+name,Rue Carbone,2,0.0183
+name,Rue Carrefour 75,2,0.0183
+name,Rue Celcis,2,0.0183
+name,Rue Charles Sumner,2,0.0183
+name,Rue Charlotin,2,0.0183
+name,Rue Charmant,2,0.0183
+name,Rue Christ Roi,2,0.0183
+name,Rue Claire,2,0.0183
+name,Rue Clugny,2,0.0183
+name,Rue Concorde,2,0.0183
+name,Rue Constitution,2,0.0183
+name,Rue Courte,2,0.0183
+name,Rue Dabelmar,2,0.0183
+name,Rue Dauphin,2,0.0183
+name,Rue Delmas 63,2,0.0183
+name,Rue Des Rampards,2,0.0183
+name,Rue Dr Noel,2,0.0183
+name,Rue Dr Noël,2,0.0183
+name,Rue Dr. Brun Ricot,2,0.0183
+name,Rue Du Marron Inconnu,2,0.0183
+name,Rue Dufort,2,0.0183
+name,Rue Dumervé,2,0.0183
+name,Rue Dumez,2,0.0183
+name,Rue E Dubois,2,0.0183
+name,Rue E Nau,2,0.0183
+name,Rue Edmond Pau,2,0.0183
+name,Rue Ellen,2,0.0183
+name,Rue F. Astrée,2,0.0183
+name,Rue F. Sanon,2,0.0183
+name,Rue Famille,2,0.0183
+name,Rue Faubert,2,0.0183
+name,Rue Faustin 1 er,2,0.0183
+name,Rue Felix Massac,2,0.0183
+name,Rue Fort National,2,0.0183
+name,Rue Fraternite,2,0.0183
+name,Rue Freres Simmonds,2,0.0183
+name,Rue Félix Massac,2,0.0183
+name,Rue G Sylvain,2,0.0183
+name,Rue G. Sylvain,2,0.0183
+name,Rue Gardere,2,0.0183
+name,Rue Garnier,2,0.0183
+name,Rue Gaston Michel,2,0.0183
+name,Rue Gauthier 2ème,2,0.0183
+name,Rue Gelin,2,0.0183
+name,Rue Grellier,2,0.0183
+name,Rue H Léchaud,2,0.0183
+name,Rue H Tippenhauer,2,0.0183
+name,Rue J Douge,2,0.0183
+name,Rue Jardines,2,0.0183
+name,Rue Jean XXIII,2,0.0183
+name,Rue Jeanty,2,0.0183
+name,Rue L' Hopital,2,0.0183
+name,Rue La Grotte,2,0.0183
+name,Rue Lavaud 1ère,2,0.0183
+name,Rue Lavierce,2,0.0183
+name,Rue Legitime,2,0.0183
+name,Rue Lespinasse,2,0.0183
+name,Rue Libellule,2,0.0183
+name,Rue Lillavois,2,0.0183
+name,Rue Lorimer Denis,2,0.0183
+name,Rue Loriot,2,0.0183
+name,Rue Louissant,2,0.0183
+name,Rue Lucien Hibbert,2,0.0183
+name,Rue Lundi,2,0.0183
+name,Rue Léonard,2,0.0183
+name,Rue M. Laham,2,0.0183
+name,Rue Maranatha,2,0.0183
+name,Rue Maratha,2,0.0183
+name,Rue Marc,2,0.0183
+name,Rue Marcelin,2,0.0183
+name,Rue Mery,2,0.0183
+name,Rue Metreaux,2,0.0183
+name,Rue Metropole,2,0.0183
+name,Rue Moreau,2,0.0183
+name,Rue Muller,2,0.0183
+name,Rue Nazon 2ème,2,0.0183
+name,Rue O Jeanty,2,0.0183
+name,Rue Obin,2,0.0183
+name,Rue Ortolan,2,0.0183
+name,Rue Ovide 14,2,0.0183
+name,Rue Ovide 18,2,0.0183
+name,Rue Ovide 19,2,0.0183
+name,Rue Ovide 2,2,0.0183
+name,Rue Ovide 22,2,0.0183
+name,Rue Ovide 7,2,0.0183
+name,Rue Ovide 8,2,0.0183
+name,Rue P. the Veno,2,0.0183
+name,Rue Palmier,2,0.0183
+name,Rue Paul VI,2,0.0183
+name,Rue Pean,2,0.0183
+name,Rue Peligre Santos,2,0.0183
+name,Rue Pinchinat,2,0.0183
+name,Rue Piquant,2,0.0183
+name,Rue Plaskazo,2,0.0183
+name,Rue Pochet,2,0.0183
+name,Rue Pourpier,2,0.0183
+name,Rue Pradines,2,0.0183
+name,Rue Péan,2,0.0183
+name,Rue Pétion,2,0.0183
+name,Rue R. Bobo,2,0.0183
+name,Rue Raternite,2,0.0183
+name,Rue Renand,2,0.0183
+name,Rue Renaud,2,0.0183
+name,Rue Rivière,2,0.0183
+name,Rue Rivière 2ème,2,0.0183
+name,Rue Rivière 3ème,2,0.0183
+name,Rue Robin,2,0.0183
+name,Rue Romaire,2,0.0183
+name,Rue Rosa,2,0.0183
+name,Rue S. Pradel,2,0.0183
+name,Rue Saint Claire,2,0.0183
+name,Rue Sans Fil,2,0.0183
+name,Rue Saponaire,2,0.0183
+name,Rue Sebijou,2,0.0183
+name,Rue Severe,2,0.0183
+name,Rue Simon,2,0.0183
+name,Rue Soeur Georges,2,0.0183
+name,Rue Soeur Étienne,2,0.0183
+name,Rue Soleil 10,2,0.0183
+name,Rue Soleil 21,2,0.0183
+name,Rue Soleil 23,2,0.0183
+name,Rue St Laurent,2,0.0183
+name,Rue St Louis,2,0.0183
+name,Rue St Yves,2,0.0183
+name,Rue St. Joseph,2,0.0183
+name,Rue Sténio Vincent,2,0.0183
+name,Rue Sylvio,2,0.0183
+name,Rue Sévère,2,0.0183
+name,Rue T. Auguste,2,0.0183
+name,Rue Timoleon,2,0.0183
+name,Rue Timoléon,2,0.0183
+name,Rue Trinite,2,0.0183
+name,Rue Vaillant,2,0.0183
+name,Rue Vaval,2,0.0183
+name,Rue Victorine,2,0.0183
+name,Rue Villefranche,2,0.0183
+name,Rue Vilmenay,2,0.0183
+name,Rue Vivy Mitchel,2,0.0183
+name,Rue Waney 89,2,0.0183
+name,Rue d' Enter,2,0.0183
+name,Rue d'Ennery,2,0.0183
+name,Rue de la Marquise,2,0.0183
+name,Rue de la Roux,2,0.0183
+name,Rue de la Sorbonne,2,0.0183
+name,Rue des Jeunes,2,0.0183
+name,Rue des Pylones,2,0.0183
+name,Rue des Salésiens,2,0.0183
+name,Rue du Docteur Dehoux,2,0.0183
+name,Ruelle A. Cesaire,2,0.0183
+name,Ruelle Alerte,2,0.0183
+name,Ruelle Alibe,2,0.0183
+name,Ruelle Alland,2,0.0183
+name,Ruelle Amazone,2,0.0183
+name,Ruelle Amiral,2,0.0183
+name,Ruelle Bartholy,2,0.0183
+name,Ruelle Batraville,2,0.0183
+name,Ruelle Beauvais,2,0.0183
+name,Ruelle Becassine,2,0.0183
+name,Ruelle Berri,2,0.0183
+name,Ruelle Bigaud,2,0.0183
+name,Ruelle Bois Pi,2,0.0183
+name,Ruelle Bois Piquant,2,0.0183
+name,Ruelle Bouiard,2,0.0183
+name,Ruelle Brutus,2,0.0183
+name,Ruelle C Colomb,2,0.0183
+name,Ruelle Camelia,2,0.0183
+name,Ruelle Carla,2,0.0183
+name,Ruelle Caroline,2,0.0183
+name,Ruelle Catalpa,2,0.0183
+name,Ruelle Chancy,2,0.0183
+name,Ruelle Chardon,2,0.0183
+name,Ruelle Charlemagne,2,0.0183
+name,Ruelle Chauvet,2,0.0183
+name,Ruelle Chochotte,2,0.0183
+name,Ruelle Cineas,2,0.0183
+name,Ruelle Cinerarie,2,0.0183
+name,Ruelle Cinéas,2,0.0183
+name,Ruelle Daniel Brun,2,0.0183
+name,Ruelle Dartigue,2,0.0183
+name,Ruelle Dejean,2,0.0183
+name,Ruelle Delille,2,0.0183
+name,Ruelle Dr. Kernisan,2,0.0183
+name,Ruelle Dr. L. Wallon,2,0.0183
+name,Ruelle E. Seguineau,2,0.0183
+name,Ruelle Erima,2,0.0183
+name,Ruelle F. Doret,2,0.0183
+name,Ruelle Frédéric,2,0.0183
+name,Ruelle Gauthier,2,0.0183
+name,Ruelle Hérard,2,0.0183
+name,Ruelle J.C. Andre,2,0.0183
+name,Ruelle JN Charles,2,0.0183
+name,Ruelle Jacob,2,0.0183
+name,Ruelle Jean Faine,2,0.0183
+name,Ruelle Julio César,2,0.0183
+name,Ruelle Laieau,2,0.0183
+name,Ruelle Lavaud,2,0.0183
+name,Ruelle Lechaud,2,0.0183
+name,Ruelle Lota Jérémie,2,0.0183
+name,Ruelle M. Herne,2,0.0183
+name,Ruelle Martineau 3 eme,2,0.0183
+name,Ruelle Melisse,2,0.0183
+name,Ruelle Mery,2,0.0183
+name,Ruelle Mimosa,2,0.0183
+name,Ruelle Montbrun,2,0.0183
+name,Ruelle Nandou,2,0.0183
+name,Ruelle Nicolas,2,0.0183
+name,Ruelle O. Chéry,2,0.0183
+name,Ruelle Ogeron,2,0.0183
+name,Ruelle P Cassagnol,2,0.0183
+name,Ruelle P. Savan,2,0.0183
+name,Ruelle Petrel,2,0.0183
+name,Ruelle Pinta,2,0.0183
+name,Ruelle Ponget,2,0.0183
+name,Ruelle S Villard,2,0.0183
+name,Ruelle S. Villard,2,0.0183
+name,Ruelle Samba,2,0.0183
+name,Ruelle Santa,2,0.0183
+name,Ruelle Souchet; Ruelle Melisse Souchet,2,0.0183
+name,Ruelle St. Aude,2,0.0183
+name,Ruelle St. Fort,2,0.0183
+name,Ruelle Séjourné,2,0.0183
+name,Ruelle T Brave,2,0.0183
+name,Ruelle Vastey,2,0.0183
+name,Ruelle Victorine,2,0.0183
+name,Ruelle Violette,2,0.0183
+name,Ruelle de Fontenay,2,0.0183
+name,SADA - FONDS BAPTISTE,2,0.0183
+name,Saint Antoine,2,0.0183
+name,Saint Gerard,2,0.0183
+name,Sarthe,2,0.0183
+name,Savane Salée,2,0.0183
+name,Seguin,2,0.0183
+name,Simon 0,2,0.0183
+name,Simon 1,2,0.0183
+name,Soge Bank,2,0.0183
+name,Soissons,2,0.0183
+name,Soulager,2,0.0183
+name,Source,2,0.0183
+name,Source Colas,2,0.0183
+name,Source Philippe,2,0.0183
+name,Sous Savane,2,0.0183
+name,St. Joseph Hospital,2,0.0183
+name,St. Louis de Gonzague School,2,0.0183
+name,Super Marché,2,0.0183
+name,TURGEAU HOSPITAL HEALTH CENTER SODEC,2,0.0183
+name,Tabarre,2,0.0183
+name,Tabarre 21,2,0.0183
+name,Tabarre 33-A,2,0.0183
+name,Tacia Hotel,2,0.0183
+name,Tapage,2,0.0183
+name,Terre Noire,2,0.0183
+name,Terre Rouge,2,0.0183
+name,Tesserot,2,0.0183
+name,The Old Petit Goave,2,0.0183
+name,Thor 10,2,0.0183
+name,Thor Le Volant,2,0.0183
+name,Ti Fond,2,0.0183
+name,Ti Paradis,2,0.0183
+name,Ti Source,2,0.0183
+name,Tomarin,2,0.0183
+name,Torcelle,2,0.0183
+name,Tosselle,2,0.0183
+name,Toutier,2,0.0183
+name,Trefarend,2,0.0183
+name,Trou Caiman,2,0.0183
+name,Trou Cochon,2,0.0183
+name,Trou Jacques,2,0.0183
+name,Turkish Field Hospital,2,0.0183
+name,Tête de l'Eau,2,0.0183
+name,UN (MINUSTAH) Logs Base,2,0.0183
+name,United States Embassy,2,0.0183
+name,Université Quisqueya,2,0.0183
+name,Usine,2,0.0183
+name,Vaudré,2,0.0183
+name,Vialet,2,0.0183
+name,Viata,2,0.0183
+name,Vieux Lacour,2,0.0183
+name,Village W. Lamothe,2,0.0183
+name,Ville Bonheur,2,0.0183
+name,Waney Bijou,2,0.0183
+name,Water Tank 1,2,0.0183
+name,Wayne 85,2,0.0183
+name,Wayne 87,2,0.0183
+name,Wesleyen de Eglise,2,0.0183
+name,Western Union,2,0.0183
+name,Zone Predailler,2,0.0183
+name,camp site,2,0.0183
+name,rue roy,2,0.0183
+name,soccer,2,0.0183
+name,École Normale Primaire,2,0.0183
+name,Église Protestante Siloé,2,0.0183
+name,"""""",1,0.0091
+name,(type value here),1,0.0091
+name,1064,1,0.0091
+name,10�me Pickmy;1�re Palma,1,0.0091
+name,130,1,0.0091
+name,139,1,0.0091
+name,147,1,0.0091
+name,149,1,0.0091
+name,185,1,0.0091
+name,249,1,0.0091
+name,256,1,0.0091
+name,264,1,0.0091
+name,299,1,0.0091
+name,2° Imp Marc...,1,0.0091
+name,339,1,0.0091
+name,56,1,0.0091
+name,5�me Gros Mangle;6�me La Source,1,0.0091
+name,5�me Gros Mangle;7�me Grand Vide,1,0.0091
+name,8�me Trou Louis;9�me Pointe � Raquette,1,0.0091
+name,? Maré,1,0.0091
+name,ABRICOT,1,0.0091
+name,AIMER - IMANA - CDRS primary / emergency care medical facility,1,0.0091
+name,AQUIN,1,0.0091
+name,ARCAHAIE HOSPITAL SAINT JOSEPH DE GALILEE,1,0.0091
+name,ASILE ST VINCENT DE PAUL,1,0.0091
+name,Abricot,1,0.0091
+name,Ag/s,1,0.0091
+name,Air Haiti,1,0.0091
+name,Albert Schweitzer,1,0.0091
+name,Aliome,1,0.0091
+name,Allaïe,1,0.0091
+name,Alta Graca,1,0.0091
+name,Ambassade d'Israël,1,0.0091
+name,Ambassade de Bolivie,1,0.0091
+name,Ambassade de la République dominicaine,1,0.0091
+name,Ambassade du Brésil,1,0.0091
+name,Ambassade du Chili,1,0.0091
+name,Ambassade du Mexique,1,0.0091
+name,Amerry,1,0.0091
+name,Amphitheatre,1,0.0091
+name,Amphithéatre,1,0.0091
+name,Andro,1,0.0091
+name,Angibeau,1,0.0091
+name,Anne,1,0.0091
+name,Areau,1,0.0091
+name,Areguy,1,0.0091
+name,Argentina Temporary Hospital,1,0.0091
+name,Artibonite,1,0.0091
+name,Asile de Sigueneau,1,0.0091
+name,Au Parc,1,0.0091
+name,Auditon,1,0.0091
+name,Aumond,1,0.0091
+name,Avant Post Carrefour,1,0.0091
+name,Ave G Theodat,1,0.0091
+name,Avenida Mais Gate,1,0.0091
+name,Avenue De La Republique,1,0.0091
+name,Avenue Pie XII,1,0.0091
+name,B Palmiers,1,0.0091
+name,BERACA,1,0.0091
+name,BIRE (NEW MISSION),1,0.0091
+name,BOIS - ROUGE,1,0.0091
+name,BOIS NEUF / FOSREF,1,0.0091
+name,BRAZILIAN FIELD HOSPITAL,1,0.0091
+name,BRAZILLIAN FIELD HOSPITAL,1,0.0091
+name,BSD SANTE,1,0.0091
+name,Babiole,1,0.0091
+name,Badouin,1,0.0091
+name,Bagro,1,0.0091
+name,Baie de Grand Goâve,1,0.0091
+name,Baie de Petit-Goâve,1,0.0091
+name,Baie de Port-au-Prince,1,0.0091
+name,Baie de Saint-Marc,1,0.0091
+name,Baile,1,0.0091
+name,Baille,1,0.0091
+name,Bajaux,1,0.0091
+name,Balan,1,0.0091
+name,Balanier,1,0.0091
+name,Balisaille,1,0.0091
+name,Balleye,1,0.0091
+name,Banga,1,0.0091
+name,Banne Roche,1,0.0091
+name,Banos,1,0.0091
+name,Banque Nationale,1,0.0091
+name,Barbancourt,1,0.0091
+name,Barbe,1,0.0091
+name,Baret,1,0.0091
+name,Barrier Batin,1,0.0091
+name,Barrier Jeud,1,0.0091
+name,Barriere,1,0.0091
+name,Barrière Jeudi,1,0.0091
+name,Bas Chauto,1,0.0091
+name,Bas Duble,1,0.0091
+name,Bas Gougeon,1,0.0091
+name,Bas La Voute,1,0.0091
+name,Bas Lavroute,1,0.0091
+name,Bas Matel,1,0.0091
+name,Bas Peu De Choses,1,0.0091
+name,Bas la Voute,1,0.0091
+name,Bas le Voule,1,0.0091
+name,Basane,1,0.0091
+name,Basse Mory,1,0.0091
+name,Bassin,1,0.0091
+name,Bassin Bleu,1,0.0091
+name,Bassin Boeuf,1,0.0091
+name,Baucan Greffin,1,0.0091
+name,Baudin,1,0.0091
+name,Baupant,1,0.0091
+name,Bayard,1,0.0091
+name,Bazile,1,0.0091
+name,Beauboeuf,1,0.0091
+name,Beauséjour,1,0.0091
+name,Beké,1,0.0091
+name,Bel Air,1,0.0091
+name,Bel Fond,1,0.0091
+name,Bel Platon,1,0.0091
+name,Belbede,1,0.0091
+name,Bellanium,1,0.0091
+name,Bellanton,1,0.0091
+name,Belle Fontaine,1,0.0091
+name,Bellevue La Mantagne,1,0.0091
+name,Belo,1,0.0091
+name,Beloc,1,0.0091
+name,Berac,1,0.0091
+name,Berauli,1,0.0091
+name,Bercy,1,0.0091
+name,Bergeaud,1,0.0091
+name,Bergeotte,1,0.0091
+name,Berken,1,0.0091
+name,Berry,1,0.0091
+name,Berthe,1,0.0091
+name,Bertrand,1,0.0091
+name,Besace,1,0.0091
+name,Beudet,1,0.0091
+name,Bezin,1,0.0091
+name,Bien Aime,1,0.0091
+name,Big Star,1,0.0091
+name,Bigonet,1,0.0091
+name,Bineau Blanche,1,0.0091
+name,Bineau Noire,1,0.0091
+name,Binot,1,0.0091
+name,Biscaillant,1,0.0091
+name,Bissanthe,1,0.0091
+name,Bizarre,1,0.0091
+name,Blaise,1,0.0091
+name,Bloucan Tache,1,0.0091
+name,Boco,1,0.0091
+name,Bocozelle,1,0.0091
+name,Boidine,1,0.0091
+name,Bois,1,0.0091
+name,Bois Blanc,1,0.0091
+name,Bois Cabrit,1,0.0091
+name,Bois Capable,1,0.0091
+name,Bois Carre,1,0.0091
+name,Bois Carré,1,0.0091
+name,Bois Casse,1,0.0091
+name,Bois Cerceuil,1,0.0091
+name,Bois Cercueil,1,0.0091
+name,Bois Chandel,1,0.0091
+name,Bois Chandelle,1,0.0091
+name,Bois Cochon,1,0.0091
+name,Bois Crabe,1,0.0091
+name,Bois D'Avril,1,0.0091
+name,Bois D'Orme,1,0.0091
+name,Bois Larne,1,0.0091
+name,Bois Leger,1,0.0091
+name,Bois Maçon,1,0.0091
+name,Bois Nicolas,1,0.0091
+name,Bois Nègre Marron,1,0.0091
+name,Bois Néguesse,1,0.0091
+name,Bois Verna,1,0.0091
+name,Bois-Moquette,1,0.0091
+name,Bon Repos,1,0.0091
+name,Bon Repos PNH Stn,1,0.0091
+name,Bonga,1,0.0091
+name,Bongars,1,0.0091
+name,Bonhomme,1,0.0091
+name,Bonnet,1,0.0091
+name,Bos Croix,1,0.0091
+name,Bosiaux,1,0.0091
+name,Boucambour,1,0.0091
+name,Boucan Bouteille,1,0.0091
+name,Boucan Cache,1,0.0091
+name,Boucan Greffin,1,0.0091
+name,Boucan Legume,1,0.0091
+name,Boucan Michel,1,0.0091
+name,Boucan Patate,1,0.0091
+name,Boucan Tache,1,0.0091
+name,Boue Cherissable,1,0.0091
+name,Boue Etroits,1,0.0091
+name,Bouguillon,1,0.0091
+name,Boulaille Boeuf,1,0.0091
+name,Bourdon,1,0.0091
+name,Bourg Anglais,1,0.0091
+name,Bourjolly,1,0.0091
+name,Boursolly,1,0.0091
+name,Bousinette,1,0.0091
+name,Boussan,1,0.0091
+name,Boyaco,1,0.0091
+name,Bralance,1,0.0091
+name,Bras Gauche,1,0.0091
+name,Bremon,1,0.0091
+name,Briand,1,0.0091
+name,Brulaille,1,0.0091
+name,Bréman,1,0.0091
+name,Brémon,1,0.0091
+name,Brémont,1,0.0091
+name,Bélivert,1,0.0091
+name,Bénitier,1,0.0091
+name,C /S PETIT PLACE CAZEAU,1,0.0091
+name,C. Sylvain,1,0.0091
+name,C/S Lespwa,1,0.0091
+name,C/S Maison,1,0.0091
+name,C/S Saint-esprit,1,0.0091
+name,CAL DE MADIAN,1,0.0091
+name,CAL DE PAILLANT,1,0.0091
+name,CASF KAY POU ZAFET SANTE FANM,1,0.0091
+name,CDS de Las Cahobas (UnitT de Maladie Infectueuse),1,0.0091
+name,CEGYPEF,1,0.0091
+name,CENTE WOLD VISION DE TI PALMIS,1,0.0091
+name,CENTRE COMMUNAUTAIRE DE FECA(FESSARD,1,0.0091
+name,CENTRE DE BIZOTON BIZOTON,1,0.0091
+name,CENTRE DE LA SANTE DE LA CROIX DES MISSIONS,1,0.0091
+name,CENTRE DE SANTE / BELLANGER,1,0.0091
+name,CENTRE DE SANTE AFE NEG KOMBIT DE DIMUSSEAU,1,0.0091
+name,CENTRE DE SANTE AFE NEG KOMBIT FURCY,1,0.0091
+name,CENTRE DE SANTE AU BON SECOURS DE LA FONDATION MISSION PAR LA FOI HAITIENNE,1,0.0091
+name,CENTRE DE SANTE BERNARD MEVS,1,0.0091
+name,CENTRE DE SANTE BETHEL CAMPECH DUMAY,1,0.0091
+name,CENTRE DE SANTE BETHESDA,1,0.0091
+name,CENTRE DE SANTE BILL RICE,1,0.0091
+name,CENTRE DE SANTE BON BERGER,1,0.0091
+name,CENTRE DE SANTE BON SECOURS,1,0.0091
+name,CENTRE DE SANTE CDPS,1,0.0091
+name,CENTRE DE SANTE CHRISTIAN VILLE,1,0.0091
+name,CENTRE DE SANTE COMMUNAL DE DELMAS 32,1,0.0091
+name,CENTRE DE SANTE COMMUNATAIRE,1,0.0091
+name,CENTRE DE SANTE COMMUNAUTAIRE MAIS GATE,1,0.0091
+name,CENTRE DE SANTE COMMUNAUTAIRE STE JUSTINE,1,0.0091
+name,CENTRE DE SANTE COMMUNAUTAIRE TRIANGLE UNI-SANTE+,1,0.0091
+name,CENTRE DE SANTE CONCORDIA,1,0.0091
+name,CENTRE DE SANTE DE CABARET,1,0.0091
+name,CENTRE DE SANTE DE CITE SICLAIR,1,0.0091
+name,CENTRE DE SANTE DE CORNILLON,1,0.0091
+name,CENTRE DE SANTE DE CROIX-DES-BOUQUETS,1,0.0091
+name,CENTRE DE SANTE DE DESLATTES,1,0.0091
+name,CENTRE DE SANTE DE ELISABETH,1,0.0091
+name,CENTRE DE SANTE DE GANTHIER,1,0.0091
+name,CENTRE DE SANTE DE JALOUSIE,1,0.0091
+name,CENTRE DE SANTE DE L'ETANG,1,0.0091
+name,CENTRE DE SANTE DE LA FRATERNITE,1,0.0091
+name,CENTRE DE SANTE DE LIANCOURT,1,0.0091
+name,CENTRE DE SANTE DE MORNE HERCULE,1,0.0091
+name,CENTRE DE SANTE DE RABOTEAU,1,0.0091
+name,CENTRE DE SANTE DE SAINT MICHEL,1,0.0091
+name,CENTRE DE SANTE DE SAINT-MICHEL,1,0.0091
+name,CENTRE DE SANTE DE TABARRE - HAITI -MED,1,0.0091
+name,CENTRE DE SANTE DE THOMAZEAU,1,0.0091
+name,CENTRE DE SANTE DE THOMONDE,1,0.0091
+name,CENTRE DE SANTE DE TURBE,1,0.0091
+name,CENTRE DE SANTE DELMAS #1,1,0.0091
+name,CENTRE DE SANTE DU BON SAMARITAIN,1,0.0091
+name,CENTRE DE SANTE DU SOUVENIR,1,0.0091
+name,CENTRE DE SANTE ECERES,1,0.0091
+name,CENTRE DE SANTE ET DE NUTRITION FOCOMEL,1,0.0091
+name,CENTRE DE SANTE EVANGELIQUE DE TORCELLE,1,0.0091
+name,CENTRE DE SANTE EXCLUSION EVANGELIQUE MONDIALE,1,0.0091
+name,CENTRE DE SANTE FAMILIA LE CHAB,1,0.0091
+name,CENTRE DE SANTE FARNESE LOUIS CHARLES DE PASQUA,1,0.0091
+name,CENTRE DE SANTE FOCOMEL (163),1,0.0091
+name,CENTRE DE SANTE GEORGES GAUVIN,1,0.0091
+name,CENTRE DE SANTE H.E.L.P. INC DE VAUDREUIL,1,0.0091
+name,CENTRE DE SANTE HAUT TURGEAU,1,0.0091
+name,CENTRE DE SANTE HOSPITALIER,1,0.0091
+name,CENTRE DE SANTE HOSPITALIER DE PERNIER,1,0.0091
+name,CENTRE DE SANTE JOSEPH JANVIER,1,0.0091
+name,CENTRE DE SANTE LA MAIN TENDUE,1,0.0091
+name,CENTRE DE SANTE LANZAC,1,0.0091
+name,CENTRE DE SANTE LAVALE,1,0.0091
+name,CENTRE DE SANTE LIFE LINE,1,0.0091
+name,CENTRE DE SANTE MATERNO-INFANTILE ET NUTRITION N.D.CARIDAD,1,0.0091
+name,CENTRE DE SANTE NAZAREEN,1,0.0091
+name,CENTRE DE SANTE NICOLAS ARMAND,1,0.0091
+name,CENTRE DE SANTE OPA,1,0.0091
+name,CENTRE DE SANTE OPERATION DOUBLE HARVEST,1,0.0091
+name,CENTRE DE SANTE ORGANISATION ROOM,1,0.0091
+name,CENTRE DE SANTE PAR LA FOI,1,0.0091
+name,CENTRE DE SANTE PASTEUR RONCOURT,1,0.0091
+name,CENTRE DE SANTE PERNIER,1,0.0091
+name,CENTRE DE SANTE PETITS AMIS DE JESUS,1,0.0091
+name,CENTRE DE SANTE PIERRE PAYEN,1,0.0091
+name,CENTRE DE SANTE ROSEMINA DE DIEGUE,1,0.0091
+name,CENTRE DE SANTE SADA DE SOURCE MATELAS,1,0.0091
+name,CENTRE DE SANTE SAINT PIERRE,1,0.0091
+name,CENTRE DE SANTE ST MICHEL DE BOUCAN CARRE,1,0.0091
+name,CENTRE DE SANTE ST PAUL,1,0.0091
+name,CENTRE DE SANTE TOTOLEAU,1,0.0091
+name,CENTRE DE SANTE UCPEDEC,1,0.0091
+name,CENTRE DISPENSAIRE DE CHALON,1,0.0091
+name,CENTRE DU VRAI DED DE L'EGLISE DE DIEU,1,0.0091
+name,CENTRE HOSPITALIER DE LA RUE BERNE,1,0.0091
+name,CENTRE HOSPITALIER DE LA VIE,1,0.0091
+name,CENTRE JEUNES DE CHRIST-ROI,1,0.0091
+name,CENTRE JEUNES DE LEOGANE,1,0.0091
+name,CENTRE JEUNES FOSREF LEOGANE,1,0.0091
+name,CENTRE JEUNES PLAINE DU CUL DE SAC,1,0.0091
+name,CENTRE JN MOSSANTO PETIT,1,0.0091
+name,CENTRE LAKAY DE MARIANI,1,0.0091
+name,CENTRE LAKAY DE PETION-VILLE,1,0.0091
+name,CENTRE MATERNITE DE LA GRAND RUE,1,0.0091
+name,CENTRE MATERNO INFANTIL DE LEOGANE,1,0.0091
+name,CENTRE MEDICAL CHARLES COLIMON,1,0.0091
+name,CENTRE MEDICAL COMMUNAUTAIRE DE TABARRE,1,0.0091
+name,CENTRE MEDICAL DE LA RHEMA,1,0.0091
+name,CENTRE MEDICAL DU CANAPE-VERT,1,0.0091
+name,CENTRE MEDICAL O.M./ PES SANTE PLUS,1,0.0091
+name,CENTRE MEDICAL SAINT MONFORT,1,0.0091
+name,CENTRE MEDICO - CHIRUGICAL SAINT JEAN,1,0.0091
+name,CENTRE MEDICO - COMMUNAUTAIRE DE DARBONE,1,0.0091
+name,CENTRE MEDICO - SOCIAL DE LA RIVIERE FROIDE,1,0.0091
+name,CENTRE MEDICO D'AIDE SOCIAL,1,0.0091
+name,CENTRE MEDICO POPULAIRE BAS FONDS PHILOMENE,1,0.0091
+name,CENTRE MEDICO SOCIAL DE THOMASSIN 25,1,0.0091
+name,CENTRE MEDICO SOCIAL J.M.P. ANEXTE # 50,1,0.0091
+name,CENTRE MEDICO-POPULAIRE DE BAS FONDS PHILOMENE,1,0.0091
+name,CENTRE MEDICO-SOCIAL PETIT PLACE CAZEAU,1,0.0091
+name,CENTRE PHILADELPHIE MEDICALE ET DENTAIRE,1,0.0091
+name,CENTRE POPULAIRE MAHONAHIM,1,0.0091
+name,CENTRE SANTE LUCELIA BONTEMPS,1,0.0091
+name,CENTRE SOCIO-MEDICAL DE CANGE,1,0.0091
+name,CENTRE WOLD VISION DE GROS MANGLE,1,0.0091
+name,CEPOZ CENTRE ESPOIR,1,0.0091
+name,CLINIQUE COMMUNAUTAIRE DE MARTISSANT,1,0.0091
+name,CLINIQUE DE MORNE A CHANDELLE,1,0.0091
+name,CLINIQUE HOPITAL LAFLEUR DU CHENE,1,0.0091
+name,CLINIQUE MEDICO-CHIRURGICALE DUGUE,1,0.0091
+name,CLINIQUE MERES ET ENFANTS,1,0.0091
+name,CMPP,1,0.0091
+name,COMPLEXE MEDICO SOCIAL EDUCATIF DE CANGE,1,0.0091
+name,COMPLEXE MEDICO-CHIRURGICAL DE SILO,1,0.0091
+name,COTE-DE-FER,1,0.0091
+name,CROIX DES BOUQUETS HOSPITAL BEUDET DELILEE,1,0.0091
+name,CROIX ROUGE HAITIENNE PAP,1,0.0091
+name,CSE,1,0.0091
+name,CSSH,1,0.0091
+name,Ca Avril,1,0.0091
+name,Ca Biedo,1,0.0091
+name,Ca Bieque,1,0.0091
+name,Ca Chlén,1,0.0091
+name,Ca Damier,1,0.0091
+name,Ca Dulma,1,0.0091
+name,Ca Elie,1,0.0091
+name,Ca Gomme,1,0.0091
+name,Ca Guigouet,1,0.0091
+name,Ca Jason,1,0.0091
+name,Ca Leon,1,0.0091
+name,Ca Michaud,1,0.0091
+name,Ca Pierre,1,0.0091
+name,Ca Pouillant,1,0.0091
+name,Caba,1,0.0091
+name,Cadiac,1,0.0091
+name,Cahot,1,0.0091
+name,Caille Boucan,1,0.0091
+name,Caiman Bridge,1,0.0091
+name,Calice,1,0.0091
+name,Calier,1,0.0091
+name,Califebe,1,0.0091
+name,Calnadere,1,0.0091
+name,Calnadre,1,0.0091
+name,Calon,1,0.0091
+name,Calumette,1,0.0091
+name,Campan,1,0.0091
+name,Campant,1,0.0091
+name,Campeche,1,0.0091
+name,Campont,1,0.0091
+name,Campèche Felix,1,0.0091
+name,Canadian Embassy,1,0.0091
+name,Canape Vert,1,0.0091
+name,Canne Marrori,1,0.0091
+name,Capace,1,0.0091
+name,Cargout,1,0.0091
+name,Caroline,1,0.0091
+name,Carrefour Barque PNH Stn,1,0.0091
+name,Carrefour Beargé,1,0.0091
+name,Carrefour Beraque,1,0.0091
+name,Carrefour Bete,1,0.0091
+name,Carrefour Bête,1,0.0091
+name,Carrefour Clercine,1,0.0091
+name,Carrefour Desruisseaux,1,0.0091
+name,Carrefour Dufort,1,0.0091
+name,Carrefour Fauché,1,0.0091
+name,Carrefour Fleuriot,1,0.0091
+name,Carrefour La Boule,1,0.0091
+name,Carrefour Moussignac,1,0.0091
+name,Carrefour Nan Brule,1,0.0091
+name,Casale,1,0.0091
+name,Casimir,1,0.0091
+name,Cassagne,1,0.0091
+name,Cassis,1,0.0091
+name,Castel,1,0.0091
+name,Castigant,1,0.0091
+name,Catambe,1,0.0091
+name,Cato,1,0.0091
+name,Celio,1,0.0091
+name,Center Culturel,1,0.0091
+name,Centre,1,0.0091
+name,Centre D'Art,1,0.0091
+name,Centre D'Hygience de la Saline,1,0.0091
+name,Centre Medical Siméus,1,0.0091
+name,Centre Médico-Social Populorum Progressio,1,0.0091
+name,Centre a lits Christian Martinez,1,0.0091
+name,Centre d'Apprentissage,1,0.0091
+name,Centre de Sante Eliazer Germain,1,0.0091
+name,Centre de Sante du Portail Leogane,1,0.0091
+name,Centre de Santé FOSADEC,1,0.0091
+name,Centre de Santé avec Lits Saint Esprit,1,0.0091
+name,Centre de Santé avec lits de Cange,1,0.0091
+name,Centre de Santé de Alphonse,1,0.0091
+name,Centre de Santé de Christianville,1,0.0091
+name,Centre de Santé de Thomonde,1,0.0091
+name,Centre de le Sante de la Cathedral,1,0.0091
+name,Cercey,1,0.0091
+name,Cesselès,1,0.0091
+name,Chafa,1,0.0091
+name,Chambrun,1,0.0091
+name,Champs de Mard,1,0.0091
+name,Chapelle de St.-Alexandre,1,0.0091
+name,Chapelle de Ste. Philomene,1,0.0091
+name,Chapelle de Ste. Philoméne,1,0.0091
+name,Chapini,1,0.0091
+name,Chapotin,1,0.0091
+name,Chardene,1,0.0091
+name,Charles,1,0.0091
+name,Charrier,1,0.0091
+name,Chassagne,1,0.0091
+name,Chatelain,1,0.0091
+name,Chaufa,1,0.0091
+name,Cheridant,1,0.0091
+name,Chevrine,1,0.0091
+name,Chien Dent,1,0.0091
+name,Christianville Mission,1,0.0091
+name,Church Apostolique,1,0.0091
+name,Chérisi,1,0.0091
+name,Cima,1,0.0091
+name,Cimitiére de Pétionville,1,0.0091
+name,Cimitére 1,1,0.0091
+name,Cimitére 2,1,0.0091
+name,Cite L'Eternel,1,0.0091
+name,Cite Soleil Municiple Police Station,1,0.0091
+name,Citronelle,1,0.0091
+name,ClLINIQUE COMMUNAUTAIRE DE DELMAS 75,1,0.0091
+name,Clairin,1,0.0091
+name,Clercine 18,1,0.0091
+name,Clercine 9,1,0.0091
+name,Clinique Mennonite,1,0.0091
+name,Clinique Saint Pierre,1,0.0091
+name,Clinique de la Sante,1,0.0091
+name,Cnetre de Reeducation,1,0.0091
+name,Co Poule,1,0.0091
+name,Cochon Gras,1,0.0091
+name,Cofin,1,0.0091
+name,Colin,1,0.0091
+name,College Benoit XVI,1,0.0091
+name,College Canado-Haitien,1,0.0091
+name,College Canape-Vert,1,0.0091
+name,College Chretien De Leogan,1,0.0091
+name,College Classique,1,0.0091
+name,College Harry Brake Man,1,0.0091
+name,College Toussant Louveture,1,0.0091
+name,Colombel,1,0.0091
+name,Coma,1,0.0091
+name,Comier,1,0.0091
+name,Commissariat Principal,1,0.0091
+name,"Community Hospital of Haiti, Hospital de la Comunidade Haitiene",1,0.0091
+name,Complex MAterno-Medico,1,0.0091
+name,Complexe Materno-Medico,1,0.0091
+name,Conty,1,0.0091
+name,Coq Chante,1,0.0091
+name,Corail de Mer,1,0.0091
+name,Corali,1,0.0091
+name,Cordillier,1,0.0091
+name,Corridor Citron,1,0.0091
+name,Corridor Gangny,1,0.0091
+name,Corridor Lundi,1,0.0091
+name,Corridor St. Michel,1,0.0091
+name,Corvelle,1,0.0091
+name,Cotard,1,0.0091
+name,Cote Plage 20,1,0.0091
+name,Cote Plage 22,1,0.0091
+name,Cote Plage 24,1,0.0091
+name,Cote Plage 26,1,0.0091
+name,Cote Plage 28,1,0.0091
+name,Coudgoye,1,0.0091
+name,Coulard,1,0.0091
+name,Coupeau,1,0.0091
+name,Coupis,1,0.0091
+name,Coutard,1,0.0091
+name,Couyo,1,0.0091
+name,Covilette,1,0.0091
+name,Croix Des Bossales,1,0.0091
+name,Croix des Bouquets PNH Stn,1,0.0091
+name,Curtis,1,0.0091
+name,D'Haiti,1,0.0091
+name,DELMAS CLINIC MULTIMED 2,1,0.0091
+name,DELMAS HOSPITAL TRINITY,1,0.0091
+name,DESCHAPELLES HOSPITAL ALBERT SCHWEITZER,1,0.0091
+name,DFPL/PNH,1,0.0091
+name,DISPENSAIRE ABRIOT,1,0.0091
+name,DISPENSAIRE BELLE RIVIERE,1,0.0091
+name,DISPENSAIRE CHENOT,1,0.0091
+name,DISPENSAIRE CITE MERICAIN,1,0.0091
+name,DISPENSAIRE COMMUNAUTAIRE,1,0.0091
+name,DISPENSAIRE COMMUNAUTAIRE DE GRANDE SOURCE,1,0.0091
+name,DISPENSAIRE COMMUNAUTAIRE DE MARE SUCRIN,1,0.0091
+name,DISPENSAIRE COMMUNAUTAIRE DE MUSSOTTE,1,0.0091
+name,DISPENSAIRE COUPE MARDI - GRAS,1,0.0091
+name,DISPENSAIRE DE CASALE,1,0.0091
+name,DISPENSAIRE DE CINQUIEME,1,0.0091
+name,DISPENSAIRE DE COLOMBIER,1,0.0091
+name,DISPENSAIRE DE L'ERMITHE,1,0.0091
+name,DISPENSAIRE DE LHOMON,1,0.0091
+name,DISPENSAIRE DE MARMONT,1,0.0091
+name,DISPENSAIRE DE MORNE A BATEAU,1,0.0091
+name,DISPENSAIRE DE PELISSIER,1,0.0091
+name,DISPENSAIRE DE SARAZIN,1,0.0091
+name,DISPENSAIRE DE SAVANNE CABRI,1,0.0091
+name,DISPENSAIRE DE ST ART,1,0.0091
+name,DISPENSAIRE DE TAILLEFER,1,0.0091
+name,DISPENSAIRE DE TOMARIN,1,0.0091
+name,DISPENSAIRE DE TROUIN,1,0.0091
+name,DISPENSAIRE ET PHARMACIE NAN BANBOU,1,0.0091
+name,DISPENSAIRE FOYER SAINT CAMILLE,1,0.0091
+name,DISPENSAIRE GRANDE HATTE,1,0.0091
+name,DISPENSAIRE LA CROIX,1,0.0091
+name,DISPENSAIRE LA SOURCE,1,0.0091
+name,DISPENSAIRE MARIE LOUISE DE JESUS,1,0.0091
+name,DISPENSAIRE METHODISTE DE SOURCE A PHILIPPE,1,0.0091
+name,DISPENSAIRE MORNE A CHANDELLE,1,0.0091
+name,DISPENSAIRE OGE,1,0.0091
+name,DISPENSAIRE PETIT HARPON,1,0.0091
+name,DISPENSAIRE POSTE - PIERROT,1,0.0091
+name,DISPENSAIRE SAINTE ROSE DE LIMA,1,0.0091
+name,DISPENSAIRE SANOIX,1,0.0091
+name,DISPENSAIRE ST ANTOINE DE FOND D'OIE,1,0.0091
+name,DISPENSAIRE ST LUC,1,0.0091
+name,DISPENSAIRE ST MARC JANETTE,1,0.0091
+name,DISPENSAIRE ST MICHEL DU SUD,1,0.0091
+name,DISPENSAIRE STE CLAIRE DE FRERES,1,0.0091
+name,DISPENSAIRE ZEV ATISAN LAPE,1,0.0091
+name,DISPENSAIRE-LABORATOIRE RETRAITE SAINT-ANE,1,0.0091
+name,DP APV,1,0.0091
+name,DP ARNOUX,1,0.0091
+name,DP DE BARBE,1,0.0091
+name,DP DE BAS BOEN,1,0.0091
+name,DP DE BASTIEN,1,0.0091
+name,DP DE DANO (Danneau ),1,0.0091
+name,DP DE DESLANDES,1,0.0091
+name,DP DE DUFOUR,1,0.0091
+name,DP DE GABRIEL,1,0.0091
+name,DP DE GILBERT,1,0.0091
+name,DP DE GOYAVIER,1,0.0091
+name,DP DE LAFOND,1,0.0091
+name,DP DE LAVOUTE,1,0.0091
+name,DP DE MADELAINE,1,0.0091
+name,DP DE MARBIAL,1,0.0091
+name,DP DE MAUGE PLICHE,1,0.0091
+name,DP DE MEDOR,1,0.0091
+name,DP DE MEYER,1,0.0091
+name,DP DE MOORNE DROUET,1,0.0091
+name,DP DE PERODIN,1,0.0091
+name,DP DE PLASSAC,1,0.0091
+name,DP DE TERRE BALNCHE,1,0.0091
+name,DP DE TERRE NETTE,1,0.0091
+name,DP DE TROU CHOUCHOU (FERME),1,0.0091
+name,DP DE VIALET,1,0.0091
+name,DP GERARD DESGRANGES,1,0.0091
+name,DP NOTRE DAME,1,0.0091
+name,DP OLIVIER,1,0.0091
+name,DP SAINTE THERESE DE MARBIAL,1,0.0091
+name,DP ST FRANCOIS XAVIER DE BAUDIN,1,0.0091
+name,DP de FOPECG,1,0.0091
+name,Dambrois,1,0.0091
+name,Dame Marie,1,0.0091
+name,Danastor,1,0.0091
+name,Dangoula,1,0.0091
+name,Dano,1,0.0091
+name,Das Paques,1,0.0091
+name,Daspinosse,1,0.0091
+name,Dasse,1,0.0091
+name,David,1,0.0091
+name,Debauche,1,0.0091
+name,Debussy,1,0.0091
+name,Deco,1,0.0091
+name,Decouver,1,0.0091
+name,Decouvert,1,0.0091
+name,Dedand,1,0.0091
+name,Defilée,1,0.0091
+name,Degat,1,0.0091
+name,Degrave,1,0.0091
+name,Deheaune,1,0.0091
+name,Delmas 101,1,0.0091
+name,Delmas 12,1,0.0091
+name,Delmas 147,1,0.0091
+name,Delmas 149,1,0.0091
+name,Delmas 16,1,0.0091
+name,Delmas 17,1,0.0091
+name,Delmas 20,1,0.0091
+name,Delmas 23,1,0.0091
+name,Delmas 24,1,0.0091
+name,Delmas 25,1,0.0091
+name,Delmas 339,1,0.0091
+name,Delmas 35,1,0.0091
+name,Delmas 38,1,0.0091
+name,Delmas 40,1,0.0091
+name,Delmas 40B,1,0.0091
+name,Delmas 43,1,0.0091
+name,Delmas 44,1,0.0091
+name,Delmas 45,1,0.0091
+name,Delmas 5,1,0.0091
+name,Delmas 50,1,0.0091
+name,Delmas 53,1,0.0091
+name,Delmas 54,1,0.0091
+name,Delmas 57-A,1,0.0091
+name,Delmas 63,1,0.0091
+name,Delmas 65,1,0.0091
+name,Delmas 66-A,1,0.0091
+name,Delmas 66-B,1,0.0091
+name,Delmas 69,1,0.0091
+name,Delmas 7,1,0.0091
+name,Delmas 70,1,0.0091
+name,Delmas 72,1,0.0091
+name,Delmas 8,1,0.0091
+name,Delmas 81,1,0.0091
+name,Delmas 81 A,1,0.0091
+name,Delmas 81-A,1,0.0091
+name,Delmas 91-A,1,0.0091
+name,Delmas 97,1,0.0091
+name,Delmas PNH Stn,1,0.0091
+name,Delpeste,1,0.0091
+name,Denignon,1,0.0091
+name,Dent Grignin,1,0.0091
+name,Dent Puce,1,0.0091
+name,Dentiste,1,0.0091
+name,Depaluce,1,0.0091
+name,Deriviere,1,0.0091
+name,Dero,1,0.0091
+name,Derriere Faussee,1,0.0091
+name,Derriere Lycie,1,0.0091
+name,Des Roulottes,1,0.0091
+name,Desbureaux,1,0.0091
+name,Deschamp,1,0.0091
+name,Desclaches,1,0.0091
+name,Desmangles,1,0.0091
+name,Despinasse,1,0.0091
+name,Despiseau,1,0.0091
+name,Dessallines,1,0.0091
+name,Dessources,1,0.0091
+name,Deux Baleines Nord,1,0.0091
+name,Deux Baleines Sud,1,0.0091
+name,Devallon,1,0.0091
+name,Diableire,1,0.0091
+name,Diablette,1,0.0091
+name,Diaguid,1,0.0091
+name,Dibiton,1,0.0091
+name,Dibitte,1,0.0091
+name,Diegue,1,0.0091
+name,Diembo,1,0.0091
+name,Dieuran,1,0.0091
+name,Dimale,1,0.0091
+name,Dimba,1,0.0091
+name,Dimini,1,0.0091
+name,Dimisaine,1,0.0091
+name,Dimulseau,1,0.0091
+name,Direction General Des Impot,1,0.0091
+name,Dispensaire Bassin Cave (NF),1,0.0091
+name,Dispensaire Bellevue la Montagne,1,0.0091
+name,Dispensaire Bon Berger,1,0.0091
+name,Dispensaire Cap Anamur (NF),1,0.0091
+name,Dispensaire Caste,1,0.0091
+name,Dispensaire Fonds Michel,1,0.0091
+name,Dispensaire Grand Boucan (NF),1,0.0091
+name,Dispensaire Hatty (NF),1,0.0091
+name,Dispensaire La Montagne,1,0.0091
+name,Dispensaire Montagne Terrible,1,0.0091
+name,Dispensaire Pareidon (NF),1,0.0091
+name,Dispensaire Zev Atizan Lape,1,0.0091
+name,Dispensaire de Boucan Carré,1,0.0091
+name,Dispensaire la Hoye,1,0.0091
+name,Dispensaire morne a bateau,1,0.0091
+name,Dièque,1,0.0091
+name,Dleudon,1,0.0091
+name,Doca,1,0.0091
+name,Docan,1,0.0091
+name,Docot,1,0.0091
+name,Dodron,1,0.0091
+name,Dogel,1,0.0091
+name,Domond,1,0.0091
+name,Dos Dimanche,1,0.0091
+name,Dos Marotte,1,0.0091
+name,Douane de Port-au-Prince,1,0.0091
+name,Dougé,1,0.0091
+name,Dovic Hotel,1,0.0091
+name,Dr. Choles,1,0.0091
+name,Dramane,1,0.0091
+name,Drauilard,1,0.0091
+name,Drouette,1,0.0091
+name,Drouin,1,0.0091
+name,DuPont,1,0.0091
+name,DuPont Diegue,1,0.0091
+name,Dube,1,0.0091
+name,Dubornay,1,0.0091
+name,Duclos,1,0.0091
+name,Dufally,1,0.0091
+name,Dufrenay,1,0.0091
+name,Dujonc,1,0.0091
+name,Dumiso,1,0.0091
+name,Dumornay,1,0.0091
+name,Dupont,1,0.0091
+name,Dupuy,1,0.0091
+name,Durand,1,0.0091
+name,Durandis,1,0.0091
+name,Durbois,1,0.0091
+name,Durèze,1,0.0091
+name,Duval Blanc,1,0.0091
+name,Duval Roche,1,0.0091
+name,Duvier,1,0.0091
+name,Duvivier,1,0.0091
+name,Duyalerville,1,0.0091
+name,Débas,1,0.0091
+name,Décan,1,0.0091
+name,Déces,1,0.0091
+name,Décidé,1,0.0091
+name,Délice,1,0.0091
+name,Désarmes,1,0.0091
+name,EMSA,1,0.0091
+name,Eau Guiard,1,0.0091
+name,Ecole Catholique Soeurs Saleziennes,1,0.0091
+name,Ecole Methodiste des Freres,1,0.0091
+name,Ecole National De Files Anacaona,1,0.0091
+name,Ecole Nationale de Source Cazeau,1,0.0091
+name,Ecole Nationale de Tabarre,1,0.0091
+name,Ecole Sacre Coeur,1,0.0091
+name,Ecole Saint Jean Bosco de Pétionville,1,0.0091
+name,Ecole de Freres,1,0.0091
+name,Ecole des Soeurs,1,0.0091
+name,Ecole normale primaire,1,0.0091
+name,Edouard,1,0.0091
+name,Eglise Du Nazareen,1,0.0091
+name,Eglise Episcopale de St.-Martin,1,0.0091
+name,Eglise Methodiste d'Haiti,1,0.0091
+name,Eglise Pariossiale de St.-Martin,1,0.0091
+name,Eglise Paroissiale de St.-Martin,1,0.0091
+name,Eglise Saint Marc,1,0.0091
+name,Eglise St. Thomas,1,0.0091
+name,Eglise Ste. Marie,1,0.0091
+name,Embouchure,1,0.0091
+name,Epi D'Or,1,0.0091
+name,Esso,1,0.0091
+name,Estado National Silvi Cator,1,0.0091
+name,Etang Durissy,1,0.0091
+name,Etang Poullet,1,0.0091
+name,F34A,1,0.0091
+name,F36,1,0.0091
+name,F36A,1,0.0091
+name,F38,1,0.0091
+name,F39,1,0.0091
+name,F39A,1,0.0091
+name,F41,1,0.0091
+name,F41A,1,0.0091
+name,F42,1,0.0091
+name,FAME PEREO,1,0.0091
+name,FBSA/CMS,1,0.0091
+name,FILLES CHARITE,1,0.0091
+name,FINCA Haiti,1,0.0091
+name,FIXME perhaps stream??,1,0.0091
+name,FOND MICHEL,1,0.0091
+name,FONDATION HANDS OF LOVE,1,0.0091
+name,FONDEPH - MARTISSANT,1,0.0091
+name,FOOD FOR THE POOR,1,0.0091
+name,FOSADEC,1,0.0091
+name,FOSREF CHRIST-ROI,1,0.0091
+name,FOSREF J. DE JEREMIE,1,0.0091
+name,FOSREF J. LEOGANE,1,0.0091
+name,FOSREF LAKAY GRAND-RUE,1,0.0091
+name,FOSREF LAKAY MIRAGOANE,1,0.0091
+name,FOSREF- J. DE CARREFOUR,1,0.0091
+name,FOSREF- J. DE CARREFOUR FEUILLE,1,0.0091
+name,FOSREF- J. DE MIRAGOANE,1,0.0091
+name,FOSREF- J. DE PETION-VILLE,1,0.0091
+name,FOSREF- J. PLAINE DU CUL DE SAC,1,0.0091
+name,FOSREF- SOLINO,1,0.0091
+name,FOSREF-DELMAS,1,0.0091
+name,FOSREF-J. DELMAS 19,1,0.0091
+name,FOSREF-LAKAY CARREFOUR,1,0.0091
+name,FOSREF-LAKAY MIRAGOANE,1,0.0091
+name,FOSREF-LAKAY PETION-VILLE,1,0.0091
+name,FOSREF-LAKAY ST MARC,1,0.0091
+name,FOSREF-LALUE,1,0.0091
+name,FRERES HOSPITAL REHABILITATION,1,0.0091
+name,FRIENDS FOR MISSIONS CENTRE DE NUTRITION ET CLINIQUE,1,0.0091
+name,Factory,1,0.0091
+name,Fancrelle,1,0.0091
+name,Fauche,1,0.0091
+name,Fayette,1,0.0091
+name,Feca,1,0.0091
+name,Feeling Bar,1,0.0091
+name,Fer A Cheval,1,0.0091
+name,Ferme Ecole de Damiens,1,0.0091
+name,Fetiche,1,0.0091
+name,Feça,1,0.0091
+name,Ficha,1,0.0091
+name,Flon,1,0.0091
+name,Foncrelle,1,0.0091
+name,Fond Blonde,1,0.0091
+name,Fond Bourgeo,1,0.0091
+name,Fond Bourgeois,1,0.0091
+name,Fond Cuivre,1,0.0091
+name,Fond Culvre,1,0.0091
+name,Fond Diable,1,0.0091
+name,Fond Douze,1,0.0091
+name,Fond Droit,1,0.0091
+name,Fond Duline,1,0.0091
+name,Fond Ferier,1,0.0091
+name,Fond Ferrier,1,0.0091
+name,Fond Guillaume,1,0.0091
+name,Fond Habote,1,0.0091
+name,Fond Lachaux,1,0.0091
+name,Fond Lundi,1,0.0091
+name,Fond Major,1,0.0091
+name,Fond Perrier,1,0.0091
+name,Fond Plaisir,1,0.0091
+name,Fond Randol,1,0.0091
+name,Fond Rouge,1,0.0091
+name,Fond Tina,1,0.0091
+name,Fond Tristan,1,0.0091
+name,Fond Trou Jacques,1,0.0091
+name,Fonds Cede,1,0.0091
+name,Fonds Pite,1,0.0091
+name,Fontaine,1,0.0091
+name,Fontamara 29,1,0.0091
+name,Football field,1,0.0091
+name,Fort Campan,1,0.0091
+name,Fort Ducot,1,0.0091
+name,Fort Gari,1,0.0091
+name,Fort Island - Police Station,1,0.0091
+name,Fort Jacques,1,0.0091
+name,Foucaud,1,0.0091
+name,French Hospital,1,0.0091
+name,Freres,1,0.0091
+name,Frécineau,1,0.0091
+name,Fréncineau,1,0.0091
+name,Fréneau,1,0.0091
+name,Fréta,1,0.0091
+name,Féda,1,0.0091
+name,GHESKIO,1,0.0091
+name,Gabare,1,0.0091
+name,Gallette,1,0.0091
+name,Gaman,1,0.0091
+name,Garcon Pas Chita,1,0.0091
+name,Garde Care,1,0.0091
+name,Gareche,1,0.0091
+name,Garienne,1,0.0091
+name,Garotte,1,0.0091
+name,Gastel,1,0.0091
+name,Geffrard,1,0.0091
+name,General Hospital,1,0.0091
+name,Gentil,1,0.0091
+name,Gerard,1,0.0091
+name,Gerardeau,1,0.0091
+name,German Red Cross Basic Health Care Unit,1,0.0091
+name,German Red Cross Field Hospital,1,0.0091
+name,Gervais,1,0.0091
+name,Gimballe,1,0.0091
+name,Glaise,1,0.0091
+name,Glorie,1,0.0091
+name,Gobin,1,0.0091
+name,Gori,1,0.0091
+name,Gougeon,1,0.0091
+name,Graden Passe,1,0.0091
+name,Grand Air,1,0.0091
+name,Grand Boucan,1,0.0091
+name,Grand Caille,1,0.0091
+name,Grand Fond,1,0.0091
+name,Grand Lagon,1,0.0091
+name,Grand Mapou,1,0.0091
+name,Grand Place Leray,1,0.0091
+name,Grand Platon,1,0.0091
+name,Grand Rue,1,0.0091
+name,Grand Saline,1,0.0091
+name,Grand Trou,1,0.0091
+name,Grande Caille,1,0.0091
+name,Grande Colline,1,0.0091
+name,Grande Place,1,0.0091
+name,Grande Rovine,1,0.0091
+name,Grande Saline,1,0.0091
+name,Grande Savanne,1,0.0091
+name,Grande Vide,1,0.0091
+name,Grandin,1,0.0091
+name,Gras Morne,1,0.0091
+name,Grave,1,0.0091
+name,Grobe,1,0.0091
+name,Gros Chauderie,1,0.0091
+name,Gros Jacques,1,0.0091
+name,Gros Mangle,1,0.0091
+name,Gros Roche,1,0.0091
+name,Gros Trou,1,0.0091
+name,GroupeMedia alternatif,1,0.0091
+name,Gue Bourget,1,0.0091
+name,Guibert,1,0.0091
+name,Guignace,1,0.0091
+name,Guignon,1,0.0091
+name,Guillaume,1,0.0091
+name,Gulaive Garre,1,0.0091
+name,Gulbert,1,0.0091
+name,Gumérin,1,0.0091
+name,Guéri,1,0.0091
+name,HAS,1,0.0091
+name,HAS DESLANDES (UF9),1,0.0091
+name,HOPITAL CANADIEN LA VIGNE,1,0.0091
+name,HOPITAL CARDINAL LEGER,1,0.0091
+name,HOPITAL COMMUNAUT. DE MIREBALAIS (MARCH CITY-MED),1,0.0091
+name,HOPITAL DE BEUDET,1,0.0091
+name,HOPITAL DE CARREFOUR,1,0.0091
+name,HOPITAL DE LA COMMUNAUTE HAITIENNE,1,0.0091
+name,HOPITAL DUMARSAIS ESTIME,1,0.0091
+name,HOPITAL ESPOIR,1,0.0091
+name,HOPITAL FERMATHE,1,0.0091
+name,HOPITAL LA SAINTE FAMILLE,1,0.0091
+name,HOPITAL LA TRINITE,1,0.0091
+name,HOPITAL NOTRE DAME,1,0.0091
+name,HOPITAL SAINT CHARLES,1,0.0091
+name,HOPITAL SAINT DAMIEN,1,0.0091
+name,HOPITAL SAINT NICOLAS,1,0.0091
+name,HOPITAL SAINTE CLAIRE,1,0.0091
+name,HOPITAL ST CROIX DE LEOGANE,1,0.0091
+name,HOPITAL ST-DAMIEN NOS PETITS FRERES ET SOEURS,1,0.0091
+name,HOPITAL STE CATHERINE,1,0.0091
+name,HOPITAL STE CROIX,1,0.0091
+name,HOPITAL UNIMED,1,0.0091
+name,HOPITAL WESLEEN DE ANSE-A-GALETS,1,0.0091
+name,HOPITAL WESLEYEN DE LA GONAVE,1,0.0091
+name,HOSPITALIER ELIAZAR GERMAIN,1,0.0091
+name,Habitation Leclerc,1,0.0091
+name,Haite Dimisseau,1,0.0091
+name,Haiti National Police Academy,1,0.0091
+name,Haiti Vision Inc,1,0.0091
+name,Handrel,1,0.0091
+name,Hatte,1,0.0091
+name,Hatte Cadel,1,0.0091
+name,Hatte Chevreau,1,0.0091
+name,Hatte Palicarpe,1,0.0091
+name,Hatte Robert,1,0.0091
+name,Haul Saul D´Eau,1,0.0091
+name,Haut Du Four,1,0.0091
+name,Haut Duble,1,0.0091
+name,Haut Saut d'Eau,1,0.0091
+name,Haut de Chauta,1,0.0091
+name,Help Hospital,1,0.0091
+name,Henry,1,0.0091
+name,Herbe Guinee,1,0.0091
+name,Herbe a Bleu,1,0.0091
+name,Hess,1,0.0091
+name,Hopital Communautaire de Mirebalais,1,0.0091
+name,Hopital Saint Charles (Mariani),1,0.0091
+name,Hopital de Las Cahobas (Freinds of the Children),1,0.0091
+name,Hospital 1,1,0.0091
+name,Hospital 2,1,0.0091
+name,Hospital Beudet (Defilee),1,0.0091
+name,Hospital Carrefour,1,0.0091
+name,Hospital Fermathe,1,0.0091
+name,Hospital Francais,1,0.0091
+name,Hospital General,1,0.0091
+name,Hospital Grande Riviere Du Nord,1,0.0091
+name,Hospital Medecins Sans Frontieres,1,0.0091
+name,Hospital Paillant,1,0.0091
+name,Hospital Pediatrico Espoa,1,0.0091
+name,Hospital Wesleyen De La Gonave,1,0.0091
+name,Hospital da Cruz Vermelha (?),1,0.0091
+name,Hospital de Leniversite D'etat D'Haiti,1,0.0091
+name,Hospital de Turgeau,1,0.0091
+name,Hospital du Canape Vert,1,0.0091
+name,Hotel Caraibe Haiti,1,0.0091
+name,Hotel Deville,1,0.0091
+name,Hotel de Ville de Port-au-Prince,1,0.0091
+name,Hôpital Espoir,1,0.0091
+name,Hôpital Eye Care,1,0.0091
+name,Hôpital Fermate,1,0.0091
+name,Hôtel de Ville de Port-au-Prince,1,0.0091
+name,IMIS,1,0.0091
+name,INSTITUT FAME PEREO,1,0.0091
+name,ISRAELI FIELD HOSPITAL,1,0.0091
+name,Ibo Lele,1,0.0091
+name,Ile Petit Gonave,1,0.0091
+name,Imp A,1,0.0091
+name,Imp A Delucien,1,0.0091
+name,Imp Albert,1,0.0091
+name,Imp Audain,1,0.0091
+name,Imp Bremont,1,0.0091
+name,Imp Brua,1,0.0091
+name,Imp Camille,1,0.0091
+name,Imp Civil,1,0.0091
+name,Imp Coicou,1,0.0091
+name,Imp Dublin,1,0.0091
+name,Imp Ebenezer,1,0.0091
+name,Imp F St Tyr,1,0.0091
+name,Imp Gelin,1,0.0091
+name,Imp Ixius,1,0.0091
+name,Imp J Ulysse,1,0.0091
+name,Imp J Vincent,1,0.0091
+name,Imp Jacques,1,0.0091
+name,Imp Jeanty,1,0.0091
+name,Imp Jemme,1,0.0091
+name,Imp Jerusalem,1,0.0091
+name,Imp Jerussalem,1,0.0091
+name,Imp Julie,1,0.0091
+name,Imp La Foi,1,0.0091
+name,Imp Lafoi,1,0.0091
+name,Imp Lamarque,1,0.0091
+name,Imp Le Rocher,1,0.0091
+name,Imp Lumiere,1,0.0091
+name,Imp Mere Terese,1,0.0091
+name,Imp Noustas,1,0.0091
+name,Imp P Josephat,1,0.0091
+name,Imp Petion,1,0.0091
+name,Imp R. Ketira,1,0.0091
+name,Imp Robert,1,0.0091
+name,Imp S.Oline,1,0.0091
+name,Imp St Louis,1,0.0091
+name,Imp Toussaint,1,0.0091
+name,Imp Val,1,0.0091
+name,Imp Xavier,1,0.0091
+name,Imp de la Paix,1,0.0091
+name,Impasse 	Oeillet,1,0.0091
+name,Impasse 	Séguin,1,0.0091
+name,Impasse A,1,0.0091
+name,Impasse A. Babtiste,1,0.0091
+name,Impasse A. Couloute,1,0.0091
+name,Impasse A. Pamphile,1,0.0091
+name,Impasse A. Thoby,1,0.0091
+name,Impasse Abricot,1,0.0091
+name,Impasse Alouette,1,0.0091
+name,Impasse Alphonse,1,0.0091
+name,Impasse Amédée,1,0.0091
+name,Impasse Arnoux,1,0.0091
+name,Impasse Aubrey,1,0.0091
+name,Impasse Aupont,1,0.0091
+name,Impasse Avalon,1,0.0091
+name,Impasse B,1,0.0091
+name,Impasse Balince,1,0.0091
+name,Impasse Baron,1,0.0091
+name,Impasse Bazelais,1,0.0091
+name,Impasse Bellevue,1,0.0091
+name,Impasse Bernado Ohiggins,1,0.0091
+name,Impasse Bien-Aimée,1,0.0091
+name,Impasse Boffrand,1,0.0091
+name,Impasse Bois Gris,1,0.0091
+name,Impasse Borno,1,0.0091
+name,Impasse Boyer,1,0.0091
+name,Impasse Brisson,1,0.0091
+name,Impasse Bristol 1ère,1,0.0091
+name,Impasse Bristol 2ème,1,0.0091
+name,Impasse Brua,1,0.0091
+name,Impasse Bruant,1,0.0091
+name,Impasse Bréda,1,0.0091
+name,Impasse Burr,1,0.0091
+name,Impasse C. Fouchard,1,0.0091
+name,Impasse Cabeche,1,0.0091
+name,Impasse Caceau,1,0.0091
+name,Impasse Caiman,1,0.0091
+name,Impasse Canna,1,0.0091
+name,Impasse Cantave,1,0.0091
+name,Impasse Capois,1,0.0091
+name,Impasse Capucine,1,0.0091
+name,Impasse Cazeau,1,0.0091
+name,Impasse Cetini,1,0.0091
+name,Impasse Chabrier,1,0.0091
+name,Impasse Champagne,1,0.0091
+name,Impasse Chandou,1,0.0091
+name,Impasse Chanlatte,1,0.0091
+name,Impasse Charité,1,0.0091
+name,Impasse Charles,1,0.0091
+name,Impasse Charlevoix,1,0.0091
+name,Impasse Charlotin,1,0.0091
+name,Impasse Chatelain,1,0.0091
+name,Impasse Chevalier,1,0.0091
+name,Impasse Cicéron,1,0.0091
+name,Impasse Claudinette,1,0.0091
+name,Impasse Clugny,1,0.0091
+name,Impasse Coileau,1,0.0091
+name,Impasse Colibri,1,0.0091
+name,Impasse Corail,1,0.0091
+name,Impasse Corvington,1,0.0091
+name,Impasse Coumbite,1,0.0091
+name,Impasse Cédor,1,0.0091
+name,Impasse Dabelmar,1,0.0091
+name,Impasse Darée,1,0.0091
+name,Impasse Dauphin,1,0.0091
+name,Impasse Day,1,0.0091
+name,Impasse Dejean,1,0.0091
+name,Impasse Denis,1,0.0091
+name,Impasse Des Acajous,1,0.0091
+name,Impasse Desrouleaux,1,0.0091
+name,Impasse Diaquois,1,0.0091
+name,Impasse Dominique,1,0.0091
+name,Impasse Domond,1,0.0091
+name,Impasse Dorcé,1,0.0091
+name,Impasse Drupe,1,0.0091
+name,Impasse Dublin,1,0.0091
+name,Impasse Ducarmel,1,0.0091
+name,Impasse Ducasse,1,0.0091
+name,Impasse Dukas,1,0.0091
+name,Impasse Dupont,1,0.0091
+name,Impasse Dupuy,1,0.0091
+name,Impasse Défilée,1,0.0091
+name,Impasse Démesvar,1,0.0091
+name,Impasse E. Roy,1,0.0091
+name,Impasse Elisée,1,0.0091
+name,Impasse Epervier,1,0.0091
+name,Impasse Epinard,1,0.0091
+name,Impasse F. Dumas,1,0.0091
+name,Impasse Faisan,1,0.0091
+name,Impasse Faucon,1,0.0091
+name,Impasse Feve,1,0.0091
+name,Impasse Ficaire,1,0.0091
+name,Impasse Fleury,1,0.0091
+name,Impasse Florian,1,0.0091
+name,Impasse Franklin,1,0.0091
+name,Impasse Félizor,1,0.0091
+name,Impasse Férou,1,0.0091
+name,Impasse G. Carver,1,0.0091
+name,Impasse Gabriel,1,0.0091
+name,Impasse Gardere,1,0.0091
+name,Impasse Gardère,1,0.0091
+name,Impasse Gauthier,1,0.0091
+name,Impasse Georges,1,0.0091
+name,Impasse Geraud,1,0.0091
+name,Impasse Gervais,1,0.0091
+name,Impasse Giraud,1,0.0091
+name,Impasse Grèbe,1,0.0091
+name,Impasse Guéry,1,0.0091
+name,Impasse H McDonald,1,0.0091
+name,Impasse H Sambour,1,0.0091
+name,Impasse H. McDonald,1,0.0091
+name,Impasse H. Sambour,1,0.0091
+name,Impasse Hérard,1,0.0091
+name,Impasse Ida,1,0.0091
+name,Impasse Jeancot,1,0.0091
+name,Impasse Jeanno,1,0.0091
+name,Impasse Jeanrovil,1,0.0091
+name,Impasse Jeanty,1,0.0091
+name,Impasse Justin 1ère,1,0.0091
+name,Impasse Justin 2ème,1,0.0091
+name,Impasse L. Jérémie,1,0.0091
+name,Impasse Lacrete,1,0.0091
+name,Impasse Lafoi,1,0.0091
+name,Impasse Lahens,1,0.0091
+name,Impasse Lajoie,1,0.0091
+name,Impasse Lamarque,1,0.0091
+name,Impasse Lanose,1,0.0091
+name,Impasse Laraque,1,0.0091
+name,Impasse Laurent,1,0.0091
+name,Impasse Legrand,1,0.0091
+name,Impasse Lerebours,1,0.0091
+name,Impasse Lespinasse,1,0.0091
+name,Impasse Lherrison,1,0.0091
+name,Impasse Lhérisson,1,0.0091
+name,Impasse Lhérrison,1,0.0091
+name,Impasse Luc,1,0.0091
+name,Impasse M Couloute,1,0.0091
+name,Impasse Malebranche,1,0.0091
+name,Impasse Malet ,1,0.0091
+name,Impasse Mallet,1,0.0091
+name,Impasse Manigat,1,0.0091
+name,Impasse Mansart,1,0.0091
+name,Impasse Martine,1,0.0091
+name,Impasse Martinet,1,0.0091
+name,Impasse Max,1,0.0091
+name,Impasse Maxime,1,0.0091
+name,Impasse Mazaire,1,0.0091
+name,Impasse Menard,1,0.0091
+name,Impasse Mercy,1,0.0091
+name,Impasse Mesange,1,0.0091
+name,Impasse Mesmin,1,0.0091
+name,Impasse Milord,1,0.0091
+name,Impasse Mirambeau,1,0.0091
+name,Impasse Moise,1,0.0091
+name,Impasse Morisseau,1,0.0091
+name,Impasse Mouron,1,0.0091
+name,Impasse Mousin,1,0.0091
+name,Impasse Myrte,1,0.0091
+name,Impasse Myrtille,1,0.0091
+name,Impasse Myrtle,1,0.0091
+name,Impasse Ménard,1,0.0091
+name,Impasse Mésange,1,0.0091
+name,Impasse Oeillet,1,0.0091
+name,Impasse Orchidée,1,0.0091
+name,Impasse Oseille,1,0.0091
+name,Impasse Papalier,1,0.0091
+name,Impasse Pascal,1,0.0091
+name,Impasse Pavot,1,0.0091
+name,Impasse Percier,1,0.0091
+name,Impasse Perdrix,1,0.0091
+name,Impasse Pere Huc,1,0.0091
+name,Impasse Pereira,1,0.0091
+name,Impasse Periera,1,0.0091
+name,Impasse Pierre Louis,1,0.0091
+name,Impasse Pivouane,1,0.0091
+name,Impasse Poincy,1,0.0091
+name,Impasse Pourpier,1,0.0091
+name,Impasse Prompt,1,0.0091
+name,Impasse Puceron,1,0.0091
+name,Impasse Puget,1,0.0091
+name,Impasse Pére Huc,1,0.0091
+name,Impasse Pére Monteil,1,0.0091
+name,Impasse Péricles,1,0.0091
+name,Impasse QuisQueya,1,0.0091
+name,Impasse Quisqueya,1,0.0091
+name,Impasse Richet,1,0.0091
+name,Impasse Ricin,1,0.0091
+name,Impasse Rigale,1,0.0091
+name,Impasse Rigaud,1,0.0091
+name,Impasse Rimbaud,1,0.0091
+name,Impasse Romane,1,0.0091
+name,Impasse Rosiclair,1,0.0091
+name,Impasse Roussan,1,0.0091
+name,Impasse Roux,1,0.0091
+name,Impasse Sabourin,1,0.0091
+name,Impasse Salem,1,0.0091
+name,Impasse Sambour,1,0.0091
+name,Impasse Seraphin,1,0.0091
+name,Impasse Serpentier,1,0.0091
+name,Impasse Seymour,1,0.0091
+name,Impasse Sorbier,1,0.0091
+name,Impasse Spatule,1,0.0091
+name,Impasse St Felix,1,0.0091
+name,Impasse St Juste,1,0.0091
+name,Impasse St Michel,1,0.0091
+name,Impasse St. Felix,1,0.0091
+name,Impasse St. Félix,1,0.0091
+name,Impasse St. Juste,1,0.0091
+name,Impasse St. Michel,1,0.0091
+name,Impasse St. Thomas,1,0.0091
+name,Impasse Séguin,1,0.0091
+name,Impasse Séraphin,1,0.0091
+name,Impasse T. Devilme,1,0.0091
+name,Impasse Telemaque,1,0.0091
+name,Impasse Tokio,1,0.0091
+name,Impasse Tulipes,1,0.0091
+name,Impasse Vaillant,1,0.0091
+name,Impasse Val,1,0.0091
+name,Impasse Vanneau,1,0.0091
+name,Impasse Viard,1,0.0091
+name,Impasse Vieax,1,0.0091
+name,Impasse Vieux,1,0.0091
+name,Impasse Vigny,1,0.0091
+name,Impassse Impasse Télémaque,1,0.0091
+name,Ingrand,1,0.0091
+name,Inspectors,1,0.0091
+name,Institut Haitiano-Américian,1,0.0091
+name,Ivoire,1,0.0091
+name,JEAN MOSSANTO PEH'T,1,0.0091
+name,Jacque,1,0.0091
+name,Jacquot,1,0.0091
+name,Jean Boirond,1,0.0091
+name,Jean Demare,1,0.0091
+name,Jean Démas,1,0.0091
+name,Jean-Jean,1,0.0091
+name,Jerneil,1,0.0091
+name,Jerneil ,1,0.0091
+name,Jilling,1,0.0091
+name,Joanneau,1,0.0091
+name,Joint Emergency Operations Centre (JOC),1,0.0091
+name,Jona,1,0.0091
+name,Jondry,1,0.0091
+name,Jouanau,1,0.0091
+name,Joublette,1,0.0091
+name,Juvenat,1,0.0091
+name,K-LA VI,1,0.0091
+name,KENSCOFF HOSPITAL FERMATHE,1,0.0091
+name,Karamel,1,0.0091
+name,Kay Lavi,1,0.0091
+name,Kenscott,1,0.0091
+name,Kings Hospital,1,0.0091
+name,Kobé,1,0.0091
+name,L'Acul,1,0.0091
+name,L'Avenir,1,0.0091
+name,L'Etang,1,0.0091
+name,L'Eternel,1,0.0091
+name,L'Oiseau,1,0.0091
+name,L'autre Bord d' l'Eau,1,0.0091
+name,LA VALLEE,1,0.0091
+name,LA VIERGE MIRACLE - CENTRE MEDICAL DE FLEURS,1,0.0091
+name,LEOGANE HOSPITAL HOPITAL SAINTE CROIX,1,0.0091
+name,LEOGANE HOSPITAL SANATORIUM DE SIGUENAU,1,0.0091
+name,LES CENTRES GHESKIO,1,0.0091
+name,La Barette,1,0.0091
+name,La Bastille,1,0.0091
+name,La Borde,1,0.0091
+name,La Colline,1,0.0091
+name,La Corne,1,0.0091
+name,La Cour Dupin,1,0.0091
+name,La Cour Grande Rivière,1,0.0091
+name,La Cour Longue,1,0.0091
+name,La Cour Nicolas,1,0.0091
+name,La Crête,1,0.0091
+name,La Denton,1,0.0091
+name,La Digue,1,0.0091
+name,La Digue Bridge,1,0.0091
+name,La Dotente,1,0.0091
+name,La Fenme,1,0.0091
+name,La Ferme,1,0.0091
+name,La Ferme Blanchard,1,0.0091
+name,La Fifuay,1,0.0091
+name,La Gosseline,1,0.0091
+name,La Grenade,1,0.0091
+name,La Imperiatrice,1,0.0091
+name,La Perfection Hotel,1,0.0091
+name,La Pointe,1,0.0091
+name,La Rate,1,0.0091
+name,La Rifi,1,0.0091
+name,La Régale,1,0.0091
+name,La Salle Pte Place,1,0.0091
+name,La SantT de vos Enfants,1,0.0091
+name,La Souris,1,0.0091
+name,La Tournelle,1,0.0091
+name,La Vache,1,0.0091
+name,La Vigie,1,0.0091
+name,La Voute,1,0.0091
+name,Laboratoire Radiologique,1,0.0091
+name,Laboule,1,0.0091
+name,Laboule 10,1,0.0091
+name,Laboule 11,1,0.0091
+name,Laboule 11C,1,0.0091
+name,Laboule 12,1,0.0091
+name,Laboule 12A,1,0.0091
+name,Labriere,1,0.0091
+name,Lacombe,1,0.0091
+name,Lacour Joseph,1,0.0091
+name,Lacquete Lamarre,1,0.0091
+name,Laferiere,1,0.0091
+name,Laferranday,1,0.0091
+name,Laferriere,1,0.0091
+name,Lafiteau,1,0.0091
+name,Lafond,1,0.0091
+name,Lagonav,1,0.0091
+name,Lahoux,1,0.0091
+name,Lamartinière,1,0.0091
+name,Lambert,1,0.0091
+name,Lamothe,1,0.0091
+name,Lan Gaiac,1,0.0091
+name,Lan Glade,1,0.0091
+name,Lantanier,1,0.0091
+name,Laporte,1,0.0091
+name,Laquete Lamarre,1,0.0091
+name,Laraque 2ème,1,0.0091
+name,Laraque 3 Eme,1,0.0091
+name,Larot,1,0.0091
+name,Latanier,1,0.0091
+name,Lathar,1,0.0091
+name,Latour,1,0.0091
+name,Le Brun,1,0.0091
+name,Le Ferriere,1,0.0091
+name,Le Franc,1,0.0091
+name,Le Lambi Hotel,1,0.0091
+name,Le Sourire,1,0.0091
+name,Lefort,1,0.0091
+name,Leroy,1,0.0091
+name,Lhomon,1,0.0091
+name,Lhomond,1,0.0091
+name,Liberal,1,0.0091
+name,Lilette,1,0.0091
+name,Linette,1,0.0091
+name,Liquor Factory,1,0.0091
+name,Lissade,1,0.0091
+name,Lochard,1,0.0091
+name,Lompré,1,0.0091
+name,Lone,1,0.0091
+name,Lotorre,1,0.0091
+name,Louaseau,1,0.0091
+name,Louco Night Club,1,0.0091
+name,Louhou,1,0.0091
+name,Louisi,1,0.0091
+name,Lucas,1,0.0091
+name,Lycee Anacaona,1,0.0091
+name,Lycee Fauistin Soufouque,1,0.0091
+name,Lycee Jean Marie Vincent de Tabarre,1,0.0091
+name,Lycee Toussaint Louverture,1,0.0091
+name,Lycée Faustin Soulouque,1,0.0091
+name,Léger,1,0.0091
+name,Lévèque,1,0.0091
+name,MADAME JOA,1,0.0091
+name,MAIN DE DIEU,1,0.0091
+name,MARCHE CANARD,1,0.0091
+name,MEDICO SOCIAL CLINIQUE BON BERGER,1,0.0091
+name,MEDIMAX,1,0.0091
+name,MINUSTAH GIS,1,0.0091
+name,MIRAGOANE HOSPITAL DISTRICT,1,0.0091
+name,MSF Field Hospital Carrefour,1,0.0091
+name,Macombe,1,0.0091
+name,Macory,1,0.0091
+name,Madame Beaugé,1,0.0091
+name,Madame Legors,1,0.0091
+name,Maffisan,1,0.0091
+name,Magin,1,0.0091
+name,Mahotiere 79,1,0.0091
+name,Mahotiere 81,1,0.0091
+name,Maillaman,1,0.0091
+name,Maillard,1,0.0091
+name,Maillette,1,0.0091
+name,Malanga,1,0.0091
+name,Maliove,1,0.0091
+name,Mamouset,1,0.0091
+name,Manair,1,0.0091
+name,Mansart,1,0.0091
+name,Mantenoir,1,0.0091
+name,Mantrou,1,0.0091
+name,Marassa 6A,1,0.0091
+name,Marati,1,0.0091
+name,Marbial,1,0.0091
+name,Marceline,1,0.0091
+name,Marche Salomon,1,0.0091
+name,Marché Salomon,1,0.0091
+name,Mare Kadeneau,1,0.0091
+name,Mare Kindou,1,0.0091
+name,Mare Legu,1,0.0091
+name,Mare Piquant,1,0.0091
+name,Mare Roche,1,0.0091
+name,Mare Rouge,1,0.0091
+name,Mare Sucrin,1,0.0091
+name,Mare Zoranger,1,0.0091
+name,Mariane,1,0.0091
+name,Mariani 1,1,0.0091
+name,Marin,1,0.0091
+name,Martina,1,0.0091
+name,Martissant 4,1,0.0091
+name,Mason,1,0.0091
+name,Masure,1,0.0091
+name,Matelec,1,0.0091
+name,Mathieu,1,0.0091
+name,Matnurin,1,0.0091
+name,Matthieu,1,0.0091
+name,Mauger,1,0.0091
+name,Maxime Castera,1,0.0091
+name,Mayer,1,0.0091
+name,Mayombé,1,0.0091
+name,Medecim,1,0.0091
+name,Medical Center near Avenue Pan-Americaine,1,0.0091
+name,Medical Center near Avenue Pie XI,1,0.0091
+name,Medical Center near Boulevard la Saline,1,0.0091
+name,Medical Center near Morne a Tuf,1,0.0091
+name,Medical Center near R9,1,0.0091
+name,Medical Center near Rue Charvron,1,0.0091
+name,Medical Center near Rue Magny and Rue Oswald Durand,1,0.0091
+name,Medical Center near Rue Oswald Durand,1,0.0091
+name,Medical Center near Rue du Docteur Dehoux,1,0.0091
+name,Medicos Sem Fronteira,1,0.0091
+name,Menard,1,0.0091
+name,Mer Mapoe,1,0.0091
+name,Meyotte,1,0.0091
+name,Michaud,1,0.0091
+name,Midic Clinic,1,0.0091
+name,Mila Resto,1,0.0091
+name,Mille Lieux,1,0.0091
+name,Minerve,1,0.0091
+name,Miragoane,1,0.0091
+name,Mislet,1,0.0091
+name,Mitan,1,0.0091
+name,Miyaille,1,0.0091
+name,Moler,1,0.0091
+name,Mome Mare Roseau,1,0.0091
+name,Mome d'Enfer,1,0.0091
+name,Mon Repos 36,1,0.0091
+name,Mon Repos 44,1,0.0091
+name,Mon Repos 46,1,0.0091
+name,Mon Repos 48,1,0.0091
+name,Monestére,1,0.0091
+name,Mononville,1,0.0091
+name,Mont Bayard,1,0.0091
+name,Montagne Noire,1,0.0091
+name,Montasse,1,0.0091
+name,Montrial Chapel,1,0.0091
+name,Morency,1,0.0091
+name,Morette,1,0.0091
+name,Morgue Paradise,1,0.0091
+name,Morisset,1,0.0091
+name,Morne Aucade,1,0.0091
+name,Morne Baille,1,0.0091
+name,Morne Barère,1,0.0091
+name,Morne Belair,1,0.0091
+name,Morne Belle Hôtesse,1,0.0091
+name,Morne Bellevue,1,0.0091
+name,Morne Berly,1,0.0091
+name,Morne Blanche,1,0.0091
+name,Morne Bori,1,0.0091
+name,Morne Boucan Patate,1,0.0091
+name,Morne Boyer,1,0.0091
+name,Morne Branda,1,0.0091
+name,Morne Brice,1,0.0091
+name,Morne Bréman,1,0.0091
+name,Morne Brûlé,1,0.0091
+name,Morne Cadet,1,0.0091
+name,Morne Calbasse,1,0.0091
+name,Morne Canot,1,0.0091
+name,Morne Chacha,1,0.0091
+name,Morne Chandelle,1,0.0091
+name,Morne Cochon,1,0.0091
+name,Morne Convier,1,0.0091
+name,Morne Coteau,1,0.0091
+name,Morne D'Enfer,1,0.0091
+name,Morne Dalle,1,0.0091
+name,Morne Dandeville,1,0.0091
+name,Morne Diable,1,0.0091
+name,Morne Duline,1,0.0091
+name,Morne Dumay,1,0.0091
+name,Morne Duval,1,0.0091
+name,Morne Gamelle,1,0.0091
+name,Morne Grand Joupas,1,0.0091
+name,Morne Guillème,1,0.0091
+name,Morne Jacquet,1,0.0091
+name,Morne Jacquot,1,0.0091
+name,Morne L'Hopital,1,0.0091
+name,Morne La Chaine,1,0.0091
+name,Morne Latigre,1,0.0091
+name,Morne Lavisite,1,0.0091
+name,Morne Lefevre,1,0.0091
+name,Morne Lucas,1,0.0091
+name,Morne Macaya,1,0.0091
+name,Morne Mahotière,1,0.0091
+name,Morne Malanga,1,0.0091
+name,Morne Marchand,1,0.0091
+name,Morne Mare Roseau,1,0.0091
+name,Morne Marion,1,0.0091
+name,Morne Mentor,1,0.0091
+name,Morne Nan Boule,1,0.0091
+name,Morne Nègre,1,0.0091
+name,Morne Parrois,1,0.0091
+name,Morne Pois Congo,1,0.0091
+name,Morne Prospère,1,0.0091
+name,Morne Redoute,1,0.0091
+name,Morne Saint Jaques,1,0.0091
+name,Morne Saint Laurent,1,0.0091
+name,Morne Saint Michel,1,0.0091
+name,Morne Saint-Laurent,1,0.0091
+name,Morne Ti Boucan,1,0.0091
+name,Morne Ti Gosseline,1,0.0091
+name,Morne Tête a Boeuf,1,0.0091
+name,Morne Volant,1,0.0091
+name,Morne Zaboca,1,0.0091
+name,Morpeau,1,0.0091
+name,Mosemberg,1,0.0091
+name,Mouel,1,0.0091
+name,Mourne Valadon,1,0.0091
+name,Mousso,1,0.0091
+name,Movette,1,0.0091
+name,Moyette,1,0.0091
+name,Muncipal Office,1,0.0091
+name,Muscat,1,0.0091
+name,Mussotte,1,0.0091
+name,Musée de l'Art Haitien,1,0.0091
+name,Médecim,1,0.0091
+name,Mérotte,1,0.0091
+name,Nan Bambou,1,0.0091
+name,Nan Bayahone,1,0.0091
+name,Nan Bebe,1,0.0091
+name,Nan Binda,1,0.0091
+name,Nan Boguin,1,0.0091
+name,Nan Bois de Chene,1,0.0091
+name,Nan Bonhomme,1,0.0091
+name,Nan Bourrique,1,0.0091
+name,Nan Bouzin,1,0.0091
+name,Nan Boyer,1,0.0091
+name,Nan Brulé,1,0.0091
+name,Nan Cafe,1,0.0091
+name,Nan Calebasse,1,0.0091
+name,Nan Canne,1,0.0091
+name,Nan Carotte,1,0.0091
+name,Nan Carrotte,1,0.0091
+name,Nan Cirouelle,1,0.0091
+name,Nan Codastre,1,0.0091
+name,Nan Cofi,1,0.0091
+name,Nan Colon,1,0.0091
+name,Nan Coton,1,0.0091
+name,Nan Da,1,0.0091
+name,Nan Etang,1,0.0091
+name,Nan Francois,1,0.0091
+name,Nan Galette,1,0.0091
+name,Nan Gris-Gris,1,0.0091
+name,Nan Jesus,1,0.0091
+name,Nan Joute,1,0.0091
+name,Nan Lavaud,1,0.0091
+name,Nan Madeleine,1,0.0091
+name,Nan Maillon,1,0.0091
+name,Nan Mambre,1,0.0091
+name,Nan Mangol,1,0.0091
+name,Nan Marais,1,0.0091
+name,Nan Melfi,1,0.0091
+name,Nan Mely,1,0.0091
+name,Nan Molo,1,0.0091
+name,Nan Pale,1,0.0091
+name,Nan Palisir,1,0.0091
+name,Nan Palmista,1,0.0091
+name,Nan Perrine,1,0.0091
+name,Nan Piti,1,0.0091
+name,Nan Plateau,1,0.0091
+name,Nan Ploma,1,0.0091
+name,Nan Plume,1,0.0091
+name,Nan Risque,1,0.0091
+name,Nan Roche,1,0.0091
+name,Nan Saul,1,0.0091
+name,Nan Saut,1,0.0091
+name,Nan Sourran,1,0.0091
+name,Nan Tampis,1,0.0091
+name,Nan Ti Bois,1,0.0091
+name,Nan Troupeau,1,0.0091
+name,Nan Zebre,1,0.0091
+name,Nanterretiste,1,0.0091
+name,National,1,0.0091
+name,Nationale,1,0.0091
+name,Neron,1,0.0091
+name,Nicolas,1,0.0091
+name,Niveau,1,0.0091
+name,Nobac,1,0.0091
+name,Noguode,1,0.0091
+name,Non Fouque,1,0.0091
+name,Nouvelle Cite,1,0.0091
+name,Nouvelle Terre,1,0.0091
+name,OBCG,1,0.0091
+name,OCHA Ops Center,1,0.0091
+name,OEUVRES DE BIENFAISANCE DE CARREFOUR ET DE GRESSIER,1,0.0091
+name,Obléon,1,0.0091
+name,Obéissant,1,0.0091
+name,Office of the Mayor,1,0.0091
+name,Olivier,1,0.0091
+name,Olofson Hotel,1,0.0091
+name,Operon,1,0.0091
+name,Oreste,1,0.0091
+name,Orthopedic clinic,1,0.0091
+name,Ouest,1,0.0091
+name,PAP Metro 3 Police Station,1,0.0091
+name,PAP Police Station #1,1,0.0091
+name,PAP Police Station #2,1,0.0091
+name,PETIONVILLE HOSPITAL PEDIATRIQUE PERE DAMIEN,1,0.0091
+name,PETIT GOAVE HOSPITAL NOTRE DAME,1,0.0091
+name,PNH Station,1,0.0091
+name,PORT AU PRINCE CLINC CLINIQUE NEUROPSYCHIATRIE,1,0.0091
+name,PORT AU PRINCE CLINIC CENTRE DE SANTE DE CATHEDRALE,1,0.0091
+name,PORT AU PRINCE CLINIC CENTRE DE SANTE DU PORTAIL,1,0.0091
+name,PORT AU PRINCE CLINIC CENTRE DE SANTE ELIAZER,1,0.0091
+name,PORT AU PRINCE CLINIC MULTIMED 1,1,0.0091
+name,PORT AU PRINCE HOSPITAL CENTRE DE PSYCHIATRIE,1,0.0091
+name,PORT AU PRINCE HOSPITAL DE L'UNIVERSITE D'ETAT,1,0.0091
+name,PORT AU PRINCE HOSPITAL DU CANAPE VERT,1,0.0091
+name,PORT AU PRINCE HOSPITAL ESPOIR,1,0.0091
+name,PORT AU PRINCE HOSPITAL FORMER MILITARY,1,0.0091
+name,PORT AU PRINCE HOSPITAL SAINTE CATHERINE LABOURE,1,0.0091
+name,PORT AU PRINCE HOSPITAL SANATORIUM DE PORT AU PRINCE,1,0.0091
+name,PORT AU PRINCE HOSPITAL ST. DAMIEN CHATEAUBLOND,1,0.0091
+name,PORT-AU- PRINCE CLINIC ALBRIGHT,1,0.0091
+name,POZ CLINIQUE ESPOIR,1,0.0091
+name,POZ PORT-AU-PRINCE,1,0.0091
+name,POZ-PORT-AU-PRINCE,1,0.0091
+name,PROBABLE CHINESE FIELD HOSPITAL,1,0.0091
+name,Paco,1,0.0091
+name,Paillant,1,0.0091
+name,Palma,1,0.0091
+name,Palmiste Tavin,1,0.0091
+name,Papette,1,0.0091
+name,Parade,1,0.0091
+name,Parc Cabrit,1,0.0091
+name,Parc Historique de la Canne à Sucre,1,0.0091
+name,Passe,1,0.0091
+name,Passe Mathieux,1,0.0091
+name,Peguy,1,0.0091
+name,Pelerin 11,1,0.0091
+name,Pelerin 2,1,0.0091
+name,Pelerin 2A,1,0.0091
+name,Pelerin 3B,1,0.0091
+name,Pelerin 6,1,0.0091
+name,Pelerin 7,1,0.0091
+name,Pelerin 8,1,0.0091
+name,Pelerin 9,1,0.0091
+name,Perdu Temps,1,0.0091
+name,Perdumidi,1,0.0091
+name,Petavie,1,0.0091
+name,Pete Fiel,1,0.0091
+name,Petionville,1,0.0091
+name,Petit Bois,1,0.0091
+name,Petit Goave Bus Station,1,0.0091
+name,Petit Guinée Bridge,1,0.0091
+name,Petit Paradis,1,0.0091
+name,Petite Anse,1,0.0091
+name,Petite Colette,1,0.0091
+name,Petite Colline,1,0.0091
+name,Petite Rivière,1,0.0091
+name,Pharaison,1,0.0091
+name,Picmi,1,0.0091
+name,Picolet,1,0.0091
+name,Pierre,1,0.0091
+name,Pietrox,1,0.0091
+name,Pinchanat,1,0.0091
+name,Pingole,1,0.0091
+name,Pino,1,0.0091
+name,Pioterie,1,0.0091
+name,Pipiche,1,0.0091
+name,Pistolet,1,0.0091
+name,Pivert,1,0.0091
+name,Place Boyer,1,0.0091
+name,Place L'Ouverture,1,0.0091
+name,Place Nègre,1,0.0091
+name,Place Publique,1,0.0091
+name,Plaine Abraham,1,0.0091
+name,Plaine Dufour,1,0.0091
+name,Plaine Joannis,1,0.0091
+name,Plaine Lasource,1,0.0091
+name,Plaine Marechal,1,0.0091
+name,Plaine des Mapous,1,0.0091
+name,Plateau Teyen,1,0.0091
+name,Platon Bouvier,1,0.0091
+name,Platon L'Etang,1,0.0091
+name,Platon L'aurore,1,0.0091
+name,Platon Renaud,1,0.0091
+name,Platon Tapion,1,0.0091
+name,Platon Trou Louis,1,0.0091
+name,Plombe,1,0.0091
+name,Plume Trou Jacques,1,0.0091
+name,Poincy,1,0.0091
+name,Point Thor,1,0.0091
+name,Pointe Lamentin,1,0.0091
+name,Pointe a Pierrot,1,0.0091
+name,Pointe des Lataniers,1,0.0091
+name,Police Headquarters,1,0.0091
+name,Police de Petionville,1,0.0091
+name,Pomme d'Amour,1,0.0091
+name,Pont Janvier,1,0.0091
+name,Pont Matheaux,1,0.0091
+name,Pont Tambou,1,0.0091
+name,Poques,1,0.0091
+name,Port Royal,1,0.0091
+name,Port-au-Prince PNH Stn,1,0.0091
+name,Portail Guepe,1,0.0091
+name,Portail Leogane,1,0.0091
+name,Portail St. Joseph,1,0.0091
+name,Posy,1,0.0091
+name,Poteneau,1,0.0091
+name,Pourrier,1,0.0091
+name,Povot,1,0.0091
+name,Prince Hotel,1,0.0091
+name,Provence,1,0.0091
+name,Puits Blain,1,0.0091
+name,Puplan,1,0.0091
+name,Pâques,1,0.0091
+name,Péligre,1,0.0091
+name,Pépin,1,0.0091
+name,Pérodin,1,0.0091
+name,Pétionville Club,1,0.0091
+name,Quiquitte,1,0.0091
+name,R Cornillon,1,0.0091
+name,R Dr Noel,1,0.0091
+name,R L Dennis,1,0.0091
+name,R Mapou,1,0.0091
+name,R Pichon,1,0.0091
+name,R Price Mars,1,0.0091
+name,R Tippenhauer,1,0.0091
+name,R tulipe,1,0.0091
+name,R. Brochette 95,1,0.0091
+name,R. Camille,1,0.0091
+name,R. Dubois,1,0.0091
+name,R. Flovil Hyppolite,1,0.0091
+name,R. Hereaux,1,0.0091
+name,R. Ibo Lelel,1,0.0091
+name,R. Toussaint Simon,1,0.0091
+name,RABOTEAU CLINIC SOCIAL MEDICAL CENTER,1,0.0091
+name,RF Pierra,1,0.0091
+name,RG Sylvain,1,0.0091
+name,RSCH,1,0.0091
+name,RUE LA,1,0.0091
+name,RUSSIAN FIELD HOSPITAL,1,0.0091
+name,Radio Minustah FM,1,0.0091
+name,Ramier,1,0.0091
+name,Ranaroy,1,0.0091
+name,Randa,1,0.0091
+name,Rateau,1,0.0091
+name,Ravine Biquel,1,0.0091
+name,Ravine Bodron,1,0.0091
+name,Ravine Cava,1,0.0091
+name,Ravine Charrier,1,0.0091
+name,Ravine Desmarais,1,0.0091
+name,Ravine Drian,1,0.0091
+name,Ravine Frisée,1,0.0091
+name,Ravine Féliche,1,0.0091
+name,Ravine Galette,1,0.0091
+name,Ravine Gauthier,1,0.0091
+name,Ravine Granapon,1,0.0091
+name,Ravine Macaya,1,0.0091
+name,Ravine Mathieu,1,0.0091
+name,Ravine Mingo,1,0.0091
+name,Ravine Mirlitan,1,0.0091
+name,Ravine Morel,1,0.0091
+name,Ravine Morne Rouge,1,0.0091
+name,Ravine Moyette,1,0.0091
+name,Ravine Médor,1,0.0091
+name,Ravine Najac,1,0.0091
+name,Ravine Napeine,1,0.0091
+name,Ravine Paques,1,0.0091
+name,Ravine Perdu Bien,1,0.0091
+name,Ravine Perdu Temps,1,0.0091
+name,Ravine Pierre Louis,1,0.0091
+name,Ravine Raphaël,1,0.0091
+name,Ravine Séjourne,1,0.0091
+name,Ravine Ti Tabe,1,0.0091
+name,Ravine Tisseau,1,0.0091
+name,Ravine Turpine,1,0.0091
+name,Ravine Vipiche,1,0.0091
+name,Rechalet,1,0.0091
+name,Regie du Tabac et des Allumettes,1,0.0091
+name,Rehabilitation de l'Hopital,1,0.0091
+name,Reporters Without Borders,1,0.0091
+name,Repos,1,0.0091
+name,Reservoir d'Eau du Village W Lamothe,1,0.0091
+name,Reynols Terminals,1,0.0091
+name,Rica,1,0.0091
+name,Richard,1,0.0091
+name,Riche Homme,1,0.0091
+name,Richemond,1,0.0091
+name,Rio Frio,1,0.0091
+name,Riobe,1,0.0091
+name,Risque,1,0.0091
+name,Riviere Cuivre,1,0.0091
+name,Riviere Nan Couline,1,0.0091
+name,Riviere Rino,1,0.0091
+name,Riviere de Petite Source,1,0.0091
+name,Rivière Au Fourc,1,0.0091
+name,Rivière Bananier,1,0.0091
+name,Rivière Bayas,1,0.0091
+name,Rivière Belbel,1,0.0091
+name,Rivière Blanche,1,0.0091
+name,Rivière Boucan Dini,1,0.0091
+name,Rivière Bouillie,1,0.0091
+name,Rivière Bétizet,1,0.0091
+name,Rivière Citronier,1,0.0091
+name,Rivière De Fer Cheval,1,0.0091
+name,Rivière De Jacmel,1,0.0091
+name,Rivière Deux Racines,1,0.0091
+name,Rivière Du Fer Cheval,1,0.0091
+name,Rivière Duclos,1,0.0091
+name,Rivière Gascogne,1,0.0091
+name,Rivière Gimballe,1,0.0091
+name,Rivière Goyable,1,0.0091
+name,Rivière Jean Le Bas,1,0.0091
+name,Rivière La Theme,1,0.0091
+name,Rivière Laricot,1,0.0091
+name,Rivière Lavange,1,0.0091
+name,Rivière Laverne,1,0.0091
+name,Rivière Lhomon,1,0.0091
+name,Rivière Massacre,1,0.0091
+name,Rivière Nan Couline,1,0.0091
+name,Rivière Saint Dourmant,1,0.0091
+name,Rivière Source Alera,1,0.0091
+name,Rivière Tête Source,1,0.0091
+name,Robergeau,1,0.0091
+name,Roche Blanche,1,0.0091
+name,Roche Plate,1,0.0091
+name,Roche a Pierre,1,0.0091
+name,Rodeau,1,0.0091
+name,Roger,1,0.0091
+name,Rosancour,1,0.0091
+name,Rosinde,1,0.0091
+name,Rou Lasource,1,0.0091
+name,Roussan,1,0.0091
+name,Rousseau,1,0.0091
+name,Route Ampère,1,0.0091
+name,Route Ibolélée,1,0.0091
+name,Route Jean Coradin,1,0.0091
+name,Route Montagne Noire,1,0.0091
+name,Route de Peguy Ville,1,0.0091
+name,Route des Platons,1,0.0091
+name,Roy,1,0.0091
+name,Royal,1,0.0091
+name,Rte J. Coradin,1,0.0091
+name,Rue,1,0.0091
+name,Rue 188,1,0.0091
+name,Rue 2,1,0.0091
+name,Rue 4 Pacot,1,0.0091
+name,Rue A Brun,1,0.0091
+name,Rue A Dupré,1,0.0091
+name,Rue A Killick,1,0.0091
+name,Rue A Petion,1,0.0091
+name,Rue A Sanon,1,0.0091
+name,Rue A. Brun,1,0.0091
+name,Rue A. Cassignol,1,0.0091
+name,Rue A. Cnch,1,0.0091
+name,Rue A. Dumas,1,0.0091
+name,Rue A. Dupré,1,0.0091
+name,Rue A. F. Bathier,1,0.0091
+name,Rue A. Killick,1,0.0091
+name,Rue A. Pierre-Marie,1,0.0091
+name,Rue A. Pierre-Paul,1,0.0091
+name,Rue A. St Vil,1,0.0091
+name,Rue A. Thoby,1,0.0091
+name,Rue Alexanore,1,0.0091
+name,Rue Amisial,1,0.0091
+name,Rue Ardouin,1,0.0091
+name,Rue Aristhene,1,0.0091
+name,Rue Armandier,1,0.0091
+name,Rue B de Marbois,1,0.0091
+name,Rue B. de Marbois,1,0.0091
+name,Rue Balince,1,0.0091
+name,Rue Baron,1,0.0091
+name,Rue Barran,1,0.0091
+name,Rue Bayard,1,0.0091
+name,Rue Beaubrun,1,0.0091
+name,Rue Bercy,1,0.0091
+name,Rue Bergerac,1,0.0091
+name,Rue Bizoton 51,1,0.0091
+name,Rue Blaise,1,0.0091
+name,Rue Blessinard,1,0.0091
+name,Rue Bouchette,1,0.0091
+name,Rue Bourjoly,1,0.0091
+name,Rue Bouvrevil,1,0.0091
+name,Rue Bristol 2ere,1,0.0091
+name,Rue Butte Boyer,1,0.0091
+name,Rue Bélair,1,0.0091
+name,Rue C Coutard,1,0.0091
+name,Rue C Peralte,1,0.0091
+name,Rue C. Castera,1,0.0091
+name,Rue C. Ceant,1,0.0091
+name,Rue C. Coutard,1,0.0091
+name,Rue C. Lespinasse,1,0.0091
+name,Rue C. Valmé,1,0.0091
+name,Rue Cactus,1,0.0091
+name,Rue Caféière,1,0.0091
+name,Rue Calao,1,0.0091
+name,Rue Candio,1,0.0091
+name,Rue Cange,1,0.0091
+name,Rue Cangé,1,0.0091
+name,Rue Caonabo,1,0.0091
+name,Rue Carlstroem,1,0.0091
+name,Rue Carrefour 83,1,0.0091
+name,Rue Casimir Dumerlin,1,0.0091
+name,Rue Ch. Espinasse,1,0.0091
+name,Rue Chacha,1,0.0091
+name,Rue Chancy,1,0.0091
+name,Rue Chareron,1,0.0091
+name,Rue Chateloir,1,0.0091
+name,Rue Chrétien,1,0.0091
+name,Rue Cimetiere,1,0.0091
+name,Rue Cite Luminere,1,0.0091
+name,Rue Cité Luminère,1,0.0091
+name,Rue Claire Heureuse,1,0.0091
+name,Rue Clercine 2,1,0.0091
+name,Rue Coicou,1,0.0091
+name,Rue Colvert,1,0.0091
+name,Rue Condor,1,0.0091
+name,Rue Cormier,1,0.0091
+name,Rue Courtois,1,0.0091
+name,Rue Célimène,1,0.0091
+name,Rue D Montessir,1,0.0091
+name,Rue D'Again,1,0.0091
+name,Rue D. Ainé,1,0.0091
+name,Rue D. Estimé,1,0.0091
+name,Rue D. Vaval,1,0.0091
+name,Rue D. Vieux,1,0.0091
+name,Rue Damase,1,0.0091
+name,Rue Damus,1,0.0091
+name,Rue Daumier,1,0.0091
+name,Rue Delmas 49,1,0.0091
+name,Rue Delmas 59,1,0.0091
+name,Rue Delorme,1,0.0091
+name,Rue Des Faussee,1,0.0091
+name,Rue Desrosier,1,0.0091
+name,Rue Douyon,1,0.0091
+name,Rue Dr Martin,1,0.0091
+name,Rue Dr Price Mars,1,0.0091
+name,Rue Dr V. Noel,1,0.0091
+name,Rue Dr. Aubry,1,0.0091
+name,Rue Dr. Coles,1,0.0091
+name,Rue Dr. Lanier,1,0.0091
+name,Rue Dr. Noel,1,0.0091
+name,Rue Dr. Price Mars,1,0.0091
+name,Rue Dr. R. Jeanty,1,0.0091
+name,Rue Dr. V. Noel,1,0.0091
+name,Rue Dublin,1,0.0091
+name,Rue Dubois,1,0.0091
+name,Rue Dumerlin,1,0.0091
+name,Rue Défilée,1,0.0091
+name,Rue E Ciceron,1,0.0091
+name,Rue E Pierre,1,0.0091
+name,Rue E. Dubois,1,0.0091
+name,Rue E. Nau,1,0.0091
+name,Rue E. Pierre,1,0.0091
+name,Rue Emile Francois,1,0.0091
+name,Rue Emile François,1,0.0091
+name,Rue Enterrement,1,0.0091
+name,Rue Erzulie,1,0.0091
+name,Rue F Hibbert,1,0.0091
+name,Rue F Lassegue,1,0.0091
+name,Rue F Lassègue,1,0.0091
+name,Rue F Sam,1,0.0091
+name,Rue F. Aristhene,1,0.0091
+name,Rue F. Astree,1,0.0091
+name,Rue F. Baudière,1,0.0091
+name,Rue F. Baudières,1,0.0091
+name,Rue F. Lassègue,1,0.0091
+name,Rue F. Sam,1,0.0091
+name,Rue Famosa,1,0.0091
+name,Rue Faustin,1,0.0091
+name,Rue Fleming,1,0.0091
+name,Rue Flovil Hyppolite,1,0.0091
+name,Rue Fortunat,1,0.0091
+name,Rue Frémy,1,0.0091
+name,Rue G Salvain,1,0.0091
+name,Rue G. Menard,1,0.0091
+name,Rue G. Salvain,1,0.0091
+name,Rue Gabriel,1,0.0091
+name,Rue Gabélis,1,0.0091
+name,Rue Gardère,1,0.0091
+name,Rue Gauthier 1ère,1,0.0091
+name,Rue Gauthiere 1 ere,1,0.0091
+name,Rue Georges Kernizan,1,0.0091
+name,Rue Gerard Theodat,1,0.0091
+name,Rue Godefrey,1,0.0091
+name,Rue Grand Ste Catherine,1,0.0091
+name,Rue H. Tippenhauer,1,0.0091
+name,Rue Halaou,1,0.0091
+name,Rue Houille,1,0.0091
+name,Rue Hérard 1,1,0.0091
+name,Rue Hérard 1ère,1,0.0091
+name,Rue Hérard 2,1,0.0091
+name,Rue Hérard 2ème,1,0.0091
+name,Rue Innovation,1,0.0091
+name,Rue J Lethusma,1,0.0091
+name,Rue J Millien,1,0.0091
+name,Rue J Romain,1,0.0091
+name,Rue J Vincent,1,0.0091
+name,Rue J. B. Dessables,1,0.0091
+name,Rue J. Douge,1,0.0091
+name,Rue J. Dougé,1,0.0091
+name,Rue J. Guide,1,0.0091
+name,Rue J. Roumain,1,0.0091
+name,Rue Jacob,1,0.0091
+name,Rue Jacques 1ère,1,0.0091
+name,Rue Jastram,1,0.0091
+name,Rue Jean Coradin,1,0.0091
+name,Rue Jean-Pierre,1,0.0091
+name,Rue Joeph Janvier,1,0.0091
+name,Rue José de San Martin,1,0.0091
+name,Rue Jérémie 1ère,1,0.0091
+name,Rue K. G. Jacob,1,0.0091
+name,Rue K.G. Jacob,1,0.0091
+name,Rue L Lambert,1,0.0091
+name,Rue L'Union,1,0.0091
+name,Rue L. E. Pougette,1,0.0091
+name,Rue L. Mesidor,1,0.0091
+name,Rue La Croix,1,0.0091
+name,Rue Lafleur,1,0.0091
+name,Rue Lafleur Dhucheine,1,0.0091
+name,Rue Lamal Mercier,1,0.0091
+name,Rue Lamour,1,0.0091
+name,Rue Lamour Derance,1,0.0091
+name,Rue Lapaix,1,0.0091
+name,Rue Laplume,1,0.0091
+name,Rue Laradeux,1,0.0091
+name,Rue Lasource,1,0.0091
+name,Rue Lebrun,1,0.0091
+name,Rue Levasseur,1,0.0091
+name,Rue Logand,1,0.0091
+name,Rue Lorimer Dennis,1,0.0091
+name,Rue Louis,1,0.0091
+name,Rue Légitime,1,0.0091
+name,Rue Lépine,1,0.0091
+name,Rue M,1,0.0091
+name,Rue M. Casséus,1,0.0091
+name,Rue M. Halaou,1,0.0091
+name,Rue M. Hector,1,0.0091
+name,Rue M. Oreste,1,0.0091
+name,Rue M. Pétrus,1,0.0091
+name,Rue Macaya,1,0.0091
+name,Rue Mackendal,1,0.0091
+name,Rue Marion,1,0.0091
+name,Rue Martineau,1,0.0091
+name,Rue Menelas,1,0.0091
+name,Rue Menos,1,0.0091
+name,Rue Merlet,1,0.0091
+name,Rue Midway,1,0.0091
+name,Rue Mitchelson Marcelo,1,0.0091
+name,Rue Moineau,1,0.0091
+name,Rue Monplaisir,1,0.0091
+name,Rue Mont Joli,1,0.0091
+name,Rue Ménos,1,0.0091
+name,Rue Ménélas,1,0.0091
+name,Rue Nabusan,1,0.0091
+name,Rue Nazon,1,0.0091
+name,Rue Normil Charles,1,0.0091
+name,Rue O Germain,1,0.0091
+name,Rue O. Jeanty,1,0.0091
+name,Rue Odeide,1,0.0091
+name,Rue Or. Lanier,1,0.0091
+name,Rue Orel,1,0.0091
+name,Rue Othello,1,0.0091
+name,Rue Ovide 10,1,0.0091
+name,Rue Ovide 11,1,0.0091
+name,Rue Ovide 12,1,0.0091
+name,Rue Ovide 16,1,0.0091
+name,Rue Ovide 21,1,0.0091
+name,Rue Ovide 25,1,0.0091
+name,Rue Ovide 26,1,0.0091
+name,Rue Ovide 27,1,0.0091
+name,Rue Ovide 5,1,0.0091
+name,Rue P Sully,1,0.0091
+name,Rue P. Benoit,1,0.0091
+name,Rue P. Obin,1,0.0091
+name,Rue Peguyville,1,0.0091
+name,Rue Petion,1,0.0091
+name,Rue Petit,1,0.0091
+name,Rue Philemont,1,0.0091
+name,Rue Pommeyrac,1,0.0091
+name,Rue Pontier,1,0.0091
+name,Rue Pérodin,1,0.0091
+name,Rue Pétion 1ère,1,0.0091
+name,Rue R Camille,1,0.0091
+name,Rue R. Auguste,1,0.0091
+name,Rue R. Lespinasse,1,0.0091
+name,Rue Renne,1,0.0091
+name,Rue Republicaine,1,0.0091
+name,Rue Riviere Grise,1,0.0091
+name,Rue Rivière 1ère,1,0.0091
+name,Rue Roosevelt,1,0.0091
+name,Rue Roussan,1,0.0091
+name,Rue Roy Laraque,1,0.0091
+name,Rue S. Dumornay,1,0.0091
+name,Rue S. Solon,1,0.0091
+name,Rue Sadrack,1,0.0091
+name,Rue Saint Yves,1,0.0091
+name,Rue Saint-Cyr,1,0.0091
+name,Rue Seguignol,1,0.0091
+name,Rue Serin,1,0.0091
+name,Rue Serpentier,1,0.0091
+name,Rue Simon Bolivar,1,0.0091
+name,Rue Soleil 12,1,0.0091
+name,Rue Soleil 14,1,0.0091
+name,Rue Soleil 15,1,0.0091
+name,Rue Soleil 16,1,0.0091
+name,Rue Soleil 17,1,0.0091
+name,Rue Soleil 18,1,0.0091
+name,Rue Soleil 19,1,0.0091
+name,Rue Soleil 2,1,0.0091
+name,Rue Soleil 20,1,0.0091
+name,Rue Soleil 22,1,0.0091
+name,Rue Soleil 24,1,0.0091
+name,Rue Soleil 25,1,0.0091
+name,Rue Soleil 26,1,0.0091
+name,Rue Soleil 3,1,0.0091
+name,Rue Soleil 5,1,0.0091
+name,Rue Soleil 7,1,0.0091
+name,Rue Soleil 8,1,0.0091
+name,Rue Solon Menos,1,0.0091
+name,Rue St Cyr,1,0.0091
+name,Rue St Gome,1,0.0091
+name,Rue St Lot,1,0.0091
+name,Rue St Philomene,1,0.0091
+name,Rue St. Alexandre,1,0.0091
+name,Rue St. Anne,1,0.0091
+name,Rue St. Cyr,1,0.0091
+name,Rue St. Honoré,1,0.0091
+name,Rue St. Hugues,1,0.0091
+name,Rue St. Louis Jeanty,1,0.0091
+name,Rue St. Paul,1,0.0091
+name,Rue Ste. Anne,1,0.0091
+name,Rue Ste. Bernadette,1,0.0091
+name,Rue Stephen,1,0.0091
+name,Rue Sylvio Cator,1,0.0091
+name,Rue Séneque,1,0.0091
+name,Rue T Brouard,1,0.0091
+name,Rue T JN Gilles,1,0.0091
+name,Rue T Theodat,1,0.0091
+name,Rue T. Guilbaud,1,0.0091
+name,Rue T. JN. Gilles,1,0.0091
+name,Rue Tapage,1,0.0091
+name,Rue Tovar,1,0.0091
+name,Rue Traversière,1,0.0091
+name,Rue Truitier,1,0.0091
+name,Rue V Ricourt,1,0.0091
+name,Rue V Sampeur,1,0.0091
+name,Rue V. Jacques,1,0.0091
+name,Rue V. Ricourt,1,0.0091
+name,Rue V. Sampeur,1,0.0091
+name,Rue V. Semexman,1,0.0091
+name,Rue Valcin,1,0.0091
+name,Rue Valmé,1,0.0091
+name,Rue Verly,1,0.0091
+name,Rue Vernet,1,0.0091
+name,Rue Verny,1,0.0091
+name,Rue Viala,1,0.0091
+name,Rue Vieux,1,0.0091
+name,Rue Vilaire,1,0.0091
+name,Rue Villavaleix,1,0.0091
+name,Rue Vogue,1,0.0091
+name,Rue Volcy,1,0.0091
+name,Rue Voloy,1,0.0091
+name,Rue Vulcain,1,0.0091
+name,Rue W Dardeau,1,0.0091
+name,Rue W. Dardeau,1,0.0091
+name,Rue Xaragua,1,0.0091
+name,Rue bo Lorge,1,0.0091
+name,Rue de Fontenay,1,0.0091
+name,Rue de St Preux,1,0.0091
+name,Rue de St. Preux,1,0.0091
+name,Rue de l'Interrement,1,0.0091
+name,Rue de la Justice,1,0.0091
+name,Rue dela Victorie,1,0.0091
+name,Rue des Arts Plastique,1,0.0091
+name,Rue des Arts Plastiques,1,0.0091
+name,Rue des Marguerittes,1,0.0091
+name,Rue des Ministères,1,0.0091
+name,Rue des Pucelles,1,0.0091
+name,Rue des Salesiens,1,0.0091
+name,Rue du Chili,1,0.0091
+name,Rue du Cosquer,1,0.0091
+name,Rue du Madagascar de l'Etat,1,0.0091
+name,Rue du Travail 2ème,1,0.0091
+name,Ruelle 	DR. L. Wallon,1,0.0091
+name,Ruelle A. Brun,1,0.0091
+name,Ruelle A. Brutus,1,0.0091
+name,Ruelle A. Francis,1,0.0091
+name,Ruelle A. Léonard,1,0.0091
+name,Ruelle Alexis,1,0.0091
+name,Ruelle Alibé,1,0.0091
+name,Ruelle Assad,1,0.0091
+name,Ruelle Audant,1,0.0091
+name,Ruelle Aurelius,1,0.0091
+name,Ruelle Aurélius,1,0.0091
+name,Ruelle Autruche,1,0.0091
+name,Ruelle B. Destin,1,0.0091
+name,Ruelle Barbancourt,1,0.0091
+name,Ruelle Bartraville,1,0.0091
+name,Ruelle Bayard,1,0.0091
+name,Ruelle Bazile,1,0.0091
+name,Ruelle Belmour,1,0.0091
+name,Ruelle Bergeaud,1,0.0091
+name,Ruelle Berthelot,1,0.0091
+name,Ruelle Berto,1,0.0091
+name,Ruelle Biassou,1,0.0091
+name,Ruelle Blot,1,0.0091
+name,Ruelle Boisrond,1,0.0091
+name,Ruelle Boucard,1,0.0091
+name,Ruelle Bécassine,1,0.0091
+name,Ruelle Bégonia,1,0.0091
+name,Ruelle Bélair,1,0.0091
+name,Ruelle C,1,0.0091
+name,Ruelle C. Colomb,1,0.0091
+name,Ruelle Cabon,1,0.0091
+name,Ruelle Calao,1,0.0091
+name,Ruelle Cameau,1,0.0091
+name,Ruelle Camélia,1,0.0091
+name,Ruelle Candela,1,0.0091
+name,Ruelle Candio,1,0.0091
+name,Ruelle Candéla,1,0.0091
+name,Ruelle Cangé,1,0.0091
+name,Ruelle Carrius,1,0.0091
+name,Ruelle Casseus,1,0.0091
+name,Ruelle Casséus,1,0.0091
+name,Ruelle Catherine,1,0.0091
+name,Ruelle Charles Jeanty,1,0.0091
+name,Ruelle Charrier,1,0.0091
+name,Ruelle Charriere,1,0.0091
+name,Ruelle Cibao,1,0.0091
+name,Ruelle Civique,1,0.0091
+name,Ruelle Colvert,1,0.0091
+name,Ruelle Constantin,1,0.0091
+name,Ruelle Cormier,1,0.0091
+name,Ruelle Cyprés,1,0.0091
+name,Ruelle Célestin,1,0.0091
+name,Ruelle Célimène,1,0.0091
+name,Ruelle D St. Preux,1,0.0091
+name,Ruelle D. St. Preux,1,0.0091
+name,Ruelle DESTINÉ,1,0.0091
+name,Ruelle DR. L. Wallon,1,0.0091
+name,Ruelle David,1,0.0091
+name,Ruelle Delorme,1,0.0091
+name,Ruelle Des Fleurs,1,0.0091
+name,Ruelle Destiné,1,0.0091
+name,Ruelle Dr L Wallon,1,0.0091
+name,Ruelle Dr. Bijoux,1,0.0091
+name,Ruelle Dullin,1,0.0091
+name,Ruelle Durhandis,1,0.0091
+name,Ruelle Défilée,1,0.0091
+name,Ruelle E Janvier,1,0.0091
+name,Ruelle E Magnones,1,0.0091
+name,Ruelle E Mangones,1,0.0091
+name,Ruelle E. Janvier,1,0.0091
+name,Ruelle E. Magnones,1,0.0091
+name,Ruelle E. Mangones,1,0.0091
+name,Ruelle Ebex,1,0.0091
+name,Ruelle Etheart,1,0.0091
+name,Ruelle Ethéart,1,0.0091
+name,Ruelle F Sejourné,1,0.0091
+name,Ruelle F. Séjourné,1,0.0091
+name,Ruelle Faustin 1,1,0.0091
+name,Ruelle Frére Louis Bernard,1,0.0091
+name,Ruelle Gabart,1,0.0091
+name,Ruelle Gaspard,1,0.0091
+name,Ruelle Grimard,1,0.0091
+name,Ruelle Guichard,1,0.0091
+name,Ruelle Guéry,1,0.0091
+name,Ruelle H. JN-Baptiste,1,0.0091
+name,Ruelle Henec,1,0.0091
+name,Ruelle Henri 1 er,1,0.0091
+name,Ruelle Henri 1er,1,0.0091
+name,Ruelle Honorat,1,0.0091
+name,Ruelle Houblon,1,0.0091
+name,Ruelle Hyppolite,1,0.0091
+name,Ruelle J. C. André,1,0.0091
+name,Ruelle J. J. Acaau,1,0.0091
+name,Ruelle Jolibois,1,0.0091
+name,Ruelle Julio Cesar,1,0.0091
+name,Ruelle Justin Juste,1,0.0091
+name,Ruelle L. William,1,0.0091
+name,Ruelle Laguepre,1,0.0091
+name,Ruelle Laguerre,1,0.0091
+name,Ruelle Lallemand,1,0.0091
+name,Ruelle Laraque 2ème,1,0.0091
+name,Ruelle Laraque 3 Eme,1,0.0091
+name,Ruelle Laraque 3ème,1,0.0091
+name,Ruelle Larose,1,0.0091
+name,Ruelle Leconte,1,0.0091
+name,Ruelle Lelio,1,0.0091
+name,Ruelle Lesage,1,0.0091
+name,Ruelle Levasseur,1,0.0091
+name,Ruelle Lori,1,0.0091
+name,Ruelle Loriot,1,0.0091
+name,Ruelle Loriquet,1,0.0091
+name,Ruelle Louis Etienne,1,0.0091
+name,Ruelle Ludovic,1,0.0091
+name,Ruelle Lélio,1,0.0091
+name,Ruelle Lépine,1,0.0091
+name,Ruelle M. Augustin,1,0.0091
+name,Ruelle M. Pétrus,1,0.0091
+name,Ruelle M. Solomon,1,0.0091
+name,Ruelle Malval,1,0.0091
+name,Ruelle Mangones,1,0.0091
+name,Ruelle Marabout,1,0.0091
+name,Ruelle Mariela,1,0.0091
+name,Ruelle Martineau 2 eme,1,0.0091
+name,Ruelle Martineau 4ème,1,0.0091
+name,Ruelle Maupassant,1,0.0091
+name,Ruelle Merle,1,0.0091
+name,Ruelle Merlet,1,0.0091
+name,Ruelle Moineau,1,0.0091
+name,Ruelle Monpoint,1,0.0091
+name,Ruelle Montpoint,1,0.0091
+name,Ruelle Morelly,1,0.0091
+name,Ruelle Morisseau,1,0.0091
+name,Ruelle Nemours,1,0.0091
+name,Ruelle O. Chery,1,0.0091
+name,Ruelle Oscar,1,0.0091
+name,Ruelle P Brun,1,0.0091
+name,Ruelle P. Baptiste,1,0.0091
+name,Ruelle P. Brun,1,0.0091
+name,Ruelle P. Cassagnol,1,0.0091
+name,Ruelle P. Savary,1,0.0091
+name,Ruelle Paquerette,1,0.0091
+name,Ruelle Passerine,1,0.0091
+name,Ruelle Passiflore,1,0.0091
+name,Ruelle Paulin,1,0.0091
+name,Ruelle Pescayes,1,0.0091
+name,Ruelle Petrus,1,0.0091
+name,Ruelle Pie,1,0.0091
+name,Ruelle Platane,1,0.0091
+name,Ruelle Pradines,1,0.0091
+name,Ruelle Praslin,1,0.0091
+name,Ruelle Préval,1,0.0091
+name,Ruelle Péroquet,1,0.0091
+name,Ruelle Rafael,1,0.0091
+name,Ruelle Raphael,1,0.0091
+name,Ruelle Rossignol,1,0.0091
+name,Ruelle Régelisse,1,0.0091
+name,Ruelle Réglisse,1,0.0091
+name,Ruelle S Salnave,1,0.0091
+name,Ruelle S. Salnave,1,0.0091
+name,Ruelle Seguineau,1,0.0091
+name,Ruelle St Fort,1,0.0091
+name,Ruelle St Surin,1,0.0091
+name,Ruelle St. Gerard,1,0.0091
+name,Ruelle St. Gérard,1,0.0091
+name,Ruelle St. Laurent,1,0.0091
+name,Ruelle St. Léger,1,0.0091
+name,Ruelle St. Michel,1,0.0091
+name,Ruelle St. Rémy,1,0.0091
+name,Ruelle St. Surin,1,0.0091
+name,Ruelle Sé journé,1,0.0091
+name,Ruelle T Pierre,1,0.0091
+name,Ruelle T. Brave,1,0.0091
+name,Ruelle T. Pierre,1,0.0091
+name,Ruelle Taujour,1,0.0091
+name,Ruelle Taujours,1,0.0091
+name,Ruelle Tessier,1,0.0091
+name,Ruelle Thimmer,1,0.0091
+name,Ruelle Toucan,1,0.0091
+name,Ruelle de la Sorbonne,1,0.0091
+name,SADA - BELLANGER,1,0.0091
+name,SADA - SOURCE MATELAS,1,0.0091
+name,SADA MATHEUX,1,0.0091
+name,SAINT MARC HOSPITAL SAINT NICOLAS,1,0.0091
+name,SAKS,1,0.0091
+name,SANATORIUM DE LEOGANE,1,0.0091
+name,SANATORIUM DE PORT AU PRINCE,1,0.0091
+name,SANATORIUM DE SIGUENEAU,1,0.0091
+name,SANT SANTE KAY PA' W,1,0.0091
+name,SANTE POUR TOUS,1,0.0091
+name,SELPETRE,1,0.0091
+name,SERVICE DE SANTE FONDEFH,1,0.0091
+name,SIF,1,0.0091
+name,SOS Childrens Village,1,0.0091
+name,SSPE,1,0.0091
+name,SSPE St Joseph de Pemerle,1,0.0091
+name,SSPE de Beraca,1,0.0091
+name,SSPE de L homond,1,0.0091
+name,ST MARC HOSPITAL PIERRE PAYEN,1,0.0091
+name,ST MARC HOSPITAL ST ANTOINE,1,0.0091
+name,Sabouce,1,0.0091
+name,Saint Hilaire,1,0.0091
+name,Saint Louis,1,0.0091
+name,Saint Phard,1,0.0091
+name,Saint Pierre,1,0.0091
+name,Saintard,1,0.0091
+name,Sainte Adèle,1,0.0091
+name,Sainte Croix,1,0.0091
+name,Saintonge,1,0.0091
+name,Salmaitre,1,0.0091
+name,Salons,1,0.0091
+name,Sanatorium De Siguenau,1,0.0091
+name,Sante Pep La,1,0.0091
+name,Santo 11,1,0.0091
+name,Santo 11B,1,0.0091
+name,Santo 12B,1,0.0091
+name,Santo 13A,1,0.0091
+name,Santo 14,1,0.0091
+name,Santo 14C,1,0.0091
+name,Santo 17,1,0.0091
+name,Santo 19,1,0.0091
+name,Santo 20,1,0.0091
+name,Santo 20A,1,0.0091
+name,Santo 20B,1,0.0091
+name,Santo 20C,1,0.0091
+name,Santo 20H,1,0.0091
+name,Santo 21,1,0.0091
+name,Santo 22B,1,0.0091
+name,Santo 22F,1,0.0091
+name,Santo 23A,1,0.0091
+name,Santo 23B Imp Titi,1,0.0091
+name,Santo 23F,1,0.0091
+name,Santo 23H,1,0.0091
+name,Santo 3,1,0.0091
+name,Santo 4,1,0.0091
+name,Santo 8B,1,0.0091
+name,Santo 9,1,0.0091
+name,Santo 9A,1,0.0091
+name,Sarazin,1,0.0091
+name,Sauge,1,0.0091
+name,Saut Blanche,1,0.0091
+name,Saut D'Eau,1,0.0091
+name,Saut d'Eau,1,0.0091
+name,Savane Blonde,1,0.0091
+name,Savane Cheval,1,0.0091
+name,Savane Longue,1,0.0091
+name,Savane Ouest,1,0.0091
+name,Savane-A Roche,1,0.0091
+name,Savanette,1,0.0091
+name,Savanne à Roche,1,0.0091
+name,Seguy,1,0.0091
+name,Semence,1,0.0091
+name,Seminaire Adventiste,1,0.0091
+name,Service de SantT de PremiFre Echelon,1,0.0091
+name,Service de la Circulation de Véhicules,1,0.0091
+name,Sibert,1,0.0091
+name,Sigueneau,1,0.0091
+name,Simonette,1,0.0091
+name,Sisal,1,0.0091
+name,Soixante,1,0.0091
+name,Sonapi Industrial Park ,1,0.0091
+name,Sonson,1,0.0091
+name,Sophie,1,0.0091
+name,Source Figuier,1,0.0091
+name,Source Pineau,1,0.0091
+name,Sous-station de Péligre,1,0.0091
+name,St Eloi,1,0.0091
+name,St Francois Xavier,1,0.0091
+name,St Karl,1,0.0091
+name,St Marie School,1,0.0091
+name,St Martin,1,0.0091
+name,St Michel Du Sud,1,0.0091
+name,St Roc,1,0.0091
+name,St. Barthelemy,1,0.0091
+name,St. Croix Hospital / Leogane (?),1,0.0091
+name,Ste Croix Hospital,1,0.0091
+name,Steve Chapel Ebenezer,1,0.0091
+name,Sud-Est,1,0.0091
+name,Surin,1,0.0091
+name,Séc hoire,1,0.0091
+name,T63,1,0.0091
+name,TELECO,1,0.0091
+name,TV Stations Nationale,1,0.0091
+name,Tabarre 72,1,0.0091
+name,Tamarin,1,0.0091
+name,Tanis,1,0.0091
+name,Tapion Di Petit Goâve,1,0.0091
+name,Taverneau,1,0.0091
+name,Telange,1,0.0091
+name,Terre Blance,1,0.0091
+name,Terre Blanche,1,0.0091
+name,Terre Grainnin,1,0.0091
+name,Terre Noiire,1,0.0091
+name,Terre Seche,1,0.0091
+name,Terry,1,0.0091
+name,Texaco,1,0.0091
+name,Therlonge,1,0.0091
+name,Tho,1,0.0091
+name,Thomas,1,0.0091
+name,Thor 12,1,0.0091
+name,Thor 14,1,0.0091
+name,Ti Boucan,1,0.0091
+name,Ti Calebasse,1,0.0091
+name,Ti Coma,1,0.0091
+name,Ti Coulet,1,0.0091
+name,Ti Couline,1,0.0091
+name,Ti Couloute,1,0.0091
+name,Ti Fort Negre,1,0.0091
+name,Ti Grambi,1,0.0091
+name,Ti Jeudi,1,0.0091
+name,Ti Palmiste,1,0.0091
+name,Ti Place Leray,1,0.0091
+name,Ti Pond,1,0.0091
+name,Ti Trou Gravelot,1,0.0091
+name,Ti marché,1,0.0091
+name,Ti-Riviere,1,0.0091
+name,Ti-Rivière,1,0.0091
+name,Tiapon,1,0.0091
+name,Ticoma,1,0.0091
+name,Tiger Mart,1,0.0091
+name,Tilot,1,0.0091
+name,Tioquin,1,0.0091
+name,Titanyen,1,0.0091
+name,Tomasin,1,0.0091
+name,Torelle,1,0.0091
+name,Touche Moulin,1,0.0091
+name,Toulmain,1,0.0091
+name,Tourpine,1,0.0091
+name,Tranquille,1,0.0091
+name,Trazac,1,0.0091
+name,Treförend,1,0.0091
+name,Tresor,1,0.0091
+name,Triane,1,0.0091
+name,Tribunal De Paix,1,0.0091
+name,Trocher,1,0.0091
+name,Trois Palmistes,1,0.0091
+name,Trois Platons,1,0.0091
+name,Trois Rigole,1,0.0091
+name,Trou Canari,1,0.0091
+name,Trou Chouchou,1,0.0091
+name,Trou Gras,1,0.0091
+name,Trou Louis,1,0.0091
+name,Trou Marassa,1,0.0091
+name,Trou a l'Eau,1,0.0091
+name,Trouin,1,0.0091
+name,True Caiman,1,0.0091
+name,Trócher,1,0.0091
+name,Tubereuse,1,0.0091
+name,Turgeau,1,0.0091
+name,Turin,1,0.0091
+name,Tête Chadeau,1,0.0091
+name,UN : Sri Lanka Coy,1,0.0091
+name,UN Facility,1,0.0091
+name,UN Facility - SRI BAT,1,0.0091
+name,UN Helipad,1,0.0091
+name,UNIBANK,1,0.0091
+name,UNITE CHIRURGICALE,1,0.0091
+name,Union School (nouveau),1,0.0091
+name,United Nations Square,1,0.0091
+name,Universel,1,0.0091
+name,Universitario,1,0.0091
+name,Universite Quisqueya,1,0.0091
+name,Unnamed village,1,0.0091
+name,Usine Nadal,1,0.0091
+name,Usine Électrique,1,0.0091
+name,VERRETTES HOSPITAL ALBERT SCHWEITZER,1,0.0091
+name,VERRETTES HOSPITAL DUMARSAIS ESTIME',1,0.0091
+name,Valeureux,1,0.0091
+name,Vali,1,0.0091
+name,Vally,1,0.0091
+name,Vandreuil,1,0.0091
+name,Veillard,1,0.0091
+name,Venotte,1,0.0091
+name,Verdier,1,0.0091
+name,Victor,1,0.0091
+name,Viette,1,0.0091
+name,Vignie,1,0.0091
+name,Villa St Louis,1,0.0091
+name,Village Lamothe,1,0.0091
+name,Virol,1,0.0091
+name,Vision Plus,1,0.0091
+name,Vivier,1,0.0091
+name,Vivy Mitchel,1,0.0091
+name,Volant,1,0.0091
+name,Voltaire,1,0.0091
+name,Water Tank 2,1,0.0091
+name,Wiener,1,0.0091
+name,Wilson,1,0.0091
+name,Yahoo,1,0.0091
+name,Yvon,1,0.0091
+name,Yyra,1,0.0091
+name,Zabethe,1,0.0091
+name,Zabot,1,0.0091
+name,Zoranger,1,0.0091
+name,Zorazo,1,0.0091
+name,Zoulien,1,0.0091
+name,campsite,1,0.0091
+name,collapsed buildings,1,0.0091
+name,collapsed bulding,1,0.0091
+name,collpased bulding,1,0.0091
+name,digitial globe road,1,0.0091
+name,missing link between haiti:objectid 540 and 809 (3m),1,0.0091
+name,refugee,1,0.0091
+name,refugee campsite,1,0.0091
+name,refugee campsite Chapelle de St Jean Bosco,1,0.0091
+name,road,1,0.0091
+name,rue C Peralte,1,0.0091
+name,rue cange,1,0.0091
+name,suburb,1,0.0091
+name,trail,1,0.0091
+name,École Saint-Jean Bosco,1,0.0091
+name,École Soeur Étienne,1,0.0091
+name,École du Sacré-Cœur,1,0.0091
+name,Église Sainte-Anne,1,0.0091
+name,Église de l'Exaltation de la Saint Croix,1,0.0091
+natural,wood,816,32.1767
+natural,scrub,569,22.4369
+natural,coastline,324,12.776
+natural,water,262,10.3312
+natural,tree,247,9.7397
+natural,peak,161,6.3486
+natural,wetland,58,2.2871
+natural,cliff,27,1.0647
+natural,marsh,11,0.4338
+natural,beach,8,0.3155
+natural,heath,8,0.3155
+natural,Cultures,7,0.276
+natural,floodable area,6,0.2366
+natural,bay,5,0.1972
+natural,land,4,0.1577
+natural,mud,4,0.1577
+natural,Zone inondable en période de pluies,3,0.1183
+natural,scree,3,0.1183
+natural,floodplain,2,0.0789
+natural,spring,2,0.0789
+natural,Cones de déjection de ravinement,1,0.0394
+natural,Zone de ravinement,1,0.0394
+natural,Zone de ravinement généralisé,1,0.0394
+natural,Zone de ravinement intense,1,0.0394
+natural,floodable zone,1,0.0394
+natural,grass,1,0.0394
+natural,landslide,1,0.0394
+natural,reef,1,0.0394
+natural,scrubs,1,0.0394
+surface,unpaved,643,39.9379
+surface,dirt,378,23.4783
+surface,compacted,258,16.0248
+surface,gravel,141,8.7578
+surface,asphalt,99,6.1491
+surface,ground,61,3.7888
+surface,grass,10,0.6211
+surface,paved,7,0.4348
+surface,sand,6,0.3727
+surface,concrete,2,0.1242
+surface,impassable,2,0.1242
+surface,unoaved,2,0.1242
+surface,earth,1,0.0621
+waterway,stream,2495,53.5983
+waterway,river,1274,27.3684
+waterway,drain,594,12.7605
+waterway,riverbank,120,2.5779
+waterway,canal,74,1.5897
+waterway,dam,65,1.3963
+waterway,ditch,18,0.3867
+waterway,wadibank,5,0.1074
+waterway,wadi,3,0.0644
+waterway,path,2,0.043
+waterway,weir,2,0.043
+waterway,lock_gate,1,0.0215
+waterway,wadibanks,1,0.0215
+waterway,water_point,1,0.0215

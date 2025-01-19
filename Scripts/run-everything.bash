@@ -16,19 +16,20 @@ run_script() {
 }
 
 # Lower level map count scripts
-run_script "scripts/research_tools/count_changes_lower/count_changes_lower.py"
-run_script "scripts/research_tools/count_changes_lower/generate_maps_count_changes.py"
-run_script "scripts/research_tools/count_changes_lower/percent_difference_lower.py"
-run_script "scripts/research_tools/count_changes_lower/generate_map_percent_difference.py"
-run_script "scripts/research_tools/count_changes_lower/analyse_gini_coefficient.py"
+#run_script "scripts/research_tools/count_changes_lower/count_changes_lower.py"
+#run_script "scripts/research_tools/count_changes_lower/generate_maps_count_changes.py"
+#run_script "scripts/research_tools/count_changes_lower/percent_difference_lower.py"
+#run_script "scripts/research_tools/count_changes_lower/generate_map_percent_difference.py"
+#run_script "scripts/research_tools/count_changes_lower/analyse_gini_coefficient.py"
 
 
 # Overall map count scripts
-run_script "scripts/research_tools/count_changes/count_changes.py"
-run_script "scripts/research_tools/count_changes/plot_count_changes.py"
-run_script "scripts/research_tools/count_changes/percent_difference.py"
-run_script scripts/"research_tools/count_changes/plot_percent_difference.py"
+#run_script "scripts/research_tools/count_changes/count_changes.py"
+#run_script "scripts/research_tools/count_changes/plot_count_changes.py"
+#run_script "scripts/research_tools/count_changes/percent_difference.py"
+#run_script scripts/"research_tools/count_changes/plot_percent_difference.py"
 
 
 # RQ2 - Tags 
-run_script "scripts/research_tools/investigate_tags/initial_tag_investigation.py"
+#run_script "scripts/research_tools/investigate_tags/initial_tag_key_investigation.py"
+run_script "scripts/research_tools/investigate_tags/tag_value_investigation.py"

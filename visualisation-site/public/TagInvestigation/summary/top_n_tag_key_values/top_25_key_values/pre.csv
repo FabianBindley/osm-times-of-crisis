@@ -1,0 +1,191 @@
+key,value,count,percent_of_total_changes_for_key
+amenity,school,2142,12.5102
+amenity,parking,1890,11.0384
+amenity,place_of_worship,1823,10.6471
+amenity,drinking_water,1590,9.2863
+amenity,restaurant,976,5.7003
+amenity,toilets,858,5.0111
+amenity,bench,487,2.8443
+amenity,pharmacy,443,2.5873
+amenity,hospital,423,2.4705
+amenity,gambling,380,2.2194
+amenity,bicycle_parking,369,2.1551
+amenity,bank,366,2.1376
+amenity,cafe,358,2.0909
+amenity,fuel,287,1.6762
+amenity,recycling,283,1.6528
+amenity,shelter,275,1.6061
+amenity,library,262,1.5302
+amenity,waste_basket,208,1.2148
+amenity,fast_food,202,1.1798
+amenity,bar,185,1.0805
+amenity,kindergarten,180,1.0513
+amenity,shower,179,1.0454
+amenity,college,174,1.0162
+amenity,clinic,156,0.9111
+amenity,police,138,0.806
+building,yes,411240,92.4575
+building,construction,12307,2.7669
+building,house,6590,1.4816
+building,residential,5439,1.2228
+building,commercial,2810,0.6318
+building,apartments,976,0.2194
+building,school,851,0.1913
+building,church,534,0.1201
+building,industrial,402,0.0904
+building,roof,306,0.0688
+building,retail,247,0.0555
+building,hospital,218,0.049
+building,office,194,0.0436
+building,detached,160,0.036
+building,greenhouse,159,0.0357
+building,Service,79,0.0178
+building,hotel,78,0.0175
+building,service,77,0.0173
+building,public,74,0.0166
+building,building_concrete,72,0.0162
+building,non_waterproof_shelter,72,0.0162
+building,shelter,70,0.0157
+building,warehouse,66,0.0148
+building,semidetached_house,60,0.0135
+building,shed,60,0.0135
+highway,residential,22309,21.3833
+highway,unclassified,12993,12.4539
+highway,track,10506,10.0701
+highway,footway,8462,8.1109
+highway,path,7057,6.7642
+highway,service,5956,5.7089
+highway,tertiary,5932,5.6859
+highway,crossing,5452,5.2258
+highway,secondary,4203,4.0286
+highway,primary,3746,3.5906
+highway,bus_stop,3656,3.5043
+highway,cycleway,2695,2.5832
+highway,platform,2254,2.1605
+highway,road,1767,1.6937
+highway,trunk,1687,1.617
+highway,pedestrian,748,0.717
+highway,give_way,729,0.6988
+highway,street_lamp,673,0.6451
+highway,traffic_signals,643,0.6163
+highway,steps,541,0.5186
+highway,motorway_link,404,0.3872
+highway,primary_link,384,0.3681
+highway,living_street,292,0.2799
+highway,motorway,231,0.2214
+highway,stop,219,0.2099
+landuse,residential,3789,39.8507
+landuse,farmland,1721,18.1005
+landuse,grass,672,7.0677
+landuse,forest,549,5.7741
+landuse,industrial,471,4.9537
+landuse,orchard,335,3.5233
+landuse,farmyard,273,2.8713
+landuse,construction,255,2.682
+landuse,meadow,169,1.7775
+landuse,salt_pond,148,1.5566
+landuse,commercial,147,1.5461
+landuse,cemetery,135,1.4199
+landuse,farm,96,1.0097
+landuse,vineyard,87,0.915
+landuse,reservoir,83,0.8729
+landuse,basin,83,0.8729
+landuse,landfill,79,0.8309
+landuse,military,46,0.4838
+landuse,retail,42,0.4417
+landuse,brownfield,37,0.3891
+landuse,yes,37,0.3891
+landuse,greenhouse_horticulture,32,0.3366
+landuse,quarry,28,0.2945
+landuse,religious,23,0.2419
+landuse,recreation_ground,22,0.2314
+name,महेन्द्र राज्मार्ग्,374,0.5906
+name,Tangenziale di Bologna,206,0.3253
+name,Via Emilia,196,0.3095
+name,Strada Statale 3 bis Tiberina,176,0.2779
+name,Bologna-Firenze (direttissima),164,0.259
+name,Building,162,0.2558
+name,building,152,0.24
+name,Route Nationale # 2,130,0.2053
+name,Mahendra Highway,128,0.2021
+name,Via Emilia Levante,125,0.1974
+name,Via Romea Nord,122,0.1927
+name,Ring Road,122,0.1927
+name,Via Aldo Moro,121,0.1911
+name,Trasversale di Pianura,116,0.1832
+name,Viale Felsina,110,0.1737
+name,Bagmati River (बागमती नदी),108,0.1705
+name,Via Toscana,105,0.1658
+name,Viale Pietro Pietramellara,105,0.1658
+name,Via Classicana,101,0.1595
+name,Ferrara-Rimini,100,0.1579
+name,Via Marecchiese,100,0.1579
+name,Via Augusto Murri,99,0.1563
+name,Via Guglielmo Marconi,95,0.15
+name,Via Casale,87,0.1374
+name,Via Andrea Costa,84,0.1326
+natural,tree,4601,52.9825
+natural,water,1114,12.8282
+natural,wood,808,9.3045
+natural,glacier,437,5.0322
+natural,coastline,347,3.9959
+natural,tree_row,270,3.1092
+natural,sand,211,2.4298
+natural,peak,183,2.1073
+natural,scrub,179,2.0613
+natural,shingle,121,1.3934
+natural,wetland,87,1.0018
+natural,cliff,81,0.9327
+natural,beach,43,0.4952
+natural,saddle,39,0.4491
+natural,scree,27,0.3109
+natural,shrub,25,0.2879
+natural,grassland,23,0.2649
+natural,ridge,21,0.2418
+natural,bare_rock,10,0.1152
+natural,spring,8,0.0921
+natural,mud,8,0.0921
+natural,riverbed,7,0.0806
+natural,grass,6,0.0691
+natural,cave_entrance,5,0.0576
+natural,arete,5,0.0576
+surface,asphalt,19613,60.2346
+surface,ground,4617,14.1795
+surface,unpaved,2094,6.431
+surface,paved,1585,4.8678
+surface,dirt,961,2.9514
+surface,paving_stones,909,2.7917
+surface,gravel,757,2.3249
+surface,sett,450,1.382
+surface,unspecified,300,0.9213
+surface,concrete,270,0.8292
+surface,compacted,268,0.8231
+surface,mud,173,0.5313
+surface,grass,106,0.3255
+surface,fine_gravel,101,0.3102
+surface,wood,49,0.1505
+surface,sand,35,0.1075
+surface,unhewn_cobblestone,31,0.0952
+surface,flagging,23,0.0706
+surface,cobblestone,20,0.0614
+surface,grass_paver,19,0.0584
+surface,earth,19,0.0584
+surface,dirt;sand,18,0.0553
+surface,metal,16,0.0491
+surface,pebblestone,15,0.0461
+surface,clay,15,0.0461
+waterway,stream,4627,53.5161
+waterway,river,2285,26.4284
+waterway,drain,725,8.3854
+waterway,canal,443,5.1238
+waterway,ditch,265,3.065
+waterway,riverbank,241,2.7874
+waterway,dam,22,0.2545
+waterway,lock_gate,13,0.1504
+waterway,waterfall,11,0.1272
+waterway,weir,9,0.1041
+waterway,sluice_gate,1,0.0116
+waterway,canal;drain,1,0.0116
+waterway,drystream,1,0.0116
+waterway,bing,1,0.0116
+waterway,water_point,1,0.0116

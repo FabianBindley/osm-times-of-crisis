@@ -1,0 +1,81 @@
+key,value,count,percent_of_total_changes_for_key
+amenity,school,4869,17.9502
+amenity,hospital,3305,12.1843
+amenity,parking,2219,8.1806
+amenity,parking_space,1607,5.9244
+amenity,restaurant,1444,5.3235
+amenity,toilets,1077,3.9705
+amenity,place_of_worship,1017,3.7493
+amenity,bench,900,3.318
+amenity,drinking_water,825,3.0415
+amenity,bicycle_parking,552,2.035
+building,yes,367100,94.9452
+building,house,5556,1.437
+building,residential,4571,1.1822
+building,apartments,1125,0.291
+building,construction,893,0.231
+building,tent,777,0.201
+building,collapsed,702,0.1816
+building,shelter,492,0.1272
+building,industrial,460,0.119
+building,school,454,0.1174
+highway,residential,38656,22.5231
+highway,path,24801,14.4504
+highway,tertiary,19589,11.4136
+highway,unclassified,16070,9.3633
+highway,footway,14330,8.3495
+highway,track,14264,8.311
+highway,service,10549,6.1464
+highway,secondary,7939,4.6257
+highway,primary,5017,2.9232
+highway,crossing,4872,2.8387
+landuse,residential,12397,33.2716
+landuse,brownfield,10430,27.9925
+landuse,farmland,7532,20.2147
+landuse,grass,1956,5.2496
+landuse,forest,783,2.1014
+landuse,industrial,626,1.6801
+landuse,basin,577,1.5486
+landuse,orchard,452,1.2131
+landuse,farm,285,0.7649
+landuse,farmyard,240,0.6441
+name,Bologna Centrale,507,0.4355
+name,Via Toscana,413,0.3547
+name,Via Emilia Ponente,304,0.2611
+name,Via San Donato,289,0.2482
+name,Obstacle,281,0.2414
+name,Via Emilia Levante,243,0.2087
+name,Via del Triumvirato,224,0.1924
+name,Via Augusto Murri,218,0.1873
+name,Via Francesco Zanardi,193,0.1658
+name,Abres,182,0.1563
+natural,tree,76713,88.0302
+natural,wood,4481,5.1421
+natural,water,1686,1.9347
+natural,tree_row,967,1.1097
+natural,scrub,835,0.9582
+natural,sand,447,0.5129
+natural,peak,375,0.4303
+natural,shingle,343,0.3936
+natural,grassland,197,0.2261
+natural,wetland,157,0.1802
+surface,asphalt,29192,53.9843
+surface,Dirt/Sand,4701,8.6935
+surface,unpaved,4352,8.0481
+surface,gravel,4250,7.8595
+surface,ground,2432,4.4975
+surface,paved,1859,3.4378
+surface,Paved,1485,2.7462
+surface,paving_stones,1447,2.6759
+surface,dirt,1369,2.5317
+surface,sett,808,1.4942
+waterway,stream,7168,50.1329
+waterway,river,2307,16.1351
+waterway,drain,1685,11.7849
+waterway,ditch,1616,11.3023
+waterway,canal,1029,7.1968
+waterway,riverbank,316,2.2101
+waterway,dam,88,0.6155
+waterway,weir,34,0.2378
+waterway,yes,20,0.1399
+waterway,lock_gate,8,0.056

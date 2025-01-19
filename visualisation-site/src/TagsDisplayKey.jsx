@@ -17,7 +17,7 @@ const colorScale = (value, maxValue) => {
   return scale(value);
 };
 
-export default function WordCloudDisplay({csv_source}) {
+export default function TagsDisplay({csv_source}) {
   const [words, setWords] = useState([]);
 
   useEffect(() => {
@@ -36,6 +36,7 @@ export default function WordCloudDisplay({csv_source}) {
 
   return (
     <>
+     <div className="wordcloud-container">
         <div style={{ display: 'flex', flexDirection: 'row' }}>
         {/* Wordcloud on the left */}
         <div style={{ flex: 1, padding: '20px' }}>
@@ -70,14 +71,14 @@ export default function WordCloudDisplay({csv_source}) {
 
         {/* Table on the right */}
         <div style={{ flex: 1, padding: '20px' }}>
-            <h2>Word Details</h2>
+            <h2>Key Details</h2>
             <table style={{ width: '100%', borderCollapse: 'collapse', border: '1px solid black' }}>
             <thead>
                 <tr>
                 <th style={{ border: '1px solid black', padding: '10px' }}>Index</th>
                 <th style={{ border: '1px solid black', padding: '10px' }}>Key</th>
                 <th style={{ border: '1px solid black', padding: '10px' }}>Count</th>
-                <th style={{ border: '1px solid black', padding: '10px' }}>% of Total Changes</th>
+                <th style={{ border: '1px solid black', padding: '10px' }}>% of Total Changes For Period</th>
                 </tr>
             </thead>
             <tbody>
@@ -93,6 +94,7 @@ export default function WordCloudDisplay({csv_source}) {
                 ))}
             </tbody>
             </table>
+          </div>
         </div>
         </div>
     </>

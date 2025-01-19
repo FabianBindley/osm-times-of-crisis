@@ -1,0 +1,199 @@
+key,value,count,percent_of_total_changes_for_key
+amenity,school,4869,17.9502
+amenity,hospital,3305,12.1843
+amenity,parking,2219,8.1806
+amenity,parking_space,1607,5.9244
+amenity,restaurant,1444,5.3235
+amenity,toilets,1077,3.9705
+amenity,place_of_worship,1017,3.7493
+amenity,bench,900,3.318
+amenity,drinking_water,825,3.0415
+amenity,bicycle_parking,552,2.035
+amenity,cafe,549,2.024
+amenity,waste_basket,478,1.7622
+amenity,fuel,451,1.6627
+amenity,shower,439,1.6184
+amenity,bar,424,1.5631
+amenity,fast_food,419,1.5447
+amenity,recycling,414,1.5263
+amenity,bank,410,1.5115
+amenity,kindergarten,401,1.4783
+amenity,pharmacy,382,1.4083
+amenity,college,324,1.1945
+amenity,police,264,0.9733
+amenity,shelter,231,0.8516
+amenity,university,217,0.8
+amenity,street_light,182,0.671
+building,yes,367100,94.9452
+building,house,5556,1.437
+building,residential,4571,1.1822
+building,apartments,1125,0.291
+building,construction,893,0.231
+building,tent,777,0.201
+building,collapsed,702,0.1816
+building,shelter,492,0.1272
+building,industrial,460,0.119
+building,school,454,0.1174
+building,non_waterproof_shelter,449,0.1161
+building,building_sheet_metal,388,0.1004
+building,building_concrete,333,0.0861
+building,church,300,0.0776
+building,commercial,285,0.0737
+building,roof,254,0.0657
+building,building_wood,253,0.0654
+building,waterproof_shelter,246,0.0636
+building,greenhouse,240,0.0621
+building,retail,150,0.0388
+building,service,148,0.0383
+building,detached,95,0.0246
+building,hotel,89,0.023
+building,office,76,0.0197
+building,public,73,0.0189
+highway,residential,38656,22.5231
+highway,path,24801,14.4504
+highway,tertiary,19589,11.4136
+highway,unclassified,16070,9.3633
+highway,footway,14330,8.3495
+highway,track,14264,8.311
+highway,service,10549,6.1464
+highway,secondary,7939,4.6257
+highway,primary,5017,2.9232
+highway,crossing,4872,2.8387
+highway,cycleway,3311,1.9292
+highway,road,1998,1.1641
+highway,bus_stop,1672,0.9742
+highway,platform,1224,0.7132
+highway,pedestrian,1047,0.61
+highway,trunk,957,0.5576
+highway,steps,702,0.409
+highway,traffic_signals,521,0.3036
+highway,living_street,442,0.2575
+highway,give_way,422,0.2459
+highway,trunk_link,422,0.2459
+highway,construction,366,0.2133
+highway,ford,253,0.1474
+highway,street_lamp,185,0.1078
+highway,primary_link,182,0.106
+landuse,residential,12397,33.2716
+landuse,brownfield,10430,27.9925
+landuse,farmland,7532,20.2147
+landuse,grass,1956,5.2496
+landuse,forest,783,2.1014
+landuse,industrial,626,1.6801
+landuse,basin,577,1.5486
+landuse,orchard,452,1.2131
+landuse,farm,285,0.7649
+landuse,farmyard,240,0.6441
+landuse,cemetery,228,0.6119
+landuse,meadow,220,0.5904
+landuse,vineyard,206,0.5529
+landuse,commercial,181,0.4858
+landuse,construction,178,0.4777
+landuse,greenfield,132,0.3543
+landuse,retail,131,0.3516
+landuse,reservoir,99,0.2657
+landuse,quarry,68,0.1825
+landuse,military,66,0.1771
+landuse,farming,51,0.1369
+landuse,landfill,50,0.1342
+landuse,grave_yard,49,0.1315
+landuse,allotments,47,0.1261
+landuse,railway,44,0.1181
+name,Bologna Centrale,507,0.4355
+name,Via Toscana,413,0.3547
+name,Via Emilia Ponente,304,0.2611
+name,Via San Donato,289,0.2482
+name,Obstacle,281,0.2414
+name,Via Emilia Levante,243,0.2087
+name,Via del Triumvirato,224,0.1924
+name,Via Augusto Murri,218,0.1873
+name,Via Francesco Zanardi,193,0.1658
+name,Abres,182,0.1563
+name,Via Emilia,175,0.1503
+name,Viale Felsina,174,0.1495
+name,Via Stalingrado,171,0.1469
+name,Strada statale 253 bis Trasversale di Pianura,169,0.1452
+name,Abre,166,0.1426
+name,Via Giuseppe Dozza,153,0.1314
+name,Viale della Repubblica,142,0.122
+name,Via Andrea Costa,133,0.1142
+name,Ecole  Primaire,125,0.1074
+name,Route Nationale # 7,125,0.1074
+name,Arbre,124,0.1065
+name,Via Due Madonne,115,0.0988
+name,Rue La Paix,114,0.0979
+name,Ferrovia Bologna – Ancona,113,0.0971
+name,Via Giuseppe Massarenti,113,0.0971
+natural,tree,76713,88.0302
+natural,wood,4481,5.1421
+natural,water,1686,1.9347
+natural,tree_row,967,1.1097
+natural,scrub,835,0.9582
+natural,sand,447,0.5129
+natural,peak,375,0.4303
+natural,shingle,343,0.3936
+natural,grassland,197,0.2261
+natural,wetland,157,0.1802
+natural,heath,155,0.1779
+natural,bare_rock,117,0.1343
+natural,coastline,106,0.1216
+natural,scree,85,0.0975
+natural,beach,66,0.0757
+natural,riverbed,51,0.0585
+natural,cliff,51,0.0585
+natural,plant,46,0.0528
+natural,ridge,41,0.047
+natural,shrub,40,0.0459
+natural,gully,26,0.0298
+natural,cave_entrance,22,0.0252
+natural,glacier,19,0.0218
+natural,bay,16,0.0184
+natural,mud,14,0.0161
+surface,asphalt,29192,53.9843
+surface,Dirt/Sand,4701,8.6935
+surface,unpaved,4352,8.0481
+surface,gravel,4250,7.8595
+surface,ground,2432,4.4975
+surface,paved,1859,3.4378
+surface,Paved,1485,2.7462
+surface,paving_stones,1447,2.6759
+surface,dirt,1369,2.5317
+surface,sett,808,1.4942
+surface,concrete,463,0.8562
+surface,grass,263,0.4864
+surface,compacted,227,0.4198
+surface,unspecified,189,0.3495
+surface,mud,126,0.233
+surface,fine_gravel,108,0.1997
+surface,unhewn_cobblestone,92,0.1701
+surface,earth,75,0.1387
+surface,dirt_sand,75,0.1387
+surface,pebblestone,65,0.1202
+surface,sand,58,0.1073
+surface,wood,56,0.1036
+surface,dirt;sand,42,0.0777
+surface,terre,37,0.0684
+surface,metal,33,0.061
+waterway,stream,7168,50.1329
+waterway,river,2307,16.1351
+waterway,drain,1685,11.7849
+waterway,ditch,1616,11.3023
+waterway,canal,1029,7.1968
+waterway,riverbank,316,2.2101
+waterway,dam,88,0.6155
+waterway,weir,34,0.2378
+waterway,yes,20,0.1399
+waterway,lock_gate,8,0.056
+waterway,waterfall,8,0.056
+waterway,check_dam,4,0.028
+waterway,turning_point,3,0.021
+waterway,wadibank,2,0.014
+waterway,culvert,2,0.014
+waterway,boatyard,1,0.007
+waterway,dryriver,1,0.007
+waterway,path,1,0.007
+waterway,wall,1,0.007
+waterway,Power canal,1,0.007
+waterway,drystream,1,0.007
+waterway,fuel,1,0.007
+waterway,stream;river,1,0.007

@@ -1,0 +1,81 @@
+key,value,count,percent_of_total_changes_for_key
+amenity,hospital,4444,41.9324
+amenity,drinking_water,2362,22.2872
+amenity,school,1007,9.5018
+amenity,place_of_worship,550,5.1897
+amenity,parking,282,2.6609
+amenity,restaurant,169,1.5946
+amenity,bicycle_parking,130,1.2266
+amenity,bench,98,0.9247
+amenity,fuel,97,0.9153
+amenity,cafe,88,0.8303
+building,yes,1510001,93.32
+building,house,77110,4.7655
+building,residential,18291,1.1304
+building,collapsed,6488,0.401
+building,construction,754,0.0466
+building,industrial,674,0.0417
+building,apartments,565,0.0349
+building,commercial,422,0.0261
+building,school,372,0.023
+building,collapse,369,0.0228
+highway,path,95585,29.7304
+highway,track,59816,18.6049
+highway,unclassified,56493,17.5714
+highway,road,35989,11.1939
+highway,residential,30966,9.6315
+highway,footway,12475,3.8802
+highway,service,9260,2.8802
+highway,tertiary,7377,2.2945
+highway,secondary,3998,1.2435
+highway,primary,3579,1.1132
+landuse,residential,56422,67.6393
+landuse,brownfield,13993,16.775
+landuse,farmland,5443,6.5251
+landuse,forest,2735,3.2787
+landuse,farmyard,801,0.9602
+landuse,farm,780,0.9351
+landuse,grass,617,0.7397
+landuse,industrial,485,0.5814
+landuse,reservoir,372,0.446
+landuse,basin,300,0.3596
+name,Nationale No 2,614,1.5875
+name,building=yes,509,1.3161
+name,Pasang Lhamu Highway,318,0.8222
+name,Potential helipad,247,0.6386
+name,Manaslu Circuit,245,0.6335
+name,Prithvi Highway,227,0.5869
+name,Arniko Raj Marga,219,0.5662
+name,House,210,0.543
+name,Nationale No 3,209,0.5404
+name,Building,191,0.4938
+natural,tree,9425,44.6344
+natural,wood,5989,28.3624
+natural,water,2122,10.0493
+natural,scrub,1050,4.9725
+natural,peak,621,2.9409
+natural,coastline,541,2.562
+natural,tree_row,280,1.326
+natural,sand,158,0.7482
+natural,shingle,123,0.5825
+natural,cliff,107,0.5067
+surface,unpaved,9692,47.4076
+surface,asphalt,2963,14.4932
+surface,ground,2315,11.3236
+surface,dirt,1635,7.9975
+surface,paved,1300,6.3588
+surface,gravel,1053,5.1507
+surface,compacted,318,1.5555
+surface,paving_stones,259,1.2669
+surface,concrete,191,0.9343
+surface,sett,146,0.7141
+waterway,stream,16187,62.2314
+waterway,river,6482,24.9202
+waterway,drain,1015,3.9022
+waterway,ditch,802,3.0833
+waterway,riverbank,695,2.6719
+waterway,canal,423,1.6262
+waterway,yes,144,0.5536
+waterway,dam,118,0.4537
+waterway,weir,39,0.1499
+waterway,unclassified,29,0.1115

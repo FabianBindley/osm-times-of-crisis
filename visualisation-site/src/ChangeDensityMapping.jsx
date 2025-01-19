@@ -11,7 +11,7 @@ const maps = [
   ];
 
 const additional_maps = [
-    { title: "Broxbourne (All good) | 2024", disaster_id: 1 },
+    //{ title: "Broxbourne (All good) | 2024", disaster_id: 1 },
     { title: "Haiti Hurricane Matthew | 2016", disaster_id: 4},
 ]
 

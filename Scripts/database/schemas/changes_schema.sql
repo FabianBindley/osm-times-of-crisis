@@ -12,7 +12,7 @@ CREATE TABLE changes (
     building BOOLEAN,                     -- Boolean flag for building information
     highway BOOLEAN,                      -- Boolean flag for highway information
     coordinates GEOMETRY(POINT, 4326),   -- Coordinates stored as a geometric point (latitude/longitude in WGS84)
-    uid BIGINT                           -- UID of user who made change
+    uid BIGINT,                           -- UID of user who made change
     geojson_verified BOOLEAN DEFAULT FALSE -- Indicates whether the GeoJSON has been verified
 );
 
@@ -35,7 +35,7 @@ SELECT
     ST_Y(coordinates::geometry) AS latitude, 
     uid
 FROM changes
-WHERE disaster_id = 1
+WHERE disaster_id = 1 AND element_id='4097446'
 LIMIT 10;
 
 

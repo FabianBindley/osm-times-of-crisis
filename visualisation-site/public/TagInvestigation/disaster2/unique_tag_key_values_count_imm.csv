@@ -1,0 +1,2418 @@
+key,value,count,percent_of_total_changes_for_key
+amenity,parking,190,16.3652
+amenity,bicycle_parking,128,11.025
+amenity,bench,84,7.2351
+amenity,restaurant,81,6.9767
+amenity,recycling,66,5.6848
+amenity,waste_basket,59,5.0818
+amenity,cafe,54,4.6512
+amenity,bar,50,4.3066
+amenity,shelter,49,4.2205
+amenity,bank,25,2.1533
+amenity,place_of_worship,24,2.0672
+amenity,pharmacy,22,1.8949
+amenity,ice_cream,21,1.8088
+amenity,fast_food,19,1.6365
+amenity,fuel,19,1.6365
+amenity,motorcycle_parking,19,1.6365
+amenity,drinking_water,17,1.4643
+amenity,school,16,1.3781
+amenity,vending_machine,16,1.3781
+amenity,waste_disposal,15,1.292
+amenity,parking_entrance,13,1.1197
+amenity,library,11,0.9475
+amenity,toilets,11,0.9475
+amenity,post_box,10,0.8613
+amenity,atm,9,0.7752
+amenity,fountain,9,0.7752
+amenity,hospital,8,0.6891
+amenity,university,8,0.6891
+amenity,dentist,7,0.6029
+amenity,bicycle_rental,6,0.5168
+amenity,bicycle_repair_station,6,0.5168
+amenity,charging_station,6,0.5168
+amenity,music_school,6,0.5168
+amenity,childcare,5,0.4307
+amenity,post_office,5,0.4307
+amenity,telephone,5,0.4307
+amenity,veterinary,5,0.4307
+amenity,car_wash,4,0.3445
+amenity,clock,4,0.3445
+amenity,police,4,0.3445
+amenity,townhall,4,0.3445
+amenity,hunting_stand,3,0.2584
+amenity,pub,3,0.2584
+amenity,taxi,3,0.2584
+amenity,theatre,3,0.2584
+amenity,arts_centre,2,0.1723
+amenity,bus_station,2,0.1723
+amenity,community_centre,2,0.1723
+amenity,driving_school,2,0.1723
+amenity,kindergarten,2,0.1723
+amenity,marketplace,2,0.1723
+amenity,parcel_locker,2,0.1723
+amenity,photo_booth,2,0.1723
+amenity,research_institute,2,0.1723
+amenity,animal_training,1,0.0861
+amenity,bureau_de_change,1,0.0861
+amenity,car_sharing,1,0.0861
+amenity,cinema,1,0.0861
+amenity,grave_yard,1,0.0861
+amenity,luggage_storage,1,0.0861
+amenity,monastery,1,0.0861
+amenity,prison,1,0.0861
+amenity,shower,1,0.0861
+amenity,waste=trash;cigarettes,1,0.0861
+amenity,weighbridge,1,0.0861
+building,yes,4068,88.3004
+building,apartments,205,4.4498
+building,industrial,63,1.3675
+building,roof,43,0.9334
+building,church,33,0.7163
+building,retail,20,0.4341
+building,greenhouse,19,0.4124
+building,hospital,18,0.3907
+building,school,17,0.369
+building,residential,14,0.3039
+building,house,12,0.2605
+building,detached,11,0.2388
+building,semidetached_house,9,0.1954
+building,office,8,0.1736
+building,university,7,0.1519
+building,construction,6,0.1302
+building,garage,6,0.1302
+building,hotel,5,0.1085
+building,garages,4,0.0868
+building,bridge,3,0.0651
+building,commercial,3,0.0651
+building,farm,3,0.0651
+building,public,3,0.0651
+building,service,3,0.0651
+building,hut,2,0.0434
+building,kindergarten,2,0.0434
+building,train_station,2,0.0434
+building,transformer_tower,2,0.0434
+building,arch,1,0.0217
+building,chapel,1,0.0217
+building,civic,1,0.0217
+building,elevator,1,0.0217
+building,kiosk,1,0.0217
+building,no,1,0.0217
+building,parking,1,0.0217
+building,pavilion,1,0.0217
+building,ruins,1,0.0217
+building,shed,1,0.0217
+building,tent,1,0.0217
+building,terrace,1,0.0217
+building,tower,1,0.0217
+building,transportation,1,0.0217
+building,villa,1,0.0217
+building,warehouse,1,0.0217
+highway,footway,2018,25.1527
+highway,service,1381,17.213
+highway,residential,842,10.4948
+highway,crossing,466,5.8083
+highway,unclassified,443,5.5216
+highway,cycleway,419,5.2225
+highway,tertiary,347,4.3251
+highway,track,284,3.5398
+highway,pedestrian,273,3.4027
+highway,primary,235,2.9291
+highway,steps,227,2.8294
+highway,platform,205,2.5552
+highway,secondary,177,2.2062
+highway,bus_stop,162,2.0192
+highway,path,153,1.907
+highway,traffic_signals,153,1.907
+highway,street_lamp,33,0.4113
+highway,give_way,26,0.3241
+highway,construction,25,0.3116
+highway,elevator,24,0.2991
+highway,trunk_link,24,0.2991
+highway,living_street,22,0.2742
+highway,motorway_link,14,0.1745
+highway,tertiary_link,12,0.1496
+highway,stop,11,0.1371
+highway,speed_camera,10,0.1246
+highway,trunk,8,0.0997
+highway,corridor,6,0.0748
+highway,primary_link,5,0.0623
+highway,motorway_junction,4,0.0499
+highway,secondary_link,4,0.0499
+highway,mini_roundabout,3,0.0374
+highway,busway,2,0.0249
+highway,turning_loop,2,0.0249
+highway,traffic_mirror,1,0.0125
+highway,trailhead,1,0.0125
+highway,turning_circle,1,0.0125
+landuse,grass,522,45.1948
+landuse,reservoir,325,28.1385
+landuse,farmland,93,8.0519
+landuse,residential,83,7.1861
+landuse,meadow,16,1.3853
+landuse,retail,16,1.3853
+landuse,industrial,15,1.2987
+landuse,orchard,14,1.2121
+landuse,vineyard,13,1.1255
+landuse,forest,9,0.7792
+landuse,construction,8,0.6926
+landuse,military,7,0.6061
+landuse,allotments,5,0.4329
+landuse,cemetery,5,0.4329
+landuse,commercial,4,0.3463
+landuse,farmyard,4,0.3463
+landuse,railway,4,0.3463
+landuse,flowerbed,3,0.2597
+landuse,greenhouse_horticulture,2,0.1732
+landuse,religious,2,0.1732
+landuse,brownfield,1,0.0866
+landuse,education,1,0.0866
+landuse,planned,1,0.0866
+landuse,plant_nursery,1,0.0866
+landuse,quarry,1,0.0866
+name,Tangenziale delle Biciclette,48,1.0909
+name,Portico di San Luca,34,0.7727
+name,Via Porrettana,33,0.75
+name,Via Andrea Costa,29,0.6591
+name,Via Filippo Turati,20,0.4545
+name,Via Gagliazzona,20,0.4545
+name,Via Faentina,17,0.3864
+name,Via Reale,17,0.3864
+name,Via dei Mille,17,0.3864
+name,Olca,16,0.3636
+name,Via Saragozza,16,0.3636
+name,Via Irma Bandiera,15,0.3409
+name,Corte De' Galluzzi,14,0.3182
+name,Torrente Ravone,14,0.3182
+name,Via Granarolo,14,0.3182
+name,Portico devozionale di San Luca,13,0.2955
+name,Via Bicocca,13,0.2955
+name,Via Emilia Levante,13,0.2955
+name,Binario 1,12,0.2727
+name,Bologna Centrale,12,0.2727
+name,Mazzini Stazione,12,0.2727
+name,Rigossa,12,0.2727
+name,Via Flaminia,12,0.2727
+name,Via Lunga,12,0.2727
+name,Via Sabotino,12,0.2727
+name,Via San Vitale,12,0.2727
+name,Via Viazza di Sotto,12,0.2727
+name,Via Foro Boario,11,0.25
+name,Via Larga,11,0.25
+name,Larga,10,0.2273
+name,Larga Stazione,10,0.2273
+name,Rimesse,10,0.2273
+name,Rimesse Stazione,10,0.2273
+name,Strada Provinciale Naviglio,10,0.2273
+name,Tangenziale San Vitale,10,0.2273
+name,Via 21 aprile 1945,10,0.2273
+name,Via Alessandro Guidotti,10,0.2273
+name,Via Battindarno,10,0.2273
+name,Via Galliera,10,0.2273
+name,Via Giacomo Matteotti,10,0.2273
+name,Via Giovanni Battista Melloni,10,0.2273
+name,Via Giuseppe Massarenti,10,0.2273
+name,Via Gualtiero Ferrari,10,0.2273
+name,Via Paolo Poggi,10,0.2273
+name,Via Tolmino,10,0.2273
+name,Via Valdossola,10,0.2273
+name,Via delle Viole,10,0.2273
+name,Viale Vicini,10,0.2273
+name,Andrea Costa,9,0.2045
+name,Porta Galliera,9,0.2045
+name,Rio Magione,9,0.2045
+name,San Paolo di Ravone,9,0.2045
+name,Via Bisaura,9,0.2045
+name,Via Eugenio Bertini,9,0.2045
+name,Via Marecchiese,9,0.2045
+name,Via Pasubio,9,0.2045
+name,Via Santerno Ammonite,9,0.2045
+name,Via delle Gardenie,9,0.2045
+name,Viale 9 febbraio 1849,9,0.2045
+name,Viale Carlo Pepoli,9,0.2045
+name,Binario 3,8,0.1818
+name,Binario 4,8,0.1818
+name,Canale di Reno,8,0.1818
+name,Casalecchio Bixio,8,0.1818
+name,Galleria del Toro,8,0.1818
+name,Piazza Trento e Trieste,8,0.1818
+name,Porta Saragozza - Risorgimento,8,0.1818
+name,Strada Provinciale 85,8,0.1818
+name,Via Aurelio Saffi,8,0.1818
+name,Via Bellinzona,8,0.1818
+name,Via Cartiera,8,0.1818
+name,Via Eugenio Curiel,8,0.1818
+name,Via Galileo Galilei,8,0.1818
+name,Via Giuseppe Mezzofanti,8,0.1818
+name,Via Godo,8,0.1818
+name,Via Musella,8,0.1818
+name,Via Nicolò dall'Arca,8,0.1818
+name,Via Olindo Guerrini,8,0.1818
+name,Via Petrosa,8,0.1818
+name,Via Ravegnana,8,0.1818
+name,Via Santo Stefano,8,0.1818
+name,Zona a traffico limitato (ztl) Bologna,8,0.1818
+name,Cà de' Fiori,7,0.1591
+name,Piazza Minghetti,7,0.1591
+name,Rotonda delle ceramiche,7,0.1591
+name,Scolo Calamosco,7,0.1591
+name,Scolo Canaletta Cadriano,7,0.1591
+name,Via Braccesca,7,0.1591
+name,Via Circondario Ponente,7,0.1591
+name,Via Circonvallazione Meridionale,7,0.1591
+name,Via Ercole Nani,7,0.1591
+name,Via Ernesto Masi,7,0.1591
+name,Via Francesco Orioli,7,0.1591
+name,Via Giovanni Paolo Martini,7,0.1591
+name,Via Giuseppe Garibaldi,7,0.1591
+name,Via Mario Bastia,7,0.1591
+name,Via Piero Gobetti,7,0.1591
+name,Via Pietro Albertoni,7,0.1591
+name,Via Portanova,7,0.1591
+name,Via Puntiroli,7,0.1591
+name,Viale Roma,7,0.1591
+name,Villa Spada,7,0.1591
+name,Binario 1 Ovest,6,0.1364
+name,Binario 6/7,6,0.1364
+name,Bologna San Vitale,6,0.1364
+name,Bolognese,6,0.1364
+name,Carraie Veneziane,6,0.1364
+name,Deposito Due Madonne 2,6,0.1364
+name,Di Vittorio,6,0.1364
+name,Galleria dei Notai,6,0.1364
+name,Parcheggio Staveco,6,0.1364
+name,Piazza delle Medaglie d'Oro,6,0.1364
+name,Piazza di Porta Ravegnana,6,0.1364
+name,Piazzale Ovest,6,0.1364
+name,Porta Saragozza - Villa Cassarini,6,0.1364
+name,Via A. Ferrarin,6,0.1364
+name,Via Canala,6,0.1364
+name,Via Classicana,6,0.1364
+name,Via Due Madonne,6,0.1364
+name,Via Frattina,6,0.1364
+name,Via Gambellara,6,0.1364
+name,Via Lodovico Savioli,6,0.1364
+name,Via Luigi Valeriani,6,0.1364
+name,Via Montese,6,0.1364
+name,Via Piangipane,6,0.1364
+name,Via Rodolfo Audinot,6,0.1364
+name,Via San Giuseppe,6,0.1364
+name,Via San Vito,6,0.1364
+name,Via Torriane,6,0.1364
+name,Via Trasversale Marecchia,6,0.1364
+name,XXI Aprile Martini,6,0.1364
+name,Binario 10,5,0.1136
+name,Binario 11,5,0.1136
+name,Binario 6,5,0.1136
+name,Binario 7,5,0.1136
+name,Binario 8,5,0.1136
+name,Binario 9,5,0.1136
+name,Canala,5,0.1136
+name,Casaglia 32-34,5,0.1136
+name,Casalecchio Chiusa,5,0.1136
+name,De Ambris,5,0.1136
+name,Fermi,5,0.1136
+name,Fioravanti Piazza Liber Paradisus,5,0.1136
+name,Genova,5,0.1136
+name,Kiss & Ride,5,0.1136
+name,Pianeta,5,0.1136
+name,Piazza di Porta San Donato,5,0.1136
+name,Piazza porticata di Santo Stefano,5,0.1136
+name,Portici commerciali del Pavaglione e dei Banchi,5,0.1136
+name,Portico del Pavaglione,5,0.1136
+name,Portico della Certosa,5,0.1136
+name,Poste Italiane,5,0.1136
+name,Rio Meloncello,5,0.1136
+name,Rio Rii,5,0.1136
+name,San Giuseppe,5,0.1136
+name,Scolo Canaletta,5,0.1136
+name,Smeraldo,5,0.1136
+name,UniCredit Bank,5,0.1136
+name,Via Aristotile Fioravanti,5,0.1136
+name,Via Benedetto Marcello,5,0.1136
+name,Via Carlo Zucchi,5,0.1136
+name,Via Castiglione,5,0.1136
+name,Via Francesco Roncati,5,0.1136
+name,Via Linaro,5,0.1136
+name,Via Miserabili,5,0.1136
+name,Via Molinello,5,0.1136
+name,Via Nicolò Dell'Abate,5,0.1136
+name,Via Panigale,5,0.1136
+name,Via Piave,5,0.1136
+name,Via Podgora,5,0.1136
+name,Via Ravenna,5,0.1136
+name,Via Sigla,5,0.1136
+name,Via Speranza,5,0.1136
+name,Via Superiore,5,0.1136
+name,Via Ugo Bassi,5,0.1136
+name,Via Zuccherificio,5,0.1136
+name,Via dei Granatieri,5,0.1136
+name,Via del Carso,5,0.1136
+name,Via del Signore,5,0.1136
+name,Via del Terrapieno,5,0.1136
+name,Via dell'Industria,5,0.1136
+name,Via della Croce Coperta,5,0.1136
+name,Via di Casaglia,5,0.1136
+name,Viale Antonio Silvani,5,0.1136
+name,Viale M. K. Gandhi,5,0.1136
+name,Vicini,5,0.1136
+name,Audinot,4,0.0909
+name,Autostazione,4,0.0909
+name,Battindarno Segantini,4,0.0909
+name,Binario 3 Ovest,4,0.0909
+name,Binario 4 Ovest,4,0.0909
+name,Binario 5 Ovest,4,0.0909
+name,Binario 6/7 Ovest,4,0.0909
+name,Bolognina,4,0.0909
+name,Canale delle Moline,4,0.0909
+name,Carrefour Express,4,0.0909
+name,Casaglia Scuole,4,0.0909
+name,Casalecchio Garibaldi,4,0.0909
+name,Ciclabile lungomare di Rimini,4,0.0909
+name,Creti,4,0.0909
+name,Fiume Reno,4,0.0909
+name,Forno Brisa,4,0.0909
+name,Funivia,4,0.0909
+name,Largo Cardinale Giacomo Lercaro,4,0.0909
+name,Magnani,4,0.0909
+name,Massarenti,4,0.0909
+name,Meloncello,4,0.0909
+name,Murri,4,0.0909
+name,Museo Civico Archeologico,4,0.0909
+name,Parco Banting Macleod Best Collip,4,0.0909
+name,Piazza Alessandro Volta,4,0.0909
+name,Piazza Venti Settembre,4,0.0909
+name,Piazza Volta,4,0.0909
+name,Piazza della Pace,4,0.0909
+name,Piazza di Porta Castiglione,4,0.0909
+name,Porta Lame,4,0.0909
+name,Porta Saragozza - Liceo Righi,4,0.0909
+name,Portici trionfali di Strada Maggiore,4,0.0909
+name,Profumi E Sapori Di Una Volta,4,0.0909
+name,Rio di Mezzanotte,4,0.0909
+name,Roncati,4,0.0909
+name,Rotonda Niballo Palio di Faenza,4,0.0909
+name,Rotonda della Leona,4,0.0909
+name,San Vitale,4,0.0909
+name,Savioli,4,0.0909
+name,Stazione Centrale,4,0.0909
+name,Sterlino,4,0.0909
+name,Tabaccheria,4,0.0909
+name,Trenitalia,4,0.0909
+name,Via Antonio Zannoni,4,0.0909
+name,Via Argine destro Montone,4,0.0909
+name,Via Augusto Aglebert,4,0.0909
+name,Via Avesella,4,0.0909
+name,Via Bruno Buozzi,4,0.0909
+name,Via Capo di Lucca,4,0.0909
+name,Via Carlo Forlanini,4,0.0909
+name,Via Cesare Battisti,4,0.0909
+name,Via Cherubino Ghirardacci,4,0.0909
+name,Via Clemente Monari,4,0.0909
+name,Via Domenico Zampieri,4,0.0909
+name,Via Fornace,4,0.0909
+name,Via Francesco Albani,4,0.0909
+name,Via Francesco Rossi,4,0.0909
+name,Via Gaetano Bottrigari,4,0.0909
+name,Via Giacomo Antonio Perti,4,0.0909
+name,Via Giuseppe Mazzini,4,0.0909
+name,Via Giuseppe Pacchioni,4,0.0909
+name,Via Guglielma,4,0.0909
+name,Via Idice,4,0.0909
+name,Via Irnerio,4,0.0909
+name,Via Lughese,4,0.0909
+name,Via Luigi Busi,4,0.0909
+name,Via Massimo D'Azeglio,4,0.0909
+name,Via Niccolò Copernico,4,0.0909
+name,Via Nuova,4,0.0909
+name,Via Nuova Selice,4,0.0909
+name,Via Paolo Fabbri,4,0.0909
+name,Via Pasquale Muratori,4,0.0909
+name,Via Provinciale Superiore,4,0.0909
+name,Via Sacco e Vanzetti,4,0.0909
+name,Via Santa Barbara,4,0.0909
+name,Via Santuzza,4,0.0909
+name,Via Selice,4,0.0909
+name,Via Senio,4,0.0909
+name,Via Tevere,4,0.0909
+name,Via Zamboni,4,0.0909
+name,Via de' Foscherari,4,0.0909
+name,Via del Faggiolo,4,0.0909
+name,Via del Partigiano,4,0.0909
+name,Via della Certosa,4,0.0909
+name,Via della Rondine,4,0.0909
+name,Via di Roma,4,0.0909
+name,Viale Carlo Berti Pichat,4,0.0909
+name,Viale Palmiro Togliatti,4,0.0909
+name,Viale del Risorgimento,4,0.0909
+name,Vodafone,4,0.0909
+name,Alemanni,3,0.0682
+name,Arcaplanet,3,0.0682
+name,Area Sant'Orsola,3,0.0682
+name,Binario 2 Ovest,3,0.0682
+name,Binario 2/3 Ovest,3,0.0682
+name,Binario 5,3,0.0682
+name,Bio Market,3,0.0682
+name,Bologna Arcoveggio,3,0.0682
+name,Bologna Mazzini,3,0.0682
+name,Bottega Verde,3,0.0682
+name,Calzedonia,3,0.0682
+name,Canale Cavaticcio / Navile,3,0.0682
+name,Canale dei Molini,3,0.0682
+name,Canaletta Ghisiliera,3,0.0682
+name,Carisbo,3,0.0682
+name,CeX,3,0.0682
+name,Circonvallazione Canale Molinetto,3,0.0682
+name,Circonvallazione Piazza d'Armi,3,0.0682
+name,Circonvallazione canale Molinetto,3,0.0682
+name,Coop,3,0.0682
+name,Corte Isolani,3,0.0682
+name,DOPPELGÄNGER,3,0.0682
+name,Enel - stazione di ricarica,3,0.0682
+name,Equivalenza,3,0.0682
+name,Fossa Cavallina,3,0.0682
+name,Galleria Cavour,3,0.0682
+name,Galleria Ugo Bassi,3,0.0682
+name,Guidotti,3,0.0682
+name,Intimissimi,3,0.0682
+name,KIKO Milano,3,0.0682
+name,Kasanova,3,0.0682
+name,Linea 2 (rete tranviaria di Bologna),3,0.0682
+name,Mondadori,3,0.0682
+name,Mura Anteo Zamboni,3,0.0682
+name,Mura di Porta Lame,3,0.0682
+name,Oltre,3,0.0682
+name,Ospedale Bellaria,3,0.0682
+name,Padiglione 8 - Ematologia Seragnoli,3,0.0682
+name,Parcheggio del Centro,3,0.0682
+name,Piazza Europa,3,0.0682
+name,Piazza Galvani,3,0.0682
+name,Piazza Giuseppe Verdi,3,0.0682
+name,Piazza Malpighi,3,0.0682
+name,Piazza San Domenico,3,0.0682
+name,Piazza del Francia,3,0.0682
+name,Piazza di Porta San Mamolo,3,0.0682
+name,Piazzale Delfina Cima,3,0.0682
+name,Polisportiva 2000,3,0.0682
+name,Portici accademici di via Zamboni,3,0.0682
+name,Portici di Piazza Cavour e Via Farini,3,0.0682
+name,Q8,3,0.0682
+name,Rio della Baruffa,3,0.0682
+name,Rio di Monte Griffone,3,0.0682
+name,Rio di Montecalvo,3,0.0682
+name,Rotonda Enrico Brunetti Rodati,3,0.0682
+name,Spazio Conad,3,0.0682
+name,Stroili Oro,3,0.0682
+name,TIM,3,0.0682
+name,Tally Weijl,3,0.0682
+name,Ugo Bassi,3,0.0682
+name,Via Achille Grandi,3,0.0682
+name,Via Alberete,3,0.0682
+name,Via Aldo Moro,3,0.0682
+name,Via Alessandro Algardi,3,0.0682
+name,Via Alessandro Menganti,3,0.0682
+name,Via Amerigo Vespucci,3,0.0682
+name,Via Antonio Zoccoli,3,0.0682
+name,Via Asiago,3,0.0682
+name,Via Brignani,3,0.0682
+name,Via Bruno Bencivenni,3,0.0682
+name,Via Ca' Bosco,3,0.0682
+name,Via Cadriano,3,0.0682
+name,Via Canalazzo,3,0.0682
+name,Via Capitania,3,0.0682
+name,Via Caurinzano,3,0.0682
+name,Via Cerba,3,0.0682
+name,Via Delta,3,0.0682
+name,Via Destra Canale Molinetto,3,0.0682
+name,Via Don Giovanni Minzoni,3,0.0682
+name,Via Don Tiso Galletti,3,0.0682
+name,Via Emilia,3,0.0682
+name,Via Fluno,3,0.0682
+name,Via Francesco Carchidio,3,0.0682
+name,Via Francesco Orsoni,3,0.0682
+name,Via Giovanni Amendola,3,0.0682
+name,Via Girolamo Giacobbi,3,0.0682
+name,Via Giuseppe Guidicini,3,0.0682
+name,Via Glorie,3,0.0682
+name,Via Gorolo,3,0.0682
+name,Via Guglielmo Marconi,3,0.0682
+name,Via Leandro Alberti,3,0.0682
+name,Via Lola,3,0.0682
+name,Via Luigi Breventani,3,0.0682
+name,Via Luigi Calori,3,0.0682
+name,Via Luigi Carlo Farini,3,0.0682
+name,Via Maccalone,3,0.0682
+name,Via Marco Emilio Lepido,3,0.0682
+name,Via Monfalcone,3,0.0682
+name,Via Monsignor Vincenzo Cimatti,3,0.0682
+name,Via Pennabilli,3,0.0682
+name,Via Pietro Busacchi,3,0.0682
+name,Via Pietro De Coubertin,3,0.0682
+name,Via Ponte,3,0.0682
+name,Via Portovenere,3,0.0682
+name,Via Provinciale Bagnara,3,0.0682
+name,Via Risorgimento,3,0.0682
+name,Via Roncalceci,3,0.0682
+name,Via San Donato,3,0.0682
+name,Via Santa Lucia,3,0.0682
+name,Via Venezia,3,0.0682
+name,Via Vittoria,3,0.0682
+name,Via Vittorio Veneto,3,0.0682
+name,Via dei Carbonari,3,0.0682
+name,Via del Carro,3,0.0682
+name,Via del Portoncino,3,0.0682
+name,Via dell'Indipendenza,3,0.0682
+name,Via dell'Isonzo,3,0.0682
+name,Via dell'Orso,3,0.0682
+name,Via della Crocetta,3,0.0682
+name,Via della Resistenza,3,0.0682
+name,Via delle Belle Arti,3,0.0682
+name,Via delle Moline,3,0.0682
+name,Viale Alfredo Oriani,3,0.0682
+name,Viale Antonio Aldini,3,0.0682
+name,Viale Enrico Panzacchi,3,0.0682
+name,Viale Mario Loreti,3,0.0682
+name,Vicolo Colombina,3,0.0682
+name,Vicolo Quartirolo,3,0.0682
+name,Vicolo de' Santi,3,0.0682
+name,Villa Benni,3,0.0682
+name,XXI Aprile Zannoni,3,0.0682
+name,AB Gelateria,2,0.0455
+name,Albertoni,2,0.0455
+name,Alimentari Alberto,2,0.0455
+name,Amazon Hub Locker,2,0.0455
+name,Ambulatorio Veterinario Guidotti,2,0.0455
+name,Arco de Meloncello,2,0.0455
+name,Argine Sx Fiume Montone,2,0.0455
+name,Avirex,2,0.0455
+name,B&B ABC,2,0.0455
+name,BPER Banca,2,0.0455
+name,Bacino di laminazione,2,0.0455
+name,Banca di Bologna,2,0.0455
+name,Bar Bianco,2,0.0455
+name,Basilica di San Petronio,2,0.0455
+name,Bata,2,0.0455
+name,Biblioteca Comunale dell'Archiginnasio,2,0.0455
+name,Binario 10/11,2,0.0455
+name,Binario 2,2,0.0455
+name,Binario 3/4,2,0.0455
+name,Binario 8/9,2,0.0455
+name,Bivio Gambettola,2,0.0455
+name,Bologna Via Larga,2,0.0455
+name,Caffitaly,2,0.0455
+name,Calanchi di Paderno,2,0.0455
+name,Camomilla,2,0.0455
+name,Canale Cavaticcio,2,0.0455
+name,Carabinieri,2,0.0455
+name,Caserma Mameli,2,0.0455
+name,"Cassa laminazione ""Vedrana""",2,0.0455
+name,Cassetta Ciclo Riparazione Santa Graziella dell'Apocalisse ACAB,2,0.0455
+name,Castello di Porta Galliera,2,0.0455
+name,Centro Commerciale Vialarga,2,0.0455
+name,Cesarina,2,0.0455
+name,Charget,2,0.0455
+name,Conad City,2,0.0455
+name,Crocetta,2,0.0455
+name,Deposito Battindarno,2,0.0455
+name,Deposito Carrozze Bologna Centrale,2,0.0455
+name,Deposito Pilastro,2,0.0455
+name,Deutsche Bank,2,0.0455
+name,Don Minzoni,2,0.0455
+name,Edificio porticato del MAMbo,2,0.0455
+name,Enel X,2,0.0455
+name,Eni,2,0.0455
+name,Eurospar,2,0.0455
+name,Ewaservice,2,0.0455
+name,Farini,2,0.0455
+name,Farmacia della Stazione Centrale,2,0.0455
+name,Ferrovia Porrettana,2,0.0455
+name,Fiume Lamone,2,0.0455
+name,Fiume Senio,2,0.0455
+name,Freccia Club,2,0.0455
+name,Galleria Giovanni Acquaderni,2,0.0455
+name,Galleria del Pincio,2,0.0455
+name,Giardini Margherita,2,0.0455
+name,Giardino Savioli,2,0.0455
+name,Giunti al Punto,2,0.0455
+name,Groove Lab,2,0.0455
+name,Hotel Mon Reve,2,0.0455
+name,Il buon caffè,2,0.0455
+name,Indipendenza Mille,2,0.0455
+name,Jun Feng Zheng Fa,2,0.0455
+name,Kérastase Paris,2,0.0455
+name,Lacoste,2,0.0455
+name,Laghetti del Maglio,2,0.0455
+name,Largo Respighi,2,0.0455
+name,Largo Salvo D'Acquisto,2,0.0455
+name,Le golosità di Nonna Aurora,2,0.0455
+name,Legami,2,0.0455
+name,MAC Cosmetics,2,0.0455
+name,MAMbo,2,0.0455
+name,Martini,2,0.0455
+name,Milano-Bologna;Verona-Bologna,2,0.0455
+name,Monte Pradone,2,0.0455
+name,Motor & Bike,2,0.0455
+name,Mura di Porta San Felice,2,0.0455
+name,Nau!,2,0.0455
+name,OVS,2,0.0455
+name,Original Marines,2,0.0455
+name,Osteria Tabard Inn,2,0.0455
+name,Padiglione 6 - Malattie Infettive,2,0.0455
+name,Padiglione Allende,2,0.0455
+name,Padiglione Vallisneri,2,0.0455
+name,Palazzo D' Accursio,2,0.0455
+name,Palazzo Paleotti,2,0.0455
+name,Pam,2,0.0455
+name,Panfé,2,0.0455
+name,Parco San Pellegrino,2,0.0455
+name,Parco di Villa Spada,2,0.0455
+name,Passaggio Jolanda Cervellati,2,0.0455
+name,Percorso ciclonaturalistico Reno-Primaro,2,0.0455
+name,Piazza Borsalino,2,0.0455
+name,Piazza De' Celestini,2,0.0455
+name,Piazza Paolucci di Calboli,2,0.0455
+name,Piazza Rossini,2,0.0455
+name,Piazza Santo Stefano,2,0.0455
+name,Piazza XX Settembre,2,0.0455
+name,Piazza XX Settembre (Lato Cassero),2,0.0455
+name,Piazza del Tribunale,2,0.0455
+name,Piazzale Giovanni Battista Nasalli Rocca,2,0.0455
+name,Piazzetta della Pioggia,2,0.0455
+name,Pietrarubbia,2,0.0455
+name,Poke Sun-Rice,2,0.0455
+name,Polisportiva Giovanni Masi ASD,2,0.0455
+name,Pontelungo,2,0.0455
+name,Porta San Felice,2,0.0455
+name,Primo Maggio,2,0.0455
+name,Re Sole,2,0.0455
+name,Rio Limisano,2,0.0455
+name,Rio di Quercia Buca,2,0.0455
+name,Rotonda Cesare Malossi,2,0.0455
+name,Rotonda Elena Lucrezia Corner Piscopia,2,0.0455
+name,Sala Blu,2,0.0455
+name,San Pio V,2,0.0455
+name,Santuario della Madonna di San Luca,2,0.0455
+name,Scout,2,0.0455
+name,Sede di Mineralogia,2,0.0455
+name,Serre dei Giardini,2,0.0455
+name,Sferisterio,2,0.0455
+name,Sirene,2,0.0455
+name,Spazio Enel,2,0.0455
+name,Stefino,2,0.0455
+name,Storie di libri,2,0.0455
+name,Strada Provinciale 117,2,0.0455
+name,Studio Legale Avv. Angela Nicolardi,2,0.0455
+name,Studio Service,2,0.0455
+name,Studio associato Via Grandi,2,0.0455
+name,Tabacchi,2,0.0455
+name,Tamoil,2,0.0455
+name,The Social Hub,2,0.0455
+name,Tigotà,2,0.0455
+name,Torrente Marzeno,2,0.0455
+name,Torrente Pisciatello,2,0.0455
+name,Torrente Sillaro,2,0.0455
+name,Turati,2,0.0455
+name,Turis Bar,2,0.0455
+name,Tuscolano,2,0.0455
+name,Unieuro,2,0.0455
+name,Venchi SPA,2,0.0455
+name,Via Adolfo Bellucci,2,0.0455
+name,Via Agostino Bignardi,2,0.0455
+name,Via Aguta,2,0.0455
+name,Via Ambrogio e Piero Lorenzetti,2,0.0455
+name,Via Augusto Righi,2,0.0455
+name,Via Augusto Urbinati,2,0.0455
+name,Via Azzo Gardino,2,0.0455
+name,Via Balzetta,2,0.0455
+name,Via Bastia,2,0.0455
+name,Via Bastiana,2,0.0455
+name,Via Belmeloro,2,0.0455
+name,Via Bernardino Brignani,2,0.0455
+name,Via Bevano,2,0.0455
+name,Via Borgo di Linaro,2,0.0455
+name,Via Borse,2,0.0455
+name,Via Brusa,2,0.0455
+name,Via Bruschi,2,0.0455
+name,Via Cappelle,2,0.0455
+name,Via Cardinala,2,0.0455
+name,Via Carlo Alberto Pizzardi,2,0.0455
+name,Via Casalina,2,0.0455
+name,Via Castellaro,2,0.0455
+name,Via Cavallazzi,2,0.0455
+name,Via Cavour,2,0.0455
+name,Via Cella,2,0.0455
+name,Via Cerchia,2,0.0455
+name,Via Cesare Boldrini,2,0.0455
+name,Via Chiesa,2,0.0455
+name,Via Clavature,2,0.0455
+name,Via Clotilde Tambroni,2,0.0455
+name,Via Col Di Lana,2,0.0455
+name,Via Convento Linaro,2,0.0455
+name,Via Copernico,2,0.0455
+name,Via Corsica,2,0.0455
+name,Via Cristoforo Colombo,2,0.0455
+name,Via Dante Di Nanni,2,0.0455
+name,Via De Coubertin,2,0.0455
+name,Via Don Luigi Sturzo,2,0.0455
+name,Via Duccio Galimberti,2,0.0455
+name,Via Edoardo Brizio,2,0.0455
+name,Via Emilia Ponente,2,0.0455
+name,Via Erbosa,2,0.0455
+name,Via Europa,2,0.0455
+name,Via Ex Tramvia,2,0.0455
+name,Via Fausto Grossi,2,0.0455
+name,Via Felice Cavallotti,2,0.0455
+name,Via Fernando de Rosa,2,0.0455
+name,Via Filippo De Pisis,2,0.0455
+name,Via Fosso Drittolo,2,0.0455
+name,Via Francesco Albergati,2,0.0455
+name,Via Francesco Baracca,2,0.0455
+name,Via Franco Gentilini,2,0.0455
+name,Via Fratelli Cervi,2,0.0455
+name,Via G. Di Vittorio,2,0.0455
+name,Via G. da Serravalle,2,0.0455
+name,Via Garda,2,0.0455
+name,Via Giacomo Puccini,2,0.0455
+name,Via Gino Onofri,2,0.0455
+name,Via Gioacchino Rossini,2,0.0455
+name,Via Giuseppe Petroni,2,0.0455
+name,Via Gorizia,2,0.0455
+name,Via Gregoriana,2,0.0455
+name,Via John Fitzgerald Kennedy,2,0.0455
+name,Via Lemonia,2,0.0455
+name,Via Lenin Mancuso,2,0.0455
+name,Via Libia,2,0.0455
+name,Via Madonna del Bosco,2,0.0455
+name,Via Malta,2,0.0455
+name,Via Maurizio Bufalini,2,0.0455
+name,Via Montanara,2,0.0455
+name,Via Monte Grappa,2,0.0455
+name,Via Natalino Corazza,2,0.0455
+name,Via Nazario Sauro,2,0.0455
+name,Via Nazionale,2,0.0455
+name,Via Novafeltria,2,0.0455
+name,Via Palazzola,2,0.0455
+name,Via Paolo Giovanni Martini,2,0.0455
+name,Via Pellegrino Tibaldi,2,0.0455
+name,Via Pescherie Vecchie,2,0.0455
+name,Via Pier Antonio Barbè,2,0.0455
+name,Via Pietramora,2,0.0455
+name,Via Pietro Mascagni,2,0.0455
+name,Via Pigafetta,2,0.0455
+name,Via Quattro Novembre,2,0.0455
+name,Via Quinto Orazio Flacco,2,0.0455
+name,Via Raffaele Bombelli,2,0.0455
+name,Via Ragone,2,0.0455
+name,Via Renato Serra,2,0.0455
+name,Via Rino Ruscello,2,0.0455
+name,Via Riva di Reno,2,0.0455
+name,Via Roma,2,0.0455
+name,Via Romana,2,0.0455
+name,Via Rotta del Giardino,2,0.0455
+name,Via Rubicone,2,0.0455
+name,Via Salvatore Muzzi,2,0.0455
+name,Via San Felice,2,0.0455
+name,Via San Giacomo,2,0.0455
+name,Via San Martino,2,0.0455
+name,Via Sant'Egidio,2,0.0455
+name,Via Santerno,2,0.0455
+name,Via Scalone,2,0.0455
+name,Via Scandellara,2,0.0455
+name,Via Secchia,2,0.0455
+name,Via Sforza,2,0.0455
+name,Via Sidney Sonnino,2,0.0455
+name,Via Silvio Pellico,2,0.0455
+name,Via Standiana,2,0.0455
+name,Via Stanislao Mattei,2,0.0455
+name,Via Strazzacappe,2,0.0455
+name,Via Stroppata,2,0.0455
+name,Via Telemaco Signorini,2,0.0455
+name,Via Torino,2,0.0455
+name,Via Trova,2,0.0455
+name,Via Trucca,2,0.0455
+name,Via Valeria,2,0.0455
+name,Via Valle Umana,2,0.0455
+name,Via Vicinano,2,0.0455
+name,Via Vito Volterra,2,0.0455
+name,Via Zenzalino Nord,2,0.0455
+name,Via Zotto,2,0.0455
+name,Via de' Castagnoli,2,0.0455
+name,Via dei Bibiena,2,0.0455
+name,Via dei Maceri,2,0.0455
+name,Via dei Vigneti,2,0.0455
+name,Via del Meloncello,2,0.0455
+name,Via del Tuscolano,2,0.0455
+name,Via del vecchio Ghetto,2,0.0455
+name,Via dell'Archiginnasio,2,0.0455
+name,Via della Cooperazione,2,0.0455
+name,Via della Grada,2,0.0455
+name,Via della Guardia,2,0.0455
+name,Via della Stazione,2,0.0455
+name,Via delle Rose,2,0.0455
+name,Via delle Scuole,2,0.0455
+name,Via delle Tofane,2,0.0455
+name,Via di Barbiano,2,0.0455
+name,Via di Mezzo,2,0.0455
+name,Via di Monte Albano,2,0.0455
+name,Via di San Luca,2,0.0455
+name,Viale Milano,2,0.0455
+name,Viale Pietro Pietramellara,2,0.0455
+name,Viale Quirico Filopanti,2,0.0455
+name,Viale della Resistenza,2,0.0455
+name,Vicolo della Canaletta,2,0.0455
+name,Villaggio della Rivoluzione Fascista,2,0.0455
+name,Vittorio Veneto,2,0.0455
+name,Voltone del Podestà,2,0.0455
+name,Vyta,2,0.0455
+name,W. ERRE,2,0.0455
+name,Wind Tre,2,0.0455
+name,Youngo!,2,0.0455
+name,eni,2,0.0455
+name,incoop,2,0.0455
+name,051 Zerocinquantuno,1,0.0227
+name,3 Store,1,0.0227
+name,3M Tabaccheria,1,0.0227
+name,84,1,0.0227
+name,A Casa Mia,1,0.0227
+name,A Garibaldi,1,0.0227
+name,A&O,1,0.0227
+name,A. Marvelli,1,0.0227
+name,A.R. 1,1,0.0227
+name,ADL Cobas Emilia Romagna,1,0.0227
+name,ALDI,1,0.0227
+name,ASCOM Bologna,1,0.0227
+name,Abbazia della Croara,1,0.0227
+name,Accesso Ambulanza Padiglione H,1,0.0227
+name,Accesso Ambulanze Padiglione G,1,0.0227
+name,"Accesso Ambulanze e Disabili Padiglioni A, B, C, D, F",1,0.0227
+name,Accesso Parcheggio Sotterraneo,1,0.0227
+name,Acton,1,0.0227
+name,Acustica Bolognese,1,0.0227
+name,AdS Cantagallo Est,1,0.0227
+name,AdS Cantagallo Ovest,1,0.0227
+name,Adriatica,1,0.0227
+name,AemilBanca,1,0.0227
+name,Ago Express,1,0.0227
+name,Airoldi,1,0.0227
+name,Al Bricco d'oro,1,0.0227
+name,Al Velodromo,1,0.0227
+name,Albero monumentale Cedro dell' Himalaya,1,0.0227
+name,Aldina GlutenFree,1,0.0227
+name,Alea Outlet,1,0.0227
+name,Ali Baba,1,0.0227
+name,Ambaradan,1,0.0227
+name,Ambulatorio Igiene Pubblica,1,0.0227
+name,Ambulatorio Veterinario Bascucci,1,0.0227
+name,Amnesty International - Bologna,1,0.0227
+name,Amor di Patata,1,0.0227
+name,Anastasia,1,0.0227
+name,Anatomia Patologica,1,0.0227
+name,Angel,1,0.0227
+name,Antica Bologna,1,0.0227
+name,Appartamenti Nel Sole,1,0.0227
+name,Archivio di Stato,1,0.0227
+name,Arco del Meloncello,1,0.0227
+name,Arco storico Policlinico S.Orsola-Malpighi,1,0.0227
+name,Arcobaleno Foto,1,0.0227
+name,Area Malpighi,1,0.0227
+name,Area Verde Via Zauli Naldi,1,0.0227
+name,Area ortiva Nicholas Green,1,0.0227
+name,Area verde Filanda,1,0.0227
+name,Arisbar,1,0.0227
+name,Arkangelo Viaggi,1,0.0227
+name,Armaroli Bike World,1,0.0227
+name,Arredissima,1,0.0227
+name,Arrotino MM,1,0.0227
+name,Art Hotel Commercianti,1,0.0227
+name,Arte Danza Bologna,1,0.0227
+name,ArteCasa,1,0.0227
+name,Artigiani Del Legno,1,0.0227
+name,Artistation School of Arts,1,0.0227
+name,Asia,1,0.0227
+name,Asian Riso Fusion,1,0.0227
+name,Asilo Nido Seragnoli,1,0.0227
+name,Asilo Nido Zerocento Societa Cooperativa Sociale,1,0.0227
+name,Atelier Annarita Vitali VIntage Bijoux,1,0.0227
+name,Autofficina Cà Dè Fiori,1,0.0227
+name,Autoscuola Bassini,1,0.0227
+name,Autostazione di Bologna,1,0.0227
+name,Awanagana,1,0.0227
+name,Azienda Agricola Cima Farneto,1,0.0227
+name,Azzura,1,0.0227
+name,B&B Bijoux di Penelope,1,0.0227
+name,B&B Molineventidue,1,0.0227
+name,BNL,1,0.0227
+name,BPM,1,0.0227
+name,Badia,1,0.0227
+name,Bagaglia,1,0.0227
+name,Bagnoli,1,0.0227
+name,Ballerette,1,0.0227
+name,Bamboo,1,0.0227
+name,Banca dell'Emilia,1,0.0227
+name,Banco S.Geminiano e S.Prospero,1,0.0227
+name,Bar Asso,1,0.0227
+name,Bar Carlo,1,0.0227
+name,Bar Cesoia,1,0.0227
+name,Bar Chichibo,1,0.0227
+name,Bar Gelateria K2.BO,1,0.0227
+name,Bar Pasticceria Astorri,1,0.0227
+name,Bar Pasticceria Minny,1,0.0227
+name,Bar Romano,1,0.0227
+name,Bar Salomé,1,0.0227
+name,Bar Tavola Fredda,1,0.0227
+name,Bar Trattoria Zaganti,1,0.0227
+name,Baracca e Burattini,1,0.0227
+name,Baraonda,1,0.0227
+name,Barberia San Carlo,1,0.0227
+name,Barbiano,1,0.0227
+name,Barbiere,1,0.0227
+name,Bardelle,1,0.0227
+name,Bardelli,1,0.0227
+name,Barrio 91,1,0.0227
+name,Bartolucci,1,0.0227
+name,Basilica di San Domenico,1,0.0227
+name,Basilico Food,1,0.0227
+name,Battaglina,1,0.0227
+name,Battistero degli Ariani,1,0.0227
+name,Beccari,1,0.0227
+name,Bed in Bo,1,0.0227
+name,Bellinzona,1,0.0227
+name,Benina,1,0.0227
+name,Betulle61,1,0.0227
+name,Bianchi Gaetano,1,0.0227
+name,"Biblioteca Universitaria di Discipline Economico Aziendali ""Walter Bigiavi""",1,0.0227
+name,Biblioteca del Dipartimento di Scienze economiche - DSE,1,0.0227
+name,"Biblioteca della salute mentale e delle scienze umane ""Minguzzi - Gentili""",1,0.0227
+name,Biblioteca delle Arti. Sezione di Musica e Spettacolo,1,0.0227
+name,"Biblioteca di Medicina. Biblioteca Clinica ""F. B. Bianchi"". Fondo di Microbiologia",1,0.0227
+name,"Biblioteca di Medicina. Biblioteca Clinica ""F. B. Bianchi"". Sezione di Medicina interna ""Gasbarrini""",1,0.0227
+name,"Biblioteca di Medicina. Biblioteca Clinica ""F. B. Bianchi"". Sezione di Scienze ginecologiche, ostetriche e pediatriche",1,0.0227
+name,"Biblioteca universitaria del Dipartimento di Scienze Statistiche ""Paolo Fortunati""",1,0.0227
+name,Bike innovation,1,0.0227
+name,Binario 1/2 Est,1,0.0227
+name,Binario 3/4 Est,1,0.0227
+name,Binario 4/5 Ovest,1,0.0227
+name,Bis Travel,1,0.0227
+name,Bisostra,1,0.0227
+name,Blu Vacanze,1,0.0227
+name,Bluespirit,1,0.0227
+name,Body Line Sun,1,0.0227
+name,Boggi,1,0.0227
+name,Bologna Autostazione,1,0.0227
+name,Bologna Centrale AV,1,0.0227
+name,Bologna Levante,1,0.0227
+name,Bologna Nord,1,0.0227
+name,Bologna Welcome - Ufficio Turistico,1,0.0227
+name,Bologna-Firenze (direttissima),1,0.0227
+name,Bologna-Milano,1,0.0227
+name,Bologna-Milano;Bologna-Verona,1,0.0227
+name,Bolognina Bike Shop,1,0.0227
+name,Bombo Crep 2,1,0.0227
+name,Borgo Liverani,1,0.0227
+name,Borgo di Linaro,1,0.0227
+name,Borsellino,1,0.0227
+name,Bortolotti Erik e Lara,1,0.0227
+name,Bottega Bertoni,1,0.0227
+name,Bottega Portici - Indipedenza,1,0.0227
+name,Bottega del Caffé,1,0.0227
+name,Brancona,1,0.0227
+name,Burger King,1,0.0227
+name,C'entro,1,0.0227
+name,C'entro Snack a d Go,1,0.0227
+name,C'era una Volta...,1,0.0227
+name,C. Baruzzi,1,0.0227
+name,C. Bentini,1,0.0227
+name,C. Bettola,1,0.0227
+name,C. Bulzacca,1,0.0227
+name,C. Colombara,1,0.0227
+name,C. Maretti,1,0.0227
+name,C. Milzetta,1,0.0227
+name,C. Montanari,1,0.0227
+name,C. Patuelli,1,0.0227
+name,C. Peroni,1,0.0227
+name,C. Taroni,1,0.0227
+name,C. Turchi,1,0.0227
+name,C. della Congregazione,1,0.0227
+name,CAAF CGIL,1,0.0227
+name,CAF,1,0.0227
+name,CAI 112A,1,0.0227
+name,CNR - LINAC,1,0.0227
+name,CPO Mobility,1,0.0227
+name,CUP Sant'Orsola,1,0.0227
+name,Ca Vecchia,1,0.0227
+name,Ca' Nova,1,0.0227
+name,Ca' del Rio,1,0.0227
+name,Ca.fé Mazzini,1,0.0227
+name,Ca` Dei Mandorli,1,0.0227
+name,Cabrona,1,0.0227
+name,Cafe Santangelo,1,0.0227
+name,Caffe Almetti,1,0.0227
+name,Caffe Santangelo,1,0.0227
+name,Caffè & Cigarettes,1,0.0227
+name,Caffè Nettuno,1,0.0227
+name,Caffè della Corte,1,0.0227
+name,Caffè delle Sette Chiese,1,0.0227
+name,Caffé du Vin,1,0.0227
+name,Cafè Floriano,1,0.0227
+name,Café Università,1,0.0227
+name,Café de Paris,1,0.0227
+name,Calais,1,0.0227
+name,Campetto Cà Rossa,1,0.0227
+name,CampiAperti,1,0.0227
+name,Camping Riccardo,1,0.0227
+name,Camping dei Pini,1,0.0227
+name,Campo 1942,1,0.0227
+name,Campo 1945,1,0.0227
+name,Campo Carducci,1,0.0227
+name,Canale Magni,1,0.0227
+name,Canale di Savena,1,0.0227
+name,Canasta,1,0.0227
+name,Canova Ballerini,1,0.0227
+name,Cantagallo,1,0.0227
+name,Capanna villanoviana,1,0.0227
+name,Cappelletta,1,0.0227
+name,CarlAlberti,1,0.0227
+name,Carli,1,0.0227
+name,Carnivore Union,1,0.0227
+name,Carpe Diem,1,0.0227
+name,Carpisa,1,0.0227
+name,Carracci,1,0.0227
+name,Carraia Canova,1,0.0227
+name,Carraia Ercolani,1,0.0227
+name,Carraia Rasponi,1,0.0227
+name,Carraia Utili,1,0.0227
+name,Carrara Ghedini,1,0.0227
+name,Carrozzeria Olimpia,1,0.0227
+name,Casa .Italo,1,0.0227
+name,Casa Isolani (Arcadas),1,0.0227
+name,Casa Saraceni,1,0.0227
+name,Casa del Custode,1,0.0227
+name,Casa delle Moline,1,0.0227
+name,Casamenta,1,0.0227
+name,Casella,1,0.0227
+name,Casella di Monte Armato,1,0.0227
+name,Caserma Viali,1,0.0227
+name,Casino Placci,1,0.0227
+name,Cassa di Risparmio di Cento,1,0.0227
+name,Cassanigo,1,0.0227
+name,Cassero LGBT+ Center,1,0.0227
+name,Cassetta Ciclo Riparazione Santa Graziella dell'Apocalisse  ACAB,1,0.0227
+name,Castel dei Britti,1,0.0227
+name,Castel dei Britti Scuole,1,0.0227
+name,Castello di Galliera,1,0.0227
+name,Casti,1,0.0227
+name,Castrocaro Terme,1,0.0227
+name,Castrocaro Terme e Terra del Sole,1,0.0227
+name,Cavaliera,1,0.0227
+name,Cazzola,1,0.0227
+name,Celio,1,0.0227
+name,Centrale Carabinieri,1,0.0227
+name,Centrale Teodora - Ravenna Canala,1,0.0227
+name,Centrale del Gusto,1,0.0227
+name,Centro Andrea Costa,1,0.0227
+name,Centro Commerciale Leonardo,1,0.0227
+name,Centro Commerciale Vittoria,1,0.0227
+name,Centro Copie Bononia,1,0.0227
+name,Centro Tuning,1,0.0227
+name,Centro di Formazione e Addestramento di E-Distribuzione,1,0.0227
+name,Centro sportivo Due Madonne,1,0.0227
+name,Champion,1,0.0227
+name,Checkpoint Charly Art Studio,1,0.0227
+name,Chemise,1,0.0227
+name,Chiccalandia,1,0.0227
+name,Chicco d'Oro,1,0.0227
+name,Chicken Hut,1,0.0227
+name,Chiesa di Bagnile,1,0.0227
+name,Chiesa di San Giovanni Evangelista,1,0.0227
+name,Chiesa di San Michele Arcangelo,1,0.0227
+name,Chiesa di Santa Cecilia della Croara,1,0.0227
+name,Chiesa di Santa Maria Ausiliatrice,1,0.0227
+name,Chiesa di Santa Maria della Mascarella,1,0.0227
+name,Chiesa parrocchiale dei Santi Nicolò e Francesco in Castrocaro,1,0.0227
+name,Chiesa parrocchiale di San Pietro in Vinculis in Pieve Salutare,1,0.0227
+name,Chiesa parrocchiale di Santa Maria in Sadurano,1,0.0227
+name,Chiesa parrocchiale di Santa Reparata in Terra del Sole,1,0.0227
+name,Chiostro 1500,1,0.0227
+name,Cimitero della Certosa,1,0.0227
+name,Cimitero di Casticciano,1,0.0227
+name,Ciola,1,0.0227
+name,Città del sole,1,0.0227
+name,Claire's,1,0.0227
+name,Club Alpino Italiano - Sezione Rimini,1,0.0227
+name,Cmf003,1,0.0227
+name,Coferasta,1,0.0227
+name,Colfiorito,1,0.0227
+name,Colle dell'Osservanza,1,0.0227
+name,Collegio Universitario Villa San Giacomo,1,0.0227
+name,Comet,1,0.0227
+name,Comunale,1,0.0227
+name,Comune di Bagnacavallo,1,0.0227
+name,Condominio Apollo,1,0.0227
+name,Conservatorio del Baraccano,1,0.0227
+name,Convento agostiniano,1,0.0227
+name,Coop Edificatrice Ansaloni,1,0.0227
+name,Corsia di accesso dei mezzi di Emergenza - Piazzale Ovest,1,0.0227
+name,Corso Aurelio Saffi,1,0.0227
+name,Cose d'Altre Case - mercatino dellUSATO,1,0.0227
+name,Cozze&Gorgonzola,1,0.0227
+name,Cremeria Sette Iglesia,1,0.0227
+name,Cremeria la Vecchia Stalla,1,0.0227
+name,Cremonini Elite,1,0.0227
+name,Crédit Agricole,1,0.0227
+name,Culla per la Vita,1,0.0227
+name,Cà Albonetti,1,0.0227
+name,Cà Bianca,1,0.0227
+name,D'Azeglio,1,0.0227
+name,Da Ezio,1,0.0227
+name,Dagrì Parrucchieri,1,0.0227
+name,Dal Furner,1,0.0227
+name,Dal Sarto,1,0.0227
+name,DamsLAB,1,0.0227
+name,Dance Mania,1,0.0227
+name,DeGusto Coop,1,0.0227
+name,DeVino,1,0.0227
+name,Decathlon,1,0.0227
+name,Decathlon Bologna City,1,0.0227
+name,Del Teatro,1,0.0227
+name,Del Vecchio Ghetto,1,0.0227
+name,Dental Pro,1,0.0227
+name,Dentrocasa,1,0.0227
+name,Deposito Due Madonne,1,0.0227
+name,Deposito Ferrarese,1,0.0227
+name,Despar,1,0.0227
+name,Dialisi Tinozzi,1,0.0227
+name,Dieta Sana,1,0.0227
+name,"Dipartimento delle Arti Visive, Performative e Mediali - Alma Mater Studiorum Bologna",1,0.0227
+name,Dipartimento di Filosofia e Comunicazione - Comunicazione,1,0.0227
+name,Dipartimento di Scienze Statistiche,1,0.0227
+name,Disney,1,0.0227
+name,Distinti,1,0.0227
+name,Divarese,1,0.0227
+name,DoDo,1,0.0227
+name,Domenicali,1,0.0227
+name,Domenicali Cicli,1,0.0227
+name,Don Peppino,1,0.0227
+name,Doppio Malto,1,0.0227
+name,Dorhouse,1,0.0227
+name,Dott.ssa Cinzia Semprini,1,0.0227
+name,Douglas,1,0.0227
+name,Dpiù,1,0.0227
+name,Drago D'oro,1,0.0227
+name,Drink Now,1,0.0227
+name,Due Torri,1,0.0227
+name,Dynamo - la Velostazione di Bologna,1,0.0227
+name,ENI,1,0.0227
+name,Economystation,1,0.0227
+name,Edicola,1,0.0227
+name,Edicolè,1,0.0227
+name,Elcos Sport City,1,0.0227
+name,Elements,1,0.0227
+name,Elettromania - Emporio usato elettronico,1,0.0227
+name,Eliporto Ospedale Forlì,1,0.0227
+name,Embassy,1,0.0227
+name,Emil Banca,1,0.0227
+name,Emmeffe,1,0.0227
+name,Enel,1,0.0227
+name,Enoteca Giacchero,1,0.0227
+name,Entrata monumentale,1,0.0227
+name,Erboristeria Erbamedica,1,0.0227
+name,Erboristeria del Borgo,1,0.0227
+name,Esse Cafe,1,0.0227
+name,Essere Benessere,1,0.0227
+name,Essetipi,1,0.0227
+name,Essse Caffè Store,1,0.0227
+name,Euroshop,1,0.0227
+name,Ex - Conservatorio del Baraccano (Sala Biagi),1,0.0227
+name,Ex Caserma Stamoto,1,0.0227
+name,Ex Villa Gessi,1,0.0227
+name,Ex caserma Staveco,1,0.0227
+name,Exotica Garden,1,0.0227
+name,F&S Mobili,1,0.0227
+name,Fabbri Boutiques,1,0.0227
+name,Fabio,1,0.0227
+name,Fabrik in Righi,1,0.0227
+name,Fabrizio Cocchi Maison,1,0.0227
+name,Factory Cafe,1,0.0227
+name,Falafel,1,0.0227
+name,Falconeri,1,0.0227
+name,Farmacia Rossi,1,0.0227
+name,Farmacia dell'Ospedale,1,0.0227
+name,Fashion Mania,1,0.0227
+name,Fastweb Store,1,0.0227
+name,Fermata Servizio Due Madonne,1,0.0227
+name,Ferrara-Rimini,1,0.0227
+name,Fini Sport 3,1,0.0227
+name,Fini Sport Spazio Bimbi,1,0.0227
+name,Fiume Montone,1,0.0227
+name,Fiume Rabbi,1,0.0227
+name,Flo'reiza,1,0.0227
+name,Flormar,1,0.0227
+name,Focillo,1,0.0227
+name,Fondazione Istituto Cattaneo,1,0.0227
+name,Fondazione Mast,1,0.0227
+name,Fondo Bolessa,1,0.0227
+name,Fondo Casetto,1,0.0227
+name,Fondo Cattola,1,0.0227
+name,Fondo Fornace,1,0.0227
+name,Fondo Rocca,1,0.0227
+name,Fondo Rossi,1,0.0227
+name,Foot Locker,1,0.0227
+name,Forchetta&Cuciglio,1,0.0227
+name,ForeXchange,1,0.0227
+name,Fornace Zarattini,1,0.0227
+name,Forno Pasticceria Pallotti,1,0.0227
+name,Fortezza di Castrocaro,1,0.0227
+name,Fortuna,1,0.0227
+name,Fosso Veiro,1,0.0227
+name,Fosso del Brinello,1,0.0227
+name,Foto Zini,1,0.0227
+name,Fototessere,1,0.0227
+name,Frab's Magazines,1,0.0227
+name,Franco,1,0.0227
+name,Fratelli Mancini,1,0.0227
+name,Fratta Nuova,1,0.0227
+name,Fratta Vecchia,1,0.0227
+name,Frida nel parco,1,0.0227
+name,Fruitaly srl Prodotti tipici del Sud,1,0.0227
+name,Fuina Nuova,1,0.0227
+name,Fuina Vecchia,1,0.0227
+name,Gadgetlandia,1,0.0227
+name,Galleria Due Torri,1,0.0227
+name,Galleria Vialarga,1,0.0227
+name,Galleria degli Angeli,1,0.0227
+name,Galleria del Leone,1,0.0227
+name,Galliera 49,1,0.0227
+name,Gallo,1,0.0227
+name,Gamberini,1,0.0227
+name,Gambini Otico,1,0.0227
+name,GameStop,1,0.0227
+name,Garage Autostazione,1,0.0227
+name,Garden Club,1,0.0227
+name,Gasparetta,1,0.0227
+name,Gastronomia Terramare,1,0.0227
+name,Gelateria,1,0.0227
+name,Gelateria Gianni,1,0.0227
+name,Gelateria Meloncello,1,0.0227
+name,Gelateria Obelix,1,0.0227
+name,Gelateria Primo Amore,1,0.0227
+name,Gelateria delle Moline,1,0.0227
+name,Genuyno,1,0.0227
+name,Geox,1,0.0227
+name,Get Ready!,1,0.0227
+name,Ghiselli Patrick,1,0.0227
+name,GiElle,1,0.0227
+name,Gian Filippo Zampa,1,0.0227
+name,Gianluigi e Ciccio Srl,1,0.0227
+name,Giardino Angelo Vassallo,1,0.0227
+name,Giardino Bandiera De Coubertin,1,0.0227
+name,Giardino Ernesto Che Guevara,1,0.0227
+name,Giardino Gennaro Fabbri,1,0.0227
+name,Giardino Giacomo Bulgarelli,1,0.0227
+name,Giardino Giordano Muratori,1,0.0227
+name,Giardino Guido Boschi,1,0.0227
+name,Giardino I ragazzi del Parsifal,1,0.0227
+name,Giardino John Klemen,1,0.0227
+name,Giardino Meloncello,1,0.0227
+name,Giardino Personale Sanitario e Volontari Impegnati Durante la Pandemia di Covid-19,1,0.0227
+name,Giardino Teresa Noce,1,0.0227
+name,Giardino dei Bambù,1,0.0227
+name,Giardino dei Platani,1,0.0227
+name,Giardino dei Tigli,1,0.0227
+name,Giardino del Guasto,1,0.0227
+name,Gigab@r,1,0.0227
+name,Gino,1,0.0227
+name,Gioielleria Hua Li,1,0.0227
+name,Gli Antichi Sapori di Bologna,1,0.0227
+name,GlobalForniture,1,0.0227
+name,Globo Trasporti,1,0.0227
+name,Glorie,1,0.0227
+name,Gluten Free Lovers,1,0.0227
+name,Godo,1,0.0227
+name,Gold Gallery,1,0.0227
+name,Gozzadini,1,0.0227
+name,Gran Bar,1,0.0227
+name,Grand Vision Avanzi,1,0.0227
+name,Grandvision by Avanzi,1,0.0227
+name,Griglia Irnerio,1,0.0227
+name,Grimaldi Immobiliare,1,0.0227
+name,GrisoDog Academy,1,0.0227
+name,Grom,1,0.0227
+name,Gruppo Combattimento Friuli,1,0.0227
+name,Guapo Cafè,1,0.0227
+name,Gustavo,1,0.0227
+name,Gustavo Italiano,1,0.0227
+name,Hairland,1,0.0227
+name,Happiness,1,0.0227
+name,Hotel Atlantic,1,0.0227
+name,Hotel Bridge,1,0.0227
+name,Hotel Lem,1,0.0227
+name,Hotel Liberty 1904,1,0.0227
+name,Hotel Roma,1,0.0227
+name,Humana Vintage,1,0.0227
+name,I 2 Riccioli Verdi,1,0.0227
+name,I Bruco,1,0.0227
+name,I Classici Luxury Store,1,0.0227
+name,I Volpini,1,0.0227
+name,I.Denticoop,1,0.0227
+name,IKKS,1,0.0227
+name,IN's Mercato,1,0.0227
+name,IP,1,0.0227
+name,IPSAS ALdrovandi Rubbiani - sede indirizzo Moda,1,0.0227
+name,ISTAT Ufficio Regionale Emilia Romagna,1,0.0227
+name,Idice Abbadia,1,0.0227
+name,Idice Bivio Monterenzio,1,0.0227
+name,Idice Bivio Pedagna,1,0.0227
+name,Iginio Massari Pop-Up Store,1,0.0227
+name,Iginio Massari Stazione Bologna Centrale Pop - Up Store,1,0.0227
+name,Il Carrubo,1,0.0227
+name,Il Circolo Pickwick,1,0.0227
+name,Il Duca D'Amalfi,1,0.0227
+name,Il Forno,1,0.0227
+name,Il Gelato,1,0.0227
+name,Il Materassaio Bologna,1,0.0227
+name,Il Pala2,1,0.0227
+name,Il Santo Bevitore,1,0.0227
+name,Il Trionfo dei Taglieri,1,0.0227
+name,Impianto fotovoltaico,1,0.0227
+name,Impresa Edile Parisi Paolo,1,0.0227
+name,Indigo,1,0.0227
+name,Infermeria,1,0.0227
+name,Ingresso al Parco Villa Ghigi da via San Mamolo,1,0.0227
+name,Innamorati,1,0.0227
+name,Intesa Sanpaolo,1,0.0227
+name,Ipercoop,1,0.0227
+name,Ippodromo,1,0.0227
+name,Isola Ecologica,1,0.0227
+name,"Istituto di Psichiatria ""Paolo Ottonello""",1,0.0227
+name,Itacho Sushi,1,0.0227
+name,Italia Independent,1,0.0227
+name,Italia in Miniatura,1,0.0227
+name,Jasmine,1,0.0227
+name,Jean Louis David,1,0.0227
+name,Josie,1,0.0227
+name,K2.BO Caffé,1,0.0227
+name,KFC,1,0.0227
+name,Kalinka,1,0.0227
+name,Kamit Espress,1,0.0227
+name,Kaos,1,0.0227
+name,Kasastore,1,0.0227
+name,Kendy Designs,1,0.0227
+name,Ki Point,1,0.0227
+name,Kiabi,1,0.0227
+name,Kilowatt,1,0.0227
+name,Konopizza,1,0.0227
+name,L'Arcimboldo,1,0.0227
+name,L'antica Bottega,1,0.0227
+name,L'Élite Café,1,0.0227
+name,L. Tedeschi Ferramenta,1,0.0227
+name,La Baita Formaggi,1,0.0227
+name,La Baracca,1,0.0227
+name,La Bianchina,1,0.0227
+name,La Bottega del Regalo,1,0.0227
+name,La Boutique della Sfoglia,1,0.0227
+name,La Capriata,1,0.0227
+name,La Carapina Mazzini,1,0.0227
+name,La Casa Continua,1,0.0227
+name,La Certosina - bar gelateria,1,0.0227
+name,La Coroncina,1,0.0227
+name,La Corte Galluzzi,1,0.0227
+name,La Fattoria Della Salute,1,0.0227
+name,La Ghiotta,1,0.0227
+name,La Golosa,1,0.0227
+name,La Linea,1,0.0227
+name,La Montanara,1,0.0227
+name,La Noce,1,0.0227
+name,La Piccola Italia,1,0.0227
+name,La Tavernetta di Zizi,1,0.0227
+name,La Terra del Tempo del Bene,1,0.0227
+name,La Torinese,1,0.0227
+name,La Valle,1,0.0227
+name,La Zorda,1,0.0227
+name,La vita che continua,1,0.0227
+name,Laghetto Angelo Tattini e Vincenzo Cavara,1,0.0227
+name,Lama,1,0.0227
+name,Lampadina Cafè,1,0.0227
+name,Lapidario,1,0.0227
+name,Largo Sandro Pertini,1,0.0227
+name,Lava & Cuce,1,0.0227
+name,Lavanderia self service Posh Wash,1,0.0227
+name,Le Arcate,1,0.0227
+name,Le Celebrazioni,1,0.0227
+name,Le Isole Del Sole,1,0.0227
+name,Le Moline - Osteria,1,0.0227
+name,Leone cacciando,1,0.0227
+name,"Libreria ""Il cerchio verde""",1,0.0227
+name,Libreria Coop Zanichelli,1,0.0227
+name,Libreria Nanni,1,0.0227
+name,Libreria Pickwick,1,0.0227
+name,Libreria per Ragazzi,1,0.0227
+name,Librerie.coop,1,0.0227
+name,Lilasù - Gelateria di Corte,1,0.0227
+name,Lilium Cafe,1,0.0227
+name,Lily Store,1,0.0227
+name,Limoni,1,0.0227
+name,Linea 316,1,0.0227
+name,Linea 353,1,0.0227
+name,Little Salon,1,0.0227
+name,Liuteria Mancini,1,0.0227
+name,Lo Chalet nel Parco,1,0.0227
+name,Loggia dei Mercanti,1,0.0227
+name,Lombardi,1,0.0227
+name,Lombardia,1,0.0227
+name,Lova street food - ramen baracchina,1,0.0227
+name,Luca Bosi,1,0.0227
+name,Luigi Pierantoni,1,0.0227
+name,Luisa Spagnoli,1,0.0227
+name,Lush,1,0.0227
+name,L’Incontro,1,0.0227
+name,M. Rimondi,1,0.0227
+name,Macelleria Goretti,1,0.0227
+name,Madonna del Rosario,1,0.0227
+name,Madonnina,1,0.0227
+name,Make Up Mia,1,0.0227
+name,Mancini Guido,1,0.0227
+name,Mandarina Duck,1,0.0227
+name,Manila Grace,1,0.0227
+name,Manu & Nik,1,0.0227
+name,Marco Guidi,1,0.0227
+name,Marco Minghetti,1,0.0227
+name,Marconi Express,1,0.0227
+name,Maria Teresa,1,0.0227
+name,Marisell,1,0.0227
+name,Market Le Viole,1,0.0227
+name,Marlu' Store,1,0.0227
+name,Marzocchi,1,0.0227
+name,Mas Srl,1,0.0227
+name,Masirano,1,0.0227
+name,Masullo,1,0.0227
+name,Matias,1,0.0227
+name,Mavit,1,0.0227
+name,Mavone piccolo,1,0.0227
+name,Max,1,0.0227
+name,Max & Co.,1,0.0227
+name,Max Mara,1,0.0227
+name,McDonald's,1,0.0227
+name,MediaWorld,1,0.0227
+name,Memoriale della Shoah,1,0.0227
+name,Mercarino Usato,1,0.0227
+name,Mercatale,1,0.0227
+name,Mercatale Osteriola,1,0.0227
+name,Mercatale Pace,1,0.0227
+name,Mercatino dei pescatori,1,0.0227
+name,Mercato,1,0.0227
+name,Mercato Contadino Campi Aperti,1,0.0227
+name,Mercato delle Erbe,1,0.0227
+name,Mercure Bologna Centro,1,0.0227
+name,Mexico,1,0.0227
+name,Mezzano,1,0.0227
+name,Mezzofanti,1,0.0227
+name,Mia,1,0.0227
+name,Miami L&M,1,0.0227
+name,Michel,1,0.0227
+name,Minimarket Frutta E Verdura SNC,1,0.0227
+name,Ministero Lavori Pubblici,1,0.0227
+name,Mirus,1,0.0227
+name,Missfagiola Green Lab Bologna,1,0.0227
+name,Mister Web,1,0.0227
+name,Monastero Della Visitazione,1,0.0227
+name,Mondo Convenienza,1,0.0227
+name,Monsieur,1,0.0227
+name,Montblanc,1,0.0227
+name,Monte Aperto,1,0.0227
+name,Monte Brinello,1,0.0227
+name,Monte Capella,1,0.0227
+name,Monte Sabbiuno,1,0.0227
+name,Montecchio,1,0.0227
+name,Monumento Bisteghi,1,0.0227
+name,Monumento Borghi-Mamo,1,0.0227
+name,Monumento Cavazza,1,0.0227
+name,Monumento a Luigi Galvani,1,0.0227
+name,Morsiani,1,0.0227
+name,Mortadella Shop,1,0.0227
+name,"Museo del tessuto e della tappezzeria ""Vittorio Zironi""",1,0.0227
+name,My EN,1,0.0227
+name,N.a.f.,1,0.0227
+name,NH Bologna de la Gare,1,0.0227
+name,NKD,1,0.0227
+name,Naama Cafe,1,0.0227
+name,Neaera Lounge Bar,1,0.0227
+name,Nido d'Infanzia Filonido,1,0.0227
+name,Nido d'Infanzia Martini,1,0.0227
+name,Noiz,1,0.0227
+name,Nonsolofiori,1,0.0227
+name,Notaio Buldini,1,0.0227
+name,Notaio Forni,1,0.0227
+name,Nuna Lie,1,0.0227
+name,Nuova Epoca,1,0.0227
+name,Nuova Libreria Accursio,1,0.0227
+name,Nuovo Bar Sorriso,1,0.0227
+name,Nuvolari c.c. Le Befane,1,0.0227
+name,O Bag Store,1,0.0227
+name,OFAR,1,0.0227
+name,OMPI ex Orsi Mangelli,1,0.0227
+name,Oasifarma,1,0.0227
+name,Officina Epoque,1,0.0227
+name,Officina Ghini e Caprara,1,0.0227
+name,Officina La Car Auto,1,0.0227
+name,Officina della Belleza,1,0.0227
+name,Ombrellificio Sassi 1888,1,0.0227
+name,Onda Marina,1,0.0227
+name,Oral Institute,1,0.0227
+name,Oro Panzerotto,1,0.0227
+name,Ospedale Morgagni Pierantoni,1,0.0227
+name,Ospedale Morgagni-Pierantoni,1,0.0227
+name,Ospedale Sant'Orsola Albertoni,1,0.0227
+name,Osteria Italia,1,0.0227
+name,Osteria da Paco,1,0.0227
+name,Osteria del Gallo,1,0.0227
+name,Osteria del santa Stefano,1,0.0227
+name,Ottica Avrone,1,0.0227
+name,Ottico Conad,1,0.0227
+name,Padiglione 16,1,0.0227
+name,"Padiglione 26 - Oncologia ""Felice Addarii""",1,0.0227
+name,Padiglione 27,1,0.0227
+name,Padiglione 28,1,0.0227
+name,Padiglione H Bellaria,1,0.0227
+name,Padiglione Valsalva,1,0.0227
+name,Padre Pio,1,0.0227
+name,Pala Sabin,1,0.0227
+name,PalaGenius,1,0.0227
+name,Palamadonnina Cesenatico,1,0.0227
+name,Palazzina,1,0.0227
+name,Palazzo Dal Monte,1,0.0227
+name,Palazzo Magnani,1,0.0227
+name,Palazzo Re Enzo,1,0.0227
+name,Palazzo dei Notai,1,0.0227
+name,Palazzo della Cassa di Risparmio,1,0.0227
+name,Palazzo in Laguna,1,0.0227
+name,Palestra Lucchesi,1,0.0227
+name,Palmirani Calzature,1,0.0227
+name,Pan8,1,0.0227
+name,Pane Vino e San Daniele,1,0.0227
+name,Panfragrante,1,0.0227
+name,Panificio Barbara,1,0.0227
+name,Panzarò,1,0.0227
+name,Parafarmacia Conad,1,0.0227
+name,Parafarmacia del Borgo,1,0.0227
+name,Parcheggio Belmeloro,1,0.0227
+name,Parcheggio Corrente,1,0.0227
+name,Parcheggio Est,1,0.0227
+name,Parcheggio Mast,1,0.0227
+name,Parcheggio P5,1,0.0227
+name,Parcheggio della Rocca di Castrocaro,1,0.0227
+name,Parcheggio interrato Piazza VIII Agosto,1,0.0227
+name,Parco Commerciale Meraville,1,0.0227
+name,Parco Europa,1,0.0227
+name,Parco John Lennon,1,0.0227
+name,Parco Misurina,1,0.0227
+name,Parco Villa Ghigi,1,0.0227
+name,Parco dei Noci,1,0.0227
+name,Parco della Montagnola,1,0.0227
+name,Parco di Ingegneria,1,0.0227
+name,Parco di Villa Serena,1,0.0227
+name,Parrucchiere Style,1,0.0227
+name,Particolari,1,0.0227
+name,Partigiani Fucilati dai Nazifascisti,1,0.0227
+name,Pasto Nomade,1,0.0227
+name,Pati Alfonso,1,0.0227
+name,Pavaglione,1,0.0227
+name,Penny,1,0.0227
+name,PhD-Lab,1,0.0227
+name,Piazza 7 novembre 1944,1,0.0227
+name,Piazza A. Bardi,1,0.0227
+name,Piazza Antonino Scaravilli,1,0.0227
+name,Piazza Antonio Gramsci,1,0.0227
+name,Piazza Bardi,1,0.0227
+name,Piazza Belluno,1,0.0227
+name,Piazza Dario Baldini,1,0.0227
+name,Piazza Del Vecchio Ghetto,1,0.0227
+name,Piazza Emilio Pallavicini,1,0.0227
+name,Piazza John Fitzgerald Kennedy,1,0.0227
+name,Piazza Maggiore,1,0.0227
+name,Piazza Memoriale della Shoah,1,0.0227
+name,Piazza Padre Bernardo Menni,1,0.0227
+name,Piazza Re Enzo,1,0.0227
+name,Piazza San Giovanni in Monte,1,0.0227
+name,Piazza San Michele,1,0.0227
+name,Piazza Trento Trieste,1,0.0227
+name,Piazza VIII Agosto,1,0.0227
+name,Piazza Vittorio Puntoni,1,0.0227
+name,Piazza dell'Unità,1,0.0227
+name,Piazza dell'otto Agosto,1,0.0227
+name,Piazza della Mercanzia,1,0.0227
+name,Piazza di Porta San Felice,1,0.0227
+name,Piazza maggiore,1,0.0227
+name,Piazzale 36ª Brigata Garibaldi,1,0.0227
+name,Piazzale Est,1,0.0227
+name,Piazzale del Popolo,1,0.0227
+name,Piazzetta Achille Ardigò,1,0.0227
+name,Piazzetta Francesco Molinari Pradelli,1,0.0227
+name,Piazzetta Giorgio Guazzaloca,1,0.0227
+name,Piazzetta Roberto Naviola,1,0.0227
+name,Pieralisi,1,0.0227
+name,Pietro Loreta,1,0.0227
+name,Pieve Salutare,1,0.0227
+name,Pimkie,1,0.0227
+name,Pineta di San Vitale,1,0.0227
+name,Pinko,1,0.0227
+name,Pinokkio,1,0.0227
+name,Pintel,1,0.0227
+name,Pionti Orto,1,0.0227
+name,Pioppe,1,0.0227
+name,Pista ciclabile Carlo Piazzi,1,0.0227
+name,Pit Stop Bar,1,0.0227
+name,PittaRosso,1,0.0227
+name,Pizza City,1,0.0227
+name,Pizza Leggera,1,0.0227
+name,Pizzeria Bianco Farina,1,0.0227
+name,Pizzocalvo Bivio,1,0.0227
+name,PolFer,1,0.0227
+name,Poli Silvia,1,0.0227
+name,Polo Dinamico,1,0.0227
+name,Ponte Zotto,1,0.0227
+name,Porta San Donato,1,0.0227
+name,Porta San Mamolo,1,0.0227
+name,Porta Sant'Isaia,1,0.0227
+name,Porto Tolle-Forlì,1,0.0227
+name,Porto Tolle-Ravenna Canala,1,0.0227
+name,Portofino,1,0.0227
+name,Postamat,1,0.0227
+name,Poste Santarcangelo,1,0.0227
+name,Posteriore al Campo Nuovo Sud (Ex Infetti),1,0.0227
+name,Pranzini,1,0.0227
+name,Prefabbricati Morri,1,0.0227
+name,Premier,1,0.0227
+name,Presto Service,1,0.0227
+name,Prevosta,1,0.0227
+name,Primo Viale Interno,1,0.0227
+name,Princi,1,0.0227
+name,Pro Garden,1,0.0227
+name,Promod,1,0.0227
+name,ProntoPet,1,0.0227
+name,Provinciale Sala,1,0.0227
+name,Pub Sunshine,1,0.0227
+name,Punto osservazione Bregoli,1,0.0227
+name,Puro,1,0.0227
+name,Quartiere Reno,1,0.0227
+name,Quattrina,1,0.0227
+name,Ravenna Canala-Enipower,1,0.0227
+name,Ravona,1,0.0227
+name,Recinto 10,1,0.0227
+name,Recinto 11,1,0.0227
+name,Recinto 12,1,0.0227
+name,Recinto 7,1,0.0227
+name,Recinto 9,1,0.0227
+name,RediPane,1,0.0227
+name,Regali Maison Liberty,1,0.0227
+name,Repsol,1,0.0227
+name,Retro Fashion,1,0.0227
+name,Retro',1,0.0227
+name,Ricci Sabbiatura,1,0.0227
+name,Riconsegna autonoleggi,1,0.0227
+name,Ricucito Sartoria,1,0.0227
+name,Righi,1,0.0227
+name,Rimini FS,1,0.0227
+name,Rio,1,0.0227
+name,Rio Grotte,1,0.0227
+name,Rio Sabbioso,1,0.0227
+name,Rio Scolo Naturale,1,0.0227
+name,Rio Torriane,1,0.0227
+name,Rio dei Boscari,1,0.0227
+name,Rio delle Striane,1,0.0227
+name,Rio di Qurercia Buca,1,0.0227
+name,Riparazione Cellulari,1,0.0227
+name,Ristorante Bolognese,1,0.0227
+name,Ristorante Donatello,1,0.0227
+name,Ristorante Pizzeria Me Gusta,1,0.0227
+name,Ristorante al Molino,1,0.0227
+name,Ristò Pallotti,1,0.0227
+name,River,1,0.0227
+name,Riviera Banca,1,0.0227
+name,Riviera Piada Shop,1,0.0227
+name,Robintur,1,0.0227
+name,Romanzo,1,0.0227
+name,Rossi,1,0.0227
+name,Rossopomodoro,1,0.0227
+name,Rotonda Iqbal Masih,1,0.0227
+name,Rotonda Lituania,1,0.0227
+name,Rotonda Ucraina,1,0.0227
+name,Rotonda Unità d'Italia,1,0.0227
+name,Sablè Gelato,1,0.0227
+name,Sadurano,1,0.0227
+name,Sakina Internet Point,1,0.0227
+name,Salmoiraghi & Viganò,1,0.0227
+name,Salone della Podestà,1,0.0227
+name,Salumeria,1,0.0227
+name,Salute e Benessere insieme,1,0.0227
+name,San Domenico,1,0.0227
+name,San Francesco,1,0.0227
+name,San Giorgio,1,0.0227
+name,San Giovanni Battista dei Celestini,1,0.0227
+name,San Giovanni in Monte,1,0.0227
+name,San Lorenzo,1,0.0227
+name,San Pancrazio,1,0.0227
+name,San Petronio,1,0.0227
+name,San Silvestro Nuovo,1,0.0227
+name,San Silvestro in Cantina,1,0.0227
+name,San Valentino della Grada,1,0.0227
+name,Sandro Ferrone,1,0.0227
+name,Sanitaria Via Larga,1,0.0227
+name,Santa Caterina,1,0.0227
+name,Santa Lucia,1,0.0227
+name,Santerno Morto,1,0.0227
+name,Saragozza157,1,0.0227
+name,Sartoria Condotti,1,0.0227
+name,Sartoria Rossi,1,0.0227
+name,Savena Abbandonata,1,0.0227
+name,Sbando Cucinotto e Cantina,1,0.0227
+name,Scarpe&Scarpe,1,0.0227
+name,Scolo Corla,1,0.0227
+name,Scolo Cornamonda,1,0.0227
+name,Scolo Via Cerba,1,0.0227
+name,Scooter Parking,1,0.0227
+name,Scout Circus,1,0.0227
+name,Scuola D'infanzia Cappuccetto Rosso,1,0.0227
+name,Scuola Materna Seragnoli,1,0.0227
+name,Scuola Media Irnerio,1,0.0227
+name,Scuola Media Malpighi,1,0.0227
+name,Scuola dell'Infanzia Fantini,1,0.0227
+name,Scuola dell'infanzia Ada Gobetti Marchesini,1,0.0227
+name,Scuola dell'infanzia San Giuseppe,1,0.0227
+name,Scuola di Ingegneria,1,0.0227
+name,Scuola di Musica Giuseppe Sarti,1,0.0227
+name,Scuola elementare Luigi Bombicci,1,0.0227
+name,Scuola primaria Raffaello Lambruschini,1,0.0227
+name,Scuole Dell'Infanzia Comunali Negri Ada,1,0.0227
+name,Scuole Dell'Infanzia Comunali XXI Aprile 1945,1,0.0227
+name,Scuole Pubbliche - Scuole Dell'Infanzia - Arco Guidi,1,0.0227
+name,Self Service,1,0.0227
+name,Senza Benza,1,0.0227
+name,Sephora,1,0.0227
+name,Sequoia (Sequoia semprevirens),1,0.0227
+name,Serra Bar,1,0.0227
+name,Serra Sonora,1,0.0227
+name,Serra madre,1,0.0227
+name,Serra orto,1,0.0227
+name,Seta Sushi Lab,1,0.0227
+name,Settimo Cielo,1,0.0227
+name,Severola,1,0.0227
+name,Sforza,1,0.0227
+name,Sghissa,1,0.0227
+name,Shogliave,1,0.0227
+name,Shu,1,0.0227
+name,Sigarette,1,0.0227
+name,Signorvino,1,0.0227
+name,Silvestri e Taddei,1,0.0227
+name,Sindacato SGB,1,0.0227
+name,Sirio - Bar interno Ospedale G.B. Morgagni di Forlì,1,0.0227
+name,Sonny Bono,1,0.0227
+name,SottoSopra,1,0.0227
+name,Souvenir Tabacchi,1,0.0227
+name,Splendore,1,0.0227
+name,Squadrani,1,0.0227
+name,Stadio,1,0.0227
+name,Stadio Renato Dall'Ara,1,0.0227
+name,Star Garage,1,0.0227
+name,Stargas,1,0.0227
+name,Starhotels Excelsior,1,0.0227
+name,Statua di San Domenico,1,0.0227
+name,Stazione AV uscita Carracci,1,0.0227
+name,Stazione Ecologica HERA,1,0.0227
+name,Stonefly,1,0.0227
+name,Strada Bora Piavola,1,0.0227
+name,Strada Comunale San Ruffillo - Calboli,1,0.0227
+name,Strada Maggiore,1,0.0227
+name,Strada Monteglacinto - Fabrelli,1,0.0227
+name,Strada Provinciale 96 Mezzano Cerba,1,0.0227
+name,Strada del Jazz,1,0.0227
+name,Struttura polifunzionale Gramsci-Boldrini,1,0.0227
+name,Studio Cam,1,0.0227
+name,Studio Legale Castellari & Marchi,1,0.0227
+name,Successione PLiocenica Lungo Il Marecchia,1,0.0227
+name,Sumo,1,0.0227
+name,Sunshine Parrucchieri,1,0.0227
+name,SushiMan,1,0.0227
+name,Swarovski,1,0.0227
+name,Swatch,1,0.0227
+name,Swing,1,0.0227
+name,T&L,1,0.0227
+name,Tabaccheria Farini,1,0.0227
+name,Tabaccheria Farini 21,1,0.0227
+name,Tabaccheria Murri 48,1,0.0227
+name,Tabaccheria Riv. N1,1,0.0227
+name,Tabu Mini Market,1,0.0227
+name,Tangenziale di Bologna,1,0.0227
+name,Teatro Comunale,1,0.0227
+name,Tecnodam,1,0.0227
+name,Tecnolopolo Bologna CNR,1,0.0227
+name,Telecom,1,0.0227
+name,Temakinho,1,0.0227
+name,Teresa Centro Estetico,1,0.0227
+name,Terra & Natura,1,0.0227
+name,Terra del Sole,1,0.0227
+name,Terranova,1,0.0227
+name,Tezenis,1,0.0227
+name,Tezuk,1,0.0227
+name,The Doctor Auto,1,0.0227
+name,The Longevity Suite TLS,1,0.0227
+name,The World's Best Loved Candle,1,0.0227
+name,Three.,1,0.0227
+name,Tibaldi Dall`Arca,1,0.0227
+name,Tigre cacciando,1,0.0227
+name,Tiziana Parrucchiera,1,0.0227
+name,Tokuno Shima,1,0.0227
+name,Tomba Gandolfi e Calza,1,0.0227
+name,Tomba Ghiselieri-Tanari,1,0.0227
+name,Tomba Raineri-Pepoli,1,0.0227
+name,Tomba di Anna Grassetti,1,0.0227
+name,Tomba di Antonio Zannoni,1,0.0227
+name,Tomba di Augusta Rossi,1,0.0227
+name,Tomba di Egidio Foscherari,1,0.0227
+name,Tomba di Giuseppe Minganti e Gilberta Gabrielli,1,0.0227
+name,Tomba di Rolandino dei Passaggeri,1,0.0227
+name,Torre Lambertini,1,0.0227
+name,Torre dei Galluzzi,1,0.0227
+name,Torrente Aposa,1,0.0227
+name,Torrente Gaiana,1,0.0227
+name,Torrente Medrina,1,0.0227
+name,Torrente Sellustra,1,0.0227
+name,Torrente Zena,1,0.0227
+name,Torresotto di Porta Nuova,1,0.0227
+name,Toschi,1,0.0227
+name,TotalErg,1,0.0227
+name,Tradizione e Fantasia,1,0.0227
+name,Traslochi Pisanu,1,0.0227
+name,Trattoria Bolognese,1,0.0227
+name,Trattoria Oberdan,1,0.0227
+name,Trattoria Tony,1,0.0227
+name,Traversa Borghesi,1,0.0227
+name,Traversa Erminio Salvatori,1,0.0227
+name,Traversa Foschini,1,0.0227
+name,Traversa Giovanni Alberani,1,0.0227
+name,Traversa Lucci,1,0.0227
+name,Traversa Marangoni,1,0.0227
+name,Tre Stele,1,0.0227
+name,Tresi Design,1,0.0227
+name,Tru Trussardi,1,0.0227
+name,Tugnoli,1,0.0227
+name,Twin Set,1,0.0227
+name,UNA Hotel Bologna,1,0.0227
+name,URP - Ufficio Relazioni con Il Pubblico,1,0.0227
+name,Ugolini,1,0.0227
+name,UniOne,1,0.0227
+name,UnipolSai,1,0.0227
+name,United Colors of Benetton,1,0.0227
+name,Università di Bologna - Dipartimento di Economia e Commercio,1,0.0227
+name,Uso,1,0.0227
+name,V.C. Cementisti,1,0.0227
+name,VIII Agosto,1,0.0227
+name,Vaccari,1,0.0227
+name,Valigeria Cremonini,1,0.0227
+name,Valli di Comacchio,1,0.0227
+name,Vally Fleurs,1,0.0227
+name,Vecchielle,1,0.0227
+name,Veggetti,1,0.0227
+name,Venere,1,0.0227
+name,Vetro,1,0.0227
+name,Via A. Bevilacqua,1,0.0227
+name,Via Abbandonata,1,0.0227
+name,Via Adelio Cavazza,1,0.0227
+name,Via Albane,1,0.0227
+name,Via Alceste De Ambris,1,0.0227
+name,Via Alcide De Gasperi,1,0.0227
+name,Via Alessandro Tiarini,1,0.0227
+name,Via Altura,1,0.0227
+name,Via Amatore Sciesa,1,0.0227
+name,Via Ambrogio e Pietro Lorenzetti,1,0.0227
+name,Via Amedeo Modigliani,1,0.0227
+name,Via Amedeo Parmeggiani,1,0.0227
+name,Via Anacleto Ricci,1,0.0227
+name,Via Andicino,1,0.0227
+name,Via Angelo Biancini,1,0.0227
+name,Via Angelo Michele Colonna,1,0.0227
+name,Via Angelo Morelli,1,0.0227
+name,Via Angelo Venturoli,1,0.0227
+name,Via Aniene,1,0.0227
+name,Via Antonio Di Vincenzo,1,0.0227
+name,Via Antonio Francesco Ghiselli,1,0.0227
+name,Via Antonio Fratti,1,0.0227
+name,Via Antonio Mancini,1,0.0227
+name,Via Aralda Coppa,1,0.0227
+name,Via Arcobologna,1,0.0227
+name,Via Argine Desto Fiume Ronco,1,0.0227
+name,Via Armando Maglioni,1,0.0227
+name,Via Armando Spadini,1,0.0227
+name,Via Arrigo Lucchini,1,0.0227
+name,Via Arrigo Mainardi,1,0.0227
+name,Via Attilia Angelini,1,0.0227
+name,Via Augusto Murri,1,0.0227
+name,Via Augusto Romagnoli,1,0.0227
+name,Via Bacinetta,1,0.0227
+name,Via Bagnolo,1,0.0227
+name,Via Banaffa,1,0.0227
+name,Via Barberia,1,0.0227
+name,Via Barilotti,1,0.0227
+name,Via Baschiera,1,0.0227
+name,Via Battana,1,0.0227
+name,Via Becchi Tognini,1,0.0227
+name,Via Bellaria,1,0.0227
+name,Via Belvedere,1,0.0227
+name,Via Benedetto Schiassi,1,0.0227
+name,Via Beniamino Gigli,1,0.0227
+name,Via Bergullo,1,0.0227
+name,Via Bernardino Ramazzini,1,0.0227
+name,Via Bianco da Durazzo,1,0.0227
+name,Via Bicocchino,1,0.0227
+name,Via Bocca di Lupo,1,0.0227
+name,Via Borgo Sisa,1,0.0227
+name,Via Boscabella,1,0.0227
+name,Via Bova,1,0.0227
+name,Via Budriese,1,0.0227
+name,Via Burano,1,0.0227
+name,Via Burattina,1,0.0227
+name,Via Calamosco,1,0.0227
+name,Via Caltagirone,1,0.0227
+name,Via Camonia,1,0.0227
+name,Via Campolungo,1,0.0227
+name,Via Canaletta,1,0.0227
+name,Via Canonica,1,0.0227
+name,Via Canovetta,1,0.0227
+name,Via Carlo Francesco Dotti,1,0.0227
+name,Via Carolina Coronedi Berti,1,0.0227
+name,Via Cartiano,1,0.0227
+name,Via Casale,1,0.0227
+name,Via Case Bianche,1,0.0227
+name,Via Casimpane,1,0.0227
+name,Via Casolana,1,0.0227
+name,Via Cassirano,1,0.0227
+name,Via Castel Latino,1,0.0227
+name,Via Castel Leone,1,0.0227
+name,Via Castel Tialto,1,0.0227
+name,Via Cavedalone,1,0.0227
+name,Via Celincordia,1,0.0227
+name,Via Celletta,1,0.0227
+name,Via Celletta Roccari,1,0.0227
+name,Via Centotrecento,1,0.0227
+name,Via Cerchio,1,0.0227
+name,Via Cesare Terranova,1,0.0227
+name,Via Cesarea,1,0.0227
+name,Via Cesenatico,1,0.0227
+name,Via Ciro Menotti,1,0.0227
+name,Via Cogollo,1,0.0227
+name,Via Colombarone,1,0.0227
+name,Via Colombarone Canale,1,0.0227
+name,Via Comandini,1,0.0227
+name,Via Conca,1,0.0227
+name,Via Corecchio,1,0.0227
+name,Via Cornacchia,1,0.0227
+name,Via Corriera,1,0.0227
+name,Via Cortina Provinciale,1,0.0227
+name,Via Croara,1,0.0227
+name,Via Cuffiano e Fantaguzzi,1,0.0227
+name,Via Cuorbalestro,1,0.0227
+name,Via Curte,1,0.0227
+name,Via Dante Alighieri,1,0.0227
+name,Via De' Pepoli,1,0.0227
+name,Via De' Toschi,1,0.0227
+name,Via Decumana,1,0.0227
+name,Via Delfino Insolera,1,0.0227
+name,Via Destra del Porto,1,0.0227
+name,Via Dieci Martiri,1,0.0227
+name,Via Dismano,1,0.0227
+name,Via Domenico Bianchini,1,0.0227
+name,Via Domenico Biancolelli,1,0.0227
+name,Via Domenico Majocchi,1,0.0227
+name,Via Domenico Veronesi,1,0.0227
+name,Via Don Francesco Gianstefani,1,0.0227
+name,Via Donegallia,1,0.0227
+name,Via Dugliolo,1,0.0227
+name,Via Egnazia,1,0.0227
+name,Via Elena Rocca,1,0.0227
+name,Via Elledena,1,0.0227
+name,Via Emilia Interna,1,0.0227
+name,Via Emilio Alessandrini,1,0.0227
+name,Via Enea Burattoni,1,0.0227
+name,Via Enrico Berlinguer,1,0.0227
+name,Via Enrico Golinelli,1,0.0227
+name,Via Entirate,1,0.0227
+name,Via Ercolina Bagnari,1,0.0227
+name,Via Eugenio Baldi,1,0.0227
+name,Via Faentina Nord,1,0.0227
+name,Via Fantuzza,1,0.0227
+name,Via Faustino Malaguti,1,0.0227
+name,Via Federigo Enriques,1,0.0227
+name,Via Felice Battaglia,1,0.0227
+name,Via Felice Orsini,1,0.0227
+name,Via Ferdinando Magellano,1,0.0227
+name,Via Ferragù,1,0.0227
+name,Via Filippo Argelati,1,0.0227
+name,Via Firenze,1,0.0227
+name,Via Fiumicello,1,0.0227
+name,Via Flavio Gioia,1,0.0227
+name,Via Fonde,1,0.0227
+name,Via Formella Inferiore,1,0.0227
+name,Via Fossa,1,0.0227
+name,Via Fossetta Prati,1,0.0227
+name,Via Francesco Cavazza,1,0.0227
+name,Via Francesco Cavazzoni,1,0.0227
+name,Via Francesco Negri,1,0.0227
+name,Via Francesco Zanardi,1,0.0227
+name,Via Franco Bolognese,1,0.0227
+name,Via Fratelli Cairoli,1,0.0227
+name,Via Fratelli Rosselli,1,0.0227
+name,Via Frullo,1,0.0227
+name,Via G. da Vernano,1,0.0227
+name,Via Gaetano Brussi,1,0.0227
+name,Via Gaetano Donizetti,1,0.0227
+name,Via Galassa,1,0.0227
+name,Via Gallo Marcucci,1,0.0227
+name,Via Garampa,1,0.0227
+name,Via Gardizza,1,0.0227
+name,Via Garofalo,1,0.0227
+name,Via Gaspare Mattioli,1,0.0227
+name,Via Gaspare Nadi,1,0.0227
+name,Via Giacomo Brodolini,1,0.0227
+name,Via Gianbattista Martini,1,0.0227
+name,Via Giovanna Zaccherini Alvisi,1,0.0227
+name,Via Giovanni Battista de Rolandis,1,0.0227
+name,Via Giovanni Cerbai,1,0.0227
+name,Via Giovanni Falcone,1,0.0227
+name,Via Giovanni Fattori,1,0.0227
+name,Via Giovanni Francesco Barbieri,1,0.0227
+name,Via Giovanni Garzoni,1,0.0227
+name,Via Giovanni Guareschi,1,0.0227
+name,Via Giovanni Pascoli,1,0.0227
+name,Via Giovanni Segantini,1,0.0227
+name,Via Giovanni Spataro,1,0.0227
+name,Via Giovine Italia,1,0.0227
+name,Via Girolamo Frescobaldi,1,0.0227
+name,Via Girolamo Mercuriale,1,0.0227
+name,Via Girotto Guaccimanni,1,0.0227
+name,Via Giulio Alberoni,1,0.0227
+name,Via Giulio Gaist,1,0.0227
+name,Via Giuseppe Brini,1,0.0227
+name,Via Giuseppe Di Vittorio,1,0.0227
+name,Via Giuseppe Galletti,1,0.0227
+name,Via Giuseppe Impastato,1,0.0227
+name,Via Giuseppe Siboni,1,0.0227
+name,Via Giuseppe Verdi,1,0.0227
+name,Via Grilli,1,0.0227
+name,Via Guido Guinizelli,1,0.0227
+name,Via Honorè De Balzac,1,0.0227
+name,Via Ilario Paglierani,1,0.0227
+name,Via Imola,1,0.0227
+name,Via Ines Bedeschi,1,0.0227
+name,Via Innocenzo Malvasia,1,0.0227
+name,Via Jacopo Della Lana,1,0.0227
+name,Via Lamone,1,0.0227
+name,Via Legnana,1,0.0227
+name,Via Licinia,1,0.0227
+name,Via Livio Zambeccari,1,0.0227
+name,Via Lodovico Berti,1,0.0227
+name,Via Lombardia,1,0.0227
+name,Via Lugo,1,0.0227
+name,Via Luigi Bombicci,1,0.0227
+name,Via Luigi Pasteur,1,0.0227
+name,Via Luigi Pirandello,1,0.0227
+name,Via Luigi Serra,1,0.0227
+name,Via Luigi e Francesco Matteucci,1,0.0227
+name,Via Lume,1,0.0227
+name,Via Macannone,1,0.0227
+name,Via Maccanone,1,0.0227
+name,Via Madonna del Fuoco,1,0.0227
+name,Via Madonna del fiore,1,0.0227
+name,Via Madonna dello Zotto,1,0.0227
+name,Via Malcontenti,1,0.0227
+name,Via Malpertuso,1,0.0227
+name,Via Malvezza,1,0.0227
+name,Via Mandriole,1,0.0227
+name,Via Maratoni,1,0.0227
+name,Via Marcello Valgimigli,1,0.0227
+name,Via Marescalchi,1,0.0227
+name,Via Marino Dalmonte,1,0.0227
+name,Via Marsala,1,0.0227
+name,Via Martelli,1,0.0227
+name,Via Martiri di Marzabotto,1,0.0227
+name,Via Martiri di Piazza Fontana,1,0.0227
+name,Via Massimo Villa,1,0.0227
+name,Via Matalardo,1,0.0227
+name,Via Mavoncello,1,0.0227
+name,Via Mella,1,0.0227
+name,Via Melozzo da Forlì,1,0.0227
+name,Via Michele Medici,1,0.0227
+name,Via Minarda,1,0.0227
+name,Via Mirandola,1,0.0227
+name,Via Mondaniga,1,0.0227
+name,Via Montello,1,0.0227
+name,Via Mura di Porta Galliera,1,0.0227
+name,Via Naldi,1,0.0227
+name,Via Nino Benati,1,0.0227
+name,Via Nullo Bandini,1,0.0227
+name,Via Odone Belluzzi,1,0.0227
+name,Via Oliveta,1,0.0227
+name,Via Orto del Fuoco,1,0.0227
+name,Via Ossi,1,0.0227
+name,Via P. Ridolfi,1,0.0227
+name,Via Padre Francesco Maria Grimaldi,1,0.0227
+name,Via Palazzina,1,0.0227
+name,Via Pallada,1,0.0227
+name,Via Palmieri,1,0.0227
+name,Via Palmiro Togliatti,1,0.0227
+name,Via Paride Pasquali,1,0.0227
+name,Via Pedrignone,1,0.0227
+name,Via Pelagio Palagi,1,0.0227
+name,Via Pier Antonio Rappini,1,0.0227
+name,Via Pier De' Crescenzi,1,0.0227
+name,Via Pier Jacopo Martello,1,0.0227
+name,Via Pietrarubbia,1,0.0227
+name,Via Pietro Antonio Cataldi,1,0.0227
+name,Via Pietro Gobetti,1,0.0227
+name,Via Pietro Gubellini,1,0.0227
+name,Via Pilastrino,1,0.0227
+name,Via Po,1,0.0227
+name,Via Poggio,1,0.0227
+name,Via Pomponia,1,0.0227
+name,Via Ponte Rabbi,1,0.0227
+name,Via Porta Pia,1,0.0227
+name,Via Portazza,1,0.0227
+name,Via Portolani,1,0.0227
+name,Via Prada,1,0.0227
+name,Via Primavera,1,0.0227
+name,Via Primo Maggio,1,0.0227
+name,Via Primo Targhini,1,0.0227
+name,Via Principessa Carolina Amalia Di Brunswick,1,0.0227
+name,Via Pristanskov,1,0.0227
+name,Via Provinciale Garampa,1,0.0227
+name,Via Provinciale Selice,1,0.0227
+name,Via Pugliese,1,0.0227
+name,Via Quirino Di Marzio,1,0.0227
+name,Via Raspona,1,0.0227
+name,Via Reale Lavezzola,1,0.0227
+name,Via Renaccio,1,0.0227
+name,Via Renata Viganò,1,0.0227
+name,Via Renato Medri,1,0.0227
+name,Via Reno,1,0.0227
+name,Via Repubblica,1,0.0227
+name,Via Rimini,1,0.0227
+name,Via Rino Laghi,1,0.0227
+name,Via Rino Pancaldi,1,0.0227
+name,Via Rio Marano,1,0.0227
+name,Via Roberto Koch,1,0.0227
+name,Via Rodolfo Mondolfo,1,0.0227
+name,Via Rolandino,1,0.0227
+name,Via Rondanina,1,0.0227
+name,Via Rosa,1,0.0227
+name,Via Rossetta,1,0.0227
+name,Via Runzi,1,0.0227
+name,Via Rustica,1,0.0227
+name,Via Sacchi,1,0.0227
+name,Via Sampieri,1,0.0227
+name,Via San Giovanni alla Murata,1,0.0227
+name,Via San Leo,1,0.0227
+name,Via San Mamante,1,0.0227
+name,Via San Mamolo,1,0.0227
+name,Via San Mauro,1,0.0227
+name,Via San Nicolò di Villola,1,0.0227
+name,Via San Ruffillo,1,0.0227
+name,Via San Savino,1,0.0227
+name,Via San Vitale Est,1,0.0227
+name,Via Sant'Andrea,1,0.0227
+name,Via Sant'Isaia,1,0.0227
+name,Via Santa,1,0.0227
+name,Via Santa Apollonia,1,0.0227
+name,Via Sante Vincenzi,1,0.0227
+name,Via Sardegna,1,0.0227
+name,Via Sauro Babini,1,0.0227
+name,Via Sbarra,1,0.0227
+name,Via Secondo Guidi,1,0.0227
+name,Via Serrano,1,0.0227
+name,Via Silvestro Lega,1,0.0227
+name,Via Spreti,1,0.0227
+name,Via Stelloni,1,0.0227
+name,Via Stradelli Guelfi,1,0.0227
+name,Via Strocca di San Biagio,1,0.0227
+name,Via Tagliata,1,0.0227
+name,Via Tanari Vecchia,1,0.0227
+name,Via Tenuta,1,0.0227
+name,Via Tertulla Rubria,1,0.0227
+name,Via Togliatti,1,0.0227
+name,Via Tolara di Sotto,1,0.0227
+name,Via Tombe dei Tori,1,0.0227
+name,Via Tommaso Tamberlicchi,1,0.0227
+name,Via Torelli,1,0.0227
+name,Via Torre,1,0.0227
+name,Via Trario,1,0.0227
+name,Via Tre Pertiche,1,0.0227
+name,Via Trento,1,0.0227
+name,Via Tullio Levi Civita,1,0.0227
+name,Via Ugo Foscolo,1,0.0227
+name,Via Ugo Piazza,1,0.0227
+name,Via Valle Di Preda,1,0.0227
+name,Via Valzania,1,0.0227
+name,Via Vecchia Marecchia,1,0.0227
+name,Via Verde,1,0.0227
+name,Via Viazza,1,0.0227
+name,Via Viazza in Destra,1,0.0227
+name,Via Vico,1,0.0227
+name,Via Vincenzo Bellini,1,0.0227
+name,Via Vittorio Bigari,1,0.0227
+name,Via Vivaldi,1,0.0227
+name,Via Walter Tobagi,1,0.0227
+name,Via Wiligelmo,1,0.0227
+name,Via XX ottobre 1944,1,0.0227
+name,Via Zagarelli alle mura,1,0.0227
+name,Via Zaniolo,1,0.0227
+name,Via Zauli Naldi,1,0.0227
+name,Via Zena,1,0.0227
+name,Via argine Montone,1,0.0227
+name,Via argine destro fiume Ronco,1,0.0227
+name,Via de La Birra,1,0.0227
+name,Via de' Coltellini,1,0.0227
+name,Via de' Falegnami,1,0.0227
+name,Via de' Musei,1,0.0227
+name,Via de' Pignattari,1,0.0227
+name,Via degli Angeli,1,0.0227
+name,Via degli Scariolanti,1,0.0227
+name,Via dei Carrettieri,1,0.0227
+name,Via dei Glicini,1,0.0227
+name,Via dei Lamponi,1,0.0227
+name,Via dei Mulini,1,0.0227
+name,Via dei Poggi,1,0.0227
+name,Via dei Santi,1,0.0227
+name,Via dei Saraceni,1,0.0227
+name,Via dei Tre Lati,1,0.0227
+name,Via del Fabbro,1,0.0227
+name,Via del Gomito,1,0.0227
+name,Via del Macello,1,0.0227
+name,Via del Marchesato,1,0.0227
+name,Via del Pallone,1,0.0227
+name,Via del Pino,1,0.0227
+name,Via del Porto,1,0.0227
+name,Via del Riccio,1,0.0227
+name,Via del Ristoro,1,0.0227
+name,Via del Santuario,1,0.0227
+name,Via del Tesoro,1,0.0227
+name,Via del Timavo,1,0.0227
+name,Via dell'Artigianato,1,0.0227
+name,Via della Barca,1,0.0227
+name,Via della Beverara,1,0.0227
+name,Via della Cesoia,1,0.0227
+name,Via della Collina,1,0.0227
+name,Via della Ferrovia,1,0.0227
+name,Via della Fossetta,1,0.0227
+name,Via della Libertà,1,0.0227
+name,Via della Scaletta,1,0.0227
+name,Via delle Armi,1,0.0227
+name,Via delle Ginestre,1,0.0227
+name,Via delle Tovaglie,1,0.0227
+name,Via delle Ventisette,1,0.0227
+name,Via destra Canale Molinetto,1,0.0227
+name,Via di Corticella,1,0.0227
+name,Via di Gaibola,1,0.0227
+name,Via di Tagliacane,1,0.0227
+name,Via di Villa Pardo,1,0.0227
+name,Via don Romeo Bagattoni,1,0.0227
+name,Via sotto Rigossa,1,0.0227
+name,Viaggi Cabiria,1,0.0227
+name,Viale Bidente,1,0.0227
+name,Viale Elio Assirelli,1,0.0227
+name,Viale Firenze,1,0.0227
+name,Viale Giambattista Ercolani,1,0.0227
+name,Viale Luigi Rava,1,0.0227
+name,Viale Pepoli,1,0.0227
+name,Viale Umberto Primo,1,0.0227
+name,Viale Zara,1,0.0227
+name,Viale dodici Giugno,1,0.0227
+name,Viale lungo il muro di Cinta,1,0.0227
+name,Vicolo B. Brignani,1,0.0227
+name,Vicolo Fabbri,1,0.0227
+name,Vicolo Gangaiolo,1,0.0227
+name,Vicolo Monticelli,1,0.0227
+name,Vicolo Pasolini,1,0.0227
+name,Vicolo San Francesco,1,0.0227
+name,Vicolo San Sebastiano,1,0.0227
+name,Vicolo Spirito Santo,1,0.0227
+name,Vicolo Torre,1,0.0227
+name,Vicolo Trebisonda,1,0.0227
+name,Vicolo Viazzolo,1,0.0227
+name,Vicolo dell'Orto,1,0.0227
+name,Victoria,1,0.0227
+name,Villa Cicogna,1,0.0227
+name,Villa San Giuseppe,1,0.0227
+name,Virano,1,0.0227
+name,Virtus Point,1,0.0227
+name,Vision,1,0.0227
+name,Vittorio,1,0.0227
+name,Vittorio Emmanuele,1,0.0227
+name,Vivai Fabbri,1,0.0227
+name,Vladigal,1,0.0227
+name,WC - Servizi Igienici - Toilet - Port'Aurea,1,0.0227
+name,White,1,0.0227
+name,Wind,1,0.0227
+name,X Mistero Doloroso,1,0.0227
+name,XI Mistero Glorioso,1,0.0227
+name,XII Mistero Glorioso,1,0.0227
+name,Z,1,0.0227
+name,Z&H,1,0.0227
+name,Zanarini,1,0.0227
+name,Zanhotel Regina,1,0.0227
+name,Zanhotel Tre Vecchi,1,0.0227
+name,Zara,1,0.0227
+name,Zeus,1,0.0227
+name,Zona Artigianale di Castel Bolognese,1,0.0227
+name,Zona T,1,0.0227
+name,Zottino,1,0.0227
+name,Zuiki,1,0.0227
+name,Zushi,1,0.0227
+name,ciclabile Chiavica-Bubano-Mordano,1,0.0227
+name,dell'Angelo,1,0.0227
+name,eXtraBO,1,0.0227
+name,ex Serre Comunali,1,0.0227
+name,famila,1,0.0227
+name,il tavolaccio,1,0.0227
+name,l'Arte del Bagno,1,0.0227
+name,moustache bar e cucina,1,0.0227
+name,palazzina in Santa Tecla,1,0.0227
+name,tabacchi,1,0.0227
+name,vicolo becchi tognini,1,0.0227
+name,villa spada,1,0.0227
+natural,tree,8678,92.3191
+natural,water,379,4.0319
+natural,tree_row,267,2.8404
+natural,wood,25,0.266
+natural,grassland,19,0.2021
+natural,scrub,18,0.1915
+natural,peak,5,0.0532
+natural,riverbed,4,0.0426
+natural,scree,3,0.0319
+natural,sand,1,0.0106
+natural,wetland,1,0.0106
+surface,asphalt,2258,73.1454
+surface,paving_stones,242,7.8393
+surface,sett,146,4.7295
+surface,concrete,102,3.3042
+surface,ground,76,2.4619
+surface,unpaved,62,2.0084
+surface,paved,59,1.9112
+surface,gravel,44,1.4253
+surface,grass,21,0.6803
+surface,flagging,13,0.4211
+surface,compacted,12,0.3887
+surface,fine_gravel,11,0.3563
+surface,unhewn_cobblestone,9,0.2915
+surface,pebblestone,7,0.2268
+surface,clay,6,0.1944
+surface,cobblestone:flattened,5,0.162
+surface,dirt,4,0.1296
+surface,cement,3,0.0972
+surface,concrete:plates,2,0.0648
+surface,metal,2,0.0648
+surface,cobblestone,1,0.0324
+surface,grass_paver,1,0.0324
+surface,rock,1,0.0324
+waterway,stream,96,40.678
+waterway,drain,69,29.2373
+waterway,river,31,13.1356
+waterway,canal,21,8.8983
+waterway,ditch,17,7.2034
+waterway,dam,2,0.8475

@@ -1,0 +1,81 @@
+key,value,count,percent_of_total_changes_for_key
+amenity,school,2142,12.5102
+amenity,parking,1890,11.0384
+amenity,place_of_worship,1823,10.6471
+amenity,drinking_water,1590,9.2863
+amenity,restaurant,976,5.7003
+amenity,toilets,858,5.0111
+amenity,bench,487,2.8443
+amenity,pharmacy,443,2.5873
+amenity,hospital,423,2.4705
+amenity,gambling,380,2.2194
+building,yes,411240,92.4575
+building,construction,12307,2.7669
+building,house,6590,1.4816
+building,residential,5439,1.2228
+building,commercial,2810,0.6318
+building,apartments,976,0.2194
+building,school,851,0.1913
+building,church,534,0.1201
+building,industrial,402,0.0904
+building,roof,306,0.0688
+highway,residential,22309,21.3833
+highway,unclassified,12993,12.4539
+highway,track,10506,10.0701
+highway,footway,8462,8.1109
+highway,path,7057,6.7642
+highway,service,5956,5.7089
+highway,tertiary,5932,5.6859
+highway,crossing,5452,5.2258
+highway,secondary,4203,4.0286
+highway,primary,3746,3.5906
+landuse,residential,3789,39.8507
+landuse,farmland,1721,18.1005
+landuse,grass,672,7.0677
+landuse,forest,549,5.7741
+landuse,industrial,471,4.9537
+landuse,orchard,335,3.5233
+landuse,farmyard,273,2.8713
+landuse,construction,255,2.682
+landuse,meadow,169,1.7775
+landuse,salt_pond,148,1.5566
+name,महेन्द्र राज्मार्ग्,374,0.5906
+name,Tangenziale di Bologna,206,0.3253
+name,Via Emilia,196,0.3095
+name,Strada Statale 3 bis Tiberina,176,0.2779
+name,Bologna-Firenze (direttissima),164,0.259
+name,Building,162,0.2558
+name,building,152,0.24
+name,Route Nationale # 2,130,0.2053
+name,Mahendra Highway,128,0.2021
+name,Via Emilia Levante,125,0.1974
+natural,tree,4601,52.9825
+natural,water,1114,12.8282
+natural,wood,808,9.3045
+natural,glacier,437,5.0322
+natural,coastline,347,3.9959
+natural,tree_row,270,3.1092
+natural,sand,211,2.4298
+natural,peak,183,2.1073
+natural,scrub,179,2.0613
+natural,shingle,121,1.3934
+surface,asphalt,19613,60.2346
+surface,ground,4617,14.1795
+surface,unpaved,2094,6.431
+surface,paved,1585,4.8678
+surface,dirt,961,2.9514
+surface,paving_stones,909,2.7917
+surface,gravel,757,2.3249
+surface,sett,450,1.382
+surface,unspecified,300,0.9213
+surface,concrete,270,0.8292
+waterway,stream,4627,53.5161
+waterway,river,2285,26.4284
+waterway,drain,725,8.3854
+waterway,canal,443,5.1238
+waterway,ditch,265,3.065
+waterway,riverbank,241,2.7874
+waterway,dam,22,0.2545
+waterway,lock_gate,13,0.1504
+waterway,waterfall,11,0.1272
+waterway,weir,9,0.1041

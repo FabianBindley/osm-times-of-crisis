@@ -1,0 +1,79 @@
+key,value,count,percent_of_total_changes_for_key
+amenity,social_facility,1,100.0
+building,detached,13,52.0
+building,yes,10,40.0
+building,house,2,8.0
+highway,footway,30,20.0
+highway,cycleway,28,18.6667
+highway,primary,18,12.0
+highway,crossing,14,9.3333
+highway,residential,12,8.0
+highway,service,12,8.0
+highway,trunk,10,6.6667
+highway,unclassified,9,6.0
+highway,bus_stop,3,2.0
+highway,secondary,3,2.0
+highway,path,2,1.3333
+highway,pedestrian,2,1.3333
+highway,turning_circle,2,1.3333
+highway,construction,1,0.6667
+highway,give_way,1,0.6667
+highway,steps,1,0.6667
+highway,tertiary,1,0.6667
+highway,track,1,0.6667
+landuse,forest,3,20.0
+landuse,residential,3,20.0
+landuse,industrial,2,13.3333
+landuse,meadow,2,13.3333
+landuse,railway,2,13.3333
+landuse,retail,2,13.3333
+landuse,allotments,1,6.6667
+name,High Street,8,11.1111
+name,Eleanor Cross Road,6,8.3333
+name,Great Cambridge Road,6,8.3333
+name,Monarch's Way,5,6.9444
+name,Abbey Road,3,4.1667
+name,Monarchs Way,3,4.1667
+name,Rye House Substation,3,4.1667
+name,Asda,2,2.7778
+name,Cherry Tree Road,2,2.7778
+name,High Road,2,2.7778
+name,Highbridge Street,2,2.7778
+name,Lee Valley Dobbs Weir,2,2.7778
+name,Mallow Walk,2,2.7778
+name,Sheredes Drive,2,2.7778
+name,The Co-operative Food,2,2.7778
+name,ARG,1,1.3889
+name,Bassingbourne Close,1,1.3889
+name,Broxbourne Railway Station,1,1.3889
+name,Burton Lane,1,1.3889
+name,Co-op Food,1,1.3889
+name,Elizabeth Gardens,1,1.3889
+name,Garnier,1,1.3889
+name,Jubilee Close,1,1.3889
+name,Mandeville Close,1,1.3889
+name,Marks & Spencer,1,1.3889
+name,Mill Lane Allotments,1,1.3889
+name,PCL North London,1,1.3889
+name,Parkwood Close,1,1.3889
+name,Ratty's Lane Sustainable Energy Facility,1,1.3889
+name,Select,1,1.3889
+name,St James's Road,1,1.3889
+name,TFC,1,1.3889
+name,The Chadwick,1,1.3889
+name,Top Field and Cozens Grove Local Nature Reserve,1,1.3889
+name,Waltham Cross Bus Station,1,1.3889
+name,Waltham Cross Motorcycles,1,1.3889
+name,Whitehaven Close,1,1.3889
+natural,scrub,4,40.0
+natural,water,4,40.0
+natural,wood,2,20.0
+surface,asphalt,62,77.5
+surface,dirt,7,8.75
+surface,paving_stones,5,6.25
+surface,grass,2,2.5
+surface,wood,2,2.5
+surface,compacted,1,1.25
+surface,unpaved,1,1.25
+waterway,stream,3,75.0
+waterway,canal,1,25.0

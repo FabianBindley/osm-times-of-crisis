@@ -14,3 +14,7 @@ ORDER BY usage_count DESC, key;
 
 SELECT COUNT(*) FROM changes WHERE tags ? 'idp:source_20150427' ;
 
+SELECT DISTINCT tags
+FROM changes
+WHERE tags::jsonb ? 'ref'
+LIMIT 10;

@@ -18,7 +18,7 @@ def get_key_counts():
         writer = csv.DictWriter(csv_file, fieldnames=headers)
         writer.writeheader()
         for res in tag_keys:
-            writer.writerow({"key": res[0], "count": res[1], "percent_of_total_changes": round(res[1]/total_changes * 100, 2)})
+            writer.writerow({"key": res[0], "count": res[1], "percent_of_total_changes": round(res[1]/total_changes * 100, 4)})
 
     os.makedirs(f"visualisation-site/public/TagInvestigation/summary/", exist_ok=True)
     visualisation_file_path = f"visualisation-site/public/TagInvestigation/summary/unique_tag_keys_count_all.csv"
@@ -53,7 +53,7 @@ def get_tag_key_usage_for_disaster(disaster_id, disaster_date, pre_disaster_days
             writer.writeheader()
 
             for res in tag_keys:
-                writer.writerow({"key": res[0], "count": res[1], "percent_of_total_changes": round(res[1]/full_periods_change_count.iloc[row_index]["total"] * 100, 2)})
+                writer.writerow({"key": res[0], "count": res[1], "percent_of_total_changes": round(res[1]/full_periods_change_count.iloc[row_index]["total"] * 100, 4)})
 
         visualisation_file_path = f"visualisation-site/public/TagInvestigation/disaster{disaster_id}/unique_tag_keys_count_{interval}.csv"
         shutil.copyfile(file_path, visualisation_file_path)
@@ -82,7 +82,7 @@ def top_n_tag_keys_for_period(n, period, disaster_ids, pre_disaster_days, imm_di
         writer.writeheader()
         row_index = 0 if period == "pre" else 1 if period == "imm" else 2
         for tuple in all_keys:
-            writer.writerow({"key": tuple[0], "count": tuple[1], "percent_of_total_changes": round(tuple[1]/full_periods_change_count.iloc[row_index]["total"]  * 100, 2)})
+            writer.writerow({"key": tuple[0], "count": tuple[1], "percent_of_total_changes": round(tuple[1]/full_periods_change_count.iloc[row_index]["total"]  * 100, 4)})
 
     os.makedirs(f"visualisation-site/public/TagInvestigation/summary/top_{n}_keys/", exist_ok=True)
     visualisation_file_path = f"visualisation-site/public/TagInvestigation/summary/top_{n}_keys/{period}.csv"
@@ -102,7 +102,7 @@ if __name__ == "__main__":
         (_, disaster_country, disaster_area, _, disaster_date, _ ) = db_utils.get_disaster_with_id(disaster_id)
         get_tag_key_usage_for_disaster(disaster_id, disaster_date, 365, 30, 365)
 
-    nums = [10, 25, 100, 200]
+    nums = [10, 25, 100]
     disaster_ids =  [2,3,4,5,6]
     
     print("Getting top n tag keys for periods")
