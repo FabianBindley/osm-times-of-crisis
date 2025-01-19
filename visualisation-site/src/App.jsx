@@ -31,7 +31,7 @@ function App() {
       >
         <Menu.Item key="changeCounting">Change Counting</Menu.Item>
         <Menu.Item key="changeDensityMapping">Change Density Mapping</Menu.Item>
-        <Menu.Item key="tagWordCloud">Tag Word Cloud</Menu.Item>
+        <Menu.Item key="tagWordCloud">Tag Keys and Values</Menu.Item>
       </Menu>
 
       {/* Conditional Rendering Based on Selected Tab */}
