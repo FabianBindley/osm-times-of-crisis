@@ -6,6 +6,7 @@ import { Menu } from "antd";
 import ChangeDensityMapping from "./ChangeDensityMapping";
 import ChangeCounting from "./ChangeCounting";
 import Tags from "./Tags";
+import About from "./About";
 
 function App() {
   const [currentTab, setCurrentTab] = useState(localStorage.getItem("currentTab") ? localStorage.getItem("currentTab") : "changeDensityMapping");
@@ -32,6 +33,7 @@ function App() {
         <Menu.Item key="changeCounting">Change Counting</Menu.Item>
         <Menu.Item key="changeDensityMapping">Change Density Mapping</Menu.Item>
         <Menu.Item key="tagWordCloud">Tag Keys and Values</Menu.Item>
+        <Menu.Item key="about">About</Menu.Item>
       </Menu>
 
       {/* Conditional Rendering Based on Selected Tab */}
@@ -39,6 +41,7 @@ function App() {
         {currentTab === "changeCounting" && <ChangeCounting />}
         {currentTab === "changeDensityMapping" && <ChangeDensityMapping />}
         {currentTab === "tagWordCloud" && <Tags />}
+        {currentTab === "about" && <About />}
       </div>
     </div>
   );

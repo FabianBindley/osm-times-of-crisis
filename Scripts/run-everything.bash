@@ -15,6 +15,9 @@ run_script() {
     echo "----------------------------------"
 }
 
+# Double check data integrity
+run_script "scripts/database/db_geojson_filtering.py"
+
 # Lower level map count scripts
 #run_script "scripts/research_tools/count_changes_lower/count_changes_lower.py"
 #run_script "scripts/research_tools/count_changes_lower/generate_maps_count_changes.py"
@@ -31,5 +34,5 @@ run_script() {
 
 
 # RQ2 - Tags 
-#run_script "scripts/research_tools/investigate_tags/initial_tag_key_investigation.py"
+run_script "scripts/research_tools/investigate_tags/initial_tag_key_investigation.py"
 run_script "scripts/research_tools/investigate_tags/tag_value_investigation.py"
