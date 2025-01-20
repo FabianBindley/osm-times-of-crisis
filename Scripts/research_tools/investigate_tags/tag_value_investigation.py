@@ -16,7 +16,7 @@ def get_key_value_counts(keys):
 
     tag_values = db_utils.get_tag_key_value_usage(keys)
 
-    file_path = f"./Results/TagInvestigation/summary/unique_tag_key_values_count_all.csv"
+    file_path = f"./Results/TagInvestigation/summary/tag_key_values_count_all.csv"
     headers = ["key","value","count", "percent_of_total_changes_for_key"]
     with open(file_path, mode="w", newline='', encoding="utf-8") as csv_file:
         writer = csv.DictWriter(csv_file, fieldnames=headers)
@@ -60,7 +60,7 @@ def get_key_value_counts(keys):
 def get_top_n_values_for_keys_all_periods(n):
 
     # For all Periods:
-    tag_key_values = pd.read_csv("./Results/TagInvestigation/summary/unique_tag_key_values_count_all.csv")
+    tag_key_values = pd.read_csv("./Results/TagInvestigation/summary/tag_key_values_count_all.csv")
 
     # Group by 'key' and get the top N values for each group
     top_n_key_values = (
@@ -69,12 +69,12 @@ def get_top_n_values_for_keys_all_periods(n):
     )
 
     # Save the result to a CSV file
-    os.makedirs("./Results/TagInvestigation/summary/top_n_tag_key_values/all_periods", exist_ok=True)
+    os.makedirs("./Results/TagInvestigation/summary/top_n_tag_key_values", exist_ok=True)
     file_path = f"./Results/TagInvestigation/summary/top_n_tag_key_values/top_{n}_tag_key_values.csv"
     top_n_key_values.to_csv(file_path, index=False)
 
     # Optionally copy the result to the visualization directory
-    os.makedirs("visualisation-site/public/TagInvestigation/summary/top_n_tag_key_values/all_periods", exist_ok=True)
+    os.makedirs("visualisation-site/public/TagInvestigation/summary/top_n_tag_key_values", exist_ok=True)
     shutil.copyfile(file_path, f"visualisation-site/public/TagInvestigation/summary/top_n_tag_key_values/top_{n}_tag_key_values.csv")
 
 def get_top_n_values_for_keys_period(keys, n, period, disaster_ids):
@@ -186,7 +186,7 @@ if __name__ == "__main__":
     db_utils.db_connect()
 
     print("Getting key value counts")
-    specified_keys = ["building","highway","name","surface","amenity","landuse","waterway","natural"]
+    specified_keys = ["building","highway","source","name","surface","amenity","landuse","waterway","natural"]
     get_key_value_counts(specified_keys)
 
     nums = [10, 25, 100]
@@ -194,7 +194,7 @@ if __name__ == "__main__":
 
     for n in nums:
         get_top_n_values_for_keys_all_periods(n)
-        pass
+        
 
     print("Getting tag key,value pairs for individual disasters")
     for disaster_id in disaster_ids:

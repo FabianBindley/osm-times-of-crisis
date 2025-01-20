@@ -97,7 +97,7 @@ if __name__ == "__main__":
     db_utils = DB_Utils()
     db_utils.db_connect()
 
-    specified_keys = ["building","highway","name","surface","amenity","landuse","waterway","natural"]
+    specified_keys = ["building","highway","source","name","surface","amenity","landuse","waterway","natural"]
     disaster_ids =  [2,3,4,5,6]
 
     print("Getting all disaster correlation metrics")

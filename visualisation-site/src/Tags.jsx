@@ -18,7 +18,7 @@ export default function Tags() {
         "Nepal Earthquake | 2015",
       ];
 
-    const keys_for_key_values = ["building","highway","name","surface","amenity","landuse","waterway","natural"]
+    const keys_for_key_values = ["building","highway","source","name","surface","amenity","landuse","waterway","natural"]
 
     const handleChangePeriodSelection = (key) => {
         setPeriodSelection(key);
@@ -59,7 +59,7 @@ export default function Tags() {
         else {
             if (disasterSelection == "all" & periodSelection=="all")
             {
-                return "/TagInvestigation/summary/unique_tag_key_values_count_all.csv"
+                return "/TagInvestigation/summary/tag_key_values_count_all.csv"
             }
             else if (disasterSelection=="all") {
                 return `/TagInvestigation/summary/top_n_tag_key_values/top_100_key_values/${periodSelection}.csv`

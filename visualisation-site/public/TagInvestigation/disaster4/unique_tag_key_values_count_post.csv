@@ -5588,6 +5588,548 @@ natural,cave_entrance,1,0.097
 natural,headland,1,0.097
 natural,mud,1,0.097
 natural,spring,1,0.097
+source,CNIGS/OIM/ FOCS,5316,24.3898
+source,Bing,3482,15.9754
+source,Digital Globe Maps API,1231,5.6478
+source,Cosmha/Cartong,1156,5.3037
+source,bing,1104,5.0651
+source,haiti-tlm-50,898,4.12
+source,GeoEye,757,3.4731
+source,B ing With Offset,463,2.1242
+source,Bing with offset,391,1.7939
+source,survey,366,1.6792
+source,digitalglobe,279,1.2801
+source,DigitalGlobe,261,1.1975
+source,http://maps.nypl.org/relief/maps/20,212,0.9727
+source,Bing With Offset,195,0.8947
+source,"DigitalGlobe, 2010",168,0.7708
+source,bing 2010,166,0.7616
+source,Google 2010-01-17,160,0.7341
+source,CNIGS/OIM/FOCS,149,0.6836
+source,"UAV,IOM_COSMHA_SIGHA",128,0.5873
+source,bing with offset,127,0.5827
+source,Survey-ARC,125,0.5735
+source,"WorldBank, 2010-01-22",117,0.5368
+source,Digital Globe 2015 Canaan Haiti,113,0.5184
+source,Public Domain CIA Maps,112,0.5139
+source,1:50k topo,95,0.4359
+source,"Google, 2010-01-21",85,0.39
+source,"WorldView-2, DigitalGlobe, 2010-01-21",85,0.39
+source,Potentiel3.0 2016,83,0.3808
+source,hot_c.osm-ha_iom,79,0.3625
+source,Digital Globe,78,0.3579
+source,WorldBank 2010-01-21 - 2010-01-22,77,0.3533
+source,hot_iom_cosmha,76,0.3487
+source,drr:iom,73,0.3349
+source,b ing with offset,72,0.3303
+source,cosmha_iom,71,0.3257
+source,"GeoEye1, GeoEye, 2010-01-16",65,0.2982
+source,"<différent>,UAV,IOM,COSMHA,SIGHA",63,0.289
+source,haiti best,59,0.2707
+source,"1:50,000, Edition 2-DMA, Series E935. U.S. Defense Mapping Agency, 1987",57,0.2615
+source,"U.S. Defense Mapping Agency, 1984",53,0.2432
+source,hot_cosmha_iom,53,0.2432
+source,"CNIGS/FOCS/OIM,cosmha,drr:iom,",52,0.2386
+source,CNIGS_IOM_FOCS,51,0.234
+source,"CNIGS/OIM/FOCS,cosmha,soleil,drr:iom",49,0.2248
+source,"Google, 2010-01-17",49,0.2248
+source,Haiti 1:50k topo,49,0.2248
+source,geoeye,49,0.2248
+source,Bing with offse,48,0.2202
+source,Survey,48,0.2202
+source,Yahoo,45,0.2065
+source,Haiti TLM50,38,0.1743
+source,MINUSTAH GIS and UN Cartographic Section,38,0.1743
+source,yahoo,36,0.1652
+source,"CNIGS/FOCS/OIM,cosmha,drr:iom",35,0.1606
+source,Haiti 1:50k Topo,35,0.1606
+source,hot _c.osm-ha_iom,35,0.1606
+source,http://maps.nypl.org/relief/maps/249,35,0.1606
+source,topomap 1:50K,35,0.1606
+source,B ing with offset,34,0.156
+source,Red Cross Field Survey,34,0.156
+source,http://maps.nypl.org/relief/maps/243,33,0.1514
+source,"WorldView-2, DigitalGlobe, 2010-01-20",32,0.1468
+source,http://maps.nypl.org/relief/maps/wms/20?request=GetMap&version=1.1.1&styles=&format=image/png&srs=epsg:4326&exceptions=application/vnd.ogc.se_inimage&,32,0.1468
+source,ikonos/geoeye,31,0.1422
+source,"World Bank, 2010/01/21-2010-01/22",30,0.1376
+source,"WorldView-2, DigitalGlobe, 2010-01-18",30,0.1376
+source,Geologue Cartographe Jn Mary Nesly,28,0.1285
+source,DTM/GIS/OIM,27,0.1239
+source,CCCM,26,0.1193
+source,GeoEye_wms,25,0.1147
+source,"survey,Digital Globe 2015 canaan",25,0.1147
+source,DMA TLM-50,24,0.1101
+source,cnigslidar2015,24,0.1101
+source,http://maps.nypl.org/relief/maps/241,24,0.1101
+source,Drone imagery 2016,23,0.1055
+source,"NOAA , 2010-01-18",23,0.1055
+source,"CNIGS/FOCS/OIM,drr:iom",22,0.1009
+source,Haiti transportation map http://maps.nypl.org/relief/maps/77,22,0.1009
+source,HaitiTopo50,22,0.1009
+source,CNIGS/GIS/DTM,21,0.0963
+source,hot_OIM_che116,21,0.0963
+source,http://maps.nypl.org/relief/maps/247,21,0.0963
+source,knowledge,21,0.0963
+source,Bing; Yahoo;DigitalGlobe;GeoEye,20,0.0918
+source,"Service de géodésie et de cartographie d'Haiti. 1:100,000, 1961",20,0.0918
+source,tms[23]:http://wms.openstreetmap.fr/tms/1.0.0/haiti_2014/{zoom}/{x}/{y},20,0.0918
+source,"1:12,500, Edition 2-DMA, Series E935. U.S. Defense Mapping Agency, 1987",19,0.0872
+source,"NOAA, 2010-01-20",19,0.0872
+source,Survey_Arc,19,0.0872
+source,"U.S. Defense Mapping Agency, 1994",19,0.0872
+source,hot_iom_c.osm-ha,19,0.0872
+source,"Drone imagery, 2016",18,0.0826
+source,http://maps.nypl.org/relief/maps/244,18,0.0826
+source,"U.S. Defense Mapping Agency, 1993",17,0.078
+source,"WoldView-2, DigitalGlobe, 2010-01-21",17,0.078
+source,haiti mosaic,17,0.078
+source,iom_c.osm-ha,17,0.078
+source,local_knowledge;ikonos/geoeye,17,0.078
+source,GPS-adjusted Bing,16,0.0734
+source,"GeoEye1, GeoEye, 2010-01-13",16,0.0734
+source,Digital Globe 2015,15,0.0688
+source,digitalglobe wv2 2010-01-20,15,0.0688
+source,Cosmha_GRU,14,0.0642
+source,"UAV,IOM,COSMHA,SIGHA",14,0.0642
+source,http://maps.nypl.org/relief/maps/134,14,0.0642
+source,landsat & DigitalGlobe,14,0.0642
+source,"CIGS/OIM/FOCS;yahoo,drr:iom",13,0.0596
+source,COOPI - SIRV-SAN,13,0.0596
+source,Haitii 1:50k topo,13,0.0596
+source,"NOAA, 2010-01-24",13,0.0596
+source,bi ng with ofset,13,0.0596
+source,http://maps.nypl.org/relief/maps/246,13,0.0596
+source,http://maps.nypl.org/relief/maps/248,13,0.0596
+source,Digital Globe 2015 canaan Haiti,12,0.0551
+source,cosmha,12,0.0551
+source,haiti tranasportation map ftp://haiti:Rkjpb7uef@157.150.195.135/Maps/Country%20wide/M2K5MOVV0801HAT40R_60X42.pdf,12,0.0551
+source,"GeoEye1, GeoEye, date 2010-01-16",11,0.0505
+source,Haiti transportation map http://maps.nypl.org/relief/maps/78,11,0.0505
+source,"NOAA, 2010-01-22",11,0.0505
+source,http://maps.nypl.org/relief/maps/192,11,0.0505
+source,mapbox:ortho,11,0.0505
+source,Bing With Offfset,10,0.0459
+source,C-OSM.HA,10,0.0459
+source,WorldView2/DigitalGlobe/2010-01-21,10,0.0459
+source,http://maps.nypl.org/relief/maps/export/245,10,0.0459
+source,noaa-20100118-900913,10,0.0459
+source,"satellite, DigitalGlobe, 2010/01/18",10,0.0459
+source,CIA haiti-tlm-50,9,0.0413
+source,"Digital Globe 2015 Canaan Haiti,survery",9,0.0413
+source,GEOINT,9,0.0413
+source,IOM drone,9,0.0413
+source,http://hypercube.telascience.org/tiles/1.0.0/haiti-tlm-50/!/!/!.jpg,9,0.0413
+source,local_knowledge,9,0.0413
+source,survey; Bing,9,0.0413
+source,Bing; survey,8,0.0367
+source,DMA Topo Map 50,8,0.0367
+source,Digital Globe 2015 Saint Christophe Haiti,8,0.0367
+source,Google,8,0.0367
+source,Google 2010-01-17;iom_image2013,8,0.0367
+source,"Ikonos, GeoEye, 2010-01-17",8,0.0367
+source,Mapbox,8,0.0367
+source,"WorldView-2, DigitalGlobe, 2010/01/18",8,0.0367
+source,bing;hot_c.osm-ha_iom,8,0.0367
+source,"geoeye,USDMA",8,0.0367
+source,iom_image2013,8,0.0367
+source,"1:12,500, Edition 2-DMA, Series E935. U.S. Defense Mapping Agency, 1987;hot_c.osm-ha_iom",7,0.0321
+source,Bing; GeoEye,7,0.0321
+source,Bing;gps,7,0.0321
+source,CIA TLM 50,7,0.0321
+source,CNIGS/OIM/ FOCS_digitalglobe_drr:iom,7,0.0321
+source,CNIGS_IOM_FOCS_Survey Canaan pi Djanm,7,0.0321
+source,IOM_DRR,7,0.0321
+source,Mairie de Beaumont,7,0.0321
+source,bIng with offset,7,0.0321
+source,landsat,7,0.0321
+source,Bing;survey,6,0.0275
+source,CIA Topo Map 50,6,0.0275
+source,"Digital Globe 2015,survey",6,0.0275
+source,GeoEye1 2010-01-16,6,0.0275
+source,Haiti DMA Topo,6,0.0275
+source,Iom drone,6,0.0275
+source,PCL,6,0.0275
+source,Potentiel3.0,6,0.0275
+source,digitalglobe; Bing,6,0.0275
+source,gps,6,0.0275
+source,iom_cosmha,6,0.0275
+source,"knowledge; survey; WorldView-2; DigitalGlobe, 2010-10-20; COSMHA",6,0.0275
+source,landsat & Digital Globe,6,0.0275
+source,"yahoo,USDMA, Gret",6,0.0275
+source,2016 drone imagery,5,0.0229
+source,"<différent>,UAV,IOM,COSMHA,SIGHA;Yahoo",5,0.0229
+source,Bin sat,5,0.0229
+source,Bing Sat,5,0.0229
+source,Bing withofset,5,0.0229
+source,CIA,5,0.0229
+source,CIGS/OIM/FOCS,5,0.0229
+source,CIGS/OIM/FOCS;yahoo/drr:iom,5,0.0229
+source,"CNIGS/FOCS/OIM,cosmha,drr:iom,IOM_DRR",5,0.0229
+source,DigitalGlobe;GeoEye,5,0.0229
+source,Google 2010-10-21,5,0.0229
+source,IOM_Image_20130330,5,0.0229
+source,Mapbox Satelite,5,0.0229
+source,OIM/GIS/DTM,5,0.0229
+source,"U.S. Defense Mapping Agency, 1987",5,0.0229
+source,"UAV orthomosaic Potentiel 3.0 and SPOT6 imagery Airbus DS, Oct. 2016",5,0.0229
+source,b ing,5,0.0229
+source,b ing With Offset,5,0.0229
+source,bi ng with offset,5,0.0229
+source,bing with off set,5,0.0229
+source,bing:ortho,5,0.0229
+source,digitalglobe;worldview 2010-01-20,5,0.0229
+source,hot_iom_che116,5,0.0229
+source,hot_oim_che_116,5,0.0229
+source,http://biosurveillance.typepad.com/haiti_operational_biosurv/2012/01/pestel-situation-stabilized-haiti.html,5,0.0229
+source,iom/c.osm-ha,5,0.0229
+source,iom_cosmha_soley leve,5,0.0229
+source,local_knowledge;oif-dfen_carteinnov;survey,5,0.0229
+source,mapbox:digitalglobe,5,0.0229
+source,worldbank,5,0.0229
+source,1994 NGA Map,4,0.0184
+source,"1:100,000, 1961, The Lionel Pincus and Princess Firyal Map Division",4,0.0184
+source,2016 Canaan imagery,4,0.0184
+source,"<différent>,UAV,IOM,COSMHA,SIGHA, Projet Canaan Pi Djanm Survey",4,0.0184
+source,CNIGS/OIM/ FOCS; Bing,4,0.0184
+source,CNIGS/OIM/ FOCS; Red Cross Field Survey,4,0.0184
+source,CNIGS_IOM_FOCS;iom_image2013,4,0.0184
+source,DRA Topo Map50,4,0.0184
+source,"DigitalGlobe, 2010,Survey",4,0.0184
+source,"DigitialGlobe, 2010",4,0.0184
+source,GPS,4,0.0184
+source,Google 2010-01-17;Iom drone,4,0.0184
+source,Hotel,4,0.0184
+source,"Ikonos, GeoEye, 2010-01-15",4,0.0184
+source,JAXA/ALOS,4,0.0184
+source,"NOAA, 2010-01-24;digitalglobe;digitalglobe;digitalglobe;NOAA, 2010-01-24;digitalglobe;digitalglobe;digitalglobe;digitalglobe;digitalglobe;digitalglobe",4,0.0184
+source,"US Census Bureau, boundary import, 16/01/2010",4,0.0184
+source,USAID NextView 2013,4,0.0184
+source,USDMA,4,0.0184
+source,WorldBank 2010-01-21 - 2010-01-22;geoeye,4,0.0184
+source,"WorldView-2, DigitalGlobe, 2010-01-21;WorldView-2, DigitalGlobe, 2010-01-21;digitalglobe",4,0.0184
+source,"WorldView-2, DigitalGlobe, 2010-10-20",4,0.0184
+source,"WorldView-2, DigitalGlobe, bing with offset",4,0.0184
+source,bing with offeset,4,0.0184
+source,bing with ofset,4,0.0184
+source,estimation based on local knowledge,4,0.0184
+source,extrapolation,4,0.0184
+source,hot--cosmha_oim,4,0.0184
+source,hot_c.osm-ha_iom; bing,4,0.0184
+source,http://maps.nypl.org/relief/maps/239,4,0.0184
+source,http://maps.nypl.org/relief/maps/wms/48?request=GetMap&version=1.1.1&styles=&format=image/png&srs=epsg:4326&exceptions=application/vnd.ogc.se_inimage&,4,0.0184
+source,local_knowledge;oif-dfen_carteinnov,4,0.0184
+source,maps.nypl.org/relief/maps/warp/18,4,0.0184
+source,survey; CNIGS/GIS/DTM,4,0.0184
+source,survey; CNIGS/OIM/ FOCS,4,0.0184
+source,survey; CNIGS/OIM/FOCS,4,0.0184
+source,B ing with offeset,3,0.0138
+source,BING,3,0.0138
+source,BING_With_offset,3,0.0138
+source,Bing Wish offset,3,0.0138
+source,Bing with off set,3,0.0138
+source,"Bing; DigitalGlobe, 2010",3,0.0138
+source,CNIGS/FOCS/OIM,3,0.0138
+source,"CNIGS/FOCS/OIM,COSMHA,drr:iom",3,0.0138
+source,CNIGS/GIS/DTM; OSM-adjusted Bing,3,0.0138
+source,CNIGS/OIM/ FOCS;GeoEye,3,0.0138
+source,"CNIGS/OIM/ FOCS;WorldBank, 2010-01-22",3,0.0138
+source,DigitalGlobe; Bing with offset,3,0.0138
+source,"DigitalGlobe;digitalglobe wv2 2010-01-20, survey",3,0.0138
+source,DigitalGlobe;digitalglobe wv2 2010-01-; survey,3,0.0138
+source,DigitalGlobe;hot_cosmha_iom,3,0.0138
+source,French Wikipedia,3,0.0138
+source,GRET,3,0.0138
+source,GRU_COSMHA,3,0.0138
+source,GeoEye;Google 2010-01-17,3,0.0138
+source,"Google, 2010-01-21;GeoEye",3,0.0138
+source,IOM_DRR;iom_drr;yahoo,3,0.0138
+source,Ikonos 01-17/GeoEye,3,0.0138
+source,"Ikonos, GeoEye, 2010/01/14",3,0.0138
+source,Import - Pacific Disaster Center http://wiki.openstreetmap.org/wiki/WikiProject_Haiti/Tasks_and_Ideas/PoliceStations,3,0.0138
+source,"MINUSTAH GIS and UN Cartographic Section,drr""iom",3,0.0138
+source,NOAA,3,0.0138
+source,NOAA 2010-01-24,3,0.0138
+source,"NOAA, 2010-01-18",3,0.0138
+source,USGS topographic 1984,3,0.0138
+source,"WorldView-2, DigitalGlobe, 2010-01-21;Bing",3,0.0138
+source,bing with  offset,3,0.0138
+source,"digitalglobe, Bing with offset",3,0.0138
+source,extrapolated,3,0.0138
+source,geonames.org,3,0.0138
+source,haiti transportation map ftp://haiti:Rkjpb7uef@157.150.195.135/Maps/Country%20wide/M2K5MOVV0801HAT40R_60X42.pdf,3,0.0138
+source,iom_c-osm.ha,3,0.0138
+source,local knowledge,3,0.0138
+source,survey 2016-12-14,3,0.0138
+source,survey; GPS,3,0.0138
+source,wikipedia,3,0.0138
+source,yahoo;GeoEye,3,0.0138
+source,"1987 US DMA Map, Edition 2-DMA, Series E935",2,0.0092
+source,"<différent>,UAV,IOM,COSMHA,SIGHA, Projet Canaan Pi Djanm Survey;<différent>,UAV,IOM,COSMHA,SIGHA",2,0.0092
+source,"<différent>,UAV,IOM,COSMHA,SIGHA,Canaan pi Djanm, Survey",2,0.0092
+source,"<différent>,UAV,IOM,COSMHA,SIGHA,Survey-ARC",2,0.0092
+source,"ARC ,Survey",2,0.0092
+source,"ARC, survey",2,0.0092
+source,"ARC,Tasking Manager,Survery",2,0.0092
+source,Biing With Offset,2,0.0092
+source,Bin Imagery,2,0.0092
+source,Bing 2017,2,0.0092
+source,"Bing, IOM_image_20130330, survey",2,0.0092
+source,"Bing, knowledge",2,0.0092
+source,Bing; digitalglobe,2,0.0092
+source,Bing;Survey,2,0.0092
+source,CNIGS and CartONG,2,0.0092
+source,"CNIGS, 2014-2015",2,0.0092
+source,CNIGS/GIS /DTM,2,0.0092
+source,"CNIGS/OIM/ FOCS;GeoEye1, GeoEye, 2010-01-16",2,0.0092
+source,CNIGS/OIM/ FOCS;local_knowledge;oif-dfen_carteinnov,2,0.0092
+source,Defense Mapping Agency (United States),2,0.0092
+source,"DigitalGlobe, survey",2,0.0092
+source,GRU/COSMHA,2,0.0092
+source,GRU_COSMHA;Bing,2,0.0092
+source,"GeoEy1, GeoEye, 2010-01-16",2,0.0092
+source,GeoEye Satellite Imagery,2,0.0092
+source,"GeoEye; Ikonos, GeoEye, 2010-01-15",2,0.0092
+source,GeoEye;worldbank,2,0.0092
+source,Google 2010-01-17; Bing,2,0.0092
+source,Google 2010-01-21,2,0.0092
+source,Haiti transportation map http://maps.nypl.org/relief/maps/77; Map note by anonymous,2,0.0092
+source,Haiti transportation map http://maps.nypl.org/relief/maps/77; http://fr.wikipedia.org/wiki/%C3%8Ele_de_la_Tortue,2,0.0092
+source,Haiti transportation map http://maps.nypl.org/relief/maps/77; http://fr.wikipedia.org/wiki/Anse-%C3%A0-Foleur,2,0.0092
+source,Haiti transportation map http://maps.nypl.org/relief/maps/77; http://fr.wikipedia.org/wiki/Anse-Rouge,2,0.0092
+source,Haiti transportation map http://maps.nypl.org/relief/maps/77; http://fr.wikipedia.org/wiki/Baie-de-Henne,2,0.0092
+source,Haiti transportation map http://maps.nypl.org/relief/maps/77; http://fr.wikipedia.org/wiki/Bassin-Bleu,2,0.0092
+source,Haiti transportation map http://maps.nypl.org/relief/maps/77; http://fr.wikipedia.org/wiki/Terre-Neuve_%28Ha%C3%AFti%29,2,0.0092
+source,IHSI Population estimate 2012; knowledge,2,0.0092
+source,IHSI population estimate 2012; knowledge,2,0.0092
+source,IOM_HOT,2,0.0092
+source,Ikonos 01-17,2,0.0092
+source,"Ikonos, GeoEye, date 2010-01-14",2,0.0092
+source,Mairie de Delmas,2,0.0092
+source,NGA Topo Map,2,0.0092
+source,"NOAA, 2008-01-18; Tdh",2,0.0092
+source,"Projet Canaan Pi Djanm,Survey",2,0.0092
+source,"QuickBird, DigitalGlobe, 2006-12-07",2,0.0092
+source,RISSMA-H,2,0.0092
+source,Servey,2,0.0092
+source,"Service de géodésie et de cartographie d'Haiti. 1:100,000, 1961;Bing",2,0.0092
+source,"Service de géodésie et de cartographie. 1:100,000, 1961, The Lionel Pincus and Princess Firyal Map Division, The New York Public Library",2,0.0092
+source,"UAV,IOM,COSMHA,SIGHA;Survey",2,0.0092
+source,WorldView 2,2,0.0092
+source,"WorldView-2, DigitalGlobe, 2010-01-20; B ing With Offset",2,0.0092
+source,"WorldView-2, DigitalGlobe, 2010-01-21;digitalglobe wv2 2010-01-20; survey",2,0.0092
+source,"WorldView-2, DigitalGlobe, 2010-10-20,COSMHA",2,0.0092
+source,"WorldView-2, DigitalGlobe, WorldView-2, DigitalGlobe, 2010-01-18",2,0.0092
+source,Yahoo; Bing,2,0.0092
+source,bing  with offset,2,0.0092
+source,bing With Offset,2,0.0092
+source,"bing,local knoledge",2,0.0092
+source,bing;Ikonos 01-17,2,0.0092
+source,"digitalglobe, COSMHA",2,0.0092
+source,geo eye,2,0.0092
+source,government,2,0.0092
+source,haiti-tlm-50; http://fr.wikipedia.org/wiki/Ennery_%28Ha%C3%AFti%29,2,0.0092
+source,haiti-tlm-50; http://fr.wikipedia.org/wiki/Petite-Rivi%C3%A8re-de-l%27Artibonite,2,0.0092
+source,haiti-tlm-50;DRA Topo Map50,2,0.0092
+source,haiti-tlm-50;http://fr.wikipedia.org/wiki/Les_Gona%C3%AFves,2,0.0092
+source,hot_IOM_CHE_116,2,0.0092
+source,hot_c.osm-ha_iom; GPS; MISSION DE TERRAIN,2,0.0092
+source,"hot_c.osm-ha_iom; NOAA, 2010-01-24",2,0.0092
+source,"hot_c.osm-ha_iom; NOAA, 2010-01-24; Bing",2,0.0092
+source,hot_c.osm-ha_iom; digitalglobe,2,0.0092
+source,hot_c_osm_ha_oim,2,0.0092
+source,hot_oim_cosmha,2,0.0092
+source,http://cryptome.org/info/titanyen/titanyen-pits.htm,2,0.0092
+source,http://fr.wikipedia.org/wiki/Arcahaie,2,0.0092
+source,http://fr.wikipedia.org/wiki/Bassin-Bleu,2,0.0092
+source,http://fr.wikipedia.org/wiki/Cabaret_%28Ha%C3%AFti%29,2,0.0092
+source,http://fr.wikipedia.org/wiki/Desdunes,2,0.0092
+source,http://fr.wikipedia.org/wiki/La_Gon%C3%A2ve,2,0.0092
+source,http://fr.wikipedia.org/wiki/P%C3%A9tionville; ftp://haiti:Rkjpb7uef@157.150.195.135/Maps/Country%20wide/M2K5MOVV0801HAT40R_60X42.pdf,2,0.0092
+source,https://scontent-iad.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/1911842_670470256413073_968936169120077038_n.jpg?oh=f2a3ec16fbe11d6056c23d8d3c04c75a&oe=55DCAE08,2,0.0092
+source,https://scontent-lga.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/1508641_782395678494853_8062204398029171781_n.jpg?oh=0fe5b825b253c792563d2160b5fe003f&oe=55557484,2,0.0092
+source,mairie de Beaumont,2,0.0092
+source,servey,2,0.0092
+source,survey:2017-02,2,0.0092
+source,survey; hot_c.osm-ha_iom,2,0.0092
+source,survey;MINUSTAH GIS and UN Cartographic Section,2,0.0092
+source,"terrain, 2017-02",2,0.0092
+source,1994 US DMA Map,1,0.0046
+source,"1:10,000, Edition 1-DMA, Series E935. U.S. Defense Mapping Agency, 1988",1,0.0046
+source,2005 MSPP database with geocodes,1,0.0046
+source,"2016, Drone imagery",1,0.0046
+source,"<différent>,UAV,IOM,COSMHA,SIGHA,Digital Globe 2015,Survey",1,0.0046
+source,"<différent>,UAV,IOM,COSMHA,SIGHA,SURVEY",1,0.0046
+source,"<différent>,UAV,IOM,COSMHA,SIGHA;UAV,IOM,COSMHA,SIGHA",1,0.0046
+source,AFH_survey,1,0.0046
+source,"ARC,Survey",1,0.0046
+source,Bing  with offse,1,0.0046
+source,Bing Wigh Offset,1,0.0046
+source,Bing With OffSet,1,0.0046
+source,Bing With Offset; survey,1,0.0046
+source,Bing imagery,1,0.0046
+source,"Bing, GPX",1,0.0046
+source,Bing; CNIGS/OIM/ FOCS,1,0.0046
+source,Bing; CNIGS/OIM/FOCS,1,0.0046
+source,"Bing; GeoEye1, GeoEye, 2010-01-13",1,0.0046
+source,"Bing; GeoEye1, GeoEye, 2010-01-16",1,0.0046
+source,Bing; knowledge; digitalglobe,1,0.0046
+source,Bing; survey; CNIGS/OIM/ FOCS,1,0.0046
+source,Bing;DigitalGlobe oct 2016,1,0.0046
+source,Bing;knowledge,1,0.0046
+source,CCCM;cosmha_iom,1,0.0046
+source,CIA maps,1,0.0046
+source,CIGS/OIM/FOCS;CNIGS/OIM/ FOCS;DigitalGlobe,1,0.0046
+source,"CIGS/OIM/FOCS;GeoEye;yahoo,drr:iom",1,0.0046
+source,CINGS/OIM/FOCS,1,0.0046
+source,CNIGS and CartONG;Bing,1,0.0046
+source,CNIGS/FOCS/drr:iom,1,0.0046
+source,CNIGS/GIS/DTM; survey,1,0.0046
+source,CNIGS/GIS/DTM;survey,1,0.0046
+source,CNIGS/OIM/ FOCS; GPS-adjusted Bing,1,0.0046
+source,CNIGS/OIM/ FOCS;CNIGS/OIM/ FOCS_digitalglobe_drr:iom,1,0.0046
+source,CNIGS/OIM/ FOCS;DigitalGlobe,1,0.0046
+source,CNIGS/OIM/FOCS/GRET,1,0.0046
+source,CNIGS/OIM/FOCS; GPS-adjusted Bing,1,0.0046
+source,CNIGS/OIM/FOCS;Yahoo hires,1,0.0046
+source,Concern,1,0.0046
+source,CrisisMappers,1,0.0046
+source,DEM,1,0.0046
+source,DigialGlobe,1,0.0046
+source,"DigitalGlobe, 2010; NOAA, 2010-01-24",1,0.0046
+source,"DigitalGlobe, 2010;DigitalGlobe",1,0.0046
+source,DigitalGlobe; Google 2010-01-21,1,0.0046
+source,"DigitalGlobe;Google, 2010-01-21",1,0.0046
+source,DigitalGlobe;PD CIA,1,0.0046
+source,DigitalGlobe;WorldView-2,1,0.0046
+source,DigitalGlobe;digitalglobe wv2 2010-01-20,1,0.0046
+source,Digital_Globe,1,0.0046
+source,Digitalglobe,1,0.0046
+source,Drone Imagery 2014 (Haiti),1,0.0046
+source,GPS-adjusted Bing; knowledge,1,0.0046
+source,GPX,1,0.0046
+source,"GeoEye, 2010-01-13",1,0.0046
+source,"GeoEye, Bing",1,0.0046
+source,"GeoEye1 2010-01-16, tlm50",1,0.0046
+source,"GeoEye1, GeoEye, date 2010-01-16;iom_image2013",1,0.0046
+source,GeoEye; Bing,1,0.0046
+source,GeoEye;DigitalGlobe,1,0.0046
+source,GeoEye;digitalglobe,1,0.0046
+source,GeoEye;haiti best,1,0.0046
+source,GeoEye;ocal_knowledge;survey,1,0.0046
+source,Geoeye,1,0.0046
+source,Google 2010-01-17; survey,1,0.0046
+source,"Google, 2010-01-21; NOAA, 2010-01-22",1,0.0046
+source,GoogleM,1,0.0046
+source,Haiti transportation map,1,0.0046
+source,Haiti transportation map http://maps.nypl.org/relief/maps/77; http://fr.wikipedia.org/wiki/Chansolme,1,0.0046
+source,Health Facility List provided by PAHO/WHO,1,0.0046
+source,IOM_C_OSM_HA,1,0.0046
+source,"IOM_HOT;CNIGS/FOCS/OIM,cosmha,drr:iom,",1,0.0046
+source,IOM_image,1,0.0046
+source,Ikonos,1,0.0046
+source,"Ikonos, GeoEye, 2010/01/17",1,0.0046
+source,"Ithaca,2010-01-15",1,0.0046
+source,Kenol Thys / IDB,1,0.0046
+source,Knowledge,1,0.0046
+source,Map note by anonymous,1,0.0046
+source,"NOAA, 2010-01-24;digitalglobe",1,0.0046
+source,OTI_COSMHA,1,0.0046
+source,OpenCycleMap elevation contours; Bing,1,0.0046
+source,PDCIA,1,0.0046
+source,"Pléiades oct 2016, CNES, Airbus DS",1,0.0046
+source,Projet Canaan Pi Djanm Survey,1,0.0046
+source,"Projet Canaan pi Djanm,Survey",1,0.0046
+source,Public Domain CIA Maps; survey,1,0.0046
+source,Sahana Foundation,1,0.0046
+source,"Survery, ARC",1,0.0046
+source,"Survey, Bing",1,0.0046
+source,"Survey,ARC",1,0.0046
+source,"Survey,Canaan pi Djanm",1,0.0046
+source,"Survey,canaan pi djanm",1,0.0046
+source,TU Munich,1,0.0046
+source,TU Munich Research,1,0.0046
+source,TU Munich Research (source2),1,0.0046
+source,"UAV,IOM,COSMHA,SIGHA,TECHO",1,0.0046
+source,"UAV,IOM,COSMHA,SIGHA;<différent>,UAV,IOM,COSMHA,SIGHA",1,0.0046
+source,US CIA 1988,1,0.0046
+source,US Defense Map 1994,1,0.0046
+source,"World Bank, 2010-01-22",1,0.0046
+source,"WorldBank, 2010-01-23",1,0.0046
+source,"WorldView-2, 2010-01-21, Digital Globe",1,0.0046
+source,"WorldView-2, DigitalGlobe, 2010-01-20; Bing With Offset",1,0.0046
+source,"WorldView-2, DigitalGlobe, 2010-01-21, survey",1,0.0046
+source,"WorldView-2, DigitalGlobe, 2010-01-21;digitalglobe wv2 2010-01-20",1,0.0046
+source,"WorldView-2, DigitalGlobe, 2010-01-21;extrapolation",1,0.0046
+source,Yahoo and google,1,0.0046
+source,Yahoo;CIA maps,1,0.0046
+source,Yahoo;Google 2010-01-17,1,0.0046
+source,b ing with  offset,1,0.0046
+source,bIng with off set,1,0.0046
+source,bin with offset,1,0.0046
+source,bing with offset;DigitalGlobe,1,0.0046
+source,carte topo,1,0.0046
+source,cnigs lidar,1,0.0046
+source,concern_2017,1,0.0046
+source,"cosmha_iom,drr:iom",1,0.0046
+source,dgps,1,0.0046
+source,digitalglobe & landsat,1,0.0046
+source,"digitalglobe wv2 2010-01-20, survey",1,0.0046
+source,digitalglobe wv2 2010-01-20;survey,1,0.0046
+source,"digitalglobe,bing withforset 2012/02/02",1,0.0046
+source,"digitalglobe;DigitalGlobe, 2010",1,0.0046
+source,"digitalglobe;NOAA, 2010-01-22",1,0.0046
+source,digitalglobe;Survey,1,0.0046
+source,digitalglobe;extrapolation,1,0.0046
+source,drr:iom;IOM_HOT,1,0.0046
+source,geoeye-20100116-900913,1,0.0046
+source,geoeye;GeoEye,1,0.0046
+source,"geoeye;World Bank, 2010/01/21-2010-01/22",1,0.0046
+source,google haiti 2010-01-21,1,0.0046
+source,"haiti-tlm-50,Bing sat",1,0.0046
+source,haiti-tlm-50; OpenCycleMap elevation contours; Bing,1,0.0046
+source,haiti-tlm-50; http://fr.wikipedia.org/wiki/Bombardopolis,1,0.0046
+source,haiti-tlm-50; http://fr.wikipedia.org/wiki/Dessalines_%28ville%29,1,0.0046
+source,haiti-tlm-50; http://fr.wikipedia.org/wiki/Est%C3%A8re; http://www.gexperthaiti.com/haiti/Site/Communes.htm,1,0.0046
+source,haiti-tlm-50; http://fr.wikipedia.org/wiki/Jean-Rabel,1,0.0046
+source,haiti-tlm-50; local knowledge,1,0.0046
+source,haiti-tlm-50;survey,1,0.0046
+source,haiti-tlm50;http://fr.wikipedia.org/wiki/Saint-Louis-du-Nord,1,0.0046
+source,hot_OIM_Che116,1,0.0046
+source,"hot_c.osm-ha_iom; 1:12,500, Edition 2-DMA, Series E935. U.S. Defense Mapping Agency, 1987",1,0.0046
+source,hot_cosmha_iom; digitalglobe,1,0.0046
+source,hot_iom_c-osmha,1,0.0046
+source,hot_iom_che_116,1,0.0046
+source,"hot_iom_cosmha,drr:iom",1,0.0046
+source,hot_iom_cosmha; Red Cross Field Survey,1,0.0046
+source,hti_hltfacp_paho-WORK,1,0.0046
+source,http://fr.wikipedia.org/wiki/Gros-Morne_%28Ha%C3%AFti%29,1,0.0046
+source,http://fr.wikipedia.org/wiki/Plaisance_%28Ha%C3%AFti%29,1,0.0046
+source,http://groups.google.com/group/crisismappers/browse_thread/thread/cd82c7bea9f53095#,1,0.0046
+source,http://hypercube.telascience.org/tiles/1.0.0/haiti-best-900913/!/!/!.jpg,1,0.0046
+source,http://maps.nypl.org/relief/maps/88,1,0.0046
+source,http://www.ambafrance-ht.org/,1,0.0046
+source,http://www.empowerhaititogether.org/lakaypoze/,1,0.0046
+source,"iom,drr",1,0.0046
+source,"iom_cosmha,survey",1,0.0046
+source,iom_cosmha; Red Cross Field Survey,1,0.0046
+source,landsat & DigitalGlobe; bing,1,0.0046
+source,local_knowledge; http://maps.nypl.org/relief/maps/248,1,0.0046
+source,mapbox,1,0.0046
+source,ourairports.com,1,0.0046
+source,"satellite, DigitalGlobe",1,0.0046
+source,"satellite, GeoEye",1,0.0046
+source,survey (GPS average),1,0.0046
+source,"survey, Bing",1,0.0046
+source,survey; Bing; CNIGS_IOM_FOCS,1,0.0046
+source,survey; GRU_COSMHA,1,0.0046
+source,survey; GeoEye,1,0.0046
+source,survey; google 2010-01-17;iom drone,1,0.0046
+source,survey; school website,1,0.0046
+source,survey;Bing,1,0.0046
+source,survey;CNIGS/OIM/ FOCS,1,0.0046
+source,survey;GeoEye,1,0.0046
+source,survey;gps;Bing,1,0.0046
 surface,ground,1286,28.5841
 surface,dirt,896,19.9155
 surface,paved,760,16.8926
