@@ -8,9 +8,10 @@ import ChangeCounting from "./ChangeCounting";
 import Tags from "./Tags";
 import TagKeysCorrelation from "./TagKeysCorrelation"
 import About from "./About";
+import GeneralStatistics from "./GeneralSatistics";
 
 function App() {
-  const [currentTab, setCurrentTab] = useState(localStorage.getItem("currentTab") ? localStorage.getItem("currentTab") : "changeDensityMapping");
+  const [currentTab, setCurrentTab] = useState(localStorage.getItem("currentTab") ? localStorage.getItem("currentTab") : "generalStatistics");
 
   // Handle menu click
   const handleMenuClick = (e) => {
@@ -31,6 +32,7 @@ function App() {
         mode="horizontal"
         style={{ marginBottom: "1em" }}
       >
+        <Menu.Item key="generalStatistics">General Statistics</Menu.Item>
         <Menu.Item key="changeCounting">Change Counting</Menu.Item>
         <Menu.Item key="changeDensityMapping">Change Density Mapping</Menu.Item>
         <Menu.Item key="tagWordCloud">Tag Keys and Values</Menu.Item>
@@ -40,6 +42,7 @@ function App() {
 
       {/* Conditional Rendering Based on Selected Tab */}
       <div>
+        {currentTab === "generalStatistics" && <GeneralStatistics />}
         {currentTab === "changeCounting" && <ChangeCounting />}
         {currentTab === "changeDensityMapping" && <ChangeDensityMapping />}
         {currentTab === "tagWordCloud" && <Tags />}

@@ -144,6 +144,7 @@ class DB_Utils:
         
     def count_changes_in_interval(self, disaster_id, intervals):
         results = []
+
         cursor = self.connection.cursor()
         # Calculate the difference in time between the intervals
         delta = intervals[1] - intervals[0]
@@ -193,7 +194,7 @@ class DB_Utils:
         return results
     
 
-    def count_changes_in_interval(self, disaster_id, intervals):
+    def count_changes_in_interval_3_years_pre(self, disaster_id, intervals):
         results = []
         cursor = self.connection.cursor()
         # Calculate the difference in time between the intervals

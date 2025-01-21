@@ -1,9 +1,12 @@
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
+import matplotlib.ticker as ticker
 import pandas as pd
 from datetime import datetime, timedelta
 import sys
 import os
+import shutil
+import numpy as np
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..', 'database')))
 from db_utils import DB_Utils
@@ -201,18 +204,96 @@ def plot_counts_specific(disaster_id, disaster_country, disaster_area, disaster_
     plt.savefig(f'visualisation-site/public/ChangeCounting/disaster{disaster_id}/charts/{pre_disaster_days}_{post_disaster_days}_{time_period}_count_changes{"_prophet_forecast" if prophet_model else ""}.png', dpi=350)
     plt.close()
 
+def  plot_full_periods_change_count(pre_disaster_days, imm_disaster_days, post_disaster_days):
+    try:
+        summary_data = pd.read_csv(f"./Results/ChangeCounting/summary/data/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_full_periods_change_count.csv")
+    except:
+        raise(FileNotFoundError(f"File ./Results/ChangeCounting/summary/data/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_full_periods_change_count.csv does not exist"))
+    
+    periods = ['Pre', 'Imm', 'Post']
+    creates = summary_data['creates'][:3]
+    edits = summary_data['edits'][:3]
+    deletes = summary_data['deletes'][:3]
+
+    # Stacked bar chart for detailed breakdown
+    plt.figure(figsize=(12, 8))
+    width = 0.6
+    x = np.arange(len(periods))  # Use np.arange for proper alignment
+
+    plt.grid(which='major', color='black', linestyle='-', linewidth=0.5, zorder=0)
+    plt.grid(which='minor', color='gray', linestyle=':', linewidth=0.5, zorder=0)
+    plt.minorticks_on()
+    alpha = 0.8
+    plt.bar(x, creates, width, label='Creates', color='blue', zorder=2, alpha=alpha)
+    plt.bar(x, edits, width, bottom=creates, label='Edits', color='orange', zorder=2, alpha=alpha)
+    plt.bar(x, deletes, width, bottom=creates + edits, label='Deletes', color='green', zorder=2, alpha=alpha)
+
+    plt.gca().yaxis.set_major_formatter(ticker.FuncFormatter(lambda x, _: f'{int(x / 1e6)}M'))
+
+    plt.xticks(x, periods)
+    plt.title('Summary of change counts by period')
+    plt.xlabel('Period')
+    plt.ylabel('Number of changes')
+    
+    plt.legend()
 
 
+    os.makedirs(f"Results/ChangeCounting/summary/charts", exist_ok=True)
+    file_path = f'./Results/ChangeCounting/summary/charts/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_changes_count_stacked_bar.png'
+    plt.savefig(file_path, dpi=350)
+
+    os.makedirs(f"visualisation-site/public/ChangeCounting/summary/charts", exist_ok=True)
+    visualisation_file_path = f"visualisation-site/public/ChangeCounting/summary/charts/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_changes_count_stacked_bar.png"
+    shutil.copyfile(file_path, visualisation_file_path)
+
+    plt.close()
+
+def plot_total_change_counts(pre_disaster_days, imm_disaster_days, post_disaster_days, disaster_ids):
+
+    total_counts = pd.DataFrame(columns=["disaster_id","disaster_title","total"])
+    for disaster_id in disaster_ids:
+        data = pd.read_csv(f"./Results/ChangeCounting/disaster{disaster_id}/data/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_full_periods_change_count.csv")
+        total = data.iloc[-1]["total"]
+        _, _, disaster_area, _, disaster_date, _  = db_utils.get_disaster_with_id(disaster_id)
+
+        total_counts = pd.concat(
+            [total_counts, pd.DataFrame({"disaster_id": [disaster_id], "disaster_title": [f"{disaster_area[0]} | {disaster_date.year}"], "total": [total]})],
+            ignore_index=True,
+        )
+    
+    # Pie chart for total operations
+    plt.figure(figsize=(6, 5))
+    plt.pie(total_counts["total"], labels=total_counts["disaster_title"], autopct='%1.1f%%', startangle=140)
+    plt.title('Proportion of total changes by disaster')
+
+    os.makedirs(f"Results/ChangeCounting/summary/charts", exist_ok=True)
+    file_path = f'./Results/ChangeCounting/summary/charts/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_changes_total_count_pie.png'
+    plt.savefig(file_path, dpi=350)
+
+    os.makedirs(f"visualisation-site/public/ChangeCounting/summary/charts", exist_ok=True)
+    visualisation_file_path = f'visualisation-site/public/ChangeCounting/summary/charts/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_changes_total_count_pie.png'
+    shutil.copyfile(file_path, visualisation_file_path)
+
+    plt.close()
+    
 
 if __name__ == "__main__":
     db_utils = DB_Utils()
     connection = db_utils.db_connect()
     periods = [(365,30,365), (180,30,365)]
     periods = [(365,30,365),]
-    periods = [(1095, 30, 365)]
-    prophet_model_bools = [True, False]
+    periods = [(1095, 30, 365),(180,30,365),(365,30,365)]
+    prophet_model_bools = [False, True]
 
-    for disaster_id in range(1,7):
+    disaster_ids = range(1,7)
+
+    for period in periods:
+        plot_full_periods_change_count(period[0], period[1], period[2])
+        plot_total_change_counts(period[0], period[1], period[2], disaster_ids)
+
+    
+    
+    for disaster_id in disaster_ids:
         for prophet_model in prophet_model_bools:
             _, disaster_country, disaster_area, _, disaster_date, _  = db_utils.get_disaster_with_id(disaster_id)
 
@@ -222,5 +303,5 @@ if __name__ == "__main__":
                 plot_counts_specific(disaster_id, disaster_country[0], disaster_area[0],  disaster_date, prophet_model, pre_disaster_days=period[0], imm_disaster_days=period[1], post_disaster_days=period[2], interval_length=1)
                 plot_counts_specific(disaster_id, disaster_country[0], disaster_area[0], disaster_date, prophet_model, pre_disaster_days=period[0], imm_disaster_days=period[1], post_disaster_days=period[2], interval_length=7)
                 plot_counts_specific(disaster_id, disaster_country[0], disaster_area[0], disaster_date, prophet_model, pre_disaster_days=period[0], imm_disaster_days=period[1], post_disaster_days=period[2], interval_length=30)
-
+    
 

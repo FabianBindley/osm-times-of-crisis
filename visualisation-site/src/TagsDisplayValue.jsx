@@ -11,9 +11,9 @@ const rotationMapper = () => Math.random() * 10 - 5;
 // Define a color scale based on frequency
 const colorScale = (value, maxValue) => {
   const scale = scaleLinear()
-    .domain([0, maxValue]) // Map value range (0 to maxValue)
-    .range(['#00FF00', '#FF000F']) // Color range (light to dark)
-    .interpolate(interpolateHcl); // Smooth color interpolation
+    .domain([0, maxValue]) 
+    .range(['#00FF00', '#FF000F'])
+    .interpolate(interpolateHcl); 
   return scale(value);
 };
 
@@ -25,7 +25,7 @@ export default function TagsDisplay({csv_source, selectedKey}) {
     console.log(csv_source)
     d3.csv(csv_source).then((data) => {
       setWords(
-        data.filter((d) => d.key == selectedKey).slice(0, 50).map((d) => ({
+        data.filter((d) => d.key == selectedKey).slice(0, 100).map((d) => ({
           text: d.value,
           value: +d.count,
           percent_of_total_changes: +d.percent_of_total_changes_for_key,
@@ -38,7 +38,7 @@ export default function TagsDisplay({csv_source, selectedKey}) {
     <>
      <div className="wordcloud-container">
         <div style={{ display: 'flex', flexDirection: 'row' }}>
-        {/* Wordcloud on the left */}
+
         <div style={{ flex: 1, padding: '20px' }}>
             <h2>Word Cloud</h2>
             <Wordcloud
@@ -49,7 +49,7 @@ export default function TagsDisplay({csv_source, selectedKey}) {
             width={600}
             height={400}
             children={(cloudWords) => {
-                const maxValue = Math.max(...words.map((w) => w.value)); // Get the maximum value
+                const maxValue = Math.max(...words.map((w) => w.value)); 
                 return cloudWords.map((word, index) => (
                 <text
                     key={index}
@@ -57,9 +57,9 @@ export default function TagsDisplay({csv_source, selectedKey}) {
                     textAnchor="middle"
                     transform={`translate(${word.x}, ${word.y}) rotate(${word.rotate})`}
                     style={{ fill: colorScale(word.value, maxValue),
-                        fontFamily: "'Oswald', sans-serif", // Apply Oswald font
-                        fontWeight: 'bold', // Make it bold
-                     }} // Map color based on frequency
+                        fontFamily: "'Oswald', sans-serif",
+                        fontWeight: 'bold', 
+                     }} 
                 >
                     {word.text}
                 </text>
@@ -69,7 +69,6 @@ export default function TagsDisplay({csv_source, selectedKey}) {
             />
         </div>
 
-        {/* Table on the right */}
         <div style={{ flex: 1, padding: '20px' }}>
             <h2>Value Details</h2>
             <table style={{ width: '100%', borderCollapse: 'collapse', border: '1px solid black' }}>
