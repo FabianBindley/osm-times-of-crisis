@@ -33,33 +33,33 @@ export default function About() {
         <div className="disaster-list">
           <h4>Americas</h4>
           <ul>
-            <li><b>2010 - Haiti Earthquake:</b></li>
-            <li><b>2017 - Hurricane Harvey (US):</b></li>
-            <li><b>2020 - California Wildfires (US):</b></li>
-            <li><b>2021 - Haiti Earthquake and Hurricane Grace:</b></li>
+            <li><b>2010 - Haiti Earthquake</b></li>
+            <li><b>2017 - Hurricane Harvey (US)</b></li>
+            <li><b>2020 - California Wildfires (US)</b></li>
+            <li><b>2021 - Haiti Earthquake and Hurricane Grace</b></li>
           </ul>
 
           <h4>Asia</h4>
           <ul>
-            <li><b>2015 - Nepal Earthquake:</b></li>
-            <li><b>2018 - Indonesia Earthquake:</b></li>
-            <li><b>2022 - Pakistan Floods:</b></li>
-            <li><b>2024 - Wayanad Landslide (India):</b></li>
+            <li><b>2015 - Nepal Earthquake</b></li>
+            <li><b>2018 - Indonesia Earthquake</b></li>
+            <li><b>2022 - Pakistan Floods</b></li>
+            <li><b>2024 - Wayanad Landslide (India)</b></li>
           </ul>
 
           <h4>Europe and the Middle East</h4>
           <ul>
-            <li><b>2020 - Izmir Earthquake (Turkey):</b></li>
-            <li><b>2023 - Emilia Romagna Floods (Italy):</b></li>
-            <li><b>2023 - Turkey/Syria Earthquake:</b></li>
-            <li><b>2024 - Valencia Floods (Spain):</b></li>
+            <li><b>2020 - Izmir Earthquake (Turkey)</b></li>
+            <li><b>2023 - Emilia Romagna Floods (Italy)</b></li>
+            <li><b>2023 - Turkey/Syria Earthquake</b></li>
+            <li><b>2024 - Valencia Floods (Spain)</b></li>
           </ul>
 
           <h4>Africa</h4>
           <ul>
-            <li><b>2022 - Derna Dam Collapse (Libya):</b></li>
-            <li><b>2023 - Cyclone Freddy (Malawi):</b></li>
-            <li><b>2023 - Morocco Earthquake:</b></li>
+            <li><b>2022 - Derna Dam Collapse (Libya)</b></li>
+            <li><b>2023 - Cyclone Freddy (Malawi)</b></li>
+            <li><b>2023 - Morocco Earthquake</b></li>
           </ul>
         </div>
       </div>
