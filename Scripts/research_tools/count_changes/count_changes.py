@@ -242,7 +242,7 @@ if __name__ == "__main__":
 
     
     
-    for disaster_id in range(6,7):
+    for disaster_id in range(1,7):
         for prophet_model in prophet_model_bools: # Currently unused
             for period in periods:
 

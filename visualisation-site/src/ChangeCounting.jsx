@@ -7,7 +7,8 @@ import { Select, Switch } from "antd";
 function ChangeCounting() {
   
   const [interval, setInterval] = useState({start:"365", end:"365"})
-  const [graphStyle, setGraphStyle] = useState("count_changes")
+  const [editType, setEditType] = useState("all")
+  const [graphStyle, setGraphStyle] = useState("counts")
   const [periodLength, setPeriodLength] = useState(localStorage.getItem("period") ? localStorage.getItem("period") : "week")
   const [postOnly, setPostOnly] = useState(localStorage.getItem("postOnly")=="true" ? true : false);
   const [prophetForecast, setProphetForecast] = useState(localStorage.getItem("prophetForecast")=="true" ? true : false);
@@ -39,6 +40,11 @@ const additional_graphs = [
   const handleIntervalChange = (key) => {
     // Map the key to the corresponding interval object
     setInterval(intervalMap[key]);
+  };
+
+  const handleChangeEditType = (key) => {
+    // Map the key to the corresponding interval object
+    setEditType(key);
   };
 
 
@@ -93,7 +99,7 @@ const additional_graphs = [
                         style={{ width: 200, marginLeft: 10 }}
                         onChange={handleGraphStyleChange}
                     >
-                        <Select.Option value="count_changes">Change count</Select.Option>
+                        <Select.Option value="counts">Change count</Select.Option>
                         <Select.Option value="percent_difference_time_series">Change % Difference</Select.Option>
 
                     </Select>
@@ -103,17 +109,15 @@ const additional_graphs = [
 
 
                 <div style={{marginTop:5,marginBottom:5}}>
-                    <label style={{ marginLeft: 20 }}>Graph Intervals:</label>
+                    <label style={{ marginLeft: 10 }}>Graph Intervals:</label>
                     <Select
                         defaultValue="365-365"
                         value={`${interval.start}-${interval.end}`}
                         style={{ width: 200, marginLeft: 10 }}
                         onChange={handleIntervalChange}
                     >
-                        <Select.Option value="365-365">365 Pre - 365 Post</Select.Option>
                         <Select.Option value="180-365">180 Pre - 365 Post</Select.Option>
-                        <Select.Option value="90-365">90 Pre - 365 Post</Select.Option>
-                        <Select.Option value="90-180">90 Pre - 180 Post</Select.Option>
+                        <Select.Option value="365-365">365 Pre - 365 Post</Select.Option>
                         <Select.Option value="1095-365">1095 Pre - 365 Post</Select.Option>
                     </Select>
                 </div> 
@@ -122,7 +126,7 @@ const additional_graphs = [
                 
 
                 <div style={{marginTop:5,marginBottom:5}}>
-                <label style={{ marginLeft: 20 }}>Period:</label>
+                <label style={{ marginLeft: 10 }}>Period:</label>
                 <Select
                     defaultValue={periodLength}
                     value={periodLength}
@@ -135,19 +139,41 @@ const additional_graphs = [
                 </Select>
                 </div>
 
-                { graphStyle == "count_changes" ? 
-                <div style={{marginTop:5,marginBottom:5}}>
-                    <label style={{ marginLeft: 20, marginRight: 10 }}>Prophet Forecast:</label>
-                    <Switch checked={prophetForecast} onChange={handleChangeProphetForecast} />
-                </div> 
+                { graphStyle == "counts" ? 
+                <>
+                    <div style={{marginTop:5,marginBottom:5}}>
+                      <label style={{ marginLeft: 10 }}>Edit Type:</label>
+                      <Select
+              
+                          value={editType}
+                          style={{ width: 100, marginLeft: 10 }}
+                          onChange={handleChangeEditType}
+                      >
+                          <Select.Option value="creates">Creates</Select.Option>
+                          <Select.Option value="edits">Edits</Select.Option>
+                          <Select.Option value="deletes">Deletes</Select.Option>
+                          <Select.Option value="total">Total</Select.Option>
+                          <Select.Option value="all">All</Select.Option>
+                      </Select>
+                  </div> 
+                  
+                  <div style={{marginTop:5,marginBottom:5}}>
+                      <label style={{ marginLeft: 10, marginRight: 10 }}>Prophet Forecast:</label>
+                      <Switch checked={prophetForecast} onChange={handleChangeProphetForecast} />
+                  </div> 
+
+
+                </>
+
+
                 : <></>}
 
-                { graphStyle == "percent_difference_time_series" ? 
-                    <div style={{marginTop:5,marginBottom:5}}>
-                    <label style={{ marginLeft: 20, marginRight: 10 }}>Post Disaster Only:</label>
+     
+                <div style={{marginTop:5,marginBottom:5}}>
+                    <label style={{ marginLeft: 10, marginRight: 10 }}>Post Disaster Only:</label>
                     <Switch checked={postOnly} onChange={handlePostOnlyChange} />
                 </div> 
-                : <></>}
+
                 
 
                 
@@ -155,12 +181,12 @@ const additional_graphs = [
             </div>
 
             {graphs.map((graph, index) => (
-                <Graph index={index} graph={graph}  graphStyle={graphStyle} interval={interval} periodLength={periodLength} postOnly={postOnly} prophetForecast={prophetForecast}/>
+                <Graph index={index} graph={graph}  graphStyle={graphStyle} interval={interval} periodLength={periodLength} postOnly={postOnly} prophetForecast={prophetForecast} edit_type={editType}/>
             ))}
 
             <h2>Additional Graphs</h2>
             {additional_graphs.map((graph, index) => (
-                <Graph index={index} graph={graph}  graphStyle={graphStyle} interval={interval} periodLength={periodLength}  postOnly={postOnly} prophetForecast={prophetForecast}/>
+                <Graph index={index} graph={graph}  graphStyle={graphStyle} interval={interval} periodLength={periodLength}  postOnly={postOnly} prophetForecast={prophetForecast} edit_type={editType}/>
             ))}
     </>
   )

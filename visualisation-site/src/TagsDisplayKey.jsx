@@ -25,7 +25,7 @@ export default function TagsDisplay({csv_source}) {
     console.log(csv_source)
     d3.csv(csv_source).then((data) => {
       setWords(
-        data.slice(0, 50).map((d) => ({
+        data.slice(0, 100).map((d) => ({
           text: d.key,
           value: +d.count,
           percent_of_total_changes: +d.percent_of_total_changes,

@@ -17,6 +17,7 @@ run_script() {
 
 # Double check data integrity
 run_script "scripts/database/db_geojson_filtering.py"
+run_script "scripts/database/bulk_import_filtering.py"
 
 # Lower level map count scripts
 #run_script "scripts/research_tools/count_changes_lower/count_changes_lower.py"

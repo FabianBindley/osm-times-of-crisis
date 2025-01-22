@@ -18,3 +18,18 @@ SELECT DISTINCT tags
 FROM changes
 WHERE tags::jsonb ? 'ref'
 LIMIT 10;
+
+--  Count of changes that contain the building key
+SELECT COUNT(*)
+FROM changes
+WHERE tags ? 'building';
+
+-- changes that contain both amenity and building
+SELECT element_id, tags
+FROM changes
+WHERE tags ?& ARRAY['building', 'amenity'] AND disaster_id != 1 LIMIT 10;
+
+-- changes that contain both amenity and building
+SELECT element_id, tags
+FROM changes
+WHERE tags ?& ARRAY['amenity'] AND disaster_id != 1 LIMIT 10;

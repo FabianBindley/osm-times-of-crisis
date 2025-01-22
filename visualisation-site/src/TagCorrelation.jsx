@@ -1,8 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import * as d3 from 'd3-fetch';
-import { Select, Switch } from "antd"; 
+import { Select, Switch, Image } from "antd"; 
 
-export default function TagKeysCorrelation() {
+const { Option } = Select;
+
+export default function TagCorrelation() {
+    const [tagCorrelationType, setTagCorrelationType] = useState("values");
     const [disasterPeriods, setDisasterPeriods] = useState("pre_imm");
     const [keyCoefficients, setKeyCoefficients] = useState([]);
     const [filterTableByDisasterPeriod, setFilterTableByDisasterPeriod] = useState(localStorage.getItem("filterTableByDisasterPeriod")=="true" ? true : false);
@@ -15,8 +18,31 @@ export default function TagKeysCorrelation() {
         { title: "Nepal Earthquake | 2015", disaster_id: 6},
       ];
 
+
+        const [selectedTags, setSelectedTags] = useState(["building","highway"]);
+      
+        const options = [
+          { value: 'building', label: 'Building' },
+          { value: 'highway', label: 'Highway' },
+          { value: 'amenity', label: 'Amenity' },
+          { value: 'landuse', label: 'Land use' }
+        ];
+
+        const handleChangeSelectTagKeys = (value) => {
+          if (value.length <= 2) {
+            setSelectedTags(value.sort());
+          } else {
+            // Optional: Provide feedback when the limit is exceeded
+            console.warn('You can only select up to 2 tags.');
+          }
+        };
+
     const handleChangeDisasterPeriods = (key) => {
         setDisasterPeriods(key);
+      };
+
+      const handleChangeTagCorrelationType = (key) => {
+        setTagCorrelationType(key);
       };
 
       const handleChangeFilterTableByDisasterPeriod = () => {
@@ -70,12 +96,14 @@ export default function TagKeysCorrelation() {
     <>
         <p>
             Kendall rank correlation, Pearson correlation, and Cosine similarity coefficients were computed for the selected periods, according to the following keys:
+            EXPLAIN WHAT THE COEFFICIENTS REPRESENT AND WHY WE SHOULD CARE
         </p>
         <p>
             Building, highway, source, name, surface, amenity, landuse, waterway, natural
         </p>
         <div className="tag-keys-correlation-container">
             <div className="maps-header">
+              { tagCorrelationType == "keys" ? <>
                 <div style={{marginTop:5}}>
                         <label style={{ marginLeft: 20 }}>Periods:</label>
                         <Select
@@ -94,9 +122,23 @@ export default function TagKeysCorrelation() {
                     <label style={{ marginLeft: 20, marginRight: 10 }}>Filter table by selected period:</label>
                     <Switch checked={filterTableByDisasterPeriod} onChange={handleChangeFilterTableByDisasterPeriod} />
                 </div> 
-               
+                </> : <>
+                <div style={{marginTop:5}}>
+                  <label style={{ marginLeft: 20 }}>Selected key tags: </label>
+                  <Select
+                      mode="tags"
+                      style={{ width: '210px' }}
+                      placeholder="Select up to 2 tags"
+                      onChange={handleChangeSelectTagKeys}
+                      value={selectedTags} // Controlled component
+                      options={options}
+                    />
+                  </div>
+                </>
+                }
+                
             </div>
-
+                { tagCorrelationType == "keys" ? <>
                 <iframe 
                     src={`TagInvestigation/summary/3d_correlation_plot_${disasterPeriods}.html`}
                     title="3D Correlation Plot">
@@ -136,7 +178,20 @@ export default function TagKeysCorrelation() {
                 </div>
 
            
+                </> :
+                  <>
+                    <h2>Chart of kendal rank correlations of selected amenity keys</h2>
+                    <div className="iframe-container-tags-coefficient">
+                      <Image
+                        height="100%"
+                        src={`TagInvestigation/summary/key_value_correlation_rank_analysis/kendall_rank_correlation_${selectedTags[0]}_${selectedTags[1]}.png`}
+                      />
+                    </div> 
+                  </>
+                
+                }
 
+               
             
         </div>
 

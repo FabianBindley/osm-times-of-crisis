@@ -6,7 +6,7 @@ if __name__ == "__main__":
     utils = DB_Utils()
     utils.db_connect()
 
-    remove_imports = False
+    remove_imports = True
 
     print("Identifying bulk imports:")
     detected_bulk_imports = utils.get_detected_bulk_imports(changes_threshold=5000, seconds_threshold=30)

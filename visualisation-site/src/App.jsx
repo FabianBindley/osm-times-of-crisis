@@ -6,7 +6,7 @@ import { Menu } from "antd";
 import ChangeDensityMapping from "./ChangeDensityMapping";
 import ChangeCounting from "./ChangeCounting";
 import Tags from "./Tags";
-import TagKeysCorrelation from "./TagKeysCorrelation"
+import TagCorrelation from "./TagCorrelation"
 import About from "./About";
 import GeneralStatistics from "./GeneralSatistics";
 
@@ -36,7 +36,7 @@ function App() {
         <Menu.Item key="changeCounting">Change Counting</Menu.Item>
         <Menu.Item key="changeDensityMapping">Change Density Mapping</Menu.Item>
         <Menu.Item key="tagWordCloud">Tag Keys and Values</Menu.Item>
-        <Menu.Item key="tagKeysCorrelation">Tag Keys Correlation</Menu.Item>
+        <Menu.Item key="tagCorrelation">Tag Correlation</Menu.Item>
         <Menu.Item key="about">About</Menu.Item>
       </Menu>
 
@@ -46,7 +46,7 @@ function App() {
         {currentTab === "changeCounting" && <ChangeCounting />}
         {currentTab === "changeDensityMapping" && <ChangeDensityMapping />}
         {currentTab === "tagWordCloud" && <Tags />}
-        {currentTab === "tagKeysCorrelation" && <TagKeysCorrelation />}
+        {currentTab === "tagCorrelation" && <TagCorrelation />}
         {currentTab === "about" && <About />}
       </div>
     </div>
