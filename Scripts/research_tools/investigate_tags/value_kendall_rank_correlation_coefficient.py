@@ -33,6 +33,9 @@ def compute_key_value_correlation_metrics(top_n, specified_keys, period, disaste
     period1_data = period1_data[period1_data["key"].isin(specified_keys)]
     period2_data = period2_data[period2_data["key"].isin(specified_keys)]
 
+    # TODO: This needs updating as it just takes the top 10 for each key, but we need to ensure that the same values are being used.
+    #  Could do top 10 from first period, or union of both top 10 - either way needs to be consistent
+
     # Sort and take the top 10 for each key
     period1_data = (
         period1_data.sort_values(by="count", ascending=False)

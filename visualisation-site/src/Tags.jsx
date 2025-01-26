@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Select, Switch } from "antd"; 
+import { Select, Switch, InputNumber, Input, Space } from "antd"; 
 import TagsDisplayKey from "./TagsDisplayKey";
 import TagsDisplayValue from "./TagsDisplayValue";
 
@@ -9,6 +9,10 @@ export default function Tags() {
     const [disasterSelection, setDisasterSelection] = useState("all");
     const [periodSelection, setPeriodSelection] = useState("all");
     const [selectedKey, setSelectedKey] = useState("building");
+    const [numTagsShow, setNumTagsShow] = useState(50);
+    const [searchTag, setSearchTag] = useState("");
+
+    const { Search } = Input;
 
     const map_areas = [
         "Emilia Romagna Floods | 2023" ,
@@ -40,6 +44,15 @@ export default function Tags() {
         setSelectedKey(key);
       };
 
+      const handleChangeNumTagsShow = (key) => {
+        setNumTagsShow(key);
+      };
+
+      const handleChangeSearchTag = (e) => {
+        setSearchTag(e.target.value);
+      };
+
+
       const get_word_cloud_source = (disasterSelection, periodSelection,  tagTypeSelection) => {
         
         if (tagTypeSelection=="key")
@@ -50,7 +63,7 @@ export default function Tags() {
                 return "/TagInvestigation/summary/unique_tag_keys_count_all.csv"
             }
             else if (disasterSelection=="all") {
-                return `/TagInvestigation/summary/top_100_keys/${periodSelection}.csv`
+                return `/TagInvestigation/summary/top_4000_keys/${periodSelection}.csv`
             }
             else {
                 return `/TagInvestigation/disaster${disasterSelection}/unique_tag_keys_count_${periodSelection}.csv`
@@ -140,6 +153,16 @@ export default function Tags() {
 
                     </Select>
             </div> : <div/>}
+
+            <div style={{marginTop:5,marginBottom:5}}>
+            <label style={{ marginLeft: 20 }}>Num Tags:</label>
+                <InputNumber min={1} max={1000} defaultValue={numTagsShow} onChange={handleChangeNumTagsShow} style={{ marginLeft: 10}} />
+            </div>
+
+            <div style={{ marginTop: 5, marginBottom: 5, display: 'flex', alignItems: 'center' }}>
+                <label style={{ marginLeft: 20 }}>Search:</label>
+                <Search placeholder="input search text" onChange={handleChangeSearchTag} style={{ marginLeft: 10, width: 150 }} />
+            </div>
             
                     
         </div>
@@ -149,8 +172,8 @@ export default function Tags() {
         </h2>
         {
            tagTypeSelection == "key" ? 
-           <TagsDisplayKey csv_source={get_word_cloud_source(disasterSelection, periodSelection, tagTypeSelection)}/> :
-           <TagsDisplayValue csv_source={get_word_cloud_source(disasterSelection, periodSelection, tagTypeSelection)} selectedKey={selectedKey}/>
+           <TagsDisplayKey csv_source={get_word_cloud_source(disasterSelection, periodSelection, tagTypeSelection)} numTagsShow={numTagsShow} searchTag={searchTag} periodSelection={periodSelection}/> :
+           <TagsDisplayValue csv_source={get_word_cloud_source(disasterSelection, periodSelection, tagTypeSelection)} selectedKey={selectedKey} numTagsShow={numTagsShow} searchTag={searchTag} periodSelection={periodSelection}/>
         }
         
     </>

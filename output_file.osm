@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version="0.6" generator="osmium/1.16.0">
+  <node id="4448403382" version="1" timestamp="2016-10-14T20:48:33Z" uid="1706100" user="eccoilmoro" changeset="42906320" lat="44.392996" lon="11.9432414">
+    <tag k="bicycle" v="designated"/>
+    <tag k="crossing" v="zebra"/>
+    <tag k="foot" v="designated"/>
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="4448403382" version="2" timestamp="2022-09-20T11:26:10Z" uid="3335899" user="GBAB" changeset="126418471" lat="44.392996" lon="11.9432414">
+    <tag k="bicycle" v="designated"/>
+    <tag k="crossing_ref" v="zebra"/>
+    <tag k="foot" v="designated"/>
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="4448403382" version="3" timestamp="2022-09-22T03:29:24Z" uid="145231" user="woodpeck_repair" changeset="126483951" lat="44.392996" lon="11.9432414">
+    <tag k="bicycle" v="designated"/>
+    <tag k="crossing" v="zebra"/>
+    <tag k="foot" v="designated"/>
+    <tag k="highway" v="crossing"/>
+  </node>
+</osm>

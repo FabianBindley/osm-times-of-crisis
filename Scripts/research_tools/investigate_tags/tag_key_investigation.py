@@ -38,13 +38,17 @@ def get_tag_key_usage_for_disaster(disaster_id, disaster_date, pre_disaster_days
 
     intervals = [pre_disaster_start_date, imm_disaster_start_date, post_disaster_start_date, post_disaster_end_date]
 
-    tag_keys_intervals = db_utils.get_tag_key_usage_for_disaster(disaster_id, intervals)
+    # This needs to be broken into an array of 3 dicts
+    tag_keys_intervals = [
+    {row[0]: row[1] for row in period} 
+    for period in db_utils.get_tag_key_usage_for_disaster(disaster_id, intervals)]
+
 
     full_periods_change_count = pd.read_csv(f"./Results/ChangeCounting/disaster{disaster_id}/data/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_full_periods_change_count.csv")[:-1]
-    
+
     os.makedirs(f"./Results/TagInvestigation/disaster{disaster_id}", exist_ok=True)
     os.makedirs(f"visualisation-site/public/TagInvestigation/disaster{disaster_id}", exist_ok=True)
-    headers = ["key","count","percent_of_total_changes"]
+    headers = ["key","count","percent_of_total_changes","percent_difference_from_pre"]
 
     for tag_keys, interval, row_index in list(zip(tag_keys_intervals, ["pre","imm","post"], [0,1,2])):
         file_path = f"./Results/TagInvestigation/disaster{disaster_id}/unique_tag_keys_count_{interval}.csv"
@@ -52,13 +56,15 @@ def get_tag_key_usage_for_disaster(disaster_id, disaster_date, pre_disaster_days
             writer = csv.DictWriter(csv_file, fieldnames=headers)
             writer.writeheader()
 
-            for res in tag_keys:
-                writer.writerow({"key": res[0], "count": res[1], "percent_of_total_changes": round(res[1]/full_periods_change_count.iloc[row_index]["total"] * 100, 4)})
+            for key,count in tag_keys.items():
+                pre_disaster_count = tag_keys_intervals[0][key] if key in tag_keys_intervals[0] else 1
+                writer.writerow({"key": key, "count": count, "percent_of_total_changes": round(count/full_periods_change_count.iloc[row_index]["total"] * 100, 4), "percent_difference_from_pre": round((count-pre_disaster_count)/pre_disaster_count * 100, 4)})
 
         visualisation_file_path = f"visualisation-site/public/TagInvestigation/disaster{disaster_id}/unique_tag_keys_count_{interval}.csv"
         shutil.copyfile(file_path, visualisation_file_path)
 
 def top_n_tag_keys_for_period(n, period, disaster_ids, pre_disaster_days, imm_disaster_days, post_disaster_days):
+    print(datetime.now())
     all_keys = {}
     for disaster_id in disaster_ids:
         file_path = f"./Results/TagInvestigation/disaster{disaster_id}/unique_tag_keys_count_{period}.csv"
@@ -75,18 +81,33 @@ def top_n_tag_keys_for_period(n, period, disaster_ids, pre_disaster_days, imm_di
     os.makedirs(f"./Results/TagInvestigation/summary/top_{n}_keys/", exist_ok=True)
     full_periods_change_count = pd.read_csv(f"./Results/ChangeCounting/summary/data/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_full_periods_change_count.csv")
 
+    pre_disaster_counts = {}
+    for disaster_id in disaster_ids:
+        pre_disaster_counts[disaster_id] = pd.read_csv(f"./Results/TagInvestigation/disaster{disaster_id}/unique_tag_keys_count_pre.csv")
+    
+
     file_path = f"./Results/TagInvestigation/summary/top_{n}_keys/{period}.csv"
-    headers = ["key","count","percent_of_total_changes"]
+    headers = ["key","count","percent_of_total_changes", "percent_difference_from_pre"]
     with open(file_path, mode="w", newline='', encoding="utf-8") as csv_file:
         writer = csv.DictWriter(csv_file, fieldnames=headers)
         writer.writeheader()
         row_index = 0 if period == "pre" else 1 if period == "imm" else 2
         for tuple in all_keys:
-            writer.writerow({"key": tuple[0], "count": tuple[1], "percent_of_total_changes": round(tuple[1]/full_periods_change_count.iloc[row_index]["total"]  * 100, 4)})
+            key=tuple[0]
+            count=tuple[1]
+            if period == "pre":
+                pre_disaster_count = count
+            else:
+                pre_disaster_count = 0
+                for disaster_id in disaster_ids:
+                    pre_disaster_key_row = pre_disaster_counts[disaster_id][pre_disaster_counts[disaster_id]["key"] == key]
+                    pre_disaster_count += pre_disaster_key_row["count"].values[0] if len(pre_disaster_key_row) == 1 else 1
+            writer.writerow({"key": key, "count": count, "percent_of_total_changes": round(count/full_periods_change_count.iloc[row_index]["total"]  * 100, 4), "percent_difference_from_pre": round((count-pre_disaster_count)/pre_disaster_count * 100, 4)})
 
     os.makedirs(f"visualisation-site/public/TagInvestigation/summary/top_{n}_keys/", exist_ok=True)
     visualisation_file_path = f"visualisation-site/public/TagInvestigation/summary/top_{n}_keys/{period}.csv"
     shutil.copyfile(file_path, visualisation_file_path)
+    print(datetime.now())
     
 if __name__ == "__main__":
 
@@ -95,14 +116,15 @@ if __name__ == "__main__":
     db_utils.db_connect()
 
     print("Getting key counts")
-    get_key_counts()
+    #get_key_counts()
 
     print("Getting tag usage for disasters")
     for disaster_id in range(1, 7):
         (_, disaster_country, disaster_area, _, disaster_date, _ ) = db_utils.get_disaster_with_id(disaster_id)
-        get_tag_key_usage_for_disaster(disaster_id, disaster_date, 365, 30, 365)
+        print(f"Generating key metrics for {disaster_area[0]} {disaster_date.year}")
+        #get_tag_key_usage_for_disaster(disaster_id, disaster_date, 365, 30, 365)
 
-    nums = [10, 25, 100]
+    nums = [10, 25, 100, 4000]
     disaster_ids =  [2,3,4,5,6]
     
     print("Getting top n tag keys for periods")

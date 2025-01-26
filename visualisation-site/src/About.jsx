@@ -42,7 +42,7 @@ export default function About() {
           <h4>Asia</h4>
           <ul>
             <li><b>2015 - Nepal Earthquake</b></li>
-            <li><b>2018 - Indonesia Earthquake</b></li>
+            <li><b>2018 - Sulawesi Earthquake and tsunami (Indonesia)</b></li>
             <li><b>2022 - Pakistan Floods</b></li>
             <li><b>2024 - Wayanad Landslide (India)</b></li>
           </ul>

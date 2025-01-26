@@ -35,5 +35,5 @@ run_script "scripts/database/bulk_import_filtering.py"
 
 
 # RQ2 - Tags 
-run_script "scripts/research_tools/investigate_tags/initial_tag_key_investigation.py"
+run_script "scripts/research_tools/investigate_tags/tag_key_investigation.py"
 run_script "scripts/research_tools/investigate_tags/tag_value_investigation.py"

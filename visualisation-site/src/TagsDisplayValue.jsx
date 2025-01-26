@@ -17,7 +17,7 @@ const colorScale = (value, maxValue) => {
   return scale(value);
 };
 
-export default function TagsDisplay({csv_source, selectedKey}) {
+export default function TagsDisplay({csv_source, selectedKey, numTagsShow, searchTag, periodSelection}) {
   const [words, setWords] = useState([]);
 
   useEffect(() => {
@@ -25,14 +25,15 @@ export default function TagsDisplay({csv_source, selectedKey}) {
     console.log(csv_source)
     d3.csv(csv_source).then((data) => {
       setWords(
-        data.filter((d) => d.key == selectedKey).slice(0, 100).map((d) => ({
+        data.filter((d) => d.key == selectedKey).map((d) => ({
           text: d.value,
           value: +d.count,
           percent_of_total_changes: +d.percent_of_total_changes_for_key,
-        }))
+        })).filter((d) => d.text.includes(searchTag.toLowerCase()))
+        .slice(0, numTagsShow)
       );
     });
-  }, [csv_source, selectedKey]);
+  }, [csv_source, selectedKey, numTagsShow, searchTag, periodSelection]);
 
   return (
     <>
@@ -77,18 +78,27 @@ export default function TagsDisplay({csv_source, selectedKey}) {
                 <th style={{ border: '1px solid black', padding: '10px' }}>Index</th>
                 <th style={{ border: '1px solid black', padding: '10px' }}>Key</th>
                 <th style={{ border: '1px solid black', padding: '10px' }}>Count</th>
-                <th style={{ border: '1px solid black', padding: '10px' }}>% of Total Changes For Period</th>
+                <th style={{ border: '1px solid black', padding: '10px',  maxWidth: '200px', wordWrap: 'break-word'}}>% of Total Changes For Period</th>
+                {(periodSelection == "imm" || periodSelection == "post") && 
+                  <th style={{ border: '1px solid black', padding: '10px',  maxWidth: '200px', wordWrap: 'break-word'}}>% difference from pre-disaster</th>
+                }
                 </tr>
             </thead>
             <tbody>
                 {words.map((word, index) => (
                 <tr key={index}>
                     <td style={{ border: '1px solid black', padding: '10px' }}>{index}</td>
-                    <td style={{ border: '1px solid black', padding: '10px' }}>{word.text}</td>
+                    <td style={{ border: '1px solid black', padding: '10px', maxWidth: '200px', wordWrap: 'break-word'}}>{word.text}</td>
                     <td style={{ border: '1px solid black', padding: '10px' }}>{word.value}</td>
                     <td style={{ border: '1px solid black', padding: '10px' }}>
                     {word.percent_of_total_changes.toFixed(3)}%
                     </td>
+                    {(periodSelection == "imm" || periodSelection == "post") && 
+                      <td style={{ border: '1px solid black', padding: '10px' }}>
+                      {word.percent_of_total_changes.toFixed(3)}%
+                      </td>
+
+                    }
                 </tr>
                 ))}
             </tbody>
