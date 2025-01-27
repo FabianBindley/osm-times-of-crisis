@@ -23,6 +23,7 @@ export default function TagsDisplay({csv_source, selectedKey, numTagsShow, searc
   useEffect(() => {
     // Load the data from the CSV file
     console.log(csv_source)
+    console.log(selectedKey)
     d3.csv(csv_source).then((data) => {
       setWords(
         data.filter((d) => d.key == selectedKey).map((d) => ({
