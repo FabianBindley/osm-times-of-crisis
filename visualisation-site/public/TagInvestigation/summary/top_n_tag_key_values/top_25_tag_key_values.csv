@@ -2,7 +2,7 @@ key,value,count,percent_of_total_changes_for_key
 amenity,hospital,8175,14.8999
 amenity,school,8021,14.6193
 amenity,drinking_water,4777,8.7067
-amenity,parking,4395,8.0104
+amenity,parking,4394,8.0086
 amenity,place_of_worship,3391,6.1805
 amenity,restaurant,2589,4.7188
 amenity,toilets,1968,3.5869
@@ -24,7 +24,7 @@ amenity,college,554,1.0097
 amenity,police,463,0.8439
 amenity,library,429,0.7819
 amenity,gambling,393,0.7163
-building,yes,2288487,93.4137
+building,yes,2288450,93.4122
 building,house,89284,3.6445
 building,residential,28307,1.1555
 building,construction,13954,0.5696
@@ -51,11 +51,11 @@ building,building,320,0.0131
 building,office,289,0.0118
 highway,path,127448,21.3236
 highway,residential,92010,15.3944
-highway,unclassified,85567,14.3164
-highway,track,84596,14.1539
+highway,unclassified,85564,14.3159
+highway,track,84593,14.1534
 highway,road,39754,6.6513
 highway,footway,35290,5.9044
-highway,tertiary,32903,5.5051
+highway,tertiary,32901,5.5047
 highway,service,25790,4.315
 highway,secondary,16151,2.7023
 highway,primary,12352,2.0666
@@ -74,22 +74,22 @@ highway,construction,624,0.1044
 highway,primary_link,612,0.1024
 highway,trunk_link,611,0.1022
 highway,ford,588,0.0984
-landuse,residential,72647,55.7639
+landuse,residential,72645,55.7624
 landuse,brownfield,24460,18.7755
-landuse,farmland,14702,11.2853
-landuse,forest,4069,3.1234
+landuse,farmland,14678,11.2668
+landuse,forest,4068,3.1226
 landuse,grass,3246,2.4916
 landuse,industrial,1584,1.2159
-landuse,farmyard,1314,1.0086
+landuse,farmyard,1304,1.001
 landuse,farm,1161,0.8912
-landuse,basin,960,0.7369
-landuse,orchard,942,0.7231
-landuse,meadow,562,0.4314
+landuse,basin,958,0.7354
+landuse,orchard,922,0.7077
 landuse,cemetery,556,0.4268
 landuse,reservoir,554,0.4253
+landuse,meadow,542,0.416
 landuse,construction,491,0.3769
 landuse,commercial,407,0.3124
-landuse,vineyard,309,0.2372
+landuse,vineyard,306,0.2349
 landuse,greenfield,283,0.2172
 landuse,retail,221,0.1696
 landuse,allotments,190,0.1458
@@ -124,26 +124,26 @@ name,Arniko Raj Marga,251,0.1148
 name,Route Nationale # 7,251,0.1148
 name,Potential helipad,247,0.113
 name,Via Andrea Costa,246,0.1125
-natural,tree,90743,77.588
-natural,wood,11278,9.643
+natural,tree,59329,50.7281
+natural,wood,11272,9.6379
 natural,water,4922,4.2085
-natural,scrub,2064,1.7648
-natural,tree_row,1518,1.2979
+natural,scrub,2054,1.7562
+natural,tree_row,1483,1.268
 natural,peak,1179,1.0081
 natural,coastline,994,0.8499
 natural,sand,816,0.6977
 natural,shingle,587,0.5019
 natural,glacier,548,0.4686
 natural,wetland,332,0.2839
-natural,grassland,299,0.2557
+natural,grassland,296,0.2531
 natural,cliff,241,0.2061
-natural,scree,192,0.1642
+natural,scree,191,0.1633
 natural,heath,183,0.1565
 natural,ridge,158,0.1351
-natural,bare_rock,156,0.1334
+natural,bare_rock,124,0.106
 natural,beach,119,0.1017
 natural,riverbed,75,0.0641
-natural,shrub,67,0.0573
+natural,shrub,59,0.0504
 natural,saddle,50,0.0428
 natural,plant,46,0.0393
 natural,bay,41,0.0351
@@ -174,9 +174,9 @@ source,"Google, 2010-01-17",4876,0.9724
 source,"WorldView-2, DigitalGlobe, 2010-01-21",4519,0.9012
 source,"<différent>,UAV,IOM,COSMHA,SIGHA",4165,0.8306
 source,"WorldBank, 2010-01-22",4141,0.8258
-surface,asphalt,51805,48.3553
-surface,unpaved,16142,15.0671
-surface,ground,9368,8.7442
+surface,asphalt,51802,48.3525
+surface,unpaved,16141,15.0662
+surface,ground,9364,8.7405
 surface,gravel,6061,5.6574
 surface,paved,4747,4.4309
 surface,Dirt/Sand,4701,4.388
@@ -187,7 +187,7 @@ surface,sett,1404,1.3105
 surface,concrete,924,0.8625
 surface,compacted,813,0.7589
 surface,unspecified,500,0.4667
-surface,grass,429,0.4004
+surface,grass,417,0.3892
 surface,mud,395,0.3687
 surface,fine_gravel,220,0.2054
 surface,earth,193,0.1801

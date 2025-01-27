@@ -1,91 +1,111 @@
-key,value,count,percent_of_total_changes_for_key
-amenity,school,2142,12.5102
-amenity,parking,1890,11.0384
-amenity,place_of_worship,1823,10.6471
-amenity,drinking_water,1590,9.2863
-amenity,restaurant,976,5.7003
-amenity,toilets,858,5.0111
-amenity,bench,487,2.8443
-amenity,pharmacy,443,2.5873
-amenity,hospital,423,2.4705
-amenity,gambling,380,2.2194
-building,yes,411240,92.4575
-building,construction,12307,2.7669
-building,house,6590,1.4816
-building,residential,5439,1.2228
-building,commercial,2810,0.6318
-building,apartments,976,0.2194
-building,school,851,0.1913
-building,church,534,0.1201
-building,industrial,402,0.0904
-building,roof,306,0.0688
-highway,residential,22309,21.3833
-highway,unclassified,12993,12.4539
-highway,track,10506,10.0701
-highway,footway,8462,8.1109
-highway,path,7057,6.7642
-highway,service,5956,5.7089
-highway,tertiary,5932,5.6859
-highway,crossing,5452,5.2258
-highway,secondary,4203,4.0286
-highway,primary,3746,3.5906
-landuse,residential,3789,39.8507
-landuse,farmland,1721,18.1005
-landuse,grass,672,7.0677
-landuse,forest,549,5.7741
-landuse,industrial,471,4.9537
-landuse,orchard,335,3.5233
-landuse,farmyard,273,2.8713
-landuse,construction,255,2.682
-landuse,meadow,169,1.7775
-landuse,salt_pond,148,1.5566
-name,महेन्द्र राज्मार्ग्,374,0.5906
-name,Tangenziale di Bologna,206,0.3253
-name,Via Emilia,196,0.3095
-name,Strada Statale 3 bis Tiberina,176,0.2779
-name,Bologna-Firenze (direttissima),164,0.259
-name,Building,162,0.2558
-name,building,152,0.24
-name,Route Nationale # 2,130,0.2053
-name,Mahendra Highway,128,0.2021
-name,Via Emilia Levante,125,0.1974
-natural,tree,4601,52.9825
-natural,water,1114,12.8282
-natural,wood,808,9.3045
-natural,glacier,437,5.0322
-natural,coastline,347,3.9959
-natural,tree_row,270,3.1092
-natural,sand,211,2.4298
-natural,peak,183,2.1073
-natural,scrub,179,2.0613
-natural,shingle,121,1.3934
-source,bing,12543,16.195
-source,Bing,8142,10.5126
-source,Digital Globe 2015 Canaan Haiti,7338,9.4745
-source,Survey-ARC,5414,6.9903
-source,http://www.tper.it/azienda/tper-open-data,4341,5.6049
-source,"<différent>,UAV,IOM,COSMHA,SIGHA",4005,5.1711
-source,Regione Emilia Romagna,2986,3.8554
-source,Survey_Arc,2226,2.8741
-source,Digital Globe 2015 Saint Christophe Haiti,1808,2.3344
-source,Survey,1719,2.2195
-surface,asphalt,19613,60.2346
-surface,ground,4617,14.1795
-surface,unpaved,2094,6.431
-surface,paved,1585,4.8678
-surface,dirt,961,2.9514
-surface,paving_stones,909,2.7917
-surface,gravel,757,2.3249
-surface,sett,450,1.382
-surface,unspecified,300,0.9213
-surface,concrete,270,0.8292
-waterway,stream,4627,53.5161
-waterway,river,2285,26.4284
-waterway,drain,725,8.3854
-waterway,canal,443,5.1238
-waterway,ditch,265,3.065
-waterway,riverbank,241,2.7874
-waterway,dam,22,0.2545
-waterway,lock_gate,13,0.1504
-waterway,waterfall,11,0.1272
-waterway,weir,9,0.1041
+key,value,count,percent_of_total_changes_for_key,percent_difference_from_pre,percent_difference_from_pre_day
+amenity,school,2142,12.5102,0.0,0.0
+amenity,parking,1890,11.0384,0.0,0.0
+amenity,place_of_worship,1823,10.6471,0.0,0.0
+amenity,drinking_water,1590,9.2863,0.0,0.0
+amenity,restaurant,976,5.7003,0.0,0.0
+amenity,toilets,858,5.0111,0.0,0.0
+amenity,bench,487,2.8443,0.0,0.0
+amenity,pharmacy,443,2.5873,0.0,0.0
+amenity,hospital,423,2.4705,0.0,0.0
+amenity,gambling,380,2.2194,0.0,0.0
+building,yes,411240,92.4575,0.0,0.0
+building,construction,12307,2.7669,0.0,0.0
+building,house,6590,1.4816,0.0,0.0
+building,residential,5439,1.2228,0.0,0.0
+building,commercial,2810,0.6318,0.0,0.0
+building,apartments,976,0.2194,0.0,0.0
+building,school,851,0.1913,0.0,0.0
+building,church,534,0.1201,0.0,0.0
+building,industrial,402,0.0904,0.0,0.0
+building,roof,306,0.0688,0.0,0.0
+highway,residential,22309,21.3833,0.0,0.0
+highway,unclassified,12993,12.4539,0.0,0.0
+highway,track,10506,10.0701,0.0,0.0
+highway,footway,8462,8.1109,0.0,0.0
+highway,path,7057,6.7642,0.0,0.0
+highway,service,5956,5.7089,0.0,0.0
+highway,tertiary,5932,5.6859,0.0,0.0
+highway,crossing,5452,5.2258,0.0,0.0
+highway,secondary,4203,4.0286,0.0,0.0
+highway,primary,3746,3.5906,0.0,0.0
+landuse,residential,3789,39.8507,0.0,0.0
+landuse,farmland,1721,18.1005,0.0,0.0
+landuse,grass,672,7.0677,0.0,0.0
+landuse,forest,549,5.7741,0.0,0.0
+landuse,industrial,471,4.9537,0.0,0.0
+landuse,orchard,335,3.5233,0.0,0.0
+landuse,farmyard,273,2.8713,0.0,0.0
+landuse,construction,255,2.682,0.0,0.0
+landuse,meadow,169,1.7775,0.0,0.0
+landuse,salt_pond,148,1.5566,0.0,0.0
+leisure,park,764,37.8593,0.0,0.0
+leisure,pitch,445,22.0515,0.0,0.0
+leisure,playground,161,7.9782,0.0,0.0
+leisure,garden,130,6.442,0.0,0.0
+leisure,common,116,5.7483,0.0,0.0
+leisure,swimming_pool,89,4.4103,0.0,0.0
+leisure,sports_centre,86,4.2616,0.0,0.0
+leisure,picnic_table,38,1.8831,0.0,0.0
+leisure,dog_park,24,1.1893,0.0,0.0
+leisure,fitness_centre,21,1.0406,0.0,0.0
+name,महेन्द्र राज्मार्ग्,374,0.5906,0.0,0.0
+name,Tangenziale di Bologna,206,0.3253,0.0,0.0
+name,Via Emilia,196,0.3095,0.0,0.0
+name,Strada Statale 3 bis Tiberina,176,0.2779,0.0,0.0
+name,Bologna-Firenze (direttissima),164,0.259,0.0,0.0
+name,Building,162,0.2558,0.0,0.0
+name,building,152,0.24,0.0,0.0
+name,Route Nationale # 2,130,0.2053,0.0,0.0
+name,Mahendra Highway,128,0.2021,0.0,0.0
+name,Via Emilia Levante,125,0.1974,0.0,0.0
+natural,tree,4601,52.9825,0.0,0.0
+natural,water,1114,12.8282,0.0,0.0
+natural,wood,808,9.3045,0.0,0.0
+natural,glacier,437,5.0322,0.0,0.0
+natural,coastline,347,3.9959,0.0,0.0
+natural,tree_row,270,3.1092,0.0,0.0
+natural,sand,211,2.4298,0.0,0.0
+natural,peak,183,2.1073,0.0,0.0
+natural,scrub,179,2.0613,0.0,0.0
+natural,shingle,121,1.3934,0.0,0.0
+source,bing,12543,16.195,0.0,0.0
+source,Bing,8142,10.5126,0.0,0.0
+source,Digital Globe 2015 Canaan Haiti,7338,9.4745,0.0,0.0
+source,Survey-ARC,5414,6.9903,0.0,0.0
+source,http://www.tper.it/azienda/tper-open-data,4341,5.6049,0.0,0.0
+source,"<différent>,UAV,IOM,COSMHA,SIGHA",4005,5.1711,0.0,0.0
+source,Regione Emilia Romagna,2986,3.8554,0.0,0.0
+source,Survey_Arc,2226,2.8741,0.0,0.0
+source,Digital Globe 2015 Saint Christophe Haiti,1808,2.3344,0.0,0.0
+source,Survey,1719,2.2195,0.0,0.0
+surface,asphalt,19613,60.2346,0.0,0.0
+surface,ground,4617,14.1795,0.0,0.0
+surface,unpaved,2094,6.431,0.0,0.0
+surface,paved,1585,4.8678,0.0,0.0
+surface,dirt,961,2.9514,0.0,0.0
+surface,paving_stones,909,2.7917,0.0,0.0
+surface,gravel,757,2.3249,0.0,0.0
+surface,sett,450,1.382,0.0,0.0
+surface,unspecified,300,0.9213,0.0,0.0
+surface,concrete,270,0.8292,0.0,0.0
+waterway,stream,4627,53.5161,0.0,0.0
+waterway,river,2285,26.4284,0.0,0.0
+waterway,drain,725,8.3854,0.0,0.0
+waterway,canal,443,5.1238,0.0,0.0
+waterway,ditch,265,3.065,0.0,0.0
+waterway,riverbank,241,2.7874,0.0,0.0
+waterway,dam,22,0.2545,0.0,0.0
+waterway,lock_gate,13,0.1504,0.0,0.0
+waterway,waterfall,11,0.1272,0.0,0.0
+waterway,weir,9,0.1041,0.0,0.0
+emergency,fire_hydrant,155,35.3881,0.0,0.0
+emergency,no,150,34.2466,0.0,0.0
+emergency,yes,48,10.9589,0.0,0.0
+emergency,defibrillator,32,7.3059,0.0,0.0
+emergency,assembly_point,25,5.7078,0.0,0.0
+emergency,ambulance_station,11,2.5114,0.0,0.0
+emergency,emergency_ward_entrance,9,2.0548,0.0,0.0
+emergency,landing_site,3,0.6849,0.0,0.0
+emergency,phone,2,0.4566,0.0,0.0
+emergency,designated,1,0.2283,0.0,0.0

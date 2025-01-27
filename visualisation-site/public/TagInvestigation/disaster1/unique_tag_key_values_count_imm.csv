@@ -1,72 +1,76 @@
-key,value,count,percent_of_total_changes_for_key
-amenity,bench,5,20.0
-amenity,parking,5,20.0
-amenity,school,4,16.0
-amenity,bank,2,8.0
-amenity,fuel,2,8.0
-amenity,parking_space,2,8.0
-amenity,post_office,2,8.0
-amenity,cafe,1,4.0
-amenity,grave_yard,1,4.0
-amenity,pub,1,4.0
-building,yes,28,87.5
-building,house,3,9.375
-building,warehouse,1,3.125
-highway,footway,11,28.9474
-highway,track,9,23.6842
-highway,residential,7,18.4211
-highway,steps,4,10.5263
-highway,cycleway,3,7.8947
-highway,crossing,1,2.6316
-highway,path,1,2.6316
-highway,service,1,2.6316
-highway,trunk,1,2.6316
-landuse,residential,20,62.5
-landuse,grass,4,12.5
-landuse,allotments,3,9.375
-landuse,railway,2,6.25
-landuse,retail,2,6.25
-landuse,farmland,1,3.125
-name,Lammasmead,4,13.3333
-name,River Lea,3,10.0
-name,Nationwide,2,6.6667
-name,Peacocks,2,6.6667
-name,Savers,2,6.6667
-name,Asda,1,3.3333
-name,BP,1,3.3333
-name,Broxbourne C of E Primary School,1,3.3333
-name,Caffè Nero,1,3.3333
-name,Cheshunt Country Walk & Dog Activity Trail,1,3.3333
-name,Cheshunt Train Station Car Park,1,3.3333
-name,Flamstead End School,1,3.3333
-name,Forres Primary Academy,1,3.3333
-name,Galloway Close,1,3.3333
-name,Great Cambridge Road,1,3.3333
-name,Hoddesdon Post Office,1,3.3333
-name,JET,1,3.3333
-name,Mulberry Close,1,3.3333
-name,The John Warner School,1,3.3333
-name,The Moon and Cross,1,3.3333
-name,Trinity Marsh Ditch,1,3.3333
-name,Turners Hill Post Office,1,3.3333
-natural,water,12,50.0
-natural,wood,11,45.8333
-natural,wetland,1,4.1667
-source,yahoo + gpx,13,50.0
-source,gps+mapnoter,6,23.0769
-source,bing,2,7.6923
-source,yahoo,2,7.6923
-source,LVRP Sign,1,3.8462
-source,local_knowledge,1,3.8462
-source,yahoo+gpx,1,3.8462
-surface,asphalt,18,58.0645
-surface,dirt,4,12.9032
-surface,metal,3,9.6774
-surface,concrete,2,6.4516
-surface,paving_stones,2,6.4516
-surface,compacted,1,3.2258
-surface,wood,1,3.2258
-waterway,canal,3,33.3333
-waterway,river,2,22.2222
-waterway,stream,2,22.2222
-waterway,weir,2,22.2222
+key,value,count,percent_of_total_changes_for_key,percent_difference_from_pre,percent_difference_from_pre_day
+amenity,bench,5,20.0,400.0,5983.3333
+amenity,parking,5,20.0,400.0,5983.3333
+amenity,school,4,16.0,300.0,4766.6667
+amenity,bank,2,8.0,100.0,2333.3333
+amenity,fuel,2,8.0,100.0,2333.3333
+amenity,parking_space,2,8.0,100.0,2333.3333
+amenity,post_office,2,8.0,100.0,2333.3333
+amenity,cafe,1,4.0,0.0,1116.6667
+amenity,grave_yard,1,4.0,0.0,1116.6667
+amenity,pub,1,4.0,0.0,1116.6667
+building,yes,28,87.5,2700.0,33966.6667
+building,house,3,9.375,200.0,3550.0
+building,warehouse,1,3.125,0.0,1116.6667
+highway,footway,11,28.9474,1000.0,13283.3333
+highway,track,9,23.6842,800.0,10850.0
+highway,residential,7,18.4211,600.0,8416.6667
+highway,steps,4,10.5263,300.0,4766.6667
+highway,cycleway,3,7.8947,200.0,3550.0
+highway,crossing,1,2.6316,0.0,1116.6667
+highway,path,1,2.6316,0.0,1116.6667
+highway,service,1,2.6316,0.0,1116.6667
+highway,trunk,1,2.6316,0.0,1116.6667
+landuse,residential,20,62.5,1900.0,24233.3333
+landuse,grass,4,12.5,300.0,4766.6667
+landuse,allotments,3,9.375,200.0,3550.0
+landuse,railway,2,6.25,100.0,2333.3333
+landuse,retail,2,6.25,100.0,2333.3333
+landuse,farmland,1,3.125,0.0,1116.6667
+leisure,park,5,62.5,400.0,5983.3333
+leisure,dog_park,1,12.5,0.0,1116.6667
+leisure,picnic_table,1,12.5,0.0,1116.6667
+leisure,pitch,1,12.5,0.0,1116.6667
+name,Lammasmead,4,13.3333,300.0,4766.6667
+name,River Lea,3,10.0,200.0,3550.0
+name,Nationwide,2,6.6667,100.0,2333.3333
+name,Peacocks,2,6.6667,100.0,2333.3333
+name,Savers,2,6.6667,100.0,2333.3333
+name,Asda,1,3.3333,0.0,1116.6667
+name,BP,1,3.3333,0.0,1116.6667
+name,Broxbourne C of E Primary School,1,3.3333,0.0,1116.6667
+name,Caffè Nero,1,3.3333,0.0,1116.6667
+name,Cheshunt Country Walk & Dog Activity Trail,1,3.3333,0.0,1116.6667
+name,Cheshunt Train Station Car Park,1,3.3333,0.0,1116.6667
+name,Flamstead End School,1,3.3333,0.0,1116.6667
+name,Forres Primary Academy,1,3.3333,0.0,1116.6667
+name,Galloway Close,1,3.3333,0.0,1116.6667
+name,Great Cambridge Road,1,3.3333,0.0,1116.6667
+name,Hoddesdon Post Office,1,3.3333,0.0,1116.6667
+name,JET,1,3.3333,0.0,1116.6667
+name,Mulberry Close,1,3.3333,0.0,1116.6667
+name,The John Warner School,1,3.3333,0.0,1116.6667
+name,The Moon and Cross,1,3.3333,0.0,1116.6667
+name,Trinity Marsh Ditch,1,3.3333,0.0,1116.6667
+name,Turners Hill Post Office,1,3.3333,0.0,1116.6667
+natural,water,12,50.0,1100.0,14500.0
+natural,wood,11,45.8333,1000.0,13283.3333
+natural,wetland,1,4.1667,0.0,1116.6667
+source,yahoo + gpx,13,50.0,1200.0,15716.6667
+source,gps+mapnoter,6,23.0769,500.0,7200.0
+source,bing,2,7.6923,100.0,2333.3333
+source,yahoo,2,7.6923,100.0,2333.3333
+source,LVRP Sign,1,3.8462,0.0,1116.6667
+source,local_knowledge,1,3.8462,0.0,1116.6667
+source,yahoo+gpx,1,3.8462,0.0,1116.6667
+surface,asphalt,18,58.0645,1700.0,21800.0
+surface,dirt,4,12.9032,300.0,4766.6667
+surface,metal,3,9.6774,200.0,3550.0
+surface,concrete,2,6.4516,100.0,2333.3333
+surface,paving_stones,2,6.4516,100.0,2333.3333
+surface,compacted,1,3.2258,0.0,1116.6667
+surface,wood,1,3.2258,0.0,1116.6667
+waterway,canal,3,33.3333,200.0,3550.0
+waterway,river,2,22.2222,100.0,2333.3333
+waterway,stream,2,22.2222,100.0,2333.3333
+waterway,weir,2,22.2222,100.0,2333.3333

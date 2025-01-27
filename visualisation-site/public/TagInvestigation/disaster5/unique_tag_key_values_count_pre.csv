@@ -1,735 +1,739 @@
-key,value,count,percent_of_total_changes_for_key
-amenity,pharmacy,46,28.3951
-amenity,hospital,44,27.1605
-amenity,place_of_worship,33,20.3704
-amenity,doctors,6,3.7037
-amenity,dentist,4,2.4691
-amenity,ferry_terminal,4,2.4691
-amenity,money_transfer,4,2.4691
-amenity,restaurant,3,1.8519
-amenity,school,3,1.8519
-amenity,townhall,3,1.8519
-amenity,bank,2,1.2346
-amenity,library,2,1.2346
-amenity,marketplace,2,1.2346
-amenity,clinic,1,0.6173
-amenity,community_centre,1,0.6173
-amenity,courthouse,1,0.6173
-amenity,fuel,1,0.6173
-amenity,social_facility,1,0.6173
-amenity,studio,1,0.6173
-building,yes,19414,97.9862
-building,school,109,0.5501
-building,retail,82,0.4139
-building,church,49,0.2473
-building,service,29,0.1464
-building,residential,26,0.1312
-building,construction,25,0.1262
-building,public,22,0.111
-building,hospital,19,0.0959
-building,commercial,12,0.0606
-building,house,9,0.0454
-building,civic,7,0.0353
-building,office,5,0.0252
-building,chapel,2,0.0101
-building,hotel,1,0.005
-building,latrine,1,0.005
-building,services,1,0.005
-highway,unclassified,414,27.6
-highway,path,316,21.0667
-highway,residential,302,20.1333
-highway,track,192,12.8
-highway,service,134,8.9333
-highway,tertiary,72,4.8
-highway,secondary,37,2.4667
-highway,footway,11,0.7333
-highway,primary,11,0.7333
-highway,crossing,6,0.4
-highway,motorway_junction,3,0.2
-highway,steps,2,0.1333
-landuse,residential,123,92.4812
-landuse,cemetery,7,5.2632
-landuse,farmland,2,1.5038
-landuse,quarry,1,0.7519
-name,Route Départementale # 205,18,2.0478
-name,Route Nationale # 2,9,1.0239
-name,Rivière Carpentier,8,0.9101
-name,Route Départamentale,8,0.9101
-name,Rue Valcius Bertrand,8,0.9101
-name,12,7,0.7964
-name,Route Bouzi,7,0.7964
-name,Rivière La Source,6,0.6826
-name,Rivière Serpente,6,0.6826
-name,Rue Castor,6,0.6826
-name,Rue Félix Desrosin,6,0.6826
-name,Rivière Sadrique,5,0.5688
-name,10,4,0.4551
-name,8,4,0.4551
-name,Aquin,4,0.4551
-name,Baptiste,4,0.4551
-name,Boulevard Saint-Pierre,4,0.4551
-name,Q,4,0.4551
-name,Ravine Duclerc,4,0.4551
-name,Ravine Masseillan,4,0.4551
-name,Rivière Port Salut,4,0.4551
-name,Route Ticoma 2,4,0.4551
-name,Rue St Paul,4,0.4551
-name,Western Union,4,0.4551
-name,1,3,0.3413
-name,14,3,0.3413
-name,3,3,0.3413
-name,5,3,0.3413
-name,6,3,0.3413
-name,A,3,0.3413
-name,Coteaux,3,0.3413
-name,Katryèm Seksyon,3,0.3413
-name,Les Cayes,3,0.3413
-name,Losandieu,3,0.3413
-name,Lozandier,3,0.3413
-name,Morne Rouge,3,0.3413
-name,Pi Mirand,3,0.3413
-name,Port Salut,3,0.3413
-name,Premye Seksyon,3,0.3413
-name,Ravine Duillan,3,0.3413
-name,Ravine Mirand,3,0.3413
-name,Rivière Dormante,3,0.3413
-name,Route Cannibo,3,0.3413
-name,Route Champagne,3,0.3413
-name,Route Départementale # 203,3,0.3413
-name,Route Sintout,3,0.3413
-name,Rue Delistoire,3,0.3413
-name,Rue Du Quai,3,0.3413
-name,Rue Point-Sable,3,0.3413
-name,Rue Tapay,3,0.3413
-name,Torbeck,3,0.3413
-name,15,2,0.2275
-name,2,2,0.2275
-name,23,2,0.2275
-name,4,2,0.2275
-name,40,2,0.2275
-name,41,2,0.2275
-name,42A,2,0.2275
-name,43,2,0.2275
-name,44,2,0.2275
-name,45,2,0.2275
-name,47,2,0.2275
-name,48,2,0.2275
-name,52,2,0.2275
-name,65,2,0.2275
-name,7,2,0.2275
-name,Aire Protégée La Cahouane,2,0.2275
-name,Anse d'Hainault,2,0.2275
-name,Aquin Avenue,2,0.2275
-name,Arniquet,2,0.2275
-name,Avenue des Quatre Chemins,2,0.2275
-name,B,2,0.2275
-name,Baradères,2,0.2275
-name,Bonapharma,2,0.2275
-name,C,2,0.2275
-name,CAPOSUD (Caisse Populaire Du Sud),2,0.2275
-name,Carrefour Baryè Jon,2,0.2275
-name,Carrefour Duverger,2,0.2275
-name,Cavaillon,2,0.2275
-name,Chantal,2,0.2275
-name,Chardonnières,2,0.2275
-name,Constitution Mertenal,2,0.2275
-name,Corail,2,0.2275
-name,D,2,0.2275
-name,Digicel,2,0.2275
-name,Dispensaire de Bouzy,2,0.2275
-name,Dispensaire de Carpentier,2,0.2275
-name,E,2,0.2275
-name,Eglise Bethanie,2,0.2275
-name,Eglise Par la Foi de Canal,2,0.2275
-name,F,2,0.2275
-name,G,2,0.2275
-name,Gros Morne,2,0.2275
-name,H,2,0.2275
-name,I,2,0.2275
-name,J,2,0.2275
-name,K,2,0.2275
-name,Kafou Dabon,2,0.2275
-name,L,2,0.2275
-name,L'Anse-à-Veau,2,0.2275
-name,L'Asile,2,0.2275
-name,M,2,0.2275
-name,Masseillan,2,0.2275
-name,Mission Evangélique de Jésus Christe,2,0.2275
-name,Morne Dubois,2,0.2275
-name,Mòn Pensik,2,0.2275
-name,N,2,0.2275
-name,Nº 0001,2,0.2275
-name,O,2,0.2275
-name,P,2,0.2275
-name,Paroisse Saint Jean Baptiste de Bidouze,2,0.2275
-name,Pascal,2,0.2275
-name,RC14-Baptiste,2,0.2275
-name,Ravine Citron,2,0.2275
-name,Ravine Mélinette,2,0.2275
-name,Ravinne Bois D´Orme,2,0.2275
-name,Rivière Empereur,2,0.2275
-name,Rivière Grise,2,0.2275
-name,Rivière Mahot,2,0.2275
-name,Rivière de L'Acul,2,0.2275
-name,Rivière des Mornes,2,0.2275
-name,Roche à Bateau,2,0.2275
-name,Route Joupa Bouler,2,0.2275
-name,Route Nan Félix,2,0.2275
-name,Rue Alex. Clement,2,0.2275
-name,Rue Ampot Malivert,2,0.2275
-name,Rue Bortesse S.,2,0.2275
-name,Rue Bénitho Bossé,2,0.2275
-name,Rue Duclesse,2,0.2275
-name,Rue Dunès Gaspard,2,0.2275
-name,Rue Mirand,2,0.2275
-name,Rue Monha,2,0.2275
-name,Rue Notre Dame,2,0.2275
-name,Rue Radou 2,2,0.2275
-name,Rue Saint Dominique,2,0.2275
-name,Ruelle Samuel,2,0.2275
-name,Saint Jean du Sud,2,0.2275
-name,Saint-Louis-du-Sud,2,0.2275
-name,Terminal to Ile a Vache,2,0.2275
-name,Ticoma,2,0.2275
-name,Village Food For The Poor,2,0.2275
-name,Wout Sizyèm,2,0.2275
-name,11,1,0.1138
-name,13,1,0.1138
-name,16,1,0.1138
-name,18,1,0.1138
-name,19,1,0.1138
-name,2 Route Duverger,1,0.1138
-name,20,1,0.1138
-name,21,1,0.1138
-name,22,1,0.1138
-name,24 Route Bouzi,1,0.1138
-name,25,1,0.1138
-name,26,1,0.1138
-name,27,1,0.1138
-name,28,1,0.1138
-name,29,1,0.1138
-name,30,1,0.1138
-name,31,1,0.1138
-name,32,1,0.1138
-name,33,1,0.1138
-name,34,1,0.1138
-name,35,1,0.1138
-name,36,1,0.1138
-name,37,1,0.1138
-name,38,1,0.1138
-name,39,1,0.1138
-name,4 Route Duverger,1,0.1138
-name,42,1,0.1138
-name,46,1,0.1138
-name,49,1,0.1138
-name,50,1,0.1138
-name,51,1,0.1138
-name,53,1,0.1138
-name,54,1,0.1138
-name,56,1,0.1138
-name,58,1,0.1138
-name,59,1,0.1138
-name,60,1,0.1138
-name,61,1,0.1138
-name,62,1,0.1138
-name,64,1,0.1138
-name,66,1,0.1138
-name,67,1,0.1138
-name,68,1,0.1138
-name,69,1,0.1138
-name,70,1,0.1138
-name,71,1,0.1138
-name,72,1,0.1138
-name,73,1,0.1138
-name,74,1,0.1138
-name,75,1,0.1138
-name,76,1,0.1138
-name,77,1,0.1138
-name,78,1,0.1138
-name,79,1,0.1138
-name,9,1,0.1138
-name,Abricots,1,0.1138
-name,Action Humanitiere,1,0.1138
-name,Adar Pharma,1,0.1138
-name,Administration Communitare,1,0.1138
-name,"Administration, École Frere Odyle Joseph",1,0.1138
-name,Anixa Pharma,1,0.1138
-name,Antene Jocelyn License,1,0.1138
-name,Association des Inities Progressistes de Cavaillon,1,0.1138
-name,Atelier de Fabrication Felipe,1,0.1138
-name,Av. Aquin,1,0.1138
-name,Avenue Cartagena,1,0.1138
-name,Avenue Cartgena,1,0.1138
-name,Bassin Mahaut,1,0.1138
-name,Bastien Fresnel Luxama,1,0.1138
-name,Beaumont,1,0.1138
-name,Beils Veronce Pharmacie,1,0.1138
-name,Bibleothect les Raunes de la dignite,1,0.1138
-name,Bibliothèque la page du livre,1,0.1138
-name,Black Josnel shop,1,0.1138
-name,Bon Boutique,1,0.1138
-name,Bon Samaritain des Roseaux,1,0.1138
-name,Bonbon,1,0.1138
-name,Bruce-Lee St-Germain,1,0.1138
-name,Bureau D'etat Civil,1,0.1138
-name,Bureau De Commerce,1,0.1138
-name,Bureau Department Sud,1,0.1138
-name,Bureau Immigration Des Cayes,1,0.1138
-name,Bureau Protection Civile,1,0.1138
-name,Bureau de Travail,1,0.1138
-name,Bureau du Port,1,0.1138
-name,CABINET D´AVOCAT DES CAYES,1,0.1138
-name,CEAC,1,0.1138
-name,CEDREMI,1,0.1138
-name,CENTRE MEDICAL CHARLES COLIMON,1,0.1138
-name,CENTRE MEDICO - SOCIAL DE GEBEAU,1,0.1138
-name,CITY MED,1,0.1138
-name,CMS de Gébeau à Roseaux,1,0.1138
-name,CROIX ROUGE HAITIENNE CAYES,1,0.1138
-name,Cabinet D'avocats,1,0.1138
-name,Camp-Perrin,1,0.1138
-name,Caritas,1,0.1138
-name,Caritas de Cavaillon,1,0.1138
-name,Carrefour  Sylvès,1,0.1138
-name,Carrefour Baptiste,1,0.1138
-name,Carrefour Nèrette,1,0.1138
-name,Carrefour Seradòt,1,0.1138
-name,Carrefour Timé,1,0.1138
-name,Central Michelet Borlette,1,0.1138
-name,Centre Culturel Catholique,1,0.1138
-name,Centre Development Des Enfants,1,0.1138
-name,Centre de Santé Madame Bernard,1,0.1138
-name,Centre de Santé Siméon,1,0.1138
-name,Centre de santé communautaire,1,0.1138
-name,Centre de santé de Moron,1,0.1138
-name,Centre de santé de Sainte Hélène,1,0.1138
-name,Chambellan,1,0.1138
-name,Christ Avan Guest House,1,0.1138
-name,Cimetière de Bidouze,1,0.1138
-name,Cimetière de Vieux Bourg d’Aquin,1,0.1138
-name,Cité Casseus,1,0.1138
-name,Clinic City Med Cayes,1,0.1138
-name,Clinique Dentaire,1,0.1138
-name,Clinique Médicale,1,0.1138
-name,Clinique Pharma & St Francios Dry Cleaning,1,0.1138
-name,Clinque de la vision,1,0.1138
-name,Coby Club,1,0.1138
-name,College University De Maniche,1,0.1138
-name,Comet,1,0.1138
-name,Complexe médico-légal du sud,1,0.1138
-name,Cours Superieur Des Comptes,1,0.1138
-name,Croix Calvaire,1,0.1138
-name,DEBAS,1,0.1138
-name,DISPENSAIRE DE CHANTAL,1,0.1138
-name,DISPENSAIRE DE LATIBOLIERE,1,0.1138
-name,DISPENSAIRE DE MARFRANC,1,0.1138
-name,DISPENSAIRE DE MORON (NOTRE DAME DE LOURDES),1,0.1138
-name,DP LILIAN DE ROCHE A BATEAU,1,0.1138
-name,DP SAINTE ANNE DE RENDEL,1,0.1138
-name,Dalmette,1,0.1138
-name,Dame Marie,1,0.1138
-name,Delta Aquin,1,0.1138
-name,Direction Regionale,1,0.1138
-name,Direction departementale des travaux,1,0.1138
-name,Dispensaire  de Biduze,1,0.1138
-name,"Dispensaire ""N.D. des Malades""",1,0.1138
-name,Dispensaire Saint-Joseph,1,0.1138
-name,Dispensaire Sainte Claire,1,0.1138
-name,Dispensaire Siloe de Léon,1,0.1138
-name,Dépot médical,1,0.1138
-name,Ecole Mixte de Carrefour Lacoline,1,0.1138
-name,Ecole Nationale de Baptiste,1,0.1138
-name,Eglise Baptiste De Suzon,1,0.1138
-name,Eglise Chistianiste de Baptiste,1,0.1138
-name,Eglise Chistianiste de Baptiste -MEC,1,0.1138
-name,Eglise Christianste de Virgile,1,0.1138
-name,Eglise Christianste de Virgile - MEC,1,0.1138
-name,Eglise Christiniste de Bidouze - MEC,1,0.1138
-name,Eglise Christiniste de Bouzi - MEC,1,0.1138
-name,Eglise Christiniste de Losandieu - MEC,1,0.1138
-name,Eglise Christiniste de Lozandier - MEC,1,0.1138
-name,Eglise Christiniste de Masseillan - MEC,1,0.1138
-name,Eglise Christiniste de Vieux Bourgs - MEC,1,0.1138
-name,Eglise MBSH de Montoban,1,0.1138
-name,Eglise Notre Dame De La Mère,1,0.1138
-name,Eglise Nouvelle Jérusalem,1,0.1138
-name,Eglise Saint Antoine,1,0.1138
-name,En DENTIC Ici,1,0.1138
-name,Entèsekyon,1,0.1138
-name,Escalier des 500 marches de la Médaille Miraculeuse,1,0.1138
-name,FOSREF-LAKAY CAYES,1,0.1138
-name,Fanmmiy Clinique médico-chirurgicale,1,0.1138
-name,Fashion House,1,0.1138
-name,Fonds-des-Nègres,1,0.1138
-name,Gaguère de Bidouze,1,0.1138
-name,Global GPA services,1,0.1138
-name,Grace Divine Depot Pharma,1,0.1138
-name,Grace Divine Pharmacy,1,0.1138
-name,Grande Rivière,1,0.1138
-name,Gros Bassin,1,0.1138
-name,Gros Morne de Chirondelle,1,0.1138
-name,Hopital Cadette,1,0.1138
-name,Hopital de la Charité,1,0.1138
-name,Hopital général Les Cayes,1,0.1138
-name,Hoshina Dentaire,1,0.1138
-name,Hospital Charles Pascua,1,0.1138
-name,Hospital de Biduze,1,0.1138
-name,Hotel L jordin,1,0.1138
-name,Human Right Office,1,0.1138
-name,INSTITUTION Medical Chuirgical,1,0.1138
-name,Ideale pharmacie,1,0.1138
-name,Ilmo,1,0.1138
-name,Impasse Cimitère,1,0.1138
-name,Impasse Cité Lumière,1,0.1138
-name,Impasse Général Légendre,1,0.1138
-name,Impasse Joseph,1,0.1138
-name,Impasse Malbranche,1,0.1138
-name,Impasse Mirbalo,1,0.1138
-name,Impasse Mirbalès T.,1,0.1138
-name,Impasse Préval,1,0.1138
-name,Impasse Vilbon,1,0.1138
-name,Institution Nationale De Promotion Liberties,1,0.1138
-name,J.C Foundation Diabetics,1,0.1138
-name,Jeaninne Theodore,1,0.1138
-name,Jonc Dodin,1,0.1138
-name,Jérémie,1,0.1138
-name,KAY DAGUY HOTEL,1,0.1138
-name,KAY MADAN ALFRED HOTEL RESTAURANT,1,0.1138
-name,Kafou,1,0.1138
-name,Kafou Madan Saïl,1,0.1138
-name,Kafou Sinno,1,0.1138
-name,Kay Timoun Bondye,1,0.1138
-name,Ki Hougan,1,0.1138
-name,Klinik Lafanmy,1,0.1138
-name,La Grande Colline,1,0.1138
-name,La Nationale Sud-Ouest,1,0.1138
-name,La Rou Pays,1,0.1138
-name,La main Divine,1,0.1138
-name,Laboratoire d'analyse médicale,1,0.1138
-name,Laboratoire médico-légal,1,0.1138
-name,Lavalas,1,0.1138
-name,Les Anglais,1,0.1138
-name,Les Irois,1,0.1138
-name,Lougou,1,0.1138
-name,MEBSH Mme Bernard,1,0.1138
-name,Madam Doni Morris,1,0.1138
-name,Mailaines Shop,1,0.1138
-name,Mairie de l'Île-à-Vache,1,0.1138
-name,Maison A lover,1,0.1138
-name,Mango,1,0.1138
-name,Maniche,1,0.1138
-name,Marfranc,1,0.1138
-name,Marécage de Cailloux,1,0.1138
-name,Men Yvelor Soloution,1,0.1138
-name,Mine Rouche et Gravier,1,0.1138
-name,Ministere de l'Economie et des Finances,1,0.1138
-name,Ministère De L'Economie Des Finances,1,0.1138
-name,Minitere De La Sante Public,1,0.1138
-name,Mission Evangélique de Jésus-Christ,1,0.1138
-name,Mission Evangélique du Christianisme,1,0.1138
-name,Mission Evangélique du Christianisme de Baptiste,1,0.1138
-name,Morne A Bruler,1,0.1138
-name,Morne Aubin,1,0.1138
-name,Morne Avance,1,0.1138
-name,Morne Balandier,1,0.1138
-name,Morne Belair,1,0.1138
-name,Morne Bercy,1,0.1138
-name,Morne Besson,1,0.1138
-name,Morne Bina,1,0.1138
-name,Morne Brice,1,0.1138
-name,Morne Calvaire,1,0.1138
-name,Morne Camp,1,0.1138
-name,Morne Caïdor,1,0.1138
-name,Morne Chateau,1,0.1138
-name,Morne Chatte,1,0.1138
-name,Morne Colas,1,0.1138
-name,Morne Croix Calvaire,1,0.1138
-name,Morne Ducis,1,0.1138
-name,Morne Duverger,1,0.1138
-name,Morne Désiré,1,0.1138
-name,Morne Geffrard,1,0.1138
-name,Morne Granger,1,0.1138
-name,Morne Gélin,1,0.1138
-name,Morne Henry,1,0.1138
-name,Morne Javerta,1,0.1138
-name,Morne Labite,1,0.1138
-name,Morne Linton,1,0.1138
-name,Morne Mansinte,1,0.1138
-name,Morne Mercier,1,0.1138
-name,Morne Michel,1,0.1138
-name,Morne Morpeau,1,0.1138
-name,Morne Nan Poisson,1,0.1138
-name,Morne Rimbeau,1,0.1138
-name,Morne Roc,1,0.1138
-name,Morne Rouda,1,0.1138
-name,Morne Saint Cloud,1,0.1138
-name,Morne Sarazin,1,0.1138
-name,Morne Sinai,1,0.1138
-name,Morne Smith,1,0.1138
-name,Morne Tapona,1,0.1138
-name,Morne Tuffe,1,0.1138
-name,Morne Verdun,1,0.1138
-name,Moron,1,0.1138
-name,Mélinète,1,0.1138
-name,Mòn Ticoma,1,0.1138
-name,Mòn ticoma,1,0.1138
-name,Nan Pèse,1,0.1138
-name,Nan Thoma,1,0.1138
-name,Nucu Lab,1,0.1138
-name,OFATMA,1,0.1138
-name,OIM Office,1,0.1138
-name,Orphelinat Men Kontre,1,0.1138
-name,Paillant,1,0.1138
-name,Parc Macaya,1,0.1138
-name,Parc de Football de Nicolas,1,0.1138
-name,Parc Édouard Jean de Vieux Bourg,1,0.1138
-name,Paroisse de Bouzi,1,0.1138
-name,Parque ASCUM,1,0.1138
-name,Parque Communal trois Sections,1,0.1138
-name,Pense Veronise Auto Parts,1,0.1138
-name,Perigny,1,0.1138
-name,Peristil Croix Calvaire,1,0.1138
-name,Pestel,1,0.1138
-name,Petit Trou de Nippes,1,0.1138
-name,Petite Rivière de Nippes,1,0.1138
-name,Pezistrie Du Sud,1,0.1138
-name,Pharm Bis,1,0.1138
-name,Pharmacie,1,0.1138
-name,Pharmacie Bethel,1,0.1138
-name,Pharmacie Bethesda,1,0.1138
-name,Pharmacie Bon Accceuil,1,0.1138
-name,Pharmacie Christ-Roi,1,0.1138
-name,Pharmacie Commercial,1,0.1138
-name,Pharmacie Communautaire de Cavaillon,1,0.1138
-name,Pharmacie De Notre Damn,1,0.1138
-name,Pharmacie De Peuple,1,0.1138
-name,Pharmacie Dime Lab,1,0.1138
-name,Pharmacie Don de Dieu,1,0.1138
-name,Pharmacie El Shadai,1,0.1138
-name,Pharmacie Grandeur De Dieu,1,0.1138
-name,Pharmacie Horizon,1,0.1138
-name,Pharmacie Johny Baby,1,0.1138
-name,Pharmacie Jounam,1,0.1138
-name,Pharmacie La Génèse,1,0.1138
-name,Pharmacie Moderne,1,0.1138
-name,Pharmacie Shekina,1,0.1138
-name,Pharmacie Sicard,1,0.1138
-name,Pharmacie d'abeille et de premier soin,1,0.1138
-name,Pharmacie de l'Éternel,1,0.1138
-name,Pharmacie du coin Kanadia,1,0.1138
-name,Pi Baptiste,1,0.1138
-name,Place Publique de Vieux Bourgs,1,0.1138
-name,Plaisance du Sud,1,0.1138
-name,Pointe Rousselin,1,0.1138
-name,Port-Salut,1,0.1138
-name,Port-à-Piment,1,0.1138
-name,Premye seksyon Macéan,1,0.1138
-name,Préfecture,1,0.1138
-name,Radio Reflex FM,1,0.1138
-name,Rason ole,1,0.1138
-name,Ravine Bénédic,1,0.1138
-name,Ravine Darlimèe,1,0.1138
-name,Ravine Ernerst,1,0.1138
-name,Ravine Gago,1,0.1138
-name,Ravine Jupiteur,1,0.1138
-name,Ravine Jupiteur Jeanla,1,0.1138
-name,Ravine Modèle,1,0.1138
-name,Ravine Morne Aquin,1,0.1138
-name,Ravine Salée,1,0.1138
-name,Ravine Tigode,1,0.1138
-name,Ravine Tèt Sous,1,0.1138
-name,Ravine madan Devert,1,0.1138
-name,Ravinn Mirand,1,0.1138
-name,Ravinn Mirand;Ravine Mirand,1,0.1138
-name,Ravinn Sable,1,0.1138
-name,Ravinne Yomme,1,0.1138
-name,Ray Stan,1,0.1138
-name,Rivière Cayemitte,1,0.1138
-name,Rivière Nan Pont,1,0.1138
-name,Riñas de Gallinas,1,0.1138
-name,Robert Chiten Dentiste,1,0.1138
-name,Roseaux,1,0.1138
-name,Roue Saint Victor,1,0.1138
-name,Route Bidouze,1,0.1138
-name,Route Bombom,1,0.1138
-name,Route Bor de Mer,1,0.1138
-name,Route Brefete,1,0.1138
-name,Route Colline à Mangon,1,0.1138
-name,Route Colline à Mangon 63,1,0.1138
-name,Route Connibo,1,0.1138
-name,Route Corail,1,0.1138
-name,Route Corial,1,0.1138
-name,Route Crasée,1,0.1138
-name,Route Croix Calvaire,1,0.1138
-name,Route Duverger,1,0.1138
-name,Route Milord,1,0.1138
-name,Route Modèle,1,0.1138
-name,Route Modèle-Ticoma,1,0.1138
-name,Route Mélinette,1,0.1138
-name,Route Nan Trankil,1,0.1138
-name,Route Nationale # 7,1,0.1138
-name,Route Raquette,1,0.1138
-name,Route Saint Grégoire,1,0.1138
-name,Route Sinno,1,0.1138
-name,Route Sinno 2,1,0.1138
-name,Route Ticoma,1,0.1138
-name,Route de l’Aéroport,1,0.1138
-name,Rue  Domique,1,0.1138
-name,Rue 005,1,0.1138
-name,Rue Alex Jean,1,0.1138
-name,Rue Alex. Cleman,1,0.1138
-name,Rue Alfrede,1,0.1138
-name,Rue Alorian Paul,1,0.1138
-name,Rue Apela,1,0.1138
-name,Rue Borga,1,0.1138
-name,Rue Bortesse Sylvain,1,0.1138
-name,Rue Canal,1,0.1138
-name,Rue Capitale,1,0.1138
-name,Rue Capois,1,0.1138
-name,Rue Celina,1,0.1138
-name,Rue Chateaudin,1,0.1138
-name,Rue Christnel Damis,1,0.1138
-name,Rue Cimetière,1,0.1138
-name,Rue Concorde,1,0.1138
-name,Rue Desirette Cadet,1,0.1138
-name,Rue Dunès,1,0.1138
-name,Rue Duvivier Hall,1,0.1138
-name,Rue Felissaint,1,0.1138
-name,Rue Food For the Poor,1,0.1138
-name,Rue General Marion,1,0.1138
-name,Rue Henry,1,0.1138
-name,Rue Laco,1,0.1138
-name,Rue Laurent Ferro,1,0.1138
-name,Rue Lavictoire,1,0.1138
-name,Rue Lenord,1,0.1138
-name,Rue Lepcia Mathurin,1,0.1138
-name,Rue Louis,1,0.1138
-name,Rue Machoute Salomon,1,0.1138
-name,Rue Madan Liferte,1,0.1138
-name,Rue Madan Tisonne,1,0.1138
-name,Rue Man Grann,1,0.1138
-name,Rue Meliane,1,0.1138
-name,Rue Mibas,1,0.1138
-name,Rue Michelle Bonne Année,1,0.1138
-name,Rue Modèle,1,0.1138
-name,Rue Monique,1,0.1138
-name,Rue Mora,1,0.1138
-name,Rue Mélinette,1,0.1138
-name,Rue Nicolas 55,1,0.1138
-name,Rue Nouvelle Jerusalem,1,0.1138
-name,Rue Pascal,1,0.1138
-name,Rue Serannò,1,0.1138
-name,Rue Serennò,1,0.1138
-name,Rue Telasson,1,0.1138
-name,Rue Thingousse,1,0.1138
-name,Rue Titane,1,0.1138
-name,Rue Vernaut,1,0.1138
-name,Rue de l’Enterrement,1,0.1138
-name,Rue du Nazaréen,1,0.1138
-name,Rue du Nazaréen 57,1,0.1138
-name,Rue Émile Roumer,1,0.1138
-name,Ruelle Gilnor Labady,1,0.1138
-name,"S.H.A.Q Sud , Society Haitienne Auxery",1,0.1138
-name,Salwagon Temoun Jehova,1,0.1138
-name,Sanatorium des Cayes,1,0.1138
-name,Sanctuaire de Croix Calvaire,1,0.1138
-name,Senyè Ou Devan Pharma,1,0.1138
-name,Service Recrouvement National D'Haiti,1,0.1138
-name,Shop Eternel R Grand,1,0.1138
-name,Simitière Liferthan Michaud,1,0.1138
-name,Simityè 2,1,0.1138
-name,Simityè Nan Lundi,1,0.1138
-name,Simityè Virgile,1,0.1138
-name,Sizyèm Seksyon,1,0.1138
-name,Society De Invest Mental,1,0.1138
-name,Speed fitness,1,0.1138
-name,St Jean Bosco,1,0.1138
-name,St. Martin church,1,0.1138
-name,Studio De Photo,1,0.1138
-name,Tarrain,1,0.1138
-name,Terrain de Baptieste,1,0.1138
-name,Terre des Homes,1,0.1138
-name,Ti Privelege,1,0.1138
-name,Ti Ravine,1,0.1138
-name,Tiburon,1,0.1138
-name,Tina Bar Restaurant,1,0.1138
-name,Tony Shop,1,0.1138
-name,Total,1,0.1138
-name,Tribunal de Paix Île-à-Vache,1,0.1138
-name,Wadelys Hotel,1,0.1138
-name,Wout Baptiste,1,0.1138
-name,Yvelor Borlette,1,0.1138
-name,cacoune bar boutique,1,0.1138
-name,kafou Madan Thoby,1,0.1138
-name,kay Parenn,1,0.1138
-name,mòn Lalane,1,0.1138
-name,nan Salien,1,0.1138
-name,Église MEBSH de Source Baptiste,1,0.1138
-name,Église Saint Monfort d'Orouck,1,0.1138
-name,Île Picoulet,1,0.1138
-natural,peak,137,45.2145
-natural,water,118,38.9439
-natural,wood,15,4.9505
-natural,coastline,12,3.9604
-natural,beach,7,2.3102
-natural,tree_row,7,2.3102
-natural,wetland,5,1.6502
-natural,cave_entrance,1,0.33
-natural,cliff,1,0.33
-source,survey,279,36.2338
-source,Bing,163,21.1688
-source,bing,107,13.8961
-source,digitalglobe,54,7.013
-source,AFH_ survey,29,3.7662
-source,haiti tranasportation map ftp://haiti:Rkjpb7uef@157.150.195.135/Maps/Country%20wide/M2K5MOVV0801HAT40R_60X42.pdf,24,3.1169
-source,"DigitialGlobe, 2010",11,1.4286
-source,DigitalGlobe,8,1.039
-source,landsat & DigitalGlobe,8,1.039
-source,Bing;gps,6,0.7792
-source,GeoEye,6,0.7792
-source,bing:ortho,6,0.7792
-source,digitalglobe;ikonos/geoeye;digitalglobe,6,0.7792
-source,ikonos/geoeye,6,0.7792
-source,AFH_survey,5,0.6494
-source,MINUSTAH GIS and UN Cartographic Section,5,0.6494
-source,maxar,5,0.6494
-source,Bing;survey,4,0.5195
-source,survey; Bing,4,0.5195
-source,haiti transportation map ftp://haiti:Rkjpb7uef@157.150.195.135/Maps/Country%20wide/M2K5MOVV0801HAT40R_60X42.pdf,3,0.3896
-source,haiti-tlm-50,3,0.3896
-source,hot_iom_cosmha,3,0.3896
-source,http://hypercube.telascience.org/tiles/1.0.0/haiti-tlm-50/!/!/!.jpg,3,0.3896
-source,"1:100,000, 1961, The Lionel Pincus and Princess Firyal Map Division",2,0.2597
-source,DMA Topo Map 50,2,0.2597
-source,GeoEye;DigitalGlobe,2,0.2597
-source,SURVEY,2,0.2597
-source,bing with offset_ GPS traces,2,0.2597
-source,government,2,0.2597
-source,txu-oclc-51277857-cayes-1987,2,0.2597
-source,CIA TLM 50,1,0.1299
-source,"DigitalGlobe, 2010",1,0.1299
-source,Landsat,1,0.1299
-source,PDCIA,1,0.1299
-source,Servey,1,0.1299
-source,"Service de géodésie et de cartographie d'Haiti. 1:100,000, 1961;Bing",1,0.1299
-source,extrapolation,1,0.1299
-source,landsat,1,0.1299
-surface,ground,116,35.5828
-surface,unpaved,104,31.9018
-surface,paved,32,9.816
-surface,gravel,27,8.2822
-surface,compacted,12,3.681
-surface,earth,8,2.454
-surface,sand,7,2.1472
-surface,asphalt,5,1.5337
-surface,concrete,5,1.5337
-surface,dirt,5,1.5337
-surface,grass,2,0.6135
-surface,paving_stones,2,0.6135
-surface,wood,1,0.3067
-waterway,stream,94,68.1159
-waterway,river,37,26.8116
-waterway,riverbank,3,2.1739
-waterway,ditch,2,1.4493
-waterway,drain,1,0.7246
-waterway,waterfall,1,0.7246
+key,value,count,percent_of_total_changes_for_key,percent_difference_from_pre,percent_difference_from_pre_day
+amenity,pharmacy,46,28.3951,4500.0,4500.0
+amenity,hospital,44,27.1605,4300.0,4300.0
+amenity,place_of_worship,33,20.3704,3200.0,3200.0
+amenity,doctors,6,3.7037,500.0,500.0
+amenity,dentist,4,2.4691,300.0,300.0
+amenity,ferry_terminal,4,2.4691,300.0,300.0
+amenity,money_transfer,4,2.4691,300.0,300.0
+amenity,restaurant,3,1.8519,200.0,200.0
+amenity,school,3,1.8519,200.0,200.0
+amenity,townhall,3,1.8519,200.0,200.0
+amenity,bank,2,1.2346,100.0,100.0
+amenity,library,2,1.2346,100.0,100.0
+amenity,marketplace,2,1.2346,100.0,100.0
+amenity,clinic,1,0.6173,0.0,0.0
+amenity,community_centre,1,0.6173,0.0,0.0
+amenity,courthouse,1,0.6173,0.0,0.0
+amenity,fuel,1,0.6173,0.0,0.0
+amenity,social_facility,1,0.6173,0.0,0.0
+amenity,studio,1,0.6173,0.0,0.0
+building,yes,19414,97.9862,1941300.0,1941300.0
+building,school,109,0.5501,10800.0,10800.0
+building,retail,82,0.4139,8100.0,8100.0
+building,church,49,0.2473,4800.0,4800.0
+building,service,29,0.1464,2800.0,2800.0
+building,residential,26,0.1312,2500.0,2500.0
+building,construction,25,0.1262,2400.0,2400.0
+building,public,22,0.111,2100.0,2100.0
+building,hospital,19,0.0959,1800.0,1800.0
+building,commercial,12,0.0606,1100.0,1100.0
+building,house,9,0.0454,800.0,800.0
+building,civic,7,0.0353,600.0,600.0
+building,office,5,0.0252,400.0,400.0
+building,chapel,2,0.0101,100.0,100.0
+building,hotel,1,0.005,0.0,0.0
+building,latrine,1,0.005,0.0,0.0
+building,services,1,0.005,0.0,0.0
+highway,unclassified,414,27.6,41300.0,41300.0
+highway,path,316,21.0667,31500.0,31500.0
+highway,residential,302,20.1333,30100.0,30100.0
+highway,track,192,12.8,19100.0,19100.0
+highway,service,134,8.9333,13300.0,13300.0
+highway,tertiary,72,4.8,7100.0,7100.0
+highway,secondary,37,2.4667,3600.0,3600.0
+highway,footway,11,0.7333,1000.0,1000.0
+highway,primary,11,0.7333,1000.0,1000.0
+highway,crossing,6,0.4,500.0,500.0
+highway,motorway_junction,3,0.2,200.0,200.0
+highway,steps,2,0.1333,100.0,100.0
+landuse,residential,123,92.4812,12200.0,12200.0
+landuse,cemetery,7,5.2632,600.0,600.0
+landuse,farmland,2,1.5038,100.0,100.0
+landuse,quarry,1,0.7519,0.0,0.0
+leisure,pitch,8,53.3333,700.0,700.0
+leisure,park,5,33.3333,400.0,400.0
+leisure,fitness_centre,1,6.6667,0.0,0.0
+leisure,marina,1,6.6667,0.0,0.0
+name,Route Départementale # 205,18,2.0478,1700.0,1700.0
+name,Route Nationale # 2,9,1.0239,800.0,800.0
+name,Rivière Carpentier,8,0.9101,700.0,700.0
+name,Route Départamentale,8,0.9101,700.0,700.0
+name,Rue Valcius Bertrand,8,0.9101,700.0,700.0
+name,12,7,0.7964,600.0,600.0
+name,Route Bouzi,7,0.7964,600.0,600.0
+name,Rivière La Source,6,0.6826,500.0,500.0
+name,Rivière Serpente,6,0.6826,500.0,500.0
+name,Rue Castor,6,0.6826,500.0,500.0
+name,Rue Félix Desrosin,6,0.6826,500.0,500.0
+name,Rivière Sadrique,5,0.5688,400.0,400.0
+name,10,4,0.4551,300.0,300.0
+name,8,4,0.4551,300.0,300.0
+name,Aquin,4,0.4551,300.0,300.0
+name,Baptiste,4,0.4551,300.0,300.0
+name,Boulevard Saint-Pierre,4,0.4551,300.0,300.0
+name,Q,4,0.4551,300.0,300.0
+name,Ravine Duclerc,4,0.4551,300.0,300.0
+name,Ravine Masseillan,4,0.4551,300.0,300.0
+name,Rivière Port Salut,4,0.4551,300.0,300.0
+name,Route Ticoma 2,4,0.4551,300.0,300.0
+name,Rue St Paul,4,0.4551,300.0,300.0
+name,Western Union,4,0.4551,300.0,300.0
+name,1,3,0.3413,200.0,200.0
+name,14,3,0.3413,200.0,200.0
+name,3,3,0.3413,200.0,200.0
+name,5,3,0.3413,200.0,200.0
+name,6,3,0.3413,200.0,200.0
+name,A,3,0.3413,200.0,200.0
+name,Coteaux,3,0.3413,200.0,200.0
+name,Katryèm Seksyon,3,0.3413,200.0,200.0
+name,Les Cayes,3,0.3413,200.0,200.0
+name,Losandieu,3,0.3413,200.0,200.0
+name,Lozandier,3,0.3413,200.0,200.0
+name,Morne Rouge,3,0.3413,200.0,200.0
+name,Pi Mirand,3,0.3413,200.0,200.0
+name,Port Salut,3,0.3413,200.0,200.0
+name,Premye Seksyon,3,0.3413,200.0,200.0
+name,Ravine Duillan,3,0.3413,200.0,200.0
+name,Ravine Mirand,3,0.3413,200.0,200.0
+name,Rivière Dormante,3,0.3413,200.0,200.0
+name,Route Cannibo,3,0.3413,200.0,200.0
+name,Route Champagne,3,0.3413,200.0,200.0
+name,Route Départementale # 203,3,0.3413,200.0,200.0
+name,Route Sintout,3,0.3413,200.0,200.0
+name,Rue Delistoire,3,0.3413,200.0,200.0
+name,Rue Du Quai,3,0.3413,200.0,200.0
+name,Rue Point-Sable,3,0.3413,200.0,200.0
+name,Rue Tapay,3,0.3413,200.0,200.0
+name,Torbeck,3,0.3413,200.0,200.0
+name,15,2,0.2275,100.0,100.0
+name,2,2,0.2275,100.0,100.0
+name,23,2,0.2275,100.0,100.0
+name,4,2,0.2275,100.0,100.0
+name,40,2,0.2275,100.0,100.0
+name,41,2,0.2275,100.0,100.0
+name,42A,2,0.2275,100.0,100.0
+name,43,2,0.2275,100.0,100.0
+name,44,2,0.2275,100.0,100.0
+name,45,2,0.2275,100.0,100.0
+name,47,2,0.2275,100.0,100.0
+name,48,2,0.2275,100.0,100.0
+name,52,2,0.2275,100.0,100.0
+name,65,2,0.2275,100.0,100.0
+name,7,2,0.2275,100.0,100.0
+name,Aire Protégée La Cahouane,2,0.2275,100.0,100.0
+name,Anse d'Hainault,2,0.2275,100.0,100.0
+name,Aquin Avenue,2,0.2275,100.0,100.0
+name,Arniquet,2,0.2275,100.0,100.0
+name,Avenue des Quatre Chemins,2,0.2275,100.0,100.0
+name,B,2,0.2275,100.0,100.0
+name,Baradères,2,0.2275,100.0,100.0
+name,Bonapharma,2,0.2275,100.0,100.0
+name,C,2,0.2275,100.0,100.0
+name,CAPOSUD (Caisse Populaire Du Sud),2,0.2275,100.0,100.0
+name,Carrefour Baryè Jon,2,0.2275,100.0,100.0
+name,Carrefour Duverger,2,0.2275,100.0,100.0
+name,Cavaillon,2,0.2275,100.0,100.0
+name,Chantal,2,0.2275,100.0,100.0
+name,Chardonnières,2,0.2275,100.0,100.0
+name,Constitution Mertenal,2,0.2275,100.0,100.0
+name,Corail,2,0.2275,100.0,100.0
+name,D,2,0.2275,100.0,100.0
+name,Digicel,2,0.2275,100.0,100.0
+name,Dispensaire de Bouzy,2,0.2275,100.0,100.0
+name,Dispensaire de Carpentier,2,0.2275,100.0,100.0
+name,E,2,0.2275,100.0,100.0
+name,Eglise Bethanie,2,0.2275,100.0,100.0
+name,Eglise Par la Foi de Canal,2,0.2275,100.0,100.0
+name,F,2,0.2275,100.0,100.0
+name,G,2,0.2275,100.0,100.0
+name,Gros Morne,2,0.2275,100.0,100.0
+name,H,2,0.2275,100.0,100.0
+name,I,2,0.2275,100.0,100.0
+name,J,2,0.2275,100.0,100.0
+name,K,2,0.2275,100.0,100.0
+name,Kafou Dabon,2,0.2275,100.0,100.0
+name,L,2,0.2275,100.0,100.0
+name,L'Anse-à-Veau,2,0.2275,100.0,100.0
+name,L'Asile,2,0.2275,100.0,100.0
+name,M,2,0.2275,100.0,100.0
+name,Masseillan,2,0.2275,100.0,100.0
+name,Mission Evangélique de Jésus Christe,2,0.2275,100.0,100.0
+name,Morne Dubois,2,0.2275,100.0,100.0
+name,Mòn Pensik,2,0.2275,100.0,100.0
+name,N,2,0.2275,100.0,100.0
+name,Nº 0001,2,0.2275,100.0,100.0
+name,O,2,0.2275,100.0,100.0
+name,P,2,0.2275,100.0,100.0
+name,Paroisse Saint Jean Baptiste de Bidouze,2,0.2275,100.0,100.0
+name,Pascal,2,0.2275,100.0,100.0
+name,RC14-Baptiste,2,0.2275,100.0,100.0
+name,Ravine Citron,2,0.2275,100.0,100.0
+name,Ravine Mélinette,2,0.2275,100.0,100.0
+name,Ravinne Bois D´Orme,2,0.2275,100.0,100.0
+name,Rivière Empereur,2,0.2275,100.0,100.0
+name,Rivière Grise,2,0.2275,100.0,100.0
+name,Rivière Mahot,2,0.2275,100.0,100.0
+name,Rivière de L'Acul,2,0.2275,100.0,100.0
+name,Rivière des Mornes,2,0.2275,100.0,100.0
+name,Roche à Bateau,2,0.2275,100.0,100.0
+name,Route Joupa Bouler,2,0.2275,100.0,100.0
+name,Route Nan Félix,2,0.2275,100.0,100.0
+name,Rue Alex. Clement,2,0.2275,100.0,100.0
+name,Rue Ampot Malivert,2,0.2275,100.0,100.0
+name,Rue Bortesse S.,2,0.2275,100.0,100.0
+name,Rue Bénitho Bossé,2,0.2275,100.0,100.0
+name,Rue Duclesse,2,0.2275,100.0,100.0
+name,Rue Dunès Gaspard,2,0.2275,100.0,100.0
+name,Rue Mirand,2,0.2275,100.0,100.0
+name,Rue Monha,2,0.2275,100.0,100.0
+name,Rue Notre Dame,2,0.2275,100.0,100.0
+name,Rue Radou 2,2,0.2275,100.0,100.0
+name,Rue Saint Dominique,2,0.2275,100.0,100.0
+name,Ruelle Samuel,2,0.2275,100.0,100.0
+name,Saint Jean du Sud,2,0.2275,100.0,100.0
+name,Saint-Louis-du-Sud,2,0.2275,100.0,100.0
+name,Terminal to Ile a Vache,2,0.2275,100.0,100.0
+name,Ticoma,2,0.2275,100.0,100.0
+name,Village Food For The Poor,2,0.2275,100.0,100.0
+name,Wout Sizyèm,2,0.2275,100.0,100.0
+name,11,1,0.1138,0.0,0.0
+name,13,1,0.1138,0.0,0.0
+name,16,1,0.1138,0.0,0.0
+name,18,1,0.1138,0.0,0.0
+name,19,1,0.1138,0.0,0.0
+name,2 Route Duverger,1,0.1138,0.0,0.0
+name,20,1,0.1138,0.0,0.0
+name,21,1,0.1138,0.0,0.0
+name,22,1,0.1138,0.0,0.0
+name,24 Route Bouzi,1,0.1138,0.0,0.0
+name,25,1,0.1138,0.0,0.0
+name,26,1,0.1138,0.0,0.0
+name,27,1,0.1138,0.0,0.0
+name,28,1,0.1138,0.0,0.0
+name,29,1,0.1138,0.0,0.0
+name,30,1,0.1138,0.0,0.0
+name,31,1,0.1138,0.0,0.0
+name,32,1,0.1138,0.0,0.0
+name,33,1,0.1138,0.0,0.0
+name,34,1,0.1138,0.0,0.0
+name,35,1,0.1138,0.0,0.0
+name,36,1,0.1138,0.0,0.0
+name,37,1,0.1138,0.0,0.0
+name,38,1,0.1138,0.0,0.0
+name,39,1,0.1138,0.0,0.0
+name,4 Route Duverger,1,0.1138,0.0,0.0
+name,42,1,0.1138,0.0,0.0
+name,46,1,0.1138,0.0,0.0
+name,49,1,0.1138,0.0,0.0
+name,50,1,0.1138,0.0,0.0
+name,51,1,0.1138,0.0,0.0
+name,53,1,0.1138,0.0,0.0
+name,54,1,0.1138,0.0,0.0
+name,56,1,0.1138,0.0,0.0
+name,58,1,0.1138,0.0,0.0
+name,59,1,0.1138,0.0,0.0
+name,60,1,0.1138,0.0,0.0
+name,61,1,0.1138,0.0,0.0
+name,62,1,0.1138,0.0,0.0
+name,64,1,0.1138,0.0,0.0
+name,66,1,0.1138,0.0,0.0
+name,67,1,0.1138,0.0,0.0
+name,68,1,0.1138,0.0,0.0
+name,69,1,0.1138,0.0,0.0
+name,70,1,0.1138,0.0,0.0
+name,71,1,0.1138,0.0,0.0
+name,72,1,0.1138,0.0,0.0
+name,73,1,0.1138,0.0,0.0
+name,74,1,0.1138,0.0,0.0
+name,75,1,0.1138,0.0,0.0
+name,76,1,0.1138,0.0,0.0
+name,77,1,0.1138,0.0,0.0
+name,78,1,0.1138,0.0,0.0
+name,79,1,0.1138,0.0,0.0
+name,9,1,0.1138,0.0,0.0
+name,Abricots,1,0.1138,0.0,0.0
+name,Action Humanitiere,1,0.1138,0.0,0.0
+name,Adar Pharma,1,0.1138,0.0,0.0
+name,Administration Communitare,1,0.1138,0.0,0.0
+name,"Administration, École Frere Odyle Joseph",1,0.1138,0.0,0.0
+name,Anixa Pharma,1,0.1138,0.0,0.0
+name,Antene Jocelyn License,1,0.1138,0.0,0.0
+name,Association des Inities Progressistes de Cavaillon,1,0.1138,0.0,0.0
+name,Atelier de Fabrication Felipe,1,0.1138,0.0,0.0
+name,Av. Aquin,1,0.1138,0.0,0.0
+name,Avenue Cartagena,1,0.1138,0.0,0.0
+name,Avenue Cartgena,1,0.1138,0.0,0.0
+name,Bassin Mahaut,1,0.1138,0.0,0.0
+name,Bastien Fresnel Luxama,1,0.1138,0.0,0.0
+name,Beaumont,1,0.1138,0.0,0.0
+name,Beils Veronce Pharmacie,1,0.1138,0.0,0.0
+name,Bibleothect les Raunes de la dignite,1,0.1138,0.0,0.0
+name,Bibliothèque la page du livre,1,0.1138,0.0,0.0
+name,Black Josnel shop,1,0.1138,0.0,0.0
+name,Bon Boutique,1,0.1138,0.0,0.0
+name,Bon Samaritain des Roseaux,1,0.1138,0.0,0.0
+name,Bonbon,1,0.1138,0.0,0.0
+name,Bruce-Lee St-Germain,1,0.1138,0.0,0.0
+name,Bureau D'etat Civil,1,0.1138,0.0,0.0
+name,Bureau De Commerce,1,0.1138,0.0,0.0
+name,Bureau Department Sud,1,0.1138,0.0,0.0
+name,Bureau Immigration Des Cayes,1,0.1138,0.0,0.0
+name,Bureau Protection Civile,1,0.1138,0.0,0.0
+name,Bureau de Travail,1,0.1138,0.0,0.0
+name,Bureau du Port,1,0.1138,0.0,0.0
+name,CABINET D´AVOCAT DES CAYES,1,0.1138,0.0,0.0
+name,CEAC,1,0.1138,0.0,0.0
+name,CEDREMI,1,0.1138,0.0,0.0
+name,CENTRE MEDICAL CHARLES COLIMON,1,0.1138,0.0,0.0
+name,CENTRE MEDICO - SOCIAL DE GEBEAU,1,0.1138,0.0,0.0
+name,CITY MED,1,0.1138,0.0,0.0
+name,CMS de Gébeau à Roseaux,1,0.1138,0.0,0.0
+name,CROIX ROUGE HAITIENNE CAYES,1,0.1138,0.0,0.0
+name,Cabinet D'avocats,1,0.1138,0.0,0.0
+name,Camp-Perrin,1,0.1138,0.0,0.0
+name,Caritas,1,0.1138,0.0,0.0
+name,Caritas de Cavaillon,1,0.1138,0.0,0.0
+name,Carrefour  Sylvès,1,0.1138,0.0,0.0
+name,Carrefour Baptiste,1,0.1138,0.0,0.0
+name,Carrefour Nèrette,1,0.1138,0.0,0.0
+name,Carrefour Seradòt,1,0.1138,0.0,0.0
+name,Carrefour Timé,1,0.1138,0.0,0.0
+name,Central Michelet Borlette,1,0.1138,0.0,0.0
+name,Centre Culturel Catholique,1,0.1138,0.0,0.0
+name,Centre Development Des Enfants,1,0.1138,0.0,0.0
+name,Centre de Santé Madame Bernard,1,0.1138,0.0,0.0
+name,Centre de Santé Siméon,1,0.1138,0.0,0.0
+name,Centre de santé communautaire,1,0.1138,0.0,0.0
+name,Centre de santé de Moron,1,0.1138,0.0,0.0
+name,Centre de santé de Sainte Hélène,1,0.1138,0.0,0.0
+name,Chambellan,1,0.1138,0.0,0.0
+name,Christ Avan Guest House,1,0.1138,0.0,0.0
+name,Cimetière de Bidouze,1,0.1138,0.0,0.0
+name,Cimetière de Vieux Bourg d’Aquin,1,0.1138,0.0,0.0
+name,Cité Casseus,1,0.1138,0.0,0.0
+name,Clinic City Med Cayes,1,0.1138,0.0,0.0
+name,Clinique Dentaire,1,0.1138,0.0,0.0
+name,Clinique Médicale,1,0.1138,0.0,0.0
+name,Clinique Pharma & St Francios Dry Cleaning,1,0.1138,0.0,0.0
+name,Clinque de la vision,1,0.1138,0.0,0.0
+name,Coby Club,1,0.1138,0.0,0.0
+name,College University De Maniche,1,0.1138,0.0,0.0
+name,Comet,1,0.1138,0.0,0.0
+name,Complexe médico-légal du sud,1,0.1138,0.0,0.0
+name,Cours Superieur Des Comptes,1,0.1138,0.0,0.0
+name,Croix Calvaire,1,0.1138,0.0,0.0
+name,DEBAS,1,0.1138,0.0,0.0
+name,DISPENSAIRE DE CHANTAL,1,0.1138,0.0,0.0
+name,DISPENSAIRE DE LATIBOLIERE,1,0.1138,0.0,0.0
+name,DISPENSAIRE DE MARFRANC,1,0.1138,0.0,0.0
+name,DISPENSAIRE DE MORON (NOTRE DAME DE LOURDES),1,0.1138,0.0,0.0
+name,DP LILIAN DE ROCHE A BATEAU,1,0.1138,0.0,0.0
+name,DP SAINTE ANNE DE RENDEL,1,0.1138,0.0,0.0
+name,Dalmette,1,0.1138,0.0,0.0
+name,Dame Marie,1,0.1138,0.0,0.0
+name,Delta Aquin,1,0.1138,0.0,0.0
+name,Direction Regionale,1,0.1138,0.0,0.0
+name,Direction departementale des travaux,1,0.1138,0.0,0.0
+name,Dispensaire  de Biduze,1,0.1138,0.0,0.0
+name,"Dispensaire ""N.D. des Malades""",1,0.1138,0.0,0.0
+name,Dispensaire Saint-Joseph,1,0.1138,0.0,0.0
+name,Dispensaire Sainte Claire,1,0.1138,0.0,0.0
+name,Dispensaire Siloe de Léon,1,0.1138,0.0,0.0
+name,Dépot médical,1,0.1138,0.0,0.0
+name,Ecole Mixte de Carrefour Lacoline,1,0.1138,0.0,0.0
+name,Ecole Nationale de Baptiste,1,0.1138,0.0,0.0
+name,Eglise Baptiste De Suzon,1,0.1138,0.0,0.0
+name,Eglise Chistianiste de Baptiste,1,0.1138,0.0,0.0
+name,Eglise Chistianiste de Baptiste -MEC,1,0.1138,0.0,0.0
+name,Eglise Christianste de Virgile,1,0.1138,0.0,0.0
+name,Eglise Christianste de Virgile - MEC,1,0.1138,0.0,0.0
+name,Eglise Christiniste de Bidouze - MEC,1,0.1138,0.0,0.0
+name,Eglise Christiniste de Bouzi - MEC,1,0.1138,0.0,0.0
+name,Eglise Christiniste de Losandieu - MEC,1,0.1138,0.0,0.0
+name,Eglise Christiniste de Lozandier - MEC,1,0.1138,0.0,0.0
+name,Eglise Christiniste de Masseillan - MEC,1,0.1138,0.0,0.0
+name,Eglise Christiniste de Vieux Bourgs - MEC,1,0.1138,0.0,0.0
+name,Eglise MBSH de Montoban,1,0.1138,0.0,0.0
+name,Eglise Notre Dame De La Mère,1,0.1138,0.0,0.0
+name,Eglise Nouvelle Jérusalem,1,0.1138,0.0,0.0
+name,Eglise Saint Antoine,1,0.1138,0.0,0.0
+name,En DENTIC Ici,1,0.1138,0.0,0.0
+name,Entèsekyon,1,0.1138,0.0,0.0
+name,Escalier des 500 marches de la Médaille Miraculeuse,1,0.1138,0.0,0.0
+name,FOSREF-LAKAY CAYES,1,0.1138,0.0,0.0
+name,Fanmmiy Clinique médico-chirurgicale,1,0.1138,0.0,0.0
+name,Fashion House,1,0.1138,0.0,0.0
+name,Fonds-des-Nègres,1,0.1138,0.0,0.0
+name,Gaguère de Bidouze,1,0.1138,0.0,0.0
+name,Global GPA services,1,0.1138,0.0,0.0
+name,Grace Divine Depot Pharma,1,0.1138,0.0,0.0
+name,Grace Divine Pharmacy,1,0.1138,0.0,0.0
+name,Grande Rivière,1,0.1138,0.0,0.0
+name,Gros Bassin,1,0.1138,0.0,0.0
+name,Gros Morne de Chirondelle,1,0.1138,0.0,0.0
+name,Hopital Cadette,1,0.1138,0.0,0.0
+name,Hopital de la Charité,1,0.1138,0.0,0.0
+name,Hopital général Les Cayes,1,0.1138,0.0,0.0
+name,Hoshina Dentaire,1,0.1138,0.0,0.0
+name,Hospital Charles Pascua,1,0.1138,0.0,0.0
+name,Hospital de Biduze,1,0.1138,0.0,0.0
+name,Hotel L jordin,1,0.1138,0.0,0.0
+name,Human Right Office,1,0.1138,0.0,0.0
+name,INSTITUTION Medical Chuirgical,1,0.1138,0.0,0.0
+name,Ideale pharmacie,1,0.1138,0.0,0.0
+name,Ilmo,1,0.1138,0.0,0.0
+name,Impasse Cimitère,1,0.1138,0.0,0.0
+name,Impasse Cité Lumière,1,0.1138,0.0,0.0
+name,Impasse Général Légendre,1,0.1138,0.0,0.0
+name,Impasse Joseph,1,0.1138,0.0,0.0
+name,Impasse Malbranche,1,0.1138,0.0,0.0
+name,Impasse Mirbalo,1,0.1138,0.0,0.0
+name,Impasse Mirbalès T.,1,0.1138,0.0,0.0
+name,Impasse Préval,1,0.1138,0.0,0.0
+name,Impasse Vilbon,1,0.1138,0.0,0.0
+name,Institution Nationale De Promotion Liberties,1,0.1138,0.0,0.0
+name,J.C Foundation Diabetics,1,0.1138,0.0,0.0
+name,Jeaninne Theodore,1,0.1138,0.0,0.0
+name,Jonc Dodin,1,0.1138,0.0,0.0
+name,Jérémie,1,0.1138,0.0,0.0
+name,KAY DAGUY HOTEL,1,0.1138,0.0,0.0
+name,KAY MADAN ALFRED HOTEL RESTAURANT,1,0.1138,0.0,0.0
+name,Kafou,1,0.1138,0.0,0.0
+name,Kafou Madan Saïl,1,0.1138,0.0,0.0
+name,Kafou Sinno,1,0.1138,0.0,0.0
+name,Kay Timoun Bondye,1,0.1138,0.0,0.0
+name,Ki Hougan,1,0.1138,0.0,0.0
+name,Klinik Lafanmy,1,0.1138,0.0,0.0
+name,La Grande Colline,1,0.1138,0.0,0.0
+name,La Nationale Sud-Ouest,1,0.1138,0.0,0.0
+name,La Rou Pays,1,0.1138,0.0,0.0
+name,La main Divine,1,0.1138,0.0,0.0
+name,Laboratoire d'analyse médicale,1,0.1138,0.0,0.0
+name,Laboratoire médico-légal,1,0.1138,0.0,0.0
+name,Lavalas,1,0.1138,0.0,0.0
+name,Les Anglais,1,0.1138,0.0,0.0
+name,Les Irois,1,0.1138,0.0,0.0
+name,Lougou,1,0.1138,0.0,0.0
+name,MEBSH Mme Bernard,1,0.1138,0.0,0.0
+name,Madam Doni Morris,1,0.1138,0.0,0.0
+name,Mailaines Shop,1,0.1138,0.0,0.0
+name,Mairie de l'Île-à-Vache,1,0.1138,0.0,0.0
+name,Maison A lover,1,0.1138,0.0,0.0
+name,Mango,1,0.1138,0.0,0.0
+name,Maniche,1,0.1138,0.0,0.0
+name,Marfranc,1,0.1138,0.0,0.0
+name,Marécage de Cailloux,1,0.1138,0.0,0.0
+name,Men Yvelor Soloution,1,0.1138,0.0,0.0
+name,Mine Rouche et Gravier,1,0.1138,0.0,0.0
+name,Ministere de l'Economie et des Finances,1,0.1138,0.0,0.0
+name,Ministère De L'Economie Des Finances,1,0.1138,0.0,0.0
+name,Minitere De La Sante Public,1,0.1138,0.0,0.0
+name,Mission Evangélique de Jésus-Christ,1,0.1138,0.0,0.0
+name,Mission Evangélique du Christianisme,1,0.1138,0.0,0.0
+name,Mission Evangélique du Christianisme de Baptiste,1,0.1138,0.0,0.0
+name,Morne A Bruler,1,0.1138,0.0,0.0
+name,Morne Aubin,1,0.1138,0.0,0.0
+name,Morne Avance,1,0.1138,0.0,0.0
+name,Morne Balandier,1,0.1138,0.0,0.0
+name,Morne Belair,1,0.1138,0.0,0.0
+name,Morne Bercy,1,0.1138,0.0,0.0
+name,Morne Besson,1,0.1138,0.0,0.0
+name,Morne Bina,1,0.1138,0.0,0.0
+name,Morne Brice,1,0.1138,0.0,0.0
+name,Morne Calvaire,1,0.1138,0.0,0.0
+name,Morne Camp,1,0.1138,0.0,0.0
+name,Morne Caïdor,1,0.1138,0.0,0.0
+name,Morne Chateau,1,0.1138,0.0,0.0
+name,Morne Chatte,1,0.1138,0.0,0.0
+name,Morne Colas,1,0.1138,0.0,0.0
+name,Morne Croix Calvaire,1,0.1138,0.0,0.0
+name,Morne Ducis,1,0.1138,0.0,0.0
+name,Morne Duverger,1,0.1138,0.0,0.0
+name,Morne Désiré,1,0.1138,0.0,0.0
+name,Morne Geffrard,1,0.1138,0.0,0.0
+name,Morne Granger,1,0.1138,0.0,0.0
+name,Morne Gélin,1,0.1138,0.0,0.0
+name,Morne Henry,1,0.1138,0.0,0.0
+name,Morne Javerta,1,0.1138,0.0,0.0
+name,Morne Labite,1,0.1138,0.0,0.0
+name,Morne Linton,1,0.1138,0.0,0.0
+name,Morne Mansinte,1,0.1138,0.0,0.0
+name,Morne Mercier,1,0.1138,0.0,0.0
+name,Morne Michel,1,0.1138,0.0,0.0
+name,Morne Morpeau,1,0.1138,0.0,0.0
+name,Morne Nan Poisson,1,0.1138,0.0,0.0
+name,Morne Rimbeau,1,0.1138,0.0,0.0
+name,Morne Roc,1,0.1138,0.0,0.0
+name,Morne Rouda,1,0.1138,0.0,0.0
+name,Morne Saint Cloud,1,0.1138,0.0,0.0
+name,Morne Sarazin,1,0.1138,0.0,0.0
+name,Morne Sinai,1,0.1138,0.0,0.0
+name,Morne Smith,1,0.1138,0.0,0.0
+name,Morne Tapona,1,0.1138,0.0,0.0
+name,Morne Tuffe,1,0.1138,0.0,0.0
+name,Morne Verdun,1,0.1138,0.0,0.0
+name,Moron,1,0.1138,0.0,0.0
+name,Mélinète,1,0.1138,0.0,0.0
+name,Mòn Ticoma,1,0.1138,0.0,0.0
+name,Mòn ticoma,1,0.1138,0.0,0.0
+name,Nan Pèse,1,0.1138,0.0,0.0
+name,Nan Thoma,1,0.1138,0.0,0.0
+name,Nucu Lab,1,0.1138,0.0,0.0
+name,OFATMA,1,0.1138,0.0,0.0
+name,OIM Office,1,0.1138,0.0,0.0
+name,Orphelinat Men Kontre,1,0.1138,0.0,0.0
+name,Paillant,1,0.1138,0.0,0.0
+name,Parc Macaya,1,0.1138,0.0,0.0
+name,Parc de Football de Nicolas,1,0.1138,0.0,0.0
+name,Parc Édouard Jean de Vieux Bourg,1,0.1138,0.0,0.0
+name,Paroisse de Bouzi,1,0.1138,0.0,0.0
+name,Parque ASCUM,1,0.1138,0.0,0.0
+name,Parque Communal trois Sections,1,0.1138,0.0,0.0
+name,Pense Veronise Auto Parts,1,0.1138,0.0,0.0
+name,Perigny,1,0.1138,0.0,0.0
+name,Peristil Croix Calvaire,1,0.1138,0.0,0.0
+name,Pestel,1,0.1138,0.0,0.0
+name,Petit Trou de Nippes,1,0.1138,0.0,0.0
+name,Petite Rivière de Nippes,1,0.1138,0.0,0.0
+name,Pezistrie Du Sud,1,0.1138,0.0,0.0
+name,Pharm Bis,1,0.1138,0.0,0.0
+name,Pharmacie,1,0.1138,0.0,0.0
+name,Pharmacie Bethel,1,0.1138,0.0,0.0
+name,Pharmacie Bethesda,1,0.1138,0.0,0.0
+name,Pharmacie Bon Accceuil,1,0.1138,0.0,0.0
+name,Pharmacie Christ-Roi,1,0.1138,0.0,0.0
+name,Pharmacie Commercial,1,0.1138,0.0,0.0
+name,Pharmacie Communautaire de Cavaillon,1,0.1138,0.0,0.0
+name,Pharmacie De Notre Damn,1,0.1138,0.0,0.0
+name,Pharmacie De Peuple,1,0.1138,0.0,0.0
+name,Pharmacie Dime Lab,1,0.1138,0.0,0.0
+name,Pharmacie Don de Dieu,1,0.1138,0.0,0.0
+name,Pharmacie El Shadai,1,0.1138,0.0,0.0
+name,Pharmacie Grandeur De Dieu,1,0.1138,0.0,0.0
+name,Pharmacie Horizon,1,0.1138,0.0,0.0
+name,Pharmacie Johny Baby,1,0.1138,0.0,0.0
+name,Pharmacie Jounam,1,0.1138,0.0,0.0
+name,Pharmacie La Génèse,1,0.1138,0.0,0.0
+name,Pharmacie Moderne,1,0.1138,0.0,0.0
+name,Pharmacie Shekina,1,0.1138,0.0,0.0
+name,Pharmacie Sicard,1,0.1138,0.0,0.0
+name,Pharmacie d'abeille et de premier soin,1,0.1138,0.0,0.0
+name,Pharmacie de l'Éternel,1,0.1138,0.0,0.0
+name,Pharmacie du coin Kanadia,1,0.1138,0.0,0.0
+name,Pi Baptiste,1,0.1138,0.0,0.0
+name,Place Publique de Vieux Bourgs,1,0.1138,0.0,0.0
+name,Plaisance du Sud,1,0.1138,0.0,0.0
+name,Pointe Rousselin,1,0.1138,0.0,0.0
+name,Port-Salut,1,0.1138,0.0,0.0
+name,Port-à-Piment,1,0.1138,0.0,0.0
+name,Premye seksyon Macéan,1,0.1138,0.0,0.0
+name,Préfecture,1,0.1138,0.0,0.0
+name,Radio Reflex FM,1,0.1138,0.0,0.0
+name,Rason ole,1,0.1138,0.0,0.0
+name,Ravine Bénédic,1,0.1138,0.0,0.0
+name,Ravine Darlimèe,1,0.1138,0.0,0.0
+name,Ravine Ernerst,1,0.1138,0.0,0.0
+name,Ravine Gago,1,0.1138,0.0,0.0
+name,Ravine Jupiteur,1,0.1138,0.0,0.0
+name,Ravine Jupiteur Jeanla,1,0.1138,0.0,0.0
+name,Ravine Modèle,1,0.1138,0.0,0.0
+name,Ravine Morne Aquin,1,0.1138,0.0,0.0
+name,Ravine Salée,1,0.1138,0.0,0.0
+name,Ravine Tigode,1,0.1138,0.0,0.0
+name,Ravine Tèt Sous,1,0.1138,0.0,0.0
+name,Ravine madan Devert,1,0.1138,0.0,0.0
+name,Ravinn Mirand,1,0.1138,0.0,0.0
+name,Ravinn Mirand;Ravine Mirand,1,0.1138,0.0,0.0
+name,Ravinn Sable,1,0.1138,0.0,0.0
+name,Ravinne Yomme,1,0.1138,0.0,0.0
+name,Ray Stan,1,0.1138,0.0,0.0
+name,Rivière Cayemitte,1,0.1138,0.0,0.0
+name,Rivière Nan Pont,1,0.1138,0.0,0.0
+name,Riñas de Gallinas,1,0.1138,0.0,0.0
+name,Robert Chiten Dentiste,1,0.1138,0.0,0.0
+name,Roseaux,1,0.1138,0.0,0.0
+name,Roue Saint Victor,1,0.1138,0.0,0.0
+name,Route Bidouze,1,0.1138,0.0,0.0
+name,Route Bombom,1,0.1138,0.0,0.0
+name,Route Bor de Mer,1,0.1138,0.0,0.0
+name,Route Brefete,1,0.1138,0.0,0.0
+name,Route Colline à Mangon,1,0.1138,0.0,0.0
+name,Route Colline à Mangon 63,1,0.1138,0.0,0.0
+name,Route Connibo,1,0.1138,0.0,0.0
+name,Route Corail,1,0.1138,0.0,0.0
+name,Route Corial,1,0.1138,0.0,0.0
+name,Route Crasée,1,0.1138,0.0,0.0
+name,Route Croix Calvaire,1,0.1138,0.0,0.0
+name,Route Duverger,1,0.1138,0.0,0.0
+name,Route Milord,1,0.1138,0.0,0.0
+name,Route Modèle,1,0.1138,0.0,0.0
+name,Route Modèle-Ticoma,1,0.1138,0.0,0.0
+name,Route Mélinette,1,0.1138,0.0,0.0
+name,Route Nan Trankil,1,0.1138,0.0,0.0
+name,Route Nationale # 7,1,0.1138,0.0,0.0
+name,Route Raquette,1,0.1138,0.0,0.0
+name,Route Saint Grégoire,1,0.1138,0.0,0.0
+name,Route Sinno,1,0.1138,0.0,0.0
+name,Route Sinno 2,1,0.1138,0.0,0.0
+name,Route Ticoma,1,0.1138,0.0,0.0
+name,Route de l’Aéroport,1,0.1138,0.0,0.0
+name,Rue  Domique,1,0.1138,0.0,0.0
+name,Rue 005,1,0.1138,0.0,0.0
+name,Rue Alex Jean,1,0.1138,0.0,0.0
+name,Rue Alex. Cleman,1,0.1138,0.0,0.0
+name,Rue Alfrede,1,0.1138,0.0,0.0
+name,Rue Alorian Paul,1,0.1138,0.0,0.0
+name,Rue Apela,1,0.1138,0.0,0.0
+name,Rue Borga,1,0.1138,0.0,0.0
+name,Rue Bortesse Sylvain,1,0.1138,0.0,0.0
+name,Rue Canal,1,0.1138,0.0,0.0
+name,Rue Capitale,1,0.1138,0.0,0.0
+name,Rue Capois,1,0.1138,0.0,0.0
+name,Rue Celina,1,0.1138,0.0,0.0
+name,Rue Chateaudin,1,0.1138,0.0,0.0
+name,Rue Christnel Damis,1,0.1138,0.0,0.0
+name,Rue Cimetière,1,0.1138,0.0,0.0
+name,Rue Concorde,1,0.1138,0.0,0.0
+name,Rue Desirette Cadet,1,0.1138,0.0,0.0
+name,Rue Dunès,1,0.1138,0.0,0.0
+name,Rue Duvivier Hall,1,0.1138,0.0,0.0
+name,Rue Felissaint,1,0.1138,0.0,0.0
+name,Rue Food For the Poor,1,0.1138,0.0,0.0
+name,Rue General Marion,1,0.1138,0.0,0.0
+name,Rue Henry,1,0.1138,0.0,0.0
+name,Rue Laco,1,0.1138,0.0,0.0
+name,Rue Laurent Ferro,1,0.1138,0.0,0.0
+name,Rue Lavictoire,1,0.1138,0.0,0.0
+name,Rue Lenord,1,0.1138,0.0,0.0
+name,Rue Lepcia Mathurin,1,0.1138,0.0,0.0
+name,Rue Louis,1,0.1138,0.0,0.0
+name,Rue Machoute Salomon,1,0.1138,0.0,0.0
+name,Rue Madan Liferte,1,0.1138,0.0,0.0
+name,Rue Madan Tisonne,1,0.1138,0.0,0.0
+name,Rue Man Grann,1,0.1138,0.0,0.0
+name,Rue Meliane,1,0.1138,0.0,0.0
+name,Rue Mibas,1,0.1138,0.0,0.0
+name,Rue Michelle Bonne Année,1,0.1138,0.0,0.0
+name,Rue Modèle,1,0.1138,0.0,0.0
+name,Rue Monique,1,0.1138,0.0,0.0
+name,Rue Mora,1,0.1138,0.0,0.0
+name,Rue Mélinette,1,0.1138,0.0,0.0
+name,Rue Nicolas 55,1,0.1138,0.0,0.0
+name,Rue Nouvelle Jerusalem,1,0.1138,0.0,0.0
+name,Rue Pascal,1,0.1138,0.0,0.0
+name,Rue Serannò,1,0.1138,0.0,0.0
+name,Rue Serennò,1,0.1138,0.0,0.0
+name,Rue Telasson,1,0.1138,0.0,0.0
+name,Rue Thingousse,1,0.1138,0.0,0.0
+name,Rue Titane,1,0.1138,0.0,0.0
+name,Rue Vernaut,1,0.1138,0.0,0.0
+name,Rue de l’Enterrement,1,0.1138,0.0,0.0
+name,Rue du Nazaréen,1,0.1138,0.0,0.0
+name,Rue du Nazaréen 57,1,0.1138,0.0,0.0
+name,Rue Émile Roumer,1,0.1138,0.0,0.0
+name,Ruelle Gilnor Labady,1,0.1138,0.0,0.0
+name,"S.H.A.Q Sud , Society Haitienne Auxery",1,0.1138,0.0,0.0
+name,Salwagon Temoun Jehova,1,0.1138,0.0,0.0
+name,Sanatorium des Cayes,1,0.1138,0.0,0.0
+name,Sanctuaire de Croix Calvaire,1,0.1138,0.0,0.0
+name,Senyè Ou Devan Pharma,1,0.1138,0.0,0.0
+name,Service Recrouvement National D'Haiti,1,0.1138,0.0,0.0
+name,Shop Eternel R Grand,1,0.1138,0.0,0.0
+name,Simitière Liferthan Michaud,1,0.1138,0.0,0.0
+name,Simityè 2,1,0.1138,0.0,0.0
+name,Simityè Nan Lundi,1,0.1138,0.0,0.0
+name,Simityè Virgile,1,0.1138,0.0,0.0
+name,Sizyèm Seksyon,1,0.1138,0.0,0.0
+name,Society De Invest Mental,1,0.1138,0.0,0.0
+name,Speed fitness,1,0.1138,0.0,0.0
+name,St Jean Bosco,1,0.1138,0.0,0.0
+name,St. Martin church,1,0.1138,0.0,0.0
+name,Studio De Photo,1,0.1138,0.0,0.0
+name,Tarrain,1,0.1138,0.0,0.0
+name,Terrain de Baptieste,1,0.1138,0.0,0.0
+name,Terre des Homes,1,0.1138,0.0,0.0
+name,Ti Privelege,1,0.1138,0.0,0.0
+name,Ti Ravine,1,0.1138,0.0,0.0
+name,Tiburon,1,0.1138,0.0,0.0
+name,Tina Bar Restaurant,1,0.1138,0.0,0.0
+name,Tony Shop,1,0.1138,0.0,0.0
+name,Total,1,0.1138,0.0,0.0
+name,Tribunal de Paix Île-à-Vache,1,0.1138,0.0,0.0
+name,Wadelys Hotel,1,0.1138,0.0,0.0
+name,Wout Baptiste,1,0.1138,0.0,0.0
+name,Yvelor Borlette,1,0.1138,0.0,0.0
+name,cacoune bar boutique,1,0.1138,0.0,0.0
+name,kafou Madan Thoby,1,0.1138,0.0,0.0
+name,kay Parenn,1,0.1138,0.0,0.0
+name,mòn Lalane,1,0.1138,0.0,0.0
+name,nan Salien,1,0.1138,0.0,0.0
+name,Église MEBSH de Source Baptiste,1,0.1138,0.0,0.0
+name,Église Saint Monfort d'Orouck,1,0.1138,0.0,0.0
+name,Île Picoulet,1,0.1138,0.0,0.0
+natural,peak,137,45.2145,13600.0,13600.0
+natural,water,118,38.9439,11700.0,11700.0
+natural,wood,15,4.9505,1400.0,1400.0
+natural,coastline,12,3.9604,1100.0,1100.0
+natural,beach,7,2.3102,600.0,600.0
+natural,tree_row,7,2.3102,600.0,600.0
+natural,wetland,5,1.6502,400.0,400.0
+natural,cave_entrance,1,0.33,0.0,0.0
+natural,cliff,1,0.33,0.0,0.0
+source,survey,279,36.2338,27800.0,27800.0
+source,Bing,163,21.1688,16200.0,16200.0
+source,bing,107,13.8961,10600.0,10600.0
+source,digitalglobe,54,7.013,5300.0,5300.0
+source,AFH_ survey,29,3.7662,2800.0,2800.0
+source,haiti tranasportation map ftp://haiti:Rkjpb7uef@157.150.195.135/Maps/Country%20wide/M2K5MOVV0801HAT40R_60X42.pdf,24,3.1169,2300.0,2300.0
+source,"DigitialGlobe, 2010",11,1.4286,1000.0,1000.0
+source,DigitalGlobe,8,1.039,700.0,700.0
+source,landsat & DigitalGlobe,8,1.039,700.0,700.0
+source,Bing;gps,6,0.7792,500.0,500.0
+source,GeoEye,6,0.7792,500.0,500.0
+source,bing:ortho,6,0.7792,500.0,500.0
+source,digitalglobe;ikonos/geoeye;digitalglobe,6,0.7792,500.0,500.0
+source,ikonos/geoeye,6,0.7792,500.0,500.0
+source,AFH_survey,5,0.6494,400.0,400.0
+source,MINUSTAH GIS and UN Cartographic Section,5,0.6494,400.0,400.0
+source,maxar,5,0.6494,400.0,400.0
+source,Bing;survey,4,0.5195,300.0,300.0
+source,survey; Bing,4,0.5195,300.0,300.0
+source,haiti transportation map ftp://haiti:Rkjpb7uef@157.150.195.135/Maps/Country%20wide/M2K5MOVV0801HAT40R_60X42.pdf,3,0.3896,200.0,200.0
+source,haiti-tlm-50,3,0.3896,200.0,200.0
+source,hot_iom_cosmha,3,0.3896,200.0,200.0
+source,http://hypercube.telascience.org/tiles/1.0.0/haiti-tlm-50/!/!/!.jpg,3,0.3896,200.0,200.0
+source,"1:100,000, 1961, The Lionel Pincus and Princess Firyal Map Division",2,0.2597,100.0,100.0
+source,DMA Topo Map 50,2,0.2597,100.0,100.0
+source,GeoEye;DigitalGlobe,2,0.2597,100.0,100.0
+source,SURVEY,2,0.2597,100.0,100.0
+source,bing with offset_ GPS traces,2,0.2597,100.0,100.0
+source,government,2,0.2597,100.0,100.0
+source,txu-oclc-51277857-cayes-1987,2,0.2597,100.0,100.0
+source,CIA TLM 50,1,0.1299,0.0,0.0
+source,"DigitalGlobe, 2010",1,0.1299,0.0,0.0
+source,Landsat,1,0.1299,0.0,0.0
+source,PDCIA,1,0.1299,0.0,0.0
+source,Servey,1,0.1299,0.0,0.0
+source,"Service de géodésie et de cartographie d'Haiti. 1:100,000, 1961;Bing",1,0.1299,0.0,0.0
+source,extrapolation,1,0.1299,0.0,0.0
+source,landsat,1,0.1299,0.0,0.0
+surface,ground,116,35.5828,11500.0,11500.0
+surface,unpaved,104,31.9018,10300.0,10300.0
+surface,paved,32,9.816,3100.0,3100.0
+surface,gravel,27,8.2822,2600.0,2600.0
+surface,compacted,12,3.681,1100.0,1100.0
+surface,earth,8,2.454,700.0,700.0
+surface,sand,7,2.1472,600.0,600.0
+surface,asphalt,5,1.5337,400.0,400.0
+surface,concrete,5,1.5337,400.0,400.0
+surface,dirt,5,1.5337,400.0,400.0
+surface,grass,2,0.6135,100.0,100.0
+surface,paving_stones,2,0.6135,100.0,100.0
+surface,wood,1,0.3067,0.0,0.0
+waterway,stream,94,68.1159,9300.0,9300.0
+waterway,river,37,26.8116,3600.0,3600.0
+waterway,riverbank,3,2.1739,200.0,200.0
+waterway,ditch,2,1.4493,100.0,100.0
+waterway,drain,1,0.7246,0.0,0.0
+waterway,waterfall,1,0.7246,0.0,0.0

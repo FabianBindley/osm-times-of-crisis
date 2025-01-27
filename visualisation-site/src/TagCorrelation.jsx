@@ -20,12 +20,17 @@ export default function TagCorrelation() {
 
 
         const [selectedTags, setSelectedTags] = useState(["building","highway"]);
-      
+        // ["building","highway","source","name","surface","amenity","landuse","waterway","natural","leisure","emergency"]
         const options = [
           { value: 'building', label: 'Building' },
           { value: 'highway', label: 'Highway' },
           { value: 'amenity', label: 'Amenity' },
-          { value: 'landuse', label: 'Land use' }
+          { value: 'leisure', label: 'Leisure' },
+          { value: 'emergency', label: 'Emergency' },
+          { value: 'landuse', label: 'Land use' },
+          { value: 'surface', label: 'Surface' },
+          { value: 'waterway', label: 'Waterway' },
+          { value: 'natural', label: 'Natural' },
         ];
 
         const handleChangeSelectTagKeys = (value) => {

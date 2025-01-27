@@ -2,7 +2,7 @@ key,value,count,percent_of_total_changes_for_key
 amenity,hospital,8175,14.8999
 amenity,school,8021,14.6193
 amenity,drinking_water,4777,8.7067
-amenity,parking,4395,8.0104
+amenity,parking,4394,8.0086
 amenity,place_of_worship,3391,6.1805
 amenity,restaurant,2589,4.7188
 amenity,toilets,1968,3.5869
@@ -434,7 +434,7 @@ amenity,village,1,0.0018
 amenity,warehouse,1,0.0018
 amenity,watar well,1,0.0018
 amenity,zamar quicaillerie,1,0.0018
-building,yes,2288487,93.4137
+building,yes,2288450,93.4122
 building,house,89284,3.6445
 building,residential,28307,1.1555
 building,construction,13954,0.5696
@@ -1152,11 +1152,11 @@ building,होटेल_कस्मिक_प्रा._ली,1,0.0
 building,경복궁(Gyoung_Bok_Gung_한식당),1,0.0
 highway,path,127448,21.3236
 highway,residential,92010,15.3944
-highway,unclassified,85567,14.3164
-highway,track,84596,14.1539
+highway,unclassified,85564,14.3159
+highway,track,84593,14.1534
 highway,road,39754,6.6513
 highway,footway,35290,5.9044
-highway,tertiary,32903,5.5051
+highway,tertiary,32901,5.5047
 highway,service,25790,4.315
 highway,secondary,16151,2.7023
 highway,primary,12352,2.0666
@@ -1321,22 +1321,22 @@ highway,unclassified; ford,1,0.0002
 highway,unclassified; road,1,0.0002
 highway,unclassified;path,1,0.0002
 highway,unclassified;tertiary,1,0.0002
-landuse,residential,72647,55.7639
+landuse,residential,72645,55.7624
 landuse,brownfield,24460,18.7755
-landuse,farmland,14702,11.2853
-landuse,forest,4069,3.1234
+landuse,farmland,14678,11.2668
+landuse,forest,4068,3.1226
 landuse,grass,3246,2.4916
 landuse,industrial,1584,1.2159
-landuse,farmyard,1314,1.0086
+landuse,farmyard,1304,1.001
 landuse,farm,1161,0.8912
-landuse,basin,960,0.7369
-landuse,orchard,942,0.7231
-landuse,meadow,562,0.4314
+landuse,basin,958,0.7354
+landuse,orchard,922,0.7077
 landuse,cemetery,556,0.4268
 landuse,reservoir,554,0.4253
+landuse,meadow,542,0.416
 landuse,construction,491,0.3769
 landuse,commercial,407,0.3124
-landuse,vineyard,309,0.2372
+landuse,vineyard,306,0.2349
 landuse,greenfield,283,0.2172
 landuse,retail,221,0.1696
 landuse,allotments,190,0.1458
@@ -9731,7 +9731,6 @@ name,Via Gherardo Ghirardini,6,0.0027
 name,Via Giambattista Vico,6,0.0027
 name,Via Giambologna,6,0.0027
 name,Via Giordano di San Mauro,6,0.0027
-name,Via Giorgio Zoli,6,0.0027
 name,Via Giovanni Antonio Magini,6,0.0027
 name,Via Giovanni Bacci,6,0.0027
 name,Via Giovanni Chiarini,6,0.0027
@@ -14565,6 +14564,7 @@ name,Via Gino Gatta,4,0.0018
 name,Via Gino Rocchi,4,0.0018
 name,Via Giorgio Byron,4,0.0018
 name,Via Giorgio La Pira,4,0.0018
+name,Via Giorgio Zoli,4,0.0018
 name,Via Giovan Battista Bassi,4,0.0018
 name,Via Giovanni Battista Pergolesi,4,0.0018
 name,Via Giovanni Bottonelli,4,0.0018
@@ -19140,7 +19140,6 @@ name,Variante Bassa,3,0.0014
 name,Vasca d'accumulo Marecchiese,3,0.0014
 name,Vayeshwori school,3,0.0014
 name,Vayodha Hospital,3,0.0014
-name,Vecchielle,3,0.0014
 name,Vegetable Shop,3,0.0014
 name,Veggetti Scooterlife EbikeLife,3,0.0014
 name,Veillard,3,0.0014
@@ -20423,7 +20422,6 @@ name,Al Zarafa Human Resource Consultant,2,0.0009
 name,Alampu,2,0.0009
 name,Alau,2,0.0009
 name,Albergone,2,0.0009
-name,Albero monumentale Cedro dell' Himalaya,2,0.0009
 name,Albert jode,2,0.0009
 name,Albert-Schweitzer Hôpital,2,0.0009
 name,Albertoni Pizzardi,2,0.0009
@@ -33409,6 +33407,7 @@ name,Albergo Due Portoni,1,0.0005
 name,Albergo Garisenda,1,0.0005
 name,Albergo Pallone,1,0.0005
 name,Albergo Ristorante Pizzeria Borgonovo,1,0.0005
+name,Albero monumentale Cedro dell' Himalaya,1,0.0005
 name,Albero rosso,1,0.0005
 name,Alberti,1,0.0005
 name,Alberti Sigonio,1,0.0005
@@ -56717,6 +56716,7 @@ name,Vassale,1,0.0005
 name,Vaudreuil,1,0.0005
 name,Vecchia Ferrovia,1,0.0005
 name,Vecchia pesa,1,0.0005
+name,Vecchielle,1,0.0005
 name,Vecchietti Autolavaggi,1,0.0005
 name,Vecchio Ateneo,1,0.0005
 name,Vecchio forno,1,0.0005
@@ -62289,26 +62289,26 @@ name,空地？,1,0.0005
 name,聚落,1,0.0005
 name,道路？,1,0.0005
 name,경복궁(Gyoung Bok Gung 한식당),1,0.0005
-natural,tree,90743,77.588
-natural,wood,11278,9.643
+natural,tree,59329,50.7281
+natural,wood,11272,9.6379
 natural,water,4922,4.2085
-natural,scrub,2064,1.7648
-natural,tree_row,1518,1.2979
+natural,scrub,2054,1.7562
+natural,tree_row,1483,1.268
 natural,peak,1179,1.0081
 natural,coastline,994,0.8499
 natural,sand,816,0.6977
 natural,shingle,587,0.5019
 natural,glacier,548,0.4686
 natural,wetland,332,0.2839
-natural,grassland,299,0.2557
+natural,grassland,296,0.2531
 natural,cliff,241,0.2061
-natural,scree,192,0.1642
+natural,scree,191,0.1633
 natural,heath,183,0.1565
 natural,ridge,158,0.1351
-natural,bare_rock,156,0.1334
+natural,bare_rock,124,0.106
 natural,beach,119,0.1017
 natural,riverbed,75,0.0641
-natural,shrub,67,0.0573
+natural,shrub,59,0.0504
 natural,saddle,50,0.0428
 natural,plant,46,0.0393
 natural,bay,41,0.0351
@@ -64698,9 +64698,9 @@ source,www.Pro-Haiti.de,1,0.0002
 source,www.techo.org/haiti,1,0.0002
 source,yahoo imagery; Yahoo,1,0.0002
 source,zelf beton gestort,1,0.0002
-surface,asphalt,51805,48.3553
-surface,unpaved,16142,15.0671
-surface,ground,9368,8.7442
+surface,asphalt,51802,48.3525
+surface,unpaved,16141,15.0662
+surface,ground,9364,8.7405
 surface,gravel,6061,5.6574
 surface,paved,4747,4.4309
 surface,Dirt/Sand,4701,4.388
@@ -64711,7 +64711,7 @@ surface,sett,1404,1.3105
 surface,concrete,924,0.8625
 surface,compacted,813,0.7589
 surface,unspecified,500,0.4667
-surface,grass,429,0.4004
+surface,grass,417,0.3892
 surface,mud,395,0.3687
 surface,fine_gravel,220,0.2054
 surface,earth,193,0.1801
@@ -64801,7 +64801,6 @@ surface,paving stones,1,0.0009
 surface,pitched,1,0.0009
 surface,prato,1,0.0009
 surface,rubbercrumb,1,0.0009
-surface,scrub,1,0.0009
 surface,stepping_stones,1,0.0009
 surface,steps_and_unpaved,1,0.0009
 surface,tarred,1,0.0009

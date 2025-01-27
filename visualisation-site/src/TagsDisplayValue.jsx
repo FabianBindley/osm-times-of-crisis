@@ -29,6 +29,8 @@ export default function TagsDisplay({csv_source, selectedKey, numTagsShow, searc
           text: d.value,
           value: +d.count,
           percent_of_total_changes: +d.percent_of_total_changes_for_key,
+          percent_difference_from_pre: +d.percent_difference_from_pre,
+          percent_difference_from_pre_day: +d.percent_difference_from_pre_day,
         })).filter((d) => d.text.includes(searchTag.toLowerCase()))
         .slice(0, numTagsShow)
       );
@@ -80,7 +82,13 @@ export default function TagsDisplay({csv_source, selectedKey, numTagsShow, searc
                 <th style={{ border: '1px solid black', padding: '10px' }}>Count</th>
                 <th style={{ border: '1px solid black', padding: '10px',  maxWidth: '200px', wordWrap: 'break-word'}}>% of Total Changes For Period</th>
                 {(periodSelection == "imm" || periodSelection == "post") && 
+                  <>
                   <th style={{ border: '1px solid black', padding: '10px',  maxWidth: '200px', wordWrap: 'break-word'}}>% difference from pre-disaster</th>
+                  
+                  {periodSelection == "imm" &&
+                  <th style={{ border: '1px solid black', padding: '10px',  maxWidth: '200px', wordWrap: 'break-word'}}>% difference from pre-disaster per day</th>
+                  }
+                  </>
                 }
                 </tr>
             </thead>
@@ -94,9 +102,17 @@ export default function TagsDisplay({csv_source, selectedKey, numTagsShow, searc
                     {word.percent_of_total_changes.toFixed(3)}%
                     </td>
                     {(periodSelection == "imm" || periodSelection == "post") && 
+                    <>
                       <td style={{ border: '1px solid black', padding: '10px' }}>
-                      {word.percent_of_total_changes.toFixed(3)}%
+                      {word.percent_difference_from_pre.toFixed(3)}%
                       </td>
+                      {periodSelection == "imm" &&
+                            <td style={{ border: '1px solid black', padding: '10px' }}>
+                        {word.percent_difference_from_pre_day.toFixed(3)}%
+                        </td>
+                      }
+                     
+                    </>
 
                     }
                 </tr>

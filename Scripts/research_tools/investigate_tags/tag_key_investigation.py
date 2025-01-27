@@ -48,9 +48,9 @@ def get_tag_key_usage_for_disaster(disaster_id, disaster_date, pre_disaster_days
 
     os.makedirs(f"./Results/TagInvestigation/disaster{disaster_id}", exist_ok=True)
     os.makedirs(f"visualisation-site/public/TagInvestigation/disaster{disaster_id}", exist_ok=True)
-    headers = ["key","count","percent_of_total_changes","percent_difference_from_pre"]
+    headers = ["key","count","percent_of_total_changes","percent_difference_from_pre", "percent_difference_from_pre_day"]
 
-    for tag_keys, interval, row_index in list(zip(tag_keys_intervals, ["pre","imm","post"], [0,1,2])):
+    for tag_keys, interval, days, row_index in list(zip(tag_keys_intervals, ["pre","imm","post"], [pre_disaster_days, imm_disaster_days, post_disaster_days], [0,1,2])):
         file_path = f"./Results/TagInvestigation/disaster{disaster_id}/unique_tag_keys_count_{interval}.csv"
         with open(file_path, mode="w", newline='', encoding="utf-8") as csv_file:
             writer = csv.DictWriter(csv_file, fieldnames=headers)
@@ -58,7 +58,9 @@ def get_tag_key_usage_for_disaster(disaster_id, disaster_date, pre_disaster_days
 
             for key,count in tag_keys.items():
                 pre_disaster_count = tag_keys_intervals[0][key] if key in tag_keys_intervals[0] else 1
-                writer.writerow({"key": key, "count": count, "percent_of_total_changes": round(count/full_periods_change_count.iloc[row_index]["total"] * 100, 4), "percent_difference_from_pre": round((count-pre_disaster_count)/pre_disaster_count * 100, 4)})
+                pre_disaster_count_day = pre_disaster_count/pre_disaster_days
+                count_day = count/days
+                writer.writerow({"key": key, "count": count, "percent_of_total_changes": round(count/full_periods_change_count.iloc[row_index]["total"] * 100, 4),  "percent_difference_from_pre": round((count-pre_disaster_count)/pre_disaster_count * 100, 4), "percent_difference_from_pre_day": round((count_day-pre_disaster_count_day)/pre_disaster_count_day * 100, 4)})
 
         visualisation_file_path = f"visualisation-site/public/TagInvestigation/disaster{disaster_id}/unique_tag_keys_count_{interval}.csv"
         shutil.copyfile(file_path, visualisation_file_path)
@@ -87,7 +89,7 @@ def top_n_tag_keys_for_period(n, period, disaster_ids, pre_disaster_days, imm_di
     
 
     file_path = f"./Results/TagInvestigation/summary/top_{n}_keys/{period}.csv"
-    headers = ["key","count","percent_of_total_changes", "percent_difference_from_pre"]
+    headers = ["key","count","percent_of_total_changes", "percent_difference_from_pre", "percent_difference_from_pre_day"]
     with open(file_path, mode="w", newline='', encoding="utf-8") as csv_file:
         writer = csv.DictWriter(csv_file, fieldnames=headers)
         writer.writeheader()
@@ -97,12 +99,20 @@ def top_n_tag_keys_for_period(n, period, disaster_ids, pre_disaster_days, imm_di
             count=tuple[1]
             if period == "pre":
                 pre_disaster_count = count
+                days = pre_disaster_days
+
             else:
                 pre_disaster_count = 0
                 for disaster_id in disaster_ids:
                     pre_disaster_key_row = pre_disaster_counts[disaster_id][pre_disaster_counts[disaster_id]["key"] == key]
                     pre_disaster_count += pre_disaster_key_row["count"].values[0] if len(pre_disaster_key_row) == 1 else 1
-            writer.writerow({"key": key, "count": count, "percent_of_total_changes": round(count/full_periods_change_count.iloc[row_index]["total"]  * 100, 4), "percent_difference_from_pre": round((count-pre_disaster_count)/pre_disaster_count * 100, 4)})
+
+                days = imm_disaster_days if period == "imm" else post_disaster_days
+            
+            pre_disaster_count_day = pre_disaster_count/pre_disaster_days
+            count_day = count/days
+
+            writer.writerow({"key": key, "count": count, "percent_of_total_changes": round(count/full_periods_change_count.iloc[row_index]["total"]  * 100, 4),  "percent_difference_from_pre": round((count-pre_disaster_count)/pre_disaster_count * 100, 4), "percent_difference_from_pre_day": round((count_day-pre_disaster_count_day)/pre_disaster_count_day * 100, 4)})
 
     os.makedirs(f"visualisation-site/public/TagInvestigation/summary/top_{n}_keys/", exist_ok=True)
     visualisation_file_path = f"visualisation-site/public/TagInvestigation/summary/top_{n}_keys/{period}.csv"
@@ -122,7 +132,7 @@ if __name__ == "__main__":
     for disaster_id in range(1, 7):
         (_, disaster_country, disaster_area, _, disaster_date, _ ) = db_utils.get_disaster_with_id(disaster_id)
         print(f"Generating key metrics for {disaster_area[0]} {disaster_date.year}")
-        #get_tag_key_usage_for_disaster(disaster_id, disaster_date, 365, 30, 365)
+        get_tag_key_usage_for_disaster(disaster_id, disaster_date, 365, 30, 365)
 
     nums = [10, 25, 100, 4000]
     disaster_ids =  [2,3,4,5,6]

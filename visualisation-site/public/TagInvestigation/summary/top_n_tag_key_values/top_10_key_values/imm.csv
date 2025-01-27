@@ -1,91 +1,110 @@
-key,value,count,percent_of_total_changes_for_key
-amenity,hospital,4444,41.9324
-amenity,drinking_water,2362,22.2872
-amenity,school,1007,9.5018
-amenity,place_of_worship,550,5.1897
-amenity,parking,282,2.6609
-amenity,restaurant,169,1.5946
-amenity,bicycle_parking,130,1.2266
-amenity,bench,98,0.9247
-amenity,fuel,97,0.9153
-amenity,cafe,88,0.8303
-building,yes,1510001,93.32
-building,house,77110,4.7655
-building,residential,18291,1.1304
-building,collapsed,6488,0.401
-building,construction,754,0.0466
-building,industrial,674,0.0417
-building,apartments,565,0.0349
-building,commercial,422,0.0261
-building,school,372,0.023
-building,collapse,369,0.0228
-highway,path,95585,29.7304
-highway,track,59816,18.6049
-highway,unclassified,56493,17.5714
-highway,road,35989,11.1939
-highway,residential,30966,9.6315
-highway,footway,12475,3.8802
-highway,service,9260,2.8802
-highway,tertiary,7377,2.2945
-highway,secondary,3998,1.2435
-highway,primary,3579,1.1132
-landuse,residential,56422,67.6393
-landuse,brownfield,13993,16.775
-landuse,farmland,5443,6.5251
-landuse,forest,2735,3.2787
-landuse,farmyard,801,0.9602
-landuse,farm,780,0.9351
-landuse,grass,617,0.7397
-landuse,industrial,485,0.5814
-landuse,reservoir,372,0.446
-landuse,basin,300,0.3596
-name,Nationale No 2,614,1.5875
-name,building=yes,509,1.3161
-name,Pasang Lhamu Highway,318,0.8222
-name,Potential helipad,247,0.6386
-name,Manaslu Circuit,245,0.6335
-name,Prithvi Highway,227,0.5869
-name,Arniko Raj Marga,219,0.5662
-name,House,210,0.543
-name,Nationale No 3,209,0.5404
-name,Building,191,0.4938
-natural,tree,9425,44.6344
-natural,wood,5989,28.3624
-natural,water,2122,10.0493
-natural,scrub,1050,4.9725
-natural,peak,621,2.9409
-natural,coastline,541,2.562
-natural,tree_row,280,1.326
-natural,sand,158,0.7482
-natural,shingle,123,0.5825
-natural,cliff,107,0.5067
-source,Bing,60857,21.9934
-source,GeoEye,30053,10.861
-source,bing,26570,9.6022
-source,"Pleiades 2015-04-27, CNES, Airbus DS",13831,4.9984
-source,NextView,11112,4.0158
-source,Bing Imagery,10084,3.6443
-source,Digital Globe,7568,2.735
-source,UNOCHA,5821,2.1037
-source,"DigitalGlobe, 2015-05-03",5437,1.9649
-source,Google 2010-01-17,5434,1.9638
-surface,unpaved,9692,47.4076
-surface,asphalt,2963,14.4932
-surface,ground,2315,11.3236
-surface,dirt,1635,7.9975
-surface,paved,1300,6.3588
-surface,gravel,1053,5.1507
-surface,compacted,318,1.5555
-surface,paving_stones,259,1.2669
-surface,concrete,191,0.9343
-surface,sett,146,0.7141
-waterway,stream,16187,62.2314
-waterway,river,6482,24.9202
-waterway,drain,1015,3.9022
-waterway,ditch,802,3.0833
-waterway,riverbank,695,2.6719
-waterway,canal,423,1.6262
-waterway,yes,144,0.5536
-waterway,dam,118,0.4537
-waterway,weir,39,0.1499
-waterway,unclassified,29,0.1115
+key,value,count,percent_of_total_changes_for_key,percent_difference_from_pre,percent_difference_from_pre_day
+amenity,hospital,4444,41.9324,943.1925,12592.1753
+amenity,drinking_water,2362,22.2872,48.1807,1702.8649
+amenity,school,1007,9.5018,-53.0536,471.181
+amenity,place_of_worship,550,5.1897,-69.8795,266.4659
+amenity,parking,282,2.6609,-85.1109,81.151
+amenity,restaurant,169,1.5946,-82.7375,110.0272
+amenity,bicycle_parking,130,1.2266,-65.2406,322.9055
+amenity,bench,98,0.9247,-80.0407,142.8377
+amenity,fuel,97,0.9153,-66.436,308.3622
+amenity,cafe,88,0.8303,-75.6906,195.7643
+building,yes,1510001,93.32,267.1806,4367.3644
+building,house,77110,4.7655,1069.7512,14131.9731
+building,residential,18291,1.1304,236.108,3989.3146
+building,collapsed,6488,0.401,10896.6102,133692.0904
+building,construction,754,0.0466,-93.8749,-25.4779
+building,industrial,674,0.0417,66.0099,1919.7865
+building,apartments,565,0.0349,-42.3469,601.4456
+building,commercial,422,0.0261,-84.9982,82.5216
+building,school,372,0.023,-56.4403,429.9766
+building,collapse,369,0.0228,5171.4286,64035.7143
+highway,path,95585,29.7304,1254.2788,16377.0591
+highway,track,59816,18.6049,469.2967,6826.4427
+highway,unclassified,56493,17.5714,334.7622,5189.6067
+highway,road,35989,11.1939,1930.9819,24610.2803
+highway,residential,30966,9.6315,38.7987,1588.7181
+highway,footway,12475,3.8802,47.3889,1693.2321
+highway,service,9260,2.8802,55.4213,1790.9589
+highway,tertiary,7377,2.2945,24.3384,1412.7844
+highway,secondary,3998,1.2435,-4.9001,1057.0488
+highway,primary,3579,1.1132,-4.4836,1062.1164
+landuse,residential,56422,67.6393,1388.3144,18007.8256
+landuse,brownfield,13993,16.775,34029.2683,415139.4309
+landuse,farmland,5443,6.5251,215.7193,3741.251
+landuse,forest,2735,3.2787,395.471,5928.2307
+landuse,farmyard,801,0.9602,189.1697,3418.231
+landuse,farm,780,0.9351,672.2772,9296.0396
+landuse,grass,617,0.7397,-8.7278,1010.4783
+landuse,industrial,485,0.5814,2.3207,1144.9015
+landuse,reservoir,372,0.446,327.5862,5102.2989
+landuse,basin,300,0.3596,240.9091,4047.7273
+leisure,common,4943,82.8528,3985.124,49602.3416
+leisure,park,395,6.6209,-48.4334,527.3934
+leisure,pitch,335,5.6152,-25.2232,809.7842
+leisure,swimming_pool,98,1.6426,5.3763,1182.0789
+leisure,playground,57,0.9554,-65.4545,320.303
+leisure,yes,26,0.4358,271.4286,4419.0476
+leisure,garden,25,0.419,-81.3433,126.99
+leisure,picnic_table,15,0.2514,-65.9091,314.7727
+leisure,sports_centre,14,0.2347,-84.4444,89.2593
+leisure,slipway,10,0.1676,0.0,1116.6667
+name,Nationale No 2,614,1.5875,7575.0,93279.1667
+name,building=yes,509,1.3161,6262.5,77310.4167
+name,Pasang Lhamu Highway,318,0.8222,274.1176,4451.7647
+name,Potential helipad,247,0.6386,3428.5714,42830.9524
+name,Manaslu Circuit,245,0.6335,456.8182,6674.6212
+name,Prithvi Highway,227,0.5869,440.4762,6475.7937
+name,Arniko Raj Marga,219,0.5662,630.0,8781.6667
+name,House,210,0.543,2000.0,25450.0
+name,Nationale No 3,209,0.5404,2885.7143,36226.1905
+name,Building,191,0.4938,13.6905,1283.2341
+natural,tree,9425,44.6344,104.6688,2390.1375
+natural,wood,5989,28.3624,639.3827,8895.823
+natural,water,2122,10.0493,90.1434,2213.411
+natural,scrub,1050,4.9725,476.9231,6919.2308
+natural,peak,621,2.9409,233.871,3962.0968
+natural,coastline,541,2.562,54.1311,1775.2612
+natural,tree_row,280,1.326,2.5641,1147.8632
+natural,sand,158,0.7482,-26.5116,794.1085
+natural,shingle,123,0.5825,-2.381,1087.6984
+natural,cliff,107,0.5067,25.8824,1431.5686
+source,Bing,60857,21.9934,647.2618,8991.6851
+source,GeoEye,30053,10.861,2713.9513,34136.4076
+source,bing,26570,9.6022,111.7975,2476.8699
+source,"Pleiades 2015-04-27, CNES, Airbus DS",13831,4.9984,197485.7143,2403859.5238
+source,NextView,11112,4.0158,15333.3333,187672.2222
+source,Bing Imagery,10084,3.6443,143957.1429,1752595.2381
+source,Digital Globe,7568,2.735,8037.6344,98907.8853
+source,UNOCHA,5821,2.1037,83057.1429,1011645.2381
+source,"DigitalGlobe, 2015-05-03",5437,1.9649,77571.4286,944902.381
+source,Google 2010-01-17,5434,1.9638,8956.6667,110089.4444
+surface,unpaved,9692,47.4076,362.4046,5525.9224
+surface,asphalt,2963,14.4932,-84.8942,83.7871
+surface,ground,2315,11.3236,-49.8918,509.6501
+surface,dirt,1635,7.9975,69.7819,1965.6802
+surface,paved,1300,6.3588,-18.136,896.0118
+surface,gravel,1053,5.1507,38.5526,1585.7237
+surface,compacted,318,1.5555,17.7778,1332.963
+surface,paving_stones,259,1.2669,-71.5697,245.9019
+surface,concrete,191,0.9343,-30.0366,751.221
+surface,sett,146,0.7141,-67.9825,289.5468
+waterway,stream,16187,62.2314,249.6868,4154.5222
+waterway,river,6482,24.9202,183.3042,3346.8677
+waterway,drain,1015,3.9022,39.4231,1596.3141
+waterway,ditch,802,3.0833,199.2537,3540.9204
+waterway,riverbank,695,2.6719,183.6735,3351.3605
+waterway,canal,423,1.6262,-5.157,1053.9238
+waterway,yes,144,0.5536,1957.1429,24928.5714
+waterway,dam,118,0.4537,337.037,5217.284
+waterway,weir,39,0.1499,178.5714,3289.2857
+waterway,unclassified,29,0.1115,314.2857,4940.4762
+emergency,yes,33,56.8966,-36.5385,672.1154
+emergency,defibrillator,5,8.6207,-86.8421,60.0877
+emergency,no,5,8.6207,-96.7532,-60.4978
+emergency,emergency_ward_entrance,4,6.8966,-73.3333,224.4444
+emergency,assembly_point,3,5.1724,-90.3226,17.7419
+emergency,fire_hydrant,3,5.1724,-98.1366,-77.3292
+emergency,helipad,2,3.4483,-71.4286,247.619
+emergency,landing_site,2,3.4483,-77.7778,170.3704
+emergency,hostel,1,1.7241,-85.7143,73.8095

@@ -22,8 +22,8 @@ def compute_key_value_correlation_metrics(top_n, specified_keys, period, disaste
 
     period1, period2 = period
     if disaster_id =="all":
-        period1_data = pd.read_csv(f"./Results/TagInvestigation/summary/top_n_tag_key_values/top_100_key_values/{period1}.csv")
-        period2_data = pd.read_csv(f"./Results/TagInvestigation/summary/top_n_tag_key_values/top_100_key_values/{period2}.csv")
+        period1_data = pd.read_csv(f"./Results/TagInvestigation/summary/top_n_tag_key_values/top_4000_key_values/{period1}.csv")
+        period2_data = pd.read_csv(f"./Results/TagInvestigation/summary/top_n_tag_key_values/top_4000_key_values/{period2}.csv")
 
     else:
         period1_data = pd.read_csv(f"./Results/TagInvestigation/disaster{disaster_id}/unique_tag_key_values_count_{period1}.csv")
@@ -48,6 +48,9 @@ def compute_key_value_correlation_metrics(top_n, specified_keys, period, disaste
                     .head(top_n)
     )
 
+    print(period1_data)
+    print(period2_data)
+
      # For each key - compute the kendall correlation coefficient
     results = []
     for key in specified_keys:
@@ -65,7 +68,7 @@ def compute_key_value_correlation_metrics(top_n, specified_keys, period, disaste
             os.makedirs(f"./Results/TagInvestigation/disaster{disaster_id}/key_value_correlation_rank_analysis/", exist_ok=True)
             file_path = f"./Results/TagInvestigation/disaster{disaster_id}/key_value_correlation_rank_analysis/{period1}_{period2}.csv"
 
-
+    print(results)
     with open(file_path, mode="w", newline='', encoding="utf-8") as csv_file:
         writer = csv.DictWriter(csv_file, fieldnames=headers)
         writer.writeheader()
@@ -89,7 +92,8 @@ def periods_compute_correlation_metrics(period1, period2, period1_data, period2_
     period2_data['rank'] = period2_data['count'].rank(ascending=False, method='min')
 
 
-    merged= pd.merge(period1_data, period2_data, on='value', suffixes=(f'_{period1}', f'_{period2}'))
+
+    merged = pd.merge(period1_data, period2_data, on=["key", "value"], suffixes=(f'_{period1}', f'_{period2}'))
 
     period1_ranks = merged[f'rank_{period1}'].values
     period2_ranks = merged[f'rank_{period2}'].values
@@ -99,7 +103,7 @@ def periods_compute_correlation_metrics(period1, period2, period1_data, period2_
 
     kendall_corr, kendall_p = kendalltau(period1_ranks, period2_ranks)
 
-    if len(period1_counts) > 0 and len(period2_counts) > 0:
+    if len(period1_counts) > 1 and len(period2_counts) > 1:
         cosine_sim = cosine_similarity([period1_counts], [period2_counts])[0][0]
         pearson_corr, pearson_p = pearsonr(period1_counts, period2_counts)
     else:
@@ -126,19 +130,20 @@ if __name__ == "__main__":
     db_utils.db_connect()
 
     # Get the values for the specified keys
-    specified_keys = ["building","highway","surface","amenity","landuse","waterway","natural"]
+    specified_keys = ["building","highway","source","name","surface","amenity","landuse","waterway","natural","leisure","emergency"]
     periods = [("pre","imm"), ("pre","post"), ("imm","post")]
-    disaster_ids =  [2,3,4,5,6]
-    top_n = 10
+    periods = [("pre","imm"),]
 
-    
+    disaster_ids =  [2,3,4,5,6]
+    top_n = 15
+
     for period in periods:
         print(period)
         print("Getting all disaster correlation metrics")
         compute_key_value_correlation_metrics(top_n, specified_keys, period, "all")
         
         for disaster_id in disaster_ids:
-            (_, disaster_country, disaster_area, _, disaster_date, _ ) = db_utils.get_disaster_with_id(disaster_id)
-            print(f"Generating correlation metrics for {disaster_area[0]} {disaster_date.year}")
-            compute_key_value_correlation_metrics(top_n, specified_keys, period, disaster_id)
-        
+                (_, disaster_country, disaster_area, _, disaster_date, _ ) = db_utils.get_disaster_with_id(disaster_id)
+                print(f"Generating correlation metrics for {disaster_area[0]} {disaster_date.year}")
+                compute_key_value_correlation_metrics(top_n, specified_keys, period, disaster_id)
+    

@@ -130,8 +130,14 @@ def generate_plot_kendall_correlation_coefficients(periods, disaster_ids, key_pa
     plt.grid(alpha=0.3)
     plt.axis('equal')
     plt.legend(title="Periods", fontsize=10)
-    
-    # Ensure equal scaling on both axes
+
+    # Emergency has a negative value, and automatically checking the values seems to break the plot for some reason
+    if "emergency" in key_pair:
+        plt.xlim(-1 , 1)
+        plt.ylim(-1 , 1)
+    else:
+        plt.xlim(0 , 1)
+        plt.ylim(0 , 1)
     plt.tight_layout()
 
 
@@ -150,18 +156,19 @@ if __name__ == "__main__":
     disaster_ids = [2, 3, 4, 5, 6]
 
     # Key pairs should aways be alphabetically ordered
-    key_pairs = [("building", "highway"), ("amenity", "highway"), ("amenity", "building"), ("amenity","landuse")]
-    key_pairs = []
-    keys = ["amenity","building","highway","landuse"]
-    for i in range(len(keys)-1):
-        for j in range(i+1, len(keys)):
-            key_pairs.append((keys[i], keys[j]))
+    specified_keys = sorted(["building","highway","source","name","surface","amenity","landuse","waterway","natural","leisure","emergency"])
+    #specified_keys = sorted(["building","highway","emergency"])
+    key_pairs=[]
+    for i in range(len(specified_keys)-1):
+        for j in range(i+1, len(specified_keys)):
+            key_pairs.append((specified_keys[i], specified_keys[j]))
     
 
-
+    print(key_pairs)
     periods = [("pre", "imm"), ("pre", "post"), ("imm", "post")]
 
     for key_pair in key_pairs:
         generate_plot_kendall_correlation_coefficients(periods, disaster_ids, key_pair)
+        print(key_pair)
 
 

@@ -1,31 +1,33 @@
-key,value,count,percent_of_total_changes_for_key
-amenity,fuel,12,75.0
-amenity,embassy,3,18.75
-amenity,bus_station,1,6.25
-highway,unclassified,117,63.9344
-highway,residential,29,15.847
-highway,primary,11,6.0109
-highway,track,9,4.918
-highway,tertiary,6,3.2787
-highway,trunk,5,2.7322
-highway,secondary,4,2.1858
-highway,Residential,1,0.5464
-highway,path,1,0.5464
-name,Haiti,36,61.0169
-name,Port-au-Prince,4,6.7797
-name,Embassy of the United States of America,3,5.0847
-name,Avenida Martin Luther King,2,3.3898
-name,Nationale No 2,2,3.3898
-name,Rue Duquella,2,3.3898
-name,Caribbean Market,1,1.6949
-name,Delma 95,1,1.6949
-name,Impasse Denesvar,1,1.6949
-name,Moulin Sur Mer,1,1.6949
-name,Musée d'art haïtien,1,1.6949
-name,Nationale No 1,1,1.6949
-name,Rue Lisius,1,1.6949
-name,Toussaint Louverture International Airport,1,1.6949
-name,avenue Lamartinière,1,1.6949
-name,rue Capois,1,1.6949
-source,Yahoo,18,94.7368
-source,wikipedia,1,5.2632
+key,value,count,percent_of_total_changes_for_key,percent_difference_from_pre,percent_difference_from_pre_day
+amenity,fuel,12,75.0,1100.0,1100.0
+amenity,embassy,3,18.75,200.0,200.0
+amenity,bus_station,1,6.25,0.0,0.0
+highway,unclassified,117,63.9344,11600.0,11600.0
+highway,residential,29,15.847,2800.0,2800.0
+highway,primary,11,6.0109,1000.0,1000.0
+highway,track,9,4.918,800.0,800.0
+highway,tertiary,6,3.2787,500.0,500.0
+highway,trunk,5,2.7322,400.0,400.0
+highway,secondary,4,2.1858,300.0,300.0
+highway,Residential,1,0.5464,0.0,0.0
+highway,path,1,0.5464,0.0,0.0
+leisure,park,1,50.0,0.0,0.0
+leisure,stadium,1,50.0,0.0,0.0
+name,Haiti,36,61.0169,3500.0,3500.0
+name,Port-au-Prince,4,6.7797,300.0,300.0
+name,Embassy of the United States of America,3,5.0847,200.0,200.0
+name,Avenida Martin Luther King,2,3.3898,100.0,100.0
+name,Nationale No 2,2,3.3898,100.0,100.0
+name,Rue Duquella,2,3.3898,100.0,100.0
+name,Caribbean Market,1,1.6949,0.0,0.0
+name,Delma 95,1,1.6949,0.0,0.0
+name,Impasse Denesvar,1,1.6949,0.0,0.0
+name,Moulin Sur Mer,1,1.6949,0.0,0.0
+name,Musée d'art haïtien,1,1.6949,0.0,0.0
+name,Nationale No 1,1,1.6949,0.0,0.0
+name,Rue Lisius,1,1.6949,0.0,0.0
+name,Toussaint Louverture International Airport,1,1.6949,0.0,0.0
+name,avenue Lamartinière,1,1.6949,0.0,0.0
+name,rue Capois,1,1.6949,0.0,0.0
+source,Yahoo,18,94.7368,1700.0,1700.0
+source,wikipedia,1,5.2632,0.0,0.0
