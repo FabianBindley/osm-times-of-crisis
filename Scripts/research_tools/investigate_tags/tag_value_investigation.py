@@ -11,7 +11,7 @@ from db_utils import DB_Utils
 
 
 def get_key_value_counts(keys):
-    total_changes_keys = pd.read_csv("./Results/TagInvestigation/summary/unique_tag_keys_count_all.csv").iloc[:50]
+    total_changes_keys = pd.read_csv("./Results/TagInvestigation/summary/unique_tag_keys_count_all.csv")
     total_changes_keys_filtered = total_changes_keys[total_changes_keys['key'].isin(keys)]
 
     tag_values = db_utils.get_tag_key_value_usage(keys)
@@ -212,7 +212,7 @@ if __name__ == "__main__":
 
     print("Getting key value counts")
     specified_keys = ["building","highway","source","name","surface","amenity","landuse","waterway","natural","leisure","emergency"]
-    #get_key_value_counts(specified_keys)
+    get_key_value_counts(specified_keys)
 
     nums = [10, 25, 100, 4000]
     disaster_ids =  [1,2,3,4,5,6]

@@ -126,7 +126,7 @@ if __name__ == "__main__":
     db_utils.db_connect()
 
     print("Getting key counts")
-    #get_key_counts()
+    get_key_counts()
 
     print("Getting tag usage for disasters")
     for disaster_id in range(1, 7):

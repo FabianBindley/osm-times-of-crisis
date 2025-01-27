@@ -1,26 +1,26 @@
 key,value,count,percent_of_total_changes_for_key
-amenity,hospital,8175,14.8999
-amenity,school,8021,14.6193
-amenity,drinking_water,4777,8.7067
-amenity,parking,4394,8.0086
-amenity,place_of_worship,3391,6.1805
-amenity,restaurant,2589,4.7188
-amenity,toilets,1968,3.5869
+amenity,hospital,8175,14.9002
+amenity,school,8021,14.6195
+amenity,drinking_water,4777,8.7068
+amenity,parking,4394,8.0087
+amenity,place_of_worship,3391,6.1806
+amenity,restaurant,2589,4.7189
+amenity,toilets,1968,3.587
 amenity,parking_space,1670,3.0438
 amenity,bench,1488,2.7121
 amenity,bicycle_parking,1052,1.9174
-amenity,cafe,996,1.8153
+amenity,cafe,996,1.8154
 amenity,pharmacy,874,1.593
 amenity,bank,848,1.5456
 amenity,fuel,835,1.5219
-amenity,recycling,766,1.3961
+amenity,recycling,766,1.3962
 amenity,waste_basket,750,1.367
 amenity,bar,664,1.2102
-amenity,fast_food,652,1.1883
+amenity,fast_food,652,1.1884
 amenity,shower,622,1.1337
 amenity,kindergarten,602,1.0972
 amenity,shelter,593,1.0808
-amenity,college,554,1.0097
+amenity,college,554,1.0098
 amenity,police,463,0.8439
 amenity,library,429,0.7819
 amenity,gambling,393,0.7163
@@ -44,7 +44,7 @@ amenity,motorcycle_parking,136,0.2479
 amenity,embassy,121,0.2205
 amenity,dentist,120,0.2187
 amenity,studio,119,0.2169
-amenity,pub,117,0.2132
+amenity,pub,117,0.2133
 amenity,townhall,116,0.2114
 amenity,parking_entrance,107,0.195
 amenity,ctc,105,0.1914
@@ -434,7 +434,7 @@ amenity,village,1,0.0018
 amenity,warehouse,1,0.0018
 amenity,watar well,1,0.0018
 amenity,zamar quicaillerie,1,0.0018
-building,yes,2288450,93.4122
+building,yes,2288450,93.4136
 building,house,89284,3.6445
 building,residential,28307,1.1555
 building,construction,13954,0.5696
@@ -1150,16 +1150,35 @@ building,शेयर_दलाल,1,0.0
 building,सुबिसु_केबलनेट,1,0.0
 building,होटेल_कस्मिक_प्रा._ली,1,0.0
 building,경복궁(Gyoung_Bok_Gung_한식당),1,0.0
-highway,path,127448,21.3236
-highway,residential,92010,15.3944
-highway,unclassified,85564,14.3159
-highway,track,84593,14.1534
-highway,road,39754,6.6513
-highway,footway,35290,5.9044
-highway,tertiary,32901,5.5047
+emergency,fire_hydrant,203,27.5068
+emergency,no,166,22.4932
+emergency,yes,161,21.8157
+emergency,defibrillator,73,9.8916
+emergency,assembly_point,41,5.5556
+emergency,emergency_ward_entrance,30,4.065
+emergency,ambulance_station,26,3.523
+emergency,landing_site,8,1.084
+emergency,fire_extinguisher,6,0.813
+emergency,designated,5,0.6775
+emergency,phone,5,0.6775
+emergency,fire_hose,3,0.4065
+emergency,water_tank,3,0.4065
+emergency,helipad,2,0.271
+emergency,hostel,2,0.271
+emergency,disaster_response,1,0.1355
+emergency,emergency_ward,1,0.1355
+emergency,life_ring,1,0.1355
+emergency,lifeguard,1,0.1355
+highway,path,127448,21.3239
+highway,residential,92010,15.3946
+highway,unclassified,85564,14.3161
+highway,track,84593,14.1536
+highway,road,39754,6.6514
+highway,footway,35290,5.9045
+highway,tertiary,32901,5.5048
 highway,service,25790,4.315
 highway,secondary,16151,2.7023
-highway,primary,12352,2.0666
+highway,primary,12352,2.0667
 highway,crossing,10956,1.8331
 highway,cycleway,6449,1.079
 highway,bus_stop,5535,0.9261
@@ -1321,39 +1340,39 @@ highway,unclassified; ford,1,0.0002
 highway,unclassified; road,1,0.0002
 highway,unclassified;path,1,0.0002
 highway,unclassified;tertiary,1,0.0002
-landuse,residential,72645,55.7624
-landuse,brownfield,24460,18.7755
-landuse,farmland,14678,11.2668
-landuse,forest,4068,3.1226
-landuse,grass,3246,2.4916
-landuse,industrial,1584,1.2159
-landuse,farmyard,1304,1.001
-landuse,farm,1161,0.8912
-landuse,basin,958,0.7354
-landuse,orchard,922,0.7077
-landuse,cemetery,556,0.4268
-landuse,reservoir,554,0.4253
-landuse,meadow,542,0.416
-landuse,construction,491,0.3769
-landuse,commercial,407,0.3124
-landuse,vineyard,306,0.2349
-landuse,greenfield,283,0.2172
-landuse,retail,221,0.1696
-landuse,allotments,190,0.1458
-landuse,quarry,188,0.1443
-landuse,salt_pond,178,0.1366
-landuse,greenhouse_horticulture,158,0.1213
-landuse,military,141,0.1082
-landuse,landfill,135,0.1036
+landuse,residential,72645,55.7975
+landuse,brownfield,24460,18.7873
+landuse,farmland,14678,11.2739
+landuse,forest,4068,3.1246
+landuse,grass,3246,2.4932
+landuse,industrial,1584,1.2166
+landuse,farmyard,1304,1.0016
+landuse,farm,1161,0.8917
+landuse,basin,958,0.7358
+landuse,orchard,922,0.7082
+landuse,cemetery,556,0.4271
+landuse,reservoir,554,0.4255
+landuse,meadow,542,0.4163
+landuse,construction,491,0.3771
+landuse,commercial,407,0.3126
+landuse,vineyard,306,0.235
+landuse,greenfield,283,0.2174
+landuse,retail,221,0.1697
+landuse,allotments,190,0.1459
+landuse,quarry,188,0.1444
+landuse,salt_pond,178,0.1367
+landuse,greenhouse_horticulture,158,0.1214
+landuse,military,141,0.1083
+landuse,landfill,135,0.1037
 landuse,yes,97,0.0745
 landuse,recreation_ground,75,0.0576
 landuse,religious,71,0.0545
-landuse,railway,64,0.0491
+landuse,railway,64,0.0492
 landuse,grave_yard,53,0.0407
 landuse,village_green,52,0.0399
-landuse,farming,51,0.0391
+landuse,farming,51,0.0392
 landuse,flowerbed,49,0.0376
-landuse,conservation,45,0.0345
+landuse,conservation,45,0.0346
 landuse,plant_nursery,32,0.0246
 landuse,brownfiled,22,0.0169
 landuse,education,20,0.0154
@@ -1424,6 +1443,70 @@ landuse,residential-FIXME,1,0.0008
 landuse,residentialbr,1,0.0008
 landuse,restaurant,1,0.0008
 landuse,walled compound,1,0.0008
+leisure,common,5106,46.452
+leisure,park,1978,17.9949
+leisure,pitch,1419,12.9094
+leisure,garden,670,6.0953
+leisure,swimming_pool,414,3.7664
+leisure,playground,394,3.5844
+leisure,sports_centre,283,2.5746
+leisure,picnic_table,93,0.8461
+leisure,fitness_centre,59,0.5368
+leisure,nature_reserve,56,0.5095
+leisure,track,54,0.4913
+leisure,sports_hall,53,0.4822
+leisure,dog_park,45,0.4094
+leisure,outdoor_seating,44,0.4003
+leisure,beach_resort,43,0.3912
+leisure,stadium,40,0.3639
+leisure,fitness_station,32,0.2911
+leisure,yes,26,0.2365
+leisure,golf_course,19,0.1729
+leisure,marina,15,0.1365
+leisure,slipway,15,0.1365
+leisure,bleachers,11,0.1001
+leisure,amusement_arcade,10,0.091
+leisure,dance,9,0.0819
+leisure,recreation_ground,8,0.0728
+leisure,adult_gaming_centre,7,0.0637
+leisure,miniature_golf,7,0.0637
+leisure,water_park,7,0.0637
+leisure,fishing,6,0.0546
+leisure,horse_riding,5,0.0455
+leisure,hot_tub,5,0.0455
+leisure,Bhata Chour,4,0.0364
+leisure,football,4,0.0364
+leisure,hackerspace,4,0.0364
+leisure,parc saint vicent,4,0.0364
+leisure,events_venue,3,0.0273
+leisure,resort,3,0.0273
+leisure,Football,2,0.0182
+leisure,community_centre,2,0.0182
+leisure,night_club,2,0.0182
+leisure,racetrack,2,0.0182
+leisure,residential,2,0.0182
+leisure,sauna,2,0.0182
+leisure,spa,2,0.0182
+leisure,swimming area,2,0.0182
+leisure,swimming pool,2,0.0182
+leisure,trampoline_park,2,0.0182
+leisure,Common,1,0.0091
+leisure,Disaster_park,1,0.0091
+leisure,Fottball,1,0.0091
+leisure,Restaurant,1,0.0091
+leisure,SOCCER,1,0.0091
+leisure,School,1,0.0091
+leisure,bowling_alley,1,0.0091
+leisure,camp_site,1,0.0091
+leisure,commnon,1,0.0091
+leisure,grass,1,0.0091
+leisure,ice_rink,1,0.0091
+leisure,maze,1,0.0091
+leisure,natural_tree,1,0.0091
+leisure,open ground,1,0.0091
+leisure,"park, playground",1,0.0091
+leisure,sunbathing,1,0.0091
+leisure,table_tennis_table,1,0.0091
 name,Nationale No 2,689,0.3152
 name,महेन्द्र राज्मार्ग्,585,0.2676
 name,Bologna Centrale,520,0.2379
@@ -1438,7 +1521,7 @@ name,Building,356,0.1629
 name,building,344,0.1574
 name,Via Augusto Murri,318,0.1455
 name,Mahendra Highway,317,0.145
-name,Manaslu Circuit,307,0.1404
+name,Manaslu Circuit,307,0.1405
 name,Obstacle,294,0.1345
 name,Prithvi Highway,293,0.134
 name,Tangenziale di Bologna,290,0.1327
@@ -62289,85 +62372,85 @@ name,空地？,1,0.0005
 name,聚落,1,0.0005
 name,道路？,1,0.0005
 name,경복궁(Gyoung Bok Gung 한식당),1,0.0005
-natural,tree,59329,50.7281
-natural,wood,11272,9.6379
-natural,water,4922,4.2085
-natural,scrub,2054,1.7562
-natural,tree_row,1483,1.268
-natural,peak,1179,1.0081
-natural,coastline,994,0.8499
-natural,sand,816,0.6977
-natural,shingle,587,0.5019
-natural,glacier,548,0.4686
-natural,wetland,332,0.2839
-natural,grassland,296,0.2531
-natural,cliff,241,0.2061
-natural,scree,191,0.1633
-natural,heath,183,0.1565
-natural,ridge,158,0.1351
-natural,bare_rock,124,0.106
-natural,beach,119,0.1017
-natural,riverbed,75,0.0641
-natural,shrub,59,0.0504
-natural,saddle,50,0.0428
-natural,plant,46,0.0393
-natural,bay,41,0.0351
-natural,mud,37,0.0316
-natural,valley,34,0.0291
-natural,cave_entrance,27,0.0231
-natural,gully,26,0.0222
-natural,spring,23,0.0197
-natural,arete,21,0.018
-natural,floodplain,15,0.0128
-natural,rock,14,0.012
-natural,fell,13,0.0111
-natural,landslide,13,0.0111
-natural,marsh,11,0.0094
-natural,floodable area,10,0.0086
-natural,grass,9,0.0077
-natural,land,8,0.0068
-natural,woods,8,0.0068
-natural,Cultures,7,0.006
-natural,earth_bank,7,0.006
-natural,snowfield,6,0.0051
-natural,forest,5,0.0043
-natural,scrub ,4,0.0034
-natural,Zone inondable en période de pluies,3,0.0026
-natural,meadow,3,0.0026
-natural,reef,3,0.0026
-natural,sinkhole,3,0.0026
-natural,stone,3,0.0026
-natural,wet land,3,0.0026
-natural,yes,2,0.0017
-natural,Border Crossing,1,0.0009
-natural,Cones de déjection de ravinement,1,0.0009
-natural,Lamentin,1,0.0009
-natural,Massif de la Hotte,1,0.0009
-natural,Phulchoki,1,0.0009
-natural,Pic Macaya,1,0.0009
-natural,Tree,1,0.0009
-natural,Zone de ravinement,1,0.0009
-natural,Zone de ravinement généralisé,1,0.0009
-natural,Zone de ravinement intense,1,0.0009
-natural,cave,1,0.0009
-natural,crater,1,0.0009
-natural,cru,1,0.0009
-natural,diff,1,0.0009
-natural,farmland,1,0.0009
-natural,floodable zone,1,0.0009
-natural,gravel,1,0.0009
-natural,headland,1,0.0009
-natural,lake,1,0.0009
-natural,natural=wood,1,0.0009
-natural,no,1,0.0009
-natural,park,1,0.0009
-natural,pass,1,0.0009
-natural,point,1,0.0009
-natural,pothole,1,0.0009
-natural,scrubs,1,0.0009
-natural,shringle,1,0.0009
-natural,shrubbery,1,0.0009
-natural,wet_meadow,1,0.0009
+natural,tree,59329,69.4345
+natural,wood,11272,13.192
+natural,water,4922,5.7604
+natural,scrub,2054,2.4039
+natural,tree_row,1483,1.7356
+natural,peak,1179,1.3798
+natural,coastline,994,1.1633
+natural,sand,816,0.955
+natural,shingle,587,0.687
+natural,glacier,548,0.6413
+natural,wetland,332,0.3885
+natural,grassland,296,0.3464
+natural,cliff,241,0.282
+natural,scree,191,0.2235
+natural,heath,183,0.2142
+natural,ridge,158,0.1849
+natural,bare_rock,124,0.1451
+natural,beach,119,0.1393
+natural,riverbed,75,0.0878
+natural,shrub,59,0.069
+natural,saddle,50,0.0585
+natural,plant,46,0.0538
+natural,bay,41,0.048
+natural,mud,37,0.0433
+natural,valley,34,0.0398
+natural,cave_entrance,27,0.0316
+natural,gully,26,0.0304
+natural,spring,23,0.0269
+natural,arete,21,0.0246
+natural,floodplain,15,0.0176
+natural,rock,14,0.0164
+natural,fell,13,0.0152
+natural,landslide,13,0.0152
+natural,marsh,11,0.0129
+natural,floodable area,10,0.0117
+natural,grass,9,0.0105
+natural,land,8,0.0094
+natural,woods,8,0.0094
+natural,Cultures,7,0.0082
+natural,earth_bank,7,0.0082
+natural,snowfield,6,0.007
+natural,forest,5,0.0059
+natural,scrub ,4,0.0047
+natural,Zone inondable en période de pluies,3,0.0035
+natural,meadow,3,0.0035
+natural,reef,3,0.0035
+natural,sinkhole,3,0.0035
+natural,stone,3,0.0035
+natural,wet land,3,0.0035
+natural,yes,2,0.0023
+natural,Border Crossing,1,0.0012
+natural,Cones de déjection de ravinement,1,0.0012
+natural,Lamentin,1,0.0012
+natural,Massif de la Hotte,1,0.0012
+natural,Phulchoki,1,0.0012
+natural,Pic Macaya,1,0.0012
+natural,Tree,1,0.0012
+natural,Zone de ravinement,1,0.0012
+natural,Zone de ravinement généralisé,1,0.0012
+natural,Zone de ravinement intense,1,0.0012
+natural,cave,1,0.0012
+natural,crater,1,0.0012
+natural,cru,1,0.0012
+natural,diff,1,0.0012
+natural,farmland,1,0.0012
+natural,floodable zone,1,0.0012
+natural,gravel,1,0.0012
+natural,headland,1,0.0012
+natural,lake,1,0.0012
+natural,natural=wood,1,0.0012
+natural,no,1,0.0012
+natural,park,1,0.0012
+natural,pass,1,0.0012
+natural,point,1,0.0012
+natural,pothole,1,0.0012
+natural,scrubs,1,0.0012
+natural,shringle,1,0.0012
+natural,shrubbery,1,0.0012
+natural,wet_meadow,1,0.0012
 source,Bing,79794,15.9134
 source,bing,46433,9.2602
 source,GeoEye,37195,7.4178
@@ -64698,28 +64781,28 @@ source,www.Pro-Haiti.de,1,0.0002
 source,www.techo.org/haiti,1,0.0002
 source,yahoo imagery; Yahoo,1,0.0002
 source,zelf beton gestort,1,0.0002
-surface,asphalt,51802,48.3525
-surface,unpaved,16141,15.0662
-surface,ground,9364,8.7405
-surface,gravel,6061,5.6574
-surface,paved,4747,4.4309
-surface,Dirt/Sand,4701,4.388
-surface,dirt,3965,3.701
-surface,paving_stones,2615,2.4409
-surface,Paved,1488,1.3889
-surface,sett,1404,1.3105
-surface,concrete,924,0.8625
-surface,compacted,813,0.7589
-surface,unspecified,500,0.4667
-surface,grass,417,0.3892
-surface,mud,395,0.3687
+surface,asphalt,51802,48.362
+surface,unpaved,16141,15.0691
+surface,ground,9364,8.7422
+surface,gravel,6061,5.6585
+surface,paved,4747,4.4318
+surface,Dirt/Sand,4701,4.3888
+surface,dirt,3965,3.7017
+surface,paving_stones,2615,2.4413
+surface,Paved,1488,1.3892
+surface,sett,1404,1.3108
+surface,concrete,924,0.8626
+surface,compacted,813,0.759
+surface,unspecified,500,0.4668
+surface,grass,417,0.3893
+surface,mud,395,0.3688
 surface,fine_gravel,220,0.2054
-surface,earth,193,0.1801
+surface,earth,193,0.1802
 surface,dirt_sand,141,0.1316
-surface,sand,139,0.1297
+surface,sand,139,0.1298
 surface,unhewn_cobblestone,132,0.1232
-surface,wood,115,0.1073
-surface,pebblestone,88,0.0821
+surface,wood,115,0.1074
+surface,pebblestone,88,0.0822
 surface,concrete:plates,68,0.0635
 surface,dirt;sand,60,0.056
 surface,cobblestone,59,0.0551

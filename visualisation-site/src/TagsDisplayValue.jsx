@@ -39,6 +39,7 @@ export default function TagsDisplay({csv_source, selectedKey, numTagsShow, searc
 
   return (
     <>
+    {selectedKey}
      <div className="wordcloud-container">
         <div style={{ display: 'flex', flexDirection: 'row' }}>
 
