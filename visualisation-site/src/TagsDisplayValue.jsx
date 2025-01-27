@@ -25,6 +25,7 @@ export default function TagsDisplay({csv_source, selectedKey, numTagsShow, searc
     console.log(csv_source)
     console.log(selectedKey)
     d3.csv(csv_source).then((data) => {
+      console.log(data);
       setWords(
         data.filter((d) => d.key == selectedKey).map((d) => ({
           text: d.value,
