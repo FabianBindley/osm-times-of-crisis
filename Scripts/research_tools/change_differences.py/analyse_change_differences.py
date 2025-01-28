@@ -8,6 +8,7 @@ import csv
 import shutil
 import osmium
 from shapely import wkb
+from collections import Counter
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..', 'database')))
 from db_utils import DB_Utils
@@ -34,7 +35,7 @@ def get_changes_and_previous(disaster_id, pre_disaster_days, imm_disaster_days, 
     end_date = disaster_date + imm_disaster + post_disaster + timedelta(days=1)
     headers=["id", "element_id", "element_type", "edit_type",   "timestamp", "disaster_id", "version", "visible", "changeset", "tags", "building", "highway", "coordinates", "uid", "geojson_verified"]
 
-    changes = db_utils.get_sample_changes_for_disaster(disaster_id, sample_size, sample, start_date, end_date, "all", random=True)
+    changes = db_utils.get_sample_changes_for_disaster(disaster_id, sample_size, sample, start_date, end_date, "all", random_sample)
     changes_df = pd.DataFrame(changes, columns=headers)
 
 
@@ -56,7 +57,6 @@ def get_changes_and_previous(disaster_id, pre_disaster_days, imm_disaster_days, 
 
     # Select and print only the relevant columns from the merged DataFrame
     pd.set_option("display.max_colwidth", None)
-    #print(merged[["element_id", "version_curr", "timestamp_curr", "edit_type_curr","version_prev", "timestamp_prev",  "edit_type_prev",]])
     merged.to_pickle(f'./Results/ChangeDifferences/disaster{disaster_id}/changes_curr_prev.pickle')
 
     return merged
@@ -75,26 +75,23 @@ def compute_coordinate_distance_change (coordinates_curr, coordinates_prev):
 def diff_changes(curr, prev, way_handler, missing_way_count):
     diff = {
         "element_id": curr["element_id"],
-        "edit_type": curr["edit_type"],
+        "edit_type_curr": curr["edit_type"],
+        "edit_type_prev": prev["edit_type"],
         "element_type": curr["element_type"],
         "version_curr": curr["version"],
         "tags_created": [],
         "tags_edited": [],
         "tags_deleted": [],
-        "coordinate_change": None,
+        "coordinate_distance_change": None,
         "made_visible": False,
         "timestamp_between_edits": None,
+        "way_nodes_created": [],
+        #"way_nodes_moved": [], # This is pretty awkward to do without getting and caching the node coordinates, so we leave for now
+        "way_nodes_deleted": [],
+        "way_length_change": None, # Same as above
     }
-    if curr["element_type"] == "way":
-        diff.update({
-            "way_nodes_created": [],
-            #"way_nodes_moved": [], # This is pretty awkward to do without getting and caching the node coordinates, so we leave for now
-            "way_nodes_deleted": [],
-            "way_length_change": None, # Same as above
-        })
 
-
-    diff["coordinate_change"] = round(compute_coordinate_distance_change(curr["coordinates"], prev["coordinates"]), 4)
+    diff["coordinate_distance_change"] = round(compute_coordinate_distance_change(curr["coordinates"], prev["coordinates"]), 4)
     
     diff["timestamp_between_edits"] = curr["timestamp"] - prev["timestamp"]
     
@@ -110,17 +107,22 @@ def diff_changes(curr, prev, way_handler, missing_way_count):
         diff["made_visible"] = True 
 
     if curr["element_type"] == "way":
-        if (curr["element_id"],curr["version"]) in way_handler.way_data and (curr["element_id"],curr["version"]-1) in way_handler.way_data:
-            curr_way_nodes = way_handler.way_data[(curr["element_id"],curr["version"])]
-            prev_way_nodes = way_handler.way_data[(curr["element_id"],curr["version"]-1)]
+        curr_key = (curr["element_id"], curr["version"])
+        prev_key = (curr["element_id"], curr["version"] - 1)
 
-            if (curr_way_nodes != prev_way_nodes):
-                diff['way_nodes_created'] = [node for node in curr_way_nodes if node not in prev_way_nodes]
-                diff['way_nodes_deleted'] = [node for node in prev_way_nodes if node not in curr_way_nodes]
-                #diff['way_nodes_moved'] = [node for node in curr_way_nodes if node in prev_way_nodes]
+        # Perform the logic only if both keys exist
+        if curr_key in way_handler.way_data and prev_key in way_handler.way_data:
+            
+            curr_way_nodes = way_handler.way_data[curr_key]["nodes"]
+            prev_way_nodes = way_handler.way_data[prev_key]["nodes"]
+
+            diff['way_nodes_created'] = [node for node in curr_way_nodes if node not in prev_way_nodes]
+            diff['way_nodes_deleted'] = [node for node in prev_way_nodes if node not in curr_way_nodes]
+            #diff['way_nodes_moved'] = [node for node in curr_way_nodes if node in prev_way_nodes]
         else:
             missing_way_count += 1
-    return diff
+
+    return diff,  missing_way_count 
 
 
 def compute_changes_diffs(disaster_area, disaster_id, pre_disaster_days, imm_disaster_days, post_disaster_days):
@@ -146,14 +148,16 @@ def compute_changes_diffs(disaster_area, disaster_id, pre_disaster_days, imm_dis
     post_disaster_end_date = post_disaster_start_date + post_disaster + timedelta(days=1)
 
     intervals = [pre_disaster_start_date, imm_disaster_start_date, post_disaster_start_date, post_disaster_end_date]
+    periods = ["pre","imm","post"]
     # Split this by period pre, imm, post
 
     for i in range(len(intervals)-1):
         start_date = intervals[i]
         end_date = intervals[i+1]
-
+        print(f"Period: {periods[i]}")
         diffs = []
-        for _, row in changes_and_prev.iterrows():
+        changes_and_prev_period = changes_and_prev[(start_date < changes_and_prev["timestamp_curr"]) & (changes_and_prev["timestamp_curr"] < end_date)]
+        for _, row in changes_and_prev_period.iterrows():
             curr = {
                 "element_id": row["element_id"],
                 "edit_type": row["edit_type_curr"],
@@ -167,22 +171,91 @@ def compute_changes_diffs(disaster_area, disaster_id, pre_disaster_days, imm_dis
             }
             prev = {
                 "tags": row["tags_prev"],
+                "edit_type": row["edit_type_prev"],
                 "coordinates": row["coordinates_prev"],
                 "timestamp": row["timestamp_prev"],
                 "visible": row["visible_prev"],
+                "edit_type": row["edit_type_prev"]
             }
-            diff = diff_changes(curr, prev, way_handler, missing_way_count)
+            diff, count = diff_changes(curr, prev, way_handler, missing_way_count)
             diffs.append(diff)
+            missing_way_count = count
 
         diff_df = pd.DataFrame(diffs)
-        diff_df.to_csv(f"./Results/ChangeDifferences/disaster{disaster_id}/change_differences.csv", index=False)
-        diff_df.to_pickle(f"./Results/ChangeDifferences/disaster{disaster_id}/change_differences.pickle")
+        os.makedirs(f"./Results/ChangeDifferences/disaster{disaster_id}/change_differences", exist_ok=True)
+        diff_df.to_csv(f"./Results/ChangeDifferences/disaster{disaster_id}/change_differences/{periods[i]}.csv", index=False)
+        diff_df.to_pickle(f"./Results/ChangeDifferences/disaster{disaster_id}/change_differences/{periods[i]}.pickle")
 
     print("Missing way count: ",missing_way_count)
 
-def analyse_change_diffs(disaster_area, disaster_id):
-    pass
+def analyse_change_diffs(disaster_area, disaster_id,  pre_disaster_days, imm_disaster_days, post_disaster_days):
+    #changes_and_prev = pd.read_pickle(f'./Results/ChangeDifferences/disaster{disaster_id}/changes_curr_prev.pickle')
+    #previous_change_types = (len(changes_and_prev[changes_and_prev["edit_type_prev"]=="create"]), len(changes_and_prev[changes_and_prev["edit_type_prev"]=="edit"]), len(changes_and_prev[changes_and_prev["edit_type_prev"]=="delete"]))
 
+    # We have 3 rows, 1 for each period, and for each row we have lots of metrics
+    # previous edit types
+    headers = ["disaster_id", "period", "total_changes", "nodes_changed", "ways_changed", "previous_change_creates", "previous_change_edits", "previous_change_deletes", "tags_created", "avg_num_tags_created", 
+                                    "tags_edited","avg_num_tags_edited", "tags_deleted","avg_num_tags_deleted", "most_created_key", "most_created_key_frequency", "most_edited_key", "most_edited_key_frequency","most_deleted_key", "most_deleted_key_frequency", 
+                                    "coordinates_changed","median_coordinate_distance_change", "made_visible", "avg_timestamp_between_edits", 
+                                "way_nodes_created","avg_num_way_nodes_created", "way_nodes_deleted","avg_num_way_nodes_deleted", "way_geometry_changed"]
+    diff_analysis_df = pd.DataFrame(columns=headers)
+    
+    for period in ["pre", "imm", "post"]:
+
+        diff_df =  pd.read_pickle(f"./Results/ChangeDifferences/disaster{disaster_id}/change_differences/{period}.pickle")
+
+        total_changes = len(diff_df)
+        nodes_changed = len(diff_df[diff_df["element_type"] == "node"])
+
+        prev_edit_types = (len(diff_df[diff_df["edit_type_prev"] == "create"]), len(diff_df[diff_df["edit_type_prev"] == "edit"]), len(diff_df[diff_df["edit_type_prev"] == "delete"]))
+
+        diffs_tags_create = diff_df.loc[diff_df["tags_created"].apply(len) > 0, ["tags_created"]]
+        tags_created = len(diffs_tags_create)
+        diffs_tags_edit = diff_df.loc[diff_df["tags_edited"].apply(len) > 0, ["tags_edited"]]
+        tags_edited = len(diffs_tags_edit)
+        diffs_tags_delete = diff_df.loc[diff_df["tags_deleted"].apply(len) > 0, ["tags_deleted"]]
+        tags_deleted = len(diffs_tags_delete)
+
+
+        avg_tag_change_nums = (diffs_tags_create["tags_created"].apply(len).mean(), diffs_tags_edit["tags_edited"].apply(len).mean(), diffs_tags_delete["tags_deleted"].apply(len).mean())
+       
+        all_created_tags = [key for tags in diffs_tags_create["tags_created"] for key in tags]
+        all_edited_tags = [key for tags in diffs_tags_edit["tags_edited"] for key in tags]
+        all_deleted_tags = [key for tags in diffs_tags_delete["tags_deleted"] for key in tags]
+
+        most_created_key, most_created_key_frequency = Counter(all_created_tags).most_common(1)[0]
+        most_edited_key, most_edited_key_frequency = Counter(all_edited_tags).most_common(1)[0]
+        most_deleted_key, most_deleted_key_frequency = Counter(all_deleted_tags).most_common(1)[0]
+
+        coordinates = diff_df.loc[diff_df["coordinate_distance_change"] != 0, ["element_type","coordinate_distance_change"]]
+        coordinates_changed = len(coordinates)
+        avg_coordinate_distance_change = coordinates["coordinate_distance_change"].median()
+        #rint(coordinates_changed/total_changes)
+       # print(avg_coordinate_distance_change)
+
+        made_visible = len(diff_df[diff_df["made_visible"] == True])
+        avg_timestamp_between_edits = diff_df["timestamp_between_edits"].mean()
+        print(avg_timestamp_between_edits)
+
+        way_diffs = diff_df[diff_df["element_type"] == "way"]
+        ways_changed = len(way_diffs)
+
+        way_nodes_created_diffs = way_diffs.loc[way_diffs["way_nodes_created"].apply(len) > 0, ["way_nodes_created"]]
+        way_nodes_created = len(way_nodes_created_diffs)
+        way_nodes_deleted_diffs  = way_diffs.loc[way_diffs["way_nodes_deleted"].apply(len) > 0, ["way_nodes_deleted"]]
+        way_nodes_deleted = len(way_nodes_deleted_diffs)
+
+        avg_way_nodes_created = way_nodes_created_diffs["way_nodes_created"].apply(len).mean()
+        avg_way_nodes_deleted = way_nodes_deleted_diffs["way_nodes_deleted"].apply(len).mean()
+
+        way_geometry_changed = len(way_diffs[way_diffs["coordinate_distance_change"] != 0])
+
+        res = [disaster_id, period, total_changes, nodes_changed, ways_changed, prev_edit_types[0], prev_edit_types[1], prev_edit_types[2], tags_created, avg_tag_change_nums[0], tags_edited, avg_tag_change_nums[1], tags_deleted, avg_tag_change_nums[2],  
+                                                       most_created_key, most_created_key_frequency, most_edited_key, most_edited_key_frequency, most_deleted_key, most_deleted_key_frequency, 
+                                                       coordinates_changed, avg_coordinate_distance_change, made_visible, avg_timestamp_between_edits, way_nodes_created, avg_way_nodes_created, way_nodes_deleted, avg_way_nodes_deleted, way_geometry_changed]
+        diff_analysis_df.loc[len(diff_analysis_df)] = res
+
+    diff_analysis_df.to_csv(f"./Results/ChangeDifferences/disaster{disaster_id}/change_differences/analysis.csv", index=False)
 # Please make sure to run db_prepare_change_differences.py before running this script, to import missing 
 # previous change versions into the db
 if __name__ == "__main__":
@@ -190,11 +263,13 @@ if __name__ == "__main__":
     db_utils = DB_Utils()
     db_utils.db_connect()
 
-    disaster_ids =  [6]
-    sample_size = 200000
+    disaster_ids =  [2,3,4,5,6]
+    sample_size = 500000
     sample = True
+    random_sample = True
 
     generate_merged = False
+    generate_diffs = False
     #get_change_differences_all_disasters()
 
     periods = [(365,30,365)]
@@ -208,8 +283,9 @@ if __name__ == "__main__":
                 print(f"Getting changes for {disaster_area[0]} {disaster_date.year}")
                 get_changes_and_previous(disaster_id, pre_disaster_days, imm_disaster_days, post_disaster_days)
 
-            print(f"Computing diffs for {disaster_area[0]} {disaster_date.year}")
-            compute_changes_diffs(disaster_area[0], disaster_id, pre_disaster_days, imm_disaster_days, post_disaster_days)
+            if generate_diffs:
+                print(f"Computing diffs for {disaster_area[0]} {disaster_date.year}")
+                compute_changes_diffs(disaster_area[0], disaster_id, pre_disaster_days, imm_disaster_days, post_disaster_days)
 
             print(f"Analysing diffs for {disaster_area[0]} {disaster_date.year}")
-            analyse_change_diffs(disaster_area[0], disaster_id)
+            analyse_change_diffs(disaster_area[0], disaster_id,  pre_disaster_days, imm_disaster_days, post_disaster_days)
