@@ -8,9 +8,9 @@ import shutil
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..', 'database')))
 from db_utils import DB_Utils
 
-def get_key_counts():
+def get_key_counts(pre_disaster_days, imm_disaster_days, post_diaster_days):
     tag_keys = db_utils.get_tag_key_usage()
-    total_changes = db_utils.get_total_changes()
+    total_changes = db_utils.get_total_changes(pre_disaster_days, imm_disaster_days, post_diaster_days)
 
     file_path = f"./Results/TagInvestigation/summary/unique_tag_keys_count_all.csv"
     headers = ["key","count", "percent_of_total_changes"]
@@ -126,7 +126,7 @@ if __name__ == "__main__":
     db_utils.db_connect()
 
     print("Getting key counts")
-    get_key_counts()
+    get_key_counts(pre_disaster_days=365, imm_disaster_days=30, post_diaster_days=365)
 
     print("Getting tag usage for disasters")
     for disaster_id in range(1, 7):

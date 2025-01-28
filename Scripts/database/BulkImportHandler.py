@@ -13,7 +13,7 @@ class Coordinate:
 
 class BulkImportHandler(osmium.SimpleHandler):
 
-    def __init__(self, start_date, end_date, geojson_path, geojson_filtered, disaster_id, place, year, connection, input_file):
+    def __init__(self, start_date, end_date, geojson_path, geojson_filtered, disaster_id, place, year, connection, input_file, missing_changes_set, insert_normal_changes, insert_missing_changes):
         # For now the interval is daily, from the start time to the end time
         super().__init__()
         self.start_date = start_date
@@ -29,6 +29,11 @@ class BulkImportHandler(osmium.SimpleHandler):
         self.disaster_id = disaster_id
         self.connection = connection
         self.input_file = input_file
+        # Import missing previous changes is useful for the analysis where we compare the difference between existing and previous changes
+        self.missing_changes_set = missing_changes_set 
+        self.insert_normal_changes = insert_normal_changes
+        self.insert_missing_changes = insert_missing_changes
+
 
         # Load GeoJSON and create a MultiPolygon from the geometries
         if "ManuallyDefined" in geojson_path:
@@ -199,18 +204,31 @@ class BulkImportHandler(osmium.SimpleHandler):
         print(f"Success: {self.success_count} Failed: {self.failed_count} Filtered: {self.filtered_count}")
 
     def node(self, n):
-        # Cache the location in case needed
+        # Cache the node in case needed
         if n.visible:
             self.location_cache[n.id] = Coordinate(n.location.lon, n.location.lat)
+            
+        if self.insert_normal_changes:
+            # Add the node if it is within the designated time
+            if self.start_date <= n.timestamp <= self.end_date:        
+                self.initiate_insert(n)
 
-        if self.start_date <= n.timestamp <= self.end_date:        
-            self.initiate_insert(n)
+        if self.insert_missing_changes:
+            # Check if the node is in the missing previous changes set
+            if (n.id,n.version) in self.missing_changes_set:
+                self.initiate_insert(n)
 
 
     def way(self, w):
-        if self.start_date <= w.timestamp <= self.end_date:
-            self.initiate_insert(w)
+        if self.insert_normal_changes:
+            # Add the way if it is within the designated time
+            if self.start_date <= w.timestamp <= self.end_date:
+                self.initiate_insert(w)
 
+        if self.insert_missing_changes:
+            # Check if the way is in the missing previous changes set
+            if (w.id,w.version) in self.missing_changes_set:
+                self.initiate_insert(w)
 
 
 

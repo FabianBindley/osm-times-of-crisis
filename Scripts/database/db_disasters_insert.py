@@ -33,10 +33,10 @@ if __name__ == "__main__":
     cursor = connection.cursor()
 
     disasters = [
-        {"id": 1, "country": ["UnitedKingdom"], "area": ["Broxbourne"], "geometry": load_geometry_geocded("Broxbourne"), "date": datetime.strptime("2024-08-15", "%Y-%m-%d").timestamp(), "h3_resolution":8},
+        {"id": 1, "country": ["UnitedKingdom"], "area": ["Broxbourne"], "geometry": load_geometry_manually_defined("Broxbourne", "2024"), "date": datetime.strptime("2024-08-15", "%Y-%m-%d").timestamp(), "h3_resolution":8},
         {"id": 2, "country": ["Italy"], "area": ["EmiliaRomagna"], "geometry": load_geometry_manually_defined("EmiliaRomagna","2023"), "date": datetime.strptime("2023-05-02", "%Y-%m-%d").timestamp(), "h3_resolution":7},
         {"id": 3, "country": ["Haiti"], "area": ["Haiti"], "geometry": load_geometry_manually_defined("Haiti", "2010"), "date": datetime.strptime("2010-01-12", "%Y-%m-%d").timestamp(), "h3_resolution":6},
-        {"id": 4, "country": ["Haiti"], "area": ["Haiti"], "geometry": load_geometry_geocded("Haiti"), "date": datetime.strptime("2016-10-09", "%Y-%m-%d").timestamp(), "h3_resolution":6},
+        {"id": 4, "country": ["Haiti"], "area": ["Haiti"], "geometry": load_geometry_manually_defined("Haiti", "2016"), "date": datetime.strptime("2016-10-09", "%Y-%m-%d").timestamp(), "h3_resolution":6},
         {"id": 5, "country": ["Haiti"], "area": ["Haiti"], "geometry": load_geometry_manually_defined("Haiti", "2021"), "date": datetime.strptime("2021-08-14", "%Y-%m-%d").timestamp(), "h3_resolution":6},
         {"id": 6, "country": ["Nepal"], "area": ["Nepal"], "geometry": load_geometry_manually_defined("Nepal", "2015"), "date": datetime.strptime("2015-04-25", "%Y-%m-%d").timestamp(), "h3_resolution":6},
 

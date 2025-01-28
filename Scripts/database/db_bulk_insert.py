@@ -38,7 +38,9 @@ if __name__ == "__main__":
         disaster_date = datetime.strptime(disaster_date_str, "%Y-%m-%d").replace(tzinfo=timezone.utc)
         end_date = datetime.strptime(end_date_str, "%Y-%m-%d").replace(tzinfo=timezone.utc)
 
-        handler = BulkImportHandler(start_date, end_date, geojson_path, place["filter"], disaster_id, place_name, str(disaster_date.year), connection, file)
+        # missing changes = 
+
+        handler = BulkImportHandler(start_date, end_date, geojson_path, place["filter"], disaster_id, place_name, str(disaster_date.year), connection, file, set(), insert_normal_changes=True, insert_missing_changes=False)
 
         start_time = datetime.now()
         print(f"Start time: {start_time} id: {disaster_id}")

@@ -1,6 +1,6 @@
 import psycopg2
 from psycopg2.extras import execute_values
-
+from datetime import datetime
 class DB_Utils:
     def __init__(self):
         self.connection = None
@@ -146,8 +146,6 @@ class DB_Utils:
         results = []
 
         cursor = self.connection.cursor()
-        # Calculate the difference in time between the intervals
-        delta = intervals[1] - intervals[0]
 
         for i in range(len(intervals)-1):
             start_date = intervals[i]
@@ -474,17 +472,21 @@ class DB_Utils:
         return results
     
 
-    def get_total_changes(self):
+    def get_total_changes(self, pre_disaster_days, imm_disaster_days, post_diaster_days):
         cursor = self.connection.cursor()
 
-        # Query to get the total count of changes
+        # Query to get the count of changes within the disaster periods
         total_changes_query = """
         SELECT COUNT(*)
-        FROM changes;
+        FROM changes c
+        JOIN disasters d ON c.disaster_id = d.id
+        WHERE c.timestamp BETWEEN (d.date - INTERVAL '%s days') AND (d.date + INTERVAL '%s days');
         """
 
-        cursor.execute(total_changes_query)
-        return cursor.fetchone()[0]
+        cursor.execute(total_changes_query, (pre_disaster_days, imm_disaster_days+post_diaster_days))
+        total_changes = cursor.fetchone()[0]
+        cursor.close()
+        return total_changes
     
 
     def get_tag_key_value_usage(self, keys):
@@ -536,3 +538,61 @@ class DB_Utils:
             results.append(cursor.fetchall())
 
         return results
+    
+
+    # if return all is true, dont sample, just return all
+    def get_sample_changes_for_disaster(self, disaster_id, sample_size, sample, start_date, end_date, get_type, random):
+        cursor = self.connection.cursor()
+        query = f"""
+        SELECT {"element_id, disaster_id, version, edit_type, element_type" if get_type == "prepare" else "*"} FROM changes WHERE disaster_id = %s AND %s <= timestamp AND timestamp <= %s  AND edit_type = 'edit' {" ORDER BY random() " if random else ""}{" LIMIT %s" if sample else ""}
+        """
+        if sample:
+            cursor.execute(query, (disaster_id, start_date, end_date, sample_size))
+        else:
+            cursor.execute(query, (disaster_id, start_date, end_date))
+
+        # Fetch all rows
+        result = cursor.fetchall()
+        cursor.close()
+        return result
+    
+    def get_change_with_version(self, element_id, disaster_id, version):
+        cursor = self.connection.cursor()
+ 
+        query = """
+        SELECT * FROM changes WHERE element_id = %s AND disaster_id = %s AND version = %s
+        """
+        cursor.execute(query, (element_id, disaster_id, version))
+
+
+        # Fetch all rows
+        result = cursor.fetchone()
+        cursor.close()
+        return result
+    
+    def get_existing_versions(self, version_list, get_type):
+        cursor = self.connection.cursor()
+        batch_size = 5000  # Adjust based on your database limits
+        result = []
+        start_time = datetime.now()
+        total_batches = len(version_list)//batch_size + 1
+        for i in range(0, len(version_list), batch_size):
+            batch = version_list[i:i + batch_size]
+            batch_num = i // batch_size + 1
+            
+            query = f"""
+            SELECT {"element_id, disaster_id, version, element_type" if get_type == "prepare" else "*"}
+            FROM changes
+            WHERE (element_id, disaster_id, version, element_type) IN %s
+            """
+            cursor.execute(query, (tuple(batch),))
+            result.extend(cursor.fetchall())
+
+            current_time = datetime.now()
+            remaining_time = (current_time-start_time)/(batch_num) * (total_batches - batch_num)
+            print(f"Getting changes | batch: {batch_num}/{total_batches}, estimated time remaining: {remaining_time.seconds} seconds")
+            
+
+        cursor.close()
+        return result
+
