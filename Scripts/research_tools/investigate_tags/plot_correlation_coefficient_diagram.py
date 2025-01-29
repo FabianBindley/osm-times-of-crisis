@@ -132,12 +132,8 @@ def generate_plot_kendall_correlation_coefficients(periods, disaster_ids, key_pa
     plt.legend(title="Periods", fontsize=10)
 
     # Emergency has a negative value, and automatically checking the values seems to break the plot for some reason
-    if "emergency" in key_pair:
-        plt.xlim(-1 , 1)
-        plt.ylim(-1 , 1)
-    else:
-        plt.xlim(0 , 1)
-        plt.ylim(0 , 1)
+    plt.xlim(-1 , 1)
+    plt.ylim(-1 , 1)
     plt.tight_layout()
 
 
