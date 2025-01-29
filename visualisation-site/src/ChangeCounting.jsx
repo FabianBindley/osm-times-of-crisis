@@ -17,6 +17,7 @@ function ChangeCounting() {
     "365-365": { start: "365", end: "365" },
     "1095-365": { start: "1095", end: "365" },
     "180-365": { start: "180", end: "365" },
+    "365-335": { start: "365", end: "335" },
     "90-365": { start: "90", end: "365" },
     "90-180": { start: "90", end: "180" },
   };
@@ -33,9 +34,9 @@ const additional_graphs = [
     { title: "Haiti Hurricane Matthew | 2016", disaster_id: 4},
 ]
 
-  const count_change_intervals = [{start:"365", end:"365"},{start:"1095", end:"365"},{start:"180", end:"365"},{start:"90", end:"365"},{start:"90", end:"180"}]
+  const count_change_intervals = [{start:"365", end:"365"},{start:"1095", end:"365"},{start:"180", end:"365"}, {start:"365", end:"335"}]
 
-  const percent_difference_intervals = [{start:"365", end:"365"},{start:"180", end:"365"},{start:"90", end:"365"},{start:"90", end:"180"}]
+  const percent_difference_intervals = [{start:"365", end:"365"},{start:"180", end:"365"},{start:"1095", end:"365"}, {start:"365", end:"335"}]
 
   const handleIntervalChange = (key) => {
     // Map the key to the corresponding interval object
@@ -118,6 +119,7 @@ const additional_graphs = [
                     >
                         <Select.Option value="180-365">180 Pre - 365 Post</Select.Option>
                         <Select.Option value="365-365">365 Pre - 365 Post</Select.Option>
+                        <Select.Option value="365-335">365 Pre - 60 Imm - 335 Post</Select.Option>
                         <Select.Option value="1095-365">1095 Pre - 365 Post</Select.Option>
                     </Select>
                 </div> 

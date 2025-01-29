@@ -1,7 +1,7 @@
 key,count,percent_of_total_changes,percent_difference_from_pre,percent_difference_from_pre_day
 building,71154,5.6639,0.0,0.0
-highway,22717,1.8083,0.0,0.0
-name,14662,1.1671,0.0,0.0
+highway,22719,1.8084,0.0,0.0
+name,14663,1.1672,0.0,0.0
 building:levels,6883,0.5479,0.0,0.0
 addr:street,6750,0.5373,0.0,0.0
 addr:housenumber,6472,0.5152,0.0,0.0
@@ -17,16 +17,16 @@ heating:solar,5901,0.4697,0.0,0.0
 waste:blackwater,5900,0.4696,0.0,0.0
 office:name,5899,0.4696,0.0,0.0
 office:type,5892,0.469,0.0,0.0
-source,5008,0.3986,0.0,0.0
-waterway,4424,0.3522,0.0,0.0
+source,5009,0.3987,0.0,0.0
+waterway,4428,0.3525,0.0,0.0
 Household Code,4052,0.3225,0.0,0.0
 landuse,3638,0.2896,0.0,0.0
 Household Info By,3619,0.2881,0.0,0.0
 amenity,3613,0.2876,0.0,0.0
 kll:oid,2907,0.2314,0.0,0.0
-ref,2533,0.2016,0.0,0.0
-natural,2193,0.1746,0.0,0.0
-surface,1788,0.1423,0.0,0.0
+ref,2534,0.2017,0.0,0.0
+natural,2194,0.1746,0.0,0.0
+surface,1789,0.1424,0.0,0.0
 shop,1559,0.1241,0.0,0.0
 oneway,1497,0.1192,0.0,0.0
 layer,1453,0.1157,0.0,0.0
@@ -56,7 +56,7 @@ building:use,593,0.0472,0.0,0.0
 building:gable_wall,592,0.0471,0.0,0.0
 foot,592,0.0471,0.0,0.0
 roof:material:type,592,0.0471,0.0,0.0
-crop,576,0.0459,0.0,0.0
+crop,576,0.0458,0.0,0.0
 floor:material:type,566,0.0451,0.0,0.0
 height,558,0.0444,0.0,0.0
 lanes,554,0.0441,0.0,0.0
@@ -96,9 +96,9 @@ drinking_water,231,0.0184,0.0,0.0
 produce,226,0.018,0.0,0.0
 Rent,225,0.0179,0.0,0.0
 maxspeed,225,0.0179,0.0,0.0
-fixme,222,0.0177,0.0,0.0
+fixme,223,0.0178,0.0,0.0
 barrier,218,0.0174,0.0,0.0
-FIXME,210,0.0167,0.0,0.0
+FIXME,211,0.0168,0.0,0.0
 Shop,206,0.0164,0.0,0.0
 int_name,201,0.016,0.0,0.0
 addr:postcode,200,0.0159,0.0,0.0
@@ -532,6 +532,7 @@ fax,4,0.0003,0.0,0.0
 fuel:HGV_diesel,4,0.0003,0.0,0.0
 genus,4,0.0003,0.0,0.0
 highways,4,0.0003,0.0,0.0
+hires,4,0.0003,0.0,0.0
 household code,4,0.0003,0.0,0.0
 is_in:city,4,0.0003,0.0,0.0
 is_in:country_code,4,0.0003,0.0,0.0
@@ -580,7 +581,6 @@ cooperative,3,0.0002,0.0,0.0
 covered,3,0.0002,0.0,0.0
 createdby,3,0.0002,0.0,0.0
 diet:vegetarian,3,0.0002,0.0,0.0
-hires,3,0.0002,0.0,0.0
 livestock,3,0.0002,0.0,0.0
 maxstay,3,0.0002,0.0,0.0
 noexit,3,0.0002,0.0,0.0

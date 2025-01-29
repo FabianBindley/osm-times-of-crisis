@@ -197,8 +197,8 @@ if __name__ == "__main__":
     post_only = True
 
     # Define periods as an array of tuples
-    periods = [(365, 30, 365), (180, 30, 365)]
-    periods = [(365, 30, 365)]
+    periods = [(365, 30, 365), (180, 30, 365), (365, 60, 335), (1095,30,365)]
+    #periods = [(365, 30, 365)]
     average_metric = "median" # mean or median
 
     # Loop through disasters and periods

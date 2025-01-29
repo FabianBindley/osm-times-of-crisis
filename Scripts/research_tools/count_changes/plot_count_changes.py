@@ -156,6 +156,7 @@ def plot_counts_specific(disaster_id, disaster_country, disaster_area, disaster_
         try:
             file_path = f'./Results/ChangeCounting/disaster{disaster_id}/data/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_{str(interval_length)}_change_count_prophet_predictions.csv'
             predictions = pd.read_csv(file_path)
+            errors = pd.read_csv(f'./Results/ChangeCounting/disaster{disaster_id}/data/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_{str(interval_length)}_change_count_prophet_predictions_errors.csv')
         except FileNotFoundError:
             raise(Exception(f"Prophet predictions not found for {pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_{str(interval_length)}"))
 
@@ -186,16 +187,26 @@ def plot_counts_specific(disaster_id, disaster_country, disaster_area, disaster_
     if "total" in plot_edit_types:
         plt.plot(data['start_date'], data['total'], label='Total', marker='.', linestyle='-', color='red')
 
+    
     if prophet_model:
         # Plot prediction data
         if "creates" in plot_edit_types:
-            plt.plot(data['start_date'], predictions['creates'], label='Creates prediction', linestyle='--', color='blue')
+            mae_creates = int(errors.iloc[0]["creates"]) if not np.isinf(errors.iloc[0]["creates"]) else "N/A"
+            mape_creates = round(errors.iloc[1]["creates"],1) if not np.isinf(errors.iloc[1]["creates"]) else "N/A"
+            plt.plot(data['start_date'], predictions['creates'], label=f'Creates Prediction (MAE: {mae_creates}, MAPE: {mape_creates}%)', linestyle='--', color='blue')
         if "edits" in plot_edit_types:
-            plt.plot(data['start_date'], predictions['edits'], label='Edits prediction', linestyle='--', color='orange')
+            mae_edits = int(errors.iloc[0]["edits"]) if not np.isinf(errors.iloc[0]["edits"]) else "N/A"
+            mape_edits = round(errors.iloc[1]["edits"],1) if not np.isinf(errors.iloc[1]["edits"]) else "N/A"
+            plt.plot(data['start_date'], predictions['edits'], label=f'Edits Prediction (MAE: {mae_edits}, MAPE: {mape_edits}%)', linestyle='--', color='orange')
         if "deletes" in plot_edit_types:
-            plt.plot(data['start_date'], predictions['deletes'], label='Deletes prediction', linestyle='--', color='green')
+            mae_deletes = int(errors.iloc[0]["deletes"]) if not np.isinf(errors.iloc[0]["deletes"]) else "N/A"
+            mape_deletes = round(errors.iloc[1]["deletes"],1) if not np.isinf(errors.iloc[1]["deletes"]) else "N/A"
+            plt.plot(data['start_date'], predictions['deletes'], label=f'Deletes Prediction (MAE: {mae_deletes}, MAPE: {mape_deletes}%)', linestyle='--', color='green')
         if "total" in plot_edit_types:
-            plt.plot(data['start_date'], predictions['total'], label='Total prediction',  linestyle='--', color='red')
+            mae_total = int(errors.iloc[0]["total"]) if not np.isinf(errors.iloc[0]["total"]) else "N/A"
+            mape_total = round(errors.iloc[1]["total"],1) if not np.isinf(errors.iloc[1]["total"]) else "N/A"
+            plt.plot(data['start_date'], predictions['total'], label=f'Total Prediction (MAE: {mae_total}, MAPE: {mape_total}%)', linestyle='--', color='red')
+
     
     plt.title(f'{title} in {disaster_country}, {disaster_area}')
     plt.xlabel('Date')
@@ -349,8 +360,8 @@ if __name__ == "__main__":
 
     periods = [(365,30,365), (180,30,365)]
     periods = [(365,30,365)]
-    periods = [(1095, 30, 365),(180,30,365),(365,30,365)]
-    prophet_model_bools = [False, True]
+    periods = [(1095, 30, 365),(180,30,365),(365,30,365),(365,60,335)]
+    prophet_model_bools = [True, False]
     post_only_bools = [True, False]
     plot_edit_types_list = [["creates", "edits", "deletes", "total"],["creates"],["edits"],["deletes"],["total"]]
 

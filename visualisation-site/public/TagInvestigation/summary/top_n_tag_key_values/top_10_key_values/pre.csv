@@ -19,16 +19,16 @@ building,school,851,0.1913,0.0,0.0
 building,church,534,0.1201,0.0,0.0
 building,industrial,402,0.0904,0.0,0.0
 building,roof,306,0.0688,0.0,0.0
-highway,residential,22309,21.3833,0.0,0.0
-highway,unclassified,12993,12.4539,0.0,0.0
-highway,track,10506,10.0701,0.0,0.0
-highway,footway,8462,8.1109,0.0,0.0
-highway,path,7057,6.7642,0.0,0.0
-highway,service,5956,5.7089,0.0,0.0
-highway,tertiary,5932,5.6859,0.0,0.0
-highway,crossing,5452,5.2258,0.0,0.0
-highway,secondary,4203,4.0286,0.0,0.0
-highway,primary,3746,3.5906,0.0,0.0
+highway,residential,22309,21.3829,0.0,0.0
+highway,unclassified,12993,12.4536,0.0,0.0
+highway,track,10506,10.0699,0.0,0.0
+highway,footway,8462,8.1107,0.0,0.0
+highway,path,7057,6.764,0.0,0.0
+highway,service,5956,5.7088,0.0,0.0
+highway,tertiary,5933,5.6867,0.0,0.0
+highway,crossing,5452,5.2257,0.0,0.0
+highway,secondary,4204,4.0295,0.0,0.0
+highway,primary,3746,3.5905,0.0,0.0
 landuse,residential,3789,39.8507,0.0,0.0
 landuse,farmland,1721,18.1005,0.0,0.0
 landuse,grass,672,7.0677,0.0,0.0
@@ -59,46 +59,46 @@ name,building,152,0.24,0.0,0.0
 name,Route Nationale # 2,130,0.2053,0.0,0.0
 name,Mahendra Highway,128,0.2021,0.0,0.0
 name,Via Emilia Levante,125,0.1974,0.0,0.0
-natural,tree,4601,52.9825,0.0,0.0
-natural,water,1114,12.8282,0.0,0.0
-natural,wood,808,9.3045,0.0,0.0
-natural,glacier,437,5.0322,0.0,0.0
-natural,coastline,347,3.9959,0.0,0.0
-natural,tree_row,270,3.1092,0.0,0.0
-natural,sand,211,2.4298,0.0,0.0
-natural,peak,183,2.1073,0.0,0.0
-natural,scrub,179,2.0613,0.0,0.0
-natural,shingle,121,1.3934,0.0,0.0
-source,bing,12543,16.195,0.0,0.0
-source,Bing,8142,10.5126,0.0,0.0
-source,Digital Globe 2015 Canaan Haiti,7338,9.4745,0.0,0.0
-source,Survey-ARC,5414,6.9903,0.0,0.0
-source,http://www.tper.it/azienda/tper-open-data,4341,5.6049,0.0,0.0
-source,"<différent>,UAV,IOM,COSMHA,SIGHA",4005,5.1711,0.0,0.0
-source,Regione Emilia Romagna,2986,3.8554,0.0,0.0
+natural,tree,4601,52.9764,0.0,0.0
+natural,water,1114,12.8267,0.0,0.0
+natural,wood,808,9.3034,0.0,0.0
+natural,glacier,438,5.0432,0.0,0.0
+natural,coastline,347,3.9954,0.0,0.0
+natural,tree_row,270,3.1088,0.0,0.0
+natural,sand,211,2.4295,0.0,0.0
+natural,peak,183,2.1071,0.0,0.0
+natural,scrub,179,2.061,0.0,0.0
+natural,shingle,121,1.3932,0.0,0.0
+source,bing,12543,16.1948,0.0,0.0
+source,Bing,8142,10.5125,0.0,0.0
+source,Digital Globe 2015 Canaan Haiti,7338,9.4744,0.0,0.0
+source,Survey-ARC,5414,6.9902,0.0,0.0
+source,http://www.tper.it/azienda/tper-open-data,4341,5.6048,0.0,0.0
+source,"<différent>,UAV,IOM,COSMHA,SIGHA",4005,5.171,0.0,0.0
+source,Regione Emilia Romagna,2986,3.8553,0.0,0.0
 source,Survey_Arc,2226,2.8741,0.0,0.0
 source,Digital Globe 2015 Saint Christophe Haiti,1808,2.3344,0.0,0.0
 source,Survey,1719,2.2195,0.0,0.0
-surface,asphalt,19613,60.2346,0.0,0.0
-surface,ground,4617,14.1795,0.0,0.0
-surface,unpaved,2094,6.431,0.0,0.0
-surface,paved,1585,4.8678,0.0,0.0
-surface,dirt,961,2.9514,0.0,0.0
-surface,paving_stones,909,2.7917,0.0,0.0
-surface,gravel,757,2.3249,0.0,0.0
+surface,asphalt,19613,60.2328,0.0,0.0
+surface,ground,4617,14.1791,0.0,0.0
+surface,unpaved,2095,6.4339,0.0,0.0
+surface,paved,1585,4.8676,0.0,0.0
+surface,dirt,961,2.9513,0.0,0.0
+surface,paving_stones,909,2.7916,0.0,0.0
+surface,gravel,757,2.3248,0.0,0.0
 surface,sett,450,1.382,0.0,0.0
 surface,unspecified,300,0.9213,0.0,0.0
 surface,concrete,270,0.8292,0.0,0.0
-waterway,stream,4627,53.5161,0.0,0.0
-waterway,river,2285,26.4284,0.0,0.0
-waterway,drain,725,8.3854,0.0,0.0
-waterway,canal,443,5.1238,0.0,0.0
-waterway,ditch,265,3.065,0.0,0.0
-waterway,riverbank,241,2.7874,0.0,0.0
-waterway,dam,22,0.2545,0.0,0.0
-waterway,lock_gate,13,0.1504,0.0,0.0
+waterway,stream,4627,53.4913,0.0,0.0
+waterway,river,2289,26.4624,0.0,0.0
+waterway,drain,725,8.3815,0.0,0.0
+waterway,canal,443,5.1214,0.0,0.0
+waterway,ditch,265,3.0636,0.0,0.0
+waterway,riverbank,241,2.7861,0.0,0.0
+waterway,dam,22,0.2543,0.0,0.0
+waterway,lock_gate,13,0.1503,0.0,0.0
 waterway,waterfall,11,0.1272,0.0,0.0
-waterway,weir,9,0.1041,0.0,0.0
+waterway,weir,9,0.104,0.0,0.0
 emergency,fire_hydrant,155,35.3881,0.0,0.0
 emergency,no,150,34.2466,0.0,0.0
 emergency,yes,48,10.9589,0.0,0.0

@@ -29,9 +29,10 @@ function ChangeDensityMapping() {
         "180-365": { start: "180", end: "365" },
         "0-365": { start: "0", end: "365" },
         "0-30": { start: "0", end: "30" },
+        "0-60": { start: "0", end: "30" },
       };
 
-    const count_change_intervals = [{start:"365", end:"365"},{start:"180", end:"365"},{start:"0", end:"365"},{start:"0", end:"30"}]
+    const count_change_intervals = [{start:"365", end:"365"},{start:"180", end:"365"},{start:"0", end:"365"},{start:"0", end:"30"},{start:"0", end:"60"}]
     const count_change_resolutions = ["6", "7", "8"]
 
     const percent_difference_intervals = [{start:"365", end:"365"},{start:"180", end:"365"}]
@@ -144,6 +145,7 @@ function ChangeDensityMapping() {
                             <Option value="180-365">180 Pre - 365 Post</Option>
                             <Option value="0-365">0 Pre - 365 Post</Option>
                             <Option value="0-30">0 Pre - 30 Post</Option>
+                            <Option value="0-60">0 Pre - 60 Post</Option>
                         </Select>
                     </div> 
                     : 

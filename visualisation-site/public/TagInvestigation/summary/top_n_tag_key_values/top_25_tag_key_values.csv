@@ -1,270 +1,270 @@
 key,value,count,percent_of_total_changes_for_key
-amenity,hospital,8175,14.9002
-amenity,school,8021,14.6195
-amenity,drinking_water,4777,8.7068
-amenity,parking,4394,8.0087
-amenity,place_of_worship,3391,6.1806
-amenity,restaurant,2589,4.7189
-amenity,toilets,1968,3.587
-amenity,parking_space,1670,3.0438
-amenity,bench,1488,2.7121
-amenity,bicycle_parking,1052,1.9174
-amenity,cafe,996,1.8154
-amenity,pharmacy,874,1.593
-amenity,bank,848,1.5456
-amenity,fuel,835,1.5219
-amenity,recycling,766,1.3962
-amenity,waste_basket,750,1.367
-amenity,bar,664,1.2102
-amenity,fast_food,652,1.1884
-amenity,shower,622,1.1337
-amenity,kindergarten,602,1.0972
-amenity,shelter,593,1.0808
-amenity,college,554,1.0098
-amenity,police,463,0.8439
-amenity,library,429,0.7819
-amenity,gambling,393,0.7163
-building,yes,2288450,93.4136
-building,house,89284,3.6445
-building,residential,28307,1.1555
-building,construction,13954,0.5696
-building,collapsed,7244,0.2957
-building,commercial,3642,0.1487
-building,apartments,2672,0.1091
-building,school,1682,0.0687
-building,industrial,1538,0.0628
-building,church,880,0.0359
-building,tent,838,0.0342
-building,greenhouse,733,0.0299
-building,roof,623,0.0254
-building,shelter,562,0.0229
-building,non_waterproof_shelter,521,0.0213
-building,detached,458,0.0187
-building,hut,435,0.0178
-building,retail,434,0.0177
-building,building_concrete,416,0.017
-building,building_sheet_metal,409,0.0167
-building,shed,406,0.0166
-building,collapse,370,0.0151
-building,hospital,349,0.0142
-building,building,320,0.0131
-building,office,289,0.0118
-emergency,fire_hydrant,203,27.5068
-emergency,no,166,22.4932
-emergency,yes,161,21.8157
-emergency,defibrillator,73,9.8916
-emergency,assembly_point,41,5.5556
-emergency,emergency_ward_entrance,30,4.065
-emergency,ambulance_station,26,3.523
-emergency,landing_site,8,1.084
-emergency,fire_extinguisher,6,0.813
-emergency,phone,5,0.6775
-emergency,designated,5,0.6775
-emergency,fire_hose,3,0.4065
-emergency,water_tank,3,0.4065
-emergency,helipad,2,0.271
-emergency,hostel,2,0.271
-emergency,disaster_response,1,0.1355
-emergency,emergency_ward,1,0.1355
-emergency,life_ring,1,0.1355
-emergency,lifeguard,1,0.1355
-highway,path,127448,21.3239
-highway,residential,92010,15.3946
-highway,unclassified,85564,14.3161
-highway,track,84593,14.1536
-highway,road,39754,6.6514
-highway,footway,35290,5.9045
-highway,tertiary,32901,5.5048
-highway,service,25790,4.315
-highway,secondary,16151,2.7023
-highway,primary,12352,2.0667
-highway,crossing,10956,1.8331
-highway,cycleway,6449,1.079
-highway,bus_stop,5535,0.9261
-highway,trunk,4278,0.7158
-highway,platform,3683,0.6162
-highway,pedestrian,2643,0.4422
-highway,steps,1563,0.2615
-highway,traffic_signals,1331,0.2227
-highway,give_way,1177,0.1969
-highway,living_street,939,0.1571
-highway,street_lamp,931,0.1558
-highway,construction,624,0.1044
-highway,primary_link,612,0.1024
-highway,trunk_link,611,0.1022
-highway,ford,588,0.0984
-landuse,residential,72645,55.7975
-landuse,brownfield,24460,18.7873
-landuse,farmland,14678,11.2739
-landuse,forest,4068,3.1246
-landuse,grass,3246,2.4932
-landuse,industrial,1584,1.2166
-landuse,farmyard,1304,1.0016
-landuse,farm,1161,0.8917
-landuse,basin,958,0.7358
-landuse,orchard,922,0.7082
-landuse,cemetery,556,0.4271
-landuse,reservoir,554,0.4255
-landuse,meadow,542,0.4163
-landuse,construction,491,0.3771
-landuse,commercial,407,0.3126
-landuse,vineyard,306,0.235
-landuse,greenfield,283,0.2174
-landuse,retail,221,0.1697
-landuse,allotments,190,0.1459
-landuse,quarry,188,0.1444
-landuse,salt_pond,178,0.1367
-landuse,greenhouse_horticulture,158,0.1214
-landuse,military,141,0.1083
-landuse,landfill,135,0.1037
-landuse,yes,97,0.0745
-leisure,common,5106,46.452
-leisure,park,1978,17.9949
-leisure,pitch,1419,12.9094
-leisure,garden,670,6.0953
-leisure,swimming_pool,414,3.7664
-leisure,playground,394,3.5844
-leisure,sports_centre,283,2.5746
-leisure,picnic_table,93,0.8461
-leisure,fitness_centre,59,0.5368
-leisure,nature_reserve,56,0.5095
-leisure,track,54,0.4913
-leisure,sports_hall,53,0.4822
-leisure,dog_park,45,0.4094
-leisure,outdoor_seating,44,0.4003
-leisure,beach_resort,43,0.3912
-leisure,stadium,40,0.3639
-leisure,fitness_station,32,0.2911
-leisure,yes,26,0.2365
-leisure,golf_course,19,0.1729
-leisure,marina,15,0.1365
-leisure,slipway,15,0.1365
-leisure,bleachers,11,0.1001
-leisure,amusement_arcade,10,0.091
-leisure,dance,9,0.0819
-leisure,recreation_ground,8,0.0728
-name,Nationale No 2,689,0.3152
-name,महेन्द्र राज्मार्ग्,585,0.2676
-name,Bologna Centrale,520,0.2379
-name,Via Toscana,518,0.237
-name,building=yes,511,0.2338
-name,Pasang Lhamu Highway,428,0.1958
-name,Via Emilia Levante,381,0.1743
-name,Via Emilia Ponente,381,0.1743
-name,Via Emilia,374,0.1711
-name,Via San Donato,363,0.1661
-name,Building,356,0.1629
-name,building,344,0.1574
-name,Via Augusto Murri,318,0.1455
-name,Mahendra Highway,317,0.145
-name,Manaslu Circuit,307,0.1405
-name,Obstacle,294,0.1345
-name,Prithvi Highway,293,0.134
-name,Tangenziale di Bologna,290,0.1327
-name,Viale Felsina,284,0.1299
-name,Via del Triumvirato,271,0.124
-name,Strada Statale 3 bis Tiberina,261,0.1194
-name,Arniko Raj Marga,251,0.1148
-name,Route Nationale # 7,251,0.1148
-name,Potential helipad,247,0.113
-name,Via Andrea Costa,246,0.1125
-natural,tree,59329,69.4345
-natural,wood,11272,13.192
-natural,water,4922,5.7604
-natural,scrub,2054,2.4039
-natural,tree_row,1483,1.7356
-natural,peak,1179,1.3798
-natural,coastline,994,1.1633
-natural,sand,816,0.955
-natural,shingle,587,0.687
-natural,glacier,548,0.6413
-natural,wetland,332,0.3885
-natural,grassland,296,0.3464
-natural,cliff,241,0.282
-natural,scree,191,0.2235
-natural,heath,183,0.2142
-natural,ridge,158,0.1849
-natural,bare_rock,124,0.1451
-natural,beach,119,0.1393
-natural,riverbed,75,0.0878
-natural,shrub,59,0.069
-natural,saddle,50,0.0585
-natural,plant,46,0.0538
-natural,bay,41,0.048
-natural,mud,37,0.0433
-natural,valley,34,0.0398
-source,Bing,79794,15.9134
-source,bing,46433,9.2602
-source,GeoEye,37195,7.4178
-source,"Google, 2010-01-21",24611,4.9082
-source,CNIGS/OIM/ FOCS,17295,3.4492
-source,CNIGS/OIM/FOCS,14379,2.8676
-source,"Pleiades 2015-04-27, CNES, Airbus DS",13831,2.7583
-source,NextView,12175,2.4281
-source,Bing Imagery,10744,2.1427
-source,Regione Emilia Romagna,9829,1.9602
-source,Digital Globe,7756,1.5468
-source,Digital Globe 2015 Canaan Haiti,7452,1.4862
-source,Google 2010-01-17,6888,1.3737
-source,http://www.tper.it/azienda/tper-open-data,6842,1.3645
-source,Comune di Bologna,6609,1.318
-source,DigitalGlobe,6512,1.2987
-source,digitalglobe,6418,1.2799
-source,UNOCHA,5821,1.1609
-source,"DigitalGlobe, 2015-05-03",5600,1.1168
-source,Survey-ARC,5542,1.1052
-source,Yahoo,5122,1.0215
-source,"Google, 2010-01-17",4876,0.9724
-source,"WorldView-2, DigitalGlobe, 2010-01-21",4519,0.9012
-source,"<différent>,UAV,IOM,COSMHA,SIGHA",4165,0.8306
-source,"WorldBank, 2010-01-22",4141,0.8258
-surface,asphalt,51802,48.362
-surface,unpaved,16141,15.0691
-surface,ground,9364,8.7422
-surface,gravel,6061,5.6585
-surface,paved,4747,4.4318
-surface,Dirt/Sand,4701,4.3888
-surface,dirt,3965,3.7017
-surface,paving_stones,2615,2.4413
-surface,Paved,1488,1.3892
-surface,sett,1404,1.3108
-surface,concrete,924,0.8626
-surface,compacted,813,0.759
-surface,unspecified,500,0.4668
-surface,grass,417,0.3893
-surface,mud,395,0.3688
-surface,fine_gravel,220,0.2054
-surface,earth,193,0.1802
-surface,dirt_sand,141,0.1316
-surface,sand,139,0.1298
-surface,unhewn_cobblestone,132,0.1232
-surface,wood,115,0.1074
-surface,pebblestone,88,0.0822
-surface,concrete:plates,68,0.0635
-surface,dirt;sand,60,0.056
-surface,cobblestone,59,0.0551
-waterway,stream,27983,57.1361
-waterway,river,11074,22.6111
-waterway,drain,3439,7.0218
-waterway,ditch,2689,5.4904
-waterway,canal,1895,3.8692
-waterway,riverbank,1252,2.5564
-waterway,dam,228,0.4655
-waterway,yes,164,0.3349
-waterway,weir,82,0.1674
-waterway,waterfall,41,0.0837
-waterway,unclassified,29,0.0592
-waterway,drystream,27,0.0551
-waterway,lock_gate,22,0.0449
-waterway,check_dam,12,0.0245
-waterway,wadibank,7,0.0143
-waterway,path,3,0.0061
-waterway,turning_point,3,0.0061
-waterway,wadi,3,0.0061
-waterway,water_point,3,0.0061
-waterway,River,2,0.0041
-waterway,boatyard,2,0.0041
-waterway,culvert,2,0.0041
-waterway,Power canal,1,0.002
-waterway,bing,1,0.002
-waterway,canal;drain,1,0.002
+amenity,school,9507,14.5701
+amenity,hospital,8585,13.1571
+amenity,parking,5530,8.4751
+amenity,drinking_water,5348,8.1962
+amenity,place_of_worship,4020,6.1609
+amenity,restaurant,3230,4.9502
+amenity,toilets,2624,4.0215
+amenity,parking_space,1829,2.8031
+amenity,bench,1640,2.5134
+amenity,cafe,1270,1.9464
+amenity,bicycle_parking,1258,1.928
+amenity,pharmacy,1169,1.7916
+amenity,bank,1116,1.7103
+amenity,fuel,1115,1.7088
+amenity,recycling,951,1.4575
+amenity,bar,950,1.4559
+amenity,shelter,924,1.4161
+amenity,waste_basket,833,1.2766
+amenity,fast_food,824,1.2628
+amenity,shower,800,1.2261
+amenity,kindergarten,744,1.1402
+amenity,college,663,1.0161
+amenity,police,583,0.8935
+amenity,library,484,0.7418
+amenity,university,418,0.6406
+building,yes,2316991,93.1905
+building,house,89707,3.6081
+building,residential,30288,1.2182
+building,construction,14340,0.5768
+building,collapsed,7290,0.2932
+building,commercial,3796,0.1527
+building,apartments,2921,0.1175
+building,school,2256,0.0907
+building,industrial,2120,0.0853
+building,residentiel1,1742,0.0701
+building,church,1298,0.0522
+building,tent,891,0.0358
+building,roof,814,0.0327
+building,greenhouse,735,0.0296
+building,shelter,632,0.0254
+building,retail,615,0.0247
+building,non_waterproof_shelter,593,0.0239
+building,building_concrete,484,0.0195
+building,hospital,471,0.0189
+building,detached,467,0.0188
+building,hut,443,0.0178
+building,building_sheet_metal,432,0.0174
+building,shed,431,0.0173
+building,collapse,371,0.0149
+building,office,350,0.0141
+emergency,yes,206,24.0093
+emergency,fire_hydrant,205,23.8928
+emergency,no,178,20.7459
+emergency,defibrillator,91,10.6061
+emergency,assembly_point,54,6.2937
+emergency,emergency_ward_entrance,42,4.8951
+emergency,ambulance_station,41,4.7786
+emergency,landing_site,8,0.9324
+emergency,phone,7,0.8159
+emergency,fire_extinguisher,6,0.6993
+emergency,designated,5,0.5828
+emergency,fire_hose,3,0.3497
+emergency,water_tank,3,0.3497
+emergency,helipad,2,0.2331
+emergency,hostel,2,0.2331
+emergency,lifeguard,2,0.2331
+emergency,disaster_response,1,0.1166
+emergency,emergency_ward,1,0.1166
+emergency,life_ring,1,0.1166
+highway,path,130441,19.6257
+highway,residential,107829,16.2236
+highway,unclassified,94930,14.2829
+highway,track,90193,13.5701
+highway,road,40735,6.1289
+highway,footway,39687,5.9712
+highway,tertiary,37347,5.6191
+highway,service,30533,4.5939
+highway,secondary,19444,2.9255
+highway,primary,14791,2.2254
+highway,crossing,13787,2.0743
+highway,cycleway,8243,1.2402
+highway,bus_stop,7978,1.2003
+highway,trunk,5150,0.7749
+highway,platform,5046,0.7592
+highway,pedestrian,3396,0.511
+highway,steps,1854,0.2789
+highway,traffic_signals,1620,0.2437
+highway,living_street,1275,0.1918
+highway,give_way,1268,0.1908
+highway,street_lamp,984,0.148
+highway,trunk_link,958,0.1441
+highway,primary_link,848,0.1276
+highway,motorway_link,810,0.1219
+highway,ford,705,0.1061
+landuse,residential,74276,55.0242
+landuse,brownfield,24472,18.129
+landuse,farmland,15017,11.1247
+landuse,forest,4244,3.144
+landuse,grass,3576,2.6491
+landuse,industrial,1918,1.4209
+landuse,farm,1662,1.2312
+landuse,farmyard,1361,1.0082
+landuse,basin,1073,0.7949
+landuse,orchard,1067,0.7904
+landuse,reservoir,976,0.723
+landuse,cemetery,648,0.48
+landuse,meadow,615,0.4556
+landuse,construction,548,0.406
+landuse,commercial,477,0.3534
+landuse,vineyard,429,0.3178
+landuse,greenfield,307,0.2274
+landuse,retail,237,0.1756
+landuse,landfill,216,0.16
+landuse,quarry,208,0.1541
+landuse,allotments,204,0.1511
+landuse,salt_pond,182,0.1348
+landuse,military,177,0.1311
+landuse,greenhouse_horticulture,165,0.1222
+landuse,yes,106,0.0785
+leisure,common,5139,41.8656
+leisure,park,2488,20.2688
+leisure,pitch,1654,13.4745
+leisure,garden,757,6.167
+leisure,playground,485,3.9511
+leisure,swimming_pool,447,3.6415
+leisure,sports_centre,409,3.332
+leisure,picnic_table,106,0.8635
+leisure,fitness_centre,70,0.5703
+leisure,nature_reserve,64,0.5214
+leisure,track,64,0.5214
+leisure,beach_resort,61,0.4969
+leisure,stadium,59,0.4807
+leisure,sports_hall,55,0.4481
+leisure,dog_park,52,0.4236
+leisure,outdoor_seating,44,0.3585
+leisure,fitness_station,33,0.2688
+leisure,yes,26,0.2118
+leisure,marina,24,0.1955
+leisure,golf_course,23,0.1874
+leisure,recreation_ground,20,0.1629
+leisure,slipway,20,0.1629
+leisure,bleachers,18,0.1466
+leisure,grass,16,0.1303
+leisure,dance,12,0.0978
+name,Nationale No 2,698,0.2633
+name,Building,672,0.2535
+name,महेन्द्र राज्मार्ग्,642,0.2421
+name,Via Toscana,549,0.2071
+name,Bologna Centrale,547,0.2063
+name,Via Emilia,539,0.2033
+name,building=yes,511,0.1927
+name,Pasang Lhamu Highway,461,0.1739
+name,Via San Donato,457,0.1724
+name,Via Emilia Ponente,444,0.1675
+name,Strada Statale 3 bis Tiberina,432,0.1629
+name,Via Emilia Levante,425,0.1603
+name,Tangenziale di Bologna,386,0.1456
+name,Via Augusto Murri,347,0.1309
+name,building,345,0.1301
+name,Manaslu Circuit,343,0.1294
+name,Mahendra Highway,331,0.1248
+name,Via Andrea Costa,319,0.1203
+name,Bologna-Firenze (direttissima),317,0.1196
+name,Via del Triumvirato,316,0.1192
+name,Prithvi Highway,310,0.1169
+name,Obstacle,306,0.1154
+name,Route Nationale # 7,305,0.115
+name,Via Francesco Zanardi,301,0.1135
+name,Viale Felsina,301,0.1135
+natural,tree,91032,76.8624
+natural,wood,11523,9.7294
+natural,water,5222,4.4092
+natural,scrub,2161,1.8246
+natural,tree_row,1534,1.2952
+natural,peak,1340,1.1314
+natural,coastline,1131,0.955
+natural,sand,895,0.7557
+natural,shingle,588,0.4965
+natural,glacier,558,0.4711
+natural,wetland,383,0.3234
+natural,grassland,301,0.2541
+natural,cliff,256,0.2162
+natural,scree,202,0.1706
+natural,heath,187,0.1579
+natural,ridge,159,0.1343
+natural,beach,148,0.125
+natural,bare_rock,124,0.1047
+natural,riverbed,99,0.0836
+natural,shrub,60,0.0507
+natural,bay,54,0.0456
+natural,saddle,50,0.0422
+natural,plant,46,0.0388
+natural,cave_entrance,39,0.0329
+natural,mud,38,0.0321
+source,Bing,81460,14.8204
+source,bing,48189,8.7673
+source,GeoEye,38633,7.0287
+source,"Google, 2010-01-21",24976,4.544
+source,CNIGS/OIM/ FOCS,17715,3.223
+source,Regione Emilia Romagna,17651,3.2113
+source,CNIGS/OIM/FOCS,14861,2.7037
+source,"Pleiades 2015-04-27, CNES, Airbus DS",13831,2.5163
+source,Comune di Bologna,12518,2.2775
+source,NextView,12428,2.2611
+source,Bing Imagery,10744,1.9547
+source,http://www.tper.it/azienda/tper-open-data,9328,1.6971
+source,Digital Globe,7756,1.4111
+source,Digital Globe 2015 Canaan Haiti,7452,1.3558
+source,digitalglobe,7422,1.3503
+source,Google 2010-01-17,7026,1.2783
+source,DigitalGlobe,6790,1.2353
+source,UNOCHA,5821,1.059
+source,"DigitalGlobe, 2015-05-03",5600,1.0188
+source,Survey-ARC,5542,1.0083
+source,Yahoo,5204,0.9468
+source,"Google, 2010-01-17",4969,0.904
+source,"WorldView-2, DigitalGlobe, 2010-01-21",4774,0.8686
+source,"<différent>,UAV,IOM,COSMHA,SIGHA",4412,0.8027
+source,"WorldBank, 2010-01-22",4211,0.7661
+surface,asphalt,64629,50.9757
+surface,unpaved,17049,13.4473
+surface,ground,10703,8.4419
+surface,gravel,6630,5.2294
+surface,paved,6064,4.7829
+surface,dirt,5032,3.969
+surface,Dirt/Sand,4701,3.7079
+surface,paving_stones,3077,2.427
+surface,sett,1729,1.3637
+surface,Paved,1489,1.1744
+surface,concrete,1039,0.8195
+surface,compacted,931,0.7343
+surface,unspecified,657,0.5182
+surface,mud,522,0.4117
+surface,grass,507,0.3999
+surface,fine_gravel,248,0.1956
+surface,earth,201,0.1585
+surface,sand,164,0.1294
+surface,unhewn_cobblestone,160,0.1262
+surface,dirt_sand,141,0.1112
+surface,wood,137,0.1081
+surface,cobblestone,98,0.0773
+surface,pebblestone,95,0.0749
+surface,flagging,73,0.0576
+surface,concrete:plates,68,0.0536
+waterway,stream,29927,56.7293
+waterway,river,12000,22.7471
+waterway,drain,3850,7.298
+waterway,ditch,2781,5.2716
+waterway,canal,2103,3.9864
+waterway,riverbank,1414,2.6804
+waterway,dam,237,0.4493
+waterway,yes,164,0.3109
+waterway,weir,92,0.1744
+waterway,waterfall,44,0.0834
+waterway,unclassified,29,0.055
+waterway,lock_gate,28,0.0531
+waterway,drystream,27,0.0512
+waterway,check_dam,12,0.0227
+waterway,wadibank,7,0.0133
+waterway,reservoir,4,0.0076
+waterway,path,3,0.0057
+waterway,turning_point,3,0.0057
+waterway,wadi,3,0.0057
+waterway,water_point,3,0.0057
+waterway,River,2,0.0038
+waterway,boatyard,2,0.0038
+waterway,canal;drain,2,0.0038
+waterway,culvert,2,0.0038
+waterway,Power canal,1,0.0019

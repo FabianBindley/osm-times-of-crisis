@@ -256,6 +256,23 @@ def analyse_change_diffs(disaster_area, disaster_id,  pre_disaster_days, imm_dis
         diff_analysis_df.loc[len(diff_analysis_df)] = res
 
     diff_analysis_df.to_csv(f"./Results/ChangeDifferences/disaster{disaster_id}/change_differences/analysis.csv", index=False)
+
+
+def analysis_summary(disaster_ids):
+    headers = ["disaster_id", "period", "total_changes", "nodes_changed", "ways_changed", "previous_change_creates", "previous_change_edits", "previous_change_deletes", "tags_created", "avg_num_tags_created", 
+                                    "tags_edited","avg_num_tags_edited", "tags_deleted","avg_num_tags_deleted", "most_created_key", "most_created_key_frequency", "most_edited_key", "most_edited_key_frequency","most_deleted_key", "most_deleted_key_frequency", 
+                                    "coordinates_changed","median_coordinate_distance_change", "made_visible", "avg_timestamp_between_edits", 
+                                "way_nodes_created","avg_num_way_nodes_created", "way_nodes_deleted","avg_num_way_nodes_deleted", "way_geometry_changed"]
+    diff_analysis_df = pd.DataFrame(columns=headers)
+   
+    for disaster_id in disaster_ids:
+        results = pd.read_csv(f"./Results/ChangeDifferences/disaster{disaster_id}/change_differences/analysis.csv")
+        diff_analysis_df = pd.concat([diff_analysis_df, results], ignore_index=True)
+
+    diff_analysis_df.to_csv(f"./Results/ChangeDifferences/summary/all_disaster_analysis.csv")
+
+
+
 # Please make sure to run db_prepare_change_differences.py before running this script, to import missing 
 # previous change versions into the db
 if __name__ == "__main__":
@@ -270,10 +287,11 @@ if __name__ == "__main__":
 
     generate_merged = False
     generate_diffs = False
-    #get_change_differences_all_disasters()
+
 
     periods = [(365,30,365)]
     print(f"Getting change differences for disasters: {disaster_ids}")
+    
     for disaster_id in disaster_ids:
         (_, disaster_country, disaster_area, _, disaster_date, _ ) = db_utils.get_disaster_with_id(disaster_id)
 
@@ -289,3 +307,6 @@ if __name__ == "__main__":
 
             print(f"Analysing diffs for {disaster_area[0]} {disaster_date.year}")
             analyse_change_diffs(disaster_area[0], disaster_id,  pre_disaster_days, imm_disaster_days, post_disaster_days)
+    
+    # Combine into 1 summary analysis
+    analysis_summary(disaster_ids)
