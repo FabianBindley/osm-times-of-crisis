@@ -300,7 +300,7 @@ if __name__ == "__main__":
     periods = [(1095, 30, 365),  (365, 60, 335), ]
     #periods = [(1095, 30, 365)]
     #periods = [(180, 30, 365), (1095, 30, 365),(365, 30, 365),(365, 60, 335)]
-    prophet_model_bools = [True]
+    prophet_model_bools = [True, False]
 
     
     

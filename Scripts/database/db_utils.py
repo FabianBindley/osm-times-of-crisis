@@ -335,6 +335,47 @@ class DB_Utils:
         cursor.execute(bulk_imports_query)
         return cursor.fetchall()
     
+    def get_changesets_more_than_n_changes(self, n):
+        cursor = self.connection.cursor()
+
+        bulk_imports_query = """
+        SELECT 
+            changeset, 
+            uid, 
+            disaster_id, 
+            COUNT(*) as changes_count
+        FROM 
+            changes
+        GROUP BY 
+            changeset, 
+            uid, 
+            disaster_id
+        HAVING 
+            COUNT(*) > %s
+        ORDER BY
+                changes_count DESC;
+        """
+
+        cursor.execute(bulk_imports_query, (n,))
+        return cursor.fetchall()
+    
+    def get_changes_in_changeset(self, changeset):
+        cursor = self.connection.cursor()
+
+        changes_query = """
+        SELECT 
+            *
+        FROM 
+            changes
+        WHERE
+            changeset = %s
+        ORDER BY
+            timestamp ASC;
+        """
+
+        cursor.execute(changes_query, (changeset,))
+        return cursor.fetchall()
+    
     def copy_to_deleted_changes_table(self, changeset):
         cursor = self.connection.cursor()
 
