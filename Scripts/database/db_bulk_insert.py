@@ -14,10 +14,10 @@ if __name__ == "__main__":
     # Open a cursor to perform database operations
     cursor = connection.cursor()
 
-    EmiliaRomagna = {"place":"EmiliaRomagna", "dates":{"start_date": "2020-05-02","disaster_date":"2023-05-02","end_date":"2024-06-02"},"file":"EmiliaRomagnaNodesWays.osh.pbf", "disaster_id": 2, "filter": False, "geojson_path": f"Data/EmiliaRomagna/EmiliaRomagnaManuallyDefined.geojson"}
-    Broxbourne = {"place": "Broxbourne", "dates":{"start_date": "2022-06-01","disaster_date":"2024-05-02","end_date":"2024-10-30"}, "file":"BroxbourneNodesWays.osh.pbf", "disaster_id": 1, "filter": True, "geojson_path": f"Data/GeocodedBoundaries/Broxbourne-geocode-boundary.geojson"}
-    Haiti2010 = {"place":"Haiti", "dates":{"start_date": "2007-01-12","disaster_date":"2010-01-12","end_date":"2011-02-12"},"file":"HaitiNodesWays.osh.pbf", "disaster_id": 3, "filter": False, "geojson_path" : f"Data/Haiti/Haiti2010ManuallyDefined.geojson"}
-    Haiti2016 = {"place":"Haiti", "dates":{"start_date": "2013-10-09","disaster_date":"2016-10-09","end_date":"2017-11-09"},"file":"HaitiNodesWays.osh.pbf", "disaster_id": 4, "filter": False, "geojson_path" : f"Data/GeocodedBoundaries/Haiti-geocode-boundary.geojson"}
+    EmiliaRomagna = {"place":"EmiliaRomagna", "dates":{"start_date": "2020-05-02","disaster_date":"2023-05-02","end_date":"2024-07-02"},"file":"EmiliaRomagnaNodesWays.osh.pbf", "disaster_id": 2, "filter": False, "geojson_path": f"Data/EmiliaRomagna/EmiliaRomagnaManuallyDefined.geojson"}
+    Broxbourne = {"place": "Broxbourne", "dates":{"start_date": "2022-06-01","disaster_date":"2024-05-02","end_date":"2024-11-30"}, "file":"BroxbourneNodesWays.osh.pbf", "disaster_id": 1, "filter": True, "geojson_path": f"Data/GeocodedBoundaries/Broxbourne-geocode-boundary.geojson"}
+    Haiti2010 = {"place":"Haiti", "dates":{"start_date": "2007-01-12","disaster_date":"2010-01-12","end_date":"2011-03-12"},"file":"HaitiNodesWays.osh.pbf", "disaster_id": 3, "filter": False, "geojson_path" : f"Data/Haiti/Haiti2010ManuallyDefined.geojson"}
+    Haiti2016 = {"place":"Haiti", "dates":{"start_date": "2013-10-09","disaster_date":"2016-10-09","end_date":"2017-12-09"},"file":"HaitiNodesWays.osh.pbf", "disaster_id": 4, "filter": False, "geojson_path" : f"Data/GeocodedBoundaries/Haiti-geocode-boundary.geojson"}
     Haiti2021 = {"place":"Haiti", "dates":{"start_date": "2018-08-14","disaster_date":"2021-08-14","end_date":"2022-09-14"},"file":"HaitiNodesWays.osh.pbf", "disaster_id": 5, "filter": False, "geojson_path" : f"Data/Haiti/Haiti2021ManuallyDefined.geojson"}
     Nepal = {"place":"Nepal", "dates":{"start_date": "2012-04-25","disaster_date":"2015-04-25","end_date":"2016-05-25"},"file":"NepalNodesWays.osh.pbf", "disaster_id": 6, "filter": False, "geojson_path" : f"Data/Nepal/NepalManuallyDefined.geojson"}
 

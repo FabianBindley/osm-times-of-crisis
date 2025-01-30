@@ -317,13 +317,14 @@ class DB_Utils:
 
         bulk_imports_query = f"""
         SELECT 
+            disaster_id,
             changeset, 
             uid, 
             COUNT(*) AS changes_count
         FROM 
             changes
         GROUP BY 
-            changeset, uid
+            disaster_id, changeset, uid
         HAVING 
             COUNT(*) > {changes_threshold} AND
             MAX(timestamp) - MIN(timestamp) <= INTERVAL '{seconds_threshold} second'

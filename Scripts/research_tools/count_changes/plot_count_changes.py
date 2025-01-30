@@ -176,7 +176,7 @@ def plot_counts_specific(disaster_id, disaster_country, disaster_area, disaster_
         raise ValueError("Invalid time_period. Choose from 'day', 'week', or 'month'.")
 
     # Plot data
-    plt.figure(figsize=(12, 6))
+    plt.figure(figsize=(12, 7))
 
     if "creates" in plot_edit_types:
         plt.plot(data['start_date'], data['creates'], label='Creates', marker='.', linestyle='-', color='blue')
@@ -190,22 +190,25 @@ def plot_counts_specific(disaster_id, disaster_country, disaster_area, disaster_
     
     if prophet_model:
         # Plot prediction data
+        print("deletes predictions")
+
         if "creates" in plot_edit_types:
             mae_creates = int(errors.iloc[0]["creates"]) if not np.isinf(errors.iloc[0]["creates"]) else "N/A"
             mape_creates = round(errors.iloc[1]["creates"],1) if not np.isinf(errors.iloc[1]["creates"]) else "N/A"
-            plt.plot(data['start_date'], predictions['creates'], label=f'Creates Prediction (MAE: {mae_creates}, MAPE: {mape_creates}%)', linestyle='--', color='blue')
+            plt.plot(data['start_date'], predictions['creates'], label=f'Creates Prediction (MAE: {mae_creates}, MAPE: {mape_creates}%)', linestyle='--', color='blue',)
         if "edits" in plot_edit_types:
             mae_edits = int(errors.iloc[0]["edits"]) if not np.isinf(errors.iloc[0]["edits"]) else "N/A"
             mape_edits = round(errors.iloc[1]["edits"],1) if not np.isinf(errors.iloc[1]["edits"]) else "N/A"
-            plt.plot(data['start_date'], predictions['edits'], label=f'Edits Prediction (MAE: {mae_edits}, MAPE: {mape_edits}%)', linestyle='--', color='orange')
+            plt.plot(data['start_date'], predictions['edits'], label=f'Edits Prediction (MAE: {mae_edits}, MAPE: {mape_edits}%)', linestyle='--', color='orange', )
         if "deletes" in plot_edit_types:
             mae_deletes = int(errors.iloc[0]["deletes"]) if not np.isinf(errors.iloc[0]["deletes"]) else "N/A"
             mape_deletes = round(errors.iloc[1]["deletes"],1) if not np.isinf(errors.iloc[1]["deletes"]) else "N/A"
-            plt.plot(data['start_date'], predictions['deletes'], label=f'Deletes Prediction (MAE: {mae_deletes}, MAPE: {mape_deletes}%)', linestyle='--', color='green')
+            plt.plot(data['start_date'], predictions['deletes'], label=f'Deletes Prediction (abc MAE: {mae_deletes}, MAPE: {mape_deletes}%)', linestyle='--', color='green', )
+
         if "total" in plot_edit_types:
             mae_total = int(errors.iloc[0]["total"]) if not np.isinf(errors.iloc[0]["total"]) else "N/A"
             mape_total = round(errors.iloc[1]["total"],1) if not np.isinf(errors.iloc[1]["total"]) else "N/A"
-            plt.plot(data['start_date'], predictions['total'], label=f'Total Prediction (MAE: {mae_total}, MAPE: {mape_total}%)', linestyle='--', color='red')
+            plt.plot(data['start_date'], predictions['total'], label=f'Total Prediction (abc MAE: {mae_total}, MAPE: {mape_total}%)', linestyle='--', color='red',)
 
     
     plt.title(f'{title} in {disaster_country}, {disaster_area}')
@@ -339,7 +342,7 @@ def process_disaster(disaster_id, periods, prophet_model_bools, post_only_bools,
                         post_disaster_days=period[2]
                     )
 
-                    for interval_length in [1, 7, 30]:
+                    for interval_length in [7, 30]:
                         plot_counts_specific(
                             disaster_id, 
                             disaster_country[0], 
@@ -358,14 +361,15 @@ def process_disaster(disaster_id, periods, prophet_model_bools, post_only_bools,
 
 if __name__ == "__main__":
 
-    periods = [(365,30,365), (180,30,365)]
-    periods = [(365,30,365)]
-    periods = [(1095, 30, 365),(180,30,365),(365,30,365),(365,60,335)]
-    prophet_model_bools = [True, False]
+    periods = [(365,30,365), (180,30,365),]
+    periods = [ (1095, 30, 365),  (365, 60, 335)]
+    #periods = [(1095, 30, 365),(180,30,365),(365,30,365),(365,60,335)]
+    prophet_model_bools = [True]
     post_only_bools = [True, False]
     plot_edit_types_list = [["creates", "edits", "deletes", "total"],["creates"],["edits"],["deletes"],["total"]]
+    plot_edit_types_list = [["creates"],["edits"],["deletes"], ["total"]]
 
-    disaster_ids = range(2,7)
+    disaster_ids = [2,3,4,5,6]
 
     for period in periods:
         plot_full_periods_change_count(period[0], period[1], period[2])

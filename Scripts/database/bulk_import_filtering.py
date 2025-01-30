@@ -6,10 +6,11 @@ if __name__ == "__main__":
     utils = DB_Utils()
     utils.db_connect()
 
-    remove_imports = True
+    remove_imports = False
 
     print("Identifying bulk imports:")
-    detected_bulk_imports = utils.get_detected_bulk_imports(changes_threshold=5000, seconds_threshold=30)
+    # Known bulk import users
+    detected_bulk_imports = utils.get_detected_bulk_imports(changes_threshold=10000, seconds_threshold=1)
 
     num_imports = len(detected_bulk_imports)
     print(f"Detected {num_imports} bulk imports")
@@ -36,9 +37,7 @@ if __name__ == "__main__":
         start_time = datetime.now()
         counter = 1
         for bulk_import in detected_bulk_imports:
-            changeset = bulk_import[0]
-            uid = bulk_import[1]
-            count = bulk_import[2]
+            disaster_id, changeset, uid, count = bulk_import
 
             utils.copy_to_deleted_changes_table(changeset)
             utils.remove_changes_from_changeset(changeset)
@@ -46,7 +45,7 @@ if __name__ == "__main__":
             elapsed_time = datetime.now().timestamp() - start_time.timestamp()
             minutes, seconds = divmod(int(elapsed_time), 60)
 
-            print(f"{counter}/{num_imports} changeset: {changeset} uid: {uid} count: {count}")
+            print(f"{counter}/{num_imports}  disaster_id: {disaster_id} changeset: {changeset} uid: {uid} count: {count}")
             print(f"Time Elapsed: {minutes}m {seconds}s")
             average_time_per_batch = elapsed_time / counter  
 
