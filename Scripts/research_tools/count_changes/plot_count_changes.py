@@ -203,12 +203,12 @@ def plot_counts_specific(disaster_id, disaster_country, disaster_area, disaster_
         if "deletes" in plot_edit_types:
             mae_deletes = int(errors.iloc[0]["deletes"]) if not np.isinf(errors.iloc[0]["deletes"]) else "N/A"
             mape_deletes = round(errors.iloc[1]["deletes"],1) if not np.isinf(errors.iloc[1]["deletes"]) else "N/A"
-            plt.plot(data['start_date'], predictions['deletes'], label=f'Deletes Prediction (abc MAE: {mae_deletes}, MAPE: {mape_deletes}%)', linestyle='--', color='green', )
+            plt.plot(data['start_date'], predictions['deletes'], label=f'Deletes Prediction (MAE: {mae_deletes}, MAPE: {mape_deletes}%)', linestyle='--', color='green', )
 
         if "total" in plot_edit_types:
             mae_total = int(errors.iloc[0]["total"]) if not np.isinf(errors.iloc[0]["total"]) else "N/A"
             mape_total = round(errors.iloc[1]["total"],1) if not np.isinf(errors.iloc[1]["total"]) else "N/A"
-            plt.plot(data['start_date'], predictions['total'], label=f'Total Prediction (abc MAE: {mae_total}, MAPE: {mape_total}%)', linestyle='--', color='red',)
+            plt.plot(data['start_date'], predictions['total'], label=f'Total Prediction (MAE: {mae_total}, MAPE: {mape_total}%)', linestyle='--', color='red',)
 
     
     plt.title(f'{title} in {disaster_country}, {disaster_area}')
@@ -364,12 +364,13 @@ if __name__ == "__main__":
     periods = [(365,30,365), (180,30,365),]
     periods = [ (1095, 30, 365),  (365, 60, 335)]
     periods = [(1095, 30, 365),(180,30,365),(365,30,365),(365,60,335)]
-    prophet_model_bools = [True, False]
+    prophet_model_bools = [True]
     post_only_bools = [True, False]
     plot_edit_types_list = [["creates", "edits", "deletes", "total"],["creates"],["edits"],["deletes"],["total"]]
-    #plot_edit_types_list = [["creates"],["edits"],["deletes"], ["total"]]
+    #plot_edit_types_list = [["deletes"],["total"]]
 
     disaster_ids = [2,3,4,5,6]
+    #disaster_ids = [5]
 
     for period in periods:
         plot_full_periods_change_count(period[0], period[1], period[2])

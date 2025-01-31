@@ -176,7 +176,7 @@ def train_forecast_prophet(disaster_id, pre_disaster_days, imm_disaster_days, po
     ]
 
     # Exclude shocks
-    if disaster_id == 5:
+    if disaster_id == 5:   
         pre_disaster_counts_df = pre_disaster_counts_df[
             ~(('2019-01-01' <= pre_disaster_counts_df['ds']) & (pre_disaster_counts_df['ds'] <= '2019-05-01'))
         ]
@@ -218,7 +218,7 @@ def train_forecast_prophet(disaster_id, pre_disaster_days, imm_disaster_days, po
         with open(f"./Results/ChangeCounting/disaster{disaster_id}/data/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_{str(interval_length)}_change_count_create_prophet_model.json", 'w') as fout:
             fout.write(model_to_json(model_edits)) 
 
-        #model_deletes= Prophet(growth="logistic", n_changepoints=4)
+        #model_deletes= Prophet(growth="logistic")
         model_deletes= Prophet()
         model_deletes.fit(pre_disaster_counts_deletes)
         with open(f"./Results/ChangeCounting/disaster{disaster_id}/data/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_{str(interval_length)}_change_count_edit_prophet_model.json", 'w') as fout:
@@ -327,4 +327,4 @@ if __name__ == "__main__":
                 generate_count_by_interval_length(disaster_id, disaster_date, pre_disaster_days, imm_disaster_days, post_disaster_days, prophet_model, interval_length=30)
     
     
-    compute_total_number_changes_across_disasters(periods, disaster_ids=range(1,7))
+    compute_total_number_changes_across_disasters(periods, disaster_ids=range(2,7))

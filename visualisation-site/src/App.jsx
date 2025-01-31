@@ -1,8 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./App.css";
 import Maps from "./Maps";
 import "antd/dist/reset.css"; // Ant Design styles
 import { Menu } from "antd";
+import { BrowserRouter as Router, Routes, Route, useNavigate, useLocation } from "react-router-dom";
+
 import ChangeDensityMapping from "./ChangeDensityMapping";
 import ChangeCounting from "./ChangeCounting";
 import Tags from "./Tags";
@@ -10,13 +12,34 @@ import TagCorrelation from "./TagCorrelation"
 import About from "./About";
 import GeneralStatistics from "./GeneralSatistics";
 
+
 function App() {
-  const [currentTab, setCurrentTab] = useState(localStorage.getItem("currentTab") ? localStorage.getItem("currentTab") : "generalStatistics");
+  return (
+    <Router>
+      <AppContent />
+    </Router>
+  );
+}
+
+function AppContent() {
+
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  // Extract the current tab from the URL (removing the leading `/`)
+  const currentPath = location.pathname.substring(1) || "about";
+
+  const [currentTab, setCurrentTab] = useState(localStorage.getItem("currentTab") ? localStorage.getItem("currentTab") : "about");
+
+  useEffect(() => {
+    setCurrentTab(currentPath); // Sync tab with URL path
+  }, [currentPath]);
 
   // Handle menu click
   const handleMenuClick = (e) => {
     setCurrentTab(e.key);
     localStorage.setItem("currentTab",e.key)
+    navigate(`/${e.key}`);
   };
 
   return (

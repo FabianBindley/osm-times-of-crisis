@@ -58,7 +58,7 @@ def check_number_of_creates(changeset,changes, percent):
         #print("less dominated")
         return False
 
-def remove_import_changeset(possible_import, counter, num_imports):
+def remove_import_changeset(possible_import, counter, num_imports, start_time):
 
     changeset, uid, disaster_id, count = possible_import
     print(f"removing changes in changeset: {changeset}")
@@ -80,6 +80,27 @@ def remove_import_changeset(possible_import, counter, num_imports):
 
     counter+=1
 
+def run_filtering_with_params(n, minutes, ratio, remove_imports):
+    get_changesets(n)
+    with open(f"./Results/BulkImportDetection/changesets_more_than_{n}.pkl", "rb") as f:
+        possible_imports = pickle.load(f)
+
+    print(possible_imports)
+    print(len(possible_imports))
+    #print(sum([row[3] for row in possible_imports]))
+    if remove_imports:
+        counter = 1
+        start_time = datetime.now()
+        for possible_import in possible_imports:
+            
+            changeset, uid, disaster_id, count = possible_import
+            changes = db_utils.get_changes_in_changeset(changeset)
+
+            if check_possible_import_timestamp_range(changeset, changes, minutes) and check_number_of_creates(changeset, changes, ratio):
+                remove_import_changeset(possible_import, counter, num_imports=len(possible_imports), start_time=start_time)
+            counter+= 1
+
+
 
 if __name__ == "__main__":
     db_utils = DB_Utils()
@@ -91,25 +112,8 @@ if __name__ == "__main__":
     minutes = 30
     ratio = 0.95
 
-    get_changesets(n)
-    with open(f"./Results/BulkImportDetection/changesets_more_than_{n}.pkl", "rb") as f:
-        possible_imports = pickle.load(f)
-
-    #print(possible_imports)
-    print(len(possible_imports))
-    #print(sum([row[3] for row in possible_imports]))
-
-    counter = 1
-    start_time = datetime.now()
-    for possible_import in possible_imports:
-        
-        changeset, uid, disaster_id, count = possible_import
-        changes = db_utils.get_changes_in_changeset(changeset)
-
-        if check_possible_import_timestamp_range(changeset, changes, minutes) and check_number_of_creates(changeset, changes, ratio):
-            remove_import_changeset(possible_import, counter, num_imports=len(possible_imports))
-        counter+= 1
-
+    #run_filtering_with_params(n=5000, minutes=30, ratio=0.95, True)
+    run_filtering_with_params(n=3000, minutes=1, ratio=0.95, remove_imports =True)
     # What is a bulk import?
     # 1) More than n changes in a changeset
     # 2) 95% or more creates
