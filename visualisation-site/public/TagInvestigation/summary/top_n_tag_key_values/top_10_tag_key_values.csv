@@ -1,111 +1,111 @@
 key,value,count,percent_of_total_changes_for_key
-amenity,school,9507,14.5701
-amenity,hospital,8585,13.1571
-amenity,parking,5530,8.4751
-amenity,drinking_water,5348,8.1962
-amenity,place_of_worship,4020,6.1609
-amenity,restaurant,3230,4.9502
-amenity,toilets,2624,4.0215
-amenity,parking_space,1829,2.8031
-amenity,bench,1640,2.5134
-amenity,cafe,1270,1.9464
-building,yes,2316991,93.1905
-building,house,89707,3.6081
-building,residential,30288,1.2182
-building,construction,14340,0.5768
-building,collapsed,7290,0.2932
-building,commercial,3796,0.1527
-building,apartments,2921,0.1175
-building,school,2256,0.0907
-building,industrial,2120,0.0853
-building,residentiel1,1742,0.0701
-emergency,yes,206,24.0093
-emergency,fire_hydrant,205,23.8928
-emergency,no,178,20.7459
-emergency,defibrillator,91,10.6061
-emergency,assembly_point,54,6.2937
-emergency,emergency_ward_entrance,42,4.8951
-emergency,ambulance_station,41,4.7786
-emergency,landing_site,8,0.9324
-emergency,phone,7,0.8159
-emergency,fire_extinguisher,6,0.6993
-highway,path,130441,19.6257
-highway,residential,107829,16.2236
-highway,unclassified,94930,14.2829
-highway,track,90193,13.5701
-highway,road,40735,6.1289
-highway,footway,39687,5.9712
-highway,tertiary,37347,5.6191
-highway,service,30533,4.5939
-highway,secondary,19444,2.9255
-highway,primary,14791,2.2254
-landuse,residential,74276,55.0242
-landuse,brownfield,24472,18.129
-landuse,farmland,15017,11.1247
-landuse,forest,4244,3.144
-landuse,grass,3576,2.6491
-landuse,industrial,1918,1.4209
-landuse,farm,1662,1.2312
-landuse,farmyard,1361,1.0082
-landuse,basin,1073,0.7949
-landuse,orchard,1067,0.7904
-leisure,common,5139,41.8656
-leisure,park,2488,20.2688
-leisure,pitch,1654,13.4745
-leisure,garden,757,6.167
-leisure,playground,485,3.9511
-leisure,swimming_pool,447,3.6415
-leisure,sports_centre,409,3.332
-leisure,picnic_table,106,0.8635
-leisure,fitness_centre,70,0.5703
-leisure,nature_reserve,64,0.5214
-name,Nationale No 2,698,0.2633
-name,Building,672,0.2535
-name,महेन्द्र राज्मार्ग्,642,0.2421
-name,Via Toscana,549,0.2071
-name,Bologna Centrale,547,0.2063
-name,Via Emilia,539,0.2033
-name,building=yes,511,0.1927
-name,Pasang Lhamu Highway,461,0.1739
-name,Via San Donato,457,0.1724
-name,Via Emilia Ponente,444,0.1675
-natural,tree,91032,76.8624
-natural,wood,11523,9.7294
-natural,water,5222,4.4092
-natural,scrub,2161,1.8246
-natural,tree_row,1534,1.2952
-natural,peak,1340,1.1314
-natural,coastline,1131,0.955
-natural,sand,895,0.7557
-natural,shingle,588,0.4965
-natural,glacier,558,0.4711
-source,Bing,81460,14.8204
-source,bing,48189,8.7673
-source,GeoEye,38633,7.0287
-source,"Google, 2010-01-21",24976,4.544
-source,CNIGS/OIM/ FOCS,17715,3.223
-source,Regione Emilia Romagna,17651,3.2113
-source,CNIGS/OIM/FOCS,14861,2.7037
-source,"Pleiades 2015-04-27, CNES, Airbus DS",13831,2.5163
-source,Comune di Bologna,12518,2.2775
-source,NextView,12428,2.2611
-surface,asphalt,64629,50.9757
-surface,unpaved,17049,13.4473
-surface,ground,10703,8.4419
-surface,gravel,6630,5.2294
-surface,paved,6064,4.7829
-surface,dirt,5032,3.969
-surface,Dirt/Sand,4701,3.7079
-surface,paving_stones,3077,2.427
-surface,sett,1729,1.3637
-surface,Paved,1489,1.1744
-waterway,stream,29927,56.7293
-waterway,river,12000,22.7471
-waterway,drain,3850,7.298
-waterway,ditch,2781,5.2716
-waterway,canal,2103,3.9864
-waterway,riverbank,1414,2.6804
-waterway,dam,237,0.4493
-waterway,yes,164,0.3109
-waterway,weir,92,0.1744
-waterway,waterfall,44,0.0834
+amenity,school,9485,14.8333
+amenity,hospital,8582,13.4211
+amenity,parking,5405,8.4527
+amenity,drinking_water,5347,8.362
+amenity,place_of_worship,4010,6.2711
+amenity,restaurant,3141,4.9121
+amenity,toilets,2622,4.1005
+amenity,bench,1577,2.4662
+amenity,cafe,1240,1.9392
+amenity,bicycle_parking,1231,1.9251
+building,yes,2304183,93.1675
+building,house,89675,3.6259
+building,residential,30141,1.2187
+building,construction,14338,0.5797
+building,collapsed,7290,0.2948
+building,commercial,3796,0.1535
+building,apartments,2860,0.1156
+building,school,2247,0.0909
+building,industrial,2095,0.0847
+building,residentiel1,1742,0.0704
+emergency,fire_hydrant,205,24.2604
+emergency,yes,195,23.0769
+emergency,no,178,21.0651
+emergency,defibrillator,89,10.5325
+emergency,assembly_point,54,6.3905
+emergency,emergency_ward_entrance,42,4.9704
+emergency,ambulance_station,41,4.8521
+emergency,landing_site,8,0.9467
+emergency,phone,7,0.8284
+emergency,fire_extinguisher,6,0.7101
+highway,path,130096,19.7606
+highway,residential,106412,16.1632
+highway,unclassified,94583,14.3665
+highway,track,89976,13.6667
+highway,road,40678,6.1787
+highway,footway,39019,5.9267
+highway,tertiary,36654,5.5675
+highway,service,29971,4.5524
+highway,secondary,18544,2.8167
+highway,primary,14243,2.1634
+landuse,residential,74162,55.525
+landuse,brownfield,24463,18.3154
+landuse,farmland,14450,10.8187
+landuse,forest,4239,3.1737
+landuse,grass,3084,2.309
+landuse,industrial,1890,1.415
+landuse,farm,1662,1.2443
+landuse,farmyard,1361,1.019
+landuse,orchard,1065,0.7974
+landuse,reservoir,976,0.7307
+leisure,common,4714,40.5959
+leisure,park,2431,20.9352
+leisure,pitch,1623,13.9769
+leisure,garden,686,5.9077
+leisure,playground,473,4.0734
+leisure,swimming_pool,406,3.4964
+leisure,sports_centre,394,3.393
+leisure,picnic_table,104,0.8956
+leisure,fitness_centre,68,0.5856
+leisure,nature_reserve,64,0.5512
+name,Nationale No 2,698,0.2678
+name,Building,672,0.2578
+name,महेन्द्र राज्मार्ग्,639,0.2452
+name,Bologna Centrale,547,0.2099
+name,Via Emilia,539,0.2068
+name,building=yes,511,0.196
+name,Via Toscana,490,0.188
+name,Pasang Lhamu Highway,461,0.1769
+name,Strada Statale 3 bis Tiberina,432,0.1657
+name,Via San Donato,402,0.1542
+natural,tree,86369,76.1813
+natural,wood,11344,10.0059
+natural,water,5189,4.5769
+natural,scrub,2101,1.8532
+natural,tree_row,1485,1.3098
+natural,peak,1340,1.1819
+natural,coastline,1127,0.9941
+natural,sand,894,0.7885
+natural,shingle,583,0.5142
+natural,glacier,558,0.4922
+source,Bing,81085,14.9995
+source,bing,48152,8.9074
+source,GeoEye,38632,7.1463
+source,"Google, 2010-01-21",24976,4.6202
+source,CNIGS/OIM/ FOCS,17715,3.277
+source,Regione Emilia Romagna,17301,3.2004
+source,CNIGS/OIM/FOCS,14861,2.7491
+source,NextView,12405,2.2947
+source,Comune di Bologna,10915,2.0191
+source,Bing Imagery,10741,1.9869
+surface,asphalt,61215,49.7869
+surface,unpaved,16862,13.7141
+surface,ground,10682,8.6878
+surface,gravel,6624,5.3874
+surface,paved,6028,4.9026
+surface,dirt,5025,4.0869
+surface,Dirt/Sand,4701,3.8234
+surface,paving_stones,3028,2.4627
+surface,sett,1677,1.3639
+surface,Paved,1489,1.211
+waterway,stream,29285,56.2989
+waterway,river,11934,22.9425
+waterway,drain,3845,7.3918
+waterway,ditch,2768,5.3213
+waterway,canal,2094,4.0256
+waterway,riverbank,1413,2.7164
+waterway,dam,237,0.4556
+waterway,yes,164,0.3153
+waterway,weir,92,0.1769
+waterway,waterfall,43,0.0827

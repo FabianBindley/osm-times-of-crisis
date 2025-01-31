@@ -363,7 +363,7 @@ if __name__ == "__main__":
 
     periods = [(365,30,365), (180,30,365),]
     periods = [ (1095, 30, 365),  (365, 60, 335)]
-    #periods = [(1095, 30, 365),(180,30,365),(365,30,365),(365,60,335)]
+    periods = [(1095, 30, 365),(180,30,365),(365,30,365),(365,60,335)]
     prophet_model_bools = [True, False]
     post_only_bools = [True, False]
     plot_edit_types_list = [["creates", "edits", "deletes", "total"],["creates"],["edits"],["deletes"],["total"]]

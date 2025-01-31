@@ -18,39 +18,39 @@ amenity,courthouse,1,0.6173,0.0,0.0
 amenity,fuel,1,0.6173,0.0,0.0
 amenity,social_facility,1,0.6173,0.0,0.0
 amenity,studio,1,0.6173,0.0,0.0
-building,yes,19414,97.9862,1941300.0,1941300.0
-building,school,109,0.5501,10800.0,10800.0
-building,retail,82,0.4139,8100.0,8100.0
-building,church,49,0.2473,4800.0,4800.0
-building,service,29,0.1464,2800.0,2800.0
-building,residential,26,0.1312,2500.0,2500.0
-building,construction,25,0.1262,2400.0,2400.0
-building,public,22,0.111,2100.0,2100.0
-building,hospital,19,0.0959,1800.0,1800.0
-building,commercial,12,0.0606,1100.0,1100.0
-building,house,9,0.0454,800.0,800.0
-building,civic,7,0.0353,600.0,600.0
-building,office,5,0.0252,400.0,400.0
-building,chapel,2,0.0101,100.0,100.0
-building,hotel,1,0.005,0.0,0.0
-building,latrine,1,0.005,0.0,0.0
-building,services,1,0.005,0.0,0.0
-highway,unclassified,414,27.6,41300.0,41300.0
-highway,path,316,21.0667,31500.0,31500.0
-highway,residential,302,20.1333,30100.0,30100.0
-highway,track,192,12.8,19100.0,19100.0
-highway,service,134,8.9333,13300.0,13300.0
-highway,tertiary,72,4.8,7100.0,7100.0
-highway,secondary,37,2.4667,3600.0,3600.0
-highway,footway,11,0.7333,1000.0,1000.0
-highway,primary,11,0.7333,1000.0,1000.0
-highway,crossing,6,0.4,500.0,500.0
-highway,motorway_junction,3,0.2,200.0,200.0
-highway,steps,2,0.1333,100.0,100.0
-landuse,residential,123,92.4812,12200.0,12200.0
-landuse,cemetery,7,5.2632,600.0,600.0
-landuse,farmland,2,1.5038,100.0,100.0
-landuse,quarry,1,0.7519,0.0,0.0
+building,yes,19270,97.9714,1926900.0,1926900.0
+building,school,109,0.5542,10800.0,10800.0
+building,retail,82,0.4169,8100.0,8100.0
+building,church,49,0.2491,4800.0,4800.0
+building,service,29,0.1474,2800.0,2800.0
+building,residential,26,0.1322,2500.0,2500.0
+building,construction,25,0.1271,2400.0,2400.0
+building,public,22,0.1119,2100.0,2100.0
+building,hospital,19,0.0966,1800.0,1800.0
+building,commercial,12,0.061,1100.0,1100.0
+building,house,9,0.0458,800.0,800.0
+building,civic,7,0.0356,600.0,600.0
+building,office,5,0.0254,400.0,400.0
+building,chapel,2,0.0102,100.0,100.0
+building,hotel,1,0.0051,0.0,0.0
+building,latrine,1,0.0051,0.0,0.0
+building,services,1,0.0051,0.0,0.0
+highway,unclassified,413,27.6254,41200.0,41200.0
+highway,path,313,20.9365,31200.0,31200.0
+highway,residential,301,20.1338,30000.0,30000.0
+highway,track,192,12.8428,19100.0,19100.0
+highway,service,134,8.9632,13300.0,13300.0
+highway,tertiary,72,4.8161,7100.0,7100.0
+highway,secondary,37,2.4749,3600.0,3600.0
+highway,footway,11,0.7358,1000.0,1000.0
+highway,primary,11,0.7358,1000.0,1000.0
+highway,crossing,6,0.4013,500.0,500.0
+highway,motorway_junction,3,0.2007,200.0,200.0
+highway,steps,2,0.1338,100.0,100.0
+landuse,residential,121,92.3664,12000.0,12000.0
+landuse,cemetery,7,5.3435,600.0,600.0
+landuse,farmland,2,1.5267,100.0,100.0
+landuse,quarry,1,0.7634,0.0,0.0
 leisure,pitch,8,53.3333,700.0,700.0
 leisure,park,5,33.3333,400.0,400.0
 leisure,fitness_centre,1,6.6667,0.0,0.0
@@ -680,57 +680,57 @@ natural,tree_row,7,2.3102,600.0,600.0
 natural,wetland,5,1.6502,400.0,400.0
 natural,cave_entrance,1,0.33,0.0,0.0
 natural,cliff,1,0.33,0.0,0.0
-source,survey,279,36.2338,27800.0,27800.0
-source,Bing,163,21.1688,16200.0,16200.0
-source,bing,107,13.8961,10600.0,10600.0
-source,digitalglobe,54,7.013,5300.0,5300.0
-source,AFH_ survey,29,3.7662,2800.0,2800.0
-source,haiti tranasportation map ftp://haiti:Rkjpb7uef@157.150.195.135/Maps/Country%20wide/M2K5MOVV0801HAT40R_60X42.pdf,24,3.1169,2300.0,2300.0
-source,"DigitialGlobe, 2010",11,1.4286,1000.0,1000.0
-source,DigitalGlobe,8,1.039,700.0,700.0
-source,landsat & DigitalGlobe,8,1.039,700.0,700.0
-source,Bing;gps,6,0.7792,500.0,500.0
-source,GeoEye,6,0.7792,500.0,500.0
-source,bing:ortho,6,0.7792,500.0,500.0
-source,digitalglobe;ikonos/geoeye;digitalglobe,6,0.7792,500.0,500.0
-source,ikonos/geoeye,6,0.7792,500.0,500.0
-source,AFH_survey,5,0.6494,400.0,400.0
-source,MINUSTAH GIS and UN Cartographic Section,5,0.6494,400.0,400.0
-source,maxar,5,0.6494,400.0,400.0
-source,Bing;survey,4,0.5195,300.0,300.0
-source,survey; Bing,4,0.5195,300.0,300.0
-source,haiti transportation map ftp://haiti:Rkjpb7uef@157.150.195.135/Maps/Country%20wide/M2K5MOVV0801HAT40R_60X42.pdf,3,0.3896,200.0,200.0
-source,haiti-tlm-50,3,0.3896,200.0,200.0
-source,hot_iom_cosmha,3,0.3896,200.0,200.0
-source,http://hypercube.telascience.org/tiles/1.0.0/haiti-tlm-50/!/!/!.jpg,3,0.3896,200.0,200.0
-source,"1:100,000, 1961, The Lionel Pincus and Princess Firyal Map Division",2,0.2597,100.0,100.0
-source,DMA Topo Map 50,2,0.2597,100.0,100.0
-source,GeoEye;DigitalGlobe,2,0.2597,100.0,100.0
-source,SURVEY,2,0.2597,100.0,100.0
-source,bing with offset_ GPS traces,2,0.2597,100.0,100.0
-source,government,2,0.2597,100.0,100.0
-source,txu-oclc-51277857-cayes-1987,2,0.2597,100.0,100.0
-source,CIA TLM 50,1,0.1299,0.0,0.0
-source,"DigitalGlobe, 2010",1,0.1299,0.0,0.0
-source,Landsat,1,0.1299,0.0,0.0
-source,PDCIA,1,0.1299,0.0,0.0
-source,Servey,1,0.1299,0.0,0.0
-source,"Service de géodésie et de cartographie d'Haiti. 1:100,000, 1961;Bing",1,0.1299,0.0,0.0
-source,extrapolation,1,0.1299,0.0,0.0
-source,landsat,1,0.1299,0.0,0.0
-surface,ground,116,35.5828,11500.0,11500.0
-surface,unpaved,104,31.9018,10300.0,10300.0
-surface,paved,32,9.816,3100.0,3100.0
-surface,gravel,27,8.2822,2600.0,2600.0
-surface,compacted,12,3.681,1100.0,1100.0
-surface,earth,8,2.454,700.0,700.0
-surface,sand,7,2.1472,600.0,600.0
-surface,asphalt,5,1.5337,400.0,400.0
-surface,concrete,5,1.5337,400.0,400.0
-surface,dirt,5,1.5337,400.0,400.0
-surface,grass,2,0.6135,100.0,100.0
-surface,paving_stones,2,0.6135,100.0,100.0
-surface,wood,1,0.3067,0.0,0.0
+source,survey,279,36.3281,27800.0,27800.0
+source,Bing,161,20.9635,16000.0,16000.0
+source,bing,107,13.9323,10600.0,10600.0
+source,digitalglobe,54,7.0312,5300.0,5300.0
+source,AFH_ survey,29,3.776,2800.0,2800.0
+source,haiti tranasportation map ftp://haiti:Rkjpb7uef@157.150.195.135/Maps/Country%20wide/M2K5MOVV0801HAT40R_60X42.pdf,24,3.125,2300.0,2300.0
+source,"DigitialGlobe, 2010",11,1.4323,1000.0,1000.0
+source,DigitalGlobe,8,1.0417,700.0,700.0
+source,landsat & DigitalGlobe,8,1.0417,700.0,700.0
+source,Bing;gps,6,0.7812,500.0,500.0
+source,GeoEye,6,0.7812,500.0,500.0
+source,bing:ortho,6,0.7812,500.0,500.0
+source,digitalglobe;ikonos/geoeye;digitalglobe,6,0.7812,500.0,500.0
+source,ikonos/geoeye,6,0.7812,500.0,500.0
+source,AFH_survey,5,0.651,400.0,400.0
+source,MINUSTAH GIS and UN Cartographic Section,5,0.651,400.0,400.0
+source,maxar,5,0.651,400.0,400.0
+source,Bing;survey,4,0.5208,300.0,300.0
+source,survey; Bing,4,0.5208,300.0,300.0
+source,haiti transportation map ftp://haiti:Rkjpb7uef@157.150.195.135/Maps/Country%20wide/M2K5MOVV0801HAT40R_60X42.pdf,3,0.3906,200.0,200.0
+source,haiti-tlm-50,3,0.3906,200.0,200.0
+source,hot_iom_cosmha,3,0.3906,200.0,200.0
+source,http://hypercube.telascience.org/tiles/1.0.0/haiti-tlm-50/!/!/!.jpg,3,0.3906,200.0,200.0
+source,"1:100,000, 1961, The Lionel Pincus and Princess Firyal Map Division",2,0.2604,100.0,100.0
+source,DMA Topo Map 50,2,0.2604,100.0,100.0
+source,GeoEye;DigitalGlobe,2,0.2604,100.0,100.0
+source,SURVEY,2,0.2604,100.0,100.0
+source,bing with offset_ GPS traces,2,0.2604,100.0,100.0
+source,government,2,0.2604,100.0,100.0
+source,txu-oclc-51277857-cayes-1987,2,0.2604,100.0,100.0
+source,CIA TLM 50,1,0.1302,0.0,0.0
+source,"DigitalGlobe, 2010",1,0.1302,0.0,0.0
+source,Landsat,1,0.1302,0.0,0.0
+source,PDCIA,1,0.1302,0.0,0.0
+source,Servey,1,0.1302,0.0,0.0
+source,"Service de géodésie et de cartographie d'Haiti. 1:100,000, 1961;Bing",1,0.1302,0.0,0.0
+source,extrapolation,1,0.1302,0.0,0.0
+source,landsat,1,0.1302,0.0,0.0
+surface,ground,116,35.8025,11500.0,11500.0
+surface,unpaved,102,31.4815,10100.0,10100.0
+surface,paved,32,9.8765,3100.0,3100.0
+surface,gravel,27,8.3333,2600.0,2600.0
+surface,compacted,12,3.7037,1100.0,1100.0
+surface,earth,8,2.4691,700.0,700.0
+surface,sand,7,2.1605,600.0,600.0
+surface,asphalt,5,1.5432,400.0,400.0
+surface,concrete,5,1.5432,400.0,400.0
+surface,dirt,5,1.5432,400.0,400.0
+surface,grass,2,0.6173,100.0,100.0
+surface,paving_stones,2,0.6173,100.0,100.0
+surface,wood,1,0.3086,0.0,0.0
 waterway,stream,94,68.1159,9300.0,9300.0
 waterway,river,37,26.8116,3600.0,3600.0
 waterway,riverbank,3,2.1739,200.0,200.0

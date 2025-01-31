@@ -1,33 +1,33 @@
 key,value,count,percent_of_total_changes_for_key,percent_difference_from_pre,percent_difference_from_pre_day
-amenity,parking,1829,26.3355,182800.0,182800.0
-amenity,restaurant,488,7.0266,48700.0,48700.0
-amenity,bench,450,6.4795,44900.0,44900.0
-amenity,bicycle_parking,367,5.2844,36600.0,36600.0
-amenity,recycling,281,4.0461,28000.0,28000.0
-amenity,library,233,3.3549,23200.0,23200.0
-amenity,shelter,213,3.067,21200.0,21200.0
-amenity,pharmacy,205,2.9518,20400.0,20400.0
-amenity,cafe,194,2.7934,19300.0,19300.0
-amenity,fuel,185,2.6638,18400.0,18400.0
-amenity,drinking_water,159,2.2894,15800.0,15800.0
-amenity,place_of_worship,157,2.2606,15600.0,15600.0
-amenity,bank,152,2.1886,15100.0,15100.0
-amenity,bar,149,2.1454,14800.0,14800.0
-amenity,waste_basket,136,1.9582,13500.0,13500.0
-amenity,fast_food,131,1.8862,13000.0,13000.0
-amenity,charging_station,128,1.8431,12700.0,12700.0
-amenity,school,107,1.5407,10600.0,10600.0
-amenity,university,83,1.1951,8200.0,8200.0
-amenity,waste_disposal,83,1.1951,8200.0,8200.0
-amenity,vending_machine,76,1.0943,7500.0,7500.0
-amenity,police,73,1.0511,7200.0,7200.0
-amenity,hospital,68,0.9791,6700.0,6700.0
-amenity,toilets,67,0.9647,6600.0,6600.0
-amenity,ice_cream,64,0.9215,6300.0,6300.0
-amenity,post_office,62,0.8927,6100.0,6100.0
-amenity,atm,50,0.7199,4900.0,4900.0
-amenity,parking_space,49,0.7055,4800.0,4800.0
-amenity,kindergarten,48,0.6911,4700.0,4700.0
+amenity,parking,1829,26.3393,182800.0,182800.0
+amenity,restaurant,488,7.0276,48700.0,48700.0
+amenity,bench,450,6.4804,44900.0,44900.0
+amenity,bicycle_parking,367,5.2851,36600.0,36600.0
+amenity,recycling,281,4.0467,28000.0,28000.0
+amenity,library,233,3.3554,23200.0,23200.0
+amenity,shelter,213,3.0674,21200.0,21200.0
+amenity,pharmacy,205,2.9522,20400.0,20400.0
+amenity,cafe,194,2.7938,19300.0,19300.0
+amenity,fuel,184,2.6498,18300.0,18300.0
+amenity,drinking_water,159,2.2897,15800.0,15800.0
+amenity,place_of_worship,157,2.2609,15600.0,15600.0
+amenity,bank,152,2.1889,15100.0,15100.0
+amenity,bar,149,2.1457,14800.0,14800.0
+amenity,waste_basket,136,1.9585,13500.0,13500.0
+amenity,fast_food,131,1.8865,13000.0,13000.0
+amenity,charging_station,128,1.8433,12700.0,12700.0
+amenity,school,107,1.5409,10600.0,10600.0
+amenity,university,83,1.1953,8200.0,8200.0
+amenity,waste_disposal,83,1.1953,8200.0,8200.0
+amenity,vending_machine,76,1.0945,7500.0,7500.0
+amenity,police,73,1.0513,7200.0,7200.0
+amenity,hospital,68,0.9793,6700.0,6700.0
+amenity,toilets,67,0.9649,6600.0,6600.0
+amenity,ice_cream,64,0.9217,6300.0,6300.0
+amenity,post_office,62,0.8929,6100.0,6100.0
+amenity,atm,50,0.72,4900.0,4900.0
+amenity,parking_space,49,0.7056,4800.0,4800.0
+amenity,kindergarten,48,0.6912,4700.0,4700.0
 amenity,parking_entrance,41,0.5904,4000.0,4000.0
 amenity,bicycle_repair_station,36,0.5184,3500.0,3500.0
 amenity,post_box,36,0.5184,3500.0,3500.0
@@ -106,56 +106,56 @@ amenity,telecommunication,1,0.0144,0.0,0.0
 amenity,training,1,0.0144,0.0,0.0
 amenity,water_point,1,0.0144,0.0,0.0
 amenity,weighbridge,1,0.0144,0.0,0.0
-building,yes,2646,47.5386,264500.0,264500.0
-building,apartments,929,16.6906,92800.0,92800.0
-building,roof,283,5.0844,28200.0,28200.0
-building,industrial,267,4.797,26600.0,26600.0
-building,detached,147,2.641,14600.0,14600.0
-building,retail,143,2.5692,14200.0,14200.0
-building,church,133,2.3895,13200.0,13200.0
-building,hospital,92,1.6529,9100.0,9100.0
-building,residential,78,1.4014,7700.0,7700.0
-building,commercial,77,1.3834,7600.0,7600.0
-building,school,68,1.2217,6700.0,6700.0
-building,house,60,1.078,5900.0,5900.0
-building,semidetached_house,60,1.078,5900.0,5900.0
-building,hotel,58,1.042,5700.0,5700.0
-building,hut,43,0.7725,4200.0,4200.0
-building,service,42,0.7546,4100.0,4100.0
-building,office,40,0.7186,3900.0,3900.0
-building,university,39,0.7007,3800.0,3800.0
-building,storage_tank,38,0.6827,3700.0,3700.0
-building,construction,34,0.6109,3300.0,3300.0
-building,grandstand,21,0.3773,2000.0,2000.0
-building,greenhouse,20,0.3593,1900.0,1900.0
-building,terrace,19,0.3414,1800.0,1800.0
-building,warehouse,19,0.3414,1800.0,1800.0
-building,kiosk,18,0.3234,1700.0,1700.0
-building,public,17,0.3054,1600.0,1600.0
-building,kindergarten,16,0.2875,1500.0,1500.0
-building,shed,16,0.2875,1500.0,1500.0
-building,train_station,12,0.2156,1100.0,1100.0
-building,civic,11,0.1976,1000.0,1000.0
-building,garage,11,0.1976,1000.0,1000.0
-building,no,10,0.1797,900.0,900.0
-building,parking,10,0.1797,900.0,900.0
-building,bunker,9,0.1617,800.0,800.0
-building,ruins,8,0.1437,700.0,700.0
-building,farm,7,0.1258,600.0,600.0
-building,chapel,6,0.1078,500.0,500.0
-building,garages,6,0.1078,500.0,500.0
-building,static_caravan,6,0.1078,500.0,500.0
-building,pavilion,5,0.0898,400.0,400.0
-building,toilets,5,0.0898,400.0,400.0
+building,yes,2644,47.5369,264300.0,264300.0
+building,apartments,929,16.7026,92800.0,92800.0
+building,roof,283,5.0881,28200.0,28200.0
+building,industrial,265,4.7645,26400.0,26400.0
+building,detached,147,2.6429,14600.0,14600.0
+building,retail,143,2.571,14200.0,14200.0
+building,church,133,2.3912,13200.0,13200.0
+building,hospital,92,1.6541,9100.0,9100.0
+building,residential,78,1.4024,7700.0,7700.0
+building,commercial,77,1.3844,7600.0,7600.0
+building,school,68,1.2226,6700.0,6700.0
+building,house,60,1.0787,5900.0,5900.0
+building,semidetached_house,60,1.0787,5900.0,5900.0
+building,hotel,58,1.0428,5700.0,5700.0
+building,hut,43,0.7731,4200.0,4200.0
+building,service,42,0.7551,4100.0,4100.0
+building,office,40,0.7192,3900.0,3900.0
+building,university,39,0.7012,3800.0,3800.0
+building,storage_tank,38,0.6832,3700.0,3700.0
+building,construction,34,0.6113,3300.0,3300.0
+building,grandstand,21,0.3776,2000.0,2000.0
+building,greenhouse,20,0.3596,1900.0,1900.0
+building,terrace,19,0.3416,1800.0,1800.0
+building,warehouse,19,0.3416,1800.0,1800.0
+building,kiosk,18,0.3236,1700.0,1700.0
+building,public,17,0.3056,1600.0,1600.0
+building,kindergarten,16,0.2877,1500.0,1500.0
+building,shed,16,0.2877,1500.0,1500.0
+building,train_station,12,0.2157,1100.0,1100.0
+building,civic,11,0.1978,1000.0,1000.0
+building,garage,11,0.1978,1000.0,1000.0
+building,no,10,0.1798,900.0,900.0
+building,parking,10,0.1798,900.0,900.0
+building,bunker,9,0.1618,800.0,800.0
+building,ruins,8,0.1438,700.0,700.0
+building,farm,7,0.1259,600.0,600.0
+building,chapel,6,0.1079,500.0,500.0
+building,garages,6,0.1079,500.0,500.0
+building,static_caravan,6,0.1079,500.0,500.0
+building,pavilion,5,0.0899,400.0,400.0
+building,toilets,5,0.0899,400.0,400.0
 building,gasometer,3,0.0539,200.0,200.0
 building,government,3,0.0539,200.0,200.0
 building,tent,3,0.0539,200.0,200.0
 building,transformer_tower,3,0.0539,200.0,200.0
-building,carport,2,0.0359,100.0,100.0
-building,cathedral,2,0.0359,100.0,100.0
-building,dormitory,2,0.0359,100.0,100.0
-building,silo,2,0.0359,100.0,100.0
-building,yes;retail,2,0.0359,100.0,100.0
+building,carport,2,0.036,100.0,100.0
+building,cathedral,2,0.036,100.0,100.0
+building,dormitory,2,0.036,100.0,100.0
+building,silo,2,0.036,100.0,100.0
+building,yes;retail,2,0.036,100.0,100.0
 building,abandoned,1,0.018,0.0,0.0
 building,arch,1,0.018,0.0,0.0
 building,bridge,1,0.018,0.0,0.0
@@ -182,31 +182,31 @@ emergency,landing_site,3,1.0309,200.0,200.0
 emergency,phone,2,0.6873,100.0,100.0
 emergency,designated,1,0.3436,0.0,0.0
 emergency,emergency_ward,1,0.3436,0.0,0.0
-highway,residential,6923,13.7925,692200.0,692200.0
-highway,footway,6653,13.2546,665200.0,665200.0
-highway,crossing,5382,10.7224,538100.0,538100.0
-highway,service,4173,8.3137,417200.0,417200.0
-highway,bus_stop,3600,7.1722,359900.0,359900.0
-highway,tertiary,3594,7.1602,359300.0,359300.0
-highway,unclassified,3514,7.0008,351300.0,351300.0
-highway,cycleway,2649,5.2775,264800.0,264800.0
-highway,secondary,2496,4.9727,249500.0,249500.0
-highway,primary,2436,4.8532,243500.0,243500.0
-highway,platform,2254,4.4906,225300.0,225300.0
-highway,path,734,1.4623,73300.0,73300.0
-highway,give_way,728,1.4504,72700.0,72700.0
-highway,track,705,1.4046,70400.0,70400.0
-highway,trunk,650,1.295,64900.0,64900.0
-highway,traffic_signals,609,1.2133,60800.0,60800.0
-highway,pedestrian,595,1.1854,59400.0,59400.0
-highway,motorway_link,400,0.7969,39900.0,39900.0
-highway,steps,344,0.6853,34300.0,34300.0
-highway,primary_link,343,0.6833,34200.0,34200.0
-highway,stop,219,0.4363,21800.0,21800.0
-highway,street_lamp,191,0.3805,19000.0,19000.0
-highway,construction,190,0.3785,18900.0,18900.0
+highway,residential,6923,13.795,692200.0,692200.0
+highway,footway,6653,13.2569,665200.0,665200.0
+highway,crossing,5382,10.7243,538100.0,538100.0
+highway,service,4165,8.2993,416400.0,416400.0
+highway,bus_stop,3600,7.1735,359900.0,359900.0
+highway,tertiary,3593,7.1595,359200.0,359200.0
+highway,unclassified,3514,7.0021,351300.0,351300.0
+highway,cycleway,2649,5.2785,264800.0,264800.0
+highway,secondary,2496,4.9736,249500.0,249500.0
+highway,primary,2436,4.854,243500.0,243500.0
+highway,platform,2254,4.4914,225300.0,225300.0
+highway,path,734,1.4626,73300.0,73300.0
+highway,give_way,728,1.4506,72700.0,72700.0
+highway,track,705,1.4048,70400.0,70400.0
+highway,trunk,650,1.2952,64900.0,64900.0
+highway,traffic_signals,609,1.2135,60800.0,60800.0
+highway,pedestrian,595,1.1856,59400.0,59400.0
+highway,motorway_link,400,0.7971,39900.0,39900.0
+highway,steps,344,0.6855,34300.0,34300.0
+highway,primary_link,343,0.6835,34200.0,34200.0
+highway,stop,219,0.4364,21800.0,21800.0
+highway,street_lamp,191,0.3806,19000.0,19000.0
+highway,construction,190,0.3786,18900.0,18900.0
 highway,motorway,187,0.3726,18600.0,18600.0
-highway,living_street,163,0.3247,16200.0,16200.0
+highway,living_street,163,0.3248,16200.0,16200.0
 highway,trunk_link,158,0.3148,15700.0,15700.0
 highway,tertiary_link,53,0.1056,5200.0,5200.0
 highway,secondary_link,48,0.0956,4700.0,4700.0
@@ -227,38 +227,38 @@ highway,rest_area,2,0.004,100.0,100.0
 highway,Vicolo Bolognetti,1,0.002,0.0,0.0
 highway,bridleway,1,0.002,0.0,0.0
 highway,milestone,1,0.002,0.0,0.0
-landuse,grass,609,31.1509,60800.0,60800.0
-landuse,farmland,364,18.6189,36300.0,36300.0
-landuse,residential,261,13.3504,26000.0,26000.0
-landuse,industrial,98,5.0128,9700.0,9700.0
-landuse,vineyard,87,4.4501,8600.0,8600.0
-landuse,meadow,75,3.8363,7400.0,7400.0
-landuse,construction,74,3.7852,7300.0,7300.0
-landuse,orchard,64,3.2737,6300.0,6300.0
-landuse,commercial,53,2.711,5200.0,5200.0
-landuse,cemetery,41,2.0972,4000.0,4000.0
-landuse,forest,35,1.7903,3400.0,3400.0
-landuse,retail,29,1.4834,2800.0,2800.0
-landuse,brownfield,26,1.3299,2500.0,2500.0
-landuse,religious,21,1.0742,2000.0,2000.0
-landuse,greenhouse_horticulture,16,0.8184,1500.0,1500.0
-landuse,flowerbed,13,0.665,1200.0,1200.0
-landuse,military,13,0.665,1200.0,1200.0
-landuse,farmyard,12,0.6138,1100.0,1100.0
-landuse,railway,12,0.6138,1100.0,1100.0
-landuse,greenfield,11,0.5627,1000.0,1000.0
-landuse,allotments,10,0.5115,900.0,900.0
-landuse,quarry,9,0.4604,800.0,800.0
-landuse,depot,4,0.2046,300.0,300.0
-landuse,education,4,0.2046,300.0,300.0
-landuse,recreation_ground,4,0.2046,300.0,300.0
-landuse,plant_nursery,3,0.1535,200.0,200.0
-landuse,research,2,0.1023,100.0,100.0
-landuse,observatory,1,0.0512,0.0,0.0
-landuse,planned,1,0.0512,0.0,0.0
-landuse,reservoir,1,0.0512,0.0,0.0
-landuse,unknown,1,0.0512,0.0,0.0
-landuse,village_green,1,0.0512,0.0,0.0
+landuse,grass,608,31.2436,60700.0,60700.0
+landuse,farmland,364,18.705,36300.0,36300.0
+landuse,residential,260,13.3607,25900.0,25900.0
+landuse,industrial,95,4.8818,9400.0,9400.0
+landuse,vineyard,87,4.4707,8600.0,8600.0
+landuse,meadow,75,3.8541,7400.0,7400.0
+landuse,construction,74,3.8027,7300.0,7300.0
+landuse,orchard,64,3.2888,6300.0,6300.0
+landuse,commercial,53,2.7235,5200.0,5200.0
+landuse,cemetery,41,2.1069,4000.0,4000.0
+landuse,forest,35,1.7986,3400.0,3400.0
+landuse,retail,29,1.4902,2800.0,2800.0
+landuse,brownfield,22,1.1305,2100.0,2100.0
+landuse,religious,21,1.0791,2000.0,2000.0
+landuse,greenhouse_horticulture,16,0.8222,1500.0,1500.0
+landuse,flowerbed,13,0.668,1200.0,1200.0
+landuse,military,13,0.668,1200.0,1200.0
+landuse,farmyard,12,0.6166,1100.0,1100.0
+landuse,railway,12,0.6166,1100.0,1100.0
+landuse,greenfield,11,0.5653,1000.0,1000.0
+landuse,allotments,10,0.5139,900.0,900.0
+landuse,quarry,9,0.4625,800.0,800.0
+landuse,depot,4,0.2055,300.0,300.0
+landuse,education,4,0.2055,300.0,300.0
+landuse,recreation_ground,4,0.2055,300.0,300.0
+landuse,plant_nursery,3,0.1542,200.0,200.0
+landuse,research,2,0.1028,100.0,100.0
+landuse,observatory,1,0.0514,0.0,0.0
+landuse,planned,1,0.0514,0.0,0.0
+landuse,reservoir,1,0.0514,0.0,0.0
+landuse,unknown,1,0.0514,0.0,0.0
+landuse,village_green,1,0.0514,0.0,0.0
 leisure,park,448,37.1168,44700.0,44700.0
 leisure,pitch,256,21.2096,25500.0,25500.0
 leisure,garden,114,9.4449,11300.0,11300.0
@@ -285,57 +285,57 @@ leisure,golf_course,1,0.0829,0.0,0.0
 leisure,horse_riding,1,0.0829,0.0,0.0
 leisure,resort,1,0.0829,0.0,0.0
 leisure,water_park,1,0.0829,0.0,0.0
-name,Tangenziale di Bologna,206,0.5835,20500.0,20500.0
-name,Via Emilia,196,0.5552,19500.0,19500.0
-name,Strada Statale 3 bis Tiberina,176,0.4985,17500.0,17500.0
-name,Bologna-Firenze (direttissima),164,0.4645,16300.0,16300.0
+name,Tangenziale di Bologna,206,0.5836,20500.0,20500.0
+name,Via Emilia,196,0.5553,19500.0,19500.0
+name,Strada Statale 3 bis Tiberina,176,0.4986,17500.0,17500.0
+name,Bologna-Firenze (direttissima),164,0.4646,16300.0,16300.0
 name,Via Emilia Levante,125,0.3541,12400.0,12400.0
 name,Via Romea Nord,122,0.3456,12100.0,12100.0
-name,Via Aldo Moro,121,0.3427,12000.0,12000.0
+name,Via Aldo Moro,121,0.3428,12000.0,12000.0
 name,Trasversale di Pianura,116,0.3286,11500.0,11500.0
 name,Viale Felsina,110,0.3116,10900.0,10900.0
-name,Via Toscana,105,0.2974,10400.0,10400.0
-name,Viale Pietro Pietramellara,105,0.2974,10400.0,10400.0
+name,Via Toscana,105,0.2975,10400.0,10400.0
+name,Viale Pietro Pietramellara,105,0.2975,10400.0,10400.0
 name,Via Classicana,101,0.2861,10000.0,10000.0
-name,Ferrara-Rimini,100,0.2832,9900.0,9900.0
-name,Via Marecchiese,100,0.2832,9900.0,9900.0
-name,Via Augusto Murri,99,0.2804,9800.0,9800.0
+name,Ferrara-Rimini,100,0.2833,9900.0,9900.0
+name,Via Marecchiese,100,0.2833,9900.0,9900.0
+name,Via Augusto Murri,99,0.2805,9800.0,9800.0
 name,Via Guglielmo Marconi,95,0.2691,9400.0,9400.0
-name,Via Casale,87,0.2464,8600.0,8600.0
-name,Via Andrea Costa,84,0.2379,8300.0,8300.0
-name,Via Giacomo Matteotti,78,0.2209,7700.0,7700.0
+name,Via Casale,87,0.2465,8600.0,8600.0
+name,Via Andrea Costa,84,0.238,8300.0,8300.0
+name,Via Giacomo Matteotti,78,0.221,7700.0,7700.0
 name,Via Statale Marecchia,76,0.2153,7500.0,7500.0
-name,Via San Vitale,72,0.2039,7100.0,7100.0
+name,Via San Vitale,72,0.204,7100.0,7100.0
 name,Via Emilia Ponente,71,0.2011,7000.0,7000.0
 name,Via Giuseppe Mazzini,71,0.2011,7000.0,7000.0
 name,Via San Donato,71,0.2011,7000.0,7000.0
 name,Mavone piccolo,68,0.1926,6700.0,6700.0
 name,Via Stalingrado,68,0.1926,6700.0,6700.0
 name,Via del Lavoro,67,0.1898,6600.0,6600.0
-name,Bologna-Portomaggiore,66,0.1869,6500.0,6500.0
-name,Via Roma,66,0.1869,6500.0,6500.0
-name,Via Stradelli Guelfi,66,0.1869,6500.0,6500.0
+name,Bologna-Portomaggiore,66,0.187,6500.0,6500.0
+name,Via Roma,66,0.187,6500.0,6500.0
+name,Via Stradelli Guelfi,66,0.187,6500.0,6500.0
 name,Viale Giosuè Carducci,62,0.1756,6100.0,6100.0
 name,Via Enrico Mattei,61,0.1728,6000.0,6000.0
 name,Viale Europa,61,0.1728,6000.0,6000.0
-name,Autostrada del Sole,60,0.1699,5900.0,5900.0
+name,Autostrada del Sole,60,0.17,5900.0,5900.0
 name,Autostrada Adriatica,59,0.1671,5800.0,5800.0
 name,Via Antonio Zucchi,58,0.1643,5700.0,5700.0
 name,Via Saliceto,58,0.1643,5700.0,5700.0
 name,Porta San Vitale,56,0.1586,5500.0,5500.0
 name,Faenza-Lavezzola,55,0.1558,5400.0,5400.0
 name,Ferrovia Porrettana,54,0.153,5300.0,5300.0
-name,Via Faentina,53,0.1501,5200.0,5200.0
-name,Viale Roma,53,0.1501,5200.0,5200.0
-name,Viale Sergio Cavina,53,0.1501,5200.0,5200.0
-name,Viale della Costituzione,53,0.1501,5200.0,5200.0
+name,Via Faentina,53,0.1502,5200.0,5200.0
+name,Viale Roma,53,0.1502,5200.0,5200.0
+name,Viale Sergio Cavina,53,0.1502,5200.0,5200.0
+name,Viale della Costituzione,53,0.1502,5200.0,5200.0
 name,Via Giuseppe Garibaldi,52,0.1473,5100.0,5100.0
 name,Viale del Tricolore,51,0.1445,5000.0,5000.0
-name,Via Bruno Tosarelli,50,0.1416,4900.0,4900.0
+name,Via Bruno Tosarelli,50,0.1417,4900.0,4900.0
 name,Bologna Autostazione,49,0.1388,4800.0,4800.0
 name,Via Francesco Zanardi,48,0.136,4700.0,4700.0
-name,Via del Triumvirato,47,0.1331,4600.0,4600.0
-name,Viale XXIII settembre 1845,47,0.1331,4600.0,4600.0
+name,Via del Triumvirato,47,0.1332,4600.0,4600.0
+name,Viale XXIII settembre 1845,47,0.1332,4600.0,4600.0
 name,Via Padre Tosi,46,0.1303,4500.0,4500.0
 name,Via Trario,46,0.1303,4500.0,4500.0
 name,Stazione Centrale,45,0.1275,4400.0,4400.0
@@ -348,8 +348,8 @@ name,Via John Fitzgerald Kennedy,42,0.119,4100.0,4100.0
 name,Via Nazionale,42,0.119,4100.0,4100.0
 name,Via Ravegnana,42,0.119,4100.0,4100.0
 name,Via Tolemaide,42,0.119,4100.0,4100.0
-name,Via Henghel Gualdi,41,0.1161,4000.0,4000.0
-name,Via Togliatti,41,0.1161,4000.0,4000.0
+name,Via Henghel Gualdi,41,0.1162,4000.0,4000.0
+name,Via Togliatti,41,0.1162,4000.0,4000.0
 name,Via Fossolo,40,0.1133,3900.0,3900.0
 name,Via Ugo La Malfa,40,0.1133,3900.0,3900.0
 name,Porta Maggiore,39,0.1105,3800.0,3800.0
@@ -357,9 +357,9 @@ name,Ragno,39,0.1105,3800.0,3800.0
 name,Via Caselle,39,0.1105,3800.0,3800.0
 name,Via Ferrarese,39,0.1105,3800.0,3800.0
 name,Viale Giacomo Matteotti,39,0.1105,3800.0,3800.0
-name,Conad,38,0.1076,3700.0,3700.0
-name,Via Marzabotto,38,0.1076,3700.0,3700.0
-name,Via Padre Mario Balboni,38,0.1076,3700.0,3700.0
+name,Conad,38,0.1077,3700.0,3700.0
+name,Via Marzabotto,38,0.1077,3700.0,3700.0
+name,Via Padre Mario Balboni,38,0.1077,3700.0,3700.0
 name,Autostazione,37,0.1048,3600.0,3600.0
 name,Mavone grande,37,0.1048,3600.0,3600.0
 name,Porta Santo Stefano,37,0.1048,3600.0,3600.0
@@ -370,11 +370,11 @@ name,Viale della Repubblica,37,0.1048,3600.0,3600.0
 name,Brancona,36,0.102,3500.0,3500.0
 name,Via Antonio Gramsci,36,0.102,3500.0,3500.0
 name,Via del Tesoro,36,0.102,3500.0,3500.0
-name,Alemanni,35,0.0991,3400.0,3400.0
-name,Tangenziale delle Biciclette,35,0.0991,3400.0,3400.0
-name,Via Baiona,35,0.0991,3400.0,3400.0
-name,Via Due Madonne,35,0.0991,3400.0,3400.0
-name,Via Foscolo,35,0.0991,3400.0,3400.0
+name,Alemanni,35,0.0992,3400.0,3400.0
+name,Tangenziale delle Biciclette,35,0.0992,3400.0,3400.0
+name,Via Baiona,35,0.0992,3400.0,3400.0
+name,Via Due Madonne,35,0.0992,3400.0,3400.0
+name,Via Foscolo,35,0.0992,3400.0,3400.0
 name,Autostrada Adriatica Diramazione per Ravenna,34,0.0963,3300.0,3300.0
 name,Via Bassette,34,0.0963,3300.0,3300.0
 name,Via Covignano,34,0.0963,3300.0,3300.0
@@ -385,13 +385,13 @@ name,Via Dario Campana,33,0.0935,3200.0,3200.0
 name,Via Eugenio Curiel,33,0.0935,3200.0,3200.0
 name,Via degli Orti,33,0.0935,3200.0,3200.0
 name,Via delle Industrie,33,0.0935,3200.0,3200.0
-name,Oriale Sarzano,32,0.0906,3100.0,3100.0
-name,Piazza dell'Unità,32,0.0906,3100.0,3100.0
-name,Porta Castiglione,32,0.0906,3100.0,3100.0
-name,UniCredit Bank,32,0.0906,3100.0,3100.0
-name,Via Dante Alighieri,32,0.0906,3100.0,3100.0
-name,Via Giovanni Pascoli,32,0.0906,3100.0,3100.0
-name,Via dell'Indipendenza,32,0.0906,3100.0,3100.0
+name,Oriale Sarzano,32,0.0907,3100.0,3100.0
+name,Piazza dell'Unità,32,0.0907,3100.0,3100.0
+name,Porta Castiglione,32,0.0907,3100.0,3100.0
+name,UniCredit Bank,32,0.0907,3100.0,3100.0
+name,Via Dante Alighieri,32,0.0907,3100.0,3100.0
+name,Via Giovanni Pascoli,32,0.0907,3100.0,3100.0
+name,Via dell'Indipendenza,32,0.0907,3100.0,3100.0
 name,Via Allende,31,0.0878,3000.0,3000.0
 name,Via Donato Bramante,31,0.0878,3000.0,3000.0
 name,Via Giuseppe Di Vittorio,31,0.0878,3000.0,3000.0
@@ -403,13 +403,13 @@ name,Adriatica,30,0.085,2900.0,2900.0
 name,Coop,30,0.085,2900.0,2900.0
 name,Via D'Acquisto,30,0.085,2900.0,2900.0
 name,Via Nuova,30,0.085,2900.0,2900.0
-name,Via Trieste,30,0.085,2900.0,2900.0
-name,Esso,29,0.0821,2800.0,2800.0
-name,Laura Bassi,29,0.0821,2800.0,2800.0
-name,Pista ciclo-pedonale Marco Pantani,29,0.0821,2800.0,2800.0
-name,Via Due Giugno,29,0.0821,2800.0,2800.0
-name,Via Primo Maggio,29,0.0821,2800.0,2800.0
-name,Via San Carlo,29,0.0821,2800.0,2800.0
+name,Esso,29,0.0822,2800.0,2800.0
+name,Laura Bassi,29,0.0822,2800.0,2800.0
+name,Pista ciclo-pedonale Marco Pantani,29,0.0822,2800.0,2800.0
+name,Via Due Giugno,29,0.0822,2800.0,2800.0
+name,Via Primo Maggio,29,0.0822,2800.0,2800.0
+name,Via San Carlo,29,0.0822,2800.0,2800.0
+name,Via Trieste,29,0.0822,2800.0,2800.0
 name,Castelbolognese-Ravenna,28,0.0793,2700.0,2700.0
 name,Sottopasso Ernesto Maserati,28,0.0793,2700.0,2700.0
 name,Sterlino,28,0.0793,2700.0,2700.0
@@ -420,12 +420,12 @@ name,Viale Leon Battista Alberti,28,0.0793,2700.0,2700.0
 name,Bologna-Milano,27,0.0765,2600.0,2600.0
 name,Linea di Cintura,27,0.0765,2600.0,2600.0
 name,Poste Italiane,27,0.0765,2600.0,2600.0
-name,Piazza di Porta San Donato,26,0.0736,2500.0,2500.0
-name,San Lazzaro Kennedy Scornetta,26,0.0736,2500.0,2500.0
-name,San Lazzaro Piscina Kennedy,26,0.0736,2500.0,2500.0
-name,Via Correcchio,26,0.0736,2500.0,2500.0
-name,Via Filippo Turati,26,0.0736,2500.0,2500.0
-name,Via di Mezzo,26,0.0736,2500.0,2500.0
+name,Piazza di Porta San Donato,26,0.0737,2500.0,2500.0
+name,San Lazzaro Kennedy Scornetta,26,0.0737,2500.0,2500.0
+name,San Lazzaro Piscina Kennedy,26,0.0737,2500.0,2500.0
+name,Via Correcchio,26,0.0737,2500.0,2500.0
+name,Via Filippo Turati,26,0.0737,2500.0,2500.0
+name,Via di Mezzo,26,0.0737,2500.0,2500.0
 name,Piazza Trento e Trieste,25,0.0708,2400.0,2400.0
 name,Rastignano,25,0.0708,2400.0,2400.0
 name,Via Provinciale nord,25,0.0708,2400.0,2400.0
@@ -446,18 +446,18 @@ name,Via della Liberazione,24,0.068,2300.0,2300.0
 name,Viale Antonio Silvani,24,0.068,2300.0,2300.0
 name,Viale della Resistenza,24,0.068,2300.0,2300.0
 name,Villa Mazzacorati,24,0.068,2300.0,2300.0
-name,Metromare,23,0.0651,2200.0,2200.0
-name,Via Busca,23,0.0651,2200.0,2200.0
-name,Via Dismano,23,0.0651,2200.0,2200.0
-name,Via Fratelli Rosselli,23,0.0651,2200.0,2200.0
-name,Via Gaspare Nadi,23,0.0651,2200.0,2200.0
-name,Via Giuseppe Massarenti,23,0.0651,2200.0,2200.0
-name,Via Giuseppe Verdi,23,0.0651,2200.0,2200.0
-name,Via Pascoli,23,0.0651,2200.0,2200.0
-name,Via Tomba,23,0.0651,2200.0,2200.0
-name,Via del Dazio,23,0.0651,2200.0,2200.0
-name,Viale 23 settembre 1845,23,0.0651,2200.0,2200.0
-name,Viale Carlo Pisacane,23,0.0651,2200.0,2200.0
+name,Metromare,23,0.0652,2200.0,2200.0
+name,Via Busca,23,0.0652,2200.0,2200.0
+name,Via Dismano,23,0.0652,2200.0,2200.0
+name,Via Fratelli Rosselli,23,0.0652,2200.0,2200.0
+name,Via Gaspare Nadi,23,0.0652,2200.0,2200.0
+name,Via Giuseppe Massarenti,23,0.0652,2200.0,2200.0
+name,Via Giuseppe Verdi,23,0.0652,2200.0,2200.0
+name,Via Pascoli,23,0.0652,2200.0,2200.0
+name,Via Tomba,23,0.0652,2200.0,2200.0
+name,Via del Dazio,23,0.0652,2200.0,2200.0
+name,Viale 23 settembre 1845,23,0.0652,2200.0,2200.0
+name,Viale Carlo Pisacane,23,0.0652,2200.0,2200.0
 name,Annunziata,22,0.0623,2100.0,2100.0
 name,Casale,22,0.0623,2100.0,2100.0
 name,Fermi,22,0.0623,2100.0,2100.0
@@ -491,19 +491,19 @@ name,Via Riva di Reno,21,0.0595,2000.0,2000.0
 name,Via Saragozza,21,0.0595,2000.0,2000.0
 name,Via Silvio Corbari,21,0.0595,2000.0,2000.0
 name,Viale Salvador Allende,21,0.0595,2000.0,2000.0
-name,Albertoni,20,0.0566,1900.0,1900.0
-name,Circonvallazione alla Rotonda dei Goti,20,0.0566,1900.0,1900.0
-name,Piazza Malpighi,20,0.0566,1900.0,1900.0
-name,Ponte Savena,20,0.0566,1900.0,1900.0
-name,Q8,20,0.0566,1900.0,1900.0
-name,Varthema,20,0.0566,1900.0,1900.0
-name,Via Aristotile Fioravanti,20,0.0566,1900.0,1900.0
-name,Via Giovanni Mengozzi,20,0.0566,1900.0,1900.0
-name,Via Marco Emilio Lepido,20,0.0566,1900.0,1900.0
-name,Via della Republica,20,0.0566,1900.0,1900.0
-name,Viale Bologna,20,0.0566,1900.0,1900.0
-name,Viale Due Giugno,20,0.0566,1900.0,1900.0
-name,Viale Palmiro Togliatti,20,0.0566,1900.0,1900.0
+name,Albertoni,20,0.0567,1900.0,1900.0
+name,Circonvallazione alla Rotonda dei Goti,20,0.0567,1900.0,1900.0
+name,Piazza Malpighi,20,0.0567,1900.0,1900.0
+name,Ponte Savena,20,0.0567,1900.0,1900.0
+name,Q8,20,0.0567,1900.0,1900.0
+name,Varthema,20,0.0567,1900.0,1900.0
+name,Via Aristotile Fioravanti,20,0.0567,1900.0,1900.0
+name,Via Giovanni Mengozzi,20,0.0567,1900.0,1900.0
+name,Via Marco Emilio Lepido,20,0.0567,1900.0,1900.0
+name,Via della Republica,20,0.0567,1900.0,1900.0
+name,Viale Bologna,20,0.0567,1900.0,1900.0
+name,Viale Due Giugno,20,0.0567,1900.0,1900.0
+name,Viale Palmiro Togliatti,20,0.0567,1900.0,1900.0
 name,Autostrada Bologna-Padova,19,0.0538,1800.0,1800.0
 name,Baraccano,19,0.0538,1800.0,1800.0
 name,Casoni,19,0.0538,1800.0,1800.0
@@ -553,7 +553,6 @@ name,Arno,17,0.0482,1600.0,1600.0
 name,Corelli,17,0.0482,1600.0,1600.0
 name,Crocetta,17,0.0482,1600.0,1600.0
 name,Enel X,17,0.0482,1600.0,1600.0
-name,Eni,17,0.0482,1600.0,1600.0
 name,IP,17,0.0482,1600.0,1600.0
 name,Lungomare Augusto Murri,17,0.0482,1600.0,1600.0
 name,Pontevecchio,17,0.0482,1600.0,1600.0
@@ -588,6 +587,7 @@ name,Calzoni,16,0.0453,1500.0,1500.0
 name,Ciclovia del Santerno,16,0.0453,1500.0,1500.0
 name,Creti,16,0.0453,1500.0,1500.0
 name,Dehon,16,0.0453,1500.0,1500.0
+name,Eni,16,0.0453,1500.0,1500.0
 name,Etruria,16,0.0453,1500.0,1500.0
 name,Felsina,16,0.0453,1500.0,1500.0
 name,Fossolo,16,0.0453,1500.0,1500.0
@@ -1087,7 +1087,6 @@ name,Cadriano Roma,8,0.0227,700.0,700.0
 name,Cadriano Scuole Elementari,8,0.0227,700.0,700.0
 name,Calorè,8,0.0227,700.0,700.0
 name,Campana,8,0.0227,700.0,700.0
-name,Canale Candiano,8,0.0227,700.0,700.0
 name,Canale delle Moline,8,0.0227,700.0,700.0
 name,Carducci,8,0.0227,700.0,700.0
 name,Case Ghedini,8,0.0227,700.0,700.0
@@ -1229,6 +1228,7 @@ name,Borghi Mamo,7,0.0198,600.0,600.0
 name,Brunelli,7,0.0198,600.0,600.0
 name,Buon Pastore,7,0.0198,600.0,600.0
 name,Ca' Bruciata,7,0.0198,600.0,600.0
+name,Canale Candiano,7,0.0198,600.0,600.0
 name,Casalecchio Garibaldi,7,0.0198,600.0,600.0
 name,Castiglione,7,0.0198,600.0,600.0
 name,Centro Zanardi,7,0.0198,600.0,600.0
@@ -2778,7 +2778,6 @@ name,Parco XXV aprile,3,0.0085,200.0,200.0
 name,Parco del Gelso,3,0.0085,200.0,200.0
 name,Parrucchiere Graziano,3,0.0085,200.0,200.0
 name,Pesa,3,0.0085,200.0,200.0
-name,Petra,3,0.0085,200.0,200.0
 name,Piattaforma logistica S3,3,0.0085,200.0,200.0
 name,Piazza Alessandro Bianconcini,3,0.0085,200.0,200.0
 name,Piazza Baracca,3,0.0085,200.0,200.0
@@ -3943,6 +3942,7 @@ name,"Percorso ciclo-pedonale Adria Neri ""Marga""",2,0.0057,100.0,100.0
 name,Percorso di visita,2,0.0057,100.0,100.0
 name,Perdormire,2,0.0057,100.0,100.0
 name,Pertini Segantini,2,0.0057,100.0,100.0
+name,Petra,2,0.0057,100.0,100.0
 name,Peugeot,2,0.0057,100.0,100.0
 name,Piadina Pida & Co,2,0.0057,100.0,100.0
 name,Piadineria da Giorgia,2,0.0057,100.0,100.0
@@ -8341,7 +8341,6 @@ name,Romea,1,0.0028,0.0,0.0
 name,Roncati,1,0.0028,0.0,0.0
 name,Rosa dei Venti,1,0.0028,0.0,0.0
 name,Rosatea,1,0.0028,0.0,0.0
-name,Rosetti Marino S.p.A.,1,0.0028,0.0,0.0
 name,Rosso Blu,1,0.0028,0.0,0.0
 name,Rosso Fuoco,1,0.0028,0.0,0.0
 name,Rosticceria,1,0.0028,0.0,0.0
@@ -8828,7 +8827,6 @@ name,Tabaccheria profumeria dolce profumo shop,1,0.0028,0.0,0.0
 name,Tabu Mini Market,1,0.0028,0.0,0.0
 name,Taj Mahal,1,0.0028,0.0,0.0
 name,Takko Fashion,1,0.0028,0.0,0.0
-name,Talamello,1,0.0028,0.0,0.0
 name,Talha Alimentari,1,0.0028,0.0,0.0
 name,"Tamburini ""Velocibò""",1,0.0028,0.0,0.0
 name,Tampieri S.p.A.,1,0.0028,0.0,0.0
@@ -10501,7 +10499,6 @@ name,eXtraBO,1,0.0028,0.0,0.0
 name,ebano,1,0.0028,0.0,0.0
 name,eni,1,0.0028,0.0,0.0
 name,esmeralda,1,0.0028,0.0,0.0
-name,ex Adriatank,1,0.0028,0.0,0.0
 name,ex Chiesa di San Giorgio in Poggiale,1,0.0028,0.0,0.0
 name,ex Stazione di Villa Verucchio (stazione rosa),1,0.0028,0.0,0.0
 name,farmacia comunale di forlimpopoli,1,0.0028,0.0,0.0
@@ -10542,18 +10539,18 @@ name,via Dell'Omo,1,0.0028,0.0,0.0
 name,via Monte Pasubio,1,0.0028,0.0,0.0
 name,via Umaz,1,0.0028,0.0,0.0
 name,ŻÅUVEN,1,0.0028,0.0,0.0
-natural,tree,4288,84.4261,428700.0,428700.0
-natural,water,264,5.1979,26300.0,26300.0
-natural,tree_row,250,4.9222,24900.0,24900.0
-natural,cliff,79,1.5554,7800.0,7800.0
-natural,wood,57,1.1223,5600.0,5600.0
-natural,scrub,38,0.7482,3700.0,3700.0
-natural,shrub,25,0.4922,2400.0,2400.0
-natural,grassland,17,0.3347,1600.0,1600.0
-natural,sand,15,0.2953,1400.0,1400.0
-natural,beach,10,0.1969,900.0,900.0
-natural,riverbed,7,0.1378,600.0,600.0
-natural,peak,6,0.1181,500.0,500.0
+natural,tree,4288,84.5093,428700.0,428700.0
+natural,water,263,5.1833,26200.0,26200.0
+natural,tree_row,247,4.868,24600.0,24600.0
+natural,cliff,79,1.557,7800.0,7800.0
+natural,wood,56,1.1037,5500.0,5500.0
+natural,scrub,38,0.7489,3700.0,3700.0
+natural,shrub,25,0.4927,2400.0,2400.0
+natural,grassland,17,0.335,1600.0,1600.0
+natural,sand,15,0.2956,1400.0,1400.0
+natural,beach,10,0.1971,900.0,900.0
+natural,riverbed,7,0.138,600.0,600.0
+natural,peak,6,0.1182,500.0,500.0
 natural,coastline,4,0.0788,300.0,300.0
 natural,heath,3,0.0591,200.0,200.0
 natural,wetland,3,0.0591,200.0,200.0
@@ -10566,53 +10563,53 @@ natural,fell,1,0.0197,0.0,0.0
 natural,pothole,1,0.0197,0.0,0.0
 natural,rock,1,0.0197,0.0,0.0
 natural,stone,1,0.0197,0.0,0.0
-source,http://www.tper.it/azienda/tper-open-data,4341,48.0997,434000.0,434000.0
-source,Regione Emilia Romagna,2986,33.0859,298500.0,298500.0
-source,Comune di Bologna,496,5.4958,49500.0,49500.0
-source,http://dati.emilia-romagna.it/dato/item/11-11-uso-del-suolo-2008.html,373,4.133,37200.0,37200.0
-source,microsoft/BuildingFootprints,151,1.6731,15000.0,15000.0
-source,MISE - Ministero Sviluppo Economico,117,1.2964,11600.0,11600.0
-source,Based on ISTAT data - 2001 Italian Census,71,0.7867,7000.0,7000.0
-source,ds4273,48,0.5319,4700.0,4700.0
-source,Bing,42,0.4654,4100.0,4100.0
-source,Bing 2022,25,0.277,2400.0,2400.0
-source,Bing Sat,23,0.2548,2200.0,2200.0
-source,https://www.chiamamicitta.it/a-rimini-parte-la-maxi-rotatoria-ss16-san-marino-come-districarsi-fra-i-cantieri/,21,0.2327,2000.0,2000.0
-source,survey,21,0.2327,2000.0,2000.0
-source,Istat 2001 - geodati.gfoss.it,18,0.1994,1700.0,1700.0
+source,http://www.tper.it/azienda/tper-open-data,4341,48.1157,434000.0,434000.0
+source,Regione Emilia Romagna,2984,33.0747,298300.0,298300.0
+source,Comune di Bologna,496,5.4977,49500.0,49500.0
+source,http://dati.emilia-romagna.it/dato/item/11-11-uso-del-suolo-2008.html,373,4.1343,37200.0,37200.0
+source,microsoft/BuildingFootprints,151,1.6737,15000.0,15000.0
+source,MISE - Ministero Sviluppo Economico,117,1.2968,11600.0,11600.0
+source,Based on ISTAT data - 2001 Italian Census,71,0.787,7000.0,7000.0
+source,ds4273,48,0.532,4700.0,4700.0
+source,Bing,42,0.4655,4100.0,4100.0
+source,Bing 2022,25,0.2771,2400.0,2400.0
+source,Bing Sat,23,0.2549,2200.0,2200.0
+source,https://www.chiamamicitta.it/a-rimini-parte-la-maxi-rotatoria-ss16-san-marino-come-districarsi-fra-i-cantieri/,21,0.2328,2000.0,2000.0
+source,survey,21,0.2328,2000.0,2000.0
+source,Istat 2001 - geodati.gfoss.it,18,0.1995,1700.0,1700.0
 source,Ministero della Salute,17,0.1884,1600.0,1600.0
 source,bing,17,0.1884,1600.0,1600.0
-source,https://www.tper.it/azienda/tper-open-data,15,0.1662,1400.0,1400.0
+source,https://www.tper.it/azienda/tper-open-data,15,0.1663,1400.0,1400.0
 source,http://geoportale.regione.emilia-romagna.it/it/services/servizi%20tecnici/servizio-di-consultazione/ambiente/aree-protette-e-natura-2000-wms,12,0.133,1100.0,1100.0
 source,https://www.comune.imola.bo.it/aree-tematiche/territorio/protezione-civile-municipale/altri-materiali/perche-rischiare/view,10,0.1108,900.0,900.0
-source,Regione Emilia Romagna;local knowledge,9,0.0997,800.0,800.0
-source,https://www.comune.imola.bo.it/novita/comunicati/2022/12/i-consigli-della-protezione-civile-per-attuare-comportamenti-sicuri-in-caso-di-eventi-naturali-estremi,9,0.0997,800.0,800.0
-source,https://www.comune.bologna.it/servizi-informazioni/zona-traffico-limitato-ztl,8,0.0886,700.0,700.0
-source,maxar,8,0.0886,700.0,700.0
+source,Regione Emilia Romagna;local knowledge,9,0.0998,800.0,800.0
+source,https://www.comune.imola.bo.it/novita/comunicati/2022/12/i-consigli-della-protezione-civile-per-attuare-comportamenti-sicuri-in-caso-di-eventi-naturali-estremi,9,0.0998,800.0,800.0
+source,https://www.comune.bologna.it/servizi-informazioni/zona-traffico-limitato-ztl,8,0.0887,700.0,700.0
+source,maxar,8,0.0887,700.0,700.0
 source,http://www.stradeanas.it/index.php?/news/dettaglio/id/4827/page/3,6,0.0665,500.0,500.0
 source,Based on ISTAT data - 2011 Italian Census,5,0.0554,400.0,400.0
 source,http://vivere.comune.imola.bo.it/stradario/datistrada.cfm?wid=525,4,0.0443,300.0,300.0
 source,https://www.comune.bologna.it/servizi-informazioni/zona-t-t-days,4,0.0443,300.0,300.0
 source,https://www.ilsole24ore.com/art/bologna-accende-supercomputer-e-presto-sara-sede-dell-universita-dell-onu-AEg8EVEC,4,0.0443,300.0,300.0
-source,Comune di Bologna;https://anagrafe.iccu.sbn.it/it/ricerca/dettaglio.html?monocampo=IT-BO0036,3,0.0332,200.0,200.0
-source,GPS,3,0.0332,200.0,200.0
-source,Piano di Protezione Civile di Imola,3,0.0332,200.0,200.0
-source,Regione Emilia Romagna;http://www.demalling.com/le-torri/,3,0.0332,200.0,200.0
-source,Regione Emilia Romagna;survey,3,0.0332,200.0,200.0
-source,geodati.gfoss.it,3,0.0332,200.0,200.0
-source,gps;local knowledge;streetlevel imagery,3,0.0332,200.0,200.0
-source,http://anagrafe.iccu.sbn.it/isil/IT-BO0199,3,0.0332,200.0,200.0
-source,http://vivere.comune.imola.bo.it/stradario/datistrada.cfm?wid=116,3,0.0332,200.0,200.0
-source,http://www.tper.it/azienda/tper-open-datahttp://www.tper.it/azienda/tper-open-data,3,0.0332,200.0,200.0
-source,https://www.chiamamicitta.it/nuova-farmacia-comunale-di-rimini-alle-befane-e-la-n-9/,3,0.0332,200.0,200.0
-source,https://www.facebook.com/FreeToX,3,0.0332,200.0,200.0
-source,https://www.ilrestodelcarlino.it/cesena/cronaca/la-farmacia-tutta-rosa-ha-cambiato-la-sede-1.6086846,3,0.0332,200.0,200.0
+source,Comune di Bologna;https://anagrafe.iccu.sbn.it/it/ricerca/dettaglio.html?monocampo=IT-BO0036,3,0.0333,200.0,200.0
+source,GPS,3,0.0333,200.0,200.0
+source,Piano di Protezione Civile di Imola,3,0.0333,200.0,200.0
+source,Regione Emilia Romagna;http://www.demalling.com/le-torri/,3,0.0333,200.0,200.0
+source,Regione Emilia Romagna;survey,3,0.0333,200.0,200.0
+source,gps;local knowledge;streetlevel imagery,3,0.0333,200.0,200.0
+source,http://anagrafe.iccu.sbn.it/isil/IT-BO0199,3,0.0333,200.0,200.0
+source,http://vivere.comune.imola.bo.it/stradario/datistrada.cfm?wid=116,3,0.0333,200.0,200.0
+source,http://www.tper.it/azienda/tper-open-datahttp://www.tper.it/azienda/tper-open-data,3,0.0333,200.0,200.0
+source,https://www.chiamamicitta.it/nuova-farmacia-comunale-di-rimini-alle-befane-e-la-n-9/,3,0.0333,200.0,200.0
+source,https://www.facebook.com/FreeToX,3,0.0333,200.0,200.0
+source,https://www.ilrestodelcarlino.it/cesena/cronaca/la-farmacia-tutta-rosa-ha-cambiato-la-sede-1.6086846,3,0.0333,200.0,200.0
 source,AUSL,2,0.0222,100.0,100.0
 source,Piano di Protezione Civile Castel San Pietro Terme,2,0.0222,100.0,100.0
 source,Provincia di Forlì-Cesena,2,0.0222,100.0,100.0
 source,Regione Emilia Romagna;Italia,2,0.0222,100.0,100.0
 source,US NGA Pub. 113. 2010-10-22.,2,0.0222,100.0,100.0
 source,UniBo;Comune di Bologna,2,0.0222,100.0,100.0
+source,geodati.gfoss.it,2,0.0222,100.0,100.0
 source,gps,2,0.0222,100.0,100.0
 source,http://vivere.comune.imola.bo.it/stradario/datistrada.cfm?wid=358,2,0.0222,100.0,100.0
 source,https://dfc.unibo.it/it/dipartimento/sedi-e-spazi/sedi,2,0.0222,100.0,100.0

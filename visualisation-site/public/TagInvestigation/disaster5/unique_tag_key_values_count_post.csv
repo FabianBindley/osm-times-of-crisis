@@ -21,304 +21,302 @@ amenity,public_building,1,1.0526,0.0,0.0
 amenity,shelter,1,1.0526,0.0,0.0
 amenity,shower,1,1.0526,0.0,0.0
 amenity,social_facility,1,1.0526,0.0,0.0
-building,yes,32973,99.6043,3297200.0,3297200.0
-building,construction,71,0.2145,7000.0,7000.0
-building,school,15,0.0453,1400.0,1400.0
-building,house,12,0.0362,1100.0,1100.0
-building,church,7,0.0211,600.0,600.0
-building,public,6,0.0181,500.0,500.0
-building,ruins,4,0.0121,300.0,300.0
+building,yes,32714,99.6072,3271300.0,3271300.0
+building,construction,70,0.2131,6900.0,6900.0
+building,school,15,0.0457,1400.0,1400.0
+building,house,12,0.0365,1100.0,1100.0
+building,church,6,0.0183,500.0,500.0
+building,public,6,0.0183,500.0,500.0
+building,ruins,4,0.0122,300.0,300.0
 building,commercial,3,0.0091,200.0,200.0
 building,retail,3,0.0091,200.0,200.0
-building,industrial,2,0.006,100.0,100.0
-building,service,2,0.006,100.0,100.0
-building,warehouse,2,0.006,100.0,100.0
+building,industrial,2,0.0061,100.0,100.0
+building,service,2,0.0061,100.0,100.0
+building,warehouse,2,0.0061,100.0,100.0
 building,abandoned,1,0.003,0.0,0.0
 building,hospital,1,0.003,0.0,0.0
 building,office,1,0.003,0.0,0.0
 building,shed,1,0.003,0.0,0.0
 emergency,yes,4,80.0,300.0,300.0
 emergency,no,1,20.0,0.0,0.0
-highway,unclassified,747,36.0174,74600.0,74600.0
-highway,residential,522,25.1688,52100.0,52100.0
-highway,track,353,17.0203,35200.0,35200.0
-highway,path,143,6.8949,14200.0,14200.0
-highway,tertiary,87,4.1948,8600.0,8600.0
-highway,primary,66,3.1823,6500.0,6500.0
-highway,service,55,2.6519,5400.0,5400.0
-highway,secondary,52,2.5072,5100.0,5100.0
-highway,footway,28,1.35,2700.0,2700.0
-highway,corridor,6,0.2893,500.0,500.0
-highway,pedestrian,6,0.2893,500.0,500.0
-highway,road,3,0.1446,200.0,200.0
-highway,street_lamp,2,0.0964,100.0,100.0
-highway,bus_stop,1,0.0482,0.0,0.0
-highway,crossing,1,0.0482,0.0,0.0
-highway,mini_roundabout,1,0.0482,0.0,0.0
-highway,motorway_junction,1,0.0482,0.0,0.0
-landuse,residential,132,84.0764,13100.0,13100.0
-landuse,farmland,14,8.9172,1300.0,1300.0
-landuse,forest,5,3.1847,400.0,400.0
-landuse,cemetery,3,1.9108,200.0,200.0
-landuse,commercial,1,0.6369,0.0,0.0
-landuse,construction,1,0.6369,0.0,0.0
-landuse,industrial,1,0.6369,0.0,0.0
+highway,unclassified,745,35.973,74400.0,74400.0
+highway,residential,521,25.1569,52000.0,52000.0
+highway,track,353,17.0449,35200.0,35200.0
+highway,path,143,6.9049,14200.0,14200.0
+highway,tertiary,87,4.2009,8600.0,8600.0
+highway,primary,66,3.1869,6500.0,6500.0
+highway,service,55,2.6557,5400.0,5400.0
+highway,secondary,52,2.5109,5100.0,5100.0
+highway,footway,28,1.352,2700.0,2700.0
+highway,corridor,6,0.2897,500.0,500.0
+highway,pedestrian,6,0.2897,500.0,500.0
+highway,road,3,0.1449,200.0,200.0
+highway,street_lamp,2,0.0966,100.0,100.0
+highway,bus_stop,1,0.0483,0.0,0.0
+highway,crossing,1,0.0483,0.0,0.0
+highway,mini_roundabout,1,0.0483,0.0,0.0
+highway,motorway_junction,1,0.0483,0.0,0.0
+landuse,residential,131,83.9744,13000.0,13000.0
+landuse,farmland,14,8.9744,1300.0,1300.0
+landuse,forest,5,3.2051,400.0,400.0
+landuse,cemetery,3,1.9231,200.0,200.0
+landuse,commercial,1,0.641,0.0,0.0
+landuse,construction,1,0.641,0.0,0.0
+landuse,industrial,1,0.641,0.0,0.0
 leisure,garden,4,50.0,300.0,300.0
 leisure,pitch,2,25.0,100.0,100.0
 leisure,park,1,12.5,0.0,0.0
 leisure,swimming_pool,1,12.5,0.0,0.0
-name,Route Nationale # 7,48,9.2664,4700.0,4700.0
-name,#DHL-AM #DHL #DHL21 #DHLCO,38,7.3359,3700.0,3700.0
-name,Route Nationale # 2,17,3.2819,1600.0,1600.0
-name,Route Départementale # 203,16,3.0888,1500.0,1500.0
-name,#DHL-AM #DHL #DHL21,14,2.7027,1300.0,1300.0
-name,RC14-Baptiste,14,2.7027,1300.0,1300.0
-name,Rivière Des Roseaux II,12,2.3166,1100.0,1100.0
-name,La Colline,8,1.5444,700.0,700.0
-name,Rivière Glace,8,1.5444,700.0,700.0
-name,Route de Simon,6,1.1583,500.0,500.0
-name,Route Brefete,5,0.9653,400.0,400.0
-name,Route Départementale # 205,5,0.9653,400.0,400.0
-name,house,5,0.9653,400.0,400.0
-name,Rivière de Cavaillon,4,0.7722,300.0,300.0
-name,Route Milord,4,0.7722,300.0,300.0
-name,Rue Normil Nasaire,4,0.7722,300.0,300.0
-name,Rue Saint Celia Pierre,4,0.7722,300.0,300.0
-name,Boulevard Fils Aimé,3,0.5792,200.0,200.0
-name,Boulevard Labondans,3,0.5792,200.0,200.0
-name,Carrefour Baptiste,3,0.5792,200.0,200.0
-name,Ducis Canal,3,0.5792,200.0,200.0
-name,Emile Roumer,3,0.5792,200.0,200.0
-name,Impasse Bontemps,3,0.5792,200.0,200.0
-name,Parc Macaya,3,0.5792,200.0,200.0
-name,Ravine du Sud,3,0.5792,200.0,200.0
-name,Rivière Opaque,3,0.5792,200.0,200.0
-name,Rivière Roucou,3,0.5792,200.0,200.0
-name,Rue des Pommes,3,0.5792,200.0,200.0
-name,Rue des enseignants,3,0.5792,200.0,200.0
-name,rue F Baptiste,3,0.5792,200.0,200.0
-name,rue Hortensius Etienne,3,0.5792,200.0,200.0
-name,American University of the Caribbean,2,0.3861,100.0,100.0
-name,Avenue des Quatre Chemins,2,0.3861,100.0,100.0
-name,Aéroport Antoine Simon des Cayes,2,0.3861,100.0,100.0
-name,Baptiste,2,0.3861,100.0,100.0
-name,Centale De Sante De Clanard,2,0.3861,100.0,100.0
-name,College Frere Fabian Caron,2,0.3861,100.0,100.0
-name,Collège Sainte Famille,2,0.3861,100.0,100.0
-name,Ecole Nationale Nouvelle,2,0.3861,100.0,100.0
-name,Eglise Adventiste,2,0.3861,100.0,100.0
-name,Gare Maritime des Cayes,2,0.3861,100.0,100.0
-name,Grosse Caye,2,0.3861,100.0,100.0
-name,Kafou,2,0.3861,100.0,100.0
-name,Kafou Lozandier,2,0.3861,100.0,100.0
-name,Kafou Madan Saïl,2,0.3861,100.0,100.0
-name,La Differance Bank,2,0.3861,100.0,100.0
-name,MSPP,2,0.3861,100.0,100.0
-name,Madam Doni Morris,2,0.3861,100.0,100.0
-name,Morne coma,2,0.3861,100.0,100.0
-name,Ravine Casse Cou,2,0.3861,100.0,100.0
-name,Rivière Carpentier,2,0.3861,100.0,100.0
-name,Rivière Froide,2,0.3861,100.0,100.0
-name,Rivière de L'Acul,2,0.3861,100.0,100.0
-name,Rivière des Anguilles,2,0.3861,100.0,100.0
-name,Roue Saint Victor,2,0.3861,100.0,100.0
-name,Route Bor de Mer,2,0.3861,100.0,100.0
-name,Route Champagne,2,0.3861,100.0,100.0
-name,Route Communale # 700B,2,0.3861,100.0,100.0
-name,Route Génésté,2,0.3861,100.0,100.0
-name,Route Lougou,2,0.3861,100.0,100.0
-name,Route Modèle-Ticoma,2,0.3861,100.0,100.0
-name,Route Nan Lundy,2,0.3861,100.0,100.0
-name,Route Ticoma,2,0.3861,100.0,100.0
-name,Route la Fresiliere,2,0.3861,100.0,100.0
-name,Rue Bortesse Sylvain,2,0.3861,100.0,100.0
-name,Rue Capitale,2,0.3861,100.0,100.0
-name,Rue Decius,2,0.3861,100.0,100.0
-name,Rue Plymouth,2,0.3861,100.0,100.0
-name,Rue Sylvio Claude,2,0.3861,100.0,100.0
-name,Rue Toussaint Louventure,2,0.3861,100.0,100.0
-name,Rue WIlson Policarpe,2,0.3861,100.0,100.0
-name,Rue du Café,2,0.3861,100.0,100.0
-name,road,2,0.3861,100.0,100.0
-name,rue Rosalie Auguste,2,0.3861,100.0,100.0
-name,(Projet) Commissariat de Beaumont,1,0.1931,0.0,0.0
-name,1ere Grande Rue,1,0.1931,0.0,0.0
-name,A,1,0.1931,0.0,0.0
-name,Administração Hospital Ofatma,1,0.1931,0.0,0.0
-name,Aly Studio Beauté,1,0.1931,0.0,0.0
-name,Ambulatório,1,0.1931,0.0,0.0
-name,Armazém da Farmácia,1,0.1931,0.0,0.0
-name,Armazém da Logística,1,0.1931,0.0,0.0
-name,Arniquet,1,0.1931,0.0,0.0
-name,Asheev Beach,1,0.1931,0.0,0.0
-name,Assortor,1,0.1931,0.0,0.0
-name,Avenue Cartgena,1,0.1931,0.0,0.0
-name,Avenue Sainte Agnès,1,0.1931,0.0,0.0
-name,Aéroport de Jérémie,1,0.1931,0.0,0.0
-name,Banio,1,0.1931,0.0,0.0
-name,Bassin Mahaut,1,0.1931,0.0,0.0
-name,Bon Berg Shop,1,0.1931,0.0,0.0
-name,Bon Jan van Ebenistery,1,0.1931,0.0,0.0
-name,Boulongerie,1,0.1931,0.0,0.0
-name,Boutique Boutique,1,0.1931,0.0,0.0
-name,Brouette,1,0.1931,0.0,0.0
-name,Building,1,0.1931,0.0,0.0
-name,COUD Jérémie,1,0.1931,0.0,0.0
-name,COUD Les Cayes,1,0.1931,0.0,0.0
-name,Ca Durand,1,0.1931,0.0,0.0
-name,Carrefour Seradòt,1,0.1931,0.0,0.0
-name,Centre Jhon Blair,1,0.1931,0.0,0.0
-name,Centre Medical Jana,1,0.1931,0.0,0.0
-name,Centre de Santé Port-à-Piment,1,0.1931,0.0,0.0
-name,Centre de transformation,1,0.1931,0.0,0.0
-name,Chez Marie,1,0.1931,0.0,0.0
-name,Christ Avan Guest House,1,0.1931,0.0,0.0
-name,Cité Casseus,1,0.1931,0.0,0.0
-name,Clllege Frere Fabian Caron,1,0.1931,0.0,0.0
-name,College Mixte Union Chretienne,1,0.1931,0.0,0.0
-name,College Modern De Science De Sud Maniche,1,0.1931,0.0,0.0
-name,Collège la Providence,1,0.1931,0.0,0.0
-name,Corridor Noelsius Alexis,1,0.1931,0.0,0.0
-name,DGI,1,0.1931,0.0,0.0
-name,De l'Eau Belloteste,1,0.1931,0.0,0.0
-name,Dessources,1,0.1931,0.0,0.0
-name,Dexia 6,1,0.1931,0.0,0.0
-name,Déchèterie Macédoine Jean Louis,1,0.1931,0.0,0.0
-name,Ecole A.J.E.D.E.C,1,0.1931,0.0,0.0
-name,Ecole De Saint,1,0.1931,0.0,0.0
-name,Ecole Lutherine,1,0.1931,0.0,0.0
-name,Ecole Normal De St.Fleurs,1,0.1931,0.0,0.0
-name,Eglise Baptist De Maniche,1,0.1931,0.0,0.0
-name,Eglise Baptiste De Maniche,1,0.1931,0.0,0.0
-name,Eglise Bethanie,1,0.1931,0.0,0.0
-name,Eglise De Christ De Prestige,1,0.1931,0.0,0.0
-name,Eglise De Dieu De Clanard,1,0.1931,0.0,0.0
-name,Eglise De Saint,1,0.1931,0.0,0.0
-name,Eglise Lutherine,1,0.1931,0.0,0.0
-name,Eglise Par la Foi de Canal,1,0.1931,0.0,0.0
-name,Eglise la Foi Apostolique,1,0.1931,0.0,0.0
-name,Electricité d'Haiti,1,0.1931,0.0,0.0
-name,Enterprise Funeral Sanitiere De Lima,1,0.1931,0.0,0.0
-name,Fondation Mesidor,1,0.1931,0.0,0.0
-name,Gare Maritime Madame Bernard,1,0.1931,0.0,0.0
-name,Gare Maritime de Kaykok,1,0.1931,0.0,0.0
-name,Ginoc Bar Resto,1,0.1931,0.0,0.0
-name,Grand Lakou Felissaint,1,0.1931,0.0,0.0
-name,Grande Cayemite,1,0.1931,0.0,0.0
-name,Gros Morne,1,0.1931,0.0,0.0
-name,Hector Bank,1,0.1931,0.0,0.0
-name,Hopital Lumière Bonne Fin,1,0.1931,0.0,0.0
-name,Hospital Ofatma,1,0.1931,0.0,0.0
-name,Hospital Pediátrico Médicos Sem Fronteiras.,1,0.1931,0.0,0.0
-name,Hôpital OFATMA,1,0.1931,0.0,0.0
-name,Impasse,1,0.1931,0.0,0.0
-name,Impasse Cimitère,1,0.1931,0.0,0.0
-name,Inazi Bar,1,0.1931,0.0,0.0
-name,Jesús Cristo,1,0.1931,0.0,0.0
-name,Kafou Sinno,1,0.1931,0.0,0.0
-name,L'Hôpital Communautaire PORT-SALUT,1,0.1931,0.0,0.0
-name,La Unique Super Net,1,0.1931,0.0,0.0
-name,Lavanderia do Hospital Ofatma,1,0.1931,0.0,0.0
-name,Le Prêtre,1,0.1931,0.0,0.0
-name,Losandieu,1,0.1931,0.0,0.0
-name,Loureau Shop,1,0.1931,0.0,0.0
-name,MSSP,1,0.1931,0.0,0.0
-name,Mairie De Maniche,1,0.1931,0.0,0.0
-name,Mairie de Camp-Perrin,1,0.1931,0.0,0.0
-name,Marché Valère,1,0.1931,0.0,0.0
-name,Masseillan,1,0.1931,0.0,0.0
-name,Maternidade Pré e Pós-parto,1,0.1931,0.0,0.0
-name,Mission Evangelique Baptist,1,0.1931,0.0,0.0
-name,Morne Fond Rouge,1,0.1931,0.0,0.0
-name,Mulette,1,0.1931,0.0,0.0
-name,Nan Jean-Pierre,1,0.1931,0.0,0.0
-name,Natcom,1,0.1931,0.0,0.0
-name,Neonatologia,1,0.1931,0.0,0.0
-name,Orphelinat Men Kontre,1,0.1931,0.0,0.0
-name,Paradise Tour,1,0.1931,0.0,0.0
-name,Pediatria,1,0.1931,0.0,0.0
-name,Peidatria,1,0.1931,0.0,0.0
-name,Pi Baptiste,1,0.1931,0.0,0.0
-name,Posto de enfermagem,1,0.1931,0.0,0.0
-name,Protestentist,1,0.1931,0.0,0.0
-name,RV-Technology,1,0.1931,0.0,0.0
-name,Rameshbabu,1,0.1931,0.0,0.0
-name,Ravine Citron,1,0.1931,0.0,0.0
-name,Ravine Dalest,1,0.1931,0.0,0.0
-name,Ravine Duclerc,1,0.1931,0.0,0.0
-name,Ravine Mercier,1,0.1931,0.0,0.0
-name,Ravine Sèche,1,0.1931,0.0,0.0
-name,Ringnin,1,0.1931,0.0,0.0
-name,Rivière Banc de Roche,1,0.1931,0.0,0.0
-name,Rivière Bonbon,1,0.1931,0.0,0.0
-name,Rivière Brossard,1,0.1931,0.0,0.0
-name,Rivière Guilloux,1,0.1931,0.0,0.0
-name,Rivière Houck,1,0.1931,0.0,0.0
-name,Rivière La Source,1,0.1931,0.0,0.0
-name,Rivière La Voldrogue,1,0.1931,0.0,0.0
-name,Rivière L’Islet,1,0.1931,0.0,0.0
-name,Rivière Mandou,1,0.1931,0.0,0.0
-name,Rivière Nan Cosse,1,0.1931,0.0,0.0
-name,Rivière Nan Pont,1,0.1931,0.0,0.0
-name,Rivière Vendribuche,1,0.1931,0.0,0.0
-name,Rivière des Abricots,1,0.1931,0.0,0.0
-name,Route Délinois,1,0.1931,0.0,0.0
-name,Route Lachicote,1,0.1931,0.0,0.0
-name,Route Modèle,1,0.1931,0.0,0.0
-name,Route Mélinette,1,0.1931,0.0,0.0
-name,Route Nan Félix,1,0.1931,0.0,0.0
-name,Route Nan Trankil,1,0.1931,0.0,0.0
-name,Route Sintout,1,0.1931,0.0,0.0
-name,Route de l’Aéroport,1,0.1931,0.0,0.0
-name,Rue 1,1,0.1931,0.0,0.0
-name,Rue Alexandre Petion,1,0.1931,0.0,0.0
-name,Rue Alexandre Pétion,1,0.1931,0.0,0.0
-name,Rue Borel Boisrond,1,0.1931,0.0,0.0
-name,Rue Canal,1,0.1931,0.0,0.0
-name,Rue Chateaudin,1,0.1931,0.0,0.0
-name,Rue Christnel Damis,1,0.1931,0.0,0.0
-name,Rue D'Amant,1,0.1931,0.0,0.0
-name,Rue D. Saint Preux,1,0.1931,0.0,0.0
-name,Rue Débauchée II,1,0.1931,0.0,0.0
-name,Rue Faveau,1,0.1931,0.0,0.0
-name,Rue General Marion,1,0.1931,0.0,0.0
-name,Rue Goman,1,0.1931,0.0,0.0
-name,Rue Julien Raymond,1,0.1931,0.0,0.0
-name,Rue Macaya,1,0.1931,0.0,0.0
-name,Rue Mirand,1,0.1931,0.0,0.0
-name,Rue Modèle,1,0.1931,0.0,0.0
-name,Rue Nouvelle Jerusalem,1,0.1931,0.0,0.0
-name,Rue Radou 2,1,0.1931,0.0,0.0
-name,Rue SOO,1,0.1931,0.0,0.0
-name,Rue Saint François,1,0.1931,0.0,0.0
-name,Rue Saint Michel,1,0.1931,0.0,0.0
-name,Rue Toussaint Louverture,1,0.1931,0.0,0.0
-name,Rue Wilson Nazaire,1,0.1931,0.0,0.0
-name,Rue de l'Égalité,1,0.1931,0.0,0.0
-name,Ruelle Concorde,1,0.1931,0.0,0.0
-name,S.I.N.E.F.A,1,0.1931,0.0,0.0
-name,SANATORIUM DES CAYES,1,0.1931,0.0,0.0
-name,Sala de Espera,1,0.1931,0.0,0.0
-name,Sala de Isolamento,1,0.1931,0.0,0.0
-name,Sala de isolamento,1,0.1931,0.0,0.0
-name,Sala de partos,1,0.1931,0.0,0.0
-name,Salle d'Urgence,1,0.1931,0.0,0.0
-name,Sanatorium,1,0.1931,0.0,0.0
-name,Shop Don De Dieu,1,0.1931,0.0,0.0
-name,Shop Eternel R Grand,1,0.1931,0.0,0.0
-name,Team Pepsi,1,0.1931,0.0,0.0
-name,Terapia nutricional,1,0.1931,0.0,0.0
-name,Trou Grosse Pierre,1,0.1931,0.0,0.0
-name,UNICEF - Nações Unidas,1,0.1931,0.0,0.0
-name,administração Hospital Sanatorium,1,0.1931,0.0,0.0
-name,cacoune bar boutique,1,0.1931,0.0,0.0
-name,corridor Gaguerre,1,0.1931,0.0,0.0
-name,route mineure,1,0.1931,0.0,0.0
-name,rue Dieurena-Nazaire,1,0.1931,0.0,0.0
-name,rue Disciple Jean Pierre,1,0.1931,0.0,0.0
-name,unknown,1,0.1931,0.0,0.0
-name,Étang Droite,1,0.1931,0.0,0.0
-name,Île Corny,1,0.1931,0.0,0.0
+name,Route Nationale # 7,48,9.3023,4700.0,4700.0
+name,#DHL-AM #DHL #DHL21 #DHLCO,38,7.3643,3700.0,3700.0
+name,Route Nationale # 2,17,3.2946,1600.0,1600.0
+name,Route Départementale # 203,16,3.1008,1500.0,1500.0
+name,#DHL-AM #DHL #DHL21,14,2.7132,1300.0,1300.0
+name,RC14-Baptiste,14,2.7132,1300.0,1300.0
+name,Rivière Des Roseaux II,12,2.3256,1100.0,1100.0
+name,La Colline,8,1.5504,700.0,700.0
+name,Rivière Glace,8,1.5504,700.0,700.0
+name,Route de Simon,6,1.1628,500.0,500.0
+name,Route Brefete,5,0.969,400.0,400.0
+name,Route Départementale # 205,5,0.969,400.0,400.0
+name,house,5,0.969,400.0,400.0
+name,Rivière de Cavaillon,4,0.7752,300.0,300.0
+name,Route Milord,4,0.7752,300.0,300.0
+name,Rue Normil Nasaire,4,0.7752,300.0,300.0
+name,Rue Saint Celia Pierre,4,0.7752,300.0,300.0
+name,Boulevard Fils Aimé,3,0.5814,200.0,200.0
+name,Boulevard Labondans,3,0.5814,200.0,200.0
+name,Carrefour Baptiste,3,0.5814,200.0,200.0
+name,Ducis Canal,3,0.5814,200.0,200.0
+name,Emile Roumer,3,0.5814,200.0,200.0
+name,Impasse Bontemps,3,0.5814,200.0,200.0
+name,Parc Macaya,3,0.5814,200.0,200.0
+name,Ravine du Sud,3,0.5814,200.0,200.0
+name,Rivière Opaque,3,0.5814,200.0,200.0
+name,Rivière Roucou,3,0.5814,200.0,200.0
+name,Rue des Pommes,3,0.5814,200.0,200.0
+name,Rue des enseignants,3,0.5814,200.0,200.0
+name,rue F Baptiste,3,0.5814,200.0,200.0
+name,rue Hortensius Etienne,3,0.5814,200.0,200.0
+name,American University of the Caribbean,2,0.3876,100.0,100.0
+name,Avenue des Quatre Chemins,2,0.3876,100.0,100.0
+name,Aéroport Antoine Simon des Cayes,2,0.3876,100.0,100.0
+name,Baptiste,2,0.3876,100.0,100.0
+name,Centale De Sante De Clanard,2,0.3876,100.0,100.0
+name,College Frere Fabian Caron,2,0.3876,100.0,100.0
+name,Collège Sainte Famille,2,0.3876,100.0,100.0
+name,Ecole Nationale Nouvelle,2,0.3876,100.0,100.0
+name,Eglise Adventiste,2,0.3876,100.0,100.0
+name,Gare Maritime des Cayes,2,0.3876,100.0,100.0
+name,Grosse Caye,2,0.3876,100.0,100.0
+name,Kafou,2,0.3876,100.0,100.0
+name,Kafou Lozandier,2,0.3876,100.0,100.0
+name,Kafou Madan Saïl,2,0.3876,100.0,100.0
+name,La Differance Bank,2,0.3876,100.0,100.0
+name,MSPP,2,0.3876,100.0,100.0
+name,Madam Doni Morris,2,0.3876,100.0,100.0
+name,Morne coma,2,0.3876,100.0,100.0
+name,Ravine Casse Cou,2,0.3876,100.0,100.0
+name,Rivière Carpentier,2,0.3876,100.0,100.0
+name,Rivière Froide,2,0.3876,100.0,100.0
+name,Rivière de L'Acul,2,0.3876,100.0,100.0
+name,Rivière des Anguilles,2,0.3876,100.0,100.0
+name,Roue Saint Victor,2,0.3876,100.0,100.0
+name,Route Bor de Mer,2,0.3876,100.0,100.0
+name,Route Champagne,2,0.3876,100.0,100.0
+name,Route Communale # 700B,2,0.3876,100.0,100.0
+name,Route Génésté,2,0.3876,100.0,100.0
+name,Route Lougou,2,0.3876,100.0,100.0
+name,Route Modèle-Ticoma,2,0.3876,100.0,100.0
+name,Route Nan Lundy,2,0.3876,100.0,100.0
+name,Route Ticoma,2,0.3876,100.0,100.0
+name,Route la Fresiliere,2,0.3876,100.0,100.0
+name,Rue Bortesse Sylvain,2,0.3876,100.0,100.0
+name,Rue Capitale,2,0.3876,100.0,100.0
+name,Rue Decius,2,0.3876,100.0,100.0
+name,Rue Plymouth,2,0.3876,100.0,100.0
+name,Rue Sylvio Claude,2,0.3876,100.0,100.0
+name,Rue Toussaint Louventure,2,0.3876,100.0,100.0
+name,Rue WIlson Policarpe,2,0.3876,100.0,100.0
+name,Rue du Café,2,0.3876,100.0,100.0
+name,road,2,0.3876,100.0,100.0
+name,rue Rosalie Auguste,2,0.3876,100.0,100.0
+name,(Projet) Commissariat de Beaumont,1,0.1938,0.0,0.0
+name,1ere Grande Rue,1,0.1938,0.0,0.0
+name,A,1,0.1938,0.0,0.0
+name,Administração Hospital Ofatma,1,0.1938,0.0,0.0
+name,Aly Studio Beauté,1,0.1938,0.0,0.0
+name,Ambulatório,1,0.1938,0.0,0.0
+name,Armazém da Farmácia,1,0.1938,0.0,0.0
+name,Armazém da Logística,1,0.1938,0.0,0.0
+name,Arniquet,1,0.1938,0.0,0.0
+name,Asheev Beach,1,0.1938,0.0,0.0
+name,Assortor,1,0.1938,0.0,0.0
+name,Avenue Cartgena,1,0.1938,0.0,0.0
+name,Avenue Sainte Agnès,1,0.1938,0.0,0.0
+name,Aéroport de Jérémie,1,0.1938,0.0,0.0
+name,Banio,1,0.1938,0.0,0.0
+name,Bassin Mahaut,1,0.1938,0.0,0.0
+name,Bon Berg Shop,1,0.1938,0.0,0.0
+name,Bon Jan van Ebenistery,1,0.1938,0.0,0.0
+name,Boulongerie,1,0.1938,0.0,0.0
+name,Boutique Boutique,1,0.1938,0.0,0.0
+name,Brouette,1,0.1938,0.0,0.0
+name,Building,1,0.1938,0.0,0.0
+name,COUD Jérémie,1,0.1938,0.0,0.0
+name,COUD Les Cayes,1,0.1938,0.0,0.0
+name,Ca Durand,1,0.1938,0.0,0.0
+name,Carrefour Seradòt,1,0.1938,0.0,0.0
+name,Centre Jhon Blair,1,0.1938,0.0,0.0
+name,Centre Medical Jana,1,0.1938,0.0,0.0
+name,Centre de Santé Port-à-Piment,1,0.1938,0.0,0.0
+name,Centre de transformation,1,0.1938,0.0,0.0
+name,Chez Marie,1,0.1938,0.0,0.0
+name,Christ Avan Guest House,1,0.1938,0.0,0.0
+name,Cité Casseus,1,0.1938,0.0,0.0
+name,Clllege Frere Fabian Caron,1,0.1938,0.0,0.0
+name,College Mixte Union Chretienne,1,0.1938,0.0,0.0
+name,College Modern De Science De Sud Maniche,1,0.1938,0.0,0.0
+name,Collège la Providence,1,0.1938,0.0,0.0
+name,Corridor Noelsius Alexis,1,0.1938,0.0,0.0
+name,DGI,1,0.1938,0.0,0.0
+name,De l'Eau Belloteste,1,0.1938,0.0,0.0
+name,Dessources,1,0.1938,0.0,0.0
+name,Dexia 6,1,0.1938,0.0,0.0
+name,Déchèterie Macédoine Jean Louis,1,0.1938,0.0,0.0
+name,Ecole A.J.E.D.E.C,1,0.1938,0.0,0.0
+name,Ecole De Saint,1,0.1938,0.0,0.0
+name,Ecole Lutherine,1,0.1938,0.0,0.0
+name,Ecole Normal De St.Fleurs,1,0.1938,0.0,0.0
+name,Eglise Baptist De Maniche,1,0.1938,0.0,0.0
+name,Eglise Baptiste De Maniche,1,0.1938,0.0,0.0
+name,Eglise Bethanie,1,0.1938,0.0,0.0
+name,Eglise De Christ De Prestige,1,0.1938,0.0,0.0
+name,Eglise De Dieu De Clanard,1,0.1938,0.0,0.0
+name,Eglise De Saint,1,0.1938,0.0,0.0
+name,Eglise Lutherine,1,0.1938,0.0,0.0
+name,Eglise Par la Foi de Canal,1,0.1938,0.0,0.0
+name,Eglise la Foi Apostolique,1,0.1938,0.0,0.0
+name,Electricité d'Haiti,1,0.1938,0.0,0.0
+name,Enterprise Funeral Sanitiere De Lima,1,0.1938,0.0,0.0
+name,Fondation Mesidor,1,0.1938,0.0,0.0
+name,Gare Maritime Madame Bernard,1,0.1938,0.0,0.0
+name,Gare Maritime de Kaykok,1,0.1938,0.0,0.0
+name,Ginoc Bar Resto,1,0.1938,0.0,0.0
+name,Grand Lakou Felissaint,1,0.1938,0.0,0.0
+name,Grande Cayemite,1,0.1938,0.0,0.0
+name,Gros Morne,1,0.1938,0.0,0.0
+name,Hector Bank,1,0.1938,0.0,0.0
+name,Hopital Lumière Bonne Fin,1,0.1938,0.0,0.0
+name,Hospital Ofatma,1,0.1938,0.0,0.0
+name,Hospital Pediátrico Médicos Sem Fronteiras.,1,0.1938,0.0,0.0
+name,Hôpital OFATMA,1,0.1938,0.0,0.0
+name,Impasse,1,0.1938,0.0,0.0
+name,Impasse Cimitère,1,0.1938,0.0,0.0
+name,Inazi Bar,1,0.1938,0.0,0.0
+name,Jesús Cristo,1,0.1938,0.0,0.0
+name,Kafou Sinno,1,0.1938,0.0,0.0
+name,L'Hôpital Communautaire PORT-SALUT,1,0.1938,0.0,0.0
+name,La Unique Super Net,1,0.1938,0.0,0.0
+name,Lavanderia do Hospital Ofatma,1,0.1938,0.0,0.0
+name,Le Prêtre,1,0.1938,0.0,0.0
+name,Losandieu,1,0.1938,0.0,0.0
+name,Loureau Shop,1,0.1938,0.0,0.0
+name,MSSP,1,0.1938,0.0,0.0
+name,Mairie De Maniche,1,0.1938,0.0,0.0
+name,Mairie de Camp-Perrin,1,0.1938,0.0,0.0
+name,Marché Valère,1,0.1938,0.0,0.0
+name,Masseillan,1,0.1938,0.0,0.0
+name,Maternidade Pré e Pós-parto,1,0.1938,0.0,0.0
+name,Mission Evangelique Baptist,1,0.1938,0.0,0.0
+name,Morne Fond Rouge,1,0.1938,0.0,0.0
+name,Mulette,1,0.1938,0.0,0.0
+name,Nan Jean-Pierre,1,0.1938,0.0,0.0
+name,Natcom,1,0.1938,0.0,0.0
+name,Neonatologia,1,0.1938,0.0,0.0
+name,Orphelinat Men Kontre,1,0.1938,0.0,0.0
+name,Paradise Tour,1,0.1938,0.0,0.0
+name,Pediatria,1,0.1938,0.0,0.0
+name,Peidatria,1,0.1938,0.0,0.0
+name,Pi Baptiste,1,0.1938,0.0,0.0
+name,Posto de enfermagem,1,0.1938,0.0,0.0
+name,Protestentist,1,0.1938,0.0,0.0
+name,RV-Technology,1,0.1938,0.0,0.0
+name,Rameshbabu,1,0.1938,0.0,0.0
+name,Ravine Citron,1,0.1938,0.0,0.0
+name,Ravine Dalest,1,0.1938,0.0,0.0
+name,Ravine Duclerc,1,0.1938,0.0,0.0
+name,Ravine Mercier,1,0.1938,0.0,0.0
+name,Ravine Sèche,1,0.1938,0.0,0.0
+name,Ringnin,1,0.1938,0.0,0.0
+name,Rivière Banc de Roche,1,0.1938,0.0,0.0
+name,Rivière Bonbon,1,0.1938,0.0,0.0
+name,Rivière Brossard,1,0.1938,0.0,0.0
+name,Rivière Guilloux,1,0.1938,0.0,0.0
+name,Rivière Houck,1,0.1938,0.0,0.0
+name,Rivière La Source,1,0.1938,0.0,0.0
+name,Rivière La Voldrogue,1,0.1938,0.0,0.0
+name,Rivière L’Islet,1,0.1938,0.0,0.0
+name,Rivière Mandou,1,0.1938,0.0,0.0
+name,Rivière Nan Cosse,1,0.1938,0.0,0.0
+name,Rivière Nan Pont,1,0.1938,0.0,0.0
+name,Rivière Vendribuche,1,0.1938,0.0,0.0
+name,Rivière des Abricots,1,0.1938,0.0,0.0
+name,Route Délinois,1,0.1938,0.0,0.0
+name,Route Lachicote,1,0.1938,0.0,0.0
+name,Route Modèle,1,0.1938,0.0,0.0
+name,Route Mélinette,1,0.1938,0.0,0.0
+name,Route Nan Félix,1,0.1938,0.0,0.0
+name,Route Nan Trankil,1,0.1938,0.0,0.0
+name,Route Sintout,1,0.1938,0.0,0.0
+name,Route de l’Aéroport,1,0.1938,0.0,0.0
+name,Rue 1,1,0.1938,0.0,0.0
+name,Rue Alexandre Petion,1,0.1938,0.0,0.0
+name,Rue Alexandre Pétion,1,0.1938,0.0,0.0
+name,Rue Borel Boisrond,1,0.1938,0.0,0.0
+name,Rue Canal,1,0.1938,0.0,0.0
+name,Rue Chateaudin,1,0.1938,0.0,0.0
+name,Rue Christnel Damis,1,0.1938,0.0,0.0
+name,Rue D'Amant,1,0.1938,0.0,0.0
+name,Rue D. Saint Preux,1,0.1938,0.0,0.0
+name,Rue Débauchée II,1,0.1938,0.0,0.0
+name,Rue Faveau,1,0.1938,0.0,0.0
+name,Rue General Marion,1,0.1938,0.0,0.0
+name,Rue Goman,1,0.1938,0.0,0.0
+name,Rue Julien Raymond,1,0.1938,0.0,0.0
+name,Rue Macaya,1,0.1938,0.0,0.0
+name,Rue Mirand,1,0.1938,0.0,0.0
+name,Rue Modèle,1,0.1938,0.0,0.0
+name,Rue Nouvelle Jerusalem,1,0.1938,0.0,0.0
+name,Rue Radou 2,1,0.1938,0.0,0.0
+name,Rue SOO,1,0.1938,0.0,0.0
+name,Rue Saint François,1,0.1938,0.0,0.0
+name,Rue Saint Michel,1,0.1938,0.0,0.0
+name,Rue Toussaint Louverture,1,0.1938,0.0,0.0
+name,Rue de l'Égalité,1,0.1938,0.0,0.0
+name,Ruelle Concorde,1,0.1938,0.0,0.0
+name,S.I.N.E.F.A,1,0.1938,0.0,0.0
+name,SANATORIUM DES CAYES,1,0.1938,0.0,0.0
+name,Sala de Espera,1,0.1938,0.0,0.0
+name,Sala de Isolamento,1,0.1938,0.0,0.0
+name,Sala de isolamento,1,0.1938,0.0,0.0
+name,Sala de partos,1,0.1938,0.0,0.0
+name,Salle d'Urgence,1,0.1938,0.0,0.0
+name,Sanatorium,1,0.1938,0.0,0.0
+name,Shop Don De Dieu,1,0.1938,0.0,0.0
+name,Shop Eternel R Grand,1,0.1938,0.0,0.0
+name,Team Pepsi,1,0.1938,0.0,0.0
+name,Terapia nutricional,1,0.1938,0.0,0.0
+name,Trou Grosse Pierre,1,0.1938,0.0,0.0
+name,UNICEF - Nações Unidas,1,0.1938,0.0,0.0
+name,administração Hospital Sanatorium,1,0.1938,0.0,0.0
+name,cacoune bar boutique,1,0.1938,0.0,0.0
+name,corridor Gaguerre,1,0.1938,0.0,0.0
+name,route mineure,1,0.1938,0.0,0.0
+name,rue Dieurena-Nazaire,1,0.1938,0.0,0.0
+name,unknown,1,0.1938,0.0,0.0
+name,Étang Droite,1,0.1938,0.0,0.0
+name,Île Corny,1,0.1938,0.0,0.0
 natural,tree,23,41.8182,2200.0,2200.0
 natural,water,15,27.2727,1400.0,1400.0
 natural,wood,5,9.0909,400.0,400.0
@@ -328,74 +326,74 @@ natural,fell,2,3.6364,100.0,100.0
 natural,peak,2,3.6364,100.0,100.0
 natural,bay,1,1.8182,0.0,0.0
 natural,spring,1,1.8182,0.0,0.0
-source,bing,355,30.6828,35400.0,35400.0
-source,Bing,163,14.0882,16200.0,16200.0
-source,mapbox:ortho,136,11.7545,13500.0,13500.0
-source,GeoEye,99,8.5566,9800.0,9800.0
-source,bing:ortho,62,5.3587,6100.0,6100.0
-source,survey,52,4.4944,5100.0,5100.0
-source,ikonos/geoeye,38,3.2844,3700.0,3700.0
-source,digitalglobe,29,2.5065,2800.0,2800.0
-source,AFH_ survey,26,2.2472,2500.0,2500.0
-source,Ikonos 01-17,25,2.1608,2400.0,2400.0
-source,"Ikonos, GeoEye, 2010-01-15",20,1.7286,1900.0,1900.0
-source,hot_iom_cosmha,15,1.2965,1400.0,1400.0
-source,Ikonos 01-17/GeoEye,12,1.0372,1100.0,1100.0
-source,"Ikonos, GeoEye, 2010-01-17",10,0.8643,900.0,900.0
-source,MINUSTAH GIS and UN Cartographic Section,10,0.8643,900.0,900.0
-source,DigialGlobe,8,0.6914,700.0,700.0
-source,Defense Mapping Agency (United States),7,0.605,600.0,600.0
-source,DigitalGlobe,6,0.5186,500.0,500.0
-source,GeoEye;MINUSTAH GIS and UN Cartographic Section,6,0.5186,500.0,500.0
-source,CIA TLM 50,5,0.4322,400.0,400.0
-source,digitalglobe;GeoEye,5,0.4322,400.0,400.0
-source,maps.nypl.org/relief/maps/warp/18,5,0.4322,400.0,400.0
-source,Bing; GPS trace; survey,4,0.3457,300.0,300.0
-source,Mairie de Beaumont,4,0.3457,300.0,300.0
-source,Mapbox Satellite,4,0.3457,300.0,300.0
-source,Maxar P,4,0.3457,300.0,300.0
-source,knowledge,4,0.3457,300.0,300.0
-source,"GeoEye, Bing",3,0.2593,200.0,200.0
-source,bing;Ikonos 01-17,3,0.2593,200.0,200.0
-source,AFH_survey,2,0.1729,100.0,100.0
-source,Bing with offset,2,0.1729,100.0,100.0
-source,CIA maps,2,0.1729,100.0,100.0
-source,Digital Globe Maps API,2,0.1729,100.0,100.0
-source,"DigitalGlobe, 2010",2,0.1729,100.0,100.0
-source,GeoEye;DigitalGlobe,2,0.1729,100.0,100.0
-source,GeoEye;ikonos/geoeye,2,0.1729,100.0,100.0
-source,Landsat,2,0.1729,100.0,100.0
-source,"UAV orthomosaic Potentiel 3.0 and SPOT6 imagery Airbus DS, Oct. 2016",2,0.1729,100.0,100.0
-source,ikonos/geoeye;bing,2,0.1729,100.0,100.0
-source,Bing 2011,1,0.0864,0.0,0.0
-source,Bing;ikonos/geoeye,1,0.0864,0.0,0.0
-source,Bing_GPS,1,0.0864,0.0,0.0
-source,"Ikonos, GeoEye, date 2010-01-14",1,0.0864,0.0,0.0
-source,Mairie de Delmas,1,0.0864,0.0,0.0
-source,Yahoo;CIA maps,1,0.0864,0.0,0.0
-source,bing:ortho;GeoEye,1,0.0864,0.0,0.0
-source,bing;survey,1,0.0864,0.0,0.0
-source,"digitalglobe;DigitalGlobe, 2010",1,0.0864,0.0,0.0
-source,haiti tranasportation map ftp://haiti:Rkjpb7uef@157.150.195.135/Maps/Country%20wide/M2K5MOVV0801HAT40R_60X42.pdf,1,0.0864,0.0,0.0
-source,hot_cosmha; Bing,1,0.0864,0.0,0.0
-source,http://hypercube.telascience.org/tiles/1.0.0/geoeye-ikonos-20100115-900913/!/!/!.jpg,1,0.0864,0.0,0.0
-source,http://hypercube.telascience.org/tiles/1.0.0/haiti-tlm-50/!/!/!.jpg,1,0.0864,0.0,0.0
-source,local_knowledge;ikonos/geoeye,1,0.0864,0.0,0.0
-source,local_knowlegde,1,0.0864,0.0,0.0
-source,survey; Bing,1,0.0864,0.0,0.0
-source,yes,1,0.0864,0.0,0.0
-surface,unpaved,149,48.6928,14800.0,14800.0
-surface,paved,33,10.7843,3200.0,3200.0
-surface,gravel,32,10.4575,3100.0,3100.0
-surface,ground,29,9.4771,2800.0,2800.0
-surface,asphalt,21,6.8627,2000.0,2000.0
-surface,dirt,19,6.2092,1800.0,1800.0
-surface,concrete,13,4.2484,1200.0,1200.0
-surface,sand,3,0.9804,200.0,200.0
-surface,compacted,2,0.6536,100.0,100.0
-surface,concrete:plates,2,0.6536,100.0,100.0
-surface,grass,2,0.6536,100.0,100.0
-surface,mud,1,0.3268,0.0,0.0
+source,bing,332,29.3286,33100.0,33100.0
+source,Bing,161,14.2226,16000.0,16000.0
+source,mapbox:ortho,136,12.0141,13500.0,13500.0
+source,GeoEye,99,8.7456,9800.0,9800.0
+source,bing:ortho,62,5.477,6100.0,6100.0
+source,survey,52,4.5936,5100.0,5100.0
+source,ikonos/geoeye,38,3.3569,3700.0,3700.0
+source,digitalglobe,29,2.5618,2800.0,2800.0
+source,AFH_ survey,26,2.2968,2500.0,2500.0
+source,Ikonos 01-17,25,2.2085,2400.0,2400.0
+source,"Ikonos, GeoEye, 2010-01-15",20,1.7668,1900.0,1900.0
+source,hot_iom_cosmha,15,1.3251,1400.0,1400.0
+source,Ikonos 01-17/GeoEye,12,1.0601,1100.0,1100.0
+source,"Ikonos, GeoEye, 2010-01-17",10,0.8834,900.0,900.0
+source,MINUSTAH GIS and UN Cartographic Section,10,0.8834,900.0,900.0
+source,DigialGlobe,8,0.7067,700.0,700.0
+source,Defense Mapping Agency (United States),7,0.6184,600.0,600.0
+source,DigitalGlobe,6,0.53,500.0,500.0
+source,GeoEye;MINUSTAH GIS and UN Cartographic Section,6,0.53,500.0,500.0
+source,CIA TLM 50,5,0.4417,400.0,400.0
+source,digitalglobe;GeoEye,5,0.4417,400.0,400.0
+source,maps.nypl.org/relief/maps/warp/18,5,0.4417,400.0,400.0
+source,Bing; GPS trace; survey,4,0.3534,300.0,300.0
+source,Mairie de Beaumont,4,0.3534,300.0,300.0
+source,Mapbox Satellite,4,0.3534,300.0,300.0
+source,Maxar P,4,0.3534,300.0,300.0
+source,knowledge,4,0.3534,300.0,300.0
+source,"GeoEye, Bing",3,0.265,200.0,200.0
+source,bing;Ikonos 01-17,3,0.265,200.0,200.0
+source,AFH_survey,2,0.1767,100.0,100.0
+source,Bing with offset,2,0.1767,100.0,100.0
+source,CIA maps,2,0.1767,100.0,100.0
+source,Digital Globe Maps API,2,0.1767,100.0,100.0
+source,"DigitalGlobe, 2010",2,0.1767,100.0,100.0
+source,GeoEye;DigitalGlobe,2,0.1767,100.0,100.0
+source,GeoEye;ikonos/geoeye,2,0.1767,100.0,100.0
+source,Landsat,2,0.1767,100.0,100.0
+source,"UAV orthomosaic Potentiel 3.0 and SPOT6 imagery Airbus DS, Oct. 2016",2,0.1767,100.0,100.0
+source,ikonos/geoeye;bing,2,0.1767,100.0,100.0
+source,Bing 2011,1,0.0883,0.0,0.0
+source,Bing;ikonos/geoeye,1,0.0883,0.0,0.0
+source,Bing_GPS,1,0.0883,0.0,0.0
+source,"Ikonos, GeoEye, date 2010-01-14",1,0.0883,0.0,0.0
+source,Mairie de Delmas,1,0.0883,0.0,0.0
+source,Yahoo;CIA maps,1,0.0883,0.0,0.0
+source,bing:ortho;GeoEye,1,0.0883,0.0,0.0
+source,bing;survey,1,0.0883,0.0,0.0
+source,"digitalglobe;DigitalGlobe, 2010",1,0.0883,0.0,0.0
+source,haiti tranasportation map ftp://haiti:Rkjpb7uef@157.150.195.135/Maps/Country%20wide/M2K5MOVV0801HAT40R_60X42.pdf,1,0.0883,0.0,0.0
+source,hot_cosmha; Bing,1,0.0883,0.0,0.0
+source,http://hypercube.telascience.org/tiles/1.0.0/geoeye-ikonos-20100115-900913/!/!/!.jpg,1,0.0883,0.0,0.0
+source,http://hypercube.telascience.org/tiles/1.0.0/haiti-tlm-50/!/!/!.jpg,1,0.0883,0.0,0.0
+source,local_knowledge;ikonos/geoeye,1,0.0883,0.0,0.0
+source,local_knowlegde,1,0.0883,0.0,0.0
+source,survey; Bing,1,0.0883,0.0,0.0
+source,yes,1,0.0883,0.0,0.0
+surface,unpaved,149,48.8525,14800.0,14800.0
+surface,paved,33,10.8197,3200.0,3200.0
+surface,gravel,32,10.4918,3100.0,3100.0
+surface,ground,29,9.5082,2800.0,2800.0
+surface,asphalt,21,6.8852,2000.0,2000.0
+surface,dirt,18,5.9016,1700.0,1700.0
+surface,concrete,13,4.2623,1200.0,1200.0
+surface,sand,3,0.9836,200.0,200.0
+surface,compacted,2,0.6557,100.0,100.0
+surface,concrete:plates,2,0.6557,100.0,100.0
+surface,grass,2,0.6557,100.0,100.0
+surface,mud,1,0.3279,0.0,0.0
 waterway,stream,110,64.7059,10900.0,10900.0
 waterway,river,50,29.4118,4900.0,4900.0
 waterway,canal,4,2.3529,300.0,300.0
