@@ -11,6 +11,7 @@ import Tags from "./Tags";
 import TagCorrelation from "./TagCorrelation"
 import About from "./About";
 import GeneralStatistics from "./GeneralSatistics";
+import NotFound from "./NotFound";
 
 
 function App() {
@@ -26,13 +27,28 @@ function AppContent() {
   const navigate = useNavigate();
   const location = useLocation();
 
-  // Extract the current tab from the URL (removing the leading `/`)
   const currentPath = location.pathname.substring(1) || "about";
+
+  const validTabs = [
+    "generalStatistics",
+    "changeCounting",
+    "changeDensityMapping",
+    "tagWordCloud",
+    "tagCorrelation",
+    "about",
+  ];
+
+
+  const isValidTab = validTabs.includes(currentPath);
 
   const [currentTab, setCurrentTab] = useState(localStorage.getItem("currentTab") ? localStorage.getItem("currentTab") : "about");
 
   useEffect(() => {
-    setCurrentTab(currentPath); // Sync tab with URL path
+    if (isValidTab) {
+      setCurrentTab(currentPath); 
+    } else {
+      setCurrentTab("404"); 
+    }
   }, [currentPath]);
 
   // Handle menu click
@@ -48,7 +64,7 @@ function AppContent() {
         Visualising OSM crowdsourcing behaviour during natural disasters
       </h1>
       
-      {/* Ant Design Menu */}
+
       <Menu
         onClick={handleMenuClick}
         selectedKeys={[currentTab]}
@@ -71,6 +87,7 @@ function AppContent() {
         {currentTab === "tagWordCloud" && <Tags />}
         {currentTab === "tagCorrelation" && <TagCorrelation />}
         {currentTab === "about" && <About />}
+        {currentTab === "404" && <NotFound />}
       </div>
     </div>
   );

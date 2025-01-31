@@ -1,0 +1,25 @@
+{
+    "rewrites": [
+      {
+        "source": "/api/(.*)", 
+        "destination": "/api/$1"
+      },
+      {
+        "source": "/static/(.*)", 
+        "destination": "/static/$1"
+      },
+      {
+        "source": "/(.*)", 
+        "has": [{ "type": "missing", "value": "index.html" }],
+        "destination": "/index.html"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "status": 404,
+        "dest": "/404.html"
+      }
+    ]
+  }
+  

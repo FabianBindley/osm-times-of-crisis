@@ -176,6 +176,11 @@ def train_forecast_prophet(disaster_id, pre_disaster_days, imm_disaster_days, po
     ]
 
     # Exclude shocks
+    if disaster_id == 4:   
+        pre_disaster_counts_df = pre_disaster_counts_df[
+            ~(('2019-05-01' <= pre_disaster_counts_df['ds']) & (pre_disaster_counts_df['ds'] <= '2019-07-01'))
+        ]
+
     if disaster_id == 5:   
         pre_disaster_counts_df = pre_disaster_counts_df[
             ~(('2019-01-01' <= pre_disaster_counts_df['ds']) & (pre_disaster_counts_df['ds'] <= '2019-05-01'))
@@ -281,11 +286,12 @@ def evaluate_prophet_model_forecasts(models,  disaster_id, pre_disaster_days, im
     mape = {}
     for column in ["creates", "edits", "deletes", "total"]:
         mae[column] = np.mean(np.abs(predictions_df[column] - counts_df[column]))
-        mape[column] = np.mean(np.abs((predictions_df[column] - counts_df[column]) / counts_df[column])) * 100
+        mape[column] = np.mean(np.abs((predictions_df[column] - counts_df[column]) / counts_df[column].replace(0, 1))) * 100
 
     mae_row = pd.DataFrame(mae, index=["mae"])
     mape_row = pd.DataFrame(mape, index=["mape"])
     predictions_with_errors_df = pd.concat([mae_row, mape_row], ignore_index=False)
+    print(predictions_with_errors_df)
 
     # Save the DataFrame with MAE and MAPE values
     predictions_with_errors_df.to_csv(f"./Results/ChangeCounting/disaster{disaster_id}/data/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_{str(interval_length)}_change_count_prophet_predictions_errors.csv", index=False)
