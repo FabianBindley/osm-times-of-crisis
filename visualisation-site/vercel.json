@@ -1,9 +1,16 @@
-
 {
     "rewrites": [
       {
         "source": "/(.*)", 
         "destination": "/index.html"
+      }
+    ],
+    "headers": [
+      {
+        "source": "/src/(.*).js",
+        "headers": [
+          { "key": "Content-Type", "value": "application/javascript" }
+        ]
       }
     ]
   }
