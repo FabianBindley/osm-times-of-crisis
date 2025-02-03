@@ -6,7 +6,7 @@ import { Select, Switch } from "antd";
 
 function ChangeCounting() {
   
-  const [interval, setInterval] = useState({start:"365", end:"365"})
+  const [interval, setInterval] = useState({start:"365",imm:"60", end:"365"})
   const [editType, setEditType] = useState("all")
   const [graphStyle, setGraphStyle] = useState("counts")
   const [periodLength, setPeriodLength] = useState(localStorage.getItem("period") ? localStorage.getItem("period") : "week")
@@ -14,12 +14,10 @@ function ChangeCounting() {
   const [prophetForecast, setProphetForecast] = useState(localStorage.getItem("prophetForecast")=="true" ? true : false);
   
   const intervalMap = {
-    "365-365": { start: "365", end: "365" },
-    "1095-365": { start: "1095", end: "365" },
-    "180-365": { start: "180", end: "365" },
-    "365-335": { start: "365", end: "335" },
-    "90-365": { start: "90", end: "365" },
-    "90-180": { start: "90", end: "180" },
+    "365-30-365": { start: "365", imm:"30", end: "365" },
+    "365-60-365": { start: "365", imm:"60", end: "365" },
+    "1095-60-365": { start: "1095",  imm:"60", end: "365" },
+    "180-60-365": { start: "180",  imm:"60",end: "365" },
   };
 
   const graphs = [
@@ -34,9 +32,10 @@ const additional_graphs = [
     { title: "Haiti Hurricane Matthew | 2016", disaster_id: 4},
 ]
 
-  const count_change_intervals = [{start:"365", end:"365"},{start:"1095", end:"365"},{start:"180", end:"365"}, {start:"365", end:"335"}]
+  const count_change_intervals = [{start:"365", imm:"30", end:"365"},{start:"365", imm:"60", end:"365"},{start:"1095", imm:"60", end:"365"}]
 
-  const percent_difference_intervals = [{start:"365", end:"365"},{start:"180", end:"365"},{start:"1095", end:"365"}, {start:"365", end:"335"}]
+  const percent_difference_intervals = [{start:"365", imm:"30", end:"365"},{start:"365", imm:"60", end:"365"},{start:"1095", imm:"60", end:"365"}]
+
 
   const handleIntervalChange = (key) => {
     // Map the key to the corresponding interval object
@@ -56,16 +55,16 @@ const additional_graphs = [
     const isValidInterval =
         value === "count_changes"
             ? count_change_intervals.some(
-                  (item) => item.start === interval.start && item.end === interval.end
+                  (item) => item.start === interval.start && item.imm === interval.imm && item.end === interval.end
               )
             : percent_difference_intervals.some(
-                  (item) => item.start === interval.start && item.end === interval.end
+                  (item) => item.start === interval.start && item.imm === interval.imm && item.end === interval.end
               );
 
 
     if (!isValidInterval) {
         console.log("Resetting interval and resolution to defaults");
-        setInterval({ start: "365", end: "365" });
+        setInterval({ start: "365", imm: "60", end: "365" });
         setResolution("7");
     }
 };
@@ -97,11 +96,12 @@ const additional_graphs = [
                     <label style={{ marginLeft: 20 }}>Graph Style:</label>
                     <Select
                         defaultValue={graphStyle}
-                        style={{ width: 200, marginLeft: 10 }}
+                        style={{ width: 250, marginLeft: 10 }}
                         onChange={handleGraphStyleChange}
                     >
                         <Select.Option value="counts">Change count</Select.Option>
-                        <Select.Option value="percent_difference_time_series">Change % Difference</Select.Option>
+                        <Select.Option value="percent_difference_time_series">Change % difference</Select.Option>
+                        <Select.Option value="avg_days_between_edits">Avg days between changes</Select.Option>
 
                     </Select>
 
@@ -113,14 +113,13 @@ const additional_graphs = [
                     <label style={{ marginLeft: 10 }}>Graph Intervals:</label>
                     <Select
                         defaultValue="365-365"
-                        value={`${interval.start}-${interval.end}`}
-                        style={{ width: 200, marginLeft: 10 }}
+                        value={`${interval.start}-${interval.imm}-${interval.end}`}
+                        style={{ width: 250, marginLeft: 10 }}
                         onChange={handleIntervalChange}
                     >
-                        <Select.Option value="180-365">180 Pre - 365 Post</Select.Option>
-                        <Select.Option value="365-365">365 Pre - 365 Post</Select.Option>
-                        <Select.Option value="365-335">365 Pre - 60 Imm - 335 Post</Select.Option>
-                        <Select.Option value="1095-365">1095 Pre - 365 Post</Select.Option>
+                      <Select.Option value="365-30-365">365 Pre - 30 Imm - 365 Post</Select.Option>
+                        <Select.Option value="365-60-365">365 Pre - 60 Imm - 365 Post</Select.Option>
+                        <Select.Option value="1095-60-365">1095 Pre - 60 Imm - 365 Post</Select.Option>
                     </Select>
                 </div> 
 
@@ -141,7 +140,7 @@ const additional_graphs = [
                 </Select>
                 </div>
 
-                { graphStyle == "counts" ? 
+                { (graphStyle == "counts" || graphStyle == "percent_difference_time_series" ) && 
                 <>
                     <div style={{marginTop:5,marginBottom:5}}>
                       <label style={{ marginLeft: 10 }}>Edit Type:</label>
@@ -159,16 +158,16 @@ const additional_graphs = [
                       </Select>
                   </div> 
                   
-                  <div style={{marginTop:5,marginBottom:5}}>
+
+
+                </>}
+                { (graphStyle == "counts" || graphStyle == "avg_days_between_edits") && 
+                <div style={{marginTop:5,marginBottom:5}}>
                       <label style={{ marginLeft: 10, marginRight: 10 }}>Prophet Forecast:</label>
                       <Switch checked={prophetForecast} onChange={handleChangeProphetForecast} />
                   </div> 
 
-
-                </>
-
-
-                : <></>}
+                }
 
      
                 <div style={{marginTop:5,marginBottom:5}}>

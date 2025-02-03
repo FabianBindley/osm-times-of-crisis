@@ -7,91 +7,287 @@ amenity,fire_station,1,6.6667,0.0,0.0
 amenity,vending_machine,1,6.6667,0.0,0.0
 building,yes,3,75.0,200.0,200.0
 building,residential,1,25.0,0.0,0.0
-highway,footway,13,29.5455,1200.0,1200.0
-highway,track,11,25.0,1000.0,1000.0
-highway,residential,8,18.1818,700.0,700.0
-highway,service,4,9.0909,300.0,300.0
-highway,unclassified,4,9.0909,300.0,300.0
-highway,steps,3,6.8182,200.0,200.0
-highway,path,1,2.2727,0.0,0.0
-landuse,residential,31,44.2857,3000.0,3000.0
-landuse,farmland,9,12.8571,800.0,800.0
-landuse,railway,6,8.5714,500.0,500.0
-landuse,commercial,5,7.1429,400.0,400.0
-landuse,meadow,4,5.7143,300.0,300.0
-landuse,retail,4,5.7143,300.0,300.0
-landuse,industrial,3,4.2857,200.0,200.0
-landuse,allotments,2,2.8571,100.0,100.0
-landuse,brownfield,2,2.8571,100.0,100.0
-landuse,grass,2,2.8571,100.0,100.0
-landuse,farmyard,1,1.4286,0.0,0.0
-landuse,recreation_ground,1,1.4286,0.0,0.0
+emergency,yes,2,100.0,100.0,100.0
+highway,crossing,269,29.9555,26800.0,26800.0
+highway,footway,174,19.3764,17300.0,17300.0
+highway,primary,171,19.0423,17000.0,17000.0
+highway,unclassified,57,6.3474,5600.0,5600.0
+highway,residential,51,5.6793,5000.0,5000.0
+highway,tertiary,35,3.8976,3400.0,3400.0
+highway,service,25,2.784,2400.0,2400.0
+highway,cycleway,20,2.2272,1900.0,1900.0
+highway,traffic_signals,19,2.1158,1800.0,1800.0
+highway,bus_stop,17,1.8931,1600.0,1600.0
+highway,give_way,12,1.3363,1100.0,1100.0
+highway,secondary,12,1.3363,1100.0,1100.0
+highway,track,11,1.2249,1000.0,1000.0
+highway,primary_link,7,0.7795,600.0,600.0
+highway,trunk,5,0.5568,400.0,400.0
+highway,mini_roundabout,4,0.4454,300.0,300.0
+highway,steps,3,0.3341,200.0,200.0
+highway,elevator,2,0.2227,100.0,100.0
+highway,path,1,0.1114,0.0,0.0
+highway,pedestrian,1,0.1114,0.0,0.0
+highway,proposed,1,0.1114,0.0,0.0
+highway,secondary_link,1,0.1114,0.0,0.0
+landuse,residential,31,42.4658,3000.0,3000.0
+landuse,farmland,12,16.4384,1100.0,1100.0
+landuse,railway,6,8.2192,500.0,500.0
+landuse,commercial,5,6.8493,400.0,400.0
+landuse,meadow,4,5.4795,300.0,300.0
+landuse,retail,4,5.4795,300.0,300.0
+landuse,industrial,3,4.1096,200.0,200.0
+landuse,allotments,2,2.7397,100.0,100.0
+landuse,brownfield,2,2.7397,100.0,100.0
+landuse,grass,2,2.7397,100.0,100.0
+landuse,farmyard,1,1.3699,0.0,0.0
+landuse,recreation_ground,1,1.3699,0.0,0.0
 leisure,park,7,70.0,600.0,600.0
 leisure,pitch,2,20.0,100.0,100.0
 leisure,water_park,1,10.0,0.0,0.0
-name,Theobalds Brook,33,27.2727,3200.0,3200.0
-name,Spital Brook,16,13.2231,1500.0,1500.0
-name,College Brook,12,9.9174,1100.0,1100.0
-name,River Lea,4,3.3058,300.0,300.0
-name,Cheshunt,3,2.4793,200.0,200.0
-name,Manor Grove Avenue,3,2.4793,200.0,200.0
-name,Small River Lea,3,2.4793,200.0,200.0
-name,Trinity Lane,3,2.4793,200.0,200.0
-name,Britannia Meadow,2,1.6529,100.0,100.0
-name,Rags Brook,2,1.6529,100.0,100.0
-name,Silver Street,2,1.6529,100.0,100.0
-name,Boot Pit,1,0.8264,0.0,0.0
-name,Boulders,1,0.8264,0.0,0.0
-name,Bowyers Water,1,0.8264,0.0,0.0
-name,Britannia Lake,1,0.8264,0.0,0.0
-name,Brookland Infant and Junior Schools,1,0.8264,0.0,0.0
-name,Broom Hills Wood,1,0.8264,0.0,0.0
-name,Burleigh Road,1,0.8264,0.0,0.0
-name,Bury Green Lodge,1,0.8264,0.0,0.0
-name,Canada Lane,1,0.8264,0.0,0.0
-name,Cheshunt Fire Station,1,0.8264,0.0,0.0
-name,Churchfield CofE Academy,1,0.8264,0.0,0.0
-name,Dewhurst St Mary CofE Primary School,1,0.8264,0.0,0.0
-name,F.Hinds,1,0.8264,0.0,0.0
-name,Goffs Oak Primary & Nursery School,1,0.8264,0.0,0.0
-name,Grundy Park,1,0.8264,0.0,0.0
-name,Hertford College: Broxbourne Campus,1,0.8264,0.0,0.0
-name,Hurst Drive Primary School,1,0.8264,0.0,0.0
-name,Lee Pit,1,0.8264,0.0,0.0
-name,Lee Valley White Water Centre,1,0.8264,0.0,0.0
-name,Longlands Primary School and Nursery,1,0.8264,0.0,0.0
-name,Marsh Pit,1,0.8264,0.0,0.0
-name,Monarch Oaks,1,0.8264,0.0,0.0
-name,Nightingale Wood,1,0.8264,0.0,0.0
-name,Nightleys Playing Fields,1,0.8264,0.0,0.0
-name,North Metropolitan Pit,1,0.8264,0.0,0.0
-name,Orange Zone,1,0.8264,0.0,0.0
-name,PRIVATE LAND - EXTREMELY DANGEROUS AS SHOOTING TAKES PLACE HERE. NO PUBLIC ACCESS,1,0.8264,0.0,0.0
-name,Papa John's,1,0.8264,0.0,0.0
-name,Pizza Hut,1,0.8264,0.0,0.0
-name,Pizza Hut Delivery,1,0.8264,0.0,0.0
-name,Railway Pit,1,0.8264,0.0,0.0
-name,River Close Open Space,1,0.8264,0.0,0.0
-name,Rosedale Way,1,0.8264,0.0,0.0
-name,Slipe Lane,1,0.8264,0.0,0.0
-name,Theobald's Lane,1,0.8264,0.0,0.0
-name,Topps Tiles,1,0.8264,0.0,0.0
-name,Turnford Brook,1,0.8264,0.0,0.0
-name,Turnford Pit South,1,0.8264,0.0,0.0
+name,Queen Victoria Street,34,6.308,3300.0,3300.0
+name,Theobalds Brook,33,6.1224,3200.0,3200.0
+name,Farringdon Street,28,5.1948,2700.0,2700.0
+name,Farringdon Road,23,4.2672,2200.0,2200.0
+name,Baylis Road,22,4.0816,2100.0,2100.0
+name,London Wall,16,2.9685,1500.0,1500.0
+name,Spital Brook,16,2.9685,1500.0,1500.0
+name,College Brook,12,2.2263,1100.0,1100.0
+name,Charing Cross,10,1.8553,900.0,900.0
+name,Millbank,10,1.8553,900.0,900.0
+name,High Holborn,8,1.4842,700.0,700.0
+name,Station Approach,7,1.2987,600.0,600.0
+name,Bloomsbury Way,6,1.1132,500.0,500.0
+name,Drake Street,6,1.1132,500.0,500.0
+name,Southampton Row,6,1.1132,500.0,500.0
+name,Theobalds Road,6,1.1132,500.0,500.0
+name,Broad Sanctuary,5,0.9276,400.0,400.0
+name,Sopwith Way,5,0.9276,400.0,400.0
+name,Strutton Ground,5,0.9276,400.0,400.0
+name,Bakerloo Line,4,0.7421,300.0,300.0
+name,Borough High Street,4,0.7421,300.0,300.0
+name,City Road,4,0.7421,300.0,300.0
+name,Cockspur Street,4,0.7421,300.0,300.0
+name,Fisher Street,4,0.7421,300.0,300.0
+name,Great George Street,4,0.7421,300.0,300.0
+name,Old North Street,4,0.7421,300.0,300.0
+name,Red Lion Square,4,0.7421,300.0,300.0
+name,River Lea,4,0.7421,300.0,300.0
+name,Small River Lea,4,0.7421,300.0,300.0
+name,Westminster Abbey,4,0.7421,300.0,300.0
+name,Battersea Park Station,3,0.5566,200.0,200.0
+name,Cheshunt,3,0.5566,200.0,200.0
+name,Donegal Street,3,0.5566,200.0,200.0
+name,Erasmus Street,3,0.5566,200.0,200.0
+name,Harrington Road,3,0.5566,200.0,200.0
+name,Horseferry Road,3,0.5566,200.0,200.0
+name,Kingsway,3,0.5566,200.0,200.0
+name,Manor Grove Avenue,3,0.5566,200.0,200.0
+name,Queenstown Road,3,0.5566,200.0,200.0
+name,Rodney Street,3,0.5566,200.0,200.0
+name,Trinity Lane,3,0.5566,200.0,200.0
+name,Vernon Place,3,0.5566,200.0,200.0
+name,Westminster Station / Parliament Square,3,0.5566,200.0,200.0
+name,Baldwins Gardens,2,0.3711,100.0,100.0
+name,Battersea Park / Chelsea Gate,2,0.3711,100.0,100.0
+name,Belgrave Road,2,0.3711,100.0,100.0
+name,Boswell Street,2,0.3711,100.0,100.0
+name,Britannia Meadow,2,0.3711,100.0,100.0
+name,Bury Place,2,0.3711,100.0,100.0
+name,Catton Street,2,0.3711,100.0,100.0
+name,Chelsea Bridge Road,2,0.3711,100.0,100.0
+name,City Garden Row,2,0.3711,100.0,100.0
+name,Duke Street Hill,2,0.3711,100.0,100.0
+name,Frazier Street,2,0.3711,100.0,100.0
+name,Great Guildford Street,2,0.3711,100.0,100.0
+name,Great Peter Street,2,0.3711,100.0,100.0
+name,Green Park,2,0.3711,100.0,100.0
+name,Greycoat Place,2,0.3711,100.0,100.0
+name,Hill Street,2,0.3711,100.0,100.0
+name,Lambeth Bridge,2,0.3711,100.0,100.0
+name,Leather Lane,2,0.3711,100.0,100.0
+name,Nelson's Row,2,0.3711,100.0,100.0
+name,New North Street,2,0.3711,100.0,100.0
+name,Old Broad Street,2,0.3711,100.0,100.0
+name,Old Gloucester Street,2,0.3711,100.0,100.0
+name,Page Street,2,0.3711,100.0,100.0
+name,Procter Street,2,0.3711,100.0,100.0
+name,Queen Street,2,0.3711,100.0,100.0
+name,Queenstown Road Station,2,0.3711,100.0,100.0
+name,Rags Brook,2,0.3711,100.0,100.0
+name,Silver Street,2,0.3711,100.0,100.0
+name,Southwark Street,2,0.3711,100.0,100.0
+name,Spur Road,2,0.3711,100.0,100.0
+name,Storey's Gate,2,0.3711,100.0,100.0
+name,The Sanctuary,2,0.3711,100.0,100.0
+name,Thurloe Square,2,0.3711,100.0,100.0
+name,Alaska Street,1,0.1855,0.0,0.0
+name,Artillery Place,1,0.1855,0.0,0.0
+name,Baker Street,1,0.1855,0.0,0.0
+name,Balham,1,0.1855,0.0,0.0
+name,Barter Street,1,0.1855,0.0,0.0
+name,Bloomsbury Square,1,0.1855,0.0,0.0
+name,Boot Pit,1,0.1855,0.0,0.0
+name,Boulders,1,0.1855,0.0,0.0
+name,Bowyers Water,1,0.1855,0.0,0.0
+name,Brick Lane,1,0.1855,0.0,0.0
+name,Brick Street,1,0.1855,0.0,0.0
+name,Britannia Lake,1,0.1855,0.0,0.0
+name,Broadway,1,0.1855,0.0,0.0
+name,Brooke Street,1,0.1855,0.0,0.0
+name,Brookland Infant and Junior Schools,1,0.1855,0.0,0.0
+name,Broom Hills Wood,1,0.1855,0.0,0.0
+name,Burleigh Road,1,0.1855,0.0,0.0
+name,Bury Green Lodge,1,0.1855,0.0,0.0
+name,Canada Lane,1,0.1855,0.0,0.0
+name,Cannon Street,1,0.1855,0.0,0.0
+name,Chadwick Street,1,0.1855,0.0,0.0
+name,Charing Cross Road,1,0.1855,0.0,0.0
+name,Charterhouse Street,1,0.1855,0.0,0.0
+name,Cheshunt Fire Station,1,0.1855,0.0,0.0
+name,Churchfield CofE Academy,1,0.1855,0.0,0.0
+name,Cliveden Place,1,0.1855,0.0,0.0
+name,Denmark Hill / Camberwell Green,1,0.1855,0.0,0.0
+name,Dewhurst St Mary CofE Primary School,1,0.1855,0.0,0.0
+name,Docklands Light Railway,1,0.1855,0.0,0.0
+name,Dover Street,1,0.1855,0.0,0.0
+name,Down Street,1,0.1855,0.0,0.0
+name,Dyer's Buildings,1,0.1855,0.0,0.0
+name,Eagle Place,1,0.1855,0.0,0.0
+name,Elverton Street,1,0.1855,0.0,0.0
+name,Emery Hill Street,1,0.1855,0.0,0.0
+name,Exton Street,1,0.1855,0.0,0.0
+name,F.Hinds,1,0.1855,0.0,0.0
+name,Fentiman Road,1,0.1855,0.0,0.0
+name,Fetter Lane,1,0.1855,0.0,0.0
+name,Furnival Street,1,0.1855,0.0,0.0
+name,Gayhurst Road,1,0.1855,0.0,0.0
+name,Godliman Street,1,0.1855,0.0,0.0
+name,Goffs Oak Primary & Nursery School,1,0.1855,0.0,0.0
+name,Great Smith Street,1,0.1855,0.0,0.0
+name,Greencoat Place,1,0.1855,0.0,0.0
+name,Greville Street,1,0.1855,0.0,0.0
+name,Grundy Park,1,0.1855,0.0,0.0
+name,Guilford Street,1,0.1855,0.0,0.0
+name,Half Moon Street,1,0.1855,0.0,0.0
+name,Hanbury Street,1,0.1855,0.0,0.0
+name,Harpur Street,1,0.1855,0.0,0.0
+name,Heddon Street,1,0.1855,0.0,0.0
+name,Hertford College: Broxbourne Campus,1,0.1855,0.0,0.0
+name,Holborn Place,1,0.1855,0.0,0.0
+name,Hurst Drive Primary School,1,0.1855,0.0,0.0
+name,Joiner Street,1,0.1855,0.0,0.0
+name,Jubilee Line,1,0.1855,0.0,0.0
+name,Kennington Road,1,0.1855,0.0,0.0
+name,King Edward's Road,1,0.1855,0.0,0.0
+name,Lamb's Conduit Street,1,0.1855,0.0,0.0
+name,Lavington Street,1,0.1855,0.0,0.0
+name,Lee Pit,1,0.1855,0.0,0.0
+name,Lee Valley White Water Centre,1,0.1855,0.0,0.0
+name,Lister Hospital,1,0.1855,0.0,0.0
+name,Little Sanctuary,1,0.1855,0.0,0.0
+name,Little Turnstile,1,0.1855,0.0,0.0
+name,London,1,0.1855,0.0,0.0
+name,Longlands Primary School and Nursery,1,0.1855,0.0,0.0
+name,Marsh Pit,1,0.1855,0.0,0.0
+name,Marsham Street,1,0.1855,0.0,0.0
+name,Marylebone,1,0.1855,0.0,0.0
+name,Medway Street,1,0.1855,0.0,0.0
+name,Millbank Tower,1,0.1855,0.0,0.0
+name,Monarch Oaks,1,0.1855,0.0,0.0
+name,Morland Estate,1,0.1855,0.0,0.0
+name,New Burlington Mews,1,0.1855,0.0,0.0
+name,Nightingale Wood,1,0.1855,0.0,0.0
+name,Nightleys Playing Fields,1,0.1855,0.0,0.0
+name,North Metropolitan Pit,1,0.1855,0.0,0.0
+name,Northaw Brook,1,0.1855,0.0,0.0
+name,Northumberland Avenue,1,0.1855,0.0,0.0
+name,Old Park Lane,1,0.1855,0.0,0.0
+name,Old Street,1,0.1855,0.0,0.0
+name,Orange Zone,1,0.1855,0.0,0.0
+name,Oxford Circus,1,0.1855,0.0,0.0
+name,PRIVATE LAND - EXTREMELY DANGEROUS AS SHOOTING TAKES PLACE HERE. NO PUBLIC ACCESS,1,0.1855,0.0,0.0
+name,Papa John's,1,0.1855,0.0,0.0
+name,Parkfield Street,1,0.1855,0.0,0.0
+name,Parliament Square,1,0.1855,0.0,0.0
+name,Piccadilly,1,0.1855,0.0,0.0
+name,Piccadilly (north side),1,0.1855,0.0,0.0
+name,Piccadilly Circus,1,0.1855,0.0,0.0
+name,Pizza Hut,1,0.1855,0.0,0.0
+name,Pizza Hut Delivery,1,0.1855,0.0,0.0
+name,Portpool Lane,1,0.1855,0.0,0.0
+name,Prairie Street,1,0.1855,0.0,0.0
+name,Queen's Circus,1,0.1855,0.0,0.0
+name,Railway Pit,1,0.1855,0.0,0.0
+name,Regency Place,1,0.1855,0.0,0.0
+name,Regent's Park,1,0.1855,0.0,0.0
+name,River Close Open Space,1,0.1855,0.0,0.0
+name,Rochester Row,1,0.1855,0.0,0.0
+name,Rose Square,1,0.1855,0.0,0.0
+name,Rosedale Way,1,0.1855,0.0,0.0
+name,Sandell Street,1,0.1855,0.0,0.0
+name,Shrubland Road,1,0.1855,0.0,0.0
+name,Slipe Lane,1,0.1855,0.0,0.0
+name,Southampton Buildings,1,0.1855,0.0,0.0
+name,Southampton Place,1,0.1855,0.0,0.0
+name,Southbound Platform 4,1,0.1855,0.0,0.0
+name,St Andrew's Hill,1,0.1855,0.0,0.0
+name,St James's Market,1,0.1855,0.0,0.0
+name,St Mary Magdalene Church,1,0.1855,0.0,0.0
+name,Stanhope Gardens,1,0.1855,0.0,0.0
+name,Stanhope Gate,1,0.1855,0.0,0.0
+name,Stratton Street,1,0.1855,0.0,0.0
+name,The Chase,1,0.1855,0.0,0.0
+name,The Cut,1,0.1855,0.0,0.0
+name,Theobald's Lane,1,0.1855,0.0,0.0
+name,Threadneedle Street,1,0.1855,0.0,0.0
+name,Tooley Street,1,0.1855,0.0,0.0
+name,Topps Tiles,1,0.1855,0.0,0.0
+name,Turnford Brook,1,0.1855,0.0,0.0
+name,Turnford Pit South,1,0.1855,0.0,0.0
+name,Upper Street,1,0.1855,0.0,0.0
+name,Verulam Street,1,0.1855,0.0,0.0
+name,Vestry Road,1,0.1855,0.0,0.0
+name,Victoria Street,1,0.1855,0.0,0.0
+name,Vincent Street,1,0.1855,0.0,0.0
+name,Westminster Station / Westminster Pier,1,0.1855,0.0,0.0
+name,White Horse Street,1,0.1855,0.0,0.0
+name,Windsor Terrace,1,0.1855,0.0,0.0
 natural,wood,13,48.1481,1200.0,1200.0
 natural,water,10,37.037,900.0,900.0
 natural,scrub,4,14.8148,300.0,300.0
-source,npe,6,30.0,500.0,500.0
-source,yahoo + gpx,4,20.0,300.0,300.0
-source,Visible on 1940s OS maps and in INSPIRE outlines,2,10.0,100.0,100.0
-source,gpx,2,10.0,100.0,100.0
-source,yahoo,2,10.0,100.0,100.0
-source,GPS,1,5.0,0.0,0.0
-source,Inferred,1,5.0,0.0,0.0
-source,estimation,1,5.0,0.0,0.0
-source,yahoo+gpx,1,5.0,0.0,0.0
-surface,asphalt,6,85.7143,500.0,500.0
-surface,grass,1,14.2857,0.0,0.0
-waterway,stream,81,88.0435,8000.0,8000.0
-waterway,ditch,6,6.5217,500.0,500.0
-waterway,canal,5,5.4348,400.0,400.0
+source,Bing,27,41.5385,2600.0,2600.0
+source,npe,6,9.2308,500.0,500.0
+source,yahoo + gpx,4,6.1538,300.0,300.0
+source,Bing;local knowledge,3,4.6154,200.0,200.0
+source,survey of 2014-02-08,3,4.6154,200.0,200.0
+source,Visible on 1940s OS maps and in INSPIRE outlines,2,3.0769,100.0,100.0
+source,gpx,2,3.0769,100.0,100.0
+source,npescans,2,3.0769,100.0,100.0
+source,yahoo,2,3.0769,100.0,100.0
+source,GPS,1,1.5385,0.0,0.0
+source,Inferred,1,1.5385,0.0,0.0
+source,OS,1,1.5385,0.0,0.0
+source,OS;Bing;photograph,1,1.5385,0.0,0.0
+source,OS;survey;Bing,1,1.5385,0.0,0.0
+source,Survey of 2019-04-20,1,1.5385,0.0,0.0
+source,Survey of 2020-08-08,1,1.5385,0.0,0.0
+source,bing,1,1.5385,0.0,0.0
+source,estimation,1,1.5385,0.0,0.0
+source,http://upload.wikimedia.org/wikipedia/commons/2/29/Bakerloo_Thames_tunnelling.png,1,1.5385,0.0,0.0
+source,survey,1,1.5385,0.0,0.0
+source,survey;Bing,1,1.5385,0.0,0.0
+source,survey;Bing;web,1,1.5385,0.0,0.0
+source,yahoo+gpx,1,1.5385,0.0,0.0
+surface,asphalt,458,91.2351,45700.0,45700.0
+surface,paving_stones,32,6.3745,3100.0,3100.0
+surface,paved,3,0.5976,200.0,200.0
+surface,concrete,2,0.3984,100.0,100.0
+surface,grass,2,0.3984,100.0,100.0
+surface,sett,2,0.3984,100.0,100.0
+surface,brick,1,0.1992,0.0,0.0
+surface,bricks,1,0.1992,0.0,0.0
+surface,cobblestone,1,0.1992,0.0,0.0
+waterway,stream,84,88.4211,8300.0,8300.0
+waterway,ditch,6,6.3158,500.0,500.0
+waterway,canal,5,5.2632,400.0,400.0

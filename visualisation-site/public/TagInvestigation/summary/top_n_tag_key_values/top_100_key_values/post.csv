@@ -1,775 +1,802 @@
 key,value,count,percent_of_total_changes_for_key,percent_difference_from_pre,percent_difference_from_pre_day
-amenity,school,4856,18.7868,126.3869,126.3869
-amenity,hospital,3303,12.7786,675.3521,675.3521
-amenity,parking,2094,8.1012,10.5597,10.5597
-amenity,restaurant,1357,5.2499,38.6108,38.6108
-amenity,toilets,1076,4.1628,24.826,24.826
-amenity,place_of_worship,1008,3.8997,-44.7974,-44.7974
-amenity,parking_space,899,3.478,1283.0769,1283.0769
-amenity,bench,837,3.2382,70.4684,70.4684
-amenity,drinking_water,825,3.1917,-48.2434,-48.2434
-amenity,bicycle_parking,526,2.035,40.6417,40.6417
-amenity,cafe,519,2.0079,43.3702,43.3702
-amenity,waste_basket,476,1.8415,124.5283,124.5283
-amenity,fuel,449,1.7371,55.9028,55.9028
-amenity,shower,439,1.6984,138.587,138.587
-amenity,kindergarten,401,1.5514,117.9348,117.9348
-amenity,fast_food,397,1.5359,92.7184,92.7184
-amenity,bank,397,1.5359,7.5881,7.5881
-amenity,bar,395,1.5282,108.9947,108.9947
-amenity,recycling,384,1.4856,33.3333,33.3333
-amenity,pharmacy,361,1.3966,-19.0583,-19.0583
-amenity,college,323,1.2496,80.4469,80.4469
-amenity,police,263,1.0175,85.2113,85.2113
-amenity,shelter,217,0.8395,-22.2222,-22.2222
-amenity,university,217,0.8395,88.6957,88.6957
-amenity,street_light,182,0.7041,2500.0,2500.0
-amenity,fountain,150,0.5803,257.1429,257.1429
-amenity,library,149,0.5764,-43.7736,-43.7736
-amenity,community_centre,141,0.5455,56.6667,56.6667
-amenity,charging_station,128,0.4952,-4.4776,-4.4776
-amenity,atm,124,0.4797,29.1667,29.1667
-amenity,ice_cream,113,0.4372,54.7945,54.7945
-amenity,clinic,112,0.4333,-29.5597,-29.5597
-amenity,tap,108,0.4178,83.0508,83.0508
-amenity,grave_yard,93,0.3598,232.1429,232.1429
-amenity,ctc,92,0.3559,384.2105,384.2105
-amenity,public_building,88,0.3405,2.3256,2.3256
-amenity,waste_disposal,83,0.3211,-6.7416,-6.7416
-amenity,marketplace,79,0.3056,-13.1868,-13.1868
-amenity,motorcycle_parking,78,0.3018,100.0,100.0
-amenity,community_information_kiosk,78,0.3018,1014.2857,1014.2857
-amenity,vending_machine,77,0.2979,-12.5,-12.5
-amenity,pub,70,0.2708,112.1212,112.1212
-amenity,townhall,70,0.2708,100.0,100.0
-amenity,social_centre,65,0.2515,712.5,712.5
-amenity,studio,65,0.2515,209.5238,209.5238
-amenity,utc,64,0.2476,93.9394,93.9394
-amenity,dentist,58,0.2244,11.5385,11.5385
-amenity,car_wash,55,0.2128,77.4194,77.4194
-amenity,post_office,55,0.2128,-33.7349,-33.7349
-amenity,bus_station,54,0.2089,0.0,0.0
-amenity,doctors,51,0.1973,10.8696,10.8696
-amenity,parking_entrance,50,0.1934,6.383,6.383
-amenity,nightclub,47,0.1818,74.0741,74.0741
-amenity,cro,47,0.1818,80.7692,80.7692
-amenity,cinema,44,0.1702,-20.0,-20.0
-amenity,embassy,42,0.1625,-12.5,-12.5
-amenity,social_facility,40,0.1548,14.2857,14.2857
-amenity,market,39,0.1509,457.1429,457.1429
-amenity,car_rental,35,0.1354,59.0909,59.0909
-amenity,veterinary,35,0.1354,-12.5,-12.5
-amenity,arts_centre,35,0.1354,16.6667,16.6667
-amenity,theatre,34,0.1315,61.9048,61.9048
-amenity,taxi,34,0.1315,112.5,112.5
-amenity,childcare,31,0.1199,55.0,55.0
-amenity,CRO,31,0.1199,93.75,93.75
-amenity,shop,31,0.1199,-26.1905,-26.1905
-amenity,communal_cooking_area,27,0.1045,285.7143,285.7143
-amenity,dispensary,24,0.0929,242.8571,242.8571
-amenity,Douches et toilettes,22,0.0851,214.2857,214.2857
-amenity,telephone,21,0.0812,-34.375,-34.375
-amenity,bureau_de_change,20,0.0774,-28.5714,-28.5714
-amenity,parcel_locker,19,0.0735,-26.9231,-26.9231
-amenity,post_box,18,0.0696,-59.0909,-59.0909
-amenity,bicycle_rental,17,0.0658,-5.5556,-5.5556
-amenity,bicycle_repair_station,17,0.0658,-63.0435,-63.0435
-amenity,driving_school,17,0.0658,13.3333,13.3333
-amenity,non,16,0.0619,128.5714,128.5714
-amenity,research_institute,15,0.058,7.1429,7.1429
-amenity,courthouse,15,0.058,-11.7647,-11.7647
-amenity,office,15,0.058,-11.7647,-11.7647
-amenity,8 chambres de toilettes,15,0.058,114.2857,114.2857
-amenity,photo_booth,14,0.0542,7.6923,7.6923
-amenity,clock,13,0.0503,18.1818,18.1818
-amenity,gambling,12,0.0464,-96.8831,-96.8831
-amenity,Ecole,12,0.0464,71.4286,71.4286
-amenity,"kindergarten, High school",12,0.0464,71.4286,71.4286
-amenity,fire_station,11,0.0426,-8.3333,-8.3333
-amenity,prison,9,0.0348,-10.0,-10.0
-amenity,water_point,9,0.0348,-65.3846,-65.3846
-amenity,conference_centre,8,0.031,14.2857,14.2857
-amenity,exhibition_centre,8,0.031,-27.2727,-27.2727
-amenity,public_bookcase,8,0.031,-42.8571,-42.8571
-amenity,food_court,8,0.031,-33.3333,-33.3333
-amenity,CTC,8,0.031,14.2857,14.2857
-amenity,non_potable,8,0.031,14.2857,14.2857
-amenity,construction,7,0.0271,0.0,0.0
-amenity,music_school,7,0.0271,0.0,0.0
-amenity,weighbridge,7,0.0271,0.0,0.0
-amenity,internet_cafe,7,0.0271,-12.5,-12.5
-amenity,social_center,7,0.0271,0.0,0.0
-building,yes,361215,94.9347,-11.714,-11.714
-building,house,5554,1.4597,-15.7464,-15.7464
-building,residential,4433,1.1651,-18.526,-18.526
-building,apartments,1064,0.2796,8.5714,8.5714
-building,construction,891,0.2342,-92.762,-92.762
-building,tent,777,0.2042,1173.7705,1173.7705
-building,collapsed,702,0.1845,1089.8305,1089.8305
-building,shelter,492,0.1293,547.3684,547.3684
-building,school,452,0.1188,-47.0726,-47.0726
-building,non_waterproof_shelter,449,0.118,475.641,475.641
-building,industrial,442,0.1162,9.4059,9.4059
-building,building_sheet_metal,388,0.102,1337.037,1337.037
-building,building_concrete,333,0.0875,326.9231,326.9231
-building,church,288,0.0757,-46.3687,-46.3687
-building,commercial,285,0.0749,-89.8685,-89.8685
-building,building_wood,253,0.0665,716.129,716.129
-building,waterproof_shelter,246,0.0647,1657.1429,1657.1429
-building,roof,245,0.0644,-20.9677,-20.9677
-building,greenhouse,240,0.0631,47.2393,47.2393
-building,retail,150,0.0394,-40.0,-40.0
-building,service,147,0.0386,81.4815,81.4815
-building,detached,94,0.0247,-43.0303,-43.0303
-building,hotel,89,0.0234,9.8765,9.8765
-building,office,76,0.02,-61.4213,-61.4213
-building,public,73,0.0192,-5.1948,-5.1948
-building,hospital,67,0.0176,-69.6833,-69.6833
-building,train_station,52,0.0137,188.8889,188.8889
-building,shed,51,0.0134,-20.3125,-20.3125
-building,carport,46,0.0121,475.0,475.0
-building,no,46,0.0121,142.1053,142.1053
-building,kiosk,44,0.0116,83.3333,83.3333
-building,warehouse,44,0.0116,-37.1429,-37.1429
-building,ruins,36,0.0095,0.0,0.0
-building,bungalow,32,0.0084,357.1429,357.1429
-building,semidetached_house,31,0.0081,-53.0303,-53.0303
-building,kindergarten,31,0.0081,40.9091,40.9091
-building,Metal,29,0.0076,314.2857,314.2857
-building,garage,28,0.0074,47.3684,47.3684
-building,silo,25,0.0066,212.5,212.5
-building,residentiel1,25,0.0066,-56.8966,-56.8966
-building,hut,23,0.006,-58.1818,-58.1818
-building,terrace,21,0.0055,-16.0,-16.0
-building,grandstand,19,0.005,-29.6296,-29.6296
-building,civic,18,0.0047,-21.7391,-21.7391
-building,tole et plastic,18,0.0047,157.1429,157.1429
-building,college,18,0.0047,-55.0,-55.0
-building,garages,16,0.0042,33.3333,33.3333
-building,government,15,0.0039,66.6667,66.6667
-building,university,13,0.0034,-74.5098,-74.5098
-building,farm,13,0.0034,-43.4783,-43.4783
-building,farm_auxiliary,12,0.0032,71.4286,71.4286
-building,Bois,12,0.0032,71.4286,71.4286
-building,bell_tower,11,0.0029,57.1429,57.1429
-building,digester,9,0.0024,28.5714,28.5714
-building,chapel,9,0.0024,-43.75,-43.75
-building,transformer_tower,9,0.0024,0.0,0.0
-building,Espace educatif,9,0.0024,28.5714,28.5714
-building,temple,9,0.0024,-65.3846,-65.3846
-building,clinic,9,0.0024,-59.0909,-59.0909
-building,tomb,8,0.0021,14.2857,14.2857
-building,fire_station,7,0.0018,0.0,0.0
-building,tower,7,0.0018,0.0,0.0
-building,concrete,7,0.0018,0.0,0.0
-building,parking,6,0.0016,-62.5,-62.5
-building,plastic  et  bois,6,0.0016,-14.2857,-14.2857
-building,wall,6,0.0016,-14.2857,-14.2857
-building,damaged,6,0.0016,-62.5,-62.5
-building,ruin,6,0.0016,-14.2857,-14.2857
-building,historic,4,0.0011,-42.8571,-42.8571
-building,military,4,0.0011,-42.8571,-42.8571
-building,supermarket,4,0.0011,-42.8571,-42.8571
-building,Plastique,4,0.0011,-42.8571,-42.8571
-building,plastique,4,0.0011,-42.8571,-42.8571
-building,bank,4,0.0011,-60.0,-60.0
-building,restaurant,4,0.0011,-55.5556,-55.5556
-building,cabin,3,0.0008,-57.1429,-57.1429
-building,cinema,3,0.0008,-57.1429,-57.1429
-building,pavilion,3,0.0008,-72.7273,-72.7273
-building,slurry_tank,3,0.0008,-57.1429,-57.1429
-building,bridge,3,0.0008,-57.1429,-57.1429
-building,cathedral,3,0.0008,-72.7273,-72.7273
-building,barn,3,0.0008,-72.7273,-72.7273
-building,exehibition aiplaine,3,0.0008,-57.1429,-57.1429
-building,tole,3,0.0008,-57.1429,-57.1429
-building,abandoned,3,0.0008,-57.1429,-57.1429
-building,panel_house,3,0.0008,-62.5,-62.5
-building,destroyed,3,0.0008,-57.1429,-57.1429
-building,gate,3,0.0008,-70.0,-70.0
-building,health_post,3,0.0008,-66.6667,-66.6667
-building,arch,2,0.0005,-71.4286,-71.4286
-building,biblioteca,2,0.0005,-71.4286,-71.4286
-building,skybridge,2,0.0005,-71.4286,-71.4286
-building,sports_centre,2,0.0005,-71.4286,-71.4286
-building,villa,2,0.0005,-71.4286,-71.4286
-building,hangar,2,0.0005,-83.3333,-83.3333
-building,manufacture,2,0.0005,-71.4286,-71.4286
-building,Fountain,2,0.0005,-71.4286,-71.4286
-building,bois,2,0.0005,-71.4286,-71.4286
-building,exhibition_airplane,2,0.0005,-71.4286,-71.4286
-building,wood,2,0.0005,-71.4286,-71.4286
-highway,residential,37295,22.4773,67.1747,67.1747
-highway,path,24593,14.8219,248.7379,248.7379
-highway,tertiary,18946,11.4185,220.3043,220.3043
-highway,unclassified,15810,9.5285,21.6903,21.6903
-highway,track,14143,8.5238,34.6439,34.6439
-highway,footway,13672,8.24,61.5312,61.5312
-highway,service,10048,6.0558,68.9023,68.9023
-highway,secondary,7047,4.2472,67.7458,67.7458
-highway,crossing,4745,2.8598,-12.9996,-12.9996
-highway,primary,4485,2.7031,19.8877,19.8877
-highway,cycleway,3153,1.9003,16.8643,16.8643
-highway,road,1987,1.1975,13.478,13.478
-highway,bus_stop,1631,0.983,-55.425,-55.425
-highway,platform,1217,0.7335,-46.1504,-46.1504
-highway,pedestrian,1009,0.6081,34.3542,34.3542
-highway,trunk,958,0.5774,-43.1791,-43.1791
-highway,steps,669,0.4032,23.2044,23.2044
-highway,traffic_signals,486,0.2929,-24.8841,-24.8841
-highway,living_street,431,0.2598,45.6081,45.6081
-highway,give_way,409,0.2465,-44.2779,-44.2779
-highway,trunk_link,398,0.2399,139.759,139.759
-highway,construction,362,0.2182,73.2057,73.2057
-highway,ford,253,0.1525,1846.1538,1846.1538
-highway,street_lamp,181,0.1091,-73.2644,-73.2644
-highway,primary_link,180,0.1085,-53.6082,-53.6082
-highway,tertiaire,180,0.1085,2471.4286,2471.4286
-highway,stop,172,0.1037,-23.5556,-23.5556
-highway,motorway,165,0.0994,-29.7872,-29.7872
-highway,motorway_link,126,0.0759,-69.1932,-69.1932
-highway,corridor,125,0.0753,443.4783,443.4783
-highway,turning_circle,112,0.0675,187.1795,187.1795
-highway,tertiary_link,102,0.0615,47.8261,47.8261
-highway,emergency_access_point,92,0.0554,411.1111,411.1111
-highway,secondary_link,88,0.053,33.3333,33.3333
-highway,residential;tertiary,75,0.0452,971.4286,971.4286
-highway,motorway_junction,72,0.0434,260.0,260.0
-highway,speed_camera,52,0.0313,4.0,4.0
-highway,unspecified,45,0.0271,542.8571,542.8571
-highway,busway,37,0.0223,-21.2766,-21.2766
-highway,emergency_bay,35,0.0211,400.0,400.0
-highway,elevator,33,0.0199,83.3333,83.3333
-highway,proposed,29,0.0175,190.0,190.0
-highway,services,28,0.0169,154.5455,154.5455
-highway,tertiary;unclassified,14,0.0084,100.0,100.0
-highway,mini_roundabout,13,0.0078,-51.8519,-51.8519
-highway,raceway,10,0.006,-56.5217,-56.5217
-highway,Tertiary,10,0.006,42.8571,42.8571
-highway,turning_loop,9,0.0054,-10.0,-10.0
-highway,bridleway,9,0.0054,-18.1818,-18.1818
-highway,rest_area,8,0.0048,-11.1111,-11.1111
-highway,Footway,8,0.0048,14.2857,14.2857
-highway,path;residential,8,0.0048,14.2857,14.2857
-highway,residential;unclassified,8,0.0048,0.0,0.0
-highway,Residential,7,0.0042,0.0,0.0
-highway,footway;unclassified,7,0.0042,0.0,0.0
-highway,tertiary;track,7,0.0042,0.0,0.0
-highway,residential;track;track,6,0.0036,-14.2857,-14.2857
-highway,BLOQUE PAR LES TENTES,5,0.003,-28.5714,-28.5714
-highway,Entree du plan,5,0.003,-28.5714,-28.5714
-highway,Secondary,5,0.003,-28.5714,-28.5714
-highway,milestone,4,0.0024,-42.8571,-42.8571
-highway,no,4,0.0024,-42.8571,-42.8571
-highway,Restiction Routirer,4,0.0024,-42.8571,-42.8571
-highway,blocke,4,0.0024,-42.8571,-42.8571
-highway,path;unclassified,4,0.0024,-42.8571,-42.8571
-highway,residentia,4,0.0024,-42.8571,-42.8571
-highway,residential;service,4,0.0024,-42.8571,-42.8571
-highway,residentiel,4,0.0024,-42.8571,-42.8571
-highway,terciary,4,0.0024,-42.8571,-42.8571
-highway,footpath,4,0.0024,-50.0,-50.0
-highway,boardwalk,3,0.0018,-57.1429,-57.1429
-highway,Pont,3,0.0018,-57.1429,-57.1429
-highway,Terciary,3,0.0018,-57.1429,-57.1429
-highway,no service,3,0.0018,-57.1429,-57.1429
-highway,residential;residential;unclassified,3,0.0018,-57.1429,-57.1429
-highway,residential;track,3,0.0018,-57.1429,-57.1429
-highway,residnetial,3,0.0018,-57.1429,-57.1429
-highway,secondary;unclassified,3,0.0018,-57.1429,-57.1429
-highway,unclassified;residential,3,0.0018,-57.1429,-57.1429
-highway,passing_place,2,0.0012,-71.4286,-71.4286
-highway,Murs,2,0.0012,-71.4286,-71.4286
-highway,Secondaire,2,0.0012,-71.4286,-71.4286
-highway,footway;residential,2,0.0012,-71.4286,-71.4286
-highway,footway;track,2,0.0012,-71.4286,-71.4286
-highway,residential;tertiaire,2,0.0012,-71.4286,-71.4286
-highway,secondary;tertiary,2,0.0012,-71.4286,-71.4286
-highway,unknown,2,0.0012,-71.4286,-71.4286
-highway,yes,2,0.0012,-85.7143,-85.7143
-highway,access,1,0.0006,-85.7143,-85.7143
-highway,footwaylayer=0,1,0.0006,-85.7143,-85.7143
-highway,traffic_signals;crossing,1,0.0006,-85.7143,-85.7143
-highway,trailhead,1,0.0006,-85.7143,-85.7143
-highway, tertiary,1,0.0006,-85.7143,-85.7143
-highway,Tertiaire,1,0.0006,-85.7143,-85.7143
-highway,circonstancielle,1,0.0006,-85.7143,-85.7143
-highway,fors,1,0.0006,-85.7143,-85.7143
-highway,path;service,1,0.0006,-85.7143,-85.7143
-highway,residential ,1,0.0006,-85.7143,-85.7143
-highway,residential;tertiary;service,1,0.0006,-85.7143,-85.7143
-highway,residential;track;unclassified,1,0.0006,-85.7143,-85.7143
-landuse,residential,12333,34.4065,225.5808,225.5808
-landuse,brownfield,10425,29.0836,28075.6757,28075.6757
-landuse,farmland,6958,19.4114,303.5963,303.5963
-landuse,grass,1465,4.087,117.037,117.037
-landuse,forest,779,2.1732,41.1232,41.1232
-landuse,industrial,601,1.6767,27.6008,27.6008
-landuse,basin,431,1.2024,389.7727,389.7727
-landuse,orchard,430,1.1996,26.4706,26.4706
-landuse,farm,285,0.7951,182.1782,182.1782
-landuse,farmyard,230,0.6417,-16.9675,-16.9675
-landuse,cemetery,228,0.6361,65.2174,65.2174
-landuse,vineyard,203,0.5663,118.2796,118.2796
-landuse,meadow,199,0.5552,15.6977,15.6977
-landuse,commercial,177,0.4938,17.2185,17.2185
-landuse,construction,170,0.4743,-34.3629,-34.3629
-landuse,greenfield,132,0.3683,428.0,428.0
-landuse,retail,123,0.3431,173.3333,173.3333
-landuse,reservoir,99,0.2762,13.7931,13.7931
-landuse,quarry,68,0.1897,119.3548,119.3548
-landuse,military,64,0.1785,28.0,28.0
-landuse,farming,51,0.1423,628.5714,628.5714
-landuse,landfill,50,0.1395,-40.4762,-40.4762
-landuse,grave_yard,49,0.1367,600.0,600.0
-landuse,religious,41,0.1144,46.4286,46.4286
-landuse,railway,38,0.106,100.0,100.0
-landuse,flowerbed,32,0.0893,68.4211,68.4211
-landuse,allotments,29,0.0809,20.8333,20.8333
-landuse,village_green,27,0.0753,92.8571,92.8571
-landuse,recreation_ground,24,0.067,-7.6923,-7.6923
-landuse,plant_nursery,18,0.0502,20.0,20.0
-landuse,greenhouse_horticulture,12,0.0335,-66.6667,-66.6667
-landuse,education,11,0.0307,-8.3333,-8.3333
-landuse,yes,11,0.0307,-74.4186,-74.4186
-landuse,depot,4,0.0112,-60.0,-60.0
-landuse,government,4,0.0112,-55.5556,-55.5556
-landuse,scrub,4,0.0112,-42.8571,-42.8571
-landuse,heath,3,0.0084,-57.1429,-57.1429
-landuse,park,3,0.0084,-57.1429,-57.1429
-landuse,garages,3,0.0084,-72.7273,-72.7273
-landuse,institutional,3,0.0084,-57.1429,-57.1429
-landuse,civic_admin,2,0.0056,-71.4286,-71.4286
-landuse,market,2,0.0056,-71.4286,-71.4286
-landuse,unknown,2,0.0056,-71.4286,-71.4286
-landuse,industry,2,0.0056,-71.4286,-71.4286
-landuse,playground,2,0.0056,-71.4286,-71.4286
-landuse,asphalt,1,0.0028,-85.7143,-85.7143
-landuse,planned,1,0.0028,-85.7143,-85.7143
-landuse,wood,1,0.0028,-85.7143,-85.7143
-landuse,Publique,1,0.0028,-85.7143,-85.7143
-landuse,harbour,1,0.0028,-85.7143,-85.7143
-landuse,inndustrial,1,0.0028,-85.7143,-85.7143
-landuse,salt_pond,1,0.0028,-99.3506,-99.3506
-landuse,school,1,0.0028,-85.7143,-85.7143
-landuse,Kalamati tarkari(vegetable) Market,1,0.0028,-85.7143,-85.7143
-landuse,Market_Area,1,0.0028,-85.7143,-85.7143
-landuse,ashmita ko toribari,1,0.0028,-85.7143,-85.7143
-landuse,breeding,1,0.0028,-85.7143,-85.7143
-landuse,landslide,1,0.0028,-85.7143,-85.7143
-landuse,official,1,0.0028,-85.7143,-85.7143
-landuse,pond,1,0.0028,-87.5,-87.5
-landuse,residentialbr,1,0.0028,-85.7143,-85.7143
-landuse,restaurant,1,0.0028,-85.7143,-85.7143
-landuse,water suppliers,1,0.0028,-85.7143,-85.7143
-leisure,park,756,27.4012,-1.3055,-1.3055
-leisure,pitch,616,22.3269,37.5,37.5
-leisure,garden,444,16.0928,231.3433,231.3433
-leisure,swimming_pool,182,6.5966,95.6989,95.6989
-leisure,sports_centre,168,6.0892,86.6667,86.6667
-leisure,playground,164,5.9442,-0.6061,-0.6061
-leisure,common,42,1.5223,-65.2893,-65.2893
-leisure,outdoor_seating,39,1.4136,290.0,290.0
-leisure,picnic_table,38,1.3773,-13.6364,-13.6364
-leisure,track,38,1.3773,153.3333,153.3333
-leisure,nature_reserve,37,1.3411,94.7368,94.7368
-leisure,fitness_centre,34,1.2323,36.0,36.0
-leisure,sports_hall,33,1.1961,37.5,37.5
-leisure,beach_resort,26,0.9424,13.0435,13.0435
-leisure,dog_park,20,0.7249,-33.3333,-33.3333
-leisure,fitness_station,16,0.5799,-15.7895,-15.7895
-leisure,stadium,15,0.5437,-21.0526,-21.0526
-leisure,golf_course,10,0.3625,25.0,25.0
-leisure,bleachers,9,0.3262,28.5714,28.5714
-leisure,fishing,6,0.2175,-14.2857,-14.2857
-leisure,adult_gaming_centre,5,0.1812,-37.5,-37.5
-leisure,hot_tub,5,0.1812,-28.5714,-28.5714
-leisure,dance,4,0.145,-50.0,-50.0
-leisure,hackerspace,4,0.145,-42.8571,-42.8571
-leisure,marina,4,0.145,-73.3333,-73.3333
-leisure,football,4,0.145,-42.8571,-42.8571
-leisure,parc saint vicent,4,0.145,-42.8571,-42.8571
-leisure,water_park,3,0.1087,-57.1429,-57.1429
-leisure,events_venue,3,0.1087,-57.1429,-57.1429
-leisure,horse_riding,3,0.1087,-57.1429,-57.1429
-leisure,amusement_arcade,2,0.0725,-81.8182,-81.8182
-leisure,miniature_golf,2,0.0725,-81.8182,-81.8182
-leisure,sauna,2,0.0725,-71.4286,-71.4286
-leisure,trampoline_park,2,0.0725,-71.4286,-71.4286
-leisure,Football,2,0.0725,-71.4286,-71.4286
-leisure,spa,2,0.0725,-71.4286,-71.4286
-leisure,bowling_alley,1,0.0362,-85.7143,-85.7143
-leisure,community_centre,1,0.0362,-85.7143,-85.7143
-leisure,grass,1,0.0362,-85.7143,-85.7143
-leisure,ice_rink,1,0.0362,-85.7143,-85.7143
-leisure,"park, playground",1,0.0362,-85.7143,-85.7143
-leisure,sunbathing,1,0.0362,-85.7143,-85.7143
-leisure,Fottball,1,0.0362,-85.7143,-85.7143
-leisure,SOCCER,1,0.0362,-85.7143,-85.7143
-leisure,night_club,1,0.0362,-85.7143,-85.7143
-leisure,slipway,1,0.0362,-90.0,-90.0
-leisure,swimming pool,1,0.0362,-85.7143,-85.7143
-leisure,Restaurant,1,0.0362,-85.7143,-85.7143
-leisure,School,1,0.0362,-85.7143,-85.7143
-leisure,maze,1,0.0362,-85.7143,-85.7143
-leisure,open ground,1,0.0362,-85.7143,-85.7143
-name,Bologna Centrale,507,0.4517,7142.8571,7142.8571
-name,Via Toscana,354,0.3154,218.9189,218.9189
-name,Obstacle,281,0.2504,1378.9474,1378.9474
-name,Via Emilia Ponente,256,0.2281,232.4675,232.4675
-name,Via San Donato,234,0.2085,203.8961,203.8961
-name,Via Emilia Levante,211,0.188,61.0687,61.0687
-name,Via Augusto Murri,189,0.1684,80.0,80.0
-name,Abres,182,0.1622,2500.0,2500.0
-name,Via Emilia,175,0.1559,-13.3663,-13.3663
-name,Via del Triumvirato,171,0.1524,222.6415,222.6415
-name,Strada statale 253 bis Trasversale di Pianura,169,0.1506,2314.2857,2314.2857
-name,Abre,166,0.1479,2271.4286,2271.4286
-name,Via Stalingrado,164,0.1461,121.6216,121.6216
-name,Viale Felsina,148,0.1319,27.5862,27.5862
-name,Via Giuseppe Dozza,132,0.1176,206.9767,206.9767
-name,Ecole  Primaire,125,0.1114,1685.7143,1685.7143
-name,Route Nationale # 7,125,0.1114,42.0455,42.0455
-name,Arbre,124,0.1105,1671.4286,1671.4286
-name,Viale della Repubblica,117,0.1042,172.093,172.093
-name,Rue La Paix,114,0.1016,533.3333,533.3333
-name,Via Francesco Zanardi,113,0.1007,109.2593,109.2593
-name,OBSTACLES,112,0.0998,1500.0,1500.0
-name,Ferrovia Bologna – Ancona,111,0.0989,311.1111,311.1111
-name,Asse Attrezzato Sud-Ovest,107,0.0953,463.1579,463.1579
-name,Via Andrea Costa,107,0.0953,18.8889,18.8889
-name,Via Circonvallazione Nuova,106,0.0944,107.8431,107.8431
-name,Route Départementale # 401,101,0.09,1342.8571,1342.8571
-name,Viale Pietro Pietramellara,97,0.0864,-12.6126,-12.6126
-name,Via Aurelio Saffi,92,0.082,268.0,268.0
-name,Via Giuseppe Massarenti,92,0.082,217.2414,217.2414
-name,Via Giuseppe Mazzini,92,0.082,19.4805,19.4805
-name,Via Firenze,90,0.0802,291.3043,291.3043
-name,Pista ciclabile Carlo Piazzi,89,0.0793,229.6296,229.6296
-name,Routes Départementales Haïtiennes,86,0.0766,1128.5714,1128.5714
-name,महेन्द्र राज्मार्ग्,86,0.0766,-77.1883,-77.1883
-name,Strada Statale 3 bis Tiberina,85,0.0757,-53.2967,-53.2967
-name,Via Roma,85,0.0757,18.0556,18.0556
-name,Via Due Madonne,83,0.074,102.439,102.439
-name,Via del Lavoro,83,0.074,13.6986,13.6986
-name,Tangenziale di Bologna,82,0.0731,-61.3208,-61.3208
-name,Via Paolo Fabbri,81,0.0722,326.3158,326.3158
-name,Viale Aldo Moro,81,0.0722,478.5714,478.5714
-name,Via Porrettana,80,0.0713,86.0465,86.0465
-name,Tangenziale delle Biciclette,79,0.0704,92.6829,92.6829
-name,Via di Corticella,79,0.0704,259.0909,259.0909
-name,Via Camillo Casarini,76,0.0677,442.8571,442.8571
-name,Via Dalla Volta,76,0.0677,347.0588,347.0588
-name,Via Giuseppe Garibaldi,76,0.0677,31.0345,31.0345
-name,Viale Europa,74,0.0659,10.4478,10.4478
-name,Rue 2,74,0.0659,572.7273,572.7273
-name,Via Giacomo Matteotti,73,0.065,-13.0952,-13.0952
-name,Via Libia,73,0.065,386.6667,386.6667
-name,Nationale No 2,73,0.065,812.5,812.5
-name,Via Arcangelo Corelli,72,0.0642,323.5294,323.5294
-name,Via Ferrarese,71,0.0633,57.7778,57.7778
-name,Via Aldo Moro,69,0.0615,-45.6693,-45.6693
-name,Route Départementale # 402,69,0.0615,885.7143,885.7143
-name,Via Saragozza,68,0.0606,151.8519,151.8519
-name,pylone,67,0.0597,857.1429,857.1429
-name,McDonald's,65,0.0579,242.1053,242.1053
-name,Via Paolo Bovi Campeggi,65,0.0579,242.1053,242.1053
-name,Rue Moise,65,0.0579,622.2222,622.2222
-name,Via Classicana,64,0.057,-40.1869,-40.1869
-name,Via Reale Lavezzola,64,0.057,814.2857,814.2857
-name,Via Agucchi,63,0.0561,250.0,250.0
-name,Via Guglielmo Marconi,63,0.0561,-37.6238,-37.6238
-name,Viale Giosuè Carducci,63,0.0561,-7.3529,-7.3529
-name,Via Vittorio Veneto,62,0.0552,195.2381,195.2381
-name,Via Yuri Gagarin,61,0.0544,662.5,662.5
-name,Via Irnerio,59,0.0526,118.5185,118.5185
-name,Via Piratello,59,0.0526,436.3636,436.3636
-name,Ecole Primaire,59,0.0526,742.8571,742.8571
-name,Rotonda Ayrton Senna,58,0.0517,141.6667,141.6667
-name,Via Marzabotto,58,0.0517,31.8182,31.8182
-name,Via San Vitale,58,0.0517,-25.641,-25.641
-name,Via Luigi Tanari,57,0.0508,256.25,256.25
-name,Bananiers,57,0.0508,714.2857,714.2857
-name,Pont,56,0.0499,700.0,700.0
-name,Via Fossolo,55,0.049,19.5652,19.5652
-name,Viale del Tricolore,55,0.049,-3.5088,-3.5088
-name,Ruelle La Paix,55,0.049,511.1111,511.1111
-name,Rotonda Luciano Romagnoli,54,0.0481,200.0,200.0
-name,Via Faentina,54,0.0481,-8.4746,-8.4746
-name,Viale Ilic Uljanov Lenin,54,0.0481,237.5,237.5
-name,Via Antonio Gramsci,53,0.0472,26.1905,26.1905
-name,Via Galliera,53,0.0472,120.8333,120.8333
-name,Via del Terrapieno,53,0.0472,43.2432,43.2432
-name,Rue Louverture,53,0.0472,76.6667,76.6667
-name,Rotonda Giovanni Michelucci,52,0.0463,642.8571,642.8571
-name,Sottopasso Ernesto Maserati,52,0.0463,52.9412,52.9412
-name,Viale Palmiro Togliatti,52,0.0463,100.0,100.0
-name,Sun Kosi,52,0.0463,57.5758,57.5758
-name,IP,51,0.0454,121.7391,121.7391
-name,Piazza Maggiore,51,0.0454,325.0,325.0
-name,Via Umberto Terracini,51,0.0454,121.7391,121.7391
-name,Via dei Mille,51,0.0454,142.8571,142.8571
-name,Imp La Paix,51,0.0454,628.5714,628.5714
-name,Chapakot Highway,51,0.0454,628.5714,628.5714
-name,Via de' Carracci,50,0.0446,117.3913,117.3913
-name,Via Fiumazzo,49,0.0437,600.0,600.0
-natural,tree,40928,80.1944,788.7731,788.7731
-natural,wood,4430,8.6801,447.5896,447.5896
-natural,water,1681,3.2938,50.7623,50.7623
-natural,tree_row,886,1.736,228.1481,228.1481
-natural,scrub,765,1.4989,320.3297,320.3297
-natural,sand,446,0.8739,107.4419,107.4419
-natural,peak,375,0.7348,101.6129,101.6129
-natural,shingle,338,0.6623,168.254,168.254
-natural,heath,152,0.2978,1588.8889,1588.8889
-natural,grassland,148,0.29,448.1481,448.1481
-natural,wetland,140,0.2743,55.5556,55.5556
-natural,coastline,106,0.2077,-69.8006,-69.8006
-natural,bare_rock,85,0.1665,466.6667,466.6667
-natural,scree,84,0.1646,162.5,162.5
-natural,beach,66,0.1293,40.4255,40.4255
-natural,riverbed,51,0.0999,292.3077,292.3077
-natural,cliff,50,0.098,-41.1765,-41.1765
-natural,plant,46,0.0901,557.1429,557.1429
-natural,ridge,41,0.0803,57.6923,57.6923
-natural,shrub,33,0.0647,6.4516,6.4516
-natural,gully,26,0.0509,271.4286,271.4286
-natural,cave_entrance,22,0.0431,144.4444,144.4444
-natural,glacier,19,0.0372,-95.7207,-95.7207
-natural,bay,16,0.0314,77.7778,77.7778
-natural,mud,14,0.0274,0.0,0.0
-natural,landslide,12,0.0235,71.4286,71.4286
-natural,spring,11,0.0216,-8.3333,-8.3333
-natural,floodplain,11,0.0216,57.1429,57.1429
-natural,woods,8,0.0157,14.2857,14.2857
-natural,rock,7,0.0137,0.0,0.0
-natural,fell,6,0.0118,-14.2857,-14.2857
-natural,earth_bank,5,0.0098,-28.5714,-28.5714
-natural,forest,4,0.0078,-42.8571,-42.8571
-natural,floodable area,4,0.0078,-42.8571,-42.8571
-natural,sinkhole,3,0.0059,-57.1429,-57.1429
-natural,wet land,3,0.0059,-57.1429,-57.1429
-natural,land,3,0.0059,-57.1429,-57.1429
-natural,saddle,3,0.0059,-93.1818,-93.1818
-natural,grass,1,0.002,-91.6667,-91.6667
-natural,shrubbery,1,0.002,-85.7143,-85.7143
-natural,Tree,1,0.002,-85.7143,-85.7143
-natural,meadow,1,0.002,-85.7143,-85.7143
-natural,headland,1,0.002,-85.7143,-85.7143
-natural,cave,1,0.002,-85.7143,-85.7143
-natural,pass,1,0.002,-85.7143,-85.7143
-natural,snowfield,1,0.002,-85.7143,-85.7143
-source,"Google, 2010-01-21",20624,14.2482,6820.8054,6820.8054
-source,CNIGS/OIM/ FOCS,16945,11.7066,4727.6353,4727.6353
-source,CNIGS/OIM/FOCS,13805,9.5373,2447.048,2447.048
-source,Bing,10501,7.2547,29.0049,29.0049
-source,bing,7294,5.0391,-41.8573,-41.8573
-source,GeoEye,6079,4.1997,469.1948,469.1948
-source,Regione Emilia Romagna,4711,3.2546,57.5585,57.5585
-source,Comune di Bologna,3358,2.3199,568.9243,568.9243
-source,CNIGS/GIS/DTM,2987,2.0636,3146.7391,3146.7391
-source,CCCM,2686,1.8556,2256.1404,2256.1404
-source,"WorldView-2, DigitalGlobe, 2010-01-21",2599,1.7955,1226.0204,1226.0204
-source,hot_iom_c.osm-ha,2540,1.7548,21066.6667,21066.6667
-source,http://www.tper.it/azienda/tper-open-data,2225,1.5372,-48.8153,-48.8153
-source,haiti-tlm-50,2023,1.3976,3328.8136,3328.8136
-source,hot_oim_che116,1937,1.3382,849.5098,849.5098
-source,"DigitalGlobe;WorldView-2, DigitalGlobe, 2010-01-20",1556,1.075,6972.7273,6972.7273
-source,http://dati.emilia-romagna.it/dato/item/11-11-uso-del-suolo-2008.html,1521,1.0508,301.3193,301.3193
-source,Google 2010-01-17,1400,0.9672,2233.3333,2233.3333
-source,Digital Globe Maps API,1233,0.8518,17514.2857,17514.2857
-source,"WorldBank, 2010-01-22",1199,0.8283,4340.7407,4340.7407
-source,Cosmha/Cartong,1156,0.7986,1327.1605,1327.1605
-source,"Google, 2010-01-17",1113,0.7689,1013.0,1013.0
-source,NextView,997,0.6888,1284.7222,1284.7222
-source,"WorldView-2, DigitalGlobe, 2010-01-20",992,0.6853,1450.0,1450.0
-source,DigitalGlobe,937,0.6473,359.3137,359.3137
-source,hot_OIM_che116,865,0.5976,1596.0784,1596.0784
-source,"WorldBank, 2010-01-24",825,0.57,1150.0,1150.0
-source,Google,825,0.57,6246.1538,6246.1538
-source,digitalglobe,741,0.5119,-28.0583,-28.0583
-source,survey,666,0.4601,-55.511,-55.511
-source,Bing Imagery,658,0.4546,9300.0,9300.0
-source,"Digital Globe, 2015-04-29",650,0.4491,9185.7143,9185.7143
-source,hot_iom_cosmha,618,0.4269,23.1076,23.1076
-source,CNIGS/FOCS/OIM,613,0.4235,3986.6667,3986.6667
-source,"NOAA, 2010-01-18",598,0.4131,543.0108,543.0108
-source,haiti best,593,0.4097,5290.9091,5290.9091
-source,hot_OIM_Che116,558,0.3855,407.2727,407.2727
-source,CNIGS_IOM_FOCS,486,0.3358,683.871,683.871
-source,hot_oim_cosmha,473,0.3268,547.9452,547.9452
-source,B ing With Offset,463,0.3199,952.2727,952.2727
-source,Yahoo,451,0.3116,691.2281,691.2281
-source,hot_oim_che_116,449,0.3102,1182.8571,1182.8571
-source,CIGS/OIM/FOCS,429,0.2964,2964.2857,2964.2857
-source,Bing with offset,393,0.2715,38.8693,38.8693
-source,"WorldView-2, DigitalGlobe, 2010-01-18",389,0.2687,764.4444,764.4444
-source,http://maps.nypl.org/relief/maps/20,389,0.2687,5457.1429,5457.1429
-source,IOM_HOT,350,0.2418,4900.0,4900.0
-source,geoeye,348,0.2404,2075.0,2075.0
-source,1:50k topo,347,0.2397,1234.6154,1234.6154
-source,nextview,321,0.2218,3110.0,3110.0
-source,hot_iom_che116,311,0.2149,3010.0,3010.0
-source,hot_iom_che_116,292,0.2017,4071.4286,4071.4286
-source,OpenDRI survey,284,0.1962,-26.0417,-26.0417
-source,hot_cosmha_iom,281,0.1941,47.8947,47.8947
-source,Haiti 1:50k Topo,277,0.1914,3857.1429,3857.1429
-source,ILO transportation mapping,250,0.1727,3471.4286,3471.4286
-source,GPS,247,0.1706,-62.2324,-62.2324
-source,OIM/GIS/DTM,245,0.1693,3400.0,3400.0
-source,"DigitalGlobe, 2010",227,0.1568,312.7273,312.7273
-source,NOAA,220,0.152,254.8387,254.8387
-source,"GeoEye1, GeoEye, 2010-01-16",219,0.1513,2637.5,2637.5
-source,Public Domain CIA Maps,219,0.1513,3028.5714,3028.5714
-source,landsat,206,0.1423,-43.0939,-43.0939
-source,"NOAA, 2010-01-22",199,0.1375,290.1961,290.1961
-source,Bing With Offset,195,0.1347,248.2143,248.2143
-source,WorldBank 2010-01-21 - 2010-01-22,192,0.1326,2642.8571,2642.8571
-source,CNIGS_OIM_FOCS,190,0.1313,2614.2857,2614.2857
-source,"WorldView-2, DigitalGlobe, NextView, 25 Nov 2013 & 08 Apr 2015",186,0.1285,2557.1429,2557.1429
-source,survey:CAI,167,0.1154,2285.7143,2285.7143
-source,bing 2010,166,0.1147,418.75,418.75
-source,MapBox,164,0.1133,2242.8571,2242.8571
-source,Iom Hot,163,0.1126,2228.5714,2228.5714
-source,"DigitalGlobe, 2015-05-03",163,0.1126,2228.5714,2228.5714
-source,geodati.gfoss.it,159,0.1098,1887.5,1887.5
-source,CINGS/OIM/FOCS,149,0.1029,2028.5714,2028.5714
-source,mapbox:ortho,147,0.1016,2000.0,2000.0
-source,yahoo,145,0.1002,1015.3846,1015.3846
-source,"WoldView-2, DigitalGlobe, 2010-01-21",143,0.0988,1942.8571,1942.8571
-source,haiti mosaic,139,0.096,321.2121,321.2121
-source,Haitii 1:50k topo,138,0.0953,1871.4286,1871.4286
-source,ds4273,132,0.0912,144.4444,144.4444
-source,Based on ISTAT data - 2001 Italian Census,130,0.0898,68.8312,68.8312
-source,GeoEye/GeoEye1-2010/01/16,129,0.0891,1742.8571,1742.8571
-source,Haiti 1:50k topo,128,0.0884,540.0,540.0
-source,"UAV,IOM_COSMHA_SIGHA",128,0.0884,-61.0942,-61.0942
-source,bing with offset,127,0.0877,18.6916,18.6916
-source,Survey-ARC,125,0.0864,-97.6937,-97.6937
-source,World Bank 2010/01/21-2010/01/22,122,0.0843,1642.8571,1642.8571
-source,CNIGS/GIS /DTM,122,0.0843,351.8519,351.8519
-source,hot_iom_che 116,118,0.0815,1375.0,1375.0
-source,MISE - Ministero Sviluppo Economico,116,0.0801,-5.6911,-5.6911
-source,DMA TLM-50,116,0.0801,222.2222,222.2222
-source,http://hypercube.telascience.org/tiles/1.0.0/worldbank-21-900913/!/!/!.jpg,114,0.0788,1528.5714,1528.5714
-source,MINUSTAH GIS and UN Cartographic Section,114,0.0788,442.8571,442.8571
-source,Digital Globe 2015 Canaan Haiti,113,0.0781,-98.4613,-98.4613
-source,hot-oim-che116,112,0.0774,600.0,600.0
-source,DTM/GIS/OIM,112,0.0774,300.0,300.0
-source,OIM_HOT,110,0.076,1471.4286,1471.4286
-source,"NOAA, 2008-01-18",108,0.0746,1100.0,1100.0
-source,WorldView2/DigitalGlobe/2010-01-21,106,0.0732,202.8571,202.8571
-surface,asphalt,25779,51.2434,31.4249,31.4249
-surface,Dirt/Sand,4701,9.3446,67057.1429,67057.1429
-surface,gravel,4248,8.4442,458.9474,458.9474
-surface,unpaved,4217,8.3825,101.2888,101.2888
-surface,ground,2416,4.8025,-47.7056,-47.7056
-surface,paved,1832,3.6416,15.8028,15.8028
-surface,Paved,1485,2.9519,21114.2857,21114.2857
-surface,paving_stones,1398,2.7789,53.4577,53.4577
-surface,dirt,1364,2.7114,41.6407,41.6407
-surface,sett,756,1.5028,65.7895,65.7895
-surface,concrete,443,0.8806,62.2711,62.2711
-surface,grass,244,0.485,125.9259,125.9259
-surface,compacted,220,0.4373,-18.5185,-18.5185
-surface,unspecified,189,0.3757,-38.2353,-38.2353
-surface,mud,126,0.2505,-28.8136,-28.8136
-surface,fine_gravel,108,0.2147,0.9346,0.9346
-surface,unhewn_cobblestone,91,0.1809,145.9459,145.9459
-surface,earth,75,0.1491,226.087,226.087
-surface,dirt_sand,75,0.1491,971.4286,971.4286
-surface,pebblestone,58,0.1153,190.0,190.0
-surface,sand,58,0.1153,52.6316,52.6316
-surface,wood,56,0.1113,9.8039,9.8039
-surface,dirt;sand,42,0.0835,75.0,75.0
-surface,terre,37,0.0735,428.5714,428.5714
-surface,metal,33,0.0656,57.1429,57.1429
-surface,cobblestone,27,0.0537,8.0,8.0
-surface,Gravel,24,0.0477,242.8571,242.8571
-surface,dirt/sand,24,0.0477,20.0,20.0
-surface,concrete:plates,18,0.0358,20.0,20.0
-surface,Dirt/Sand;Paved,18,0.0358,157.1429,157.1429
-surface,grass_paver,16,0.0318,-33.3333,-33.3333
-surface,boardwalk,12,0.0239,71.4286,71.4286
-surface,premix,10,0.0199,42.8571,42.8571
-surface,bricks,9,0.0179,28.5714,28.5714
-surface,toilette,8,0.0159,14.2857,14.2857
-surface,flagging,6,0.0119,-79.3103,-79.3103
-surface,clay,6,0.0119,-70.0,-70.0
-surface,brick,6,0.0119,-14.2857,-14.2857
-surface,artificial_turf,5,0.0099,-73.6842,-73.6842
-surface,paved;unpaved,5,0.0099,-28.5714,-28.5714
-surface,asphaltcrossing=traffic_signals_crossing:island=no_crossing:markings=zebra_footway=crossing_highway=footway_surface=asphalt_tactile_paving=yes,4,0.008,-42.8571,-42.8571
-surface,roman_paving,4,0.008,-42.8571,-42.8571
-surface,tartan,4,0.008,-42.8571,-42.8571
-surface,concrete:lanes,4,0.008,-66.6667,-66.6667
-surface,Dirt/Sand;dirt/sand,3,0.006,-57.1429,-57.1429
-surface,Asphalt,3,0.006,-57.1429,-57.1429
-surface,gravel;paved,3,0.006,-57.1429,-57.1429
-surface,ottaseal,3,0.006,-57.1429,-57.1429
-surface,200m2,2,0.004,-71.4286,-71.4286
-surface,boue,2,0.004,-71.4286,-71.4286
-surface,stone,2,0.004,-71.4286,-71.4286
-surface,Khiji_Chadeshwori_way,2,0.004,-71.4286,-71.4286
-surface,Unpaved,2,0.004,-71.4286,-71.4286
-surface,black topped,2,0.004,-71.4286,-71.4286
-surface,unpaved;paved;gravel,2,0.004,-71.4286,-71.4286
-surface,asphaltwheelchair=yes,1,0.002,-85.7143,-85.7143
-surface,cement,1,0.002,-85.7143,-85.7143
-surface,plastic,1,0.002,-92.3077,-92.3077
-surface,prato,1,0.002,-85.7143,-85.7143
-surface,rubbercrumb,1,0.002,-85.7143,-85.7143
-surface,Tente de loisir,1,0.002,-85.7143,-85.7143
-surface,fer,1,0.002,-85.7143,-85.7143
-surface,impassable,1,0.002,-87.5,-87.5
-surface,compacted_unpaved,1,0.002,-85.7143,-85.7143
-surface,groud,1,0.002,-85.7143,-85.7143
-surface,grouin,1,0.002,-85.7143,-85.7143
-surface,Concrete_Block_paved,1,0.002,-87.5,-87.5
-surface,Khiji_Chadeshwori_road,1,0.002,-85.7143,-85.7143
-surface,archways,1,0.002,-85.7143,-85.7143
-surface,compacted;gravel;dirt,1,0.002,-85.7143,-85.7143
-surface,earthen,1,0.002,-85.7143,-85.7143
-surface,gate_with_two_lions_on_sides,1,0.002,-85.7143,-85.7143
-surface,looks_unpaved,1,0.002,-85.7143,-85.7143
-surface,pitched,1,0.002,-85.7143,-85.7143
-surface,steel,1,0.002,-87.5,-87.5
-waterway,stream,7129,50.0913,61.2531,61.2531
-waterway,river,2307,16.2099,1.5405,1.5405
-waterway,drain,1681,11.8114,130.9066,130.9066
-waterway,ditch,1604,11.2704,498.5075,498.5075
-waterway,canal,1020,7.1669,128.6996,128.6996
-waterway,riverbank,315,2.2133,28.5714,28.5714
-waterway,dam,88,0.6183,225.9259,225.9259
-waterway,weir,34,0.2389,142.8571,142.8571
-waterway,yes,20,0.1405,185.7143,185.7143
-waterway,lock_gate,8,0.0562,-55.5556,-55.5556
-waterway,waterfall,7,0.0492,-53.3333,-53.3333
-waterway,check_dam,4,0.0281,-42.8571,-42.8571
-waterway,turning_point,3,0.0211,-57.1429,-57.1429
-waterway,wadibank,2,0.0141,-71.4286,-71.4286
-waterway,culvert,2,0.0141,-71.4286,-71.4286
-waterway,boatyard,1,0.007,-85.7143,-85.7143
-waterway,dryriver,1,0.007,-85.7143,-85.7143
-waterway,path,1,0.007,-85.7143,-85.7143
-waterway,wall,1,0.007,-85.7143,-85.7143
-waterway,Power canal,1,0.007,-85.7143,-85.7143
-waterway,drystream,1,0.007,-85.7143,-85.7143
-waterway,fuel,1,0.007,-85.7143,-85.7143
-waterway,stream;river,1,0.007,-85.7143,-85.7143
-emergency,yes,69,30.131,32.6923,32.6923
-emergency,fire_hydrant,45,19.6507,-72.0497,-72.0497
-emergency,defibrillator,34,14.8472,-10.5263,-10.5263
-emergency,emergency_ward_entrance,17,7.4236,13.3333,13.3333
-emergency,ambulance_station,15,6.5502,-11.7647,-11.7647
-emergency,assembly_point,13,5.6769,-58.0645,-58.0645
-emergency,no,11,4.8035,-92.8571,-92.8571
-emergency,fire_extinguisher,6,2.6201,-14.2857,-14.2857
-emergency,designated,4,1.7467,-42.8571,-42.8571
-emergency,fire_hose,3,1.31,-57.1429,-57.1429
-emergency,landing_site,3,1.31,-66.6667,-66.6667
-emergency,water_tank,3,1.31,-57.1429,-57.1429
-emergency,phone,3,1.31,-62.5,-62.5
-emergency,disaster_response,1,0.4367,-85.7143,-85.7143
-emergency,life_ring,1,0.4367,-85.7143,-85.7143
-emergency,lifeguard,1,0.4367,-85.7143,-85.7143
+amenity,hospital,6292,19.1182,1150.8946,1150.8946
+amenity,school,5534,16.815,141.4485,141.4485
+amenity,parking,2306,7.0068,13.9891,13.9891
+amenity,parking_space,1607,4.8829,2195.7143,2195.7143
+amenity,place_of_worship,1496,4.5456,-21.0554,-21.0554
+amenity,restaurant,1448,4.3997,43.9364,43.9364
+amenity,toilets,1165,3.5398,31.4898,31.4898
+amenity,drinking_water,949,2.8835,-40.9091,-40.9091
+amenity,bench,915,2.7802,56.6781,56.6781
+amenity,cafe,559,1.6985,49.0667,49.0667
+amenity,bicycle_parking,556,1.6894,48.2667,48.2667
+amenity,waste_basket,489,1.4858,130.6604,130.6604
+amenity,fuel,479,1.4554,56.0261,56.0261
+amenity,bank,474,1.4402,24.0838,24.0838
+amenity,shower,464,1.4099,152.1739,152.1739
+amenity,kindergarten,461,1.4007,146.5241,146.5241
+amenity,bar,458,1.3916,123.4146,123.4146
+amenity,pharmacy,430,1.3066,-12.6016,-12.6016
+amenity,recycling,414,1.2579,43.2526,43.2526
+amenity,fast_food,412,1.2519,89.8618,89.8618
+amenity,college,372,1.1303,105.5249,105.5249
+amenity,police,295,0.8964,99.3243,99.3243
+amenity,street_light,293,0.8903,4085.7143,4085.7143
+amenity,university,240,0.7292,101.6807,101.6807
+amenity,shelter,234,0.711,-16.726,-16.726
+amenity,fountain,177,0.5378,311.6279,311.6279
+amenity,public_building,176,0.5348,104.6512,104.6512
+amenity,library,162,0.4922,-41.0909,-41.0909
+amenity,community_centre,158,0.4801,47.6636,47.6636
+amenity,tap,155,0.471,162.7119,162.7119
+amenity,charging_station,137,0.4163,2.2388,2.2388
+amenity,atm,134,0.4072,26.4151,26.4151
+amenity,ctc,127,0.3859,568.4211,568.4211
+amenity,grave_yard,125,0.3798,267.6471,267.6471
+amenity,clinic,120,0.3646,-31.0345,-31.0345
+amenity,ice_cream,115,0.3494,57.5342,57.5342
+amenity,marketplace,101,0.3069,3.0612,3.0612
+amenity,social_centre,101,0.3069,431.5789,431.5789
+amenity,pub,96,0.2917,128.5714,128.5714
+amenity,motorcycle_parking,90,0.2735,130.7692,130.7692
+amenity,utc,90,0.2735,172.7273,172.7273
+amenity,waste_disposal,88,0.2674,-3.2967,-3.2967
+amenity,community_information_kiosk,81,0.2461,912.5,912.5
+amenity,bus_station,80,0.2431,45.4545,45.4545
+amenity,vending_machine,79,0.24,-11.236,-11.236
+amenity,post_office,79,0.24,-12.2222,-12.2222
+amenity,townhall,78,0.237,90.2439,90.2439
+amenity,studio,78,0.237,160.0,160.0
+amenity,market,67,0.2036,570.0,570.0
+amenity,doctors,66,0.2005,17.8571,17.8571
+amenity,dentist,61,0.1853,3.3898,3.3898
+amenity,nightclub,60,0.1823,122.2222,122.2222
+amenity,cinema,58,0.1762,3.5714,3.5714
+amenity,car_wash,55,0.1671,61.7647,61.7647
+amenity,parking_entrance,54,0.1641,14.8936,14.8936
+amenity,arts_centre,48,0.1458,60.0,60.0
+amenity,cro,47,0.1428,74.0741,74.0741
+amenity,dispensary,46,0.1398,557.1429,557.1429
+amenity,social_facility,45,0.1367,21.6216,21.6216
+amenity,taxi,44,0.1337,144.4444,144.4444
+amenity,embassy,43,0.1307,-18.8679,-18.8679
+amenity,theatre,39,0.1185,85.7143,85.7143
+amenity,shop,39,0.1185,-7.1429,-7.1429
+amenity,veterinary,35,0.1063,-14.6341,-14.6341
+amenity,car_rental,34,0.1033,54.5455,54.5455
+amenity,pont,33,0.1003,371.4286,371.4286
+amenity,childcare,31,0.0942,55.0,55.0
+amenity,CRO,31,0.0942,93.75,93.75
+amenity,courthouse,30,0.0912,42.8571,42.8571
+amenity,communal_cooking_area,29,0.0881,314.2857,314.2857
+amenity,eau_brute,29,0.0881,314.2857,314.2857
+amenity,telephone,28,0.0851,-12.5,-12.5
+amenity,bureau_de_change,23,0.0699,-17.8571,-17.8571
+amenity,Douches et toilettes,22,0.0668,214.2857,214.2857
+amenity,parcel_locker,19,0.0577,-26.9231,-26.9231
+amenity,post_box,19,0.0577,-59.5745,-59.5745
+amenity,bicycle_rental,18,0.0547,0.0,0.0
+amenity,research_institute,17,0.0517,21.4286,21.4286
+amenity,bicycle_repair_station,17,0.0517,-63.0435,-63.0435
+amenity,driving_school,17,0.0517,13.3333,13.3333
+amenity,gambling,17,0.0517,-95.5844,-95.5844
+amenity,non,17,0.0517,142.8571,142.8571
+amenity,office,16,0.0486,-5.8824,-5.8824
+amenity,prison,15,0.0456,50.0,50.0
+amenity,8 chambres de toilettes,15,0.0456,114.2857,114.2857
+amenity,clock,14,0.0425,27.2727,27.2727
+amenity,photo_booth,14,0.0425,7.6923,7.6923
+amenity,canal,14,0.0425,7.6923,7.6923
+amenity,fire_station,13,0.0395,8.3333,8.3333
+amenity,Ecole,12,0.0365,71.4286,71.4286
+amenity,"kindergarten, High school",12,0.0365,71.4286,71.4286
+amenity,water_point,11,0.0334,-63.3333,-63.3333
+amenity,internet_cafe,10,0.0304,-9.0909,-9.0909
+amenity,ferry_terminal,10,0.0304,-37.5,-37.5
+amenity,airport,9,0.0273,28.5714,28.5714
+amenity,conference_centre,8,0.0243,14.2857,14.2857
+amenity,exhibition_centre,8,0.0243,-27.2727,-27.2727
+amenity,music_school,8,0.0243,14.2857,14.2857
+amenity,public_bookcase,8,0.0243,-42.8571,-42.8571
+amenity,food_court,8,0.0243,-33.3333,-33.3333
+building,yes,458886,94.4855,3.1877,3.1877
+building,house,10771,2.2178,57.9326,57.9326
+building,residential,4755,0.9791,-13.2299,-13.2299
+building,construction,1235,0.2543,-90.9325,-90.9325
+building,apartments,1155,0.2378,17.14,17.14
+building,tent,817,0.1682,1101.4706,1101.4706
+building,building_concrete,731,0.1505,703.2967,703.2967
+building,collapsed,712,0.1466,1106.7797,1106.7797
+building,shelter,502,0.1034,543.5897,543.5897
+building,school,479,0.0986,-50.2596,-50.2596
+building,industrial,468,0.0964,10.1176,10.1176
+building,non_waterproof_shelter,451,0.0929,478.2051,478.2051
+building,building_sheet_metal,444,0.0914,1544.4444,1544.4444
+building,hut,413,0.085,588.3333,588.3333
+building,building_wood,360,0.0741,1025.0,1025.0
+building,commercial,357,0.0735,-87.4118,-87.4118
+building,church,317,0.0653,-47.7759,-47.7759
+building,roof,275,0.0566,-11.2903,-11.2903
+building,waterproof_shelter,249,0.0513,1678.5714,1678.5714
+building,greenhouse,240,0.0494,47.2393,47.2393
+building,detached,170,0.035,-1.7341,-1.7341
+building,retail,167,0.0344,-58.0402,-58.0402
+building,service,165,0.034,36.3636,36.3636
+building,hotel,100,0.0206,23.4568,23.4568
+building,office,83,0.0171,-61.0329,-61.0329
+building,public,78,0.0161,-18.75,-18.75
+building,hospital,74,0.0152,-69.2946,-69.2946
+building,shed,71,0.0146,9.2308,9.2308
+building,yse,71,0.0146,914.2857,914.2857
+building,warehouse,56,0.0115,-25.3333,-25.3333
+building,train_station,54,0.0111,184.2105,184.2105
+building,no,54,0.0111,184.2105,184.2105
+building,carport,46,0.0095,475.0,475.0
+building,kiosk,44,0.0091,83.3333,83.3333
+building,ruins,40,0.0082,-37.5,-37.5
+building,bungalow,32,0.0066,357.1429,357.1429
+building,semidetached_house,31,0.0064,-55.0725,-55.0725
+building,kindergarten,31,0.0064,40.9091,40.9091
+building,garage,30,0.0062,36.3636,36.3636
+building,garages,29,0.006,141.6667,141.6667
+building,civic,29,0.006,20.8333,20.8333
+building,Metal,29,0.006,314.2857,314.2857
+building,silo,25,0.0051,212.5,212.5
+building,residentiel1,25,0.0051,-56.8966,-56.8966
+building,terrace,23,0.0047,-8.0,-8.0
+building,grandstand,19,0.0039,-29.6296,-29.6296
+building,university,19,0.0039,-62.7451,-62.7451
+building,government,18,0.0037,100.0,100.0
+building,tole et plastic,18,0.0037,157.1429,157.1429
+building,college,18,0.0037,-55.0,-55.0
+building,chapel,13,0.0027,-18.75,-18.75
+building,farm,13,0.0027,-43.4783,-43.4783
+building,farm_auxiliary,12,0.0025,71.4286,71.4286
+building,Bois,12,0.0025,71.4286,71.4286
+building,damaged,12,0.0025,-25.0,-25.0
+building,bell_tower,11,0.0023,57.1429,57.1429
+building,storage_tank,10,0.0021,-80.0,-80.0
+building,digester,9,0.0019,28.5714,28.5714
+building,transformer_tower,9,0.0019,0.0,0.0
+building,Espace educatif,9,0.0019,28.5714,28.5714
+building,temple,9,0.0019,-66.6667,-66.6667
+building,clinic,9,0.0019,-59.0909,-59.0909
+building,tomb,8,0.0016,14.2857,14.2857
+building,fire_station,7,0.0014,0.0,0.0
+building,tower,7,0.0014,0.0,0.0
+building,concrete,7,0.0014,0.0,0.0
+building,parking,6,0.0012,-62.5,-62.5
+building,plastic  et  bois,6,0.0012,-14.2857,-14.2857
+building,wall,6,0.0012,-14.2857,-14.2857
+building,ruin,6,0.0012,-14.2857,-14.2857
+building,historic,4,0.0008,-42.8571,-42.8571
+building,military,4,0.0008,-42.8571,-42.8571
+building,supermarket,4,0.0008,-42.8571,-42.8571
+building,cathedral,4,0.0008,-63.6364,-63.6364
+building,hangar,4,0.0008,-66.6667,-66.6667
+building,Plastique,4,0.0008,-42.8571,-42.8571
+building,plastique,4,0.0008,-42.8571,-42.8571
+building,transportation,4,0.0008,-42.8571,-42.8571
+building,bank,4,0.0008,-60.0,-60.0
+building,restaurant,4,0.0008,-55.5556,-55.5556
+building,cabin,3,0.0006,-57.1429,-57.1429
+building,cinema,3,0.0006,-57.1429,-57.1429
+building,pavilion,3,0.0006,-72.7273,-72.7273
+building,slurry_tank,3,0.0006,-57.1429,-57.1429
+building,bridge,3,0.0006,-57.1429,-57.1429
+building,barn,3,0.0006,-72.7273,-72.7273
+building,exehibition aiplaine,3,0.0006,-57.1429,-57.1429
+building,tole,3,0.0006,-57.1429,-57.1429
+building,abandoned,3,0.0006,-57.1429,-57.1429
+building,panel_house,3,0.0006,-62.5,-62.5
+building,allotment_house,3,0.0006,-57.1429,-57.1429
+building,destroyed,3,0.0006,-57.1429,-57.1429
+building,gate,3,0.0006,-70.0,-70.0
+building,health_post,3,0.0006,-66.6667,-66.6667
+building,arch,2,0.0004,-71.4286,-71.4286
+building,biblioteca,2,0.0004,-71.4286,-71.4286
+building,dormitory,2,0.0004,-81.8182,-81.8182
+building,skybridge,2,0.0004,-71.4286,-71.4286
+building,sports_centre,2,0.0004,-71.4286,-71.4286
+building,villa,2,0.0004,-71.4286,-71.4286
+emergency,yes,85,33.5968,-36.5672,-36.5672
+emergency,fire_hydrant,47,18.5771,-71.5152,-71.5152
+emergency,defibrillator,38,15.0198,0.0,0.0
+emergency,emergency_ward_entrance,17,6.7194,13.3333,13.3333
+emergency,ambulance_station,15,5.9289,-11.7647,-11.7647
+emergency,assembly_point,13,5.1383,-58.0645,-58.0645
+emergency,no,11,4.3478,-93.2099,-93.2099
+emergency,fire_extinguisher,6,2.3715,-14.2857,-14.2857
+emergency,designated,4,1.581,-63.6364,-63.6364
+emergency,fire_hose,3,1.1858,-57.1429,-57.1429
+emergency,landing_site,3,1.1858,-66.6667,-66.6667
+emergency,water_tank,3,1.1858,-57.1429,-57.1429
+emergency,phone,3,1.1858,-62.5,-62.5
+emergency,lifeboat_station,2,0.7905,-71.4286,-71.4286
+emergency,disaster_response,1,0.3953,-85.7143,-85.7143
+emergency,life_ring,1,0.3953,-85.7143,-85.7143
+emergency,lifeguard,1,0.3953,-85.7143,-85.7143
+highway,residential,54239,25.5745,104.4826,104.4826
+highway,path,27501,12.9672,193.4692,193.4692
+highway,unclassified,22454,10.5874,50.9208,50.9208
+highway,track,21796,10.2772,77.3763,77.3763
+highway,tertiary,20898,9.8537,199.8709,199.8709
+highway,footway,15582,7.3472,51.4727,51.4727
+highway,service,12982,6.1212,87.6825,87.6825
+highway,secondary,8816,4.1569,89.8772,89.8772
+highway,primary,5921,2.7918,-20.874,-20.874
+highway,crossing,5380,2.5368,-38.0612,-38.0612
+highway,cycleway,3346,1.5777,-3.5735,-3.5735
+highway,road,2219,1.0463,13.0989,13.0989
+highway,bus_stop,1776,0.8374,-55.1855,-55.1855
+highway,platform,1225,0.5776,-45.8204,-45.8204
+highway,pedestrian,1067,0.5031,27.6316,27.6316
+highway,trunk,1017,0.4795,-71.0586,-71.0586
+highway,steps,708,0.3338,24.4288,24.4288
+highway,traffic_signals,587,0.2768,-48.0071,-48.0071
+highway,ford,476,0.2244,3300.0,3300.0
+highway,living_street,470,0.2216,48.265,48.265
+highway,give_way,453,0.2136,-54.0568,-54.0568
+highway,trunk_link,422,0.199,59.8485,59.8485
+highway,construction,366,0.1726,57.0815,57.0815
+highway,street_lamp,216,0.1018,-68.5131,-68.5131
+highway,primary_link,202,0.0952,-57.652,-57.652
+highway,tertiaire,184,0.0868,2528.5714,2528.5714
+highway,stop,176,0.083,-22.1239,-22.1239
+highway,motorway,167,0.0787,-30.7054,-30.7054
+highway,turning_circle,139,0.0655,90.411,90.411
+highway,motorway_link,126,0.0594,-69.3431,-69.3431
+highway,corridor,125,0.0589,316.6667,316.6667
+highway,tertiary_link,111,0.0523,60.8696,60.8696
+highway,secondary_link,102,0.0481,32.4675,32.4675
+highway,emergency_access_point,95,0.0448,427.7778,427.7778
+highway,motorway_junction,81,0.0382,179.3103,179.3103
+highway,residential;tertiary,75,0.0354,971.4286,971.4286
+highway,speed_camera,52,0.0245,1.9608,1.9608
+highway,unspecified,51,0.024,628.5714,628.5714
+highway,mini_roundabout,42,0.0198,-30.0,-30.0
+highway,elevator,37,0.0174,85.0,85.0
+highway,busway,37,0.0174,-24.4898,-24.4898
+highway,emergency_bay,36,0.017,414.2857,414.2857
+highway,proposed,33,0.0156,-59.2593,-59.2593
+highway,services,28,0.0132,133.3333,133.3333
+highway,tertiary;unclassified,15,0.0071,114.2857,114.2857
+highway,milestone,13,0.0061,62.5,62.5
+highway,turning_loop,11,0.0052,10.0,10.0
+highway,raceway,11,0.0052,-52.1739,-52.1739
+highway,bridleway,10,0.0047,-37.5,-37.5
+highway,Tertiary,10,0.0047,42.8571,42.8571
+highway,rest_area,8,0.0038,-11.1111,-11.1111
+highway,Footway,8,0.0038,14.2857,14.2857
+highway,path;residential,8,0.0038,14.2857,14.2857
+highway,residential;unclassified,8,0.0038,0.0,0.0
+highway,Residential,7,0.0033,0.0,0.0
+highway,footway;unclassified,7,0.0033,0.0,0.0
+highway,tertiary;track,7,0.0033,0.0,0.0
+highway,residential;track;track,6,0.0028,-14.2857,-14.2857
+highway,no,5,0.0024,-28.5714,-28.5714
+highway,BLOQUE PAR LES TENTES,5,0.0024,-28.5714,-28.5714
+highway,Entree du plan,5,0.0024,-28.5714,-28.5714
+highway,Secondary,5,0.0024,-28.5714,-28.5714
+highway,Restiction Routirer,4,0.0019,-42.8571,-42.8571
+highway,blocke,4,0.0019,-42.8571,-42.8571
+highway,path;unclassified,4,0.0019,-42.8571,-42.8571
+highway,residentia,4,0.0019,-42.8571,-42.8571
+highway,residential;service,4,0.0019,-42.8571,-42.8571
+highway,residentiel,4,0.0019,-42.8571,-42.8571
+highway,terciary,4,0.0019,-42.8571,-42.8571
+highway,footpath,4,0.0019,-50.0,-50.0
+highway,boardwalk,3,0.0014,-57.1429,-57.1429
+highway,passing_place,3,0.0014,-57.1429,-57.1429
+highway,Pont,3,0.0014,-57.1429,-57.1429
+highway,Terciary,3,0.0014,-57.1429,-57.1429
+highway,no service,3,0.0014,-57.1429,-57.1429
+highway,primary;unclassified,3,0.0014,-57.1429,-57.1429
+highway,residential;residential;unclassified,3,0.0014,-57.1429,-57.1429
+highway,residential;track,3,0.0014,-57.1429,-57.1429
+highway,residnetial,3,0.0014,-57.1429,-57.1429
+highway,secondary;unclassified,3,0.0014,-57.1429,-57.1429
+highway,unclassified;residential,3,0.0014,-57.1429,-57.1429
+highway,Murs,2,0.0009,-71.4286,-71.4286
+highway,Secondaire,2,0.0009,-71.4286,-71.4286
+highway,culvert,2,0.0009,-71.4286,-71.4286
+highway,footway;residential,2,0.0009,-71.4286,-71.4286
+highway,footway;track,2,0.0009,-71.4286,-71.4286
+highway,residential;tertiaire,2,0.0009,-71.4286,-71.4286
+highway,secondary;tertiary,2,0.0009,-71.4286,-71.4286
+highway,unknown,2,0.0009,-71.4286,-71.4286
+highway,toll_gantry,2,0.0009,-71.4286,-71.4286
+highway,yes,2,0.0009,-86.6667,-86.6667
+highway,access,1,0.0005,-85.7143,-85.7143
+highway,footwaylayer=0,1,0.0005,-85.7143,-85.7143
+highway,traffic_signals;crossing,1,0.0005,-85.7143,-85.7143
+highway,trailhead,1,0.0005,-85.7143,-85.7143
+highway, tertiary,1,0.0005,-85.7143,-85.7143
+highway,Tertiaire,1,0.0005,-85.7143,-85.7143
+highway,circonstancielle,1,0.0005,-85.7143,-85.7143
+highway,entree du camp pinchinat,1,0.0005,-85.7143,-85.7143
+highway,fors,1,0.0005,-85.7143,-85.7143
+landuse,residential,14737,36.6775,259.1762,259.1762
+landuse,brownfield,10432,25.9632,23082.2222,23082.2222
+landuse,farmland,7631,18.992,310.2688,310.2688
+landuse,grass,1979,4.9253,175.6267,175.6267
+landuse,forest,977,2.4316,56.8218,56.8218
+landuse,industrial,647,1.6103,27.112,27.112
+landuse,basin,577,1.436,555.6818,555.6818
+landuse,orchard,422,1.0503,23.7537,23.7537
+landuse,cemetery,360,0.896,151.7483,151.7483
+landuse,farm,303,0.7541,200.0,200.0
+landuse,farmyard,241,0.5998,-15.1408,-15.1408
+landuse,vineyard,200,0.4978,115.0538,115.0538
+landuse,commercial,193,0.4803,24.5161,24.5161
+landuse,meadow,192,0.4778,4.918,4.918
+landuse,construction,180,0.448,-35.2518,-35.2518
+landuse,greenfield,134,0.3335,436.0,436.0
+landuse,retail,132,0.3285,135.7143,135.7143
+landuse,reservoir,119,0.2962,36.7816,36.7816
+landuse,grave_yard,94,0.2339,1242.8571,1242.8571
+landuse,quarry,74,0.1842,131.25,131.25
+landuse,military,73,0.1817,46.0,46.0
+landuse,landfill,57,0.1419,-32.1429,-32.1429
+landuse,farming,51,0.1269,628.5714,628.5714
+landuse,allotments,49,0.122,81.4815,81.4815
+landuse,religious,47,0.117,62.069,62.069
+landuse,railway,44,0.1095,83.3333,83.3333
+landuse,recreation_ground,39,0.0971,44.4444,44.4444
+landuse,flowerbed,33,0.0821,73.6842,73.6842
+landuse,village_green,32,0.0796,128.5714,128.5714
+landuse,plant_nursery,18,0.0448,12.5,12.5
+landuse,yes,13,0.0324,-69.7674,-69.7674
+landuse,greenhouse_horticulture,12,0.0299,-66.6667,-66.6667
+landuse,education,12,0.0299,0.0,0.0
+landuse,salt_pond,5,0.0124,-96.7532,-96.7532
+landuse,depot,4,0.01,-60.0,-60.0
+landuse,government,4,0.01,-55.5556,-55.5556
+landuse,scrub,4,0.01,-42.8571,-42.8571
+landuse,buildings,4,0.01,-42.8571,-42.8571
+landuse,heath,3,0.0075,-57.1429,-57.1429
+landuse,pitch,3,0.0075,-57.1429,-57.1429
+landuse,wood,3,0.0075,-57.1429,-57.1429
+landuse,school,3,0.0075,-57.1429,-57.1429
+landuse,park,3,0.0075,-57.1429,-57.1429
+landuse,garages,3,0.0075,-72.7273,-72.7273
+landuse,institutional,3,0.0075,-57.1429,-57.1429
+landuse,civic_admin,2,0.005,-71.4286,-71.4286
+landuse,building,2,0.005,-71.4286,-71.4286
+landuse,market,2,0.005,-71.4286,-71.4286
+landuse,unknown,2,0.005,-71.4286,-71.4286
+landuse,harbour,2,0.005,-71.4286,-71.4286
+landuse,healthcare,2,0.005,-71.4286,-71.4286
+landuse,natural,2,0.005,-90.9091,-90.9091
+landuse,industry,2,0.005,-71.4286,-71.4286
+landuse,playground,2,0.005,-71.4286,-71.4286
+landuse,asphalt,1,0.0025,-85.7143,-85.7143
+landuse,planned,1,0.0025,-85.7143,-85.7143
+landuse,marsh,1,0.0025,-85.7143,-85.7143
+landuse,Publique,1,0.0025,-85.7143,-85.7143
+landuse,inndustrial,1,0.0025,-85.7143,-85.7143
+landuse,roads,1,0.0025,-85.7143,-85.7143
+landuse,Kalamati tarkari(vegetable) Market,1,0.0025,-85.7143,-85.7143
+landuse,Market_Area,1,0.0025,-85.7143,-85.7143
+landuse,ashmita ko toribari,1,0.0025,-85.7143,-85.7143
+landuse,breeding,1,0.0025,-85.7143,-85.7143
+landuse,landslide,1,0.0025,-85.7143,-85.7143
+landuse,official,1,0.0025,-85.7143,-85.7143
+landuse,pond,1,0.0025,-87.5,-87.5
+landuse,residentialbr,1,0.0025,-85.7143,-85.7143
+landuse,restaurant,1,0.0025,-85.7143,-85.7143
+landuse,water suppliers,1,0.0025,-85.7143,-85.7143
+leisure,park,827,26.113,5.0826,5.0826
+leisure,pitch,740,23.366,54.4885,54.4885
+leisure,garden,525,16.5772,272.3404,272.3404
+leisure,swimming_pool,239,7.5466,132.0388,132.0388
+leisure,sports_centre,187,5.9046,107.7778,107.7778
+leisure,playground,178,5.6205,5.9524,5.9524
+leisure,common,54,1.7051,-55.3719,-55.3719
+leisure,nature_reserve,48,1.5156,108.6957,108.6957
+leisure,picnic_table,40,1.263,-9.0909,-9.0909
+leisure,track,40,1.263,166.6667,166.6667
+leisure,outdoor_seating,39,1.2314,290.0,290.0
+leisure,sports_hall,34,1.0736,41.6667,41.6667
+leisure,fitness_centre,33,1.042,32.0,32.0
+leisure,beach_resort,27,0.8525,17.3913,17.3913
+leisure,dog_park,20,0.6315,-33.3333,-33.3333
+leisure,fitness_station,18,0.5684,-5.2632,-5.2632
+leisure,stadium,17,0.5368,-10.5263,-10.5263
+leisure,golf_course,10,0.3158,25.0,25.0
+leisure,bleachers,9,0.2842,28.5714,28.5714
+leisure,adult_gaming_centre,7,0.221,-12.5,-12.5
+leisure,marina,7,0.221,-56.25,-56.25
+leisure,fishing,6,0.1895,-14.2857,-14.2857
+leisure,hot_tub,5,0.1579,-28.5714,-28.5714
+leisure,dance,4,0.1263,-50.0,-50.0
+leisure,hackerspace,4,0.1263,-42.8571,-42.8571
+leisure,football,4,0.1263,-42.8571,-42.8571
+leisure,parc saint vicent,4,0.1263,-42.8571,-42.8571
+leisure,water_park,3,0.0947,-57.1429,-57.1429
+leisure,events_venue,3,0.0947,-57.1429,-57.1429
+leisure,horse_riding,3,0.0947,-57.1429,-57.1429
+leisure,slipway,3,0.0947,-76.9231,-76.9231
+leisure,amusement_arcade,2,0.0632,-81.8182,-81.8182
+leisure,community_centre,2,0.0632,-71.4286,-71.4286
+leisure,miniature_golf,2,0.0632,-81.8182,-81.8182
+leisure,sauna,2,0.0632,-71.4286,-71.4286
+leisure,trampoline_park,2,0.0632,-71.4286,-71.4286
+leisure,Football,2,0.0632,-71.4286,-71.4286
+leisure,spa,2,0.0632,-71.4286,-71.4286
+leisure,bowling_alley,1,0.0316,-85.7143,-85.7143
+leisure,grass,1,0.0316,-85.7143,-85.7143
+leisure,ice_rink,1,0.0316,-85.7143,-85.7143
+leisure,"park, playground",1,0.0316,-85.7143,-85.7143
+leisure,sunbathing,1,0.0316,-85.7143,-85.7143
+leisure,Fottball,1,0.0316,-85.7143,-85.7143
+leisure,SOCCER,1,0.0316,-85.7143,-85.7143
+leisure,casino,1,0.0316,-85.7143,-85.7143
+leisure,night_club,1,0.0316,-85.7143,-85.7143
+leisure,swimming pool,1,0.0316,-85.7143,-85.7143
+leisure,bingo,1,0.0316,-85.7143,-85.7143
+leisure,Restaurant,1,0.0316,-85.7143,-85.7143
+leisure,School,1,0.0316,-85.7143,-85.7143
+leisure,maze,1,0.0316,-85.7143,-85.7143
+leisure,open ground,1,0.0316,-85.7143,-85.7143
+name,Bologna Centrale,507,0.3817,7142.8571,7142.8571
+name,Via Toscana,413,0.3109,272.0721,272.0721
+name,Via Emilia Ponente,304,0.2288,294.8052,294.8052
+name,Obstacle,293,0.2206,1442.1053,1442.1053
+name,Via San Donato,289,0.2176,275.3247,275.3247
+name,Via Emilia Levante,243,0.1829,85.4962,85.4962
+name,Via del Triumvirato,224,0.1686,322.6415,322.6415
+name,Via Augusto Murri,218,0.1641,107.619,107.619
+name,Route Départementale # 401,199,0.1498,2387.5,2387.5
+name,Via Francesco Zanardi,193,0.1453,257.4074,257.4074
+name,Abres,182,0.137,2500.0,2500.0
+name,Via Emilia,175,0.1317,-13.3663,-13.3663
+name,Viale Felsina,174,0.131,50.0,50.0
+name,Via Stalingrado,171,0.1287,131.0811,131.0811
+name,Strada statale 253 bis Trasversale di Pianura,169,0.1272,2314.2857,2314.2857
+name,Route Nationale # 1,167,0.1257,198.2143,198.2143
+name,Abre,166,0.125,2271.4286,2271.4286
+name,abre,162,0.122,2214.2857,2214.2857
+name,Via Giuseppe Dozza,153,0.1152,255.814,255.814
+name,Viale della Repubblica,142,0.1069,230.2326,230.2326
+name,Via Andrea Costa,133,0.1001,47.7778,47.7778
+name,Ecole  Primaire,125,0.0941,1685.7143,1685.7143
+name,Route Nationale # 7,125,0.0941,42.0455,42.0455
+name,Arbre,124,0.0933,1671.4286,1671.4286
+name,Rue La Paix,117,0.0881,431.8182,431.8182
+name,Via Due Madonne,115,0.0866,180.4878,180.4878
+name,Ferrovia Bologna – Ancona,113,0.0851,303.5714,303.5714
+name,Via Giuseppe Massarenti,113,0.0851,289.6552,289.6552
+name,OBSTACLES,112,0.0843,1500.0,1500.0
+name,Via Giuseppe Mazzini,109,0.0821,41.5584,41.5584
+name,Asse Attrezzato Sud-Ovest,107,0.0805,463.1579,463.1579
+name,Via Circonvallazione Nuova,106,0.0798,107.8431,107.8431
+name,Via di Corticella,103,0.0775,368.1818,368.1818
+name,Viale Aldo Moro,103,0.0775,635.7143,635.7143
+name,महेन्द्र राज्मार्ग्,101,0.076,-76.1792,-76.1792
+name,Nationale No 2,100,0.0753,1150.0,1150.0
+name,Via Porrettana,97,0.073,120.4545,120.4545
+name,Viale Pietro Pietramellara,97,0.073,-12.6126,-12.6126
+name,Via Aurelio Saffi,96,0.0723,284.0,284.0
+name,Via Firenze,96,0.0723,300.0,300.0
+name,Via Saragozza,95,0.0715,251.8519,251.8519
+name,Via Ferrarese,94,0.0708,108.8889,108.8889
+name,Nationale No 1,93,0.07,1228.5714,1228.5714
+name,Via Dalla Volta,92,0.0693,441.1765,441.1765
+name,Pista ciclabile Carlo Piazzi,89,0.067,229.6296,229.6296
+name,Via Giacomo Matteotti,89,0.067,5.9524,5.9524
+name,Via Camillo Casarini,88,0.0662,528.5714,528.5714
+name,Viale Europa,88,0.0662,31.3433,31.3433
+name,Route Départementale # 402,88,0.0662,1157.1429,1157.1429
+name,Via Libia,87,0.0655,480.0,480.0
+name,Via del Lavoro,87,0.0655,19.1781,19.1781
+name,Via Agucchi,86,0.0647,377.7778,377.7778
+name,Via Roma,86,0.0647,10.2564,10.2564
+name,Routes Départementales Haïtiennes,86,0.0647,1128.5714,1128.5714
+name,Strada Statale 3 bis Tiberina,85,0.064,-53.5519,-53.5519
+name,Via Giuseppe Garibaldi,85,0.064,44.0678,44.0678
+name,Route Nationale # 3,85,0.064,70.0,70.0
+name,Via Arcangelo Corelli,84,0.0632,394.1176,394.1176
+name,Tangenziale di Bologna,83,0.0625,-60.8491,-60.8491
+name,Via Paolo Fabbri,81,0.061,326.3158,326.3158
+name,Route Nationale # 5,80,0.0602,263.6364,263.6364
+name,Tangenziale delle Biciclette,79,0.0595,92.6829,92.6829
+name,Via Paolo Bovi Campeggi,78,0.0587,310.5263,310.5263
+name,Rue 2,76,0.0572,590.9091,590.9091
+name,Via Larga,75,0.0565,525.0,525.0
+name,Via Yuri Gagarin,73,0.055,812.5,812.5
+name,Via Vittorio Veneto,72,0.0542,242.8571,242.8571
+name,Viale Gaetano Salvemini,70,0.0527,250.0,250.0
+name,Viale Ilic Uljanov Lenin,70,0.0527,337.5,337.5
+name,Via Aldo Moro,69,0.0519,-45.6693,-45.6693
+name,Via del Terrapieno,69,0.0519,86.4865,86.4865
+name,Via Marzabotto,67,0.0504,52.2727,52.2727
+name,pylone,67,0.0504,857.1429,857.1429
+name,Rue Moise,67,0.0504,570.0,570.0
+name,McDonald's,65,0.0489,242.1053,242.1053
+name,Sun Kosi,65,0.0489,10.1695,10.1695
+name,Rotonda Ayrton Senna,64,0.0482,166.6667,166.6667
+name,Via Classicana,64,0.0482,-40.1869,-40.1869
+name,Via Cristoforo Colombo,64,0.0482,392.3077,392.3077
+name,Via Luigi Tanari,64,0.0482,300.0,300.0
+name,Via Reale Lavezzola,64,0.0482,814.2857,814.2857
+name,Via de' Carracci,64,0.0482,178.2609,178.2609
+name,Via Guglielmo Marconi,63,0.0474,-37.6238,-37.6238
+name,Viale Giosuè Carducci,63,0.0474,-7.3529,-7.3529
+name,Via Marco Polo,62,0.0467,588.8889,588.8889
+name,Rotonda Giovanni Michelucci,61,0.0459,771.4286,771.4286
+name,Rotonda Onorato Malaguti,60,0.0452,757.1429,757.1429
+name,Sottopasso Ernesto Maserati,60,0.0452,76.4706,76.4706
+name,Ecole Primaire,60,0.0452,757.1429,757.1429
+name,Rue Louverture,60,0.0452,71.4286,71.4286
+name,Chapakot Highway,60,0.0452,757.1429,757.1429
+name,Via Fossolo,59,0.0444,28.2609,28.2609
+name,Via Irnerio,59,0.0444,118.5185,118.5185
+name,Via Piratello,59,0.0444,436.3636,436.3636
+name,Via Sante Vincenzi,59,0.0444,321.4286,321.4286
+name,Via San Vitale,58,0.0437,-25.641,-25.641
+name,Viale Palmiro Togliatti,58,0.0437,123.0769,123.0769
+name,Bananiers,57,0.0429,714.2857,714.2857
+name,Via Galliera,56,0.0422,133.3333,133.3333
+name,Via Umberto Terracini,56,0.0422,143.4783,143.4783
+natural,tree,34984,75.9251,623.8568,623.8568
+natural,wood,4625,10.0375,407.6839,407.6839
+natural,water,1775,3.8522,26.8763,26.8763
+natural,tree_row,860,1.8664,211.5942,211.5942
+natural,scrub,857,1.8599,245.5645,245.5645
+natural,peak,513,1.1134,98.8372,98.8372
+natural,sand,450,0.9766,109.3023,109.3023
+natural,shingle,346,0.7509,166.1538,166.1538
+natural,coastline,266,0.5773,-31.9693,-31.9693
+natural,grassland,194,0.421,525.8065,525.8065
+natural,wetland,184,0.3993,87.7551,87.7551
+natural,heath,182,0.395,1720.0,1720.0
+natural,beach,147,0.319,188.2353,188.2353
+natural,scree,84,0.1823,162.5,162.5
+natural,cliff,74,0.1606,-21.2766,-21.2766
+natural,bare_rock,62,0.1346,210.0,210.0
+natural,riverbed,59,0.128,321.4286,321.4286
+natural,reef,58,0.1259,728.5714,728.5714
+natural,plant,46,0.0998,557.1429,557.1429
+natural,ridge,46,0.0998,53.3333,53.3333
+natural,shrub,34,0.0738,9.6774,9.6774
+natural,mud,28,0.0608,100.0,100.0
+natural,glacier,27,0.0586,-95.0368,-95.0368
+natural,gully,26,0.0564,271.4286,271.4286
+natural,cave_entrance,23,0.0499,155.5556,155.5556
+natural,bay,18,0.0391,80.0,80.0
+natural,landslide,15,0.0326,114.2857,114.2857
+natural,spring,13,0.0282,8.3333,8.3333
+natural,floodplain,12,0.026,71.4286,71.4286
+natural,woods,8,0.0174,14.2857,14.2857
+natural,rock,7,0.0152,0.0,0.0
+natural,fell,6,0.013,-14.2857,-14.2857
+natural,earth_bank,5,0.0109,-28.5714,-28.5714
+natural,land,5,0.0109,-28.5714,-28.5714
+natural,forest,4,0.0087,-42.8571,-42.8571
+natural,floodable area,4,0.0087,-42.8571,-42.8571
+natural,marsh,4,0.0087,-42.8571,-42.8571
+natural,sinkhole,3,0.0065,-57.1429,-57.1429
+natural,wet land,3,0.0065,-57.1429,-57.1429
+natural,saddle,3,0.0065,-94.0,-94.0
+natural,point,2,0.0043,-71.4286,-71.4286
+natural,unclassified,2,0.0043,-71.4286,-71.4286
+natural,headland,2,0.0043,-71.4286,-71.4286
+natural,grass,1,0.0022,-91.6667,-91.6667
+natural,shrubbery,1,0.0022,-85.7143,-85.7143
+natural,Tree,1,0.0022,-85.7143,-85.7143
+natural,Zone de ravinement,1,0.0022,-85.7143,-85.7143
+natural,island,1,0.0022,-85.7143,-85.7143
+natural,meadow,1,0.0022,-85.7143,-85.7143
+natural,savane,1,0.0022,-85.7143,-85.7143
+natural,valley,1,0.0022,-88.8889,-88.8889
+natural,cave,1,0.0022,-85.7143,-85.7143
+natural,pass,1,0.0022,-85.7143,-85.7143
+natural,snowfield,1,0.0022,-85.7143,-85.7143
+source,"Google, 2010-01-21",20744,11.3501,6342.236,6342.236
+source,CNIGS/OIM/ FOCS,17153,9.3853,3789.5692,3789.5692
+source,Bing,15222,8.3287,65.6185,65.6185
+source,CNIGS/OIM/FOCS,14375,7.8653,2170.9321,2170.9321
+source,bing,9389,5.1372,-34.6306,-34.6306
+source,GeoEye,7369,4.032,438.6696,438.6696
+source,"WorldView-2, DigitalGlobe, 2010-01-21",6431,3.5187,1008.7931,1008.7931
+source,Regione Emilia Romagna,5040,2.7576,68.1682,68.1682
+source,Comune di Bologna,4949,2.7078,885.8566,885.8566
+source,hot_iom_c.osm-ha,4258,2.3298,7785.1852,7785.1852
+source,CNIGS/GIS/DTM,3101,1.6967,2180.1471,2180.1471
+source,digitalglobe,2926,1.601,132.4067,132.4067
+source,CCCM,2767,1.514,2264.9573,2264.9573
+source,haiti-tlm-50,2486,1.3602,1095.1923,1095.1923
+source,http://www.tper.it/azienda/tper-open-data,2293,1.2546,-47.6723,-47.6723
+source,DigitalGlobe,1982,1.0845,547.7124,547.7124
+source,hot_oim_che116,1951,1.0675,730.2128,730.2128
+source,http://dati.emilia-romagna.it/dato/item/11-11-uso-del-suolo-2008.html,1678,0.9181,308.2725,308.2725
+source,survey,1632,0.8929,-33.1969,-33.1969
+source,"DigitalGlobe;WorldView-2, DigitalGlobe, 2010-01-20",1631,0.8924,3036.5385,3036.5385
+source,"NOAA, 2010-01-20",1449,0.7928,272.4936,272.4936
+source,Google 2010-01-17,1442,0.789,2153.125,2153.125
+source,hot_cosmha_iom,1434,0.7846,392.7835,392.7835
+source,"WorldBank, 2010-01-22",1251,0.6845,3474.2857,3474.2857
+source,Digital Globe Maps API,1233,0.6746,17514.2857,17514.2857
+source,Cosmha/Cartong,1167,0.6385,1340.7407,1340.7407
+source,"WorldView-2, DigitalGlobe, 2010-01-20",1145,0.6265,1068.3673,1068.3673
+source,"Google, 2010-01-17",1124,0.615,1012.8713,1012.8713
+source,NextView,997,0.5455,1284.7222,1284.7222
+source,"WorldView-2, DigitalGlobe, 2010-01-18",995,0.5444,1017.9775,1017.9775
+source,hot_OIM_che116,878,0.4804,1621.5686,1621.5686
+source,IOM_Image_20130330,839,0.4591,11885.7143,11885.7143
+source,"NOAA, 2010-01-24",837,0.458,2046.1538,2046.1538
+source,"WorldBank, 2010-01-24",828,0.453,1154.5455,1154.5455
+source,Google,825,0.4514,6246.1538,6246.1538
+source,hot_c.osm-ha_iom,763,0.4175,343.6047,343.6047
+source,hot_iom_cosmha,719,0.3934,26.1404,26.1404
+source,Bing Imagery,664,0.3633,9385.7143,9385.7143
+source,"NOAA, 2010-01-18",654,0.3578,454.2373,454.2373
+source,"Digital Globe, 2015-04-29",650,0.3556,9185.7143,9185.7143
+source,haiti best,649,0.3551,227.7778,227.7778
+source,CNIGS/FOCS/OIM,615,0.3365,4000.0,4000.0
+source,"UAV,IOM,COSMHA,SIGHA",579,0.3168,-27.7154,-27.7154
+source,hot_OIM_Che116,559,0.3059,408.1818,408.1818
+source,Yahoo,552,0.302,723.8806,723.8806
+source,B ing With Offset,532,0.2911,600.0,600.0
+source,CNIGS_IOM_FOCS,522,0.2856,728.5714,728.5714
+source,Haiti 1:50k Topo,507,0.2774,1348.5714,1348.5714
+source,hot_oim_cosmha,481,0.2632,558.9041,558.9041
+source,haiti mosaic,465,0.2544,715.7895,715.7895
+source,Bing with offset,453,0.2479,12.6866,12.6866
+source,1:50k topo,451,0.2468,1455.1724,1455.1724
+source,hot_oim_che_116,450,0.2462,1025.0,1025.0
+source,CIGS/OIM/FOCS,440,0.2407,2833.3333,2833.3333
+source,http://maps.nypl.org/relief/maps/20,436,0.2386,808.3333,808.3333
+source,"DigitalGlobe, 2010",416,0.2276,477.7778,477.7778
+source,geoeye,390,0.2134,1158.0645,1158.0645
+source,IOM_HOT,352,0.1926,4300.0,4300.0
+source,Public Domain CIA Maps,341,0.1866,1162.963,1162.963
+source,DMA TLM-50,321,0.1756,517.3077,517.3077
+source,nextview,321,0.1756,3110.0,3110.0
+source,hot_iom_che116,313,0.1713,3030.0,3030.0
+source,hot_iom_che_116,292,0.1598,1985.7143,1985.7143
+source,OpenDRI survey,289,0.1581,-24.7396,-24.7396
+source,"U.S. Defense Mapping Agency, 1993",286,0.1565,1942.8571,1942.8571
+source,landsat,286,0.1565,-38.8889,-38.8889
+source,Bing With Offset,283,0.1548,122.8346,122.8346
+source,GPS,279,0.1527,-60.2564,-60.2564
+source,NOAA,277,0.1516,319.697,319.697
+source,Haiti 1:50k topo,277,0.1516,1104.3478,1104.3478
+source,Health Facility List provided by PAHO/WHO,264,0.1444,3200.0,3200.0
+source,OIM/GIS/DTM,259,0.1417,3600.0,3600.0
+source,ILO transportation mapping,251,0.1373,3485.7143,3485.7143
+source,MINUSTAH GIS and UN Cartographic Section,236,0.1291,742.8571,742.8571
+source,iom_c-osm.ha,232,0.1269,1060.0,1060.0
+source,bing 2010,230,0.1258,521.6216,521.6216
+source,"GeoEye1, GeoEye, 2010-01-16",228,0.1248,1972.7273,1972.7273
+source,WorldView2/DigitalGlobe/2010-01-21,227,0.1242,173.494,173.494
+source,"NOAA, 2010-01-22",219,0.1198,329.4118,329.4118
+source,"Ikonos, GeoEye, 2010-01-15",207,0.1133,250.8475,250.8475
+source,CNIGS_OIM_FOCS,204,0.1116,2814.2857,2814.2857
+source,ikonos/geoeye,201,0.11,4.1451,4.1451
+source,WorldBank 2010-01-21 - 2010-01-22,200,0.1094,2757.1429,2757.1429
+source,"WorldView-2, DigitalGlobe, NextView, 25 Nov 2013 & 08 Apr 2015",186,0.1018,2557.1429,2557.1429
+source,hot _c.osm-ha_iom,180,0.0985,275.0,275.0
+source,"QuickBird, DigitalGlobe, 2002-10-24",177,0.0968,420.5882,420.5882
+source,survey:CAI,173,0.0947,2371.4286,2371.4286
+source,iom_c.osm-ha,172,0.0941,132.4324,132.4324
+source,Iom Hot,171,0.0936,2342.8571,2342.8571
+source,bing with offset,171,0.0936,-22.6244,-22.6244
+source,yahoo,170,0.093,486.2069,486.2069
+source,DTM/GIS/OIM,169,0.0925,463.3333,463.3333
+source,MapBox,164,0.0897,2242.8571,2242.8571
+source,"DigitalGlobe, 2015-05-03",163,0.0892,2228.5714,2228.5714
+source,Survey-ARC,162,0.0886,-97.0199,-97.0199
+source,CINGS/OIM/FOCS,161,0.0881,1241.6667,1241.6667
+source,"WoldView-2, DigitalGlobe, 2010-01-21",160,0.0875,1354.5455,1354.5455
+source,geodati.gfoss.it,159,0.087,1666.6667,1666.6667
+source,"U.S. Defense Mapping Agency, 1994",158,0.0864,1655.5556,1655.5556
+source,drr:iom,156,0.0854,-8.2353,-8.2353
+surface,asphalt,30286,50.4061,7.6836,7.6836
+surface,unpaved,5083,8.4598,114.4726,114.4726
+surface,gravel,4718,7.8523,448.6047,448.6047
+surface,Dirt/Sand,4709,7.8374,67171.4286,67171.4286
+surface,ground,3164,5.266,-39.8708,-39.8708
+surface,dirt,3126,5.2027,129.1789,129.1789
+surface,paved,2489,4.1425,30.7935,30.7935
+surface,paving_stones,1556,2.5897,14.7493,14.7493
+surface,Paved,1487,2.4749,21142.8571,21142.8571
+surface,sett,817,1.3598,60.1961,60.1961
+surface,concrete,617,1.0269,102.9605,102.9605
+surface,compacted,289,0.481,3.9568,3.9568
+surface,mud,249,0.4144,23.2673,23.2673
+surface,grass,248,0.4128,111.9658,111.9658
+surface,unspecified,221,0.3678,-28.2468,-28.2468
+surface,fine_gravel,118,0.1964,10.2804,10.2804
+surface,unhewn_cobblestone,92,0.1531,135.8974,135.8974
+surface,earth,84,0.1398,211.1111,211.1111
+surface,dirt_sand,81,0.1348,1057.1429,1057.1429
+surface,dirt/sand,73,0.1215,180.7692,180.7692
+surface,sand,66,0.1098,73.6842,73.6842
+surface,pebblestone,65,0.1082,225.0,225.0
+surface,wood,56,0.0932,3.7037,3.7037
+surface,dirt;sand,46,0.0766,91.6667,91.6667
+surface,terre,37,0.0616,428.5714,428.5714
+surface,metal,34,0.0566,61.9048,61.9048
+surface,cobblestone,28,0.0466,-3.4483,-3.4483
+surface,Gravel,24,0.0399,242.8571,242.8571
+surface,concrete:plates,19,0.0316,-24.0,-24.0
+surface,Dirt/Sand;Paved,18,0.03,125.0,125.0
+surface,flagging,16,0.0266,-44.8276,-44.8276
+surface,grass_paver,16,0.0266,-33.3333,-33.3333
+surface,boardwalk,12,0.02,71.4286,71.4286
+surface,bricks,10,0.0166,42.8571,42.8571
+surface,premix,10,0.0166,42.8571,42.8571
+surface,paving_stones;dirt,9,0.015,28.5714,28.5714
+surface,clay,8,0.0133,-60.0,-60.0
+surface,toilette,8,0.0133,14.2857,14.2857
+surface,brick,7,0.0117,-12.5,-12.5
+surface,concrete:lanes,6,0.01,-50.0,-50.0
+surface,dirt;paved,6,0.01,-14.2857,-14.2857
+surface,artificial_turf,5,0.0083,-73.6842,-73.6842
+surface,rock,5,0.0083,-54.5455,-54.5455
+surface,paved;unpaved,5,0.0083,-28.5714,-28.5714
+surface,asphaltcrossing=traffic_signals_crossing:island=no_crossing:markings=zebra_footway=crossing_highway=footway_surface=asphalt_tactile_paving=yes,4,0.0067,-42.8571,-42.8571
+surface,roman_paving,4,0.0067,-42.8571,-42.8571
+surface,tartan,4,0.0067,-42.8571,-42.8571
+surface,Dirt/Sand;dirt/sand,3,0.005,-57.1429,-57.1429
+surface,Asphalt,3,0.005,-57.1429,-57.1429
+surface,gravel;paved,3,0.005,-62.5,-62.5
+surface,ottaseal,3,0.005,-57.1429,-57.1429
+surface,200m2,2,0.0033,-71.4286,-71.4286
+surface,boue,2,0.0033,-71.4286,-71.4286
+surface,stone,2,0.0033,-71.4286,-71.4286
+surface,Khiji_Chadeshwori_way,2,0.0033,-71.4286,-71.4286
+surface,Unpaved,2,0.0033,-71.4286,-71.4286
+surface,black topped,2,0.0033,-71.4286,-71.4286
+surface,unpaved;paved;gravel,2,0.0033,-71.4286,-71.4286
+surface,asphaltwheelchair=yes,1,0.0017,-85.7143,-85.7143
+surface,cement,1,0.0017,-85.7143,-85.7143
+surface,plastic,1,0.0017,-92.3077,-92.3077
+surface,prato,1,0.0017,-85.7143,-85.7143
+surface,rubbercrumb,1,0.0017,-85.7143,-85.7143
+surface,Tente de loisir,1,0.0017,-85.7143,-85.7143
+surface,fer,1,0.0017,-85.7143,-85.7143
+surface,impassable,1,0.0017,-87.5,-87.5
+surface,compacted_unpaved,1,0.0017,-85.7143,-85.7143
+surface,groud,1,0.0017,-85.7143,-85.7143
+surface,grouin,1,0.0017,-85.7143,-85.7143
+surface,1,1,0.0017,-85.7143,-85.7143
+surface,unpathed,1,0.0017,-85.7143,-85.7143
+surface,yes,1,0.0017,-85.7143,-85.7143
+surface,Concrete_Block_paved,1,0.0017,-87.5,-87.5
+surface,Khiji_Chadeshwori_road,1,0.0017,-85.7143,-85.7143
+surface,archways,1,0.0017,-85.7143,-85.7143
+surface,compacted;gravel;dirt,1,0.0017,-85.7143,-85.7143
+surface,earthen,1,0.0017,-85.7143,-85.7143
+surface,gate_with_two_lions_on_sides,1,0.0017,-85.7143,-85.7143
+surface,looks_unpaved,1,0.0017,-85.7143,-85.7143
+surface,pitched,1,0.0017,-85.7143,-85.7143
+surface,steel,1,0.0017,-87.5,-87.5
+waterway,stream,11499,55.2943,125.0294,125.0294
+waterway,river,3994,19.2056,49.7001,49.7001
+waterway,drain,1852,8.9056,131.5,131.5
+waterway,ditch,1634,7.8573,463.4483,463.4483
+waterway,canal,1148,5.5203,133.3333,133.3333
+waterway,riverbank,473,2.2745,92.2764,92.2764
+waterway,dam,95,0.4568,206.4516,206.4516
+waterway,weir,38,0.1827,111.1111,111.1111
+waterway,yes,20,0.0962,185.7143,185.7143
+waterway,waterfall,9,0.0433,-50.0,-50.0
+waterway,lock_gate,8,0.0385,-60.0,-60.0
+waterway,turning_point,4,0.0192,-42.8571,-42.8571
+waterway,check_dam,4,0.0192,-42.8571,-42.8571
+waterway,boatyard,3,0.0144,-57.1429,-57.1429
+waterway,wadibank,2,0.0096,-71.4286,-71.4286
+waterway,wharf,2,0.0096,-71.4286,-71.4286
+waterway,culvert,2,0.0096,-71.4286,-71.4286
+waterway,proposed,1,0.0048,-85.7143,-85.7143
+waterway,dryriver,1,0.0048,-85.7143,-85.7143
+waterway,path,1,0.0048,-85.7143,-85.7143
+waterway,wall,1,0.0048,-85.7143,-85.7143
+waterway,dock,1,0.0048,-85.7143,-85.7143
+waterway,Power canal,1,0.0048,-85.7143,-85.7143
+waterway,drystream,1,0.0048,-85.7143,-85.7143
+waterway,fuel,1,0.0048,-85.7143,-85.7143
+waterway,stream;river,1,0.0048,-85.7143,-85.7143

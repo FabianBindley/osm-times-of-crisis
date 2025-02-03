@@ -98,13 +98,13 @@ def plot_percent_difference(disaster_id, disaster_country, disaster_area, disast
     if not os.path.exists(f"Results/ChangeCounting/disaster{disaster_id}/charts"):
         os.makedirs(f"Results/ChangeCounting/disaster{disaster_id}/charts")
 
-    save_path = f'./Results/ChangeCounting/disaster{disaster_id}/charts/{pre_disaster_days}_{post_disaster_days}_percent_difference_time_series{"_post_only" if post_only else ""}.png'
+    save_path = f'./Results/ChangeCounting/disaster{disaster_id}/charts/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_percent_difference_time_series{"_post_only" if post_only else ""}.png'
     print(save_path)
     plt.savefig(save_path, dpi=350)
 
     plt.close()
 
-def plot_percent_difference_single(disaster_id, disaster_country, disaster_area, disaster_date, post_only, pre_disaster_days, imm_disaster_days, post_disaster_days, time_period, average_metric):
+def plot_percent_difference_single(disaster_id, disaster_country, disaster_area, disaster_date, post_only, pre_disaster_days, imm_disaster_days, post_disaster_days, time_period, average_metric, plot_edit_types):
     print(f"Plotting {time_period} data for {pre_disaster_days}, {post_disaster_days}")
 
     # Load datasets
@@ -156,10 +156,15 @@ def plot_percent_difference_single(disaster_id, disaster_country, disaster_area,
 
     # Plot data
     plt.figure(figsize=(12, 6))
-    plt.plot(data['start_date'], data['creates'], label='Creates', marker='.', linestyle='-')
-    plt.plot(data['start_date'], data['edits'], label='Edits', marker='.', linestyle='-')
-    plt.plot(data['start_date'], data['deletes'], label='Deletes', marker='.', linestyle='-')
-    plt.plot(data['start_date'], data['total'], label='Total', marker='.', linestyle='-')
+    if "creates" in plot_edit_types:
+        plt.plot(data['start_date'], data['creates'], label='Creates', marker='.', linestyle='-', color='blue',)
+    if "edits" in plot_edit_types:
+        plt.plot(data['start_date'], data['edits'], label='Edits', marker='.', linestyle='-', color='orange',)
+    if "deletes" in plot_edit_types:
+        plt.plot(data['start_date'], data['deletes'], label='Deletes', marker='.', linestyle='-', color='green',)
+    if "total" in plot_edit_types:
+        plt.plot(data['start_date'], data['total'], label='Total', marker='.', linestyle='-', color='red',)
+
     plt.title(f'{title} Percent Difference in {disaster_country}, {disaster_area} {"(Post only)" if post_only else ""}')
     plt.xlabel('Date')
     plt.ylabel('% Difference')
@@ -176,7 +181,7 @@ def plot_percent_difference_single(disaster_id, disaster_country, disaster_area,
     if not os.path.exists(f"Results/ChangeCounting/disaster{disaster_id}/charts"):
         os.makedirs(f"Results/ChangeCounting/disaster{disaster_id}/charts")
 
-    save_path = f'./Results/ChangeCounting/disaster{disaster_id}/charts/{pre_disaster_days}_{post_disaster_days}_{time_period}_percent_difference_time_series{"_post_only" if post_only else ""}.png'
+    save_path = f'./Results/ChangeCounting/disaster{disaster_id}/charts/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_{time_period}_percent_difference_time_series{"" if len(plot_edit_types) == 4 else "_"+"_".join(plot_edit_types)}{"_post_only" if post_only else ""}.png'
     print(save_path)
     plt.savefig(save_path, dpi=350)
 
@@ -184,7 +189,7 @@ def plot_percent_difference_single(disaster_id, disaster_country, disaster_area,
     if not os.path.exists(f"visualisation-site/public/ChangeCounting/disaster{disaster_id}/charts"):
         os.makedirs(f"visualisation-site/public/ChangeCounting/disaster{disaster_id}/charts")
     
-    save_path = f'visualisation-site/public/ChangeCounting/disaster{disaster_id}/charts/{pre_disaster_days}_{post_disaster_days}_{time_period}_percent_difference_time_series{"_post_only" if post_only else ""}.png'
+    save_path = f'visualisation-site/public/ChangeCounting/disaster{disaster_id}/charts/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_{time_period}_percent_difference_time_series{"" if len(plot_edit_types) == 4 else "_"+"_".join(plot_edit_types)}{"_post_only" if post_only else ""}.png'
     plt.savefig(save_path, dpi=350)
     plt.close()
 
@@ -197,19 +202,21 @@ if __name__ == "__main__":
     post_only = True
 
     # Define periods as an array of tuples
-    periods = [(365, 30, 365), (180, 30, 365), (365, 60, 335), (1095,30,365)]
+    periods = [(365, 30, 365), (365, 60, 365), (1095,60,365)]
     #periods = [(365, 30, 365)]
     average_metric = "median" # mean or median
+    plot_edit_types_list = [["creates", "edits", "deletes", "total"],["creates"],["edits"],["deletes"],["total"]]
 
     # Loop through disasters and periods
     for post_only in [True, False]:
-        for disaster_id in range(1, 7):
+        for disaster_id in range(2, 7):
             _, disaster_country, disaster_area, _, disaster_date, _ = db_utils.get_disaster_with_id(disaster_id)
             print(f"Processing Disaster {disaster_id} - {disaster_area[0]}")
-            for period in periods:
-                pre_disaster_days, imm_disaster_days, post_disaster_days = period
+            for plot_edit_types in plot_edit_types_list:
+                for period in periods:
+                    pre_disaster_days, imm_disaster_days, post_disaster_days = period
 
-                plot_percent_difference(disaster_id, disaster_country[0], disaster_area[0], disaster_date, post_only, pre_disaster_days, imm_disaster_days, post_disaster_days, average_metric)
-                plot_percent_difference_single(disaster_id, disaster_country[0], disaster_area[0], disaster_date, post_only, pre_disaster_days, imm_disaster_days, post_disaster_days, "day", average_metric)
-                plot_percent_difference_single(disaster_id, disaster_country[0], disaster_area[0], disaster_date, post_only, pre_disaster_days, imm_disaster_days, post_disaster_days, "week", average_metric)
-                plot_percent_difference_single(disaster_id, disaster_country[0], disaster_area[0], disaster_date, post_only, pre_disaster_days, imm_disaster_days, post_disaster_days, "month", average_metric)
+                    plot_percent_difference(disaster_id, disaster_country[0], disaster_area[0], disaster_date, post_only, pre_disaster_days, imm_disaster_days, post_disaster_days, average_metric)
+                    plot_percent_difference_single(disaster_id, disaster_country[0], disaster_area[0], disaster_date, post_only, pre_disaster_days, imm_disaster_days, post_disaster_days, "day", average_metric, plot_edit_types)
+                    plot_percent_difference_single(disaster_id, disaster_country[0], disaster_area[0], disaster_date, post_only, pre_disaster_days, imm_disaster_days, post_disaster_days, "week", average_metric, plot_edit_types)
+                    plot_percent_difference_single(disaster_id, disaster_country[0], disaster_area[0], disaster_date, post_only, pre_disaster_days, imm_disaster_days, post_disaster_days, "month", average_metric, plot_edit_types)

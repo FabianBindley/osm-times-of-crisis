@@ -18,15 +18,25 @@ class DB_Utils:
         return self.connection 
     
 
-    def insert_data(self, value_list, success_count, connection):
+    def insert_data(self, value_list, success_count, connection, three_years_pre):
         self.connection = connection
-        insert_query = """
-            INSERT INTO public.changes (
+
+        if three_years_pre:
+            insert_query = """
+            INSERT INTO public.changes_3_year_pre (
                 element_id, edit_type, element_type, timestamp, disaster_id, version, visible, changeset, tags, building, highway, coordinates, uid, geojson_verified
             )
             VALUES %s
             ON CONFLICT (element_id, disaster_id, version) DO NOTHING
         """
+        else:
+            insert_query = """
+                INSERT INTO public.changes (
+                    element_id, edit_type, element_type, timestamp, disaster_id, version, visible, changeset, tags, building, highway, coordinates, uid, geojson_verified
+                )
+                VALUES %s
+                ON CONFLICT (element_id, disaster_id, version) DO NOTHING
+            """
 
         cursor = connection.cursor()
 
@@ -41,7 +51,7 @@ class DB_Utils:
         # Commit the transaction
         self.connection.commit()
 
-        print(f"Inserted {success_count} elements")
+        print(f'Inserted {success_count} elements into {"changes_3_year_pre" if three_years_pre else "changes"} for disaster: {value_list[0][4]}')
 
     
     def update_data(self, update_list, connection, column_to_update):
@@ -583,10 +593,11 @@ class DB_Utils:
     
 
     # if return all is true, dont sample, just return all
-    def get_sample_changes_for_disaster(self, disaster_id, sample_size, sample, start_date, end_date, get_type, random):
+    def get_sample_changes_for_disaster(self, disaster_id, sample_size, sample, start_date, end_date, get_type, random, three_years_pre):
         cursor = self.connection.cursor()
+
         query = f"""
-        SELECT {"element_id, disaster_id, version, edit_type, element_type" if get_type == "prepare" else "*"} FROM changes WHERE disaster_id = %s AND %s <= timestamp AND timestamp <= %s  AND edit_type = 'edit' {" ORDER BY random() " if random else ""}{" LIMIT %s" if sample else ""}
+        SELECT {"element_id, disaster_id, version, edit_type, element_type" if get_type == "prepare" else "*"} FROM {"changes_3_year_pre" if three_years_pre else "changes"} WHERE disaster_id = %s AND %s <= timestamp AND timestamp <= %s  AND edit_type = 'edit' {" ORDER BY random() " if random else ""}{" LIMIT %s" if sample else ""}
         """
         if sample:
             cursor.execute(query, (disaster_id, start_date, end_date, sample_size))
@@ -598,13 +609,13 @@ class DB_Utils:
         cursor.close()
         return result
     
-    def get_change_with_version(self, element_id, disaster_id, version):
+    def get_change_with_version(self, element_id, element_type, disaster_id, version):
         cursor = self.connection.cursor()
  
         query = """
-        SELECT * FROM changes WHERE element_id = %s AND disaster_id = %s AND version = %s
+        SELECT * FROM changes WHERE element_id = %s AND element_type = %s AND disaster_id = %s AND version = %s
         """
-        cursor.execute(query, (element_id, disaster_id, version))
+        cursor.execute(query, (element_id, element_type, disaster_id, version))
 
 
         # Fetch all rows
@@ -612,7 +623,7 @@ class DB_Utils:
         cursor.close()
         return result
     
-    def get_existing_versions(self, version_list, get_type):
+    def get_existing_versions(self, version_list, get_type, three_years_pre):
         cursor = self.connection.cursor()
         batch_size = 5000  # Adjust based on your database limits
         result = []
@@ -624,7 +635,7 @@ class DB_Utils:
             
             query = f"""
             SELECT {"element_id, disaster_id, version, element_type" if get_type == "prepare" else "*"}
-            FROM changes
+            FROM {"changes_3_year_pre" if three_years_pre else "changes"}
             WHERE (element_id, disaster_id, version, element_type) IN %s
             """
             cursor.execute(query, (tuple(batch),))

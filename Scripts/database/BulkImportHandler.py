@@ -13,7 +13,7 @@ class Coordinate:
 
 class BulkImportHandler(osmium.SimpleHandler):
 
-    def __init__(self, start_date, end_date, geojson_path, geojson_filtered, disaster_id, place, year, connection, input_file, missing_changes_set, insert_normal_changes, insert_missing_changes):
+    def __init__(self, start_date, end_date, geojson_path, geojson_filtered, disaster_id, place, year, connection, input_file, missing_changes_set, insert_normal_changes, insert_missing_changes, three_years_pre):
         # For now the interval is daily, from the start time to the end time
         super().__init__()
         self.start_date = start_date
@@ -33,6 +33,7 @@ class BulkImportHandler(osmium.SimpleHandler):
         self.missing_changes_set = missing_changes_set 
         self.insert_normal_changes = insert_normal_changes
         self.insert_missing_changes = insert_missing_changes
+        self.three_years_pre = three_years_pre
 
 
         # Load GeoJSON and create a MultiPolygon from the geometries
@@ -181,9 +182,11 @@ class BulkImportHandler(osmium.SimpleHandler):
         
 
     def flush_inserts(self):
-        self.db_utils.insert_data(self.insert_list, self.success_count, self.connection)
+        # Dont insert into changes if 3 years pre, but always insert into 3 years pre
+        self.db_utils.insert_data(self.insert_list, self.success_count, self.connection, self.three_years_pre)
+        if not self.three_years_pre:
+            self.db_utils.insert_data(self.insert_list, self.success_count, self.connection, True)
  
-
         
     
     def point_in_geojson(self, obj):

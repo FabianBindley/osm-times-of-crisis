@@ -13,7 +13,7 @@ from db_utils import DB_Utils
 
 
 def compute_total_number_changes_across_disasters(periods, disaster_ids):
-    
+
     # Load the counts from the full periods file for each disaster, and compoute an aggregate total for pre, imm, post across all disasters
     # Create a df with header headers = ["creates", "edits", "deletes", "total"]
     headers_total_counts = ["creates", "edits", "deletes", "total"]
@@ -291,7 +291,6 @@ def evaluate_prophet_model_forecasts(models,  disaster_id, pre_disaster_days, im
     mae_row = pd.DataFrame(mae, index=["mae"])
     mape_row = pd.DataFrame(mape, index=["mape"])
     predictions_with_errors_df = pd.concat([mae_row, mape_row], ignore_index=False)
-    print(predictions_with_errors_df)
 
     # Save the DataFrame with MAE and MAPE values
     predictions_with_errors_df.to_csv(f"./Results/ChangeCounting/disaster{disaster_id}/data/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_{str(interval_length)}_change_count_prophet_predictions_errors.csv", index=False)
@@ -303,9 +302,9 @@ if __name__ == "__main__":
 
     # Define the period lengths
     periods = [(365, 30, 365), (180, 30, 365), (365, 60, 335), ]
-    periods = [(1095, 30, 365),  (365, 60, 335), ]
+    periods = [(1095, 30, 365),  (365, 60, 335), (1095, 60, 365),(180,60,365),]
     #periods = [(1095, 30, 365)]
-    periods = [(180, 30, 365), (1095, 30, 365),(365, 30, 365),(365, 60, 335)]
+    periods = [(365,60,365),(365,30,365)]
     prophet_model_bools = [True, False]
 
     

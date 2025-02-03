@@ -16,10 +16,14 @@ run_script() {
 }
 
 # Double check data integrity
-
-#run_script "scripts/database/bulk_import_filtering.py"
+run_script "scripts/database/db_bulk_insert.py"
+run_script "scripts/database/bulk_import_filtering.py"
 #run_script "scripts/database/db_geojson_filtering.py"
-#run_script "scripts/database/db_prepare_change_differences.py"
+run_script "scripts/database/db_prepare_change_differences.py"
+
+# RQ2 - Change Differences
+run_script "scripts/research_tools/change_differences/analyse_change_differences.py"
+run_script "scripts/research_tools/change_differences/timestamp_between_changes_prophet_modelling.py"
 
 # Lower level map count scripts
 run_script "scripts/research_tools/count_changes_lower/count_changes_lower.py"
@@ -41,5 +45,3 @@ run_script "scripts/research_tools/investigate_tags/tag_key_investigation.py"
 run_script "scripts/research_tools/investigate_tags/tag_value_investigation.py"
 run_script "scripts/research_tools/investigate_tags/value_kendall_rank_correlation_coefficient.py"
 run_script "scripts/research_tools/investigate_tags/plot_correlation_coefficient_diagram.py"
-# RQ2 - Change Differences
-run_script "scripts/research_tools/investigate_tags/tag_key_investigation.py"

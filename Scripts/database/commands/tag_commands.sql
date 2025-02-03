@@ -33,3 +33,5 @@ WHERE tags ?& ARRAY['building', 'amenity'] AND disaster_id != 1 LIMIT 10;
 SELECT element_id, tags
 FROM changes
 WHERE tags ?& ARRAY['amenity'] AND disaster_id != 1 LIMIT 10;
+
+

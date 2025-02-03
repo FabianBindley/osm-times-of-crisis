@@ -34,7 +34,7 @@ amenity,social_facility,1,0.0343,0.0,1116.6667
 amenity,telephone,1,0.0343,0.0,1116.6667
 amenity,theatre,1,0.0343,0.0,1116.6667
 amenity,university,1,0.0343,0.0,1116.6667
-building,yes,208751,99.028,20875000.0,253980283.3333
+building,yes,208754,99.0271,20875300.0,253983933.3333
 building,house,1309,0.621,130800.0,1592516.6667
 building,residential,254,0.1205,25300.0,308933.3333
 building,construction,181,0.0859,18000.0,220116.6667
@@ -42,10 +42,10 @@ building,shed,78,0.037,7700.0,94800.0
 building,apartments,43,0.0204,4200.0,52216.6667
 building,industrial,37,0.0176,3600.0,44916.6667
 building,hut,33,0.0157,3200.0,40050.0
-building,commercial,20,0.0095,1900.0,24233.3333
+building,commercial,21,0.01,2000.0,25450.0
 building,residentiel1,14,0.0066,1300.0,16933.3333
+building,retail,10,0.0047,900.0,12066.6667
 building,school,10,0.0047,900.0,12066.6667
-building,retail,9,0.0043,800.0,10850.0
 building,building_concrete,7,0.0033,600.0,8416.6667
 building,church,7,0.0033,600.0,8416.6667
 building,collapsed,7,0.0033,600.0,8416.6667
@@ -69,19 +69,19 @@ building,satic_caravan,1,0.0005,0.0,1116.6667
 building,services,1,0.0005,0.0,1116.6667
 emergency,no,2,50.0,100.0,2333.3333
 emergency,yes,2,50.0,100.0,2333.3333
-highway,unclassified,5453,25.2197,545200.0,6634383.3333
-highway,track,5442,25.1688,544100.0,6621000.0
-highway,residential,3513,16.2473,351200.0,4274050.0
-highway,path,2752,12.7278,275100.0,3348166.6667
-highway,road,2397,11.0859,239600.0,2916250.0
-highway,primary,489,2.2616,48800.0,594850.0
-highway,tertiary,439,2.0303,43800.0,534016.6667
-highway,footway,390,1.8037,38900.0,474400.0
-highway,secondary,376,1.739,37500.0,457366.6667
-highway,service,288,1.332,28700.0,350300.0
+highway,unclassified,5454,25.2092,545300.0,6635600.0
+highway,track,5443,25.1583,544200.0,6622216.6667
+highway,residential,3517,16.2561,351600.0,4278916.6667
+highway,path,2752,12.7201,275100.0,3348166.6667
+highway,road,2397,11.0793,239600.0,2916250.0
+highway,primary,489,2.2602,48800.0,594850.0
+highway,tertiary,441,2.0384,44000.0,536450.0
+highway,footway,391,1.8073,39000.0,475616.6667
+highway,secondary,378,1.7472,37700.0,459800.0
+highway,service,288,1.3312,28700.0,350300.0
 highway,crossing,25,0.1156,2400.0,30316.6667
-highway,pedestrian,23,0.1064,2200.0,27883.3333
-highway,street_lamp,7,0.0324,600.0,8416.6667
+highway,pedestrian,23,0.1063,2200.0,27883.3333
+highway,street_lamp,8,0.037,700.0,9633.3333
 highway,trunk,5,0.0231,400.0,5983.3333
 highway,living_street,4,0.0185,300.0,4766.6667
 highway,turning_circle,4,0.0185,300.0,4766.6667
@@ -93,6 +93,7 @@ highway,bridleway,1,0.0046,0.0,1116.6667
 highway,construction,1,0.0046,0.0,1116.6667
 highway,mini_roundabout,1,0.0046,0.0,1116.6667
 highway,primary_link,1,0.0046,0.0,1116.6667
+highway,stop,1,0.0046,0.0,1116.6667
 highway,trunk_link,1,0.0046,0.0,1116.6667
 landuse,residential,1230,73.0838,122900.0,1496400.0
 landuse,forest,258,15.3298,25700.0,313800.0
@@ -116,1886 +117,1897 @@ landuse,field,1,0.0594,0.0,1116.6667
 landuse,grave_yard,1,0.0594,0.0,1116.6667
 landuse,harbour,1,0.0594,0.0,1116.6667
 landuse,school,1,0.0594,0.0,1116.6667
-leisure,park,62,66.6667,6100.0,75333.3333
-leisure,pitch,12,12.9032,1100.0,14500.0
-leisure,common,8,8.6022,700.0,9633.3333
-leisure,slipway,7,7.5269,600.0,8416.6667
-leisure,swimming_pool,2,2.1505,100.0,2333.3333
-leisure,garden,1,1.0753,0.0,1116.6667
-leisure,recreation_ground,1,1.0753,0.0,1116.6667
-name,Route Nationale # 1,155,4.687,15400.0,188483.3333
-name,building,120,3.6287,11900.0,145900.0
-name,#uvmMapping,81,2.4493,8000.0,98450.0
-name,house,58,1.7539,5700.0,70466.6667
-name,Route Nationale # 2,43,1.3003,4200.0,52216.6667
-name,Route Nationale # 7,42,1.27,4100.0,51000.0
-name,Residential,40,1.2096,3900.0,48566.6667
-name,House,34,1.0281,3300.0,41266.6667
-name,Building,22,0.6653,2100.0,26666.6667
-name,Rivière De La Voldroque,20,0.6048,1900.0,24233.3333
-name,Rue Macpella,20,0.6048,1900.0,24233.3333
-name,Rivière Bras à Droite,19,0.5745,1800.0,23016.6667
-name,One building,18,0.5443,1700.0,21800.0
-name,Rivière de Cavaillon,14,0.4233,1300.0,16933.3333
-name,Route Nan Lundy,14,0.4233,1300.0,16933.3333
-name,small neighborhood,14,0.4233,1300.0,16933.3333
-name,Rivière Dose?,13,0.3931,1200.0,15716.6667
-name,Les Anglais,12,0.3629,1100.0,14500.0
-name,Rivière Froide,12,0.3629,1100.0,14500.0
-name,Route de Dupuy,12,0.3629,1100.0,14500.0
-name,Rue Émile Roumer,12,0.3629,1100.0,14500.0
-name,h,11,0.3326,1000.0,13283.3333
-name,marre vielle terre,11,0.3326,1000.0,13283.3333
-name,Bureau Identification,10,0.3024,900.0,12066.6667
-name,Fj 18,10,0.3024,900.0,12066.6667
-name,Rivière de la Grand Anse,10,0.3024,900.0,12066.6667
-name,Cathédrale Saint-Louis-Roi-de-France,9,0.2721,800.0,10850.0
-name,Grande Rivière,9,0.2721,800.0,10850.0
-name,Riviere Bombom,9,0.2721,800.0,10850.0
-name,Rivière Pins,9,0.2721,800.0,10850.0
-name,Roue Saint Victor,9,0.2721,800.0,10850.0
-name,La Source,8,0.2419,700.0,9633.3333
-name,Riviere de Petite Source,8,0.2419,700.0,9633.3333
-name,Rivière Mahol,8,0.2419,700.0,9633.3333
-name,Rivière Maro,8,0.2419,700.0,9633.3333
-name,Route Bombom,8,0.2419,700.0,9633.3333
-name,Rue Abbé Huet,8,0.2419,700.0,9633.3333
-name,Rue Boisrond Tonnerre,8,0.2419,700.0,9633.3333
-name,colette,8,0.2419,700.0,9633.3333
-name,Common House,7,0.2117,600.0,8416.6667
-name,Rivière Catinette,7,0.2117,600.0,8416.6667
-name,Rivière des Roseaux,7,0.2117,600.0,8416.6667
-name,Route Mellier,7,0.2117,600.0,8416.6667
-name,Route de Fort Jacques,7,0.2117,600.0,8416.6667
-name,Small neighborhood,7,0.2117,600.0,8416.6667
-name,neighborhood,7,0.2117,600.0,8416.6667
-name,1 house,6,0.1814,500.0,7200.0
-name,Check Dam,6,0.1814,500.0,7200.0
-name,Fermathe,6,0.1814,500.0,7200.0
-name,Grande Ravine,6,0.1814,500.0,7200.0
-name,Rivière De Henne,6,0.1814,500.0,7200.0
-name,Rivière Djemenin,6,0.1814,500.0,7200.0
-name,Rivière Pedernales,6,0.1814,500.0,7200.0
-name,Rivière des Cotes de Fer,6,0.1814,500.0,7200.0
-name,hut,6,0.1814,500.0,7200.0
-name,Avenue Simon Duvalier,5,0.1512,400.0,5983.3333
-name,CTSJ,5,0.1512,400.0,5983.3333
-name,Entre Taino,5,0.1512,400.0,5983.3333
-name,Godet,5,0.1512,400.0,5983.3333
-name,Gros Morne,5,0.1512,400.0,5983.3333
-name,Jet D'Eau,5,0.1512,400.0,5983.3333
-name,One house,5,0.1512,400.0,5983.3333
-name,Ravine Gobin,5,0.1512,400.0,5983.3333
-name,Riviere Labris,5,0.1512,400.0,5983.3333
-name,Rivière Colongesse,5,0.1512,400.0,5983.3333
-name,Rivière Fède,5,0.1512,400.0,5983.3333
-name,Rivière Serpente,5,0.1512,400.0,5983.3333
-name,Rivière de Dame Marie,5,0.1512,400.0,5983.3333
-name,Rivière de La Guinaudée (ouest),5,0.1512,400.0,5983.3333
-name,Route Nationale # 4,5,0.1512,400.0,5983.3333
-name,Route de Kenscoff,5,0.1512,400.0,5983.3333
-name,residential,5,0.1512,400.0,5983.3333
-name,#house #building,4,0.121,300.0,4766.6667
-name,Brière,4,0.121,300.0,4766.6667
-name,Cimetière de Jérémie,4,0.121,300.0,4766.6667
-name,Fermathe 63,4,0.121,300.0,4766.6667
-name,Kenscoff 67,4,0.121,300.0,4766.6667
-name,Plaisance,4,0.121,300.0,4766.6667
-name,Ravine Palmiste,4,0.121,300.0,4766.6667
-name,Ravine Port Nègre,4,0.121,300.0,4766.6667
-name,Ravine Trou Singer,4,0.121,300.0,4766.6667
-name,Rivière Banc de Roche,4,0.121,300.0,4766.6667
-name,Rivière Des Roseaux II,4,0.121,300.0,4766.6667
-name,Rivière Ford,4,0.121,300.0,4766.6667
-name,Rivière Opaque,4,0.121,300.0,4766.6667
-name,Rivière Zilé Blanche,4,0.121,300.0,4766.6667
-name,Rivière des Côtes-de-Fer,4,0.121,300.0,4766.6667
-name,Route Bonbon,4,0.121,300.0,4766.6667
-name,Route Carrefour Sigueneau,4,0.121,300.0,4766.6667
-name,Rue Auxilius Fougère,4,0.121,300.0,4766.6667
-name,Rue Dalencourt 2,4,0.121,300.0,4766.6667
-name,Rue Jean Baptiste Point du Sable,4,0.121,300.0,4766.6667
-name,Rue Prevalis,4,0.121,300.0,4766.6667
-name,Rue Source Dommage,4,0.121,300.0,4766.6667
-name,Rue St Joseph,4,0.121,300.0,4766.6667
-name,Water kiosk,4,0.121,300.0,4766.6667
-name,brabayard,4,0.121,300.0,4766.6667
-name,route la voute,4,0.121,300.0,4766.6667
-name,rue ste helene,4,0.121,300.0,4766.6667
-name,small hut,4,0.121,300.0,4766.6667
-name,#building,3,0.0907,200.0,3550.0
-name,1ere Grande Rue,3,0.0907,200.0,3550.0
-name,2 houses,3,0.0907,200.0,3550.0
-name,??,3,0.0907,200.0,3550.0
-name,Avenue Cartgena,3,0.0907,200.0,3550.0
-name,Bellevue,3,0.0907,200.0,3550.0
-name,Bourdon,3,0.0907,200.0,3550.0
-name,Boyer,3,0.0907,200.0,3550.0
-name,Calebasse,3,0.0907,200.0,3550.0
-name,Carpentier,3,0.0907,200.0,3550.0
-name,Carrefour Joute,3,0.0907,200.0,3550.0
-name,Centre de santé Saint-Jean-du-sud,3,0.0907,200.0,3550.0
-name,Cite Dalencourt,3,0.0907,200.0,3550.0
-name,Colette,3,0.0907,200.0,3550.0
-name,Common House on Path,3,0.0907,200.0,3550.0
-name,DISPENSAIRE DE MONTRY,3,0.0907,200.0,3550.0
-name,Ecole Communautaire de Moule a Manchette,3,0.0907,200.0,3550.0
-name,Ecole Fondamentale d'App,3,0.0907,200.0,3550.0
-name,Eglise wesleenne de trou louis-jeune,3,0.0907,200.0,3550.0
-name,Grand Vincent,3,0.0907,200.0,3550.0
-name,Hotel Florita,3,0.0907,200.0,3550.0
-name,Impasse Magnum,3,0.0907,200.0,3550.0
-name,Impasse Pierre Louis,3,0.0907,200.0,3550.0
-name,La Guinaudée,3,0.0907,200.0,3550.0
-name,La Hatte,3,0.0907,200.0,3550.0
-name,Lamandou,3,0.0907,200.0,3550.0
-name,Léger,3,0.0907,200.0,3550.0
-name,Mahotière,3,0.0907,200.0,3550.0
-name,Maybe House,3,0.0907,200.0,3550.0
-name,Morne Camp,3,0.0907,200.0,3550.0
-name,Morne Chateau,3,0.0907,200.0,3550.0
-name,Nan Charles,3,0.0907,200.0,3550.0
-name,Nan Roche,3,0.0907,200.0,3550.0
-name,Rivière Brossard,3,0.0907,200.0,3550.0
-name,Rivière De Dame Marie,3,0.0907,200.0,3550.0
-name,Rivière La Source,3,0.0907,200.0,3550.0
-name,Rivière Mandou,3,0.0907,200.0,3550.0
-name,Rivière Massacre,3,0.0907,200.0,3550.0
-name,Rivière des Irois,3,0.0907,200.0,3550.0
-name,Rivières Baradères,3,0.0907,200.0,3550.0
-name,Route Anglade,3,0.0907,200.0,3550.0
-name,Route Gonaives - Anse-Rouge,3,0.0907,200.0,3550.0
-name,Rue Avelt,3,0.0907,200.0,3550.0
-name,Rue Duvivier Hall,3,0.0907,200.0,3550.0
-name,Rue Nan Brouette,3,0.0907,200.0,3550.0
-name,Rue Prosperité,3,0.0907,200.0,3550.0
-name,Rue du Creac,3,0.0907,200.0,3550.0
-name,Ruelle Charlotin,3,0.0907,200.0,3550.0
-name,Ruelle Dalencourt 4,3,0.0907,200.0,3550.0
-name,Ruelle Paulin,3,0.0907,200.0,3550.0
-name,Ruelle Remy,3,0.0907,200.0,3550.0
-name,Temple de Vaudou de Caneau,3,0.0907,200.0,3550.0
-name,Zone de mouillage,3,0.0907,200.0,3550.0
-name,one building,3,0.0907,200.0,3550.0
-name,rue geffrard,3,0.0907,200.0,3550.0
-name,shed,3,0.0907,200.0,3550.0
-name,#aviva#avivaca,2,0.0605,100.0,2333.3333
-name,#hotosm-project-2226 #hurricaneMatthew #haiti,2,0.0605,100.0,2333.3333
-name,1ere Avenue Canaan 3,2,0.0605,100.0,2333.3333
-name,3,2,0.0605,100.0,2333.3333
-name,4,2,0.0605,100.0,2333.3333
-name,A4,2,0.0605,100.0,2333.3333
-name,Abricots,2,0.0605,100.0,2333.3333
-name,Alliance Française de Jacmel,2,0.0605,100.0,2333.3333
-name,Apartment,2,0.0605,100.0,2333.3333
-name,Avenue Baranquilla,2,0.0605,100.0,2333.3333
-name,Avenue des Quatre Chemins,2,0.0605,100.0,2333.3333
-name,Bassin Bleu,2,0.0605,100.0,2333.3333
-name,Bayard,2,0.0605,100.0,2333.3333
-name,Beaumont,2,0.0605,100.0,2333.3333
-name,Bel Air,2,0.0605,100.0,2333.3333
-name,Belle Dent,2,0.0605,100.0,2333.3333
-name,Beraud,2,0.0605,100.0,2333.3333
-name,Bernard,2,0.0605,100.0,2333.3333
-name,Blondin,2,0.0605,100.0,2333.3333
-name,Bon Pas,2,0.0605,100.0,2333.3333
-name,Boulangeriw CSL,2,0.0605,100.0,2333.3333
-name,Boutique Communautaire d'Intrants Agricoles,2,0.0605,100.0,2333.3333
-name,Buildinh,2,0.0605,100.0,2333.3333
-name,Bwa Sek,2,0.0605,100.0,2333.3333
-name,Bò Lanmè,2,0.0605,100.0,2333.3333
-name,CENTRE DE SANTE SAVANNE ZOMBIE,2,0.0605,100.0,2333.3333
-name,CHOSCAL-Centre Hospitalier Sainte-Catherine Laboure,2,0.0605,100.0,2333.3333
-name,Ca Vilason,2,0.0605,100.0,2333.3333
-name,Cahouane,2,0.0605,100.0,2333.3333
-name,Camp Barrière,2,0.0605,100.0,2333.3333
-name,Canard,2,0.0605,100.0,2333.3333
-name,Canelle,2,0.0605,100.0,2333.3333
-name,Cap des Marechaux Prolonge,2,0.0605,100.0,2333.3333
-name,Carre Pingouin,2,0.0605,100.0,2333.3333
-name,Casal,2,0.0605,100.0,2333.3333
-name,Cente De Sante De Maniche,2,0.0605,100.0,2333.3333
-name,Centre de Santé Camp Perrin,2,0.0605,100.0,2333.3333
-name,Centre de Santé La Victoire,2,0.0605,100.0,2333.3333
-name,Centre de Santé Madame Bernard,2,0.0605,100.0,2333.3333
-name,Centre de santé Cité Lumière,2,0.0605,100.0,2333.3333
-name,Check dam,2,0.0605,100.0,2333.3333
-name,Collège Edzaire Vilaire,2,0.0605,100.0,2333.3333
-name,Corail,2,0.0605,100.0,2333.3333
-name,Coteaux,2,0.0605,100.0,2333.3333
-name,DISPENSAIRE DE DUCIS,2,0.0605,100.0,2333.3333
-name,DISPENSAIRE DE LATIBOLIERE,2,0.0605,100.0,2333.3333
-name,DISPENSAIRE DE RHE,2,0.0605,100.0,2333.3333
-name,DP DE Dumont,2,0.0605,100.0,2333.3333
-name,DRB (Douze Rocher Beni),2,0.0605,100.0,2333.3333
-name,Deschamps,2,0.0605,100.0,2333.3333
-name,Desravines,2,0.0605,100.0,2333.3333
-name,Dispensaire Chantal,2,0.0605,100.0,2333.3333
-name,Dispensaire Notre Dame des Malades,2,0.0605,100.0,2333.3333
-name,Dispensaire Saint Joseph,2,0.0605,100.0,2333.3333
-name,Dispensaire Saint-Joseph,2,0.0605,100.0,2333.3333
-name,Dispensaire World Vision de Cance,2,0.0605,100.0,2333.3333
-name,Dispensaire d'Arniquet,2,0.0605,100.0,2333.3333
-name,Dispensaire de Béraud,2,0.0605,100.0,2333.3333
-name,Dispensaire de Guichard,2,0.0605,100.0,2333.3333
-name,Dispensaire de Mackandal,2,0.0605,100.0,2333.3333
-name,Dispensaire de Maillard,2,0.0605,100.0,2333.3333
-name,Dispensaire de Mazenod,2,0.0605,100.0,2333.3333
-name,Dispensaire de Mersan,2,0.0605,100.0,2333.3333
-name,Dory,2,0.0605,100.0,2333.3333
-name,Dufailly,2,0.0605,100.0,2333.3333
-name,Duperon,2,0.0605,100.0,2333.3333
-name,Dupin,2,0.0605,100.0,2333.3333
-name,Duquillon,2,0.0605,100.0,2333.3333
-name,Duranton,2,0.0605,100.0,2333.3333
-name,Durocher,2,0.0605,100.0,2333.3333
-name,Duverger,2,0.0605,100.0,2333.3333
-name,Déron,2,0.0605,100.0,2333.3333
-name,Ecole Crep des Nations,2,0.0605,100.0,2333.3333
-name,Ecole Marguerite D.Youville,2,0.0605,100.0,2333.3333
-name,Etang de Miragoane,2,0.0605,100.0,2333.3333
-name,FERME LEBLANC,2,0.0605,100.0,2333.3333
-name,FOSREF-LAKAY CAYES,2,0.0605,100.0,2333.3333
-name,Figuier,2,0.0605,100.0,2333.3333
-name,Fond Cochon,2,0.0605,100.0,2333.3333
-name,Fouache,2,0.0605,100.0,2333.3333
-name,Fourneau,2,0.0605,100.0,2333.3333
-name,Gageure,2,0.0605,100.0,2333.3333
-name,Georges,2,0.0605,100.0,2333.3333
-name,Gervais,2,0.0605,100.0,2333.3333
-name,Grande Plaine,2,0.0605,100.0,2333.3333
-name,HHF,2,0.0605,100.0,2333.3333
-name,HHF_Clinique,2,0.0605,100.0,2333.3333
-name,HIC,2,0.0605,100.0,2333.3333
-name,Home,2,0.0605,100.0,2333.3333
-name,I.O. Brenda,2,0.0605,100.0,2333.3333
-name,Impasse Blaise,2,0.0605,100.0,2333.3333
-name,Impasse Monfort,2,0.0605,100.0,2333.3333
-name,Kay Timoun Bondye,2,0.0605,100.0,2333.3333
-name,Klinik Lafanmy,2,0.0605,100.0,2333.3333
-name,Klinik Timoun Nou Yo,2,0.0605,100.0,2333.3333
-name,L'Hôpital Communautaire PORT-SALUT,2,0.0605,100.0,2333.3333
-name,LABORDE,2,0.0605,100.0,2333.3333
-name,LAURENT,2,0.0605,100.0,2333.3333
-name,La Bastille,2,0.0605,100.0,2333.3333
-name,La Chaîne,2,0.0605,100.0,2333.3333
-name,La Digue Bridge,2,0.0605,100.0,2333.3333
-name,La Grande Colline,2,0.0605,100.0,2333.3333
-name,La Grevette Resort,2,0.0605,100.0,2333.3333
-name,La Saline,2,0.0605,100.0,2333.3333
-name,La Visite,2,0.0605,100.0,2333.3333
-name,Lafitte,2,0.0605,100.0,2333.3333
-name,Lago Azuey,2,0.0605,100.0,2333.3333
-name,Lamandou;Rue Emmeline C Lemaire,2,0.0605,100.0,2333.3333
-name,Latiboliere,2,0.0605,100.0,2333.3333
-name,Leprêtre,2,0.0605,100.0,2333.3333
-name,Les Basses-Grandes Anse,2,0.0605,100.0,2333.3333
-name,Lycée Saint-Louis Gonzague,2,0.0605,100.0,2333.3333
-name,MHDR (PORT SALUT),2,0.0605,100.0,2333.3333
-name,Macombe,2,0.0605,100.0,2333.3333
-name,Maison de Naissance,2,0.0605,100.0,2333.3333
-name,Maison des Enfants Montessori de Mackandal,2,0.0605,100.0,2333.3333
-name,Malette,2,0.0605,100.0,2333.3333
-name,Marcel,2,0.0605,100.0,2333.3333
-name,Melon,2,0.0605,100.0,2333.3333
-name,Meyer,2,0.0605,100.0,2333.3333
-name,Morne Basta,2,0.0605,100.0,2333.3333
-name,Morne Cavalier,2,0.0605,100.0,2333.3333
-name,Morne Desbarrières,2,0.0605,100.0,2333.3333
-name,Morne Grand Bois,2,0.0605,100.0,2333.3333
-name,Morne Henry,2,0.0605,100.0,2333.3333
-name,Morne Rimbeau,2,0.0605,100.0,2333.3333
-name,Nan Bois,2,0.0605,100.0,2333.3333
-name,Nan Campêche,2,0.0605,100.0,2333.3333
-name,Nan Garde,2,0.0605,100.0,2333.3333
-name,Passe,2,0.0605,100.0,2333.3333
-name,Petite Anse,2,0.0605,100.0,2333.3333
-name,Petite Rivière,2,0.0605,100.0,2333.3333
-name,Pierre Louis,2,0.0605,100.0,2333.3333
-name,Place Nègre,2,0.0605,100.0,2333.3333
-name,Place Onaville,2,0.0605,100.0,2333.3333
-name,Platon Mombin,2,0.0605,100.0,2333.3333
-name,Pointe Sable,2,0.0605,100.0,2333.3333
-name,Pointe aux Oiseaux,2,0.0605,100.0,2333.3333
-name,Port à Nanette,2,0.0605,100.0,2333.3333
-name,Quatre Chemins,2,0.0605,100.0,2333.3333
-name,Randelle,2,0.0605,100.0,2333.3333
-name,Ravine Blockhauss 1,2,0.0605,100.0,2333.3333
-name,Ravine Blockhauss 3,2,0.0605,100.0,2333.3333
-name,Ravine Dalest,2,0.0605,100.0,2333.3333
-name,Ravine Eau Fatiguée,2,0.0605,100.0,2333.3333
-name,Ravine Grande Source,2,0.0605,100.0,2333.3333
-name,Ravine Martineau,2,0.0605,100.0,2333.3333
-name,Ravine Mercier,2,0.0605,100.0,2333.3333
-name,Ravine Saint-Georges,2,0.0605,100.0,2333.3333
-name,Ravine Source Philippe,2,0.0605,100.0,2333.3333
-name,Ravine Sourran,2,0.0605,100.0,2333.3333
-name,Ravine du Sud,2,0.0605,100.0,2333.3333
-name,Reserve 2015,2,0.0605,100.0,2333.3333
-name,Riviere,2,0.0605,100.0,2333.3333
-name,Riviere Berzeaud,2,0.0605,100.0,2333.3333
-name,Rivière Anse du Clerc,2,0.0605,100.0,2333.3333
-name,Rivière Bois D'Orme,2,0.0605,100.0,2333.3333
-name,Rivière Boucan,2,0.0605,100.0,2333.3333
-name,Rivière Bras A Gauche,2,0.0605,100.0,2333.3333
-name,Rivière Galois,2,0.0605,100.0,2333.3333
-name,Rivière Glace,2,0.0605,100.0,2333.3333
-name,Rivière Grise,2,0.0605,100.0,2333.3333
-name,Rivière Jean Paul,2,0.0605,100.0,2333.3333
-name,Rivière La Gosseline,2,0.0605,100.0,2333.3333
-name,Rivière Latermin,2,0.0605,100.0,2333.3333
-name,Rivière Lhomon,2,0.0605,100.0,2333.3333
-name,Rivière Marie Gérome,2,0.0605,100.0,2333.3333
-name,Rivière Momance,2,0.0605,100.0,2333.3333
-name,Rivière Nan Couline,2,0.0605,100.0,2333.3333
-name,Rivière Pascal,2,0.0605,100.0,2333.3333
-name,Rivière Passe Caroline,2,0.0605,100.0,2333.3333
-name,Rivière Port Salut,2,0.0605,100.0,2333.3333
-name,Rivière Rino,2,0.0605,100.0,2333.3333
-name,Rivière Serangues,2,0.0605,100.0,2333.3333
-name,Rivière Source Bœuf,2,0.0605,100.0,2333.3333
-name,Rivière Source Pimba,2,0.0605,100.0,2333.3333
-name,Rivière Trouillac,2,0.0605,100.0,2333.3333
-name,Rivière d'Indigoterie,2,0.0605,100.0,2333.3333
-name,Rivière de Tiburon,2,0.0605,100.0,2333.3333
-name,Rivière de l'Est,2,0.0605,100.0,2333.3333
-name,Rivière des Orangers,2,0.0605,100.0,2333.3333
-name,Rossignol,2,0.0605,100.0,2333.3333
-name,Route Mahotiere,2,0.0605,100.0,2333.3333
-name,Route Taino,2,0.0605,100.0,2333.3333
-name,Rue 3 Frères Rigaud,2,0.0605,100.0,2333.3333
-name,Rue Alexandre Pétion,2,0.0605,100.0,2333.3333
-name,Rue Belfort,2,0.0605,100.0,2333.3333
-name,Rue Betanie,2,0.0605,100.0,2333.3333
-name,Rue Boisrord Tonnerre,2,0.0605,100.0,2333.3333
-name,Rue Derou,2,0.0605,100.0,2333.3333
-name,Rue Docteur Hyppolite,2,0.0605,100.0,2333.3333
-name,Rue Douphine,2,0.0605,100.0,2333.3333
-name,Rue Emmeline C Lemaire,2,0.0605,100.0,2333.3333
-name,Rue General Marion,2,0.0605,100.0,2333.3333
-name,Rue Junior,2,0.0605,100.0,2333.3333
-name,Rue La Grandeur,2,0.0605,100.0,2333.3333
-name,Rue Mathador,2,0.0605,100.0,2333.3333
-name,Rue Perseverance,2,0.0605,100.0,2333.3333
-name,Rue Riviere Herard,2,0.0605,100.0,2333.3333
-name,Rue Sacre Coeur,2,0.0605,100.0,2333.3333
-name,Rue Sainte Thérèse,2,0.0605,100.0,2333.3333
-name,Rue Tete Morne,2,0.0605,100.0,2333.3333
-name,Rue l'Union,2,0.0605,100.0,2333.3333
-name,Ruelle Adam,2,0.0605,100.0,2333.3333
-name,Ruelle Christ Revient,2,0.0605,100.0,2333.3333
-name,Ruelle Dalencourt 3,2,0.0605,100.0,2333.3333
-name,Ruelle Des Fleurs,2,0.0605,100.0,2333.3333
-name,Ruelle Innocent,2,0.0605,100.0,2333.3333
-name,Ruelle Manacée,2,0.0605,100.0,2333.3333
-name,Ruelle Nosephk,2,0.0605,100.0,2333.3333
-name,Ruelle Petit Frere,2,0.0605,100.0,2333.3333
-name,Ruelle Pierre Tribie,2,0.0605,100.0,2333.3333
-name,Ruelle Rigaud,2,0.0605,100.0,2333.3333
-name,Ruelle Sans Soucie,2,0.0605,100.0,2333.3333
-name,Ruelle Trankil,2,0.0605,100.0,2333.3333
-name,Saimplice,2,0.0605,100.0,2333.3333
-name,Salle paroissiale,2,0.0605,100.0,2333.3333
-name,Sanatorium des Cayes,2,0.0605,100.0,2333.3333
-name,School,2,0.0605,100.0,2333.3333
-name,Shanti,2,0.0605,100.0,2333.3333
-name,Small building next to house,2,0.0605,100.0,2333.3333
-name,Source Fourneau,2,0.0605,100.0,2333.3333
-name,Tamarin,2,0.0605,100.0,2333.3333
-name,Terre Rouge,2,0.0605,100.0,2333.3333
-name,Ti Plaine,2,0.0605,100.0,2333.3333
-name,Ti Ravine,2,0.0605,100.0,2333.3333
-name,Warehouse 1,2,0.0605,100.0,2333.3333
-name,antenne,2,0.0605,100.0,2333.3333
-name,apartment,2,0.0605,100.0,2333.3333
-name,apt,2,0.0605,100.0,2333.3333
-name,banlier,2,0.0605,100.0,2333.3333
-name,calabate,2,0.0605,100.0,2333.3333
-name,camp mayard,2,0.0605,100.0,2333.3333
-name,desplandi,2,0.0605,100.0,2333.3333
-name,epicerie,2,0.0605,100.0,2333.3333
-name,farm house,2,0.0605,100.0,2333.3333
-name,home,2,0.0605,100.0,2333.3333
-name,huts,2,0.0605,100.0,2333.3333
-name,impasse st jean baptiste,2,0.0605,100.0,2333.3333
-name,maybe building,2,0.0605,100.0,2333.3333
-name,rivière Opaque,2,0.0605,100.0,2333.3333
-name,route lamandou,2,0.0605,100.0,2333.3333
-name,rue joassaint adonis,2,0.0605,100.0,2333.3333
-name,rue st helene,2,0.0605,100.0,2333.3333
-name,ruelle des fleurs,2,0.0605,100.0,2333.3333
-name,ruelle morissette,2,0.0605,100.0,2333.3333
-name,veras road,2,0.0605,100.0,2333.3333
-name,way to house,2,0.0605,100.0,2333.3333
-name,École Nationale Colette,2,0.0605,100.0,2333.3333
-name,École Soliel de Hollande,2,0.0605,100.0,2333.3333
-name,Église Baptiste,2,0.0605,100.0,2333.3333
-name,Église Dieu de la Prophétie,2,0.0605,100.0,2333.3333
-name,Église Sainte Hélène,2,0.0605,100.0,2333.3333
-name,"#hotosm-project-2248 #hurricanematthew #haiti Source=GeoEye1, Digital Globe, 09 September 2015",1,0.0302,0.0,1116.6667
-name,#house,1,0.0302,0.0,1116.6667
-name,#house #building #school,1,0.0302,0.0,1116.6667
-name,#mplondon #missingmaps,1,0.0302,0.0,1116.6667
-name,#uvmMapping\,1,0.0302,0.0,1116.6667
-name,#uvmmapping,1,0.0302,0.0,1116.6667
-name,1,1,0.0302,0.0,1116.6667
-name,10,1,0.0302,0.0,1116.6667
-name,11,1,0.0302,0.0,1116.6667
-name,2,1,0.0302,0.0,1116.6667
-name,2 homes or very large buildings,1,0.0302,0.0,1116.6667
-name,2 house,1,0.0302,0.0,1116.6667
-name,2e aux Cadets Petyonvil,1,0.0302,0.0,1116.6667
-name,4 houses,1,0.0302,0.0,1116.6667
-name,5,1,0.0302,0.0,1116.6667
-name,6,1,0.0302,0.0,1116.6667
-name,7,1,0.0302,0.0,1116.6667
-name,8,1,0.0302,0.0,1116.6667
-name,8e Berly Kofou,1,0.0302,0.0,1116.6667
-name,9,1,0.0302,0.0,1116.6667
-name,Abeille,1,0.0302,0.0,1116.6667
-name,Acelin,1,0.0302,0.0,1116.6667
-name,Adrine,1,0.0302,0.0,1116.6667
-name,Albérie,1,0.0302,0.0,1116.6667
-name,Alien Object,1,0.0302,0.0,1116.6667
-name,Ambassade du Brésil,1,0.0302,0.0,1116.6667
-name,Ambassade du Japon,1,0.0302,0.0,1116.6667
-name,Anciennes Route Nationale # 2,1,0.0302,0.0,1116.6667
-name,André,1,0.0302,0.0,1116.6667
-name,Anglais,1,0.0302,0.0,1116.6667
-name,Annette,1,0.0302,0.0,1116.6667
-name,Anofer,1,0.0302,0.0,1116.6667
-name,Anse Cotes de Fer,1,0.0302,0.0,1116.6667
-name,Anse Goudin,1,0.0302,0.0,1116.6667
-name,Anse Joseph,1,0.0302,0.0,1116.6667
-name,Anse a Trouette,1,0.0302,0.0,1116.6667
-name,Anse d'Hainault,1,0.0302,0.0,1116.6667
-name,Anse du Milieu,1,0.0302,0.0,1116.6667
-name,Anse à Drick,1,0.0302,0.0,1116.6667
-name,Anse à Juif,1,0.0302,0.0,1116.6667
-name,Anse à Trouette,1,0.0302,0.0,1116.6667
-name,Anse-d'Azur,1,0.0302,0.0,1116.6667
-name,Antoine,1,0.0302,0.0,1116.6667
-name,Armée du Salut,1,0.0302,0.0,1116.6667
-name,Arniquet,1,0.0302,0.0,1116.6667
-name,Atelier Artisanat,1,0.0302,0.0,1116.6667
-name,Aubin,1,0.0302,0.0,1116.6667
-name,Aubry,1,0.0302,0.0,1116.6667
-name,Aux Ciseaux d'Or,1,0.0302,0.0,1116.6667
-name,Aux Plaines,1,0.0302,0.0,1116.6667
-name,Ave De La Colonial (Route Belvald),1,0.0302,0.0,1116.6667
-name,Avec Jésus Tout Va Bien,1,0.0302,0.0,1116.6667
-name,Avenue Cartagena,1,0.0302,0.0,1116.6667
-name,Avenue Charles Sumner,1,0.0302,0.0,1116.6667
-name,Avenue Saint Mathieu,1,0.0302,0.0,1116.6667
-name,B et G Depot Gazeuzes,1,0.0302,0.0,1116.6667
-name,BLVD Mariani,1,0.0302,0.0,1116.6667
-name,Babin,1,0.0302,0.0,1116.6667
-name,Babino,1,0.0302,0.0,1116.6667
-name,Bacilier,1,0.0302,0.0,1116.6667
-name,Baie Espagnole,1,0.0302,0.0,1116.6667
-name,Baie de Bigie,1,0.0302,0.0,1116.6667
-name,Baie de Carcasse,1,0.0302,0.0,1116.6667
-name,Baie de Dame Marie,1,0.0302,0.0,1116.6667
-name,Baie de l'Hôpital,1,0.0302,0.0,1116.6667
-name,Baie de la Croix,1,0.0302,0.0,1116.6667
-name,Baie des Irois,1,0.0302,0.0,1116.6667
-name,Balais,1,0.0302,0.0,1116.6667
-name,Balandier,1,0.0302,0.0,1116.6667
-name,Balant,1,0.0302,0.0,1116.6667
-name,Balice,1,0.0302,0.0,1116.6667
-name,Bananier,1,0.0302,0.0,1116.6667
-name,Banc de Roches,1,0.0302,0.0,1116.6667
-name,Band Of Brothers,1,0.0302,0.0,1116.6667
-name,Baptiste,1,0.0302,0.0,1116.6667
-name,Barbois,1,0.0302,0.0,1116.6667
-name,Bariadelle,1,0.0302,0.0,1116.6667
-name,Barn,1,0.0302,0.0,1116.6667
-name,Bas Muton,1,0.0302,0.0,1116.6667
-name,Basie,1,0.0302,0.0,1116.6667
-name,Basse Terre,1,0.0302,0.0,1116.6667
-name,Bassin,1,0.0302,0.0,1116.6667
-name,Bassin Caiman,1,0.0302,0.0,1116.6667
-name,Bassin Cheval,1,0.0302,0.0,1116.6667
-name,Bassin Mahaut,1,0.0302,0.0,1116.6667
-name,Basta,1,0.0302,0.0,1116.6667
-name,Bazarin,1,0.0302,0.0,1116.6667
-name,Beaubrun,1,0.0302,0.0,1116.6667
-name,Beaucalin,1,0.0302,0.0,1116.6667
-name,Beaudrouin,1,0.0302,0.0,1116.6667
-name,Beaufrin,1,0.0302,0.0,1116.6667
-name,Beaulieu,1,0.0302,0.0,1116.6667
-name,Bel-Air,1,0.0302,0.0,1116.6667
-name,Belle Maison,1,0.0302,0.0,1116.6667
-name,Belle-Anse,1,0.0302,0.0,1116.6667
-name,Bellevue Station,1,0.0302,0.0,1116.6667
-name,Bellote,1,0.0302,0.0,1116.6667
-name,Belsue,1,0.0302,0.0,1116.6667
-name,Belzanine,1,0.0302,0.0,1116.6667
-name,Benjamin,1,0.0302,0.0,1116.6667
-name,Berault,1,0.0302,0.0,1116.6667
-name,Berger,1,0.0302,0.0,1116.6667
-name,Bergerac,1,0.0302,0.0,1116.6667
-name,Bernagousse,1,0.0302,0.0,1116.6667
-name,Bertrand,1,0.0302,0.0,1116.6667
-name,Bethel,1,0.0302,0.0,1116.6667
-name,Betrouze,1,0.0302,0.0,1116.6667
-name,Bicher,1,0.0302,0.0,1116.6667
-name,Bien Compte,1,0.0302,0.0,1116.6667
-name,Bienfaisant,1,0.0302,0.0,1116.6667
-name,Bigahan,1,0.0302,0.0,1116.6667
-name,Bilding,1,0.0302,0.0,1116.6667
-name,Binto,1,0.0302,0.0,1116.6667
-name,Blacktote,1,0.0302,0.0,1116.6667
-name,Blockauss 2,1,0.0302,0.0,1116.6667
-name,Blockhaus,1,0.0302,0.0,1116.6667
-name,Boca,1,0.0302,0.0,1116.6667
-name,Boco,1,0.0302,0.0,1116.6667
-name,Bois Cochon,1,0.0302,0.0,1116.6667
-name,Bois De Chêne,1,0.0302,0.0,1116.6667
-name,Bois Duval,1,0.0302,0.0,1116.6667
-name,Bois Délai,1,0.0302,0.0,1116.6667
-name,Bois Geneste,1,0.0302,0.0,1116.6667
-name,Bois L'Anse,1,0.0302,0.0,1116.6667
-name,Bois Lambert,1,0.0302,0.0,1116.6667
-name,Bois Lancé,1,0.0302,0.0,1116.6667
-name,Bois Mahot,1,0.0302,0.0,1116.6667
-name,Bois Mapou,1,0.0302,0.0,1116.6667
-name,Bois Marassa,1,0.0302,0.0,1116.6667
-name,Bois Marguerite,1,0.0302,0.0,1116.6667
-name,Bois Rimbeau,1,0.0302,0.0,1116.6667
-name,Bois Rouge,1,0.0302,0.0,1116.6667
-name,Bois d'Avril Guesthouse,1,0.0302,0.0,1116.6667
-name,Bombardopolis,1,0.0302,0.0,1116.6667
-name,Bon pain Boniface,1,0.0302,0.0,1116.6667
-name,Bonhomme,1,0.0302,0.0,1116.6667
-name,Bontemps,1,0.0302,0.0,1116.6667
-name,Bordes,1,0.0302,0.0,1116.6667
-name,Boucan Cache,1,0.0302,0.0,1116.6667
-name,Boudince,1,0.0302,0.0,1116.6667
-name,Boudou,1,0.0302,0.0,1116.6667
-name,Bouquette,1,0.0302,0.0,1116.6667
-name,Boury,1,0.0302,0.0,1116.6667
-name,Bousquet,1,0.0302,0.0,1116.6667
-name,Brache,1,0.0302,0.0,1116.6667
-name,Breton,1,0.0302,0.0,1116.6667
-name,Bridge,1,0.0302,0.0,1116.6667
-name,Brieux,1,0.0302,0.0,1116.6667
-name,Brèche,1,0.0302,0.0,1116.6667
-name,Building 2,1,0.0302,0.0,1116.6667
-name,Building next to dirt path,1,0.0302,0.0,1116.6667
-name,Building1,1,0.0302,0.0,1116.6667
-name,Building2,1,0.0302,0.0,1116.6667
-name,Building3,1,0.0302,0.0,1116.6667
-name,Building_3,1,0.0302,0.0,1116.6667
-name,Building_4,1,0.0302,0.0,1116.6667
-name,Bureau de Port,1,0.0302,0.0,1116.6667
-name,Buteau,1,0.0302,0.0,1116.6667
-name,Buties,1,0.0302,0.0,1116.6667
-name,Buulding,1,0.0302,0.0,1116.6667
-name,Buvette,1,0.0302,0.0,1116.6667
-name,Béléo,1,0.0302,0.0,1116.6667
-name,Béril,1,0.0302,0.0,1116.6667
-name,Bétrinet,1,0.0302,0.0,1116.6667
-name,Bêque,1,0.0302,0.0,1116.6667
-name,Bò Lanmò,1,0.0302,0.0,1116.6667
-name,CAL DE PAILLANT Hopital Notre Dame de la Victoire de Pailland,1,0.0302,0.0,1116.6667
-name,CARREFOUR,1,0.0302,0.0,1116.6667
-name,CENTRE DE SANTE LA VICTOIRE,1,0.0302,0.0,1116.6667
-name,CENTRE JEUNES DE DELMAS 19,1,0.0302,0.0,1116.6667
-name,CRAAJ/Konesans Fanmi,1,0.0302,0.0,1116.6667
-name,Ca Boquet,1,0.0302,0.0,1116.6667
-name,Ca Charlesdieu,1,0.0302,0.0,1116.6667
-name,Ca Docteur,1,0.0302,0.0,1116.6667
-name,Ca Gauthier,1,0.0302,0.0,1116.6667
-name,Ca Jean Boule,1,0.0302,0.0,1116.6667
-name,Ca Louis,1,0.0302,0.0,1116.6667
-name,Ca Noel,1,0.0302,0.0,1116.6667
-name,Ca Poliette,1,0.0302,0.0,1116.6667
-name,Ca Rocher,1,0.0302,0.0,1116.6667
-name,Ca Tino,1,0.0302,0.0,1116.6667
-name,Cabrouette,1,0.0302,0.0,1116.6667
-name,Caceleste,1,0.0302,0.0,1116.6667
-name,Cachimbo,1,0.0302,0.0,1116.6667
-name,Cadette,1,0.0302,0.0,1116.6667
-name,Cafetière,1,0.0302,0.0,1116.6667
-name,Caglos,1,0.0302,0.0,1116.6667
-name,Caillard,1,0.0302,0.0,1116.6667
-name,Caillet,1,0.0302,0.0,1116.6667
-name,Caiman Bridge,1,0.0302,0.0,1116.6667
-name,Calapa,1,0.0302,0.0,1116.6667
-name,Caloban,1,0.0302,0.0,1116.6667
-name,Calumette,1,0.0302,0.0,1116.6667
-name,Cambon,1,0.0302,0.0,1116.6667
-name,Camori,1,0.0302,0.0,1116.6667
-name,Campagne,1,0.0302,0.0,1116.6667
-name,Campêche,1,0.0302,0.0,1116.6667
-name,Canacou,1,0.0302,0.0,1116.6667
-name,Canette,1,0.0302,0.0,1116.6667
-name,Canrete,1,0.0302,0.0,1116.6667
-name,Cap Carcasse,1,0.0302,0.0,1116.6667
-name,Cap Dame Marie,1,0.0302,0.0,1116.6667
-name,Cap Rose,1,0.0302,0.0,1116.6667
-name,Cap Tiburon,1,0.0302,0.0,1116.6667
-name,Cap des Irois,1,0.0302,0.0,1116.6667
-name,Capoliette,1,0.0302,0.0,1116.6667
-name,Carcasse,1,0.0302,0.0,1116.6667
-name,Carrefour Astier,1,0.0302,0.0,1116.6667
-name,Carrefour Canot,1,0.0302,0.0,1116.6667
-name,Carrefour Caton,1,0.0302,0.0,1116.6667
-name,Carrefour Charles,1,0.0302,0.0,1116.6667
-name,Carrefour Gros Chaudière,1,0.0302,0.0,1116.6667
-name,Carrefour Maillette,1,0.0302,0.0,1116.6667
-name,Carrefour Malette,1,0.0302,0.0,1116.6667
-name,Carrefour Méridien,1,0.0302,0.0,1116.6667
-name,Carrefour Prince,1,0.0302,0.0,1116.6667
-name,Carrefour Roulette,1,0.0302,0.0,1116.6667
-name,Carrefour Réverduré,1,0.0302,0.0,1116.6667
-name,Carrefour Sanon,1,0.0302,0.0,1116.6667
-name,Casnave,1,0.0302,0.0,1116.6667
-name,Cassa,1,0.0302,0.0,1116.6667
-name,Cassagnol,1,0.0302,0.0,1116.6667
-name,Castable,1,0.0302,0.0,1116.6667
-name,Catherine,1,0.0302,0.0,1116.6667
-name,Cavalier,1,0.0302,0.0,1116.6667
-name,Cavase,1,0.0302,0.0,1116.6667
-name,Caye Fort,1,0.0302,0.0,1116.6667
-name,Cazeau,1,0.0302,0.0,1116.6667
-name,Centrale Électrique de Jérémie,1,0.0302,0.0,1116.6667
-name,Centre Médical de Secours Chrétien,1,0.0302,0.0,1116.6667
-name,Centre d'Education Enfantile,1,0.0302,0.0,1116.6667
-name,Centre de Sante Clinic,1,0.0302,0.0,1116.6667
-name,Centre de Sante MCPH,1,0.0302,0.0,1116.6667
-name,Centre de Santé AFE Neg Kombit Furcy,1,0.0302,0.0,1116.6667
-name,Centre de santé Sacré-Coeur,1,0.0302,0.0,1116.6667
-name,Centre de santé Sainte Hélène (CSSH),1,0.0302,0.0,1116.6667
-name,Centre de santé de Moron,1,0.0302,0.0,1116.6667
-name,Centre de santé de Sainte Hélène,1,0.0302,0.0,1116.6667
-name,Centre Éducatif de Nan Sable (CENS),1,0.0302,0.0,1116.6667
-name,"Centre,Abricot",1,0.0302,0.0,1116.6667
-name,Cercey,1,0.0302,0.0,1116.6667
-name,Cesson,1,0.0302,0.0,1116.6667
-name,Chabe,1,0.0302,0.0,1116.6667
-name,Chajotte,1,0.0302,0.0,1116.6667
-name,Chalette,1,0.0302,0.0,1116.6667
-name,Chalivette,1,0.0302,0.0,1116.6667
-name,Chambellan,1,0.0302,0.0,1116.6667
-name,Chamblain,1,0.0302,0.0,1116.6667
-name,Chameau,1,0.0302,0.0,1116.6667
-name,Chansolme,1,0.0302,0.0,1116.6667
-name,Chanterelle,1,0.0302,0.0,1116.6667
-name,Chardonette,1,0.0302,0.0,1116.6667
-name,Chardonnières,1,0.0302,0.0,1116.6667
-name,Chatubet,1,0.0302,0.0,1116.6667
-name,Chayau,1,0.0302,0.0,1116.6667
-name,Chaîne Découverte,1,0.0302,0.0,1116.6667
-name,Chevalier,1,0.0302,0.0,1116.6667
-name,Chez Pepe,1,0.0302,0.0,1116.6667
-name,Chiedent,1,0.0302,0.0,1116.6667
-name,Chiendent,1,0.0302,0.0,1116.6667
-name,Chéridan,1,0.0302,0.0,1116.6667
-name,Citadelle,1,0.0302,0.0,1116.6667
-name,Citerne Paille,1,0.0302,0.0,1116.6667
-name,Citerne Remy,1,0.0302,0.0,1116.6667
-name,Civil,1,0.0302,0.0,1116.6667
-name,Claude,1,0.0302,0.0,1116.6667
-name,Clinique (Clinic),1,0.0302,0.0,1116.6667
-name,Clinique Dentaire,1,0.0302,0.0,1116.6667
-name,Colimon,1,0.0302,0.0,1116.6667
-name,College Notre Dame du Perpetuel Secours,1,0.0302,0.0,1116.6667
-name,Collège Mixte Immaculée Conception,1,0.0302,0.0,1116.6667
-name,Colunette,1,0.0302,0.0,1116.6667
-name,Commercial,1,0.0302,0.0,1116.6667
-name,Commissariat de Bonbon,1,0.0302,0.0,1116.6667
-name,Complexe Administratif de Thiotte,1,0.0302,0.0,1116.6667
-name,Conete,1,0.0302,0.0,1116.6667
-name,Conette,1,0.0302,0.0,1116.6667
-name,Constant,1,0.0302,0.0,1116.6667
-name,Coq Vilaire,1,0.0302,0.0,1116.6667
-name,Coquignol,1,0.0302,0.0,1116.6667
-name,Corail Lherisson,1,0.0302,0.0,1116.6667
-name,Corcette,1,0.0302,0.0,1116.6667
-name,Cordière,1,0.0302,0.0,1116.6667
-name,Corosse Séchée,1,0.0302,0.0,1116.6667
-name,Counongo,1,0.0302,0.0,1116.6667
-name,Cour Supérieure des Comptes et du Contentieux Administratif,1,0.0302,0.0,1116.6667
-name,Coury,1,0.0302,0.0,1116.6667
-name,Coutard,1,0.0302,0.0,1116.6667
-name,Craplain,1,0.0302,0.0,1116.6667
-name,Crochu,1,0.0302,0.0,1116.6667
-name,Croix Birot,1,0.0302,0.0,1116.6667
-name,Croix Chérie,1,0.0302,0.0,1116.6667
-name,Culbité,1,0.0302,0.0,1116.6667
-name,Cyrac,1,0.0302,0.0,1116.6667
-name,Cème,1,0.0302,0.0,1116.6667
-name,Côte de Fer,1,0.0302,0.0,1116.6667
-name,Côtes-de-Fer,1,0.0302,0.0,1116.6667
-name,D'Lo Genée,1,0.0302,0.0,1116.6667
-name,DISPENSAIRE BELLE RIVIERE,1,0.0302,0.0,1116.6667
-name,DISPENSAIRE DE CHANTAL,1,0.0302,0.0,1116.6667
-name,DISPENSAIRE LA SOURCE,1,0.0302,0.0,1116.6667
-name,Dalier,1,0.0302,0.0,1116.6667
-name,Dallier,1,0.0302,0.0,1116.6667
-name,Dalmette,1,0.0302,0.0,1116.6667
-name,Danguy,1,0.0302,0.0,1116.6667
-name,Daucan,1,0.0302,0.0,1116.6667
-name,Dayère,1,0.0302,0.0,1116.6667
-name,De Sigon,1,0.0302,0.0,1116.6667
-name,Deblanc,1,0.0302,0.0,1116.6667
-name,Decotelette,1,0.0302,0.0,1116.6667
-name,Deltor,1,0.0302,0.0,1116.6667
-name,Deraymond,1,0.0302,0.0,1116.6667
-name,Derriere Morne,1,0.0302,0.0,1116.6667
-name,Derrière Goyave,1,0.0302,0.0,1116.6667
-name,Derrière Morne,1,0.0302,0.0,1116.6667
-name,Derrière l'État,1,0.0302,0.0,1116.6667
-name,Des Bourrys,1,0.0302,0.0,1116.6667
-name,Des Ombrages,1,0.0302,0.0,1116.6667
-name,Des Plantes,1,0.0302,0.0,1116.6667
-name,Descares,1,0.0302,0.0,1116.6667
-name,Desglacis,1,0.0302,0.0,1116.6667
-name,Deslandes,1,0.0302,0.0,1116.6667
-name,Deslions,1,0.0302,0.0,1116.6667
-name,Despagne,1,0.0302,0.0,1116.6667
-name,Dessalines,1,0.0302,0.0,1116.6667
-name,Dianacou,1,0.0302,0.0,1116.6667
-name,Didon,1,0.0302,0.0,1116.6667
-name,Dieu est amour,1,0.0302,0.0,1116.6667
-name,Dilagon,1,0.0302,0.0,1116.6667
-name,Dirt road,1,0.0302,0.0,1116.6667
-name,Dja Net,1,0.0302,0.0,1116.6667
-name,Docan,1,0.0302,0.0,1116.6667
-name,Dolian,1,0.0302,0.0,1116.6667
-name,Domingo,1,0.0302,0.0,1116.6667
-name,Dondon,1,0.0302,0.0,1116.6667
-name,Dopré,1,0.0302,0.0,1116.6667
-name,Dos Camp,1,0.0302,0.0,1116.6667
-name,Dos Cheval,1,0.0302,0.0,1116.6667
-name,Douane de Jacmel (customs),1,0.0302,0.0,1116.6667
-name,Douter,1,0.0302,0.0,1116.6667
-name,Douyette,1,0.0302,0.0,1116.6667
-name,Dubois,1,0.0302,0.0,1116.6667
-name,Dubreuil,1,0.0302,0.0,1116.6667
-name,Duc,1,0.0302,0.0,1116.6667
-name,Duchaninoir,1,0.0302,0.0,1116.6667
-name,Duchity,1,0.0302,0.0,1116.6667
-name,Duchène,1,0.0302,0.0,1116.6667
-name,Duclosette,1,0.0302,0.0,1116.6667
-name,Dumeau,1,0.0302,0.0,1116.6667
-name,Dumoi,1,0.0302,0.0,1116.6667
-name,Dumois,1,0.0302,0.0,1116.6667
-name,Duplantin,1,0.0302,0.0,1116.6667
-name,Dupoux,1,0.0302,0.0,1116.6667
-name,Duroux,1,0.0302,0.0,1116.6667
-name,Dussable,1,0.0302,0.0,1116.6667
-name,Duvaranne,1,0.0302,0.0,1116.6667
-name,Duverni,1,0.0302,0.0,1116.6667
-name,Duvet,1,0.0302,0.0,1116.6667
-name,Duvineau,1,0.0302,0.0,1116.6667
-name,Débarasse,1,0.0302,0.0,1116.6667
-name,Débocher,1,0.0302,0.0,1116.6667
-name,Débouché,1,0.0302,0.0,1116.6667
-name,Déboulaye,1,0.0302,0.0,1116.6667
-name,Décade,1,0.0302,0.0,1116.6667
-name,Décidé,1,0.0302,0.0,1116.6667
-name,Décourverte,1,0.0302,0.0,1116.6667
-name,Déjac,1,0.0302,0.0,1116.6667
-name,Déjoie,1,0.0302,0.0,1116.6667
-name,Délabré,1,0.0302,0.0,1116.6667
-name,Déloie,1,0.0302,0.0,1116.6667
-name,Dépas,1,0.0302,0.0,1116.6667
-name,Désert,1,0.0302,0.0,1116.6667
-name,Désormeaux,1,0.0302,0.0,1116.6667
-name,Ecole Armee Du Salut,1,0.0302,0.0,1116.6667
-name,Ecole C. Moravila,1,0.0302,0.0,1116.6667
-name,Ecole Evelyna Levy,1,0.0302,0.0,1116.6667
-name,Ecole Moderne Galilelien,1,0.0302,0.0,1116.6667
-name,Ecole National Canes Ridore,1,0.0302,0.0,1116.6667
-name,Ecole Notre-Dame des Anges,1,0.0302,0.0,1116.6667
-name,Ecole Presbyterale Mapou Blaise,1,0.0302,0.0,1116.6667
-name,Ecole national de savane zombi,1,0.0302,0.0,1116.6667
-name,Ecole nationale de zabricot,1,0.0302,0.0,1116.6667
-name,Ecole nle de cabaret,1,0.0302,0.0,1116.6667
-name,Eglise,1,0.0302,0.0,1116.6667
-name,Eglise De Dieu De La Prophetie,1,0.0302,0.0,1116.6667
-name,Eglise Gospel,1,0.0302,0.0,1116.6667
-name,Eglise Notre Dame Du Mont Caramel,1,0.0302,0.0,1116.6667
-name,Eglise Sainte-Hélène,1,0.0302,0.0,1116.6667
-name,Eglise de Jesus Christ Full Gospel,1,0.0302,0.0,1116.6667
-name,El shaday,1,0.0302,0.0,1116.6667
-name,Emanuel Christian,1,0.0302,0.0,1116.6667
-name,En Bas Mamelle,1,0.0302,0.0,1116.6667
-name,En Bas la Riviere,1,0.0302,0.0,1116.6667
-name,En Haut Ravine,1,0.0302,0.0,1116.6667
-name,Enfant Perdu,1,0.0302,0.0,1116.6667
-name,Entre Cabaron,1,0.0302,0.0,1116.6667
-name,Entre Nan Reserve 1,1,0.0302,0.0,1116.6667
-name,Entree Bire,1,0.0302,0.0,1116.6667
-name,Entrée Momance,1,0.0302,0.0,1116.6667
-name,Escalier,1,0.0302,0.0,1116.6667
-name,Escamel,1,0.0302,0.0,1116.6667
-name,Etzer Orphelinat,1,0.0302,0.0,1116.6667
-name,FONFRED,1,0.0302,0.0,1116.6667
-name,Farmhouse,1,0.0302,0.0,1116.6667
-name,Faux Cap,1,0.0302,0.0,1116.6667
-name,Favette,1,0.0302,0.0,1116.6667
-name,Favier,1,0.0302,0.0,1116.6667
-name,Fermathe 60,1,0.0302,0.0,1116.6667
-name,Ferrier,1,0.0302,0.0,1116.6667
-name,Fj 12,1,0.0302,0.0,1116.6667
-name,Fj 6,1,0.0302,0.0,1116.6667
-name,Flandre,1,0.0302,0.0,1116.6667
-name,Fleurant,1,0.0302,0.0,1116.6667
-name,Fomentière,1,0.0302,0.0,1116.6667
-name,Fond Bleu,1,0.0302,0.0,1116.6667
-name,Fond Boucan,1,0.0302,0.0,1116.6667
-name,Fond Bucher,1,0.0302,0.0,1116.6667
-name,Fond Charlemagne,1,0.0302,0.0,1116.6667
-name,Fond Ferier,1,0.0302,0.0,1116.6667
-name,Fond Geriose,1,0.0302,0.0,1116.6667
-name,Fond Jogue,1,0.0302,0.0,1116.6667
-name,Fond Liane,1,0.0302,0.0,1116.6667
-name,Fond Marguerite,1,0.0302,0.0,1116.6667
-name,Fond Ragé,1,0.0302,0.0,1116.6667
-name,Fond Rouge,1,0.0302,0.0,1116.6667
-name,Fond d'Icaque,1,0.0302,0.0,1116.6667
-name,Fond-des-Negres,1,0.0302,0.0,1116.6667
-name,Fondin,1,0.0302,0.0,1116.6667
-name,Fonoin Dame Marie,1,0.0302,0.0,1116.6667
-name,Formond,1,0.0302,0.0,1116.6667
-name,Fort-Liberté,1,0.0302,0.0,1116.6667
-name,Fourcand,1,0.0302,0.0,1116.6667
-name,Fouron,1,0.0302,0.0,1116.6667
-name,Fourrien,1,0.0302,0.0,1116.6667
-name,Foyer Culturel/ Cinéma,1,0.0302,0.0,1116.6667
-name,Fradin,1,0.0302,0.0,1116.6667
-name,Fraise,1,0.0302,0.0,1116.6667
-name,Franklin,1,0.0302,0.0,1116.6667
-name,Fripo,1,0.0302,0.0,1116.6667
-name,Fréneau,1,0.0302,0.0,1116.6667
-name,Full Feeling Night Club,1,0.0302,0.0,1116.6667
-name,Férace,1,0.0302,0.0,1116.6667
-name,Gabriel,1,0.0302,0.0,1116.6667
-name,Galette,1,0.0302,0.0,1116.6667
-name,Galleria boutique,1,0.0302,0.0,1116.6667
-name,Ganthier,1,0.0302,0.0,1116.6667
-name,Garage,1,0.0302,0.0,1116.6667
-name,Gardois,1,0.0302,0.0,1116.6667
-name,Garnier,1,0.0302,0.0,1116.6667
-name,Gaspard,1,0.0302,0.0,1116.6667
-name,Gatineau,1,0.0302,0.0,1116.6667
-name,Germain,1,0.0302,0.0,1116.6667
-name,Germon,1,0.0302,0.0,1116.6667
-name,Gerve,1,0.0302,0.0,1116.6667
-name,Gira,1,0.0302,0.0,1116.6667
-name,Gobin,1,0.0302,0.0,1116.6667
-name,God's Littlest Angels Fort Jacques,1,0.0302,0.0,1116.6667
-name,Golfe de la Gonave,1,0.0302,0.0,1116.6667
-name,Gomier,1,0.0302,0.0,1116.6667
-name,Goree,1,0.0302,0.0,1116.6667
-name,Gospel to Haiti,1,0.0302,0.0,1116.6667
-name,Goudin,1,0.0302,0.0,1116.6667
-name,Gour Goue,1,0.0302,0.0,1116.6667
-name,Grand Cimetiere de jacmel,1,0.0302,0.0,1116.6667
-name,Grand Dolle,1,0.0302,0.0,1116.6667
-name,Grand Fond,1,0.0302,0.0,1116.6667
-name,Grand'Anse,1,0.0302,0.0,1116.6667
-name,Grande Baie,1,0.0302,0.0,1116.6667
-name,Grande Caye,1,0.0302,0.0,1116.6667
-name,Grande Passe,1,0.0302,0.0,1116.6667
-name,Grande Pointe,1,0.0302,0.0,1116.6667
-name,Grande Rivière de Nippes,1,0.0302,0.0,1116.6667
-name,Grandois,1,0.0302,0.0,1116.6667
-name,Granger,1,0.0302,0.0,1116.6667
-name,Gras,1,0.0302,0.0,1116.6667
-name,Griffon,1,0.0302,0.0,1116.6667
-name,Gringotte,1,0.0302,0.0,1116.6667
-name,Gros Bassin,1,0.0302,0.0,1116.6667
-name,Gros Guillaume,1,0.0302,0.0,1116.6667
-name,Grosse Roche,1,0.0302,0.0,1116.6667
-name,Guichard,1,0.0302,0.0,1116.6667
-name,Guillaume,1,0.0302,0.0,1116.6667
-name,Guinaudée,1,0.0302,0.0,1116.6667
-name,Guitonière,1,0.0302,0.0,1116.6667
-name,Guérin,1,0.0302,0.0,1116.6667
-name,Gélin,1,0.0302,0.0,1116.6667
-name,HOSPITAL ARMEE DU SALUT/CLINIC BETHEL,1,0.0302,0.0,1116.6667
-name,HOUSE,1,0.0302,0.0,1116.6667
-name,Hatte Barbe,1,0.0302,0.0,1116.6667
-name,Hatte Delice,1,0.0302,0.0,1116.6667
-name,Haut Bois,1,0.0302,0.0,1116.6667
-name,Haut Fort,1,0.0302,0.0,1116.6667
-name,Haut Jonc,1,0.0302,0.0,1116.6667
-name,Henry,1,0.0302,0.0,1116.6667
-name,Herbe Guinée,1,0.0302,0.0,1116.6667
-name,Homes,1,0.0302,0.0,1116.6667
-name,Hopital Maternite Mathieu,1,0.0302,0.0,1116.6667
-name,Hotel Florita parking,1,0.0302,0.0,1116.6667
-name,Houck,1,0.0302,0.0,1116.6667
-name,House 1,1,0.0302,0.0,1116.6667
-name,House 2,1,0.0302,0.0,1116.6667
-name,Hôpital Asile Notre-Dame de Lourdes,1,0.0302,0.0,1116.6667
-name,Hôpital Saint-Jean de Limbé,1,0.0302,0.0,1116.6667
-name,Hôpital de la communauté Dame-Marienne,1,0.0302,0.0,1116.6667
-name,Hôtel de ville de Jérémie,1,0.0302,0.0,1116.6667
-name,Imbert,1,0.0302,0.0,1116.6667
-name,Imma Pharmacie,1,0.0302,0.0,1116.6667
-name,Impasse Beaubrun,1,0.0302,0.0,1116.6667
-name,Impasse Bon Berger,1,0.0302,0.0,1116.6667
-name,Impasse Cossi,1,0.0302,0.0,1116.6667
-name,Impasse Jacques-Louis Prolongee,1,0.0302,0.0,1116.6667
-name,Impasse Jean,1,0.0302,0.0,1116.6667
-name,Impasse Lucieux,1,0.0302,0.0,1116.6667
-name,Impasse Pelican,1,0.0302,0.0,1116.6667
-name,Impasse Saint  Felix,1,0.0302,0.0,1116.6667
-name,Impasse Siloé,1,0.0302,0.0,1116.6667
-name,Impasse Tete ensemble,1,0.0302,0.0,1116.6667
-name,Impasse Thomas,1,0.0302,0.0,1116.6667
-name,Impasse l'Hermonier,1,0.0302,0.0,1116.6667
-name,Industry Building,1,0.0302,0.0,1116.6667
-name,Ivan Narron,1,0.0302,0.0,1116.6667
-name,Jaboin,1,0.0302,0.0,1116.6667
-name,Jabouin,1,0.0302,0.0,1116.6667
-name,Jacolin,1,0.0302,0.0,1116.6667
-name,Jacques,1,0.0302,0.0,1116.6667
-name,Jambon,1,0.0302,0.0,1116.6667
-name,Janvier,1,0.0302,0.0,1116.6667
-name,Jarden de l'ecole national savane zombi,1,0.0302,0.0,1116.6667
-name,Jardin,1,0.0302,0.0,1116.6667
-name,Jasmin,1,0.0302,0.0,1116.6667
-name,Jean Jacques,1,0.0302,0.0,1116.6667
-name,Jean Marie,1,0.0302,0.0,1116.6667
-name,Jean Sac,1,0.0302,0.0,1116.6667
-name,Jean-Baptiste,1,0.0302,0.0,1116.6667
-name,Jean-Rabel,1,0.0302,0.0,1116.6667
-name,Jeantillon,1,0.0302,0.0,1116.6667
-name,Jecquet,1,0.0302,0.0,1116.6667
-name,Jeremie Net,1,0.0302,0.0,1116.6667
-name,Jirodo,1,0.0302,0.0,1116.6667
-name,Jocelyn,1,0.0302,0.0,1116.6667
-name,Jogue,1,0.0302,0.0,1116.6667
-name,Joujou salon de beaute,1,0.0302,0.0,1116.6667
-name,Juliette,1,0.0302,0.0,1116.6667
-name,Julinette,1,0.0302,0.0,1116.6667
-name,Justable,1,0.0302,0.0,1116.6667
-name,Kay Madan Pepe,1,0.0302,0.0,1116.6667
-name,Kelp Forest,1,0.0302,0.0,1116.6667
-name,Kenscoff 78,1,0.0302,0.0,1116.6667
-name,Krusty Krab,1,0.0302,0.0,1116.6667
-name,L'Estère,1,0.0302,0.0,1116.6667
-name,L'Hermite,1,0.0302,0.0,1116.6667
-name,L'Homond,1,0.0302,0.0,1116.6667
-name,La Bombe,1,0.0302,0.0,1116.6667
-name,La Borde,1,0.0302,0.0,1116.6667
-name,La Cahouane,1,0.0302,0.0,1116.6667
-name,La Chicotte,1,0.0302,0.0,1116.6667
-name,La Chomarche,1,0.0302,0.0,1116.6667
-name,La Coude,1,0.0302,0.0,1116.6667
-name,La Fanmy,1,0.0302,0.0,1116.6667
-name,La Ferme,1,0.0302,0.0,1116.6667
-name,La Fièvre,1,0.0302,0.0,1116.6667
-name,La Foi De Job Boutique,1,0.0302,0.0,1116.6667
-name,La Force,1,0.0302,0.0,1116.6667
-name,La Forêt,1,0.0302,0.0,1116.6667
-name,La Gombrit,1,0.0302,0.0,1116.6667
-name,La Grousse,1,0.0302,0.0,1116.6667
-name,La Joie,1,0.0302,0.0,1116.6667
-name,La Lande,1,0.0302,0.0,1116.6667
-name,La Pointe,1,0.0302,0.0,1116.6667
-name,La Pointe Saline,1,0.0302,0.0,1116.6667
-name,La Port,1,0.0302,0.0,1116.6667
-name,La Roche,1,0.0302,0.0,1116.6667
-name,La Salle,1,0.0302,0.0,1116.6667
-name,La Seringue,1,0.0302,0.0,1116.6667
-name,La Silva,1,0.0302,0.0,1116.6667
-name,La Sise,1,0.0302,0.0,1116.6667
-name,La Sous,1,0.0302,0.0,1116.6667
-name,La Tortue,1,0.0302,0.0,1116.6667
-name,La Vigie,1,0.0302,0.0,1116.6667
-name,La scierie Prolongee,1,0.0302,0.0,1116.6667
-name,Labaye,1,0.0302,0.0,1116.6667
-name,Lacabri,1,0.0302,0.0,1116.6667
-name,Lacadonie,1,0.0302,0.0,1116.6667
-name,Lacombe,1,0.0302,0.0,1116.6667
-name,Laferney,1,0.0302,0.0,1116.6667
-name,Laferrière,1,0.0302,0.0,1116.6667
-name,Lafito,1,0.0302,0.0,1116.6667
-name,Laforêt,1,0.0302,0.0,1116.6667
-name,Lagon Ferou,1,0.0302,0.0,1116.6667
-name,Lagon Fou,1,0.0302,0.0,1116.6667
-name,Lamardier,1,0.0302,0.0,1116.6667
-name,Lan Pose,1,0.0302,0.0,1116.6667
-name,Larieux,1,0.0302,0.0,1116.6667
-name,Latibolière,1,0.0302,0.0,1116.6667
-name,Latique,1,0.0302,0.0,1116.6667
-name,Lato,1,0.0302,0.0,1116.6667
-name,Lavalace,1,0.0302,0.0,1116.6667
-name,Lavalette Dormand,1,0.0302,0.0,1116.6667
-name,Laïte,1,0.0302,0.0,1116.6667
-name,Le Florville,1,0.0302,0.0,1116.6667
-name,Lebas,1,0.0302,0.0,1116.6667
-name,Lebon,1,0.0302,0.0,1116.6667
-name,Ledge,1,0.0302,0.0,1116.6667
-name,Legros,1,0.0302,0.0,1116.6667
-name,Len Miel,1,0.0302,0.0,1116.6667
-name,Lenaire,1,0.0302,0.0,1116.6667
-name,Leon,1,0.0302,0.0,1116.6667
-name,Les Irois,1,0.0302,0.0,1116.6667
-name,Let Lapot,1,0.0302,0.0,1116.6667
-name,Lezinc,1,0.0302,0.0,1116.6667
-name,Liciet,1,0.0302,0.0,1116.6667
-name,Lifranc,1,0.0302,0.0,1116.6667
-name,Limet,1,0.0302,0.0,1116.6667
-name,Limonade,1,0.0302,0.0,1116.6667
-name,Lindor,1,0.0302,0.0,1116.6667
-name,Livrette,1,0.0302,0.0,1116.6667
-name,Logo,1,0.0302,0.0,1116.6667
-name,Longris,1,0.0302,0.0,1116.6667
-name,Lopineau,1,0.0302,0.0,1116.6667
-name,Lormon,1,0.0302,0.0,1116.6667
-name,Lory,1,0.0302,0.0,1116.6667
-name,Lougou,1,0.0302,0.0,1116.6667
-name,Louroux,1,0.0302,0.0,1116.6667
-name,Lourtier,1,0.0302,0.0,1116.6667
-name,Lumette,1,0.0302,0.0,1116.6667
-name,Lycée de Jeunes Filles,1,0.0302,0.0,1116.6667
-name,Léopold,1,0.0302,0.0,1116.6667
-name,Léxi,1,0.0302,0.0,1116.6667
-name,MINUSTAH Camp Uruguay I,1,0.0302,0.0,1116.6667
-name,Macabé,1,0.0302,0.0,1116.6667
-name,Macaya,1,0.0302,0.0,1116.6667
-name,Madame Germain,1,0.0302,0.0,1116.6667
-name,Madame l'Estère,1,0.0302,0.0,1116.6667
-name,Madrier,1,0.0302,0.0,1116.6667
-name,Magasin,1,0.0302,0.0,1116.6667
-name,Mahotière Piment,1,0.0302,0.0,1116.6667
-name,Maillard,1,0.0302,0.0,1116.6667
-name,Main Building,1,0.0302,0.0,1116.6667
-name,Mal Coton,1,0.0302,0.0,1116.6667
-name,Malori,1,0.0302,0.0,1116.6667
-name,Mandou,1,0.0302,0.0,1116.6667
-name,Mangot,1,0.0302,0.0,1116.6667
-name,Manot,1,0.0302,0.0,1116.6667
-name,Manou Nan Sotte,1,0.0302,0.0,1116.6667
-name,Mansinte,1,0.0302,0.0,1116.6667
-name,Mansotte,1,0.0302,0.0,1116.6667
-name,Manze Avril,1,0.0302,0.0,1116.6667
-name,Mapou,1,0.0302,0.0,1116.6667
-name,Mapou Tempe,1,0.0302,0.0,1116.6667
-name,Marcelin,1,0.0302,0.0,1116.6667
-name,Marche Chartuley,1,0.0302,0.0,1116.6667
-name,Marche Peredo,1,0.0302,0.0,1116.6667
-name,Marche à Terre,1,0.0302,0.0,1116.6667
-name,Marcorsi,1,0.0302,0.0,1116.6667
-name,Mare Bœuf,1,0.0302,0.0,1116.6667
-name,Mare Citron,1,0.0302,0.0,1116.6667
-name,Mare Jeanne,1,0.0302,0.0,1116.6667
-name,Mareau,1,0.0302,0.0,1116.6667
-name,Marfranc,1,0.0302,0.0,1116.6667
-name,Mariane,1,0.0302,0.0,1116.6667
-name,Mariani,1,0.0302,0.0,1116.6667
-name,Marie Gérome,1,0.0302,0.0,1116.6667
-name,Marshall,1,0.0302,0.0,1116.6667
-name,Martial,1,0.0302,0.0,1116.6667
-name,Martillet,1,0.0302,0.0,1116.6667
-name,Martin,1,0.0302,0.0,1116.6667
-name,Martino,1,0.0302,0.0,1116.6667
-name,Massica,1,0.0302,0.0,1116.6667
-name,Masson,1,0.0302,0.0,1116.6667
-name,Matador,1,0.0302,0.0,1116.6667
-name,Mathieu,1,0.0302,0.0,1116.6667
-name,Mauras,1,0.0302,0.0,1116.6667
-name,Mauvaises Affaires,1,0.0302,0.0,1116.6667
-name,Maybe a building?,1,0.0302,0.0,1116.6667
-name,Mayette,1,0.0302,0.0,1116.6667
-name,Mazi,1,0.0302,0.0,1116.6667
-name,Mendos,1,0.0302,0.0,1116.6667
-name,Mercery,1,0.0302,0.0,1116.6667
-name,Merci Dieu Bric À Brac,1,0.0302,0.0,1116.6667
-name,Mercier,1,0.0302,0.0,1116.6667
-name,Merger,1,0.0302,0.0,1116.6667
-name,Meroque,1,0.0302,0.0,1116.6667
-name,Mignon,1,0.0302,0.0,1116.6667
-name,Minan,1,0.0302,0.0,1116.6667
-name,Mineur,1,0.0302,0.0,1116.6667
-name,Ministère De L'Environnement,1,0.0302,0.0,1116.6667
-name,Mirande,1,0.0302,0.0,1116.6667
-name,Mirebalais,1,0.0302,0.0,1116.6667
-name,Miya,1,0.0302,0.0,1116.6667
-name,Mondor,1,0.0302,0.0,1116.6667
-name,Monette,1,0.0302,0.0,1116.6667
-name,Monoré,1,0.0302,0.0,1116.6667
-name,Mont Gérard,1,0.0302,0.0,1116.6667
-name,Mont des Cartaches,1,0.0302,0.0,1116.6667
-name,Montagnard,1,0.0302,0.0,1116.6667
-name,Monto,1,0.0302,0.0,1116.6667
-name,Monts de Cartache,1,0.0302,0.0,1116.6667
-name,Montérant,1,0.0302,0.0,1116.6667
-name,Monument de jeremie,1,0.0302,0.0,1116.6667
-name,Morglic,1,0.0302,0.0,1116.6667
-name,Morin,1,0.0302,0.0,1116.6667
-name,Morne Balandier,1,0.0302,0.0,1116.6667
-name,Morne Bellevue,1,0.0302,0.0,1116.6667
-name,Morne Bercy,1,0.0302,0.0,1116.6667
-name,Morne Birotte,1,0.0302,0.0,1116.6667
-name,Morne Blanche,1,0.0302,0.0,1116.6667
-name,Morne Bois Debout,1,0.0302,0.0,1116.6667
-name,Morne Brieux,1,0.0302,0.0,1116.6667
-name,Morne Cali,1,0.0302,0.0,1116.6667
-name,Morne Caïdor,1,0.0302,0.0,1116.6667
-name,Morne Chaineau,1,0.0302,0.0,1116.6667
-name,Morne Chatte,1,0.0302,0.0,1116.6667
-name,Morne Colas,1,0.0302,0.0,1116.6667
-name,Morne Collet,1,0.0302,0.0,1116.6667
-name,Morne Deux Mamelles,1,0.0302,0.0,1116.6667
-name,Morne Douyon,1,0.0302,0.0,1116.6667
-name,Morne Découverte,1,0.0302,0.0,1116.6667
-name,Morne Fond Rouge,1,0.0302,0.0,1116.6667
-name,Morne Granger,1,0.0302,0.0,1116.6667
-name,Morne Gélin,1,0.0302,0.0,1116.6667
-name,Morne Jet d'Eau,1,0.0302,0.0,1116.6667
-name,Morne Jn. Philippe,1,0.0302,0.0,1116.6667
-name,Morne La Source,1,0.0302,0.0,1116.6667
-name,Morne Linton,1,0.0302,0.0,1116.6667
-name,Morne Louissant,1,0.0302,0.0,1116.6667
-name,Morne Malette,1,0.0302,0.0,1116.6667
-name,Morne Mercier,1,0.0302,0.0,1116.6667
-name,Morne Nan Poisson,1,0.0302,0.0,1116.6667
-name,Morne Perdu Temps,1,0.0302,0.0,1116.6667
-name,Morne Roc,1,0.0302,0.0,1116.6667
-name,Morne Rouda,1,0.0302,0.0,1116.6667
-name,Morne Rouge,1,0.0302,0.0,1116.6667
-name,Morne Résolu,1,0.0302,0.0,1116.6667
-name,Morne Sarazin,1,0.0302,0.0,1116.6667
-name,Morne Sinai,1,0.0302,0.0,1116.6667
-name,Morne Smith,1,0.0302,0.0,1116.6667
-name,Morne Tapona,1,0.0302,0.0,1116.6667
-name,Morne Tomber Lever,1,0.0302,0.0,1116.6667
-name,Morne Tuffe,1,0.0302,0.0,1116.6667
-name,Morne des Commissaires,1,0.0302,0.0,1116.6667
-name,Mort,1,0.0302,0.0,1116.6667
-name,Mortel,1,0.0302,0.0,1116.6667
-name,Moulin,1,0.0302,0.0,1116.6667
-name,Mulette,1,0.0302,0.0,1116.6667
-name,Ménadrier,1,0.0302,0.0,1116.6667
-name,Méry,1,0.0302,0.0,1116.6667
-name,NOTRE DAME DES PINS D'ORIANIE,1,0.0302,0.0,1116.6667
-name,Nache,1,0.0302,0.0,1116.6667
-name,Nagossi,1,0.0302,0.0,1116.6667
-name,Nan Baid,1,0.0302,0.0,1116.6667
-name,Nan Bambou,1,0.0302,0.0,1116.6667
-name,Nan Bayard,1,0.0302,0.0,1116.6667
-name,Nan Bento,1,0.0302,0.0,1116.6667
-name,Nan Bois Neuf,1,0.0302,0.0,1116.6667
-name,Nan Borde,1,0.0302,0.0,1116.6667
-name,Nan Cacao,1,0.0302,0.0,1116.6667
-name,Nan Cadet,1,0.0302,0.0,1116.6667
-name,Nan Cajou,1,0.0302,0.0,1116.6667
-name,Nan Campeche,1,0.0302,0.0,1116.6667
-name,Nan Casse,1,0.0302,0.0,1116.6667
-name,Nan Cimite,1,0.0302,0.0,1116.6667
-name,Nan Cirouel,1,0.0302,0.0,1116.6667
-name,Nan Colo,1,0.0302,0.0,1116.6667
-name,Nan Confort,1,0.0302,0.0,1116.6667
-name,Nan Cosse,1,0.0302,0.0,1116.6667
-name,Nan Crapaud,1,0.0302,0.0,1116.6667
-name,Nan Daniel,1,0.0302,0.0,1116.6667
-name,Nan Dassier,1,0.0302,0.0,1116.6667
-name,Nan Diamant,1,0.0302,0.0,1116.6667
-name,Nan Digue,1,0.0302,0.0,1116.6667
-name,Nan Dix Huit,1,0.0302,0.0,1116.6667
-name,Nan Dompté,1,0.0302,0.0,1116.6667
-name,Nan Dupin,1,0.0302,0.0,1116.6667
-name,Nan Dédé,1,0.0302,0.0,1116.6667
-name,Nan Fort,1,0.0302,0.0,1116.6667
-name,Nan Fourneau,1,0.0302,0.0,1116.6667
-name,Nan Georges,1,0.0302,0.0,1116.6667
-name,Nan Gouyave,1,0.0302,0.0,1116.6667
-name,Nan Grand Mas,1,0.0302,0.0,1116.6667
-name,Nan Guillaume,1,0.0302,0.0,1116.6667
-name,Nan L'État,1,0.0302,0.0,1116.6667
-name,Nan Lacour,1,0.0302,0.0,1116.6667
-name,Nan Madeleine,1,0.0302,0.0,1116.6667
-name,Nan Magnioc,1,0.0302,0.0,1116.6667
-name,Nan Mala,1,0.0302,0.0,1116.6667
-name,Nan Maquette,1,0.0302,0.0,1116.6667
-name,Nan Maçon,1,0.0302,0.0,1116.6667
-name,Nan Mouine,1,0.0302,0.0,1116.6667
-name,Nan Moulin,1,0.0302,0.0,1116.6667
-name,Nan Pal,1,0.0302,0.0,1116.6667
-name,Nan Palmiste,1,0.0302,0.0,1116.6667
-name,Nan Plic,1,0.0302,0.0,1116.6667
-name,Nan Plingue,1,0.0302,0.0,1116.6667
-name,Nan Ploma,1,0.0302,0.0,1116.6667
-name,Nan Pola,1,0.0302,0.0,1116.6667
-name,Nan Pont,1,0.0302,0.0,1116.6667
-name,Nan Potu,1,0.0302,0.0,1116.6667
-name,Nan Rat,1,0.0302,0.0,1116.6667
-name,Nan Raynal,1,0.0302,0.0,1116.6667
-name,Nan Redon,1,0.0302,0.0,1116.6667
-name,Nan Rue,1,0.0302,0.0,1116.6667
-name,Nan Récif,1,0.0302,0.0,1116.6667
-name,Nan Saint,1,0.0302,0.0,1116.6667
-name,Nan Salès,1,0.0302,0.0,1116.6667
-name,Nan Seille,1,0.0302,0.0,1116.6667
-name,Nan Six,1,0.0302,0.0,1116.6667
-name,Nan Sévré,1,0.0302,0.0,1116.6667
-name,Nan Zilé,1,0.0302,0.0,1116.6667
-name,Nansinte,1,0.0302,0.0,1116.6667
-name,Napou,1,0.0302,0.0,1116.6667
-name,Nicole,1,0.0302,0.0,1116.6667
-name,Nodeste,1,0.0302,0.0,1116.6667
-name,Noël,1,0.0302,0.0,1116.6667
-name,Obère,1,0.0302,0.0,1116.6667
-name,Olive,1,0.0302,0.0,1116.6667
-name,Orange Cay,1,0.0302,0.0,1116.6667
-name,Oranger,1,0.0302,0.0,1116.6667
-name,Palais Justice de Jacmel,1,0.0302,0.0,1116.6667
-name,Palanque,1,0.0302,0.0,1116.6667
-name,Palmiste,1,0.0302,0.0,1116.6667
-name,Pandou,1,0.0302,0.0,1116.6667
-name,Papi,1,0.0302,0.0,1116.6667
-name,Paricot,1,0.0302,0.0,1116.6667
-name,Paris,1,0.0302,0.0,1116.6667
-name,Pascal,1,0.0302,0.0,1116.6667
-name,Passage Président,1,0.0302,0.0,1116.6667
-name,Passe Barbe,1,0.0302,0.0,1116.6667
-name,Passe Mangot,1,0.0302,0.0,1116.6667
-name,Path,1,0.0302,0.0,1116.6667
-name,Patrick's rock,1,0.0302,0.0,1116.6667
-name,Patte Large,1,0.0302,0.0,1116.6667
-name,Payrette,1,0.0302,0.0,1116.6667
-name,Peak,1,0.0302,0.0,1116.6667
-name,Peligrin,1,0.0302,0.0,1116.6667
-name,Perien,1,0.0302,0.0,1116.6667
-name,Pernelé,1,0.0302,0.0,1116.6667
-name,Perrier,1,0.0302,0.0,1116.6667
-name,Perroquet,1,0.0302,0.0,1116.6667
-name,Perry,1,0.0302,0.0,1116.6667
-name,Pestel,1,0.0302,0.0,1116.6667
-name,Petit Anga,1,0.0302,0.0,1116.6667
-name,Petite Cahouane,1,0.0302,0.0,1116.6667
-name,Petite Place,1,0.0302,0.0,1116.6667
-name,Petite Plaine,1,0.0302,0.0,1116.6667
-name,Petite Rivière de Dame Marie,1,0.0302,0.0,1116.6667
-name,Petite Roche,1,0.0302,0.0,1116.6667
-name,Phanord,1,0.0302,0.0,1116.6667
-name,Phare Rouge,1,0.0302,0.0,1116.6667
-name,Philippeaux,1,0.0302,0.0,1116.6667
-name,Picot,1,0.0302,0.0,1116.6667
-name,Pierre,1,0.0302,0.0,1116.6667
-name,Pierre Paul,1,0.0302,0.0,1116.6667
-name,Pierre Philippe,1,0.0302,0.0,1116.6667
-name,Pignon,1,0.0302,0.0,1116.6667
-name,Pinot,1,0.0302,0.0,1116.6667
-name,Pinquière,1,0.0302,0.0,1116.6667
-name,Piton,1,0.0302,0.0,1116.6667
-name,Pity,1,0.0302,0.0,1116.6667
-name,Plaine Charles,1,0.0302,0.0,1116.6667
-name,Plaine Coton,1,0.0302,0.0,1116.6667
-name,Plaine Fonds Rouge,1,0.0302,0.0,1116.6667
-name,Plaine Giffeau,1,0.0302,0.0,1116.6667
-name,Plaine Griffe,1,0.0302,0.0,1116.6667
-name,Plaine Gélin,1,0.0302,0.0,1116.6667
-name,Plaine La Coupe,1,0.0302,0.0,1116.6667
-name,Plaine Martin,1,0.0302,0.0,1116.6667
-name,Plaine Mille,1,0.0302,0.0,1116.6667
-name,Plaine No. 2,1,0.0302,0.0,1116.6667
-name,Plaine Premier,1,0.0302,0.0,1116.6667
-name,Planche,1,0.0302,0.0,1116.6667
-name,Planor,1,0.0302,0.0,1116.6667
-name,Planyac,1,0.0302,0.0,1116.6667
-name,Platon,1,0.0302,0.0,1116.6667
-name,Plonquette,1,0.0302,0.0,1116.6667
-name,Poban,1,0.0302,0.0,1116.6667
-name,Pointe A Bougaux,1,0.0302,0.0,1116.6667
-name,Pointe Bourry,1,0.0302,0.0,1116.6667
-name,Pointe Découverte,1,0.0302,0.0,1116.6667
-name,Pointe Fanchon,1,0.0302,0.0,1116.6667
-name,Pointe Ibard,1,0.0302,0.0,1116.6667
-name,Pointe Juif,1,0.0302,0.0,1116.6667
-name,Pointe Laborrie,1,0.0302,0.0,1116.6667
-name,Pointe Macon,1,0.0302,0.0,1116.6667
-name,Pointe Mahot,1,0.0302,0.0,1116.6667
-name,Pointe Paraclet,1,0.0302,0.0,1116.6667
-name,Pointe Rousselin,1,0.0302,0.0,1116.6667
-name,Pointe Testas,1,0.0302,0.0,1116.6667
-name,Pointe Titrou,1,0.0302,0.0,1116.6667
-name,Pointe de la Patte Large,1,0.0302,0.0,1116.6667
-name,Pointe des Aigrettes,1,0.0302,0.0,1116.6667
-name,Pointe des Baleines,1,0.0302,0.0,1116.6667
-name,Pointe du Portugal_Tete Lili,1,0.0302,0.0,1116.6667
-name,Pointe l'Abacou,1,0.0302,0.0,1116.6667
-name,Pointe à Gravois,1,0.0302,0.0,1116.6667
-name,Pointe à Roche,1,0.0302,0.0,1116.6667
-name,Policard,1,0.0302,0.0,1116.6667
-name,Polite,1,0.0302,0.0,1116.6667
-name,Poly,1,0.0302,0.0,1116.6667
-name,Ponce,1,0.0302,0.0,1116.6667
-name,Port Leogane,1,0.0302,0.0,1116.6667
-name,Port Salut,1,0.0302,0.0,1116.6667
-name,Port-Salut,1,0.0302,0.0,1116.6667
-name,Port-à-Piment,1,0.0302,0.0,1116.6667
-name,Portail La Gosseline,1,0.0302,0.0,1116.6667
-name,Possibly a school,1,0.0302,0.0,1116.6667
-name,Poterie,1,0.0302,0.0,1116.6667
-name,Potorien,1,0.0302,0.0,1116.6667
-name,Potu,1,0.0302,0.0,1116.6667
-name,Poty,1,0.0302,0.0,1116.6667
-name,Praslin,1,0.0302,0.0,1116.6667
-name,Premier,1,0.0302,0.0,1116.6667
-name,Presqu'ile Night club,1,0.0302,0.0,1116.6667
-name,Pro Haiti,1,0.0302,0.0,1116.6667
-name,Promu,1,0.0302,0.0,1116.6667
-name,Préval,1,0.0302,0.0,1116.6667
-name,Prévilé,1,0.0302,0.0,1116.6667
-name,Pénitence,1,0.0302,0.0,1116.6667
-name,Quiton,1,0.0302,0.0,1116.6667
-name,Rabit,1,0.0302,0.0,1116.6667
-name,Radio Tele Full Gospel,1,0.0302,0.0,1116.6667
-name,Ragosse,1,0.0302,0.0,1116.6667
-name,Rampart,1,0.0302,0.0,1116.6667
-name,Rampas,1,0.0302,0.0,1116.6667
-name,Rampe Des Lions,1,0.0302,0.0,1116.6667
-name,Rangeard,1,0.0302,0.0,1116.6667
-name,Raton,1,0.0302,0.0,1116.6667
-name,Ravajou,1,0.0302,0.0,1116.6667
-name,Ravette,1,0.0302,0.0,1116.6667
-name,Ravine Blockhauss 2,1,0.0302,0.0,1116.6667
-name,Ravine Blockhauss 6,1,0.0302,0.0,1116.6667
-name,Ravine Bon Dos,1,0.0302,0.0,1116.6667
-name,Ravine Coma,1,0.0302,0.0,1116.6667
-name,Ravine Fécand,1,0.0302,0.0,1116.6667
-name,Ravine Goudin,1,0.0302,0.0,1116.6667
-name,Ravine Jabouin,1,0.0302,0.0,1116.6667
-name,Ravine Mahotière,1,0.0302,0.0,1116.6667
-name,Ravine Moreau,1,0.0302,0.0,1116.6667
-name,Ravine Phare Rouge,1,0.0302,0.0,1116.6667
-name,Ravine Sable,1,0.0302,0.0,1116.6667
-name,Ravine Ti Braudais,1,0.0302,0.0,1116.6667
-name,Ravine des Rouga,1,0.0302,0.0,1116.6667
-name,Ray Sable,1,0.0302,0.0,1116.6667
-name,Raymond,1,0.0302,0.0,1116.6667
-name,Refugee Camp,1,0.0302,0.0,1116.6667
-name,Residential Area,1,0.0302,0.0,1116.6667
-name,"Residential access road, possibly driveway",1,0.0302,0.0,1116.6667
-name,River Amazones,1,0.0302,0.0,1116.6667
-name,Riviere Alexandre,1,0.0302,0.0,1116.6667
-name,Riviere Baret,1,0.0302,0.0,1116.6667
-name,Rivière Amazones,1,0.0302,0.0,1116.6667
-name,Rivière Anse Coudre,1,0.0302,0.0,1116.6667
-name,Rivière Bande Roche,1,0.0302,0.0,1116.6667
-name,Rivière Bois Mahot,1,0.0302,0.0,1116.6667
-name,Rivière Bois Sec,1,0.0302,0.0,1116.6667
-name,Rivière Bon Pas,1,0.0302,0.0,1116.6667
-name,Rivière Bonbon,1,0.0302,0.0,1116.6667
-name,Rivière Bondonne,1,0.0302,0.0,1116.6667
-name,Rivière Boucun,1,0.0302,0.0,1116.6667
-name,Rivière Bras à Droit,1,0.0302,0.0,1116.6667
-name,Rivière Bras à Droite duplicate,1,0.0302,0.0,1116.6667
-name,Rivière Bras à Gauche,1,0.0302,0.0,1116.6667
-name,Rivière Carpentier,1,0.0302,0.0,1116.6667
-name,Rivière Cayemitte,1,0.0302,0.0,1116.6667
-name,Rivière Chardonnières,1,0.0302,0.0,1116.6667
-name,Rivière Des Anglais,1,0.0302,0.0,1116.6667
-name,Rivière Fomber Lever,1,0.0302,0.0,1116.6667
-name,Rivière Grande Embouchure,1,0.0302,0.0,1116.6667
-name,Rivière Houck,1,0.0302,0.0,1116.6667
-name,Rivière Jamais Vu,1,0.0302,0.0,1116.6667
-name,Rivière La Voldrogue,1,0.0302,0.0,1116.6667
-name,Rivière Lacombe,1,0.0302,0.0,1116.6667
-name,Rivière Lema,1,0.0302,0.0,1116.6667
-name,Rivière Mahot,1,0.0302,0.0,1116.6667
-name,Rivière Malette,1,0.0302,0.0,1116.6667
-name,Rivière Mulet,1,0.0302,0.0,1116.6667
-name,Rivière Nan Cosse,1,0.0302,0.0,1116.6667
-name,Rivière Nan Pont,1,0.0302,0.0,1116.6667
-name,Rivière Petite Embouchure,1,0.0302,0.0,1116.6667
-name,Rivière Redon,1,0.0302,0.0,1116.6667
-name,Rivière Roucou,1,0.0302,0.0,1116.6667
-name,Rivière Source Boeuf,1,0.0302,0.0,1116.6667
-name,Rivière Vendribuche,1,0.0302,0.0,1116.6667
-name,Rivière de La Guinaudée (est),1,0.0302,0.0,1116.6667
-name,Rivière de Port-à-Piment,1,0.0302,0.0,1116.6667
-name,Rivière de Torbeck,1,0.0302,0.0,1116.6667
-name,Rivière des Abricots,1,0.0302,0.0,1116.6667
-name,Rivière des Anglais,1,0.0302,0.0,1116.6667
-name,Roche Miel,1,0.0302,0.0,1116.6667
-name,Roche Pierre,1,0.0302,0.0,1116.6667
-name,Roche à Bateau,1,0.0302,0.0,1116.6667
-name,Roche à Pierre,1,0.0302,0.0,1116.6667
-name,Roditra,1,0.0302,0.0,1116.6667
-name,Romain,1,0.0302,0.0,1116.6667
-name,Rosa,1,0.0302,0.0,1116.6667
-name,Roseaux,1,0.0302,0.0,1116.6667
-name,Rounded building,1,0.0302,0.0,1116.6667
-name,Rout d'entre de l'aeroport de jeremei,1,0.0302,0.0,1116.6667
-name,Route Brefete,1,0.0302,0.0,1116.6667
-name,Route Calebasse,1,0.0302,0.0,1116.6667
-name,Route Casale,1,0.0302,0.0,1116.6667
-name,Route De Merger,1,0.0302,0.0,1116.6667
-name,Route d'entrée de l'aéroport de Jérémie,1,0.0302,0.0,1116.6667
-name,Route de Turin,1,0.0302,0.0,1116.6667
-name,Route de la Maison des Jeunes,1,0.0302,0.0,1116.6667
-name,Route de la localité La Plaine,1,0.0302,0.0,1116.6667
-name,Rue 75,1,0.0302,0.0,1116.6667
-name,Rue A. Petion,1,0.0302,0.0,1116.6667
-name,Rue Acajou,1,0.0302,0.0,1116.6667
-name,Rue Alexandre Petion,1,0.0302,0.0,1116.6667
-name,Rue Anderson Douyon,1,0.0302,0.0,1116.6667
-name,Rue Antoine Simon,1,0.0302,0.0,1116.6667
-name,Rue Barbara,1,0.0302,0.0,1116.6667
-name,Rue Beauvert,1,0.0302,0.0,1116.6667
-name,Rue Berlins,1,0.0302,0.0,1116.6667
-name,Rue Berto,1,0.0302,0.0,1116.6667
-name,Rue Boirond Tonnerre,1,0.0302,0.0,1116.6667
-name,Rue Bon Berger,1,0.0302,0.0,1116.6667
-name,Rue Brice Aine,1,0.0302,0.0,1116.6667
-name,Rue Camalla,1,0.0302,0.0,1116.6667
-name,Rue Camelie,1,0.0302,0.0,1116.6667
-name,Rue Canger,1,0.0302,0.0,1116.6667
-name,Rue Capitale,1,0.0302,0.0,1116.6667
-name,Rue Carrefour Merger 1,1,0.0302,0.0,1116.6667
-name,Rue Cassanova,1,0.0302,0.0,1116.6667
-name,Rue Castel,1,0.0302,0.0,1116.6667
-name,Rue Charlemagne,1,0.0302,0.0,1116.6667
-name,Rue Chateaudin,1,0.0302,0.0,1116.6667
-name,Rue Clément Lanier,1,0.0302,0.0,1116.6667
-name,Rue Coicou,1,0.0302,0.0,1116.6667
-name,Rue Conti,1,0.0302,0.0,1116.6667
-name,Rue Coridon,1,0.0302,0.0,1116.6667
-name,Rue Courte,1,0.0302,0.0,1116.6667
-name,Rue De Peuple,1,0.0302,0.0,1116.6667
-name,Rue Depre Turnier,1,0.0302,0.0,1116.6667
-name,Rue Des Enfants,1,0.0302,0.0,1116.6667
-name,Rue Des Sages,1,0.0302,0.0,1116.6667
-name,Rue Destinville Martineau,1,0.0302,0.0,1116.6667
-name,Rue Dominique,1,0.0302,0.0,1116.6667
-name,Rue Douyon,1,0.0302,0.0,1116.6667
-name,Rue Du Quai,1,0.0302,0.0,1116.6667
-name,Rue Esra,1,0.0302,0.0,1116.6667
-name,Rue Eugène Margron,1,0.0302,0.0,1116.6667
-name,Rue Fraternite,1,0.0302,0.0,1116.6667
-name,Rue Gaston,1,0.0302,0.0,1116.6667
-name,Rue General Borgella,1,0.0302,0.0,1116.6667
-name,Rue Gerome,1,0.0302,0.0,1116.6667
-name,Rue Grossin,1,0.0302,0.0,1116.6667
-name,Rue Guerrier,1,0.0302,0.0,1116.6667
-name,Rue Guinou,1,0.0302,0.0,1116.6667
-name,Rue Général Marion,1,0.0302,0.0,1116.6667
-name,Rue Haut Macombre,1,0.0302,0.0,1116.6667
-name,Rue Haut Miton,1,0.0302,0.0,1116.6667
-name,Rue Inoubliable,1,0.0302,0.0,1116.6667
-name,Rue Isaac Pardo,1,0.0302,0.0,1116.6667
-name,Rue J Jacques Acaau,1,0.0302,0.0,1116.6667
-name,Rue Jn Price Mars,1,0.0302,0.0,1116.6667
-name,Rue La Falaise,1,0.0302,0.0,1116.6667
-name,Rue La Paix,1,0.0302,0.0,1116.6667
-name,Rue Lamartinière,1,0.0302,0.0,1116.6667
-name,Rue Lamothe,1,0.0302,0.0,1116.6667
-name,Rue Liberte,1,0.0302,0.0,1116.6667
-name,Rue Lotin,1,0.0302,0.0,1116.6667
-name,Rue Louverture,1,0.0302,0.0,1116.6667
-name,Rue Maque,1,0.0302,0.0,1116.6667
-name,Rue Maqueu,1,0.0302,0.0,1116.6667
-name,Rue Marielle,1,0.0302,0.0,1116.6667
-name,Rue Mesmer,1,0.0302,0.0,1116.6667
-name,Rue Milery,1,0.0302,0.0,1116.6667
-name,Rue Monseigneur Beauger,1,0.0302,0.0,1116.6667
-name,Rue Monseigneur Maurice,1,0.0302,0.0,1116.6667
-name,Rue Napoléon,1,0.0302,0.0,1116.6667
-name,Rue Nazareen,1,0.0302,0.0,1116.6667
-name,Rue Nicolas Geffrard,1,0.0302,0.0,1116.6667
-name,Rue Nord Alexis,1,0.0302,0.0,1116.6667
-name,Rue Paulin,1,0.0302,0.0,1116.6667
-name,Rue Pequin,1,0.0302,0.0,1116.6667
-name,Rue Petit,1,0.0302,0.0,1116.6667
-name,Rue Philantrope,1,0.0302,0.0,1116.6667
-name,Rue Projete,1,0.0302,0.0,1116.6667
-name,Rue Prospere Faure,1,0.0302,0.0,1116.6667
-name,Rue Prospère Faure,1,0.0302,0.0,1116.6667
-name,Rue Saint  Dominique,1,0.0302,0.0,1116.6667
-name,Rue Saint Anne,1,0.0302,0.0,1116.6667
-name,Rue Saint Fleur,1,0.0302,0.0,1116.6667
-name,Rue Saint Michel,1,0.0302,0.0,1116.6667
-name,Rue Saint Ode,1,0.0302,0.0,1116.6667
-name,Rue Simon Bolivar,1,0.0302,0.0,1116.6667
-name,Rue St Nicolas,1,0.0302,0.0,1116.6667
-name,Rue Stenio Vincent,1,0.0302,0.0,1116.6667
-name,Rue Sténio Vincent,1,0.0302,0.0,1116.6667
-name,Rue Trisconte,1,0.0302,0.0,1116.6667
-name,Rue Valieres,1,0.0302,0.0,1116.6667
-name,Rue d'Eslaing,1,0.0302,0.0,1116.6667
-name,Rue de L Union,1,0.0302,0.0,1116.6667
-name,Rue de l'Azile,1,0.0302,0.0,1116.6667
-name,Rue de l'Église,1,0.0302,0.0,1116.6667
-name,Rue de la Ravine,1,0.0302,0.0,1116.6667
-name,Rue des Bons Enfants,1,0.0302,0.0,1116.6667
-name,Rue des Stars,1,0.0302,0.0,1116.6667
-name,Rue liberte II,1,0.0302,0.0,1116.6667
-name,Ruelle  Marielle,1,0.0302,0.0,1116.6667
-name,Ruelle  Rhéna,1,0.0302,0.0,1116.6667
-name,Ruelle Anglade,1,0.0302,0.0,1116.6667
-name,Ruelle Avenel,1,0.0302,0.0,1116.6667
-name,Ruelle Baudouin,1,0.0302,0.0,1116.6667
-name,Ruelle Beauvert,1,0.0302,0.0,1116.6667
-name,Ruelle Benoit,1,0.0302,0.0,1116.6667
-name,Ruelle Breda Oasis,1,0.0302,0.0,1116.6667
-name,Ruelle Ebex,1,0.0302,0.0,1116.6667
-name,Ruelle Georges,1,0.0302,0.0,1116.6667
-name,Ruelle Gregroire,1,0.0302,0.0,1116.6667
-name,Ruelle Jean Kenol,1,0.0302,0.0,1116.6667
-name,Ruelle Jean Kénol,1,0.0302,0.0,1116.6667
-name,Ruelle Jean Paul II,1,0.0302,0.0,1116.6667
-name,Ruelle Jerusalem,1,0.0302,0.0,1116.6667
-name,Ruelle Jeudy,1,0.0302,0.0,1116.6667
-name,Ruelle Joseph,1,0.0302,0.0,1116.6667
-name,Ruelle La Paix,1,0.0302,0.0,1116.6667
-name,Ruelle Laleau,1,0.0302,0.0,1116.6667
-name,Ruelle Lumière,1,0.0302,0.0,1116.6667
-name,Ruelle Manacee,1,0.0302,0.0,1116.6667
-name,Ruelle Napoleon,1,0.0302,0.0,1116.6667
-name,Ruelle Nomination,1,0.0302,0.0,1116.6667
-name,Ruelle Optimiste,1,0.0302,0.0,1116.6667
-name,Ruelle Secour,1,0.0302,0.0,1116.6667
-name,Ruelle Sepha,1,0.0302,0.0,1116.6667
-name,Ruelle Votaire,1,0.0302,0.0,1116.6667
-name,Ruelle de l'Hopital,1,0.0302,0.0,1116.6667
-name,Ruelle sans souci,1,0.0302,0.0,1116.6667
-name,Rural,1,0.0302,0.0,1116.6667
-name,SKS Petite Rivière de Dame Marie,1,0.0302,0.0,1116.6667
-name,Safehouse-like-building,1,0.0302,0.0,1116.6667
-name,Saint Cyr,1,0.0302,0.0,1116.6667
-name,Saint Jean,1,0.0302,0.0,1116.6667
-name,Saint Jean du Sud,1,0.0302,0.0,1116.6667
-name,Saint Juste,1,0.0302,0.0,1116.6667
-name,Saint Lot,1,0.0302,0.0,1116.6667
-name,Saint Louis,1,0.0302,0.0,1116.6667
-name,Saint Perard,1,0.0302,0.0,1116.6667
-name,Saint Victor,1,0.0302,0.0,1116.6667
-name,Saint-Dic,1,0.0302,0.0,1116.6667
-name,Saint-Gérard,1,0.0302,0.0,1116.6667
-name,Saint-Mesmin,1,0.0302,0.0,1116.6667
-name,Sainte Anne,1,0.0302,0.0,1116.6667
-name,Sainte Hélène,1,0.0302,0.0,1116.6667
-name,Sainte Hélène d'Anse d'Hainault,1,0.0302,0.0,1116.6667
-name,Sainte Marie,1,0.0302,0.0,1116.6667
-name,Saintil,1,0.0302,0.0,1116.6667
-name,Sajotte,1,0.0302,0.0,1116.6667
-name,Samedi,1,0.0302,0.0,1116.6667
-name,Sans-Souci,1,0.0302,0.0,1116.6667
-name,Sara,1,0.0302,0.0,1116.6667
-name,Sarc,1,0.0302,0.0,1116.6667
-name,Saut-Duvézin,1,0.0302,0.0,1116.6667
-name,Sauvé,1,0.0302,0.0,1116.6667
-name,Savane Zombi,1,0.0302,0.0,1116.6667
-name,Scipion,1,0.0302,0.0,1116.6667
-name,Sentier,1,0.0302,0.0,1116.6667
-name,Shanti Town,1,0.0302,0.0,1116.6667
-name,Sicard,1,0.0302,0.0,1116.6667
-name,Simon,1,0.0302,0.0,1116.6667
-name,Sincao,1,0.0302,0.0,1116.6667
-name,Small Stream,1,0.0302,0.0,1116.6667
-name,Soccer Field,1,0.0302,0.0,1116.6667
-name,Somate,1,0.0302,0.0,1116.6667
-name,Soulé,1,0.0302,0.0,1116.6667
-name,Souma,1,0.0302,0.0,1116.6667
-name,Source Abricot,1,0.0302,0.0,1116.6667
-name,Source Belle Dent,1,0.0302,0.0,1116.6667
-name,Source Boudin,1,0.0302,0.0,1116.6667
-name,Source Bœuf,1,0.0302,0.0,1116.6667
-name,Source Cassa,1,0.0302,0.0,1116.6667
-name,Source Chérie,1,0.0302,0.0,1116.6667
-name,Source Dagoussa,1,0.0302,0.0,1116.6667
-name,Source Deslande,1,0.0302,0.0,1116.6667
-name,Source Froide,1,0.0302,0.0,1116.6667
-name,Source Georges,1,0.0302,0.0,1116.6667
-name,Source Salée,1,0.0302,0.0,1116.6667
-name,Sources Chaudes,1,0.0302,0.0,1116.6667
-name,Sous Commissariat Fond Verettes,1,0.0302,0.0,1116.6667
-name,Sous Commissariat Fonds Parisien,1,0.0302,0.0,1116.6667
-name,Sous Commissariat Terre Rouge,1,0.0302,0.0,1116.6667
-name,Sous-Comissariat de Fort Jacques,1,0.0302,0.0,1116.6667
-name,Spongebob's pineapple,1,0.0302,0.0,1116.6667
-name,Squidward's house,1,0.0302,0.0,1116.6667
-name,Séjour,1,0.0302,0.0,1116.6667
-name,Sêche,1,0.0302,0.0,1116.6667
-name,Table au Diable,1,0.0302,0.0,1116.6667
-name,Tampis,1,0.0302,0.0,1116.6667
-name,Tapion,1,0.0302,0.0,1116.6667
-name,Tapona,1,0.0302,0.0,1116.6667
-name,Taquin,1,0.0302,0.0,1116.6667
-name,Taverne,1,0.0302,0.0,1116.6667
-name,Temple de Vaudou de Carre,1,0.0302,0.0,1116.6667
-name,Temple vaudou,1,0.0302,0.0,1116.6667
-name,Terre Blanche,1,0.0302,0.0,1116.6667
-name,Tessier,1,0.0302,0.0,1116.6667
-name,Testas,1,0.0302,0.0,1116.6667
-name,Tete la Dliglois,1,0.0302,0.0,1116.6667
-name,The One Auto Ecole,1,0.0302,0.0,1116.6667
-name,Thomassin 29,1,0.0302,0.0,1116.6667
-name,Thomazeau,1,0.0302,0.0,1116.6667
-name,Thomonde,1,0.0302,0.0,1116.6667
-name,Three houses/huts,1,0.0302,0.0,1116.6667
-name,Théophile,1,0.0302,0.0,1116.6667
-name,Ti Calebasse,1,0.0302,0.0,1116.6667
-name,Ti Folie,1,0.0302,0.0,1116.6667
-name,Ti L'Etang,1,0.0302,0.0,1116.6667
-name,Ti Place,1,0.0302,0.0,1116.6667
-name,Ti Rivière,1,0.0302,0.0,1116.6667
-name,Ti Vernil,1,0.0302,0.0,1116.6667
-name,Tiburon,1,0.0302,0.0,1116.6667
-name,Timare,1,0.0302,0.0,1116.6667
-name,Tinglade,1,0.0302,0.0,1116.6667
-name,Topy,1,0.0302,0.0,1116.6667
-name,Torbeck,1,0.0302,0.0,1116.6667
-name,Tortuga,1,0.0302,0.0,1116.6667
-name,Tosia,1,0.0302,0.0,1116.6667
-name,Total,1,0.0302,0.0,1116.6667
-name,Toupiase,1,0.0302,0.0,1116.6667
-name,Tourneau,1,0.0302,0.0,1116.6667
-name,Toute Borne,1,0.0302,0.0,1116.6667
-name,Town of Coteaux,1,0.0302,0.0,1116.6667
-name,Triple,1,0.0302,0.0,1116.6667
-name,Trois Sources,1,0.0302,0.0,1116.6667
-name,Trou Bois,1,0.0302,0.0,1116.6667
-name,Trou Bonbon,1,0.0302,0.0,1116.6667
-name,Trou Grosse Pierre,1,0.0302,0.0,1116.6667
-name,Trou Louis,1,0.0302,0.0,1116.6667
-name,Trou Maingnain,1,0.0302,0.0,1116.6667
-name,Trou Palouse,1,0.0302,0.0,1116.6667
-name,Trou d'Enfer,1,0.0302,0.0,1116.6667
-name,Trouillac,1,0.0302,0.0,1116.6667
-name,Troupeau,1,0.0302,0.0,1116.6667
-name,Tête Digue,1,0.0302,0.0,1116.6667
-name,Union Européenne,1,0.0302,0.0,1116.6667
-name,Universite Nouvelle Grande Anse Unoga,1,0.0302,0.0,1116.6667
-name,V1,1,0.0302,0.0,1116.6667
-name,Vainqueur,1,0.0302,0.0,1116.6667
-name,Valade,1,0.0302,0.0,1116.6667
-name,Valmor,1,0.0302,0.0,1116.6667
-name,Valère,1,0.0302,0.0,1116.6667
-name,Vancol,1,0.0302,0.0,1116.6667
-name,Verdun,1,0.0302,0.0,1116.6667
-name,Verger,1,0.0302,0.0,1116.6667
-name,Versailles,1,0.0302,0.0,1116.6667
-name,Viard,1,0.0302,0.0,1116.6667
-name,Vido,1,0.0302,0.0,1116.6667
-name,Vieux Bac,1,0.0302,0.0,1116.6667
-name,Vieux Bourg de Jérémie,1,0.0302,0.0,1116.6667
-name,Vincent,1,0.0302,0.0,1116.6667
-name,Voie menant à l'École nationale Édouard Cavée,1,0.0302,0.0,1116.6667
-name,Véronne,1,0.0302,0.0,1116.6667
-name,Warehouse,1,0.0302,0.0,1116.6667
-name,Welsh,1,0.0302,0.0,1116.6667
-name,Wood,1,0.0302,0.0,1116.6667
-name,ZA,1,0.0302,0.0,1116.6667
-name,Zenith Barber,1,0.0302,0.0,1116.6667
-name,Zénith Barber,1,0.0302,0.0,1116.6667
-name,Zénith Complexe,1,0.0302,0.0,1116.6667
-name,Zéphir,1,0.0302,0.0,1116.6667
-name,apt2,1,0.0302,0.0,1116.6667
-name,apt3,1,0.0302,0.0,1116.6667
-name,apt4,1,0.0302,0.0,1116.6667
-name,atellier calvary chapel,1,0.0302,0.0,1116.6667
-name,b building,1,0.0302,0.0,1116.6667
-name,barn,1,0.0302,0.0,1116.6667
-name,bayard,1,0.0302,0.0,1116.6667
-name,breman,1,0.0302,0.0,1116.6667
-name,building1,1,0.0302,0.0,1116.6667
-name,building10,1,0.0302,0.0,1116.6667
-name,building11,1,0.0302,0.0,1116.6667
-name,building12,1,0.0302,0.0,1116.6667
-name,building13,1,0.0302,0.0,1116.6667
-name,building14,1,0.0302,0.0,1116.6667
-name,building15,1,0.0302,0.0,1116.6667
-name,building16,1,0.0302,0.0,1116.6667
-name,building17,1,0.0302,0.0,1116.6667
-name,building18,1,0.0302,0.0,1116.6667
-name,building19,1,0.0302,0.0,1116.6667
-name,building2,1,0.0302,0.0,1116.6667
-name,building20,1,0.0302,0.0,1116.6667
-name,building3,1,0.0302,0.0,1116.6667
-name,building4,1,0.0302,0.0,1116.6667
-name,building5,1,0.0302,0.0,1116.6667
-name,building6,1,0.0302,0.0,1116.6667
-name,building8,1,0.0302,0.0,1116.6667
-name,building9,1,0.0302,0.0,1116.6667
-name,building?,1,0.0302,0.0,1116.6667
-name,buildings,1,0.0302,0.0,1116.6667
-name,bureau comite regional de la croix-rouge du sud-est,1,0.0302,0.0,1116.6667
-name,bureau voila,1,0.0302,0.0,1116.6667
-name,carre pingouin,1,0.0302,0.0,1116.6667
-name,centre de santé de Kenscoff,1,0.0302,0.0,1116.6667
-name,cimetiere de Kenscoff,1,0.0302,0.0,1116.6667
-name,cimetiere thiotte,1,0.0302,0.0,1116.6667
-name,college auguste pascal de peredo,1,0.0302,0.0,1116.6667
-name,commercial store,1,0.0302,0.0,1116.6667
-name,community,1,0.0302,0.0,1116.6667
-name,dieu est amour,1,0.0302,0.0,1116.6667
-name,dirt path,1,0.0302,0.0,1116.6667
-name,ecole nationale mixte du Borgne,1,0.0302,0.0,1116.6667
-name,eglise,1,0.0302,0.0,1116.6667
-name,eglise baptiste,1,0.0302,0.0,1116.6667
-name,eglise baptiste de sanai,1,0.0302,0.0,1116.6667
-name,eglise catholic bon samaritain,1,0.0302,0.0,1116.6667
-name,eglise chretienne grace et depart,1,0.0302,0.0,1116.6667
-name,eglise et ecole pradel pompilus,1,0.0302,0.0,1116.6667
-name,entrer nan reseve,1,0.0302,0.0,1116.6667
-name,ex - Route Nationale # 7,1,0.0302,0.0,1116.6667
-name,farm home,1,0.0302,0.0,1116.6667
-name,farmland building,1,0.0302,0.0,1116.6667
-name,freedom bar,1,0.0302,0.0,1116.6667
-name,frue fotcoh,1,0.0302,0.0,1116.6667
-name,good park - there is nothing in this square,1,0.0302,0.0,1116.6667
-name,guimo auto parts,1,0.0302,0.0,1116.6667
-name,idk what this is,1,0.0302,0.0,1116.6667
-name,impasse cacilice,1,0.0302,0.0,1116.6667
-name,impasse lindord,1,0.0302,0.0,1116.6667
-name,impasse mayard,1,0.0302,0.0,1116.6667
-name,just a few homes it seems,1,0.0302,0.0,1116.6667
-name,k-douge,1,0.0302,0.0,1116.6667
-name,kapresse,1,0.0302,0.0,1116.6667
-name,l'eglise de dieu de la petite riviera,1,0.0302,0.0,1116.6667
-name,la plaine,1,0.0302,0.0,1116.6667
-name,large Hourse,1,0.0302,0.0,1116.6667
-name,mare jean pierre,1,0.0302,0.0,1116.6667
-name,marie madelaine,1,0.0302,0.0,1116.6667
-name,mazarin 1,1,0.0302,0.0,1116.6667
-name,monchil 1,1,0.0302,0.0,1116.6667
-name,more homes,1,0.0302,0.0,1116.6667
-name,nan fontenn,1,0.0302,0.0,1116.6667
-name,not sure if homes or industrial buildings but better safe than sorry,1,0.0302,0.0,1116.6667
-name,one house,1,0.0302,0.0,1116.6667
-name,outpost,1,0.0302,0.0,1116.6667
-name,portail la gosseline,1,0.0302,0.0,1116.6667
-name,primitive hut,1,0.0302,0.0,1116.6667
-name,refugee camp,1,0.0302,0.0,1116.6667
-name,route calvaire,1,0.0302,0.0,1116.6667
-name,route des orangers,1,0.0302,0.0,1116.6667
-name,route service du ferme,1,0.0302,0.0,1116.6667
-name,rue gondive,1,0.0302,0.0,1116.6667
-name,rue l'arbre,1,0.0302,0.0,1116.6667
-name,ruelle timot,1,0.0302,0.0,1116.6667
-name,shop siloe,1,0.0302,0.0,1116.6667
-name,single family home,1,0.0302,0.0,1116.6667
-name,small outpost,1,0.0302,0.0,1116.6667
-name,subcomplex,1,0.0302,0.0,1116.6667
-name,there seems to be several things in this area but not sure if they are buildings,1,0.0302,0.0,1116.6667
-name,ti peredo,1,0.0302,0.0,1116.6667
-name,toilettes,1,0.0302,0.0,1116.6667
-name,tomabrun,1,0.0302,0.0,1116.6667
-name,town,1,0.0302,0.0,1116.6667
-name,tribunal de paix de Kenscoff,1,0.0302,0.0,1116.6667
-name,two houses,1,0.0302,0.0,1116.6667
-name,usine bloc,1,0.0302,0.0,1116.6667
-name,vhhh,1,0.0302,0.0,1116.6667
-name,warehouse,1,0.0302,0.0,1116.6667
-name,way to single homse,1,0.0302,0.0,1116.6667
-name,École Communautaire de Mathurin,1,0.0302,0.0,1116.6667
-name,École Fondamentale d'App,1,0.0302,0.0,1116.6667
-name,École Marguerite D.Youville,1,0.0302,0.0,1116.6667
-name,École Mixte Nouvelle Lamannien,1,0.0302,0.0,1116.6667
-name,École Moderne Galilelien,1,0.0302,0.0,1116.6667
-name,École Nation de Bombom,1,0.0302,0.0,1116.6667
-name,École Nationale,1,0.0302,0.0,1116.6667
-name,École Nationale Edner Rey,1,0.0302,0.0,1116.6667
-name,École Nationale Mixte Edner Etienne,1,0.0302,0.0,1116.6667
-name,École Nationale de Cahouane,1,0.0302,0.0,1116.6667
-name,École Nationale de Catherine Flon,1,0.0302,0.0,1116.6667
-name,École Presbytérale,1,0.0302,0.0,1116.6667
-name,École Presbytérale de Bombom,1,0.0302,0.0,1116.6667
-name,École Saint Charles Carrefour sanon,1,0.0302,0.0,1116.6667
-name,École Saint-Joseph,1,0.0302,0.0,1116.6667
-name,École nationale Hotensuis Merlet,1,0.0302,0.0,1116.6667
-name,Église,1,0.0302,0.0,1116.6667
-name,Église Baptiste de Tiburon,1,0.0302,0.0,1116.6667
-name,Église Baptiste de Tiburon MEBLH,1,0.0302,0.0,1116.6667
-name,Église Catholique,1,0.0302,0.0,1116.6667
-name,Église Catholique Saint-Louis Gonzague,1,0.0302,0.0,1116.6667
-name,Église Crois en Seigneur Jésus,1,0.0302,0.0,1116.6667
-name,Église Gospel,1,0.0302,0.0,1116.6667
-name,Église Methodiste d'Haiti,1,0.0302,0.0,1116.6667
-name,Église Saint François carrefour sanon,1,0.0302,0.0,1116.6667
-name,Église Saint Monfort d'Orouck,1,0.0302,0.0,1116.6667
-name,Église Saint Pierre des Baradères,1,0.0302,0.0,1116.6667
-name,Église catholique,1,0.0302,0.0,1116.6667
-name,Église de Dieu la Sainte Cité,1,0.0302,0.0,1116.6667
-name,Électronique center,1,0.0302,0.0,1116.6667
-name,Étang Bellevue,1,0.0302,0.0,1116.6667
-name,Étang Célina,1,0.0302,0.0,1116.6667
-name,Étang Pernelé,1,0.0302,0.0,1116.6667
-name,Île Boyer,1,0.0302,0.0,1116.6667
-name,Île Corny,1,0.0302,0.0,1116.6667
-name,Île Pierre Joseph,1,0.0302,0.0,1116.6667
-name,Îlet Moustique,1,0.0302,0.0,1116.6667
-name,Îlet des Irois,1,0.0302,0.0,1116.6667
-natural,tree,338,33.3005,33700.0,411133.3333
-natural,coastline,162,15.9606,16100.0,197000.0
-natural,wood,156,15.3695,15500.0,189700.0
-natural,water,155,15.2709,15400.0,188483.3333
-natural,peak,73,7.1921,7200.0,88716.6667
-natural,scrub,38,3.7438,3700.0,46133.3333
-natural,cliff,24,2.3645,2300.0,29100.0
-natural,ridge,24,2.3645,2300.0,29100.0
-natural,bay,17,1.6749,1600.0,20583.3333
-natural,wetland,13,1.2808,1200.0,15716.6667
-natural,beach,2,0.197,100.0,2333.3333
-natural,mud,2,0.197,100.0,2333.3333
-natural,shingle,2,0.197,100.0,2333.3333
-natural,Lamentin,1,0.0985,0.0,1116.6667
-natural,Massif de la Hotte,1,0.0985,0.0,1116.6667
-natural,Pic Macaya,1,0.0985,0.0,1116.6667
-natural,diff,1,0.0985,0.0,1116.6667
-natural,grass,1,0.0985,0.0,1116.6667
-natural,point,1,0.0985,0.0,1116.6667
-natural,sand,1,0.0985,0.0,1116.6667
-natural,scree,1,0.0985,0.0,1116.6667
-natural,spring,1,0.0985,0.0,1116.6667
-source,bing,11533,39.3954,1153200.0,14031716.6667
-source,Bing,9330,31.8702,932900.0,11351400.0
-source,tiles.mapbox.com/v4/digitalglobe.nal0g75k/{zoom},2179,7.4432,217800.0,2651016.6667
-source,digitalglobe,1455,4.9701,145400.0,1770150.0
-source,mapbox:ortho,678,2.316,67700.0,824800.0
-source,DigitalGlobe,362,1.2365,36100.0,440333.3333
-source,DRA Topo Map50,261,0.8915,26000.0,317450.0
-source,haiti-tlm-50,212,0.7242,21100.0,257833.3333
-source,GeoEye,189,0.6456,18800.0,229850.0
-source,hot_iom_cosmha,173,0.5909,17200.0,210383.3333
-source,"CNIGS, Haiti, 2014-2015",171,0.5841,17000.0,207950.0
-source,"WorldView-2, DigitalGlobe, 2010-01-21",157,0.5363,15600.0,190916.6667
-source,survey,145,0.4953,14400.0,176316.6667
-source,"Google, 2010-01-21",117,0.3997,11600.0,142250.0
-source,"<différent>,UAV,IOM,COSMHA,SIGHA",96,0.3279,9500.0,116700.0
-source,"WorldView-2, DigitalGlobe, 2010-01-18",96,0.3279,9500.0,116700.0
-source,ikonos/geoeye,96,0.3279,9500.0,116700.0
-source,UAV 2016-10-15 Potentiel 3.0,86,0.2938,8500.0,104533.3333
-source,hot-iom-cosmha,77,0.263,7600.0,93583.3333
-source,hot_c.osm-ha_iom,77,0.263,7600.0,93583.3333
-source,"NOAA, 2010-01-24",75,0.2562,7400.0,91150.0
-source,Yahoo,58,0.1981,5700.0,70466.6667
-source,"WorldBank, 2010-01-24",56,0.1913,5500.0,68033.3333
-source,"satellite, DigitalGlobe, 2010/01/18",55,0.1879,5400.0,66816.6667
-source,"DigitalGlobe, 2010",51,0.1742,5000.0,61950.0
-source,"U.S. Defense Mapping Agency, 1984",49,0.1674,4800.0,59516.6667
-source,topomap 1:50K,44,0.1503,4300.0,53433.3333
+leisure,park,62,65.9574,6100.0,75333.3333
+leisure,pitch,12,12.766,1100.0,14500.0
+leisure,common,8,8.5106,700.0,9633.3333
+leisure,slipway,8,8.5106,700.0,9633.3333
+leisure,swimming_pool,2,2.1277,100.0,2333.3333
+leisure,garden,1,1.0638,0.0,1116.6667
+leisure,recreation_ground,1,1.0638,0.0,1116.6667
+name,Route Nationale # 1,155,4.6631,15400.0,188483.3333
+name,building,120,3.6101,11900.0,145900.0
+name,#uvmMapping,81,2.4368,8000.0,98450.0
+name,house,58,1.7449,5700.0,70466.6667
+name,Route Nationale # 2,43,1.2936,4200.0,52216.6667
+name,Route Nationale # 7,42,1.2635,4100.0,51000.0
+name,Residential,40,1.2034,3900.0,48566.6667
+name,House,34,1.0229,3300.0,41266.6667
+name,Building,22,0.6619,2100.0,26666.6667
+name,Rivière De La Voldroque,21,0.6318,2000.0,25450.0
+name,Rue Macpella,20,0.6017,1900.0,24233.3333
+name,Rivière Bras à Droite,19,0.5716,1800.0,23016.6667
+name,One building,18,0.5415,1700.0,21800.0
+name,Rivière de Cavaillon,14,0.4212,1300.0,16933.3333
+name,Route Nan Lundy,14,0.4212,1300.0,16933.3333
+name,small neighborhood,14,0.4212,1300.0,16933.3333
+name,Rivière Dose?,13,0.3911,1200.0,15716.6667
+name,Les Anglais,12,0.361,1100.0,14500.0
+name,Rivière Froide,12,0.361,1100.0,14500.0
+name,Route de Dupuy,12,0.361,1100.0,14500.0
+name,Rue Émile Roumer,12,0.361,1100.0,14500.0
+name,Rivière de la Grand Anse,11,0.3309,1000.0,13283.3333
+name,h,11,0.3309,1000.0,13283.3333
+name,marre vielle terre,11,0.3309,1000.0,13283.3333
+name,Bureau Identification,10,0.3008,900.0,12066.6667
+name,Fj 18,10,0.3008,900.0,12066.6667
+name,Cathédrale Saint-Louis-Roi-de-France,9,0.2708,800.0,10850.0
+name,Grande Rivière,9,0.2708,800.0,10850.0
+name,Riviere Bombom,9,0.2708,800.0,10850.0
+name,Rivière Pins,9,0.2708,800.0,10850.0
+name,Roue Saint Victor,9,0.2708,800.0,10850.0
+name,La Source,8,0.2407,700.0,9633.3333
+name,Riviere de Petite Source,8,0.2407,700.0,9633.3333
+name,Rivière Mahol,8,0.2407,700.0,9633.3333
+name,Rivière Maro,8,0.2407,700.0,9633.3333
+name,Route Bombom,8,0.2407,700.0,9633.3333
+name,Rue Abbé Huet,8,0.2407,700.0,9633.3333
+name,Rue Boisrond Tonnerre,8,0.2407,700.0,9633.3333
+name,colette,8,0.2407,700.0,9633.3333
+name,Common House,7,0.2106,600.0,8416.6667
+name,Rivière Catinette,7,0.2106,600.0,8416.6667
+name,Rivière des Roseaux,7,0.2106,600.0,8416.6667
+name,Route Mellier,7,0.2106,600.0,8416.6667
+name,Route de Fort Jacques,7,0.2106,600.0,8416.6667
+name,Small neighborhood,7,0.2106,600.0,8416.6667
+name,neighborhood,7,0.2106,600.0,8416.6667
+name,1 house,6,0.1805,500.0,7200.0
+name,Check Dam,6,0.1805,500.0,7200.0
+name,Fermathe,6,0.1805,500.0,7200.0
+name,Grande Ravine,6,0.1805,500.0,7200.0
+name,Rivière De Henne,6,0.1805,500.0,7200.0
+name,Rivière Djemenin,6,0.1805,500.0,7200.0
+name,Rivière Pedernales,6,0.1805,500.0,7200.0
+name,Rivière des Cotes de Fer,6,0.1805,500.0,7200.0
+name,hut,6,0.1805,500.0,7200.0
+name,Avenue Simon Duvalier,5,0.1504,400.0,5983.3333
+name,CTSJ,5,0.1504,400.0,5983.3333
+name,Entre Taino,5,0.1504,400.0,5983.3333
+name,Godet,5,0.1504,400.0,5983.3333
+name,Gros Morne,5,0.1504,400.0,5983.3333
+name,Jet D'Eau,5,0.1504,400.0,5983.3333
+name,One house,5,0.1504,400.0,5983.3333
+name,Ravine Gobin,5,0.1504,400.0,5983.3333
+name,Riviere Labris,5,0.1504,400.0,5983.3333
+name,Rivière Colongesse,5,0.1504,400.0,5983.3333
+name,Rivière Fède,5,0.1504,400.0,5983.3333
+name,Rivière Serpente,5,0.1504,400.0,5983.3333
+name,Rivière de Dame Marie,5,0.1504,400.0,5983.3333
+name,Rivière de La Guinaudée (ouest),5,0.1504,400.0,5983.3333
+name,Route Nationale # 4,5,0.1504,400.0,5983.3333
+name,Route de Kenscoff,5,0.1504,400.0,5983.3333
+name,residential,5,0.1504,400.0,5983.3333
+name,#house #building,4,0.1203,300.0,4766.6667
+name,Brière,4,0.1203,300.0,4766.6667
+name,Cimetière de Jérémie,4,0.1203,300.0,4766.6667
+name,Fermathe 63,4,0.1203,300.0,4766.6667
+name,Kenscoff 67,4,0.1203,300.0,4766.6667
+name,Plaisance,4,0.1203,300.0,4766.6667
+name,Ravine Palmiste,4,0.1203,300.0,4766.6667
+name,Ravine Port Nègre,4,0.1203,300.0,4766.6667
+name,Ravine Trou Singer,4,0.1203,300.0,4766.6667
+name,Rivière Banc de Roche,4,0.1203,300.0,4766.6667
+name,Rivière Des Roseaux II,4,0.1203,300.0,4766.6667
+name,Rivière Ford,4,0.1203,300.0,4766.6667
+name,Rivière Opaque,4,0.1203,300.0,4766.6667
+name,Rivière Zilé Blanche,4,0.1203,300.0,4766.6667
+name,Rivière des Côtes-de-Fer,4,0.1203,300.0,4766.6667
+name,Route Bonbon,4,0.1203,300.0,4766.6667
+name,Route Carrefour Sigueneau,4,0.1203,300.0,4766.6667
+name,Rue Auxilius Fougère,4,0.1203,300.0,4766.6667
+name,Rue Dalencourt 2,4,0.1203,300.0,4766.6667
+name,Rue Jean Baptiste Point du Sable,4,0.1203,300.0,4766.6667
+name,Rue Prevalis,4,0.1203,300.0,4766.6667
+name,Rue Source Dommage,4,0.1203,300.0,4766.6667
+name,Rue St Joseph,4,0.1203,300.0,4766.6667
+name,Water kiosk,4,0.1203,300.0,4766.6667
+name,brabayard,4,0.1203,300.0,4766.6667
+name,route la voute,4,0.1203,300.0,4766.6667
+name,rue ste helene,4,0.1203,300.0,4766.6667
+name,small hut,4,0.1203,300.0,4766.6667
+name,#building,3,0.0903,200.0,3550.0
+name,1ere Grande Rue,3,0.0903,200.0,3550.0
+name,2 houses,3,0.0903,200.0,3550.0
+name,??,3,0.0903,200.0,3550.0
+name,Avenue Cartgena,3,0.0903,200.0,3550.0
+name,Bellevue,3,0.0903,200.0,3550.0
+name,Bourdon,3,0.0903,200.0,3550.0
+name,Boyer,3,0.0903,200.0,3550.0
+name,Calebasse,3,0.0903,200.0,3550.0
+name,Carpentier,3,0.0903,200.0,3550.0
+name,Carrefour Joute,3,0.0903,200.0,3550.0
+name,Centre de santé Saint-Jean-du-sud,3,0.0903,200.0,3550.0
+name,Cite Dalencourt,3,0.0903,200.0,3550.0
+name,Colette,3,0.0903,200.0,3550.0
+name,Common House on Path,3,0.0903,200.0,3550.0
+name,DISPENSAIRE DE MONTRY,3,0.0903,200.0,3550.0
+name,Ecole Communautaire de Moule a Manchette,3,0.0903,200.0,3550.0
+name,Ecole Fondamentale d'App,3,0.0903,200.0,3550.0
+name,Eglise wesleenne de trou louis-jeune,3,0.0903,200.0,3550.0
+name,Grand Vincent,3,0.0903,200.0,3550.0
+name,Hotel Florita,3,0.0903,200.0,3550.0
+name,Impasse Magnum,3,0.0903,200.0,3550.0
+name,Impasse Pierre Louis,3,0.0903,200.0,3550.0
+name,La Guinaudée,3,0.0903,200.0,3550.0
+name,La Hatte,3,0.0903,200.0,3550.0
+name,Lamandou,3,0.0903,200.0,3550.0
+name,Léger,3,0.0903,200.0,3550.0
+name,Mahotière,3,0.0903,200.0,3550.0
+name,Maybe House,3,0.0903,200.0,3550.0
+name,Morne Camp,3,0.0903,200.0,3550.0
+name,Morne Chateau,3,0.0903,200.0,3550.0
+name,Nan Charles,3,0.0903,200.0,3550.0
+name,Nan Roche,3,0.0903,200.0,3550.0
+name,Rivière Bois Mahot,3,0.0903,200.0,3550.0
+name,Rivière Bras A Gauche,3,0.0903,200.0,3550.0
+name,Rivière Brossard,3,0.0903,200.0,3550.0
+name,Rivière De Dame Marie,3,0.0903,200.0,3550.0
+name,Rivière La Source,3,0.0903,200.0,3550.0
+name,Rivière Mandou,3,0.0903,200.0,3550.0
+name,Rivière Massacre,3,0.0903,200.0,3550.0
+name,Rivière des Irois,3,0.0903,200.0,3550.0
+name,Rivières Baradères,3,0.0903,200.0,3550.0
+name,Route Anglade,3,0.0903,200.0,3550.0
+name,Route Gonaives - Anse-Rouge,3,0.0903,200.0,3550.0
+name,Rue Avelt,3,0.0903,200.0,3550.0
+name,Rue Duvivier Hall,3,0.0903,200.0,3550.0
+name,Rue Nan Brouette,3,0.0903,200.0,3550.0
+name,Rue Prosperité,3,0.0903,200.0,3550.0
+name,Rue du Creac,3,0.0903,200.0,3550.0
+name,Ruelle Charlotin,3,0.0903,200.0,3550.0
+name,Ruelle Dalencourt 4,3,0.0903,200.0,3550.0
+name,Ruelle Paulin,3,0.0903,200.0,3550.0
+name,Ruelle Remy,3,0.0903,200.0,3550.0
+name,Temple de Vaudou de Caneau,3,0.0903,200.0,3550.0
+name,Zone de mouillage,3,0.0903,200.0,3550.0
+name,one building,3,0.0903,200.0,3550.0
+name,rue geffrard,3,0.0903,200.0,3550.0
+name,shed,3,0.0903,200.0,3550.0
+name,#aviva#avivaca,2,0.0602,100.0,2333.3333
+name,#hotosm-project-2226 #hurricaneMatthew #haiti,2,0.0602,100.0,2333.3333
+name,1ere Avenue Canaan 3,2,0.0602,100.0,2333.3333
+name,3,2,0.0602,100.0,2333.3333
+name,4,2,0.0602,100.0,2333.3333
+name,A4,2,0.0602,100.0,2333.3333
+name,Abricots,2,0.0602,100.0,2333.3333
+name,Alliance Française de Jacmel,2,0.0602,100.0,2333.3333
+name,Apartment,2,0.0602,100.0,2333.3333
+name,Avenue Baranquilla,2,0.0602,100.0,2333.3333
+name,Avenue des Quatre Chemins,2,0.0602,100.0,2333.3333
+name,Bassin Bleu,2,0.0602,100.0,2333.3333
+name,Bayard,2,0.0602,100.0,2333.3333
+name,Beaumont,2,0.0602,100.0,2333.3333
+name,Bel Air,2,0.0602,100.0,2333.3333
+name,Belle Dent,2,0.0602,100.0,2333.3333
+name,Beraud,2,0.0602,100.0,2333.3333
+name,Bernard,2,0.0602,100.0,2333.3333
+name,Blondin,2,0.0602,100.0,2333.3333
+name,Bon Pas,2,0.0602,100.0,2333.3333
+name,Boulangeriw CSL,2,0.0602,100.0,2333.3333
+name,Boutique Communautaire d'Intrants Agricoles,2,0.0602,100.0,2333.3333
+name,Buildinh,2,0.0602,100.0,2333.3333
+name,Bwa Sek,2,0.0602,100.0,2333.3333
+name,Bò Lanmè,2,0.0602,100.0,2333.3333
+name,CENTRE DE SANTE SAVANNE ZOMBIE,2,0.0602,100.0,2333.3333
+name,CHOSCAL-Centre Hospitalier Sainte-Catherine Laboure,2,0.0602,100.0,2333.3333
+name,Ca Vilason,2,0.0602,100.0,2333.3333
+name,Cahouane,2,0.0602,100.0,2333.3333
+name,Camp Barrière,2,0.0602,100.0,2333.3333
+name,Canard,2,0.0602,100.0,2333.3333
+name,Canelle,2,0.0602,100.0,2333.3333
+name,Cap des Marechaux Prolonge,2,0.0602,100.0,2333.3333
+name,Carre Pingouin,2,0.0602,100.0,2333.3333
+name,Casal,2,0.0602,100.0,2333.3333
+name,Cente De Sante De Maniche,2,0.0602,100.0,2333.3333
+name,Centre de Santé Camp Perrin,2,0.0602,100.0,2333.3333
+name,Centre de Santé La Victoire,2,0.0602,100.0,2333.3333
+name,Centre de Santé Madame Bernard,2,0.0602,100.0,2333.3333
+name,Centre de santé Cité Lumière,2,0.0602,100.0,2333.3333
+name,Check dam,2,0.0602,100.0,2333.3333
+name,Collège Edzaire Vilaire,2,0.0602,100.0,2333.3333
+name,Corail,2,0.0602,100.0,2333.3333
+name,Coteaux,2,0.0602,100.0,2333.3333
+name,DISPENSAIRE DE DUCIS,2,0.0602,100.0,2333.3333
+name,DISPENSAIRE DE LATIBOLIERE,2,0.0602,100.0,2333.3333
+name,DISPENSAIRE DE RHE,2,0.0602,100.0,2333.3333
+name,DP DE Dumont,2,0.0602,100.0,2333.3333
+name,DRB (Douze Rocher Beni),2,0.0602,100.0,2333.3333
+name,Deschamps,2,0.0602,100.0,2333.3333
+name,Desravines,2,0.0602,100.0,2333.3333
+name,Dispensaire Chantal,2,0.0602,100.0,2333.3333
+name,Dispensaire Notre Dame des Malades,2,0.0602,100.0,2333.3333
+name,Dispensaire Saint Joseph,2,0.0602,100.0,2333.3333
+name,Dispensaire Saint-Joseph,2,0.0602,100.0,2333.3333
+name,Dispensaire World Vision de Cance,2,0.0602,100.0,2333.3333
+name,Dispensaire d'Arniquet,2,0.0602,100.0,2333.3333
+name,Dispensaire de Béraud,2,0.0602,100.0,2333.3333
+name,Dispensaire de Guichard,2,0.0602,100.0,2333.3333
+name,Dispensaire de Mackandal,2,0.0602,100.0,2333.3333
+name,Dispensaire de Maillard,2,0.0602,100.0,2333.3333
+name,Dispensaire de Mazenod,2,0.0602,100.0,2333.3333
+name,Dispensaire de Mersan,2,0.0602,100.0,2333.3333
+name,Dory,2,0.0602,100.0,2333.3333
+name,Dufailly,2,0.0602,100.0,2333.3333
+name,Duperon,2,0.0602,100.0,2333.3333
+name,Dupin,2,0.0602,100.0,2333.3333
+name,Duquillon,2,0.0602,100.0,2333.3333
+name,Duranton,2,0.0602,100.0,2333.3333
+name,Durocher,2,0.0602,100.0,2333.3333
+name,Duverger,2,0.0602,100.0,2333.3333
+name,Déron,2,0.0602,100.0,2333.3333
+name,Ecole Crep des Nations,2,0.0602,100.0,2333.3333
+name,Ecole Marguerite D.Youville,2,0.0602,100.0,2333.3333
+name,Etang de Miragoane,2,0.0602,100.0,2333.3333
+name,FERME LEBLANC,2,0.0602,100.0,2333.3333
+name,FOSREF-LAKAY CAYES,2,0.0602,100.0,2333.3333
+name,Figuier,2,0.0602,100.0,2333.3333
+name,Fond Cochon,2,0.0602,100.0,2333.3333
+name,Fouache,2,0.0602,100.0,2333.3333
+name,Fourneau,2,0.0602,100.0,2333.3333
+name,Gageure,2,0.0602,100.0,2333.3333
+name,Georges,2,0.0602,100.0,2333.3333
+name,Gervais,2,0.0602,100.0,2333.3333
+name,Grande Plaine,2,0.0602,100.0,2333.3333
+name,HHF,2,0.0602,100.0,2333.3333
+name,HHF_Clinique,2,0.0602,100.0,2333.3333
+name,HIC,2,0.0602,100.0,2333.3333
+name,Home,2,0.0602,100.0,2333.3333
+name,I.O. Brenda,2,0.0602,100.0,2333.3333
+name,Impasse Blaise,2,0.0602,100.0,2333.3333
+name,Impasse Monfort,2,0.0602,100.0,2333.3333
+name,Kay Timoun Bondye,2,0.0602,100.0,2333.3333
+name,Klinik Lafanmy,2,0.0602,100.0,2333.3333
+name,Klinik Timoun Nou Yo,2,0.0602,100.0,2333.3333
+name,L'Hôpital Communautaire PORT-SALUT,2,0.0602,100.0,2333.3333
+name,LABORDE,2,0.0602,100.0,2333.3333
+name,LAURENT,2,0.0602,100.0,2333.3333
+name,La Bastille,2,0.0602,100.0,2333.3333
+name,La Chaîne,2,0.0602,100.0,2333.3333
+name,La Digue Bridge,2,0.0602,100.0,2333.3333
+name,La Grande Colline,2,0.0602,100.0,2333.3333
+name,La Grevette Resort,2,0.0602,100.0,2333.3333
+name,La Saline,2,0.0602,100.0,2333.3333
+name,La Visite,2,0.0602,100.0,2333.3333
+name,Lafitte,2,0.0602,100.0,2333.3333
+name,Lago Azuey,2,0.0602,100.0,2333.3333
+name,Lamandou;Rue Emmeline C Lemaire,2,0.0602,100.0,2333.3333
+name,Latiboliere,2,0.0602,100.0,2333.3333
+name,Leprêtre,2,0.0602,100.0,2333.3333
+name,Les Basses-Grandes Anse,2,0.0602,100.0,2333.3333
+name,Lycée Saint-Louis Gonzague,2,0.0602,100.0,2333.3333
+name,MHDR (PORT SALUT),2,0.0602,100.0,2333.3333
+name,Macombe,2,0.0602,100.0,2333.3333
+name,Maison de Naissance,2,0.0602,100.0,2333.3333
+name,Maison des Enfants Montessori de Mackandal,2,0.0602,100.0,2333.3333
+name,Malette,2,0.0602,100.0,2333.3333
+name,Marcel,2,0.0602,100.0,2333.3333
+name,Melon,2,0.0602,100.0,2333.3333
+name,Meyer,2,0.0602,100.0,2333.3333
+name,Morne Basta,2,0.0602,100.0,2333.3333
+name,Morne Cavalier,2,0.0602,100.0,2333.3333
+name,Morne Desbarrières,2,0.0602,100.0,2333.3333
+name,Morne Grand Bois,2,0.0602,100.0,2333.3333
+name,Morne Henry,2,0.0602,100.0,2333.3333
+name,Morne Rimbeau,2,0.0602,100.0,2333.3333
+name,Nan Bois,2,0.0602,100.0,2333.3333
+name,Nan Campêche,2,0.0602,100.0,2333.3333
+name,Nan Garde,2,0.0602,100.0,2333.3333
+name,Neville Road,2,0.0602,100.0,2333.3333
+name,Passe,2,0.0602,100.0,2333.3333
+name,Petite Anse,2,0.0602,100.0,2333.3333
+name,Petite Rivière,2,0.0602,100.0,2333.3333
+name,Pierre Louis,2,0.0602,100.0,2333.3333
+name,Place Nègre,2,0.0602,100.0,2333.3333
+name,Place Onaville,2,0.0602,100.0,2333.3333
+name,Platon Mombin,2,0.0602,100.0,2333.3333
+name,Pointe Sable,2,0.0602,100.0,2333.3333
+name,Pointe aux Oiseaux,2,0.0602,100.0,2333.3333
+name,Port à Nanette,2,0.0602,100.0,2333.3333
+name,Quatre Chemins,2,0.0602,100.0,2333.3333
+name,Randelle,2,0.0602,100.0,2333.3333
+name,Ravine Blockhauss 1,2,0.0602,100.0,2333.3333
+name,Ravine Blockhauss 3,2,0.0602,100.0,2333.3333
+name,Ravine Dalest,2,0.0602,100.0,2333.3333
+name,Ravine Eau Fatiguée,2,0.0602,100.0,2333.3333
+name,Ravine Grande Source,2,0.0602,100.0,2333.3333
+name,Ravine Martineau,2,0.0602,100.0,2333.3333
+name,Ravine Mercier,2,0.0602,100.0,2333.3333
+name,Ravine Saint-Georges,2,0.0602,100.0,2333.3333
+name,Ravine Source Philippe,2,0.0602,100.0,2333.3333
+name,Ravine Sourran,2,0.0602,100.0,2333.3333
+name,Ravine du Sud,2,0.0602,100.0,2333.3333
+name,Reserve 2015,2,0.0602,100.0,2333.3333
+name,Riviere,2,0.0602,100.0,2333.3333
+name,Riviere Berzeaud,2,0.0602,100.0,2333.3333
+name,Rivière Anse du Clerc,2,0.0602,100.0,2333.3333
+name,Rivière Bois D'Orme,2,0.0602,100.0,2333.3333
+name,Rivière Boucan,2,0.0602,100.0,2333.3333
+name,Rivière Galois,2,0.0602,100.0,2333.3333
+name,Rivière Glace,2,0.0602,100.0,2333.3333
+name,Rivière Grise,2,0.0602,100.0,2333.3333
+name,Rivière Jean Paul,2,0.0602,100.0,2333.3333
+name,Rivière La Gosseline,2,0.0602,100.0,2333.3333
+name,Rivière Latermin,2,0.0602,100.0,2333.3333
+name,Rivière Lhomon,2,0.0602,100.0,2333.3333
+name,Rivière Marie Gérome,2,0.0602,100.0,2333.3333
+name,Rivière Momance,2,0.0602,100.0,2333.3333
+name,Rivière Nan Couline,2,0.0602,100.0,2333.3333
+name,Rivière Pascal,2,0.0602,100.0,2333.3333
+name,Rivière Passe Caroline,2,0.0602,100.0,2333.3333
+name,Rivière Port Salut,2,0.0602,100.0,2333.3333
+name,Rivière Rino,2,0.0602,100.0,2333.3333
+name,Rivière Serangues,2,0.0602,100.0,2333.3333
+name,Rivière Source Bœuf,2,0.0602,100.0,2333.3333
+name,Rivière Source Pimba,2,0.0602,100.0,2333.3333
+name,Rivière Trouillac,2,0.0602,100.0,2333.3333
+name,Rivière d'Indigoterie,2,0.0602,100.0,2333.3333
+name,Rivière de Tiburon,2,0.0602,100.0,2333.3333
+name,Rivière de l'Est,2,0.0602,100.0,2333.3333
+name,Rivière des Orangers,2,0.0602,100.0,2333.3333
+name,Rossignol,2,0.0602,100.0,2333.3333
+name,Route Mahotiere,2,0.0602,100.0,2333.3333
+name,Route Taino,2,0.0602,100.0,2333.3333
+name,Rue 3 Frères Rigaud,2,0.0602,100.0,2333.3333
+name,Rue Alexandre Pétion,2,0.0602,100.0,2333.3333
+name,Rue Belfort,2,0.0602,100.0,2333.3333
+name,Rue Betanie,2,0.0602,100.0,2333.3333
+name,Rue Boisrord Tonnerre,2,0.0602,100.0,2333.3333
+name,Rue Derou,2,0.0602,100.0,2333.3333
+name,Rue Docteur Hyppolite,2,0.0602,100.0,2333.3333
+name,Rue Douphine,2,0.0602,100.0,2333.3333
+name,Rue Emmeline C Lemaire,2,0.0602,100.0,2333.3333
+name,Rue General Marion,2,0.0602,100.0,2333.3333
+name,Rue Junior,2,0.0602,100.0,2333.3333
+name,Rue La Grandeur,2,0.0602,100.0,2333.3333
+name,Rue Mathador,2,0.0602,100.0,2333.3333
+name,Rue Perseverance,2,0.0602,100.0,2333.3333
+name,Rue Riviere Herard,2,0.0602,100.0,2333.3333
+name,Rue Sacre Coeur,2,0.0602,100.0,2333.3333
+name,Rue Sainte Thérèse,2,0.0602,100.0,2333.3333
+name,Rue Tete Morne,2,0.0602,100.0,2333.3333
+name,Rue l'Union,2,0.0602,100.0,2333.3333
+name,Ruelle Adam,2,0.0602,100.0,2333.3333
+name,Ruelle Christ Revient,2,0.0602,100.0,2333.3333
+name,Ruelle Dalencourt 3,2,0.0602,100.0,2333.3333
+name,Ruelle Des Fleurs,2,0.0602,100.0,2333.3333
+name,Ruelle Innocent,2,0.0602,100.0,2333.3333
+name,Ruelle Manacée,2,0.0602,100.0,2333.3333
+name,Ruelle Nosephk,2,0.0602,100.0,2333.3333
+name,Ruelle Petit Frere,2,0.0602,100.0,2333.3333
+name,Ruelle Pierre Tribie,2,0.0602,100.0,2333.3333
+name,Ruelle Rigaud,2,0.0602,100.0,2333.3333
+name,Ruelle Sans Soucie,2,0.0602,100.0,2333.3333
+name,Ruelle Trankil,2,0.0602,100.0,2333.3333
+name,Saimplice,2,0.0602,100.0,2333.3333
+name,Salle paroissiale,2,0.0602,100.0,2333.3333
+name,Sanatorium des Cayes,2,0.0602,100.0,2333.3333
+name,School,2,0.0602,100.0,2333.3333
+name,Shanti,2,0.0602,100.0,2333.3333
+name,Small building next to house,2,0.0602,100.0,2333.3333
+name,Source Fourneau,2,0.0602,100.0,2333.3333
+name,Tamarin,2,0.0602,100.0,2333.3333
+name,Terre Rouge,2,0.0602,100.0,2333.3333
+name,Ti Plaine,2,0.0602,100.0,2333.3333
+name,Ti Ravine,2,0.0602,100.0,2333.3333
+name,Warehouse 1,2,0.0602,100.0,2333.3333
+name,antenne,2,0.0602,100.0,2333.3333
+name,apartment,2,0.0602,100.0,2333.3333
+name,apt,2,0.0602,100.0,2333.3333
+name,banlier,2,0.0602,100.0,2333.3333
+name,calabate,2,0.0602,100.0,2333.3333
+name,camp mayard,2,0.0602,100.0,2333.3333
+name,desplandi,2,0.0602,100.0,2333.3333
+name,epicerie,2,0.0602,100.0,2333.3333
+name,farm house,2,0.0602,100.0,2333.3333
+name,home,2,0.0602,100.0,2333.3333
+name,huts,2,0.0602,100.0,2333.3333
+name,impasse st jean baptiste,2,0.0602,100.0,2333.3333
+name,maybe building,2,0.0602,100.0,2333.3333
+name,rivière Opaque,2,0.0602,100.0,2333.3333
+name,route lamandou,2,0.0602,100.0,2333.3333
+name,rue joassaint adonis,2,0.0602,100.0,2333.3333
+name,rue st helene,2,0.0602,100.0,2333.3333
+name,ruelle des fleurs,2,0.0602,100.0,2333.3333
+name,ruelle morissette,2,0.0602,100.0,2333.3333
+name,veras road,2,0.0602,100.0,2333.3333
+name,way to house,2,0.0602,100.0,2333.3333
+name,École Nationale Colette,2,0.0602,100.0,2333.3333
+name,École Soliel de Hollande,2,0.0602,100.0,2333.3333
+name,Église Baptiste,2,0.0602,100.0,2333.3333
+name,Église Dieu de la Prophétie,2,0.0602,100.0,2333.3333
+name,Église Sainte Hélène,2,0.0602,100.0,2333.3333
+name,"#hotosm-project-2248 #hurricanematthew #haiti Source=GeoEye1, Digital Globe, 09 September 2015",1,0.0301,0.0,1116.6667
+name,#house,1,0.0301,0.0,1116.6667
+name,#house #building #school,1,0.0301,0.0,1116.6667
+name,#mplondon #missingmaps,1,0.0301,0.0,1116.6667
+name,#uvmMapping\,1,0.0301,0.0,1116.6667
+name,#uvmmapping,1,0.0301,0.0,1116.6667
+name,1,1,0.0301,0.0,1116.6667
+name,10,1,0.0301,0.0,1116.6667
+name,11,1,0.0301,0.0,1116.6667
+name,2,1,0.0301,0.0,1116.6667
+name,2 homes or very large buildings,1,0.0301,0.0,1116.6667
+name,2 house,1,0.0301,0.0,1116.6667
+name,2e aux Cadets Petyonvil,1,0.0301,0.0,1116.6667
+name,4 houses,1,0.0301,0.0,1116.6667
+name,5,1,0.0301,0.0,1116.6667
+name,6,1,0.0301,0.0,1116.6667
+name,7,1,0.0301,0.0,1116.6667
+name,8,1,0.0301,0.0,1116.6667
+name,8e Berly Kofou,1,0.0301,0.0,1116.6667
+name,9,1,0.0301,0.0,1116.6667
+name,Abeille,1,0.0301,0.0,1116.6667
+name,Acelin,1,0.0301,0.0,1116.6667
+name,Adrine,1,0.0301,0.0,1116.6667
+name,Albérie,1,0.0301,0.0,1116.6667
+name,Alien Object,1,0.0301,0.0,1116.6667
+name,Ambassade du Brésil,1,0.0301,0.0,1116.6667
+name,Ambassade du Japon,1,0.0301,0.0,1116.6667
+name,Anciennes Route Nationale # 2,1,0.0301,0.0,1116.6667
+name,André,1,0.0301,0.0,1116.6667
+name,Anglais,1,0.0301,0.0,1116.6667
+name,Annette,1,0.0301,0.0,1116.6667
+name,Anofer,1,0.0301,0.0,1116.6667
+name,Anse Cotes de Fer,1,0.0301,0.0,1116.6667
+name,Anse Goudin,1,0.0301,0.0,1116.6667
+name,Anse Joseph,1,0.0301,0.0,1116.6667
+name,Anse a Trouette,1,0.0301,0.0,1116.6667
+name,Anse d'Hainault,1,0.0301,0.0,1116.6667
+name,Anse du Milieu,1,0.0301,0.0,1116.6667
+name,Anse à Drick,1,0.0301,0.0,1116.6667
+name,Anse à Juif,1,0.0301,0.0,1116.6667
+name,Anse à Trouette,1,0.0301,0.0,1116.6667
+name,Anse-d'Azur,1,0.0301,0.0,1116.6667
+name,Antoine,1,0.0301,0.0,1116.6667
+name,Armée du Salut,1,0.0301,0.0,1116.6667
+name,Arniquet,1,0.0301,0.0,1116.6667
+name,Atelier Artisanat,1,0.0301,0.0,1116.6667
+name,Aubin,1,0.0301,0.0,1116.6667
+name,Aubry,1,0.0301,0.0,1116.6667
+name,Aux Ciseaux d'Or,1,0.0301,0.0,1116.6667
+name,Aux Plaines,1,0.0301,0.0,1116.6667
+name,Ave De La Colonial (Route Belvald),1,0.0301,0.0,1116.6667
+name,Avec Jésus Tout Va Bien,1,0.0301,0.0,1116.6667
+name,Avenue Cartagena,1,0.0301,0.0,1116.6667
+name,Avenue Charles Sumner,1,0.0301,0.0,1116.6667
+name,Avenue Saint Mathieu,1,0.0301,0.0,1116.6667
+name,B et G Depot Gazeuzes,1,0.0301,0.0,1116.6667
+name,BLVD Mariani,1,0.0301,0.0,1116.6667
+name,Babin,1,0.0301,0.0,1116.6667
+name,Babino,1,0.0301,0.0,1116.6667
+name,Bacilier,1,0.0301,0.0,1116.6667
+name,Baie Espagnole,1,0.0301,0.0,1116.6667
+name,Baie de Bigie,1,0.0301,0.0,1116.6667
+name,Baie de Carcasse,1,0.0301,0.0,1116.6667
+name,Baie de Dame Marie,1,0.0301,0.0,1116.6667
+name,Baie de l'Hôpital,1,0.0301,0.0,1116.6667
+name,Baie de la Croix,1,0.0301,0.0,1116.6667
+name,Baie des Irois,1,0.0301,0.0,1116.6667
+name,Balais,1,0.0301,0.0,1116.6667
+name,Balandier,1,0.0301,0.0,1116.6667
+name,Balant,1,0.0301,0.0,1116.6667
+name,Balice,1,0.0301,0.0,1116.6667
+name,Bananier,1,0.0301,0.0,1116.6667
+name,Banc de Roches,1,0.0301,0.0,1116.6667
+name,Band Of Brothers,1,0.0301,0.0,1116.6667
+name,Baptiste,1,0.0301,0.0,1116.6667
+name,Barbois,1,0.0301,0.0,1116.6667
+name,Bariadelle,1,0.0301,0.0,1116.6667
+name,Barn,1,0.0301,0.0,1116.6667
+name,Bas Muton,1,0.0301,0.0,1116.6667
+name,Basie,1,0.0301,0.0,1116.6667
+name,Basse Terre,1,0.0301,0.0,1116.6667
+name,Bassin,1,0.0301,0.0,1116.6667
+name,Bassin Caiman,1,0.0301,0.0,1116.6667
+name,Bassin Cheval,1,0.0301,0.0,1116.6667
+name,Bassin Mahaut,1,0.0301,0.0,1116.6667
+name,Basta,1,0.0301,0.0,1116.6667
+name,Bazarin,1,0.0301,0.0,1116.6667
+name,Beaubrun,1,0.0301,0.0,1116.6667
+name,Beaucalin,1,0.0301,0.0,1116.6667
+name,Beaudrouin,1,0.0301,0.0,1116.6667
+name,Beaufrin,1,0.0301,0.0,1116.6667
+name,Beaulieu,1,0.0301,0.0,1116.6667
+name,Bel-Air,1,0.0301,0.0,1116.6667
+name,Belgrave Street,1,0.0301,0.0,1116.6667
+name,Belle Maison,1,0.0301,0.0,1116.6667
+name,Belle-Anse,1,0.0301,0.0,1116.6667
+name,Bellevue Station,1,0.0301,0.0,1116.6667
+name,Bellote,1,0.0301,0.0,1116.6667
+name,Belsue,1,0.0301,0.0,1116.6667
+name,Belzanine,1,0.0301,0.0,1116.6667
+name,Benjamin,1,0.0301,0.0,1116.6667
+name,Berault,1,0.0301,0.0,1116.6667
+name,Berger,1,0.0301,0.0,1116.6667
+name,Bergerac,1,0.0301,0.0,1116.6667
+name,Bernagousse,1,0.0301,0.0,1116.6667
+name,Bertrand,1,0.0301,0.0,1116.6667
+name,Bethel,1,0.0301,0.0,1116.6667
+name,Betrouze,1,0.0301,0.0,1116.6667
+name,Bicher,1,0.0301,0.0,1116.6667
+name,Bien Compte,1,0.0301,0.0,1116.6667
+name,Bienfaisant,1,0.0301,0.0,1116.6667
+name,Bigahan,1,0.0301,0.0,1116.6667
+name,Bilding,1,0.0301,0.0,1116.6667
+name,Binto,1,0.0301,0.0,1116.6667
+name,Blacktote,1,0.0301,0.0,1116.6667
+name,Blockauss 2,1,0.0301,0.0,1116.6667
+name,Blockhaus,1,0.0301,0.0,1116.6667
+name,Boca,1,0.0301,0.0,1116.6667
+name,Boco,1,0.0301,0.0,1116.6667
+name,Bois Cochon,1,0.0301,0.0,1116.6667
+name,Bois De Chêne,1,0.0301,0.0,1116.6667
+name,Bois Duval,1,0.0301,0.0,1116.6667
+name,Bois Délai,1,0.0301,0.0,1116.6667
+name,Bois Geneste,1,0.0301,0.0,1116.6667
+name,Bois L'Anse,1,0.0301,0.0,1116.6667
+name,Bois Lambert,1,0.0301,0.0,1116.6667
+name,Bois Lancé,1,0.0301,0.0,1116.6667
+name,Bois Mahot,1,0.0301,0.0,1116.6667
+name,Bois Mapou,1,0.0301,0.0,1116.6667
+name,Bois Marassa,1,0.0301,0.0,1116.6667
+name,Bois Marguerite,1,0.0301,0.0,1116.6667
+name,Bois Rimbeau,1,0.0301,0.0,1116.6667
+name,Bois Rouge,1,0.0301,0.0,1116.6667
+name,Bois d'Avril Guesthouse,1,0.0301,0.0,1116.6667
+name,Bombardopolis,1,0.0301,0.0,1116.6667
+name,Bon pain Boniface,1,0.0301,0.0,1116.6667
+name,Bonhomme,1,0.0301,0.0,1116.6667
+name,Bontemps,1,0.0301,0.0,1116.6667
+name,Bordes,1,0.0301,0.0,1116.6667
+name,Boucan Cache,1,0.0301,0.0,1116.6667
+name,Boudince,1,0.0301,0.0,1116.6667
+name,Boudou,1,0.0301,0.0,1116.6667
+name,Bouquette,1,0.0301,0.0,1116.6667
+name,Boury,1,0.0301,0.0,1116.6667
+name,Bousquet,1,0.0301,0.0,1116.6667
+name,Brache,1,0.0301,0.0,1116.6667
+name,Breton,1,0.0301,0.0,1116.6667
+name,Bridge,1,0.0301,0.0,1116.6667
+name,Brieux,1,0.0301,0.0,1116.6667
+name,Brèche,1,0.0301,0.0,1116.6667
+name,Building 2,1,0.0301,0.0,1116.6667
+name,Building next to dirt path,1,0.0301,0.0,1116.6667
+name,Building1,1,0.0301,0.0,1116.6667
+name,Building2,1,0.0301,0.0,1116.6667
+name,Building3,1,0.0301,0.0,1116.6667
+name,Building_3,1,0.0301,0.0,1116.6667
+name,Building_4,1,0.0301,0.0,1116.6667
+name,Bureau de Port,1,0.0301,0.0,1116.6667
+name,Buteau,1,0.0301,0.0,1116.6667
+name,Buties,1,0.0301,0.0,1116.6667
+name,Buulding,1,0.0301,0.0,1116.6667
+name,Buvette,1,0.0301,0.0,1116.6667
+name,Béléo,1,0.0301,0.0,1116.6667
+name,Béril,1,0.0301,0.0,1116.6667
+name,Bétrinet,1,0.0301,0.0,1116.6667
+name,Bêque,1,0.0301,0.0,1116.6667
+name,Bò Lanmò,1,0.0301,0.0,1116.6667
+name,CAL DE PAILLANT Hopital Notre Dame de la Victoire de Pailland,1,0.0301,0.0,1116.6667
+name,CARREFOUR,1,0.0301,0.0,1116.6667
+name,CENTRE DE SANTE LA VICTOIRE,1,0.0301,0.0,1116.6667
+name,CENTRE JEUNES DE DELMAS 19,1,0.0301,0.0,1116.6667
+name,CRAAJ/Konesans Fanmi,1,0.0301,0.0,1116.6667
+name,Ca Boquet,1,0.0301,0.0,1116.6667
+name,Ca Charlesdieu,1,0.0301,0.0,1116.6667
+name,Ca Docteur,1,0.0301,0.0,1116.6667
+name,Ca Gauthier,1,0.0301,0.0,1116.6667
+name,Ca Jean Boule,1,0.0301,0.0,1116.6667
+name,Ca Louis,1,0.0301,0.0,1116.6667
+name,Ca Noel,1,0.0301,0.0,1116.6667
+name,Ca Poliette,1,0.0301,0.0,1116.6667
+name,Ca Rocher,1,0.0301,0.0,1116.6667
+name,Ca Tino,1,0.0301,0.0,1116.6667
+name,Cabrouette,1,0.0301,0.0,1116.6667
+name,Caceleste,1,0.0301,0.0,1116.6667
+name,Cachimbo,1,0.0301,0.0,1116.6667
+name,Cadette,1,0.0301,0.0,1116.6667
+name,Cafetière,1,0.0301,0.0,1116.6667
+name,Caglos,1,0.0301,0.0,1116.6667
+name,Caillard,1,0.0301,0.0,1116.6667
+name,Caillet,1,0.0301,0.0,1116.6667
+name,Caiman Bridge,1,0.0301,0.0,1116.6667
+name,Calapa,1,0.0301,0.0,1116.6667
+name,Calle 27 de Febrero,1,0.0301,0.0,1116.6667
+name,Caloban,1,0.0301,0.0,1116.6667
+name,Calumette,1,0.0301,0.0,1116.6667
+name,Cambon,1,0.0301,0.0,1116.6667
+name,Camori,1,0.0301,0.0,1116.6667
+name,Campagne,1,0.0301,0.0,1116.6667
+name,Campêche,1,0.0301,0.0,1116.6667
+name,Canacou,1,0.0301,0.0,1116.6667
+name,Canette,1,0.0301,0.0,1116.6667
+name,Canrete,1,0.0301,0.0,1116.6667
+name,Cap Carcasse,1,0.0301,0.0,1116.6667
+name,Cap Dame Marie,1,0.0301,0.0,1116.6667
+name,Cap Rose,1,0.0301,0.0,1116.6667
+name,Cap Tiburon,1,0.0301,0.0,1116.6667
+name,Cap des Irois,1,0.0301,0.0,1116.6667
+name,Capoliette,1,0.0301,0.0,1116.6667
+name,Carcasse,1,0.0301,0.0,1116.6667
+name,Carrefour Astier,1,0.0301,0.0,1116.6667
+name,Carrefour Canot,1,0.0301,0.0,1116.6667
+name,Carrefour Caton,1,0.0301,0.0,1116.6667
+name,Carrefour Charles,1,0.0301,0.0,1116.6667
+name,Carrefour Gros Chaudière,1,0.0301,0.0,1116.6667
+name,Carrefour Maillette,1,0.0301,0.0,1116.6667
+name,Carrefour Malette,1,0.0301,0.0,1116.6667
+name,Carrefour Méridien,1,0.0301,0.0,1116.6667
+name,Carrefour Prince,1,0.0301,0.0,1116.6667
+name,Carrefour Roulette,1,0.0301,0.0,1116.6667
+name,Carrefour Réverduré,1,0.0301,0.0,1116.6667
+name,Carrefour Sanon,1,0.0301,0.0,1116.6667
+name,Casnave,1,0.0301,0.0,1116.6667
+name,Cassa,1,0.0301,0.0,1116.6667
+name,Cassagnol,1,0.0301,0.0,1116.6667
+name,Castable,1,0.0301,0.0,1116.6667
+name,Catherine,1,0.0301,0.0,1116.6667
+name,Cavalier,1,0.0301,0.0,1116.6667
+name,Cavase,1,0.0301,0.0,1116.6667
+name,Caye Fort,1,0.0301,0.0,1116.6667
+name,Cazeau,1,0.0301,0.0,1116.6667
+name,Centrale Électrique de Jérémie,1,0.0301,0.0,1116.6667
+name,Centre Médical de Secours Chrétien,1,0.0301,0.0,1116.6667
+name,Centre d'Education Enfantile,1,0.0301,0.0,1116.6667
+name,Centre de Sante Clinic,1,0.0301,0.0,1116.6667
+name,Centre de Sante MCPH,1,0.0301,0.0,1116.6667
+name,Centre de Santé AFE Neg Kombit Furcy,1,0.0301,0.0,1116.6667
+name,Centre de santé Sacré-Coeur,1,0.0301,0.0,1116.6667
+name,Centre de santé Sainte Hélène (CSSH),1,0.0301,0.0,1116.6667
+name,Centre de santé de Moron,1,0.0301,0.0,1116.6667
+name,Centre de santé de Sainte Hélène,1,0.0301,0.0,1116.6667
+name,Centre Éducatif de Nan Sable (CENS),1,0.0301,0.0,1116.6667
+name,"Centre,Abricot",1,0.0301,0.0,1116.6667
+name,Cercey,1,0.0301,0.0,1116.6667
+name,Cesson,1,0.0301,0.0,1116.6667
+name,Chabe,1,0.0301,0.0,1116.6667
+name,Chajotte,1,0.0301,0.0,1116.6667
+name,Chalette,1,0.0301,0.0,1116.6667
+name,Chalivette,1,0.0301,0.0,1116.6667
+name,Chambellan,1,0.0301,0.0,1116.6667
+name,Chamblain,1,0.0301,0.0,1116.6667
+name,Chameau,1,0.0301,0.0,1116.6667
+name,Chansolme,1,0.0301,0.0,1116.6667
+name,Chanterelle,1,0.0301,0.0,1116.6667
+name,Chardonette,1,0.0301,0.0,1116.6667
+name,Chardonnières,1,0.0301,0.0,1116.6667
+name,Chatubet,1,0.0301,0.0,1116.6667
+name,Chayau,1,0.0301,0.0,1116.6667
+name,Chaîne Découverte,1,0.0301,0.0,1116.6667
+name,Chevalier,1,0.0301,0.0,1116.6667
+name,Chez Pepe,1,0.0301,0.0,1116.6667
+name,Chiedent,1,0.0301,0.0,1116.6667
+name,Chiendent,1,0.0301,0.0,1116.6667
+name,Chéridan,1,0.0301,0.0,1116.6667
+name,Citadelle,1,0.0301,0.0,1116.6667
+name,Citerne Paille,1,0.0301,0.0,1116.6667
+name,Citerne Remy,1,0.0301,0.0,1116.6667
+name,City Walls,1,0.0301,0.0,1116.6667
+name,Civil,1,0.0301,0.0,1116.6667
+name,Claude,1,0.0301,0.0,1116.6667
+name,Clinique (Clinic),1,0.0301,0.0,1116.6667
+name,Clinique Dentaire,1,0.0301,0.0,1116.6667
+name,Colimon,1,0.0301,0.0,1116.6667
+name,College Notre Dame du Perpetuel Secours,1,0.0301,0.0,1116.6667
+name,Collège Mixte Immaculée Conception,1,0.0301,0.0,1116.6667
+name,Colunette,1,0.0301,0.0,1116.6667
+name,Commercial,1,0.0301,0.0,1116.6667
+name,Commissariat de Bonbon,1,0.0301,0.0,1116.6667
+name,Complexe Administratif de Thiotte,1,0.0301,0.0,1116.6667
+name,Conete,1,0.0301,0.0,1116.6667
+name,Conette,1,0.0301,0.0,1116.6667
+name,Constant,1,0.0301,0.0,1116.6667
+name,Cooplands,1,0.0301,0.0,1116.6667
+name,Coq Vilaire,1,0.0301,0.0,1116.6667
+name,Coquignol,1,0.0301,0.0,1116.6667
+name,Corail Lherisson,1,0.0301,0.0,1116.6667
+name,Corcette,1,0.0301,0.0,1116.6667
+name,Cordière,1,0.0301,0.0,1116.6667
+name,Corosse Séchée,1,0.0301,0.0,1116.6667
+name,Counongo,1,0.0301,0.0,1116.6667
+name,Cour Supérieure des Comptes et du Contentieux Administratif,1,0.0301,0.0,1116.6667
+name,Coury,1,0.0301,0.0,1116.6667
+name,Coutard,1,0.0301,0.0,1116.6667
+name,Craplain,1,0.0301,0.0,1116.6667
+name,Crochu,1,0.0301,0.0,1116.6667
+name,Croix Birot,1,0.0301,0.0,1116.6667
+name,Croix Chérie,1,0.0301,0.0,1116.6667
+name,Culbité,1,0.0301,0.0,1116.6667
+name,Cyrac,1,0.0301,0.0,1116.6667
+name,Cème,1,0.0301,0.0,1116.6667
+name,Côte de Fer,1,0.0301,0.0,1116.6667
+name,Côtes-de-Fer,1,0.0301,0.0,1116.6667
+name,D'Lo Genée,1,0.0301,0.0,1116.6667
+name,DISPENSAIRE BELLE RIVIERE,1,0.0301,0.0,1116.6667
+name,DISPENSAIRE DE CHANTAL,1,0.0301,0.0,1116.6667
+name,DISPENSAIRE LA SOURCE,1,0.0301,0.0,1116.6667
+name,Dalier,1,0.0301,0.0,1116.6667
+name,Dallier,1,0.0301,0.0,1116.6667
+name,Dalmette,1,0.0301,0.0,1116.6667
+name,Danguy,1,0.0301,0.0,1116.6667
+name,Daucan,1,0.0301,0.0,1116.6667
+name,Dayère,1,0.0301,0.0,1116.6667
+name,De Sigon,1,0.0301,0.0,1116.6667
+name,Deblanc,1,0.0301,0.0,1116.6667
+name,Decotelette,1,0.0301,0.0,1116.6667
+name,Deltor,1,0.0301,0.0,1116.6667
+name,Deraymond,1,0.0301,0.0,1116.6667
+name,Derriere Morne,1,0.0301,0.0,1116.6667
+name,Derrière Goyave,1,0.0301,0.0,1116.6667
+name,Derrière Morne,1,0.0301,0.0,1116.6667
+name,Derrière l'État,1,0.0301,0.0,1116.6667
+name,Des Bourrys,1,0.0301,0.0,1116.6667
+name,Des Ombrages,1,0.0301,0.0,1116.6667
+name,Des Plantes,1,0.0301,0.0,1116.6667
+name,Descares,1,0.0301,0.0,1116.6667
+name,Desglacis,1,0.0301,0.0,1116.6667
+name,Deslandes,1,0.0301,0.0,1116.6667
+name,Deslions,1,0.0301,0.0,1116.6667
+name,Despagne,1,0.0301,0.0,1116.6667
+name,Dessalines,1,0.0301,0.0,1116.6667
+name,Dianacou,1,0.0301,0.0,1116.6667
+name,Didon,1,0.0301,0.0,1116.6667
+name,Dieu est amour,1,0.0301,0.0,1116.6667
+name,Dilagon,1,0.0301,0.0,1116.6667
+name,Dirt road,1,0.0301,0.0,1116.6667
+name,Dja Net,1,0.0301,0.0,1116.6667
+name,Docan,1,0.0301,0.0,1116.6667
+name,Dolian,1,0.0301,0.0,1116.6667
+name,Domingo,1,0.0301,0.0,1116.6667
+name,Dondon,1,0.0301,0.0,1116.6667
+name,Dopré,1,0.0301,0.0,1116.6667
+name,Dos Camp,1,0.0301,0.0,1116.6667
+name,Dos Cheval,1,0.0301,0.0,1116.6667
+name,Douane de Jacmel (customs),1,0.0301,0.0,1116.6667
+name,Douter,1,0.0301,0.0,1116.6667
+name,Douyette,1,0.0301,0.0,1116.6667
+name,Dubois,1,0.0301,0.0,1116.6667
+name,Dubreuil,1,0.0301,0.0,1116.6667
+name,Duc,1,0.0301,0.0,1116.6667
+name,Duchaninoir,1,0.0301,0.0,1116.6667
+name,Duchity,1,0.0301,0.0,1116.6667
+name,Duchène,1,0.0301,0.0,1116.6667
+name,Duclosette,1,0.0301,0.0,1116.6667
+name,Dumeau,1,0.0301,0.0,1116.6667
+name,Dumoi,1,0.0301,0.0,1116.6667
+name,Dumois,1,0.0301,0.0,1116.6667
+name,Duplantin,1,0.0301,0.0,1116.6667
+name,Dupoux,1,0.0301,0.0,1116.6667
+name,Duroux,1,0.0301,0.0,1116.6667
+name,Dussable,1,0.0301,0.0,1116.6667
+name,Duvaranne,1,0.0301,0.0,1116.6667
+name,Duverni,1,0.0301,0.0,1116.6667
+name,Duvet,1,0.0301,0.0,1116.6667
+name,Duvineau,1,0.0301,0.0,1116.6667
+name,Débarasse,1,0.0301,0.0,1116.6667
+name,Débocher,1,0.0301,0.0,1116.6667
+name,Débouché,1,0.0301,0.0,1116.6667
+name,Déboulaye,1,0.0301,0.0,1116.6667
+name,Décade,1,0.0301,0.0,1116.6667
+name,Décidé,1,0.0301,0.0,1116.6667
+name,Décourverte,1,0.0301,0.0,1116.6667
+name,Déjac,1,0.0301,0.0,1116.6667
+name,Déjoie,1,0.0301,0.0,1116.6667
+name,Délabré,1,0.0301,0.0,1116.6667
+name,Déloie,1,0.0301,0.0,1116.6667
+name,Dépas,1,0.0301,0.0,1116.6667
+name,Désert,1,0.0301,0.0,1116.6667
+name,Désormeaux,1,0.0301,0.0,1116.6667
+name,Ecole Armee Du Salut,1,0.0301,0.0,1116.6667
+name,Ecole C. Moravila,1,0.0301,0.0,1116.6667
+name,Ecole Evelyna Levy,1,0.0301,0.0,1116.6667
+name,Ecole Moderne Galilelien,1,0.0301,0.0,1116.6667
+name,Ecole National Canes Ridore,1,0.0301,0.0,1116.6667
+name,Ecole Notre-Dame des Anges,1,0.0301,0.0,1116.6667
+name,Ecole Presbyterale Mapou Blaise,1,0.0301,0.0,1116.6667
+name,Ecole national de savane zombi,1,0.0301,0.0,1116.6667
+name,Ecole nationale de zabricot,1,0.0301,0.0,1116.6667
+name,Ecole nle de cabaret,1,0.0301,0.0,1116.6667
+name,Eglise,1,0.0301,0.0,1116.6667
+name,Eglise De Dieu De La Prophetie,1,0.0301,0.0,1116.6667
+name,Eglise Gospel,1,0.0301,0.0,1116.6667
+name,Eglise Notre Dame Du Mont Caramel,1,0.0301,0.0,1116.6667
+name,Eglise Sainte-Hélène,1,0.0301,0.0,1116.6667
+name,Eglise de Jesus Christ Full Gospel,1,0.0301,0.0,1116.6667
+name,El shaday,1,0.0301,0.0,1116.6667
+name,Emanuel Christian,1,0.0301,0.0,1116.6667
+name,En Bas Mamelle,1,0.0301,0.0,1116.6667
+name,En Bas la Riviere,1,0.0301,0.0,1116.6667
+name,En Haut Ravine,1,0.0301,0.0,1116.6667
+name,Enfant Perdu,1,0.0301,0.0,1116.6667
+name,Entre Cabaron,1,0.0301,0.0,1116.6667
+name,Entre Nan Reserve 1,1,0.0301,0.0,1116.6667
+name,Entree Bire,1,0.0301,0.0,1116.6667
+name,Entrée Momance,1,0.0301,0.0,1116.6667
+name,Escalier,1,0.0301,0.0,1116.6667
+name,Escamel,1,0.0301,0.0,1116.6667
+name,Etzer Orphelinat,1,0.0301,0.0,1116.6667
+name,FONFRED,1,0.0301,0.0,1116.6667
+name,Farmhouse,1,0.0301,0.0,1116.6667
+name,Faux Cap,1,0.0301,0.0,1116.6667
+name,Favette,1,0.0301,0.0,1116.6667
+name,Favier,1,0.0301,0.0,1116.6667
+name,Fermathe 60,1,0.0301,0.0,1116.6667
+name,Ferrier,1,0.0301,0.0,1116.6667
+name,Fj 12,1,0.0301,0.0,1116.6667
+name,Fj 6,1,0.0301,0.0,1116.6667
+name,Flandre,1,0.0301,0.0,1116.6667
+name,Fleurant,1,0.0301,0.0,1116.6667
+name,Fomentière,1,0.0301,0.0,1116.6667
+name,Fond Bleu,1,0.0301,0.0,1116.6667
+name,Fond Boucan,1,0.0301,0.0,1116.6667
+name,Fond Bucher,1,0.0301,0.0,1116.6667
+name,Fond Charlemagne,1,0.0301,0.0,1116.6667
+name,Fond Ferier,1,0.0301,0.0,1116.6667
+name,Fond Geriose,1,0.0301,0.0,1116.6667
+name,Fond Jogue,1,0.0301,0.0,1116.6667
+name,Fond Liane,1,0.0301,0.0,1116.6667
+name,Fond Marguerite,1,0.0301,0.0,1116.6667
+name,Fond Ragé,1,0.0301,0.0,1116.6667
+name,Fond Rouge,1,0.0301,0.0,1116.6667
+name,Fond d'Icaque,1,0.0301,0.0,1116.6667
+name,Fond-des-Negres,1,0.0301,0.0,1116.6667
+name,Fondin,1,0.0301,0.0,1116.6667
+name,Fonoin Dame Marie,1,0.0301,0.0,1116.6667
+name,Formond,1,0.0301,0.0,1116.6667
+name,Fort-Liberté,1,0.0301,0.0,1116.6667
+name,Fourcand,1,0.0301,0.0,1116.6667
+name,Fouron,1,0.0301,0.0,1116.6667
+name,Fourrien,1,0.0301,0.0,1116.6667
+name,Foyer Culturel/ Cinéma,1,0.0301,0.0,1116.6667
+name,Fradin,1,0.0301,0.0,1116.6667
+name,Fraise,1,0.0301,0.0,1116.6667
+name,Franklin,1,0.0301,0.0,1116.6667
+name,Fripo,1,0.0301,0.0,1116.6667
+name,Fréneau,1,0.0301,0.0,1116.6667
+name,Full Feeling Night Club,1,0.0301,0.0,1116.6667
+name,Férace,1,0.0301,0.0,1116.6667
+name,Gabriel,1,0.0301,0.0,1116.6667
+name,Galette,1,0.0301,0.0,1116.6667
+name,Galleria boutique,1,0.0301,0.0,1116.6667
+name,Ganthier,1,0.0301,0.0,1116.6667
+name,Garage,1,0.0301,0.0,1116.6667
+name,Gardois,1,0.0301,0.0,1116.6667
+name,Garnier,1,0.0301,0.0,1116.6667
+name,Gaspard,1,0.0301,0.0,1116.6667
+name,Gatineau,1,0.0301,0.0,1116.6667
+name,Germain,1,0.0301,0.0,1116.6667
+name,Germon,1,0.0301,0.0,1116.6667
+name,Gerve,1,0.0301,0.0,1116.6667
+name,Gira,1,0.0301,0.0,1116.6667
+name,Gobin,1,0.0301,0.0,1116.6667
+name,God's Littlest Angels Fort Jacques,1,0.0301,0.0,1116.6667
+name,Golfe de la Gonave,1,0.0301,0.0,1116.6667
+name,Gomier,1,0.0301,0.0,1116.6667
+name,Goree,1,0.0301,0.0,1116.6667
+name,Gospel to Haiti,1,0.0301,0.0,1116.6667
+name,Goudin,1,0.0301,0.0,1116.6667
+name,Gour Goue,1,0.0301,0.0,1116.6667
+name,Grand Cimetiere de jacmel,1,0.0301,0.0,1116.6667
+name,Grand Dolle,1,0.0301,0.0,1116.6667
+name,Grand Fond,1,0.0301,0.0,1116.6667
+name,Grand'Anse,1,0.0301,0.0,1116.6667
+name,Grande Baie,1,0.0301,0.0,1116.6667
+name,Grande Caye,1,0.0301,0.0,1116.6667
+name,Grande Passe,1,0.0301,0.0,1116.6667
+name,Grande Pointe,1,0.0301,0.0,1116.6667
+name,Grande Rivière de Nippes,1,0.0301,0.0,1116.6667
+name,Grandois,1,0.0301,0.0,1116.6667
+name,Granger,1,0.0301,0.0,1116.6667
+name,Gras,1,0.0301,0.0,1116.6667
+name,Griffon,1,0.0301,0.0,1116.6667
+name,Gringotte,1,0.0301,0.0,1116.6667
+name,Gros Bassin,1,0.0301,0.0,1116.6667
+name,Gros Guillaume,1,0.0301,0.0,1116.6667
+name,Grosse Roche,1,0.0301,0.0,1116.6667
+name,Guichard,1,0.0301,0.0,1116.6667
+name,Guillaume,1,0.0301,0.0,1116.6667
+name,Guinaudée,1,0.0301,0.0,1116.6667
+name,Guitonière,1,0.0301,0.0,1116.6667
+name,Guérin,1,0.0301,0.0,1116.6667
+name,Gélin,1,0.0301,0.0,1116.6667
+name,HOSPITAL ARMEE DU SALUT/CLINIC BETHEL,1,0.0301,0.0,1116.6667
+name,HOUSE,1,0.0301,0.0,1116.6667
+name,Hatte Barbe,1,0.0301,0.0,1116.6667
+name,Hatte Delice,1,0.0301,0.0,1116.6667
+name,Haut Bois,1,0.0301,0.0,1116.6667
+name,Haut Fort,1,0.0301,0.0,1116.6667
+name,Haut Jonc,1,0.0301,0.0,1116.6667
+name,Henry,1,0.0301,0.0,1116.6667
+name,Herbe Guinée,1,0.0301,0.0,1116.6667
+name,Homes,1,0.0301,0.0,1116.6667
+name,Hopital Maternite Mathieu,1,0.0301,0.0,1116.6667
+name,Hotel Florita parking,1,0.0301,0.0,1116.6667
+name,Houck,1,0.0301,0.0,1116.6667
+name,House 1,1,0.0301,0.0,1116.6667
+name,House 2,1,0.0301,0.0,1116.6667
+name,Hôpital Asile Notre-Dame de Lourdes,1,0.0301,0.0,1116.6667
+name,Hôpital Saint-Jean de Limbé,1,0.0301,0.0,1116.6667
+name,Hôpital de la communauté Dame-Marienne,1,0.0301,0.0,1116.6667
+name,Hôtel de ville de Jérémie,1,0.0301,0.0,1116.6667
+name,Imbert,1,0.0301,0.0,1116.6667
+name,Imma Pharmacie,1,0.0301,0.0,1116.6667
+name,Impasse Beaubrun,1,0.0301,0.0,1116.6667
+name,Impasse Bon Berger,1,0.0301,0.0,1116.6667
+name,Impasse Cossi,1,0.0301,0.0,1116.6667
+name,Impasse Jacques-Louis Prolongee,1,0.0301,0.0,1116.6667
+name,Impasse Jean,1,0.0301,0.0,1116.6667
+name,Impasse Lucieux,1,0.0301,0.0,1116.6667
+name,Impasse Pelican,1,0.0301,0.0,1116.6667
+name,Impasse Saint  Felix,1,0.0301,0.0,1116.6667
+name,Impasse Siloé,1,0.0301,0.0,1116.6667
+name,Impasse Tete ensemble,1,0.0301,0.0,1116.6667
+name,Impasse Thomas,1,0.0301,0.0,1116.6667
+name,Impasse l'Hermonier,1,0.0301,0.0,1116.6667
+name,Industry Building,1,0.0301,0.0,1116.6667
+name,Ivan Narron,1,0.0301,0.0,1116.6667
+name,Jaboin,1,0.0301,0.0,1116.6667
+name,Jabouin,1,0.0301,0.0,1116.6667
+name,Jacolin,1,0.0301,0.0,1116.6667
+name,Jacques,1,0.0301,0.0,1116.6667
+name,Jambon,1,0.0301,0.0,1116.6667
+name,Janvier,1,0.0301,0.0,1116.6667
+name,Jarden de l'ecole national savane zombi,1,0.0301,0.0,1116.6667
+name,Jardin,1,0.0301,0.0,1116.6667
+name,Jasmin,1,0.0301,0.0,1116.6667
+name,Jean Jacques,1,0.0301,0.0,1116.6667
+name,Jean Marie,1,0.0301,0.0,1116.6667
+name,Jean Sac,1,0.0301,0.0,1116.6667
+name,Jean-Baptiste,1,0.0301,0.0,1116.6667
+name,Jean-Rabel,1,0.0301,0.0,1116.6667
+name,Jeantillon,1,0.0301,0.0,1116.6667
+name,Jecquet,1,0.0301,0.0,1116.6667
+name,Jeremie Net,1,0.0301,0.0,1116.6667
+name,Jirodo,1,0.0301,0.0,1116.6667
+name,Jocelyn,1,0.0301,0.0,1116.6667
+name,Jogue,1,0.0301,0.0,1116.6667
+name,Johnstone's Decorating Centre,1,0.0301,0.0,1116.6667
+name,Joujou salon de beaute,1,0.0301,0.0,1116.6667
+name,Juliette,1,0.0301,0.0,1116.6667
+name,Julinette,1,0.0301,0.0,1116.6667
+name,Justable,1,0.0301,0.0,1116.6667
+name,Kay Madan Pepe,1,0.0301,0.0,1116.6667
+name,Kelp Forest,1,0.0301,0.0,1116.6667
+name,Kenscoff 78,1,0.0301,0.0,1116.6667
+name,Krusty Krab,1,0.0301,0.0,1116.6667
+name,L'Estère,1,0.0301,0.0,1116.6667
+name,L'Hermite,1,0.0301,0.0,1116.6667
+name,L'Homond,1,0.0301,0.0,1116.6667
+name,La Bombe,1,0.0301,0.0,1116.6667
+name,La Borde,1,0.0301,0.0,1116.6667
+name,La Cahouane,1,0.0301,0.0,1116.6667
+name,La Chicotte,1,0.0301,0.0,1116.6667
+name,La Chomarche,1,0.0301,0.0,1116.6667
+name,La Coude,1,0.0301,0.0,1116.6667
+name,La Fanmy,1,0.0301,0.0,1116.6667
+name,La Ferme,1,0.0301,0.0,1116.6667
+name,La Fièvre,1,0.0301,0.0,1116.6667
+name,La Foi De Job Boutique,1,0.0301,0.0,1116.6667
+name,La Force,1,0.0301,0.0,1116.6667
+name,La Forêt,1,0.0301,0.0,1116.6667
+name,La Gombrit,1,0.0301,0.0,1116.6667
+name,La Grousse,1,0.0301,0.0,1116.6667
+name,La Joie,1,0.0301,0.0,1116.6667
+name,La Lande,1,0.0301,0.0,1116.6667
+name,La Pointe,1,0.0301,0.0,1116.6667
+name,La Pointe Saline,1,0.0301,0.0,1116.6667
+name,La Port,1,0.0301,0.0,1116.6667
+name,La Roche,1,0.0301,0.0,1116.6667
+name,La Salle,1,0.0301,0.0,1116.6667
+name,La Seringue,1,0.0301,0.0,1116.6667
+name,La Silva,1,0.0301,0.0,1116.6667
+name,La Sise,1,0.0301,0.0,1116.6667
+name,La Sous,1,0.0301,0.0,1116.6667
+name,La Tortue,1,0.0301,0.0,1116.6667
+name,La Vigie,1,0.0301,0.0,1116.6667
+name,La scierie Prolongee,1,0.0301,0.0,1116.6667
+name,Labaye,1,0.0301,0.0,1116.6667
+name,Lacabri,1,0.0301,0.0,1116.6667
+name,Lacadonie,1,0.0301,0.0,1116.6667
+name,Lacombe,1,0.0301,0.0,1116.6667
+name,Laferney,1,0.0301,0.0,1116.6667
+name,Laferrière,1,0.0301,0.0,1116.6667
+name,Lafito,1,0.0301,0.0,1116.6667
+name,Laforêt,1,0.0301,0.0,1116.6667
+name,Lagon Ferou,1,0.0301,0.0,1116.6667
+name,Lagon Fou,1,0.0301,0.0,1116.6667
+name,Lamardier,1,0.0301,0.0,1116.6667
+name,Lan Pose,1,0.0301,0.0,1116.6667
+name,Larieux,1,0.0301,0.0,1116.6667
+name,Latibolière,1,0.0301,0.0,1116.6667
+name,Latique,1,0.0301,0.0,1116.6667
+name,Lato,1,0.0301,0.0,1116.6667
+name,Lavalace,1,0.0301,0.0,1116.6667
+name,Lavalette Dormand,1,0.0301,0.0,1116.6667
+name,Laïte,1,0.0301,0.0,1116.6667
+name,Le Florville,1,0.0301,0.0,1116.6667
+name,Lebas,1,0.0301,0.0,1116.6667
+name,Lebon,1,0.0301,0.0,1116.6667
+name,Ledge,1,0.0301,0.0,1116.6667
+name,Legros,1,0.0301,0.0,1116.6667
+name,Len Miel,1,0.0301,0.0,1116.6667
+name,Lenaire,1,0.0301,0.0,1116.6667
+name,Leon,1,0.0301,0.0,1116.6667
+name,Les Irois,1,0.0301,0.0,1116.6667
+name,Let Lapot,1,0.0301,0.0,1116.6667
+name,Lezinc,1,0.0301,0.0,1116.6667
+name,Liciet,1,0.0301,0.0,1116.6667
+name,Lifranc,1,0.0301,0.0,1116.6667
+name,Limet,1,0.0301,0.0,1116.6667
+name,Limonade,1,0.0301,0.0,1116.6667
+name,Lindor,1,0.0301,0.0,1116.6667
+name,Livrette,1,0.0301,0.0,1116.6667
+name,Logo,1,0.0301,0.0,1116.6667
+name,Longris,1,0.0301,0.0,1116.6667
+name,Lopineau,1,0.0301,0.0,1116.6667
+name,Lormon,1,0.0301,0.0,1116.6667
+name,Lory,1,0.0301,0.0,1116.6667
+name,Lougou,1,0.0301,0.0,1116.6667
+name,Louroux,1,0.0301,0.0,1116.6667
+name,Lourtier,1,0.0301,0.0,1116.6667
+name,Lumette,1,0.0301,0.0,1116.6667
+name,Lycée de Jeunes Filles,1,0.0301,0.0,1116.6667
+name,Léopold,1,0.0301,0.0,1116.6667
+name,Léxi,1,0.0301,0.0,1116.6667
+name,MINUSTAH Camp Uruguay I,1,0.0301,0.0,1116.6667
+name,Macabé,1,0.0301,0.0,1116.6667
+name,Macaya,1,0.0301,0.0,1116.6667
+name,Madame Germain,1,0.0301,0.0,1116.6667
+name,Madame l'Estère,1,0.0301,0.0,1116.6667
+name,Madrier,1,0.0301,0.0,1116.6667
+name,Magasin,1,0.0301,0.0,1116.6667
+name,Mahotière Piment,1,0.0301,0.0,1116.6667
+name,Maillard,1,0.0301,0.0,1116.6667
+name,Main Building,1,0.0301,0.0,1116.6667
+name,Mal Coton,1,0.0301,0.0,1116.6667
+name,Malori,1,0.0301,0.0,1116.6667
+name,Mandou,1,0.0301,0.0,1116.6667
+name,Mangot,1,0.0301,0.0,1116.6667
+name,Manot,1,0.0301,0.0,1116.6667
+name,Manou Nan Sotte,1,0.0301,0.0,1116.6667
+name,Mansinte,1,0.0301,0.0,1116.6667
+name,Mansotte,1,0.0301,0.0,1116.6667
+name,Manze Avril,1,0.0301,0.0,1116.6667
+name,Mapou,1,0.0301,0.0,1116.6667
+name,Mapou Tempe,1,0.0301,0.0,1116.6667
+name,Marcelin,1,0.0301,0.0,1116.6667
+name,Marche Chartuley,1,0.0301,0.0,1116.6667
+name,Marche Peredo,1,0.0301,0.0,1116.6667
+name,Marche à Terre,1,0.0301,0.0,1116.6667
+name,Marcorsi,1,0.0301,0.0,1116.6667
+name,Mare Bœuf,1,0.0301,0.0,1116.6667
+name,Mare Citron,1,0.0301,0.0,1116.6667
+name,Mare Jeanne,1,0.0301,0.0,1116.6667
+name,Mareau,1,0.0301,0.0,1116.6667
+name,Marfranc,1,0.0301,0.0,1116.6667
+name,Mariane,1,0.0301,0.0,1116.6667
+name,Mariani,1,0.0301,0.0,1116.6667
+name,Marie Gérome,1,0.0301,0.0,1116.6667
+name,Marshall,1,0.0301,0.0,1116.6667
+name,Martial,1,0.0301,0.0,1116.6667
+name,Martillet,1,0.0301,0.0,1116.6667
+name,Martin,1,0.0301,0.0,1116.6667
+name,Martino,1,0.0301,0.0,1116.6667
+name,Massica,1,0.0301,0.0,1116.6667
+name,Masson,1,0.0301,0.0,1116.6667
+name,Matador,1,0.0301,0.0,1116.6667
+name,Mathieu,1,0.0301,0.0,1116.6667
+name,Mauras,1,0.0301,0.0,1116.6667
+name,Mauvaises Affaires,1,0.0301,0.0,1116.6667
+name,Maybe a building?,1,0.0301,0.0,1116.6667
+name,Mayette,1,0.0301,0.0,1116.6667
+name,Mazi,1,0.0301,0.0,1116.6667
+name,Mendos,1,0.0301,0.0,1116.6667
+name,Mercery,1,0.0301,0.0,1116.6667
+name,Merci Dieu Bric À Brac,1,0.0301,0.0,1116.6667
+name,Mercier,1,0.0301,0.0,1116.6667
+name,Merger,1,0.0301,0.0,1116.6667
+name,Meroque,1,0.0301,0.0,1116.6667
+name,Mignon,1,0.0301,0.0,1116.6667
+name,Minan,1,0.0301,0.0,1116.6667
+name,Mineur,1,0.0301,0.0,1116.6667
+name,Ministère De L'Environnement,1,0.0301,0.0,1116.6667
+name,Mirande,1,0.0301,0.0,1116.6667
+name,Mirebalais,1,0.0301,0.0,1116.6667
+name,Miya,1,0.0301,0.0,1116.6667
+name,Mondor,1,0.0301,0.0,1116.6667
+name,Monette,1,0.0301,0.0,1116.6667
+name,Monoré,1,0.0301,0.0,1116.6667
+name,Mont Gérard,1,0.0301,0.0,1116.6667
+name,Mont des Cartaches,1,0.0301,0.0,1116.6667
+name,Montagnard,1,0.0301,0.0,1116.6667
+name,Monto,1,0.0301,0.0,1116.6667
+name,Monts de Cartache,1,0.0301,0.0,1116.6667
+name,Montérant,1,0.0301,0.0,1116.6667
+name,Monument de jeremie,1,0.0301,0.0,1116.6667
+name,Morglic,1,0.0301,0.0,1116.6667
+name,Morin,1,0.0301,0.0,1116.6667
+name,Morne Balandier,1,0.0301,0.0,1116.6667
+name,Morne Bellevue,1,0.0301,0.0,1116.6667
+name,Morne Bercy,1,0.0301,0.0,1116.6667
+name,Morne Birotte,1,0.0301,0.0,1116.6667
+name,Morne Blanche,1,0.0301,0.0,1116.6667
+name,Morne Bois Debout,1,0.0301,0.0,1116.6667
+name,Morne Brieux,1,0.0301,0.0,1116.6667
+name,Morne Cali,1,0.0301,0.0,1116.6667
+name,Morne Caïdor,1,0.0301,0.0,1116.6667
+name,Morne Chaineau,1,0.0301,0.0,1116.6667
+name,Morne Chatte,1,0.0301,0.0,1116.6667
+name,Morne Colas,1,0.0301,0.0,1116.6667
+name,Morne Collet,1,0.0301,0.0,1116.6667
+name,Morne Deux Mamelles,1,0.0301,0.0,1116.6667
+name,Morne Douyon,1,0.0301,0.0,1116.6667
+name,Morne Découverte,1,0.0301,0.0,1116.6667
+name,Morne Fond Rouge,1,0.0301,0.0,1116.6667
+name,Morne Granger,1,0.0301,0.0,1116.6667
+name,Morne Gélin,1,0.0301,0.0,1116.6667
+name,Morne Jet d'Eau,1,0.0301,0.0,1116.6667
+name,Morne Jn. Philippe,1,0.0301,0.0,1116.6667
+name,Morne La Source,1,0.0301,0.0,1116.6667
+name,Morne Linton,1,0.0301,0.0,1116.6667
+name,Morne Louissant,1,0.0301,0.0,1116.6667
+name,Morne Malette,1,0.0301,0.0,1116.6667
+name,Morne Mercier,1,0.0301,0.0,1116.6667
+name,Morne Nan Poisson,1,0.0301,0.0,1116.6667
+name,Morne Perdu Temps,1,0.0301,0.0,1116.6667
+name,Morne Roc,1,0.0301,0.0,1116.6667
+name,Morne Rouda,1,0.0301,0.0,1116.6667
+name,Morne Rouge,1,0.0301,0.0,1116.6667
+name,Morne Résolu,1,0.0301,0.0,1116.6667
+name,Morne Sarazin,1,0.0301,0.0,1116.6667
+name,Morne Sinai,1,0.0301,0.0,1116.6667
+name,Morne Smith,1,0.0301,0.0,1116.6667
+name,Morne Tapona,1,0.0301,0.0,1116.6667
+name,Morne Tomber Lever,1,0.0301,0.0,1116.6667
+name,Morne Tuffe,1,0.0301,0.0,1116.6667
+name,Morne des Commissaires,1,0.0301,0.0,1116.6667
+name,Mort,1,0.0301,0.0,1116.6667
+name,Mortel,1,0.0301,0.0,1116.6667
+name,Moulin,1,0.0301,0.0,1116.6667
+name,Mulette,1,0.0301,0.0,1116.6667
+name,Ménadrier,1,0.0301,0.0,1116.6667
+name,Méry,1,0.0301,0.0,1116.6667
+name,NOTRE DAME DES PINS D'ORIANIE,1,0.0301,0.0,1116.6667
+name,Nache,1,0.0301,0.0,1116.6667
+name,Nagossi,1,0.0301,0.0,1116.6667
+name,Nan Baid,1,0.0301,0.0,1116.6667
+name,Nan Bambou,1,0.0301,0.0,1116.6667
+name,Nan Bayard,1,0.0301,0.0,1116.6667
+name,Nan Bento,1,0.0301,0.0,1116.6667
+name,Nan Bois Neuf,1,0.0301,0.0,1116.6667
+name,Nan Borde,1,0.0301,0.0,1116.6667
+name,Nan Cacao,1,0.0301,0.0,1116.6667
+name,Nan Cadet,1,0.0301,0.0,1116.6667
+name,Nan Cajou,1,0.0301,0.0,1116.6667
+name,Nan Campeche,1,0.0301,0.0,1116.6667
+name,Nan Casse,1,0.0301,0.0,1116.6667
+name,Nan Cimite,1,0.0301,0.0,1116.6667
+name,Nan Cirouel,1,0.0301,0.0,1116.6667
+name,Nan Colo,1,0.0301,0.0,1116.6667
+name,Nan Confort,1,0.0301,0.0,1116.6667
+name,Nan Cosse,1,0.0301,0.0,1116.6667
+name,Nan Crapaud,1,0.0301,0.0,1116.6667
+name,Nan Daniel,1,0.0301,0.0,1116.6667
+name,Nan Dassier,1,0.0301,0.0,1116.6667
+name,Nan Diamant,1,0.0301,0.0,1116.6667
+name,Nan Digue,1,0.0301,0.0,1116.6667
+name,Nan Dix Huit,1,0.0301,0.0,1116.6667
+name,Nan Dompté,1,0.0301,0.0,1116.6667
+name,Nan Dupin,1,0.0301,0.0,1116.6667
+name,Nan Dédé,1,0.0301,0.0,1116.6667
+name,Nan Fort,1,0.0301,0.0,1116.6667
+name,Nan Fourneau,1,0.0301,0.0,1116.6667
+name,Nan Georges,1,0.0301,0.0,1116.6667
+name,Nan Gouyave,1,0.0301,0.0,1116.6667
+name,Nan Grand Mas,1,0.0301,0.0,1116.6667
+name,Nan Guillaume,1,0.0301,0.0,1116.6667
+name,Nan L'État,1,0.0301,0.0,1116.6667
+name,Nan Lacour,1,0.0301,0.0,1116.6667
+name,Nan Madeleine,1,0.0301,0.0,1116.6667
+name,Nan Magnioc,1,0.0301,0.0,1116.6667
+name,Nan Mala,1,0.0301,0.0,1116.6667
+name,Nan Maquette,1,0.0301,0.0,1116.6667
+name,Nan Maçon,1,0.0301,0.0,1116.6667
+name,Nan Mouine,1,0.0301,0.0,1116.6667
+name,Nan Moulin,1,0.0301,0.0,1116.6667
+name,Nan Pal,1,0.0301,0.0,1116.6667
+name,Nan Palmiste,1,0.0301,0.0,1116.6667
+name,Nan Plic,1,0.0301,0.0,1116.6667
+name,Nan Plingue,1,0.0301,0.0,1116.6667
+name,Nan Ploma,1,0.0301,0.0,1116.6667
+name,Nan Pola,1,0.0301,0.0,1116.6667
+name,Nan Pont,1,0.0301,0.0,1116.6667
+name,Nan Potu,1,0.0301,0.0,1116.6667
+name,Nan Rat,1,0.0301,0.0,1116.6667
+name,Nan Raynal,1,0.0301,0.0,1116.6667
+name,Nan Redon,1,0.0301,0.0,1116.6667
+name,Nan Rue,1,0.0301,0.0,1116.6667
+name,Nan Récif,1,0.0301,0.0,1116.6667
+name,Nan Saint,1,0.0301,0.0,1116.6667
+name,Nan Salès,1,0.0301,0.0,1116.6667
+name,Nan Seille,1,0.0301,0.0,1116.6667
+name,Nan Six,1,0.0301,0.0,1116.6667
+name,Nan Sévré,1,0.0301,0.0,1116.6667
+name,Nan Zilé,1,0.0301,0.0,1116.6667
+name,Nansinte,1,0.0301,0.0,1116.6667
+name,Napou,1,0.0301,0.0,1116.6667
+name,Nicole,1,0.0301,0.0,1116.6667
+name,Nodeste,1,0.0301,0.0,1116.6667
+name,Noël,1,0.0301,0.0,1116.6667
+name,Oakland Avenue,1,0.0301,0.0,1116.6667
+name,Obère,1,0.0301,0.0,1116.6667
+name,Olive,1,0.0301,0.0,1116.6667
+name,Orange Cay,1,0.0301,0.0,1116.6667
+name,Oranger,1,0.0301,0.0,1116.6667
+name,Oxford Place,1,0.0301,0.0,1116.6667
+name,Palais Justice de Jacmel,1,0.0301,0.0,1116.6667
+name,Palanque,1,0.0301,0.0,1116.6667
+name,Palmiste,1,0.0301,0.0,1116.6667
+name,Pandou,1,0.0301,0.0,1116.6667
+name,Papi,1,0.0301,0.0,1116.6667
+name,Paricot,1,0.0301,0.0,1116.6667
+name,Paris,1,0.0301,0.0,1116.6667
+name,Pascal,1,0.0301,0.0,1116.6667
+name,Passage Président,1,0.0301,0.0,1116.6667
+name,Passe Barbe,1,0.0301,0.0,1116.6667
+name,Passe Mangot,1,0.0301,0.0,1116.6667
+name,Path,1,0.0301,0.0,1116.6667
+name,Patrick's rock,1,0.0301,0.0,1116.6667
+name,Patte Large,1,0.0301,0.0,1116.6667
+name,Payrette,1,0.0301,0.0,1116.6667
+name,Peak,1,0.0301,0.0,1116.6667
+name,Peligrin,1,0.0301,0.0,1116.6667
+name,Perien,1,0.0301,0.0,1116.6667
+name,Pernelé,1,0.0301,0.0,1116.6667
+name,Perrier,1,0.0301,0.0,1116.6667
+name,Perroquet,1,0.0301,0.0,1116.6667
+name,Perry,1,0.0301,0.0,1116.6667
+name,Pestel,1,0.0301,0.0,1116.6667
+name,Petit Anga,1,0.0301,0.0,1116.6667
+name,Petite Cahouane,1,0.0301,0.0,1116.6667
+name,Petite Place,1,0.0301,0.0,1116.6667
+name,Petite Plaine,1,0.0301,0.0,1116.6667
+name,Petite Rivière de Dame Marie,1,0.0301,0.0,1116.6667
+name,Petite Roche,1,0.0301,0.0,1116.6667
+name,Phanord,1,0.0301,0.0,1116.6667
+name,Phare Rouge,1,0.0301,0.0,1116.6667
+name,Philippeaux,1,0.0301,0.0,1116.6667
+name,Picot,1,0.0301,0.0,1116.6667
+name,Pierre,1,0.0301,0.0,1116.6667
+name,Pierre Paul,1,0.0301,0.0,1116.6667
+name,Pierre Philippe,1,0.0301,0.0,1116.6667
+name,Pignon,1,0.0301,0.0,1116.6667
+name,Pinot,1,0.0301,0.0,1116.6667
+name,Pinquière,1,0.0301,0.0,1116.6667
+name,Piton,1,0.0301,0.0,1116.6667
+name,Pity,1,0.0301,0.0,1116.6667
+name,Plaine Charles,1,0.0301,0.0,1116.6667
+name,Plaine Coton,1,0.0301,0.0,1116.6667
+name,Plaine Fonds Rouge,1,0.0301,0.0,1116.6667
+name,Plaine Giffeau,1,0.0301,0.0,1116.6667
+name,Plaine Griffe,1,0.0301,0.0,1116.6667
+name,Plaine Gélin,1,0.0301,0.0,1116.6667
+name,Plaine La Coupe,1,0.0301,0.0,1116.6667
+name,Plaine Martin,1,0.0301,0.0,1116.6667
+name,Plaine Mille,1,0.0301,0.0,1116.6667
+name,Plaine No. 2,1,0.0301,0.0,1116.6667
+name,Plaine Premier,1,0.0301,0.0,1116.6667
+name,Planche,1,0.0301,0.0,1116.6667
+name,Planor,1,0.0301,0.0,1116.6667
+name,Planyac,1,0.0301,0.0,1116.6667
+name,Platon,1,0.0301,0.0,1116.6667
+name,Plonquette,1,0.0301,0.0,1116.6667
+name,Plumbase,1,0.0301,0.0,1116.6667
+name,Poban,1,0.0301,0.0,1116.6667
+name,Pointe A Bougaux,1,0.0301,0.0,1116.6667
+name,Pointe Bourry,1,0.0301,0.0,1116.6667
+name,Pointe Découverte,1,0.0301,0.0,1116.6667
+name,Pointe Fanchon,1,0.0301,0.0,1116.6667
+name,Pointe Ibard,1,0.0301,0.0,1116.6667
+name,Pointe Juif,1,0.0301,0.0,1116.6667
+name,Pointe Laborrie,1,0.0301,0.0,1116.6667
+name,Pointe Macon,1,0.0301,0.0,1116.6667
+name,Pointe Mahot,1,0.0301,0.0,1116.6667
+name,Pointe Paraclet,1,0.0301,0.0,1116.6667
+name,Pointe Rousselin,1,0.0301,0.0,1116.6667
+name,Pointe Testas,1,0.0301,0.0,1116.6667
+name,Pointe Titrou,1,0.0301,0.0,1116.6667
+name,Pointe de la Patte Large,1,0.0301,0.0,1116.6667
+name,Pointe des Aigrettes,1,0.0301,0.0,1116.6667
+name,Pointe des Baleines,1,0.0301,0.0,1116.6667
+name,Pointe du Portugal_Tete Lili,1,0.0301,0.0,1116.6667
+name,Pointe l'Abacou,1,0.0301,0.0,1116.6667
+name,Pointe à Gravois,1,0.0301,0.0,1116.6667
+name,Pointe à Roche,1,0.0301,0.0,1116.6667
+name,Policard,1,0.0301,0.0,1116.6667
+name,Polite,1,0.0301,0.0,1116.6667
+name,Poly,1,0.0301,0.0,1116.6667
+name,Ponce,1,0.0301,0.0,1116.6667
+name,Port Leogane,1,0.0301,0.0,1116.6667
+name,Port Salut,1,0.0301,0.0,1116.6667
+name,Port-Salut,1,0.0301,0.0,1116.6667
+name,Port-à-Piment,1,0.0301,0.0,1116.6667
+name,Portail La Gosseline,1,0.0301,0.0,1116.6667
+name,Possibly a school,1,0.0301,0.0,1116.6667
+name,Poterie,1,0.0301,0.0,1116.6667
+name,Potorien,1,0.0301,0.0,1116.6667
+name,Potu,1,0.0301,0.0,1116.6667
+name,Poty,1,0.0301,0.0,1116.6667
+name,Praslin,1,0.0301,0.0,1116.6667
+name,Premier,1,0.0301,0.0,1116.6667
+name,Presqu'ile Night club,1,0.0301,0.0,1116.6667
+name,Pro Haiti,1,0.0301,0.0,1116.6667
+name,Promu,1,0.0301,0.0,1116.6667
+name,Préval,1,0.0301,0.0,1116.6667
+name,Prévilé,1,0.0301,0.0,1116.6667
+name,Pénitence,1,0.0301,0.0,1116.6667
+name,Quiton,1,0.0301,0.0,1116.6667
+name,Rabit,1,0.0301,0.0,1116.6667
+name,Radio Tele Full Gospel,1,0.0301,0.0,1116.6667
+name,Ragosse,1,0.0301,0.0,1116.6667
+name,Rampart,1,0.0301,0.0,1116.6667
+name,Rampas,1,0.0301,0.0,1116.6667
+name,Rampe Des Lions,1,0.0301,0.0,1116.6667
+name,Rangeard,1,0.0301,0.0,1116.6667
+name,Raton,1,0.0301,0.0,1116.6667
+name,Ravajou,1,0.0301,0.0,1116.6667
+name,Ravette,1,0.0301,0.0,1116.6667
+name,Ravine Blockhauss 2,1,0.0301,0.0,1116.6667
+name,Ravine Blockhauss 6,1,0.0301,0.0,1116.6667
+name,Ravine Bon Dos,1,0.0301,0.0,1116.6667
+name,Ravine Coma,1,0.0301,0.0,1116.6667
+name,Ravine Fécand,1,0.0301,0.0,1116.6667
+name,Ravine Goudin,1,0.0301,0.0,1116.6667
+name,Ravine Jabouin,1,0.0301,0.0,1116.6667
+name,Ravine Mahotière,1,0.0301,0.0,1116.6667
+name,Ravine Moreau,1,0.0301,0.0,1116.6667
+name,Ravine Phare Rouge,1,0.0301,0.0,1116.6667
+name,Ravine Sable,1,0.0301,0.0,1116.6667
+name,Ravine Ti Braudais,1,0.0301,0.0,1116.6667
+name,Ravine des Rouga,1,0.0301,0.0,1116.6667
+name,Ray Sable,1,0.0301,0.0,1116.6667
+name,Raymond,1,0.0301,0.0,1116.6667
+name,Refugee Camp,1,0.0301,0.0,1116.6667
+name,Residential Area,1,0.0301,0.0,1116.6667
+name,"Residential access road, possibly driveway",1,0.0301,0.0,1116.6667
+name,River Amazones,1,0.0301,0.0,1116.6667
+name,Riviere Alexandre,1,0.0301,0.0,1116.6667
+name,Riviere Baret,1,0.0301,0.0,1116.6667
+name,Rivière Amazones,1,0.0301,0.0,1116.6667
+name,Rivière Anse Coudre,1,0.0301,0.0,1116.6667
+name,Rivière Bande Roche,1,0.0301,0.0,1116.6667
+name,Rivière Bois Sec,1,0.0301,0.0,1116.6667
+name,Rivière Bon Pas,1,0.0301,0.0,1116.6667
+name,Rivière Bonbon,1,0.0301,0.0,1116.6667
+name,Rivière Bondonne,1,0.0301,0.0,1116.6667
+name,Rivière Boucun,1,0.0301,0.0,1116.6667
+name,Rivière Bras à Droit,1,0.0301,0.0,1116.6667
+name,Rivière Bras à Droite duplicate,1,0.0301,0.0,1116.6667
+name,Rivière Bras à Gauche,1,0.0301,0.0,1116.6667
+name,Rivière Carpentier,1,0.0301,0.0,1116.6667
+name,Rivière Cayemitte,1,0.0301,0.0,1116.6667
+name,Rivière Chardonnières,1,0.0301,0.0,1116.6667
+name,Rivière Des Anglais,1,0.0301,0.0,1116.6667
+name,Rivière Fomber Lever,1,0.0301,0.0,1116.6667
+name,Rivière Grande Embouchure,1,0.0301,0.0,1116.6667
+name,Rivière Houck,1,0.0301,0.0,1116.6667
+name,Rivière Jamais Vu,1,0.0301,0.0,1116.6667
+name,Rivière La Voldrogue,1,0.0301,0.0,1116.6667
+name,Rivière Lacombe,1,0.0301,0.0,1116.6667
+name,Rivière Lema,1,0.0301,0.0,1116.6667
+name,Rivière Mahot,1,0.0301,0.0,1116.6667
+name,Rivière Malette,1,0.0301,0.0,1116.6667
+name,Rivière Mulet,1,0.0301,0.0,1116.6667
+name,Rivière Nan Cosse,1,0.0301,0.0,1116.6667
+name,Rivière Nan Pont,1,0.0301,0.0,1116.6667
+name,Rivière Petite Embouchure,1,0.0301,0.0,1116.6667
+name,Rivière Redon,1,0.0301,0.0,1116.6667
+name,Rivière Roucou,1,0.0301,0.0,1116.6667
+name,Rivière Source Boeuf,1,0.0301,0.0,1116.6667
+name,Rivière Vendribuche,1,0.0301,0.0,1116.6667
+name,Rivière de La Guinaudée (est),1,0.0301,0.0,1116.6667
+name,Rivière de Port-à-Piment,1,0.0301,0.0,1116.6667
+name,Rivière de Torbeck,1,0.0301,0.0,1116.6667
+name,Rivière des Abricots,1,0.0301,0.0,1116.6667
+name,Rivière des Anglais,1,0.0301,0.0,1116.6667
+name,Roche Miel,1,0.0301,0.0,1116.6667
+name,Roche Pierre,1,0.0301,0.0,1116.6667
+name,Roche à Bateau,1,0.0301,0.0,1116.6667
+name,Roche à Pierre,1,0.0301,0.0,1116.6667
+name,Roditra,1,0.0301,0.0,1116.6667
+name,Romain,1,0.0301,0.0,1116.6667
+name,Rosa,1,0.0301,0.0,1116.6667
+name,Roseaux,1,0.0301,0.0,1116.6667
+name,Rounded building,1,0.0301,0.0,1116.6667
+name,Rout d'entre de l'aeroport de jeremei,1,0.0301,0.0,1116.6667
+name,Route Brefete,1,0.0301,0.0,1116.6667
+name,Route Calebasse,1,0.0301,0.0,1116.6667
+name,Route Casale,1,0.0301,0.0,1116.6667
+name,Route De Merger,1,0.0301,0.0,1116.6667
+name,Route d'entrée de l'aéroport de Jérémie,1,0.0301,0.0,1116.6667
+name,Route de Turin,1,0.0301,0.0,1116.6667
+name,Route de la Maison des Jeunes,1,0.0301,0.0,1116.6667
+name,Route de la localité La Plaine,1,0.0301,0.0,1116.6667
+name,Rue 75,1,0.0301,0.0,1116.6667
+name,Rue A. Petion,1,0.0301,0.0,1116.6667
+name,Rue Acajou,1,0.0301,0.0,1116.6667
+name,Rue Alexandre Petion,1,0.0301,0.0,1116.6667
+name,Rue Anderson Douyon,1,0.0301,0.0,1116.6667
+name,Rue Antoine Simon,1,0.0301,0.0,1116.6667
+name,Rue Barbara,1,0.0301,0.0,1116.6667
+name,Rue Beauvert,1,0.0301,0.0,1116.6667
+name,Rue Berlins,1,0.0301,0.0,1116.6667
+name,Rue Berto,1,0.0301,0.0,1116.6667
+name,Rue Boirond Tonnerre,1,0.0301,0.0,1116.6667
+name,Rue Bon Berger,1,0.0301,0.0,1116.6667
+name,Rue Brice Aine,1,0.0301,0.0,1116.6667
+name,Rue Camalla,1,0.0301,0.0,1116.6667
+name,Rue Camelie,1,0.0301,0.0,1116.6667
+name,Rue Canger,1,0.0301,0.0,1116.6667
+name,Rue Capitale,1,0.0301,0.0,1116.6667
+name,Rue Carrefour Merger 1,1,0.0301,0.0,1116.6667
+name,Rue Cassanova,1,0.0301,0.0,1116.6667
+name,Rue Castel,1,0.0301,0.0,1116.6667
+name,Rue Charlemagne,1,0.0301,0.0,1116.6667
+name,Rue Chateaudin,1,0.0301,0.0,1116.6667
+name,Rue Clément Lanier,1,0.0301,0.0,1116.6667
+name,Rue Coicou,1,0.0301,0.0,1116.6667
+name,Rue Conti,1,0.0301,0.0,1116.6667
+name,Rue Coridon,1,0.0301,0.0,1116.6667
+name,Rue Courte,1,0.0301,0.0,1116.6667
+name,Rue De Peuple,1,0.0301,0.0,1116.6667
+name,Rue Depre Turnier,1,0.0301,0.0,1116.6667
+name,Rue Des Enfants,1,0.0301,0.0,1116.6667
+name,Rue Des Sages,1,0.0301,0.0,1116.6667
+name,Rue Destinville Martineau,1,0.0301,0.0,1116.6667
+name,Rue Dominique,1,0.0301,0.0,1116.6667
+name,Rue Douyon,1,0.0301,0.0,1116.6667
+name,Rue Du Quai,1,0.0301,0.0,1116.6667
+name,Rue Esra,1,0.0301,0.0,1116.6667
+name,Rue Eugène Margron,1,0.0301,0.0,1116.6667
+name,Rue Fraternite,1,0.0301,0.0,1116.6667
+name,Rue Gaston,1,0.0301,0.0,1116.6667
+name,Rue General Borgella,1,0.0301,0.0,1116.6667
+name,Rue Gerome,1,0.0301,0.0,1116.6667
+name,Rue Grossin,1,0.0301,0.0,1116.6667
+name,Rue Guerrier,1,0.0301,0.0,1116.6667
+name,Rue Guinou,1,0.0301,0.0,1116.6667
+name,Rue Général Marion,1,0.0301,0.0,1116.6667
+name,Rue Haut Macombre,1,0.0301,0.0,1116.6667
+name,Rue Haut Miton,1,0.0301,0.0,1116.6667
+name,Rue Inoubliable,1,0.0301,0.0,1116.6667
+name,Rue Isaac Pardo,1,0.0301,0.0,1116.6667
+name,Rue J Jacques Acaau,1,0.0301,0.0,1116.6667
+name,Rue Jn Price Mars,1,0.0301,0.0,1116.6667
+name,Rue La Falaise,1,0.0301,0.0,1116.6667
+name,Rue La Paix,1,0.0301,0.0,1116.6667
+name,Rue Lamartinière,1,0.0301,0.0,1116.6667
+name,Rue Lamothe,1,0.0301,0.0,1116.6667
+name,Rue Liberte,1,0.0301,0.0,1116.6667
+name,Rue Lotin,1,0.0301,0.0,1116.6667
+name,Rue Louverture,1,0.0301,0.0,1116.6667
+name,Rue Maque,1,0.0301,0.0,1116.6667
+name,Rue Maqueu,1,0.0301,0.0,1116.6667
+name,Rue Marielle,1,0.0301,0.0,1116.6667
+name,Rue Mesmer,1,0.0301,0.0,1116.6667
+name,Rue Milery,1,0.0301,0.0,1116.6667
+name,Rue Monseigneur Beauger,1,0.0301,0.0,1116.6667
+name,Rue Monseigneur Maurice,1,0.0301,0.0,1116.6667
+name,Rue Napoléon,1,0.0301,0.0,1116.6667
+name,Rue Nazareen,1,0.0301,0.0,1116.6667
+name,Rue Nicolas Geffrard,1,0.0301,0.0,1116.6667
+name,Rue Nord Alexis,1,0.0301,0.0,1116.6667
+name,Rue Paulin,1,0.0301,0.0,1116.6667
+name,Rue Pequin,1,0.0301,0.0,1116.6667
+name,Rue Petit,1,0.0301,0.0,1116.6667
+name,Rue Philantrope,1,0.0301,0.0,1116.6667
+name,Rue Projete,1,0.0301,0.0,1116.6667
+name,Rue Prospere Faure,1,0.0301,0.0,1116.6667
+name,Rue Prospère Faure,1,0.0301,0.0,1116.6667
+name,Rue Saint  Dominique,1,0.0301,0.0,1116.6667
+name,Rue Saint Anne,1,0.0301,0.0,1116.6667
+name,Rue Saint Fleur,1,0.0301,0.0,1116.6667
+name,Rue Saint Michel,1,0.0301,0.0,1116.6667
+name,Rue Saint Ode,1,0.0301,0.0,1116.6667
+name,Rue Simon Bolivar,1,0.0301,0.0,1116.6667
+name,Rue St Nicolas,1,0.0301,0.0,1116.6667
+name,Rue Stenio Vincent,1,0.0301,0.0,1116.6667
+name,Rue Sténio Vincent,1,0.0301,0.0,1116.6667
+name,Rue Trisconte,1,0.0301,0.0,1116.6667
+name,Rue Valieres,1,0.0301,0.0,1116.6667
+name,Rue d'Eslaing,1,0.0301,0.0,1116.6667
+name,Rue de L Union,1,0.0301,0.0,1116.6667
+name,Rue de l'Azile,1,0.0301,0.0,1116.6667
+name,Rue de l'Église,1,0.0301,0.0,1116.6667
+name,Rue de la Ravine,1,0.0301,0.0,1116.6667
+name,Rue des Bons Enfants,1,0.0301,0.0,1116.6667
+name,Rue des Stars,1,0.0301,0.0,1116.6667
+name,Rue liberte II,1,0.0301,0.0,1116.6667
+name,Ruelle  Marielle,1,0.0301,0.0,1116.6667
+name,Ruelle  Rhéna,1,0.0301,0.0,1116.6667
+name,Ruelle Anglade,1,0.0301,0.0,1116.6667
+name,Ruelle Avenel,1,0.0301,0.0,1116.6667
+name,Ruelle Baudouin,1,0.0301,0.0,1116.6667
+name,Ruelle Beauvert,1,0.0301,0.0,1116.6667
+name,Ruelle Benoit,1,0.0301,0.0,1116.6667
+name,Ruelle Breda Oasis,1,0.0301,0.0,1116.6667
+name,Ruelle Ebex,1,0.0301,0.0,1116.6667
+name,Ruelle Georges,1,0.0301,0.0,1116.6667
+name,Ruelle Gregroire,1,0.0301,0.0,1116.6667
+name,Ruelle Jean Kenol,1,0.0301,0.0,1116.6667
+name,Ruelle Jean Kénol,1,0.0301,0.0,1116.6667
+name,Ruelle Jean Paul II,1,0.0301,0.0,1116.6667
+name,Ruelle Jerusalem,1,0.0301,0.0,1116.6667
+name,Ruelle Jeudy,1,0.0301,0.0,1116.6667
+name,Ruelle Joseph,1,0.0301,0.0,1116.6667
+name,Ruelle La Paix,1,0.0301,0.0,1116.6667
+name,Ruelle Laleau,1,0.0301,0.0,1116.6667
+name,Ruelle Lumière,1,0.0301,0.0,1116.6667
+name,Ruelle Manacee,1,0.0301,0.0,1116.6667
+name,Ruelle Napoleon,1,0.0301,0.0,1116.6667
+name,Ruelle Nomination,1,0.0301,0.0,1116.6667
+name,Ruelle Optimiste,1,0.0301,0.0,1116.6667
+name,Ruelle Secour,1,0.0301,0.0,1116.6667
+name,Ruelle Sepha,1,0.0301,0.0,1116.6667
+name,Ruelle Votaire,1,0.0301,0.0,1116.6667
+name,Ruelle de l'Hopital,1,0.0301,0.0,1116.6667
+name,Ruelle sans souci,1,0.0301,0.0,1116.6667
+name,Rural,1,0.0301,0.0,1116.6667
+name,SKS Petite Rivière de Dame Marie,1,0.0301,0.0,1116.6667
+name,Safehouse-like-building,1,0.0301,0.0,1116.6667
+name,Saint Cyr,1,0.0301,0.0,1116.6667
+name,Saint Jean,1,0.0301,0.0,1116.6667
+name,Saint Jean du Sud,1,0.0301,0.0,1116.6667
+name,Saint Juste,1,0.0301,0.0,1116.6667
+name,Saint Lot,1,0.0301,0.0,1116.6667
+name,Saint Louis,1,0.0301,0.0,1116.6667
+name,Saint Perard,1,0.0301,0.0,1116.6667
+name,Saint Victor,1,0.0301,0.0,1116.6667
+name,Saint-Dic,1,0.0301,0.0,1116.6667
+name,Saint-Gérard,1,0.0301,0.0,1116.6667
+name,Saint-Mesmin,1,0.0301,0.0,1116.6667
+name,Sainte Anne,1,0.0301,0.0,1116.6667
+name,Sainte Hélène,1,0.0301,0.0,1116.6667
+name,Sainte Hélène d'Anse d'Hainault,1,0.0301,0.0,1116.6667
+name,Sainte Marie,1,0.0301,0.0,1116.6667
+name,Saintil,1,0.0301,0.0,1116.6667
+name,Sajotte,1,0.0301,0.0,1116.6667
+name,Samedi,1,0.0301,0.0,1116.6667
+name,Sans-Souci,1,0.0301,0.0,1116.6667
+name,Sara,1,0.0301,0.0,1116.6667
+name,Sarc,1,0.0301,0.0,1116.6667
+name,Saut-Duvézin,1,0.0301,0.0,1116.6667
+name,Sauvé,1,0.0301,0.0,1116.6667
+name,Savane Zombi,1,0.0301,0.0,1116.6667
+name,Scipion,1,0.0301,0.0,1116.6667
+name,Sentier,1,0.0301,0.0,1116.6667
+name,Shanti Town,1,0.0301,0.0,1116.6667
+name,Sicard,1,0.0301,0.0,1116.6667
+name,Simon,1,0.0301,0.0,1116.6667
+name,Sincao,1,0.0301,0.0,1116.6667
+name,Small Stream,1,0.0301,0.0,1116.6667
+name,Soccer Field,1,0.0301,0.0,1116.6667
+name,Somate,1,0.0301,0.0,1116.6667
+name,Soulé,1,0.0301,0.0,1116.6667
+name,Souma,1,0.0301,0.0,1116.6667
+name,Source Abricot,1,0.0301,0.0,1116.6667
+name,Source Belle Dent,1,0.0301,0.0,1116.6667
+name,Source Boudin,1,0.0301,0.0,1116.6667
+name,Source Bœuf,1,0.0301,0.0,1116.6667
+name,Source Cassa,1,0.0301,0.0,1116.6667
+name,Source Chérie,1,0.0301,0.0,1116.6667
+name,Source Dagoussa,1,0.0301,0.0,1116.6667
+name,Source Deslande,1,0.0301,0.0,1116.6667
+name,Source Froide,1,0.0301,0.0,1116.6667
+name,Source Georges,1,0.0301,0.0,1116.6667
+name,Source Salée,1,0.0301,0.0,1116.6667
+name,Sources Chaudes,1,0.0301,0.0,1116.6667
+name,Sous Commissariat Fond Verettes,1,0.0301,0.0,1116.6667
+name,Sous Commissariat Fonds Parisien,1,0.0301,0.0,1116.6667
+name,Sous Commissariat Terre Rouge,1,0.0301,0.0,1116.6667
+name,Sous-Comissariat de Fort Jacques,1,0.0301,0.0,1116.6667
+name,Spongebob's pineapple,1,0.0301,0.0,1116.6667
+name,Squidward's house,1,0.0301,0.0,1116.6667
+name,Séjour,1,0.0301,0.0,1116.6667
+name,Sêche,1,0.0301,0.0,1116.6667
+name,Table au Diable,1,0.0301,0.0,1116.6667
+name,Tampis,1,0.0301,0.0,1116.6667
+name,Tapion,1,0.0301,0.0,1116.6667
+name,Tapona,1,0.0301,0.0,1116.6667
+name,Taquin,1,0.0301,0.0,1116.6667
+name,Taverne,1,0.0301,0.0,1116.6667
+name,Temple de Vaudou de Carre,1,0.0301,0.0,1116.6667
+name,Temple vaudou,1,0.0301,0.0,1116.6667
+name,Terre Blanche,1,0.0301,0.0,1116.6667
+name,Tesco Express,1,0.0301,0.0,1116.6667
+name,Tessier,1,0.0301,0.0,1116.6667
+name,Testas,1,0.0301,0.0,1116.6667
+name,Tete la Dliglois,1,0.0301,0.0,1116.6667
+name,The One Auto Ecole,1,0.0301,0.0,1116.6667
+name,Thomassin 29,1,0.0301,0.0,1116.6667
+name,Thomazeau,1,0.0301,0.0,1116.6667
+name,Thomonde,1,0.0301,0.0,1116.6667
+name,Three houses/huts,1,0.0301,0.0,1116.6667
+name,Théophile,1,0.0301,0.0,1116.6667
+name,Ti Calebasse,1,0.0301,0.0,1116.6667
+name,Ti Folie,1,0.0301,0.0,1116.6667
+name,Ti L'Etang,1,0.0301,0.0,1116.6667
+name,Ti Place,1,0.0301,0.0,1116.6667
+name,Ti Rivière,1,0.0301,0.0,1116.6667
+name,Ti Vernil,1,0.0301,0.0,1116.6667
+name,Tiburon,1,0.0301,0.0,1116.6667
+name,Timare,1,0.0301,0.0,1116.6667
+name,Tinglade,1,0.0301,0.0,1116.6667
+name,Topy,1,0.0301,0.0,1116.6667
+name,Torbeck,1,0.0301,0.0,1116.6667
+name,Tortuga,1,0.0301,0.0,1116.6667
+name,Tosia,1,0.0301,0.0,1116.6667
+name,Total,1,0.0301,0.0,1116.6667
+name,Toupiase,1,0.0301,0.0,1116.6667
+name,Tourneau,1,0.0301,0.0,1116.6667
+name,Toute Borne,1,0.0301,0.0,1116.6667
+name,Town of Coteaux,1,0.0301,0.0,1116.6667
+name,Triple,1,0.0301,0.0,1116.6667
+name,Trois Sources,1,0.0301,0.0,1116.6667
+name,Trou Bois,1,0.0301,0.0,1116.6667
+name,Trou Bonbon,1,0.0301,0.0,1116.6667
+name,Trou Grosse Pierre,1,0.0301,0.0,1116.6667
+name,Trou Louis,1,0.0301,0.0,1116.6667
+name,Trou Maingnain,1,0.0301,0.0,1116.6667
+name,Trou Palouse,1,0.0301,0.0,1116.6667
+name,Trou d'Enfer,1,0.0301,0.0,1116.6667
+name,Trouillac,1,0.0301,0.0,1116.6667
+name,Troupeau,1,0.0301,0.0,1116.6667
+name,Tête Digue,1,0.0301,0.0,1116.6667
+name,Union Européenne,1,0.0301,0.0,1116.6667
+name,Universite Nouvelle Grande Anse Unoga,1,0.0301,0.0,1116.6667
+name,V1,1,0.0301,0.0,1116.6667
+name,Vainqueur,1,0.0301,0.0,1116.6667
+name,Valade,1,0.0301,0.0,1116.6667
+name,Valmor,1,0.0301,0.0,1116.6667
+name,Valère,1,0.0301,0.0,1116.6667
+name,Vancol,1,0.0301,0.0,1116.6667
+name,Verdun,1,0.0301,0.0,1116.6667
+name,Verger,1,0.0301,0.0,1116.6667
+name,Versailles,1,0.0301,0.0,1116.6667
+name,Viard,1,0.0301,0.0,1116.6667
+name,Vido,1,0.0301,0.0,1116.6667
+name,Vieux Bac,1,0.0301,0.0,1116.6667
+name,Vieux Bourg de Jérémie,1,0.0301,0.0,1116.6667
+name,Vincent,1,0.0301,0.0,1116.6667
+name,Voie menant à l'École nationale Édouard Cavée,1,0.0301,0.0,1116.6667
+name,Véronne,1,0.0301,0.0,1116.6667
+name,Walton Road,1,0.0301,0.0,1116.6667
+name,Warehouse,1,0.0301,0.0,1116.6667
+name,Welsh,1,0.0301,0.0,1116.6667
+name,Wood,1,0.0301,0.0,1116.6667
+name,ZA,1,0.0301,0.0,1116.6667
+name,Zenith Barber,1,0.0301,0.0,1116.6667
+name,Zénith Barber,1,0.0301,0.0,1116.6667
+name,Zénith Complexe,1,0.0301,0.0,1116.6667
+name,Zéphir,1,0.0301,0.0,1116.6667
+name,apt2,1,0.0301,0.0,1116.6667
+name,apt3,1,0.0301,0.0,1116.6667
+name,apt4,1,0.0301,0.0,1116.6667
+name,atellier calvary chapel,1,0.0301,0.0,1116.6667
+name,b building,1,0.0301,0.0,1116.6667
+name,barn,1,0.0301,0.0,1116.6667
+name,bayard,1,0.0301,0.0,1116.6667
+name,breman,1,0.0301,0.0,1116.6667
+name,building1,1,0.0301,0.0,1116.6667
+name,building10,1,0.0301,0.0,1116.6667
+name,building11,1,0.0301,0.0,1116.6667
+name,building12,1,0.0301,0.0,1116.6667
+name,building13,1,0.0301,0.0,1116.6667
+name,building14,1,0.0301,0.0,1116.6667
+name,building15,1,0.0301,0.0,1116.6667
+name,building16,1,0.0301,0.0,1116.6667
+name,building17,1,0.0301,0.0,1116.6667
+name,building18,1,0.0301,0.0,1116.6667
+name,building19,1,0.0301,0.0,1116.6667
+name,building2,1,0.0301,0.0,1116.6667
+name,building20,1,0.0301,0.0,1116.6667
+name,building3,1,0.0301,0.0,1116.6667
+name,building4,1,0.0301,0.0,1116.6667
+name,building5,1,0.0301,0.0,1116.6667
+name,building6,1,0.0301,0.0,1116.6667
+name,building8,1,0.0301,0.0,1116.6667
+name,building9,1,0.0301,0.0,1116.6667
+name,building?,1,0.0301,0.0,1116.6667
+name,buildings,1,0.0301,0.0,1116.6667
+name,bureau comite regional de la croix-rouge du sud-est,1,0.0301,0.0,1116.6667
+name,bureau voila,1,0.0301,0.0,1116.6667
+name,carre pingouin,1,0.0301,0.0,1116.6667
+name,centre de santé de Kenscoff,1,0.0301,0.0,1116.6667
+name,cimetiere de Kenscoff,1,0.0301,0.0,1116.6667
+name,cimetiere thiotte,1,0.0301,0.0,1116.6667
+name,college auguste pascal de peredo,1,0.0301,0.0,1116.6667
+name,commercial store,1,0.0301,0.0,1116.6667
+name,community,1,0.0301,0.0,1116.6667
+name,dieu est amour,1,0.0301,0.0,1116.6667
+name,dirt path,1,0.0301,0.0,1116.6667
+name,ecole nationale mixte du Borgne,1,0.0301,0.0,1116.6667
+name,eglise,1,0.0301,0.0,1116.6667
+name,eglise baptiste,1,0.0301,0.0,1116.6667
+name,eglise baptiste de sanai,1,0.0301,0.0,1116.6667
+name,eglise catholic bon samaritain,1,0.0301,0.0,1116.6667
+name,eglise chretienne grace et depart,1,0.0301,0.0,1116.6667
+name,eglise et ecole pradel pompilus,1,0.0301,0.0,1116.6667
+name,entrer nan reseve,1,0.0301,0.0,1116.6667
+name,ex - Route Nationale # 7,1,0.0301,0.0,1116.6667
+name,farm home,1,0.0301,0.0,1116.6667
+name,farmland building,1,0.0301,0.0,1116.6667
+name,freedom bar,1,0.0301,0.0,1116.6667
+name,frue fotcoh,1,0.0301,0.0,1116.6667
+name,good park - there is nothing in this square,1,0.0301,0.0,1116.6667
+name,guimo auto parts,1,0.0301,0.0,1116.6667
+name,idk what this is,1,0.0301,0.0,1116.6667
+name,impasse cacilice,1,0.0301,0.0,1116.6667
+name,impasse lindord,1,0.0301,0.0,1116.6667
+name,impasse mayard,1,0.0301,0.0,1116.6667
+name,just a few homes it seems,1,0.0301,0.0,1116.6667
+name,k-douge,1,0.0301,0.0,1116.6667
+name,kapresse,1,0.0301,0.0,1116.6667
+name,l'eglise de dieu de la petite riviera,1,0.0301,0.0,1116.6667
+name,la plaine,1,0.0301,0.0,1116.6667
+name,large Hourse,1,0.0301,0.0,1116.6667
+name,mare jean pierre,1,0.0301,0.0,1116.6667
+name,marie madelaine,1,0.0301,0.0,1116.6667
+name,mazarin 1,1,0.0301,0.0,1116.6667
+name,monchil 1,1,0.0301,0.0,1116.6667
+name,more homes,1,0.0301,0.0,1116.6667
+name,nan fontenn,1,0.0301,0.0,1116.6667
+name,not sure if homes or industrial buildings but better safe than sorry,1,0.0301,0.0,1116.6667
+name,one house,1,0.0301,0.0,1116.6667
+name,outpost,1,0.0301,0.0,1116.6667
+name,portail la gosseline,1,0.0301,0.0,1116.6667
+name,primitive hut,1,0.0301,0.0,1116.6667
+name,refugee camp,1,0.0301,0.0,1116.6667
+name,route calvaire,1,0.0301,0.0,1116.6667
+name,route des orangers,1,0.0301,0.0,1116.6667
+name,route service du ferme,1,0.0301,0.0,1116.6667
+name,rue gondive,1,0.0301,0.0,1116.6667
+name,rue l'arbre,1,0.0301,0.0,1116.6667
+name,ruelle timot,1,0.0301,0.0,1116.6667
+name,shop siloe,1,0.0301,0.0,1116.6667
+name,single family home,1,0.0301,0.0,1116.6667
+name,small outpost,1,0.0301,0.0,1116.6667
+name,subcomplex,1,0.0301,0.0,1116.6667
+name,there seems to be several things in this area but not sure if they are buildings,1,0.0301,0.0,1116.6667
+name,ti peredo,1,0.0301,0.0,1116.6667
+name,toilettes,1,0.0301,0.0,1116.6667
+name,tomabrun,1,0.0301,0.0,1116.6667
+name,town,1,0.0301,0.0,1116.6667
+name,tribunal de paix de Kenscoff,1,0.0301,0.0,1116.6667
+name,two houses,1,0.0301,0.0,1116.6667
+name,usine bloc,1,0.0301,0.0,1116.6667
+name,vhhh,1,0.0301,0.0,1116.6667
+name,warehouse,1,0.0301,0.0,1116.6667
+name,way to single homse,1,0.0301,0.0,1116.6667
+name,École Communautaire de Mathurin,1,0.0301,0.0,1116.6667
+name,École Fondamentale d'App,1,0.0301,0.0,1116.6667
+name,École Marguerite D.Youville,1,0.0301,0.0,1116.6667
+name,École Mixte Nouvelle Lamannien,1,0.0301,0.0,1116.6667
+name,École Moderne Galilelien,1,0.0301,0.0,1116.6667
+name,École Nation de Bombom,1,0.0301,0.0,1116.6667
+name,École Nationale,1,0.0301,0.0,1116.6667
+name,École Nationale Edner Rey,1,0.0301,0.0,1116.6667
+name,École Nationale Mixte Edner Etienne,1,0.0301,0.0,1116.6667
+name,École Nationale de Cahouane,1,0.0301,0.0,1116.6667
+name,École Nationale de Catherine Flon,1,0.0301,0.0,1116.6667
+name,École Presbytérale,1,0.0301,0.0,1116.6667
+name,École Presbytérale de Bombom,1,0.0301,0.0,1116.6667
+name,École Saint Charles Carrefour sanon,1,0.0301,0.0,1116.6667
+name,École Saint-Joseph,1,0.0301,0.0,1116.6667
+name,École nationale Hotensuis Merlet,1,0.0301,0.0,1116.6667
+name,Église,1,0.0301,0.0,1116.6667
+name,Église Baptiste de Tiburon,1,0.0301,0.0,1116.6667
+name,Église Baptiste de Tiburon MEBLH,1,0.0301,0.0,1116.6667
+name,Église Catholique,1,0.0301,0.0,1116.6667
+name,Église Catholique Saint-Louis Gonzague,1,0.0301,0.0,1116.6667
+name,Église Crois en Seigneur Jésus,1,0.0301,0.0,1116.6667
+name,Église Gospel,1,0.0301,0.0,1116.6667
+name,Église Methodiste d'Haiti,1,0.0301,0.0,1116.6667
+name,Église Saint François carrefour sanon,1,0.0301,0.0,1116.6667
+name,Église Saint Monfort d'Orouck,1,0.0301,0.0,1116.6667
+name,Église Saint Pierre des Baradères,1,0.0301,0.0,1116.6667
+name,Église catholique,1,0.0301,0.0,1116.6667
+name,Église de Dieu la Sainte Cité,1,0.0301,0.0,1116.6667
+name,Électronique center,1,0.0301,0.0,1116.6667
+name,Étang Bellevue,1,0.0301,0.0,1116.6667
+name,Étang Célina,1,0.0301,0.0,1116.6667
+name,Étang Pernelé,1,0.0301,0.0,1116.6667
+name,Île Boyer,1,0.0301,0.0,1116.6667
+name,Île Corny,1,0.0301,0.0,1116.6667
+name,Île Pierre Joseph,1,0.0301,0.0,1116.6667
+name,Îlet Moustique,1,0.0301,0.0,1116.6667
+name,Îlet des Irois,1,0.0301,0.0,1116.6667
+natural,tree,338,31.6479,33700.0,411133.3333
+natural,wood,181,16.9476,18000.0,220116.6667
+natural,water,176,16.4794,17500.0,214033.3333
+natural,coastline,166,15.5431,16500.0,201866.6667
+natural,peak,73,6.8352,7200.0,88716.6667
+natural,scrub,39,3.6517,3800.0,47350.0
+natural,cliff,24,2.2472,2300.0,29100.0
+natural,ridge,24,2.2472,2300.0,29100.0
+natural,bay,17,1.5918,1600.0,20583.3333
+natural,wetland,13,1.2172,1200.0,15716.6667
+natural,shingle,4,0.3745,300.0,4766.6667
+natural,beach,2,0.1873,100.0,2333.3333
+natural,mud,2,0.1873,100.0,2333.3333
+natural,Lamentin,1,0.0936,0.0,1116.6667
+natural,Massif de la Hotte,1,0.0936,0.0,1116.6667
+natural,Pic Macaya,1,0.0936,0.0,1116.6667
+natural,diff,1,0.0936,0.0,1116.6667
+natural,grass,1,0.0936,0.0,1116.6667
+natural,point,1,0.0936,0.0,1116.6667
+natural,sand,1,0.0936,0.0,1116.6667
+natural,scree,1,0.0936,0.0,1116.6667
+natural,spring,1,0.0936,0.0,1116.6667
+source,bing,11533,39.3739,1153200.0,14031716.6667
+source,Bing,9331,31.8562,933000.0,11352616.6667
+source,tiles.mapbox.com/v4/digitalglobe.nal0g75k/{zoom},2179,7.4391,217800.0,2651016.6667
+source,digitalglobe,1457,4.9742,145600.0,1772583.3333
+source,mapbox:ortho,678,2.3147,67700.0,824800.0
+source,DigitalGlobe,362,1.2359,36100.0,440333.3333
+source,DRA Topo Map50,261,0.8911,26000.0,317450.0
+source,haiti-tlm-50,212,0.7238,21100.0,257833.3333
+source,GeoEye,189,0.6452,18800.0,229850.0
+source,hot_iom_cosmha,173,0.5906,17200.0,210383.3333
+source,"CNIGS, Haiti, 2014-2015",171,0.5838,17000.0,207950.0
+source,"WorldView-2, DigitalGlobe, 2010-01-21",157,0.536,15600.0,190916.6667
+source,survey,146,0.4984,14500.0,177533.3333
+source,"Google, 2010-01-21",117,0.3994,11600.0,142250.0
+source,ikonos/geoeye,99,0.338,9800.0,120350.0
+source,"<différent>,UAV,IOM,COSMHA,SIGHA",96,0.3277,9500.0,116700.0
+source,"WorldView-2, DigitalGlobe, 2010-01-18",96,0.3277,9500.0,116700.0
+source,UAV 2016-10-15 Potentiel 3.0,86,0.2936,8500.0,104533.3333
+source,hot-iom-cosmha,77,0.2629,7600.0,93583.3333
+source,hot_c.osm-ha_iom,77,0.2629,7600.0,93583.3333
+source,"NOAA, 2010-01-24",75,0.2561,7400.0,91150.0
+source,Yahoo,58,0.198,5700.0,70466.6667
+source,"WorldBank, 2010-01-24",56,0.1912,5500.0,68033.3333
+source,"satellite, DigitalGlobe, 2010/01/18",55,0.1878,5400.0,66816.6667
+source,"DigitalGlobe, 2010",51,0.1741,5000.0,61950.0
+source,"U.S. Defense Mapping Agency, 1984",49,0.1673,4800.0,59516.6667
+source,topomap 1:50K,44,0.1502,4300.0,53433.3333
 source,"Ikonos, GeoEye, 2010-01-15",40,0.1366,3900.0,48566.6667
 source,hot _c.osm-ha_iom,40,0.1366,3900.0,48566.6667
-source,CNIGS/OIM/FOCS,38,0.1298,3700.0,46133.3333
-source,Digital Globe Maps API,37,0.1264,3600.0,44916.6667
-source,mapbox:digitalglobe,37,0.1264,3600.0,44916.6667
-source,Bing 2016,35,0.1196,3400.0,42483.3333
+source,CNIGS/OIM/FOCS,38,0.1297,3700.0,46133.3333
+source,Digital Globe Maps API,37,0.1263,3600.0,44916.6667
+source,mapbox:digitalglobe,37,0.1263,3600.0,44916.6667
+source,Bing 2016,35,0.1195,3400.0,42483.3333
 source,"1:12,500, Edition 2-DMA, Series E935. U.S. Defense Mapping Agency, 1987",34,0.1161,3300.0,41266.6667
 source,hot_cosmha_iom,34,0.1161,3300.0,41266.6667
 source,NOAA 2010-01-24,33,0.1127,3200.0,40050.0
-source,geoeye,32,0.1093,3100.0,38833.3333
-source,Bing 2013,29,0.0991,2800.0,35183.3333
-source,"WorldView-2, DigitalGlobe, 2010/01/18",29,0.0991,2800.0,35183.3333
+source,geoeye,32,0.1092,3100.0,38833.3333
+source,Bing 2013,29,0.099,2800.0,35183.3333
+source,"WorldView-2, DigitalGlobe, 2010/01/18",29,0.099,2800.0,35183.3333
 source,"NOAA, 2010-01-24;digitalglobe;digitalglobe;digitalglobe;NOAA, 2010-01-24;digitalglobe;digitalglobe;digitalglobe;digitalglobe;digitalglobe;digitalglobe",28,0.0956,2700.0,33966.6667
 source,DMA TLM-50,25,0.0854,2400.0,30316.6667
 source,http://hypercube.telascience.org/tiles/1.0.0/haiti-best-900913/!/!/!.jpg,25,0.0854,2400.0,30316.6667
-source,DTM/GIS/OIM,23,0.0786,2200.0,27883.3333
+source,DTM/GIS/OIM,23,0.0785,2200.0,27883.3333
+source,Yahoo;CIA maps,22,0.0751,2100.0,26666.6667
 source,"UAV 2016-10-07, Potentiel 3.0",21,0.0717,2000.0,25450.0
-source,Yahoo;CIA maps,21,0.0717,2000.0,25450.0
 source,"Bing + UAV 2016-10-07, Potentiel 3.0",20,0.0683,1900.0,24233.3333
 source,"NOAA, 2010-01-20",20,0.0683,1900.0,24233.3333
 source,GNS,19,0.0649,1800.0,23016.6667
@@ -2003,7 +2015,7 @@ source,"NOAA, 2010-01-22",19,0.0649,1800.0,23016.6667
 source,UAV imagery 2016 Potentiel3.0,19,0.0649,1800.0,23016.6667
 source,GEOINT,18,0.0615,1700.0,21800.0
 source,"GeoEye1, GeoEye, 2010-01-13",18,0.0615,1700.0,21800.0
-source,CIA TLM 50,16,0.0547,1500.0,19366.6667
+source,CIA TLM 50,16,0.0546,1500.0,19366.6667
 source,Bing 2014,15,0.0512,1400.0,18150.0
 source,http://hypercube.telascience.org/tiles/1.0.0/haiti-tlm-50/!/!/!.jpg,15,0.0512,1400.0,18150.0
 source,"WorldBank, 2010-01-22",14,0.0478,1300.0,16933.3333
@@ -2015,11 +2027,11 @@ source,1:50k topo,11,0.0376,1000.0,13283.3333
 source,Bing sat,11,0.0376,1000.0,13283.3333
 source,digitalglobe; Bing,11,0.0376,1000.0,13283.3333
 source,gps,11,0.0376,1000.0,13283.3333
-source,Bing; GeoEye,10,0.0342,900.0,12066.6667
-source,"DigialGlobe, 2010",10,0.0342,900.0,12066.6667
-source,DigitalGlobe;NOAA-2010-01-24,10,0.0342,900.0,12066.6667
-source,"landsat, DigitalGlobe, 2010/01/18",10,0.0342,900.0,12066.6667
-source,survey; Bing,10,0.0342,900.0,12066.6667
+source,Bing; GeoEye,10,0.0341,900.0,12066.6667
+source,"DigialGlobe, 2010",10,0.0341,900.0,12066.6667
+source,DigitalGlobe;NOAA-2010-01-24,10,0.0341,900.0,12066.6667
+source,"landsat, DigitalGlobe, 2010/01/18",10,0.0341,900.0,12066.6667
+source,survey; Bing,10,0.0341,900.0,12066.6667
 source,"U.S. Defense Mapping Agency, 1994; Yahoo",9,0.0307,800.0,10850.0
 source,digitalglobe;NOAA 2010-01-24,9,0.0307,800.0,10850.0
 source,haiti tranasportation map ftp://haiti:Rkjpb7uef@157.150.195.135/Maps/Country%20wide/M2K5MOVV0801HAT40R_60X42.pdf,9,0.0307,800.0,10850.0
@@ -2031,6 +2043,7 @@ source,"UAV 2016-10-15, Potentiel 3.0",8,0.0273,700.0,9633.3333
 source,Digital Globe 2015 Saint Christophe Haiti,7,0.0239,600.0,8416.6667
 source,GPS-adjusted Bing (in Godet),7,0.0239,600.0,8416.6667
 source,Haiti 1:50k topo,7,0.0239,600.0,8416.6667
+source,landsat & DigitalGlobe,7,0.0239,600.0,8416.6667
 source,survey; DTM/GIS/OIM,7,0.0239,600.0,8416.6667
 source,"1987 US DMA Map, Edition 2-DMA, Series E935",6,0.0205,500.0,7200.0
 source,Bing/DigitalGlobe,6,0.0205,500.0,7200.0
@@ -2041,7 +2054,6 @@ source,MINUSTAH GIS and UN Cartographic Section,6,0.0205,500.0,7200.0
 source,"Pleiades 13 oct. 2016, CNES, Airbus DS",6,0.0205,500.0,7200.0
 source,"WorldView-2, DigitalGlobe, 2010-01-20",6,0.0205,500.0,7200.0
 source,"hot_cosmha_iom; 1:12,500, Edition 2-DMA, Series E935. U.S. Defense Mapping Agency, 1987",6,0.0205,500.0,7200.0
-source,landsat & DigitalGlobe,6,0.0205,500.0,7200.0
 source,landsat & DigitalGlobe;Bing,6,0.0205,500.0,7200.0
 source,B ing With Offset,5,0.0171,400.0,5983.3333
 source,Bing; Yahoo,5,0.0171,400.0,5983.3333
@@ -2116,6 +2128,7 @@ source,Yahoo hires,2,0.0068,100.0,2333.3333
 source,Yahoo; Bing,2,0.0068,100.0,2333.3333
 source,bing 2010,2,0.0068,100.0,2333.3333
 source,bing:ortho,2,0.0068,100.0,2333.3333
+source,digitalGlobe,2,0.0068,100.0,2333.3333
 source,"digitalglobe;NOAA, 2010-01-22",2,0.0068,100.0,2333.3333
 source,drr:iom,2,0.0068,100.0,2333.3333
 source,extrapolation,2,0.0068,100.0,2333.3333
@@ -2128,8 +2141,10 @@ source,http://fr.wikipedia.org/wiki/Bassin-Bleu,2,0.0068,100.0,2333.3333
 source,http://hypercube.telascience.org/tiles/1.0.0/geoeye-ikonos-20100115-900913/!/!/!.jpg,2,0.0068,100.0,2333.3333
 source,http://www.lib.utexas.edu/maps/topo/haiti/corail-haiti-tlm50-54714.pdf;Bing,2,0.0068,100.0,2333.3333
 source,iom_c-osm.ha,2,0.0068,100.0,2333.3333
+source,"landsat & WorldView-2, DigitalGlobe, 2010-01-21",2,0.0068,100.0,2333.3333
 source,"landsat,bing",2,0.0068,100.0,2333.3333
 source,local_knowledge,2,0.0068,100.0,2333.3333
+source,npe,2,0.0068,100.0,2333.3333
 source,survey; GeoEye,2,0.0068,100.0,2333.3333
 source,"1:12,500, Edition 2-DMA, Series E935. U.S. Defense Mapping Agency, 1987; NOAA 2010-01-24",1,0.0034,0.0,1116.6667
 source,"1:12,500, Edition 2-DMA, Series E935. U.S. Defense Mapping Agency, 1987; adjusted - NOAA 2010-01-24",1,0.0034,0.0,1116.6667
@@ -2180,6 +2195,7 @@ source,bing with offset_GPS traces,1,0.0034,0.0,1116.6667
 source,"bing,survey",1,0.0034,0.0,1116.6667
 source,bing;Bing,1,0.0034,0.0,1116.6667
 source,c-osm.ha,1,0.0034,0.0,1116.6667
+source,cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013,1,0.0034,0.0,1116.6667
 source,digitalglobe; GPS,1,0.0034,0.0,1116.6667
 source,digitalglobe;CIA maps,1,0.0034,0.0,1116.6667
 source,digitalglobe;extrapolation,1,0.0034,0.0,1116.6667
@@ -2208,28 +2224,28 @@ source,survey; Google,1,0.0034,0.0,1116.6667
 source,survey; haiti best at teleatlas,1,0.0034,0.0,1116.6667
 source,taken from node on nearby RN7 road,1,0.0034,0.0,1116.6667
 source,www.Pro-Haiti.de,1,0.0034,0.0,1116.6667
-surface,unpaved,1626,55.4003,162500.0,1978200.0
-surface,dirt,353,12.0273,35200.0,429383.3333
-surface,asphalt,318,10.8348,31700.0,386800.0
-surface,gravel,187,6.3714,18600.0,227416.6667
-surface,ground,179,6.0988,17800.0,217683.3333
-surface,mud,84,2.862,8300.0,102100.0
-surface,paved,74,2.5213,7300.0,89933.3333
-surface,dirt_sand,66,2.2487,6500.0,80200.0
-surface,compacted,24,0.8177,2300.0,29100.0
-surface,grass,12,0.4089,1100.0,14500.0
-surface,unspecified,7,0.2385,600.0,8416.6667
+surface,unpaved,1626,55.3815,162500.0,1978200.0
+surface,dirt,354,12.0572,35300.0,430600.0
+surface,asphalt,318,10.8311,31700.0,386800.0
+surface,gravel,187,6.3692,18600.0,227416.6667
+surface,ground,179,6.0967,17800.0,217683.3333
+surface,mud,84,2.861,8300.0,102100.0
+surface,paved,74,2.5204,7300.0,89933.3333
+surface,dirt_sand,66,2.248,6500.0,80200.0
+surface,compacted,24,0.8174,2300.0,29100.0
+surface,grass,12,0.4087,1100.0,14500.0
+surface,unspecified,7,0.2384,600.0,8416.6667
 surface,concrete,2,0.0681,100.0,2333.3333
 surface,paving_stones,2,0.0681,100.0,2333.3333
 surface,"unpaved,_ground",1,0.0341,0.0,1116.6667
-waterway,stream,1503,69.1034,150200.0,1828550.0
-waterway,river,571,26.2529,57000.0,694616.6667
-waterway,riverbank,40,1.8391,3900.0,48566.6667
-waterway,drain,21,0.9655,2000.0,25450.0
-waterway,ditch,10,0.4598,900.0,12066.6667
-waterway,check_dam,8,0.3678,700.0,9633.3333
-waterway,canal,7,0.3218,600.0,8416.6667
-waterway,dam,7,0.3218,600.0,8416.6667
-waterway,waterfall,6,0.2759,500.0,7200.0
-waterway,boatyard,1,0.046,0.0,1116.6667
-waterway,lake,1,0.046,0.0,1116.6667
+waterway,stream,1681,70.9582,168000.0,2045116.6667
+waterway,river,587,24.7784,58600.0,714083.3333
+waterway,riverbank,40,1.6885,3900.0,48566.6667
+waterway,drain,21,0.8864,2000.0,25450.0
+waterway,ditch,10,0.4221,900.0,12066.6667
+waterway,check_dam,8,0.3377,700.0,9633.3333
+waterway,canal,7,0.2955,600.0,8416.6667
+waterway,dam,7,0.2955,600.0,8416.6667
+waterway,waterfall,6,0.2533,500.0,7200.0
+waterway,boatyard,1,0.0422,0.0,1116.6667
+waterway,lake,1,0.0422,0.0,1116.6667

@@ -1,90 +1,1763 @@
 key,value,count,percent_of_total_changes_for_key,percent_difference_from_pre,percent_difference_from_pre_day
-amenity,social_facility,1,100.0,0.0,0.0
-building,detached,13,52.0,1200.0,1200.0
-building,yes,10,40.0,900.0,900.0
-building,house,2,8.0,100.0,100.0
-highway,footway,30,20.0,2900.0,2900.0
-highway,cycleway,28,18.6667,2700.0,2700.0
-highway,primary,18,12.0,1700.0,1700.0
-highway,crossing,14,9.3333,1300.0,1300.0
-highway,residential,12,8.0,1100.0,1100.0
-highway,service,12,8.0,1100.0,1100.0
-highway,trunk,10,6.6667,900.0,900.0
-highway,unclassified,9,6.0,800.0,800.0
-highway,bus_stop,3,2.0,200.0,200.0
-highway,secondary,3,2.0,200.0,200.0
-highway,path,2,1.3333,100.0,100.0
-highway,pedestrian,2,1.3333,100.0,100.0
-highway,turning_circle,2,1.3333,100.0,100.0
-highway,construction,1,0.6667,0.0,0.0
-highway,give_way,1,0.6667,0.0,0.0
-highway,steps,1,0.6667,0.0,0.0
-highway,tertiary,1,0.6667,0.0,0.0
-highway,track,1,0.6667,0.0,0.0
-landuse,forest,3,20.0,200.0,200.0
-landuse,residential,3,20.0,200.0,200.0
-landuse,industrial,2,13.3333,100.0,100.0
-landuse,meadow,2,13.3333,100.0,100.0
-landuse,railway,2,13.3333,100.0,100.0
-landuse,retail,2,13.3333,100.0,100.0
-landuse,allotments,1,6.6667,0.0,0.0
-leisure,nature_reserve,1,100.0,0.0,0.0
-name,High Street,8,11.1111,700.0,700.0
-name,Eleanor Cross Road,6,8.3333,500.0,500.0
-name,Great Cambridge Road,6,8.3333,500.0,500.0
-name,Monarch's Way,5,6.9444,400.0,400.0
-name,Abbey Road,3,4.1667,200.0,200.0
-name,Monarchs Way,3,4.1667,200.0,200.0
-name,Rye House Substation,3,4.1667,200.0,200.0
-name,Asda,2,2.7778,100.0,100.0
-name,Cherry Tree Road,2,2.7778,100.0,100.0
-name,High Road,2,2.7778,100.0,100.0
-name,Highbridge Street,2,2.7778,100.0,100.0
-name,Lee Valley Dobbs Weir,2,2.7778,100.0,100.0
-name,Mallow Walk,2,2.7778,100.0,100.0
-name,Sheredes Drive,2,2.7778,100.0,100.0
-name,The Co-operative Food,2,2.7778,100.0,100.0
-name,ARG,1,1.3889,0.0,0.0
-name,Bassingbourne Close,1,1.3889,0.0,0.0
-name,Broxbourne Railway Station,1,1.3889,0.0,0.0
-name,Burton Lane,1,1.3889,0.0,0.0
-name,Co-op Food,1,1.3889,0.0,0.0
-name,Elizabeth Gardens,1,1.3889,0.0,0.0
-name,Garnier,1,1.3889,0.0,0.0
-name,Jubilee Close,1,1.3889,0.0,0.0
-name,Mandeville Close,1,1.3889,0.0,0.0
-name,Marks & Spencer,1,1.3889,0.0,0.0
-name,Mill Lane Allotments,1,1.3889,0.0,0.0
-name,PCL North London,1,1.3889,0.0,0.0
-name,Parkwood Close,1,1.3889,0.0,0.0
-name,Ratty's Lane Sustainable Energy Facility,1,1.3889,0.0,0.0
-name,Select,1,1.3889,0.0,0.0
-name,St James's Road,1,1.3889,0.0,0.0
-name,TFC,1,1.3889,0.0,0.0
-name,The Chadwick,1,1.3889,0.0,0.0
-name,Top Field and Cozens Grove Local Nature Reserve,1,1.3889,0.0,0.0
-name,Waltham Cross Bus Station,1,1.3889,0.0,0.0
-name,Waltham Cross Motorcycles,1,1.3889,0.0,0.0
-name,Whitehaven Close,1,1.3889,0.0,0.0
-natural,scrub,4,40.0,300.0,300.0
-natural,water,4,40.0,300.0,300.0
-natural,wood,2,20.0,100.0,100.0
-source,npe,6,20.0,500.0,500.0
-source,yahoo,6,20.0,500.0,500.0
-source,Yahoo Imagery,3,10.0,200.0,200.0
-source,gps+mapnoter,3,10.0,200.0,200.0
-source,npe + yahoo,3,10.0,200.0,200.0
-source,yahoo +gpx,3,10.0,200.0,200.0
-source,Bing,2,6.6667,100.0,100.0
-source,naptan_import;survey,2,6.6667,100.0,100.0
-source,bing,1,3.3333,0.0,0.0
-source,naptan_import,1,3.3333,0.0,0.0
-surface,asphalt,62,77.5,6100.0,6100.0
-surface,dirt,7,8.75,600.0,600.0
-surface,paving_stones,5,6.25,400.0,400.0
-surface,grass,2,2.5,100.0,100.0
-surface,wood,2,2.5,100.0,100.0
-surface,compacted,1,1.25,0.0,0.0
-surface,unpaved,1,1.25,0.0,0.0
-waterway,stream,3,75.0,200.0,200.0
-waterway,canal,1,25.0,0.0,0.0
+amenity,bench,94,30.0319,9300.0,9300.0
+amenity,parking,58,18.5304,5700.0,5700.0
+amenity,school,35,11.1821,3400.0,3400.0
+amenity,bus_garage,13,4.1534,1200.0,1200.0
+amenity,fuel,12,3.8339,1100.0,1100.0
+amenity,fast_food,9,2.8754,800.0,800.0
+amenity,post_depot,8,2.5559,700.0,700.0
+amenity,atm,7,2.2364,600.0,600.0
+amenity,cafe,7,2.2364,600.0,600.0
+amenity,place_of_worship,7,2.2364,600.0,600.0
+amenity,parking_space,6,1.9169,500.0,500.0
+amenity,clinic,5,1.5974,400.0,400.0
+amenity,pharmacy,4,1.278,300.0,300.0
+amenity,post_box,4,1.278,300.0,300.0
+amenity,post_office,4,1.278,300.0,300.0
+amenity,restaurant,4,1.278,300.0,300.0
+amenity,bank,3,0.9585,200.0,200.0
+amenity,taxi,3,0.9585,200.0,200.0
+amenity,bicycle_parking,2,0.639,100.0,100.0
+amenity,community_centre,2,0.639,100.0,100.0
+amenity,doctors,2,0.639,100.0,100.0
+amenity,fountain,2,0.639,100.0,100.0
+amenity,kindergarten,2,0.639,100.0,100.0
+amenity,toilets,2,0.639,100.0,100.0
+amenity,vending_machine,2,0.639,100.0,100.0
+amenity,boat_rental,1,0.3195,0.0,0.0
+amenity,bus_station,1,0.3195,0.0,0.0
+amenity,car_rental,1,0.3195,0.0,0.0
+amenity,charging_station,1,0.3195,0.0,0.0
+amenity,childcare,1,0.3195,0.0,0.0
+amenity,clock,1,0.3195,0.0,0.0
+amenity,dentist,1,0.3195,0.0,0.0
+amenity,ice_cream,1,0.3195,0.0,0.0
+amenity,letter_box,1,0.3195,0.0,0.0
+amenity,marketplace,1,0.3195,0.0,0.0
+amenity,motorcycle_parking,1,0.3195,0.0,0.0
+amenity,pub,1,0.3195,0.0,0.0
+amenity,scout_hut,1,0.3195,0.0,0.0
+amenity,shelter,1,0.3195,0.0,0.0
+amenity,social_facility,1,0.3195,0.0,0.0
+amenity,waste_basket,1,0.3195,0.0,0.0
+building,yes,516,78.7786,51500.0,51500.0
+building,construction,40,6.1069,3900.0,3900.0
+building,house,26,3.9695,2500.0,2500.0
+building,detached,20,3.0534,1900.0,1900.0
+building,bus_garage,7,1.0687,600.0,600.0
+building,warehouse,6,0.916,500.0,500.0
+building,retail,5,0.7634,400.0,400.0
+building,service,5,0.7634,400.0,400.0
+building,static_caravan,5,0.7634,400.0,400.0
+building,garage,4,0.6107,300.0,300.0
+building,semidetached_house,4,0.6107,300.0,300.0
+building,office,3,0.458,200.0,200.0
+building,church,2,0.3053,100.0,100.0
+building,industrial,2,0.3053,100.0,100.0
+building,school,2,0.3053,100.0,100.0
+building,shed,2,0.3053,100.0,100.0
+building,train_station,2,0.3053,100.0,100.0
+building,pavilion,1,0.1527,0.0,0.0
+building,residential,1,0.1527,0.0,0.0
+building,roof,1,0.1527,0.0,0.0
+building,shop,1,0.1527,0.0,0.0
+emergency,yes,82,85.4167,8100.0,8100.0
+emergency,no,9,9.375,800.0,800.0
+emergency,designated,5,5.2083,400.0,400.0
+highway,primary,3580,24.5273,357900.0,357900.0
+highway,crossing,3102,21.2524,310100.0,310100.0
+highway,trunk,1763,12.0787,176200.0,176200.0
+highway,footway,1097,7.5158,109600.0,109600.0
+highway,residential,848,5.8098,84700.0,84700.0
+highway,cycleway,780,5.3439,77900.0,77900.0
+highway,unclassified,616,4.2203,61500.0,61500.0
+highway,service,588,4.0285,58700.0,58700.0
+highway,tertiary,542,3.7133,54100.0,54100.0
+highway,traffic_signals,428,2.9323,42700.0,42700.0
+highway,bus_stop,261,1.7882,26000.0,26000.0
+highway,give_way,246,1.6854,24500.0,24500.0
+highway,secondary,219,1.5004,21800.0,21800.0
+highway,trunk_link,99,0.6783,9800.0,9800.0
+highway,pedestrian,85,0.5824,8400.0,8400.0
+highway,primary_link,79,0.5412,7800.0,7800.0
+highway,path,55,0.3768,5400.0,5400.0
+highway,proposed,46,0.3152,4500.0,4500.0
+highway,track,29,0.1987,2800.0,2800.0
+highway,construction,25,0.1713,2400.0,2400.0
+highway,steps,25,0.1713,2400.0,2400.0
+highway,turning_circle,19,0.1302,1800.0,1800.0
+highway,living_street,11,0.0754,1000.0,1000.0
+highway,secondary_link,11,0.0754,1000.0,1000.0
+highway,corridor,8,0.0548,700.0,700.0
+highway,mini_roundabout,7,0.048,600.0,600.0
+highway,street_lamp,7,0.048,600.0,600.0
+highway,bridleway,6,0.0411,500.0,500.0
+highway,motorway_junction,6,0.0411,500.0,500.0
+highway,elevator,3,0.0206,200.0,200.0
+highway,motorway_link,2,0.0137,100.0,100.0
+highway,speed_camera,2,0.0137,100.0,100.0
+highway,stop,1,0.0069,0.0,0.0
+landuse,residential,92,35.6589,9100.0,9100.0
+landuse,grass,36,13.9535,3500.0,3500.0
+landuse,industrial,29,11.2403,2800.0,2800.0
+landuse,forest,25,9.6899,2400.0,2400.0
+landuse,construction,14,5.4264,1300.0,1300.0
+landuse,meadow,13,5.0388,1200.0,1200.0
+landuse,farmland,11,4.2636,1000.0,1000.0
+landuse,retail,11,4.2636,1000.0,1000.0
+landuse,farmyard,8,3.1008,700.0,700.0
+landuse,railway,7,2.7132,600.0,600.0
+landuse,commercial,5,1.938,400.0,400.0
+landuse,allotments,2,0.7752,100.0,100.0
+landuse,cemetery,2,0.7752,100.0,100.0
+landuse,recreation_ground,2,0.7752,100.0,100.0
+landuse,brownfield,1,0.3876,0.0,0.0
+leisure,pitch,14,25.9259,1300.0,1300.0
+leisure,park,13,24.0741,1200.0,1200.0
+leisure,swimming_pool,7,12.963,600.0,600.0
+leisure,playground,4,7.4074,300.0,300.0
+leisure,slipway,4,7.4074,300.0,300.0
+leisure,garden,3,5.5556,200.0,200.0
+leisure,nature_reserve,3,5.5556,200.0,200.0
+leisure,adult_gaming_centre,1,1.8519,0.0,0.0
+leisure,disc_golf_course,1,1.8519,0.0,0.0
+leisure,picnic_table,1,1.8519,0.0,0.0
+leisure,sports_centre,1,1.8519,0.0,0.0
+leisure,track,1,1.8519,0.0,0.0
+leisure,water_park,1,1.8519,0.0,0.0
+name,Regent Street,462,5.0819,46100.0,46100.0
+name,Waterloo Bridge,184,2.024,18300.0,18300.0
+name,Westminster Bridge Road,143,1.573,14200.0,14200.0
+name,Parliament Square,132,1.452,13100.0,13100.0
+name,Millbank,125,1.375,12400.0,12400.0
+name,Upper Street,124,1.364,12300.0,12300.0
+name,City Road,116,1.276,11500.0,11500.0
+name,Parliament Street,113,1.243,11200.0,11200.0
+name,New Kent Road,97,1.067,9600.0,9600.0
+name,Great George Street,93,1.023,9200.0,9200.0
+name,Lancaster Place,91,1.001,9000.0,9000.0
+name,Park Lane,89,0.979,8800.0,8800.0
+name,Shoreditch High Street,84,0.924,8300.0,8300.0
+name,Trafalgar Square,80,0.88,7900.0,7900.0
+name,Knightsbridge,79,0.869,7800.0,7800.0
+name,Lambeth Bridge,78,0.858,7700.0,7700.0
+name,Old Street,71,0.781,7000.0,7000.0
+name,Essex Road,68,0.748,6700.0,6700.0
+name,Brixton Road,63,0.693,6200.0,6200.0
+name,Newington Butts,62,0.682,6100.0,6100.0
+name,Battersea Bridge Road,60,0.66,5900.0,5900.0
+name,Commercial Street,59,0.649,5800.0,5800.0
+name,Farringdon Street,59,0.649,5800.0,5800.0
+name,Kennington Road,59,0.649,5800.0,5800.0
+name,Piccadilly,59,0.649,5800.0,5800.0
+name,Mare Street,56,0.616,5500.0,5500.0
+name,York Road,56,0.616,5500.0,5500.0
+name,Vauxhall Bridge Road,55,0.605,5400.0,5400.0
+name,Battersea Park Road,53,0.583,5200.0,5200.0
+name,Lambeth Palace Road,52,0.572,5100.0,5100.0
+name,Threadneedle Street,52,0.572,5100.0,5100.0
+name,Waterloo Road,52,0.572,5100.0,5100.0
+name,Queen Victoria Street,50,0.55,4900.0,4900.0
+name,Kennington Park Road,49,0.539,4800.0,4800.0
+name,Clapham Road,48,0.528,4700.0,4700.0
+name,Elephant and Castle,48,0.528,4700.0,4700.0
+name,King William Street,47,0.517,4600.0,4600.0
+name,Clerkenwell Road,44,0.484,4300.0,4300.0
+name,Bishopsgate,43,0.473,4200.0,4200.0
+name,Borough High Street,43,0.473,4200.0,4200.0
+name,Chelsea Bridge Road,42,0.462,4100.0,4100.0
+name,London Bridge,42,0.462,4100.0,4100.0
+name,Blackfriars Road,41,0.451,4000.0,4000.0
+name,Chelsea Bridge,41,0.451,4000.0,4000.0
+name,Bricklayers Arms Roundabout,39,0.429,3800.0,3800.0
+name,Lambeth Road,37,0.407,3600.0,3600.0
+name,Newington Causeway,36,0.396,3500.0,3500.0
+name,Hammondstreet Road,34,0.374,3300.0,3300.0
+name,Procter Street,34,0.374,3300.0,3300.0
+name,Vauxhall Bridge,34,0.374,3300.0,3300.0
+name,Loughborough Road,33,0.363,3200.0,3200.0
+name,Shambrook Road,33,0.363,3200.0,3200.0
+name,Shepherdess Walk,33,0.363,3200.0,3200.0
+name,Strand,33,0.363,3200.0,3200.0
+name,Southwark Street,32,0.352,3100.0,3100.0
+name,South Lambeth Road,31,0.341,3000.0,3000.0
+name,Kingsland Road,30,0.33,2900.0,2900.0
+name,Cannon Street,29,0.319,2800.0,2800.0
+name,Great Dover Street,29,0.319,2800.0,2800.0
+name,Whitehall,29,0.319,2800.0,2800.0
+name,Baylis Road,28,0.308,2700.0,2700.0
+name,Lambeth Bridge Roundabout,28,0.308,2700.0,2700.0
+name,Queenstown Road,28,0.308,2700.0,2700.0
+name,Bessborough Gardens,27,0.297,2600.0,2600.0
+name,Brompton Road,27,0.297,2600.0,2600.0
+name,Great Cambridge Road,27,0.297,2600.0,2600.0
+name,Long Lane,27,0.297,2600.0,2600.0
+name,Grosvenor Place,26,0.286,2500.0,2500.0
+name,Walworth Road,26,0.286,2500.0,2500.0
+name,Goswell Road,25,0.275,2400.0,2400.0
+name,Kingsway,25,0.275,2400.0,2400.0
+name,New North Road,25,0.275,2400.0,2400.0
+name,Pentonville Road,25,0.275,2400.0,2400.0
+name,Queen's Circus,25,0.275,2400.0,2400.0
+name,Victoria Street,25,0.275,2400.0,2400.0
+name,Buckingham Palace Road,24,0.264,2300.0,2300.0
+name,Charterhouse Street,24,0.264,2300.0,2300.0
+name,Fulham Road,24,0.264,2300.0,2300.0
+name,Pritchard's Road,23,0.253,2200.0,2200.0
+name,Red Lion Square,23,0.253,2200.0,2200.0
+name,Bridge Street,22,0.242,2100.0,2100.0
+name,Camberwell Green,22,0.242,2100.0,2100.0
+name,Eleanor Cross Road,22,0.242,2100.0,2100.0
+name,Turnford Brook,22,0.242,2100.0,2100.0
+name,King Charles Street,21,0.231,2000.0,2000.0
+name,Norton Folgate,21,0.231,2000.0,2000.0
+name,Old Kent Road,21,0.231,2000.0,2000.0
+name,Grosvenor Gardens,20,0.22,1900.0,1900.0
+name,Grosvenor Road,20,0.22,1900.0,1900.0
+name,High Holborn,20,0.22,1900.0,1900.0
+name,Hoddesdon Interchange,20,0.22,1900.0,1900.0
+name,Islington High Street,20,0.22,1900.0,1900.0
+name,Westminster Bridge,20,0.22,1900.0,1900.0
+name,Dinant Link Road,19,0.209,1800.0,1800.0
+name,Farringdon Road,19,0.209,1800.0,1800.0
+name,Liverpool Road,19,0.209,1800.0,1800.0
+name,Prince of Wales Drive,19,0.209,1800.0,1800.0
+name,St. Margaret Street,19,0.209,1800.0,1800.0
+name,Bridgefoot,18,0.198,1700.0,1700.0
+name,Camberwell New Road,18,0.198,1700.0,1700.0
+name,St George's Road,18,0.198,1700.0,1700.0
+name,Tabard Street,18,0.198,1700.0,1700.0
+name,Aldersgate Street,17,0.187,1600.0,1600.0
+name,Highbury Corner,17,0.187,1600.0,1600.0
+name,Leadenhall Street,17,0.187,1600.0,1600.0
+name,Southampton Row,17,0.187,1600.0,1600.0
+name,Tooley Street,17,0.187,1600.0,1600.0
+name,Colombo Street,16,0.176,1500.0,1500.0
+name,Cumberland Gate,16,0.176,1500.0,1500.0
+name,Holborn Viaduct,16,0.176,1500.0,1500.0
+name,Queen's Gate,16,0.176,1500.0,1500.0
+name,Rags Brook,16,0.176,1500.0,1500.0
+name,Victoria Park Road,16,0.176,1500.0,1500.0
+name,Dalston Lane,15,0.165,1400.0,1400.0
+name,Kennington Oval,15,0.165,1400.0,1400.0
+name,London Bridge Street,15,0.165,1400.0,1400.0
+name,Neathouse Place,15,0.165,1400.0,1400.0
+name,New Bridge Street,15,0.165,1400.0,1400.0
+name,Pimlico Road,15,0.165,1400.0,1400.0
+name,Victoria Embankment,15,0.165,1400.0,1400.0
+name,Balls Pond Road,14,0.154,1300.0,1300.0
+name,Broad Sanctuary,14,0.154,1300.0,1300.0
+name,Caledonian Road,14,0.154,1300.0,1300.0
+name,Drake Street,14,0.154,1300.0,1300.0
+name,Duke Street Hill,14,0.154,1300.0,1300.0
+name,Great Eastern Street,14,0.154,1300.0,1300.0
+name,Holborn,14,0.154,1300.0,1300.0
+name,London,14,0.154,1300.0,1300.0
+name,London Wall,14,0.154,1300.0,1300.0
+name,Marshalsea Road,14,0.154,1300.0,1300.0
+name,Parry Street,14,0.154,1300.0,1300.0
+name,Tolpuddle Street,14,0.154,1300.0,1300.0
+name,Cromwell Gardens,13,0.143,1200.0,1200.0
+name,Drummond Gate,13,0.143,1200.0,1200.0
+name,Ebury Bridge Road,13,0.143,1200.0,1200.0
+name,Green Park,13,0.143,1200.0,1200.0
+name,London Road,13,0.143,1200.0,1200.0
+name,Southwark Bridge Road,13,0.143,1200.0,1200.0
+name,St Thomas's Square,13,0.143,1200.0,1200.0
+name,Baas Hill,12,0.132,1100.0,1100.0
+name,Blackfriars Bridge,12,0.132,1100.0,1100.0
+name,Gracechurch Street,12,0.132,1100.0,1100.0
+name,Lombard Street,12,0.132,1100.0,1100.0
+name,North Dulwich,12,0.132,1100.0,1100.0
+name,Old Palace Yard,12,0.132,1100.0,1100.0
+name,Wandsworth Road,12,0.132,1100.0,1100.0
+name,Abingdon Street,11,0.121,1000.0,1000.0
+name,Addington Street,11,0.121,1000.0,1000.0
+name,Berry Lane,11,0.121,1000.0,1000.0
+name,Charing Cross Road,11,0.121,1000.0,1000.0
+name,Clapham North,11,0.121,1000.0,1000.0
+name,Clapham South,11,0.121,1000.0,1000.0
+name,Duke of Wellington Place,11,0.121,1000.0,1000.0
+name,Graham Road,11,0.121,1000.0,1000.0
+name,Gray's Inn Road,11,0.121,1000.0,1000.0
+name,High Street,11,0.121,1000.0,1000.0
+name,Hyde Park Corner,11,0.121,1000.0,1000.0
+name,New Burlington Street,11,0.121,1000.0,1000.0
+name,Saint Margaret Street,11,0.121,1000.0,1000.0
+name,St. James's Park,11,0.121,1000.0,1000.0
+name,St. John Street,11,0.121,1000.0,1000.0
+name,The Sun Roundabout,11,0.121,1000.0,1000.0
+name,Thurloe Place,11,0.121,1000.0,1000.0
+name,Tooting Bec,11,0.121,1000.0,1000.0
+name,Bakerloo Line,10,0.11,900.0,900.0
+name,Bank,10,0.11,900.0,900.0
+name,Broadway Market,10,0.11,900.0,900.0
+name,Eccleston Bridge,10,0.11,900.0,900.0
+name,Frazier Street,10,0.11,900.0,900.0
+name,Leicester Square,10,0.11,900.0,900.0
+name,Nightingale Road,10,0.11,900.0,900.0
+name,Pall Mall,10,0.11,900.0,900.0
+name,Pudding Lane,10,0.11,900.0,900.0
+name,Queensbridge Road,10,0.11,900.0,900.0
+name,Regent's Park,10,0.11,900.0,900.0
+name,St George's Circus,10,0.11,900.0,900.0
+name,St Michael's Road,10,0.11,900.0,900.0
+name,Westgate Street,10,0.11,900.0,900.0
+name,Brixton Station Road,9,0.099,800.0,800.0
+name,Chapel Market,9,0.099,800.0,800.0
+name,Coventry Street,9,0.099,800.0,800.0
+name,Greenwood Road,9,0.099,800.0,800.0
+name,Holloway Road,9,0.099,800.0,800.0
+name,Islington Green,9,0.099,800.0,800.0
+name,Kennington Lane,9,0.099,800.0,800.0
+name,Richardson Crescent,9,0.099,800.0,800.0
+name,Shaftesbury Avenue,9,0.099,800.0,800.0
+name,St Johns Road,9,0.099,800.0,800.0
+name,St. Martin's Le Grand,9,0.099,800.0,800.0
+name,St. Paul's Road,9,0.099,800.0,800.0
+name,Station Road,9,0.099,800.0,800.0
+name,Strand Underpass,9,0.099,800.0,800.0
+name,Theobalds Road,9,0.099,800.0,800.0
+name,Turnford Interchange,9,0.099,800.0,800.0
+name,Aldersgate Rotunda,8,0.088,700.0,700.0
+name,Bell Lane,8,0.088,700.0,700.0
+name,Bressenden Place,8,0.088,700.0,700.0
+name,Butt Lane,8,0.088,700.0,700.0
+name,Camberwell Church Street,8,0.088,700.0,700.0
+name,Camberwell Delivery Office,8,0.088,700.0,700.0
+name,Carlton Lane,8,0.088,700.0,700.0
+name,Cromwell Road,8,0.088,700.0,700.0
+name,Grove Lane,8,0.088,700.0,700.0
+name,Haymarket,8,0.088,700.0,700.0
+name,King Edward's Road,8,0.088,700.0,700.0
+name,Ludgate Hill,8,0.088,700.0,700.0
+name,Micawber Street,8,0.088,700.0,700.0
+name,Monarch's Way,8,0.088,700.0,700.0
+name,Newgate Street,8,0.088,700.0,700.0
+name,Nine Elms Lane,8,0.088,700.0,700.0
+name,O'Meara Street,8,0.088,700.0,700.0
+name,Rivington Street,8,0.088,700.0,700.0
+name,Sheep Lane,8,0.088,700.0,700.0
+name,Spur Road,8,0.088,700.0,700.0
+name,Stamford Street,8,0.088,700.0,700.0
+name,Stockwell Road,8,0.088,700.0,700.0
+name,Street Lane,8,0.088,700.0,700.0
+name,Back Lane,7,0.077,600.0,600.0
+name,Bath Street,7,0.077,600.0,600.0
+name,Battersea Bridge,7,0.077,600.0,600.0
+name,Berkeley Square,7,0.077,600.0,600.0
+name,Bletchley Street,7,0.077,600.0,600.0
+name,Bute Street,7,0.077,600.0,600.0
+name,Calthorpe Street,7,0.077,600.0,600.0
+name,Clapham High Street,7,0.077,600.0,600.0
+name,Cock Lane,7,0.077,600.0,600.0
+name,Cropley Street,7,0.077,600.0,600.0
+name,Denmark Hill,7,0.077,600.0,600.0
+name,Duncan Street,7,0.077,600.0,600.0
+name,Eastcheap,7,0.077,600.0,600.0
+name,Elizabeth Gardens,7,0.077,600.0,600.0
+name,Fall Lane,7,0.077,600.0,600.0
+name,Fleet Street,7,0.077,600.0,600.0
+name,Folgate Street,7,0.077,600.0,600.0
+name,Jubilee Close,7,0.077,600.0,600.0
+name,King's Road,7,0.077,600.0,600.0
+name,Lamb's Conduit Street,7,0.077,600.0,600.0
+name,Latchmere Road,7,0.077,600.0,600.0
+name,Lower Grosvenor Place,7,0.077,600.0,600.0
+name,Murray Grove,7,0.077,600.0,600.0
+name,Newcomen Street,7,0.077,600.0,600.0
+name,Newgatestreet Road,7,0.077,600.0,600.0
+name,Old Run Road,7,0.077,600.0,600.0
+name,Pilgrimage Street,7,0.077,600.0,600.0
+name,Pontefract Lane,7,0.077,600.0,600.0
+name,Red Lion Street,7,0.077,600.0,600.0
+name,River Lee Navigation,7,0.077,600.0,600.0
+name,Spence Lane,7,0.077,600.0,600.0
+name,Union Street,7,0.077,600.0,600.0
+name,White Lion Street,7,0.077,600.0,600.0
+name,Amwell Street,6,0.066,500.0,500.0
+name,Battersea High Street,6,0.066,500.0,500.0
+name,Brook Gate,6,0.066,500.0,500.0
+name,Burford Street,6,0.066,500.0,500.0
+name,Camberwell Bus Garage,6,0.066,500.0,500.0
+name,Camomile Street,6,0.066,500.0,500.0
+name,Chadwell Street,6,0.066,500.0,500.0
+name,Cheapside,6,0.066,500.0,500.0
+name,Columbia Road,6,0.066,500.0,500.0
+name,Dahlia Close,6,0.066,500.0,500.0
+name,Easy Road,6,0.066,500.0,500.0
+name,Elstree-Rye House,6,0.066,500.0,500.0
+name,Essex Walk,6,0.066,500.0,500.0
+name,Exhibition Road,6,0.066,500.0,500.0
+name,Eyre Street Hill,6,0.066,500.0,500.0
+name,Falcon Road,6,0.066,500.0,500.0
+name,Fassett Square,6,0.066,500.0,500.0
+name,Hartwell Street,6,0.066,500.0,500.0
+name,Holyrood Lane,6,0.066,500.0,500.0
+name,Lea Road,6,0.066,500.0,500.0
+name,Linton Road,6,0.066,500.0,500.0
+name,Magee Street,6,0.066,500.0,500.0
+name,Margery Street,6,0.066,500.0,500.0
+name,Old North Street,6,0.066,500.0,500.0
+name,Old Street Roundabout,6,0.066,500.0,500.0
+name,Patmos Road,6,0.066,500.0,500.0
+name,Queensway,6,0.066,500.0,500.0
+name,Snow Hill,6,0.066,500.0,500.0
+name,South Carriage Drive,6,0.066,500.0,500.0
+name,St. James's Street,6,0.066,500.0,500.0
+name,Storey's Gate,6,0.066,500.0,500.0
+name,Strouts Place,6,0.066,500.0,500.0
+name,Surrey Street,6,0.066,500.0,500.0
+name,Tennis Street,6,0.066,500.0,500.0
+name,The Links,6,0.066,500.0,500.0
+name,The Mall,6,0.066,500.0,500.0
+name,Wakley Street,6,0.066,500.0,500.0
+name,Aberford Road,5,0.055,400.0,400.0
+name,Baron Street,5,0.055,400.0,400.0
+name,Battersea Park / Chelsea Gate,5,0.055,400.0,400.0
+name,Bayswater Road,5,0.055,400.0,400.0
+name,Bowling Green Street,5,0.055,400.0,400.0
+name,Bulinga Street,5,0.055,400.0,400.0
+name,Burgess Park West,5,0.055,400.0,400.0
+name,Cavendish Street,5,0.055,400.0,400.0
+name,Central Street,5,0.055,400.0,400.0
+name,Charlton Way,5,0.055,400.0,400.0
+name,Cockspur Street,5,0.055,400.0,400.0
+name,Coldharbour Lane,5,0.055,400.0,400.0
+name,Cuffley Brook,5,0.055,400.0,400.0
+name,Curtain Road,5,0.055,400.0,400.0
+name,Dib Lane,5,0.055,400.0,400.0
+name,Elder Street,5,0.055,400.0,400.0
+name,Fisher Street,5,0.055,400.0,400.0
+name,Hackney Road,5,0.055,400.0,400.0
+name,Halfhide Lane,5,0.055,400.0,400.0
+name,Harleyford Road,5,0.055,400.0,400.0
+name,Harpur Street,5,0.055,400.0,400.0
+name,Harrington Road,5,0.055,400.0,400.0
+name,Hatton Garden,5,0.055,400.0,400.0
+name,Hertford Road,5,0.055,400.0,400.0
+name,Highbury Grove,5,0.055,400.0,400.0
+name,Jubilee Line,5,0.055,400.0,400.0
+name,King Edward Street,5,0.055,400.0,400.0
+name,King Lane,5,0.055,400.0,400.0
+name,Kings Road,5,0.055,400.0,400.0
+name,Lilywhites Lane,5,0.055,400.0,400.0
+name,Lord Street,5,0.055,400.0,400.0
+name,Marble Arch,5,0.055,400.0,400.0
+name,Mermaid Court,5,0.055,400.0,400.0
+name,Morley Street,5,0.055,400.0,400.0
+name,New Oxford Street,5,0.055,400.0,400.0
+name,Newgate Street Village,5,0.055,400.0,400.0
+name,Nicholas Lane,5,0.055,400.0,400.0
+name,Oakwood Lane,5,0.055,400.0,400.0
+name,Penton Street,5,0.055,400.0,400.0
+name,Piccadilly Circus,5,0.055,400.0,400.0
+name,Poultry,5,0.055,400.0,400.0
+name,Primrose Street,5,0.055,400.0,400.0
+name,Pytchley Road,5,0.055,400.0,400.0
+name,Regent's Row,5,0.055,400.0,400.0
+name,Rodney Road,5,0.055,400.0,400.0
+name,Rosebery Avenue,5,0.055,400.0,400.0
+name,St John's Square,5,0.055,400.0,400.0
+name,St. Peter's Alley,5,0.055,400.0,400.0
+name,Street Lane Practice,5,0.055,400.0,400.0
+name,Torrens Street,5,0.055,400.0,400.0
+name,Underwood Street,5,0.055,400.0,400.0
+name,Upper Ground,5,0.055,400.0,400.0
+name,Wardour Street,5,0.055,400.0,400.0
+name,Western Road,5,0.055,400.0,400.0
+name,Wormwood Street,5,0.055,400.0,400.0
+name,Ada Street,4,0.044,300.0,300.0
+name,Albert Embankment,4,0.044,300.0,300.0
+name,All Saints Street,4,0.044,300.0,300.0
+name,Andrews Road,4,0.044,300.0,300.0
+name,Angel Station,4,0.044,300.0,300.0
+name,Back Hill,4,0.044,300.0,300.0
+name,Balham,4,0.044,300.0,300.0
+name,Ball Court,4,0.044,300.0,300.0
+name,Bartholomew Lane,4,0.044,300.0,300.0
+name,Beak Street,4,0.044,300.0,300.0
+name,Bell Inn Yard,4,0.044,300.0,300.0
+name,Berkeley Street,4,0.044,300.0,300.0
+name,Berners Road,4,0.044,300.0,300.0
+name,Bloomsbury Square,4,0.044,300.0,300.0
+name,Bocking Street,4,0.044,300.0,300.0
+name,Boots,4,0.044,300.0,300.0
+name,Boundary Row,4,0.044,300.0,300.0
+name,Brace Close,4,0.044,300.0,300.0
+name,Bricklayers Arms Flyover,4,0.044,300.0,300.0
+name,Bridge Lane,4,0.044,300.0,300.0
+name,Brushfield Street,4,0.044,300.0,300.0
+name,Bull's Head Passage,4,0.044,300.0,300.0
+name,Catton Street,4,0.044,300.0,300.0
+name,Charing Cross,4,0.044,300.0,300.0
+name,Chelsea Embankment,4,0.044,300.0,300.0
+name,Chelsea Manor Street,4,0.044,300.0,300.0
+name,Cheyne Walk,4,0.044,300.0,300.0
+name,Chilton Street,4,0.044,300.0,300.0
+name,Claremont,4,0.044,300.0,300.0
+name,Claremont Square,4,0.044,300.0,300.0
+name,Clarendon Street,4,0.044,300.0,300.0
+name,Co-op Food,4,0.044,300.0,300.0
+name,Cockburn Haigh Road Academy,4,0.044,300.0,300.0
+name,Cornhill,4,0.044,300.0,300.0
+name,Cuffley Hill,4,0.044,300.0,300.0
+name,Cumberland Street,4,0.044,300.0,300.0
+name,Eckford Street,4,0.044,300.0,300.0
+name,Electric Lane,4,0.044,300.0,300.0
+name,Fleet Place,4,0.044,300.0,300.0
+name,Foundry Lane,4,0.044,300.0,300.0
+name,Foxley Road,4,0.044,300.0,300.0
+name,Frederick Street,4,0.044,300.0,300.0
+name,Friend Street,4,0.044,300.0,300.0
+name,Gaunt Street,4,0.044,300.0,300.0
+name,Globe Street,4,0.044,300.0,300.0
+name,Great Guildford Street,4,0.044,300.0,300.0
+name,Great Queen Street,4,0.044,300.0,300.0
+name,Great Smith Street,4,0.044,300.0,300.0
+name,Great Suffolk Street,4,0.044,300.0,300.0
+name,Great Windmill Street,4,0.044,300.0,300.0
+name,Greenman Street,4,0.044,300.0,300.0
+name,Hall Street,4,0.044,300.0,300.0
+name,Herne Hill Road,4,0.044,300.0,300.0
+name,Holborn Circus,4,0.044,300.0,300.0
+name,John Islip Street,4,0.044,300.0,300.0
+name,Kensington Gore,4,0.044,300.0,300.0
+name,Lant Street,4,0.044,300.0,300.0
+name,Larkhall Park,4,0.044,300.0,300.0
+name,Laystall Street,4,0.044,300.0,300.0
+name,Markham Road,4,0.044,300.0,300.0
+name,Marsham Street,4,0.044,300.0,300.0
+name,Moreland Street,4,0.044,300.0,300.0
+name,Navarino Road,4,0.044,300.0,300.0
+name,New Fetter Lane,4,0.044,300.0,300.0
+name,Newington Green,4,0.044,300.0,300.0
+name,Newington Green Road,4,0.044,300.0,300.0
+name,Northern Line,4,0.044,300.0,300.0
+name,Northumberland Avenue,4,0.044,300.0,300.0
+name,Old Brompton Road,4,0.044,300.0,300.0
+name,Ontario Street,4,0.044,300.0,300.0
+name,Panton Street,4,0.044,300.0,300.0
+name,Piccadilly Line,4,0.044,300.0,300.0
+name,Pinfold Lane,4,0.044,300.0,300.0
+name,Platform 1,4,0.044,300.0,300.0
+name,Provost Street,4,0.044,300.0,300.0
+name,Rochester Row,4,0.044,300.0,300.0
+name,Rosoman Street,4,0.044,300.0,300.0
+name,Royal Hospital Chelsea,4,0.044,300.0,300.0
+name,Royal Hospital Road,4,0.044,300.0,300.0
+name,South Lambeth Place,4,0.044,300.0,300.0
+name,St Swithin's Lane,4,0.044,300.0,300.0
+name,St. Martin's Place,4,0.044,300.0,300.0
+name,Sumner Street,4,0.044,300.0,300.0
+name,Sutherland Row,4,0.044,300.0,300.0
+name,Sutton Lane,4,0.044,300.0,300.0
+name,Swan Street,4,0.044,300.0,300.0
+name,Sydney Street,4,0.044,300.0,300.0
+name,Tenison Way,4,0.044,300.0,300.0
+name,Terminus Place,4,0.044,300.0,300.0
+name,The Co-operative Food,4,0.044,300.0,300.0
+name,Thomas Doyle Street,4,0.044,300.0,300.0
+name,Tysoe Street,4,0.044,300.0,300.0
+name,Underwood Row,4,0.044,300.0,300.0
+name,Victoria Station,4,0.044,300.0,300.0
+name,Walters Close,4,0.044,300.0,300.0
+name,Waltham Cross,4,0.044,300.0,300.0
+name,Watery Lane,4,0.044,300.0,300.0
+name,West End Road,4,0.044,300.0,300.0
+name,Westland Place,4,0.044,300.0,300.0
+name,Wilton Road,4,0.044,300.0,300.0
+name,Wyvil Road,4,0.044,300.0,300.0
+name,Abbey Road,3,0.033,200.0,200.0
+name,Adam Street,3,0.033,200.0,200.0
+name,Albert Bridge Road,3,0.033,200.0,200.0
+name,Alderney Street,3,0.033,200.0,200.0
+name,Aldwych,3,0.033,200.0,200.0
+name,Allington Street,3,0.033,200.0,200.0
+name,Angel Street,3,0.033,200.0,200.0
+name,Appleby Street,3,0.033,200.0,200.0
+name,Arundel Street,3,0.033,200.0,200.0
+name,Asda,3,0.033,200.0,200.0
+name,Ash Grove,3,0.033,200.0,200.0
+name,Battersea Medical Centre,3,0.033,200.0,200.0
+name,Battersea Park Library,3,0.033,200.0,200.0
+name,Beech Street,3,0.033,200.0,200.0
+name,Belvedere Road,3,0.033,200.0,200.0
+name,Bentley Road,3,0.033,200.0,200.0
+name,Bethnal Green Road,3,0.033,200.0,200.0
+name,Bethwin Road,3,0.033,200.0,200.0
+name,Bondway,3,0.033,200.0,200.0
+name,Booth Close,3,0.033,200.0,200.0
+name,Bracklyn Street,3,0.033,200.0,200.0
+name,Brew Street,3,0.033,200.0,200.0
+name,Brick Street,3,0.033,200.0,200.0
+name,Britannia Road,3,0.033,200.0,200.0
+name,Brixton Hill,3,0.033,200.0,200.0
+name,Burton Road,3,0.033,200.0,200.0
+name,Cambridge Road,3,0.033,200.0,200.0
+name,Canonbury Street,3,0.033,200.0,200.0
+name,Carysfort Road,3,0.033,200.0,200.0
+name,Change Alley,3,0.033,200.0,200.0
+name,Charlton Place,3,0.033,200.0,200.0
+name,Chestnut Street,3,0.033,200.0,200.0
+name,Claylands Road,3,0.033,200.0,200.0
+name,Clements Lane,3,0.033,200.0,200.0
+name,Clifton Grove,3,0.033,200.0,200.0
+name,Colesgrove Farm,3,0.033,200.0,200.0
+name,Commercial Street Bridge,3,0.033,200.0,200.0
+name,Concert Hall Approach,3,0.033,200.0,200.0
+name,Corbet Court,3,0.033,200.0,200.0
+name,Cornwall Road,3,0.033,200.0,200.0
+name,Costa,3,0.033,200.0,200.0
+name,Covent Garden Market East Side,3,0.033,200.0,200.0
+name,Cowper's Court,3,0.033,200.0,200.0
+name,Crosby Row,3,0.033,200.0,200.0
+name,Cross Street,3,0.033,200.0,200.0
+name,Dalston Junction,3,0.033,200.0,200.0
+name,Darnicle Hill,3,0.033,200.0,200.0
+name,Deanery Street,3,0.033,200.0,200.0
+name,Derby Gate,3,0.033,200.0,200.0
+name,Durand Gardens,3,0.033,200.0,200.0
+name,Earlston Grove,3,0.033,200.0,200.0
+name,Edgware Road,3,0.033,200.0,200.0
+name,Esso,3,0.033,200.0,200.0
+name,Exeter Street,3,0.033,200.0,200.0
+name,Glendower Place,3,0.033,200.0,200.0
+name,Goswell Place,3,0.033,200.0,200.0
+name,Granby Terrace,3,0.033,200.0,200.0
+name,Great Russell Street,3,0.033,200.0,200.0
+name,Great Scotland Yard,3,0.033,200.0,200.0
+name,Gresham Road / Brixton Police Station,3,0.033,200.0,200.0
+name,Grosvenor Gate,3,0.033,200.0,200.0
+name,Hackney Grove,3,0.033,200.0,200.0
+name,Haggerston Park,3,0.033,200.0,200.0
+name,Hanbury Street,3,0.033,200.0,200.0
+name,High Road Broxbourne,3,0.033,200.0,200.0
+name,Highbridge Street,3,0.033,200.0,200.0
+name,Hoddesdonpark Wood,3,0.033,200.0,200.0
+name,Holborn Place,3,0.033,200.0,200.0
+name,Horse Guards Avenue,3,0.033,200.0,200.0
+name,Horseferry Road,3,0.033,200.0,200.0
+name,Jackman Street,3,0.033,200.0,200.0
+name,Kendrick Place,3,0.033,200.0,200.0
+name,Kipling Street,3,0.033,200.0,200.0
+name,LPS Heating & Plumbing,3,0.033,200.0,200.0
+name,Lambeth High Street,3,0.033,200.0,200.0
+name,Lansdowne Drive,3,0.033,200.0,200.0
+name,Lavington Street,3,0.033,200.0,200.0
+name,Leather Lane,3,0.033,200.0,200.0
+name,Lilford Road,3,0.033,200.0,200.0
+name,Lister Hospital,3,0.033,200.0,200.0
+name,Longcroft Drive,3,0.033,200.0,200.0
+name,Loughborough Junction Station,3,0.033,200.0,200.0
+name,Lyon Street,3,0.033,200.0,200.0
+name,Middleton Road,3,0.033,200.0,200.0
+name,Mintern Street,3,0.033,200.0,200.0
+name,Monarch Oaks,3,0.033,200.0,200.0
+name,Monarchs Way,3,0.033,200.0,200.0
+name,Moor Drive,3,0.033,200.0,200.0
+name,Nebraska Street,3,0.033,200.0,200.0
+name,New Bond Street,3,0.033,200.0,200.0
+name,Newcastle Close,3,0.033,200.0,200.0
+name,Old Broad Street,3,0.033,200.0,200.0
+name,Old Jewry,3,0.033,200.0,200.0
+name,Onslow Square,3,0.033,200.0,200.0
+name,Parkgate Road,3,0.033,200.0,200.0
+name,Ponsonby Terrace,3,0.033,200.0,200.0
+name,Prestwick Close,3,0.033,200.0,200.0
+name,Princes Street,3,0.033,200.0,200.0
+name,Queensberry Place,3,0.033,200.0,200.0
+name,Randell's Road,3,0.033,200.0,200.0
+name,Risinghill Street,3,0.033,200.0,200.0
+name,Rockingham Street,3,0.033,200.0,200.0
+name,Rye House Substation,3,0.033,200.0,200.0
+name,Saffron Street,3,0.033,200.0,200.0
+name,Sandmere Road,3,0.033,200.0,200.0
+name,Schofield Way,3,0.033,200.0,200.0
+name,Shacklewell Street,3,0.033,200.0,200.0
+name,Shakespeare Road,3,0.033,200.0,200.0
+name,Shoreditch High Street Station,3,0.033,200.0,200.0
+name,Silverthorne Road,3,0.033,200.0,200.0
+name,Sopwith Way,3,0.033,200.0,200.0
+name,Southbound Platform 4,3,0.033,200.0,200.0
+name,St Georges Road,3,0.033,200.0,200.0
+name,Stannard Road,3,0.033,200.0,200.0
+name,Station Approach,3,0.033,200.0,200.0
+name,Sussex Street,3,0.033,200.0,200.0
+name,Sutton Walk,3,0.033,200.0,200.0
+name,Tanfield Farm,3,0.033,200.0,200.0
+name,Trust Road,3,0.033,200.0,200.0
+name,Turin Motors,3,0.033,200.0,200.0
+name,Union Road,3,0.033,200.0,200.0
+name,Walworth Bus Garage,3,0.033,200.0,200.0
+name,Ware Road,3,0.033,200.0,200.0
+name,Waterlilly Walk,3,0.033,200.0,200.0
+name,Waterson Street,3,0.033,200.0,200.0
+name,Wellesley Terrace,3,0.033,200.0,200.0
+name,West Carriage Drive,3,0.033,200.0,200.0
+name,Wharf Road,3,0.033,200.0,200.0
+name,White Stubbs Lane,3,0.033,200.0,200.0
+name,Whitefriars Street,3,0.033,200.0,200.0
+name,Winchester Street,3,0.033,200.0,200.0
+name,Winnipeg Way,3,0.033,200.0,200.0
+name,Woollensbrook,3,0.033,200.0,200.0
+name,Worship Street,3,0.033,200.0,200.0
+name,ARG,2,0.022,100.0,100.0
+name,Achilles Way,2,0.022,100.0,100.0
+name,Albany Road,2,0.022,100.0,100.0
+name,Albion Riverside,2,0.022,100.0,100.0
+name,Albion Way,2,0.022,100.0,100.0
+name,Alderton Road,2,0.022,100.0,100.0
+name,Alford Place,2,0.022,100.0,100.0
+name,Alwoodley Gardens,2,0.022,100.0,100.0
+name,Angel Islington,2,0.022,100.0,100.0
+name,Angel Mews,2,0.022,100.0,100.0
+name,Archbishop Tenison's School,2,0.022,100.0,100.0
+name,Arthur Street,2,0.022,100.0,100.0
+name,Ascalon Street,2,0.022,100.0,100.0
+name,Assata Mews,2,0.022,100.0,100.0
+name,Avery Farm Row,2,0.022,100.0,100.0
+name,BP,2,0.022,100.0,100.0
+name,Baas Lane,2,0.022,100.0,100.0
+name,Balfour Street,2,0.022,100.0,100.0
+name,Barbauld Road,2,0.022,100.0,100.0
+name,Barnaby Place,2,0.022,100.0,100.0
+name,Barrington Road,2,0.022,100.0,100.0
+name,Battersea Bus Garage,2,0.022,100.0,100.0
+name,Battersea Park Station,2,0.022,100.0,100.0
+name,Bedale Street,2,0.022,100.0,100.0
+name,Belcher Road,2,0.022,100.0,100.0
+name,Belle Vue Road,2,0.022,100.0,100.0
+name,Bittern Close,2,0.022,100.0,100.0
+name,Blanchedowne,2,0.022,100.0,100.0
+name,Bloomfield Road,2,0.022,100.0,100.0
+name,Bluebell,2,0.022,100.0,100.0
+name,Borough Road,2,0.022,100.0,100.0
+name,Box Wood,2,0.022,100.0,100.0
+name,Braidwood Passage,2,0.022,100.0,100.0
+name,Bread and Cheese Lane,2,0.022,100.0,100.0
+name,Bridgeman Road,2,0.022,100.0,100.0
+name,Britannia Walk,2,0.022,100.0,100.0
+name,Brook Drive,2,0.022,100.0,100.0
+name,Browning Street,2,0.022,100.0,100.0
+name,Bryanstone Road,2,0.022,100.0,100.0
+name,Bryant Street,2,0.022,100.0,100.0
+name,Buckingham Gate,2,0.022,100.0,100.0
+name,Buckland Street,2,0.022,100.0,100.0
+name,Bull Inn Court,2,0.022,100.0,100.0
+name,Bunhill Row,2,0.022,100.0,100.0
+name,Burgess Close,2,0.022,100.0,100.0
+name,Burrell Street,2,0.022,100.0,100.0
+name,Burton Lane,2,0.022,100.0,100.0
+name,Bury Place,2,0.022,100.0,100.0
+name,Bush Lane,2,0.022,100.0,100.0
+name,Cairn Avenue,2,0.022,100.0,100.0
+name,Cambridge Street,2,0.022,100.0,100.0
+name,Canonbury Road,2,0.022,100.0,100.0
+name,Carnegie Street,2,0.022,100.0,100.0
+name,Carting Lane,2,0.022,100.0,100.0
+name,Cayton Street,2,0.022,100.0,100.0
+name,Cecil Court,2,0.022,100.0,100.0
+name,Chadwick Street,2,0.022,100.0,100.0
+name,Champion Hill,2,0.022,100.0,100.0
+name,Chapter Road,2,0.022,100.0,100.0
+name,Cherry Tree Road,2,0.022,100.0,100.0
+name,Chinatown,2,0.022,100.0,100.0
+name,Church Lane,2,0.022,100.0,100.0
+name,City Garden Row,2,0.022,100.0,100.0
+name,Clapham Road / Stockwell Station,2,0.022,100.0,100.0
+name,Clayton Street,2,0.022,100.0,100.0
+name,Clerkenwell Road / Old Street,2,0.022,100.0,100.0
+name,Clissold Crescent,2,0.022,100.0,100.0
+name,Colebrooke Row,2,0.022,100.0,100.0
+name,Condray Place,2,0.022,100.0,100.0
+name,Conduit Street,2,0.022,100.0,100.0
+name,Constitution Hill,2,0.022,100.0,100.0
+name,Cook's Road,2,0.022,100.0,100.0
+name,Copenhagen Street,2,0.022,100.0,100.0
+name,Corunna Road,2,0.022,100.0,100.0
+name,Cosser Street,2,0.022,100.0,100.0
+name,Crondall Street,2,0.022,100.0,100.0
+name,Cycle Superhighway 6,2,0.022,100.0,100.0
+name,D'Eynsford Road,2,0.022,100.0,100.0
+name,DOI,2,0.022,100.0,100.0
+name,Dagmar Terrace,2,0.022,100.0,100.0
+name,Dean Stanley Street,2,0.022,100.0,100.0
+name,Dog Kennel Hill,2,0.022,100.0,100.0
+name,Dowgate Hill,2,0.022,100.0,100.0
+name,Duke of York Square,2,0.022,100.0,100.0
+name,Durham House Street,2,0.022,100.0,100.0
+name,Durham Street,2,0.022,100.0,100.0
+name,Durham Street / Harleyford Road,2,0.022,100.0,100.0
+name,Eagle Place,2,0.022,100.0,100.0
+name,East Road,2,0.022,100.0,100.0
+name,Ebury Street,2,0.022,100.0,100.0
+name,Elcho Street,2,0.022,100.0,100.0
+name,Epping to Buncefield Pipeline,2,0.022,100.0,100.0
+name,Fann Street,2,0.022,100.0,100.0
+name,Farringdon Lane,2,0.022,100.0,100.0
+name,Fenchurch Street,2,0.022,100.0,100.0
+name,Fentiman Road,2,0.022,100.0,100.0
+name,Ferndale LTN (Low Traffic Neighbourhood),2,0.022,100.0,100.0
+name,Finsen Road,2,0.022,100.0,100.0
+name,Forsyth Gardens,2,0.022,100.0,100.0
+name,Frederick Crescent,2,0.022,100.0,100.0
+name,Frederick's Row,2,0.022,100.0,100.0
+name,Garden Walk,2,0.022,100.0,100.0
+name,Garnault Place,2,0.022,100.0,100.0
+name,Gladding Road,2,0.022,100.0,100.0
+name,Glasshouse Street,2,0.022,100.0,100.0
+name,Go Ahead London Recruiment and Training,2,0.022,100.0,100.0
+name,Goff's Lane,2,0.022,100.0,100.0
+name,Goff's Oak Post Office,2,0.022,100.0,100.0
+name,Goffs - Churchgate Academy,2,0.022,100.0,100.0
+name,Goffs Academy,2,0.022,100.0,100.0
+name,Goldsmiths' Row,2,0.022,100.0,100.0
+name,Graham Street,2,0.022,100.0,100.0
+name,Great Cumberland Place,2,0.022,100.0,100.0
+name,Great Preston Corner,2,0.022,100.0,100.0
+name,Great St. Helens,2,0.022,100.0,100.0
+name,Green Dragon Court,2,0.022,100.0,100.0
+name,Gresham Road,2,0.022,100.0,100.0
+name,Greycoat Place,2,0.022,100.0,100.0
+name,Grove Vale,2,0.022,100.0,100.0
+name,Guildable Manor Street,2,0.022,100.0,100.0
+name,Gulf,2,0.022,100.0,100.0
+name,Hargo Feeds,2,0.022,100.0,100.0
+name,Harris Academy Battersea,2,0.022,100.0,100.0
+name,Heathcock Court,2,0.022,100.0,100.0
+name,Heddon Street,2,0.022,100.0,100.0
+name,Herbal Hill,2,0.022,100.0,100.0
+name,Hercules Road,2,0.022,100.0,100.0
+name,Herne Hill,2,0.022,100.0,100.0
+name,Hester Road,2,0.022,100.0,100.0
+name,High Leigh Farm,2,0.022,100.0,100.0
+name,High Road,2,0.022,100.0,100.0
+name,Holborn Station,2,0.022,100.0,100.0
+name,Hotel Riu Plaza London Victoria,2,0.022,100.0,100.0
+name,JP Autos,2,0.022,100.0,100.0
+name,Jermyn Street,2,0.022,100.0,100.0
+name,John Ruskin Street,2,0.022,100.0,100.0
+name,Kennings Way,2,0.022,100.0,100.0
+name,Kentish Buildings,2,0.022,100.0,100.0
+name,Kimpton Road,2,0.022,100.0,100.0
+name,King's College Hospital,2,0.022,100.0,100.0
+name,King's College Hospital Ambulance drop off road,2,0.022,100.0,100.0
+name,King's Cross Road,2,0.022,100.0,100.0
+name,King's Cross Station,2,0.022,100.0,100.0
+name,King's Head Yard,2,0.022,100.0,100.0
+name,Lansdowne Green,2,0.022,100.0,100.0
+name,Lansdowne Way,2,0.022,100.0,100.0
+name,Leake Street,2,0.022,100.0,100.0
+name,Lee Valley Dobbs Weir,2,0.022,100.0,100.0
+name,Lever Street,2,0.022,100.0,100.0
+name,Little Italy,2,0.022,100.0,100.0
+name,Little Sanctuary,2,0.022,100.0,100.0
+name,Liverpool Grove,2,0.022,100.0,100.0
+name,Liverpool Street Station,2,0.022,100.0,100.0
+name,Lloyds Pharmacy,2,0.022,100.0,100.0
+name,Lombard Court,2,0.022,100.0,100.0
+name,London Hilton Hotel,2,0.022,100.0,100.0
+name,Lorn Road,2,0.022,100.0,100.0
+name,Loughborough Road / Hopton House,2,0.022,100.0,100.0
+name,Lovat Lane,2,0.022,100.0,100.0
+name,Lovering Road,2,0.022,100.0,100.0
+name,Ludgate Circus,2,0.022,100.0,100.0
+name,Mallow Walk,2,0.022,100.0,100.0
+name,Manningford Close,2,0.022,100.0,100.0
+name,Mare Street / Victoria Park Road,2,0.022,100.0,100.0
+name,Markham Street,2,0.022,100.0,100.0
+name,Medway Street,2,0.022,100.0,100.0
+name,Meymott Street,2,0.022,100.0,100.0
+name,Middle Temple Lane,2,0.022,100.0,100.0
+name,Mildmay Park,2,0.022,100.0,100.0
+name,Milford Lane,2,0.022,100.0,100.0
+name,Mill Lane Close,2,0.022,100.0,100.0
+name,Mill Street,2,0.022,100.0,100.0
+name,Mitford Road,2,0.022,100.0,100.0
+name,Mobile World,2,0.022,100.0,100.0
+name,Monument Street,2,0.022,100.0,100.0
+name,Moorfield German Motors,2,0.022,100.0,100.0
+name,Mora Street,2,0.022,100.0,100.0
+name,More London,2,0.022,100.0,100.0
+name,Mostyn Road,2,0.022,100.0,100.0
+name,Moye Close,2,0.022,100.0,100.0
+name,NatWest,2,0.022,100.0,100.0
+name,Nazeing New Road,2,0.022,100.0,100.0
+name,New Change,2,0.022,100.0,100.0
+name,Newington Court,2,0.022,100.0,100.0
+name,Newton Street,2,0.022,100.0,100.0
+name,Nicholl Street,2,0.022,100.0,100.0
+name,Noble Street,2,0.022,100.0,100.0
+name,Northampton Street,2,0.022,100.0,100.0
+name,Northchurch Road,2,0.022,100.0,100.0
+name,Old Mitre Court,2,0.022,100.0,100.0
+name,Old Street Promenade of Light,2,0.022,100.0,100.0
+name,Outer Temple,2,0.022,100.0,100.0
+name,Owen Street,2,0.022,100.0,100.0
+name,Oxford Circus,2,0.022,100.0,100.0
+name,Packington Street,2,0.022,100.0,100.0
+name,Padfield Road,2,0.022,100.0,100.0
+name,Pall Mall East,2,0.022,100.0,100.0
+name,Paris Garden,2,0.022,100.0,100.0
+name,Patmore Estate / Drury House,2,0.022,100.0,100.0
+name,Penrose Street / Walworth Road,2,0.022,100.0,100.0
+name,Penton Place,2,0.022,100.0,100.0
+name,Piccadilly Place,2,0.022,100.0,100.0
+name,Picking Close,2,0.022,100.0,100.0
+name,Pinner's Passage,2,0.022,100.0,100.0
+name,Ponsonby Place,2,0.022,100.0,100.0
+name,Prairie Street,2,0.022,100.0,100.0
+name,Pratt Walk,2,0.022,100.0,100.0
+name,Pret A Manger,2,0.022,100.0,100.0
+name,Prima Road,2,0.022,100.0,100.0
+name,Prince Of Wales Gate,2,0.022,100.0,100.0
+name,Princess Street,2,0.022,100.0,100.0
+name,Puma Court,2,0.022,100.0,100.0
+name,Queen Street,2,0.022,100.0,100.0
+name,Queen's Walk,2,0.022,100.0,100.0
+name,Rawstorne Street,2,0.022,100.0,100.0
+name,Red Post Hill,2,0.022,100.0,100.0
+name,Reece Mews,2,0.022,100.0,100.0
+name,Richmond Road,2,0.022,100.0,100.0
+name,Richmond Road / Greenwood Road,2,0.022,100.0,100.0
+name,River Stort,2,0.022,100.0,100.0
+name,Rodney Place,2,0.022,100.0,100.0
+name,Roger Street,2,0.022,100.0,100.0
+name,Royal Exchange Buildings,2,0.022,100.0,100.0
+name,Rupert Street,2,0.022,100.0,100.0
+name,Rushton Street,2,0.022,100.0,100.0
+name,Rydall Food Store,2,0.022,100.0,100.0
+name,Saint Cuthberts Road,2,0.022,100.0,100.0
+name,Saint Paul's Church Yard,2,0.022,100.0,100.0
+name,Saint Peter's Street,2,0.022,100.0,100.0
+name,Salisbury Court,2,0.022,100.0,100.0
+name,Savile Row,2,0.022,100.0,100.0
+name,Sayer Street,2,0.022,100.0,100.0
+name,Sentinel Airport Parking,2,0.022,100.0,100.0
+name,Sexton Close,2,0.022,100.0,100.0
+name,Shaftesbury Street,2,0.022,100.0,100.0
+name,Shavers Place,2,0.022,100.0,100.0
+name,Shell,2,0.022,100.0,100.0
+name,Sheredes Drive,2,0.022,100.0,100.0
+name,Ship Tavern Passage,2,0.022,100.0,100.0
+name,Shoe Lane,2,0.022,100.0,100.0
+name,Shoreditch Police Station,2,0.022,100.0,100.0
+name,Shoreditch Town Hall,2,0.022,100.0,100.0
+name,Silvester Street,2,0.022,100.0,100.0
+name,Sise Lane,2,0.022,100.0,100.0
+name,Small Lea Bridge,2,0.022,100.0,100.0
+name,Smiths Lane,2,0.022,100.0,100.0
+name,South Lambeth Road / Stockwell Station,2,0.022,100.0,100.0
+name,South Leeds & Hunslet Cars,2,0.022,100.0,100.0
+name,St George Street,2,0.022,100.0,100.0
+name,St George's Square,2,0.022,100.0,100.0
+name,St Giles Church,2,0.022,100.0,100.0
+name,St Helen's Place,2,0.022,100.0,100.0
+name,St Katharine Cree,2,0.022,100.0,100.0
+name,St Mary Magdalene Church,2,0.022,100.0,100.0
+name,St Mary's Church of England High School,2,0.022,100.0,100.0
+name,St. Peter's Street,2,0.022,100.0,100.0
+name,Stamford Road,2,0.022,100.0,100.0
+name,Stanhope Gardens,2,0.022,100.0,100.0
+name,Starkey Close,2,0.022,100.0,100.0
+name,Stockwell Park Walk,2,0.022,100.0,100.0
+name,Sumner Place,2,0.022,100.0,100.0
+name,Sun Court,2,0.022,100.0,100.0
+name,Sunray Avenue,2,0.022,100.0,100.0
+name,Surrey Row,2,0.022,100.0,100.0
+name,Tanfield Yard,2,0.022,100.0,100.0
+name,Tesco Extra,2,0.022,100.0,100.0
+name,The Bellbrooke Surgery,2,0.022,100.0,100.0
+name,The Broxbourne School,2,0.022,100.0,100.0
+name,The Cut,2,0.022,100.0,100.0
+name,Theberton Street,2,0.022,100.0,100.0
+name,Theobalds Grove,2,0.022,100.0,100.0
+name,Thessaly Road,2,0.022,100.0,100.0
+name,Thoresby Street,2,0.022,100.0,100.0
+name,Thrale Street,2,0.022,100.0,100.0
+name,Thurtle Road,2,0.022,100.0,100.0
+name,Top Field and Cozens Grove Local Nature Reserve,2,0.022,100.0,100.0
+name,Trafalgar Square / Charing Cross Station,2,0.022,100.0,100.0
+name,Tremadoc Road,2,0.022,100.0,100.0
+name,Trinity Street,2,0.022,100.0,100.0
+name,Trinity Street / The Roebuck,2,0.022,100.0,100.0
+name,Turnagain Lane,2,0.022,100.0,100.0
+name,Turners Hill,2,0.022,100.0,100.0
+name,Valentine Place,2,0.022,100.0,100.0
+name,Victoria Square,2,0.022,100.0,100.0
+name,Vigo Street,2,0.022,100.0,100.0
+name,Walpole Street,2,0.022,100.0,100.0
+name,Webber Street,2,0.022,100.0,100.0
+name,Wellington Street,2,0.022,100.0,100.0
+name,Wenlock Street,2,0.022,100.0,100.0
+name,Westbridge Road,2,0.022,100.0,100.0
+name,Weston Street,2,0.022,100.0,100.0
+name,Whiston Road,2,0.022,100.0,100.0
+name,White Hart Yard,2,0.022,100.0,100.0
+name,White Lion Court,2,0.022,100.0,100.0
+name,Whitehall Place,2,0.022,100.0,100.0
+name,William Street,2,0.022,100.0,100.0
+name,Wimbourne Street,2,0.022,100.0,100.0
+name,Wood Street,2,0.022,100.0,100.0
+name,Woodland Street,2,0.022,100.0,100.0
+name,Woodside Primary School,2,0.022,100.0,100.0
+name,Wormley Woods,2,0.022,100.0,100.0
+name,Wormleybury Brook,2,0.022,100.0,100.0
+name,Wren Road,2,0.022,100.0,100.0
+name,Дважды Герою Советского Союза П.С. Кутахову,2,0.022,100.0,100.0
+name,1st Wormley Scout and Guide Group,1,0.011,0.0,0.0
+name,APC Repair,1,0.011,0.0,0.0
+name,Abbey Close,1,0.011,0.0,0.0
+name,Abbey Orchard Street,1,0.011,0.0,0.0
+name,Abchurch Lane,1,0.011,0.0,0.0
+name,Above & Below,1,0.011,0.0,0.0
+name,Acre Lane,1,0.011,0.0,0.0
+name,Adelaide Street,1,0.011,0.0,0.0
+name,Adler & Allen,1,0.011,0.0,0.0
+name,Afters Original,1,0.011,0.0,0.0
+name,Air Street,1,0.011,0.0,0.0
+name,Albemarle Street,1,0.011,0.0,0.0
+name,Aldford Street,1,0.011,0.0,0.0
+name,Alfreda Street,1,0.011,0.0,0.0
+name,Allahu Akbar,1,0.011,0.0,0.0
+name,Almeida Street,1,0.011,0.0,0.0
+name,Amelia Street,1,0.011,0.0,0.0
+name,Ampton Street,1,0.011,0.0,0.0
+name,Amwell Court,1,0.011,0.0,0.0
+name,Amwell Street Garage,1,0.011,0.0,0.0
+name,Amwell Studio,1,0.011,0.0,0.0
+name,Anatolia,1,0.011,0.0,0.0
+name,Anderson Close,1,0.011,0.0,0.0
+name,Andrew's Lane,1,0.011,0.0,0.0
+name,Angel,1,0.011,0.0,0.0
+name,Angel Stn,1,0.011,0.0,0.0
+name,Arlington Way,1,0.011,0.0,0.0
+name,Armour Contracts,1,0.011,0.0,0.0
+name,Arneway Street,1,0.011,0.0,0.0
+name,Artillery Place,1,0.011,0.0,0.0
+name,Artillery Row,1,0.011,0.0,0.0
+name,Ash Grove Bus Garage,1,0.011,0.0,0.0
+name,Ashby Grove,1,0.011,0.0,0.0
+name,Ashby Street,1,0.011,0.0,0.0
+name,Atlantic Road,1,0.011,0.0,0.0
+name,Atterbury Street,1,0.011,0.0,0.0
+name,Austin Friars,1,0.011,0.0,0.0
+name,Avonmouth Street,1,0.011,0.0,0.0
+name,Badric Court,1,0.011,0.0,0.0
+name,Baldwin Street,1,0.011,0.0,0.0
+name,Baldwins Gardens,1,0.011,0.0,0.0
+name,Bank Junction,1,0.011,0.0,0.0
+name,Barbican Highwalks,1,0.011,0.0,0.0
+name,Barbican Station,1,0.011,0.0,0.0
+name,Barnsbury Road,1,0.011,0.0,0.0
+name,Barnsbury Street,1,0.011,0.0,0.0
+name,Bassingbourne Close,1,0.011,0.0,0.0
+name,Bateman's Row,1,0.011,0.0,0.0
+name,Battersea Park,1,0.011,0.0,0.0
+name,Bear Lane,1,0.011,0.0,0.0
+name,Beaufort Street,1,0.011,0.0,0.0
+name,Beaumont Manor,1,0.011,0.0,0.0
+name,Beaumont Manor Farm,1,0.011,0.0,0.0
+name,Beaumont Road,1,0.011,0.0,0.0
+name,Becket Street,1,0.011,0.0,0.0
+name,Beehive Place,1,0.011,0.0,0.0
+name,Berry Street,1,0.011,0.0,0.0
+name,Bessemer Road,1,0.011,0.0,0.0
+name,Biffa,1,0.011,0.0,0.0
+name,Biggs Grove,1,0.011,0.0,0.0
+name,Blomfield Street,1,0.011,0.0,0.0
+name,Blore Close,1,0.011,0.0,0.0
+name,Blue Lion Place,1,0.011,0.0,0.0
+name,Blue Zone,1,0.011,0.0,0.0
+name,Bluebell Drive,1,0.011,0.0,0.0
+name,Boat Lane,1,0.011,0.0,0.0
+name,Bolton Crescent,1,0.011,0.0,0.0
+name,Bonneygrove Primary School,1,0.011,0.0,0.0
+name,Boswell Street,1,0.011,0.0,0.0
+name,Bow Lane,1,0.011,0.0,0.0
+name,Bowl Court,1,0.011,0.0,0.0
+name,Bowling Green Lane,1,0.011,0.0,0.0
+name,Box Lane,1,0.011,0.0,0.0
+name,Braganza Street,1,0.011,0.0,0.0
+name,Braithwaite Street,1,0.011,0.0,0.0
+name,Bramble Lane,1,0.011,0.0,0.0
+name,Brewers' Hall Garden,1,0.011,0.0,0.0
+name,Bricklayer's Arms,1,0.011,0.0,0.0
+name,Bricklayers Arms,1,0.011,0.0,0.0
+name,Bridgeways,1,0.011,0.0,0.0
+name,Brighton Terrace,1,0.011,0.0,0.0
+name,Brindley Goldstein,1,0.011,0.0,0.0
+name,Bristol Street Motors,1,0.011,0.0,0.0
+name,Britannia Row,1,0.011,0.0,0.0
+name,Brittania Motor Engineers,1,0.011,0.0,0.0
+name,Brook Farm,1,0.011,0.0,0.0
+name,Broxbourne,1,0.011,0.0,0.0
+name,Broxbourne Parish Church (St Augustine's),1,0.011,0.0,0.0
+name,Broxbourne Railway Station,1,0.011,0.0,0.0
+name,Bucklersbury Passage,1,0.011,0.0,0.0
+name,Bulls Head PH,1,0.011,0.0,0.0
+name,Burford House,1,0.011,0.0,0.0
+name,Burford Mews,1,0.011,0.0,0.0
+name,Burleigh Primary School,1,0.011,0.0,0.0
+name,Buryholme,1,0.011,0.0,0.0
+name,CMEX,1,0.011,0.0,0.0
+name,Cabul Road,1,0.011,0.0,0.0
+name,Cadiz Street,1,0.011,0.0,0.0
+name,Cadogan Gardens,1,0.011,0.0,0.0
+name,Cadogan Place,1,0.011,0.0,0.0
+name,Calshot Street,1,0.011,0.0,0.0
+name,Calvert Avenue,1,0.011,0.0,0.0
+name,Camberwell Road,1,0.011,0.0,0.0
+name,Camden Walk,1,0.011,0.0,0.0
+name,Cannon Travel,1,0.011,0.0,0.0
+name,Carey Place,1,0.011,0.0,0.0
+name,Carlisle Place,1,0.011,0.0,0.0
+name,Carlyle Square,1,0.011,0.0,0.0
+name,Carnation Way,1,0.011,0.0,0.0
+name,Carter Place,1,0.011,0.0,0.0
+name,Carthagena Lock 5',1,0.011,0.0,0.0
+name,Cash Converters,1,0.011,0.0,0.0
+name,Catesby Street,1,0.011,0.0,0.0
+name,Causton Street,1,0.011,0.0,0.0
+name,Champion Park,1,0.011,0.0,0.0
+name,Chapel Court,1,0.011,0.0,0.0
+name,Chapel Street,1,0.011,0.0,0.0
+name,Chapter Street,1,0.011,0.0,0.0
+name,Charlotte Road,1,0.011,0.0,0.0
+name,Chelsea Old Town Hall,1,0.011,0.0,0.0
+name,Cherbury Street,1,0.011,0.0,0.0
+name,Cheshunt,1,0.011,0.0,0.0
+name,Cheshunt Football Club,1,0.011,0.0,0.0
+name,Cheshunt Football Club Parking,1,0.011,0.0,0.0
+name,Cheshunt Park,1,0.011,0.0,0.0
+name,Cheshunt Reservoir North,1,0.011,0.0,0.0
+name,Chester Street,1,0.011,0.0,0.0
+name,Church Place,1,0.011,0.0,0.0
+name,Church Walk,1,0.011,0.0,0.0
+name,Churchfield CofE Academy,1,0.011,0.0,0.0
+name,Circle and District Lines,1,0.011,0.0,0.0
+name,City University,1,0.011,0.0,0.0
+name,Clapham Park Road,1,0.011,0.0,0.0
+name,Clapham Road / Bedford Road,1,0.011,0.0,0.0
+name,Clapham Road Estate,1,0.011,0.0,0.0
+name,Claude Lyons,1,0.011,0.0,0.0
+name,Claverton Street,1,0.011,0.0,0.0
+name,Clerkenwell Green,1,0.011,0.0,0.0
+name,Clerks' Place,1,0.011,0.0,0.0
+name,Clissold Road,1,0.011,0.0,0.0
+name,Clyston Street,1,0.011,0.0,0.0
+name,Coin Street,1,0.011,0.0,0.0
+name,Coleman Brothers,1,0.011,0.0,0.0
+name,Coleman Street,1,0.011,0.0,0.0
+name,Colemans Home Interiors,1,0.011,0.0,0.0
+name,College Hill,1,0.011,0.0,0.0
+name,Commercial Street / Worship Street,1,0.011,0.0,0.0
+name,Cozens Grove,1,0.011,0.0,0.0
+name,Cozens Lane East,1,0.011,0.0,0.0
+name,Cranbourn Street,1,0.011,0.0,0.0
+name,Cranston Estate,1,0.011,0.0,0.0
+name,Cranwood Street,1,0.011,0.0,0.0
+name,Cromwell Mews,1,0.011,0.0,0.0
+name,Cromwell Place,1,0.011,0.0,0.0
+name,Crown Court,1,0.011,0.0,0.0
+name,Cuffley Hill Preschool,1,0.011,0.0,0.0
+name,Culford Mews,1,0.011,0.0,0.0
+name,Culford Road,1,0.011,0.0,0.0
+name,Cumin Bar & Restaurant,1,0.011,0.0,0.0
+name,Curzon Gate,1,0.011,0.0,0.0
+name,Daisie Chain Florist,1,0.011,0.0,0.0
+name,Dale Road,1,0.011,0.0,0.0
+name,Dallington Street,1,0.011,0.0,0.0
+name,David Huggett,1,0.011,0.0,0.0
+name,Dawson Street,1,0.011,0.0,0.0
+name,Dean Bradley Street,1,0.011,0.0,0.0
+name,Dean Farrar Street,1,0.011,0.0,0.0
+name,Deerdale Road,1,0.011,0.0,0.0
+name,Dentality @ Hoddesdon,1,0.011,0.0,0.0
+name,Deuco,1,0.011,0.0,0.0
+name,Devereux Court,1,0.011,0.0,0.0
+name,Dibden Street,1,0.011,0.0,0.0
+name,Dingley Road,1,0.011,0.0,0.0
+name,Ditchfield Road,1,0.011,0.0,0.0
+name,Dobb's Weir,1,0.011,0.0,0.0
+name,Docklands Light Railway,1,0.011,0.0,0.0
+name,Dorchester Hotel,1,0.011,0.0,0.0
+name,Dove Road,1,0.011,0.0,0.0
+name,Dover Street,1,0.011,0.0,0.0
+name,Downham Road,1,0.011,0.0,0.0
+name,Drop Off Zone,1,0.011,0.0,0.0
+name,Duke Street,1,0.011,0.0,0.0
+name,Duncan Road,1,0.011,0.0,0.0
+name,Duncannon Street,1,0.011,0.0,0.0
+name,East Dulwich Station,1,0.011,0.0,0.0
+name,East Street,1,0.011,0.0,0.0
+name,Eaton Gardens,1,0.011,0.0,0.0
+name,Eddie's Good Choice,1,0.011,0.0,0.0
+name,Egerton Terrace,1,0.011,0.0,0.0
+name,Elder Walk,1,0.011,0.0,0.0
+name,Eleanor Trade Centre,1,0.011,0.0,0.0
+name,Electric Avenue,1,0.011,0.0,0.0
+name,Elephant & Castle Station,1,0.011,0.0,0.0
+name,Elliott Motor Company,1,0.011,0.0,0.0
+name,Elliott's Row Pocket Park,1,0.011,0.0,0.0
+name,Elmore Street,1,0.011,0.0,0.0
+name,Enfield Lock,1,0.011,0.0,0.0
+name,Enfield Road,1,0.011,0.0,0.0
+name,Ennismore Gardens,1,0.011,0.0,0.0
+name,Equinox,1,0.011,0.0,0.0
+name,Essex Road / Marquess Road,1,0.011,0.0,0.0
+name,Essex Road Pumping Station,1,0.011,0.0,0.0
+name,Essex Road Station,1,0.011,0.0,0.0
+name,Ethelburga Street,1,0.011,0.0,0.0
+name,Evelyn Walk,1,0.011,0.0,0.0
+name,Everett Close,1,0.011,0.0,0.0
+name,Fairfields Primary School and Nursery,1,0.011,0.0,0.0
+name,Fairways,1,0.011,0.0,0.0
+name,Favorite Chicken,1,0.011,0.0,0.0
+name,Feilde's Weir,1,0.011,0.0,0.0
+name,Fellows Court,1,0.011,0.0,0.0
+name,Fish Street Hill,1,0.011,0.0,0.0
+name,Flamstead End School,1,0.011,0.0,0.0
+name,Fleur De Lis Street,1,0.011,0.0,0.0
+name,Flodden Road,1,0.011,0.0,0.0
+name,Florence Street,1,0.011,0.0,0.0
+name,Forres Primary School,1,0.011,0.0,0.0
+name,Foster Lane,1,0.011,0.0,0.0
+name,Foulis Terrace,1,0.011,0.0,0.0
+name,Freeling Street,1,0.011,0.0,0.0
+name,GAP Lifting,1,0.011,0.0,0.0
+name,GBtutors,1,0.011,0.0,0.0
+name,Gammon Farm,1,0.011,0.0,0.0
+name,Garlick Hill,1,0.011,0.0,0.0
+name,Garnier,1,0.011,0.0,0.0
+name,Gaskin Street,1,0.011,0.0,0.0
+name,Gates of Waltham Cross,1,0.011,0.0,0.0
+name,Gatliff Road,1,0.011,0.0,0.0
+name,Gaywood Street,1,0.011,0.0,0.0
+name,Geddings Road,1,0.011,0.0,0.0
+name,George Yeomans Close,1,0.011,0.0,0.0
+name,Gerridge Street,1,0.011,0.0,0.0
+name,Gladding Road Open Space,1,0.011,0.0,0.0
+name,Gloucester Street,1,0.011,0.0,0.0
+name,Gloucester Way,1,0.011,0.0,0.0
+name,Goffs Oak War Memorial,1,0.011,0.0,0.0
+name,Golden Dragon,1,0.011,0.0,0.0
+name,Google Datacentre Waltham Cross,1,0.011,0.0,0.0
+name,Goose Green,1,0.011,0.0,0.0
+name,Gray Street,1,0.011,0.0,0.0
+name,Great College Street,1,0.011,0.0,0.0
+name,Great Eastern Road,1,0.011,0.0,0.0
+name,Great James Street,1,0.011,0.0,0.0
+name,Great Newport Street,1,0.011,0.0,0.0
+name,Great Peter Street,1,0.011,0.0,0.0
+name,Great Winchester Street,1,0.011,0.0,0.0
+name,Green Zone,1,0.011,0.0,0.0
+name,Greville Street,1,0.011,0.0,0.0
+name,Grosvenor Avenue,1,0.011,0.0,0.0
+name,Grosvenor Terrace,1,0.011,0.0,0.0
+name,Guilford Street,1,0.011,0.0,0.0
+name,HORRIBLE ROAD!,1,0.011,0.0,0.0
+name,Hailey Hall School,1,0.011,0.0,0.0
+name,Haliday Walk,1,0.011,0.0,0.0
+name,Hammond Street,1,0.011,0.0,0.0
+name,Hammondstreet Road Playing Fields,1,0.011,0.0,0.0
+name,Hand Court,1,0.011,0.0,0.0
+name,Hankey Place,1,0.011,0.0,0.0
+name,Hardess Street,1,0.011,0.0,0.0
+name,Hardwick Street,1,0.011,0.0,0.0
+name,Harecourt Road,1,0.011,0.0,0.0
+name,Haredale Road,1,0.011,0.0,0.0
+name,Harleyford Street,1,0.011,0.0,0.0
+name,Harriet Street,1,0.011,0.0,0.0
+name,Haslewood Avenue,1,0.011,0.0,0.0
+name,Haverstock Street,1,0.011,0.0,0.0
+name,Henshall Street,1,0.011,0.0,0.0
+name,Herrick Street,1,0.011,0.0,0.0
+name,Heygate Street,1,0.011,0.0,0.0
+name,HiQ Tyres & Autocare Goffs Oak,1,0.011,0.0,0.0
+name,High Holborn / Chancery Lane Station,1,0.011,0.0,0.0
+name,High Leigh Garden Village,1,0.011,0.0,0.0
+name,High Road Turnford,1,0.011,0.0,0.0
+name,High Road Wormley,1,0.011,0.0,0.0
+name,Highbury Grove Bridge,1,0.011,0.0,0.0
+name,Hillcrest Close,1,0.011,0.0,0.0
+name,Hinton Road,1,0.011,0.0,0.0
+name,Hobart Place,1,0.011,0.0,0.0
+name,Hoddesdon Lodge,1,0.011,0.0,0.0
+name,Hoddesdon Park Wood moated site,1,0.011,0.0,0.0
+name,Hoddesdon Park Wood. Ancient Moated Site,1,0.011,0.0,0.0
+name,Hoddesdon Post Office,1,0.011,0.0,0.0
+name,Holdbrook Primary School and Nursery,1,0.011,0.0,0.0
+name,Holywell Lane,1,0.011,0.0,0.0
+name,Homebase,1,0.011,0.0,0.0
+name,Hopton Street,1,0.011,0.0,0.0
+name,Houghton Square,1,0.011,0.0,0.0
+name,Houghton Street,1,0.011,0.0,0.0
+name,Hurst Drive Primary School,1,0.011,0.0,0.0
+name,Hyde Park Place Bayswater Road,1,0.011,0.0,0.0
+name,Idol Lane,1,0.011,0.0,0.0
+name,Ingate Place,1,0.011,0.0,0.0
+name,Inner Temple Lane,1,0.011,0.0,0.0
+name,Inner Temple Lane Gate,1,0.011,0.0,0.0
+name,Ion Square,1,0.011,0.0,0.0
+name,Irving Street,1,0.011,0.0,0.0
+name,Isabella Mews,1,0.011,0.0,0.0
+name,Islington Park Street,1,0.011,0.0,0.0
+name,JET,1,0.011,0.0,0.0
+name,Jeffrey's Road,1,0.011,0.0,0.0
+name,Jerome Street,1,0.011,0.0,0.0
+name,John Street,1,0.011,0.0,0.0
+name,Johnson's Court,1,0.011,0.0,0.0
+name,Johnson's Place,1,0.011,0.0,0.0
+name,KFC,1,0.011,0.0,0.0
+name,Keeley Street,1,0.011,0.0,0.0
+name,Kemerton Road,1,0.011,0.0,0.0
+name,Kensington Road,1,0.011,0.0,0.0
+name,King Edward Street / St Paul's Station,1,0.011,0.0,0.0
+name,King Street,1,0.011,0.0,0.0
+name,King's Mews,1,0.011,0.0,0.0
+name,Kingsland High Street,1,0.011,0.0,0.0
+name,Kingsland Passage,1,0.011,0.0,0.0
+name,Kingsway / Holborn Station,1,0.011,0.0,0.0
+name,Kingsway Tram Subway,1,0.011,0.0,0.0
+name,Kitson Road,1,0.011,0.0,0.0
+name,Knightsbridge Green,1,0.011,0.0,0.0
+name,LJ:Works,1,0.011,0.0,0.0
+name,LVRP Disc Golf,1,0.011,0.0,0.0
+name,Laburnum Street,1,0.011,0.0,0.0
+name,Lamb Street,1,0.011,0.0,0.0
+name,Lambeth North,1,0.011,0.0,0.0
+name,Lambeth North Station,1,0.011,0.0,0.0
+name,Lambeth Palace,1,0.011,0.0,0.0
+name,Langton Road,1,0.011,0.0,0.0
+name,Lansdowne Row,1,0.011,0.0,0.0
+name,Lanthorn's Wood,1,0.011,0.0,0.0
+name,Laurence Pountney Lane,1,0.011,0.0,0.0
+name,Leadenhall Market,1,0.011,0.0,0.0
+name,Lee Valley Almost Wild Campsite,1,0.011,0.0,0.0
+name,Lee Valley Boat Centre,1,0.011,0.0,0.0
+name,Lee Valley White Water Centre,1,0.011,0.0,0.0
+name,Leonard Street,1,0.011,0.0,0.0
+name,Lidl,1,0.011,0.0,0.0
+name,Lieutenant Ellis Way,1,0.011,0.0,0.0
+name,Little Turnstile,1,0.011,0.0,0.0
+name,Little Waitrose,1,0.011,0.0,0.0
+name,London Bridge Walk,1,0.011,0.0,0.0
+name,London Lane,1,0.011,0.0,0.0
+name,London Waterloo Station,1,0.011,0.0,0.0
+name,Longlands Primary School and Nursery,1,0.011,0.0,0.0
+name,Lower Belgrave Street,1,0.011,0.0,0.0
+name,Lupus Street,1,0.011,0.0,0.0
+name,MAX50,1,0.011,0.0,0.0
+name,MERKUR Slots,1,0.011,0.0,0.0
+name,Macduff Road,1,0.011,0.0,0.0
+name,Magenta Zone,1,0.011,0.0,0.0
+name,Mallow Street,1,0.011,0.0,0.0
+name,Man In Moon Passage,1,0.011,0.0,0.0
+name,Mandeville Close,1,0.011,0.0,0.0
+name,Manestream,1,0.011,0.0,0.0
+name,Mansion House Street,1,0.011,0.0,0.0
+name,Marie Curie,1,0.011,0.0,0.0
+name,Marks & Spencer,1,0.011,0.0,0.0
+name,Marsh Close,1,0.011,0.0,0.0
+name,Marsh Court,1,0.011,0.0,0.0
+name,Martello Street,1,0.011,0.0,0.0
+name,Massie Road,1,0.011,0.0,0.0
+name,Maunsel Street,1,0.011,0.0,0.0
+name,Medlar Street,1,0.011,0.0,0.0
+name,Melbourne Square,1,0.011,0.0,0.0
+name,Melissa Electrical Distributors,1,0.011,0.0,0.0
+name,Mildmay Grove North,1,0.011,0.0,0.0
+name,Mill Lane,1,0.011,0.0,0.0
+name,Mill Lane Allotments,1,0.011,0.0,0.0
+name,Millbrook School,1,0.011,0.0,0.0
+name,Monck Street,1,0.011,0.0,0.0
+name,Montague Street,1,0.011,0.0,0.0
+name,Monument Station,1,0.011,0.0,0.0
+name,Moorgate,1,0.011,0.0,0.0
+name,Moorgate Station,1,0.011,0.0,0.0
+name,Moorland Road,1,0.011,0.0,0.0
+name,More London Place,1,0.011,0.0,0.0
+name,Morrisons,1,0.011,0.0,0.0
+name,Murphy Street,1,0.011,0.0,0.0
+name,Napier Grove,1,0.011,0.0,0.0
+name,National Grid Elstree-Waltham Cross,1,0.011,0.0,0.0
+name,National Grid Rye House-Stocking Pelham,1,0.011,0.0,0.0
+name,National Grid Rye House-Waltham Cross,1,0.011,0.0,0.0
+name,National Grid Waltham Cross-Brimsdown,1,0.011,0.0,0.0
+name,New Burlington Mews,1,0.011,0.0,0.0
+name,New River,1,0.011,0.0,0.0
+name,New River Gardens,1,0.011,0.0,0.0
+name,New River Path,1,0.011,0.0,0.0
+name,Newington Green Road Bridge,1,0.011,0.0,0.0
+name,Newman's Court,1,0.011,0.0,0.0
+name,Nicholson Street,1,0.011,0.0,0.0
+name,Nine Elms Station,1,0.011,0.0,0.0
+name,Nisa Local,1,0.011,0.0,0.0
+name,Norris Street,1,0.011,0.0,0.0
+name,North Lagoon,1,0.011,0.0,0.0
+name,North Street,1,0.011,0.0,0.0
+name,Northaw Brook,1,0.011,0.0,0.0
+name,Northern Line (Bank Branch),1,0.011,0.0,0.0
+name,Northgate Vehicle Hire,1,0.011,0.0,0.0
+name,Northiam Street,1,0.011,0.0,0.0
+name,Northington Street,1,0.011,0.0,0.0
+name,Northumberland Street,1,0.011,0.0,0.0
+name,Oakbank Grove,1,0.011,0.0,0.0
+name,Oakleigh Court,1,0.011,0.0,0.0
+name,Oakley Crescent,1,0.011,0.0,0.0
+name,Ockendon Road,1,0.011,0.0,0.0
+name,Old Bailey,1,0.011,0.0,0.0
+name,Old Church Street,1,0.011,0.0,0.0
+name,Old Street Station,1,0.011,0.0,0.0
+name,Orange Zone,1,0.011,0.0,0.0
+name,Orpheus Street,1,0.011,0.0,0.0
+name,Osbert Street,1,0.011,0.0,0.0
+name,PCL North London,1,0.011,0.0,0.0
+name,Palm Tree Thai Spa,1,0.011,0.0,0.0
+name,Papa John's,1,0.011,0.0,0.0
+name,Park Road,1,0.011,0.0,0.0
+name,Parkfield Street,1,0.011,0.0,0.0
+name,Parkwood Close,1,0.011,0.0,0.0
+name,Paul Close,1,0.011,0.0,0.0
+name,Pearman Street,1,0.011,0.0,0.0
+name,Peckham Road,1,0.011,0.0,0.0
+name,Pelham Street,1,0.011,0.0,0.0
+name,Penton Street / Chapel Market,1,0.011,0.0,0.0
+name,Percival Street,1,0.011,0.0,0.0
+name,Petworth Street,1,0.011,0.0,0.0
+name,Philpot Lane,1,0.011,0.0,0.0
+name,Phipp Street,1,0.011,0.0,0.0
+name,Pickering Street,1,0.011,0.0,0.0
+name,Pimlico Road / Ebury Bridge Road,1,0.011,0.0,0.0
+name,Pimlico Station,1,0.011,0.0,0.0
+name,Pitfield Street,1,0.011,0.0,0.0
+name,Platform 2;3,1,0.011,0.0,0.0
+name,Plough Yard,1,0.011,0.0,0.0
+name,Pocock Street,1,0.011,0.0,0.0
+name,Ponders End Distribution Centre,1,0.011,0.0,0.0
+name,Popham Street,1,0.011,0.0,0.0
+name,Poppin's Court,1,0.011,0.0,0.0
+name,Post Office Court,1,0.011,0.0,0.0
+name,Poultry / Bank Station,1,0.011,0.0,0.0
+name,Poundland,1,0.011,0.0,0.0
+name,Prince Of Wales Drive,1,0.011,0.0,0.0
+name,Printing House Yard,1,0.011,0.0,0.0
+name,Prosser Yard,1,0.011,0.0,0.0
+name,Purple Zone,1,0.011,0.0,0.0
+name,Quaker Street,1,0.011,0.0,0.0
+name,Queen's Gate Place Mews,1,0.011,0.0,0.0
+name,Queens Head Passage,1,0.011,0.0,0.0
+name,Queenstown Road Station,1,0.011,0.0,0.0
+name,Rampayne Street,1,0.011,0.0,0.0
+name,Rathgar Road,1,0.011,0.0,0.0
+name,Ratty's Lane Sustainable Energy Facility,1,0.011,0.0,0.0
+name,Ravensdon Street,1,0.011,0.0,0.0
+name,Ray Street Bridge,1,0.011,0.0,0.0
+name,Redcross Way,1,0.011,0.0,0.0
+name,Regan Way,1,0.011,0.0,0.0
+name,Regency Place,1,0.011,0.0,0.0
+name,Remington Street,1,0.011,0.0,0.0
+name,Rennie Street,1,0.011,0.0,0.0
+name,Richmond Grove,1,0.011,0.0,0.0
+name,Richmond Terrace,1,0.011,0.0,0.0
+name,River Place,1,0.011,0.0,0.0
+name,Robert Barclay Academy,1,0.011,0.0,0.0
+name,Rochester Street,1,0.011,0.0,0.0
+name,Roller Skater,1,0.011,0.0,0.0
+name,Roselands Primary School,1,0.011,0.0,0.0
+name,Rosery Gate,1,0.011,0.0,0.0
+name,Royal Albert Hall,1,0.011,0.0,0.0
+name,Royal Aroma Oud,1,0.011,0.0,0.0
+name,Royal Avenue,1,0.011,0.0,0.0
+name,Royal Brompton Hospital / Royal Marsden Hospital,1,0.011,0.0,0.0
+name,Royal Mail Delivery Office,1,0.011,0.0,0.0
+name,Royal Oak Road,1,0.011,0.0,0.0
+name,Royal Street,1,0.011,0.0,0.0
+name,Rutland Gardens,1,0.011,0.0,0.0
+name,Rye House,1,0.011,0.0,0.0
+name,Rye Meads,1,0.011,0.0,0.0
+name,Rye Park Nursery School,1,0.011,0.0,0.0
+name,Rye Road,1,0.011,0.0,0.0
+name,Saffron Hill,1,0.011,0.0,0.0
+name,Saint Mary the Virgin Church,1,0.011,0.0,0.0
+name,Sally Islands,1,0.011,0.0,0.0
+name,Santander,1,0.011,0.0,0.0
+name,Savill Close,1,0.011,0.0,0.0
+name,Savoy Court,1,0.011,0.0,0.0
+name,Sebastian Street,1,0.011,0.0,0.0
+name,Select,1,0.011,0.0,0.0
+name,Sell Close,1,0.011,0.0,0.0
+name,Seville Street,1,0.011,0.0,0.0
+name,Shades Technics,1,0.011,0.0,0.0
+name,Shepherdess Place,1,0.011,0.0,0.0
+name,Sheredes Primary School,1,0.011,0.0,0.0
+name,Shipwright Yard,1,0.011,0.0,0.0
+name,Shoreditch Church,1,0.011,0.0,0.0
+name,Shrubland Road,1,0.011,0.0,0.0
+name,Silesia Buildings,1,0.011,0.0,0.0
+name,Sir Roy Watts,1,0.011,0.0,0.0
+name,Sir Simon Milton Square,1,0.011,0.0,0.0
+name,Somerleyton Road,1,0.011,0.0,0.0
+name,Sopers Road Industrial Estate,1,0.011,0.0,0.0
+name,South Island Place,1,0.011,0.0,0.0
+name,Southwark Street / Southwark Bridge Road,1,0.011,0.0,0.0
+name,St Augustine's Catholic Primary School,1,0.011,0.0,0.0
+name,St Catherine & St Paul,1,0.011,0.0,0.0
+name,St Cross Catholic Primary School,1,0.011,0.0,0.0
+name,St James's Road,1,0.011,0.0,0.0
+name,St John's School,1,0.011,0.0,0.0
+name,St Joseph's Catholic Primary School,1,0.011,0.0,0.0
+name,St Rule Street,1,0.011,0.0,0.0
+name,St. Benet's Place,1,0.011,0.0,0.0
+name,St. Georges Mews,1,0.011,0.0,0.0
+name,St. Mary at Hill,1,0.011,0.0,0.0
+name,St. Michaels Alley,1,0.011,0.0,0.0
+name,St. Paul's Churchyard,1,0.011,0.0,0.0
+name,St. Paul's Place,1,0.011,0.0,0.0
+name,Stanford Street,1,0.011,0.0,0.0
+name,Stanley Bridge Cycles & Sports,1,0.011,0.0,0.0
+name,Steedman Street,1,0.011,0.0,0.0
+name,Stewart's Grove,1,0.011,0.0,0.0
+name,Stockwell Bus Garage,1,0.011,0.0,0.0
+name,Stockwell Gardens,1,0.011,0.0,0.0
+name,Stockwell Park Road,1,0.011,0.0,0.0
+name,Stockwell Station,1,0.011,0.0,0.0
+name,Stockwell Station / Clapham Road,1,0.011,0.0,0.0
+name,Stockwell Terrace,1,0.011,0.0,0.0
+name,Strutton Ground,1,0.011,0.0,0.0
+name,Styles Gardens,1,0.011,0.0,0.0
+name,Sunset Waltham Cross Studios,1,0.011,0.0,0.0
+name,Sutherland Street,1,0.011,0.0,0.0
+name,Sutherland Walk,1,0.011,0.0,0.0
+name,Swallow Street,1,0.011,0.0,0.0
+name,Swimmers Lane,1,0.011,0.0,0.0
+name,Swinton Street,1,0.011,0.0,0.0
+name,Sydney Close,1,0.011,0.0,0.0
+name,Sydney Place,1,0.011,0.0,0.0
+name,T C Autos,1,0.011,0.0,0.0
+name,TFC,1,0.011,0.0,0.0
+name,Tachbrook Street,1,0.011,0.0,0.0
+name,Tandoori Night,1,0.011,0.0,0.0
+name,Taste of Cyprus,1,0.011,0.0,0.0
+name,Tate Britain / Millbank Millennium Pier,1,0.011,0.0,0.0
+name,Taverna On The Terrace,1,0.011,0.0,0.0
+name,The Bread Bin,1,0.011,0.0,0.0
+name,The Breakfast Bar,1,0.011,0.0,0.0
+name,The Chadwick,1,0.011,0.0,0.0
+name,The Cranbourne Primary School,1,0.011,0.0,0.0
+name,The John Warner School,1,0.011,0.0,0.0
+name,The Latchmere,1,0.011,0.0,0.0
+name,The Moon and Cross,1,0.011,0.0,0.0
+name,The Sanctuary,1,0.011,0.0,0.0
+name,Theobalds Enterprise Centre,1,0.011,0.0,0.0
+name,Thorncroft Street,1,0.011,0.0,0.0
+name,Thornton Street,1,0.011,0.0,0.0
+name,Throgmorton Avenue,1,0.011,0.0,0.0
+name,Thurloe Square,1,0.011,0.0,0.0
+name,Thurlow Street,1,0.011,0.0,0.0
+name,Tilloch Street,1,0.011,0.0,0.0
+name,Tilney Court,1,0.011,0.0,0.0
+name,Tilney Gardens,1,0.011,0.0,0.0
+name,Tollgate Insurance Brokers,1,0.011,0.0,0.0
+name,Tolmers,1,0.011,0.0,0.0
+name,Torrino,1,0.011,0.0,0.0
+name,Tower Bridge Road,1,0.011,0.0,0.0
+name,Travelodge Cheshunt,1,0.011,0.0,0.0
+name,Trederwen Road,1,0.011,0.0,0.0
+name,Trevor Street,1,0.011,0.0,0.0
+name,Truck Care,1,0.011,0.0,0.0
+name,Tudor Road,1,0.011,0.0,0.0
+name,Tufton Street,1,0.011,0.0,0.0
+name,Turners Hill Post Office,1,0.011,0.0,0.0
+name,Turpentine Lane,1,0.011,0.0,0.0
+name,Twyford Place,1,0.011,0.0,0.0
+name,Tyburn Way,1,0.011,0.0,0.0
+name,Tyndale Lane,1,0.011,0.0,0.0
+name,Union Grove,1,0.011,0.0,0.0
+name,Vancouver Road,1,0.011,0.0,0.0
+name,Vane Street,1,0.011,0.0,0.0
+name,Vauxhall Bridge / Millbank,1,0.011,0.0,0.0
+name,Vince Street,1,0.011,0.0,0.0
+name,Vincent Square,1,0.011,0.0,0.0
+name,Vine Hill,1,0.011,0.0,0.0
+name,Vineyard Walk,1,0.011,0.0,0.0
+name,Voltaire Road,1,0.011,0.0,0.0
+name,Walbrook,1,0.011,0.0,0.0
+name,Walters Close Open Space,1,0.011,0.0,0.0
+name,Waltham Cross Bus Station,1,0.011,0.0,0.0
+name,Waltham Cross Motorcycles,1,0.011,0.0,0.0
+name,Walton Close,1,0.011,0.0,0.0
+name,Wandsworth Road Station,1,0.011,0.0,0.0
+name,Wanless Road,1,0.011,0.0,0.0
+name,Warwick House Street,1,0.011,0.0,0.0
+name,Warwick Row,1,0.011,0.0,0.0
+name,Watergate,1,0.011,0.0,0.0
+name,Waterloo Bus Garage,1,0.011,0.0,0.0
+name,Waterloo Place,1,0.011,0.0,0.0
+name,Waterloo Terrace,1,0.011,0.0,0.0
+name,Waterside Academy,1,0.011,0.0,0.0
+name,Webber Row,1,0.011,0.0,0.0
+name,Wells Close,1,0.011,0.0,0.0
+name,Westbridge Road / Parkgate Road,1,0.011,0.0,0.0
+name,Westbury Street,1,0.011,0.0,0.0
+name,Westminster,1,0.011,0.0,0.0
+name,Westmoreland Road,1,0.011,0.0,0.0
+name,Wharton Street,1,0.011,0.0,0.0
+name,Wheler Street,1,0.011,0.0,0.0
+name,White & Co,1,0.011,0.0,0.0
+name,Whitebeam Close,1,0.011,0.0,0.0
+name,Whitecross Street,1,0.011,0.0,0.0
+name,Whitehaven Close,1,0.011,0.0,0.0
+name,Whitehouse Farm,1,0.011,0.0,0.0
+name,Wilkinson Close,1,0.011,0.0,0.0
+name,Wilton Place,1,0.011,0.0,0.0
+name,Windsor Terrace,1,0.011,0.0,0.0
+name,Winston Churchill Way,1,0.011,0.0,0.0
+name,Wood's Mews,1,0.011,0.0,0.0
+name,Wormley CofE Primary School,1,0.011,0.0,0.0
+name,Wynford Road,1,0.011,0.0,0.0
+name,YHA Lee Valley Village,1,0.011,0.0,0.0
+name,Zagara,1,0.011,0.0,0.0
+natural,wood,55,51.4019,5400.0,5400.0
+natural,water,22,20.5607,2100.0,2100.0
+natural,scrub,16,14.9533,1500.0,1500.0
+natural,grassland,5,4.6729,400.0,400.0
+natural,tree,4,3.7383,300.0,300.0
+natural,tree_row,4,3.7383,300.0,300.0
+natural,sand,1,0.9346,0.0,0.0
+source,Mapbox,345,22.7873,34400.0,34400.0
+source,Bing,270,17.8336,26900.0,26900.0
+source,survey,205,13.5403,20400.0,20400.0
+source,npe,59,3.897,5800.0,5800.0
+source,gps+mapnoter,46,3.0383,4500.0,4500.0
+source,bing,31,2.0476,3000.0,3000.0
+source,Bing;photographic_survey,26,1.7173,2500.0,2500.0
+source,Bing;survey,26,1.7173,2500.0,2500.0
+source,yahoo + gpx,25,1.6513,2400.0,2400.0
+source,Survey of 2014-12-17,21,1.3871,2000.0,2000.0
+source,gpx,20,1.321,1900.0,1900.0
+source,naptan_import,20,1.321,1900.0,1900.0
+source,OS,17,1.1229,1600.0,1600.0
+source,photograph,16,1.0568,1500.0,1500.0
+source,https://www.youtube.com/watch?v=R-7pp4meVNw,15,0.9908,1400.0,1400.0
+source,survey on 2007-09-09 with yahoo and gpx support,14,0.9247,1300.0,1300.0
+source,Local knowledge aligned to Bing,13,0.8587,1200.0,1200.0
+source,local_knowledge,13,0.8587,1200.0,1200.0
+source,yahoo,13,0.8587,1200.0,1200.0
+source,Survey of 2015-12-06,12,0.7926,1100.0,1100.0
+source,local knowledge,12,0.7926,1100.0,1100.0
+source,OS OpenData StreetView,9,0.5945,800.0,800.0
+source,Survey of 2015-05-01,9,0.5945,800.0,800.0
+source,Survey of 2018-01-13,9,0.5945,800.0,800.0
+source,Survey of 2014-12-25,8,0.5284,700.0,700.0
+source,Survey of 2015-03-06,8,0.5284,700.0,700.0
+source,bing;OS_OpenData_StreetView,8,0.5284,700.0,700.0
+source,maxar,8,0.5284,700.0,700.0
+source,personal knowledge,8,0.5284,700.0,700.0
+source,survey of 2014-02-06,8,0.5284,700.0,700.0
+source,GPS,7,0.4624,600.0,600.0
+source,Personal memory,7,0.4624,600.0,600.0
+source,Survey of 2013-09-21,7,0.4624,600.0,600.0
+source,Survey of 2014-05-26,7,0.4624,600.0,600.0
+source,Survey of 2014-12-20,7,0.4624,600.0,600.0
+source,Survey of 2015-01-14,7,0.4624,600.0,600.0
+source,OS_Opendata_StreetView auto-trace (Tom Chance),6,0.3963,500.0,500.0
+source,Survey of 2014-05-15,6,0.3963,500.0,500.0
+source,Survey of 2015-11-04,6,0.3963,500.0,500.0
+source,npe + yahoo + gpx,6,0.3963,500.0,500.0
+source,BING,5,0.3303,400.0,400.0
+source,Bing;photograph,5,0.3303,400.0,400.0
+source,OS_opendata_streetview,5,0.3303,400.0,400.0
+source,Survey of 2014-12-22,5,0.3303,400.0,400.0
+source,https://www.lambeth.gov.uk/sites/default/files/pts-lambeth-north-v2.pdf,5,0.3303,400.0,400.0
+source,npe + yahoo,5,0.3303,400.0,400.0
+source,Bing;local knowledge,4,0.2642,300.0,300.0
+source,OS-OpenData_StreetView,4,0.2642,300.0,300.0
+source,guess,4,0.2642,300.0,300.0
+source,survey of 2016-02-29,4,0.2642,300.0,300.0
+source,survey; bing Imagery,4,0.2642,300.0,300.0
+source,Survey 2014-03-01,3,0.1982,200.0,200.0
+source,Survey of 2014-08-26,3,0.1982,200.0,200.0
+source,Survey of 2014-12-10,3,0.1982,200.0,200.0
+source,Survey of 2020-08-08,3,0.1982,200.0,200.0
+source,Yahoo,3,0.1982,200.0,200.0
+source,Yahoo Imagery,3,0.1982,200.0,200.0
+source,bing;gps+mapnoter,3,0.1982,200.0,200.0
+source,http://upload.wikimedia.org/wikipedia/commons/2/29/Bakerloo_Thames_tunnelling.png,3,0.1982,200.0,200.0
+source,npescans,3,0.1982,200.0,200.0
+source,observation,3,0.1982,200.0,200.0
+source,survey of 2014-02-08,3,0.1982,200.0,200.0
+source,survey;Bing,3,0.1982,200.0,200.0
+source,yahoo +gpx,3,0.1982,200.0,200.0
+source,DigiGlobe,2,0.1321,100.0,100.0
+source,"Highways England Preferred Route Announcement, June 2017",2,0.1321,100.0,100.0
+source,OS7,2,0.1321,100.0,100.0
+source,OS;survey,2,0.1321,100.0,100.0
+source,OS_OpenData_Boundary-Line,2,0.1321,100.0,100.0
+source,OS_OpenData_StreetView,2,0.1321,100.0,100.0
+source,Practice Website,2,0.1321,100.0,100.0
+source,Survey of 2014-12-09,2,0.1321,100.0,100.0
+source,Survey of 2017-03-27,2,0.1321,100.0,100.0
+source,bing;OS OpenData StreetView,2,0.1321,100.0,100.0
+source,gps survey,2,0.1321,100.0,100.0
+source,https://consultations.tfl.gov.uk/roads/cheyne-walk-lots-road/consult_view/,2,0.1321,100.0,100.0
+source,https://moderngov.lambeth.gov.uk/documents/s98351/Appendix%201.pdf,2,0.1321,100.0,100.0
+source,interpolation within known platform constraints,2,0.1321,100.0,100.0
+source,local knowledge + yahoo,2,0.1321,100.0,100.0
+source,naptan_import;survey,2,0.1321,100.0,100.0
+source,npe;survey;bing Imagery,2,0.1321,100.0,100.0
+source,survey of 2013-10-07,2,0.1321,100.0,100.0
+source,survey on 2007-09-08 with yahoo and gpx assistance,2,0.1321,100.0,100.0
+source,Bing;OS StreetView,1,0.0661,0.0,0.0
+source,Bing;survey;tags added to replaced way by ODBL/CT acceptors,1,0.0661,0.0,0.0
+source,London Borough of Lambeth,1,0.0661,0.0,0.0
+source,OS;Bing;photograph,1,0.0661,0.0,0.0
+source,OS;survey;Bing,1,0.0661,0.0,0.0
+source,Survey,1,0.0661,0.0,0.0
+source,Survey of 2016-07-15,1,0.0661,0.0,0.0
+source,TfL,1,0.0661,0.0,0.0
+source,Word of Mouth,1,0.0661,0.0,0.0
+source,cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012,1,0.0661,0.0,0.0
+source,data.strasbourg.eu - patrimoine_arbore,1,0.0661,0.0,0.0
+source,estimation,1,0.0661,0.0,0.0
+source,geolocated photo plus check against ABC,1,0.0661,0.0,0.0
+source,gps,1,0.0661,0.0,0.0
+source,gpx;yahoo;bing;survey,1,0.0661,0.0,0.0
+source,https://fdstreets.commonplace.is/about,1,0.0661,0.0,0.0
+source,https://historicengland.org.uk/listing/the-list/list-entry/1013659,1,0.0661,0.0,0.0
+source,https://historicengland.org.uk/listing/the-list/list-entry/1173954,1,0.0661,0.0,0.0
+source,https://historicengland.org.uk/listing/the-list/list-entry/1486488,1,0.0661,0.0,0.0
+source,https://www.bbc.co.uk/news/uk-england-beds-bucks-herts-68028666,1,0.0661,0.0,0.0
+source,https://www.islington.gov.uk/consultations/2022/charlton-place-consultation,1,0.0661,0.0,0.0
+source,https://www.youtube.com/watch?v=ok7ZwGzTqGw,1,0.0661,0.0,0.0
+source,https://www.youtube.com/watch?v=sCCG6TtYBmI,1,0.0661,0.0,0.0
+source,npe; survey; bing Imagery,1,0.0661,0.0,0.0
+source,survey + yahoo,1,0.0661,0.0,0.0
+source,survey 2014-03-01,1,0.0661,0.0,0.0
+source,survey June 2017,1,0.0661,0.0,0.0
+surface,asphalt,8291,92.5541,829000.0,829000.0
+surface,paving_stones,442,4.9341,44100.0,44100.0
+surface,paved,74,0.8261,7300.0,7300.0
+surface,sett,55,0.614,5400.0,5400.0
+surface,concrete,24,0.2679,2300.0,2300.0
+surface,concrete:plates,11,0.1228,1000.0,1000.0
+surface,dirt,11,0.1228,1000.0,1000.0
+surface,grass,10,0.1116,900.0,900.0
+surface,unpaved,10,0.1116,900.0,900.0
+surface,ground,7,0.0781,600.0,600.0
+surface,compacted,6,0.067,500.0,500.0
+surface,cobblestone,5,0.0558,400.0,400.0
+surface,wood,5,0.0558,400.0,400.0
+surface,unhewn_cobblestone,3,0.0335,200.0,200.0
+surface,brick,2,0.0223,100.0,100.0
+surface,bricks,1,0.0112,0.0,0.0
+surface,cobblestone:flattened,1,0.0112,0.0,0.0
+waterway,stream,51,69.863,5000.0,5000.0
+waterway,canal,10,13.6986,900.0,900.0
+waterway,lock_gate,3,4.1096,200.0,200.0
+waterway,weir,3,4.1096,200.0,200.0
+waterway,dam,2,2.7397,100.0,100.0
+waterway,drain,2,2.7397,100.0,100.0
+waterway,river,2,2.7397,100.0,100.0

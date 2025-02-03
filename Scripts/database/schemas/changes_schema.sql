@@ -93,3 +93,21 @@ CREATE TABLE emilia_romagna_bumb_changes (
 SELECT COUNT(*)
 FROM changes
 WHERE tags IS NOT NULL   AND jsonb_array_length(tags) > 0;
+
+
+-- Delete duplicates
+WITH CTE AS (
+    SELECT 
+        id, -- Primary key or unique column for identifying rows
+        ROW_NUMBER() OVER (
+            PARTITION BY element_id, element_type, version 
+            ORDER BY id
+        ) AS row_num
+    FROM changes
+)
+DELETE FROM changes_3_year_pre
+WHERE id IN (
+    SELECT id
+    FROM CTE
+    WHERE row_num > 1
+);

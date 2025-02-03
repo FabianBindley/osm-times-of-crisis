@@ -227,12 +227,12 @@ def plot_counts_specific(disaster_id, disaster_country, disaster_area, disaster_
     if not os.path.exists(f"Results/ChangeCounting/disaster{disaster_id}/charts"):
         os.makedirs(f"Results/ChangeCounting/disaster{disaster_id}/charts")
 
-    file_path = f'./Results/ChangeCounting/disaster{disaster_id}/charts/{pre_disaster_days}_{post_disaster_days}_{time_period}_counts{"_prophet_forecast" if prophet_model else ""}{"" if len(plot_edit_types) == 4 else "_"+"_".join(plot_edit_types)}{"_post_only" if post_only else ""}.png'
+    file_path = f'./Results/ChangeCounting/disaster{disaster_id}/charts/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_{time_period}_counts{"_prophet_forecast" if prophet_model else ""}{"" if len(plot_edit_types) == 4 else "_"+"_".join(plot_edit_types)}{"_post_only" if post_only else ""}.png'
     plt.savefig(file_path, dpi=350)
     print("saved: ",file_path)
 
     os.makedirs(f"visualisation-site/public/ChangeCounting/disaster{disaster_id}/charts", exist_ok=True)
-    visualisation_file_path = f'visualisation-site/public/ChangeCounting/disaster{disaster_id}/charts/{pre_disaster_days}_{post_disaster_days}_{time_period}_counts{"_prophet_forecast" if prophet_model else ""}{"" if len(plot_edit_types) == 4 else "_"+"_".join(plot_edit_types)}{"_post_only" if post_only else ""}.png'
+    visualisation_file_path = f'visualisation-site/public/ChangeCounting/disaster{disaster_id}/charts/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_{time_period}_counts{"_prophet_forecast" if prophet_model else ""}{"" if len(plot_edit_types) == 4 else "_"+"_".join(plot_edit_types)}{"_post_only" if post_only else ""}.png'
     shutil.copyfile(file_path, visualisation_file_path)
     
     plt.close()
@@ -362,8 +362,8 @@ def process_disaster(disaster_id, periods, prophet_model_bools, post_only_bools,
 if __name__ == "__main__":
 
     periods = [(365,30,365), (180,30,365),]
-    periods = [ (1095, 30, 365),  (365, 60, 335)]
-    periods = [(1095, 30, 365),(180,30,365),(365,30,365),(365,60,335)]
+    periods = [ (1095, 30, 365),  (365, 60, 335), (1095, 60, 365),(180,60,365),]
+    periods = [(365,60,365),(365,30,365)]
     prophet_model_bools = [True, False]
     post_only_bools = [True, False]
     plot_edit_types_list = [["creates", "edits", "deletes", "total"],["creates"],["edits"],["deletes"],["total"]]
@@ -375,9 +375,9 @@ if __name__ == "__main__":
     for period in periods:
         plot_full_periods_change_count(period[0], period[1], period[2])
         plot_total_change_counts(period[0], period[1], period[2], disaster_ids)
-
+        
     
-     # Use ProcessPoolExecutor to parallelize the disaster_id loop
+    # Use ProcessPoolExecutor to parallelize the disaster_id loop
     with concurrent.futures.ProcessPoolExecutor() as executor:
         # Submit tasks for each disaster_id
         futures = {

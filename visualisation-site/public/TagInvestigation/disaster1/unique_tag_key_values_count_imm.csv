@@ -12,65 +12,222 @@ amenity,pub,1,4.0,0.0,1116.6667
 building,yes,28,87.5,2700.0,33966.6667
 building,house,3,9.375,200.0,3550.0
 building,warehouse,1,3.125,0.0,1116.6667
-highway,footway,11,28.9474,1000.0,13283.3333
-highway,track,9,23.6842,800.0,10850.0
-highway,residential,7,18.4211,600.0,8416.6667
-highway,steps,4,10.5263,300.0,4766.6667
-highway,cycleway,3,7.8947,200.0,3550.0
-highway,crossing,1,2.6316,0.0,1116.6667
-highway,path,1,2.6316,0.0,1116.6667
-highway,service,1,2.6316,0.0,1116.6667
-highway,trunk,1,2.6316,0.0,1116.6667
-landuse,residential,20,62.5,1900.0,24233.3333
-landuse,grass,4,12.5,300.0,4766.6667
-landuse,allotments,3,9.375,200.0,3550.0
-landuse,railway,2,6.25,100.0,2333.3333
-landuse,retail,2,6.25,100.0,2333.3333
-landuse,farmland,1,3.125,0.0,1116.6667
+emergency,yes,1,100.0,0.0,1116.6667
+highway,crossing,268,32.4063,26700.0,325966.6667
+highway,trunk,197,23.821,19600.0,239583.3333
+highway,footway,87,10.52,8600.0,105750.0
+highway,primary,80,9.6735,7900.0,97233.3333
+highway,unclassified,42,5.0786,4100.0,51000.0
+highway,residential,41,4.9577,4000.0,49783.3333
+highway,tertiary,21,2.5393,2000.0,25450.0
+highway,cycleway,20,2.4184,1900.0,24233.3333
+highway,traffic_signals,20,2.4184,1900.0,24233.3333
+highway,service,14,1.6929,1300.0,16933.3333
+highway,track,9,1.0883,800.0,10850.0
+highway,secondary,7,0.8464,600.0,8416.6667
+highway,bus_stop,5,0.6046,400.0,5983.3333
+highway,steps,4,0.4837,300.0,4766.6667
+highway,give_way,3,0.3628,200.0,3550.0
+highway,pedestrian,3,0.3628,200.0,3550.0
+highway,primary_link,3,0.3628,200.0,3550.0
+highway,path,1,0.1209,0.0,1116.6667
+highway,road,1,0.1209,0.0,1116.6667
+highway,trunk_link,1,0.1209,0.0,1116.6667
+landuse,residential,20,60.6061,1900.0,24233.3333
+landuse,grass,4,12.1212,300.0,4766.6667
+landuse,allotments,3,9.0909,200.0,3550.0
+landuse,railway,2,6.0606,100.0,2333.3333
+landuse,retail,2,6.0606,100.0,2333.3333
+landuse,commercial,1,3.0303,0.0,1116.6667
+landuse,farmland,1,3.0303,0.0,1116.6667
 leisure,park,5,62.5,400.0,5983.3333
 leisure,dog_park,1,12.5,0.0,1116.6667
 leisure,picnic_table,1,12.5,0.0,1116.6667
 leisure,pitch,1,12.5,0.0,1116.6667
-name,Lammasmead,4,13.3333,300.0,4766.6667
-name,River Lea,3,10.0,200.0,3550.0
-name,Nationwide,2,6.6667,100.0,2333.3333
-name,Peacocks,2,6.6667,100.0,2333.3333
-name,Savers,2,6.6667,100.0,2333.3333
-name,Asda,1,3.3333,0.0,1116.6667
-name,BP,1,3.3333,0.0,1116.6667
-name,Broxbourne C of E Primary School,1,3.3333,0.0,1116.6667
-name,Caffè Nero,1,3.3333,0.0,1116.6667
-name,Cheshunt Country Walk & Dog Activity Trail,1,3.3333,0.0,1116.6667
-name,Cheshunt Train Station Car Park,1,3.3333,0.0,1116.6667
-name,Flamstead End School,1,3.3333,0.0,1116.6667
-name,Forres Primary Academy,1,3.3333,0.0,1116.6667
-name,Galloway Close,1,3.3333,0.0,1116.6667
-name,Great Cambridge Road,1,3.3333,0.0,1116.6667
-name,Hoddesdon Post Office,1,3.3333,0.0,1116.6667
-name,JET,1,3.3333,0.0,1116.6667
-name,Mulberry Close,1,3.3333,0.0,1116.6667
-name,The John Warner School,1,3.3333,0.0,1116.6667
-name,The Moon and Cross,1,3.3333,0.0,1116.6667
-name,Trinity Marsh Ditch,1,3.3333,0.0,1116.6667
-name,Turners Hill Post Office,1,3.3333,0.0,1116.6667
-natural,water,12,50.0,1100.0,14500.0
-natural,wood,11,45.8333,1000.0,13283.3333
-natural,wetland,1,4.1667,0.0,1116.6667
-source,yahoo + gpx,13,50.0,1200.0,15716.6667
-source,gps+mapnoter,6,23.0769,500.0,7200.0
-source,bing,2,7.6923,100.0,2333.3333
-source,yahoo,2,7.6923,100.0,2333.3333
-source,LVRP Sign,1,3.8462,0.0,1116.6667
-source,local_knowledge,1,3.8462,0.0,1116.6667
-source,yahoo+gpx,1,3.8462,0.0,1116.6667
-surface,asphalt,18,58.0645,1700.0,21800.0
-surface,dirt,4,12.9032,300.0,4766.6667
-surface,metal,3,9.6774,200.0,3550.0
-surface,concrete,2,6.4516,100.0,2333.3333
-surface,paving_stones,2,6.4516,100.0,2333.3333
-surface,compacted,1,3.2258,0.0,1116.6667
-surface,wood,1,3.2258,0.0,1116.6667
-waterway,canal,3,33.3333,200.0,3550.0
-waterway,river,2,22.2222,100.0,2333.3333
-waterway,stream,2,22.2222,100.0,2333.3333
-waterway,weir,2,22.2222,100.0,2333.3333
+name,South Lambeth Road,74,15.914,7300.0,89933.3333
+name,Clapham Road,37,7.957,3600.0,44916.6667
+name,Stockwell Road,35,7.5269,3400.0,42483.3333
+name,Kennington Road,23,4.9462,2200.0,27883.3333
+name,Cheapside,14,3.0108,1300.0,16933.3333
+name,Kennington Lane,11,2.3656,1000.0,13283.3333
+name,Charing Cross Road,9,1.9355,800.0,10850.0
+name,New Kent Road,9,1.9355,800.0,10850.0
+name,Shaftesbury Avenue,9,1.9355,800.0,10850.0
+name,Victoria Street,9,1.9355,800.0,10850.0
+name,Threadneedle Street,8,1.7204,700.0,9633.3333
+name,Vauxhall Bridge Road,7,1.5054,600.0,8416.6667
+name,Piccadilly,5,1.0753,400.0,5983.3333
+name,Harleyford Road,4,0.8602,300.0,4766.6667
+name,Lammasmead,4,0.8602,300.0,4766.6667
+name,Moorland Road,4,0.8602,300.0,4766.6667
+name,New Change,4,0.8602,300.0,4766.6667
+name,Old South Lambeth Road,4,0.8602,300.0,4766.6667
+name,Puddle Dock,4,0.8602,300.0,4766.6667
+name,South Lambeth Place,4,0.8602,300.0,4766.6667
+name,Southampton Row,4,0.8602,300.0,4766.6667
+name,Albemarle Street,3,0.6452,200.0,3550.0
+name,Berkeley Street,3,0.6452,200.0,3550.0
+name,Blackfriars Road,3,0.6452,200.0,3550.0
+name,Bow Churchyard,3,0.6452,200.0,3550.0
+name,Buckingham Palace Road,3,0.6452,200.0,3550.0
+name,Clapham High Street,3,0.6452,200.0,3550.0
+name,Honey Lane,3,0.6452,200.0,3550.0
+name,Lambeth Road,3,0.6452,200.0,3550.0
+name,Mare Street,3,0.6452,200.0,3550.0
+name,Queen Victoria Street,3,0.6452,200.0,3550.0
+name,River Lea,3,0.6452,200.0,3550.0
+name,Rochester Row,3,0.6452,200.0,3550.0
+name,Stockwell Park Walk,3,0.6452,200.0,3550.0
+name,Aldwych,2,0.4301,100.0,2333.3333
+name,Baylis Road,2,0.4301,100.0,2333.3333
+name,Blackfriars Bridge,2,0.4301,100.0,2333.3333
+name,Cecil Court,2,0.4301,100.0,2333.3333
+name,Clapham Manor Street,2,0.4301,100.0,2333.3333
+name,Dean Street,2,0.4301,100.0,2333.3333
+name,Downham Road,2,0.4301,100.0,2333.3333
+name,Ebury Bridge Road,2,0.4301,100.0,2333.3333
+name,Green Lanes,2,0.4301,100.0,2333.3333
+name,Kingsway,2,0.4301,100.0,2333.3333
+name,Loughborough Road,2,0.4301,100.0,2333.3333
+name,Nationwide,2,0.4301,100.0,2333.3333
+name,Newgate Street,2,0.4301,100.0,2333.3333
+name,Parry Street,2,0.4301,100.0,2333.3333
+name,Peacocks,2,0.4301,100.0,2333.3333
+name,Pimlico Road,2,0.4301,100.0,2333.3333
+name,Queenstown Road,2,0.4301,100.0,2333.3333
+name,River Lee Navigation,2,0.4301,100.0,2333.3333
+name,River Place,2,0.4301,100.0,2333.3333
+name,Savers,2,0.4301,100.0,2333.3333
+name,Silk Mews,2,0.4301,100.0,2333.3333
+name,South Lambeth Road / Stockwell Station,2,0.4301,100.0,2333.3333
+name,St. Martin's Place,2,0.4301,100.0,2333.3333
+name,Stansfield Road,2,0.4301,100.0,2333.3333
+name,Stockwell Green,2,0.4301,100.0,2333.3333
+name,Stonhouse Street,2,0.4301,100.0,2333.3333
+name,Victoria Park Road,2,0.4301,100.0,2333.3333
+name,Westgate Street,2,0.4301,100.0,2333.3333
+name,Wheatsheaf Lane,2,0.4301,100.0,2333.3333
+name,Adams Court,1,0.2151,0.0,1116.6667
+name,Affleck Street,1,0.2151,0.0,1116.6667
+name,Aldebert Terrace,1,0.2151,0.0,1116.6667
+name,Andrews Road,1,0.2151,0.0,1116.6667
+name,Angel Station,1,0.2151,0.0,1116.6667
+name,Arlington Street,1,0.2151,0.0,1116.6667
+name,Asda,1,0.2151,0.0,1116.6667
+name,Avery Farm Row,1,0.2151,0.0,1116.6667
+name,BP,1,0.2151,0.0,1116.6667
+name,Bishopsgate,1,0.2151,0.0,1116.6667
+name,Blackfriars Station / South Entrance,1,0.2151,0.0,1116.6667
+name,Bow Lane,1,0.2151,0.0,1116.6667
+name,Bressenden Place,1,0.2151,0.0,1116.6667
+name,Broxbourne C of E Primary School,1,0.2151,0.0,1116.6667
+name,Bucklersbury Passage,1,0.2151,0.0,1116.6667
+name,Bull Inn Court,1,0.2151,0.0,1116.6667
+name,Caffè Nero,1,0.2151,0.0,1116.6667
+name,Cheshunt Country Walk & Dog Activity Trail,1,0.2151,0.0,1116.6667
+name,Cheshunt Train Station Car Park,1,0.2151,0.0,1116.6667
+name,City Road,1,0.2151,0.0,1116.6667
+name,Cleaver Street,1,0.2151,0.0,1116.6667
+name,Coldharbour Lane,1,0.2151,0.0,1116.6667
+name,Cromwell Road,1,0.2151,0.0,1116.6667
+name,Dover Street,1,0.2151,0.0,1116.6667
+name,Drummond Gate,1,0.2151,0.0,1116.6667
+name,Duke Street Hill,1,0.2151,0.0,1116.6667
+name,Duke Street St James's,1,0.2151,0.0,1116.6667
+name,Ebury Square,1,0.2151,0.0,1116.6667
+name,Elizabeth Street,1,0.2151,0.0,1116.6667
+name,Enfield Road,1,0.2151,0.0,1116.6667
+name,Falkirk Street / Hackney Community College,1,0.2151,0.0,1116.6667
+name,Ferndale Road,1,0.2151,0.0,1116.6667
+name,Flamstead End School,1,0.2151,0.0,1116.6667
+name,Fleur De Lis Street,1,0.2151,0.0,1116.6667
+name,Forres Primary Academy,1,0.2151,0.0,1116.6667
+name,Galloway Close,1,0.2151,0.0,1116.6667
+name,Great Cambridge Road,1,0.2151,0.0,1116.6667
+name,Hermes Street,1,0.2151,0.0,1116.6667
+name,Hertfordshire - Greater London,1,0.2151,0.0,1116.6667
+name,Hoddesdon Post Office,1,0.2151,0.0,1116.6667
+name,Holborn Place,1,0.2151,0.0,1116.6667
+name,Holborn Viaduct,1,0.2151,0.0,1116.6667
+name,Irving Grove,1,0.2151,0.0,1116.6667
+name,JET,1,0.2151,0.0,1116.6667
+name,Killick Street,1,0.2151,0.0,1116.6667
+name,King Edward Street,1,0.2151,0.0,1116.6667
+name,Lansdowne Way,1,0.2151,0.0,1116.6667
+name,Lombard Street,1,0.2151,0.0,1116.6667
+name,Macclesfield Street,1,0.2151,0.0,1116.6667
+name,Mansion House Place,1,0.2151,0.0,1116.6667
+name,Miles Street,1,0.2151,0.0,1116.6667
+name,Mulberry Close,1,0.2151,0.0,1116.6667
+name,Navarino Road,1,0.2151,0.0,1116.6667
+name,Newington Green,1,0.2151,0.0,1116.6667
+name,Oakwood Lane,1,0.2151,0.0,1116.6667
+name,Old Street,1,0.2151,0.0,1116.6667
+name,Outer Temple,1,0.2151,0.0,1116.6667
+name,Poultry,1,0.2151,0.0,1116.6667
+name,Ranelagh Grove,1,0.2151,0.0,1116.6667
+name,Royal Exchange Buildings,1,0.2151,0.0,1116.6667
+name,Sancroft Street,1,0.2151,0.0,1116.6667
+name,Scoresby Street,1,0.2151,0.0,1116.6667
+name,Scrutton Street,1,0.2151,0.0,1116.6667
+name,Shrubland Road,1,0.2151,0.0,1116.6667
+name,Small River Lea,1,0.2151,0.0,1116.6667
+name,South Street,1,0.2151,0.0,1116.6667
+name,Southwark Station,1,0.2151,0.0,1116.6667
+name,St. James's Street,1,0.2151,0.0,1116.6667
+name,St. Martin-in-the-Fields Church Path,1,0.2151,0.0,1116.6667
+name,St. Paul's Road,1,0.2151,0.0,1116.6667
+name,Stockwell Gardens,1,0.2151,0.0,1116.6667
+name,Strand,1,0.2151,0.0,1116.6667
+name,The John Warner School,1,0.2151,0.0,1116.6667
+name,The Moon and Cross,1,0.2151,0.0,1116.6667
+name,Trinity Marsh Ditch,1,0.2151,0.0,1116.6667
+name,Tube: North Ticket Hall,1,0.2151,0.0,1116.6667
+name,Turners Hill Post Office,1,0.2151,0.0,1116.6667
+name,Vernon Place,1,0.2151,0.0,1116.6667
+name,Wakley Street,1,0.2151,0.0,1116.6667
+name,Warwick Way,1,0.2151,0.0,1116.6667
+name,Watling Court,1,0.2151,0.0,1116.6667
+name,Westminster Bridge,1,0.2151,0.0,1116.6667
+name,Willow Place,1,0.2151,0.0,1116.6667
+name,Windmill Row,1,0.2151,0.0,1116.6667
+name,Windsor Terrace,1,0.2151,0.0,1116.6667
+name,Wyvil Road,1,0.2151,0.0,1116.6667
+natural,water,16,50.0,1500.0,19366.6667
+natural,wood,13,40.625,1200.0,15716.6667
+natural,scrub,1,3.125,0.0,1116.6667
+natural,tree,1,3.125,0.0,1116.6667
+natural,wetland,1,3.125,0.0,1116.6667
+source,yahoo + gpx,15,21.7391,1400.0,18150.0
+source,Survey of 2015-05-01,13,18.8406,1200.0,15716.6667
+source,Bing;photographic_survey,7,10.1449,600.0,8416.6667
+source,gps+mapnoter,6,8.6957,500.0,7200.0
+source,survey,5,7.2464,400.0,5983.3333
+source,Bing,4,5.7971,300.0,4766.6667
+source,Survey of 2014-12-17,4,5.7971,300.0,4766.6667
+source,bing,2,2.8986,100.0,2333.3333
+source,survey of 2013-10-07,2,2.8986,100.0,2333.3333
+source,survey; bing Imagery,2,2.8986,100.0,2333.3333
+source,yahoo,2,2.8986,100.0,2333.3333
+source,LVRP Sign,1,1.4493,0.0,1116.6667
+source,OS,1,1.4493,0.0,1116.6667
+source,OS OpenData Boundary-Line (2019-03-06),1,1.4493,0.0,1116.6667
+source,Survey of 2017-03-27,1,1.4493,0.0,1116.6667
+source,local_knowledge,1,1.4493,0.0,1116.6667
+source,npe,1,1.4493,0.0,1116.6667
+source,yahoo+gpx,1,1.4493,0.0,1116.6667
+surface,asphalt,446,87.9684,44500.0,542533.3333
+surface,paving_stones,37,7.2978,3600.0,44916.6667
+surface,concrete,9,1.7751,800.0,10850.0
+surface,dirt,4,0.789,300.0,4766.6667
+surface,metal,3,0.5917,200.0,3550.0
+surface,sett,3,0.5917,200.0,3550.0
+surface,paved,2,0.3945,100.0,2333.3333
+surface,compacted,1,0.1972,0.0,1116.6667
+surface,unpaved,1,0.1972,0.0,1116.6667
+surface,wood,1,0.1972,0.0,1116.6667
+waterway,canal,6,37.5,500.0,7200.0
+waterway,stream,4,25.0,300.0,4766.6667
+waterway,lock_gate,2,12.5,100.0,2333.3333
+waterway,river,2,12.5,100.0,2333.3333
+waterway,weir,2,12.5,100.0,2333.3333

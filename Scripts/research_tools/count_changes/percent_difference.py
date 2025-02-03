@@ -94,7 +94,7 @@ if __name__ == "__main__":
     db_utils.db_connect()
 
     
-    periods = [(365, 30, 365), (180, 30, 365), (365, 60, 335), (1095,30,365)]
+    periods = [(365, 30, 365), (365, 60, 365), (1095,60,365)]
     #periods = [(365, 30, 365)]
     average_metric = "median" # mean or median
 
@@ -107,7 +107,7 @@ if __name__ == "__main__":
             # File system, generate 1 folder for each disaster, and output the aggregate total in each period for each type, as well as pretty much the same file we had before
             print(f"{disaster_id} {disaster_area[0]} {disaster_date}")
             # First lets do the total counts for each period
-            percentage_difference_full_period(disaster_id, pre_disaster_days, imm_disaster_days, post_disaster_days, average_metric, imm_disaster_days)
+            percentage_difference_full_period(disaster_id, pre_disaster_days, imm_disaster_days, post_disaster_days, average_metric, 30)
 
             percentage_difference_time_series(disaster_id, pre_disaster_days, imm_disaster_days, post_disaster_days, average_metric, interval_length=1)
             percentage_difference_time_series(disaster_id, pre_disaster_days, imm_disaster_days, post_disaster_days, average_metric, interval_length=7)

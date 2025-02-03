@@ -1,33 +1,150 @@
 key,value,count,percent_of_total_changes_for_key,percent_difference_from_pre,percent_difference_from_pre_day
-amenity,fuel,12,75.0,1100.0,1100.0
-amenity,embassy,3,18.75,200.0,200.0
-amenity,bus_station,1,6.25,0.0,0.0
-highway,unclassified,117,63.9344,11600.0,11600.0
-highway,residential,29,15.847,2800.0,2800.0
-highway,primary,11,6.0109,1000.0,1000.0
-highway,track,9,4.918,800.0,800.0
-highway,tertiary,6,3.2787,500.0,500.0
-highway,trunk,5,2.7322,400.0,400.0
-highway,secondary,4,2.1858,300.0,300.0
-highway,Residential,1,0.5464,0.0,0.0
-highway,path,1,0.5464,0.0,0.0
-leisure,park,1,50.0,0.0,0.0
-leisure,stadium,1,50.0,0.0,0.0
-name,Haiti,36,61.0169,3500.0,3500.0
-name,Port-au-Prince,4,6.7797,300.0,300.0
-name,Embassy of the United States of America,3,5.0847,200.0,200.0
-name,Avenida Martin Luther King,2,3.3898,100.0,100.0
-name,Nationale No 2,2,3.3898,100.0,100.0
-name,Rue Duquella,2,3.3898,100.0,100.0
-name,Caribbean Market,1,1.6949,0.0,0.0
-name,Delma 95,1,1.6949,0.0,0.0
-name,Impasse Denesvar,1,1.6949,0.0,0.0
-name,Moulin Sur Mer,1,1.6949,0.0,0.0
-name,Musée d'art haïtien,1,1.6949,0.0,0.0
-name,Nationale No 1,1,1.6949,0.0,0.0
-name,Rue Lisius,1,1.6949,0.0,0.0
-name,Toussaint Louverture International Airport,1,1.6949,0.0,0.0
-name,avenue Lamartinière,1,1.6949,0.0,0.0
-name,rue Capois,1,1.6949,0.0,0.0
-source,Yahoo,18,94.7368,1700.0,1700.0
-source,wikipedia,1,5.2632,0.0,0.0
+amenity,fuel,13,43.3333,1200.0,1200.0
+amenity,school,6,20.0,500.0,500.0
+amenity,embassy,3,10.0,200.0,200.0
+amenity,parking,3,10.0,200.0,200.0
+amenity,restaurant,2,6.6667,100.0,100.0
+amenity,bus_station,1,3.3333,0.0,0.0
+amenity,place_of_worship,1,3.3333,0.0,0.0
+amenity,pub,1,3.3333,0.0,0.0
+building,yes,1,100.0,0.0,0.0
+highway,unclassified,333,59.2527,33200.0,33200.0
+highway,residential,75,13.3452,7400.0,7400.0
+highway,tertiary,58,10.3203,5700.0,5700.0
+highway,primary,18,3.2028,1700.0,1700.0
+highway,traffic_signals,18,3.2028,1700.0,1700.0
+highway,track,15,2.669,1400.0,1400.0
+highway,secondary,14,2.4911,1300.0,1300.0
+highway,mini_roundabout,9,1.6014,800.0,800.0
+highway,bus_stop,5,0.8897,400.0,400.0
+highway,trunk,5,0.8897,400.0,400.0
+highway,crossing,4,0.7117,300.0,300.0
+highway,primary_link,3,0.5338,200.0,200.0
+highway,ford,2,0.3559,100.0,100.0
+highway,path,2,0.3559,100.0,100.0
+highway,Residential,1,0.1779,0.0,0.0
+landuse,brownfield,2,66.6667,100.0,100.0
+landuse,retail,1,33.3333,0.0,0.0
+leisure,park,1,33.3333,0.0,0.0
+leisure,slipway,1,33.3333,0.0,0.0
+leisure,stadium,1,33.3333,0.0,0.0
+name,Haiti,36,18.1818,3500.0,3500.0
+name,Station Road,11,5.5556,1000.0,1000.0
+name,Nationale No 7,5,2.5253,400.0,400.0
+name,Town Street,5,2.5253,400.0,400.0
+name,Dixon Lane,4,2.0202,300.0,300.0
+name,Port-au-Prince,4,2.0202,300.0,300.0
+name,The Calls,4,2.0202,300.0,300.0
+name,Whitehouse Lane,4,2.0202,300.0,300.0
+name,Belle Isle Road,3,1.5152,200.0,200.0
+name,Embassy of the United States of America,3,1.5152,200.0,200.0
+name,Malvern Road,3,1.5152,200.0,200.0
+name,Old Run Road,3,1.5152,200.0,200.0
+name,Pinfold Lane,3,1.5152,200.0,200.0
+name,Silver Royd Hill,3,1.5152,200.0,200.0
+name,Westgate,3,1.5152,200.0,200.0
+name,Avenida Martin Luther King,2,1.0101,100.0,100.0
+name,Bahía de Manzanillo,2,1.0101,100.0,100.0
+name,Beeston Road,2,1.0101,100.0,100.0
+name,Brecks Lane,2,1.0101,100.0,100.0
+name,Broadlea Crescent,2,1.0101,100.0,100.0
+name,Chevin Fold,2,1.0101,100.0,100.0
+name,Church Road,2,1.0101,100.0,100.0
+name,Gipton Approach,2,1.0101,100.0,100.0
+name,High Street,2,1.0101,100.0,100.0
+name,Lavender Walk,2,1.0101,100.0,100.0
+name,Middleton Park Avenue,2,1.0101,100.0,100.0
+name,Middleton Road,2,1.0101,100.0,100.0
+name,Nationale No 2,2,1.0101,100.0,100.0
+name,Park West,2,1.0101,100.0,100.0
+name,Raynville Road,2,1.0101,100.0,100.0
+name,Rudgate,2,1.0101,100.0,100.0
+name,Rue Duquella,2,1.0101,100.0,100.0
+name,Spring Bank Cresent,2,1.0101,100.0,100.0
+name,Sutherland Road,2,1.0101,100.0,100.0
+name,Upper Accommodation Road,2,1.0101,100.0,100.0
+name,Woodhouse Street,2,1.0101,100.0,100.0
+name,01/19,1,0.5051,0.0,0.0
+name,05/23,1,0.5051,0.0,0.0
+name,08/26,1,0.5051,0.0,0.0
+name,10/28,1,0.5051,0.0,0.0
+name,Armley Lodge Road,1,0.5051,0.0,0.0
+name,Bassin Bleu Trail,1,0.5051,0.0,0.0
+name,Birchfield Primary School,1,0.5051,0.0,0.0
+name,Branch Road,1,0.5051,0.0,0.0
+name,Canal Road,1,0.5051,0.0,0.0
+name,Cap-Haitien International Airport,1,0.5051,0.0,0.0
+name,Caribbean Market,1,0.5051,0.0,0.0
+name,Church Lane,1,0.5051,0.0,0.0
+name,Cottingley Primary School,1,0.5051,0.0,0.0
+name,Coupland Street,1,0.5051,0.0,0.0
+name,Curch Road,1,0.5051,0.0,0.0
+name,Cyvadier Plage Hotel,1,0.5051,0.0,0.0
+name,Delma 95,1,0.5051,0.0,0.0
+name,Department of Computer Science,1,0.5051,0.0,0.0
+name,Fartown,1,0.5051,0.0,0.0
+name,Gillroyd Parade,1,0.5051,0.0,0.0
+name,Halton Moor Avenue,1,0.5051,0.0,0.0
+name,Henconner Lane,1,0.5051,0.0,0.0
+name,Holmsley Lane,1,0.5051,0.0,0.0
+name,Hugh Gaitskell Primary School & Sports Grounds,1,0.5051,0.0,0.0
+name,Impasse Denesvar,1,0.5051,0.0,0.0
+name,Jacmel,1,0.5051,0.0,0.0
+name,Jacmel Airport,1,0.5051,0.0,0.0
+name,Jérémie Airport,1,0.5051,0.0,0.0
+name,Layton Road,1,0.5051,0.0,0.0
+name,Ledgard Way,1,0.5051,0.0,0.0
+name,Les Cayes Airport,1,0.5051,0.0,0.0
+name,Magpie Lane,1,0.5051,0.0,0.0
+name,Moortown Corner,1,0.5051,0.0,0.0
+name,Moulin Sur Mer,1,0.5051,0.0,0.0
+name,Musée d'art haïtien,1,0.5051,0.0,0.0
+name,Nationale No 1,1,0.5051,0.0,0.0
+name,Nationale No 5,1,0.5051,0.0,0.0
+name,Nationale No 6,1,0.5051,0.0,0.0
+name,North Parade,1,0.5051,0.0,0.0
+name,Park Parade,1,0.5051,0.0,0.0
+name,Port-de-Paix Airport,1,0.5051,0.0,0.0
+name,Quarry Mount Terrace,1,0.5051,0.0,0.0
+name,Red Pepper,1,0.5051,0.0,0.0
+name,Rombalds View,1,0.5051,0.0,0.0
+name,Rue Lisius,1,0.5051,0.0,0.0
+name,Sally Islands,1,0.5051,0.0,0.0
+name,Savins Mill Way,1,0.5051,0.0,0.0
+name,Spen Lane,1,0.5051,0.0,0.0
+name,Spen Road,1,0.5051,0.0,0.0
+name,St. Marks Road,1,0.5051,0.0,0.0
+name,Stanley Road,1,0.5051,0.0,0.0
+name,The Royalty,1,0.5051,0.0,0.0
+name,Throstle Square,1,0.5051,0.0,0.0
+name,Toussaint Louverture International Airport,1,0.5051,0.0,0.0
+name,Turner Crescent,1,0.5051,0.0,0.0
+name,Villa Court,1,0.5051,0.0,0.0
+name,Westerton Road,1,0.5051,0.0,0.0
+name,Whingate Road,1,0.5051,0.0,0.0
+name,Winrose Grove,1,0.5051,0.0,0.0
+name,avenue Lamartinière,1,0.5051,0.0,0.0
+name,rue Capois,1,0.5051,0.0,0.0
+name,Église évangélique baptiste Emmanuel,1,0.5051,0.0,0.0
+natural,coastline,13,86.6667,1200.0,1200.0
+natural,bay,2,13.3333,100.0,100.0
+source,survey,19,24.359,1800.0,1800.0
+source,Yahoo,18,23.0769,1700.0,1700.0
+source,landsat,11,14.1026,1000.0,1000.0
+source,npe,8,10.2564,700.0,700.0
+source,wikipedia,6,7.6923,500.0,500.0
+source,cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2009,3,3.8462,200.0,200.0
+source,tiger_import_dch_v0.6_20070830,3,3.8462,200.0,200.0
+source,cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008,2,2.5641,100.0,100.0
+source,AND,1,1.2821,0.0,0.0
+source,PGS,1,1.2821,0.0,0.0
+source,SanGIS Addresses Public Domain (http://www.sangis.org/),1,1.2821,0.0,0.0
+source,cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : AAAA,1,1.2821,0.0,0.0
+source,eThekwini Metro,1,1.2821,0.0,0.0
+source,tiger_import_dch_v0.6_20070808,1,1.2821,0.0,0.0
+source,tiger_import_dch_v0.6_20070829,1,1.2821,0.0,0.0
+source,v2; cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2009,1,1.2821,0.0,0.0
+surface,paved,4,57.1429,300.0,300.0
+surface,unpaved,2,28.5714,100.0,100.0
+surface,ground,1,14.2857,0.0,0.0
+waterway,river,1,100.0,0.0,0.0
