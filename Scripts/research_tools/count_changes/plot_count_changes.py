@@ -363,13 +363,13 @@ if __name__ == "__main__":
 
     periods = [(365,30,365), (180,30,365),]
     periods = [ (1095, 30, 365),  (365, 60, 335), (1095, 60, 365),(180,60,365),]
-    periods = [(365,60,365),(365,30,365)]
+    periods = [(365,60,365),(1095,60,365)]
     prophet_model_bools = [True, False]
     post_only_bools = [True, False]
     plot_edit_types_list = [["creates", "edits", "deletes", "total"],["creates"],["edits"],["deletes"],["total"]]
     #plot_edit_types_list = [["deletes"],["total"]]
 
-    disaster_ids = [2,3,4,5,6]
+    disaster_ids = [7,8,9,10]
     #disaster_ids = [5]
 
     for period in periods:

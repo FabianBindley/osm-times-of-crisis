@@ -281,7 +281,7 @@ if __name__ == "__main__":
     db_utils = DB_Utils()
     db_utils.db_connect()
 
-    disaster_ids =  [3,4,5,6]
+    disaster_ids =  [7,8,9,10]
     sample_size = 1000000
     sample = False
     random_sample = False

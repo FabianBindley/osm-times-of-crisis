@@ -44,8 +44,7 @@ def process_disaster(place):
     )
 
     start_time = datetime.now()
-    print(f"Start processing {place_name} (Disaster ID: {disaster_id}) at {start_time}")
-    
+
     handler.apply_file(file)
     handler.flush_inserts()
     handler.print_statistics()
@@ -107,13 +106,45 @@ if __name__ == "__main__":
         "filter": False,
         "geojson_path": "Data/Nepal/NepalManuallyDefined.geojson",
     }
+    California = {
+        "place": "California",
+        "dates": {"start_date": "2017-08-16", "disaster_date": "2020-08-16", "end_date": "2021-10-16"},
+        "file": "California.osh.pbf",
+        "disaster_id": 7,
+        "filter": False,
+        "geojson_path": "Data/California/CaliforniaTop20Boundaries.geojson",
+    }
+    Texas = {
+        "place": "Texas",
+        "dates": {"start_date": "2014-08-26", "disaster_date": "2017-08-26", "end_date": "2018-10-26"},
+        "file": "Texas.osh.pbf",
+        "disaster_id": 8,
+        "filter": False,
+        "geojson_path": "Data/Texas/TexasManuallyDefined.geojson",
+    }
+    Sulawesi = {
+        "place": "Sulawesi",
+        "dates": {"start_date": "2015-09-28", "disaster_date": "2018-09-28", "end_date": "2019-11-28"},
+        "file": "Sulawesi.osh.pbf",
+        "disaster_id": 9,
+        "filter": False,
+        "geojson_path": "Data/Sulawesi/SulawesiManuallyDefined.geojson",
+    }
 
-    places = [EmiliaRomagna, Broxbourne, Haiti2010, Haiti2016, Haiti2021, Nepal]
+    Attica = {
+        "place": "Attica",
+        "dates": {"start_date": "2015-07-23", "disaster_date": "2018-07-23", "end_date": "2019-09-23"},
+        "file": "Attica.osh.pbf",
+        "disaster_id": 10,
+        "filter": False,
+        "geojson_path": "Data/Attica/AtticaManuallyDefined.geojson",
+    }
 
+    #places = [EmiliaRomagna, Broxbourne, Haiti2010, Texas]
+    places = [California, Sulawesi, Attica]
     # Use multiprocessing to process each disaster in parallel
     with concurrent.futures.ProcessPoolExecutor() as executor:
         futures = {executor.submit(process_disaster, place): place["disaster_id"] for place in places}
-
         for future in concurrent.futures.as_completed(futures):
             disaster_id = futures[future]
             try:

@@ -112,7 +112,7 @@ if __name__ == "__main__":
     minutes = 30
     ratio = 0.95
 
-    #run_filtering_with_params(n=5000, minutes=30, ratio=0.95, True)
+    run_filtering_with_params(n=5000, minutes=30, ratio=0.95,remove_imports = True)
     run_filtering_with_params(n=3000, minutes=1, ratio=0.95, remove_imports =True)
     # What is a bulk import?
     # 1) More than n changes in a changeset

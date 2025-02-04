@@ -98,7 +98,7 @@ if __name__ == "__main__":
     #periods = [(365, 30, 365)]
     average_metric = "median" # mean or median
 
-    for disaster_id in range(2,7):
+    for disaster_id in range(7,8,9,10):
 
         for period in periods:
             pre_disaster_days, imm_disaster_days, post_disaster_days = period

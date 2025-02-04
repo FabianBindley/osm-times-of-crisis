@@ -144,7 +144,7 @@ def generate_count_by_interval_length(disaster_id, disaster_date, pre_disaster_d
     prophet_model_pre_disaster_days = 365*3
     # Generate the actual change counts for the given pre imm post lengths
     count_by_interval_length(disaster_id, disaster_date, pre_disaster_days, imm_disaster_days, post_disaster_days, interval_length)
-    print(f"count by interval length for {disaster_id}")
+    print(f"count by interval length {interval_length} for {disaster_id}")
     if prophet_model:
         # Generate the counts used to train the prophet models
         count_by_interval_length(disaster_id, disaster_date, prophet_model_pre_disaster_days, 0, 0, interval_length)
@@ -171,9 +171,11 @@ def train_forecast_prophet(disaster_id, pre_disaster_days, imm_disaster_days, po
     covid_end = '2020-06-30'
 
     # Filter out major spikes that affect prophet training
-    pre_disaster_counts_df = pre_disaster_counts_df[
-        ~((covid_start <= pre_disaster_counts_df['ds']) & (pre_disaster_counts_df['ds'] <= covid_end))
-    ]
+    # Dont filter out for California wildfires
+    if disaster_id not in [7]:
+        pre_disaster_counts_df = pre_disaster_counts_df[
+            ~((covid_start <= pre_disaster_counts_df['ds']) & (pre_disaster_counts_df['ds'] <= covid_end))
+        ]
 
     # Exclude shocks
     if disaster_id == 4:   
@@ -304,12 +306,12 @@ if __name__ == "__main__":
     periods = [(365, 30, 365), (180, 30, 365), (365, 60, 335), ]
     periods = [(1095, 30, 365),  (365, 60, 335), (1095, 60, 365),(180,60,365),]
     #periods = [(1095, 30, 365)]
-    periods = [(365,60,365),(365,30,365)]
+    periods = [(365,60,365),(1095,60,365)]
     prophet_model_bools = [True, False]
 
     
     
-    for disaster_id in [2,3,4,5,6]:
+    for disaster_id in [7,8,9,10]:
         for prophet_model in prophet_model_bools: # Currently unused
             for period in periods:
 

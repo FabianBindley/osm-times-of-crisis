@@ -37,29 +37,14 @@ class BulkImportHandler(osmium.SimpleHandler):
 
 
         # Load GeoJSON and create a MultiPolygon from the geometries
-        if "ManuallyDefined" in geojson_path:
-            self.area_multipolygon = self.load_geometry_manually_defined(place, year)
-        else:
-            self.area_multipolygon = self.load_geometry_geocded(place)
 
-    def load_geometry_geocded(self, place):
-        geojson_path = f"./Data/GeocodedBoundaries/{place}-geocode-boundary.geojson"
-        # Load GeoJSON and create a MultiPolygon from the geometries
-        with open(geojson_path) as f:
+        self.area_multipolygon = self.load_geometry_from_path(geojson_path)
+
+
+    def load_geometry_from_path(self, path):
+        with open(path) as f:
             geojson_data = json.load(f)
 
-        return shape(geojson_data['geometry'])
-
-    def load_geometry_manually_defined(self, place, year):
-        if place != "Haiti":
-            suffix = place
-        else:
-            suffix = place+year
-        geojson_path = f"./Data/{place}/{suffix}ManuallyDefined.geojson"
-        # Load GeoJSON and create a MultiPolygon from the geometries
-        with open(geojson_path) as f:
-            geojson_data = json.load(f)
-     
         return shape(geojson_data["features"][0]['geometry'])
 
     def get_way_previous_version_coordinate(self, obj):
@@ -207,22 +192,22 @@ class BulkImportHandler(osmium.SimpleHandler):
         print(f"Success: {self.success_count} Failed: {self.failed_count} Filtered: {self.filtered_count}")
 
     def node(self, n):
-        # Cache the node in case needed
-        if n.visible:
-            self.location_cache[n.id] = Coordinate(n.location.lon, n.location.lat)
-            
-        if self.insert_normal_changes:
-            # Add the node if it is within the designated time
-            if self.start_date <= n.timestamp <= self.end_date:        
-                self.initiate_insert(n)
+            # Cache the node in case needed
+            if n.visible:
+                self.location_cache[n.id] = Coordinate(n.location.lon, n.location.lat)
+                
+            if self.insert_normal_changes:
+                # Add the node if it is within the designated time
+                if self.start_date <= n.timestamp <= self.end_date:        
+                    self.initiate_insert(n)
 
-        if self.insert_missing_changes:
-            # Check if the node is in the missing previous changes set
-            if (n.id,n.version) in self.missing_changes_set:
-                self.initiate_insert(n)
-
+            if self.insert_missing_changes:
+                # Check if the node is in the missing previous changes set
+                if (n.id,n.version) in self.missing_changes_set:
+                    self.initiate_insert(n)
 
     def way(self, w):
+  
         if self.insert_normal_changes:
             # Add the way if it is within the designated time
             if self.start_date <= w.timestamp <= self.end_date:

@@ -8,6 +8,10 @@ const maps = [
     { title: "Haiti Earthquake | 2010", disaster_id: 3},
     { title: "Haiti Earthquake and Hurricane Grace | 2021", disaster_id: 5},
     { title: "Nepal Earthquake | 2015", disaster_id: 6},
+    { title: "California Wildfires | 2020", disaster_id: 7},
+    { title: "Texas Hurricane Harvey | 2017", disaster_id: 8},
+    { title: "Sulawesi Earthquake and Tsunami | 2018", disaster_id: 9},
+    { title: "Attica Wildfires | 2018", disaster_id: 10},
   ];
 
 const additional_maps = [

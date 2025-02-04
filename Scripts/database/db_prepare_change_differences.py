@@ -68,7 +68,7 @@ if __name__ == "__main__":
     db_utils = DB_Utils()
     db_utils.db_connect()
 
-    disaster_ids =  [2,3,4,5,6]
+    disaster_ids =  [7,8,9,10]
     #disaster_ids =  [2]
     sample_size = 1000
     sample = False

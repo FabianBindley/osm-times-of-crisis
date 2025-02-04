@@ -15,11 +15,14 @@ export default function Tags() {
     const { Search } = Input;
 
     const map_areas = [
-        "Emilia Romagna Floods | 2023" ,
-        "Haiti Earthquake | 2010",
-        "Haiti Hurricane Matthew | 2016",
-        "Haiti Earthquake and Hurricane | 2021",
-        "Nepal Earthquake | 2015",
+        { title: "Emilia Romagna Floods | 2023", disaster_id: 2 },
+        { title: "Haiti Earthquake | 2010", disaster_id: 3},
+        { title: "Haiti Earthquake and Hurricane Grace | 2021", disaster_id: 5},
+        { title: "Nepal Earthquake | 2015", disaster_id: 6},
+        { title: "California Wildfires | 2020", disaster_id: 7},
+        { title: "Texas Hurricane Harvey | 2017", disaster_id: 8},
+        { title: "Sulawesi Earthquake and Tsunami | 2018", disaster_id: 9},
+        { title: "Attica Wildfires | 2018", disaster_id: 10},
       ];
 
     const keys_for_key_values = ["building","highway","source","name","surface","amenity","landuse","waterway","natural","leisure","emergency"]
@@ -113,9 +116,9 @@ export default function Tags() {
                         onChange={handleChangeDisasterSelection}
                     >
                         <Select.Option value="all">All disasters</Select.Option>
-                        {[2, 3, 4, 5, 6].map(num => (
-                        <Select.Option key={num} value={num.toString()}>
-                            {map_areas[num-2]}
+                        {map_areas.map(area => (
+                        <Select.Option key={area.disaster_id} value={area.disaster_id.toString()}>
+                            {area.title}
                         </Select.Option>
                         ))}
 

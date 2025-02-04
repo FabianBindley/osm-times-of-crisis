@@ -129,7 +129,7 @@ if __name__ == "__main__":
     get_key_counts(pre_disaster_days=365, imm_disaster_days=30, post_diaster_days=365)
 
     print("Getting tag usage for disasters")
-    for disaster_id in range(1, 7):
+    for disaster_id in range(7,11):
         (_, disaster_country, disaster_area, _, disaster_date, _ ) = db_utils.get_disaster_with_id(disaster_id)
         print(f"Generating key metrics for {disaster_area[0]} {disaster_date.year}")
         get_tag_key_usage_for_disaster(disaster_id, disaster_date, 365, 30, 365)

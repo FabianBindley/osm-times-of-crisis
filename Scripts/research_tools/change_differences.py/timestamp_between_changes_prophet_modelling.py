@@ -185,7 +185,7 @@ if __name__ == "__main__":
     post_only_bools = [True, False]
     periods = [(1095,60,365), (365,60,365)]
 
-    for disaster_id in [2,3,4,5,6]:
+    for disaster_id in [7,8,9,10]:
         for post_only in post_only_bools:
             for prophet_model in prophet_model_bools:
                 for period in periods:

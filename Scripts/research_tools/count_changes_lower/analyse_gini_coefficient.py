@@ -314,7 +314,7 @@ if __name__ == "__main__":
     gini_coefficients = []
 
     for disaster_day_tuple in disaster_days:
-        for disaster_id in range(2, 7):
+        for disaster_id in range(7, 11):
             for resolution in resolutions:
                 (_, disaster_country, disaster_area, disaster_geojson_encoded, disaster_date, disaster_h3_resolution) = db_utils.get_disaster_with_id(disaster_id)
                 pre_disaster_days, imm_disaster_days, post_disaster_days = disaster_day_tuple
