@@ -1,0 +1,1052 @@
+key,value,count,percent_of_total_changes_for_key,percent_difference_from_pre,percent_difference_from_pre_day
+amenity,parking,20,39.2157,1900.0,1900.0
+amenity,toilets,7,13.7255,600.0,600.0
+amenity,drinking_water,3,5.8824,200.0,200.0
+amenity,fast_food,3,5.8824,200.0,200.0
+amenity,fire_station,3,5.8824,200.0,200.0
+amenity,ferry_terminal,2,3.9216,100.0,100.0
+amenity,place_of_worship,2,3.9216,100.0,100.0
+amenity,pub,2,3.9216,100.0,100.0
+amenity,school,2,3.9216,100.0,100.0
+amenity,bbq,1,1.9608,0.0,0.0
+amenity,bench,1,1.9608,0.0,0.0
+amenity,bench;drinking_water,1,1.9608,0.0,0.0
+amenity,fountain,1,1.9608,0.0,0.0
+amenity,ranger_station,1,1.9608,0.0,0.0
+amenity,waste_basket,1,1.9608,0.0,0.0
+amenity,watering_place,1,1.9608,0.0,0.0
+building,yes,98,72.0588,9700.0,9700.0
+building,house,19,13.9706,1800.0,1800.0
+building,storage_tank,7,5.1471,600.0,600.0
+building,barn,3,2.2059,200.0,200.0
+building,garage,3,2.2059,200.0,200.0
+building,ruins,2,1.4706,100.0,100.0
+building,office,1,0.7353,0.0,0.0
+building,roof,1,0.7353,0.0,0.0
+building,shed,1,0.7353,0.0,0.0
+building,stable,1,0.7353,0.0,0.0
+emergency,fire_hydrant,3,100.0,200.0,200.0
+highway,service,784,24.523,78300.0,78300.0
+highway,track,766,23.96,76500.0,76500.0
+highway,residential,470,14.7013,46900.0,46900.0
+highway,path,270,8.4454,26900.0,26900.0
+highway,secondary,253,7.9137,25200.0,25200.0
+highway,tertiary,234,7.3194,23300.0,23300.0
+highway,unclassified,127,3.9725,12600.0,12600.0
+highway,passing_place,65,2.0332,6400.0,6400.0
+highway,primary,27,0.8445,2600.0,2600.0
+highway,footway,25,0.782,2400.0,2400.0
+highway,stop,24,0.7507,2300.0,2300.0
+highway,crossing,23,0.7194,2200.0,2200.0
+highway,turning_circle,23,0.7194,2200.0,2200.0
+highway,bus_stop,20,0.6256,1900.0,1900.0
+highway,milestone,17,0.5317,1600.0,1600.0
+highway,traffic_signals,16,0.5005,1500.0,1500.0
+highway,trunk,10,0.3128,900.0,900.0
+highway,construction,9,0.2815,800.0,800.0
+highway,trailhead,9,0.2815,800.0,800.0
+highway,turning_loop,7,0.219,600.0,600.0
+highway,road,5,0.1564,400.0,400.0
+highway,cycleway,4,0.1251,300.0,300.0
+highway,motorway_junction,3,0.0938,200.0,200.0
+highway,mini_roundabout,2,0.0626,100.0,100.0
+highway,give_way,1,0.0313,0.0,0.0
+highway,motorway,1,0.0313,0.0,0.0
+highway,secondary_link,1,0.0313,0.0,0.0
+highway,tertiary_link,1,0.0313,0.0,0.0
+landuse,farmland,52,32.2981,5100.0,5100.0
+landuse,residential,41,25.4658,4000.0,4000.0
+landuse,forest,21,13.0435,2000.0,2000.0
+landuse,orchard,11,6.8323,1000.0,1000.0
+landuse,greenhouse_horticulture,9,5.5901,800.0,800.0
+landuse,meadow,9,5.5901,800.0,800.0
+landuse,industrial,8,4.9689,700.0,700.0
+landuse,quarry,2,1.2422,100.0,100.0
+landuse,vineyard,2,1.2422,100.0,100.0
+landuse,apiary,1,0.6211,0.0,0.0
+landuse,cemetery,1,0.6211,0.0,0.0
+landuse,farmyard,1,0.6211,0.0,0.0
+landuse,orchards,1,0.6211,0.0,0.0
+landuse,recreation_ground,1,0.6211,0.0,0.0
+landuse,special_use,1,0.6211,0.0,0.0
+leisure,nature_reserve,19,40.4255,1800.0,1800.0
+leisure,park,17,36.1702,1600.0,1600.0
+leisure,garden,6,12.766,500.0,500.0
+leisure,picnic_table,2,4.2553,100.0,100.0
+leisure,pitch,1,2.1277,0.0,0.0
+leisure,summer_camp,1,2.1277,0.0,0.0
+leisure,swimming_pool,1,2.1277,0.0,0.0
+name,Angeles Crest Highway,74,3.9236,7300.0,7300.0
+name,Auberry Road,22,1.1665,2100.0,2100.0
+name,Empire Grade,22,1.1665,2100.0,2100.0
+name,San Gabriel Canyon Road,21,1.1135,2000.0,2000.0
+name,Cantelow Road,19,1.0074,1800.0,1800.0
+name,Atlas Peak Road,17,0.9014,1600.0,1600.0
+name,Gibson Canyon Road,15,0.7953,1400.0,1400.0
+name,Mad River,14,0.7423,1300.0,1300.0
+name,Olive Highway,13,0.6893,1200.0,1200.0
+name,Bloogell's Road,12,0.6363,1100.0,1100.0
+name,City of Santa Cruz Open Space,12,0.6363,1100.0,1100.0
+name,English Hills Road,12,0.6363,1100.0,1100.0
+name,Monticello Road,12,0.6363,1100.0,1100.0
+name,Big Basin Way,11,0.5832,1000.0,1000.0
+name,Huntington Lake Road,11,0.5832,1000.0,1000.0
+name,Pope Canyon Road,11,0.5832,1000.0,1000.0
+name,Santa Nella Road,11,0.5832,1000.0,1000.0
+name,Tollhouse Road,11,0.5832,1000.0,1000.0
+name,Forest Service Road 3N16,10,0.5302,900.0,900.0
+name,Orestimba Road,10,0.5302,900.0,900.0
+name,Pescadero Creek Road,10,0.5302,900.0,900.0
+name,Redwood Highway,10,0.5302,900.0,900.0
+name,Siskiyou Mountains,10,0.5302,900.0,900.0
+name,Barnett Road,9,0.4772,800.0,800.0
+name,Forest Route 5S30,9,0.4772,800.0,800.0
+name,Longview Road,9,0.4772,800.0,800.0
+name,San Lorenzo Valley Water District,9,0.4772,800.0,800.0
+name,Knoxville Road,8,0.4242,700.0,700.0
+name,Laguna Creek Loop,8,0.4242,700.0,700.0
+name,Mines Road,8,0.4242,700.0,700.0
+name,Mount Wilson Red Box Road,8,0.4242,700.0,700.0
+name,Peaceful Glen Road,8,0.4242,700.0,700.0
+name,San Antonio Valley Road,8,0.4242,700.0,700.0
+name,Steele Canyon Road,8,0.4242,700.0,700.0
+name,Warrenella Truck Trail,8,0.4242,700.0,700.0
+name,106th Street East,7,0.3712,600.0,600.0
+name,Big Pines Highway,7,0.3712,600.0,600.0
+name,County Road 25,7,0.3712,600.0,600.0
+name,Juggs,7,0.3712,600.0,600.0
+name,Peterson Road,7,0.3712,600.0,600.0
+name,Purdy Ranch Road,7,0.3712,600.0,600.0
+name,9S06,6,0.3181,500.0,500.0
+name,Berry Creek,6,0.3181,500.0,500.0
+name,Charlton Flats Picnic Area,6,0.3181,500.0,500.0
+name,Cherry Glen Road,6,0.3181,500.0,500.0
+name,Cottonwood Road,6,0.3181,500.0,500.0
+name,Empire Grade & Felton Empire Road,6,0.3181,500.0,500.0
+name,James Creek Road,6,0.3181,500.0,500.0
+name,Jerusalem Grade,6,0.3181,500.0,500.0
+name,Monrovia,6,0.3181,500.0,500.0
+name,Santa Anita Canyon Avenue,6,0.3181,500.0,500.0
+name,Steiger Hill Road,6,0.3181,500.0,500.0
+name,Swanton Road,6,0.3181,500.0,500.0
+name,Valyermo Road,6,0.3181,500.0,500.0
+name,Volvon Trail,6,0.3181,500.0,500.0
+name,5S07,5,0.2651,400.0,400.0
+name,Aetna Springs Road,5,0.2651,400.0,400.0
+name,Barley Flats Road,5,0.2651,400.0,400.0
+name,Bear Creek Road,5,0.2651,400.0,400.0
+name,Blue Ridge Road,5,0.2651,400.0,400.0
+name,Bucks Lake Road,5,0.2651,400.0,400.0
+name,Butts Canyon Road,5,0.2651,400.0,400.0
+name,Cross Gates Road,5,0.2651,400.0,400.0
+name,Fish Creek,5,0.2651,400.0,400.0
+name,Granite Creek,5,0.2651,400.0,400.0
+name,Italian Bar Road,5,0.2651,400.0,400.0
+name,Kaiser Pass Road,5,0.2651,400.0,400.0
+name,Little Basin Cabins and Campground,5,0.2651,400.0,400.0
+name,Lower Chiles Valley Road,5,0.2651,400.0,400.0
+name,McMurtry Lane,5,0.2651,400.0,400.0
+name,Mill Creek Truck Trail,5,0.2651,400.0,400.0
+name,Old School House Gulch Road,5,0.2651,400.0,400.0
+name,Portola State Park Road,5,0.2651,400.0,400.0
+name,Redwood Drive,5,0.2651,400.0,400.0
+name,Ruth Zenia Road,5,0.2651,400.0,400.0
+name,Sage Canyon Road,5,0.2651,400.0,400.0
+name,Upper Big Tujunga Canyon Road,5,0.2651,400.0,400.0
+name,Upper Grouse Valley Road,5,0.2651,400.0,400.0
+name,38.30,4,0.2121,300.0,300.0
+name,Anderson Landing Road,4,0.2121,300.0,300.0
+name,Bald Mountain Road,4,0.2121,300.0,300.0
+name,Barking Dogs,4,0.2121,300.0,300.0
+name,Bear Creek,4,0.2121,300.0,300.0
+name,Big Basin Way & Hilton Drive,4,0.2121,300.0,300.0
+name,Big Creek Road,4,0.2121,300.0,300.0
+name,Big Rock Creek,4,0.2121,300.0,300.0
+name,Bonny Doon Road,4,0.2121,300.0,300.0
+name,Bonny Doon Trail,4,0.2121,300.0,300.0
+name,Boulder Creek,4,0.2121,300.0,300.0
+name,Cabrillo Highway,4,0.2121,300.0,300.0
+name,Calaveras Road,4,0.2121,300.0,300.0
+name,Capell Valley Road,4,0.2121,300.0,300.0
+name,China Grade Road,4,0.2121,300.0,300.0
+name,Del Puerto Canyon Road,4,0.2121,300.0,300.0
+name,Empire Grade & Pineridge Road,4,0.2121,300.0,300.0
+name,Felice Ranch Road,4,0.2121,300.0,300.0
+name,Felton,4,0.2121,300.0,300.0
+name,Felton Empire Road,4,0.2121,300.0,300.0
+name,Jose Basin Road,4,0.2121,300.0,300.0
+name,Land Bank,4,0.2121,300.0,300.0
+name,Mission Peak Regional Preserve,4,0.2121,300.0,300.0
+name,Oakridge Road,4,0.2121,300.0,300.0
+name,Ohlone Wilderness Trail,4,0.2121,300.0,300.0
+name,Old Railroad Grade Road,4,0.2121,300.0,300.0
+name,Sandhills,4,0.2121,300.0,300.0
+name,Seaview,4,0.2121,300.0,300.0
+name,Silver Moccasin Trail,4,0.2121,300.0,300.0
+name,Skyhawk Lane,4,0.2121,300.0,300.0
+name,Spruce Avenue,4,0.2121,300.0,300.0
+name,Stanford Way,4,0.2121,300.0,300.0
+name,Upper Deer Creek Lane,4,0.2121,300.0,300.0
+name,Verde Drive,4,0.2121,300.0,300.0
+name,Whitehouse Canyon,4,0.2121,300.0,300.0
+name,Whitehouse Canyon Road,4,0.2121,300.0,300.0
+name,10W39,3,0.1591,200.0,200.0
+name,23N19,3,0.1591,200.0,200.0
+name,5S84,3,0.1591,200.0,200.0
+name,Aetna Springs Ln,3,0.1591,200.0,200.0
+name,Alamo Creek,3,0.1591,200.0,200.0
+name,Beasore Road,3,0.1591,200.0,200.0
+name,Big Basin Way & Fallen Leaf Drive,3,0.1591,200.0,200.0
+name,Big Pines Road,3,0.1591,200.0,200.0
+name,Blue Oak Trail,3,0.1591,200.0,200.0
+name,Bob's Gap Road,3,0.1591,200.0,200.0
+name,Bonhoff Trail,3,0.1591,200.0,200.0
+name,Bonny Doon Airport,3,0.1591,200.0,200.0
+name,Buckhorn,3,0.1591,200.0,200.0
+name,Bunker Road,3,0.1591,200.0,200.0
+name,Church Lane,3,0.1591,200.0,200.0
+name,County Road 309,3,0.1591,200.0,200.0
+name,County Road 313,3,0.1591,200.0,200.0
+name,County Road 34,3,0.1591,200.0,200.0
+name,County Road 79,3,0.1591,200.0,200.0
+name,County Route M1,3,0.1591,200.0,200.0
+name,Crocker Place,3,0.1591,200.0,200.0
+name,Dowville East Lane,3,0.1591,200.0,200.0
+name,Empire Grade & McGivern Way,3,0.1591,200.0,200.0
+name,Empire Grade (Mile 13),3,0.1591,200.0,200.0
+name,Foothill Drive,3,0.1591,200.0,200.0
+name,Gledhow Wood Road,3,0.1591,200.0,200.0
+name,Green Springs,3,0.1591,200.0,200.0
+name,Iverson Trail,3,0.1591,200.0,200.0
+name,"Krvavica, Welden, Santos, Cobb/Mahoney",3,0.1591,200.0,200.0
+name,Last Chance Road,3,0.1591,200.0,200.0
+name,Linsom Road,3,0.1591,200.0,200.0
+name,Mix Canyon Road,3,0.1591,200.0,200.0
+name,Monument Peak,3,0.1591,200.0,200.0
+name,Oak Tree Lane,3,0.1591,200.0,200.0
+name,Oat Hill Road,3,0.1591,200.0,200.0
+name,Old Railroad Grade Bed Road,3,0.1591,200.0,200.0
+name,Orestimba Wilderness,3,0.1591,200.0,200.0
+name,Penstock Truck Trail,3,0.1591,200.0,200.0
+name,Pfitzer Road,3,0.1591,200.0,200.0
+name,Pineridge Road,3,0.1591,200.0,200.0
+name,Pleasants Valley Road,3,0.1591,200.0,200.0
+name,Road 308,3,0.1591,200.0,200.0
+name,Road 63,3,0.1591,200.0,200.0
+name,Ross Creek,3,0.1591,200.0,200.0
+name,San Lorenzo River,3,0.1591,200.0,200.0
+name,Sanhedrin Road,3,0.1591,200.0,200.0
+name,Santa Anita Canyon Road,3,0.1591,200.0,200.0
+name,Saw Tooth Canyon Road,3,0.1591,200.0,200.0
+name,Sharin Woods Road,3,0.1591,200.0,200.0
+name,Silverado Trail,3,0.1591,200.0,200.0
+name,Smith Grade,3,0.1591,200.0,200.0
+name,Soaring Eagle Trail,3,0.1591,200.0,200.0
+name,Stile Hill Way,3,0.1591,200.0,200.0
+name,Sturtevant trail,3,0.1591,200.0,200.0
+name,Swanton View Road,3,0.1591,200.0,200.0
+name,USFS 8S12,3,0.1591,200.0,200.0
+name,Upper Mad River Road,3,0.1591,200.0,200.0
+name,Warnella Truck Trail,3,0.1591,200.0,200.0
+name,Waterman Gap Loop,3,0.1591,200.0,200.0
+name,モスバーガー,3,0.1591,200.0,200.0
+name,121st Street East,2,0.106,100.0,100.0
+name,126th Street East,2,0.106,100.0,100.0
+name,23N60,2,0.106,100.0,100.0
+name,23N62X,2,0.106,100.0,100.0
+name,2519 Empire Grade,2,0.106,100.0,100.0
+name,26E38,2,0.106,100.0,100.0
+name,4S60A,2,0.106,100.0,100.0
+name,6333 Bonny Doon Road,2,0.106,100.0,100.0
+name,9S06J,2,0.106,100.0,100.0
+name,Acorn Drive,2,0.106,100.0,100.0
+name,Alpestre,2,0.106,100.0,100.0
+name,Arcadia Wilderness Park,2,0.106,100.0,100.0
+name,Arroyo las Trancas,2,0.106,100.0,100.0
+name,Beaucourt Avenue,2,0.106,100.0,100.0
+name,Big Basin State Park Road,2,0.106,100.0,100.0
+name,Big Basin Way & Acorn Drive,2,0.106,100.0,100.0
+name,Big Basin Way & China Grade Road,2,0.106,100.0,100.0
+name,Big Basin Way & Jamison Creek Road,2,0.106,100.0,100.0
+name,Big Rock Creek Road,2,0.106,100.0,100.0
+name,Blue Hill Grade,2,0.106,100.0,100.0
+name,Bonny Doon Road & Country Estates Terrace,2,0.106,100.0,100.0
+name,Bonny Doon Road & Robson Road,2,0.106,100.0,100.0
+name,Bonny Doon Road & Thayer Road,2,0.106,100.0,100.0
+name,Bonny Doon Village Airport,2,0.106,100.0,100.0
+name,Boundary Trail 12W03,2,0.106,100.0,100.0
+name,Butano Ridge,2,0.106,100.0,100.0
+name,Butano Ridge Fire Road,2,0.106,100.0,100.0
+name,Camino Verde,2,0.106,100.0,100.0
+name,Camp Six,2,0.106,100.0,100.0
+name,Cascade Ranch,2,0.106,100.0,100.0
+name,Chaparral Road,2,0.106,100.0,100.0
+name,Clover Drive,2,0.106,100.0,100.0
+name,Collier Tunnel,2,0.106,100.0,100.0
+name,Cook and Green Pass,2,0.106,100.0,100.0
+name,Cottini Way,2,0.106,100.0,100.0
+name,Cricket Trail Road,2,0.106,100.0,100.0
+name,Dawson Saddle,2,0.106,100.0,100.0
+name,Deadman Gulch,2,0.106,100.0,100.0
+name,Devils Canyon Dam Truck Trail,2,0.106,100.0,100.0
+name,Duarte,2,0.106,100.0,100.0
+name,Eagles Roost Day Use Area,2,0.106,100.0,100.0
+name,East Hilton Drive,2,0.106,100.0,100.0
+name,Eaton Saddle,2,0.106,100.0,100.0
+name,El Solyo Heights Drive,2,0.106,100.0,100.0
+name,Empire Grade & Feather Lane,2,0.106,100.0,100.0
+name,Empire Grade & Granger Road,2,0.106,100.0,100.0
+name,Empire Grade & Smith Grade,2,0.106,100.0,100.0
+name,Estate Drive,2,0.106,100.0,100.0
+name,Fern Rock Way,2,0.106,100.0,100.0
+name,Ferrari Creek Road,2,0.106,100.0,100.0
+name,Firebreak,2,0.106,100.0,100.0
+name,Forest Route 21S78,2,0.106,100.0,100.0
+name,Forest Route 8S02,2,0.106,100.0,100.0
+name,Forest Rt 2508,2,0.106,100.0,100.0
+name,Fort Tejon Road,2,0.106,100.0,100.0
+name,Gates Canyon Road,2,0.106,100.0,100.0
+name,Gordon Valley Road,2,0.106,100.0,100.0
+name,Greyhound,2,0.106,100.0,100.0
+name,Henry Cowell Redwoods State Park (Fall Creek Unit),2,0.106,100.0,100.0
+name,Highway 9 & Irwin Way,2,0.106,100.0,100.0
+name,Hiker-Biker Campsite,2,0.106,100.0,100.0
+name,Holcomb Ridge Road,2,0.106,100.0,100.0
+name,Honeybee Lane,2,0.106,100.0,100.0
+name,Huntington Lodge Road,2,0.106,100.0,100.0
+name,Husman Road,2,0.106,100.0,100.0
+name,Ice Cream Grade,2,0.106,100.0,100.0
+name,Isabel Creek Trail,2,0.106,100.0,100.0
+name,Islip Wawona Trail,2,0.106,100.0,100.0
+name,Jolie's Cups,2,0.106,100.0,100.0
+name,Joslin Lane,2,0.106,100.0,100.0
+name,Juniper Mesa Road,2,0.106,100.0,100.0
+name,Kaiser Aetna Road,2,0.106,100.0,100.0
+name,Kaiser Loop Trail,2,0.106,100.0,100.0
+name,Kincaid Road,2,0.106,100.0,100.0
+name,Las Trancas,2,0.106,100.0,100.0
+name,Lick Observatory,2,0.106,100.0,100.0
+name,Linder Drive,2,0.106,100.0,100.0
+name,Little Grizzly Creek,2,0.106,100.0,100.0
+name,Little Valley Road,2,0.106,100.0,100.0
+name,Loafer Creek Road,2,0.106,100.0,100.0
+name,Los Vaqueros Trail,2,0.106,100.0,100.0
+name,Main Street,2,0.106,100.0,100.0
+name,Manzanita Trail,2,0.106,100.0,100.0
+name,McGivern Way,2,0.106,100.0,100.0
+name,Memory Lane,2,0.106,100.0,100.0
+name,Molino Creek Farm,2,0.106,100.0,100.0
+name,Mount Langley,2,0.106,100.0,100.0
+name,Mount Poplar Avenue,2,0.106,100.0,100.0
+name,Mule Trail,2,0.106,100.0,100.0
+name,Murphys Lane,2,0.106,100.0,100.0
+name,Musick Farm Road/9S07,2,0.106,100.0,100.0
+name,Musick Peak Lookout Road,2,0.106,100.0,100.0
+name,Nelson Drive,2,0.106,100.0,100.0
+name,North Coast Ridge Road,2,0.106,100.0,100.0
+name,Old Homestead Road,2,0.106,100.0,100.0
+name,Old Womans Creek Road,2,0.106,100.0,100.0
+name,Oroville-Quincy Highway,2,0.106,100.0,100.0
+name,Pacific Crest Trail,2,0.106,100.0,100.0
+name,Paradise Valley Drive,2,0.106,100.0,100.0
+name,Picnic Creek,2,0.106,100.0,100.0
+name,Pine Flat Road,2,0.106,100.0,100.0
+name,Pine Flat Road & Comstock Lane,2,0.106,100.0,100.0
+name,Pine Flat Road & Empire Grade,2,0.106,100.0,100.0
+name,Ploughlands,2,0.106,100.0,100.0
+name,Putah Creek,2,0.106,100.0,100.0
+name,Quiroste Valley Cultural Preserve,2,0.106,100.0,100.0
+name,Road 49,2,0.106,100.0,100.0
+name,Road A,2,0.106,100.0,100.0
+name,Robles Drive,2,0.106,100.0,100.0
+name,Rustic Lane,2,0.106,100.0,100.0
+name,Ruth Lake Campground Road,2,0.106,100.0,100.0
+name,Sackrett Lane,2,0.106,100.0,100.0
+name,San Felipe Ranch,2,0.106,100.0,100.0
+name,Sempervirens Land Trust,2,0.106,100.0,100.0
+name,Serenity Hills Road,2,0.106,100.0,100.0
+name,Shaver Springs Road,2,0.106,100.0,100.0
+name,Shiba,2,0.106,100.0,100.0
+name,Sierra Vista Drive,2,0.106,100.0,100.0
+name,Sinnott,2,0.106,100.0,100.0
+name,Siskiyou Wilderness,2,0.106,100.0,100.0
+name,Six Rivers National Forest,2,0.106,100.0,100.0
+name,Snell Valley Road,2,0.106,100.0,100.0
+name,Snyder Road,2,0.106,100.0,100.0
+name,Soda Canyon Road,2,0.106,100.0,100.0
+name,Solano Lake Campground,2,0.106,100.0,100.0
+name,Soldier Ridge Trail 10W07,2,0.106,100.0,100.0
+name,Spanish Flat Loop Road,2,0.106,100.0,100.0
+name,Spanish Valley Trail,2,0.106,100.0,100.0
+name,Stanislaus River,2,0.106,100.0,100.0
+name,Sunset Trail,2,0.106,100.0,100.0
+name,Sycamore Grove Park,2,0.106,100.0,100.0
+name,Trail End Drive,2,0.106,100.0,100.0
+name,Tumbleweed Road,2,0.106,100.0,100.0
+name,USDA FS road 20S02,2,0.106,100.0,100.0
+name,Unpaved Driveway,2,0.106,100.0,100.0
+name,Upper San Vicente Road,2,0.106,100.0,100.0
+name,Valley View Trail,2,0.106,100.0,100.0
+name,Vista Picnic Ground,2,0.106,100.0,100.0
+name,Volvon Loop Trail,2,0.106,100.0,100.0
+name,Warrenella 1,2,0.106,100.0,100.0
+name,Warrenella 4,2,0.106,100.0,100.0
+name,Warrenella 5,2,0.106,100.0,100.0
+name,Waterman Mountain Trail,2,0.106,100.0,100.0
+name,West Fork Granite Creek,2,0.106,100.0,100.0
+name,West Hilton Drive,2,0.106,100.0,100.0
+name,Whipsnake Trail,2,0.106,100.0,100.0
+name,Wild Oak Trail,2,0.106,100.0,100.0
+name,Wild Rose Lane,2,0.106,100.0,100.0
+name,Woodland Road,2,0.106,100.0,100.0
+name,Woodlesford Primary School,2,0.106,100.0,100.0
+name,#1,1,0.053,0.0,0.0
+name,#2,1,0.053,0.0,0.0
+name,#3,1,0.053,0.0,0.0
+name,#4,1,0.053,0.0,0.0
+name,#5,1,0.053,0.0,0.0
+name,#6,1,0.053,0.0,0.0
+name,101st East,1,0.053,0.0,0.0
+name,104th Street East,1,0.053,0.0,0.0
+name,10W02,1,0.053,0.0,0.0
+name,10W03,1,0.053,0.0,0.0
+name,10W05,1,0.053,0.0,0.0
+name,10W08.1,1,0.053,0.0,0.0
+name,10W09.1,1,0.053,0.0,0.0
+name,10W09.2,1,0.053,0.0,0.0
+name,10W10.4,1,0.053,0.0,0.0
+name,10W37,1,0.053,0.0,0.0
+name,10W40,1,0.053,0.0,0.0
+name,10W41,1,0.053,0.0,0.0
+name,10W65,1,0.053,0.0,0.0
+name,113th Street East,1,0.053,0.0,0.0
+name,118th Street East,1,0.053,0.0,0.0
+name,11W01,1,0.053,0.0,0.0
+name,11W03,1,0.053,0.0,0.0
+name,11W04.1,1,0.053,0.0,0.0
+name,11W05.2,1,0.053,0.0,0.0
+name,11W35,1,0.053,0.0,0.0
+name,11W36.1,1,0.053,0.0,0.0
+name,11W51,1,0.053,0.0,0.0
+name,157th Street East,1,0.053,0.0,0.0
+name,185th Street East,1,0.053,0.0,0.0
+name,195th Street East,1,0.053,0.0,0.0
+name,2175 Pine Flat Road,1,0.053,0.0,0.0
+name,2300 Pine Flat Road,1,0.053,0.0,0.0
+name,23N04XA,1,0.053,0.0,0.0
+name,23N19B,1,0.053,0.0,0.0
+name,23N19D,1,0.053,0.0,0.0
+name,23N54,1,0.053,0.0,0.0
+name,23N55,1,0.053,0.0,0.0
+name,23N75,1,0.053,0.0,0.0
+name,2572 Pine Flat Road,1,0.053,0.0,0.0
+name,25N34,1,0.053,0.0,0.0
+name,2878 Pine Flat Road,1,0.053,0.0,0.0
+name,6S83,1,0.053,0.0,0.0
+name,8S08A,1,0.053,0.0,0.0
+name,8S08AB,1,0.053,0.0,0.0
+name,96th Street East,1,0.053,0.0,0.0
+name,9S06E,1,0.053,0.0,0.0
+name,9S06L,1,0.053,0.0,0.0
+name,9S06M,1,0.053,0.0,0.0
+name,9S06N,1,0.053,0.0,0.0
+name,9S07,1,0.053,0.0,0.0
+name,9S07B,1,0.053,0.0,0.0
+name,9S07G,1,0.053,0.0,0.0
+name,9W01,1,0.053,0.0,0.0
+name,9W02,1,0.053,0.0,0.0
+name,9W03.1,1,0.053,0.0,0.0
+name,9W03.2,1,0.053,0.0,0.0
+name,9W04,1,0.053,0.0,0.0
+name,9W06.2,1,0.053,0.0,0.0
+name,9W07,1,0.053,0.0,0.0
+name,9W36A,1,0.053,0.0,0.0
+name,9W37,1,0.053,0.0,0.0
+name,9W38,1,0.053,0.0,0.0
+name,9W39,1,0.053,0.0,0.0
+name,9W51,1,0.053,0.0,0.0
+name,Access,1,0.053,0.0,0.0
+name,Adobe Trail,1,0.053,0.0,0.0
+name,Alameda Creek Diversion Tunnel,1,0.053,0.0,0.0
+name,Alba Road,1,0.053,0.0,0.0
+name,Alder Drive,1,0.053,0.0,0.0
+name,Alder Springs Road,1,0.053,0.0,0.0
+name,Alpine Drive,1,0.053,0.0,0.0
+name,Anada Creek,1,0.053,0.0,0.0
+name,Antler Point,1,0.053,0.0,0.0
+name,Arcadia,1,0.053,0.0,0.0
+name,Badjiao,1,0.053,0.0,0.0
+name,Bare Mountain,1,0.053,0.0,0.0
+name,Barry Creek,1,0.053,0.0,0.0
+name,Bear Flats,1,0.053,0.0,0.0
+name,Bear Paw Lane,1,0.053,0.0,0.0
+name,Bear Ranch Hill,1,0.053,0.0,0.0
+name,Bell Close,1,0.053,0.0,0.0
+name,Ben Ries Campground,1,0.053,0.0,0.0
+name,Berry Creek - Big Creek,1,0.053,0.0,0.0
+name,Berry Creek - Waddell Creek,1,0.053,0.0,0.0
+name,Bertoli Drive,1,0.053,0.0,0.0
+name,Big Bald Rock,1,0.053,0.0,0.0
+name,Big Basin Way & Boulder Brook Drive,1,0.053,0.0,0.0
+name,Big Basin Way & Brook Lane,1,0.053,0.0,0.0
+name,Big Basin Way & Central Avenue,1,0.053,0.0,0.0
+name,Big Basin Way & Redwood Avenue,1,0.053,0.0,0.0
+name,Big Basin Way & Ridge Drive,1,0.053,0.0,0.0
+name,Big Creek,1,0.053,0.0,0.0
+name,Big Creek Lumberyard,1,0.053,0.0,0.0
+name,Big Creek Powerhouse (site),1,0.053,0.0,0.0
+name,Big Santa Anita Creek,1,0.053,0.0,0.0
+name,Big Shuteye Lane,1,0.053,0.0,0.0
+name,Big Sur VORTAC,1,0.053,0.0,0.0
+name,Big Tree Water Tanks,1,0.053,0.0,0.0
+name,Big Tujunga River,1,0.053,0.0,0.0
+name,Black Barts Way,1,0.053,0.0,0.0
+name,Black Hills Trail,1,0.053,0.0,0.0
+name,Bloom Grade Road,1,0.053,0.0,0.0
+name,Bloomer Hill,1,0.053,0.0,0.0
+name,Blue Mountain Drive,1,0.053,0.0,0.0
+name,Blue Oak Ranch Reserve,1,0.053,0.0,0.0
+name,Blue Ridge Trail North,1,0.053,0.0,0.0
+name,Bollinger Canyon Creek,1,0.053,0.0,0.0
+name,Bonny Doon Elementary School,1,0.053,0.0,0.0
+name,Bonny Doon Road & Cathedral Park Drive,1,0.053,0.0,0.0
+name,Bonnywood Way,1,0.053,0.0,0.0
+name,Booth Crossing Road,1,0.053,0.0,0.0
+name,Boulder Brook Drive,1,0.053,0.0,0.0
+name,Boundary,1,0.053,0.0,0.0
+name,Boundary Trail,1,0.053,0.0,0.0
+name,Braemoor,1,0.053,0.0,0.0
+name,Braemoor Drive,1,0.053,0.0,0.0
+name,Branson Ranch Road,1,0.053,0.0,0.0
+name,Brehme Lane,1,0.053,0.0,0.0
+name,Bretz Mill Road,1,0.053,0.0,0.0
+name,Brisa del Mar,1,0.053,0.0,0.0
+name,Brook Drive,1,0.053,0.0,0.0
+name,Brook Lane,1,0.053,0.0,0.0
+name,Brown Camp,1,0.053,0.0,0.0
+name,Brush Creek,1,0.053,0.0,0.0
+name,Buckhorn Day Use Area,1,0.053,0.0,0.0
+name,Bucktown Lane,1,0.053,0.0,0.0
+name,Burkhart Trail,1,0.053,0.0,0.0
+name,Burns Substation,1,0.053,0.0,0.0
+name,Burnt Camp,1,0.053,0.0,0.0
+name,Butte Camp,1,0.053,0.0,0.0
+name,Cal FIre CZU Station 23 - Jamison Creek,1,0.053,0.0,0.0
+name,Cal FIre CZU Station 33 - Big Creek,1,0.053,0.0,0.0
+name,Camino Falls,1,0.053,0.0,0.0
+name,Camp Glenwood,1,0.053,0.0,0.0
+name,Camp Ohlone Regional Park,1,0.053,0.0,0.0
+name,Campus Central Car Park,1,0.053,0.0,0.0
+name,Canada de Pala Trail,1,0.053,0.0,0.0
+name,Canyon Creek resort,1,0.053,0.0,0.0
+name,Cascade Creek,1,0.053,0.0,0.0
+name,Cascade Creek Trail,1,0.053,0.0,0.0
+name,Cascadel Point,1,0.053,0.0,0.0
+name,Cedar Crest,1,0.053,0.0,0.0
+name,Cedar Springs Road,1,0.053,0.0,0.0
+name,Chair Pond,1,0.053,0.0,0.0
+name,Chalks Road,1,0.053,0.0,0.0
+name,Chantry Flats,1,0.053,0.0,0.0
+name,Chantry Flats Parking Area,1,0.053,0.0,0.0
+name,Chantry Flats Truck Trail,1,0.053,0.0,0.0
+name,Charles Moor,1,0.053,0.0,0.0
+name,Cherry Camp,1,0.053,0.0,0.0
+name,Chicago Camp,1,0.053,0.0,0.0
+name,Chinquapin Drive,1,0.053,0.0,0.0
+name,Church Lane Grange Avenue,1,0.053,0.0,0.0
+name,Ciarlo Lane,1,0.053,0.0,0.0
+name,Cima Mesa Road,1,0.053,0.0,0.0
+name,Circle of Stones,1,0.053,0.0,0.0
+name,City Walls,1,0.053,0.0,0.0
+name,Clamshell Peak,1,0.053,0.0,0.0
+name,Clear Creek,1,0.053,0.0,0.0
+name,Clear Creek Road,1,0.053,0.0,0.0
+name,Clover Lane,1,0.053,0.0,0.0
+name,Cloverdale Road,1,0.053,0.0,0.0
+name,Coast Ridge Road,1,0.053,0.0,0.0
+name,Cogswell Dam,1,0.053,0.0,0.0
+name,Cogswell Reservoir,1,0.053,0.0,0.0
+name,Cold Spring Court,1,0.053,0.0,0.0
+name,Cold Springs Lane,1,0.053,0.0,0.0
+name,Colorado Creek,1,0.053,0.0,0.0
+name,Cone Peak,1,0.053,0.0,0.0
+name,Copper Butte,1,0.053,0.0,0.0
+name,Cornwood Way,1,0.053,0.0,0.0
+name,Cottonwood Pass,1,0.053,0.0,0.0
+name,County Highway J37,1,0.053,0.0,0.0
+name,Cowboy Shack Gulch,1,0.053,0.0,0.0
+name,Coyote Pass trail,1,0.053,0.0,0.0
+name,Craig Recreation Area,1,0.053,0.0,0.0
+name,Cressman Road,1,0.053,0.0,0.0
+name,Crest Trail,1,0.053,0.0,0.0
+name,Cripe Road,1,0.053,0.0,0.0
+name,Cruthers Creek Road,1,0.053,0.0,0.0
+name,Crystal Hill,1,0.053,0.0,0.0
+name,Cutter Boy Scout Camp Road,1,0.053,0.0,0.0
+name,D Camp,1,0.053,0.0,0.0
+name,Dalton Avenue,1,0.053,0.0,0.0
+name,Dark Gulch,1,0.053,0.0,0.0
+name,Dashields Creek,1,0.053,0.0,0.0
+name,Davidson Way,1,0.053,0.0,0.0
+name,Dawson Place,1,0.053,0.0,0.0
+name,Deer Cove,1,0.053,0.0,0.0
+name,Deer Valley,1,0.053,0.0,0.0
+name,Devils Punchbowl County Park,1,0.053,0.0,0.0
+name,Devils Punchbowl Road,1,0.053,0.0,0.0
+name,Dib Lane,1,0.053,0.0,0.0
+name,Dogtown,1,0.053,0.0,0.0
+name,Dollarhide Road,1,0.053,0.0,0.0
+name,Dove Creek Trail,1,0.053,0.0,0.0
+name,Dringhouses Sports and Social Club,1,0.053,0.0,0.0
+name,Eagles Roost Parking Area,1,0.053,0.0,0.0
+name,East Avenue Y 8,1,0.053,0.0,0.0
+name,East Van Duzen Road,1,0.053,0.0,0.0
+name,Elk Lane,1,0.053,0.0,0.0
+name,Empire Grade & Rustic Lane,1,0.053,0.0,0.0
+name,Empire Grade & Sunlit Lane,1,0.053,0.0,0.0
+name,Empire Grade & Wild Iris Lane,1,0.053,0.0,0.0
+name,English Hills Lane,1,0.053,0.0,0.0
+name,English Oaks Drive,1,0.053,0.0,0.0
+name,Escarilla Ridge,1,0.053,0.0,0.0
+name,Feather Falls,1,0.053,0.0,0.0
+name,Feather Lane,1,0.053,0.0,0.0
+name,Felton Quarry,1,0.053,0.0,0.0
+name,Felton Quarry Road,1,0.053,0.0,0.0
+name,Ferguson Drive,1,0.053,0.0,0.0
+name,Ferrari Creek,1,0.053,0.0,0.0
+name,Fire Road,1,0.053,0.0,0.0
+name,Fiske Creek Rd,1,0.053,0.0,0.0
+name,Fistelera Ridge Road,1,0.053,0.0,0.0
+name,Flintridge Avenue,1,0.053,0.0,0.0
+name,Forest Route 20N01,1,0.053,0.0,0.0
+name,Forest Route 20S03,1,0.053,0.0,0.0
+name,Forest Route 20S46,1,0.053,0.0,0.0
+name,Forest Route 21N46,1,0.053,0.0,0.0
+name,Forest Route 4S60,1,0.053,0.0,0.0
+name,Forest Route 9S09,1,0.053,0.0,0.0
+name,Forest Service Facility,1,0.053,0.0,0.0
+name,Forrest Avenue,1,0.053,0.0,0.0
+name,Fossil Lane,1,0.053,0.0,0.0
+name,Fountayne Street,1,0.053,0.0,0.0
+name,Fox Drive,1,0.053,0.0,0.0
+name,Frank Raines Off-Highway Vehicle Park,1,0.053,0.0,0.0
+name,Frank Raines Park,1,0.053,0.0,0.0
+name,French Trail 10W04,1,0.053,0.0,0.0
+name,Frog Pond Mine,1,0.053,0.0,0.0
+name,Gabrielino Trail,1,0.053,0.0,0.0
+name,Georges Valley,1,0.053,0.0,0.0
+name,Granger Road,1,0.053,0.0,0.0
+name,Grey Squirrel Lane,1,0.053,0.0,0.0
+name,Griffin Place,1,0.053,0.0,0.0
+name,Guenoc Road,1,0.053,0.0,0.0
+name,Happy Campy Assembly of God,1,0.053,0.0,0.0
+name,Hardy Canyon Trail,1,0.053,0.0,0.0
+name,Hawk Camp,1,0.053,0.0,0.0
+name,Hay Barn,1,0.053,0.0,0.0
+name,Hennessey Ridge Road,1,0.053,0.0,0.0
+name,Hetch Hetchy Aqueduct,1,0.053,0.0,0.0
+name,Hettenshaw Valley,1,0.053,0.0,0.0
+name,Hidden Valley Lane,1,0.053,0.0,0.0
+name,Highway 9 & Pacific Street,1,0.053,0.0,0.0
+name,Hiker Biker,1,0.053,0.0,0.0
+name,Hiker Biker Campsite,1,0.053,0.0,0.0
+name,Hill House,1,0.053,0.0,0.0
+name,Hill House Road,1,0.053,0.0,0.0
+name,Hillside Way,1,0.053,0.0,0.0
+name,Homenagem ao Povo de Póvoa de Varzim,1,0.053,0.0,0.0
+name,Honey Lane,1,0.053,0.0,0.0
+name,Horsepacker,1,0.053,0.0,0.0
+name,Huckel Berry Hill Lane,1,0.053,0.0,0.0
+name,Huey Mine,1,0.053,0.0,0.0
+name,Humboldt Trail 9W36,1,0.053,0.0,0.0
+name,Humbolt Trail 9W36,1,0.053,0.0,0.0
+name,Hummingbird Trail,1,0.053,0.0,0.0
+name,Huntington Lake 1 104-010 Dam,1,0.053,0.0,0.0
+name,Ides Cove,1,0.053,0.0,0.0
+name,Ides Cove Loop National Recreation Trail 9W03,1,0.053,0.0,0.0
+name,Independence Lane,1,0.053,0.0,0.0
+name,Indian Cemetery,1,0.053,0.0,0.0
+name,Indian Cemetery Road,1,0.053,0.0,0.0
+name,Indian Dick Road,1,0.053,0.0,0.0
+name,Island Bar Hill,1,0.053,0.0,0.0
+name,Islip Saddle,1,0.053,0.0,0.0
+name,Islip Saddle Day Use Area,1,0.053,0.0,0.0
+name,Islip Saddle Day Use Area and Trailhead,1,0.053,0.0,0.0
+name,Ivory Mill Road,1,0.053,0.0,0.0
+name,Jamison Creek Road,1,0.053,0.0,0.0
+name,Jarvi Memorial Observation Site,1,0.053,0.0,0.0
+name,John Wayne Lane,1,0.053,0.0,0.0
+name,Juniper Hills Park,1,0.053,0.0,0.0
+name,Juniper Hills Road,1,0.053,0.0,0.0
+name,Juniper Road,1,0.053,0.0,0.0
+name,Kaiser Peak Trailhead Parking,1,0.053,0.0,0.0
+name,Kanaka Peak,1,0.053,0.0,0.0
+name,Katz,1,0.053,0.0,0.0
+name,Kelly Cabin Canyon Trail,1,0.053,0.0,0.0
+name,Kelly Lake Trail,1,0.053,0.0,0.0
+name,Kingfisher Flat Hatchery,1,0.053,0.0,0.0
+name,Kinsman Flat Road,1,0.053,0.0,0.0
+name,Km. 38,1,0.053,0.0,0.0
+name,Knob Hill Road,1,0.053,0.0,0.0
+name,Knoxville Devilhead Road,1,0.053,0.0,0.0
+name,Laguna Creek,1,0.053,0.0,0.0
+name,Lake Drive,1,0.053,0.0,0.0
+name,Lake Madrone 1004 Dam,1,0.053,0.0,0.0
+name,Lakeview Avenue,1,0.053,0.0,0.0
+name,Largo Vista Road,1,0.053,0.0,0.0
+name,Las Trancas Beach,1,0.053,0.0,0.0
+name,Last Camp,1,0.053,0.0,0.0
+name,Last Chance Trail,1,0.053,0.0,0.0
+name,Ledgard Way,1,0.053,0.0,0.0
+name,Legar Drive,1,0.053,0.0,0.0
+name,Little Bald Rock,1,0.053,0.0,0.0
+name,Little Doe Wilderness,1,0.053,0.0,0.0
+name,Little Horse Trail (34E02),1,0.053,0.0,0.0
+name,Little Jimmy Campground,1,0.053,0.0,0.0
+name,Little Jimmy Spring,1,0.053,0.0,0.0
+name,Little Rock Creek,1,0.053,0.0,0.0
+name,Littlefield Creek,1,0.053,0.0,0.0
+name,Lodge Road,1,0.053,0.0,0.0
+name,Lookout Point,1,0.053,0.0,0.0
+name,Lookout Rock,1,0.053,0.0,0.0
+name,Loop Drive,1,0.053,0.0,0.0
+name,Los Huecos Trail,1,0.053,0.0,0.0
+name,Lost Acre Drive,1,0.053,0.0,0.0
+name,Lower Clamshell Truck Trail,1,0.053,0.0,0.0
+name,Lower Cressman Road,1,0.053,0.0,0.0
+name,Lower Mad River Road,1,0.053,0.0,0.0
+name,Lower Winter Creek Trail,1,0.053,0.0,0.0
+name,Lucilles Court,1,0.053,0.0,0.0
+name,Lumpkin,1,0.053,0.0,0.0
+name,Lumpkin Road,1,0.053,0.0,0.0
+name,Lyon Road,1,0.053,0.0,0.0
+name,Madrone Lake,1,0.053,0.0,0.0
+name,Majors Creek,1,0.053,0.0,0.0
+name,Manley Avenue,1,0.053,0.0,0.0
+name,Mariposa Drive,1,0.053,0.0,0.0
+name,Markley Cove Resort,1,0.053,0.0,0.0
+name,Marshall Road,1,0.053,0.0,0.0
+name,Marvin Ranch Road,1,0.053,0.0,0.0
+name,Merrimac,1,0.053,0.0,0.0
+name,Meyers Place,1,0.053,0.0,0.0
+name,Mile High,1,0.053,0.0,0.0
+name,Minarets Road,1,0.053,0.0,0.0
+name,Minniear Day Use,1,0.053,0.0,0.0
+name,Mission Drive,1,0.053,0.0,0.0
+name,Miwok Trail,1,0.053,0.0,0.0
+name,Molina Creek Farm,1,0.053,0.0,0.0
+name,Molina Drive,1,0.053,0.0,0.0
+name,Molino 1,1,0.053,0.0,0.0
+name,Molino Creek,1,0.053,0.0,0.0
+name,Molino Creek Farm Road,1,0.053,0.0,0.0
+name,Molino Reservoir Road,1,0.053,0.0,0.0
+name,Monrovia Peak,1,0.053,0.0,0.0
+name,Moreville Ridge Road,1,0.053,0.0,0.0
+name,Morgan Territory Regional Preserve,1,0.053,0.0,0.0
+name,Morrison Camp,1,0.053,0.0,0.0
+name,Mount Bliss,1,0.053,0.0,0.0
+name,Mount Disappointment,1,0.053,0.0,0.0
+name,Mount Disappointment Road,1,0.053,0.0,0.0
+name,Mount Harvard,1,0.053,0.0,0.0
+name,Mount Hope,1,0.053,0.0,0.0
+name,Mount Islip Trail,1,0.053,0.0,0.0
+name,Mount Lewis,1,0.053,0.0,0.0
+name,Mount Oso Road,1,0.053,0.0,0.0
+name,Mount Ratchel,1,0.053,0.0,0.0
+name,Mount Sally,1,0.053,0.0,0.0
+name,Mount Wallace,1,0.053,0.0,0.0
+name,Mount Williamson,1,0.053,0.0,0.0
+name,Mount Zion,1,0.053,0.0,0.0
+name,Mountain Orchard Avenue,1,0.053,0.0,0.0
+name,Mountain Springs Drive,1,0.053,0.0,0.0
+name,Munson Mine,1,0.053,0.0,0.0
+name,Murphy Meadow Trail,1,0.053,0.0,0.0
+name,Murton Way,1,0.053,0.0,0.0
+name,Musick Farm Road,1,0.053,0.0,0.0
+name,Musick Peak,1,0.053,0.0,0.0
+name,Naburn Park Mews,1,0.053,0.0,0.0
+name,Nacimiento-Fergusson Road,1,0.053,0.0,0.0
+name,Natoma Road,1,0.053,0.0,0.0
+name,Nelson Road,1,0.053,0.0,0.0
+name,Nichols Drive,1,0.053,0.0,0.0
+name,Oak Flat Road,1,0.053,0.0,0.0
+name,Observation Peak,1,0.053,0.0,0.0
+name,Ocean View Trail,1,0.053,0.0,0.0
+name,Old Big Basin Road,1,0.053,0.0,0.0
+name,Old Orchard,1,0.053,0.0,0.0
+name,Old Suisun Knoxville Road,1,0.053,0.0,0.0
+name,Old Womans Creek,1,0.053,0.0,0.0
+name,Olive Hill Road,1,0.053,0.0,0.0
+name,Olmo Fire Road,1,0.053,0.0,0.0
+name,Orchard Paddock,1,0.053,0.0,0.0
+name,Orloff Mine,1,0.053,0.0,0.0
+name,Owl Ridge Road,1,0.053,0.0,0.0
+name,Pala Seca Cabin,1,0.053,0.0,0.0
+name,Pala Seca Trail,1,0.053,0.0,0.0
+name,Pamela Lane,1,0.053,0.0,0.0
+name,Panarama Road,1,0.053,0.0,0.0
+name,Panorama Road,1,0.053,0.0,0.0
+name,Park Lane,1,0.053,0.0,0.0
+name,Path 15 Connector,1,0.053,0.0,0.0
+name,Patricia Court,1,0.053,0.0,0.0
+name,Patrick Road,1,0.053,0.0,0.0
+name,Peoria Creek Road,1,0.053,0.0,0.0
+name,Pickett Circle Lane,1,0.053,0.0,0.0
+name,Pine Creek,1,0.053,0.0,0.0
+name,Pine Flat Road & Atherley Lane,1,0.053,0.0,0.0
+name,Pine Flat Road & Bonny Doon Road,1,0.053,0.0,0.0
+name,Pine Flat Road & Kelly Lane,1,0.053,0.0,0.0
+name,Pine Hollow Picnic Area,1,0.053,0.0,0.0
+name,Pine Mountain Trail,1,0.053,0.0,0.0
+name,Pinecone Lane,1,0.053,0.0,0.0
+name,Pineridge Court,1,0.053,0.0,0.0
+name,Pinon Pines Road,1,0.053,0.0,0.0
+name,Pinto Creek Trail,1,0.053,0.0,0.0
+name,Pinyon Ridge Truck Trail,1,0.053,0.0,0.0
+name,Pleasant View Ridge,1,0.053,0.0,0.0
+name,Pleasants Trail,1,0.053,0.0,0.0
+name,Police Camp,1,0.053,0.0,0.0
+name,Police K-9 Association,1,0.053,0.0,0.0
+name,Pollywog Ridge,1,0.053,0.0,0.0
+name,Pompys Point,1,0.053,0.0,0.0
+name,Ponderosa Drive,1,0.053,0.0,0.0
+name,Ponyshoe Mine,1,0.053,0.0,0.0
+name,Portuguese Point Road,1,0.053,0.0,0.0
+name,Prospect Hill,1,0.053,0.0,0.0
+name,Quaker Center,1,0.053,0.0,0.0
+name,Quaking Aspen,1,0.053,0.0,0.0
+name,Quartz Hill,1,0.053,0.0,0.0
+name,Rankin Peak,1,0.053,0.0,0.0
+name,Rattlesnake Spring,1,0.053,0.0,0.0
+name,Red Butte,1,0.053,0.0,0.0
+name,Redondo Spring,1,0.053,0.0,0.0
+name,Redwood Avenue,1,0.053,0.0,0.0
+name,Reggiardo Creek,1,0.053,0.0,0.0
+name,Reserve Rd,1,0.053,0.0,0.0
+name,Ridge Crest Picnic Ground,1,0.053,0.0,0.0
+name,Ridge Drive,1,0.053,0.0,0.0
+name,Rivera Road,1,0.053,0.0,0.0
+name,Road 233,1,0.053,0.0,0.0
+name,Road 50,1,0.053,0.0,0.0
+name,Road 5S07,1,0.053,0.0,0.0
+name,Road 8053,1,0.053,0.0,0.0
+name,Roadrunner Lane,1,0.053,0.0,0.0
+name,Robles,1,0.053,0.0,0.0
+name,Robson Road,1,0.053,0.0,0.0
+name,Rocky Point Peak,1,0.053,0.0,0.0
+name,Rocky Springs Rooad,1,0.053,0.0,0.0
+name,Rodeo Drive,1,0.053,0.0,0.0
+name,Rogerville,1,0.053,0.0,0.0
+name,Ross Road,1,0.053,0.0,0.0
+name,Round Valley Regional Preserve,1,0.053,0.0,0.0
+name,Royal Park Road,1,0.053,0.0,0.0
+name,Rye Close,1,0.053,0.0,0.0
+name,Sackett Lane,1,0.053,0.0,0.0
+name,San Antonio River,1,0.053,0.0,0.0
+name,San Vicente Ridge,1,0.053,0.0,0.0
+name,San Vincente Redwoods CEMEX - Laguna Unit - Closed to Public Access,1,0.053,0.0,0.0
+name,Sandrock Creek,1,0.053,0.0,0.0
+name,Sandrocks,1,0.053,0.0,0.0
+name,Saw Mill Road 4,1,0.053,0.0,0.0
+name,Sawpit Dam,1,0.053,0.0,0.0
+name,Scenic Ranch Lane,1,0.053,0.0,0.0
+name,Shaver Lake,1,0.053,0.0,0.0
+name,Shaver Lake 104-018 Dam,1,0.053,0.0,0.0
+name,Shelly Lane,1,0.053,0.0,0.0
+name,Shortcut Saddle,1,0.053,0.0,0.0
+name,Shumei Santa Cruz Farm,1,0.053,0.0,0.0
+name,Shute Mountain,1,0.053,0.0,0.0
+name,Silver Mountain,1,0.053,0.0,0.0
+name,Simmons Road (M1),1,0.053,0.0,0.0
+name,Sky High,1,0.053,0.0,0.0
+name,Sky Meadow Lane,1,0.053,0.0,0.0
+name,Skylark Ranch - Girl Scout Camp,1,0.053,0.0,0.0
+name,Slides Creek,1,0.053,0.0,0.0
+name,Smith Mountain,1,0.053,0.0,0.0
+name,Snake Trail,1,0.053,0.0,0.0
+name,Snowbrush Mine,1,0.053,0.0,0.0
+name,Solitude,1,0.053,0.0,0.0
+name,Solitude West,1,0.053,0.0,0.0
+name,South Bidwell Hill,1,0.053,0.0,0.0
+name,South Cove Lane,1,0.053,0.0,0.0
+name,South Fork Cottonwood Creek,1,0.053,0.0,0.0
+name,South Yolla Bolly;South Yolla Bolly Mountains,1,0.053,0.0,0.0
+name,Sperry Avenue,1,0.053,0.0,0.0
+name,Spring Creek Road,1,0.053,0.0,0.0
+name,Square Lake,1,0.053,0.0,0.0
+name,Stagecoach Lane,1,0.053,0.0,0.0
+name,Starview Lane,1,0.053,0.0,0.0
+name,Stebbins Cold Canyon Reserve,1,0.053,0.0,0.0
+name,Stockton Lane,1,0.053,0.0,0.0
+name,Stringtown Mountain,1,0.053,0.0,0.0
+name,Stringtown Road,1,0.053,0.0,0.0
+name,Sugarloaf Road,1,0.053,0.0,0.0
+name,Sulphur Camp,1,0.053,0.0,0.0
+name,Summit Drive,1,0.053,0.0,0.0
+name,Summit Trail 10W09.3,1,0.053,0.0,0.0
+name,Sunflower Glade,1,0.053,0.0,0.0
+name,Sunol Peak,1,0.053,0.0,0.0
+name,Sutherland Drive,1,0.053,0.0,0.0
+name,Swain Hill,1,0.053,0.0,0.0
+name,Swayne Hill,1,0.053,0.0,0.0
+name,Sweetwater Lane,1,0.053,0.0,0.0
+name,Sycamore Creek Recreation Area,1,0.053,0.0,0.0
+name,Terral Road,1,0.053,0.0,0.0
+name,Thayer Road,1,0.053,0.0,0.0
+name,The Junction,1,0.053,0.0,0.0
+name,Theodore J. Hoover Natural Preserve,1,0.053,0.0,0.0
+name,Thunder Camp,1,0.053,0.0,0.0
+name,Tomhead Saddle,1,0.053,0.0,0.0
+name,Tower Foundation,1,0.053,0.0,0.0
+name,Trail to campsites,1,0.053,0.0,0.0
+name,Travelers Home National Recreation Trail 10W13,1,0.053,0.0,0.0
+name,Turkey Ranch,1,0.053,0.0,0.0
+name,Twin Fawn Trail,1,0.053,0.0,0.0
+name,Twin Peaks,1,0.053,0.0,0.0
+name,USDA FS 8S12A,1,0.053,0.0,0.0
+name,USDA FS 8S17,1,0.053,0.0,0.0
+name,USDA FS 8S305,1,0.053,0.0,0.0
+name,Union Hill,1,0.053,0.0,0.0
+name,Upper Winter Trail,1,0.053,0.0,0.0
+name,Vacaville Fire Protection,1,0.053,0.0,0.0
+name,Valpe Creek,1,0.053,0.0,0.0
+name,Valyermo,1,0.053,0.0,0.0
+name,Van Tassel Motorway,1,0.053,0.0,0.0
+name,Vetter Mountain Trail,1,0.053,0.0,0.0
+name,Via Venado,1,0.053,0.0,0.0
+name,Virginia Avenue,1,0.053,0.0,0.0
+name,Vista Day Use Area,1,0.053,0.0,0.0
+name,Vista del Valle,1,0.053,0.0,0.0
+name,Waddell Beach (County of Santa Cruz),1,0.053,0.0,0.0
+name,Waddell Beach (State Parks),1,0.053,0.0,0.0
+name,Waddell Bluffs,1,0.053,0.0,0.0
+name,Wagon Road,1,0.053,0.0,0.0
+name,Warnella 1,1,0.053,0.0,0.0
+name,Warnella 3,1,0.053,0.0,0.0
+name,Warnella 4,1,0.053,0.0,0.0
+name,Warnella 5,1,0.053,0.0,0.0
+name,Warnella Road Extension,1,0.053,0.0,0.0
+name,Warrenella 3,1,0.053,0.0,0.0
+name,Warrenella Road Extension,1,0.053,0.0,0.0
+name,Water Spout Trail 11W02,1,0.053,0.0,0.0
+name,Waterman Mountain,1,0.053,0.0,0.0
+name,Watertrough Camp,1,0.053,0.0,0.0
+name,Welden,1,0.053,0.0,0.0
+name,Wellborn Way,1,0.053,0.0,0.0
+name,West Low Gap,1,0.053,0.0,0.0
+name,West Park Avenue,1,0.053,0.0,0.0
+name,West Waddell Creek State Wilderness,1,0.053,0.0,0.0
+name,West fork San Gabriel River,1,0.053,0.0,0.0
+name,Whedbee Drive,1,0.053,0.0,0.0
+name,Whitehouse Creek,1,0.053,0.0,0.0
+name,Whitehouse Road,1,0.053,0.0,0.0
+name,Whitlock Place,1,0.053,0.0,0.0
+name,Wild Yankee Hill,1,0.053,0.0,0.0
+name,Wildberry Drive,1,0.053,0.0,0.0
+name,Will Thrall Peak,1,0.053,0.0,0.0
+name,Winston Peak,1,0.053,0.0,0.0
+name,Winston Spring,1,0.053,0.0,0.0
+name,Wishon Drive,1,0.053,0.0,0.0
+name,Wood Mine,1,0.053,0.0,0.0
+name,Wragg Canyon Road,1,0.053,0.0,0.0
+name,gate,1,0.053,0.0,0.0
+name,road (closed),1,0.053,0.0,0.0
+natural,grassland,155,30.3327,15400.0,15400.0
+natural,peak,88,17.2211,8700.0,8700.0
+natural,wood,85,16.6341,8400.0,8400.0
+natural,scrub,60,11.7417,5900.0,5900.0
+natural,spring,38,7.4364,3700.0,3700.0
+natural,water,26,5.0881,2500.0,2500.0
+natural,mountain_range,10,1.9569,900.0,900.0
+natural,scree,10,1.9569,900.0,900.0
+natural,saddle,7,1.3699,600.0,600.0
+natural,tree,7,1.3699,600.0,600.0
+natural,wetland,7,1.3699,600.0,600.0
+natural,ridge,5,0.9785,400.0,400.0
+natural,beach,3,0.5871,200.0,200.0
+natural,tree_row,3,0.5871,200.0,200.0
+natural,coastline,2,0.3914,100.0,100.0
+natural,valley,2,0.3914,100.0,100.0
+natural,bare_rock,1,0.1957,0.0,0.0
+natural,cliff,1,0.1957,0.0,0.0
+natural,sand,1,0.1957,0.0,0.0
+source,NHD,160,30.888,15900.0,15900.0
+source,"local knowledge; Maxar, ERSI Imagery; GPS",90,17.3745,8900.0,8900.0
+source,TIGER/Line® 2008 Place Shapefiles (http://www.census.gov/geo/www/tiger/),33,6.3707,3200.0,3200.0
+source,NAIP; survey,18,3.4749,1700.0,1700.0
+source,cadastre;yahoo_imagry,17,3.2819,1600.0,1600.0
+source,http://www.consrv.ca.gov/dlrp/fmmp/products/Pages/DownloadGISdata.aspx,17,3.2819,1600.0,1600.0
+source,USGS,12,2.3166,1100.0,1100.0
+source,caltrans milepost database,11,2.1236,1000.0,1000.0
+source,Tiger2009,10,1.9305,900.0,900.0
+source,"local knowledge; Maxar, ERSI Imagery; GPS; survey",9,1.7375,800.0,800.0
+source,yahoo_imagery;LACDPW,9,1.7375,800.0,800.0
+source,GPS,8,1.5444,700.0,700.0
+source,"GPX, Satellite imaging",8,1.5444,700.0,700.0
+source,"GPX, Satellite imaging, USGS Topo",8,1.5444,700.0,700.0
+source,"Morgan Territory Park map, Strava Heatmap data and USGS Imagery",7,1.3514,600.0,600.0
+source,cadastre; Esri World Imagery,6,1.1583,500.0,500.0
+source,"USGS Orthoimagery, Topo",5,0.9653,400.0,400.0
+source,Yahoo,5,0.9653,400.0,400.0
+source,California Protected Areas Database (CPAD) – www.calands.org (2018a),4,0.7722,300.0,300.0
+source,Maxar Imagery,4,0.7722,300.0,300.0
+source,"http://www.dot.ca.gov/hq/tsip/gis/datalibrary/gisdatalibrary.html, bing",4,0.7722,300.0,300.0
+source,(URL) 2015,3,0.5792,200.0,200.0
+source,GPX,3,0.5792,200.0,200.0
+source,cadastre,3,0.5792,200.0,200.0
+source,gps,3,0.5792,200.0,200.0
+source,http://www.dot.ca.gov/hq/traffops/signtech/calnexus/pdf/80.pdf,3,0.5792,200.0,200.0
+source,npe,3,0.5792,200.0,200.0
+source,yahoo_imagery;LACA,3,0.5792,200.0,200.0
+source,"GPX, Satellite Imaging",2,0.3861,100.0,100.0
+source,Morgan Territory Park Map,2,0.3861,100.0,100.0
+source,NAIP;survey,2,0.3861,100.0,100.0
+source,USGS Topographic Maps,2,0.3861,100.0,100.0
+source,USGS Topographic map,2,0.3861,100.0,100.0
+source,USGS topographic map,2,0.3861,100.0,100.0
+source,local knowledge,2,0.3861,100.0,100.0
+source,local knowledge; Maxar Imagery; GPS,2,0.3861,100.0,100.0
+source,local_knowledge,2,0.3861,100.0,100.0
+source,sitevisit,2,0.3861,100.0,100.0
+source,wikipedia,2,0.3861,100.0,100.0
+source,臺中市消防局,2,0.3861,100.0,100.0
+source,BAG,1,0.1931,0.0,0.0
+source,BDOrtho IGN (2016),1,0.1931,0.0,0.0
+source,Bing,1,0.1931,0.0,0.0
+source,Bing/local knowledge,1,0.1931,0.0,0.0
+source,CASIL CSP_Opbdys072008;scp:globalid={91223413-993C-4060-B4E8-76ACFF170DEC};csp:unitcode=908;CPAD 2019b,1,0.1931,0.0,0.0
+source,CFF,1,0.1931,0.0,0.0
+source,California Protected Areas Database (CPAD) – www.calands.org (December 2016),1,0.1931,0.0,0.0
+source,FAA,1,0.1931,0.0,0.0
+source,GNS,1,0.1931,0.0,0.0
+source,Mapbox,1,0.1931,0.0,0.0
+source,NAIP,1,0.1931,0.0,0.0
+source,NHD; NAIP,1,0.1931,0.0,0.0
+source,OS_OpenData_StreetView,1,0.1931,0.0,0.0
+source,PNOA,1,0.1931,0.0,0.0
+source,Round Valley Regional Preserve map and Strava Heatmap data,1,0.1931,0.0,0.0
+source,SCC_Parks GIS Protected_Lands,1,0.1931,0.0,0.0
+source,Santa Cruz County Place Names by Donald Thomas Clark,1,0.1931,0.0,0.0
+source,USGS Large Scale Imagery and USGS Topo Maps.,1,0.1931,0.0,0.0
+source,USGS Topo map,1,0.1931,0.0,0.0
+source,USGS topos,1,0.1931,0.0,0.0
+source,Yahoo;tiger;bing_imagery;usgs_imagery,1,0.1931,0.0,0.0
+source,bing,1,0.1931,0.0,0.0
+source,cadastre;Esri World Imagery,1,0.1931,0.0,0.0
+source,http://nrs.ucdavis.edu/stebbins/maps/map.htm,1,0.1931,0.0,0.0
+source,http://www.tuleyome.org,1,0.1931,0.0,0.0
+source,https://digitalcommons.calpoly.edu/cgi/viewcontent.cgi?article=3442&context=theses,1,0.1931,0.0,0.0
+source,naptan_import,1,0.1931,0.0,0.0
+source,survey;image;yahoo_imagry,1,0.1931,0.0,0.0
+surface,asphalt,154,31.4928,15300.0,15300.0
+surface,dirt,109,22.2904,10800.0,10800.0
+surface,unpaved,104,21.2679,10300.0,10300.0
+surface,paved,63,12.8834,6200.0,6200.0
+surface,gravel,38,7.771,3700.0,3700.0
+surface,ground,18,3.681,1700.0,1700.0
+surface,sand,2,0.409,100.0,100.0
+surface,"gravel,asphalt",1,0.2045,0.0,0.0
+waterway,stream,204,86.8085,20300.0,20300.0
+waterway,river,23,9.7872,2200.0,2200.0
+waterway,dam,6,2.5532,500.0,500.0
+waterway,waterfall,2,0.8511,100.0,100.0

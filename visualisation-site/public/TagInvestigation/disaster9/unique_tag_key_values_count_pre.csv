@@ -1,0 +1,874 @@
+key,value,count,percent_of_total_changes_for_key,percent_difference_from_pre,percent_difference_from_pre_day
+amenity,school,49,31.0127,4800.0,4800.0
+amenity,place_of_worship,45,28.481,4400.0,4400.0
+amenity,fuel,13,8.2278,1200.0,1200.0
+amenity,university,11,6.962,1000.0,1000.0
+amenity,restaurant,9,5.6962,800.0,800.0
+amenity,police,8,5.0633,700.0,700.0
+amenity,cafe,5,3.1646,400.0,400.0
+amenity,marketplace,4,2.5316,300.0,300.0
+amenity,atm,3,1.8987,200.0,200.0
+amenity,hospital,3,1.8987,200.0,200.0
+amenity,bank,2,1.2658,100.0,100.0
+amenity,grave_yard,1,0.6329,0.0,0.0
+amenity,nursing_home,1,0.6329,0.0,0.0
+amenity,parking,1,0.6329,0.0,0.0
+amenity,pharmacy,1,0.6329,0.0,0.0
+amenity,social_facility,1,0.6329,0.0,0.0
+amenity,studio,1,0.6329,0.0,0.0
+building,yes,276479,99.7176,27647800.0,27647800.0
+building,unidentified,474,0.171,47300.0,47300.0
+building,residential,158,0.057,15700.0,15700.0
+building,house,110,0.0397,10900.0,10900.0
+building,office,18,0.0065,1700.0,1700.0
+building,school,8,0.0029,700.0,700.0
+building,mosque,6,0.0022,500.0,500.0
+building,no,2,0.0007,100.0,100.0
+building,unclassified,2,0.0007,100.0,100.0
+building,commercial,1,0.0004,0.0,0.0
+building,hospital,1,0.0004,0.0,0.0
+building,retail,1,0.0004,0.0,0.0
+building,transformer_tower,1,0.0004,0.0,0.0
+building,university,1,0.0004,0.0,0.0
+emergency,yes,1,100.0,0.0,0.0
+highway,unclassified,21649,40.2099,2164800.0,2164800.0
+highway,residential,18487,34.3369,1848600.0,1848600.0
+highway,track,6381,11.8518,638000.0,638000.0
+highway,service,2277,4.2292,227600.0,227600.0
+highway,tertiary,1161,2.1564,116000.0,116000.0
+highway,trunk,1057,1.9632,105600.0,105600.0
+highway,primary,954,1.7719,95300.0,95300.0
+highway,secondary,863,1.6029,86200.0,86200.0
+highway,path,261,0.4848,26000.0,26000.0
+highway,cycleway,162,0.3009,16100.0,16100.0
+highway,living_street,153,0.2842,15200.0,15200.0
+highway,motorway,127,0.2359,12600.0,12600.0
+highway,tertiary_link,116,0.2155,11500.0,11500.0
+highway,footway,56,0.104,5500.0,5500.0
+highway,pedestrian,22,0.0409,2100.0,2100.0
+highway,secondary_link,21,0.039,2000.0,2000.0
+highway,crossing,20,0.0371,1900.0,1900.0
+highway,primary_link,17,0.0316,1600.0,1600.0
+highway,traffic_signals,16,0.0297,1500.0,1500.0
+highway,road,14,0.026,1300.0,1300.0
+highway,mini_roundabout,8,0.0149,700.0,700.0
+highway,construction,4,0.0074,300.0,300.0
+highway,unclasified,3,0.0056,200.0,200.0
+highway,motorway_junction,2,0.0037,100.0,100.0
+highway,residentialnn,2,0.0037,100.0,100.0
+highway,yes,2,0.0037,100.0,100.0
+highway,bridleway,1,0.0019,0.0,0.0
+highway,residentialn,1,0.0019,0.0,0.0
+highway,resn,1,0.0019,0.0,0.0
+highway,services,1,0.0019,0.0,0.0
+highway,trunk_link,1,0.0019,0.0,0.0
+landuse,residential,24,57.1429,2300.0,2300.0
+landuse,cemetery,5,11.9048,400.0,400.0
+landuse,grass,3,7.1429,200.0,200.0
+landuse,basin,2,4.7619,100.0,100.0
+landuse,commercial,2,4.7619,100.0,100.0
+landuse,industrial,2,4.7619,100.0,100.0
+landuse,aquaculture,1,2.381,0.0,0.0
+landuse,farmland,1,2.381,0.0,0.0
+landuse,orchard,1,2.381,0.0,0.0
+landuse,reservoir,1,2.381,0.0,0.0
+leisure,pitch,8,33.3333,700.0,700.0
+leisure,park,7,29.1667,600.0,600.0
+leisure,garden,3,12.5,200.0,200.0
+leisure,sports_centre,2,8.3333,100.0,100.0
+leisure,playground,1,4.1667,0.0,0.0
+leisure,stadium,1,4.1667,0.0,0.0
+leisure,swimming_pool,1,4.1667,0.0,0.0
+leisure,water_park,1,4.1667,0.0,0.0
+name,Jalan,390,10.9213,38900.0,38900.0
+name,Jalan Kebonsari Tawaeli,88,2.4643,8700.0,8700.0
+name,Jalan Trans Sulawesi,67,1.8762,6600.0,6600.0
+name,Jalan Trans Palu-Donggala,63,1.7642,6200.0,6200.0
+name,Jalan Soekarno-Hatta,56,1.5682,5500.0,5500.0
+name,Road,50,1.4002,4900.0,4900.0
+name,jalan,43,1.2041,4200.0,4200.0
+name,Jalan Profesor Mohamad Yamin,39,1.0921,3800.0,3800.0
+name,Jl. Trans Sulawesi - Palu,38,1.0641,3700.0,3700.0
+name,Jalan Wolter Monginsidi,28,0.7841,2700.0,2700.0
+name,jalan re martadinata,28,0.7841,2700.0,2700.0
+name,Jalan Abdul Rahman Saleh,25,0.7001,2400.0,2400.0
+name,Jalan Sultan Hasanuddin,25,0.7001,2400.0,2400.0
+name,Jalan Gawalise,23,0.6441,2200.0,2200.0
+name,Jalan BTN Kopri Roviga,22,0.6161,2100.0,2100.0
+name,Jalan Untad I,22,0.6161,2100.0,2100.0
+name,Jl. Donggala 8,22,0.6161,2100.0,2100.0
+name,Jalan Kompleks STQ,21,0.5881,2000.0,2000.0
+name,Jalan Tanggul Mas,21,0.5881,2000.0,2000.0
+name,Jalan Banteng Lorong,18,0.5041,1700.0,1700.0
+name,Jalan Biologi,18,0.5041,1700.0,1700.0
+name,Jalan Kompleks Bumi Talise Indah,18,0.5041,1700.0,1700.0
+name,Jalan Jenderal Sudirman,17,0.4761,1600.0,1600.0
+name,Salo Lariang,17,0.4761,1600.0,1600.0
+name,Jalan Pangeran Diponegoro,16,0.4481,1500.0,1500.0
+name,Jalan Hang Tuah,15,0.4201,1400.0,1400.0
+name,Jalan Setiabudi,15,0.4201,1400.0,1400.0
+name,Danau Poso,14,0.392,1300.0,1300.0
+name,Jalan Emy Saelan,14,0.392,1300.0,1300.0
+name,Jl. Lesang,14,0.392,1300.0,1300.0
+name,Sungai,14,0.392,1300.0,1300.0
+name,Binangga Palu,13,0.364,1200.0,1200.0
+name,Jalan I Gusti Ngurah Rai,13,0.364,1200.0,1200.0
+name,Jalan Mohamad Hatta,13,0.364,1200.0,1200.0
+name,Jalan Padat Karya,13,0.364,1200.0,1200.0
+name,Jalan Pulau Batam,13,0.364,1200.0,1200.0
+name,Jalan Raja Moili,13,0.364,1200.0,1200.0
+name,Jalan Tanggul Selatan,13,0.364,1200.0,1200.0
+name,Jl. Poros Palu-Palolo,13,0.364,1200.0,1200.0
+name,Jalan Basuki Rahmat,12,0.336,1100.0,1100.0
+name,Jalan Kompleks Mesjid Agung Darussalam,12,0.336,1100.0,1100.0
+name,Jalan Kompleks Teluk Palu,12,0.336,1100.0,1100.0
+name,Jalan Yos Sudarso,12,0.336,1100.0,1100.0
+name,Kota Poso,12,0.336,1100.0,1100.0
+name,Poso,12,0.336,1100.0,1100.0
+name,Sungai Benggaulu,12,0.336,1100.0,1100.0
+name,Jalan Dewi Sartika,11,0.308,1000.0,1000.0
+name,Jalan Jepang,11,0.308,1000.0,1000.0
+name,Jalan Pulau Irian Jaya,11,0.308,1000.0,1000.0
+name,Jalan Tadulako II,11,0.308,1000.0,1000.0
+name,Jalan Tanggul Mas Lorong,11,0.308,1000.0,1000.0
+name,Jalan Towua,11,0.308,1000.0,1000.0
+name,Jalan BTN PEPABRI,10,0.28,900.0,900.0
+name,Jalan Bulu Masomba Lorong 1,10,0.28,900.0,900.0
+name,Jalan Buvu Bionga,10,0.28,900.0,900.0
+name,Jalan Dewi Sartika Lorong,10,0.28,900.0,900.0
+name,Jalan Kompleks Yonif 711 Raksatama,10,0.28,900.0,900.0
+name,Jalan Lekatu,10,0.28,900.0,900.0
+name,Jalan Lembu,10,0.28,900.0,900.0
+name,Jalan Patimura,10,0.28,900.0,900.0
+name,Jalan Perumahan BTN Silae,10,0.28,900.0,900.0
+name,Jalan Pulau Sulawesi,10,0.28,900.0,900.0
+name,Jalan Sisingamangaraja,10,0.28,900.0,900.0
+name,Jalan Tadulako,10,0.28,900.0,900.0
+name,Jalan Tompi,10,0.28,900.0,900.0
+name,SMA Negeri 4 Palu,10,0.28,900.0,900.0
+name,jalan pendidikan,10,0.28,900.0,900.0
+name,Jalan Brigadir Jenderal Katamso,9,0.252,800.0,800.0
+name,Jalan Eks Lokasi Pameran,9,0.252,800.0,800.0
+name,Jalan Insinyur Haji Juanda,9,0.252,800.0,800.0
+name,Jalan Kalora,9,0.252,800.0,800.0
+name,Jalan Keramik,9,0.252,800.0,800.0
+name,Jalan Manunggal,9,0.252,800.0,800.0
+name,Jalan Pulau Jawa 1,9,0.252,800.0,800.0
+name,Jalan Pulau Kalimantan,9,0.252,800.0,800.0
+name,Jalan Puro Lorong,9,0.252,800.0,800.0
+name,Jalan Rovige,9,0.252,800.0,800.0
+name,Jalan Sam Ratulangi,9,0.252,800.0,800.0
+name,Jalan Sis Aljufri,9,0.252,800.0,800.0
+name,Jalan Sulawesi,9,0.252,800.0,800.0
+name,Jalan Tombolotutu,9,0.252,800.0,800.0
+name,Jl. Bunga Raya,9,0.252,800.0,800.0
+name,Stasiun Geofisika Palu,9,0.252,800.0,800.0
+name,Jalan Anoa 2 Lorong,8,0.224,700.0,700.0
+name,Jalan Antropologi,8,0.224,700.0,700.0
+name,Jalan Bakuku,8,0.224,700.0,700.0
+name,Jalan Basuki Rahmat I,8,0.224,700.0,700.0
+name,Jalan Bulili,8,0.224,700.0,700.0
+name,Jalan Diponegoro,8,0.224,700.0,700.0
+name,Jalan Jenderal Ahmad Yani,8,0.224,700.0,700.0
+name,Jalan Komplexs Pengawu Permai,8,0.224,700.0,700.0
+name,Jalan Lekatu Lorong 1,8,0.224,700.0,700.0
+name,Jalan Malontara,8,0.224,700.0,700.0
+name,Jalan Miangas,8,0.224,700.0,700.0
+name,Jalan Pramuka,8,0.224,700.0,700.0
+name,Jalan Pulau Nias,8,0.224,700.0,700.0
+name,Jalan Pulau Sabang,8,0.224,700.0,700.0
+name,Jalan Pulau Tabatoki,8,0.224,700.0,700.0
+name,Jalan Samratulangi,8,0.224,700.0,700.0
+name,Jalan Sungai Wera,8,0.224,700.0,700.0
+name,Jalan Venanda,8,0.224,700.0,700.0
+name,Jl. Trans Sulawesi,8,0.224,700.0,700.0
+name,Stasiun Meteorologi Mutiara Sis Aljufri Palu,8,0.224,700.0,700.0
+name,Jalan Agatis,7,0.196,600.0,600.0
+name,Jalan Ahmad Yani,7,0.196,600.0,600.0
+name,Jalan Banteng 2,7,0.196,600.0,600.0
+name,Jalan Dewi Sartika 2,7,0.196,600.0,600.0
+name,Jalan Hayam Wuruk,7,0.196,600.0,600.0
+name,Jalan Jabal Nur,7,0.196,600.0,600.0
+name,Jalan Kampung Nelayan,7,0.196,600.0,600.0
+name,Jalan Kesehatan,7,0.196,600.0,600.0
+name,Jalan Kompleks BTN Pertiwi,7,0.196,600.0,600.0
+name,Jalan Labu,7,0.196,600.0,600.0
+name,Jalan Latjen Soeprapto,7,0.196,600.0,600.0
+name,Jalan Manggis,7,0.196,600.0,600.0
+name,Jalan Mawar,7,0.196,600.0,600.0
+name,Jalan Merpati 2 A,7,0.196,600.0,600.0
+name,Jalan Mohammad Husni Thamrin,7,0.196,600.0,600.0
+name,Jalan Nunumbuku,7,0.196,600.0,600.0
+name,Jalan Pulau Seram,7,0.196,600.0,600.0
+name,Jalan Pulau Sumba,7,0.196,600.0,600.0
+name,Jalan Pulau Tarakan,7,0.196,600.0,600.0
+name,Jalan Sekunder Lorong,7,0.196,600.0,600.0
+name,Jalan Seruni Raya,7,0.196,600.0,600.0
+name,Jalan Sumur Yuga,7,0.196,600.0,600.0
+name,Jalan Tekukur,7,0.196,600.0,600.0
+name,Jalan Urip Sumoharjo,7,0.196,600.0,600.0
+name,Jalan Veteran,7,0.196,600.0,600.0
+name,Jalan Wahid Hazyim,7,0.196,600.0,600.0
+name,Palu Plasa,7,0.196,600.0,600.0
+name,s,7,0.196,600.0,600.0
+name,Jalan Banteng,6,0.168,500.0,500.0
+name,Jalan Beringin Lorong 1,6,0.168,500.0,500.0
+name,Jalan Bone,6,0.168,500.0,500.0
+name,Jalan Bukit Sova,6,0.168,500.0,500.0
+name,Jalan Durian,6,0.168,500.0,500.0
+name,Jalan Duyu,6,0.168,500.0,500.0
+name,Jalan Gajah Mada,6,0.168,500.0,500.0
+name,Jalan Haji Agus Salim,6,0.168,500.0,500.0
+name,Jalan Jati Lorong 1,6,0.168,500.0,500.0
+name,Jalan Karanja Lemba,6,0.168,500.0,500.0
+name,Jalan Kompleks Maesa,6,0.168,500.0,500.0
+name,Jalan Mamara,6,0.168,500.0,500.0
+name,Jalan Mamara Lorong,6,0.168,500.0,500.0
+name,Jalan Masjid Raya,6,0.168,500.0,500.0
+name,Jalan Nangka,6,0.168,500.0,500.0
+name,Jalan Otista,6,0.168,500.0,500.0
+name,Jalan Patimura VI,6,0.168,500.0,500.0
+name,Jalan Poebongo,6,0.168,500.0,500.0
+name,Jalan Pulau Bali,6,0.168,500.0,500.0
+name,Jalan Pulau Biak,6,0.168,500.0,500.0
+name,Jalan Pulau Buru,6,0.168,500.0,500.0
+name,Jalan Pulau Natuna,6,0.168,500.0,500.0
+name,Jalan Sungai Manonda,6,0.168,500.0,500.0
+name,Jalan Teratai,6,0.168,500.0,500.0
+name,Jalan Tinombala,6,0.168,500.0,500.0
+name,Jalan Uwe Goda I,6,0.168,500.0,500.0
+name,Jalan Uwe Uno,6,0.168,500.0,500.0
+name,Jalan Wenumpu,6,0.168,500.0,500.0
+name,Kantor Gubernur Sulawesi Tengah,6,0.168,500.0,500.0
+name,SDN Inti Donggala Kodi,6,0.168,500.0,500.0
+name,Jalan Agus Salim,5,0.14,400.0,400.0
+name,Jalan Angkasa,5,0.14,400.0,400.0
+name,Jalan Anoa Lorong Lampio,5,0.14,400.0,400.0
+name,Jalan Asam Lorong I,5,0.14,400.0,400.0
+name,Jalan Bahasa,5,0.14,400.0,400.0
+name,Jalan Bougenville,5,0.14,400.0,400.0
+name,Jalan Dewi Sartika 5,5,0.14,400.0,400.0
+name,Jalan Dr. Adriani,5,0.14,400.0,400.0
+name,Jalan Gunung Lolo,5,0.14,400.0,400.0
+name,Jalan Gunung Lolo Lorong,5,0.14,400.0,400.0
+name,Jalan Gunung Sidola,5,0.14,400.0,400.0
+name,Jalan Hartikultura,5,0.14,400.0,400.0
+name,Jalan Kanna,5,0.14,400.0,400.0
+name,Jalan Kartini,5,0.14,400.0,400.0
+name,Jalan Ki Hajar Dewantara,5,0.14,400.0,400.0
+name,Jalan Kompleks BTN Palupi,5,0.14,400.0,400.0
+name,Jalan MT Haryono,5,0.14,400.0,400.0
+name,Jalan Mangga,5,0.14,400.0,400.0
+name,Jalan Mutiara,5,0.14,400.0,400.0
+name,Jalan Nuri,5,0.14,400.0,400.0
+name,Jalan Padanjakaya,5,0.14,400.0,400.0
+name,Jalan Pulau Jawa 2,5,0.14,400.0,400.0
+name,Jalan Pulau Madura,5,0.14,400.0,400.0
+name,Jalan Pulau Morotai,5,0.14,400.0,400.0
+name,Jalan Saleko II,5,0.14,400.0,400.0
+name,Jalan Selar,5,0.14,400.0,400.0
+name,Jalan Sisingamangaraja Lorong,5,0.14,400.0,400.0
+name,Jalan Soekarno-Hatta Lorong,5,0.14,400.0,400.0
+name,Jalan Suharso Lorong Polda,5,0.14,400.0,400.0
+name,Jalan Talasa,5,0.14,400.0,400.0
+name,Jalan Tambang,5,0.14,400.0,400.0
+name,Jalan Tanjung Balantak,5,0.14,400.0,400.0
+name,Jalan Tanjung Harapan,5,0.14,400.0,400.0
+name,Jalan Tanjung Manimbaya,5,0.14,400.0,400.0
+name,Jalan Tavanjuka Mas,5,0.14,400.0,400.0
+name,Jalan Towua I,5,0.14,400.0,400.0
+name,Jalan W.R. Supratman,5,0.14,400.0,400.0
+name,Jalan Zebra VI,5,0.14,400.0,400.0
+name,Jl. Marakuli,5,0.14,400.0,400.0
+name,Jl. Parigi-Palu,5,0.14,400.0,400.0
+name,Ruas Moengko - Lembomawo,5,0.14,400.0,400.0
+name,Alun-alun Sintuwu Maroso,4,0.112,300.0,300.0
+name,Bandara Mutiara SIS Al-Jufrie,4,0.112,300.0,300.0
+name,Jalan Anoa Lorong Sehati,4,0.112,300.0,300.0
+name,Jalan Asam III,4,0.112,300.0,300.0
+name,Jalan BTN Palupi,4,0.112,300.0,300.0
+name,Jalan Bali,4,0.112,300.0,300.0
+name,Jalan Baruga,4,0.112,300.0,300.0
+name,Jalan Cakalang,4,0.112,300.0,300.0
+name,Jalan Delima,4,0.112,300.0,300.0
+name,Jalan Dewi Sartika 7,4,0.112,300.0,300.0
+name,Jalan Gumbasa,4,0.112,300.0,300.0
+name,Jalan Gunung Loli,4,0.112,300.0,300.0
+name,Jalan Hang Tuah 1,4,0.112,300.0,300.0
+name,Jalan Hayam Wuruk I,4,0.112,300.0,300.0
+name,Jalan Instalasi Pengal Lumpur Tinja,4,0.112,300.0,300.0
+name,Jalan Kakatua,4,0.112,300.0,300.0
+name,Jalan Keroya,4,0.112,300.0,300.0
+name,Jalan Kimaja,4,0.112,300.0,300.0
+name,Jalan Kompleks Bumi Anggur,4,0.112,300.0,300.0
+name,Jalan Kyai Haji Ahmad Dahlan,4,0.112,300.0,300.0
+name,Jalan Lagarutu,4,0.112,300.0,300.0
+name,Jalan Mawas,4,0.112,300.0,300.0
+name,Jalan Merdeka,4,0.112,300.0,300.0
+name,Jalan Nanas,4,0.112,300.0,300.0
+name,Jalan Nusa Indah,4,0.112,300.0,300.0
+name,Jalan Pattimura,4,0.112,300.0,300.0
+name,Jalan Pulau Alor,4,0.112,300.0,300.0
+name,Jalan Pulau Aru,4,0.112,300.0,300.0
+name,Jalan Pulau Bangka,4,0.112,300.0,300.0
+name,Jalan Pulau Enggano,4,0.112,300.0,300.0
+name,Jalan Pulau Samosir,4,0.112,300.0,300.0
+name,Jalan Pulau Timor,4,0.112,300.0,300.0
+name,Jalan Purnawirawan,4,0.112,300.0,300.0
+name,Jalan Ramba Lorong,4,0.112,300.0,300.0
+name,Jalan Suharso,4,0.112,300.0,300.0
+name,Jalan Sungai Lariang,4,0.112,300.0,300.0
+name,Jalan Sungai Maulang,4,0.112,300.0,300.0
+name,Jalan Tanggul Sungai Palu,4,0.112,300.0,300.0
+name,Jalan Tangkasi,4,0.112,300.0,300.0
+name,Jalan Tanjumbulu,4,0.112,300.0,300.0
+name,Jalan Tanjung Angin,4,0.112,300.0,300.0
+name,Jalan Terminal Petobo,4,0.112,300.0,300.0
+name,Jalan Uwa Goda,4,0.112,300.0,300.0
+name,Jl. Keranja Lembah,4,0.112,300.0,300.0
+name,Jl. Mora II,4,0.112,300.0,300.0
+name,Kantor Lurah Donggala Kodi,4,0.112,300.0,300.0
+name,Poso City Mall,4,0.112,300.0,300.0
+name,Silanca,4,0.112,300.0,300.0
+name,Sungai Lesang,4,0.112,300.0,300.0
+name,uwe buro,4,0.112,300.0,300.0
+name,Fakultas Kedokteran UNISA,3,0.084,200.0,200.0
+name,Jalan Adam Malik,3,0.084,200.0,200.0
+name,Jalan Adam Malik Lorong,3,0.084,200.0,200.0
+name,Jalan Anoa 1,3,0.084,200.0,200.0
+name,Jalan Bale,3,0.084,200.0,200.0
+name,Jalan Bantilan Lorong III,3,0.084,200.0,200.0
+name,Jalan Batu Bata Indah,3,0.084,200.0,200.0
+name,Jalan Bulu Masomba 1,3,0.084,200.0,200.0
+name,Jalan Cakalang Lorong,3,0.084,200.0,200.0
+name,Jalan Cemara,3,0.084,200.0,200.0
+name,Jalan Cempedak,3,0.084,200.0,200.0
+name,Jalan Cendana I,3,0.084,200.0,200.0
+name,Jalan Cenderawasih,3,0.084,200.0,200.0
+name,Jalan Cut Niadin,3,0.084,200.0,200.0
+name,Jalan Desa Kalora,3,0.084,200.0,200.0
+name,Jalan Digantara,3,0.084,200.0,200.0
+name,Jalan Garuda,3,0.084,200.0,200.0
+name,Jalan Garuda 1,3,0.084,200.0,200.0
+name,Jalan Gatot Subroto,3,0.084,200.0,200.0
+name,Jalan Gelatik 2,3,0.084,200.0,200.0
+name,Jalan Gereja,3,0.084,200.0,200.0
+name,Jalan Hasanuddin Toto,3,0.084,200.0,200.0
+name,Jalan Imam Bonjol,3,0.084,200.0,200.0
+name,Jalan Jamur,3,0.084,200.0,200.0
+name,Jalan Jati Baru Lorong 2,3,0.084,200.0,200.0
+name,Jalan Kadia,3,0.084,200.0,200.0
+name,Jalan Kambojo,3,0.084,200.0,200.0
+name,Jalan Kangguru,3,0.084,200.0,200.0
+name,Jalan Kelapa 2,3,0.084,200.0,200.0
+name,Jalan Kelor,3,0.084,200.0,200.0
+name,Jalan Kendondong,3,0.084,200.0,200.0
+name,Jalan Kijang Selatan,3,0.084,200.0,200.0
+name,Jalan Kijang Selatan VII,3,0.084,200.0,200.0
+name,Jalan Kijang Utara II,3,0.084,200.0,200.0
+name,Jalan Kiyai Haji Ahmad Dahlan,3,0.084,200.0,200.0
+name,Jalan Kompleks LAPAS Klas IIA,3,0.084,200.0,200.0
+name,Jalan Lele Mina,3,0.084,200.0,200.0
+name,Jalan Malaya Lorong I,3,0.084,200.0,200.0
+name,Jalan Maleo,3,0.084,200.0,200.0
+name,Jalan Maluku,3,0.084,200.0,200.0
+name,Jalan Mandala,3,0.084,200.0,200.0
+name,Jalan Mantikulora,3,0.084,200.0,200.0
+name,Jalan Masjid Darul Hikmah,3,0.084,200.0,200.0
+name,Jalan Melati,3,0.084,200.0,200.0
+name,Jalan Merpati,3,0.084,200.0,200.0
+name,Jalan Munif Rahman,3,0.084,200.0,200.0
+name,Jalan Munif Rahman Lorong I,3,0.084,200.0,200.0
+name,Jalan Nusantara,3,0.084,200.0,200.0
+name,Jalan PDAM,3,0.084,200.0,200.0
+name,Jalan Padanjakaya Lorong I,3,0.084,200.0,200.0
+name,Jalan Pakora 1,3,0.084,200.0,200.0
+name,Jalan Pangeran Hidayat,3,0.084,200.0,200.0
+name,Jalan Pangimpuan,3,0.084,200.0,200.0
+name,Jalan Pelita Air Permai 1,3,0.084,200.0,200.0
+name,Jalan Pipa Air,3,0.084,200.0,200.0
+name,Jalan Pueyuse,3,0.084,200.0,200.0
+name,Jalan Pulau Sumatera,3,0.084,200.0,200.0
+name,Jalan R. A. Kartini,3,0.084,200.0,200.0
+name,Jalan Rajawali,3,0.084,200.0,200.0
+name,Jalan Ramba,3,0.084,200.0,200.0
+name,Jalan Rono,3,0.084,200.0,200.0
+name,Jalan Rumah Sakit Islam,3,0.084,200.0,200.0
+name,Jalan Rusa,3,0.084,200.0,200.0
+name,Jalan Sungai Gumbasa;Jalan Sungai Lariang,3,0.084,200.0,200.0
+name,Jalan Sungai Sadan,3,0.084,200.0,200.0
+name,Jalan Sungai Sausu,3,0.084,200.0,200.0
+name,Jalan Tanamea,3,0.084,200.0,200.0
+name,Jalan Tanggul Utara,3,0.084,200.0,200.0
+name,Jalan Tanjung Harapan 1,3,0.084,200.0,200.0
+name,Jalan Tanjung Karang Lorong 2,3,0.084,200.0,200.0
+name,Jalan Tanjung Seng,3,0.084,200.0,200.0
+name,Jalan Tanjung Tada,3,0.084,200.0,200.0
+name,Jalan Towua II,3,0.084,200.0,200.0
+name,Jalan Tururuka I,3,0.084,200.0,200.0
+name,Jalan Zebra,3,0.084,200.0,200.0
+name,Jalan Zebra 1A,3,0.084,200.0,200.0
+name,Jalan Zebra II,3,0.084,200.0,200.0
+name,Jalan Zebra IV,3,0.084,200.0,200.0
+name,Jembatan Gantung,3,0.084,200.0,200.0
+name,Jl. Donggala 7,3,0.084,200.0,200.0
+name,Jl. Kemuning,3,0.084,200.0,200.0
+name,Jl. Kh Dewantoro,3,0.084,200.0,200.0
+name,Jl. Pramuka,3,0.084,200.0,200.0
+name,Jl. Tambuli,3,0.084,200.0,200.0
+name,Jl. Tollitoli-Palu,3,0.084,200.0,200.0
+name,Lorong Jayani,3,0.084,200.0,200.0
+name,Meko,3,0.084,200.0,200.0
+name,SMA Negeri 3 Poso,3,0.084,200.0,200.0
+name,SPBU Maluku,3,0.084,200.0,200.0
+name,Wisata,3,0.084,200.0,200.0
+name,sungai,3,0.084,200.0,200.0
+name,ATM BNI,2,0.056,100.0,100.0
+name,Cafe Orange,2,0.056,100.0,100.0
+name,Dinas PUPR Poso,2,0.056,100.0,100.0
+name,GOR Poso,2,0.056,100.0,100.0
+name,Institut Agama Islam Negeri Palu (IAIN Palu),2,0.056,100.0,100.0
+name,JLN.Telkom,2,0.056,100.0,100.0
+name,Jalan Abdul Rahman Hakim,2,0.056,100.0,100.0
+name,Jalan Abdul Rahman Saleh 3,2,0.056,100.0,100.0
+name,Jalan Ade Irma,2,0.056,100.0,100.0
+name,Jalan Agatis Lorong 1,2,0.056,100.0,100.0
+name,Jalan Anoa 2,2,0.056,100.0,100.0
+name,Jalan Anyelir Lorong I,2,0.056,100.0,100.0
+name,Jalan Asam 2,2,0.056,100.0,100.0
+name,Jalan Bandea,2,0.056,100.0,100.0
+name,Jalan Bangau,2,0.056,100.0,100.0
+name,Jalan Bantilan,2,0.056,100.0,100.0
+name,Jalan Batu Bata Indah 1,2,0.056,100.0,100.0
+name,Jalan Batu Merah Indah,2,0.056,100.0,100.0
+name,Jalan Bayam,2,0.056,100.0,100.0
+name,Jalan Beo,2,0.056,100.0,100.0
+name,Jalan Buah Pala,2,0.056,100.0,100.0
+name,Jalan Bulu Masomba 2,2,0.056,100.0,100.0
+name,Jalan Cemara 1,2,0.056,100.0,100.0
+name,Jalan Cik Di Tiro,2,0.056,100.0,100.0
+name,Jalan Contoh Madi 2,2,0.056,100.0,100.0
+name,Jalan Danau Lindu,2,0.056,100.0,100.0
+name,Jalan Danau Talaga,2,0.056,100.0,100.0
+name,Jalan Datu Pamusu,2,0.056,100.0,100.0
+name,Jalan Elang 3,2,0.056,100.0,100.0
+name,Jalan Gawalise Lorong I,2,0.056,100.0,100.0
+name,Jalan Gelatik,2,0.056,100.0,100.0
+name,Jalan Gereja Lorong,2,0.056,100.0,100.0
+name,Jalan Gunung Bosa,2,0.056,100.0,100.0
+name,Jalan Gunung Loli Lorong Cuwek,2,0.056,100.0,100.0
+name,Jalan Haji Hayun,2,0.056,100.0,100.0
+name,Jalan Halmahera,2,0.056,100.0,100.0
+name,Jalan Hayam Wuruk II,2,0.056,100.0,100.0
+name,Jalan Jalur Gaza,2,0.056,100.0,100.0
+name,Jalan Jati Baru Lorong 7,2,0.056,100.0,100.0
+name,Jalan K. S. Tubun,2,0.056,100.0,100.0
+name,Jalan Kakatua II,2,0.056,100.0,100.0
+name,Jalan Kalantoro,2,0.056,100.0,100.0
+name,Jalan Kanna Lorong I,2,0.056,100.0,100.0
+name,Jalan Kanuna,2,0.056,100.0,100.0
+name,Jalan Kebun Sari,2,0.056,100.0,100.0
+name,Jalan Kebun Sari Lorong,2,0.056,100.0,100.0
+name,Jalan Kelinci,2,0.056,100.0,100.0
+name,Jalan Kijang Selatan IX,2,0.056,100.0,100.0
+name,Jalan Kiyai Haji Mansyur,2,0.056,100.0,100.0
+name,Jalan Komplexs Pengawu Indah,2,0.056,100.0,100.0
+name,Jalan Kunduri,2,0.056,100.0,100.0
+name,Jalan Lamouto,2,0.056,100.0,100.0
+name,Jalan Lapangan Golf,2,0.056,100.0,100.0
+name,Jalan Lasoso,2,0.056,100.0,100.0
+name,Jalan Malaya,2,0.056,100.0,100.0
+name,Jalan Maleo Lorong Sawengading,2,0.056,100.0,100.0
+name,Jalan Malonda Lorong Cinta,2,0.056,100.0,100.0
+name,Jalan Malontera,2,0.056,100.0,100.0
+name,Jalan Maluku Lorong,2,0.056,100.0,100.0
+name,Jalan Mangun Saskoro,2,0.056,100.0,100.0
+name,Jalan Manunggal Lorong,2,0.056,100.0,100.0
+name,Jalan Mataram,2,0.056,100.0,100.0
+name,Jalan Nusantara III,2,0.056,100.0,100.0
+name,Jalan Ondata,2,0.056,100.0,100.0
+name,Jalan Onta,2,0.056,100.0,100.0
+name,Jalan Palupi Jaya,2,0.056,100.0,100.0
+name,Jalan Panaika,2,0.056,100.0,100.0
+name,Jalan Pandjaitan,2,0.056,100.0,100.0
+name,Jalan Pekuburan Teratai,2,0.056,100.0,100.0
+name,Jalan Pelita Air Permai,2,0.056,100.0,100.0
+name,Jalan Pemuda,2,0.056,100.0,100.0
+name,Jalan Pertokoan,2,0.056,100.0,100.0
+name,Jalan Pipa Air Lorong I,2,0.056,100.0,100.0
+name,Jalan Poboya,2,0.056,100.0,100.0
+name,Jalan Pue Indah 1,2,0.056,100.0,100.0
+name,Jalan Puenidi Lorong Mitra,2,0.056,100.0,100.0
+name,Jalan Pulau Flores,2,0.056,100.0,100.0
+name,Jalan Pulau Mentawai,2,0.056,100.0,100.0
+name,Jalan Pulau Roti,2,0.056,100.0,100.0
+name,Jalan Pulau Sumbawa,2,0.056,100.0,100.0
+name,Jalan Purnawirawan 1,2,0.056,100.0,100.0
+name,Jalan Purnawirawan 2,2,0.056,100.0,100.0
+name,Jalan Puro,2,0.056,100.0,100.0
+name,Jalan Raden Saleh,2,0.056,100.0,100.0
+name,Jalan Ramba I,2,0.056,100.0,100.0
+name,Jalan Rambutan,2,0.056,100.0,100.0
+name,Jalan S Parman,2,0.056,100.0,100.0
+name,Jalan S Parman II,2,0.056,100.0,100.0
+name,Jalan Salu Maleni 2,2,0.056,100.0,100.0
+name,Jalan Samudra III,2,0.056,100.0,100.0
+name,Jalan Sekunder,2,0.056,100.0,100.0
+name,Jalan Sekunder Lorong 2,2,0.056,100.0,100.0
+name,Jalan Simpati,2,0.056,100.0,100.0
+name,Jalan Sintuvu,2,0.056,100.0,100.0
+name,Jalan Sis Aljufri 2,2,0.056,100.0,100.0
+name,Jalan Sulawesi Lorong PLN,2,0.056,100.0,100.0
+name,Jalan Sultan Allauddin,2,0.056,100.0,100.0
+name,Jalan Sungai Dolago,2,0.056,100.0,100.0
+name,Jalan Sungai Gumbasa,2,0.056,100.0,100.0
+name,Jalan Sungai Nil,2,0.056,100.0,100.0
+name,Jalan Sungai Wera Lorong 1,2,0.056,100.0,100.0
+name,Jalan Tagari Lonjo,2,0.056,100.0,100.0
+name,Jalan Taman Ria,2,0.056,100.0,100.0
+name,Jalan Tanjung Bulu,2,0.056,100.0,100.0
+name,Jalan Tanjung Pesik,2,0.056,100.0,100.0
+name,Jalan Tanjung Satu,2,0.056,100.0,100.0
+name,Jalan Tanjung Tada II,2,0.056,100.0,100.0
+name,Jalan Tanjung Tururuka,2,0.056,100.0,100.0
+name,Jalan Teluk Tomini II,2,0.056,100.0,100.0
+name,Jalan Teuku Umar,2,0.056,100.0,100.0
+name,Jalan Tinombala II,2,0.056,100.0,100.0
+name,Jalan Tolambu,2,0.056,100.0,100.0
+name,Jalan Undata,2,0.056,100.0,100.0
+name,Jalan Veteran 1,2,0.056,100.0,100.0
+name,Jalan Virgo,2,0.056,100.0,100.0
+name,Jalan Yambaare,2,0.056,100.0,100.0
+name,Jalan Zebra I,2,0.056,100.0,100.0
+name,Jalan Zebra Star,2,0.056,100.0,100.0
+name,Jalan Zebra V,2,0.056,100.0,100.0
+name,Jl. Bumi Beringin,2,0.056,100.0,100.0
+name,Jl. Donggala 4,2,0.056,100.0,100.0
+name,Jl. Donggala 5,2,0.056,100.0,100.0
+name,Jl. Donggala 6,2,0.056,100.0,100.0
+name,Jl. Guru Tua,2,0.056,100.0,100.0
+name,Jl. Lesang II,2,0.056,100.0,100.0
+name,Kantor DPRD Poso,2,0.056,100.0,100.0
+name,Kartini Hotel,2,0.056,100.0,100.0
+name,Kepolisian Resor Poso,2,0.056,100.0,100.0
+name,Kompleks DPRD Poso,2,0.056,100.0,100.0
+name,Lorong B. Lalat,2,0.056,100.0,100.0
+name,Mapolsek Palu Barat,2,0.056,100.0,100.0
+name,Masjid Al Ikhsan,2,0.056,100.0,100.0
+name,Mesjid,2,0.056,100.0,100.0
+name,Palu Grand Mall,2,0.056,100.0,100.0
+name,Pasar Lasoani,2,0.056,100.0,100.0
+name,Pasar Tradisional Bersih Sintuwu Maroso,2,0.056,100.0,100.0
+name,Perbatasan Donggala - Parigi Moutong,2,0.056,100.0,100.0
+name,Perbatasan Ulujadi - Palu Barat,2,0.056,100.0,100.0
+name,Polsek Palu Barat,2,0.056,100.0,100.0
+name,Pulau Flores,2,0.056,100.0,100.0
+name,Pulau Irian,2,0.056,100.0,100.0
+name,Pulau Kalimantan,2,0.056,100.0,100.0
+name,Pulau Samosir,2,0.056,100.0,100.0
+name,Pulau Seram,2,0.056,100.0,100.0
+name,Rumah Makan Huda Syamsu,2,0.056,100.0,100.0
+name,Rumah Sakit Umum Daerah Poso,2,0.056,100.0,100.0
+name,Small Path,2,0.056,100.0,100.0
+name,Sungai Utama,2,0.056,100.0,100.0
+name,Taman Lasoso,2,0.056,100.0,100.0
+name,Universitas Sintuwu Maroso,2,0.056,100.0,100.0
+name,Warehouse for Heavy Equipment,2,0.056,100.0,100.0
+name,Wuasa,2,0.056,100.0,100.0
+name,lapangan kelinci,2,0.056,100.0,100.0
+name,',1,0.028,0.0,0.0
+name,Alun-Alun Sintuwu Maroso,1,0.028,0.0,0.0
+name,Anak Sungai,1,0.028,0.0,0.0
+name,Ari Ipohi,1,0.028,0.0,0.0
+name,BRI,1,0.028,0.0,0.0
+name,Balaroa,1,0.028,0.0,0.0
+name,Balitbangda Prov. Sulteng,1,0.028,0.0,0.0
+name,Bandara Mutiara Palu,1,0.028,0.0,0.0
+name,Bank Danamon KCP Palu,1,0.028,0.0,0.0
+name,Bank Sulteng,1,0.028,0.0,0.0
+name,Binangga Taipa,1,0.028,0.0,0.0
+name,Biri Bangko,1,0.028,0.0,0.0
+name,Biri Rante,1,0.028,0.0,0.0
+name,Danau/waduk Talaga,1,0.028,0.0,0.0
+name,Depot 33 Chinese Food,1,0.028,0.0,0.0
+name,Dinas Pekerjaan Umum dan Penataan Ruang Kab. Poso,1,0.028,0.0,0.0
+name,Fresh Mart,1,0.028,0.0,0.0
+name,Fuyul Sojol,1,0.028,0.0,0.0
+name,Gardu Induk Poso,1,0.028,0.0,0.0
+name,Gardu Induk Tentena,1,0.028,0.0,0.0
+name,Gereja Bala Keselamatan Palu,1,0.028,0.0,0.0
+name,Golden Roti,1,0.028,0.0,0.0
+name,Hotel Alam Raya,1,0.028,0.0,0.0
+name,Hotel Delly,1,0.028,0.0,0.0
+name,Hotel Santika,1,0.028,0.0,0.0
+name,JLN.Alinur,1,0.028,0.0,0.0
+name,Jalan Abadi,1,0.028,0.0,0.0
+name,Jalan Abdul Rahman Saleh Lorong,1,0.028,0.0,0.0
+name,Jalan Agatis Lorong 4,1,0.028,0.0,0.0
+name,Jalan Agatis Lorong III,1,0.028,0.0,0.0
+name,Jalan Alauddin Lorong 1,1,0.028,0.0,0.0
+name,Jalan Allauddin,1,0.028,0.0,0.0
+name,Jalan Anggur,1,0.028,0.0,0.0
+name,Jalan Anggur 1,1,0.028,0.0,0.0
+name,Jalan Anoa Lorong,1,0.028,0.0,0.0
+name,Jalan Anoa Lorong Sensasi,1,0.028,0.0,0.0
+name,Jalan Asam,1,0.028,0.0,0.0
+name,Jalan Asam 1,1,0.028,0.0,0.0
+name,Jalan Asam II,1,0.028,0.0,0.0
+name,Jalan Asam II Lorong V,1,0.028,0.0,0.0
+name,Jalan Balai Kota,1,0.028,0.0,0.0
+name,Jalan Bambu,1,0.028,0.0,0.0
+name,Jalan Beringin,1,0.028,0.0,0.0
+name,Jalan Bunto,1,0.028,0.0,0.0
+name,Jalan Cemangi,1,0.028,0.0,0.0
+name,Jalan Cendana,1,0.028,0.0,0.0
+name,Jalan Citilink,1,0.028,0.0,0.0
+name,Jalan Cumi,1,0.028,0.0,0.0
+name,Jalan Danau Poso,1,0.028,0.0,0.0
+name,Jalan Dayo Dara,1,0.028,0.0,0.0
+name,Jalan Djaelangkara,1,0.028,0.0,0.0
+name,Jalan Domba,1,0.028,0.0,0.0
+name,Jalan Dr. Wahidin,1,0.028,0.0,0.0
+name,Jalan Elang,1,0.028,0.0,0.0
+name,Jalan Ganogo,1,0.028,0.0,0.0
+name,Jalan Ganogo Lorong 2,1,0.028,0.0,0.0
+name,Jalan Haji Nahung,1,0.028,0.0,0.0
+name,Jalan Jaba,1,0.028,0.0,0.0
+name,Jalan Jalil Batu Adam,1,0.028,0.0,0.0
+name,Jalan Jambu,1,0.028,0.0,0.0
+name,Jalan Jamur Lorong I;Jalan Jamur Lorong IV,1,0.028,0.0,0.0
+name,Jalan Jamur Lorong II,1,0.028,0.0,0.0
+name,Jalan Jati,1,0.028,0.0,0.0
+name,Jalan Jati Baru Lorong,1,0.028,0.0,0.0
+name,Jalan Jati Baru Lorong 6,1,0.028,0.0,0.0
+name,Jalan Jati Baru Lorong IV,1,0.028,0.0,0.0
+name,Jalan Jati Jaya,1,0.028,0.0,0.0
+name,Jalan Jati Lekatu Lorong 1,1,0.028,0.0,0.0
+name,Jalan Jeruk,1,0.028,0.0,0.0
+name,Jalan Kamboja Lorong I,1,0.028,0.0,0.0
+name,Jalan Kancil,1,0.028,0.0,0.0
+name,Jalan Kancil 2,1,0.028,0.0,0.0
+name,Jalan Kancil Lorong,1,0.028,0.0,0.0
+name,Jalan Kasuari,1,0.028,0.0,0.0
+name,Jalan Katamso,1,0.028,0.0,0.0
+name,Jalan Kemiri,1,0.028,0.0,0.0
+name,Jalan Kendondong 2,1,0.028,0.0,0.0
+name,Jalan Kesadaran,1,0.028,0.0,0.0
+name,Jalan Kesadaran I,1,0.028,0.0,0.0
+name,Jalan Ketimun,1,0.028,0.0,0.0
+name,Jalan Kihajar Dewantara,1,0.028,0.0,0.0
+name,Jalan Kijang,1,0.028,0.0,0.0
+name,Jalan Kijang Utara III,1,0.028,0.0,0.0
+name,Jalan Komodo,1,0.028,0.0,0.0
+name,Jalan Kompleks Samapla,1,0.028,0.0,0.0
+name,Jalan Kramat Jaya,1,0.028,0.0,0.0
+name,Jalan Kue Bongo,1,0.028,0.0,0.0
+name,Jalan Langsat,1,0.028,0.0,0.0
+name,Jalan Lembaga,1,0.028,0.0,0.0
+name,Jalan Maleo 2,1,0.028,0.0,0.0
+name,Jalan Maleo Lorong 7,1,0.028,0.0,0.0
+name,Jalan Maranti,1,0.028,0.0,0.0
+name,Jalan Marjun Habi,1,0.028,0.0,0.0
+name,Jalan Merak,1,0.028,0.0,0.0
+name,Jalan Moengko - Lembomawo,1,0.028,0.0,0.0
+name,Jalan Mokolembake,1,0.028,0.0,0.0
+name,Jalan Nokilalaki,1,0.028,0.0,0.0
+name,Jalan Ogotion,1,0.028,0.0,0.0
+name,Jalan Omar Syarif,1,0.028,0.0,0.0
+name,Jalan Onuta Pura,1,0.028,0.0,0.0
+name,Jalan Otista Lorong 1,1,0.028,0.0,0.0
+name,Jalan PU,1,0.028,0.0,0.0
+name,Jalan Pasoso,1,0.028,0.0,0.0
+name,Jalan Pelita Air Permai 2,1,0.028,0.0,0.0
+name,Jalan Pengawu,1,0.028,0.0,0.0
+name,Jalan Pimpilido,1,0.028,0.0,0.0
+name,Jalan Pipit,1,0.028,0.0,0.0
+name,Jalan Poros Palu-Palolo,1,0.028,0.0,0.0
+name,Jalan Posirampe,1,0.028,0.0,0.0
+name,Jalan Sagu,1,0.028,0.0,0.0
+name,Jalan Sarikaya II,1,0.028,0.0,0.0
+name,Jalan Selar Lorong,1,0.028,0.0,0.0
+name,Jalan Sengon Raya,1,0.028,0.0,0.0
+name,Jalan Simpati 2,1,0.028,0.0,0.0
+name,Jalan Sis Aljufri I,1,0.028,0.0,0.0
+name,Jalan Sriwijaya,1,0.028,0.0,0.0
+name,Jalan Sufiar,1,0.028,0.0,0.0
+name,Jalan Sungai Bongka,1,0.028,0.0,0.0
+name,Jalan Swadaya,1,0.028,0.0,0.0
+name,Jalan TPA Kawatuna,1,0.028,0.0,0.0
+name,Jalan Talpa Loel,1,0.028,0.0,0.0
+name,Jalan Tamako,1,0.028,0.0,0.0
+name,Jalan Tanjung Karang,1,0.028,0.0,0.0
+name,Jalan Tanjung Manimbaya I,1,0.028,0.0,0.0
+name,Jalan Teknika,1,0.028,0.0,0.0
+name,Jalan Teluk Tolo,1,0.028,0.0,0.0
+name,Jalan Teluk Tomini,1,0.028,0.0,0.0
+name,Jalan Teluk Tomini I,1,0.028,0.0,0.0
+name,Jalan Tendean,1,0.028,0.0,0.0
+name,Jalan Tomada,1,0.028,0.0,0.0
+name,Jalan Tonampe,1,0.028,0.0,0.0
+name,Jalan Tupai,1,0.028,0.0,0.0
+name,Jalan Valengapa,1,0.028,0.0,0.0
+name,Jalan Vatuvuri,1,0.028,0.0,0.0
+name,Jalan Venanda Lorong 1,1,0.028,0.0,0.0
+name,Jalan Veteran II,1,0.028,0.0,0.0
+name,Jalan Veteran III,1,0.028,0.0,0.0
+name,Jalan Watukanjai,1,0.028,0.0,0.0
+name,Jalan Watumapida,1,0.028,0.0,0.0
+name,Jalan Woodward,1,0.028,0.0,0.0
+name,Jalan Wuno,1,0.028,0.0,0.0
+name,Jalan Yojokoji,1,0.028,0.0,0.0
+name,Jembatan,1,0.028,0.0,0.0
+name,Jl. Anggrek,1,0.028,0.0,0.0
+name,Jl. Bumi Jaya,1,0.028,0.0,0.0
+name,Jl. Bumi Jaya Barat,1,0.028,0.0,0.0
+name,Jl. Dahlia,1,0.028,0.0,0.0
+name,Jl. Donggala 1,1,0.028,0.0,0.0
+name,Jl. Donggala 2,1,0.028,0.0,0.0
+name,Jl. Donggala 3,1,0.028,0.0,0.0
+name,Jl. Ki Hajar,1,0.028,0.0,0.0
+name,Jl. Mawar,1,0.028,0.0,0.0
+name,Jl. Merdeka,1,0.028,0.0,0.0
+name,Jl. Mutaji,1,0.028,0.0,0.0
+name,Jl. Panulele,1,0.028,0.0,0.0
+name,Jl. Tadulako,1,0.028,0.0,0.0
+name,Jl. Tondei,1,0.028,0.0,0.0
+name,Jl. Veteran,1,0.028,0.0,0.0
+name,Kafe Internet Blassbluss,1,0.028,0.0,0.0
+name,Kafe Pizza,1,0.028,0.0,0.0
+name,Kafe SMS Karoke,1,0.028,0.0,0.0
+name,Kantor Bupati Poso,1,0.028,0.0,0.0
+name,Kantor SMA Negeri 2 PALU,1,0.028,0.0,0.0
+name,Kantor Walikota Palu,1,0.028,0.0,0.0
+name,Kasiguncu Airport,1,0.028,0.0,0.0
+name,Kodim 1306 Palu,1,0.028,0.0,0.0
+name,Kompleks Kantor Bupati Poso,1,0.028,0.0,0.0
+name,Kompleks Pemakaman Tarakan,1,0.028,0.0,0.0
+name,Ladang,1,0.028,0.0,0.0
+name,Lalombi,1,0.028,0.0,0.0
+name,Lapangan Bola Balaroa,1,0.028,0.0,0.0
+name,Lapangan Tenis PEMDA Poso,1,0.028,0.0,0.0
+name,Lapangan Vatulemo Palu (Taman Kota),1,0.028,0.0,0.0
+name,Lera,1,0.028,0.0,0.0
+name,Mall Tatura,1,0.028,0.0,0.0
+name,Masjid Al Ukhuwah,1,0.028,0.0,0.0
+name,Menara ATC,1,0.028,0.0,0.0
+name,Mesjid Agung Darussalam Palu,1,0.028,0.0,0.0
+name,Mesjid Al Abrar,1,0.028,0.0,0.0
+name,Mesjid Al Ahsar,1,0.028,0.0,0.0
+name,Mesjid Al Aqsa,1,0.028,0.0,0.0
+name,Mesjid Al Hidayah,1,0.028,0.0,0.0
+name,Mesjid Al Irsyad,1,0.028,0.0,0.0
+name,Mesjid Al Istigfar,1,0.028,0.0,0.0
+name,Mesjid Al Qalbu,1,0.028,0.0,0.0
+name,Mesjid Al Ukhuwah,1,0.028,0.0,0.0
+name,Mesjid Al-mubarak Tanggul Utara,1,0.028,0.0,0.0
+name,Mesjid An Namirah,1,0.028,0.0,0.0
+name,Mesjid An-Naim Balaroa,1,0.028,0.0,0.0
+name,Mesjid Ar Rahman,1,0.028,0.0,0.0
+name,Mesjid As Syakirin,1,0.028,0.0,0.0
+name,Mesjid Babul Falah,1,0.028,0.0,0.0
+name,Mesjid Babul Rahman,1,0.028,0.0,0.0
+name,Mesjid Darul Hikmah,1,0.028,0.0,0.0
+name,Mesjid Imam Muslim,1,0.028,0.0,0.0
+name,Mesjid Jami,1,0.028,0.0,0.0
+name,Mesjid Nur As Syahadah,1,0.028,0.0,0.0
+name,Mesjid Nurul Khairat,1,0.028,0.0,0.0
+name,Millenium Water Boom,1,0.028,0.0,0.0
+name,Onggolero,1,0.028,0.0,0.0
+name,PLTA Sulewana,1,0.028,0.0,0.0
+name,Pasar Bambaru,1,0.028,0.0,0.0
+name,Pasar Masomba,1,0.028,0.0,0.0
+name,Perbatasan Mantikulore - Palu Utara,1,0.028,0.0,0.0
+name,Perbatasan Tatanga - Palu Selatan,1,0.028,0.0,0.0
+name,Perbatasan Tatanga - Palu Timur,1,0.028,0.0,0.0
+name,Perbatasan Tawaeli - Palu Utara,1,0.028,0.0,0.0
+name,Perbatasan Ulujadi - Palu Timur,1,0.028,0.0,0.0
+name,Polda Sulawesi Tengah,1,0.028,0.0,0.0
+name,Polres Poso,1,0.028,0.0,0.0
+name,Pulau Bali,1,0.028,0.0,0.0
+name,Pulau Natuna,1,0.028,0.0,0.0
+name,Pulau Pangalasiang,1,0.028,0.0,0.0
+name,Pulau Roti,1,0.028,0.0,0.0
+name,Pulau Sumatera,1,0.028,0.0,0.0
+name,Pulau Tarakan,1,0.028,0.0,0.0
+name,RRI Palu,1,0.028,0.0,0.0
+name,Restoran Marrannu,1,0.028,0.0,0.0
+name,Rumah Makan Coto Makasar,1,0.028,0.0,0.0
+name,Rumah Sakit Anutapura,1,0.028,0.0,0.0
+name,SDN 1 Torue,1,0.028,0.0,0.0
+name,SMAN 1 Palu,1,0.028,0.0,0.0
+name,SMPN 4 Palu,1,0.028,0.0,0.0
+name,SPBU Boyaoge,1,0.028,0.0,0.0
+name,SPBU Imam Bonjol,1,0.028,0.0,0.0
+name,SPBU Kayamanya,1,0.028,0.0,0.0
+name,SPBU Moengko,1,0.028,0.0,0.0
+name,SPBU Palupi,1,0.028,0.0,0.0
+name,SPBU Sisingamangaraja,1,0.028,0.0,0.0
+name,Santika Hotel,1,0.028,0.0,0.0
+name,Slamet Riyadi,1,0.028,0.0,0.0
+name,Stadion,1,0.028,0.0,0.0
+name,Stadion Kasintuwu,1,0.028,0.0,0.0
+name,Sutan Raja Hotel & Convention,1,0.028,0.0,0.0
+name,Swalayan Miama,1,0.028,0.0,0.0
+name,Taman GOR,1,0.028,0.0,0.0
+name,Taman Gedung Juang,1,0.028,0.0,0.0
+name,Taman Kota Poso,1,0.028,0.0,0.0
+name,Taman Nasional,1,0.028,0.0,0.0
+name,Tolia,1,0.028,0.0,0.0
+name,Transmart,1,0.028,0.0,0.0
+name,mandala finance,1,0.028,0.0,0.0
+natural,coastline,123,67.5824,12200.0,12200.0
+natural,water,50,27.4725,4900.0,4900.0
+natural,beach,3,1.6484,200.0,200.0
+natural,peak,3,1.6484,200.0,200.0
+natural,wood,2,1.0989,100.0,100.0
+natural,grassland,1,0.5495,0.0,0.0
+source,digitalglobe,11699,88.5952,1169800.0,1169800.0
+source,digitalglobe; local knowledge,297,2.2491,29600.0,29600.0
+source,"knowledge, survey",174,1.3177,17300.0,17300.0
+source,bing,170,1.2874,16900.0,16900.0
+source,digitalglobe;local knowledge,114,0.8633,11300.0,11300.0
+source,Mapbox Satellite,109,0.8254,10800.0,10800.0
+source,DigitalGlobe,105,0.7952,10400.0,10400.0
+source,"knowledge,survey",104,0.7876,10300.0,10300.0
+source,local knowledge,89,0.674,8800.0,8800.0
+source,mapbox,65,0.4922,6400.0,6400.0
+source,digitalglobe;localknowledge,56,0.4241,5500.0,5500.0
+source,"PGS, Bing, non-PGS Landsat",35,0.2651,3400.0,3400.0
+source,GPS,30,0.2272,2900.0,2900.0
+source,gps,29,0.2196,2800.0,2800.0
+source,Landsat,22,0.1666,2100.0,2100.0
+source,estimated,20,0.1515,1900.0,1900.0
+source,Bing,19,0.1439,1800.0,1800.0
+source,local knownledge,13,0.0984,1200.0,1200.0
+source,digitalglobe;local knownledge,12,0.0909,1100.0,1100.0
+source,Landsat;local_knowledge,9,0.0682,800.0,800.0
+source,http://www.inigis.com/download-peta-dasar-indonesia-dalam-format-shapefile/2550,8,0.0606,700.0,700.0
+source,ourairports.com,5,0.0379,400.0,400.0
+source,NGA-GNS,4,0.0303,300.0,300.0
+source,landsat,4,0.0303,300.0,300.0
+source,localknowledge,4,0.0303,300.0,300.0
+source,GNS,3,0.0227,200.0,200.0
+source,PGS,2,0.0151,100.0,100.0
+source,Source=DigitalGlobe,2,0.0151,100.0,100.0
+source,digitalglobe;knowledge,1,0.0076,0.0,0.0
+source,digitalglobe;localknownledge,1,0.0076,0.0,0.0
+surface,unpaved,4490,81.0323,448900.0,448900.0
+surface,asphalt,642,11.5864,64100.0,64100.0
+surface,ground,360,6.497,35900.0,35900.0
+surface,concrete,17,0.3068,1600.0,1600.0
+surface,grass,16,0.2888,1500.0,1500.0
+surface,paved,6,0.1083,500.0,500.0
+surface,cobblestone,4,0.0722,300.0,300.0
+surface,wood,4,0.0722,300.0,300.0
+surface,sand,2,0.0361,100.0,100.0
+waterway,river,1455,76.0983,145400.0,145400.0
+waterway,stream,341,17.8347,34000.0,34000.0
+waterway,canal,53,2.772,5200.0,5200.0
+waterway,drain,28,1.4644,2700.0,2700.0
+waterway,riverbank,19,0.9937,1800.0,1800.0
+waterway,ditch,10,0.523,900.0,900.0
+waterway,dam,3,0.1569,200.0,200.0
+waterway,weir,2,0.1046,100.0,100.0
+waterway,waterfall,1,0.0523,0.0,0.0

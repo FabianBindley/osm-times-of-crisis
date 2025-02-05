@@ -154,7 +154,7 @@ def compute_percent_difference_in__count_ginis(gini_before, gini_after):
     return percent_difference
 
 
-def plot_gini_coefficients(gini_df):
+def plot_gini_coefficients(gini_df, resolution):
 
     disaster_labels = gini_df.apply(
         lambda row: f"{row['disaster_area'][0]} ({row['disaster_date'].year})", axis=1
@@ -224,7 +224,7 @@ def plot_gini_coefficients(gini_df):
         axis.set_yscale('linear') 
         axis.set_xlabel("Disaster")
         axis.set_xticks(x)
-        axis.set_xticklabels(disaster_labels)
+        axis.set_xticklabels(disaster_labels, rotation=45)
         axis.legend()
 
     # Set a shared xlabel
@@ -232,11 +232,11 @@ def plot_gini_coefficients(gini_df):
 
     # Adjust layout and save
     plt.tight_layout()
-    plt.savefig("./Results/ChangeDensityMapping/Summary/charts/gini_coefficients_pre_imm_post.png", dpi=350)
+    plt.savefig(f"./Results/ChangeDensityMapping/Summary/charts/gini_coefficients_pre_imm_post_{resolution}.png", dpi=350)
     plt.close()
 
 
-def plot_percent_difference_in_gini_coefficients(gini_df):
+def plot_percent_difference_in_gini_coefficients(gini_df, resolution):
 
     disaster_labels = gini_df.apply(
         lambda row: f"{row['disaster_area'][0]} ({row['disaster_date'].year})", axis=1
@@ -256,7 +256,7 @@ def plot_percent_difference_in_gini_coefficients(gini_df):
     x = np.arange(len(disaster_labels))  
     width = 0.2  
 
-    fig, axes = plt.subplots(2, 1, figsize=(12, 12), sharex=True)
+    fig, axes = plt.subplots(2, 1, figsize=(16, 12), sharex=True)
 
     for axis in axes:
         axis.grid(which='major', color='black', linestyle='-', linewidth=0.5)
@@ -291,7 +291,7 @@ def plot_percent_difference_in_gini_coefficients(gini_df):
         axis.set_yscale('linear') 
         axis.set_xlabel("Disaster")
         axis.set_xticks(x)
-        axis.set_xticklabels(disaster_labels)
+        axis.set_xticklabels(disaster_labels, rotation=45)
         axis.legend()
 
     # Set a shared xlabel
@@ -299,7 +299,7 @@ def plot_percent_difference_in_gini_coefficients(gini_df):
 
     # Adjust layout and save
     plt.tight_layout()
-    plt.savefig("./Results/ChangeDensityMapping/Summary/charts/gini_coefficients_percent_difference_imm_post.png", dpi=350)
+    plt.savefig(f"./Results/ChangeDensityMapping/Summary/charts/gini_coefficients_percent_difference_imm_post_{resolution}.png", dpi=350)
     plt.close()
 
 
@@ -309,12 +309,12 @@ if __name__ == "__main__":
     db_utils = DB_Utils()
     db_utils.db_connect()
 
-    disaster_days = [(365, 30, 365)]
-    resolutions = [7]
+    disaster_days = [(365, 60, 365)]
+    resolutions = [7,8]
     gini_coefficients = []
 
     for disaster_day_tuple in disaster_days:
-        for disaster_id in range(7, 11):
+        for disaster_id in range(1, 11):
             for resolution in resolutions:
                 (_, disaster_country, disaster_area, disaster_geojson_encoded, disaster_date, disaster_h3_resolution) = db_utils.get_disaster_with_id(disaster_id)
                 pre_disaster_days, imm_disaster_days, post_disaster_days = disaster_day_tuple
@@ -358,5 +358,5 @@ if __name__ == "__main__":
     #print(gini_df)
     gini_df.to_csv("./Results/ChangeDensityMapping/Summary/data/gini_coefficients.csv", index=False)
 
-    plot_gini_coefficients(gini_df)
-    plot_percent_difference_in_gini_coefficients(gini_df)
+    plot_gini_coefficients(gini_df, resolution)
+    plot_percent_difference_in_gini_coefficients(gini_df, resolution)

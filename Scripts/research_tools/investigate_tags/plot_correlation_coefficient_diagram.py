@@ -132,8 +132,8 @@ def generate_plot_kendall_correlation_coefficients(periods, disaster_ids, key_pa
     plt.legend(title="Periods", fontsize=10)
 
     # Emergency has a negative value, and automatically checking the values seems to break the plot for some reason
-    plt.xlim(-1 , 1)
-    plt.ylim(-1 , 1)
+    plt.xlim(-1.1 , 1.1)
+    plt.ylim(-1.1 , 1.1)
     plt.tight_layout()
 
 
@@ -145,11 +145,11 @@ def generate_plot_kendall_correlation_coefficients(periods, disaster_ids, key_pa
     plt.close()
  
 
-
+#
 if __name__ == "__main__":
     db_utils = DB_Utils()
     db_utils.db_connect()
-    disaster_ids = [7,8,9,10]
+    disaster_ids = range(1,11)
 
     # Key pairs should aways be alphabetically ordered
     specified_keys = sorted(["building","highway","source","name","surface","amenity","landuse","waterway","natural","leisure","emergency"])

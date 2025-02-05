@@ -410,6 +410,15 @@ class DB_Utils:
         print(f"Deleting changes for changeset: {changeset}")
         cursor.execute(delete_query)
         self.connection.commit()  
+
+       # delete_query = f"""
+        #DELETE FROM changes_3_year_pre WHERE changeset = '{changeset}';
+        #"""
+
+        #print(f"Deleting changes_3_year_pre for changeset: {changeset}")
+        cursor.execute(delete_query)
+        self.connection.commit()  
+
         cursor.close()
 
 
@@ -472,6 +481,12 @@ class DB_Utils:
         """
         print(f"Deleting invalid changes for disaster_id: {disaster_id}")
         cursor.execute(delete_query)
+
+        #delete_query = f"""
+        #DELETE FROM changes_3_year_pre WHERE disaster_id = {disaster_id} AND geojson_verified = False;
+        #"""
+        #print(f"Deleting invalid changes for disaster_id: {disaster_id}")
+        #cursor.execute(delete_query)
         removed_count = cursor.rowcount
 
         self.connection.commit()  
@@ -593,7 +608,7 @@ class DB_Utils:
     
 
     # if return all is true, dont sample, just return all
-    def get_sample_changes_for_disaster(self, disaster_id, sample_size, sample, start_date, end_date, get_type, random, three_years_pre):
+    def get_sample_changes_for_disaster(self, disaster_id, sample_size, sample, start_date, end_date, get_type, random, three_years_pre=False):
         cursor = self.connection.cursor()
 
         query = f"""

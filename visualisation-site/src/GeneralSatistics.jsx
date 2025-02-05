@@ -29,7 +29,6 @@ export default function GeneralStatistics() {
                         onChange={handleIntervalChange}
                     >
                         <Select.Option value="365-365">365 Pre - 365 Post</Select.Option>
-                        <Select.Option value="180-365">180 Pre - 365 Post</Select.Option>
                         <Select.Option value="1095-365">1095 Pre - 365 Post</Select.Option>
                     </Select>
                 </div> 
@@ -42,14 +41,14 @@ export default function GeneralStatistics() {
                     <h2>Changes by period across all disasters</h2>
                     <Image
                     width="100%"
-                    src={`ChangeCounting/summary/charts/${interval.start}_30_${interval.end}_changes_count_stacked_bar.png`}
+                    src={`ChangeCounting/summary/charts/${interval.start}_60_${interval.end}_changes_count_stacked_bar.png`}
                     />
                 </div>
                 <div style={{width: '35%'}}>
                     <h2>Total Change counts by disaster</h2>
                     <Image
                     width="100%"
-                    src={`ChangeCounting/summary/charts/${interval.start}_30_${interval.end}_changes_total_count_pie.png`}
+                    src={`ChangeCounting/summary/charts/${interval.start}_60_${interval.end}_changes_total_count_pie.png`}
                     />
                 </div>
             </div>

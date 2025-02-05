@@ -57,10 +57,11 @@ def count_full_periods(disaster_id, disaster_date, pre_disaster_days, imm_disast
 
     intervals = [pre_disaster_start_date, imm_disaster_start_date, post_disaster_start_date, post_disaster_end_date]
 
-    if pre_disaster_days > 370:
-        counts = db_utils.count_changes_in_interval_3_years_pre(disaster_id, intervals)
-    else:
-        counts = db_utils.count_changes_in_interval(disaster_id, intervals)
+    # All changes are now added to changes anyway no need to distinguish
+    #if pre_disaster_days > 370:
+      #  counts = db_utils.count_changes_in_interval_3_years_pre(disaster_id, intervals)
+    #else:
+    counts = db_utils.count_changes_in_interval(disaster_id, intervals)
 
     total_creates = 0
     total_edits = 0
@@ -91,7 +92,7 @@ def count_full_periods(disaster_id, disaster_date, pre_disaster_days, imm_disast
         print("Saved full periods")
 
 def count_by_interval_length(disaster_id, disaster_date, pre_disaster_days, imm_disaster_days, post_disaster_days, interval_length):
-    pre_disaster = timedelta(pre_disaster_days)
+    pre_disaster = timedelta(days=1095) # Always use 1095 days before, then chop off the intervals we dont need
     imm_disaster = timedelta(imm_disaster_days)
     post_disaster = timedelta(post_disaster_days)
 
@@ -106,11 +107,15 @@ def count_by_interval_length(disaster_id, disaster_date, pre_disaster_days, imm_
         intervals.append(current)
         current += timedelta(days=interval_length)
     intervals.append(end_range)  # Include the final end date
+    
 
-    if pre_disaster_days > 370:
-        counts = db_utils.count_changes_in_interval_3_years_pre(disaster_id, intervals)
-    else:
-        counts = db_utils.count_changes_in_interval(disaster_id, intervals)
+    cutoff_start = disaster_date - timedelta(days=pre_disaster_days)  # Only keep `pre_disaster_days`
+    intervals = [t for t in intervals if t >= cutoff_start]
+
+    #if pre_disaster_days > 370:
+        #counts = db_utils.count_changes_in_interval_3_years_pre(disaster_id, intervals)
+    #else:
+    counts = db_utils.count_changes_in_interval(disaster_id, intervals)
 
     delta = timedelta(interval_length)
 
@@ -178,6 +183,17 @@ def train_forecast_prophet(disaster_id, pre_disaster_days, imm_disaster_days, po
         ]
 
     # Exclude shocks
+
+    if disaster_id == 2:   
+        pre_disaster_counts_df = pre_disaster_counts_df[
+            ~(('2020-09-01' <= pre_disaster_counts_df['ds']) & (pre_disaster_counts_df['ds'] <= '2020-12-01'))
+        ]
+
+    if disaster_id == 3:   
+        pre_disaster_counts_df = pre_disaster_counts_df[
+            ~(('2008-12-01' <= pre_disaster_counts_df['ds']) & (pre_disaster_counts_df['ds'] <= '2009-02-01'))
+        ]
+
     if disaster_id == 4:   
         pre_disaster_counts_df = pre_disaster_counts_df[
             ~(('2019-05-01' <= pre_disaster_counts_df['ds']) & (pre_disaster_counts_df['ds'] <= '2019-07-01'))
@@ -284,6 +300,7 @@ def evaluate_prophet_model_forecasts(models,  disaster_id, pre_disaster_days, im
     predictions_df.to_csv(file_path, index=False)
 
     # Compute the mean average error and mean average percentage error
+    # TODO This should only be computed for the post disaster period
     mae = {}
     mape = {}
     for column in ["creates", "edits", "deletes", "total"]:
@@ -311,7 +328,7 @@ if __name__ == "__main__":
 
     
     
-    for disaster_id in [7,8,9,10]:
+    for disaster_id in [1,2,3,4,5,6,7,8,9,10]:
         for prophet_model in prophet_model_bools: # Currently unused
             for period in periods:
 
@@ -324,6 +341,7 @@ if __name__ == "__main__":
                 print(f"{disaster_id} {disaster_area[0]} {disaster_date}")
                 # First lets do the total counts for each period
 
+                print(period)
                 pre_disaster_days = period[0]
                 imm_disaster_days = period[1]
                 post_disaster_days = period[2]

@@ -65,6 +65,7 @@ def remove_import_changeset(possible_import, counter, num_imports, start_time):
 
     db_utils.copy_to_deleted_changes_table(changeset)
     db_utils.remove_changes_from_changeset(changeset)
+    
 
     elapsed_time = datetime.now().timestamp() - start_time.timestamp()
     minutes, seconds = divmod(int(elapsed_time), 60)
@@ -114,6 +115,7 @@ if __name__ == "__main__":
 
     run_filtering_with_params(n=5000, minutes=30, ratio=0.95,remove_imports = True)
     run_filtering_with_params(n=3000, minutes=1, ratio=0.95, remove_imports =True)
+    #run_filtering_with_params(n=1000, minutes=0.5, ratio=0.95, remove_imports =True)
     # What is a bulk import?
     # 1) More than n changes in a changeset
     # 2) 95% or more creates

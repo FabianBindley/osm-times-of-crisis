@@ -215,7 +215,7 @@ if __name__ == "__main__":
     get_key_value_counts(specified_keys)
 
     nums = [10, 25, 100, 4000]
-    disaster_ids =  [7,8,9,10,11]
+    disaster_ids =  [7,8,9,10]
 
     for n in nums:
         get_top_n_values_for_keys_all_periods(n)
@@ -225,11 +225,11 @@ if __name__ == "__main__":
     for disaster_id in disaster_ids:
         (_, disaster_country, disaster_area, _, disaster_date, _ ) = db_utils.get_disaster_with_id(disaster_id)
         print(f"{disaster_area[0]} {disaster_date.year}")
-        get_tag_key_value_usage_for_disaster(specified_keys, disaster_id, disaster_date, 365, 30, 365)
+        get_tag_key_value_usage_for_disaster(specified_keys, disaster_id, disaster_date, 365, 60, 365)
 
 
     print("Getting top n tag key values for periods")
     for period in ["pre","imm","post"]:
         for n in nums:
             print(f"top {n}")
-            get_top_n_values_for_keys_period(specified_keys, n, period, disaster_ids, 365, 30, 365)
+            get_top_n_values_for_keys_period(specified_keys, n, period, disaster_ids, 365, 60, 365)

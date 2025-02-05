@@ -57,6 +57,7 @@ def get_changes_and_previous(disaster_id, pre_disaster_days, imm_disaster_days, 
 
     # Select and print only the relevant columns from the merged DataFrame
     pd.set_option("display.max_colwidth", None)
+    os.makedirs(f"./Results/ChangeDifferences/disaster{disaster_id}/", exist_ok=True)
     merged.to_pickle(f'./Results/ChangeDifferences/disaster{disaster_id}/changes_curr_prev_{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}.pickle')
 
     return merged
@@ -130,8 +131,16 @@ def compute_changes_diffs(disaster_area, disaster_id, pre_disaster_days, imm_dis
     #previous_edit_types = (len(changes_and_prev[changes_and_prev["edit_type_prev"]=="create"]), len(changes_and_prev[changes_and_prev["edit_type_prev"]=="edit"]), len(changes_and_prev[changes_and_prev["edit_type_prev"]=="delete"]))
     changes_and_prev = pd.read_pickle(f'./Results/ChangeDifferences/disaster{disaster_id}/changes_curr_prev_{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}.pickle')
     way_ids = set(changes_and_prev[changes_and_prev["element_type_curr"]=="way"]["element_id"])
+    
 
-    input_file = f'./Data/{disaster_area}/{disaster_area}NodesWays.osh.pbf'
+    if os.path.exists(f'./Data/{disaster_area}/{disaster_area}NodesWays.osh.pbf'):
+        input_file = f'./Data/{disaster_area}/{disaster_area}NodesWays.osh.pbf'
+    elif os.path.exists(f'./Data/{disaster_area}/{disaster_area}.osh.pbf'):
+        input_file = f'./Data/{disaster_area}/{disaster_area}.osh.pbf'
+
+    else:
+        raise FileNotFoundError(f"Neither {f'./Data/{disaster_area}/{disaster_area}NodesWays.osh.pbf'} nor {f'./Data/{disaster_area}/{disaster_area}.osh.pbf'} exist.")
+    
     way_handler = WayHandler(way_ids)
     way_handler.apply_file(input_file)
     
@@ -281,7 +290,7 @@ if __name__ == "__main__":
     db_utils = DB_Utils()
     db_utils.db_connect()
 
-    disaster_ids =  [7,8,9,10]
+    disaster_ids =  range(9,11)
     sample_size = 1000000
     sample = False
     random_sample = False

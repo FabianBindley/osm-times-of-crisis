@@ -124,20 +124,20 @@ if __name__ == "__main__":
     start_time = datetime.now()
     db_utils = DB_Utils()
     db_utils.db_connect()
+    disaster_ids =  [7,8,9,10]
 
     print("Getting key counts")
     get_key_counts(pre_disaster_days=365, imm_disaster_days=30, post_diaster_days=365)
 
     print("Getting tag usage for disasters")
-    for disaster_id in range(7,11):
+    for disaster_id in disaster_ids:
         (_, disaster_country, disaster_area, _, disaster_date, _ ) = db_utils.get_disaster_with_id(disaster_id)
         print(f"Generating key metrics for {disaster_area[0]} {disaster_date.year}")
-        get_tag_key_usage_for_disaster(disaster_id, disaster_date, 365, 30, 365)
+        get_tag_key_usage_for_disaster(disaster_id, disaster_date, 365, 60, 365)
 
     nums = [10, 25, 100, 4000]
-    disaster_ids =  [2,3,4,5,6]
     
     print("Getting top n tag keys for periods")
     for period in ["pre","imm","post"]:
         for n in nums:
-            top_n_tag_keys_for_period(n, period, disaster_ids, 365, 30, 365)
+            top_n_tag_keys_for_period(n, period, disaster_ids, 365, 60, 365)

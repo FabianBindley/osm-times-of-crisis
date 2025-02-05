@@ -21,7 +21,7 @@ def get_missing_changes_for_disaster(disaster_id, sample_size, sample, disaster_
     print(start_date)
     print(end_date)
 
-    changes = db_utils.get_sample_changes_for_disaster(disaster_id, sample_size, sample, start_date, end_date, "prepare", random=False, three_years_pre= pre_disaster_days > 370 )
+    changes = db_utils.get_sample_changes_for_disaster(disaster_id, sample_size, sample, start_date, end_date, "prepare", random=False, three_years_pre= False )
     print("changes")
     print(len(changes))
     changes_df = pd.DataFrame(changes, columns=["element_id", "disaster_id", "version", "edit_type", "element_type"])
@@ -56,9 +56,9 @@ def insert_missing_changes(disaster_id, disaster_area, disaster_date, pre_disast
 
     
     # Start and end dates are irrelevant as we know that the object will fall outside of these
-
+    # Stop doing 3 years pre - just keep all in the changes file
     handler = BulkImportHandler(disaster_date, disaster_date, f"./Data/{disaster_area}/{disaster_area}{disaster_date.year}ManuallyDefined.geojson", False, disaster_id, disaster_area, 
-                                str(disaster_date.year), db_utils.connection, input_file, missing_changes_set, False, True, three_years_pre=pre_disaster_days > 370)
+                                str(disaster_date.year), db_utils.connection, input_file, missing_changes_set, False, True, three_years_pre=False)
     handler.apply_file(input_file)
     handler.flush_inserts()
 

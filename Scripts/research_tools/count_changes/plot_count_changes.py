@@ -298,6 +298,8 @@ def plot_total_change_counts(pre_disaster_days, imm_disaster_days, post_disaster
             [total_counts, pd.DataFrame({"disaster_id": [disaster_id], "disaster_title": [f"{disaster_area[0]} | {disaster_date.year}"], "total": [total]})],
             ignore_index=True,
         )
+      
+    print(total_counts)
     
     # Pie chart for total operations
     plt.figure(figsize=(6, 5))
@@ -307,6 +309,7 @@ def plot_total_change_counts(pre_disaster_days, imm_disaster_days, post_disaster
     os.makedirs(f"Results/ChangeCounting/summary/charts", exist_ok=True)
     file_path = f'./Results/ChangeCounting/summary/charts/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_changes_total_count_pie.png'
     plt.savefig(file_path, dpi=350)
+    print(f"Saved: ./Results/ChangeCounting/summary/charts/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_changes_total_count_pie.png")
 
     os.makedirs(f"visualisation-site/public/ChangeCounting/summary/charts", exist_ok=True)
     visualisation_file_path = f'visualisation-site/public/ChangeCounting/summary/charts/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_changes_total_count_pie.png'
@@ -342,7 +345,7 @@ def process_disaster(disaster_id, periods, prophet_model_bools, post_only_bools,
                         post_disaster_days=period[2]
                     )
 
-                    for interval_length in [7, 30]:
+                    for interval_length in [1, 7, 30]:
                         plot_counts_specific(
                             disaster_id, 
                             disaster_country[0], 
@@ -369,7 +372,7 @@ if __name__ == "__main__":
     plot_edit_types_list = [["creates", "edits", "deletes", "total"],["creates"],["edits"],["deletes"],["total"]]
     #plot_edit_types_list = [["deletes"],["total"]]
 
-    disaster_ids = [7,8,9,10]
+    disaster_ids = range(1,11)
     #disaster_ids = [5]
 
     for period in periods:

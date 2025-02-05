@@ -131,9 +131,9 @@ if __name__ == "__main__":
     # Get the values for the specified keys
     specified_keys = ["building","highway","source","name","surface","amenity","landuse","waterway","natural","leisure","emergency"]
     periods = [("pre","imm"), ("pre","post"), ("imm","post")]
-    periods = [("pre","imm"),]
+    periods = [("pre","imm"),("pre","post"), ("imm","post")]
 
-    disaster_ids =  [7,8,9,10]
+    disaster_ids = range(1,11)
     top_n = 15
 
     for period in periods:

@@ -18,6 +18,7 @@ def generate_intervals(start_range, end_range, interval_length):
     intervals = []
     current = start_range
 
+    # TODO update intervals to align with 1095 as with change counts
     while current < end_range:  # Ensure no overlap at the end
         next_interval = current + timedelta(days=interval_length)
         intervals.append({'start_date': current, 'end_date': min(next_interval, end_range)})  # Avoid exceeding end_range
@@ -57,8 +58,8 @@ def evaluate_prophet_model_forecast(model, disaster_id, pre_disaster_days, imm_d
     file_path = f"./Results/ChangeDifferences/disaster{disaster_id}/days_between_edits/data/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_{interval_length}_avg_days_between_edits_prophet_predictions.csv"
     model_days_prediction_df.to_csv(file_path, index=False)
 
-    # Compute the mean average error and mean average percentage error
-
+    # Compute the mean average error and mean average percentage error 
+    # TODO This should only be computed for the post disaster period
     mae = np.mean(np.abs(model_days_prediction_df["avg_days_between_edits"] - interval_averages_df["avg_days_between_edits"]))
     mape = np.mean(np.abs((model_days_prediction_df["avg_days_between_edits"] - interval_averages_df["avg_days_between_edits"]) / interval_averages_df["avg_days_between_edits"].replace(0, 1))) * 100
     predictions_with_errors_df = pd.DataFrame([{"mae": mae, "mape": mape}])
@@ -155,6 +156,7 @@ def plot_average_time_between_edits(intervals_df, pre_disaster_days, imm_disaste
     plt.grid(which='major', linestyle='--', linewidth=0.5)
     plt.grid(which='minor', linestyle=':', linewidth=0.5)
     plt.minorticks_on()
+    #TODO add label to say which place this is - to be consistent with change counts
 
     # Format the x-axis
     plt.gca().xaxis.set_major_locator(mdates.MonthLocator())
@@ -184,8 +186,9 @@ if __name__ == "__main__":
     prophet_model_bools = [True, False]
     post_only_bools = [True, False]
     periods = [(1095,60,365), (365,60,365)]
+    disaster_ids = range(7,11)
 
-    for disaster_id in [7,8,9,10]:
+    for disaster_id in disaster_ids:
         for post_only in post_only_bools:
             for prophet_model in prophet_model_bools:
                 for period in periods:

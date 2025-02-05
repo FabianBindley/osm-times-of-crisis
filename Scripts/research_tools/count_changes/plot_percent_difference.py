@@ -202,14 +202,14 @@ if __name__ == "__main__":
     post_only = True
 
     # Define periods as an array of tuples
-    periods = [(365, 30, 365), (365, 60, 365), (1095,60,365)]
+    periods = [ (365, 60, 365), (1095,60,365)]
     #periods = [(365, 30, 365)]
     average_metric = "median" # mean or median
     plot_edit_types_list = [["creates", "edits", "deletes", "total"],["creates"],["edits"],["deletes"],["total"]]
 
     # Loop through disasters and periods
     for post_only in [True, False]:
-        for disaster_id in range(7,8,9,10):
+        for disaster_id in range(7,11):
             _, disaster_country, disaster_area, _, disaster_date, _ = db_utils.get_disaster_with_id(disaster_id)
             print(f"Processing Disaster {disaster_id} - {disaster_area[0]}")
             for plot_edit_types in plot_edit_types_list:
