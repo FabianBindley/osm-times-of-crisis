@@ -215,7 +215,7 @@ if __name__ == "__main__":
     get_key_value_counts(specified_keys)
 
     nums = [10, 25, 100, 4000]
-    disaster_ids =  [7,8,9,10]
+    disaster_ids =  range(2,13)
 
     for n in nums:
         get_top_n_values_for_keys_all_periods(n)

@@ -40,11 +40,14 @@ if __name__ == "__main__":
         {"id": 8, "country": ["UnitedStates"], "area": ["Texas"], "geometry": load_geometry_manually_defined("Texas", "2017"), "date": datetime.strptime("2017-08-26", "%Y-%m-%d").timestamp(), "h3_resolution":6},
         {"id": 9, "country": ["Indonesia"], "area": ["Sulawesi"], "geometry": load_geometry_manually_defined("Sulawesi", "2018"), "date": datetime.strptime("2018-09-28", "%Y-%m-%d").timestamp(), "h3_resolution":6},
         {"id": 10, "country": ["Greece"], "area": ["Attica"], "geometry": load_geometry_manually_defined("Attica", "2018"), "date": datetime.strptime("2018-07-23", "%Y-%m-%d").timestamp(), "h3_resolution":6},
-        #{"id": 11, "country": ["Nepal"], "area": ["Nepal"], "geometry": load_geometry_manually_defined("Nepal", "2015"), "date": datetime.strptime("2015-04-25", "%Y-%m-%d").timestamp(), "h3_resolution":6},
-        #{"id": 12, "country": ["Nepal"], "area": ["Nepal"], "geometry": load_geometry_manually_defined("Nepal", "2015"), "date": datetime.strptime("2015-04-25", "%Y-%m-%d").timestamp(), "h3_resolution":6},
-        #{"id": 13, "country": ["Nepal"], "area": ["Nepal"], "geometry": load_geometry_manually_defined("Nepal", "2015"), "date": datetime.strptime("2015-04-25", "%Y-%m-%d").timestamp(), "h3_resolution":6},
-        #{"id": 14, "country": ["Nepal"], "area": ["Nepal"], "geometry": load_geometry_manually_defined("Nepal", "2015"), "date": datetime.strptime("2015-04-25", "%Y-%m-%d").timestamp(), "h3_resolution":6},
-        #{"id": 15, "country": ["Nepal"], "area": ["Nepal"], "geometry": load_geometry_manually_defined("Nepal", "2015"), "date": datetime.strptime("2015-04-25", "%Y-%m-%d").timestamp(), "h3_resolution":6},
+        {"id": 11, "country": ["Turkey"], "area": ["Izmir"], "geometry": load_geometry_manually_defined("Izmir", "2020"), "date": datetime.strptime("2020-10-30", "%Y-%m-%d").timestamp(), "h3_resolution":6},
+        {"id": 12, "country": ["Turkey"], "area": ["Gaziantep"], "geometry": load_geometry_manually_defined("Gaziantep", "2023"), "date": datetime.strptime("2023-02-06", "%Y-%m-%d").timestamp(), "h3_resolution":6},
+        {"id": 13, "country": ["Pakistan"], "area": ["Pakistan"], "geometry": load_geometry_manually_defined("Pakistan", "2022"), "date": datetime.strptime("2022-08-25", "%Y-%m-%d").timestamp(), "h3_resolution":6},
+        {"id": 14, "country": ["Japan"], "area": ["Atami"], "geometry": load_geometry_manually_defined("Atami", "2021"), "date": datetime.strptime("2021-07-03", "%Y-%m-%d").timestamp(), "h3_resolution":6},
+        {"id": 15, "country": ["Libya"], "area": ["Derna"], "geometry": load_geometry_manually_defined("Derna", "2023"), "date": datetime.strptime("2023-09-10", "%Y-%m-%d").timestamp(), "h3_resolution":6},
+        {"id": 16, "country": ["Malawi"], "area": ["Malawi"], "geometry": load_geometry_manually_defined("Malawi", "2023"), "date": datetime.strptime("2023-03-12", "%Y-%m-%d").timestamp(), "h3_resolution":6},
+        {"id": 17, "country": ["Morocco"], "area": ["Morocco"], "geometry": load_geometry_manually_defined("Morocco", "2023"), "date": datetime.strptime("2023-09-08", "%Y-%m-%d").timestamp(), "h3_resolution":6},
+        {"id": 18, "country": ["SierraLeone"], "area": ["Freetown"], "geometry": load_geometry_manually_defined("Freetown", "2017"), "date": datetime.strptime("2017-08-14", "%Y-%m-%d").timestamp(), "h3_resolution":6},
 
 
     ]

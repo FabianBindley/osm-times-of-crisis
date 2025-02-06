@@ -23,6 +23,8 @@ export default function Tags() {
         { title: "Texas Hurricane Harvey | 2017", disaster_id: 8},
         { title: "Sulawesi Earthquake and Tsunami | 2018", disaster_id: 9},
         { title: "Attica Wildfires | 2018", disaster_id: 10},
+        { title: "Izmir Earthquake and Tsunami | 2020", disaster_id: 11},
+        { title: "Gaziantep Earthquake | 2023", disaster_id: 12},
       ];
 
     const keys_for_key_values = ["building","highway","source","name","surface","amenity","landuse","waterway","natural","leisure","emergency"]

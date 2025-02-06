@@ -1,0 +1,4020 @@
+key,value,count,percent_of_total_changes_for_key,percent_difference_from_pre,percent_difference_from_pre_day
+amenity,pharmacy,1381,71.259,138000.0,138000.0
+amenity,place_of_worship,211,10.8875,21000.0,21000.0
+amenity,school,102,5.2632,10100.0,10100.0
+amenity,fuel,41,2.1156,4000.0,4000.0
+amenity,parking,38,1.9608,3700.0,3700.0
+amenity,restaurant,22,1.1352,2100.0,2100.0
+amenity,atm,20,1.032,1900.0,1900.0
+amenity,cafe,20,1.032,1900.0,1900.0
+amenity,food_court,15,0.774,1400.0,1400.0
+amenity,hospital,13,0.6708,1200.0,1200.0
+amenity,bank,10,0.516,900.0,900.0
+amenity,clinic,7,0.3612,600.0,600.0
+amenity,police,7,0.3612,600.0,600.0
+amenity,marketplace,6,0.3096,500.0,500.0
+amenity,post_office,6,0.3096,500.0,500.0
+amenity,university,6,0.3096,500.0,500.0
+amenity,fast_food,4,0.2064,300.0,300.0
+amenity,drinking_water,3,0.1548,200.0,200.0
+amenity,kindergarten,3,0.1548,200.0,200.0
+amenity,shelter,3,0.1548,200.0,200.0
+amenity,bus_station,2,0.1032,100.0,100.0
+amenity,library,2,0.1032,100.0,100.0
+amenity,prison,2,0.1032,100.0,100.0
+amenity,toilets,2,0.1032,100.0,100.0
+amenity,townhall,2,0.1032,100.0,100.0
+amenity,bar,1,0.0516,0.0,0.0
+amenity,bicycle_repair_station,1,0.0516,0.0,0.0
+amenity,charging_station,1,0.0516,0.0,0.0
+amenity,college,1,0.0516,0.0,0.0
+amenity,courthouse,1,0.0516,0.0,0.0
+amenity,dentist,1,0.0516,0.0,0.0
+amenity,fountain,1,0.0516,0.0,0.0
+amenity,payment_terminal,1,0.0516,0.0,0.0
+amenity,theatre,1,0.0516,0.0,0.0
+amenity,ticket_validator,1,0.0516,0.0,0.0
+building,yes,7649,92.0347,764800.0,764800.0
+building,storage_tank,176,2.1177,17500.0,17500.0
+building,apartments,145,1.7447,14400.0,14400.0
+building,mosque,116,1.3957,11500.0,11500.0
+building,school,67,0.8062,6600.0,6600.0
+building,roof,49,0.5896,4800.0,4800.0
+building,house,23,0.2767,2200.0,2200.0
+building,industrial,16,0.1925,1500.0,1500.0
+building,residential,10,0.1203,900.0,900.0
+building,university,10,0.1203,900.0,900.0
+building,construction,8,0.0963,700.0,700.0
+building,warehouse,7,0.0842,600.0,600.0
+building,commercial,6,0.0722,500.0,500.0
+building,civic,4,0.0481,300.0,300.0
+building,detached,4,0.0481,300.0,300.0
+building,greenhouse,4,0.0481,300.0,300.0
+building,hospital,3,0.0361,200.0,200.0
+building,retail,3,0.0361,200.0,200.0
+building,dam,2,0.0241,100.0,100.0
+building,dormitory,2,0.0241,100.0,100.0
+building,mall,2,0.0241,100.0,100.0
+building,bungalow,1,0.012,0.0,0.0
+building,guardhouse,1,0.012,0.0,0.0
+building,hotel,1,0.012,0.0,0.0
+building,no,1,0.012,0.0,0.0
+building,train_station,1,0.012,0.0,0.0
+emergency,yes,10,66.6667,900.0,900.0
+emergency,fire_lookout,3,20.0,200.0,200.0
+emergency,no,2,13.3333,100.0,100.0
+highway,residential,7777,51.1342,777600.0,777600.0
+highway,service,1601,10.5267,160000.0,160000.0
+highway,tertiary,1379,9.067,137800.0,137800.0
+highway,track,1287,8.4621,128600.0,128600.0
+highway,unclassified,1007,6.6211,100600.0,100600.0
+highway,secondary,649,4.2672,64800.0,64800.0
+highway,living_street,404,2.6563,40300.0,40300.0
+highway,trunk,269,1.7687,26800.0,26800.0
+highway,footway,264,1.7358,26300.0,26300.0
+highway,primary,153,1.006,15200.0,15200.0
+highway,trunk_link,109,0.7167,10800.0,10800.0
+highway,secondary_link,48,0.3156,4700.0,4700.0
+highway,motorway,38,0.2499,3700.0,3700.0
+highway,bus_stop,32,0.2104,3100.0,3100.0
+highway,construction,32,0.2104,3100.0,3100.0
+highway,primary_link,30,0.1973,2900.0,2900.0
+highway,pedestrian,29,0.1907,2800.0,2800.0
+highway,steps,23,0.1512,2200.0,2200.0
+highway,tertiary_link,19,0.1249,1800.0,1800.0
+highway,motorway_link,15,0.0986,1400.0,1400.0
+highway,motorway_junction,11,0.0723,1000.0,1000.0
+highway,path,7,0.046,600.0,600.0
+highway,crossing,6,0.0395,500.0,500.0
+highway,proposed,6,0.0395,500.0,500.0
+highway,unmaintained,6,0.0395,500.0,500.0
+highway,services,3,0.0197,200.0,200.0
+highway,road,2,0.0132,100.0,100.0
+highway,cycleway,1,0.0066,0.0,0.0
+highway,mini_roundabout,1,0.0066,0.0,0.0
+highway,rest_area,1,0.0066,0.0,0.0
+landuse,residential,599,55.3093,59800.0,59800.0
+landuse,orchard,103,9.5106,10200.0,10200.0
+landuse,cemetery,72,6.6482,7100.0,7100.0
+landuse,grass,70,6.4635,6900.0,6900.0
+landuse,industrial,62,5.7248,6100.0,6100.0
+landuse,farmland,50,4.6168,4900.0,4900.0
+landuse,forest,34,3.1394,3300.0,3300.0
+landuse,quarry,30,2.7701,2900.0,2900.0
+landuse,meadow,17,1.5697,1600.0,1600.0
+landuse,landfill,16,1.4774,1500.0,1500.0
+landuse,military,14,1.2927,1300.0,1300.0
+landuse,religious,7,0.6464,600.0,600.0
+landuse,railway,3,0.277,200.0,200.0
+landuse,construction,2,0.1847,100.0,100.0
+landuse,commercial,1,0.0923,0.0,0.0
+landuse,farmyard,1,0.0923,0.0,0.0
+landuse,greenhouse_horticulture,1,0.0923,0.0,0.0
+landuse,village_green,1,0.0923,0.0,0.0
+leisure,pitch,119,40.2027,11800.0,11800.0
+leisure,park,111,37.5,11000.0,11000.0
+leisure,swimming_pool,31,10.473,3000.0,3000.0
+leisure,playground,17,5.7432,1600.0,1600.0
+leisure,garden,5,1.6892,400.0,400.0
+leisure,stadium,5,1.6892,400.0,400.0
+leisure,nature_reserve,2,0.6757,100.0,100.0
+leisure,sports_centre,2,0.6757,100.0,100.0
+leisure,dance,1,0.3378,0.0,0.0
+leisure,fitness_centre,1,0.3378,0.0,0.0
+leisure,fitness_station,1,0.3378,0.0,0.0
+leisure,outdoor_seating,1,0.3378,0.0,0.0
+name,AFAD Zayıf Yer Hareketi İstasyonu,73,1.1471,7200.0,7200.0
+name,AFAD Kuvvetli Yer Hareketi İstasyonu,61,0.9585,6000.0,6000.0
+name,Limak Port İskenderun,32,0.5028,3100.0,3100.0
+name,Malatya Kuzey Çevreyolu,29,0.4557,2800.0,2800.0
+name,mahalle,29,0.4557,2800.0,2800.0
+name,Kuzey Çevre Yolu,27,0.4243,2600.0,2600.0
+name,Türkiye - Suriye تركيا - الحدود السورية,27,0.4243,2600.0,2600.0
+name,mezra,24,0.3771,2300.0,2300.0
+name,Adana-Şanlıurfa Otoyolu,22,0.3457,2100.0,2100.0
+name,Antakya-İskenderun yolu,22,0.3457,2100.0,2100.0
+name,Gaziantep - Kilis İl Sınırı,22,0.3457,2100.0,2100.0
+name,Adıyaman - Malatya İl Sınırı,21,0.33,2000.0,2000.0
+name,Bediüzzaman Bulvarı,21,0.33,2000.0,2000.0
+name,1. Cadde,20,0.3143,1900.0,1900.0
+name,Defne - Antakya ilçe sınırı,19,0.2986,1800.0,1800.0
+name,Rüzgâr Türbini,19,0.2986,1800.0,1800.0
+name,Gaziantep-Osmaniye yolu,17,0.2671,1600.0,1600.0
+name,Kahramanmaraş - Gaziantep İl Sınırı,15,0.2357,1400.0,1400.0
+name,Kahramanmaraş-Osmaniye yolu,15,0.2357,1400.0,1400.0
+name,Asi Nehri,14,0.22,1300.0,1300.0
+name,Karasu,14,0.22,1300.0,1300.0
+name,Göksu Çayı,13,0.2043,1200.0,1200.0
+name,Mustafa Yavuz,13,0.2043,1200.0,1200.0
+name,Turkey - سوريا,13,0.2043,1200.0,1200.0
+name,Hatay - Gaziantep İl Sınırı,12,0.1886,1100.0,1100.0
+name,Kilis-Gaziantep yolu,12,0.1886,1100.0,1100.0
+name,Kırıkhan-Reyhanlı yolu,12,0.1886,1100.0,1100.0
+name,Kahramanmaraş - Gaziantep yolu,11,0.1728,1000.0,1000.0
+name,Kahramanmaraş-Gaziantep yolu,11,0.1728,1000.0,1000.0
+name,RES,11,0.1728,1000.0,1000.0
+name,Taşlıca,11,0.1728,1000.0,1000.0
+name,Adana-Osmaniye yolu,10,0.1571,900.0,900.0
+name,Ali Ulvi Yetişen Bulvarı,10,0.1571,900.0,900.0
+name,Atatürk Caddesi,10,0.1571,900.0,900.0
+name,Başpınar,10,0.1571,900.0,900.0
+name,Dülük,10,0.1571,900.0,900.0
+name,Gaziantep,10,0.1571,900.0,900.0
+name,Gaziantep-Antakya yolu,10,0.1571,900.0,900.0
+name,Hayat Eczanesi,10,0.1571,900.0,900.0
+name,Toprakkale - Osmaniye merkez ilçe sınırı,10,0.1571,900.0,900.0
+name,Adıyaman-Gölbaşı yolu,9,0.1414,800.0,800.0
+name,Gaziantep Gar,9,0.1414,800.0,800.0
+name,Malatya-Kayseri yolu,9,0.1414,800.0,800.0
+name,Sağlık Eczanesi,9,0.1414,800.0,800.0
+name,Yeşilyurt,9,0.1414,800.0,800.0
+name,Çakallı,9,0.1414,800.0,800.0
+name,Çakmak,9,0.1414,800.0,800.0
+name,İskenderun-Arsuz yolu,9,0.1414,800.0,800.0
+name,Şifa Eczanesi,9,0.1414,800.0,800.0
+name,Fatih Eczanesi,8,0.1257,700.0,700.0
+name,Gaziantep-Adıyaman yolu,8,0.1257,700.0,700.0
+name,Mareşal Fevzi Çakmak Caddesi,8,0.1257,700.0,700.0
+name,Nurdağı - Musabeyli yolu,8,0.1257,700.0,700.0
+name,Sani Konukoğlu Bulvarı,8,0.1257,700.0,700.0
+name,Stadyum,8,0.1257,700.0,700.0
+name,Türkiye İş Bankası,8,0.1257,700.0,700.0
+name,543 Sokak,7,0.11,600.0,600.0
+name,Adıyaman-Gaziantep yolu,7,0.11,600.0,600.0
+name,Akkuyu,7,0.11,600.0,600.0
+name,Batı Çevre Yolu Bulvarı,7,0.11,600.0,600.0
+name,Ceyhan-İskenderun Otoyolu,7,0.11,600.0,600.0
+name,Cumhuriyet,7,0.11,600.0,600.0
+name,Deniz Eczanesi,7,0.11,600.0,600.0
+name,Deva Eczanesi,7,0.11,600.0,600.0
+name,Doğu Çevre Yolu Bulvarı,7,0.11,600.0,600.0
+name,Elif Eczanesi,7,0.11,600.0,600.0
+name,Gaziantep-Urfa yolu,7,0.11,600.0,600.0
+name,Göllüce,7,0.11,600.0,600.0
+name,Hatay - Osmaniye İl Sınırı,7,0.11,600.0,600.0
+name,Havaalanı yolu,7,0.11,600.0,600.0
+name,Mücahitler,7,0.11,600.0,600.0
+name,Osmaniye - Gaziantep İl Sınırı,7,0.11,600.0,600.0
+name,Pınarbaşı,7,0.11,600.0,600.0
+name,Turgut Özal Bulvarı,7,0.11,600.0,600.0
+name,Umut Eczanesi,7,0.11,600.0,600.0
+name,Zeynep Eczanesi,7,0.11,600.0,600.0
+name,704. Sk.,6,0.0943,500.0,500.0
+name,Adana-İskenderun yolu,6,0.0943,500.0,500.0
+name,Adıyaman - Kahramanmaraş İl Sınırı,6,0.0943,500.0,500.0
+name,Aktepe,6,0.0943,500.0,500.0
+name,Ataürk Caddesi,6,0.0943,500.0,500.0
+name,Beylerbeyi,6,0.0943,500.0,500.0
+name,Defne Eczanesi,6,0.0943,500.0,500.0
+name,Derman Eczanesi,6,0.0943,500.0,500.0
+name,Fıstıklık,6,0.0943,500.0,500.0
+name,Gaziantep Anatolian High School,6,0.0943,500.0,500.0
+name,Gaziantep Çevre Yolu,6,0.0943,500.0,500.0
+name,Hacılar,6,0.0943,500.0,500.0
+name,Hatay,6,0.0943,500.0,500.0
+name,Karaağaç,6,0.0943,500.0,500.0
+name,Naci Topçuoğlu,6,0.0943,500.0,500.0
+name,Nurdağı,6,0.0943,500.0,500.0
+name,Osmaniye - Kahramanmaraş İl Sınırı,6,0.0943,500.0,500.0
+name,Perre Antik Kent,6,0.0943,500.0,500.0
+name,Selimiye,6,0.0943,500.0,500.0
+name,Seyrantepe,6,0.0943,500.0,500.0
+name,Topraklık,6,0.0943,500.0,500.0
+name,Trabzon Bulvarı,6,0.0943,500.0,500.0
+name,Uğur Mumcu ALt Geçit,6,0.0943,500.0,500.0
+name,Yaylacık,6,0.0943,500.0,500.0
+name,Yaşam Eczanesi,6,0.0943,500.0,500.0
+name,Yeşilova,6,0.0943,500.0,500.0
+name,Yıldırım Eczanesi,6,0.0943,500.0,500.0
+name,yayla,6,0.0943,500.0,500.0
+name,Çınarlı,6,0.0943,500.0,500.0
+name,Özge Eczanesi,6,0.0943,500.0,500.0
+name,İnönü Mah.,6,0.0943,500.0,500.0
+name,749. Sk,5,0.0786,400.0,400.0
+name,A101,5,0.0786,400.0,400.0
+name,Adliye,5,0.0786,400.0,400.0
+name,Ali Sezai Bulvarı,5,0.0786,400.0,400.0
+name,Antakya,5,0.0786,400.0,400.0
+name,Bina,5,0.0786,400.0,400.0
+name,Bostancık,5,0.0786,400.0,400.0
+name,Can Eczanesi,5,0.0786,400.0,400.0
+name,Demir Kapı (Bab-ı Hadid),5,0.0786,400.0,400.0
+name,Eda Eczanesi,5,0.0786,400.0,400.0
+name,Fatih,5,0.0786,400.0,400.0
+name,Fatih Mah.,5,0.0786,400.0,400.0
+name,Güney Çevre Yolu Bulvarı,5,0.0786,400.0,400.0
+name,HES,5,0.0786,400.0,400.0
+name,HES Kanalı,5,0.0786,400.0,400.0
+name,Harb İş D Blok,5,0.0786,400.0,400.0
+name,Hürriyet,5,0.0786,400.0,400.0
+name,Isos Kemerleri,5,0.0786,400.0,400.0
+name,Karacaören,5,0.0786,400.0,400.0
+name,Kübra Eczanesi,5,0.0786,400.0,400.0
+name,OSB-4,5,0.0786,400.0,400.0
+name,Onbaşı Osman Caddesi,5,0.0786,400.0,400.0
+name,Opet Şehitkamil,5,0.0786,400.0,400.0
+name,Oğuzeli - Şahinbey ilçe sınırı,5,0.0786,400.0,400.0
+name,Senem Ayşe Caddesi,5,0.0786,400.0,400.0
+name,Taşpınar,5,0.0786,400.0,400.0
+name,Tramvay Hattı,5,0.0786,400.0,400.0
+name,Turunçlu,5,0.0786,400.0,400.0
+name,Vezir Hoca Bulvarı,5,0.0786,400.0,400.0
+name,Yarbaşı,5,0.0786,400.0,400.0
+name,Yasemin Eczanesi,5,0.0786,400.0,400.0
+name,Yeşiloba,5,0.0786,400.0,400.0
+name,Yeşilyurt - Çelikhan yolu,5,0.0786,400.0,400.0
+name,Yiğit Eczanesi,5,0.0786,400.0,400.0
+name,Çamlıca,5,0.0786,400.0,400.0
+name,Özlem Eczanesi,5,0.0786,400.0,400.0
+name,Şeref Eroğlu Caddesi,5,0.0786,400.0,400.0
+name,قطار برانت,5,0.0786,400.0,400.0
+name,Abdulkadir Aksu Bulvarı,4,0.0629,300.0,300.0
+name,Abdülkadir Yüksel,4,0.0629,300.0,300.0
+name,Adıyaman - Gaziantep İl Sınırı,4,0.0629,300.0,300.0
+name,Akpınar,4,0.0629,300.0,300.0
+name,Aksoy Eczanesi,4,0.0629,300.0,300.0
+name,Aksu,4,0.0629,300.0,300.0
+name,Altınözü - Antakya ilçe sınırı,4,0.0629,300.0,300.0
+name,Anafartalar Caddesi,4,0.0629,300.0,300.0
+name,Ardıl Deresi,4,0.0629,300.0,300.0
+name,Arzu Eczanesi,4,0.0629,300.0,300.0
+name,Assan Limanı,4,0.0629,300.0,300.0
+name,Atakaş Limanı,4,0.0629,300.0,300.0
+name,Aşağı Burunçayır,4,0.0629,300.0,300.0
+name,Bahçe,4,0.0629,300.0,300.0
+name,Beyhan Önal Caddesi,4,0.0629,300.0,300.0
+name,Bizim Eczanesi,4,0.0629,300.0,300.0
+name,Burcu Eczanesi,4,0.0629,300.0,300.0
+name,BİM,4,0.0629,300.0,300.0
+name,Ceren Eczanesi,4,0.0629,300.0,300.0
+name,Cumhuriyet Caddesi,4,0.0629,300.0,300.0
+name,Deveci Eczanesi,4,0.0629,300.0,300.0
+name,EFA Bilişim & Yazılım / Kahramanmaraş,4,0.0629,300.0,300.0
+name,Ebru Eczanesi,4,0.0629,300.0,300.0
+name,Erdem Eczanesi,4,0.0629,300.0,300.0
+name,Esra Eczanesi,4,0.0629,300.0,300.0
+name,Galalı Dere Caddesi,4,0.0629,300.0,300.0
+name,Gazi Muhtar Paşa Bulvarı,4,0.0629,300.0,300.0
+name,Gazi Osman Paşa Caddesi,4,0.0629,300.0,300.0
+name,Gölbaşı,4,0.0629,300.0,300.0
+name,Gözde Eczanesi,4,0.0629,300.0,300.0
+name,Gübretaş Limanı,4,0.0629,300.0,300.0
+name,Hacettepe Eczanesi,4,0.0629,300.0,300.0
+name,Hatay - Adana İl Sınırı,4,0.0629,300.0,300.0
+name,Haydar Aliyev Bulvarı,4,0.0629,300.0,300.0
+name,Hilal Eczanesi,4,0.0629,300.0,300.0
+name,Ihlamur Eczanesi,4,0.0629,300.0,300.0
+name,Kahraman Eczanesi,4,0.0629,300.0,300.0
+name,Kale,4,0.0629,300.0,300.0
+name,Karagöl,4,0.0629,300.0,300.0
+name,Karagöz Eczanesi,4,0.0629,300.0,300.0
+name,Kaya Eczanesi,4,0.0629,300.0,300.0
+name,Kocalar,4,0.0629,300.0,300.0
+name,Kumarlı,4,0.0629,300.0,300.0
+name,Kumlu - Kırıkhan ilçe sınırı,4,0.0629,300.0,300.0
+name,Kurt Modern Sitesi,4,0.0629,300.0,300.0
+name,Lokman Eczanesi,4,0.0629,300.0,300.0
+name,Malatya-Kahramanmaraş yolu,4,0.0629,300.0,300.0
+name,Malatya-Keban yolu,4,0.0629,300.0,300.0
+name,Mehmet Cevlani Önal Caddesi,4,0.0629,300.0,300.0
+name,Merkez Eczanesi,4,0.0629,300.0,300.0
+name,NEO FARM,4,0.0629,300.0,300.0
+name,OSB-3,4,0.0629,300.0,300.0
+name,Onur Eczanesi,4,0.0629,300.0,300.0
+name,Payas - İskenderun İlçe Sınırı,4,0.0629,300.0,300.0
+name,Pınarbaşı yolu,4,0.0629,300.0,300.0
+name,Sadabat Sitesi,4,0.0629,300.0,300.0
+name,Sarıkaya,4,0.0629,300.0,300.0
+name,Sarılar,4,0.0629,300.0,300.0
+name,Selin Eczanesi,4,0.0629,300.0,300.0
+name,Serintepe Mah.,4,0.0629,300.0,300.0
+name,Shell,4,0.0629,300.0,300.0
+name,Starbucks,4,0.0629,300.0,300.0
+name,Türkoğlu,4,0.0629,300.0,300.0
+name,Wall of Justinian,4,0.0629,300.0,300.0
+name,Yalankoz yolu,4,0.0629,300.0,300.0
+name,Yavuzeli,4,0.0629,300.0,300.0
+name,Yeniyapan,4,0.0629,300.0,300.0
+name,Yeşilkent Sitesi,4,0.0629,300.0,300.0
+name,Yılmaz Eczanesi,4,0.0629,300.0,300.0
+name,Çimenli,4,0.0629,300.0,300.0
+name,Çocuk Yuvası,4,0.0629,300.0,300.0
+name,Çınar Eczanesi,4,0.0629,300.0,300.0
+name,Öncel Eczanesi,4,0.0629,300.0,300.0
+name,Örenli,4,0.0629,300.0,300.0
+name,İbni Sina Eczanesi,4,0.0629,300.0,300.0
+name,İncirli,4,0.0629,300.0,300.0
+name,İskenderun,4,0.0629,300.0,300.0
+name,Şehit Binbaşı Oğuz Apanoğlu Kışlası,4,0.0629,300.0,300.0
+name,Şehitkamil - Şahinbey ilçe sınırı,4,0.0629,300.0,300.0
+name,1. Cd.,3,0.0471,200.0,200.0
+name,2. Cd.,3,0.0471,200.0,200.0
+name,216. Cadde,3,0.0471,200.0,200.0
+name,3. Çevre Yolu,3,0.0471,200.0,200.0
+name,31003. Sokak,3,0.0471,200.0,200.0
+name,338. Geçit,3,0.0471,200.0,200.0
+name,5008. Sokak,3,0.0471,200.0,200.0
+name,52063. Sokak,3,0.0471,200.0,200.0
+name,66012,3,0.0471,200.0,200.0
+name,66015,3,0.0471,200.0,200.0
+name,709. Sk.,3,0.0471,200.0,200.0
+name,73051. Sokak,3,0.0471,200.0,200.0
+name,735. Sk,3,0.0471,200.0,200.0
+name,77024,3,0.0471,200.0,200.0
+name,77029,3,0.0471,200.0,200.0
+name,Abdullah Edip Cd.,3,0.0471,200.0,200.0
+name,Adana - Hatay İl Sınırı,3,0.0471,200.0,200.0
+name,Adıyaman - Çelikhan yolu,3,0.0471,200.0,200.0
+name,Afrin,3,0.0471,200.0,200.0
+name,Ahmet Taner Kışlalı Caddesi,3,0.0471,200.0,200.0
+name,Akarca,3,0.0471,200.0,200.0
+name,Akasya Eczanesi,3,0.0471,200.0,200.0
+name,Akbayır,3,0.0471,200.0,200.0
+name,Akdeniz Eczanesi,3,0.0471,200.0,200.0
+name,Akyol Eczanesi,3,0.0471,200.0,200.0
+name,Altınüzüm,3,0.0471,200.0,200.0
+name,Anadolu Eczanesi,3,0.0471,200.0,200.0
+name,Anıl Eczanesi,3,0.0471,200.0,200.0
+name,Anıt Meydanı,3,0.0471,200.0,200.0
+name,Araban,3,0.0471,200.0,200.0
+name,Atakaş Geçiçi Depolama Sahası,3,0.0471,200.0,200.0
+name,Atatürk Bulvarı,3,0.0471,200.0,200.0
+name,Atatürk Mah.,3,0.0471,200.0,200.0
+name,Aydın Eczanesi,3,0.0471,200.0,200.0
+name,Bahadır Eczanesi,3,0.0471,200.0,200.0
+name,Bahar Eczanesi,3,0.0471,200.0,200.0
+name,Balcı Eczanesi,3,0.0471,200.0,200.0
+name,Ballıöz,3,0.0471,200.0,200.0
+name,Barış Eczanesi,3,0.0471,200.0,200.0
+name,Bağlarbaşı,3,0.0471,200.0,200.0
+name,Bağlarbaşı Caddesi,3,0.0471,200.0,200.0
+name,Belen,3,0.0471,200.0,200.0
+name,Besni yolu,3,0.0471,200.0,200.0
+name,Betül Eczanesi,3,0.0471,200.0,200.0
+name,Beyza Eczanesi,3,0.0471,200.0,200.0
+name,Birimşe Çayı,3,0.0471,200.0,200.0
+name,Border - Hatay (Turkey) - Syria,3,0.0471,200.0,200.0
+name,Bozdoğan Eczanesi,3,0.0471,200.0,200.0
+name,Bölükbaşı Eczanesi,3,0.0471,200.0,200.0
+name,Büyük Nacar,3,0.0471,200.0,200.0
+name,Ceyhun Eczanesi,3,0.0471,200.0,200.0
+name,Ceylan Eczanesi,3,0.0471,200.0,200.0
+name,Cumhuriyet Mah.,3,0.0471,200.0,200.0
+name,Demet Eczanesi,3,0.0471,200.0,200.0
+name,Dolice,3,0.0471,200.0,200.0
+name,Doruk Eczanesi,3,0.0471,200.0,200.0
+name,Duru Eczanesi,3,0.0471,200.0,200.0
+name,Dörtyol,3,0.0471,200.0,200.0
+name,Ekinci,3,0.0471,200.0,200.0
+name,Elmacık,3,0.0471,200.0,200.0
+name,Emek Eczanesi,3,0.0471,200.0,200.0
+name,Eylül Eczanesi,3,0.0471,200.0,200.0
+name,Eğitim Eczanesi,3,0.0471,200.0,200.0
+name,Fevzi Çakmak,3,0.0471,200.0,200.0
+name,Gamze Eczanesi,3,0.0471,200.0,200.0
+name,Gaziantep - Malatya yolu,3,0.0471,200.0,200.0
+name,Germanica,3,0.0471,200.0,200.0
+name,Göksun SKM - Atatürk HES TM EİH,3,0.0471,200.0,200.0
+name,Gökçe Eczanesi,3,0.0471,200.0,200.0
+name,Güllüce,3,0.0471,200.0,200.0
+name,Gülpınar,3,0.0471,200.0,200.0
+name,Gündüz Caddesi,3,0.0471,200.0,200.0
+name,Güner Eczanesi,3,0.0471,200.0,200.0
+name,Güzelköy,3,0.0471,200.0,200.0
+name,Halk Eczanesi,3,0.0471,200.0,200.0
+name,Harb İş C Blok,3,0.0471,200.0,200.0
+name,Harbiye Caddesi,3,0.0471,200.0,200.0
+name,Hasanbeyli - Bahçe ilçe sınırı,3,0.0471,200.0,200.0
+name,Hasanlı,3,0.0471,200.0,200.0
+name,Hassa,3,0.0471,200.0,200.0
+name,Hassa - Kırıkhan ilçe sınırı,3,0.0471,200.0,200.0
+name,Hatay Arkeoloji Müzesi,3,0.0471,200.0,200.0
+name,Hekim Eczanesi,3,0.0471,200.0,200.0
+name,Helete yolu,3,0.0471,200.0,200.0
+name,Hürriyet Mah.,3,0.0471,200.0,200.0
+name,Hüseyinli,3,0.0471,200.0,200.0
+name,Ilıcak,3,0.0471,200.0,200.0
+name,Karahüseyinli,3,0.0471,200.0,200.0
+name,Karapınar,3,0.0471,200.0,200.0
+name,Karataş,3,0.0471,200.0,200.0
+name,Karbeyaz,3,0.0471,200.0,200.0
+name,Kayabaşı,3,0.0471,200.0,200.0
+name,Kazım Karabekir Caddesi,3,0.0471,200.0,200.0
+name,Kent Eczanesi,3,0.0471,200.0,200.0
+name,Kilis-Antakya yolu,3,0.0471,200.0,200.0
+name,Koçcağız,3,0.0471,200.0,200.0
+name,Kuddusi Baba Bulvarı,3,0.0471,200.0,200.0
+name,Kumlu - Antakya ilçe sınırı,3,0.0471,200.0,200.0
+name,Kuzey Çevre Yolu İnşaatı,3,0.0471,200.0,200.0
+name,Köroğlu Eczanesi,3,0.0471,200.0,200.0
+name,Kızlaç Tüneli,3,0.0471,200.0,200.0
+name,Kışla,3,0.0471,200.0,200.0
+name,Kışla 150 nolu Sokak,3,0.0471,200.0,200.0
+name,Leyla Eczanesi,3,0.0471,200.0,200.0
+name,Melek Eczanesi,3,0.0471,200.0,200.0
+name,Merve Eczanesi,3,0.0471,200.0,200.0
+name,Millet Parkı,3,0.0471,200.0,200.0
+name,Mimar Sinan Mah.,3,0.0471,200.0,200.0
+name,Murat Eczanesi,3,0.0471,200.0,200.0
+name,Musabeyli - Polateli ilçe sınırı,3,0.0471,200.0,200.0
+name,Mustafa Or Caddesi,3,0.0471,200.0,200.0
+name,Narlıca,3,0.0471,200.0,200.0
+name,Nüfus Müdürlüğü,3,0.0471,200.0,200.0
+name,Onikişubat - Dulkadiroğlu İlçe Sınırı,3,0.0471,200.0,200.0
+name,Orhan Ekinci İskelesi,3,0.0471,200.0,200.0
+name,Osmaniye,3,0.0471,200.0,200.0
+name,PTT İskenderun Şubesi,3,0.0471,200.0,200.0
+name,Payamlı - Kındırali yolu,3,0.0471,200.0,200.0
+name,Payas,3,0.0471,200.0,200.0
+name,Pazarcık,3,0.0471,200.0,200.0
+name,Primemall AVM,3,0.0471,200.0,200.0
+name,Recep Tayyip Erdoğan Bulvarı,3,0.0471,200.0,200.0
+name,Reyhanlı - Kumlu ilçe sınırı,3,0.0471,200.0,200.0
+name,Soğukpınar,3,0.0471,200.0,200.0
+name,St.Pierre Kilisesi,3,0.0471,200.0,200.0
+name,Sular Mücevherat,3,0.0471,200.0,200.0
+name,Süleyman Göbel Sokağı,3,0.0471,200.0,200.0
+name,Sıhhat Eczanesi,3,0.0471,200.0,200.0
+name,Tandırcık,3,0.0471,200.0,200.0
+name,Tek Kampüs Okulları,3,0.0471,200.0,200.0
+name,Tepe,3,0.0471,200.0,200.0
+name,Tetirli,3,0.0471,200.0,200.0
+name,Tut,3,0.0471,200.0,200.0
+name,Tut - Adıyaman merkez ilçe sınırı,3,0.0471,200.0,200.0
+name,Yalankoz,3,0.0471,200.0,200.0
+name,Yazıbeydili,3,0.0471,200.0,200.0
+name,Yağmur Sitesi,3,0.0471,200.0,200.0
+name,Yelliburun,3,0.0471,200.0,200.0
+name,Yeni Mah.,3,0.0471,200.0,200.0
+name,Yeniköy,3,0.0471,200.0,200.0
+name,Yenimahalle,3,0.0471,200.0,200.0
+name,Yeniyurt,3,0.0471,200.0,200.0
+name,Yesemek yolu,3,0.0471,200.0,200.0
+name,Yeşilkent,3,0.0471,200.0,200.0
+name,Yeşilpınar,3,0.0471,200.0,200.0
+name,Yumaklıcerit,3,0.0471,200.0,200.0
+name,Zeytinlibel Caddesi,3,0.0471,200.0,200.0
+name,Ziyaret,3,0.0471,200.0,200.0
+name,köy yolu,3,0.0471,200.0,200.0
+name,sulama kanalı,3,0.0471,200.0,200.0
+name,yangın söndürme havuzu,3,0.0471,200.0,200.0
+name,Çağlalık Caddesi,3,0.0471,200.0,200.0
+name,Çağrı Eczanesi,3,0.0471,200.0,200.0
+name,Çelik,3,0.0471,200.0,200.0
+name,Çelikhan - Adıyaman merkez ilçe sınırı,3,0.0471,200.0,200.0
+name,Çelikhan - Sincik ilçe sınırı,3,0.0471,200.0,200.0
+name,Çerçili,3,0.0471,200.0,200.0
+name,Çiğdemtepe Halısahası,3,0.0471,200.0,200.0
+name,Çiğdemtepe İlköğretim Okulu,3,0.0471,200.0,200.0
+name,Özkan Eczanesi,3,0.0471,200.0,200.0
+name,Öztürk Eczanesi,3,0.0471,200.0,200.0
+name,İ. Sıtkı Kara Bulvarı,3,0.0471,200.0,200.0
+name,İskenderun Teknik Üniversitesi,3,0.0471,200.0,200.0
+name,İznik,3,0.0471,200.0,200.0
+name,Şahinbey,3,0.0471,200.0,200.0
+name,Şanlıurfa-Adıyaman yolu,3,0.0471,200.0,200.0
+name,Şehit Polis Mahmut Ava Sokağı,3,0.0471,200.0,200.0
+name,Şekere,3,0.0471,200.0,200.0
+name,1 Nolu Sağlık Ocağı,2,0.0314,100.0,100.0
+name,108. Sokak,2,0.0314,100.0,100.0
+name,115. Sokak,2,0.0314,100.0,100.0
+name,151 nolu Sokak,2,0.0314,100.0,100.0
+name,19. Cadde,2,0.0314,100.0,100.0
+name,28029,2,0.0314,100.0,100.0
+name,29002,2,0.0314,100.0,100.0
+name,2906. Sokak,2,0.0314,100.0,100.0
+name,3. Cd.,2,0.0314,100.0,100.0
+name,32 nolu Sokak,2,0.0314,100.0,100.0
+name,33 nolu Sokak,2,0.0314,100.0,100.0
+name,36 Nolu Sokak,2,0.0314,100.0,100.0
+name,37. Cadde,2,0.0314,100.0,100.0
+name,48 nolu Sokak,2,0.0314,100.0,100.0
+name,5 Temmuz Caddesi,2,0.0314,100.0,100.0
+name,5. Cadde,2,0.0314,100.0,100.0
+name,54 nolu Sokak,2,0.0314,100.0,100.0
+name,58 nolu Sokak,2,0.0314,100.0,100.0
+name,60008 Nolu Cadde,2,0.0314,100.0,100.0
+name,64005. Sokak,2,0.0314,100.0,100.0
+name,66009,2,0.0314,100.0,100.0
+name,66016,2,0.0314,100.0,100.0
+name,66017,2,0.0314,100.0,100.0
+name,7004. Sokak,2,0.0314,100.0,100.0
+name,73074. Sokak,2,0.0314,100.0,100.0
+name,739. Sk.,2,0.0314,100.0,100.0
+name,745. Sk.,2,0.0314,100.0,100.0
+name,801 nolu Sokak,2,0.0314,100.0,100.0
+name,898,2,0.0314,100.0,100.0
+name,9081. Cadde,2,0.0314,100.0,100.0
+name,ADİL KARAGÖZ ANADOLU LİSESİ,2,0.0314,100.0,100.0
+name,Abdullah,2,0.0314,100.0,100.0
+name,Abımıstık,2,0.0314,100.0,100.0
+name,Ada Eczanesi,2,0.0314,100.0,100.0
+name,Adana - Osmaniye İl Sınırı,2,0.0314,100.0,100.0
+name,Adnan Menderes Caddesi,2,0.0314,100.0,100.0
+name,Aile ve Sosyal Politikalar İl Müdürlüğü,2,0.0314,100.0,100.0
+name,Akbez,2,0.0314,100.0,100.0
+name,Akdağ Eczanesi,2,0.0314,100.0,100.0
+name,Akhisar,2,0.0314,100.0,100.0
+name,Akkartal Eczanesi,2,0.0314,100.0,100.0
+name,Akpınar Eczanesi,2,0.0314,100.0,100.0
+name,Aktaş,2,0.0314,100.0,100.0
+name,Aktaş Mah.,2,0.0314,100.0,100.0
+name,Aktoprak,2,0.0314,100.0,100.0
+name,Akçalar,2,0.0314,100.0,100.0
+name,Alaattin,2,0.0314,100.0,100.0
+name,Alahan,2,0.0314,100.0,100.0
+name,Alazı,2,0.0314,100.0,100.0
+name,Alev Eczanesi,2,0.0314,100.0,100.0
+name,Alibeyçağıllı,2,0.0314,100.0,100.0
+name,Alişar,2,0.0314,100.0,100.0
+name,Almanpınarı Yaylası,2,0.0314,100.0,100.0
+name,Alp Eczanesi,2,0.0314,100.0,100.0
+name,Alpet petrol,2,0.0314,100.0,100.0
+name,Altı Kapı,2,0.0314,100.0,100.0
+name,Altınova,2,0.0314,100.0,100.0
+name,Altınözü,2,0.0314,100.0,100.0
+name,Amanos Eczanesi,2,0.0314,100.0,100.0
+name,Anayazı,2,0.0314,100.0,100.0
+name,Ankara Eczanesi,2,0.0314,100.0,100.0
+name,Antakya - Kırıkhan ilçe sınırı,2,0.0314,100.0,100.0
+name,Armada Evleri 2,2,0.0314,100.0,100.0
+name,Armutlu,2,0.0314,100.0,100.0
+name,Askerhan,2,0.0314,100.0,100.0
+name,Aslan Eczanesi,2,0.0314,100.0,100.0
+name,Aslanlı,2,0.0314,100.0,100.0
+name,Atakaş Geçiçi Depolama Alanı,2,0.0314,100.0,100.0
+name,Atakaş Limanı Maden Depolama Alanı,2,0.0314,100.0,100.0
+name,Atalar,2,0.0314,100.0,100.0
+name,Ateş Eczanesi,2,0.0314,100.0,100.0
+name,Atmalı,2,0.0314,100.0,100.0
+name,Ay Eczanesi,2,0.0314,100.0,100.0
+name,Aydınlar,2,0.0314,100.0,100.0
+name,Aykut Eczanesi,2,0.0314,100.0,100.0
+name,Ayniye,2,0.0314,100.0,100.0
+name,Ayran Viyadüğü,2,0.0314,100.0,100.0
+name,Aysel Eczanesi,2,0.0314,100.0,100.0
+name,Azerbaycan Caddesi,2,0.0314,100.0,100.0
+name,Azganlık,2,0.0314,100.0,100.0
+name,Açelya Eczanesi,2,0.0314,100.0,100.0
+name,Aşağı Höçüklü,2,0.0314,100.0,100.0
+name,Aşağı Söğütlü,2,0.0314,100.0,100.0
+name,Aşkarbeyli,2,0.0314,100.0,100.0
+name,Bademli,2,0.0314,100.0,100.0
+name,Bahçe - Düziçi ilçe sınırı,2,0.0314,100.0,100.0
+name,Bahçelievler Mah.,2,0.0314,100.0,100.0
+name,Bahçeçiftliği,2,0.0314,100.0,100.0
+name,Bakras Mah.,2,0.0314,100.0,100.0
+name,Balka,2,0.0314,100.0,100.0
+name,Ballık,2,0.0314,100.0,100.0
+name,Balıkburun Mah.,2,0.0314,100.0,100.0
+name,Barbaros Mah.,2,0.0314,100.0,100.0
+name,Battalhüyük,2,0.0314,100.0,100.0
+name,Batıayrancı,2,0.0314,100.0,100.0
+name,Bağdınısağır,2,0.0314,100.0,100.0
+name,Bağlıca,2,0.0314,100.0,100.0
+name,Bağtepe,2,0.0314,100.0,100.0
+name,Başpınar Caddesi,2,0.0314,100.0,100.0
+name,Başpınar OSB,2,0.0314,100.0,100.0
+name,Bekbele,2,0.0314,100.0,100.0
+name,Bektaşoğlu,2,0.0314,100.0,100.0
+name,Belen - Antakya ilçe sınırı,2,0.0314,100.0,100.0
+name,Belen - Kırıkhan ilçe sınırı,2,0.0314,100.0,100.0
+name,Belenözü,2,0.0314,100.0,100.0
+name,Belören,2,0.0314,100.0,100.0
+name,Berke HES TM - İkizler TM EİH,2,0.0314,100.0,100.0
+name,Besni,2,0.0314,100.0,100.0
+name,Beydilli,2,0.0314,100.0,100.0
+name,Beyler Sokağı,2,0.0314,100.0,100.0
+name,Beylerbeyi Eczanesi,2,0.0314,100.0,100.0
+name,Beş Temmuz İlköğretim Okulu,2,0.0314,100.0,100.0
+name,Beşevler,2,0.0314,100.0,100.0
+name,Beşyol,2,0.0314,100.0,100.0
+name,Bilge Eczanesi,2,0.0314,100.0,100.0
+name,Bilge Nil Eczanesi,2,0.0314,100.0,100.0
+name,Binevler Mah.,2,0.0314,100.0,100.0
+name,Border - Gaziantep - Kilis,2,0.0314,100.0,100.0
+name,Border Fence Road,2,0.0314,100.0,100.0
+name,Boyluca,2,0.0314,100.0,100.0
+name,Bozali,2,0.0314,100.0,100.0
+name,Bozkaya,2,0.0314,100.0,100.0
+name,Boğaziçi,2,0.0314,100.0,100.0
+name,Boğaziçi Konutları,2,0.0314,100.0,100.0
+name,Bulanık,2,0.0314,100.0,100.0
+name,Bulvar Sitesi B Blok,2,0.0314,100.0,100.0
+name,Burgaç Eczanesi,2,0.0314,100.0,100.0
+name,Bölükçam,2,0.0314,100.0,100.0
+name,Büdeyri Ala cafe,2,0.0314,100.0,100.0
+name,Bülent Eczanesi,2,0.0314,100.0,100.0
+name,Büyükdalyan,2,0.0314,100.0,100.0
+name,Büyüktüysüz,2,0.0314,100.0,100.0
+name,Büşra Sarı Eczanesi,2,0.0314,100.0,100.0
+name,Cami Mah.,2,0.0314,100.0,100.0
+name,Camuşçu,2,0.0314,100.0,100.0
+name,Cansu Eczanesi,2,0.0314,100.0,100.0
+name,Cemil Eczanesi,2,0.0314,100.0,100.0
+name,Cendere Çayı,2,0.0314,100.0,100.0
+name,Cengiz Topel Cd.,2,0.0314,100.0,100.0
+name,Cerit,2,0.0314,100.0,100.0
+name,Church of Saint Peter,2,0.0314,100.0,100.0
+name,Cihan Eczanesi,2,0.0314,100.0,100.0
+name,Cingife,2,0.0314,100.0,100.0
+name,Cumali Işık Eczanesi,2,0.0314,100.0,100.0
+name,Cumhurriyet Mah.,2,0.0314,100.0,100.0
+name,Dalyan Eczanesi,2,0.0314,100.0,100.0
+name,Defne,2,0.0314,100.0,100.0
+name,Defne Kaymakamlığı,2,0.0314,100.0,100.0
+name,Deliçay,2,0.0314,100.0,100.0
+name,Demirbüker Eczanesi,2,0.0314,100.0,100.0
+name,Demirciler,2,0.0314,100.0,100.0
+name,Demiroğlu,2,0.0314,100.0,100.0
+name,Deniz Doğan Eczanesi,2,0.0314,100.0,100.0
+name,Denizciler,2,0.0314,100.0,100.0
+name,Dere,2,0.0314,100.0,100.0
+name,Derebahçe Mah.,2,0.0314,100.0,100.0
+name,Dereli,2,0.0314,100.0,100.0
+name,Derince,2,0.0314,100.0,100.0
+name,Değer Eczanesi,2,0.0314,100.0,100.0
+name,Değirmen Sokak,2,0.0314,100.0,100.0
+name,Değirmenyolu,2,0.0314,100.0,100.0
+name,Değirmitaş,2,0.0314,100.0,100.0
+name,Dikmece,2,0.0314,100.0,100.0
+name,Dilara Eczanesi,2,0.0314,100.0,100.0
+name,Dilek Eczanesi,2,0.0314,100.0,100.0
+name,Doğa Eczanesi,2,0.0314,100.0,100.0
+name,Doğan Eczanesi,2,0.0314,100.0,100.0
+name,Doğankaya,2,0.0314,100.0,100.0
+name,Doğankaya HES,2,0.0314,100.0,100.0
+name,Doğuş Eczanesi,2,0.0314,100.0,100.0
+name,Dr. Sait Bulvarı,2,0.0314,100.0,100.0
+name,Dumlupınar,2,0.0314,100.0,100.0
+name,Dumlupınar Mah.,2,0.0314,100.0,100.0
+name,Durmuşlar Eczanesi,2,0.0314,100.0,100.0
+name,Dursunlu,2,0.0314,100.0,100.0
+name,Dutlupınar,2,0.0314,100.0,100.0
+name,Dönmezoğlu A Tipi Gümrüklü Antrepo,2,0.0314,100.0,100.0
+name,Dörtevler,2,0.0314,100.0,100.0
+name,Düzce,2,0.0314,100.0,100.0
+name,Düziçi,2,0.0314,100.0,100.0
+name,Elif'in Eczanesi,2,0.0314,100.0,100.0
+name,Elizim baby & E26 Designer Store,2,0.0314,100.0,100.0
+name,Elçin Eczanesi,2,0.0314,100.0,100.0
+name,Emine Saadet Çarmıklı Ortaokulu,2,0.0314,100.0,100.0
+name,Emirhaydar,2,0.0314,100.0,100.0
+name,Emniyet Müdürlüğü,2,0.0314,100.0,100.0
+name,Emre Eczanesi,2,0.0314,100.0,100.0
+name,Epiphania theatre,2,0.0314,100.0,100.0
+name,Eray Eczanesi,2,0.0314,100.0,100.0
+name,Erdoğan Grup® - HATAY,2,0.0314,100.0,100.0
+name,Eren Eczanesi,2,0.0314,100.0,100.0
+name,Erkan Eczanesi,2,0.0314,100.0,100.0
+name,Ersin Eczanesi,2,0.0314,100.0,100.0
+name,Ertürk Eczanesi,2,0.0314,100.0,100.0
+name,Erzin,2,0.0314,100.0,100.0
+name,Esentepe,2,0.0314,100.0,100.0
+name,Esentepe Mah.,2,0.0314,100.0,100.0
+name,Eski Şarkaya,2,0.0314,100.0,100.0
+name,Ev,2,0.0314,100.0,100.0
+name,Evri,2,0.0314,100.0,100.0
+name,Eyyüp Sultan Eczanesi,2,0.0314,100.0,100.0
+name,Ezgi Uyar Eczanesi,2,0.0314,100.0,100.0
+name,Eğerli,2,0.0314,100.0,100.0
+name,Eğitimsen Adıyaman Şubesi,2,0.0314,100.0,100.0
+name,Eğlen,2,0.0314,100.0,100.0
+name,FORBEST,2,0.0314,100.0,100.0
+name,Fakılı Eczanesi,2,0.0314,100.0,100.0
+name,Fakıuşağı,2,0.0314,100.0,100.0
+name,Fatikli,2,0.0314,100.0,100.0
+name,Ferda Eczanesi,2,0.0314,100.0,100.0
+name,Fethiye,2,0.0314,100.0,100.0
+name,Fidan Eczanesi,2,0.0314,100.0,100.0
+name,Filiz Eczanesi,2,0.0314,100.0,100.0
+name,Fincan Eczanesi,2,0.0314,100.0,100.0
+name,Fırat Mah.,2,0.0314,100.0,100.0
+name,Garanti Bankası,2,0.0314,100.0,100.0
+name,Gazeluşağı,2,0.0314,100.0,100.0
+name,Gazi,2,0.0314,100.0,100.0
+name,Gazi Mah.,2,0.0314,100.0,100.0
+name,Gaziantep Kalesi,2,0.0314,100.0,100.0
+name,Gaziantep-2 TM - Atatürk HES TM EİH,2,0.0314,100.0,100.0
+name,Gazihan Caddesi,2,0.0314,100.0,100.0
+name,Gedikli,2,0.0314,100.0,100.0
+name,Gelgeç Eczanesi,2,0.0314,100.0,100.0
+name,Gençler,2,0.0314,100.0,100.0
+name,Gençobası,2,0.0314,100.0,100.0
+name,Gezginç Sitesi,2,0.0314,100.0,100.0
+name,Geçitli,2,0.0314,100.0,100.0
+name,Gökhan Eczanesi,2,0.0314,100.0,100.0
+name,Göklü Eczanesi,2,0.0314,100.0,100.0
+name,Göndürme,2,0.0314,100.0,100.0
+name,Görgülü Eczanesi,2,0.0314,100.0,100.0
+name,Görkem Apt.,2,0.0314,100.0,100.0
+name,Gözlügöl,2,0.0314,100.0,100.0
+name,Gözolar,2,0.0314,100.0,100.0
+name,Göçer,2,0.0314,100.0,100.0
+name,Göçmez,2,0.0314,100.0,100.0
+name,Gül Eczanesi,2,0.0314,100.0,100.0
+name,Güler Eczanesi,2,0.0314,100.0,100.0
+name,Güllühüyük,2,0.0314,100.0,100.0
+name,Gülova,2,0.0314,100.0,100.0
+name,Gülşah Eczanesi,2,0.0314,100.0,100.0
+name,Günal Eczanesi,2,0.0314,100.0,100.0
+name,Güneykent Mah.,2,0.0314,100.0,100.0
+name,Güneysöğüt,2,0.0314,100.0,100.0
+name,Güneş Eczanesi,2,0.0314,100.0,100.0
+name,Güneş Enerji Santrali,2,0.0314,100.0,100.0
+name,Güneş Sitesi İçi Yolu,2,0.0314,100.0,100.0
+name,Güneşli,2,0.0314,100.0,100.0
+name,Gürsel Eczanesi,2,0.0314,100.0,100.0
+name,Güven Eczanesi,2,0.0314,100.0,100.0
+name,Güzelburç,2,0.0314,100.0,100.0
+name,Güzelçay,2,0.0314,100.0,100.0
+name,Güzey,2,0.0314,100.0,100.0
+name,Habibi Neccar Dağı Doğa Koruma Alanı,2,0.0314,100.0,100.0
+name,Hacı Ali Özal Caddesi,2,0.0314,100.0,100.0
+name,Hacı Hasan Gezgin Cami,2,0.0314,100.0,100.0
+name,Hacıhalil,2,0.0314,100.0,100.0
+name,Hacılar Mah.,2,0.0314,100.0,100.0
+name,Hacımallı,2,0.0314,100.0,100.0
+name,Halatuto,2,0.0314,100.0,100.0
+name,Hamedoğlu Eczanesi,2,0.0314,100.0,100.0
+name,Hamidiye,2,0.0314,100.0,100.0
+name,Hamidiye Sitesi,2,0.0314,100.0,100.0
+name,Hamobası,2,0.0314,100.0,100.0
+name,Hancağız,2,0.0314,100.0,100.0
+name,Harabe,2,0.0314,100.0,100.0
+name,Harmancık,2,0.0314,100.0,100.0
+name,Harmanlı,2,0.0314,100.0,100.0
+name,Harmanlı yolu,2,0.0314,100.0,100.0
+name,Hasan Ekşi Eczanesi,2,0.0314,100.0,100.0
+name,Hasanbeyli,2,0.0314,100.0,100.0
+name,Hasankoca,2,0.0314,100.0,100.0
+name,Hassa - Dörtyol ilçe sınırı,2,0.0314,100.0,100.0
+name,Hassa - Payas ilçe sınırı,2,0.0314,100.0,100.0
+name,Hatay - سوريا,2,0.0314,100.0,100.0
+name,Hatay 112 Acil Çağrı Merkezi Müdürlüğü,2,0.0314,100.0,100.0
+name,Hatay Atatürk Stadyumu,2,0.0314,100.0,100.0
+name,Hatay Gökçe Eczanesi,2,0.0314,100.0,100.0
+name,Hatay İl Afet ve Acil Durum Müdürlüğü,2,0.0314,100.0,100.0
+name,Haydaran Kaya Mezarlan,2,0.0314,100.0,100.0
+name,Haydarlar,2,0.0314,100.0,100.0
+name,Haydolar,2,0.0314,100.0,100.0
+name,Hazal Eczanesi,2,0.0314,100.0,100.0
+name,Hazal Tultak Eczanesi,2,0.0314,100.0,100.0
+name,Hazreti Ukkaşe Türbesi,2,0.0314,100.0,100.0
+name,Helete,2,0.0314,100.0,100.0
+name,Helete Yolu,2,0.0314,100.0,100.0
+name,Hisar,2,0.0314,100.0,100.0
+name,Hökkeşler,2,0.0314,100.0,100.0
+name,Hörük,2,0.0314,100.0,100.0
+name,Hükümet Caddesi,2,0.0314,100.0,100.0
+name,Işıklı,2,0.0314,100.0,100.0
+name,Jandarma,2,0.0314,100.0,100.0
+name,Kabaklar,2,0.0314,100.0,100.0
+name,Kahramanmaraş,2,0.0314,100.0,100.0
+name,Kahve Dünyası,2,0.0314,100.0,100.0
+name,Kalecik,2,0.0314,100.0,100.0
+name,Kalecik Deresi,2,0.0314,100.0,100.0
+name,Kalemkas,2,0.0314,100.0,100.0
+name,Kaletepe,2,0.0314,100.0,100.0
+name,Kalyon Stadyumu,2,0.0314,100.0,100.0
+name,Kanarya Parkı,2,0.0314,100.0,100.0
+name,Karaağaç Cumhuriyet Mah.,2,0.0314,100.0,100.0
+name,Karaağaç Konarlı Mah.,2,0.0314,100.0,100.0
+name,Karaağaç Övündük Mah.,2,0.0314,100.0,100.0
+name,Karaağaç Şarkonak Mah.,2,0.0314,100.0,100.0
+name,Karabey,2,0.0314,100.0,100.0
+name,Karaburun,2,0.0314,100.0,100.0
+name,Karaburç,2,0.0314,100.0,100.0
+name,Karacaahmet Deniz Eczanesi,2,0.0314,100.0,100.0
+name,Karacaoğlan Mah.,2,0.0314,100.0,100.0
+name,Karaelmaslı,2,0.0314,100.0,100.0
+name,Karahalil,2,0.0314,100.0,100.0
+name,Karahan,2,0.0314,100.0,100.0
+name,Karahaso,2,0.0314,100.0,100.0
+name,Karahöyük,2,0.0314,100.0,100.0
+name,Karahüyük,2,0.0314,100.0,100.0
+name,Karakesek,2,0.0314,100.0,100.0
+name,Karakeçi,2,0.0314,100.0,100.0
+name,Karakuyu,2,0.0314,100.0,100.0
+name,Karalar,2,0.0314,100.0,100.0
+name,Karamankaşı,2,0.0314,100.0,100.0
+name,Karamağara,2,0.0314,100.0,100.0
+name,Karanfil Eczanesi,2,0.0314,100.0,100.0
+name,Karasu Köprüsü,2,0.0314,100.0,100.0
+name,Karataş - Kumarlı mahalle sınırı,2,0.0314,100.0,100.0
+name,Karayılan,2,0.0314,100.0,100.0
+name,Karaçarlı,2,0.0314,100.0,100.0
+name,Kavaklıoluk,2,0.0314,100.0,100.0
+name,Kaya Mah.,2,0.0314,100.0,100.0
+name,Kazaz Eczanesi,2,0.0314,100.0,100.0
+name,Keralmaz,2,0.0314,100.0,100.0
+name,Kerem Eczanesi,2,0.0314,100.0,100.0
+name,Kesmetepe,2,0.0314,100.0,100.0
+name,Kevser Eczanesi,2,0.0314,100.0,100.0
+name,Keçibaş,2,0.0314,100.0,100.0
+name,Keşifli,2,0.0314,100.0,100.0
+name,Keşrobası,2,0.0314,100.0,100.0
+name,Kizirli,2,0.0314,100.0,100.0
+name,Kobaner Eczanesi,2,0.0314,100.0,100.0
+name,Kocapirli,2,0.0314,100.0,100.0
+name,Konak,2,0.0314,100.0,100.0
+name,Korucak,2,0.0314,100.0,100.0
+name,Koçak Eczanesi,2,0.0314,100.0,100.0
+name,Koçören,2,0.0314,100.0,100.0
+name,Kumarlı 993 nolu Sokak,2,0.0314,100.0,100.0
+name,Kumarlı 996 nolu Sokak,2,0.0314,100.0,100.0
+name,Kurtulan Eczanesi,2,0.0314,100.0,100.0
+name,Kurtuluş Camii,2,0.0314,100.0,100.0
+name,Kurtuluş Eczanesi,2,0.0314,100.0,100.0
+name,Kurudere,2,0.0314,100.0,100.0
+name,Kurudere Mah.,2,0.0314,100.0,100.0
+name,Kuruyer,2,0.0314,100.0,100.0
+name,Kurşun Eczanesi,2,0.0314,100.0,100.0
+name,Kuveyt Türk,2,0.0314,100.0,100.0
+name,Kuyucak,2,0.0314,100.0,100.0
+name,Kuyuluk,2,0.0314,100.0,100.0
+name,Kuzeytepe,2,0.0314,100.0,100.0
+name,Kuzuini,2,0.0314,100.0,100.0
+name,Kuşoğlu,2,0.0314,100.0,100.0
+name,Köklü,2,0.0314,100.0,100.0
+name,Köklüce,2,0.0314,100.0,100.0
+name,Kömeçler,2,0.0314,100.0,100.0
+name,Kömür,2,0.0314,100.0,100.0
+name,Kömür Camii,2,0.0314,100.0,100.0
+name,Körahmethüyüğü,2,0.0314,100.0,100.0
+name,Körkuyu,2,0.0314,100.0,100.0
+name,Körtanlı,2,0.0314,100.0,100.0
+name,Köşk,2,0.0314,100.0,100.0
+name,Küllü,2,0.0314,100.0,100.0
+name,Kültür Eczanesi,2,0.0314,100.0,100.0
+name,Künesler,2,0.0314,100.0,100.0
+name,Küreci,2,0.0314,100.0,100.0
+name,Küçükdalyan,2,0.0314,100.0,100.0
+name,Küçüklü,2,0.0314,100.0,100.0
+name,Kılıç Eczanesi,2,0.0314,100.0,100.0
+name,Kınık Sokağı,2,0.0314,100.0,100.0
+name,Kırkağaç,2,0.0314,100.0,100.0
+name,Kırkpınar,2,0.0314,100.0,100.0
+name,Kırıkhan,2,0.0314,100.0,100.0
+name,Kırıklı,2,0.0314,100.0,100.0
+name,Kızılcamustafa,2,0.0314,100.0,100.0
+name,Kışla - Dağıstan mahalle sınırı,2,0.0314,100.0,100.0
+name,Kışla - Kumarlı mahalle sınırı,2,0.0314,100.0,100.0
+name,Kışla 136 nolu Sokak,2,0.0314,100.0,100.0
+name,Kışla 148 nolu Sokak,2,0.0314,100.0,100.0
+name,Kışla 151 nolu Sokak,2,0.0314,100.0,100.0
+name,Kışla Sokağı,2,0.0314,100.0,100.0
+name,Levzin,2,0.0314,100.0,100.0
+name,Lise Caddesi,2,0.0314,100.0,100.0
+name,Liva Eczanesi,2,0.0314,100.0,100.0
+name,M. Kemal Duduoğlu Bulvarı,2,0.0314,100.0,100.0
+name,Mahmutlu,2,0.0314,100.0,100.0
+name,Malatya-Gaziantep yolu,2,0.0314,100.0,100.0
+name,Malik Ejder Caddesi,2,0.0314,100.0,100.0
+name,Maraş Modern Konutları,2,0.0314,100.0,100.0
+name,Mavi Eczanesi,2,0.0314,100.0,100.0
+name,Mağara,2,0.0314,100.0,100.0
+name,Maşuklu,2,0.0314,100.0,100.0
+name,Medical Park Hastanesi,2,0.0314,100.0,100.0
+name,Mehmet Çıtrık Caddesi,2,0.0314,100.0,100.0
+name,Melike Eczanesi,2,0.0314,100.0,100.0
+name,Meltem Eczanesi,2,0.0314,100.0,100.0
+name,Memişkahya,2,0.0314,100.0,100.0
+name,Menekşe Sokağı,2,0.0314,100.0,100.0
+name,Menel Eczanesi,2,0.0314,100.0,100.0
+name,Mercan Eczanesi,2,0.0314,100.0,100.0
+name,Mercin Nehri,2,0.0314,100.0,100.0
+name,Merveşehir Eczanesi,2,0.0314,100.0,100.0
+name,Mete Aslan Bulvarı,2,0.0314,100.0,100.0
+name,Meydancık,2,0.0314,100.0,100.0
+name,Migros,2,0.0314,100.0,100.0
+name,Milli Egemenlik Caddesi,2,0.0314,100.0,100.0
+name,Mine Eczanesi,2,0.0314,100.0,100.0
+name,Miray Eczanesi,2,0.0314,100.0,100.0
+name,Mithatpaşa Caddesi,2,0.0314,100.0,100.0
+name,Morcalı,2,0.0314,100.0,100.0
+name,Muhlisali Mah.,2,0.0314,100.0,100.0
+name,Mullaarap,2,0.0314,100.0,100.0
+name,Muratlı,2,0.0314,100.0,100.0
+name,Muratpaşa,2,0.0314,100.0,100.0
+name,Muratpaşa Köprüsü,2,0.0314,100.0,100.0
+name,Musabeyli,2,0.0314,100.0,100.0
+name,Musabeyli yolu,2,0.0314,100.0,100.0
+name,Müge Eczanesi,2,0.0314,100.0,100.0
+name,Müklüme Hatun Lisesi Pansiyonu,2,0.0314,100.0,100.0
+name,Nadide Eczanesi,2,0.0314,100.0,100.0
+name,Naimler,2,0.0314,100.0,100.0
+name,Namık Kemal Caddesi,2,0.0314,100.0,100.0
+name,Namık Kemal Ortaokulu,2,0.0314,100.0,100.0
+name,Nardüzü,2,0.0314,100.0,100.0
+name,Nardüzü Eczanesi,2,0.0314,100.0,100.0
+name,Narlı,2,0.0314,100.0,100.0
+name,Nasırlı,2,0.0314,100.0,100.0
+name,Nohudanlı,2,0.0314,100.0,100.0
+name,Nufüs ve Vatandaşlık İşleri Genel Müdürlüğü,2,0.0314,100.0,100.0
+name,Nurdağı Eczanesi,2,0.0314,100.0,100.0
+name,Nükhet Celal Ersoy Caddesi,2,0.0314,100.0,100.0
+name,Ocak Eczanesi,2,0.0314,100.0,100.0
+name,Ocaklı,2,0.0314,100.0,100.0
+name,Odabaşı,2,0.0314,100.0,100.0
+name,"Odabaşı, Sanayi Sitesi 10. Cadde",2,0.0314,100.0,100.0
+name,Okan Eczanesi,2,0.0314,100.0,100.0
+name,Oktayer Eczanesi,2,0.0314,100.0,100.0
+name,Okumuş Eczanesi,2,0.0314,100.0,100.0
+name,Okyanus Eczanesi,2,0.0314,100.0,100.0
+name,Olucak,2,0.0314,100.0,100.0
+name,Onikişubat Parkı,2,0.0314,100.0,100.0
+name,Orhanlı,2,0.0314,100.0,100.0
+name,Ortaklı,2,0.0314,100.0,100.0
+name,Ortayol Caddesi,2,0.0314,100.0,100.0
+name,Oruçpınar,2,0.0314,100.0,100.0
+name,Osmaniye Caddesi,2,0.0314,100.0,100.0
+name,Osmanlı Çarıkları,2,0.0314,100.0,100.0
+name,Ovalı Eczanesi,2,0.0314,100.0,100.0
+name,Oğuzeli,2,0.0314,100.0,100.0
+name,Oğuzlar,2,0.0314,100.0,100.0
+name,Pamuk Eczanesi,2,0.0314,100.0,100.0
+name,Pamuklu,2,0.0314,100.0,100.0
+name,Park,2,0.0314,100.0,100.0
+name,Payamlı,2,0.0314,100.0,100.0
+name,Payamlı - Karagöl yolu,2,0.0314,100.0,100.0
+name,Paşaköy,2,0.0314,100.0,100.0
+name,Petrol Ofisi,2,0.0314,100.0,100.0
+name,Pirinçlik,2,0.0314,100.0,100.0
+name,Polateli,2,0.0314,100.0,100.0
+name,Polateli yolu,2,0.0314,100.0,100.0
+name,Pınar Eczanesi,2,0.0314,100.0,100.0
+name,Pınaryayla,2,0.0314,100.0,100.0
+name,QNB Finansbank,2,0.0314,100.0,100.0
+name,Reşadiye,2,0.0314,100.0,100.0
+name,Reşat eczanesi,2,0.0314,100.0,100.0
+name,Ruined Arch,2,0.0314,100.0,100.0
+name,Rüya Eczanesi,2,0.0314,100.0,100.0
+name,Sadakalar,2,0.0314,100.0,100.0
+name,Sakızlıhüyük,2,0.0314,100.0,100.0
+name,Salah,2,0.0314,100.0,100.0
+name,Sallıuşağı,2,0.0314,100.0,100.0
+name,Saraycık,2,0.0314,100.0,100.0
+name,Saraymağara,2,0.0314,100.0,100.0
+name,Saraç Eczanesi,2,0.0314,100.0,100.0
+name,Sarpkaya Eczanesi,2,0.0314,100.0,100.0
+name,Sarıbuğday,2,0.0314,100.0,100.0
+name,Sarıl,2,0.0314,100.0,100.0
+name,Sarımazı Mah.,2,0.0314,100.0,100.0
+name,Sarıseki,2,0.0314,100.0,100.0
+name,Sarıçiçek,2,0.0314,100.0,100.0
+name,Satıluşağı,2,0.0314,100.0,100.0
+name,Saygılı Eczanesi,2,0.0314,100.0,100.0
+name,Sayhüyüğü,2,0.0314,100.0,100.0
+name,Selim Eczanesi,2,0.0314,100.0,100.0
+name,Selinay Eczanesi,2,0.0314,100.0,100.0
+name,Selçuk Eczanesi,2,0.0314,100.0,100.0
+name,Semih Eczanesi,2,0.0314,100.0,100.0
+name,Sendioğlu Eczanesi,2,0.0314,100.0,100.0
+name,Serdar Eczanesi,2,0.0314,100.0,100.0
+name,Serinyol,2,0.0314,100.0,100.0
+name,Sevda Eczanesi,2,0.0314,100.0,100.0
+name,Sevgi Yarım Eczanesi,2,0.0314,100.0,100.0
+name,Sevinç Eczanesi,2,0.0314,100.0,100.0
+name,Seyrantepe Korkmaz Eczanesi,2,0.0314,100.0,100.0
+name,Simay Taner Eczanesi,2,0.0314,100.0,100.0
+name,Sincik - Adıyaman merkez ilçe sınırı,2,0.0314,100.0,100.0
+name,Sinem Eczanesi,2,0.0314,100.0,100.0
+name,Soku,2,0.0314,100.0,100.0
+name,Solmaz Eczanesi,2,0.0314,100.0,100.0
+name,Songü Eczanesi,2,0.0314,100.0,100.0
+name,Sorkun,2,0.0314,100.0,100.0
+name,Su Deposu,2,0.0314,100.0,100.0
+name,Su Eczanesi,2,0.0314,100.0,100.0
+name,Subaşı,2,0.0314,100.0,100.0
+name,Sugözü,2,0.0314,100.0,100.0
+name,Sultan Selim,2,0.0314,100.0,100.0
+name,Söğütlü,2,0.0314,100.0,100.0
+name,Söğütlüöz,2,0.0314,100.0,100.0
+name,Süleyman Şah Anadolu Lisesi,2,0.0314,100.0,100.0
+name,Süleyman Şah Caddesi,2,0.0314,100.0,100.0
+name,Süleymanobası,2,0.0314,100.0,100.0
+name,Sümbüllü Caddesi,2,0.0314,100.0,100.0
+name,Sürer Eczanesi,2,0.0314,100.0,100.0
+name,Tabakhane Vahdet Eczanesi,2,0.0314,100.0,100.0
+name,Tavla,2,0.0314,100.0,100.0
+name,Tavşan Tepe Mah.,2,0.0314,100.0,100.0
+name,Taş Eczanesi,2,0.0314,100.0,100.0
+name,Taşbiçme,2,0.0314,100.0,100.0
+name,Taşdeğirmen,2,0.0314,100.0,100.0
+name,Taşkın Eczanesi,2,0.0314,100.0,100.0
+name,Taşlıalan,2,0.0314,100.0,100.0
+name,Tekke Caddesi,2,0.0314,100.0,100.0
+name,Temizkan Eczanesi,2,0.0314,100.0,100.0
+name,Tepebaşı,2,0.0314,100.0,100.0
+name,Tetirlik,2,0.0314,100.0,100.0
+name,Tilkiler,2,0.0314,100.0,100.0
+name,Tinyan,2,0.0314,100.0,100.0
+name,Tokar,2,0.0314,100.0,100.0
+name,Tokaçlı,2,0.0314,100.0,100.0
+name,Topboğazı,2,0.0314,100.0,100.0
+name,Toprakhisar,2,0.0314,100.0,100.0
+name,Toprakkale Eczanesi,2,0.0314,100.0,100.0
+name,Toprakkale Entegre İlçe Hastanesi,2,0.0314,100.0,100.0
+name,Toprakkale Sokağı,2,0.0314,100.0,100.0
+name,Topçu Bayırı Bulvarı,2,0.0314,100.0,100.0
+name,Toy Eczanesi,2,0.0314,100.0,100.0
+name,Toygarlı,2,0.0314,100.0,100.0
+name,Tozolar,2,0.0314,100.0,100.0
+name,Tuba Eczanesi,2,0.0314,100.0,100.0
+name,Tuna Eczanesi,2,0.0314,100.0,100.0
+name,Tutar Eczanesi,2,0.0314,100.0,100.0
+name,Tuğrul Eczanesi,2,0.0314,100.0,100.0
+name,Tuğçe Eczanesi,2,0.0314,100.0,100.0
+name,Tünaydın,2,0.0314,100.0,100.0
+name,Türker Eczanesi,2,0.0314,100.0,100.0
+name,Ulubahçe,2,0.0314,100.0,100.0
+name,Uyduranlar Sokağı,2,0.0314,100.0,100.0
+name,Uygun Market,2,0.0314,100.0,100.0
+name,Uzunkavak,2,0.0314,100.0,100.0
+name,Uğur Eczanesi,2,0.0314,100.0,100.0
+name,Uğur Evler Site İçi Yolu,2,0.0314,100.0,100.0
+name,Uğur Mumcu Caddesi,2,0.0314,100.0,100.0
+name,Uğurlu,2,0.0314,100.0,100.0
+name,Uğurtepe,2,0.0314,100.0,100.0
+name,Vali Halil Işık Caddesi,2,0.0314,100.0,100.0
+name,Vartana,2,0.0314,100.0,100.0
+name,Velikler,2,0.0314,100.0,100.0
+name,Vita Eczanesi,2,0.0314,100.0,100.0
+name,Vitamin Eczanesi,2,0.0314,100.0,100.0
+name,YAVUZ SULTAN SELİM MESLEK LİSESİ,2,0.0314,100.0,100.0
+name,Yahya Kurtulan Eczanesi,2,0.0314,100.0,100.0
+name,Yakuplu,2,0.0314,100.0,100.0
+name,Yalkın Eczanesi,2,0.0314,100.0,100.0
+name,Yasin Eczanesi,2,0.0314,100.0,100.0
+name,Yatağan,2,0.0314,100.0,100.0
+name,Yavuz Eczanesi,2,0.0314,100.0,100.0
+name,Yavuz Sultan Selim Caddesi,2,0.0314,100.0,100.0
+name,Yayladağı - Antakya ilçe sınırı,2,0.0314,100.0,100.0
+name,Yazıkarakuyu,2,0.0314,100.0,100.0
+name,Yazıyalangoz,2,0.0314,100.0,100.0
+name,Yağdöver,2,0.0314,100.0,100.0
+name,Yaşar Eczanesi,2,0.0314,100.0,100.0
+name,Yelken Sk.,2,0.0314,100.0,100.0
+name,Yemlice,2,0.0314,100.0,100.0
+name,Yener Eczanesi,2,0.0314,100.0,100.0
+name,Yeni Arıl Eczanesi,2,0.0314,100.0,100.0
+name,Yeni Pazar Eczanesi,2,0.0314,100.0,100.0
+name,Yeni Sağlık Eczanesi,2,0.0314,100.0,100.0
+name,Yeni Çıksorut Eczanesi,2,0.0314,100.0,100.0
+name,Yeşildağ Eczanesi,2,0.0314,100.0,100.0
+name,Yeşilköy,2,0.0314,100.0,100.0
+name,Yeşilova Eczanesi,2,0.0314,100.0,100.0
+name,Yeşiltepe,2,0.0314,100.0,100.0
+name,Yolbağı,2,0.0314,100.0,100.0
+name,Yolboyu,2,0.0314,100.0,100.0
+name,Yoluklar,2,0.0314,100.0,100.0
+name,Yolveren,2,0.0314,100.0,100.0
+name,Yonca Eczanesi,2,0.0314,100.0,100.0
+name,Yukarı Burnaz,2,0.0314,100.0,100.0
+name,Yukarı Karafakılı,2,0.0314,100.0,100.0
+name,Yukarı Koçören,2,0.0314,100.0,100.0
+name,Yukarı Söğütlü,2,0.0314,100.0,100.0
+name,Yukarımülk,2,0.0314,100.0,100.0
+name,Yunus Eczanesi,2,0.0314,100.0,100.0
+name,Yunus Emre Caddesi,2,0.0314,100.0,100.0
+name,Yunus Emre Eczanesi,2,0.0314,100.0,100.0
+name,Yunus Emre Mah.,2,0.0314,100.0,100.0
+name,Yöreli,2,0.0314,100.0,100.0
+name,Yücel Eczanesi,2,0.0314,100.0,100.0
+name,Yüksel Eczanesi,2,0.0314,100.0,100.0
+name,Yıkıcak,2,0.0314,100.0,100.0
+name,Zeynep Erdem Eczanesi,2,0.0314,100.0,100.0
+name,Zeytinoba,2,0.0314,100.0,100.0
+name,Ziraat Bankası,2,0.0314,100.0,100.0
+name,Zorkun Caddesi,2,0.0314,100.0,100.0
+name,Zorkun Eczanesi,2,0.0314,100.0,100.0
+name,Zülüflühan,2,0.0314,100.0,100.0
+name,ev,2,0.0314,100.0,100.0
+name,ibrahimli Erikçe,2,0.0314,100.0,100.0
+name,istasyon Özsöyler Eczanesi,2,0.0314,100.0,100.0
+name,merkez camii,2,0.0314,100.0,100.0
+name,Çakmak Mah.,2,0.0314,100.0,100.0
+name,Çakırhüyük yolu,2,0.0314,100.0,100.0
+name,Çamlık Mah.,2,0.0314,100.0,100.0
+name,Çamlıkevler,2,0.0314,100.0,100.0
+name,Çamlıkevler - Kumarlı mahalle sınırı,2,0.0314,100.0,100.0
+name,Çamlıkevler - Kışla mahalle sınırı,2,0.0314,100.0,100.0
+name,Çamlıkevler 72 nolu Sokak,2,0.0314,100.0,100.0
+name,Çamlıyayla Mah.,2,0.0314,100.0,100.0
+name,Çampınar,2,0.0314,100.0,100.0
+name,Çardak,2,0.0314,100.0,100.0
+name,Çare Eczanesi,2,0.0314,100.0,100.0
+name,Çat,2,0.0314,100.0,100.0
+name,Çatalağaç,2,0.0314,100.0,100.0
+name,Çatalhöyük,2,0.0314,100.0,100.0
+name,Çatallar,2,0.0314,100.0,100.0
+name,Çataltepe,2,0.0314,100.0,100.0
+name,Çavuş Eczanesi,2,0.0314,100.0,100.0
+name,Çay Eczanesi,2,0.0314,100.0,100.0
+name,Çaybaşı OSB,2,0.0314,100.0,100.0
+name,Çaylı,2,0.0314,100.0,100.0
+name,Çağla Eczanesi,2,0.0314,100.0,100.0
+name,Çağlalık,2,0.0314,100.0,100.0
+name,Çağlar Eczanesi,2,0.0314,100.0,100.0
+name,Çağlayan Eczanesi,2,0.0314,100.0,100.0
+name,Çağlayancerit - Kahramanmaraş yolu,2,0.0314,100.0,100.0
+name,Çekmece,2,0.0314,100.0,100.0
+name,Çelikhan,2,0.0314,100.0,100.0
+name,Çevreli,2,0.0314,100.0,100.0
+name,Çiftlik Sokağı,2,0.0314,100.0,100.0
+name,Çiltoprak,2,0.0314,100.0,100.0
+name,Çiçek,2,0.0314,100.0,100.0
+name,Çiçek Eczanesi,2,0.0314,100.0,100.0
+name,Çiğdem Eczanesi,2,0.0314,100.0,100.0
+name,Çiğdemtepe,2,0.0314,100.0,100.0
+name,Çiğdemtepe Mahalle Konağı ve Muhtarlık Ofisi,2,0.0314,100.0,100.0
+name,Çocuk Parkı,2,0.0314,100.0,100.0
+name,Çolakoğlu Eczanesi,2,0.0314,100.0,100.0
+name,Çökek,2,0.0314,100.0,100.0
+name,Çıksorut Girne Eczanesi,2,0.0314,100.0,100.0
+name,Çıksorut Göllüce Eczanesi,2,0.0314,100.0,100.0
+name,Çınar Caddesi,2,0.0314,100.0,100.0
+name,Öcal Eczanesi,2,0.0314,100.0,100.0
+name,Ömer Arslan Eczanesi,2,0.0314,100.0,100.0
+name,Ömür Eczanesi,2,0.0314,100.0,100.0
+name,Önder Eczanesi,2,0.0314,100.0,100.0
+name,Örtülü,2,0.0314,100.0,100.0
+name,Özbağlar,2,0.0314,100.0,100.0
+name,Özcan Eczanesi,2,0.0314,100.0,100.0
+name,Özdemir Eczanesi,2,0.0314,100.0,100.0
+name,Özdeva Eczanesi,2,0.0314,100.0,100.0
+name,Özel Eczanesi,2,0.0314,100.0,100.0
+name,Özerli,2,0.0314,100.0,100.0
+name,Özgecan Eczanesi,2,0.0314,100.0,100.0
+name,Özgür Eczanesi,2,0.0314,100.0,100.0
+name,Özler A Tipi Gümrüklü Antrepo,2,0.0314,100.0,100.0
+name,Özsoy Eczanesi,2,0.0314,100.0,100.0
+name,Özçelik Eczanesi,2,0.0314,100.0,100.0
+name,Özşifa Eczanesi,2,0.0314,100.0,100.0
+name,Ümit Eczanesi,2,0.0314,100.0,100.0
+name,Üniversite Eczanesi,2,0.0314,100.0,100.0
+name,Ünsalan Ömür Eczanesi,2,0.0314,100.0,100.0
+name,Üzengili,2,0.0314,100.0,100.0
+name,Üçkardeş,2,0.0314,100.0,100.0
+name,Üçpınar,2,0.0314,100.0,100.0
+name,İbrahim Ergen Sokağı,2,0.0314,100.0,100.0
+name,İkizkent Sitesi,2,0.0314,100.0,100.0
+name,İnce Mah.,2,0.0314,100.0,100.0
+name,İnlice,2,0.0314,100.0,100.0
+name,İpek Eczanesi,2,0.0314,100.0,100.0
+name,İskenderun - Kırıkhan ilçe sınırı,2,0.0314,100.0,100.0
+name,İskenderun Anadolu Lisesi,2,0.0314,100.0,100.0
+name,İskenderun Teknik Üniversitesi Barbaros Hayrettin Gemi İnşaatı ve Denizcilik Fakültesi,2,0.0314,100.0,100.0
+name,İslahiye,2,0.0314,100.0,100.0
+name,İssume Mah.,2,0.0314,100.0,100.0
+name,İstanbul Eczanesi,2,0.0314,100.0,100.0
+name,İstasyon Kibar Eczanesi,2,0.0314,100.0,100.0
+name,İstasyon Ocak Eczanesi,2,0.0314,100.0,100.0
+name,İstiklal Mah.,2,0.0314,100.0,100.0
+name,İstiklal Makzume Anadolu Lisesi,2,0.0314,100.0,100.0
+name,İzmir Eczanesi,2,0.0314,100.0,100.0
+name,İzollu,2,0.0314,100.0,100.0
+name,İş Bankası,2,0.0314,100.0,100.0
+name,Şahinbeyler,2,0.0314,100.0,100.0
+name,Şahintepe,2,0.0314,100.0,100.0
+name,Şahintepe Mah.,2,0.0314,100.0,100.0
+name,Şahverdi,2,0.0314,100.0,100.0
+name,Şairler Parkı,2,0.0314,100.0,100.0
+name,Şambayat,2,0.0314,100.0,100.0
+name,Şanlı Eczanesi,2,0.0314,100.0,100.0
+name,Şarkkonak Eczanesi,2,0.0314,100.0,100.0
+name,Şehit Mehmet Ali Sarak Ortaokulu,2,0.0314,100.0,100.0
+name,Şehitkamil Eczanesi,2,0.0314,100.0,100.0
+name,Şekerci,2,0.0314,100.0,100.0
+name,Şenel Eczanesi,2,0.0314,100.0,100.0
+name,Şenlikçe,2,0.0314,100.0,100.0
+name,Şenyurt Eczanesi,2,0.0314,100.0,100.0
+name,Şeyh Şamil Caddesi,2,0.0314,100.0,100.0
+name,Şirin Eczanesi,2,0.0314,100.0,100.0
+name,Şükrü Güçlü Bulvarı,2,0.0314,100.0,100.0
+name,راجو,2,0.0314,100.0,100.0
+name,1. Organize Sanayi Bölgesi,1,0.0157,0.0,0.0
+name,100. Yıl Kapalı Yüzme Havuzu,1,0.0157,0.0,0.0
+name,1004. Sokak,1,0.0157,0.0,0.0
+name,1005. Sokak,1,0.0157,0.0,0.0
+name,102212. Sokak,1,0.0157,0.0,0.0
+name,102250. Cadde,1,0.0157,0.0,0.0
+name,1124. Sokak,1,0.0157,0.0,0.0
+name,114. Sokak,1,0.0157,0.0,0.0
+name,1161/1. Sokak,1,0.0157,0.0,0.0
+name,12 nolu Sokak,1,0.0157,0.0,0.0
+name,12 Şubat Eczanesi,1,0.0157,0.0,0.0
+name,13015 sokak,1,0.0157,0.0,0.0
+name,13022 sokak,1,0.0157,0.0,0.0
+name,132. GEÇİT,1,0.0157,0.0,0.0
+name,135 nolu Sokak,1,0.0157,0.0,0.0
+name,136 nolu Sokak,1,0.0157,0.0,0.0
+name,138 nolu Sokak,1,0.0157,0.0,0.0
+name,138. GEÇİT,1,0.0157,0.0,0.0
+name,139 nolu Sokak,1,0.0157,0.0,0.0
+name,140 nolu Sokak,1,0.0157,0.0,0.0
+name,140. GEÇİT,1,0.0157,0.0,0.0
+name,141 nolu Sokak,1,0.0157,0.0,0.0
+name,143 nolu Sokak,1,0.0157,0.0,0.0
+name,144. GEÇİT,1,0.0157,0.0,0.0
+name,146. GEÇİT,1,0.0157,0.0,0.0
+name,147. GEÇİT,1,0.0157,0.0,0.0
+name,148. GEÇİT,1,0.0157,0.0,0.0
+name,149. GEÇİT,1,0.0157,0.0,0.0
+name,15 Temmuz,1,0.0157,0.0,0.0
+name,151. GEÇİT,1,0.0157,0.0,0.0
+name,1532. Sokak,1,0.0157,0.0,0.0
+name,154 nolu Sokak,1,0.0157,0.0,0.0
+name,155 nolu Sokak,1,0.0157,0.0,0.0
+name,15552. Sokak,1,0.0157,0.0,0.0
+name,15553. Sokak,1,0.0157,0.0,0.0
+name,156 nolu Sokak,1,0.0157,0.0,0.0
+name,158 nolu Sokak,1,0.0157,0.0,0.0
+name,182 Sokak,1,0.0157,0.0,0.0
+name,192090 Nolu Cadde,1,0.0157,0.0,0.0
+name,2. Organize Sanayi Bölgesi,1,0.0157,0.0,0.0
+name,2. Sk.,1,0.0157,0.0,0.0
+name,20126. Sokak,1,0.0157,0.0,0.0
+name,2023 Açıkhava Müzesi,1,0.0157,0.0,0.0
+name,22. Cadde,1,0.0157,0.0,0.0
+name,2257. Sokak,1,0.0157,0.0,0.0
+name,23 Nisan Mah.,1,0.0157,0.0,0.0
+name,2410. Sokak,1,0.0157,0.0,0.0
+name,25 Aralık Mah.,1,0.0157,0.0,0.0
+name,25101. Sokak,1,0.0157,0.0,0.0
+name,257.Geçit,1,0.0157,0.0,0.0
+name,26. Cadde,1,0.0157,0.0,0.0
+name,266. GEÇİT,1,0.0157,0.0,0.0
+name,27 Antep Lezzetleri,1,0.0157,0.0,0.0
+name,27. Cadde,1,0.0157,0.0,0.0
+name,270. Sokak,1,0.0157,0.0,0.0
+name,27011,1,0.0157,0.0,0.0
+name,27012,1,0.0157,0.0,0.0
+name,27013,1,0.0157,0.0,0.0
+name,27014,1,0.0157,0.0,0.0
+name,27015,1,0.0157,0.0,0.0
+name,27016,1,0.0157,0.0,0.0
+name,27017,1,0.0157,0.0,0.0
+name,27018,1,0.0157,0.0,0.0
+name,27019,1,0.0157,0.0,0.0
+name,27020,1,0.0157,0.0,0.0
+name,27021,1,0.0157,0.0,0.0
+name,27023,1,0.0157,0.0,0.0
+name,27025,1,0.0157,0.0,0.0
+name,273 Sk.,1,0.0157,0.0,0.0
+name,275. Geçit,1,0.0157,0.0,0.0
+name,276. Geçit,1,0.0157,0.0,0.0
+name,28002 Sokak,1,0.0157,0.0,0.0
+name,28003 Sk.,1,0.0157,0.0,0.0
+name,28017,1,0.0157,0.0,0.0
+name,28025,1,0.0157,0.0,0.0
+name,28026,1,0.0157,0.0,0.0
+name,28027,1,0.0157,0.0,0.0
+name,28028,1,0.0157,0.0,0.0
+name,28030,1,0.0157,0.0,0.0
+name,28031,1,0.0157,0.0,0.0
+name,28032,1,0.0157,0.0,0.0
+name,29 Ekim Mah.,1,0.0157,0.0,0.0
+name,29001,1,0.0157,0.0,0.0
+name,29003,1,0.0157,0.0,0.0
+name,29005,1,0.0157,0.0,0.0
+name,29006,1,0.0157,0.0,0.0
+name,29051 Nolu Cadde,1,0.0157,0.0,0.0
+name,29078. Cadde,1,0.0157,0.0,0.0
+name,29085. Sokak,1,0.0157,0.0,0.0
+name,29149. Sokak,1,0.0157,0.0,0.0
+name,2946. Sokak,1,0.0157,0.0,0.0
+name,2964. Sokak,1,0.0157,0.0,0.0
+name,2990. Sokak,1,0.0157,0.0,0.0
+name,2991. Sokak,1,0.0157,0.0,0.0
+name,30 nolu Sokak,1,0.0157,0.0,0.0
+name,31 nolu Sokak,1,0.0157,0.0,0.0
+name,31. Cadde,1,0.0157,0.0,0.0
+name,314 nolu Sokağı,1,0.0157,0.0,0.0
+name,32220 Sokak,1,0.0157,0.0,0.0
+name,35 nolu Sokak,1,0.0157,0.0,0.0
+name,387. Geçit,1,0.0157,0.0,0.0
+name,39 nolu Sokak,1,0.0157,0.0,0.0
+name,392. Geçit,1,0.0157,0.0,0.0
+name,42 nolu Sokak,1,0.0157,0.0,0.0
+name,45 nolu Sokak,1,0.0157,0.0,0.0
+name,451. GEÇİT,1,0.0157,0.0,0.0
+name,4534 Sokak,1,0.0157,0.0,0.0
+name,47 nolu Sokak,1,0.0157,0.0,0.0
+name,47/1 nolu Sokak,1,0.0157,0.0,0.0
+name,476. Geçit,1,0.0157,0.0,0.0
+name,478. Geçit,1,0.0157,0.0,0.0
+name,479. Geçit,1,0.0157,0.0,0.0
+name,48042. sokak,1,0.0157,0.0,0.0
+name,49 nolu Sokak,1,0.0157,0.0,0.0
+name,5 Nisan Mah.,1,0.0157,0.0,0.0
+name,50 nolu Sokak,1,0.0157,0.0,0.0
+name,5007. Sk.,1,0.0157,0.0,0.0
+name,51 nolu Sokak,1,0.0157,0.0,0.0
+name,52075. Sokak,1,0.0157,0.0,0.0
+name,53 nolu Sokak,1,0.0157,0.0,0.0
+name,541. Sokak,1,0.0157,0.0,0.0
+name,55 nolu Sokak,1,0.0157,0.0,0.0
+name,58001. Sk.,1,0.0157,0.0,0.0
+name,59139 Sk.,1,0.0157,0.0,0.0
+name,60. Yıl Buket Eczanesi,1,0.0157,0.0,0.0
+name,60. Yıl Mah.,1,0.0157,0.0,0.0
+name,60001 Nolu Cadde,1,0.0157,0.0,0.0
+name,60042 Nolu Cadde,1,0.0157,0.0,0.0
+name,60095 Nolu Cadde,1,0.0157,0.0,0.0
+name,60098 Nolu Cadde,1,0.0157,0.0,0.0
+name,618/2,1,0.0157,0.0,0.0
+name,64001. Sk.,1,0.0157,0.0,0.0
+name,66005,1,0.0157,0.0,0.0
+name,66008,1,0.0157,0.0,0.0
+name,66010,1,0.0157,0.0,0.0
+name,66011,1,0.0157,0.0,0.0
+name,66013,1,0.0157,0.0,0.0
+name,66018,1,0.0157,0.0,0.0
+name,66019,1,0.0157,0.0,0.0
+name,66020,1,0.0157,0.0,0.0
+name,66021,1,0.0157,0.0,0.0
+name,66024,1,0.0157,0.0,0.0
+name,66026,1,0.0157,0.0,0.0
+name,66028,1,0.0157,0.0,0.0
+name,7005. Sokak,1,0.0157,0.0,0.0
+name,7009. Sokak,1,0.0157,0.0,0.0
+name,7011. Sokak,1,0.0157,0.0,0.0
+name,7013. Sokak,1,0.0157,0.0,0.0
+name,7017. Sokak,1,0.0157,0.0,0.0
+name,727/1 Sk.,1,0.0157,0.0,0.0
+name,731. Sk.,1,0.0157,0.0,0.0
+name,732. Sk.,1,0.0157,0.0,0.0
+name,733. Sk.,1,0.0157,0.0,0.0
+name,734 Sk.,1,0.0157,0.0,0.0
+name,734. Sk.,1,0.0157,0.0,0.0
+name,736. Sk.,1,0.0157,0.0,0.0
+name,737. Sk,1,0.0157,0.0,0.0
+name,737. Sk.,1,0.0157,0.0,0.0
+name,738. Sk.,1,0.0157,0.0,0.0
+name,740. Sk,1,0.0157,0.0,0.0
+name,744 Sk.,1,0.0157,0.0,0.0
+name,746. Sk.,1,0.0157,0.0,0.0
+name,747. Sk.,1,0.0157,0.0,0.0
+name,748. Sk.,1,0.0157,0.0,0.0
+name,75. Yıl Mah.,1,0.0157,0.0,0.0
+name,77026,1,0.0157,0.0,0.0
+name,77028,1,0.0157,0.0,0.0
+name,77030,1,0.0157,0.0,0.0
+name,77031,1,0.0157,0.0,0.0
+name,77032,1,0.0157,0.0,0.0
+name,77033,1,0.0157,0.0,0.0
+name,77034,1,0.0157,0.0,0.0
+name,77036,1,0.0157,0.0,0.0
+name,77036/1,1,0.0157,0.0,0.0
+name,77038,1,0.0157,0.0,0.0
+name,8 Şubat Mah.,1,0.0157,0.0,0.0
+name,80. Yıl Parkı,1,0.0157,0.0,0.0
+name,81040,1,0.0157,0.0,0.0
+name,81042,1,0.0157,0.0,0.0
+name,81044,1,0.0157,0.0,0.0
+name,81046,1,0.0157,0.0,0.0
+name,818. Sokak,1,0.0157,0.0,0.0
+name,83407. Sokak,1,0.0157,0.0,0.0
+name,895. sokak,1,0.0157,0.0,0.0
+name,91026,1,0.0157,0.0,0.0
+name,91028,1,0.0157,0.0,0.0
+name,971. Sokak,1,0.0157,0.0,0.0
+name,A,1,0.0157,0.0,0.0
+name,A BLOK,1,0.0157,0.0,0.0
+name,A10,1,0.0157,0.0,0.0
+name,A101 Kömür,1,0.0157,0.0,0.0
+name,A11,1,0.0157,0.0,0.0
+name,A12,1,0.0157,0.0,0.0
+name,A13,1,0.0157,0.0,0.0
+name,A14,1,0.0157,0.0,0.0
+name,A15,1,0.0157,0.0,0.0
+name,A16,1,0.0157,0.0,0.0
+name,A17,1,0.0157,0.0,0.0
+name,A18,1,0.0157,0.0,0.0
+name,A19,1,0.0157,0.0,0.0
+name,A20,1,0.0157,0.0,0.0
+name,A21,1,0.0157,0.0,0.0
+name,A22,1,0.0157,0.0,0.0
+name,A23,1,0.0157,0.0,0.0
+name,A24,1,0.0157,0.0,0.0
+name,A25,1,0.0157,0.0,0.0
+name,A26,1,0.0157,0.0,0.0
+name,A27,1,0.0157,0.0,0.0
+name,A28,1,0.0157,0.0,0.0
+name,A29,1,0.0157,0.0,0.0
+name,A31,1,0.0157,0.0,0.0
+name,A33,1,0.0157,0.0,0.0
+name,A34,1,0.0157,0.0,0.0
+name,A7,1,0.0157,0.0,0.0
+name,A8,1,0.0157,0.0,0.0
+name,A9,1,0.0157,0.0,0.0
+name,ABC Deterjan San. Tic. A.Ş.,1,0.0157,0.0,0.0
+name,AFRİN HUDUT KARAKOLU,1,0.0157,0.0,0.0
+name,ALTIN ÇEREZ KURUYEMİŞ,1,0.0157,0.0,0.0
+name,Aalen Meydanı,1,0.0157,0.0,0.0
+name,Abalaklı,1,0.0157,0.0,0.0
+name,Abalı Eczanesi,1,0.0157,0.0,0.0
+name,Abazalar,1,0.0157,0.0,0.0
+name,Abbasiye,1,0.0157,0.0,0.0
+name,Abdulhamid Han Mah.,1,0.0157,0.0,0.0
+name,Abdullah Sayek Anadolu Lisesi,1,0.0157,0.0,0.0
+name,Abdullahevler,1,0.0157,0.0,0.0
+name,Abdülharap Çayı,1,0.0157,0.0,0.0
+name,Abdülkadir Kocabaş İlkokulu,1,0.0157,0.0,0.0
+name,Abdülkadir Konukoğlu Anadolu Lisesi,1,0.0157,0.0,0.0
+name,Abtal Höyüğü,1,0.0157,0.0,0.0
+name,Abuzalar,1,0.0157,0.0,0.0
+name,Abuşlar,1,0.0157,0.0,0.0
+name,Abı Hayat Eczanesi,1,0.0157,0.0,0.0
+name,Acaroba,1,0.0157,0.0,0.0
+name,Adakent Cd.,1,0.0157,0.0,0.0
+name,Adakent Market,1,0.0157,0.0,0.0
+name,Adaklı,1,0.0157,0.0,0.0
+name,Adalar,1,0.0157,0.0,0.0
+name,Adalet Sarayı,1,0.0157,0.0,0.0
+name,Adıbelli Eczanesi,1,0.0157,0.0,0.0
+name,Adıyaman,1,0.0157,0.0,0.0
+name,Adıyaman TM - Malatya-1 TM EİH,1,0.0157,0.0,0.0
+name,Adıyaman ÇİM TM,1,0.0157,0.0,0.0
+name,Adıyaman-Diyarbakır yolu,1,0.0157,0.0,0.0
+name,Adıyaman-Doğanşehir yolu,1,0.0157,0.0,0.0
+name,Afacan,1,0.0157,0.0,0.0
+name,Afetevleri,1,0.0157,0.0,0.0
+name,Ahali Eczanesi,1,0.0157,0.0,0.0
+name,Ahmet Bozdağ,1,0.0157,0.0,0.0
+name,Ahmetbeyli,1,0.0157,0.0,0.0
+name,Ahmethoca,1,0.0157,0.0,0.0
+name,Aile Sağlığı Merkezi,1,0.0157,0.0,0.0
+name,Ak Eczanesi,1,0.0157,0.0,0.0
+name,Akabe Eczanesi,1,0.0157,0.0,0.0
+name,Akademi Eczanesi,1,0.0157,0.0,0.0
+name,Akar Eczanesi,1,0.0157,0.0,0.0
+name,Akarsu Eczanesi,1,0.0157,0.0,0.0
+name,Akasya Mah.,1,0.0157,0.0,0.0
+name,Akasya Parkı,1,0.0157,0.0,0.0
+name,Akbank,1,0.0157,0.0,0.0
+name,Akbay Eczanesi,1,0.0157,0.0,0.0
+name,Akbulut,1,0.0157,0.0,0.0
+name,Akcakoyunlu,1,0.0157,0.0,0.0
+name,Akcurun,1,0.0157,0.0,0.0
+name,Akdemir,1,0.0157,0.0,0.0
+name,Akdeniz Mah.,1,0.0157,0.0,0.0
+name,Akdere,1,0.0157,0.0,0.0
+name,Akdilek,1,0.0157,0.0,0.0
+name,Akdoğan Eczanesi,1,0.0157,0.0,0.0
+name,Akdurak,1,0.0157,0.0,0.0
+name,Akgül Eczanesi,1,0.0157,0.0,0.0
+name,Akgün Eczanesi,1,0.0157,0.0,0.0
+name,Akif İnan Mah.,1,0.0157,0.0,0.0
+name,Akkent Demet Eczanesi,1,0.0157,0.0,0.0
+name,Akkent Eczanesi,1,0.0157,0.0,0.0
+name,Akkent Mah.,1,0.0157,0.0,0.0
+name,Akkent Melita Eczanesi,1,0.0157,0.0,0.0
+name,Akkent İlkokulu,1,0.0157,0.0,0.0
+name,Akkerpiç,1,0.0157,0.0,0.0
+name,Akkonut Sitesi,1,0.0157,0.0,0.0
+name,Akkoyunlu Eczanesi,1,0.0157,0.0,0.0
+name,Akkoç,1,0.0157,0.0,0.0
+name,Akkülek,1,0.0157,0.0,0.0
+name,Akoluk Yaylası,1,0.0157,0.0,0.0
+name,Akpınar Höyüğü,1,0.0157,0.0,0.0
+name,Aksaray Eczanesi,1,0.0157,0.0,0.0
+name,Aksu Eczanesi,1,0.0157,0.0,0.0
+name,Aktoprak Hayat Eczanesi,1,0.0157,0.0,0.0
+name,Akyar,1,0.0157,0.0,0.0
+name,Akyokuş Geçidi,1,0.0157,0.0,0.0
+name,Akyol Ortaokulu,1,0.0157,0.0,0.0
+name,Akyol Yavuz Eczanesi,1,0.0157,0.0,0.0
+name,Akyüz Eczanesi,1,0.0157,0.0,0.0
+name,Akça Dağ,1,0.0157,0.0,0.0
+name,Akça Eczanesi,1,0.0157,0.0,0.0
+name,Akçabel,1,0.0157,0.0,0.0
+name,Akçaburç,1,0.0157,0.0,0.0
+name,Akçadağ Yangın Gözetleme Kulesi,1,0.0157,0.0,0.0
+name,Akçagöze,1,0.0157,0.0,0.0
+name,Akçakale Sitesi,1,0.0157,0.0,0.0
+name,Akçakaya,1,0.0157,0.0,0.0
+name,Akçakoyunlu,1,0.0157,0.0,0.0
+name,Akçalı,1,0.0157,0.0,0.0
+name,Akçaova,1,0.0157,0.0,0.0
+name,Akçasu Çayı,1,0.0157,0.0,0.0
+name,Akçatepe,1,0.0157,0.0,0.0
+name,Akçay,1,0.0157,0.0,0.0
+name,Akçay İlkokulu,1,0.0157,0.0,0.0
+name,Aközcan Eczanesi,1,0.0157,0.0,0.0
+name,Akıncı Eczanesi,1,0.0157,0.0,0.0
+name,Akınyolu,1,0.0157,0.0,0.0
+name,Akınyolu Höyük,1,0.0157,0.0,0.0
+name,Alaca,1,0.0157,0.0,0.0
+name,Alakent,1,0.0157,0.0,0.0
+name,Alalah,1,0.0157,0.0,0.0
+name,Alan Yaylası,1,0.0157,0.0,0.0
+name,Alan yaylası,1,0.0157,0.0,0.0
+name,Alanlı,1,0.0157,0.0,0.0
+name,Alaybeyli,1,0.0157,0.0,0.0
+name,Albayram Eczanesi,1,0.0157,0.0,0.0
+name,Ali Eruslu Parkı,1,0.0157,0.0,0.0
+name,Ali Fuat Cebesoy Bulvarı,1,0.0157,0.0,0.0
+name,Ali Temiz Eczanesi,1,0.0157,0.0,0.0
+name,Ali Tutkun İlkokulu,1,0.0157,0.0,0.0
+name,Ali Çiçek Eczanesi,1,0.0157,0.0,0.0
+name,Ali İren Eczanesi,1,0.0157,0.0,0.0
+name,Alibaba Mah.,1,0.0157,0.0,0.0
+name,Aligör,1,0.0157,0.0,0.0
+name,Alikurtobası,1,0.0157,0.0,0.0
+name,Aliçavuşlar,1,0.0157,0.0,0.0
+name,Alkan Eczanesi,1,0.0157,0.0,0.0
+name,Almalı,1,0.0157,0.0,0.0
+name,Alparslan Türkeş Caddesi,1,0.0157,0.0,0.0
+name,Alpaslan Eczanesi,1,0.0157,0.0,0.0
+name,Alpaslan Türkeş Mah.,1,0.0157,0.0,0.0
+name,Alpaydın Eczanesi,1,0.0157,0.0,0.0
+name,Altay Orman Ürünleri,1,0.0157,0.0,0.0
+name,Alternatif Bank,1,0.0157,0.0,0.0
+name,Altun Eczanesi,1,0.0157,0.0,0.0
+name,Altunay Eczanesi,1,0.0157,0.0,0.0
+name,Altundaş Eczanesi,1,0.0157,0.0,0.0
+name,Altıkapı Antakya,1,0.0157,0.0,0.0
+name,Altınbaşak Eczanesi,1,0.0157,0.0,0.0
+name,Altınevler,1,0.0157,0.0,0.0
+name,Altınkaya,1,0.0157,0.0,0.0
+name,Altınoluk Turizm,1,0.0157,0.0,0.0
+name,Altınpınar,1,0.0157,0.0,0.0
+name,Altıntaş,1,0.0157,0.0,0.0
+name,Altınyurt,1,0.0157,0.0,0.0
+name,Altınçağ,1,0.0157,0.0,0.0
+name,Altınçağ Eczanesi,1,0.0157,0.0,0.0
+name,Altınözü Eczanesi,1,0.0157,0.0,0.0
+name,Altınşehir Eczanesi,1,0.0157,0.0,0.0
+name,Alınca,1,0.0157,0.0,0.0
+name,Alıçlı,1,0.0157,0.0,0.0
+name,Anadolu Kır Lokantası,1,0.0157,0.0,0.0
+name,Andı Eczanesi,1,0.0157,0.0,0.0
+name,Andırın Eczanesi,1,0.0157,0.0,0.0
+name,Anka Defne Eczanesi,1,0.0157,0.0,0.0
+name,Anka Eczanesi,1,0.0157,0.0,0.0
+name,Antakya Eczanesi,1,0.0157,0.0,0.0
+name,Antakya Manzara,1,0.0157,0.0,0.0
+name,Antakya Otogarı,1,0.0157,0.0,0.0
+name,Antakya Palladium AVM,1,0.0157,0.0,0.0
+name,Antakya Sirki,1,0.0157,0.0,0.0
+name,Antakya Uzun Çarşı,1,0.0157,0.0,0.0
+name,Antakya-III TM,1,0.0157,0.0,0.0
+name,Antakya-Yayladağı Yolu,1,0.0157,0.0,0.0
+name,Antepia,1,0.0157,0.0,0.0
+name,Apaydın,1,0.0157,0.0,0.0
+name,Aqueduct of Kantara,1,0.0157,0.0,0.0
+name,Araban - Yavuzeli ilçe sınırı,1,0.0157,0.0,0.0
+name,Arasa Cami,1,0.0157,0.0,0.0
+name,Arda Eczanesi,1,0.0157,0.0,0.0
+name,Ardıl Barajı,1,0.0157,0.0,0.0
+name,Ardıçlı,1,0.0157,0.0,0.0
+name,Argun Eczanesi,1,0.0157,0.0,0.0
+name,Arif Bey Konagi Butik Hotel,1,0.0157,0.0,0.0
+name,Arkıtça,1,0.0157,0.0,0.0
+name,Armutlu Mah.,1,0.0157,0.0,0.0
+name,Arpaderesi,1,0.0157,0.0,0.0
+name,Arpahan,1,0.0157,0.0,0.0
+name,Arpalı,1,0.0157,0.0,0.0
+name,Arpalıuşağı,1,0.0157,0.0,0.0
+name,Arpat Eczanesi,1,0.0157,0.0,0.0
+name,Arslan Eczanesi,1,0.0157,0.0,0.0
+name,Arslanlı,1,0.0157,0.0,0.0
+name,Arslantürk Eczanesi,1,0.0157,0.0,0.0
+name,Arsu Eczanesi,1,0.0157,0.0,0.0
+name,Arsuz - Antakya ilçe sınırı,1,0.0157,0.0,0.0
+name,Arsuz Özel Tek Kampüs Anadolu / Fen Lisesi,1,0.0157,0.0,0.0
+name,Arsuz Özel Tek Kampüs Ortaokulu,1,0.0157,0.0,0.0
+name,Arsuz Özel Tek Kampüs İlkokulu,1,0.0157,0.0,0.0
+name,Artemis Mozaik,1,0.0157,0.0,0.0
+name,Arx (citadel),1,0.0157,0.0,0.0
+name,Arya Lounge Bar,1,0.0157,0.0,0.0
+name,Arzık Eczanesi,1,0.0157,0.0,0.0
+name,Arıcaklı,1,0.0157,0.0,0.0
+name,Arıklıkaş,1,0.0157,0.0,0.0
+name,Arıl,1,0.0157,0.0,0.0
+name,Asel Günsaldı Eczanesi,1,0.0157,0.0,0.0
+name,Asi Eczanesi,1,0.0157,0.0,0.0
+name,Aslan Suyu,1,0.0157,0.0,0.0
+name,Aslanbey Eczanesi,1,0.0157,0.0,0.0
+name,Aslanlar Eczanesi,1,0.0157,0.0,0.0
+name,Aslanlı Mah.,1,0.0157,0.0,0.0
+name,Aslanoğlu,1,0.0157,0.0,0.0
+name,Aslanpınarı,1,0.0157,0.0,0.0
+name,Aslı Eczanesi,1,0.0157,0.0,0.0
+name,Aslıhan Eczanesi,1,0.0157,0.0,0.0
+name,Asri Mezarlığı,1,0.0157,0.0,0.0
+name,Asude Eczanesi,1,0.0157,0.0,0.0
+name,Asım Gündüz Caddesi,1,0.0157,0.0,0.0
+name,Atabek,1,0.0157,0.0,0.0
+name,Atakan Eczanesi,1,0.0157,0.0,0.0
+name,Atakaş Limanı Gümrük Müdürlüğü,1,0.0157,0.0,0.0
+name,Atakent Mah.,1,0.0157,0.0,0.0
+name,Ataköy,1,0.0157,0.0,0.0
+name,Ataoğlu Eczanesi,1,0.0157,0.0,0.0
+name,Atatürk Cd.,1,0.0157,0.0,0.0
+name,Atatürk Heykeli,1,0.0157,0.0,0.0
+name,Atatürk Parkı,1,0.0157,0.0,0.0
+name,Atatürk İlkokulu,1,0.0157,0.0,0.0
+name,Atayurdu,1,0.0157,0.0,0.0
+name,Atik,1,0.0157,0.0,0.0
+name,Atmalıoğlu Eczanesi,1,0.0157,0.0,0.0
+name,Attutan,1,0.0157,0.0,0.0
+name,Atçana,1,0.0157,0.0,0.0
+name,Atıcı Eczanesi,1,0.0157,0.0,0.0
+name,Atıf Eczanesi,1,0.0157,0.0,0.0
+name,Avcı Eczanesi,1,0.0157,0.0,0.0
+name,Avcılar,1,0.0157,0.0,0.0
+name,Aviva Dental Ağız ve Diş Sağlığı Polikliniği,1,0.0157,0.0,0.0
+name,Avlık,1,0.0157,0.0,0.0
+name,Avsuyu,1,0.0157,0.0,0.0
+name,Avşarlı,1,0.0157,0.0,0.0
+name,Ayakkabıcılar Sitesi,1,0.0157,0.0,0.0
+name,Ayaz Eczanesi,1,0.0157,0.0,0.0
+name,"Aybastı ""Border Eagles"" Border Post",1,0.0157,0.0,0.0
+name,"Aybastı ""Border Eagles"" Border Post Helipad",1,0.0157,0.0,0.0
+name,Aydan Eczanesi,1,0.0157,0.0,0.0
+name,Aydemir Apartmanı,1,0.0157,0.0,0.0
+name,Aydıner Eczanesi,1,0.0157,0.0,0.0
+name,Aydınlı,1,0.0157,0.0,0.0
+name,Aydıntepe Mah.,1,0.0157,0.0,0.0
+name,Ayet Eczanesi,1,0.0157,0.0,0.0
+name,Aygır,1,0.0157,0.0,0.0
+name,Aygırgölü,1,0.0157,0.0,0.0
+name,Aylin Tatlı Eczanesi,1,0.0157,0.0,0.0
+name,Aysun Eczanesi,1,0.0157,0.0,0.0
+name,Ayten Kemal Akınal Anadolu Lisesi,1,0.0157,0.0,0.0
+name,Ayvalı,1,0.0157,0.0,0.0
+name,Ayyıldız Eczanesi,1,0.0157,0.0,0.0
+name,Ayça Eczanesi,1,0.0157,0.0,0.0
+name,Ayıntap Eczanesi,1,0.0157,0.0,0.0
+name,Ayşe Eczanesi,1,0.0157,0.0,0.0
+name,Ayşe Gül Eczanesi,1,0.0157,0.0,0.0
+name,Ayşem Eczanesi,1,0.0157,0.0,0.0
+name,Azaplı yolu,1,0.0157,0.0,0.0
+name,Azerbaycan Bulvarı,1,0.0157,0.0,0.0
+name,Azizli,1,0.0157,0.0,0.0
+name,Açıkdere,1,0.0157,0.0,0.0
+name,Açıkgöz Eczanesi,1,0.0157,0.0,0.0
+name,Ağabey,1,0.0157,0.0,0.0
+name,Ağalarobası,1,0.0157,0.0,0.0
+name,Ağaçkonak,1,0.0157,0.0,0.0
+name,Ağaçlıboyno,1,0.0157,0.0,0.0
+name,Ağcakent,1,0.0157,0.0,0.0
+name,Ağcalı Mah.,1,0.0157,0.0,0.0
+name,Ağcalı Parkı,1,0.0157,0.0,0.0
+name,Aşağı Arıcaklı,1,0.0157,0.0,0.0
+name,Aşağı Azaplı,1,0.0157,0.0,0.0
+name,Aşağı Bademli,1,0.0157,0.0,0.0
+name,Aşağı Burnaz,1,0.0157,0.0,0.0
+name,Aşağı Kalecik,1,0.0157,0.0,0.0
+name,Aşağı Karafakılı,1,0.0157,0.0,0.0
+name,Aşağı Karakuyu,1,0.0157,0.0,0.0
+name,Aşağı Karavaiz,1,0.0157,0.0,0.0
+name,Aşağı Kardere,1,0.0157,0.0,0.0
+name,Aşağı Karıncalı Yaylası,1,0.0157,0.0,0.0
+name,Aşağı Kayabaşı,1,0.0157,0.0,0.0
+name,Aşağı Kekliktepe,1,0.0157,0.0,0.0
+name,Aşağı Koçören,1,0.0157,0.0,0.0
+name,Aşağı Nasırlı,1,0.0157,0.0,0.0
+name,Aşağı Okçular,1,0.0157,0.0,0.0
+name,Aşağı Yeniköy,1,0.0157,0.0,0.0
+name,Aşağı Yufkalı,1,0.0157,0.0,0.0
+name,Aşağı Çöplü,1,0.0157,0.0,0.0
+name,Aşağı İmolar,1,0.0157,0.0,0.0
+name,Aşağıarıl,1,0.0157,0.0,0.0
+name,Aşağıelifler,1,0.0157,0.0,0.0
+name,Aşağıkuyumcular,1,0.0157,0.0,0.0
+name,Aşağımülk,1,0.0157,0.0,0.0
+name,Aşağıoba,1,0.0157,0.0,0.0
+name,Aşağıokçular,1,0.0157,0.0,0.0
+name,Aşkar Eczanesi,1,0.0157,0.0,0.0
+name,Aşıklar,1,0.0157,0.0,0.0
+name,B,1,0.0157,0.0,0.0
+name,B BLOK,1,0.0157,0.0,0.0
+name,Babacan Eczanesi,1,0.0157,0.0,0.0
+name,Babi Şifa Eczanesi,1,0.0157,0.0,0.0
+name,Bagdad cafe,1,0.0157,0.0,0.0
+name,Bahaettin Karakoç İlkokulu,1,0.0157,0.0,0.0
+name,Bahar Tecik Eczanesi,1,0.0157,0.0,0.0
+name,Bahri Eczanesi,1,0.0157,0.0,0.0
+name,Bahçe - Osmaniye merkez ilçe sınırı,1,0.0157,0.0,0.0
+name,Bahçe Eczanesi,1,0.0157,0.0,0.0
+name,Bahçelievler,1,0.0157,0.0,0.0
+name,Bakırca,1,0.0157,0.0,0.0
+name,Balaban,1,0.0157,0.0,0.0
+name,Balarmudu,1,0.0157,0.0,0.0
+name,Balduk,1,0.0157,0.0,0.0
+name,Baldıran,1,0.0157,0.0,0.0
+name,Baldıran Höyüğü,1,0.0157,0.0,0.0
+name,Balkar,1,0.0157,0.0,0.0
+name,Balık Eczanesi,1,0.0157,0.0,0.0
+name,Balıkalan,1,0.0157,0.0,0.0
+name,Balıklı,1,0.0157,0.0,0.0
+name,Balıklı Özdoğan Eczanesi,1,0.0157,0.0,0.0
+name,Bangraz Yaylası,1,0.0157,0.0,0.0
+name,Barak Mah.,1,0.0157,0.0,0.0
+name,Baran Eczanesi,1,0.0157,0.0,0.0
+name,Barbaros Caddesi,1,0.0157,0.0,0.0
+name,Barbaros Sokağı,1,0.0157,0.0,0.0
+name,Barlas Eczanesi,1,0.0157,0.0,0.0
+name,Barış Mah.,1,0.0157,0.0,0.0
+name,Barış Sitesi,1,0.0157,0.0,0.0
+name,Batal Höyük Caddesi,1,0.0157,0.0,0.0
+name,Battal,1,0.0157,0.0,0.0
+name,Battalhöyük,1,0.0157,0.0,0.0
+name,Batıkent Eczanesi,1,0.0157,0.0,0.0
+name,Batıkent Mah.,1,0.0157,0.0,0.0
+name,Batıpark Spor Kompleksi,1,0.0157,0.0,0.0
+name,Bayatlı,1,0.0157,0.0,0.0
+name,Baybatmaz Eczanesi,1,0.0157,0.0,0.0
+name,Bayraktar Eczanesi,1,0.0157,0.0,0.0
+name,Bayraktepe,1,0.0157,0.0,0.0
+name,Bayram Eczanesi,1,0.0157,0.0,0.0
+name,Bayramlar,1,0.0157,0.0,0.0
+name,Bayramlı,1,0.0157,0.0,0.0
+name,Bayırlı,1,0.0157,0.0,0.0
+name,Bağarası,1,0.0157,0.0,0.0
+name,Bağbaşı,1,0.0157,0.0,0.0
+name,Bağdere,1,0.0157,0.0,0.0
+name,Bağlama,1,0.0157,0.0,0.0
+name,Bağlarbaşı Anadolu Lisesi,1,0.0157,0.0,0.0
+name,Bağrıaçık,1,0.0157,0.0,0.0
+name,Bağrıaçıklar,1,0.0157,0.0,0.0
+name,Başak Eczanesi,1,0.0157,0.0,0.0
+name,Başaklı,1,0.0157,0.0,0.0
+name,Başar Eczanesi,1,0.0157,0.0,0.0
+name,Başaran Eczanesi,1,0.0157,0.0,0.0
+name,Başkarakol Taburlar Eczanesi,1,0.0157,0.0,0.0
+name,Başkent Eczanesi,1,0.0157,0.0,0.0
+name,Başlamış,1,0.0157,0.0,0.0
+name,Başlı,1,0.0157,0.0,0.0
+name,Başmağara,1,0.0157,0.0,0.0
+name,Başpınar Eczanesi,1,0.0157,0.0,0.0
+name,Bedi Asfur Eczanesi,1,0.0157,0.0,0.0
+name,Bedirhan Eczanesi,1,0.0157,0.0,0.0
+name,Bedirköy,1,0.0157,0.0,0.0
+name,Begül Eczanesi,1,0.0157,0.0,0.0
+name,Bekbele Eczanesi,1,0.0157,0.0,0.0
+name,Bekdemir,1,0.0157,0.0,0.0
+name,Bekir Aksoy Eczanesi,1,0.0157,0.0,0.0
+name,Bekirbey Mah.,1,0.0157,0.0,0.0
+name,Bekişli,1,0.0157,0.0,0.0
+name,Bektaş,1,0.0157,0.0,0.0
+name,Bektaşlı,1,0.0157,0.0,0.0
+name,Belediye Caddesi,1,0.0157,0.0,0.0
+name,Belen - Arsuz ilçe sınırı,1,0.0157,0.0,0.0
+name,Belen Eczanesi,1,0.0157,0.0,0.0
+name,Belen RES TM,1,0.0157,0.0,0.0
+name,Belentepe,1,0.0157,0.0,0.0
+name,Belentepe Höyüğü,1,0.0157,0.0,0.0
+name,Belgin Eczanesi,1,0.0157,0.0,0.0
+name,Belkız Mah.,1,0.0157,0.0,0.0
+name,Belpınar,1,0.0157,0.0,0.0
+name,Benlidere,1,0.0157,0.0,0.0
+name,Bereketli,1,0.0157,0.0,0.0
+name,Berete,1,0.0157,0.0,0.0
+name,Bertan Eczanesi,1,0.0157,0.0,0.0
+name,Besen Eczanesi,1,0.0157,0.0,0.0
+name,Besni - Adıyaman merkez ilçe sınırı,1,0.0157,0.0,0.0
+name,Besni Eczanesi,1,0.0157,0.0,0.0
+name,Beyazlar Mah.,1,0.0157,0.0,0.0
+name,Beyazıd-ı Bestami Türbesi,1,0.0157,0.0,0.0
+name,Beydili,1,0.0157,0.0,0.0
+name,Beydilli Mah.,1,0.0157,0.0,0.0
+name,Beyhan Eczanesi,1,0.0157,0.0,0.0
+name,Beyoğlu,1,0.0157,0.0,0.0
+name,Beyreli,1,0.0157,0.0,0.0
+name,Bezolar,1,0.0157,0.0,0.0
+name,Beşenli,1,0.0157,0.0,0.0
+name,Beşir,1,0.0157,0.0,0.0
+name,Beşkoz,1,0.0157,0.0,0.0
+name,Beşkuyu,1,0.0157,0.0,0.0
+name,Beşler Eczanesi,1,0.0157,0.0,0.0
+name,Beşnek Eczanesi,1,0.0157,0.0,0.0
+name,Beşçeşme,1,0.0157,0.0,0.0
+name,Bilal Eczanesi,1,0.0157,0.0,0.0
+name,Bilcen Eczanesi,1,0.0157,0.0,0.0
+name,Bildiren Eczanesi,1,0.0157,0.0,0.0
+name,Bilek,1,0.0157,0.0,0.0
+name,Bilgin Eczanesi,1,0.0157,0.0,0.0
+name,Bilim Eczanesi,1,0.0157,0.0,0.0
+name,Bilir Eczanesi,1,0.0157,0.0,0.0
+name,Binevler Anaokulu,1,0.0157,0.0,0.0
+name,Binevler Eczanesi,1,0.0157,0.0,0.0
+name,Binevler Parkı,1,0.0157,0.0,0.0
+name,Binevler Rana Eczanesi,1,0.0157,0.0,0.0
+name,Binevler Semt Pazarı,1,0.0157,0.0,0.0
+name,Binevler Yeşim Eczanesi,1,0.0157,0.0,0.0
+name,Binevler Çiğdem Eczanesi,1,0.0157,0.0,0.0
+name,Binnur Eczanesi,1,0.0157,0.0,0.0
+name,Bintaş,1,0.0157,0.0,0.0
+name,Birlik Eczanesi,1,0.0157,0.0,0.0
+name,Birtagil Apartmanı,1,0.0157,0.0,0.0
+name,Bistro XXSmall,1,0.0157,0.0,0.0
+name,Bitiren,1,0.0157,0.0,0.0
+name,Bitişik,1,0.0157,0.0,0.0
+name,Blok 1,1,0.0157,0.0,0.0
+name,Bohşin,1,0.0157,0.0,0.0
+name,Bolat Eczanesi,1,0.0157,0.0,0.0
+name,Bolattürk Eczanesi,1,0.0157,0.0,0.0
+name,Bombacı Ahmet sokak,1,0.0157,0.0,0.0
+name,Boncuk,1,0.0157,0.0,0.0
+name,Bora Eczanesi,1,0.0157,0.0,0.0
+name,Boran Eczanesi,1,0.0157,0.0,0.0
+name,Border - Hatay - Osmaniye,1,0.0157,0.0,0.0
+name,Border - Osmaniye - Gaziantep,1,0.0157,0.0,0.0
+name,Border Road,1,0.0157,0.0,0.0
+name,Bostancı Eczanesi,1,0.0157,0.0,0.0
+name,Bostancı Mah.,1,0.0157,0.0,0.0
+name,Botanik Bahçesi,1,0.0157,0.0,0.0
+name,Boyacı Cami,1,0.0157,0.0,0.0
+name,Boybeypınarı,1,0.0157,0.0,0.0
+name,Boyno Mah.,1,0.0157,0.0,0.0
+name,Boynukaralar,1,0.0157,0.0,0.0
+name,Boynuyoğun,1,0.0157,0.0,0.0
+name,Boyun,1,0.0157,0.0,0.0
+name,Boyundere,1,0.0157,0.0,0.0
+name,Bozdoğanlı,1,0.0157,0.0,0.0
+name,Bozer Sitesi,1,0.0157,0.0,0.0
+name,Bozgedik,1,0.0157,0.0,0.0
+name,Bozhöyük,1,0.0157,0.0,0.0
+name,Bozlar,1,0.0157,0.0,0.0
+name,Bozobası,1,0.0157,0.0,0.0
+name,Bozoklar Mah.,1,0.0157,0.0,0.0
+name,Boğaziçi Eczanesi,1,0.0157,0.0,0.0
+name,Boğaziçi Mah.,1,0.0157,0.0,0.0
+name,Boğazkerim,1,0.0157,0.0,0.0
+name,Buhara,1,0.0157,0.0,0.0
+name,Bulamaçlı,1,0.0157,0.0,0.0
+name,Bulamlar Eczanesi,1,0.0157,0.0,0.0
+name,Bulduk,1,0.0157,0.0,0.0
+name,Bulut Eczanesi,1,0.0157,0.0,0.0
+name,Burak Eczanesi,1,0.0157,0.0,0.0
+name,Burak Mah.,1,0.0157,0.0,0.0
+name,Burak Pektaş Eczanesi,1,0.0157,0.0,0.0
+name,Burgaçlı,1,0.0157,0.0,0.0
+name,Burgerquin,1,0.0157,0.0,0.0
+name,Burunsuzlar,1,0.0157,0.0,0.0
+name,Burunçayır,1,0.0157,0.0,0.0
+name,Burç,1,0.0157,0.0,0.0
+name,Burç Bendi HES,1,0.0157,0.0,0.0
+name,Burç Eczanesi,1,0.0157,0.0,0.0
+name,Burç Karakuyu,1,0.0157,0.0,0.0
+name,Burçbendi HES TM,1,0.0157,0.0,0.0
+name,Burçin Eczanesi,1,0.0157,0.0,0.0
+name,Buğdaycık,1,0.0157,0.0,0.0
+name,Bölücek,1,0.0157,0.0,0.0
+name,Bölükdamlar,1,0.0157,0.0,0.0
+name,Börgenek İlköğretim Okulu,1,0.0157,0.0,0.0
+name,Börkenek,1,0.0157,0.0,0.0
+name,Büklüm,1,0.0157,0.0,0.0
+name,Bülbül,1,0.0157,0.0,0.0
+name,Bülbülzade Eczanesi,1,0.0157,0.0,0.0
+name,Bülbülzade Mah.,1,0.0157,0.0,0.0
+name,Büyük Eczanesi,1,0.0157,0.0,0.0
+name,Büyük Karakuyu,1,0.0157,0.0,0.0
+name,Büyük Kavaklı,1,0.0157,0.0,0.0
+name,Büyük Kırıklı,1,0.0157,0.0,0.0
+name,Büyük Sof Dağı,1,0.0157,0.0,0.0
+name,Büyükburç,1,0.0157,0.0,0.0
+name,Büyükkarakuyu Eczanesi,1,0.0157,0.0,0.0
+name,Büyükmert Eczanesi,1,0.0157,0.0,0.0
+name,Büyüknacar Fatih,1,0.0157,0.0,0.0
+name,Büyüknacar Kocadere,1,0.0157,0.0,0.0
+name,Büyüknacar Merkez,1,0.0157,0.0,0.0
+name,Büyükrezzolar,1,0.0157,0.0,0.0
+name,Büyüköztürk Eczanesi,1,0.0157,0.0,0.0
+name,Büyükşahinbey,1,0.0157,0.0,0.0
+name,BİLGİÇ İŞ MERKEZİ,1,0.0157,0.0,0.0
+name,C,1,0.0157,0.0,0.0
+name,CMK ZEYTİNCİLİK & ŞARKÜTERİ,1,0.0157,0.0,0.0
+name,Cabi Mah.,1,0.0157,0.0,0.0
+name,Cadde Eczanesi,1,0.0157,0.0,0.0
+name,Cadde Park AVM Özlen Eczanesi,1,0.0157,0.0,0.0
+name,Cahidem Antakya,1,0.0157,0.0,0.0
+name,Cami Sokağı,1,0.0157,0.0,0.0
+name,Camuzkışlası,1,0.0157,0.0,0.0
+name,Camuzoğlu,1,0.0157,0.0,0.0
+name,Can Konfeksiyon,1,0.0157,0.0,0.0
+name,Canhor,1,0.0157,0.0,0.0
+name,Cankar Eczanesi,1,0.0157,0.0,0.0
+name,Cankara,1,0.0157,0.0,0.0
+name,Canlar Eczanesi,1,0.0157,0.0,0.0
+name,Canpolat Eczanesi,1,0.0157,0.0,0.0
+name,Cansu 2 Gümrüklü Antrepo,1,0.0157,0.0,0.0
+name,Cave and masjid of Saint Habib Neccar,1,0.0157,0.0,0.0
+name,Cavit Eczanesi,1,0.0157,0.0,0.0
+name,Cağlayan Yaylası,1,0.0157,0.0,0.0
+name,Cebeler,1,0.0157,0.0,0.0
+name,Cem Eczanesi,1,0.0157,0.0,0.0
+name,Cemal Gürsel Caddesi,1,0.0157,0.0,0.0
+name,Cemal Gürsel Mah.,1,0.0157,0.0,0.0
+name,Cemre Eczanesi,1,0.0157,0.0,0.0
+name,Cengiz Parlak Eczanesi,1,0.0157,0.0,0.0
+name,Cengiz Topel,1,0.0157,0.0,0.0
+name,Cengiz Topel Mah.,1,0.0157,0.0,0.0
+name,Cennet Eczanesi,1,0.0157,0.0,0.0
+name,Cennetpınarı,1,0.0157,0.0,0.0
+name,Cerityeniyapan,1,0.0157,0.0,0.0
+name,Cevdetpaşa Caddesi,1,0.0157,0.0,0.0
+name,Cevizli,1,0.0157,0.0,0.0
+name,Cevizli Eczanesi,1,0.0157,0.0,0.0
+name,Ceylanlı,1,0.0157,0.0,0.0
+name,Ceynak Dörtyol Antrepo,1,0.0157,0.0,0.0
+name,Ceza İnfaz Kurumları ve Tutukevleri Personeli Eğitim Merkezi,1,0.0157,0.0,0.0
+name,Cilli Eczanesi,1,0.0157,0.0,0.0
+name,Cimikanlı,1,0.0157,0.0,0.0
+name,Cindi Hamamı,1,0.0157,0.0,0.0
+name,Cindioğlu Eczanesi,1,0.0157,0.0,0.0
+name,Continent,1,0.0157,0.0,0.0
+name,Coşkun Eczanesi,1,0.0157,0.0,0.0
+name,Cumartesi Pazarı,1,0.0157,0.0,0.0
+name,Cumhuriyet - Cami mahalle sınırı,1,0.0157,0.0,0.0
+name,Cumhuriyet Eczanesi,1,0.0157,0.0,0.0
+name,Cumhuriyet Meydanı,1,0.0157,0.0,0.0
+name,Cumhuriyet Ortaokulu,1,0.0157,0.0,0.0
+name,Cumhurriyet,1,0.0157,0.0,0.0
+name,Cırtıman,1,0.0157,0.0,0.0
+name,DOĞA ŞEHİR SİTESİ,1,0.0157,0.0,0.0
+name,DOĞA ŞEHİR SİTESİ B BLOK,1,0.0157,0.0,0.0
+name,DSİ PARKI,1,0.0157,0.0,0.0
+name,Dadağlı,1,0.0157,0.0,0.0
+name,Dal Eczanesi,1,0.0157,0.0,0.0
+name,Dalgıç Eczanesi,1,0.0157,0.0,0.0
+name,Damdırmaz,1,0.0157,0.0,0.0
+name,Damla Eczanesi,1,0.0157,0.0,0.0
+name,Damlacık,1,0.0157,0.0,0.0
+name,Danaahmetli,1,0.0157,0.0,0.0
+name,Danaahmetli Köprüsü,1,0.0157,0.0,0.0
+name,Daraoğlu Eczanesi,1,0.0157,0.0,0.0
+name,Dardağan,1,0.0157,0.0,0.0
+name,Davarcıoğlu Eczanesi,1,0.0157,0.0,0.0
+name,Davuthan,1,0.0157,0.0,0.0
+name,Dayı Ahmet Ağa Konağı,1,0.0157,0.0,0.0
+name,Dayıdağı,1,0.0157,0.0,0.0
+name,Dağdancık,1,0.0157,0.0,0.0
+name,Dağdelen Eczanesi,1,0.0157,0.0,0.0
+name,Dağıstan,1,0.0157,0.0,0.0
+name,Dağıstan - Kumarlı mahalle sınırı,1,0.0157,0.0,0.0
+name,Dağıstan - Tepe mahalle sınırı,1,0.0157,0.0,0.0
+name,Dedemli,1,0.0157,0.0,0.0
+name,Dedepaşa,1,0.0157,0.0,0.0
+name,Dedeçınar,1,0.0157,0.0,0.0
+name,Defne Yaşam Eczanesi,1,0.0157,0.0,0.0
+name,Delibekirli,1,0.0157,0.0,0.0
+name,Deliosman,1,0.0157,0.0,0.0
+name,Deliosman Border Post,1,0.0157,0.0,0.0
+name,Deliosman Border Post Helipad,1,0.0157,0.0,0.0
+name,Demirciler Eczanesi,1,0.0157,0.0,0.0
+name,Demirkonak,1,0.0157,0.0,0.0
+name,Demirköprü,1,0.0157,0.0,0.0
+name,Demirler,1,0.0157,0.0,0.0
+name,Demrek,1,0.0157,0.0,0.0
+name,Deniz Mah.,1,0.0157,0.0,0.0
+name,Deniz Polisi Atakaş Limanı,1,0.0157,0.0,0.0
+name,Deniz Polisi Tosyalı Limanı,1,0.0157,0.0,0.0
+name,Deniz Yetin Eczanesi,1,0.0157,0.0,0.0
+name,Denizbank,1,0.0157,0.0,0.0
+name,Denizciler Eczanesi,1,0.0157,0.0,0.0
+name,Denizoğlu Eczanesi,1,0.0157,0.0,0.0
+name,Derdiyok Eczanesi,1,0.0157,0.0,0.0
+name,Deredüzü,1,0.0157,0.0,0.0
+name,Derekuyu,1,0.0157,0.0,0.0
+name,Dereli Sokak,1,0.0157,0.0,0.0
+name,Dereobası,1,0.0157,0.0,0.0
+name,Derinkök Eczanesi,1,0.0157,0.0,0.0
+name,Derinsu,1,0.0157,0.0,0.0
+name,Dernek,1,0.0157,0.0,0.0
+name,Dervişler,1,0.0157,0.0,0.0
+name,Dervişli,1,0.0157,0.0,0.0
+name,Dervişpınarı Yaylası,1,0.0157,0.0,0.0
+name,Derya Atay Eczanesi,1,0.0157,0.0,0.0
+name,Derya Eczanesi,1,0.0157,0.0,0.0
+name,Deveciler Eczanesi,1,0.0157,0.0,0.0
+name,Devlet Bahçeli Bulvarı,1,0.0157,0.0,0.0
+name,Değirmen,1,0.0157,0.0,0.0
+name,Değirmencik,1,0.0157,0.0,0.0
+name,Değirmendere,1,0.0157,0.0,0.0
+name,Değirmenli,1,0.0157,0.0,0.0
+name,Değirmiçem Mah.,1,0.0157,0.0,0.0
+name,Didar Eczanesi,1,0.0157,0.0,0.0
+name,Didem Eczanesi,1,0.0157,0.0,0.0
+name,Dikilitaş Camii,1,0.0157,0.0,0.0
+name,Dilan Eczanesi,1,0.0157,0.0,0.0
+name,Dilektepe,1,0.0157,0.0,0.0
+name,Dilşad Eczanesi,1,0.0157,0.0,0.0
+name,Dingilli,1,0.0157,0.0,0.0
+name,Dinçer Eczanesi,1,0.0157,0.0,0.0
+name,Divanlı Eczanesi,1,0.0157,0.0,0.0
+name,Doksöz Eczanesi,1,0.0157,0.0,0.0
+name,Doktor Sadullah Caddesi,1,0.0157,0.0,0.0
+name,Dokur,1,0.0157,0.0,0.0
+name,Dokurcun,1,0.0157,0.0,0.0
+name,Dokuztekne,1,0.0157,0.0,0.0
+name,Dokuzçınar,1,0.0157,0.0,0.0
+name,Dolaş Eczanesi,1,0.0157,0.0,0.0
+name,Dorucak,1,0.0157,0.0,0.0
+name,Doyran,1,0.0157,0.0,0.0
+name,Doğa Manav,1,0.0157,0.0,0.0
+name,Doğa Şehir Sitesi,1,0.0157,0.0,0.0
+name,Doğa Şehir Sitesi B Blok,1,0.0157,0.0,0.0
+name,Doğan,1,0.0157,0.0,0.0
+name,Doğanca,1,0.0157,0.0,0.0
+name,Doğanköy,1,0.0157,0.0,0.0
+name,Doğanlı,1,0.0157,0.0,0.0
+name,Doğruöz Eczanesi,1,0.0157,0.0,0.0
+name,Doğuayrancı,1,0.0157,0.0,0.0
+name,Doğukent Mah. Muhtarlığı,1,0.0157,0.0,0.0
+name,Dulkadiroğlu Parkı,1,0.0157,0.0,0.0
+name,Dulkadiroğlu Toplum Sağlığı Merkezi,1,0.0157,0.0,0.0
+name,Dulkadiroğlu İlkokulu,1,0.0157,0.0,0.0
+name,Dumanlıdağ,1,0.0157,0.0,0.0
+name,Dumlupınar Eczanesi,1,0.0157,0.0,0.0
+name,Dumlupınar Fırını,1,0.0157,0.0,0.0
+name,Dumlupınar Sokak,1,0.0157,0.0,0.0
+name,Durak,1,0.0157,0.0,0.0
+name,Duraklı,1,0.0157,0.0,0.0
+name,Duraklı Mah.,1,0.0157,0.0,0.0
+name,Durantaş,1,0.0157,0.0,0.0
+name,Durmuşlar,1,0.0157,0.0,0.0
+name,Durnalık,1,0.0157,0.0,0.0
+name,Duru Faysal Eczanesi,1,0.0157,0.0,0.0
+name,Duruca,1,0.0157,0.0,0.0
+name,Durukaynak,1,0.0157,0.0,0.0
+name,Dutlu,1,0.0157,0.0,0.0
+name,Dutluca,1,0.0157,0.0,0.0
+name,Duygu Eczanesi,1,0.0157,0.0,0.0
+name,DÜLÜKBABA SAĞLIK OCAĞI,1,0.0157,0.0,0.0
+name,Dönmezoğlu 2 Dörtyol Antrepo,1,0.0157,0.0,0.0
+name,Dönmezoğlu 3 Özerli Antrepo,1,0.0157,0.0,0.0
+name,Dönmezoğlu Antrepo İdari Binası,1,0.0157,0.0,0.0
+name,Dönüklü,1,0.0157,0.0,0.0
+name,Dörtyol - Payas İlçe Sınırı,1,0.0157,0.0,0.0
+name,Dülger Apt.,1,0.0157,0.0,0.0
+name,Dülükbaba Mah.,1,0.0157,0.0,0.0
+name,Dümbüllü,1,0.0157,0.0,0.0
+name,Dümbüllü Dağı,1,0.0157,0.0,0.0
+name,Dündar Eczanesi,1,0.0157,0.0,0.0
+name,Dündarlı,1,0.0157,0.0,0.0
+name,Dünya Eczanesi,1,0.0157,0.0,0.0
+name,Düzağaç,1,0.0157,0.0,0.0
+name,Düzbağ Cam,1,0.0157,0.0,0.0
+name,Düzbağ Cumhuriyet İlkokulu,1,0.0157,0.0,0.0
+name,Düzbağ Ortaokulu,1,0.0157,0.0,0.0
+name,Düziçi Eczanesi,1,0.0157,0.0,0.0
+name,Düziçi Gişeleri,1,0.0157,0.0,0.0
+name,Düztepe Mah.,1,0.0157,0.0,0.0
+name,Düğünyurdu,1,0.0157,0.0,0.0
+name,Dımışkılı,1,0.0157,0.0,0.0
+name,E1,1,0.0157,0.0,0.0
+name,E10,1,0.0157,0.0,0.0
+name,E11,1,0.0157,0.0,0.0
+name,E12,1,0.0157,0.0,0.0
+name,E13,1,0.0157,0.0,0.0
+name,E2,1,0.0157,0.0,0.0
+name,E3,1,0.0157,0.0,0.0
+name,E4,1,0.0157,0.0,0.0
+name,E5,1,0.0157,0.0,0.0
+name,E6,1,0.0157,0.0,0.0
+name,E7,1,0.0157,0.0,0.0
+name,E8,1,0.0157,0.0,0.0
+name,E9,1,0.0157,0.0,0.0
+name,EMRAH BİLGİSAYAR,1,0.0157,0.0,0.0
+name,EV NO 7,1,0.0157,0.0,0.0
+name,Ece Eczanesi,1,0.0157,0.0,0.0
+name,Ece Göçmen Eczanesi,1,0.0157,0.0,0.0
+name,Ed Coffee Station,1,0.0157,0.0,0.0
+name,Ediboğlu Eczanesi,1,0.0157,0.0,0.0
+name,Efendioğlu Eczanesi,1,0.0157,0.0,0.0
+name,Efirağızlı,1,0.0157,0.0,0.0
+name,Ege Eczanesi,1,0.0157,0.0,0.0
+name,Ege Mavi Eczanesi,1,0.0157,0.0,0.0
+name,Ekin Eczanesi,1,0.0157,0.0,0.0
+name,Ekmen Eczanesi,1,0.0157,0.0,0.0
+name,Ekrem Eczanesi,1,0.0157,0.0,0.0
+name,Ekşiler,1,0.0157,0.0,0.0
+name,Elbistanhüyüğü,1,0.0157,0.0,0.0
+name,Elbistanlılar,1,0.0157,0.0,0.0
+name,Elektrik Mah.,1,0.0157,0.0,0.0
+name,Elektrik-Elektronik Fakültesi,1,0.0157,0.0,0.0
+name,Elgin Eczanesi,1,0.0157,0.0,0.0
+name,Elit Eczanesi,1,0.0157,0.0,0.0
+name,Ellek,1,0.0157,0.0,0.0
+name,Elma Market,1,0.0157,0.0,0.0
+name,Elmalar Hakan Eczanesi,1,0.0157,0.0,0.0
+name,Elmas Eczanesi,1,0.0157,0.0,0.0
+name,Elvin Eczanesi,1,0.0157,0.0,0.0
+name,Elçiler,1,0.0157,0.0,0.0
+name,Emek Kafadar Eczanesi,1,0.0157,0.0,0.0
+name,Emek Mah.,1,0.0157,0.0,0.0
+name,Emek Sevgi Eczanesi,1,0.0157,0.0,0.0
+name,Emerce,1,0.0157,0.0,0.0
+name,Emin Eczanesi,1,0.0157,0.0,0.0
+name,Emine-Fevzi Uslu İlkokulu,1,0.0157,0.0,0.0
+name,Emir Alp Eczanesi,1,0.0157,0.0,0.0
+name,Emir Eczanesi,1,0.0157,0.0,0.0
+name,Emirler,1,0.0157,0.0,0.0
+name,Emiroğlu,1,0.0157,0.0,0.0
+name,Emiruşağı,1,0.0157,0.0,0.0
+name,Enek,1,0.0157,0.0,0.0
+name,Engin Eczanesi,1,0.0157,0.0,0.0
+name,Envar Eczanesi,1,0.0157,0.0,0.0
+name,Epiphaneia Antik Kenti,1,0.0157,0.0,0.0
+name,Erat Eczanesi,1,0.0157,0.0,0.0
+name,Erat Sitesi,1,0.0157,0.0,0.0
+name,Erbil Eczanesi,1,0.0157,0.0,0.0
+name,Erdi Eczanesi,1,0.0157,0.0,0.0
+name,Erdil Eczanesi,1,0.0157,0.0,0.0
+name,Erdoğan Eczanesi,1,0.0157,0.0,0.0
+name,Erdoğan Grup® - Hatay İl Şubesi,1,0.0157,0.0,0.0
+name,Erdoğan Premium Sitesi A Blok,1,0.0157,0.0,0.0
+name,Erdoğan Premium Sitesi B Blok,1,0.0157,0.0,0.0
+name,Erem HES,1,0.0157,0.0,0.0
+name,Erenler,1,0.0157,0.0,0.0
+name,Ergönül Eczanesi,1,0.0157,0.0,0.0
+name,Erikler,1,0.0157,0.0,0.0
+name,Erikli,1,0.0157,0.0,0.0
+name,Erinç Eczanesi,1,0.0157,0.0,0.0
+name,Ersoy Eczanesi,1,0.0157,0.0,0.0
+name,Ertan Eczanesi,1,0.0157,0.0,0.0
+name,Ertaş Eczanesi,1,0.0157,0.0,0.0
+name,Ertuğrul Gazi Mah.,1,0.0157,0.0,0.0
+name,Erzin Devlet Hastanesi,1,0.0157,0.0,0.0
+name,Erzin Doğalgaz Kombine Çevrim Santrali,1,0.0157,0.0,0.0
+name,Erzin Eczanesi,1,0.0157,0.0,0.0
+name,Erçelebi Eczanesi,1,0.0157,0.0,0.0
+name,Esen Eczanesi,1,0.0157,0.0,0.0
+name,Esenbahçe Piknik Yeri,1,0.0157,0.0,0.0
+name,Esenbulak,1,0.0157,0.0,0.0
+name,Esence,1,0.0157,0.0,0.0
+name,Esenler,1,0.0157,0.0,0.0
+name,Esenocak Eczanesi,1,0.0157,0.0,0.0
+name,Esentepe Eczanesi,1,0.0157,0.0,0.0
+name,Esentepe Konutları,1,0.0157,0.0,0.0
+name,Esenyurt,1,0.0157,0.0,0.0
+name,Esenyurt Mah.,1,0.0157,0.0,0.0
+name,Eser Eczanesi,1,0.0157,0.0,0.0
+name,Eski Kale Kalıntıları,1,0.0157,0.0,0.0
+name,Eski Samsat Caddesi,1,0.0157,0.0,0.0
+name,Eski Zülüflühan,1,0.0157,0.0,0.0
+name,Eskialtıntaş,1,0.0157,0.0,0.0
+name,Eskihüsnümansur,1,0.0157,0.0,0.0
+name,Eskiocak Eczanesi,1,0.0157,0.0,0.0
+name,Esra Büyükdereli Eczanesi,1,0.0157,0.0,0.0
+name,Esra Cengiz Eczanesi,1,0.0157,0.0,0.0
+name,Esra Nur Eczanesi,1,0.0157,0.0,0.0
+name,Etiler Mah.,1,0.0157,0.0,0.0
+name,Evciler,1,0.0157,0.0,0.0
+name,Evin Eczanesi,1,0.0157,0.0,0.0
+name,Evirgeç Mantı Evi & Yöresel Ev Yemekleri,1,0.0157,0.0,0.0
+name,Evren,1,0.0157,0.0,0.0
+name,Evrentepe,1,0.0157,0.0,0.0
+name,Evri Pınarbaşı,1,0.0157,0.0,0.0
+name,Evri Taşbiçme,1,0.0157,0.0,0.0
+name,ExtremPark Kapıçam,1,0.0157,0.0,0.0
+name,Eydibaba Mah.,1,0.0157,0.0,0.0
+name,Eyüp Sultan Caddesi,1,0.0157,0.0,0.0
+name,Eyüp Sultan Cami,1,0.0157,0.0,0.0
+name,EĞİTİM FAKÜLTESİ B BLOK,1,0.0157,0.0,0.0
+name,Eğitimsen Hatay Şubesi,1,0.0157,0.0,0.0
+name,Eğitimsen İskenderun Şubesi,1,0.0157,0.0,0.0
+name,Eğribucak,1,0.0157,0.0,0.0
+name,Eğrice,1,0.0157,0.0,0.0
+name,EİH,1,0.0157,0.0,0.0
+name,F,1,0.0157,0.0,0.0
+name,Fahrettin Altay Caddesi,1,0.0157,0.0,0.0
+name,Fakülte Alevli Eczanesi,1,0.0157,0.0,0.0
+name,Fakülte Eczanesi,1,0.0157,0.0,0.0
+name,Fakılı,1,0.0157,0.0,0.0
+name,Fakıuşağı Aile Sağlığı Merkezi,1,0.0157,0.0,0.0
+name,Fakıuşağı Ortaokulu,1,0.0157,0.0,0.0
+name,Farabi Eczanesi,1,0.0157,0.0,0.0
+name,Farah Hatipoğlu Eczanesi,1,0.0157,0.0,0.0
+name,Fatih Bulvarı,1,0.0157,0.0,0.0
+name,Fatih Caddesi,1,0.0157,0.0,0.0
+name,Fatih Sultan Mehmet,1,0.0157,0.0,0.0
+name,Fatma Eczanesi,1,0.0157,0.0,0.0
+name,Fazilet Eczanesi,1,0.0157,0.0,0.0
+name,Federal Border Guard No. 1,1,0.0157,0.0,0.0
+name,Federal Border Guard No. 1 Helipad,1,0.0157,0.0,0.0
+name,Federal Border Guard No. 4,1,0.0157,0.0,0.0
+name,Federal Border Guard No. 4 Helipad,1,0.0157,0.0,0.0
+name,Fener Caddesi,1,0.0157,0.0,0.0
+name,Fenk Yaylası,1,0.0157,0.0,0.0
+name,Ferhat Eczanesi,1,0.0157,0.0,0.0
+name,Fericek,1,0.0157,0.0,0.0
+name,Feridun Oral Aykanat Anadolu Lisesi,1,0.0157,0.0,0.0
+name,Fevzipaşa,1,0.0157,0.0,0.0
+name,Fevzipaşa TM - Bahçe TM EİH,1,0.0157,0.0,0.0
+name,Fi Hostel,1,0.0157,0.0,0.0
+name,Fidanlık Eczanesi,1,0.0157,0.0,0.0
+name,Fidanlık Mah.,1,0.0157,0.0,0.0
+name,Flora Eczanesi,1,0.0157,0.0,0.0
+name,Funda Eczanesi,1,0.0157,0.0,0.0
+name,Furkan Eczanesi,1,0.0157,0.0,0.0
+name,Fındık Yaylası,1,0.0157,0.0,0.0
+name,Fırlaklı,1,0.0157,0.0,0.0
+name,Fıstık Müzesi,1,0.0157,0.0,0.0
+name,GASKİ Güneş Enerji Santrali,1,0.0157,0.0,0.0
+name,Galalı Dere 1 Caddesi,1,0.0157,0.0,0.0
+name,Gastronomi Merkezi,1,0.0157,0.0,0.0
+name,Gayberli Mah.,1,0.0157,0.0,0.0
+name,Gazi Eczanesi,1,0.0157,0.0,0.0
+name,Gazi Kışlası,1,0.0157,0.0,0.0
+name,Gazi Osman Paşa Camii,1,0.0157,0.0,0.0
+name,Gaziantep - Hatay,1,0.0157,0.0,0.0
+name,Gaziantep Anadolu Lisesi,1,0.0157,0.0,0.0
+name,Gaziantep Ecological Building,1,0.0157,0.0,0.0
+name,Gaziantep Eczanesi,1,0.0157,0.0,0.0
+name,Gaziantep Hayvanat Bahçesi,1,0.0157,0.0,0.0
+name,Gaziantep Kolej Vakfı,1,0.0157,0.0,0.0
+name,Gaziantep Lisesi,1,0.0157,0.0,0.0
+name,Gaziantep merkez camii,1,0.0157,0.0,0.0
+name,Gaziantep Şehir Hastanesi,1,0.0157,0.0,0.0
+name,Gaziantep Şehir Hastanesi İnşaatı,1,0.0157,0.0,0.0
+name,Gaziantep-2 TM - Erzin TM EİH,1,0.0157,0.0,0.0
+name,Gaziantep-2 TM - Pompa-3 TM EİH,1,0.0157,0.0,0.0
+name,Gazikent Mah.,1,0.0157,0.0,0.0
+name,Gazikent Şifa Eczanesi,1,0.0157,0.0,0.0
+name,Gaziler,1,0.0157,0.0,0.0
+name,Gaziosmanpaşa,1,0.0157,0.0,0.0
+name,Gaziyurt İlkokulu,1,0.0157,0.0,0.0
+name,Gedikkuyu,1,0.0157,0.0,0.0
+name,Gelecek Sigorta,1,0.0157,0.0,0.0
+name,Gelinbuğday,1,0.0157,0.0,0.0
+name,Genco Derman Eczanesi,1,0.0157,0.0,0.0
+name,Genco Eczanesi,1,0.0157,0.0,0.0
+name,Geneyik,1,0.0157,0.0,0.0
+name,Gençay Eczanesi,1,0.0157,0.0,0.0
+name,Gençlik Merkezi,1,0.0157,0.0,0.0
+name,Gerciğin,1,0.0157,0.0,0.0
+name,Geçitboyu,1,0.0157,0.0,0.0
+name,Girik,1,0.0157,0.0,0.0
+name,Girne Mah.,1,0.0157,0.0,0.0
+name,Gizem Eczanesi,1,0.0157,0.0,0.0
+name,Gizemnur Eczanesi,1,0.0157,0.0,0.0
+name,Go petrol,1,0.0157,0.0,0.0
+name,Gonca Eczanesi,1,0.0157,0.0,0.0
+name,Grand Pazarcık Otel,1,0.0157,0.0,0.0
+name,Grand Plaza,1,0.0157,0.0,0.0
+name,Göbek,1,0.0157,0.0,0.0
+name,Gökdere,1,0.0157,0.0,0.0
+name,Gökgöl,1,0.0157,0.0,0.0
+name,Gökmusa,1,0.0157,0.0,0.0
+name,Gökmustafalı,1,0.0157,0.0,0.0
+name,Göksüncük,1,0.0157,0.0,0.0
+name,Göktimur Bakım Merkezi,1,0.0157,0.0,0.0
+name,Göktuğ Eczanesi,1,0.0157,0.0,0.0
+name,Gökçay,1,0.0157,0.0,0.0
+name,Gökçayır,1,0.0157,0.0,0.0
+name,Gökçe Ağar Eczanesi,1,0.0157,0.0,0.0
+name,Gökçedere,1,0.0157,0.0,0.0
+name,Gökçegöz,1,0.0157,0.0,0.0
+name,Gökçepayam,1,0.0157,0.0,0.0
+name,Gökşen Eczanesi,1,0.0157,0.0,0.0
+name,Göl,1,0.0157,0.0,0.0
+name,Göl Dağı,1,0.0157,0.0,0.0
+name,Gölbağı,1,0.0157,0.0,0.0
+name,Gölbaşı Gölü,1,0.0157,0.0,0.0
+name,Göllü,1,0.0157,0.0,0.0
+name,Göllüce Mah.,1,0.0157,0.0,0.0
+name,Göllühöyük,1,0.0157,0.0,0.0
+name,Göltepe,1,0.0157,0.0,0.0
+name,Göltepe Mah.,1,0.0157,0.0,0.0
+name,Gölyeri,1,0.0157,0.0,0.0
+name,Gönem Gümrükleme,1,0.0157,0.0,0.0
+name,Görenler Kereste,1,0.0157,0.0,0.0
+name,Görgün Eczanesi,1,0.0157,0.0,0.0
+name,Gövceli,1,0.0157,0.0,0.0
+name,Göynük,1,0.0157,0.0,0.0
+name,Gözde Bahar Eczanesi,1,0.0157,0.0,0.0
+name,Gözebaşı,1,0.0157,0.0,0.0
+name,Gözkaya,1,0.0157,0.0,0.0
+name,Gözlüce,1,0.0157,0.0,0.0
+name,Gözlühüyük,1,0.0157,0.0,0.0
+name,Göztepe,1,0.0157,0.0,0.0
+name,Göztepe Mah.,1,0.0157,0.0,0.0
+name,Göğebakan Eczanesi,1,0.0157,0.0,0.0
+name,Gülali Eczanesi,1,0.0157,0.0,0.0
+name,Gülbaba,1,0.0157,0.0,0.0
+name,Gülbaş Eczanesi,1,0.0157,0.0,0.0
+name,Gülderen,1,0.0157,0.0,0.0
+name,Güldüzü,1,0.0157,0.0,0.0
+name,Gülebi Sokak,1,0.0157,0.0,0.0
+name,Güleryüz Caddesi,1,0.0157,0.0,0.0
+name,Güleş Eczanesi,1,0.0157,0.0,0.0
+name,Gülkent,1,0.0157,0.0,0.0
+name,Güllük,1,0.0157,0.0,0.0
+name,Güllüoglu Sk.,1,0.0157,0.0,0.0
+name,Gülpınar Eczanesi,1,0.0157,0.0,0.0
+name,Gülten Eczanesi,1,0.0157,0.0,0.0
+name,Gültepe,1,0.0157,0.0,0.0
+name,Gülçin Turgut Eczanesi,1,0.0157,0.0,0.0
+name,Gülşen Eczanesi,1,0.0157,0.0,0.0
+name,Gülşen Çayırlı Eczanesi,1,0.0157,0.0,0.0
+name,Gümüşgöze,1,0.0157,0.0,0.0
+name,Gümüşlü,1,0.0157,0.0,0.0
+name,Gümüşpınar,1,0.0157,0.0,0.0
+name,Günay Eczanesi,1,0.0157,0.0,0.0
+name,Gündeğer,1,0.0157,0.0,0.0
+name,Gündoğan Eczanesi,1,0.0157,0.0,0.0
+name,Güneykaş,1,0.0157,0.0,0.0
+name,Güneykent Eczanesi,1,0.0157,0.0,0.0
+name,Güneykışla,1,0.0157,0.0,0.0
+name,Güneş Mah.,1,0.0157,0.0,0.0
+name,Güngör Eczanesi,1,0.0157,0.0,0.0
+name,Güngören,1,0.0157,0.0,0.0
+name,Güngürge,1,0.0157,0.0,0.0
+name,Günyazı,1,0.0157,0.0,0.0
+name,Günışığı Sitesi,1,0.0157,0.0,0.0
+name,Gürbaşak,1,0.0157,0.0,0.0
+name,Gürbüz Eczanesi,1,0.0157,0.0,0.0
+name,Gürel Eczanesi,1,0.0157,0.0,0.0
+name,Gürsu,1,0.0157,0.0,0.0
+name,Gürük Tepesi,1,0.0157,0.0,0.0
+name,Güven Sk.,1,0.0157,0.0,0.0
+name,Güven Sokak,1,0.0157,0.0,0.0
+name,Güvenevler Eczanesi,1,0.0157,0.0,0.0
+name,Güvenevler Mah.,1,0.0157,0.0,0.0
+name,Güventaşı,1,0.0157,0.0,0.0
+name,Güvenç,1,0.0157,0.0,0.0
+name,Güz Eczanesi,1,0.0157,0.0,0.0
+name,Güzelce,1,0.0157,0.0,0.0
+name,Güzelce Höyük,1,0.0157,0.0,0.0
+name,Güzelvadi Mah.,1,0.0157,0.0,0.0
+name,Güzelyurt,1,0.0157,0.0,0.0
+name,Güzelçay Camii,1,0.0157,0.0,0.0
+name,HASMETALYAPI,1,0.0157,0.0,0.0
+name,HATAY ORMAN BÖLGE MÜDÜRLÜĞÜ,1,0.0157,0.0,0.0
+name,HUDUT KARTALLARI,1,0.0157,0.0,0.0
+name,Habib-i Neccar Camii,1,0.0157,0.0,0.0
+name,Hacar Mah.,1,0.0157,0.0,0.0
+name,Hacı Bayram Veli Mah.,1,0.0157,0.0,0.0
+name,Hacı Muhammet Dağı,1,0.0157,0.0,0.0
+name,Hacıarslan,1,0.0157,0.0,0.0
+name,Hacıağlar,1,0.0157,0.0,0.0
+name,Hacıbaba Emek Eczanesi,1,0.0157,0.0,0.0
+name,Hacıbaba Mah.,1,0.0157,0.0,0.0
+name,Hacıköy,1,0.0157,0.0,0.0
+name,Hacımustafa,1,0.0157,0.0,0.0
+name,Hacıömer Caddesi,1,0.0157,0.0,0.0
+name,Hakan Eczanesi,1,0.0157,0.0,0.0
+name,Hakverdi Eczanesi,1,0.0157,0.0,0.0
+name,Hal Eczanesi,1,0.0157,0.0,0.0
+name,Halallar,1,0.0157,0.0,0.0
+name,Halil Eser Caddesi,1,0.0157,0.0,0.0
+name,Halilbey,1,0.0157,0.0,0.0
+name,Halilbey Mah.,1,0.0157,0.0,0.0
+name,Halit Eczanesi,1,0.0157,0.0,0.0
+name,Halk Eğitimi Merkezi,1,0.0157,0.0,0.0
+name,Halk Kütüphanesi,1,0.0157,0.0,0.0
+name,Halkbank,1,0.0157,0.0,0.0
+name,Hamam,1,0.0157,0.0,0.0
+name,Hamdilli,1,0.0157,0.0,0.0
+name,Hampton by Hilton Gaziantep,1,0.0157,0.0,0.0
+name,Hanağzı,1,0.0157,0.0,0.0
+name,Handan Eczanesi,1,0.0157,0.0,0.0
+name,Hanobası,1,0.0157,0.0,0.0
+name,Hanobası Höyük,1,0.0157,0.0,0.0
+name,Harbiye,1,0.0157,0.0,0.0
+name,Hare Eczanesi,1,0.0157,0.0,0.0
+name,Harlısu,1,0.0157,0.0,0.0
+name,Harmanardı,1,0.0157,0.0,0.0
+name,Has Bant,1,0.0157,0.0,0.0
+name,Hasan Kekiner Aile Sağlığı Merkezi,1,0.0157,0.0,0.0
+name,Hasanan,1,0.0157,0.0,0.0
+name,Hasanbeyli - Osmaniye merkez ilçe sınırı,1,0.0157,0.0,0.0
+name,Hasanbeyli Eczanesi,1,0.0157,0.0,0.0
+name,Hasanbeyli Höyüğü,1,0.0157,0.0,0.0
+name,Hasanbeyli RES TM,1,0.0157,0.0,0.0
+name,Hasanbeyli RES TM EİH,1,0.0157,0.0,0.0
+name,Hasancalı,1,0.0157,0.0,0.0
+name,Hasankan Mah.,1,0.0157,0.0,0.0
+name,Hasankendi,1,0.0157,0.0,0.0
+name,Hasanlök,1,0.0157,0.0,0.0
+name,Hasanoğlu,1,0.0157,0.0,0.0
+name,Hasaraçlar,1,0.0157,0.0,0.0
+name,Hassa - İskenderun İlçe Sınırı,1,0.0157,0.0,0.0
+name,Hastane Eczanesi,1,0.0157,0.0,0.0
+name,Hasırcı Eczanesi,1,0.0157,0.0,0.0
+name,Hasırcıoğlu Mah.,1,0.0157,0.0,0.0
+name,Hatay 112,1,0.0157,0.0,0.0
+name,Hatay Büyükşehir Belediyesi,1,0.0157,0.0,0.0
+name,Hatay Eczanesi,1,0.0157,0.0,0.0
+name,Hatay Mobese Binası,1,0.0157,0.0,0.0
+name,Hatay Müftülüğü,1,0.0157,0.0,0.0
+name,Hatay TM,1,0.0157,0.0,0.0
+name,Hatayhamamı,1,0.0157,0.0,0.0
+name,Hava Radar Kıta Komutanlığı,1,0.0157,0.0,0.0
+name,Havutlu,1,0.0157,0.0,0.0
+name,Havuz,1,0.0157,0.0,0.0
+name,Hayat Sönmez Eczanesi,1,0.0157,0.0,0.0
+name,Hayberi Dağı,1,0.0157,0.0,0.0
+name,Haydarbey Mah.,1,0.0157,0.0,0.0
+name,Haydarlı,1,0.0157,0.0,0.0
+name,Haznevî Tarikati Camii,1,0.0157,0.0,0.0
+name,Hazreti Hızır Türbesi,1,0.0157,0.0,0.0
+name,Hekimoğlu Eczanesi,1,0.0157,0.0,0.0
+name,Helete Aile Sağlık Merkezi,1,0.0157,0.0,0.0
+name,Helete Belediye Binası,1,0.0157,0.0,0.0
+name,Helete Cumhuriyet Mah.,1,0.0157,0.0,0.0
+name,Helete Yeşiloba Mah.,1,0.0157,0.0,0.0
+name,Helvalı,1,0.0157,0.0,0.0
+name,Hemizkanlı,1,0.0157,0.0,0.0
+name,Hermosa Beauty Center,1,0.0157,0.0,0.0
+name,Hikmet Tunalı Eczanesi,1,0.0157,0.0,0.0
+name,Hindo,1,0.0157,0.0,0.0
+name,Hintoğlu Eczanesi,1,0.0157,0.0,0.0
+name,Hippodrome A,1,0.0157,0.0,0.0
+name,Hisarkaya,1,0.0157,0.0,0.0
+name,Hoca Ahmet Yesevi İmam Hatip Lisesi,1,0.0157,0.0,0.0
+name,Hocalar,1,0.0157,0.0,0.0
+name,Hodri,1,0.0157,0.0,0.0
+name,Hopurlu,1,0.0157,0.0,0.0
+name,Hoylu Park A Blok,1,0.0157,0.0,0.0
+name,Hoylu Park B Blok,1,0.0157,0.0,0.0
+name,Hoşgör Derman Eczanesi,1,0.0157,0.0,0.0
+name,Humanız Mah.,1,0.0157,0.0,0.0
+name,Huzur Eczanesi,1,0.0157,0.0,0.0
+name,Hz. Yusuf Camii,1,0.0157,0.0,0.0
+name,Höyük,1,0.0157,0.0,0.0
+name,Hüdayıoğlu Eczanesi,1,0.0157,0.0,0.0
+name,Hülya Eczanesi,1,0.0157,0.0,0.0
+name,Hürriyet Eczanesi,1,0.0157,0.0,0.0
+name,Hüseyinoğlu,1,0.0157,0.0,0.0
+name,Hüsna Eczanesi,1,0.0157,0.0,0.0
+name,Hıcıpoğlu,1,0.0157,0.0,0.0
+name,Hızlı Tren Nurdağı Tüneli,1,0.0157,0.0,0.0
+name,Hızır Yaylası,1,0.0157,0.0,0.0
+name,II. Selim Camii - Payas,1,0.0157,0.0,0.0
+name,Ilıkpınar,1,0.0157,0.0,0.0
+name,Irmak Eczanesi,1,0.0157,0.0,0.0
+name,Issızca,1,0.0157,0.0,0.0
+name,Istasyon Cd.,1,0.0157,0.0,0.0
+name,Işık Eczanesi,1,0.0157,0.0,0.0
+name,Kabakoğlu Eczanesi,1,0.0157,0.0,0.0
+name,Kabarcık,1,0.0157,0.0,0.0
+name,Kabasakız,1,0.0157,0.0,0.0
+name,Kadi Kasteli,1,0.0157,0.0,0.0
+name,Kadimen,1,0.0157,0.0,0.0
+name,Kadıncık,1,0.0157,0.0,0.0
+name,Kahramanmaraş Havaalanı,1,0.0157,0.0,0.0
+name,Kahvelipınar Mah.,1,0.0157,0.0,0.0
+name,Kahyalar,1,0.0157,0.0,0.0
+name,Kalaycık,1,0.0157,0.0,0.0
+name,Kale Sokağı,1,0.0157,0.0,0.0
+name,Kaleboynu,1,0.0157,0.0,0.0
+name,Kalecik Barajı,1,0.0157,0.0,0.0
+name,Kaledibi,1,0.0157,0.0,0.0
+name,Kalemeydan,1,0.0157,0.0,0.0
+name,Kalkancı Eczanesi,1,0.0157,0.0,0.0
+name,Kaman,1,0.0157,0.0,0.0
+name,Kamanağzı Mezarlığı,1,0.0157,0.0,0.0
+name,Kamberli,1,0.0157,0.0,0.0
+name,Kamberlikaya,1,0.0157,0.0,0.0
+name,Kamışlar,1,0.0157,0.0,0.0
+name,Kanalıcı Mah.,1,0.0157,0.0,0.0
+name,Kanatlı Caddesi,1,0.0157,0.0,0.0
+name,Kanatlı Eczanesi,1,0.0157,0.0,0.0
+name,Kangallar,1,0.0157,0.0,0.0
+name,Kantarma,1,0.0157,0.0,0.0
+name,Kanuni Sultan Süleyman Caddesi,1,0.0157,0.0,0.0
+name,Kanuni Sultan Süleyman Mesleki ve Teknik Anadolu Lisesi,1,0.0157,0.0,0.0
+name,Kapalı İstasyon,1,0.0157,0.0,0.0
+name,Kapcami Mah.,1,0.0157,0.0,0.0
+name,Kapılı,1,0.0157,0.0,0.0
+name,Kapıçam Tabiat Parkı,1,0.0157,0.0,0.0
+name,Karaali,1,0.0157,0.0,0.0
+name,Karaali Eczanesi,1,0.0157,0.0,0.0
+name,Karababa,1,0.0157,0.0,0.0
+name,Karabahşılı,1,0.0157,0.0,0.0
+name,Karabiber Market,1,0.0157,0.0,0.0
+name,Karabulak Eczanesi,1,0.0157,0.0,0.0
+name,Karabulut Eczanesi,1,0.0157,0.0,0.0
+name,Karaburçlu,1,0.0157,0.0,0.0
+name,Karabıyıklı,1,0.0157,0.0,0.0
+name,Karacaburç,1,0.0157,0.0,0.0
+name,Karacalar,1,0.0157,0.0,0.0
+name,Karacanlık,1,0.0157,0.0,0.0
+name,Karacaoğlan Eczanesi,1,0.0157,0.0,0.0
+name,Karacasu Kampüsü,1,0.0157,0.0,0.0
+name,Karacurun,1,0.0157,0.0,0.0
+name,Karadağ,1,0.0157,0.0,0.0
+name,Karadağ Eczanesi,1,0.0157,0.0,0.0
+name,Karadağ Mah.,1,0.0157,0.0,0.0
+name,Karadede,1,0.0157,0.0,0.0
+name,Karadurmuşlu,1,0.0157,0.0,0.0
+name,Karadut,1,0.0157,0.0,0.0
+name,Karafenk,1,0.0157,0.0,0.0
+name,Karafrenk Kalesi,1,0.0157,0.0,0.0
+name,Karagöl Ovası,1,0.0157,0.0,0.0
+name,Karagöz,1,0.0157,0.0,0.0
+name,Karagüveç,1,0.0157,0.0,0.0
+name,Karahasan,1,0.0157,0.0,0.0
+name,Karakaya,1,0.0157,0.0,0.0
+name,Karakese,1,0.0157,0.0,0.0
+name,Karakoç,1,0.0157,0.0,0.0
+name,Karakuş Eczanesi,1,0.0157,0.0,0.0
+name,Karaköse,1,0.0157,0.0,0.0
+name,Karaküçük Eczanesi,1,0.0157,0.0,0.0
+name,Karalök Eczanesi,1,0.0157,0.0,0.0
+name,Karaman Eczanesi,1,0.0157,0.0,0.0
+name,Karamanlı Eczanesi,1,0.0157,0.0,0.0
+name,Karamanlı Mah.,1,0.0157,0.0,0.0
+name,Karamezra,1,0.0157,0.0,0.0
+name,Karamustafalı,1,0.0157,0.0,0.0
+name,Karanfik Sk.,1,0.0157,0.0,0.0
+name,Karanfil Pastanesi,1,0.0157,0.0,0.0
+name,Karanfil Sk.,1,0.0157,0.0,0.0
+name,Karaoğlan Mah.,1,0.0157,0.0,0.0
+name,Karaoğlanoğlu Caddesi,1,0.0157,0.0,0.0
+name,Karapelit Parkı,1,0.0157,0.0,0.0
+name,Karapolat,1,0.0157,0.0,0.0
+name,Karapınar Höyüğü,1,0.0157,0.0,0.0
+name,Karapınar Mah.,1,0.0157,0.0,0.0
+name,Karasüleymanlı,1,0.0157,0.0,0.0
+name,Karatarla Mah.,1,0.0157,0.0,0.0
+name,Karataş Berat Eczanesi,1,0.0157,0.0,0.0
+name,Karataş Mah.,1,0.0157,0.0,0.0
+name,Karataş Nur Eczanesi,1,0.0157,0.0,0.0
+name,Karayiğit,1,0.0157,0.0,0.0
+name,Karayiğit Eczanesi,1,0.0157,0.0,0.0
+name,Karayusuflu,1,0.0157,0.0,0.0
+name,Karayılan Mah.,1,0.0157,0.0,0.0
+name,Karaçam Eczanesi,1,0.0157,0.0,0.0
+name,Karaçavuş,1,0.0157,0.0,0.0
+name,Karaçay,1,0.0157,0.0,0.0
+name,Karaçayır,1,0.0157,0.0,0.0
+name,Karaçağıl,1,0.0157,0.0,0.0
+name,Karaçomak,1,0.0157,0.0,0.0
+name,Kargalı,1,0.0157,0.0,0.0
+name,Karlstad Caddesi,1,0.0157,0.0,0.0
+name,Karlısu,1,0.0157,0.0,0.0
+name,Karpuzkaya,1,0.0157,0.0,0.0
+name,Karslı Eczanesi,1,0.0157,0.0,0.0
+name,Karsu,1,0.0157,0.0,0.0
+name,Kartal,1,0.0157,0.0,0.0
+name,Kartal Tepe,1,0.0157,0.0,0.0
+name,Kartaldağı,1,0.0157,0.0,0.0
+name,Kartaldağı RES TM,1,0.0157,0.0,0.0
+name,Kartaldağı RES TM EİH,1,0.0157,0.0,0.0
+name,Kartolar,1,0.0157,0.0,0.0
+name,Karşıyaka Eczanesi,1,0.0157,0.0,0.0
+name,Karşıyaka Mah.,1,0.0157,0.0,0.0
+name,Kaskimatik,1,0.0157,0.0,0.0
+name,Katipoğlu Eczanesi,1,0.0157,0.0,0.0
+name,Katmerci Cumali Usta,1,0.0157,0.0,0.0
+name,Katmerci Zekeriya Usta,1,0.0157,0.0,0.0
+name,Katolik Kilisesi,1,0.0157,0.0,0.0
+name,Katranlık,1,0.0157,0.0,0.0
+name,Kavacık Eczanesi,1,0.0157,0.0,0.0
+name,Kavak,1,0.0157,0.0,0.0
+name,Kavşak,1,0.0157,0.0,0.0
+name,Kayacık,1,0.0157,0.0,0.0
+name,Kayakent,1,0.0157,0.0,0.0
+name,Kayalı,1,0.0157,0.0,0.0
+name,Kayalık Mah.,1,0.0157,0.0,0.0
+name,Kayapınar,1,0.0157,0.0,0.0
+name,Kayar Eczanesi,1,0.0157,0.0,0.0
+name,Kayaönü,1,0.0157,0.0,0.0
+name,Kayhan Market,1,0.0157,0.0,0.0
+name,Kaykay Parkı,1,0.0157,0.0,0.0
+name,Kaynaklı,1,0.0157,0.0,0.0
+name,Kaytan Eczanesi,1,0.0157,0.0,0.0
+name,Kaytancı Eczanesi,1,0.0157,0.0,0.0
+name,Kazancı Eczanesi,1,0.0157,0.0,0.0
+name,Kazancık,1,0.0157,0.0,0.0
+name,Kazkeli,1,0.0157,0.0,0.0
+name,Kazıklı,1,0.0157,0.0,0.0
+name,Kaşköy,1,0.0157,0.0,0.0
+name,Kaşlıca,1,0.0157,0.0,0.0
+name,Keklicek,1,0.0157,0.0,0.0
+name,Keklikotluğu,1,0.0157,0.0,0.0
+name,Kelce Eczanesi,1,0.0157,0.0,0.0
+name,Kelebek Tepesi,1,0.0157,0.0,0.0
+name,Keleş,1,0.0157,0.0,0.0
+name,Keleş Eczanesi,1,0.0157,0.0,0.0
+name,Keli,1,0.0157,0.0,0.0
+name,Keller,1,0.0157,0.0,0.0
+name,Kelosmanlar,1,0.0157,0.0,0.0
+name,Kemal Çoban Eczanesi,1,0.0157,0.0,0.0
+name,Kemalpaşa,1,0.0157,0.0,0.0
+name,Kemalpaşa Eczanesi,1,0.0157,0.0,0.0
+name,Kemerkaya,1,0.0157,0.0,0.0
+name,Kentpark Eczanesi,1,0.0157,0.0,0.0
+name,Kervan Eczanesi,1,0.0157,0.0,0.0
+name,Kervan Pastahane,1,0.0157,0.0,0.0
+name,Kesecik,1,0.0157,0.0,0.0
+name,Keskin Eczanesi,1,0.0157,0.0,0.0
+name,Keskinler Eczanesi,1,0.0157,0.0,0.0
+name,Keskinöz Eczanesi,1,0.0157,0.0,0.0
+name,Ketencioğlu Eczanesi,1,0.0157,0.0,0.0
+name,Kezbi,1,0.0157,0.0,0.0
+name,Keçikuyusu,1,0.0157,0.0,0.0
+name,Kikiler,1,0.0157,0.0,0.0
+name,Kiraz Eczanesi,1,0.0157,0.0,0.0
+name,Kisecik,1,0.0157,0.0,0.0
+name,Kocabeyli,1,0.0157,0.0,0.0
+name,Kocakuz Tepe,1,0.0157,0.0,0.0
+name,Kocatepe Eczanesi,1,0.0157,0.0,0.0
+name,Kocatepe Mah.,1,0.0157,0.0,0.0
+name,Kodallı,1,0.0157,0.0,0.0
+name,Kokar,1,0.0157,0.0,0.0
+name,Kolpınar,1,0.0157,0.0,0.0
+name,Kolukısa Eczanesi,1,0.0157,0.0,0.0
+name,Komagene Çiğköfte,1,0.0157,0.0,0.0
+name,Konak Eczanesi,1,0.0157,0.0,0.0
+name,Konak Mah.,1,0.0157,0.0,0.0
+name,Konaklı,1,0.0157,0.0,0.0
+name,Konuk,1,0.0157,0.0,0.0
+name,Konuk Eczanesi,1,0.0157,0.0,0.0
+name,Konuklu,1,0.0157,0.0,0.0
+name,Koru Eczanesi,1,0.0157,0.0,0.0
+name,Koru park,1,0.0157,0.0,0.0
+name,Koruhüyük,1,0.0157,0.0,0.0
+name,Koruköy,1,0.0157,0.0,0.0
+name,Kozaklı,1,0.0157,0.0,0.0
+name,Kozan,1,0.0157,0.0,0.0
+name,Kozanlı Tanrıtanır Eczanesi,1,0.0157,0.0,0.0
+name,Kozanoğlu Eczanesi,1,0.0157,0.0,0.0
+name,Kozdere,1,0.0157,0.0,0.0
+name,Kozlubağ,1,0.0157,0.0,0.0
+name,Kozludere,1,0.0157,0.0,0.0
+name,Kozluyazı,1,0.0157,0.0,0.0
+name,Koç,1,0.0157,0.0,0.0
+name,Koçali,1,0.0157,0.0,0.0
+name,Koçali Barajı,1,0.0157,0.0,0.0
+name,Koçlu,1,0.0157,0.0,0.0
+name,Kristal Parkı,1,0.0157,0.0,0.0
+name,Kudret Eczanesi,1,0.0157,0.0,0.0
+name,Kulak Tepe,1,0.0157,0.0,0.0
+name,Kuletepe,1,0.0157,0.0,0.0
+name,Kulu,1,0.0157,0.0,0.0
+name,Kumarlı 802 nolu Sokak,1,0.0157,0.0,0.0
+name,Kumarlı 991 nolu Sokak,1,0.0157,0.0,0.0
+name,Kumarlı 994 nolu Sokak,1,0.0157,0.0,0.0
+name,Kumarlı 995 nolu Sokak,1,0.0157,0.0,0.0
+name,Kumarlı 997 nolu Sokak,1,0.0157,0.0,0.0
+name,Kumarlı Sokağı,1,0.0157,0.0,0.0
+name,Kumaşır,1,0.0157,0.0,0.0
+name,Kumlu,1,0.0157,0.0,0.0
+name,Kumlu - Anakya ilçe sınırı,1,0.0157,0.0,0.0
+name,Kumlu Eczanesi,1,0.0157,0.0,0.0
+name,Kumluca Yaylası,1,0.0157,0.0,0.0
+name,Kumruoğlu Eczanesi,1,0.0157,0.0,0.0
+name,Kumsal Eczanesi,1,0.0157,0.0,0.0
+name,Kumsal Kuaför,1,0.0157,0.0,0.0
+name,Kumsal Restoran,1,0.0157,0.0,0.0
+name,Kumtepe,1,0.0157,0.0,0.0
+name,Kurbanbaba Mah.,1,0.0157,0.0,0.0
+name,Kurdu Höyük,1,0.0157,0.0,0.0
+name,Kurt Dağları,1,0.0157,0.0,0.0
+name,Kurtaran,1,0.0157,0.0,0.0
+name,Kurtbağı,1,0.0157,0.0,0.0
+name,Kurtlu Sarımazı,1,0.0157,0.0,0.0
+name,Kurtlu Soğuksu,1,0.0157,0.0,0.0
+name,Kurtlusarımazı,1,0.0157,0.0,0.0
+name,Kurtlusoğuksu,1,0.0157,0.0,0.0
+name,Kurtmezraası,1,0.0157,0.0,0.0
+name,Kurtuluş Caddesi,1,0.0157,0.0,0.0
+name,Kurugöl,1,0.0157,0.0,0.0
+name,Kutlu Eczanesi,1,0.0157,0.0,0.0
+name,Kutluca,1,0.0157,0.0,0.0
+name,Kuzevleri,1,0.0157,0.0,0.0
+name,Kuzeykent,1,0.0157,0.0,0.0
+name,Kuzeytepe Eczanesi,1,0.0157,0.0,0.0
+name,Kuzkaya Tepe,1,0.0157,0.0,0.0
+name,Kuzoluk,1,0.0157,0.0,0.0
+name,Kuzucak,1,0.0157,0.0,0.0
+name,Kuzuculu,1,0.0157,0.0,0.0
+name,Kuzuyatağı,1,0.0157,0.0,0.0
+name,Kuşakkaya,1,0.0157,0.0,0.0
+name,Kuşcular Sokağı,1,0.0157,0.0,0.0
+name,Kuşçu,1,0.0157,0.0,0.0
+name,Kuşçumustafa,1,0.0157,0.0,0.0
+name,KÜTÜPHANE,1,0.0157,0.0,0.0
+name,Kâmil Eczanesi,1,0.0157,0.0,0.0
+name,Köksalan,1,0.0157,0.0,0.0
+name,Köleler,1,0.0157,0.0,0.0
+name,Kömür Belediye Binası,1,0.0157,0.0,0.0
+name,Kömür Tepesi,1,0.0157,0.0,0.0
+name,Kömürler,1,0.0157,0.0,0.0
+name,Kömürçukuru,1,0.0157,0.0,0.0
+name,Köprülü,1,0.0157,0.0,0.0
+name,Körfez eczanesi,1,0.0157,0.0,0.0
+name,Körhacı Obası,1,0.0157,0.0,0.0
+name,Körhalo,1,0.0157,0.0,0.0
+name,Körkocalar,1,0.0157,0.0,0.0
+name,Körkün Dağı,1,0.0157,0.0,0.0
+name,Körkün Eczanesi,1,0.0157,0.0,0.0
+name,Körkün Mah.,1,0.0157,0.0,0.0
+name,Köseceli,1,0.0157,0.0,0.0
+name,Köseler Eczanesi,1,0.0157,0.0,0.0
+name,Köseli,1,0.0157,0.0,0.0
+name,Kösüklü,1,0.0157,0.0,0.0
+name,Kösür,1,0.0157,0.0,0.0
+name,Köşeli Eczanesi,1,0.0157,0.0,0.0
+name,Köşeuşağı,1,0.0157,0.0,0.0
+name,Külafhüyük,1,0.0157,0.0,0.0
+name,Küllüm tepe,1,0.0157,0.0,0.0
+name,Kümbet Eczanesi,1,0.0157,0.0,0.0
+name,Kümperli Eczanesi,1,0.0157,0.0,0.0
+name,Kürtüncü,1,0.0157,0.0,0.0
+name,Kürüm,1,0.0157,0.0,0.0
+name,Küçük Cennetpınar,1,0.0157,0.0,0.0
+name,Küçük Karakuyu,1,0.0157,0.0,0.0
+name,Küçükdalyan Eczanesi,1,0.0157,0.0,0.0
+name,Küçükköy,1,0.0157,0.0,0.0
+name,Küçükkızılhisar,1,0.0157,0.0,0.0
+name,Küçükrezzolar,1,0.0157,0.0,0.0
+name,Küçükören,1,0.0157,0.0,0.0
+name,Küçüküngüt,1,0.0157,0.0,0.0
+name,Kıbrıs Eczanesi,1,0.0157,0.0,0.0
+name,Kıbrıs Mah.,1,0.0157,0.0,0.0
+name,Kıcı,1,0.0157,0.0,0.0
+name,Kılılı,1,0.0157,0.0,0.0
+name,Kılılı TM - Kahramanmaraş TM EİH,1,0.0157,0.0,0.0
+name,Kılınçoğlu Mah.,1,0.0157,0.0,0.0
+name,Kılıç Ali Paşa Ortaokulu,1,0.0157,0.0,0.0
+name,Kılıç Ali Paşa İlkokulu,1,0.0157,0.0,0.0
+name,Kılıç Kardeşler Market,1,0.0157,0.0,0.0
+name,Kındırali,1,0.0157,0.0,0.0
+name,Kıral Eczanesi,1,0.0157,0.0,0.0
+name,Kıraçhayma,1,0.0157,0.0,0.0
+name,Kıraçlar,1,0.0157,0.0,0.0
+name,Kırcaoğlu,1,0.0157,0.0,0.0
+name,Kırcaoğlu Höyüğü,1,0.0157,0.0,0.0
+name,Kırkıcı Eczanesi,1,0.0157,0.0,0.0
+name,Kırteks Tekstil San. ve Tic. A.Ş.,1,0.0157,0.0,0.0
+name,Kırıkhan Mezarlığı,1,0.0157,0.0,0.0
+name,Kırıkçalı,1,0.0157,0.0,0.0
+name,Kırışkal,1,0.0157,0.0,0.0
+name,Kırışkal Höyüğü,1,0.0157,0.0,0.0
+name,Kısık,1,0.0157,0.0,0.0
+name,Kıymacı Eczanesi,1,0.0157,0.0,0.0
+name,Kıyıgören,1,0.0157,0.0,0.0
+name,Kızkapanlı,1,0.0157,0.0,0.0
+name,Kızlarçayı,1,0.0157,0.0,0.0
+name,Kızlaç,1,0.0157,0.0,0.0
+name,Kızık Karasakal,1,0.0157,0.0,0.0
+name,Kızıkhamurkesen,1,0.0157,0.0,0.0
+name,Kızıkyüce Yangın Gözetleme Kulesi,1,0.0157,0.0,0.0
+name,Kızılcahöyük,1,0.0157,0.0,0.0
+name,Kızılcapınar,1,0.0157,0.0,0.0
+name,Kızıler Eczanesi,1,0.0157,0.0,0.0
+name,Kızılgöl,1,0.0157,0.0,0.0
+name,Kızılhisar,1,0.0157,0.0,0.0
+name,Kızılkaya,1,0.0157,0.0,0.0
+name,Kızılkent,1,0.0157,0.0,0.0
+name,Kızılpınar,1,0.0157,0.0,0.0
+name,Kışla - Büyüktüysüz mahalle sınırı,1,0.0157,0.0,0.0
+name,Kışla - Sazlık mahalle sınırı,1,0.0157,0.0,0.0
+name,Kışla - Tepe mahalle sınırı,1,0.0157,0.0,0.0
+name,Kışla 152 nolu Sokak,1,0.0157,0.0,0.0
+name,Kışla Camii,1,0.0157,0.0,0.0
+name,Kışla Mah.,1,0.0157,0.0,0.0
+name,Kışlalar,1,0.0157,0.0,0.0
+name,Lale Eczanesi,1,0.0157,0.0,0.0
+name,Lalegölü,1,0.0157,0.0,0.0
+name,Levend Eczanesi,1,0.0157,0.0,0.0
+name,Leyla Dokumacı Eczanesi,1,0.0157,0.0,0.0
+name,Lider Market,1,0.0157,0.0,0.0
+name,Lilyum Eczanesi,1,0.0157,0.0,0.0
+name,Limak Beton,1,0.0157,0.0,0.0
+name,Limak Port,1,0.0157,0.0,0.0
+name,Limak İskenderun Limanı,1,0.0157,0.0,0.0
+name,Liman Kebap,1,0.0157,0.0,0.0
+name,Limon Eczanesi,1,0.0157,0.0,0.0
+name,Lojman,1,0.0157,0.0,0.0
+name,Lokman Hekim Eczanesi,1,0.0157,0.0,0.0
+name,MMK Atakaş TM - Erzin TM EİH,1,0.0157,0.0,0.0
+name,MMK Limanı,1,0.0157,0.0,0.0
+name,Maarif Cami,1,0.0157,0.0,0.0
+name,Maarif Mah.,1,0.0157,0.0,0.0
+name,Madenboyu,1,0.0157,0.0,0.0
+name,Madenyolu,1,0.0157,0.0,0.0
+name,Makine Fakültesi,1,0.0157,0.0,0.0
+name,Maksutuşağı,1,0.0157,0.0,0.0
+name,Mala Ticaret,1,0.0157,0.0,0.0
+name,Malatya Büyükşehir Belediyesi Su ve Kanalizasyon İdaresi (MASKİ),1,0.0157,0.0,0.0
+name,Malatya Turgut Özal Üniversitesi,1,0.0157,0.0,0.0
+name,Malik Ejder Mah.,1,0.0157,0.0,0.0
+name,Maltepe,1,0.0157,0.0,0.0
+name,Mancak Eczanesi,1,0.0157,0.0,0.0
+name,Mancayar Yaylası,1,0.0157,0.0,0.0
+name,Manga Eczanesi,1,0.0157,0.0,0.0
+name,Mansurlu,1,0.0157,0.0,0.0
+name,Mansuroğlu Eczanesi,1,0.0157,0.0,0.0
+name,Marah Eczanesi,1,0.0157,0.0,0.0
+name,Maraşboğazı,1,0.0157,0.0,0.0
+name,Mardintepe Eczanesi,1,0.0157,0.0,0.0
+name,Marmara Eczanesi,1,0.0157,0.0,0.0
+name,Mart Eczanesi,1,0.0157,0.0,0.0
+name,Mavi Köşe Pastanesi,1,0.0157,0.0,0.0
+name,Mavikent Eczanesi,1,0.0157,0.0,0.0
+name,Mavikent Mah.,1,0.0157,0.0,0.0
+name,Maya Eczanesi,1,0.0157,0.0,0.0
+name,Mazmanlı,1,0.0157,0.0,0.0
+name,Mağaracık,1,0.0157,0.0,0.0
+name,Mağralı Eczanesi,1,0.0157,0.0,0.0
+name,Maşuklu Mahallesi Atatürk Caddesi,1,0.0157,0.0,0.0
+name,Medegöz,1,0.0157,0.0,0.0
+name,Medine Parkı,1,0.0157,0.0,0.0
+name,Mehmet Adil Kasapseçkin İlkokulu,1,0.0157,0.0,0.0
+name,Mehmet Akif Eczanesi,1,0.0157,0.0,0.0
+name,Mehmet Akif Ersoy,1,0.0157,0.0,0.0
+name,Mehmet Akif Ersoy Mah.,1,0.0157,0.0,0.0
+name,Mehmet Akif Ersoy Ortaokulu,1,0.0157,0.0,0.0
+name,Mehmet Ali Doğan Eczanesi,1,0.0157,0.0,0.0
+name,Mehmet Ali Eruslu Camii,1,0.0157,0.0,0.0
+name,Mehmet Can Eczanesi,1,0.0157,0.0,0.0
+name,Mehmet Doğru Eczanesi,1,0.0157,0.0,0.0
+name,Mehmet Emin Arıkoğlu,1,0.0157,0.0,0.0
+name,Mehmet Gökçek,1,0.0157,0.0,0.0
+name,Mehmet Yapıcı Eczanesi,1,0.0157,0.0,0.0
+name,Mehmet Önder Eczanesi,1,0.0157,0.0,0.0
+name,Mehmet Özdemir Eczanesi,1,0.0157,0.0,0.0
+name,Mehmetali,1,0.0157,0.0,0.0
+name,Mehtap Eczanesi,1,0.0157,0.0,0.0
+name,Melekli,1,0.0157,0.0,0.0
+name,Melike Koç Eczanesi,1,0.0157,0.0,0.0
+name,Memoil,1,0.0157,0.0,0.0
+name,Menderes,1,0.0157,0.0,0.0
+name,Menekşe Sk.,1,0.0157,0.0,0.0
+name,Mengüllüoğlu Eczanesi,1,0.0157,0.0,0.0
+name,Meral Eczanesi,1,0.0157,0.0,0.0
+name,Mercanlar,1,0.0157,0.0,0.0
+name,Mercanlı,1,0.0157,0.0,0.0
+name,Mercimektepe Mah.,1,0.0157,0.0,0.0
+name,Merkez,1,0.0157,0.0,0.0
+name,Merkez Kütüphanesi,1,0.0157,0.0,0.0
+name,Merve Çolak Eczanesi,1,0.0157,0.0,0.0
+name,Merveşehir Mah.,1,0.0157,0.0,0.0
+name,Meryem Apt.,1,0.0157,0.0,0.0
+name,Meryemuşağı,1,0.0157,0.0,0.0
+name,Mestan,1,0.0157,0.0,0.0
+name,Metin Eczanesi,1,0.0157,0.0,0.0
+name,Metlioğlu Eczanesi,1,0.0157,0.0,0.0
+name,Metropolkent Apartmanı,1,0.0157,0.0,0.0
+name,Mevlana Anadolu Lisesi,1,0.0157,0.0,0.0
+name,Mevlana Mah.,1,0.0157,0.0,0.0
+name,Mevsim Eczanesi,1,0.0157,0.0,0.0
+name,Meydan,1,0.0157,0.0,0.0
+name,Mezere,1,0.0157,0.0,0.0
+name,Mezraa,1,0.0157,0.0,0.0
+name,Midyeci Zekeriya,1,0.0157,0.0,0.0
+name,Millî İrade Meydanı,1,0.0157,0.0,0.0
+name,Mimar Sinan ASM,1,0.0157,0.0,0.0
+name,Mimar Sinan Bulvarı,1,0.0157,0.0,0.0
+name,Mimar Sinan Eczanesi,1,0.0157,0.0,0.0
+name,Mira,1,0.0157,0.0,0.0
+name,Miray Kent,1,0.0157,0.0,0.0
+name,Mithatpaşa Mah.,1,0.0157,0.0,0.0
+name,Mithatpaşa İlkokulu,1,0.0157,0.0,0.0
+name,Mitisin Yaylası,1,0.0157,0.0,0.0
+name,Molla Gürani Mah.,1,0.0157,0.0,0.0
+name,Muhacirosman,1,0.0157,0.0,0.0
+name,Muharrem,1,0.0157,0.0,0.0
+name,Muhsin Eczanesi,1,0.0157,0.0,0.0
+name,Muhsin Yazıcıoğlu Caddesi,1,0.0157,0.0,0.0
+name,Muhsin Yazıcıoğlu Parkı,1,0.0157,0.0,0.0
+name,Muhtar Eczanesi,1,0.0157,0.0,0.0
+name,Mulla Erşen Köprüsü,1,0.0157,0.0,0.0
+name,Muna Eczanesi,1,0.0157,0.0,0.0
+name,Musabeyli - Kilis merkez ilçe sınırı,1,0.0157,0.0,0.0
+name,Musabeyli Eczanesi,1,0.0157,0.0,0.0
+name,Musolar,1,0.0157,0.0,0.0
+name,Mustafa Kemal Üniversitesi Tayfun Sökmen Kampüsü,1,0.0157,0.0,0.0
+name,Mustafa Yücel Özbilgin Mah.,1,0.0157,0.0,0.0
+name,Mustafabeyli,1,0.0157,0.0,0.0
+name,Mustafalı,1,0.0157,0.0,0.0
+name,Musto,1,0.0157,0.0,0.0
+name,Mutlu,1,0.0157,0.0,0.0
+name,Mutlu Eczanesi,1,0.0157,0.0,0.0
+name,Mücahitler Mah.,1,0.0157,0.0,0.0
+name,Müderrisoğlu Eczanesi,1,0.0157,0.0,0.0
+name,Müftüler,1,0.0157,0.0,0.0
+name,Müftüoğlu Eczanesi,1,0.0157,0.0,0.0
+name,Müge Sokak,1,0.0157,0.0,0.0
+name,Münüfpaşa Mah.,1,0.0157,0.0,0.0
+name,Müzeyyen Eczanesi,1,0.0157,0.0,0.0
+name,Mısırlı Eczanesi,1,0.0157,0.0,0.0
+name,Mısırlıoğlu Eczanesi,1,0.0157,0.0,0.0
+name,NCR International Hospital,1,0.0157,0.0,0.0
+name,Naciye Suna Oktay Tekin Anaokulu,1,0.0157,0.0,0.0
+name,Naciye Suna Oktay Tekin İlkokulu,1,0.0157,0.0,0.0
+name,Nadir Eczanesi,1,0.0157,0.0,0.0
+name,Naksiye Hanim Konagi,1,0.0157,0.0,0.0
+name,Narin Eczanesi,1,0.0157,0.0,0.0
+name,Narlı Bahçelievler,1,0.0157,0.0,0.0
+name,Narlı Cumhuriyet,1,0.0157,0.0,0.0
+name,Narlı Eczanesi,1,0.0157,0.0,0.0
+name,Narlı TM - Kahramanmaraş TM EİH,1,0.0157,0.0,0.0
+name,Narlı İsmetpaşa,1,0.0157,0.0,0.0
+name,Narlıca Eczanesi,1,0.0157,0.0,0.0
+name,Narlıhopur,1,0.0157,0.0,0.0
+name,Neccar Eczanesi,1,0.0157,0.0,0.0
+name,Necip Fazıl Eczanesi,1,0.0157,0.0,0.0
+name,Necip Fazıl Kısakürek Ortaokulu,1,0.0157,0.0,0.0
+name,Necip Fazıl Mah.,1,0.0157,0.0,0.0
+name,Nefes Eczanesi,1,0.0157,0.0,0.0
+name,Nefsidoğanlı,1,0.0157,0.0,0.0
+name,Nehir Eczanesi,1,0.0157,0.0,0.0
+name,Nergiz Cd.,1,0.0157,0.0,0.0
+name,Nergiz Eczanesi,1,0.0157,0.0,0.0
+name,Nergizli,1,0.0157,0.0,0.0
+name,Nergizlik,1,0.0157,0.0,0.0
+name,Nesibe Eczanesi,1,0.0157,0.0,0.0
+name,Nevra Eczanesi,1,0.0157,0.0,0.0
+name,Neşe Eczanesi,1,0.0157,0.0,0.0
+name,Neşem Eczanesi,1,0.0157,0.0,0.0
+name,Nihal Eczanesi,1,0.0157,0.0,0.0
+name,Nil Eczanesi,1,0.0157,0.0,0.0
+name,Nilgül Eczanesi,1,0.0157,0.0,0.0
+name,Nilgün Öcel Eczanesi,1,0.0157,0.0,0.0
+name,Nilüfer Eczanesi,1,0.0157,0.0,0.0
+name,Nimet Eczanesi,1,0.0157,0.0,0.0
+name,Nisan Eczanesi,1,0.0157,0.0,0.0
+name,Nizip - Yavuzeli ilçe sınırı,1,0.0157,0.0,0.0
+name,Nişantaşı Eczanesi,1,0.0157,0.0,0.0
+name,Nohut,1,0.0157,0.0,0.0
+name,Nohuttepe,1,0.0157,0.0,0.0
+name,Nuhuşağı,1,0.0157,0.0,0.0
+name,Numune Evler,1,0.0157,0.0,0.0
+name,Numuneevler,1,0.0157,0.0,0.0
+name,Nur Eczanesi,1,0.0157,0.0,0.0
+name,Nurdağı - İslahiye ilçe sınırı,1,0.0157,0.0,0.0
+name,Nurdağı - Şahinbey ilçe sınırı,1,0.0157,0.0,0.0
+name,Nurdağı Devlet Hastanesi,1,0.0157,0.0,0.0
+name,Nuriye Civelek Caddesi,1,0.0157,0.0,0.0
+name,Nursel Eczanesi,1,0.0157,0.0,0.0
+name,Nurten Eczanesi,1,0.0157,0.0,0.0
+name,Nurtepe Mah.,1,0.0157,0.0,0.0
+name,Nurun Eczanesi,1,0.0157,0.0,0.0
+name,Nâr Eczanesi,1,0.0157,0.0,0.0
+name,Ocaklar Mah.,1,0.0157,0.0,0.0
+name,Odabaşı Eczanesi,1,0.0157,0.0,0.0
+name,Odak Antrepo,1,0.0157,0.0,0.0
+name,Okay Eczanesi,1,0.0157,0.0,0.0
+name,Okul Kavşağı,1,0.0157,0.0,0.0
+name,Okul Sokak,1,0.0157,0.0,0.0
+name,Okur Eczanesi,1,0.0157,0.0,0.0
+name,Okutucu Eczanesi,1,0.0157,0.0,0.0
+name,Old French town,1,0.0157,0.0,0.0
+name,Olgunlar,1,0.0157,0.0,0.0
+name,Olukbaşı Yaylası,1,0.0157,0.0,0.0
+name,Oluklu,1,0.0157,0.0,0.0
+name,Onikişubat Sosyal Hizmet Merkezi,1,0.0157,0.0,0.0
+name,Onikişubat İlçe Milli Eğitim Müdürlüğü,1,0.0157,0.0,0.0
+name,Onur Caddesi,1,0.0157,0.0,0.0
+name,Onur Mah.,1,0.0157,0.0,0.0
+name,Opel Yetkili Servisi Teymur,1,0.0157,0.0,0.0
+name,Opet Adıyaman Merkez,1,0.0157,0.0,0.0
+name,Opet Nurdağı,1,0.0157,0.0,0.0
+name,Organik Eczanesi,1,0.0157,0.0,0.0
+name,Orhangazi,1,0.0157,0.0,0.0
+name,Orhanlı Mah.,1,0.0157,0.0,0.0
+name,Ortaklar,1,0.0157,0.0,0.0
+name,Ortaköy,1,0.0157,0.0,0.0
+name,Ortaoba,1,0.0157,0.0,0.0
+name,Ortaokul,1,0.0157,0.0,0.0
+name,Ortaseki Eczanesi,1,0.0157,0.0,0.0
+name,Oruç Reis Mah.,1,0.0157,0.0,0.0
+name,Oruçgazi,1,0.0157,0.0,0.0
+name,Oruçlar,1,0.0157,0.0,0.0
+name,Osman Gazi Caddesi,1,0.0157,0.0,0.0
+name,Osman Gazi Mah.,1,0.0157,0.0,0.0
+name,Osmandede,1,0.0157,0.0,0.0
+name,Osmangazi Mah.,1,0.0157,0.0,0.0
+name,Osmaniye 2 TM,1,0.0157,0.0,0.0
+name,Osmaniye 2 tm,1,0.0157,0.0,0.0
+name,Osmaniye Erkek Yurdu,1,0.0157,0.0,0.0
+name,Osmaniye Kozan Yolu,1,0.0157,0.0,0.0
+name,Osmanlı,1,0.0157,0.0,0.0
+name,Osmanlı Eczanesi,1,0.0157,0.0,0.0
+name,Otluca,1,0.0157,0.0,0.0
+name,Otobüs ve Minübüs Son Durak,1,0.0157,0.0,0.0
+name,Ovakent,1,0.0157,0.0,0.0
+name,Oyalı,1,0.0157,0.0,0.0
+name,Oyratlı,1,0.0157,0.0,0.0
+name,Oyuncak Müzesi,1,0.0157,0.0,0.0
+name,Oyuncakistan Parkı,1,0.0157,0.0,0.0
+name,Ozan,1,0.0157,0.0,0.0
+name,Ozan Eczanesi,1,0.0157,0.0,0.0
+name,Ozanlı,1,0.0157,0.0,0.0
+name,Oğlakören,1,0.0157,0.0,0.0
+name,Oğuzeli Eczanesi,1,0.0157,0.0,0.0
+name,PROJE SAHASI,1,0.0157,0.0,0.0
+name,PS-5 TM - PS-4B TM EİH,1,0.0157,0.0,0.0
+name,PTT,1,0.0157,0.0,0.0
+name,PTT Fakıuşağı,1,0.0157,0.0,0.0
+name,Paksoy Eczanesi,1,0.0157,0.0,0.0
+name,Palanlı,1,0.0157,0.0,0.0
+name,Pancarlı Mah.,1,0.0157,0.0,0.0
+name,Papasilo,1,0.0157,0.0,0.0
+name,Park Cad.,1,0.0157,0.0,0.0
+name,Parlak,1,0.0157,0.0,0.0
+name,Parlar Eczanesi,1,0.0157,0.0,0.0
+name,Patoğlu Sokağı,1,0.0157,0.0,0.0
+name,Payamlıbağ,1,0.0157,0.0,0.0
+name,Payas - Erzin ilçe sınırı,1,0.0157,0.0,0.0
+name,Payas - Kırıkhan ilçe sınırı,1,0.0157,0.0,0.0
+name,Payas Eczanesi,1,0.0157,0.0,0.0
+name,Payas Kalesi,1,0.0157,0.0,0.0
+name,Payaslı Sokak,1,0.0157,0.0,0.0
+name,Pazarcık - Çağlayancerit ilçe sınırı,1,0.0157,0.0,0.0
+name,Paşa Eczanesi,1,0.0157,0.0,0.0
+name,Paşa Yaylası,1,0.0157,0.0,0.0
+name,Paşahüyük,1,0.0157,0.0,0.0
+name,Paşamezrası,1,0.0157,0.0,0.0
+name,Paşaoğlu Eczanesi,1,0.0157,0.0,0.0
+name,Pehlivan Eczanesi,1,0.0157,0.0,0.0
+name,Pektaş Eczanesi,1,0.0157,0.0,0.0
+name,Pelin Eczanesi,1,0.0157,0.0,0.0
+name,Perilikaya Mah.,1,0.0157,0.0,0.0
+name,Perre,1,0.0157,0.0,0.0
+name,Perşembe Pazarı,1,0.0157,0.0,0.0
+name,Pet Park,1,0.0157,0.0,0.0
+name,Petrol Caddesi,1,0.0157,0.0,0.0
+name,Petrol Ofisi İskenderun Dolum Tesisi,1,0.0157,0.0,0.0
+name,Peçenek,1,0.0157,0.0,0.0
+name,Piazza Alışveriş Merkezi,1,0.0157,0.0,0.0
+name,Piri Reis Mah.,1,0.0157,0.0,0.0
+name,Pirsultan Mah.,1,0.0157,0.0,0.0
+name,Poyraz Eczanesi,1,0.0157,0.0,0.0
+name,Pürdeloğlu Eczanesi,1,0.0157,0.0,0.0
+name,Rahmibey,1,0.0157,0.0,0.0
+name,Rahmibey Konagi Butik Hotel,1,0.0157,0.0,0.0
+name,Raika Dokumacı Eczanesi,1,0.0157,0.0,0.0
+name,Ramada By Wyndham Adıyaman,1,0.0157,0.0,0.0
+name,Ramada İskenderun,1,0.0157,0.0,0.0
+name,Ramazanoğlu Eczanesi,1,0.0157,0.0,0.0
+name,Ranjous Otel,1,0.0157,0.0,0.0
+name,Recep Alpaslan Caddesi,1,0.0157,0.0,0.0
+name,Recep Ünal Eczanesi,1,0.0157,0.0,0.0
+name,Renk Eczanesi,1,0.0157,0.0,0.0
+name,Reyhanlı - Antakya ilçe sınırı,1,0.0157,0.0,0.0
+name,Reyhanlı Baraj Gölü,1,0.0157,0.0,0.0
+name,Reyhanlı Barajı,1,0.0157,0.0,0.0
+name,Reşat Eczanesi,1,0.0157,0.0,0.0
+name,Reşatlı,1,0.0157,0.0,0.0
+name,Rota Leban,1,0.0157,0.0,0.0
+name,Royal Apart,1,0.0157,0.0,0.0
+name,Roze Apt.,1,0.0157,0.0,0.0
+name,Rozerin Eczanesi,1,0.0157,0.0,0.0
+name,Rum Ortodoks Kilisesi,1,0.0157,0.0,0.0
+name,Rüzgâr Eczanesi,1,0.0157,0.0,0.0
+name,Rüzgâr Türbini (T01),1,0.0157,0.0,0.0
+name,SARAÇ OTEL,1,0.0157,0.0,0.0
+name,SEVGİKENT SİTESİ,1,0.0157,0.0,0.0
+name,SGK Gaziantep İl Müdürlüğü,1,0.0157,0.0,0.0
+name,SHARZ Turkay Petrol,1,0.0157,0.0,0.0
+name,Saatli,1,0.0157,0.0,0.0
+name,Sabanlı,1,0.0157,0.0,0.0
+name,Sabunsuyu Deresi,1,0.0157,0.0,0.0
+name,Sacır Mah.,1,0.0157,0.0,0.0
+name,Safa Eczanesi,1,0.0157,0.0,0.0
+name,Saffron Hotel Kahramanmaraş,1,0.0157,0.0,0.0
+name,Safteks Çatı Üstü GES,1,0.0157,0.0,0.0
+name,Sahil Eczanesi,1,0.0157,0.0,0.0
+name,Sahil Sokak,1,0.0157,0.0,0.0
+name,Sahne Antakya,1,0.0157,0.0,0.0
+name,Saint Pierre Kilisesi,1,0.0157,0.0,0.0
+name,Sakarkaya,1,0.0157,0.0,0.0
+name,Sakçagözü,1,0.0157,0.0,0.0
+name,Sakıt Yolu,1,0.0157,0.0,0.0
+name,Sakızgediği,1,0.0157,0.0,0.0
+name,Salkım,1,0.0157,0.0,0.0
+name,Salmanlı,1,0.0157,0.0,0.0
+name,Salmanobası,1,0.0157,0.0,0.0
+name,Salmanıpak,1,0.0157,0.0,0.0
+name,Sam,1,0.0157,0.0,0.0
+name,Samankaya,1,0.0157,0.0,0.0
+name,Sanayi,1,0.0157,0.0,0.0
+name,Sanayi Mah.,1,0.0157,0.0,0.0
+name,Saniye-Süleyman Göbel Kur'an Kursu,1,0.0157,0.0,0.0
+name,Sapanözü,1,0.0157,0.0,0.0
+name,Saray Eczanesi,1,0.0157,0.0,0.0
+name,Sarayova,1,0.0157,0.0,0.0
+name,Sarıbaşak,1,0.0157,0.0,0.0
+name,Sarıerik,1,0.0157,0.0,0.0
+name,Sarıfakıoğlu Eczanesi,1,0.0157,0.0,0.0
+name,Sarıgül Eczanesi,1,0.0157,0.0,0.0
+name,Sarıgüllük Mah.,1,0.0157,0.0,0.0
+name,Sarımazı,1,0.0157,0.0,0.0
+name,Sarısalkım,1,0.0157,0.0,0.0
+name,Sarıseki Istasyon,1,0.0157,0.0,0.0
+name,Sarıt,1,0.0157,0.0,0.0
+name,Sarıtepe,1,0.0157,0.0,0.0
+name,Sarıyaprak,1,0.0157,0.0,0.0
+name,Savaş Eczanesi,1,0.0157,0.0,0.0
+name,Savran,1,0.0157,0.0,0.0
+name,Savranda Kalesi,1,0.0157,0.0,0.0
+name,Savranlı,1,0.0157,0.0,0.0
+name,Sayburun,1,0.0157,0.0,0.0
+name,Saygı Eczanesi,1,0.0157,0.0,0.0
+name,Saylak,1,0.0157,0.0,0.0
+name,Sayın Eczanesi,1,0.0157,0.0,0.0
+name,Sazgın,1,0.0157,0.0,0.0
+name,Sazlık,1,0.0157,0.0,0.0
+name,Sazlık - Tepe mahalle sınırı,1,0.0157,0.0,0.0
+name,Sazlık 908 nolu Sokak,1,0.0157,0.0,0.0
+name,Sazlık Sokağı,1,0.0157,0.0,0.0
+name,Saçaklı,1,0.0157,0.0,0.0
+name,Saçaklızade Mah.,1,0.0157,0.0,0.0
+name,Sağlam Eczanesi,1,0.0157,0.0,0.0
+name,Sağlık Pınarı Eczanesi,1,0.0157,0.0,0.0
+name,Sağocak Eczanesi,1,0.0157,0.0,0.0
+name,Sağtekin Eczanesi,1,0.0157,0.0,0.0
+name,Seda Eczanesi,1,0.0157,0.0,0.0
+name,Sefa Parkı,1,0.0157,0.0,0.0
+name,Selamlar,1,0.0157,0.0,0.0
+name,Selda Eczanesi,1,0.0157,0.0,0.0
+name,Selim Kasapbaşı Eczanesi,1,0.0157,0.0,0.0
+name,Selin Ateş Eczanesi,1,0.0157,0.0,0.0
+name,Selin Satar Eczanesi,1,0.0157,0.0,0.0
+name,Selvi Eczanesi,1,0.0157,0.0,0.0
+name,Selçuklu Mah.,1,0.0157,0.0,0.0
+name,Sema Eczanesi,1,0.0157,0.0,0.0
+name,Semerkand Eczanesi,1,0.0157,0.0,0.0
+name,Sena Eczanesi,1,0.0157,0.0,0.0
+name,Senel Eczanesi,1,0.0157,0.0,0.0
+name,Sepkanlı,1,0.0157,0.0,0.0
+name,Seponeler Obası,1,0.0157,0.0,0.0
+name,Seponeler Ovası,1,0.0157,0.0,0.0
+name,Serdar,1,0.0157,0.0,0.0
+name,Sergen,1,0.0157,0.0,0.0
+name,Serhat Eczanesi,1,0.0157,0.0,0.0
+name,Serince,1,0.0157,0.0,0.0
+name,Serinevler,1,0.0157,0.0,0.0
+name,Serinevler Mah.,1,0.0157,0.0,0.0
+name,Serinova,1,0.0157,0.0,0.0
+name,Serintepe,1,0.0157,0.0,0.0
+name,Serkan Eczanesi,1,0.0157,0.0,0.0
+name,Serpil Eczanesi,1,0.0157,0.0,0.0
+name,Servis Alanı,1,0.0157,0.0,0.0
+name,Severoğlu Eczanesi,1,0.0157,0.0,0.0
+name,Sevgikent Sitesi,1,0.0157,0.0,0.0
+name,Sevilay Apt.,1,0.0157,0.0,0.0
+name,Sevilay Eczanesi,1,0.0157,0.0,0.0
+name,Sevim Eczanesi,1,0.0157,0.0,0.0
+name,Sevingül Eczanesi,1,0.0157,0.0,0.0
+name,Sevsem Eczanesi,1,0.0157,0.0,0.0
+name,Seydolar,1,0.0157,0.0,0.0
+name,Seyir Tepesi,1,0.0157,0.0,0.0
+name,Seymenli,1,0.0157,0.0,0.0
+name,Seyrantepe Eczanesi,1,0.0157,0.0,0.0
+name,Seyrantepe Mah.,1,0.0157,0.0,0.0
+name,Seçkin Eczanesi,1,0.0157,0.0,0.0
+name,Shahut Hotel,1,0.0157,0.0,0.0
+name,Sigorta Eczanesi,1,0.0157,0.0,0.0
+name,Simya Eczanesi,1,0.0157,0.0,0.0
+name,Sinan,1,0.0157,0.0,0.0
+name,Sinan Eczanesi,1,0.0157,0.0,0.0
+name,Sinanoğlu Eczanesi,1,0.0157,0.0,0.0
+name,Sincan,1,0.0157,0.0,0.0
+name,Sincan yaylası Yolu,1,0.0157,0.0,0.0
+name,Sirapinar Yaylası,1,0.0157,0.0,0.0
+name,Siteler Mah.,1,0.0157,0.0,0.0
+name,Sivri Apartmanı,1,0.0157,0.0,0.0
+name,Sofalıcı,1,0.0157,0.0,0.0
+name,Sofraz Çayı,1,0.0157,0.0,0.0
+name,Sofular Mah.,1,0.0157,0.0,0.0
+name,Sofular Yaylası,1,0.0157,0.0,0.0
+name,Soydan Eczanesi,1,0.0157,0.0,0.0
+name,Soylu Eczanesi,1,0.0157,0.0,0.0
+name,Soğukoluk,1,0.0157,0.0,0.0
+name,St. Peter Orthodox Church,1,0.0157,0.0,0.0
+name,Stad Caddesi,1,0.0157,0.0,0.0
+name,Suboğazı,1,0.0157,0.0,0.0
+name,Sucu,1,0.0157,0.0,0.0
+name,Sucuköy,1,0.0157,0.0,0.0
+name,Sudecan Eczanesi,1,0.0157,0.0,0.0
+name,Sugediği,1,0.0157,0.0,0.0
+name,Sugediği Border Post,1,0.0157,0.0,0.0
+name,Sugediği Border Post Helipad,1,0.0157,0.0,0.0
+name,Sulama Kanalı,1,0.0157,0.0,0.0
+name,Sultanlar,1,0.0157,0.0,0.0
+name,Sultanselim Mah.,1,0.0157,0.0,0.0
+name,Suluköy,1,0.0157,0.0,0.0
+name,Sulumağara,1,0.0157,0.0,0.0
+name,Suna Eczanesi,1,0.0157,0.0,0.0
+name,Sunar-Nuri ÇOMU Camii,1,0.0157,0.0,0.0
+name,Surp Karasun Manuk Ermeni Kilisesi,1,0.0157,0.0,0.0
+name,Suvarlı,1,0.0157,0.0,0.0
+name,Suvatlı,1,0.0157,0.0,0.0
+name,Suçıkağı,1,0.0157,0.0,0.0
+name,SÜMEYYE APART,1,0.0157,0.0,0.0
+name,SÜMEYYE APART C BLOK,1,0.0157,0.0,0.0
+name,Sönmez Eczanesi,1,0.0157,0.0,0.0
+name,Söğüt,1,0.0157,0.0,0.0
+name,Söğütlügöl,1,0.0157,0.0,0.0
+name,Söğütlüöz Höyüğü,1,0.0157,0.0,0.0
+name,Söğütçük,1,0.0157,0.0,0.0
+name,Süha Erler Lisesi,1,0.0157,0.0,0.0
+name,Süleyman Şah Mah.,1,0.0157,0.0,0.0
+name,Süleymaniye,1,0.0157,0.0,0.0
+name,Sülüklü,1,0.0157,0.0,0.0
+name,Sümbül Cd.,1,0.0157,0.0,0.0
+name,Sümbüllüçat,1,0.0157,0.0,0.0
+name,Sümen Eczanesi,1,0.0157,0.0,0.0
+name,Sümer Eczanesi,1,0.0157,0.0,0.0
+name,Sümer Halı Saha,1,0.0157,0.0,0.0
+name,Sümerler Eczanesi,1,0.0157,0.0,0.0
+name,Sümerler Mah.,1,0.0157,0.0,0.0
+name,Sünbül Sokağı,1,0.0157,0.0,0.0
+name,Sündüz Eczanesi,1,0.0157,0.0,0.0
+name,Süner Eczanesi,1,0.0157,0.0,0.0
+name,Süngütepe,1,0.0157,0.0,0.0
+name,Sürmeli Eczanesi,1,0.0157,0.0,0.0
+name,Sürücü Eczanesi,1,0.0157,0.0,0.0
+name,Sıdıka Eczanesi,1,0.0157,0.0,0.0
+name,Sıkça Eczanesi,1,0.0157,0.0,0.0
+name,Sırasöğüt,1,0.0157,0.0,0.0
+name,TCDD Nohut TM EİH,1,0.0157,0.0,0.0
+name,TEB,1,0.0157,0.0,0.0
+name,TED Hatay Koleji,1,0.0157,0.0,0.0
+name,Tahaoğlu Eczanesi,1,0.0157,0.0,0.0
+name,Tahsin Eczanesi,1,0.0157,0.0,0.0
+name,Tahsin Sokağı,1,0.0157,0.0,0.0
+name,Tahtaköprü,1,0.0157,0.0,0.0
+name,Tahtaköprü Barajı,1,0.0157,0.0,0.0
+name,Tahtaköprü İstasyonu,1,0.0157,0.0,0.0
+name,Tahtalı Karadut,1,0.0157,0.0,0.0
+name,Taidemir,1,0.0157,0.0,0.0
+name,Takavutlar Eczanesi,1,0.0157,0.0,0.0
+name,Talip Eczanesi,1,0.0157,0.0,0.0
+name,Taltem Eczanesi,1,0.0157,0.0,0.0
+name,Tan,1,0.0157,0.0,0.0
+name,Tandır,1,0.0157,0.0,0.0
+name,Tandırlı,1,0.0157,0.0,0.0
+name,Tanrıaşkı Eczanesi,1,0.0157,0.0,0.0
+name,Tanışma,1,0.0157,0.0,0.0
+name,Tartıcılar A Tipi Gümrüklü Antrepo,1,0.0157,0.0,0.0
+name,Tarçın Eczanesi,1,0.0157,0.0,0.0
+name,Tatgemrigi,1,0.0157,0.0,0.0
+name,Tayfursökmen,1,0.0157,0.0,0.0
+name,Taç Sitesi,1,0.0157,0.0,0.0
+name,Taşdemir,1,0.0157,0.0,0.0
+name,Taşlıca Mah.,1,0.0157,0.0,0.0
+name,Taşlıova,1,0.0157,0.0,0.0
+name,Taşlıyazı,1,0.0157,0.0,0.0
+name,Taşoluk,1,0.0157,0.0,0.0
+name,Tecimen Eczanesi,1,0.0157,0.0,0.0
+name,Tehçi,1,0.0157,0.0,0.0
+name,Tekağaç,1,0.0157,0.0,0.0
+name,Tekdallar Kasabı,1,0.0157,0.0,0.0
+name,Tekdam,1,0.0157,0.0,0.0
+name,Tekdemir Eczanesi,1,0.0157,0.0,0.0
+name,Tekerek Kapalı Çarşı,1,0.0157,0.0,0.0
+name,Tekerek Mah.,1,0.0157,0.0,0.0
+name,Tekin Eczanesi,1,0.0157,0.0,0.0
+name,Tekinşen Eczanesi,1,0.0157,0.0,0.0
+name,Tekirsin,1,0.0157,0.0,0.0
+name,Tekke Cami,1,0.0157,0.0,0.0
+name,Tekpınar,1,0.0157,0.0,0.0
+name,Tekstilkent Mahallesi,1,0.0157,0.0,0.0
+name,Telbizek,1,0.0157,0.0,0.0
+name,Telguba,1,0.0157,0.0,0.0
+name,Tell Mahmutlu,1,0.0157,0.0,0.0
+name,Tell Ta'yinat,1,0.0157,0.0,0.0
+name,Telli,1,0.0157,0.0,0.0
+name,Temiz Eczanesi,1,0.0157,0.0,0.0
+name,Temizyürek Eczanesi,1,0.0157,0.0,0.0
+name,Temple,1,0.0157,0.0,0.0
+name,Tepe 1201 nolu Sokak,1,0.0157,0.0,0.0
+name,Tepe 1202 nolu Sokak,1,0.0157,0.0,0.0
+name,Tepecik,1,0.0157,0.0,0.0
+name,Tepehan,1,0.0157,0.0,0.0
+name,Terken,1,0.0157,0.0,0.0
+name,Terlemez Eczanesi,1,0.0157,0.0,0.0
+name,Tertemiz Eczanesi,1,0.0157,0.0,0.0
+name,Terzihüyük,1,0.0157,0.0,0.0
+name,Tilki,1,0.0157,0.0,0.0
+name,Tilmen Höyük,1,0.0157,0.0,0.0
+name,Timaç Eczanesi,1,0.0157,0.0,0.0
+name,Tinyan Gastro,1,0.0157,0.0,0.0
+name,Tiyek,1,0.0157,0.0,0.0
+name,Tiyekli,1,0.0157,0.0,0.0
+name,Tokaçgemriği,1,0.0157,0.0,0.0
+name,Tokdemir,1,0.0157,0.0,0.0
+name,Toklu,1,0.0157,0.0,0.0
+name,Toklu Eczanesi,1,0.0157,0.0,0.0
+name,Tolun Eczanesi,1,0.0157,0.0,0.0
+name,Topallar,1,0.0157,0.0,0.0
+name,Topkanlı,1,0.0157,0.0,0.0
+name,Toprak Eczanesi,1,0.0157,0.0,0.0
+name,Toprakkale,1,0.0157,0.0,0.0
+name,Toptepe,1,0.0157,0.0,0.0
+name,Topçu Eczanesi,1,0.0157,0.0,0.0
+name,Topçuoğlu Cami,1,0.0157,0.0,0.0
+name,Torun,1,0.0157,0.0,0.0
+name,Torunlar,1,0.0157,0.0,0.0
+name,Tosunlu,1,0.0157,0.0,0.0
+name,Tosyalı Haddehane,1,0.0157,0.0,0.0
+name,Tosyalı Holding Haddehane,1,0.0157,0.0,0.0
+name,Tosyalı Limanı Gümrük Müdürlüğü,1,0.0157,0.0,0.0
+name,Total,1,0.0157,0.0,0.0
+name,Trabzon Caddesi,1,0.0157,0.0,0.0
+name,Trafo,1,0.0157,0.0,0.0
+name,Tuna,1,0.0157,0.0,0.0
+name,Tuna Albayram Eczanesi,1,0.0157,0.0,0.0
+name,Tuna Mah.,1,0.0157,0.0,0.0
+name,Tuncay Eczanesi,1,0.0157,0.0,0.0
+name,Tur Otobüsü,1,0.0157,0.0,0.0
+name,Turan Eczanesi,1,0.0157,0.0,0.0
+name,Turan Emeksiz Mah.,1,0.0157,0.0,0.0
+name,Turgay Eczanesi,1,0.0157,0.0,0.0
+name,Turgut Eczanesi,1,0.0157,0.0,0.0
+name,Turgut Özal,1,0.0157,0.0,0.0
+name,Turgut Özal Mah.,1,0.0157,0.0,0.0
+name,Turkish flag,1,0.0157,0.0,0.0
+name,Tut Eczanesi,1,0.0157,0.0,0.0
+name,Tut yolu,1,0.0157,0.0,0.0
+name,Tuygunlar,1,0.0157,0.0,0.0
+name,Tuğba Eczanesi,1,0.0157,0.0,0.0
+name,Tuğlu,1,0.0157,0.0,0.0
+name,Törolar,1,0.0157,0.0,0.0
+name,Tülay Eczanesi,1,0.0157,0.0,0.0
+name,Tülin Eczanesi,1,0.0157,0.0,0.0
+name,Tüllüce,1,0.0157,0.0,0.0
+name,Tümbel,1,0.0157,0.0,0.0
+name,Tümkaya Eczanesi,1,0.0157,0.0,0.0
+name,Türkbahçe,1,0.0157,0.0,0.0
+name,Türkdağı Tepesi,1,0.0157,0.0,0.0
+name,Türkiye Odalar ve Borsalar Birliği Fen Lisesi,1,0.0157,0.0,0.0
+name,Türkler Eczanesi,1,0.0157,0.0,0.0
+name,Türkmen,1,0.0157,0.0,0.0
+name,Türkmenistan Parkı,1,0.0157,0.0,0.0
+name,Türkmenler Mah.,1,0.0157,0.0,0.0
+name,Türktepe Eczanesi,1,0.0157,0.0,0.0
+name,Türktepe Mah.,1,0.0157,0.0,0.0
+name,Tütün Hanî,1,0.0157,0.0,0.0
+name,Tışlaki Mah.,1,0.0157,0.0,0.0
+name,Ufacık,1,0.0157,0.0,0.0
+name,Ufacıklı,1,0.0157,0.0,0.0
+name,Ulaş Mah.,1,0.0157,0.0,0.0
+name,Ulu Cami,1,0.0157,0.0,0.0
+name,Ulukan Eczanesi,1,0.0157,0.0,0.0
+name,Uluçınar Market,1,0.0157,0.0,0.0
+name,Utku Eczanesi,1,0.0157,0.0,0.0
+name,Uygun Eczanesi,1,0.0157,0.0,0.0
+name,Uzunalıç,1,0.0157,0.0,0.0
+name,Uzunkuyu,1,0.0157,0.0,0.0
+name,Uzunköy,1,0.0157,0.0,0.0
+name,Uzunçarşı,1,0.0157,0.0,0.0
+name,Uzunçınar Yaylası,1,0.0157,0.0,0.0
+name,Uçar Eczanesi,1,0.0157,0.0,0.0
+name,Uğruca,1,0.0157,0.0,0.0
+name,Uğur Mumcu Parkı,1,0.0157,0.0,0.0
+name,Uğurgül Eczanesi,1,0.0157,0.0,0.0
+name,Uğurlu Termal Kaplıcaları Oteli,1,0.0157,0.0,0.0
+name,Vadi Mah.,1,0.0157,0.0,0.0
+name,Vakıfbank,1,0.0157,0.0,0.0
+name,Vali Utku Acun parkı,1,0.0157,0.0,0.0
+name,Varan Eczanesi,1,0.0157,0.0,0.0
+name,Vartolar,1,0.0157,0.0,0.0
+name,Varyant Caddesi,1,0.0157,0.0,0.0
+name,Varışlı,1,0.0157,0.0,0.0
+name,Vatan Caddesi,1,0.0157,0.0,0.0
+name,Vatan Hastanesi,1,0.0157,0.0,0.0
+name,Vatan Mah.,1,0.0157,0.0,0.0
+name,Vehba Eczanesi,1,0.0157,0.0,0.0
+name,Velipaşaoğlu Eczanesi,1,0.0157,0.0,0.0
+name,Vergi Dairesi,1,0.0157,0.0,0.0
+name,Vestel Karabiber Ticaret,1,0.0157,0.0,0.0
+name,Veyselbey Apt.,1,0.0157,0.0,0.0
+name,Veysiye,1,0.0157,0.0,0.0
+name,Vezir Eczanesi,1,0.0157,0.0,0.0
+name,Vilayet Kebap,1,0.0157,0.0,0.0
+name,Vilayetler Hizmet Birliği Anaokulu,1,0.0157,0.0,0.0
+name,Vildan Eczanesi,1,0.0157,0.0,0.0
+name,Volkswagen Yetkili Servisi Şahintaş,1,0.0157,0.0,0.0
+name,Volvo Küçük Araç Yetkili Servisi Parlar,1,0.0157,0.0,0.0
+name,Volvo Trucks - İmam Kayalıoğulları Otomotiv,1,0.0157,0.0,0.0
+name,Voyage Elegante Antakya,1,0.0157,0.0,0.0
+name,Vural Eczanesi,1,0.0157,0.0,0.0
+name,Vuslat Eczanesi,1,0.0157,0.0,0.0
+name,Yakacık Mah.,1,0.0157,0.0,0.0
+name,Yalangoz,1,0.0157,0.0,0.0
+name,Yalnızbağ,1,0.0157,0.0,0.0
+name,Yalçınkaya Eczanesi,1,0.0157,0.0,0.0
+name,Yamaçoba,1,0.0157,0.0,0.0
+name,Yamaçtepe,1,0.0157,0.0,0.0
+name,Yan Yol,1,0.0157,0.0,0.0
+name,Yanıkkışla,1,0.0157,0.0,0.0
+name,Yaprak Mah.,1,0.0157,0.0,0.0
+name,Yapı Kredi,1,0.0157,0.0,0.0
+name,Yapıcılar Eczanesi,1,0.0157,0.0,0.0
+name,Yaren Ev Yemekleri,1,0.0157,0.0,0.0
+name,Yarmakaya,1,0.0157,0.0,0.0
+name,Yarpuz,1,0.0157,0.0,0.0
+name,Yarpuzlu,1,0.0157,0.0,0.0
+name,Yarseli,1,0.0157,0.0,0.0
+name,Yarımca,1,0.0157,0.0,0.0
+name,Yassıkaya,1,0.0157,0.0,0.0
+name,Yastıca,1,0.0157,0.0,0.0
+name,Yatılı Bölge Eczanesi,1,0.0157,0.0,0.0
+name,Yavuz Selim Ortaokulu,1,0.0157,0.0,0.0
+name,Yavuzeli Eczanesi,1,0.0157,0.0,0.0
+name,Yavuzlar,1,0.0157,0.0,0.0
+name,Yavuzlar Mah.,1,0.0157,0.0,0.0
+name,Yavuzselim,1,0.0157,0.0,0.0
+name,Yavuzselim Mah.,1,0.0157,0.0,0.0
+name,Yaycı,1,0.0157,0.0,0.0
+name,Yaycıoğlu Eczanesi,1,0.0157,0.0,0.0
+name,Yayladamı,1,0.0157,0.0,0.0
+name,Yaylakonak,1,0.0157,0.0,0.0
+name,Yaylalık,1,0.0157,0.0,0.0
+name,Yaylımlı,1,0.0157,0.0,0.0
+name,Yayıklı,1,0.0157,0.0,0.0
+name,Yayıktaş,1,0.0157,0.0,0.0
+name,Yazar Eczanesi,1,0.0157,0.0,0.0
+name,Yazlamazl,1,0.0157,0.0,0.0
+name,Yazlamazlı,1,0.0157,0.0,0.0
+name,Yazıbademce,1,0.0157,0.0,0.0
+name,Yazıbağı,1,0.0157,0.0,0.0
+name,Yazıbaşı,1,0.0157,0.0,0.0
+name,Yazıcı 1,1,0.0157,0.0,0.0
+name,Yazıcı 1 Limanı,1,0.0157,0.0,0.0
+name,Yazıcı 2 Limanı,1,0.0157,0.0,0.0
+name,Yazıcık Eczanesi,1,0.0157,0.0,0.0
+name,Yazıcık Mah.,1,0.0157,0.0,0.0
+name,Yağmur Eczanesi,1,0.0157,0.0,0.0
+name,Yağızatlı,1,0.0157,0.0,0.0
+name,Yağızlar,1,0.0157,0.0,0.0
+name,Yaşam Süpermarket,1,0.0157,0.0,0.0
+name,Yaşarlar,1,0.0157,0.0,0.0
+name,Yedigöz,1,0.0157,0.0,0.0
+name,Yedioluk,1,0.0157,0.0,0.0
+name,Yeditepe Mah.,1,0.0157,0.0,0.0
+name,Yelbastı,1,0.0157,0.0,0.0
+name,Yelbüken,1,0.0157,0.0,0.0
+name,Yelken Caddesi,1,0.0157,0.0,0.0
+name,Yeni Altıntaş,1,0.0157,0.0,0.0
+name,Yeni Burcu Eczanesi,1,0.0157,0.0,0.0
+name,Yeni Eczanesi,1,0.0157,0.0,0.0
+name,Yeni Hatay Stadyumu,1,0.0157,0.0,0.0
+name,Yeni Karlısu Eczanesi,1,0.0157,0.0,0.0
+name,Yeni Kozanlı Eczanesi,1,0.0157,0.0,0.0
+name,Yeni Kurtlusoğuksu,1,0.0157,0.0,0.0
+name,Yeni Kurugöl,1,0.0157,0.0,0.0
+name,Yeni Mozaik Eczanesi,1,0.0157,0.0,0.0
+name,Yeni Pertev Eczanesi,1,0.0157,0.0,0.0
+name,Yeni Sanayi Eczanesi,1,0.0157,0.0,0.0
+name,Yeni Sanayi Mah.,1,0.0157,0.0,0.0
+name,Yeni Sanayi Sitesi Eczanesi,1,0.0157,0.0,0.0
+name,Yeni Umut Eczanesi,1,0.0157,0.0,0.0
+name,Yeni Zeynep Eczanesi,1,0.0157,0.0,0.0
+name,Yeni Şarkaya,1,0.0157,0.0,0.0
+name,Yenice,1,0.0157,0.0,0.0
+name,Yeniceli,1,0.0157,0.0,0.0
+name,Yenifarsak,1,0.0157,0.0,0.0
+name,Yenigün Eczanesi,1,0.0157,0.0,0.0
+name,Yenigüven,1,0.0157,0.0,0.0
+name,Yenikurugöl,1,0.0157,0.0,0.0
+name,Yenipınar,1,0.0157,0.0,0.0
+name,Yeniyurt Eczanesi,1,0.0157,0.0,0.0
+name,Yenişehir,1,0.0157,0.0,0.0
+name,Yenişehir Mah.,1,0.0157,0.0,0.0
+name,Yesemek,1,0.0157,0.0,0.0
+name,Yetkin Eczanesi,1,0.0157,0.0,0.0
+name,Yeşil,1,0.0157,0.0,0.0
+name,Yeşil Doğa Eczanesi,1,0.0157,0.0,0.0
+name,Yeşilce,1,0.0157,0.0,0.0
+name,Yeşildere,1,0.0157,0.0,0.0
+name,Yeşilevler Cami,1,0.0157,0.0,0.0
+name,Yeşilevler Mah.,1,0.0157,0.0,0.0
+name,Yeşilevler Pakhuylu Eczanesi,1,0.0157,0.0,0.0
+name,Yeşiller Eczanesi,1,0.0157,0.0,0.0
+name,Yeşilova Şifa Eczanesi,1,0.0157,0.0,0.0
+name,Yeşilpınar Eczanesi,1,0.0157,0.0,0.0
+name,Yeşilvadi,1,0.0157,0.0,0.0
+name,Yeşilyayla,1,0.0157,0.0,0.0
+name,Yeşilyöre,1,0.0157,0.0,0.0
+name,Yirmiikigün Mah.,1,0.0157,0.0,0.0
+name,Yiğitler,1,0.0157,0.0,0.0
+name,Yolaşan Sokağı,1,0.0157,0.0,0.0
+name,Yolbaşı,1,0.0157,0.0,0.0
+name,Yoldüzü,1,0.0157,0.0,0.0
+name,Yoncadüzü,1,0.0157,0.0,0.0
+name,Yukarı Azaplı,1,0.0157,0.0,0.0
+name,Yukarı Bademli,1,0.0157,0.0,0.0
+name,Yukarı Bilenler,1,0.0157,0.0,0.0
+name,Yukarı Bucak,1,0.0157,0.0,0.0
+name,Yukarı Güzey,1,0.0157,0.0,0.0
+name,Yukarı Kalecik,1,0.0157,0.0,0.0
+name,Yukarı Karakuyu,1,0.0157,0.0,0.0
+name,Yukarı Karavaiz,1,0.0157,0.0,0.0
+name,Yukarı Kardere,1,0.0157,0.0,0.0
+name,Yukarı Karıncalı Yaylası,1,0.0157,0.0,0.0
+name,Yukarı Kayabaşı,1,0.0157,0.0,0.0
+name,Yukarı Kekliktepe,1,0.0157,0.0,0.0
+name,Yukarı Kepirce,1,0.0157,0.0,0.0
+name,Yukarı Madenyolu,1,0.0157,0.0,0.0
+name,Yukarı Nasırlı,1,0.0157,0.0,0.0
+name,Yukarı Yeniköy,1,0.0157,0.0,0.0
+name,Yukarı Yufkalı,1,0.0157,0.0,0.0
+name,Yukarı Çöplü,1,0.0157,0.0,0.0
+name,Yukarıarıl,1,0.0157,0.0,0.0
+name,Yukarıdereli,1,0.0157,0.0,0.0
+name,Yukarıelifler,1,0.0157,0.0,0.0
+name,Yukarıhöcüklü,1,0.0157,0.0,0.0
+name,Yukarıçona,1,0.0157,0.0,0.0
+name,Yumaklıcerit Bağlar,1,0.0157,0.0,0.0
+name,Yumaklıcerit Cumhuriyet,1,0.0157,0.0,0.0
+name,Yunus Emre Parkı,1,0.0157,0.0,0.0
+name,Yusuf Eczanesi,1,0.0157,0.0,0.0
+name,Yusufağa,1,0.0157,0.0,0.0
+name,Yusuflar Mah.,1,0.0157,0.0,0.0
+name,Yuvabaşı,1,0.0157,0.0,0.0
+name,Yuvalı,1,0.0157,0.0,0.0
+name,Yörükselim Eczanesi,1,0.0157,0.0,0.0
+name,Yörükselim Mah.,1,0.0157,0.0,0.0
+name,Yüksek Eczanesi,1,0.0157,0.0,0.0
+name,Yürükselim Mah.,1,0.0157,0.0,0.0
+name,Yılanca,1,0.0157,0.0,0.0
+name,Yılanlı,1,0.0157,0.0,0.0
+name,Yıldırım Ailesi Meyve Bahçesi,1,0.0157,0.0,0.0
+name,Yıldırım Beyazıt Camii,1,0.0157,0.0,0.0
+name,Yıldız,1,0.0157,0.0,0.0
+name,Yıldız Sitesi İçi Yolu,1,0.0157,0.0,0.0
+name,Yığınlı,1,0.0157,0.0,0.0
+name,Zambak Caddesi,1,0.0157,0.0,0.0
+name,Zeugma Eczanesi,1,0.0157,0.0,0.0
+name,Zeynelaslan,1,0.0157,0.0,0.0
+name,Zeynep Tadik Eczanesi,1,0.0157,0.0,0.0
+name,Zeynepuşağı,1,0.0157,0.0,0.0
+name,Zeytin Eczanesi,1,0.0157,0.0,0.0
+name,Zeytinbağı,1,0.0157,0.0,0.0
+name,Zeytinli,1,0.0157,0.0,0.0
+name,Zeytinli Parkı,1,0.0157,0.0,0.0
+name,Zincirli,1,0.0157,0.0,0.0
+name,Zincirli Höyük,1,0.0157,0.0,0.0
+name,Ziraat Bahçesi,1,0.0157,0.0,0.0
+name,Zirve Kuruyemiş,1,0.0157,0.0,0.0
+name,Ziya Gökalp Caddesi,1,0.0157,0.0,0.0
+name,Ziyaret Sokağı,1,0.0157,0.0,0.0
+name,Ziyaret Tepe,1,0.0157,0.0,0.0
+name,Ziyaretpayamlı,1,0.0157,0.0,0.0
+name,Ziyarettepe Yangın Gözetleme Kulesi,1,0.0157,0.0,0.0
+name,Zompolar,1,0.0157,0.0,0.0
+name,Zorbalar,1,0.0157,0.0,0.0
+name,Zorkun Yaylası,1,0.0157,0.0,0.0
+name,Zübeyde Hanım Anaokulu,1,0.0157,0.0,0.0
+name,Zühal Eczanesi,1,0.0157,0.0,0.0
+name,Zülfikar,1,0.0157,0.0,0.0
+name,Zülfikar Barajı,1,0.0157,0.0,0.0
+name,atatürk caddesi devamı,1,0.0157,0.0,0.0
+name,batıkent kavşağı,1,0.0157,0.0,0.0
+name,boş arazi,1,0.0157,0.0,0.0
+name,cami,1,0.0157,0.0,0.0
+name,cemali petrol,1,0.0157,0.0,0.0
+name,dumlupınar caddesi,1,0.0157,0.0,0.0
+name,eski mezarlık,1,0.0157,0.0,0.0
+name,ev no 4,1,0.0157,0.0,0.0
+name,ev no:2,1,0.0157,0.0,0.0
+name,ev no:3,1,0.0157,0.0,0.0
+name,harmanlı-kalemkaş,1,0.0157,0.0,0.0
+name,iskele,1,0.0157,0.0,0.0
+name,jacky jones,1,0.0157,0.0,0.0
+name,kaşıbeyaz anaokulu,1,0.0157,0.0,0.0
+name,lojmanlar sınır bölgesi,1,0.0157,0.0,0.0
+name,mEYNA GROSS MARKET,1,0.0157,0.0,0.0
+name,macro center,1,0.0157,0.0,0.0
+name,millet parkı,1,0.0157,0.0,0.0
+name,mustafa kemal üniversitesi sağlık bilimleri fakültesi,1,0.0157,0.0,0.0
+name,my area,1,0.0157,0.0,0.0
+name,primemall avm,1,0.0157,0.0,0.0
+name,seyrantepe alışveriş alanı 3,1,0.0157,0.0,0.0
+name,yan yol,1,0.0157,0.0,0.0
+name,yavuz sultan selim cad.,1,0.0157,0.0,0.0
+name,yeni mezarlık,1,0.0157,0.0,0.0
+name,yeni yapılaşma,1,0.0157,0.0,0.0
+name,Çakallıhasanağa,1,0.0157,0.0,0.0
+name,Çakallıpınar,1,0.0157,0.0,0.0
+name,Çakallıçullu,1,0.0157,0.0,0.0
+name,Çakıcı Şarküteri,1,0.0157,0.0,0.0
+name,Çakırgöz Eczanesi,1,0.0157,0.0,0.0
+name,Çakırhüyük,1,0.0157,0.0,0.0
+name,Çakırlar,1,0.0157,0.0,0.0
+name,Çakıroğlu-Bahçe Yolu,1,0.0157,0.0,0.0
+name,Çalkaya,1,0.0157,0.0,0.0
+name,Çalık Eczanesi,1,0.0157,0.0,0.0
+name,Çalışkan Kırtasiye,1,0.0157,0.0,0.0
+name,Çamgazi,1,0.0157,0.0,0.0
+name,Çamiçi,1,0.0157,0.0,0.0
+name,Çamlıca Mah.,1,0.0157,0.0,0.0
+name,Çamlıtepe,1,0.0157,0.0,0.0
+name,Çamrak,1,0.0157,0.0,0.0
+name,Çamsarı,1,0.0157,0.0,0.0
+name,Çamseki,1,0.0157,0.0,0.0
+name,Çamtoruğu,1,0.0157,0.0,0.0
+name,Çamurlugeçit,1,0.0157,0.0,0.0
+name,Çamyurdu,1,0.0157,0.0,0.0
+name,Çanakçı,1,0.0157,0.0,0.0
+name,Çankaya Eczanesi,1,0.0157,0.0,0.0
+name,Çapalı,1,0.0157,0.0,0.0
+name,Çapar Apart,1,0.0157,0.0,0.0
+name,Çardaklı,1,0.0157,0.0,0.0
+name,Çarem Eczanesi,1,0.0157,0.0,0.0
+name,Çarşı Eczanesi,1,0.0157,0.0,0.0
+name,Çat Barajı,1,0.0157,0.0,0.0
+name,Çatak,1,0.0157,0.0,0.0
+name,Çatalmazı,1,0.0157,0.0,0.0
+name,Çatalyurt,1,0.0157,0.0,0.0
+name,Çaybaşı,1,0.0157,0.0,0.0
+name,Çaybaşı OSB Mah.,1,0.0157,0.0,0.0
+name,Çaykaya,1,0.0157,0.0,0.0
+name,Çayır,1,0.0157,0.0,0.0
+name,Çayıraltı,1,0.0157,0.0,0.0
+name,Çayırobası,1,0.0157,0.0,0.0
+name,Çağdaş Mah.,1,0.0157,0.0,0.0
+name,Çağkuyu,1,0.0157,0.0,0.0
+name,Çağlayan Mah.,1,0.0157,0.0,0.0
+name,Çağlayancerit - Dulkadiroğlu ilçe sınırı,1,0.0157,0.0,0.0
+name,Çağırkan,1,0.0157,0.0,0.0
+name,Çağşak,1,0.0157,0.0,0.0
+name,Çedirge Dağı,1,0.0157,0.0,0.0
+name,Çekmece Caddesi,1,0.0157,0.0,0.0
+name,Çekmece Eczanesi,1,0.0157,0.0,0.0
+name,Çeko Eczanesi,1,0.0157,0.0,0.0
+name,Çeler Eczanesi,1,0.0157,0.0,0.0
+name,Çelik Eczanesi,1,0.0157,0.0,0.0
+name,Çelikhan Cezaevi,1,0.0157,0.0,0.0
+name,Çelikhan Eczanesi,1,0.0157,0.0,0.0
+name,Çemberlitaş,1,0.0157,0.0,0.0
+name,Çemihelikan,1,0.0157,0.0,0.0
+name,Çetin Emeç Bulvarı,1,0.0157,0.0,0.0
+name,Çetin Sk.,1,0.0157,0.0,0.0
+name,Çeşme başi,1,0.0157,0.0,0.0
+name,Çiftlik,1,0.0157,0.0,0.0
+name,Çilboğaz,1,0.0157,0.0,0.0
+name,Çilek Eczanesi,1,0.0157,0.0,0.0
+name,Çiloğlan Hüyüğü,1,0.0157,0.0,0.0
+name,Çizgi Teknoloji | Etkileşim Gücünüz,1,0.0157,0.0,0.0
+name,Çiçekalan,1,0.0157,0.0,0.0
+name,Çiçekalanı,1,0.0157,0.0,0.0
+name,Çiğdemtepe Mahalle Camii,1,0.0157,0.0,0.0
+name,Çoban Ali Parkı,1,0.0157,0.0,0.0
+name,Çocuk Evleri Koordinasyon Müdürlüğü,1,0.0157,0.0,0.0
+name,Çocuk Eğlence Parkı,1,0.0157,0.0,0.0
+name,Çokpınar,1,0.0157,0.0,0.0
+name,Çokyiğit Sitesi A-B Blok,1,0.0157,0.0,0.0
+name,Çolaklar,1,0.0157,0.0,0.0
+name,Çolaklı,1,0.0157,0.0,0.0
+name,Çomak,1,0.0157,0.0,0.0
+name,Çomu Eczanesi,1,0.0157,0.0,0.0
+name,Çona,1,0.0157,0.0,0.0
+name,Çorak,1,0.0157,0.0,0.0
+name,Çorak yolu,1,0.0157,0.0,0.0
+name,Çorman,1,0.0157,0.0,0.0
+name,Çubuk,1,0.0157,0.0,0.0
+name,Çubuk Sokak,1,0.0157,0.0,0.0
+name,Çubukdiken,1,0.0157,0.0,0.0
+name,Çukurova Eczanesi,1,0.0157,0.0,0.0
+name,Çukurova Elektrik Anadolu Lisesi,1,0.0157,0.0,0.0
+name,Çukuryurt,1,0.0157,0.0,0.0
+name,Çulhalı,1,0.0157,0.0,0.0
+name,Çökek Yaylası,1,0.0157,0.0,0.0
+name,Çöreklik,1,0.0157,0.0,0.0
+name,Çöçelli,1,0.0157,0.0,0.0
+name,Çükan Mah.,1,0.0157,0.0,0.0
+name,Çıksorut Mah.,1,0.0157,0.0,0.0
+name,Çınar,1,0.0157,0.0,0.0
+name,Çınar Mah.,1,0.0157,0.0,0.0
+name,Çınarbaşı,1,0.0157,0.0,0.0
+name,Çınarlı Eczanesi,1,0.0157,0.0,0.0
+name,Çınarlık Yaylası,1,0.0157,0.0,0.0
+name,Çıray Eczanesi,1,0.0157,0.0,0.0
+name,Ökkeş Ziyareti,1,0.0157,0.0,0.0
+name,Ölçer Eczanesi,1,0.0157,0.0,0.0
+name,Ömer Halisdemir Apartmanı,1,0.0157,0.0,0.0
+name,Ömeroğlu,1,0.0157,0.0,0.0
+name,Ömeroğlu Eczanesi,1,0.0157,0.0,0.0
+name,Öner Eczanesi,1,0.0157,0.0,0.0
+name,Öner Murat Eczanesi,1,0.0157,0.0,0.0
+name,Önsenhopuru,1,0.0157,0.0,0.0
+name,Ördekdede,1,0.0157,0.0,0.0
+name,Örencik,1,0.0157,0.0,0.0
+name,Ötekioba,1,0.0157,0.0,0.0
+name,Ötençay,1,0.0157,0.0,0.0
+name,Övündük,1,0.0157,0.0,0.0
+name,Övünç Eczanesi,1,0.0157,0.0,0.0
+name,Öykü Eczanesi,1,0.0157,0.0,0.0
+name,Öyküm Eczanesi,1,0.0157,0.0,0.0
+name,Öz Kurtuluş,1,0.0157,0.0,0.0
+name,Özay Eczanesi,1,0.0157,0.0,0.0
+name,Özaydın Eczanesi,1,0.0157,0.0,0.0
+name,Özbilgin Mah.,1,0.0157,0.0,0.0
+name,Özbuğday Ortaokulu,1,0.0157,0.0,0.0
+name,Özel,1,0.0157,0.0,0.0
+name,Özel Antakya Akademi Hastanesi,1,0.0157,0.0,0.0
+name,Özel Doğu Akdeniz Hastahanesi,1,0.0157,0.0,0.0
+name,Özel Palmiye Hastanesi,1,0.0157,0.0,0.0
+name,Özen Eczanesi,1,0.0157,0.0,0.0
+name,Özensoy Eczanesi,1,0.0157,0.0,0.0
+name,Özer Eczanesi,1,0.0157,0.0,0.0
+name,Özge Duacı Eczanesi,1,0.0157,0.0,0.0
+name,Özgen Eczanesi,1,0.0157,0.0,0.0
+name,Özgürlük Mah.,1,0.0157,0.0,0.0
+name,Özkanlı Eczanesi,1,0.0157,0.0,0.0
+name,Özkaya Eczanesi,1,0.0157,0.0,0.0
+name,Özkızılkaya,1,0.0157,0.0,0.0
+name,Özlem Arıcı Eczanesi,1,0.0157,0.0,0.0
+name,Özmen Eczanesi,1,0.0157,0.0,0.0
+name,Öznur Eczanesi,1,0.0157,0.0,0.0
+name,Özsoğuksu,1,0.0157,0.0,0.0
+name,Öztoprak Eczanesi,1,0.0157,0.0,0.0
+name,Öztürk,1,0.0157,0.0,0.0
+name,Özyetkin Eczanesi,1,0.0157,0.0,0.0
+name,Özyörük,1,0.0157,0.0,0.0
+name,Özşanlı Eczanesi,1,0.0157,0.0,0.0
+name,Öğretmenevleri Mah.,1,0.0157,0.0,0.0
+name,Öğümsöğüt,1,0.0157,0.0,0.0
+name,Öğütlü,1,0.0157,0.0,0.0
+name,Ülkerli,1,0.0157,0.0,0.0
+name,Ümran Eczanesi,1,0.0157,0.0,0.0
+name,Ünal Eczanesi,1,0.0157,0.0,0.0
+name,Ünaldı Mah.,1,0.0157,0.0,0.0
+name,Üniversite Bulvarı,1,0.0157,0.0,0.0
+name,Üniversite Özden Eczanesi,1,0.0157,0.0,0.0
+name,Ünlü Eczanesi,1,0.0157,0.0,0.0
+name,Ünlüce,1,0.0157,0.0,0.0
+name,Ünsal Eczanesi,1,0.0157,0.0,0.0
+name,Ürgüç,1,0.0157,0.0,0.0
+name,Ürün Yaylası,1,0.0157,0.0,0.0
+name,Ürünlü,1,0.0157,0.0,0.0
+name,Üzümdalı,1,0.0157,0.0,0.0
+name,Üçevler,1,0.0157,0.0,0.0
+name,Üçgedik,1,0.0157,0.0,0.0
+name,Üçgöl,1,0.0157,0.0,0.0
+name,Üçgöz,1,0.0157,0.0,0.0
+name,Üçgöze,1,0.0157,0.0,0.0
+name,Üçkardeş C,1,0.0157,0.0,0.0
+name,Üçkaya Tepe,1,0.0157,0.0,0.0
+name,Üçpınar Göleti,1,0.0157,0.0,0.0
+name,Üçtepe,1,0.0157,0.0,0.0
+name,çakmak-kalemkaş,1,0.0157,0.0,0.0
+name,İbişler,1,0.0157,0.0,0.0
+name,İbn-i Sina Anaokulu,1,0.0157,0.0,0.0
+name,İbn-i Sina Ortaokulu,1,0.0157,0.0,0.0
+name,İbrahim Karaoğlanoğlu Caddesi,1,0.0157,0.0,0.0
+name,İbrahimli,1,0.0157,0.0,0.0
+name,İbrahimli Eczanesi,1,0.0157,0.0,0.0
+name,İbrahimşehir,1,0.0157,0.0,0.0
+name,İconova Eczanesi,1,0.0157,0.0,0.0
+name,İdilli,1,0.0157,0.0,0.0
+name,İkiz Eczanesi,1,0.0157,0.0,0.0
+name,İkizkuyu,1,0.0157,0.0,0.0
+name,İkizler TM - Erzin TM EİH,1,0.0157,0.0,0.0
+name,İl Emniyet Doğukent Hizmet Binası,1,0.0157,0.0,0.0
+name,İl Jandarma Komutanlığı,1,0.0157,0.0,0.0
+name,İlhami Eczanesi,1,0.0157,0.0,0.0
+name,İlim Yayma Cemiyeti Kız Yurdu,1,0.0157,0.0,0.0
+name,İlkay Eczanesi,1,0.0157,0.0,0.0
+name,İlkcan Eczanesi,1,0.0157,0.0,0.0
+name,İlker Eczanesi,1,0.0157,0.0,0.0
+name,İlkhanlar Eczanesi,1,0.0157,0.0,0.0
+name,İlkkurşun Eczanesi,1,0.0157,0.0,0.0
+name,İlyaslar,1,0.0157,0.0,0.0
+name,İmalı,1,0.0157,0.0,0.0
+name,İmam Hatip ( Tatbikat) Camii,1,0.0157,0.0,0.0
+name,İmam Hatip Lisesi,1,0.0157,0.0,0.0
+name,İmece,1,0.0157,0.0,0.0
+name,İmge Eczanesi,1,0.0157,0.0,0.0
+name,İmolar,1,0.0157,0.0,0.0
+name,İmran,1,0.0157,0.0,0.0
+name,İnce Sk.,1,0.0157,0.0,0.0
+name,İnceer Eczanesi,1,0.0157,0.0,0.0
+name,İncegedik,1,0.0157,0.0,0.0
+name,İnceköy,1,0.0157,0.0,0.0
+name,İncesu,1,0.0157,0.0,0.0
+name,İnci Eczanesi,1,0.0157,0.0,0.0
+name,İncili Pınar Mah.,1,0.0157,0.0,0.0
+name,İncilikaya Mah.,1,0.0157,0.0,0.0
+name,İnderesi,1,0.0157,0.0,0.0
+name,İnekli Göl,1,0.0157,0.0,0.0
+name,İnönü,1,0.0157,0.0,0.0
+name,İnönü İlkokulu,1,0.0157,0.0,0.0
+name,İpek Gündüz Eczanesi,1,0.0157,0.0,0.0
+name,İpekli,1,0.0157,0.0,0.0
+name,İpekyol Eczanesi,1,0.0157,0.0,0.0
+name,İpekyolu Sitesi,1,0.0157,0.0,0.0
+name,İpekçioğlu Eczanesi,1,0.0157,0.0,0.0
+name,İrem Eczanesi,1,0.0157,0.0,0.0
+name,İrez Eczanesi,1,0.0157,0.0,0.0
+name,İrfan Eczanesi,1,0.0157,0.0,0.0
+name,İsa Mesih Kilisesi,1,0.0157,0.0,0.0
+name,İsali,1,0.0157,0.0,0.0
+name,İsdemir Istasyon,1,0.0157,0.0,0.0
+name,İsdemir TM - Erzin TM EİH,1,0.0157,0.0,0.0
+name,İskan,1,0.0157,0.0,0.0
+name,İskenderli,1,0.0157,0.0,0.0
+name,İskenderun - Arsuz İlçe Sınırı,1,0.0157,0.0,0.0
+name,İskenderun Atlas Termik Santrali,1,0.0157,0.0,0.0
+name,İskenderun Devlet Hastanesi,1,0.0157,0.0,0.0
+name,İskenderun Eczanesi,1,0.0157,0.0,0.0
+name,İskenderun Kız Anadolu İmam Hatip Lisesi,1,0.0157,0.0,0.0
+name,İskenderun Mesleki ve Teknik Anadolu Lisesi,1,0.0157,0.0,0.0
+name,İskenderun Orduevi,1,0.0157,0.0,0.0
+name,İskenderun İstasyonu,1,0.0157,0.0,0.0
+name,İslahiye Eczanesi,1,0.0157,0.0,0.0
+name,İslam Bilim ve Teknoloji Üniversitesi,1,0.0157,0.0,0.0
+name,İslamoğlu,1,0.0157,0.0,0.0
+name,İstasyon,1,0.0157,0.0,0.0
+name,İstasyon Caddesi,1,0.0157,0.0,0.0
+name,İstiklal,1,0.0157,0.0,0.0
+name,İstiklal Mahallesi Semt Sahası,1,0.0157,0.0,0.0
+name,İstiklal Parkı,1,0.0157,0.0,0.0
+name,İstiklal İlkokulu,1,0.0157,0.0,0.0
+name,İstiklâl Enes Eczanesi,1,0.0157,0.0,0.0
+name,İyilik Eczanesi,1,0.0157,0.0,0.0
+name,İzci Eczanesi,1,0.0157,0.0,0.0
+name,İzgüden Eczanesi,1,0.0157,0.0,0.0
+name,İçada,1,0.0157,0.0,0.0
+name,İçerisu,1,0.0157,0.0,0.0
+name,Şahin Eczanesi,1,0.0157,0.0,0.0
+name,Şahinbey Belediyesi Bilim ve Sanat Merkezi,1,0.0157,0.0,0.0
+name,Şahinbey Eczanesi,1,0.0157,0.0,0.0
+name,Şahinbey Mah.,1,0.0157,0.0,0.0
+name,Şahinbey Mülk,1,0.0157,0.0,0.0
+name,Şahintepe Eczanesi,1,0.0157,0.0,0.0
+name,Şahintepesi,1,0.0157,0.0,0.0
+name,Şahmaran,1,0.0157,0.0,0.0
+name,Şalen Kalesi,1,0.0157,0.0,0.0
+name,Şatırhüyük,1,0.0157,0.0,0.0
+name,Şazi Bey Mah.,1,0.0157,0.0,0.0
+name,Şaşmaz Eczanesi,1,0.0157,0.0,0.0
+name,Şehirgösteren Mah.,1,0.0157,0.0,0.0
+name,Şehit A. Çavuş Parkı,1,0.0157,0.0,0.0
+name,Şehit Aybüke Öğretmen Anaokulu,1,0.0157,0.0,0.0
+name,Şehit Evliya Mah.,1,0.0157,0.0,0.0
+name,Şehit Komiser İbrahim Hacbekiroğlu Caddesi,1,0.0157,0.0,0.0
+name,Şehit Nurettin Ademoğlu,1,0.0157,0.0,0.0
+name,Şehit Oğuz Yener Caddesi,1,0.0157,0.0,0.0
+name,Şehit P. Astsb. Çvş. Alparslan Koca,1,0.0157,0.0,0.0
+name,Şehit P. Atğm. İsmail Atlas Cd.,1,0.0157,0.0,0.0
+name,Şehit Piyade Onbaşı Semir Say,1,0.0157,0.0,0.0
+name,Şehit Polis Mehmet Çatal Sokağı,1,0.0157,0.0,0.0
+name,Şehit Polis Çağrı Doğan Sokağı,1,0.0157,0.0,0.0
+name,Şehit Uzman Çavuş Süleyman Danacı Caddesi,1,0.0157,0.0,0.0
+name,Şehit Öğretmen Hayri Kaya Ortaokulu,1,0.0157,0.0,0.0
+name,Şehit İbrahim Etiz Caddesi,1,0.0157,0.0,0.0
+name,Şehit İlhan Güleç Anadolu Lisesi,1,0.0157,0.0,0.0
+name,Şehitkamil,1,0.0157,0.0,0.0
+name,Şehitkamil - Nizip ilçe sınırı,1,0.0157,0.0,0.0
+name,Şehitkamil - Nurdağı ilçe sınırı,1,0.0157,0.0,0.0
+name,Şehitkamil - Oğuzeli ilçe sınırı,1,0.0157,0.0,0.0
+name,Şehitkamil - Yavuzeli ilçe sınırı,1,0.0157,0.0,0.0
+name,Şehitkamil Sosyal Tesis,1,0.0157,0.0,0.0
+name,Şekerbank,1,0.0157,0.0,0.0
+name,Şekerdere,1,0.0157,0.0,0.0
+name,Şekeroba,1,0.0157,0.0,0.0
+name,Şekeroğlu Mah.,1,0.0157,0.0,0.0
+name,Şen Eczanesi,1,0.0157,0.0,0.0
+name,Şenbük,1,0.0157,0.0,0.0
+name,Şenol Eczanesi,1,0.0157,0.0,0.0
+name,Şenyurt Mah.,1,0.0157,0.0,0.0
+name,Şerefhan,1,0.0157,0.0,0.0
+name,Şerefli,1,0.0157,0.0,0.0
+name,Şerif Peri,1,0.0157,0.0,0.0
+name,Şerikanlı,1,0.0157,0.0,0.0
+name,Şht. Abdullah Çvş. Mah.,1,0.0157,0.0,0.0
+name,Şht. İbrahim Çağlar Cd.,1,0.0157,0.0,0.0
+name,Şifam Eczanesi,1,0.0157,0.0,0.0
+name,Şimşek Eczanesi,1,0.0157,0.0,0.0
+name,Şirince Eczanesi,1,0.0157,0.0,0.0
+name,Şirinevler Mah.,1,0.0157,0.0,0.0
+name,Şirintepe Eczanesi,1,0.0157,0.0,0.0
+name,Şirvani Cami,1,0.0157,0.0,0.0
+name,Şok Market Körfez,1,0.0157,0.0,0.0
+name,Şükrü Paşa,1,0.0157,0.0,0.0
+name,التلول,1,0.0157,0.0,0.0
+name,شلتاح,1,0.0157,0.0,0.0
+natural,wood,83,23.7143,8200.0,8200.0
+natural,scrub,60,17.1429,5900.0,5900.0
+natural,water,50,14.2857,4900.0,4900.0
+natural,cliff,47,13.4286,4600.0,4600.0
+natural,coastline,35,10.0,3400.0,3400.0
+natural,tree,29,8.2857,2800.0,2800.0
+natural,peak,28,8.0,2700.0,2700.0
+natural,bare_rock,3,0.8571,200.0,200.0
+natural,hill,3,0.8571,200.0,200.0
+natural,tree_row,3,0.8571,200.0,200.0
+natural,cave_entrance,2,0.5714,100.0,100.0
+natural,grassland,2,0.5714,100.0,100.0
+natural,wetland,2,0.5714,100.0,100.0
+natural,hot_spring,1,0.2857,0.0,0.0
+natural,mountain_range,1,0.2857,0.0,0.0
+natural,mud,1,0.2857,0.0,0.0
+source,microsoft/BuildingFootprints,4153,39.9711,415200.0,415200.0
+source,maxar Premium,2807,27.0164,280600.0,280600.0
+source,bing,1807,17.3917,180600.0,180600.0
+source,maxar,308,2.9644,30700.0,30700.0
+source,Bing,258,2.4832,25700.0,25700.0
+source,DigitalGlobal Premium Image 15-12-17,177,1.7036,17600.0,17600.0
+source,GPS,160,1.5399,15900.0,15900.0
+source,mapbox,156,1.5014,15500.0,15500.0
+source,digitalglobe,144,1.3859,14300.0,14300.0
+source,estimated,94,0.9047,9300.0,9300.0
+source,LSIB3,61,0.5871,6000.0,6000.0
+source,Maxar Premium-Luftbilder (Beta),43,0.4139,4200.0,4200.0
+source,HGK,24,0.231,2300.0,2300.0
+source,PGS,24,0.231,2300.0,2300.0
+source,landsat,24,0.231,2300.0,2300.0
+source,strava.com heatmap,23,0.2214,2200.0,2200.0
+source,http://rehber.malatya.bel.tr/KentrehberiApp/Index,21,0.2021,2000.0,2000.0
+source,Wikipedia (tr),16,0.154,1500.0,1500.0
+source,"gps, personal survey",16,0.154,1500.0,1500.0
+source,"Bing,2010-6",14,0.1347,1300.0,1300.0
+source,cyclemap,8,0.077,700.0,700.0
+source,GNS,7,0.0674,600.0,600.0
+source,Yellow Pages Türkiye,7,0.0674,600.0,600.0
+source,US NGA Pub. 113. 2011-10-20.,4,0.0385,300.0,300.0
+source,http://lisans.epdk.gov.tr/epvys-web/faces/pages/lisans/elektrikUretim/elektrikUretimOzetSorgula.xhtml,4,0.0385,300.0,300.0
+source,openTopoMap,4,0.0385,300.0,300.0
+source,OpenTopoMap,3,0.0289,200.0,200.0
+source,Sentinel 2020,2,0.0192,100.0,100.0
+source,Thunderforest Landschaft,2,0.0192,100.0,100.0
+source,Yahoo,2,0.0192,100.0,100.0
+source,"bing, gps, personal survey",2,0.0192,100.0,100.0
+source,gis2.cevreorman.gov.tr/mp/,2,0.0192,100.0,100.0
+source,osm-gpx,2,0.0192,100.0,100.0
+source,Bing;Yandex,1,0.0096,0.0,0.0
+source,DigitalGlobal Premium Image 16-12-17,1,0.0096,0.0,0.0
+source,DigitalGlobe-Premium,1,0.0096,0.0,0.0
+source,ESRI,1,0.0096,0.0,0.0
+source,GPS + BIng,1,0.0096,0.0,0.0
+source,"GPS, Bing",1,0.0096,0.0,0.0
+source,GPS;bing;mapbox,1,0.0096,0.0,0.0
+source,Maxar Premium Imagery,1,0.0096,0.0,0.0
+source,Thunderforest Landscape,1,0.0096,0.0,0.0
+source,along river,1,0.0096,0.0,0.0
+source,geonames.org,1,0.0096,0.0,0.0
+surface,unpaved,330,44.0587,32900.0,32900.0
+surface,asphalt,237,31.6422,23600.0,23600.0
+surface,paved,117,15.6208,11600.0,11600.0
+surface,earth,24,3.2043,2300.0,2300.0
+surface,ground,9,1.2016,800.0,800.0
+surface,soil,9,1.2016,800.0,800.0
+surface,dirt,5,0.6676,400.0,400.0
+surface,gravel,5,0.6676,400.0,400.0
+surface,halı_ve_plastik_muluzlar,3,0.4005,200.0,200.0
+surface,paving_stones,3,0.4005,200.0,200.0
+surface,cim_saha,2,0.267,100.0,100.0
+surface,artificial_turf,1,0.1335,0.0,0.0
+surface,cobblestone,1,0.1335,0.0,0.0
+surface,concrete,1,0.1335,0.0,0.0
+surface,fine_gravel,1,0.1335,0.0,0.0
+surface,l,1,0.1335,0.0,0.0
+waterway,stream,132,45.0512,13100.0,13100.0
+waterway,ditch,89,30.3754,8800.0,8800.0
+waterway,river,44,15.0171,4300.0,4300.0
+waterway,dam,14,4.7782,1300.0,1300.0
+waterway,drain,10,3.413,900.0,900.0
+waterway,weir,3,1.0239,200.0,200.0
+waterway,canal,1,0.3413,0.0,0.0

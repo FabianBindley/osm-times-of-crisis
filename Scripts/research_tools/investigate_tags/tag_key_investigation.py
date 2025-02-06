@@ -124,7 +124,7 @@ if __name__ == "__main__":
     start_time = datetime.now()
     db_utils = DB_Utils()
     db_utils.db_connect()
-    disaster_ids =  [7,8,9,10]
+    disaster_ids =  range(2,13)
 
     print("Getting key counts")
     get_key_counts(pre_disaster_days=365, imm_disaster_days=30, post_diaster_days=365)

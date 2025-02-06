@@ -1,0 +1,3845 @@
+key,value,count,percent_of_total_changes_for_key,percent_difference_from_pre,percent_difference_from_pre_day
+amenity,parking,405,33.1695,40400.0,246275.0
+amenity,school,156,12.7764,15500.0,94800.0
+amenity,place_of_worship,154,12.6126,15300.0,93583.3333
+amenity,cafe,53,4.3407,5200.0,32141.6667
+amenity,fuel,44,3.6036,4300.0,26666.6667
+amenity,restaurant,44,3.6036,4300.0,26666.6667
+amenity,bench,31,2.5389,3000.0,18758.3333
+amenity,hospital,29,2.3751,2800.0,17541.6667
+amenity,bank,20,1.638,1900.0,12066.6667
+amenity,atm,18,1.4742,1700.0,10850.0
+amenity,pharmacy,17,1.3923,1600.0,10241.6667
+amenity,clinic,15,1.2285,1400.0,9025.0
+amenity,marketplace,14,1.1466,1300.0,8416.6667
+amenity,fast_food,13,1.0647,1200.0,7808.3333
+amenity,car_rental,11,0.9009,1000.0,6591.6667
+amenity,university,11,0.9009,1000.0,6591.6667
+amenity,waste_basket,11,0.9009,1000.0,6591.6667
+amenity,bicycle_parking,10,0.819,900.0,5983.3333
+amenity,ferry_terminal,10,0.819,900.0,5983.3333
+amenity,bus_station,9,0.7371,800.0,5375.0
+amenity,post_office,9,0.7371,800.0,5375.0
+amenity,taxi,9,0.7371,800.0,5375.0
+amenity,theatre,9,0.7371,800.0,5375.0
+amenity,waste_disposal,8,0.6552,700.0,4766.6667
+amenity,community_centre,7,0.5733,600.0,4158.3333
+amenity,police,7,0.5733,600.0,4158.3333
+amenity,arts_centre,6,0.4914,500.0,3550.0
+amenity,fire_station,6,0.4914,500.0,3550.0
+amenity,kindergarten,6,0.4914,500.0,3550.0
+amenity,shelter,6,0.4914,500.0,3550.0
+amenity,townhall,6,0.4914,500.0,3550.0
+amenity,car_wash,5,0.4095,400.0,2941.6667
+amenity,college,5,0.4095,400.0,2941.6667
+amenity,food_court,4,0.3276,300.0,2333.3333
+amenity,fountain,4,0.3276,300.0,2333.3333
+amenity,library,4,0.3276,300.0,2333.3333
+amenity,grave_yard,3,0.2457,200.0,1725.0
+amenity,industrial,3,0.2457,200.0,1725.0
+amenity,parking_entrance,3,0.2457,200.0,1725.0
+amenity,parking_space,3,0.2457,200.0,1725.0
+amenity,bar,2,0.1638,100.0,1116.6667
+amenity,bicycle_rental,2,0.1638,100.0,1116.6667
+amenity,bureau_de_change,2,0.1638,100.0,1116.6667
+amenity,conference_centre,2,0.1638,100.0,1116.6667
+amenity,courthouse,2,0.1638,100.0,1116.6667
+amenity,dentist,2,0.1638,100.0,1116.6667
+amenity,doctors,2,0.1638,100.0,1116.6667
+amenity,drinking_water,2,0.1638,100.0,1116.6667
+amenity,nightclub,2,0.1638,100.0,1116.6667
+amenity,prison,2,0.1638,100.0,1116.6667
+amenity,telephone,2,0.1638,100.0,1116.6667
+amenity,veterinary,2,0.1638,100.0,1116.6667
+amenity,bbq,1,0.0819,0.0,508.3333
+amenity,bicycle_repair_station,1,0.0819,0.0,508.3333
+amenity,internet_cafe,1,0.0819,0.0,508.3333
+amenity,language_school,1,0.0819,0.0,508.3333
+amenity,motorcycle_parking,1,0.0819,0.0,508.3333
+amenity,social_centre,1,0.0819,0.0,508.3333
+amenity,social_facility,1,0.0819,0.0,508.3333
+amenity,stable,1,0.0819,0.0,508.3333
+amenity,toilets,1,0.0819,0.0,508.3333
+building,yes,206406,98.4179,20640500.0,125563550.0
+building,apartments,1055,0.503,105400.0,641691.6667
+building,house,1033,0.4926,103200.0,628308.3333
+building,industrial,305,0.1454,30400.0,185441.6667
+building,greenhouse,195,0.093,19400.0,118525.0
+building,residential,170,0.0811,16900.0,103316.6667
+building,school,151,0.072,15000.0,91758.3333
+building,roof,65,0.031,6400.0,39441.6667
+building,terrace,53,0.0253,5200.0,32141.6667
+building,commercial,41,0.0195,4000.0,24841.6667
+building,farm_auxiliary,38,0.0181,3700.0,23016.6667
+building,construction,28,0.0134,2700.0,16933.3333
+building,hospital,27,0.0129,2600.0,16325.0
+building,university,22,0.0105,2100.0,13283.3333
+building,hangar,18,0.0086,1700.0,10850.0
+building,dormitory,16,0.0076,1500.0,9633.3333
+building,mosque,16,0.0076,1500.0,9633.3333
+building,warehouse,9,0.0043,800.0,5375.0
+building,retail,8,0.0038,700.0,4766.6667
+building,ruins,8,0.0038,700.0,4766.6667
+building,transportation,7,0.0033,600.0,4158.3333
+building,detached,5,0.0024,400.0,2941.6667
+building,parking,5,0.0024,400.0,2941.6667
+building,shed,5,0.0024,400.0,2941.6667
+building,semidetached_house,4,0.0019,300.0,2333.3333
+building,church,3,0.0014,200.0,1725.0
+building,civic,3,0.0014,200.0,1725.0
+building,farm,3,0.0014,200.0,1725.0
+building,hut,3,0.0014,200.0,1725.0
+building,kindergarten,3,0.0014,200.0,1725.0
+building,buca pazarı,2,0.001,100.0,1116.6667
+building,office,2,0.001,100.0,1116.6667
+building,public,2,0.001,100.0,1116.6667
+building,universiity,2,0.001,100.0,1116.6667
+building,yes;apartments,2,0.001,100.0,1116.6667
+building,barn,1,0.0005,0.0,508.3333
+building,college,1,0.0005,0.0,508.3333
+building,dam,1,0.0005,0.0,508.3333
+building,farmyard,1,0.0005,0.0,508.3333
+building,government,1,0.0005,0.0,508.3333
+building,hotel,1,0.0005,0.0,508.3333
+building,no,1,0.0005,0.0,508.3333
+building,security,1,0.0005,0.0,508.3333
+building,stadium,1,0.0005,0.0,508.3333
+emergency,yes,12,63.1579,1100.0,7200.0
+emergency,destination,4,21.0526,300.0,2333.3333
+emergency,no,3,15.7895,200.0,1725.0
+highway,residential,6473,46.1895,647200.0,3937641.6667
+highway,track,1011,7.2142,101000.0,614925.0
+highway,living_street,971,6.9288,97000.0,590591.6667
+highway,service,919,6.5577,91800.0,558958.3333
+highway,tertiary,836,5.9655,83500.0,508466.6667
+highway,secondary,705,5.0307,70400.0,428775.0
+highway,unclassified,648,4.6239,64700.0,394100.0
+highway,footway,615,4.3885,61400.0,374025.0
+highway,primary,424,3.0255,42300.0,257833.3333
+highway,bus_stop,225,1.6055,22400.0,136775.0
+highway,path,153,1.0918,15200.0,92975.0
+highway,construction,132,0.9419,13100.0,80200.0
+highway,pedestrian,119,0.8492,11800.0,72291.6667
+highway,steps,100,0.7136,9900.0,60733.3333
+highway,primary_link,93,0.6636,9200.0,56475.0
+highway,traffic_signals,92,0.6565,9100.0,55866.6667
+highway,motorway,91,0.6494,9000.0,55258.3333
+highway,trunk,87,0.6208,8600.0,52825.0
+highway,crossing,85,0.6065,8400.0,51608.3333
+highway,trunk_link,52,0.3711,5100.0,31533.3333
+highway,motorway_link,45,0.3211,4400.0,27275.0
+highway,secondary_link,24,0.1713,2300.0,14500.0
+highway,cycleway,22,0.157,2100.0,13283.3333
+highway,tertiary_link,17,0.1213,1600.0,10241.6667
+highway,motorway_junction,12,0.0856,1100.0,7200.0
+highway,street_lamp,11,0.0785,1000.0,6591.6667
+highway,corridor,9,0.0642,800.0,5375.0
+highway,platform,9,0.0642,800.0,5375.0
+highway,road,9,0.0642,800.0,5375.0
+highway,elevator,7,0.05,600.0,4158.3333
+highway,turning_circle,6,0.0428,500.0,3550.0
+highway,speed_camera,4,0.0285,300.0,2333.3333
+highway,planned,3,0.0214,200.0,1725.0
+highway,toll_gantry,2,0.0143,100.0,1116.6667
+highway,bus_guideway,1,0.0071,0.0,508.3333
+highway,rest_area,1,0.0071,0.0,508.3333
+highway,stop,1,0.0071,0.0,508.3333
+landuse,residential,603,47.3684,60200.0,366725.0
+landuse,block,181,14.2184,18000.0,110008.3333
+landuse,grass,154,12.0974,15300.0,93583.3333
+landuse,industrial,68,5.3417,6700.0,41266.6667
+landuse,farmland,53,4.1634,5200.0,32141.6667
+landuse,forest,40,3.1422,3900.0,24233.3333
+landuse,cemetery,35,2.7494,3400.0,21191.6667
+landuse,construction,29,2.2781,2800.0,17541.6667
+landuse,orchard,25,1.9639,2400.0,15108.3333
+landuse,military,23,1.8068,2200.0,13891.6667
+landuse,commercial,16,1.2569,1500.0,9633.3333
+landuse,farmyard,10,0.7855,900.0,5983.3333
+landuse,quarry,9,0.707,800.0,5375.0
+landuse,retail,5,0.3928,400.0,2941.6667
+landuse,aquaculture,4,0.3142,300.0,2333.3333
+landuse,railway,4,0.3142,300.0,2333.3333
+landuse,greenfield,3,0.2357,200.0,1725.0
+landuse,religious,3,0.2357,200.0,1725.0
+landuse,harbour,2,0.1571,100.0,1116.6667
+landuse,meadow,2,0.1571,100.0,1116.6667
+landuse,basin,1,0.0786,0.0,508.3333
+landuse,brownfield,1,0.0786,0.0,508.3333
+landuse,landfill,1,0.0786,0.0,508.3333
+landuse,reservoir,1,0.0786,0.0,508.3333
+leisure,park,264,35.0133,26300.0,160500.0
+leisure,swimming_pool,243,32.2281,24200.0,147725.0
+leisure,pitch,171,22.679,17000.0,103925.0
+leisure,playground,38,5.0398,3700.0,23016.6667
+leisure,sports_centre,12,1.5915,1100.0,7200.0
+leisure,garden,8,1.061,700.0,4766.6667
+leisure,nature_reserve,5,0.6631,400.0,2941.6667
+leisure,stadium,4,0.5305,300.0,2333.3333
+leisure,sports_hall,3,0.3979,200.0,1725.0
+leisure,fitness_centre,2,0.2653,100.0,1116.6667
+leisure,pool,1,0.1326,0.0,508.3333
+leisure,recreation_ground,1,0.1326,0.0,508.3333
+leisure,sauna,1,0.1326,0.0,508.3333
+leisure,track,1,0.1326,0.0,508.3333
+name,Yükseliş Apartmanı,39,0.5814,3800.0,23625.0
+name,Mithatpaşa Caddesi,31,0.4621,3000.0,18758.3333
+name,Barbaros Caddesi,30,0.4472,2900.0,18150.0
+name,Kemalpaşa Caddesi,24,0.3578,2300.0,14500.0
+name,1776. Sokak,22,0.328,2100.0,13283.3333
+name,İnönü Caddesi,22,0.328,2100.0,13283.3333
+name,Doğuş Caddesi,21,0.3131,2000.0,12675.0
+name,Eşrefpaşa Caddesi,21,0.3131,2000.0,12675.0
+name,Doğançay Köyü Yolu,20,0.2982,1900.0,12066.6667
+name,İzmir-Aydın yolu,19,0.2832,1800.0,11458.3333
+name,Yavuz Sultan Selim Caddesi,17,0.2534,1600.0,10241.6667
+name,Özdar Caddesi,17,0.2534,1600.0,10241.6667
+name,Ankara Caddesi,15,0.2236,1400.0,9025.0
+name,Hürriyet Caddesi,15,0.2236,1400.0,9025.0
+name,Turgut Reis Caddesi,15,0.2236,1400.0,9025.0
+name,Halil Rıfat Paşa Caddesi,14,0.2087,1300.0,8416.6667
+name,Adnan Menderes International Airport,13,0.1938,1200.0,7808.3333
+name,Migros,13,0.1938,1200.0,7808.3333
+name,Abdi İpekçi Caddesi,12,0.1789,1100.0,7200.0
+name,Başarı Caddesi,12,0.1789,1100.0,7200.0
+name,Mezarlık,12,0.1789,1100.0,7200.0
+name,Şehit Asteğmen Mesut Uzlu Sokak,12,0.1789,1100.0,7200.0
+name,6525 Sokak,11,0.164,1000.0,6591.6667
+name,7018 Sokak,11,0.164,1000.0,6591.6667
+name,915. Sokak,11,0.164,1000.0,6591.6667
+name,Cemal Gürsel Caddesi,11,0.164,1000.0,6591.6667
+name,Konak Tramvayı,11,0.164,1000.0,6591.6667
+name,Mustafa Kemal Sahil Bulvarı,11,0.164,1000.0,6591.6667
+name,Yeşildere Caddesi,11,0.164,1000.0,6591.6667
+name,Yüzbaşı İbrahim Hakkı Caddesi,11,0.164,1000.0,6591.6667
+name,1550. Sokak,10,0.1491,900.0,5983.3333
+name,Altınyol,10,0.1491,900.0,5983.3333
+name,Aydın Hatboyu Caddesi,10,0.1491,900.0,5983.3333
+name,Cemil Şeboy Caddesi,10,0.1491,900.0,5983.3333
+name,Erdem Caddesi,10,0.1491,900.0,5983.3333
+name,Yavuz Caddesi,10,0.1491,900.0,5983.3333
+name,Şair Eşref Bulvarı,10,0.1491,900.0,5983.3333
+name,1615/5. Sokak,9,0.1342,800.0,5375.0
+name,272. Sokak,9,0.1342,800.0,5375.0
+name,498. Sokak,9,0.1342,800.0,5375.0
+name,771. Sokak,9,0.1342,800.0,5375.0
+name,Ahmet Avrası Caddesi,9,0.1342,800.0,5375.0
+name,Ali Çetinkaya Bulvarı,9,0.1342,800.0,5375.0
+name,Collapsed building,9,0.1342,800.0,5375.0
+name,Gazi Bulvarı,9,0.1342,800.0,5375.0
+name,Kemalpaşa-İzmir Yüksek Hızlı Demiryolu,9,0.1342,800.0,5375.0
+name,Konak Tüneli,9,0.1342,800.0,5375.0
+name,Koşu Yolu Caddesi,9,0.1342,800.0,5375.0
+name,Sığacık Caddesi,9,0.1342,800.0,5375.0
+name,Yunus Emre Caddesi,9,0.1342,800.0,5375.0
+name,İzmir Çevre Yolu,9,0.1342,800.0,5375.0
+name,121 Sokak,8,0.1193,700.0,4766.6667
+name,1660 Sokak,8,0.1193,700.0,4766.6667
+name,1671 Sokak,8,0.1193,700.0,4766.6667
+name,1722. Sokak,8,0.1193,700.0,4766.6667
+name,514. Sokak,8,0.1193,700.0,4766.6667
+name,7000 Sokak,8,0.1193,700.0,4766.6667
+name,7065 Sokak,8,0.1193,700.0,4766.6667
+name,7309 Sokak,8,0.1193,700.0,4766.6667
+name,Anadolu Caddesi,8,0.1193,700.0,4766.6667
+name,Cumhuriyet Bulvarı,8,0.1193,700.0,4766.6667
+name,Edificio,8,0.1193,700.0,4766.6667
+name,Ege Üniversitesi Yolu,8,0.1193,700.0,4766.6667
+name,Fevzi Paşa Bulvarı,8,0.1193,700.0,4766.6667
+name,General Asım Gündüz,8,0.1193,700.0,4766.6667
+name,Hilal,8,0.1193,700.0,4766.6667
+name,Kasaplar Meydanı,8,0.1193,700.0,4766.6667
+name,Kavaklidere Caddesi,8,0.1193,700.0,4766.6667
+name,Kubilay Caddesi,8,0.1193,700.0,4766.6667
+name,Menderes Caddesi,8,0.1193,700.0,4766.6667
+name,Mustafa Kemal Caddesi,8,0.1193,700.0,4766.6667
+name,Ord. Prof. Dr. Muhiddin Erel Cd.,8,0.1193,700.0,4766.6667
+name,Park,8,0.1193,700.0,4766.6667
+name,Yeşillik Caddesi,8,0.1193,700.0,4766.6667
+name,broken building,8,0.1193,700.0,4766.6667
+name,Üçyol,8,0.1193,700.0,4766.6667
+name,İsa Yusuf Alptekin Caddesi,8,0.1193,700.0,4766.6667
+name,Şehit Mustafa Caddesi,8,0.1193,700.0,4766.6667
+name,Şehitler Caddesi,8,0.1193,700.0,4766.6667
+name,Şirinyer,8,0.1193,700.0,4766.6667
+name,1454/1. Sokak,7,0.1044,600.0,4158.3333
+name,27. Sokak,7,0.1044,600.0,4158.3333
+name,342/1. Sokak,7,0.1044,600.0,4158.3333
+name,40. Sokak,7,0.1044,600.0,4158.3333
+name,42. Sokak,7,0.1044,600.0,4158.3333
+name,6276. Sokak,7,0.1044,600.0,4158.3333
+name,7014 Sokak,7,0.1044,600.0,4158.3333
+name,7200 Sokak,7,0.1044,600.0,4158.3333
+name,7290. Sokak,7,0.1044,600.0,4158.3333
+name,756. Sokak,7,0.1044,600.0,4158.3333
+name,919. Sokak,7,0.1044,600.0,4158.3333
+name,95. Sokak,7,0.1044,600.0,4158.3333
+name,Akın Kıvanç Sokak,7,0.1044,600.0,4158.3333
+name,Aliağa-2 TM - Uzundere TM EİH,7,0.1044,600.0,4158.3333
+name,Cahar Dudayev Bulvarı,7,0.1044,600.0,4158.3333
+name,Fahrettin Altay,7,0.1044,600.0,4158.3333
+name,Gazeteci Hasan Tahsin Caddesi,7,0.1044,600.0,4158.3333
+name,Kıbrıs Şehitleri Caddesi,7,0.1044,600.0,4158.3333
+name,Sülaymaniye Caddesi,7,0.1044,600.0,4158.3333
+name,warehouse,7,0.1044,600.0,4158.3333
+name,Örnekköy - Doğançay Yolu,7,0.1044,600.0,4158.3333
+name,Şehit Astsubay Ümit Başaran İlkokulu,7,0.1044,600.0,4158.3333
+name,Şok,7,0.1044,600.0,4158.3333
+name,108/27. Sokak,6,0.0894,500.0,3550.0
+name,1411. Sokak,6,0.0894,500.0,3550.0
+name,1484. Sokak,6,0.0894,500.0,3550.0
+name,1631. Sokak,6,0.0894,500.0,3550.0
+name,1737 Sokak,6,0.0894,500.0,3550.0
+name,1765/1. Sokak,6,0.0894,500.0,3550.0
+name,1844/7 Sokak,6,0.0894,500.0,3550.0
+name,4032. Sokak,6,0.0894,500.0,3550.0
+name,457 Sokak,6,0.0894,500.0,3550.0
+name,475. Sokak,6,0.0894,500.0,3550.0
+name,511. Sokak,6,0.0894,500.0,3550.0
+name,5169. Sokak,6,0.0894,500.0,3550.0
+name,5173. Sokak,6,0.0894,500.0,3550.0
+name,56. Sokak,6,0.0894,500.0,3550.0
+name,6522 Sokak,6,0.0894,500.0,3550.0
+name,7019 Sokak,6,0.0894,500.0,3550.0
+name,7041 Sokak,6,0.0894,500.0,3550.0
+name,7069 Sokak,6,0.0894,500.0,3550.0
+name,7080 Sokak,6,0.0894,500.0,3550.0
+name,7283 Sokak,6,0.0894,500.0,3550.0
+name,7286 Sokak,6,0.0894,500.0,3550.0
+name,7290 Sokak,6,0.0894,500.0,3550.0
+name,7295 Sokak,6,0.0894,500.0,3550.0
+name,7375 Sokak,6,0.0894,500.0,3550.0
+name,864 Sokak,6,0.0894,500.0,3550.0
+name,96. Sokak,6,0.0894,500.0,3550.0
+name,A101,6,0.0894,500.0,3550.0
+name,Atatürk Caddesi,6,0.0894,500.0,3550.0
+name,Balçova Aktarna Merkezi,6,0.0894,500.0,3550.0
+name,Buca Belediyesi,6,0.0894,500.0,3550.0
+name,Cengiz Han Caddesi,6,0.0894,500.0,3550.0
+name,DEÜ Tınaztepe Yerleşkesi İç Yolu,6,0.0894,500.0,3550.0
+name,Emek Sitesi,6,0.0894,500.0,3550.0
+name,Eğridere Caddesi,6,0.0894,500.0,3550.0
+name,Gülsün,6,0.0894,500.0,3550.0
+name,Halkapınar,6,0.0894,500.0,3550.0
+name,Mehmet Akif Caddesi,6,0.0894,500.0,3550.0
+name,Ord. Prof. Dr. Muhiddin Erel Caddesi,6,0.0894,500.0,3550.0
+name,Sakarya Caddesi,6,0.0894,500.0,3550.0
+name,Talatpaşa Bulvarı,6,0.0894,500.0,3550.0
+name,Zeki Yavaş Sokağı,6,0.0894,500.0,3550.0
+name,Çağdaş Sokak,6,0.0894,500.0,3550.0
+name,İzmir-Çeşme Otoyolu,6,0.0894,500.0,3550.0
+name,1026 Sokak,5,0.0745,400.0,2941.6667
+name,129. Sokak,5,0.0745,400.0,2941.6667
+name,130/3. Sokak,5,0.0745,400.0,2941.6667
+name,131 Sokak,5,0.0745,400.0,2941.6667
+name,1456. Sokak,5,0.0745,400.0,2941.6667
+name,1580. Sokak,5,0.0745,400.0,2941.6667
+name,1675. Sokak,5,0.0745,400.0,2941.6667
+name,273/1. Sokak,5,0.0745,400.0,2941.6667
+name,4174. Sokak,5,0.0745,400.0,2941.6667
+name,44. Sokak,5,0.0745,400.0,2941.6667
+name,476. Sokak,5,0.0745,400.0,2941.6667
+name,478/1. Sokak,5,0.0745,400.0,2941.6667
+name,502. Sokak,5,0.0745,400.0,2941.6667
+name,5167. Sokak,5,0.0745,400.0,2941.6667
+name,54. Sokak,5,0.0745,400.0,2941.6667
+name,5639. Sokak,5,0.0745,400.0,2941.6667
+name,7003 Sokak,5,0.0745,400.0,2941.6667
+name,7009 Sokak,5,0.0745,400.0,2941.6667
+name,7020 Sokak,5,0.0745,400.0,2941.6667
+name,7081 Sokak,5,0.0745,400.0,2941.6667
+name,7299 Sokak,5,0.0745,400.0,2941.6667
+name,7334 Sokak,5,0.0745,400.0,2941.6667
+name,7355 Sokak,5,0.0745,400.0,2941.6667
+name,7369 Sokak,5,0.0745,400.0,2941.6667
+name,7371 Sokak,5,0.0745,400.0,2941.6667
+name,7600 Sokak,5,0.0745,400.0,2941.6667
+name,763. Sokak,5,0.0745,400.0,2941.6667
+name,764. Sokak,5,0.0745,400.0,2941.6667
+name,77. Sokak,5,0.0745,400.0,2941.6667
+name,784. Sokak,5,0.0745,400.0,2941.6667
+name,805. Sokak,5,0.0745,400.0,2941.6667
+name,814. Sokak,5,0.0745,400.0,2941.6667
+name,820. Sokak,5,0.0745,400.0,2941.6667
+name,8809/10 Sokak,5,0.0745,400.0,2941.6667
+name,924/1. Sokak,5,0.0745,400.0,2941.6667
+name,Ahmet Piriştina Bulvarı,5,0.0745,400.0,2941.6667
+name,Ahırkuyu Deresi,5,0.0745,400.0,2941.6667
+name,Aile Birlik Sitesi,5,0.0745,400.0,2941.6667
+name,Anafartalar Caddesi,5,0.0745,400.0,2941.6667
+name,Aziz Nesin Bulvarı,5,0.0745,400.0,2941.6667
+name,Basmane Gar,5,0.0745,400.0,2941.6667
+name,Bestekar Yusuf Nalkesen Sokağı,5,0.0745,400.0,2941.6667
+name,Buca Kooperatif Meydan,5,0.0745,400.0,2941.6667
+name,Buca-Bornova Tüneli,5,0.0745,400.0,2941.6667
+name,Building,5,0.0745,400.0,2941.6667
+name,Dokuzçeşmeler Yerleşkesi İç Yolu,5,0.0745,400.0,2941.6667
+name,Dumlupınar Caddesi,5,0.0745,400.0,2941.6667
+name,E. Aliberti,5,0.0745,400.0,2941.6667
+name,Fatih Caddesi,5,0.0745,400.0,2941.6667
+name,Fehmi Yiğin Caddesi,5,0.0745,400.0,2941.6667
+name,Fevzi Paşa Cd.,5,0.0745,400.0,2941.6667
+name,Homeros Bulvarı,5,0.0745,400.0,2941.6667
+name,Konak,5,0.0745,400.0,2941.6667
+name,Kuşadası Caddesi,5,0.0745,400.0,2941.6667
+name,Mustafa Enver Bey Caddesi,5,0.0745,400.0,2941.6667
+name,Müjgan Barutçu Sokağı,5,0.0745,400.0,2941.6667
+name,Tekeli,5,0.0745,400.0,2941.6667
+name,Tiyatro Sokağı,5,0.0745,400.0,2941.6667
+name,Warehouse,5,0.0745,400.0,2941.6667
+name,Yamanlar Köyü Yolu,5,0.0745,400.0,2941.6667
+name,home,5,0.0745,400.0,2941.6667
+name,Özmen Caddesi,5,0.0745,400.0,2941.6667
+name,Üst Geçit,5,0.0745,400.0,2941.6667
+name,İbrahim Yılmaz Sokak,5,0.0745,400.0,2941.6667
+name,Şehit Hakan Uysal Sokağı,5,0.0745,400.0,2941.6667
+name,Şehit Talha Carım Caddesi,5,0.0745,400.0,2941.6667
+name,Şehit Şahin Şimşek Sokak,5,0.0745,400.0,2941.6667
+name,1021. Sokak,4,0.0596,300.0,2333.3333
+name,1032. Sokak,4,0.0596,300.0,2333.3333
+name,1201. Sokak,4,0.0596,300.0,2333.3333
+name,1202. Sokak,4,0.0596,300.0,2333.3333
+name,136 Sokak,4,0.0596,300.0,2333.3333
+name,1517. Sokak,4,0.0596,300.0,2333.3333
+name,1583 Sokak,4,0.0596,300.0,2333.3333
+name,1593/1,4,0.0596,300.0,2333.3333
+name,1610. Sokak,4,0.0596,300.0,2333.3333
+name,1620/23. Sokak,4,0.0596,300.0,2333.3333
+name,1643/31 Sokak,4,0.0596,300.0,2333.3333
+name,1643/4. Sokak,4,0.0596,300.0,2333.3333
+name,1671/1 Sokak,4,0.0596,300.0,2333.3333
+name,1711. Sokak,4,0.0596,300.0,2333.3333
+name,1776/17. Sokak,4,0.0596,300.0,2333.3333
+name,1776/23. Sokak,4,0.0596,300.0,2333.3333
+name,1847/17 Sokak,4,0.0596,300.0,2333.3333
+name,1875. Sokak,4,0.0596,300.0,2333.3333
+name,2. Sokak,4,0.0596,300.0,2333.3333
+name,205/61 Sokak,4,0.0596,300.0,2333.3333
+name,2131/6. Sokak,4,0.0596,300.0,2333.3333
+name,24. Sokak,4,0.0596,300.0,2333.3333
+name,285 Sokak,4,0.0596,300.0,2333.3333
+name,288. Sokak,4,0.0596,300.0,2333.3333
+name,372. Sokak,4,0.0596,300.0,2333.3333
+name,372/2. Sokak,4,0.0596,300.0,2333.3333
+name,43. Sokak,4,0.0596,300.0,2333.3333
+name,473. Sokak,4,0.0596,300.0,2333.3333
+name,507. Sokak,4,0.0596,300.0,2333.3333
+name,51 Sokak,4,0.0596,300.0,2333.3333
+name,512. Sokak,4,0.0596,300.0,2333.3333
+name,514/3. Sokak,4,0.0596,300.0,2333.3333
+name,5511. Sokak,4,0.0596,300.0,2333.3333
+name,6134.Sokak,4,0.0596,300.0,2333.3333
+name,6226. Sokak,4,0.0596,300.0,2333.3333
+name,6244. Sokak,4,0.0596,300.0,2333.3333
+name,6524 Sokak,4,0.0596,300.0,2333.3333
+name,7006 Sokak,4,0.0596,300.0,2333.3333
+name,7007 Sokak,4,0.0596,300.0,2333.3333
+name,7035 Sokak,4,0.0596,300.0,2333.3333
+name,7078 Sokak,4,0.0596,300.0,2333.3333
+name,708. Sokak,4,0.0596,300.0,2333.3333
+name,7081/3 Sokak,4,0.0596,300.0,2333.3333
+name,7083 Sokak,4,0.0596,300.0,2333.3333
+name,7084 Sokak,4,0.0596,300.0,2333.3333
+name,7090 Sokak,4,0.0596,300.0,2333.3333
+name,7096 Sokak,4,0.0596,300.0,2333.3333
+name,7226 Sokak,4,0.0596,300.0,2333.3333
+name,7227 Sokak,4,0.0596,300.0,2333.3333
+name,7228 Sokak,4,0.0596,300.0,2333.3333
+name,727. Sokak,4,0.0596,300.0,2333.3333
+name,7284 Sokak,4,0.0596,300.0,2333.3333
+name,7297/1. Sokak,4,0.0596,300.0,2333.3333
+name,7301 Sokak,4,0.0596,300.0,2333.3333
+name,7304 Sokak,4,0.0596,300.0,2333.3333
+name,7345 Sokak,4,0.0596,300.0,2333.3333
+name,7372 Sokak,4,0.0596,300.0,2333.3333
+name,741. Sokak,4,0.0596,300.0,2333.3333
+name,755. Sokak,4,0.0596,300.0,2333.3333
+name,76. Sokak,4,0.0596,300.0,2333.3333
+name,7614 Sokak,4,0.0596,300.0,2333.3333
+name,775. Sokak,4,0.0596,300.0,2333.3333
+name,778. Sokak,4,0.0596,300.0,2333.3333
+name,793. Sokak,4,0.0596,300.0,2333.3333
+name,803. Sokak,4,0.0596,300.0,2333.3333
+name,816. Sokak,4,0.0596,300.0,2333.3333
+name,82. Sokak,4,0.0596,300.0,2333.3333
+name,821. Sokak,4,0.0596,300.0,2333.3333
+name,824. Sokak,4,0.0596,300.0,2333.3333
+name,860 Sokak,4,0.0596,300.0,2333.3333
+name,88. Sokak,4,0.0596,300.0,2333.3333
+name,8810/1 Sk.,4,0.0596,300.0,2333.3333
+name,892 Sokak,4,0.0596,300.0,2333.3333
+name,906/3. Sokak,4,0.0596,300.0,2333.3333
+name,907. Sokak,4,0.0596,300.0,2333.3333
+name,919/1. Sokak,4,0.0596,300.0,2333.3333
+name,9195/10 Sokak,4,0.0596,300.0,2333.3333
+name,Adil Akçamlı Sokağı,4,0.0596,300.0,2333.3333
+name,Akdoğan Caddesi,4,0.0596,300.0,2333.3333
+name,Akıncılar Merkez,4,0.0596,300.0,2333.3333
+name,Ali Rıza Avni Bulvarı,4,0.0596,300.0,2333.3333
+name,Aliye İsbetgoviç Caddesi,4,0.0596,300.0,2333.3333
+name,Amfiteatr,4,0.0596,300.0,2333.3333
+name,Atatürk Cadde,4,0.0596,300.0,2333.3333
+name,Barış Caddesi,4,0.0596,300.0,2333.3333
+name,Basmane,4,0.0596,300.0,2333.3333
+name,Baş Pehlivan Kara Ali Caddesi,4,0.0596,300.0,2333.3333
+name,Behçet Uz Çocuk Hastanesi,4,0.0596,300.0,2333.3333
+name,Bornova İzsu,4,0.0596,300.0,2333.3333
+name,Buca (Doğu),4,0.0596,300.0,2333.3333
+name,Buca Ortaokulu,4,0.0596,300.0,2333.3333
+name,Buca Sağlık Ocağı,4,0.0596,300.0,2333.3333
+name,Cahar Dudayev Bulvarı Yanyolu,4,0.0596,300.0,2333.3333
+name,Cüneyt Sivari Oğulları Sokağı,4,0.0596,300.0,2333.3333
+name,D550-Karşıyaka Bağlantısı-Güney Girişi,4,0.0596,300.0,2333.3333
+name,Dokuz Eylül Üniversitesi Öğrenci Yurdu,4,0.0596,300.0,2333.3333
+name,Doç. Dr. Bahriye Üçok Bulvarı,4,0.0596,300.0,2333.3333
+name,Emek,4,0.0596,300.0,2333.3333
+name,Eski Sığacık Yolu,4,0.0596,300.0,2333.3333
+name,Eğridere Mahallesi,4,0.0596,300.0,2333.3333
+name,Gökdere Mezarlığı,4,0.0596,300.0,2333.3333
+name,Göztepe,4,0.0596,300.0,2333.3333
+name,Güneş Enerji Santrali,4,0.0596,300.0,2333.3333
+name,Kaklıç Köyü Yolu,4,0.0596,300.0,2333.3333
+name,Kamil Tunca Bulvarı,4,0.0596,300.0,2333.3333
+name,Karanfil Sokak,4,0.0596,300.0,2333.3333
+name,Kazım Karabekir Caddesi,4,0.0596,300.0,2333.3333
+name,Kemal Paşa Caddesi,4,0.0596,300.0,2333.3333
+name,Kemer,4,0.0596,300.0,2333.3333
+name,Köşe,4,0.0596,300.0,2333.3333
+name,Kültür Caddesi,4,0.0596,300.0,2333.3333
+name,Liman Caddesi,4,0.0596,300.0,2333.3333
+name,Mahmut Esat Bozkurt Caddesi,4,0.0596,300.0,2333.3333
+name,Manas Bulvarı,4,0.0596,300.0,2333.3333
+name,Mavişehir Tersane Tramway Hattı,4,0.0596,300.0,2333.3333
+name,Mehmet İhsan Zeyrek Sokak,4,0.0596,300.0,2333.3333
+name,Menderes-Gümüldür Yolu,4,0.0596,300.0,2333.3333
+name,Menderes-Ürkmez Yolu,4,0.0596,300.0,2333.3333
+name,Mustafa Kemal Sahil Cd.,4,0.0596,300.0,2333.3333
+name,Nevvar Salih İşgören Hospital,4,0.0596,300.0,2333.3333
+name,Osman Bey Parkı,4,0.0596,300.0,2333.3333
+name,Pakistan Bulvarı,4,0.0596,300.0,2333.3333
+name,Petrol Ofisi,4,0.0596,300.0,2333.3333
+name,Rızabey Apartmanı (Rızabey Apartment),4,0.0596,300.0,2333.3333
+name,Sanat Caddesi,4,0.0596,300.0,2333.3333
+name,Sanayi Caddesi,4,0.0596,300.0,2333.3333
+name,Sarmaşık Sokak,4,0.0596,300.0,2333.3333
+name,Swissotel Grand Efes İzmir,4,0.0596,300.0,2333.3333
+name,TÜRK TELEKOM,4,0.0596,300.0,2333.3333
+name,Türk Telekom,4,0.0596,300.0,2333.3333
+name,Türkay Caddesi,4,0.0596,300.0,2333.3333
+name,Varyant,4,0.0596,300.0,2333.3333
+name,Yamanlar Köyü,4,0.0596,300.0,2333.3333
+name,Yıldırım Beyazıt Caddesi,4,0.0596,300.0,2333.3333
+name,Zafertepe,4,0.0596,300.0,2333.3333
+name,Çiğli Deresi,4,0.0596,300.0,2333.3333
+name,Ömer Özkan Sosyal Tesisleri,4,0.0596,300.0,2333.3333
+name,Özel İzmir Amerikan Koleji,4,0.0596,300.0,2333.3333
+name,Öğr. Tuğba Özbek Sokak,4,0.0596,300.0,2333.3333
+name,İnkılap,4,0.0596,300.0,2333.3333
+name,İsmail Sivri Bulvarı,4,0.0596,300.0,2333.3333
+name,İşçiler Caddesi,4,0.0596,300.0,2333.3333
+name,Şehit Er Mehmet Çadırcı Caddesi,4,0.0596,300.0,2333.3333
+name,Şükran Kurdakul Sokağı,4,0.0596,300.0,2333.3333
+name,1011. Sokak,3,0.0447,200.0,1725.0
+name,1020. Sokak,3,0.0447,200.0,1725.0
+name,108/24 Sokak,3,0.0447,200.0,1725.0
+name,1145/2. Sokak,3,0.0447,200.0,1725.0
+name,119/1. Sokak,3,0.0447,200.0,1725.0
+name,1196. Sokak,3,0.0447,200.0,1725.0
+name,1307. Sokak,3,0.0447,200.0,1725.0
+name,1308. Sokak,3,0.0447,200.0,1725.0
+name,1382. Sokak,3,0.0447,200.0,1725.0
+name,1409. Sokak,3,0.0447,200.0,1725.0
+name,1454. Sokak,3,0.0447,200.0,1725.0
+name,1469. Sokak,3,0.0447,200.0,1725.0
+name,1483. Sokak,3,0.0447,200.0,1725.0
+name,1527. Sokak,3,0.0447,200.0,1725.0
+name,155 Sokak,3,0.0447,200.0,1725.0
+name,1586/3. Sokak,3,0.0447,200.0,1725.0
+name,1586/4. Sokak,3,0.0447,200.0,1725.0
+name,1586/9. Sokak,3,0.0447,200.0,1725.0
+name,1615. Sokak,3,0.0447,200.0,1725.0
+name,1616. Sokak,3,0.0447,200.0,1725.0
+name,1620/12. Sokak,3,0.0447,200.0,1725.0
+name,1620/15. Sokak,3,0.0447,200.0,1725.0
+name,1629. Sokak,3,0.0447,200.0,1725.0
+name,1639. Sokak,3,0.0447,200.0,1725.0
+name,1643/15. Sokak,3,0.0447,200.0,1725.0
+name,1643/16. Sokak,3,0.0447,200.0,1725.0
+name,1643/30. Sokak,3,0.0447,200.0,1725.0
+name,1645/10 Sokak,3,0.0447,200.0,1725.0
+name,1645/11. Sokak,3,0.0447,200.0,1725.0
+name,1645/15. Sokak,3,0.0447,200.0,1725.0
+name,1647. Sokak,3,0.0447,200.0,1725.0
+name,1696. Sokak,3,0.0447,200.0,1725.0
+name,1700. Sokak,3,0.0447,200.0,1725.0
+name,1707/8 Sokak,3,0.0447,200.0,1725.0
+name,1737/1 Sokak,3,0.0447,200.0,1725.0
+name,1825 Sokak,3,0.0447,200.0,1725.0
+name,1844/1 Sokak,3,0.0447,200.0,1725.0
+name,1847 Sokak,3,0.0447,200.0,1725.0
+name,1874/16 Sokak,3,0.0447,200.0,1725.0
+name,19 Sokak,3,0.0447,200.0,1725.0
+name,2084. Sokak,3,0.0447,200.0,1725.0
+name,2089. Sokak,3,0.0447,200.0,1725.0
+name,2109 Sokak,3,0.0447,200.0,1725.0
+name,2167 Sokak,3,0.0447,200.0,1725.0
+name,2179 Sokak,3,0.0447,200.0,1725.0
+name,218. Sokak,3,0.0447,200.0,1725.0
+name,2181. Sokak,3,0.0447,200.0,1725.0
+name,249/2. Sokak,3,0.0447,200.0,1725.0
+name,275/11. Sokak,3,0.0447,200.0,1725.0
+name,275/8. Sokak,3,0.0447,200.0,1725.0
+name,283/3. Sokak,3,0.0447,200.0,1725.0
+name,305 Sokak,3,0.0447,200.0,1725.0
+name,4032/3 Sokak,3,0.0447,200.0,1725.0
+name,4139. Sokak,3,0.0447,200.0,1725.0
+name,4141. Sokak,3,0.0447,200.0,1725.0
+name,4174/1. Sokak,3,0.0447,200.0,1725.0
+name,4180/1. Sokak,3,0.0447,200.0,1725.0
+name,4205. Sokak,3,0.0447,200.0,1725.0
+name,4411. Sokak,3,0.0447,200.0,1725.0
+name,468. Sokak,3,0.0447,200.0,1725.0
+name,469. Sokak,3,0.0447,200.0,1725.0
+name,478/2. Sokak,3,0.0447,200.0,1725.0
+name,487. Sokak,3,0.0447,200.0,1725.0
+name,5. Halil Atila Sitesi,3,0.0447,200.0,1725.0
+name,5054. Sokak,3,0.0447,200.0,1725.0
+name,510 Sokak,3,0.0447,200.0,1725.0
+name,513. Sokak,3,0.0447,200.0,1725.0
+name,5141. Sokak,3,0.0447,200.0,1725.0
+name,5158. Sk.,3,0.0447,200.0,1725.0
+name,5171. Sokak,3,0.0447,200.0,1725.0
+name,534. Sokak,3,0.0447,200.0,1725.0
+name,5479. Sokak,3,0.0447,200.0,1725.0
+name,5501. Sokak,3,0.0447,200.0,1725.0
+name,56/3. Sokak,3,0.0447,200.0,1725.0
+name,5642. Sokak,3,0.0447,200.0,1725.0
+name,5746. Sokak,3,0.0447,200.0,1725.0
+name,62. Sokak,3,0.0447,200.0,1725.0
+name,6223 Sokak,3,0.0447,200.0,1725.0
+name,6280. Sokak,3,0.0447,200.0,1725.0
+name,63. Sokak,3,0.0447,200.0,1725.0
+name,6310/1. Sokak,3,0.0447,200.0,1725.0
+name,6323. Sokak,3,0.0447,200.0,1725.0
+name,6514. Sokak,3,0.0447,200.0,1725.0
+name,6523 Sokak,3,0.0447,200.0,1725.0
+name,6718 Sokak,3,0.0447,200.0,1725.0
+name,7004 Sokak,3,0.0447,200.0,1725.0
+name,7005 Sokak,3,0.0447,200.0,1725.0
+name,7027 Sokak,3,0.0447,200.0,1725.0
+name,7039 Sokak,3,0.0447,200.0,1725.0
+name,707. Sokak,3,0.0447,200.0,1725.0
+name,7077 Sokak,3,0.0447,200.0,1725.0
+name,7085 Sokak,3,0.0447,200.0,1725.0
+name,7097 Sokak,3,0.0447,200.0,1725.0
+name,7098 Sokak,3,0.0447,200.0,1725.0
+name,7161 Sokak,3,0.0447,200.0,1725.0
+name,7171 Sokak,3,0.0447,200.0,1725.0
+name,7190 Sokak,3,0.0447,200.0,1725.0
+name,7214 Sokak,3,0.0447,200.0,1725.0
+name,7222. Sokak,3,0.0447,200.0,1725.0
+name,7225 Sokak,3,0.0447,200.0,1725.0
+name,7258 Sokak,3,0.0447,200.0,1725.0
+name,7281 Sokak,3,0.0447,200.0,1725.0
+name,7285 Sokak,3,0.0447,200.0,1725.0
+name,7301. Sokak,3,0.0447,200.0,1725.0
+name,7305 Sokak,3,0.0447,200.0,1725.0
+name,7307 Sokak,3,0.0447,200.0,1725.0
+name,7310 Sokak,3,0.0447,200.0,1725.0
+name,7323 Sokak,3,0.0447,200.0,1725.0
+name,7331/1 Sokak,3,0.0447,200.0,1725.0
+name,7342 Sokak,3,0.0447,200.0,1725.0
+name,7354/1 Sokak,3,0.0447,200.0,1725.0
+name,7368/2 Sokak,3,0.0447,200.0,1725.0
+name,7370/9 Sokak,3,0.0447,200.0,1725.0
+name,7374/1 Sokak,3,0.0447,200.0,1725.0
+name,7374/2 Sokak,3,0.0447,200.0,1725.0
+name,751. Sokak,3,0.0447,200.0,1725.0
+name,757. Sokak,3,0.0447,200.0,1725.0
+name,7623 Sokak,3,0.0447,200.0,1725.0
+name,773/1. Sokak,3,0.0447,200.0,1725.0
+name,780. Sokak,3,0.0447,200.0,1725.0
+name,785. Sokak,3,0.0447,200.0,1725.0
+name,79. Sokak,3,0.0447,200.0,1725.0
+name,8019/11 Sokak,3,0.0447,200.0,1725.0
+name,81. Sokak,3,0.0447,200.0,1725.0
+name,813. Sokak,3,0.0447,200.0,1725.0
+name,817. Sokak,3,0.0447,200.0,1725.0
+name,822. Sokak,3,0.0447,200.0,1725.0
+name,8291 Sokak,3,0.0447,200.0,1725.0
+name,834/1. Sokak,3,0.0447,200.0,1725.0
+name,846. Sokak,3,0.0447,200.0,1725.0
+name,87. Sokak,3,0.0447,200.0,1725.0
+name,876 Sokak,3,0.0447,200.0,1725.0
+name,9 Eylül Caddesi,3,0.0447,200.0,1725.0
+name,906/1. Sokak,3,0.0447,200.0,1725.0
+name,907/1. Sokak,3,0.0447,200.0,1725.0
+name,909. Sokak,3,0.0447,200.0,1725.0
+name,918 Sokak,3,0.0447,200.0,1725.0
+name,9195/5 Sokak,3,0.0447,200.0,1725.0
+name,925 Sokak,3,0.0447,200.0,1725.0
+name,945. Sokak,3,0.0447,200.0,1725.0
+name,98 Sokak,3,0.0447,200.0,1725.0
+name,Adem Yavuz Caddesi,3,0.0447,200.0,1725.0
+name,Ahmet Avrasi Caddesi,3,0.0447,200.0,1725.0
+name,Alternatif Bank Ege Şubesi,3,0.0447,200.0,1725.0
+name,Arkadya Evleri,3,0.0447,200.0,1725.0
+name,Aydınkent,3,0.0447,200.0,1725.0
+name,Aşağı Vişneli,3,0.0447,200.0,1725.0
+name,BP,3,0.0447,200.0,1725.0
+name,BP - Buca,3,0.0447,200.0,1725.0
+name,Bayraklı Hastahane Caddesi,3,0.0447,200.0,1725.0
+name,Bim,3,0.0447,200.0,1725.0
+name,Bornova Kültür Merkezi,3,0.0447,200.0,1725.0
+name,Bozyaka,3,0.0447,200.0,1725.0
+name,Buca Fatma Saygın Anadolu Lisesi,3,0.0447,200.0,1725.0
+name,Buca Fen ve Sosyal Bilimler Lise Yerleşkesi,3,0.0447,200.0,1725.0
+name,Buca Koop. Meydanı,3,0.0447,200.0,1725.0
+name,Buca-Kaynaklar Yolu,3,0.0447,200.0,1725.0
+name,Burger King,3,0.0447,200.0,1725.0
+name,Doğancılar,3,0.0447,200.0,1725.0
+name,Doğanlar Apartmanı,3,0.0447,200.0,1725.0
+name,Ege İdareciler Sitesi,3,0.0447,200.0,1725.0
+name,Fehmi Yıldırım Caddesi,3,0.0447,200.0,1725.0
+name,Fevzi Çakmak,3,0.0447,200.0,1725.0
+name,Fevzipaşa Cd.,3,0.0447,200.0,1725.0
+name,Forbes Sokak,3,0.0447,200.0,1725.0
+name,Gardenya,3,0.0447,200.0,1725.0
+name,Gültepe Mezarlığı,3,0.0447,200.0,1725.0
+name,Güzelyalı Telekom Santrali,3,0.0447,200.0,1725.0
+name,Hanımeli Sokak,3,0.0447,200.0,1725.0
+name,IBM,3,0.0447,200.0,1725.0
+name,Ibrahim Tuna Caddesi,3,0.0447,200.0,1725.0
+name,Işıl Sitesi,3,0.0447,200.0,1725.0
+name,KARAYOLLARI 2. BÖLGE MÜDÜRLÜĞÜ,3,0.0447,200.0,1725.0
+name,Karabağlar Halk Eğitim Merkezi,3,0.0447,200.0,1725.0
+name,Kavşak,3,0.0447,200.0,1725.0
+name,Kayadibi Cd.,3,0.0447,200.0,1725.0
+name,Koruluk,3,0.0447,200.0,1725.0
+name,Kurtuluş Caddesi,3,0.0447,200.0,1725.0
+name,Kıbrıs Caddesi,3,0.0447,200.0,1725.0
+name,Kızılkanat,3,0.0447,200.0,1725.0
+name,Kışla Sokak,3,0.0447,200.0,1725.0
+name,Mapaton HOT,3,0.0447,200.0,1725.0
+name,McDonald's,3,0.0447,200.0,1725.0
+name,Merkez lköğrertim Okulu,3,0.0447,200.0,1725.0
+name,Mevlana Ortaokulu,3,0.0447,200.0,1725.0
+name,Mithatpaşa Cd. Yanyolu,3,0.0447,200.0,1725.0
+name,Muhtarlık,3,0.0447,200.0,1725.0
+name,Mustafa Kemal A.L.,3,0.0447,200.0,1725.0
+name,Nazım Hikmet Caddesi,3,0.0447,200.0,1725.0
+name,Nergis Sokak,3,0.0447,200.0,1725.0
+name,Nilüfer Sokak,3,0.0447,200.0,1725.0
+name,Ordu Bulvarı,3,0.0447,200.0,1725.0
+name,Osman Gazi Caddesi,3,0.0447,200.0,1725.0
+name,Plevne Bulvarı,3,0.0447,200.0,1725.0
+name,Rafet Paşa,3,0.0447,200.0,1725.0
+name,Refik Tulga Caddesi,3,0.0447,200.0,1725.0
+name,Rüzgâr Türbini,3,0.0447,200.0,1725.0
+name,Sabah Yeni Asır Bilgi İşlem Depoları,3,0.0447,200.0,1725.0
+name,Sardunya Parkı,3,0.0447,200.0,1725.0
+name,Sefa Sk.,3,0.0447,200.0,1725.0
+name,Sevgi Ferit Akın Ortaokulu,3,0.0447,200.0,1725.0
+name,Smyrna Meydanı,3,0.0447,200.0,1725.0
+name,Susuzdede Parkı,3,0.0447,200.0,1725.0
+name,Süreyya Sitesi,3,0.0447,200.0,1725.0
+name,TEİAŞ 3. BÖLGE MÜDÜRLÜĞÜ,3,0.0447,200.0,1725.0
+name,Turkcell,3,0.0447,200.0,1725.0
+name,Uğur Mumcu Caddesi,3,0.0447,200.0,1725.0
+name,Westpark Outlet A Blok,3,0.0447,200.0,1725.0
+name,Yağcılar Caddesi,3,0.0447,200.0,1725.0
+name,Yeni Buca Mezarlığı,3,0.0447,200.0,1725.0
+name,Yeni Girne Bulvarı,3,0.0447,200.0,1725.0
+name,Yenigün Muhtar,3,0.0447,200.0,1725.0
+name,Yunus Emre Parkı,3,0.0447,200.0,1725.0
+name,Zeytinlik,3,0.0447,200.0,1725.0
+name,Ziraat Bankası,3,0.0447,200.0,1725.0
+name,borsa market,3,0.0447,200.0,1725.0
+name,lotus,3,0.0447,200.0,1725.0
+name,Çakabey Anadolu Lisesi Binası,3,0.0447,200.0,1725.0
+name,Çağdaş,3,0.0447,200.0,1725.0
+name,Çocuk Parkı,3,0.0447,200.0,1725.0
+name,Ödemiş Demiryolu,3,0.0447,200.0,1725.0
+name,Ünsal Polat Danışmanlık Hizmetleri,3,0.0447,200.0,1725.0
+name,Üçkuyular,3,0.0447,200.0,1725.0
+name,İzmir,3,0.0447,200.0,1725.0
+name,İzmir - Aydın Otoyolu,3,0.0447,200.0,1725.0
+name,İzmir Otogar Bağlantısı,3,0.0447,200.0,1725.0
+name,İzmir Tersanesi,3,0.0447,200.0,1725.0
+name,Ş.Ütğm. Ahmet Konuksever (1688) Sokak,3,0.0447,200.0,1725.0
+name,Şafak,3,0.0447,200.0,1725.0
+name,Şehit Fethi Bey Caddesi,3,0.0447,200.0,1725.0
+name,Şehit Kamil Özdemir Sokağı,3,0.0447,200.0,1725.0
+name,Şelale Parkı,3,0.0447,200.0,1725.0
+name,Şht. Plt. Ütğm.Türker Aydın Sokak,3,0.0447,200.0,1725.0
+name,Şirinyer PTT,3,0.0447,200.0,1725.0
+name,#atlassian,2,0.0298,100.0,1116.6667
+name,10003. Sokak,2,0.0298,100.0,1116.6667
+name,10021 Sokak,2,0.0298,100.0,1116.6667
+name,1010. Sokak,2,0.0298,100.0,1116.6667
+name,1015. Sokak,2,0.0298,100.0,1116.6667
+name,1016. Sokak,2,0.0298,100.0,1116.6667
+name,1030. Sokak,2,0.0298,100.0,1116.6667
+name,1031. Sokak,2,0.0298,100.0,1116.6667
+name,1033. Sokak,2,0.0298,100.0,1116.6667
+name,1035. Sokak,2,0.0298,100.0,1116.6667
+name,108 Sk.,2,0.0298,100.0,1116.6667
+name,111 Sk.,2,0.0298,100.0,1116.6667
+name,1139. Sokak,2,0.0298,100.0,1116.6667
+name,119/16 Sokak,2,0.0298,100.0,1116.6667
+name,1196 Sokak,2,0.0298,100.0,1116.6667
+name,1202/1. Sokak,2,0.0298,100.0,1116.6667
+name,1232. Sokak,2,0.0298,100.0,1116.6667
+name,125. Sokak,2,0.0298,100.0,1116.6667
+name,1270. Sokak,2,0.0298,100.0,1116.6667
+name,1372 Sokak,2,0.0298,100.0,1116.6667
+name,1379. Sokak,2,0.0298,100.0,1116.6667
+name,1391. Sokak,2,0.0298,100.0,1116.6667
+name,1397. Sokak,2,0.0298,100.0,1116.6667
+name,1398. Sokak,2,0.0298,100.0,1116.6667
+name,1401. Sokak,2,0.0298,100.0,1116.6667
+name,1401/1. Sokak,2,0.0298,100.0,1116.6667
+name,1420. Sokak,2,0.0298,100.0,1116.6667
+name,1437. Sokak,2,0.0298,100.0,1116.6667
+name,1438. Sokak,2,0.0298,100.0,1116.6667
+name,1439. Sokak,2,0.0298,100.0,1116.6667
+name,1440. Sokak,2,0.0298,100.0,1116.6667
+name,1446. Sokak,2,0.0298,100.0,1116.6667
+name,1448. Sokak,2,0.0298,100.0,1116.6667
+name,1450. Sokak,2,0.0298,100.0,1116.6667
+name,148 Sokak,2,0.0298,100.0,1116.6667
+name,1482. Sokak,2,0.0298,100.0,1116.6667
+name,150 Sokak,2,0.0298,100.0,1116.6667
+name,1512. Sokak,2,0.0298,100.0,1116.6667
+name,1526. Sokak,2,0.0298,100.0,1116.6667
+name,1541. Sokak,2,0.0298,100.0,1116.6667
+name,1551. Sokak,2,0.0298,100.0,1116.6667
+name,1561. Sokak,2,0.0298,100.0,1116.6667
+name,1570. Sokak,2,0.0298,100.0,1116.6667
+name,1571. Sokak,2,0.0298,100.0,1116.6667
+name,1578. Sokak,2,0.0298,100.0,1116.6667
+name,1586/1. Sokak,2,0.0298,100.0,1116.6667
+name,1593/3. Sokak,2,0.0298,100.0,1116.6667
+name,1594/19. Sokak,2,0.0298,100.0,1116.6667
+name,1607. Sokak,2,0.0298,100.0,1116.6667
+name,1610/1. Sokak,2,0.0298,100.0,1116.6667
+name,1613. Sokak,2,0.0298,100.0,1116.6667
+name,1615/1. Sokak,2,0.0298,100.0,1116.6667
+name,1615/11. Sokak,2,0.0298,100.0,1116.6667
+name,1615/4. Sokak,2,0.0298,100.0,1116.6667
+name,1615/7. Sokak,2,0.0298,100.0,1116.6667
+name,1615/8. Sokak,2,0.0298,100.0,1116.6667
+name,1615/9. Sokak,2,0.0298,100.0,1116.6667
+name,1617. Sokak,2,0.0298,100.0,1116.6667
+name,1620/21. Sokak,2,0.0298,100.0,1116.6667
+name,1620/30. Sokak,2,0.0298,100.0,1116.6667
+name,1620/8. Sokak,2,0.0298,100.0,1116.6667
+name,1632 Sokak,2,0.0298,100.0,1116.6667
+name,1632. Sokak,2,0.0298,100.0,1116.6667
+name,1637/13. Sokak,2,0.0298,100.0,1116.6667
+name,1641. Sokak,2,0.0298,100.0,1116.6667
+name,1643/14. Sokak,2,0.0298,100.0,1116.6667
+name,1643/17. Sokak,2,0.0298,100.0,1116.6667
+name,1643/3. Sokak,2,0.0298,100.0,1116.6667
+name,1645/7. Sokak,2,0.0298,100.0,1116.6667
+name,1646. Sokak,2,0.0298,100.0,1116.6667
+name,1654. Sokak,2,0.0298,100.0,1116.6667
+name,1670. Sokak,2,0.0298,100.0,1116.6667
+name,1671. Sokak,2,0.0298,100.0,1116.6667
+name,1683. Sokak,2,0.0298,100.0,1116.6667
+name,1690 Sokak,2,0.0298,100.0,1116.6667
+name,1710/4. Sokak,2,0.0298,100.0,1116.6667
+name,1710/5. Sokak,2,0.0298,100.0,1116.6667
+name,1711 Sokak,2,0.0298,100.0,1116.6667
+name,1711/1. Sokak,2,0.0298,100.0,1116.6667
+name,1711/9. Sokak,2,0.0298,100.0,1116.6667
+name,1712 Sokak,2,0.0298,100.0,1116.6667
+name,172. Sokak,2,0.0298,100.0,1116.6667
+name,173/5 Sokak,2,0.0298,100.0,1116.6667
+name,1730/1. Sokak,2,0.0298,100.0,1116.6667
+name,1735 Sokak,2,0.0298,100.0,1116.6667
+name,1739 Sokak,2,0.0298,100.0,1116.6667
+name,1765. Sokak,2,0.0298,100.0,1116.6667
+name,1766. Sokak,2,0.0298,100.0,1116.6667
+name,1767. Sokak,2,0.0298,100.0,1116.6667
+name,177/13. Sokak,2,0.0298,100.0,1116.6667
+name,1775 Sokak,2,0.0298,100.0,1116.6667
+name,1776/32. Sokak,2,0.0298,100.0,1116.6667
+name,1798. Sokak,2,0.0298,100.0,1116.6667
+name,18. Sokak,2,0.0298,100.0,1116.6667
+name,1844/3 Sokak,2,0.0298,100.0,1116.6667
+name,1844/9 Sokak,2,0.0298,100.0,1116.6667
+name,185 Sk.,2,0.0298,100.0,1116.6667
+name,1867 Sokak,2,0.0298,100.0,1116.6667
+name,1878. Sokak,2,0.0298,100.0,1116.6667
+name,200 Sokak,2,0.0298,100.0,1116.6667
+name,2016/1. Sokak,2,0.0298,100.0,1116.6667
+name,2084/1. Sokak,2,0.0298,100.0,1116.6667
+name,2090. Sokak,2,0.0298,100.0,1116.6667
+name,2091. Sokak,2,0.0298,100.0,1116.6667
+name,2091/3. Sokak,2,0.0298,100.0,1116.6667
+name,2104. Sokak,2,0.0298,100.0,1116.6667
+name,2108/1. Sokak,2,0.0298,100.0,1116.6667
+name,2120/4. Sokak,2,0.0298,100.0,1116.6667
+name,2123. Sokak,2,0.0298,100.0,1116.6667
+name,2129 Sokak,2,0.0298,100.0,1116.6667
+name,2129. Sokak,2,0.0298,100.0,1116.6667
+name,2131/9. Sokak,2,0.0298,100.0,1116.6667
+name,2166 Sokak,2,0.0298,100.0,1116.6667
+name,2181/1. Sokak,2,0.0298,100.0,1116.6667
+name,2181/2. Sokak,2,0.0298,100.0,1116.6667
+name,2194. Sokak,2,0.0298,100.0,1116.6667
+name,2201/1. Sokak,2,0.0298,100.0,1116.6667
+name,229/2. Sokak,2,0.0298,100.0,1116.6667
+name,23 Sokak,2,0.0298,100.0,1116.6667
+name,246 sokak,2,0.0298,100.0,1116.6667
+name,249/5. Sokak,2,0.0298,100.0,1116.6667
+name,250. Sokak,2,0.0298,100.0,1116.6667
+name,254. Sokak,2,0.0298,100.0,1116.6667
+name,270. Sokak,2,0.0298,100.0,1116.6667
+name,275/5. Sokak,2,0.0298,100.0,1116.6667
+name,283. Sokak,2,0.0298,100.0,1116.6667
+name,283/1. Sokak,2,0.0298,100.0,1116.6667
+name,283/12. Sokak,2,0.0298,100.0,1116.6667
+name,283/13. Sokak,2,0.0298,100.0,1116.6667
+name,2844. Sokak,2,0.0298,100.0,1116.6667
+name,286/2. Sokak,2,0.0298,100.0,1116.6667
+name,288/8 Sokak,2,0.0298,100.0,1116.6667
+name,295. Sokak,2,0.0298,100.0,1116.6667
+name,301. Sokak,2,0.0298,100.0,1116.6667
+name,302. Sokak,2,0.0298,100.0,1116.6667
+name,303 Sokak,2,0.0298,100.0,1116.6667
+name,342. Sokak,2,0.0298,100.0,1116.6667
+name,348. Sokak,2,0.0298,100.0,1116.6667
+name,35 Sokak,2,0.0298,100.0,1116.6667
+name,352. Sokak,2,0.0298,100.0,1116.6667
+name,3565. Sokak,2,0.0298,100.0,1116.6667
+name,357. Sokak,2,0.0298,100.0,1116.6667
+name,362. Sokak,2,0.0298,100.0,1116.6667
+name,372/10. Sokak,2,0.0298,100.0,1116.6667
+name,372/14 Sokak,2,0.0298,100.0,1116.6667
+name,372/33. Sokak,2,0.0298,100.0,1116.6667
+name,372/8 Sokak,2,0.0298,100.0,1116.6667
+name,372/9 Sokak,2,0.0298,100.0,1116.6667
+name,375/15 Sokak,2,0.0298,100.0,1116.6667
+name,4. Halil Atila Sitesi,2,0.0298,100.0,1116.6667
+name,4001. Sokak,2,0.0298,100.0,1116.6667
+name,4021. Sokak,2,0.0298,100.0,1116.6667
+name,4026 Sokak,2,0.0298,100.0,1116.6667
+name,4039. Sokak,2,0.0298,100.0,1116.6667
+name,4048. Sokak,2,0.0298,100.0,1116.6667
+name,4088 Sokak,2,0.0298,100.0,1116.6667
+name,4113. Sokak,2,0.0298,100.0,1116.6667
+name,4137/1. Sokak,2,0.0298,100.0,1116.6667
+name,4137/3. Sokak,2,0.0298,100.0,1116.6667
+name,4139/2. Sokak,2,0.0298,100.0,1116.6667
+name,4139/3. Sokak,2,0.0298,100.0,1116.6667
+name,4178/1. Sokak,2,0.0298,100.0,1116.6667
+name,4180. Sokak,2,0.0298,100.0,1116.6667
+name,419. Sokak,2,0.0298,100.0,1116.6667
+name,4193. Sokak,2,0.0298,100.0,1116.6667
+name,4215/1. Sokak,2,0.0298,100.0,1116.6667
+name,4225. Sokak,2,0.0298,100.0,1116.6667
+name,4226. Sokak,2,0.0298,100.0,1116.6667
+name,4233/1. Sokak,2,0.0298,100.0,1116.6667
+name,4246. Sokak,2,0.0298,100.0,1116.6667
+name,4263. Sokak,2,0.0298,100.0,1116.6667
+name,4268. Sokak,2,0.0298,100.0,1116.6667
+name,427/1. Sokak,2,0.0298,100.0,1116.6667
+name,467. Sokak,2,0.0298,100.0,1116.6667
+name,470. Sokak,2,0.0298,100.0,1116.6667
+name,471. Sokak,2,0.0298,100.0,1116.6667
+name,472. Sokak,2,0.0298,100.0,1116.6667
+name,474. Sokak,2,0.0298,100.0,1116.6667
+name,477. Sokak,2,0.0298,100.0,1116.6667
+name,478/7. Sokak,2,0.0298,100.0,1116.6667
+name,479. Sokak,2,0.0298,100.0,1116.6667
+name,484. Sokak,2,0.0298,100.0,1116.6667
+name,485. Sokak,2,0.0298,100.0,1116.6667
+name,485/1. Sokak,2,0.0298,100.0,1116.6667
+name,486. Sokak,2,0.0298,100.0,1116.6667
+name,490. Sokak,2,0.0298,100.0,1116.6667
+name,491. Sokak,2,0.0298,100.0,1116.6667
+name,493. Sokak,2,0.0298,100.0,1116.6667
+name,499. Sokak,2,0.0298,100.0,1116.6667
+name,500. Sokak,2,0.0298,100.0,1116.6667
+name,5001 Sokak,2,0.0298,100.0,1116.6667
+name,501. Sokak,2,0.0298,100.0,1116.6667
+name,5022. Sokak,2,0.0298,100.0,1116.6667
+name,504. Sokak,2,0.0298,100.0,1116.6667
+name,5051. Sokak,2,0.0298,100.0,1116.6667
+name,5057. Sokak,2,0.0298,100.0,1116.6667
+name,506. Sokak,2,0.0298,100.0,1116.6667
+name,507/1. Sokak,2,0.0298,100.0,1116.6667
+name,508. Sokak,2,0.0298,100.0,1116.6667
+name,508/1. Sokak,2,0.0298,100.0,1116.6667
+name,509. Sokak,2,0.0298,100.0,1116.6667
+name,5122. Sokak,2,0.0298,100.0,1116.6667
+name,5135. Sokak,2,0.0298,100.0,1116.6667
+name,5139. Sokak,2,0.0298,100.0,1116.6667
+name,514/2. Sokak,2,0.0298,100.0,1116.6667
+name,5146. Sokak,2,0.0298,100.0,1116.6667
+name,5154. Sokak,2,0.0298,100.0,1116.6667
+name,5175. Sokak,2,0.0298,100.0,1116.6667
+name,5176. Sokak,2,0.0298,100.0,1116.6667
+name,5177. Sokak,2,0.0298,100.0,1116.6667
+name,52/5 Sokak,2,0.0298,100.0,1116.6667
+name,5307. Sokak,2,0.0298,100.0,1116.6667
+name,5358/1. Sokak,2,0.0298,100.0,1116.6667
+name,5362. Sokak,2,0.0298,100.0,1116.6667
+name,5366. Sokak,2,0.0298,100.0,1116.6667
+name,5413. Sokak,2,0.0298,100.0,1116.6667
+name,5414. Sokak,2,0.0298,100.0,1116.6667
+name,5417. Sokak,2,0.0298,100.0,1116.6667
+name,5453. Sokak,2,0.0298,100.0,1116.6667
+name,5456. Sokak,2,0.0298,100.0,1116.6667
+name,5460. Sokak,2,0.0298,100.0,1116.6667
+name,5468. Sokak,2,0.0298,100.0,1116.6667
+name,5481/1. Sokak,2,0.0298,100.0,1116.6667
+name,55. Sokak,2,0.0298,100.0,1116.6667
+name,5517. Sokak,2,0.0298,100.0,1116.6667
+name,5523/1. Sokak,2,0.0298,100.0,1116.6667
+name,5524. Sokak,2,0.0298,100.0,1116.6667
+name,5530. Sokak,2,0.0298,100.0,1116.6667
+name,56/5. Sokak,2,0.0298,100.0,1116.6667
+name,5609. Sokak,2,0.0298,100.0,1116.6667
+name,5633. Sokak,2,0.0298,100.0,1116.6667
+name,5641. Sokak,2,0.0298,100.0,1116.6667
+name,569/1. Sokak,2,0.0298,100.0,1116.6667
+name,5701 Sokak,2,0.0298,100.0,1116.6667
+name,58. Sokak,2,0.0298,100.0,1116.6667
+name,592/20 Sokak,2,0.0298,100.0,1116.6667
+name,592/5. Sokak,2,0.0298,100.0,1116.6667
+name,6. Sokak,2,0.0298,100.0,1116.6667
+name,6067/1 Sokak,2,0.0298,100.0,1116.6667
+name,6067/3 Sokak,2,0.0298,100.0,1116.6667
+name,6067/4 Sokak,2,0.0298,100.0,1116.6667
+name,6075 Sokak,2,0.0298,100.0,1116.6667
+name,6076 Sokak,2,0.0298,100.0,1116.6667
+name,6182. Sokak,2,0.0298,100.0,1116.6667
+name,6213 Sokak,2,0.0298,100.0,1116.6667
+name,6227 Sokak,2,0.0298,100.0,1116.6667
+name,6228 Sokak,2,0.0298,100.0,1116.6667
+name,6244 Sokak,2,0.0298,100.0,1116.6667
+name,6283/1. Sokak,2,0.0298,100.0,1116.6667
+name,6287. Sokak,2,0.0298,100.0,1116.6667
+name,6303. Sokak,2,0.0298,100.0,1116.6667
+name,6307. Sokak,2,0.0298,100.0,1116.6667
+name,6312. Sokak,2,0.0298,100.0,1116.6667
+name,6314. Sokak,2,0.0298,100.0,1116.6667
+name,6316/5. Sokak,2,0.0298,100.0,1116.6667
+name,6329/3. Sokak,2,0.0298,100.0,1116.6667
+name,6330 sokak,2,0.0298,100.0,1116.6667
+name,6340/3. Sokak,2,0.0298,100.0,1116.6667
+name,6429. Sokak,2,0.0298,100.0,1116.6667
+name,6434. Sokak,2,0.0298,100.0,1116.6667
+name,6479. Sokak,2,0.0298,100.0,1116.6667
+name,6484. Sokak,2,0.0298,100.0,1116.6667
+name,6494/1. Sokak,2,0.0298,100.0,1116.6667
+name,6505. Sokak,2,0.0298,100.0,1116.6667
+name,6510 Sokak,2,0.0298,100.0,1116.6667
+name,6519. Sokak,2,0.0298,100.0,1116.6667
+name,6700/2 Sokak,2,0.0298,100.0,1116.6667
+name,68. Sokak,2,0.0298,100.0,1116.6667
+name,6847. Sokak,2,0.0298,100.0,1116.6667
+name,7008 Sokak,2,0.0298,100.0,1116.6667
+name,7011 Sokak,2,0.0298,100.0,1116.6667
+name,7012 Sokak,2,0.0298,100.0,1116.6667
+name,7013 Sokak,2,0.0298,100.0,1116.6667
+name,7015. Sokak,2,0.0298,100.0,1116.6667
+name,7018/1 Sokak,2,0.0298,100.0,1116.6667
+name,7018/3 Sokak,2,0.0298,100.0,1116.6667
+name,7018/4 Sokak,2,0.0298,100.0,1116.6667
+name,7030 Sokak,2,0.0298,100.0,1116.6667
+name,7038 Sokak,2,0.0298,100.0,1116.6667
+name,704. Sokak,2,0.0298,100.0,1116.6667
+name,7040 Sokak,2,0.0298,100.0,1116.6667
+name,7042 Sokak,2,0.0298,100.0,1116.6667
+name,7049 Sokak,2,0.0298,100.0,1116.6667
+name,7052 Sokak,2,0.0298,100.0,1116.6667
+name,7054 Sokak,2,0.0298,100.0,1116.6667
+name,7057 Sokak,2,0.0298,100.0,1116.6667
+name,7067 Sokak,2,0.0298,100.0,1116.6667
+name,7070 Sokak,2,0.0298,100.0,1116.6667
+name,7074 Sokak,2,0.0298,100.0,1116.6667
+name,7088 Sokak,2,0.0298,100.0,1116.6667
+name,7093 Sokak,2,0.0298,100.0,1116.6667
+name,7094 Sokak,2,0.0298,100.0,1116.6667
+name,7095 Sokak,2,0.0298,100.0,1116.6667
+name,7099 Sokak,2,0.0298,100.0,1116.6667
+name,7100 Sokak,2,0.0298,100.0,1116.6667
+name,7103 Sokak,2,0.0298,100.0,1116.6667
+name,7134 Sokak,2,0.0298,100.0,1116.6667
+name,7151 Sokak,2,0.0298,100.0,1116.6667
+name,7153 Sokak,2,0.0298,100.0,1116.6667
+name,7163 Sokak,2,0.0298,100.0,1116.6667
+name,7171/3 Sokak,2,0.0298,100.0,1116.6667
+name,7172 Sokak,2,0.0298,100.0,1116.6667
+name,721. Sokak,2,0.0298,100.0,1116.6667
+name,7212 Sokak,2,0.0298,100.0,1116.6667
+name,7213. Sokak,2,0.0298,100.0,1116.6667
+name,722. Sokak,2,0.0298,100.0,1116.6667
+name,7234 Sokak,2,0.0298,100.0,1116.6667
+name,724. Sokak,2,0.0298,100.0,1116.6667
+name,7245 Sokak,2,0.0298,100.0,1116.6667
+name,7247 Sokak,2,0.0298,100.0,1116.6667
+name,726. Sokak,2,0.0298,100.0,1116.6667
+name,7265 Sokak,2,0.0298,100.0,1116.6667
+name,7276 Sokak,2,0.0298,100.0,1116.6667
+name,7278 Sokak,2,0.0298,100.0,1116.6667
+name,7279 Sokak,2,0.0298,100.0,1116.6667
+name,7287 Sokak,2,0.0298,100.0,1116.6667
+name,7302 Sokak,2,0.0298,100.0,1116.6667
+name,7302. Sokak,2,0.0298,100.0,1116.6667
+name,7311 Sokak,2,0.0298,100.0,1116.6667
+name,7315 Sokak,2,0.0298,100.0,1116.6667
+name,7315/1 Sokak,2,0.0298,100.0,1116.6667
+name,7316 Sokak,2,0.0298,100.0,1116.6667
+name,7319 Sokak,2,0.0298,100.0,1116.6667
+name,7320 Sokak,2,0.0298,100.0,1116.6667
+name,7321/1 Sokak,2,0.0298,100.0,1116.6667
+name,7325 Sokak,2,0.0298,100.0,1116.6667
+name,7334/2 Sokak,2,0.0298,100.0,1116.6667
+name,7343 Sokak,2,0.0298,100.0,1116.6667
+name,7345/2 Sokak,2,0.0298,100.0,1116.6667
+name,7346 Sokak,2,0.0298,100.0,1116.6667
+name,7368 Sokak,2,0.0298,100.0,1116.6667
+name,7368/3 Sokak,2,0.0298,100.0,1116.6667
+name,737. Sokak,2,0.0298,100.0,1116.6667
+name,742/2. Sokak,2,0.0298,100.0,1116.6667
+name,742/3. Sokak,2,0.0298,100.0,1116.6667
+name,750. Sokak,2,0.0298,100.0,1116.6667
+name,751/1. Sokak,2,0.0298,100.0,1116.6667
+name,7532. Sokak,2,0.0298,100.0,1116.6667
+name,754. Sokak,2,0.0298,100.0,1116.6667
+name,759. Sokak,2,0.0298,100.0,1116.6667
+name,761. Sokak,2,0.0298,100.0,1116.6667
+name,762. Sokak,2,0.0298,100.0,1116.6667
+name,763/2. Sokak,2,0.0298,100.0,1116.6667
+name,764/2. Sokak,2,0.0298,100.0,1116.6667
+name,765. Sokak,2,0.0298,100.0,1116.6667
+name,7654/2 Sokak,2,0.0298,100.0,1116.6667
+name,7659 Sokak,2,0.0298,100.0,1116.6667
+name,767. Sokak,2,0.0298,100.0,1116.6667
+name,768. Sokak,2,0.0298,100.0,1116.6667
+name,776. Sokak,2,0.0298,100.0,1116.6667
+name,779. Sokak,2,0.0298,100.0,1116.6667
+name,781. Sokak,2,0.0298,100.0,1116.6667
+name,785/1. Sokak,2,0.0298,100.0,1116.6667
+name,787. Sokak,2,0.0298,100.0,1116.6667
+name,794. Sokak,2,0.0298,100.0,1116.6667
+name,801. Sokak,2,0.0298,100.0,1116.6667
+name,811. Sokak,2,0.0298,100.0,1116.6667
+name,815. Sokak,2,0.0298,100.0,1116.6667
+name,815/1. Sokak,2,0.0298,100.0,1116.6667
+name,819. Sokak,2,0.0298,100.0,1116.6667
+name,823. Sokak,2,0.0298,100.0,1116.6667
+name,825. Sokak,2,0.0298,100.0,1116.6667
+name,8271 Sokak,2,0.0298,100.0,1116.6667
+name,834. Sokak,2,0.0298,100.0,1116.6667
+name,836. Sokak,2,0.0298,100.0,1116.6667
+name,85. Sokak,2,0.0298,100.0,1116.6667
+name,853 Sokak,2,0.0298,100.0,1116.6667
+name,856 Sokak,2,0.0298,100.0,1116.6667
+name,857. Sokak,2,0.0298,100.0,1116.6667
+name,86. Sokak,2,0.0298,100.0,1116.6667
+name,863 Sokak,2,0.0298,100.0,1116.6667
+name,871 Sokak,2,0.0298,100.0,1116.6667
+name,8712 Sokak,2,0.0298,100.0,1116.6667
+name,872 SOKAK,2,0.0298,100.0,1116.6667
+name,872 Sokak,2,0.0298,100.0,1116.6667
+name,8780/1 Sokak,2,0.0298,100.0,1116.6667
+name,8790/1 Sokak,2,0.0298,100.0,1116.6667
+name,8790/4 Sokak,2,0.0298,100.0,1116.6667
+name,8809/17 Sokak,2,0.0298,100.0,1116.6667
+name,89 Sokak,2,0.0298,100.0,1116.6667
+name,8901 Sokak,2,0.0298,100.0,1116.6667
+name,8907 Sokak,2,0.0298,100.0,1116.6667
+name,892 SOKAK,2,0.0298,100.0,1116.6667
+name,8954 Sokak,2,0.0298,100.0,1116.6667
+name,9002 Sokak,2,0.0298,100.0,1116.6667
+name,905. Sokak,2,0.0298,100.0,1116.6667
+name,9055 Sokak,2,0.0298,100.0,1116.6667
+name,906. Sokak,2,0.0298,100.0,1116.6667
+name,908 sokak,2,0.0298,100.0,1116.6667
+name,9080/3 Sokak,2,0.0298,100.0,1116.6667
+name,915 Sokak,2,0.0298,100.0,1116.6667
+name,9150/2 Sokak,2,0.0298,100.0,1116.6667
+name,919/43 Sokak,2,0.0298,100.0,1116.6667
+name,9194 Sokak,2,0.0298,100.0,1116.6667
+name,920 Sokak,2,0.0298,100.0,1116.6667
+name,9242/1 Sokak,2,0.0298,100.0,1116.6667
+name,925/2. Sokak,2,0.0298,100.0,1116.6667
+name,9305 Sokak,2,0.0298,100.0,1116.6667
+name,931. Sokak,2,0.0298,100.0,1116.6667
+name,94. Sokak,2,0.0298,100.0,1116.6667
+name,943. Sokak,2,0.0298,100.0,1116.6667
+name,944/1. Sokak,2,0.0298,100.0,1116.6667
+name,948. Sokak,2,0.0298,100.0,1116.6667
+name,951/1. Sokak,2,0.0298,100.0,1116.6667
+name,951/2. Sokak,2,0.0298,100.0,1116.6667
+name,954. Sokak,2,0.0298,100.0,1116.6667
+name,959. Sokak,2,0.0298,100.0,1116.6667
+name,969. Sokak,2,0.0298,100.0,1116.6667
+name,973. Sokak,2,0.0298,100.0,1116.6667
+name,980. Sokak,2,0.0298,100.0,1116.6667
+name,981. Sokak,2,0.0298,100.0,1116.6667
+name,99 sokak,2,0.0298,100.0,1116.6667
+name,996. Sokak,2,0.0298,100.0,1116.6667
+name,996/1. Sokak,2,0.0298,100.0,1116.6667
+name,Accessorize,2,0.0298,100.0,1116.6667
+name,Adalar Sokak,2,0.0298,100.0,1116.6667
+name,Adile Naşit Parkı,2,0.0298,100.0,1116.6667
+name,Agia Fotini Orthodox church,2,0.0298,100.0,1116.6667
+name,Ahmet Piriştina Doğa Sit Parkı,2,0.0298,100.0,1116.6667
+name,Aksa Camii,2,0.0298,100.0,1116.6667
+name,Ali Alp Böke Caddesi,2,0.0298,100.0,1116.6667
+name,Ali Alp Böke Cd.,2,0.0298,100.0,1116.6667
+name,Alim Dağhan Caddesi,2,0.0298,100.0,1116.6667
+name,Alsancak Cami Taksi,2,0.0298,100.0,1116.6667
+name,Alsancak Gar,2,0.0298,100.0,1116.6667
+name,Alsancak Limanı,2,0.0298,100.0,1116.6667
+name,Alsancak Özel Kent Medical Center,2,0.0298,100.0,1116.6667
+name,Ambar,2,0.0298,100.0,1116.6667
+name,And Sehir Medikar,2,0.0298,100.0,1116.6667
+name,Arap Camii,2,0.0298,100.0,1116.6667
+name,Ardıç,2,0.0298,100.0,1116.6667
+name,Atatürk Lisesi,2,0.0298,100.0,1116.6667
+name,Ateş Ticaret,2,0.0298,100.0,1116.6667
+name,Aybers Hikmet Karabacak Anadolu Lisesi,2,0.0298,100.0,1116.6667
+name,Aydın Otoyolu Kavşağı,2,0.0298,100.0,1116.6667
+name,Ağır Bakım,2,0.0298,100.0,1116.6667
+name,Aşağı Vişneli Yolu,2,0.0298,100.0,1116.6667
+name,Ballıkuyu Caddesi,2,0.0298,100.0,1116.6667
+name,Balçova Aktarma Merkezi Sürücü Dinlenme,2,0.0298,100.0,1116.6667
+name,Bayraklı Polis Bekçi Devriye Noktası,2,0.0298,100.0,1116.6667
+name,Başkent Üniversitesi Zübeyde Hanım Uygulama Merkezi,2,0.0298,100.0,1116.6667
+name,Belkahve Çay Bahçesi,2,0.0298,100.0,1116.6667
+name,Benzin İstasyonu,2,0.0298,100.0,1116.6667
+name,Berin Taşan Sokağı,2,0.0298,100.0,1116.6667
+name,Bestekar Sadi Hoşses Sokağı,2,0.0298,100.0,1116.6667
+name,Bir Dünya Kravat,2,0.0298,100.0,1116.6667
+name,Bornova A. L.,2,0.0298,100.0,1116.6667
+name,Bornova Anadolu Lisesi Reviri,2,0.0298,100.0,1116.6667
+name,Bornova Belediyesi Evka 4 Kapalı Pazar Yeri,2,0.0298,100.0,1116.6667
+name,Bornova Belediyesi Çocuk Merkezi,2,0.0298,100.0,1116.6667
+name,Bornova Naim Süleymanoğlu Evka-4 Spor Kompleksi,2,0.0298,100.0,1116.6667
+name,Bornova Stadı,2,0.0298,100.0,1116.6667
+name,Bornova Çayı,2,0.0298,100.0,1116.6667
+name,Bornova Şükrü Ergil 9. Merkez Aile Sağlık Merkezi,2,0.0298,100.0,1116.6667
+name,Boycar,2,0.0298,100.0,1116.6667
+name,Buca (Batı),2,0.0298,100.0,1116.6667
+name,Buca Belediye Sarayı,2,0.0298,100.0,1116.6667
+name,Buca Cezaevi,2,0.0298,100.0,1116.6667
+name,Buca Doğu,2,0.0298,100.0,1116.6667
+name,Buca Koop - Gıda Çarşısı Ana Durak,2,0.0298,100.0,1116.6667
+name,Buca Koop.,2,0.0298,100.0,1116.6667
+name,Buca Mesleki ve Teknik Anadolu Lisesi,2,0.0298,100.0,1116.6667
+name,Buca Sosyal Güvenlik Kurumu,2,0.0298,100.0,1116.6667
+name,Buca Çarşı - Kapalı Pazar ve Sosyal Tesisler,2,0.0298,100.0,1116.6667
+name,Büyük Menderes,2,0.0298,100.0,1116.6667
+name,Cafe Kasaba,2,0.0298,100.0,1116.6667
+name,Cami,2,0.0298,100.0,1116.6667
+name,Cemevi,2,0.0298,100.0,1116.6667
+name,Cevdet Bilsay Caddesi,2,0.0298,100.0,1116.6667
+name,Cizgi,2,0.0298,100.0,1116.6667
+name,Colorans Group,2,0.0298,100.0,1116.6667
+name,CİTİ RENT A CAR,2,0.0298,100.0,1116.6667
+name,Dalyan,2,0.0298,100.0,1116.6667
+name,Dede Korkut Caddesi,2,0.0298,100.0,1116.6667
+name,Defne Sokak,2,0.0298,100.0,1116.6667
+name,Deniz Feneri Sokağı,2,0.0298,100.0,1116.6667
+name,Develi,2,0.0298,100.0,1116.6667
+name,Dokuz Devlet Hastanesi,2,0.0298,100.0,1116.6667
+name,Dokuz Eylül Eğitim Fakültesi,2,0.0298,100.0,1116.6667
+name,Dostlar Sitesi,2,0.0298,100.0,1116.6667
+name,Dostluk Bulvarı,2,0.0298,100.0,1116.6667
+name,Duray,2,0.0298,100.0,1116.6667
+name,Ege Üniversitesi Moda ve Tasarım Yüksekokulu,2,0.0298,100.0,1116.6667
+name,Ege Üniversitesi Rektörlüğü,2,0.0298,100.0,1116.6667
+name,Ege İhracatçı Birlikleri Ortaokulu,2,0.0298,100.0,1116.6667
+name,Erboy,2,0.0298,100.0,1116.6667
+name,Erolun Yeri,2,0.0298,100.0,1116.6667
+name,Ersoy Caddesi,2,0.0298,100.0,1116.6667
+name,Eser,2,0.0298,100.0,1116.6667
+name,Eski Bahçe,2,0.0298,100.0,1116.6667
+name,Eski Mezarlık,2,0.0298,100.0,1116.6667
+name,Etikent Sitesi,2,0.0298,100.0,1116.6667
+name,Evka 4 Mahallesi Muhtarlığı,2,0.0298,100.0,1116.6667
+name,Evka-3 Parkı,2,0.0298,100.0,1116.6667
+name,Evka-4 Trafo İstasyonu,2,0.0298,100.0,1116.6667
+name,Evka-4 Yeşiltepe Kreş ve Anaokul,2,0.0298,100.0,1116.6667
+name,Eşrefpaşa,2,0.0298,100.0,1116.6667
+name,Fatih Camii,2,0.0298,100.0,1116.6667
+name,Fatih Sultan Mehmet Caddesi,2,0.0298,100.0,1116.6667
+name,Fatin Rüştü Zorlu Caddesi,2,0.0298,100.0,1116.6667
+name,Fen Bilimleri Koleji,2,0.0298,100.0,1116.6667
+name,Firuze Apartmanı,2,0.0298,100.0,1116.6667
+name,Forum Bornova,2,0.0298,100.0,1116.6667
+name,Forum Bornova Taksi,2,0.0298,100.0,1116.6667
+name,Gayret Apartmanı,2,0.0298,100.0,1116.6667
+name,Gayrettepe Camii,2,0.0298,100.0,1116.6667
+name,Gazi Osman Paşa Bulvarı,2,0.0298,100.0,1116.6667
+name,Gaziemir,2,0.0298,100.0,1116.6667
+name,Gaziler Caddesi,2,0.0298,100.0,1116.6667
+name,Gençler Sitesi,2,0.0298,100.0,1116.6667
+name,Gençlik Caddesi,2,0.0298,100.0,1116.6667
+name,Gundar Apt.,2,0.0298,100.0,1116.6667
+name,Göztepe Vapur İskelesi,2,0.0298,100.0,1116.6667
+name,Göğüs Hastalıkları Hastanesi,2,0.0298,100.0,1116.6667
+name,Gül Tuhafiye,2,0.0298,100.0,1116.6667
+name,Gülhan Cami,2,0.0298,100.0,1116.6667
+name,Günaydın Sokak,2,0.0298,100.0,1116.6667
+name,Hacı Ali Efendi Caddesi,2,0.0298,100.0,1116.6667
+name,Halit Ziya Bulvarı,2,0.0298,100.0,1116.6667
+name,Halkapınar Metro,2,0.0298,100.0,1116.6667
+name,Halkapınar YHT,2,0.0298,100.0,1116.6667
+name,Hasan Özdemir,2,0.0298,100.0,1116.6667
+name,Hasanağa Bahçesi,2,0.0298,100.0,1116.6667
+name,Hatay,2,0.0298,100.0,1116.6667
+name,Hava Üssü,2,0.0298,100.0,1116.6667
+name,Havacı Blokları Parkları,2,0.0298,100.0,1116.6667
+name,Haydar Aliyev Cd.,2,0.0298,100.0,1116.6667
+name,Hayme Hatun Anaokulu,2,0.0298,100.0,1116.6667
+name,Hobi Bahçeleri,2,0.0298,100.0,1116.6667
+name,Hobi Parfumeri,2,0.0298,100.0,1116.6667
+name,Hoca Ahmet Yesevi Caddesi,2,0.0298,100.0,1116.6667
+name,Hoca Ahmet Yesevi Lisesi,2,0.0298,100.0,1116.6667
+name,Hükümet Konağı,2,0.0298,100.0,1116.6667
+name,Hürriyet Cd.,2,0.0298,100.0,1116.6667
+name,Hıdırlık Caddesi,2,0.0298,100.0,1116.6667
+name,IKEA,2,0.0298,100.0,1116.6667
+name,Ifran Koftecisi,2,0.0298,100.0,1116.6667
+name,Ikizler Binbir Cesit Dunyasi,2,0.0298,100.0,1116.6667
+name,Izmir Evden Eve Nakliyat,2,0.0298,100.0,1116.6667
+name,Izmir Fen Lisesi,2,0.0298,100.0,1116.6667
+name,Işıklar TM - Yatağan TM EİH,2,0.0298,100.0,1116.6667
+name,Işıklar TM - Üniversite TM EİH,2,0.0298,100.0,1116.6667
+name,Kahve Deryasi,2,0.0298,100.0,1116.6667
+name,Kaktüs Sokak,2,0.0298,100.0,1116.6667
+name,Kantarcı Sokak,2,0.0298,100.0,1116.6667
+name,Kars Halil Atilla Anaokulu,2,0.0298,100.0,1116.6667
+name,Kars Halil Atilla İlköğretim Okulu,2,0.0298,100.0,1116.6667
+name,Katipzade Mescidi,2,0.0298,100.0,1116.6667
+name,Katı Atık İşleme Tesisi Yolu,2,0.0298,100.0,1116.6667
+name,Kavaklıdere Caddesi,2,0.0298,100.0,1116.6667
+name,Kaya Emlak,2,0.0298,100.0,1116.6667
+name,Kemer Aktarma Merkezi,2,0.0298,100.0,1116.6667
+name,Kidsmall,2,0.0298,100.0,1116.6667
+name,Kim Market,2,0.0298,100.0,1116.6667
+name,Konak Anadolu,2,0.0298,100.0,1116.6667
+name,Konak Pier,2,0.0298,100.0,1116.6667
+name,Koruma ve Güvenlik Şube Müdürlüğü,2,0.0298,100.0,1116.6667
+name,Kumsal Sokak,2,0.0298,100.0,1116.6667
+name,Kuruçeşme Merkez Camii,2,0.0298,100.0,1116.6667
+name,Kuşadası - Davutlar Yolu,2,0.0298,100.0,1116.6667
+name,Körfez Geçişi Projesi,2,0.0298,100.0,1116.6667
+name,Kız Yurdu,2,0.0298,100.0,1116.6667
+name,Lale Sokak,2,0.0298,100.0,1116.6667
+name,Laletepe Camii,2,0.0298,100.0,1116.6667
+name,Lipton Çay Sanayi,2,0.0298,100.0,1116.6667
+name,Makbule Süleyman Alkan Ortaokulu,2,0.0298,100.0,1116.6667
+name,Malazgir İlkokulu,2,0.0298,100.0,1116.6667
+name,Manas,2,0.0298,100.0,1116.6667
+name,Maraba Sk.,2,0.0298,100.0,1116.6667
+name,Menekşe Sokak,2,0.0298,100.0,1116.6667
+name,Mengoli,2,0.0298,100.0,1116.6667
+name,Merkez İlköğretim Okulu,2,0.0298,100.0,1116.6667
+name,Metin Oktay Sk.,2,0.0298,100.0,1116.6667
+name,Meşe Sk.,2,0.0298,100.0,1116.6667
+name,Mimoza Apt.,2,0.0298,100.0,1116.6667
+name,Montrö Meydanı,2,0.0298,100.0,1116.6667
+name,MotoRoom,2,0.0298,100.0,1116.6667
+name,Muammer Aksoy Parkı,2,0.0298,100.0,1116.6667
+name,Mucibur Rahman Caddesi,2,0.0298,100.0,1116.6667
+name,Muhsin Yazıcıoğlu Anadolu İmam Hatip Lisesi,2,0.0298,100.0,1116.6667
+name,Murat Reis Camii ve Kültür Merkezi,2,0.0298,100.0,1116.6667
+name,Mustafa Kemal Paşa Sokak,2,0.0298,100.0,1116.6667
+name,Mustafa Urcan İlkokulu,2,0.0298,100.0,1116.6667
+name,NATO 1,2,0.0298,100.0,1116.6667
+name,NATO Land Headquarters Allied Command - Eastern Mediterranean,2,0.0298,100.0,1116.6667
+name,Nato,2,0.0298,100.0,1116.6667
+name,Nets Club,2,0.0298,100.0,1116.6667
+name,Nilda Sokak,2,0.0298,100.0,1116.6667
+name,OSMAN FARUK VERİMER İ.Ö.O,2,0.0298,100.0,1116.6667
+name,Onat Caddesi,2,0.0298,100.0,1116.6667
+name,Oncu,2,0.0298,100.0,1116.6667
+name,Onur Mahallesi Muhtarlığı,2,0.0298,100.0,1116.6667
+name,Opet Torbalı,2,0.0298,100.0,1116.6667
+name,Ordu Caddesi,2,0.0298,100.0,1116.6667
+name,PTT,2,0.0298,100.0,1116.6667
+name,Palamut Sk.,2,0.0298,100.0,1116.6667
+name,Palmiye Sitesi,2,0.0298,100.0,1116.6667
+name,Papatya,2,0.0298,100.0,1116.6667
+name,Papatya Sokak,2,0.0298,100.0,1116.6667
+name,Park Baby,2,0.0298,100.0,1116.6667
+name,Pasaport Vapur İskelesi,2,0.0298,100.0,1116.6667
+name,Pirinç Center,2,0.0298,100.0,1116.6667
+name,Piyale,2,0.0298,100.0,1116.6667
+name,Point Bornova AVM,2,0.0298,100.0,1116.6667
+name,Polat Caddesi,2,0.0298,100.0,1116.6667
+name,Poligon,2,0.0298,100.0,1116.6667
+name,Pınar Sitesi,2,0.0298,100.0,1116.6667
+name,SEÇ Market,2,0.0298,100.0,1116.6667
+name,Saint Rosaire Dom Kilisesi,2,0.0298,100.0,1116.6667
+name,Sebze ve Meyve Hali,2,0.0298,100.0,1116.6667
+name,Selçuk Yaşar Alaybey Ortaokulu,2,0.0298,100.0,1116.6667
+name,Selçuk Yaşar Boyacılık EML,2,0.0298,100.0,1116.6667
+name,Selçuk Yaşar İ.Ö.O.,2,0.0298,100.0,1116.6667
+name,Sesin İzi,2,0.0298,100.0,1116.6667
+name,Sevgi Parkı,2,0.0298,100.0,1116.6667
+name,Shell,2,0.0298,100.0,1116.6667
+name,Smyrna,2,0.0298,100.0,1116.6667
+name,St. Mary Magdelena Protestan Klisesi,2,0.0298,100.0,1116.6667
+name,Stadyum İstayon,2,0.0298,100.0,1116.6667
+name,Starbucks,2,0.0298,100.0,1116.6667
+name,Subway,2,0.0298,100.0,1116.6667
+name,Süreç Tekstil,2,0.0298,100.0,1116.6667
+name,Süsen,2,0.0298,100.0,1116.6667
+name,Sınav Koleji,2,0.0298,100.0,1116.6667
+name,Sıraevler,2,0.0298,100.0,1116.6667
+name,TCDD Alsancak Istasyonu,2,0.0298,100.0,1116.6667
+name,TCDD Gaziemir İstasyonu,2,0.0298,100.0,1116.6667
+name,TEOS Marina Parkı,2,0.0298,100.0,1116.6667
+name,TEOS Marina Servis Yolu,2,0.0298,100.0,1116.6667
+name,TRT,2,0.0298,100.0,1116.6667
+name,TRT Blokları,2,0.0298,100.0,1116.6667
+name,Tarihi Buca Tren İstasyonu,2,0.0298,100.0,1116.6667
+name,Tarihi Vezir Suyu Kemeri ve Kalıntı Duvarları,2,0.0298,100.0,1116.6667
+name,Teos Caddesi,2,0.0298,100.0,1116.6667
+name,Teos Marina,2,0.0298,100.0,1116.6667
+name,Toki Site İçi Yol,2,0.0298,100.0,1116.6667
+name,Toktay Eczanesi,2,0.0298,100.0,1116.6667
+name,Tosunlar Yemek Fabrikası,2,0.0298,100.0,1116.6667
+name,Total,2,0.0298,100.0,1116.6667
+name,Tuser Oto Bakım,2,0.0298,100.0,1116.6667
+name,Türk Birliği İ.Ö.Okulu,2,0.0298,100.0,1116.6667
+name,Türk Silahlı Kuvvetleri,2,0.0298,100.0,1116.6667
+name,Tınaztepe,2,0.0298,100.0,1116.6667
+name,Ugur okullari Bornova Kampusu,2,0.0298,100.0,1116.6667
+name,Urla TM - Uzundere TM EİH,2,0.0298,100.0,1116.6667
+name,Uzundere Rekreasyon Alanı,2,0.0298,100.0,1116.6667
+name,Uğur Mumcu Parkı,2,0.0298,100.0,1116.6667
+name,Vakıfbank,2,0.0298,100.0,1116.6667
+name,Vişneli Giriş,2,0.0298,100.0,1116.6667
+name,Vişneli Küme Evleri,2,0.0298,100.0,1116.6667
+name,Vişneli Çıkış,2,0.0298,100.0,1116.6667
+name,Vişneli Üçyol,2,0.0298,100.0,1116.6667
+name,Vodafone,2,0.0298,100.0,1116.6667
+name,Watsons,2,0.0298,100.0,1116.6667
+name,Yahya Kemal Beyatlı Caddesi,2,0.0298,100.0,1116.6667
+name,Yamanlar,2,0.0298,100.0,1116.6667
+name,Yamanlar İlköğretim Koleji,2,0.0298,100.0,1116.6667
+name,Yapı Kredi,2,0.0298,100.0,1116.6667
+name,Yağhaneler 2,2,0.0298,100.0,1116.6667
+name,Yedigöller,2,0.0298,100.0,1116.6667
+name,Yener Caddesi,2,0.0298,100.0,1116.6667
+name,Yeni Mahalle,2,0.0298,100.0,1116.6667
+name,Yenişehir Üst Geçit,2,0.0298,100.0,1116.6667
+name,Yesevi Kuran Kursu,2,0.0298,100.0,1116.6667
+name,Yeşil Sitem,2,0.0298,100.0,1116.6667
+name,Yeşilpark Evleri,2,0.0298,100.0,1116.6667
+name,Yiğitler Caddesi,2,0.0298,100.0,1116.6667
+name,Yukarı Vişneli Meydan,2,0.0298,100.0,1116.6667
+name,Yunus Kent Sitesi,2,0.0298,100.0,1116.6667
+name,Zeytineli Mah.,2,0.0298,100.0,1116.6667
+name,Ziraat Fakültesi B Blok,2,0.0298,100.0,1116.6667
+name,Ziraat Fakültesi C Blok,2,0.0298,100.0,1116.6667
+name,Zübeyde Hanım Mesleki ve Teknik Anadolu Lisesi,2,0.0298,100.0,1116.6667
+name,Zübeyde Hanım Parkı,2,0.0298,100.0,1116.6667
+name,altin Oran Akademi,2,0.0298,100.0,1116.6667
+name,basketbol Sahasi,2,0.0298,100.0,1116.6667
+name,bina,2,0.0298,100.0,1116.6667
+name,building,2,0.0298,100.0,1116.6667
+name,cut & More Bayan Kuaforu,2,0.0298,100.0,1116.6667
+name,emek sitesi,2,0.0298,100.0,1116.6667
+name,iskele,2,0.0298,100.0,1116.6667
+name,kahve Deryasi,2,0.0298,100.0,1116.6667
+name,kipa Ekspres,2,0.0298,100.0,1116.6667
+name,konut + ticaret,2,0.0298,100.0,1116.6667
+name,merher acarlar unlu mamuleri,2,0.0298,100.0,1116.6667
+name,samim kara,2,0.0298,100.0,1116.6667
+name,sec-tart,2,0.0298,100.0,1116.6667
+name,someones home,2,0.0298,100.0,1116.6667
+name,teiaş kamulaştırma müdürlüğü,2,0.0298,100.0,1116.6667
+name,ÇAVUŞOĞLU Sk.,2,0.0298,100.0,1116.6667
+name,ÇAĞDAŞ Sk.,2,0.0298,100.0,1116.6667
+name,Çakabey Okulları Spor Salonu,2,0.0298,100.0,1116.6667
+name,Çamkıran,2,0.0298,100.0,1116.6667
+name,Çankaya,2,0.0298,100.0,1116.6667
+name,Çağdaş Cd.,2,0.0298,100.0,1116.6667
+name,Çağla Sokak,2,0.0298,100.0,1116.6667
+name,Çilek Sokak,2,0.0298,100.0,1116.6667
+name,Çiçek,2,0.0298,100.0,1116.6667
+name,Çiçekevler,2,0.0298,100.0,1116.6667
+name,Çoban Sitesi,2,0.0298,100.0,1116.6667
+name,Öykü Sokak,2,0.0298,100.0,1116.6667
+name,Özdoğuş Sitesi,2,0.0298,100.0,1116.6667
+name,Özel Medipol Hastanesi,2,0.0298,100.0,1116.6667
+name,Özel Otopark,2,0.0298,100.0,1116.6667
+name,Özel Tınaztepe Galen Hastanesi,2,0.0298,100.0,1116.6667
+name,Özgül Sitesi,2,0.0298,100.0,1116.6667
+name,Özyol Sokak,2,0.0298,100.0,1116.6667
+name,Öğretmen Evleri,2,0.0298,100.0,1116.6667
+name,ÜNSAL POLAT,2,0.0298,100.0,1116.6667
+name,İBB Egemenlik Evi,2,0.0298,100.0,1116.6667
+name,İBB İtfaiye Daire Başkanlığı - AKS112,2,0.0298,100.0,1116.6667
+name,İZBAN Koşu Durağı,2,0.0298,100.0,1116.6667
+name,İhsan Alyanak Kapalı Spor Salonu,2,0.0298,100.0,1116.6667
+name,İhsan Onat Okulu,2,0.0298,100.0,1116.6667
+name,İktisadi ve İdari Bilimler Fakültesi,2,0.0298,100.0,1116.6667
+name,İl Sağlık Müdürlüğü,2,0.0298,100.0,1116.6667
+name,İl Sağlık Müdürlüğü Narlıdere Ek Hizmet Binası,2,0.0298,100.0,1116.6667
+name,İlahiyat Fakültesi Konferans Salonu,2,0.0298,100.0,1116.6667
+name,İletişim Fakültesi,2,0.0298,100.0,1116.6667
+name,İstinyePark Şantiyesi,2,0.0298,100.0,1116.6667
+name,İzbeton,2,0.0298,100.0,1116.6667
+name,İzmir Bayraklı Entegre Sağlık Kampüsü,2,0.0298,100.0,1116.6667
+name,İzmir Kavram Meslek Yüksekokulu,2,0.0298,100.0,1116.6667
+name,İzmir Metro Tramvay Deposu,2,0.0298,100.0,1116.6667
+name,İzmir İl Jandarma Komutanlığı,2,0.0298,100.0,1116.6667
+name,İzmir İli Hükümet Konağı,2,0.0298,100.0,1116.6667
+name,İzmir-Manisa yolu,2,0.0298,100.0,1116.6667
+name,İzmir-Uşak yolu,2,0.0298,100.0,1116.6667
+name,İzmir-Çeşme otoyolu,2,0.0298,100.0,1116.6667
+name,İzmir-Ödemiş yolu,2,0.0298,100.0,1116.6667
+name,İzmirspor,2,0.0298,100.0,1116.6667
+name,İzsu,2,0.0298,100.0,1116.6667
+name,Şadırvanaltı Camii,2,0.0298,100.0,1116.6667
+name,Şeboy,2,0.0298,100.0,1116.6667
+name,Şehit Onbaşı Ali Güner Yeşilbağ İlkokulu-Ortaokulu,2,0.0298,100.0,1116.6667
+name,Şht. Fethi Bey Sokak,2,0.0298,100.0,1116.6667
+name,Şirinyer Askeri Ceza ve Tutukevi,2,0.0298,100.0,1116.6667
+name,Şirinyer Pazar Yeri,2,0.0298,100.0,1116.6667
+name,06 doner,1,0.0149,0.0,508.3333
+name,1 Nolu Ögrenci Yemekhanesi,1,0.0149,0.0,508.3333
+name,1. Sanayi Sitesi Camisi,1,0.0149,0.0,508.3333
+name,1.Ziya Dağlı Er Sitesi,1,0.0149,0.0,508.3333
+name,10/2 Sokak,1,0.0149,0.0,508.3333
+name,100. Yıl Polis Merkezi Amirliği,1,0.0149,0.0,508.3333
+name,100.Yıl İlk Öğretim Okulu,1,0.0149,0.0,508.3333
+name,10012 Sokak,1,0.0149,0.0,508.3333
+name,10022 Sokak,1,0.0149,0.0,508.3333
+name,10023 Sokak,1,0.0149,0.0,508.3333
+name,10027 Sokak,1,0.0149,0.0,508.3333
+name,10032 Sokak,1,0.0149,0.0,508.3333
+name,10039 Sokak,1,0.0149,0.0,508.3333
+name,1005/1. Sokak,1,0.0149,0.0,508.3333
+name,1005/2. Sokak,1,0.0149,0.0,508.3333
+name,1008. Sokak,1,0.0149,0.0,508.3333
+name,1012. Sokak,1,0.0149,0.0,508.3333
+name,1013. Sokak,1,0.0149,0.0,508.3333
+name,1014. Sokak,1,0.0149,0.0,508.3333
+name,1016/1. Sokak,1,0.0149,0.0,508.3333
+name,1018 Sokak,1,0.0149,0.0,508.3333
+name,1022 Sokak,1,0.0149,0.0,508.3333
+name,1024. Sokak,1,0.0149,0.0,508.3333
+name,1025/1. Sokak,1,0.0149,0.0,508.3333
+name,1026/1. Sokak,1,0.0149,0.0,508.3333
+name,1026/11026/1. Sokak,1,0.0149,0.0,508.3333
+name,1027. Sokak,1,0.0149,0.0,508.3333
+name,1028. Sokak,1,0.0149,0.0,508.3333
+name,1034. Sokak,1,0.0149,0.0,508.3333
+name,1036. Sokak,1,0.0149,0.0,508.3333
+name,1072. Sokak,1,0.0149,0.0,508.3333
+name,108/2 Sokak,1,0.0149,0.0,508.3333
+name,108/24. Sokak,1,0.0149,0.0,508.3333
+name,1105. Sokak,1,0.0149,0.0,508.3333
+name,1107. Sokak,1,0.0149,0.0,508.3333
+name,1109 Sokak,1,0.0149,0.0,508.3333
+name,1119. Sokak,1,0.0149,0.0,508.3333
+name,1123. Sokak,1,0.0149,0.0,508.3333
+name,113 Sokak,1,0.0149,0.0,508.3333
+name,113/13. Sokak,1,0.0149,0.0,508.3333
+name,113/17. Sokak,1,0.0149,0.0,508.3333
+name,113/19.sk,1,0.0149,0.0,508.3333
+name,113/25. sk,1,0.0149,0.0,508.3333
+name,113/5,1,0.0149,0.0,508.3333
+name,1145. Sokak,1,0.0149,0.0,508.3333
+name,116/21. Sokak,1,0.0149,0.0,508.3333
+name,1171. Sokak,1,0.0149,0.0,508.3333
+name,1195. Sokak,1,0.0149,0.0,508.3333
+name,1199. Sokak,1,0.0149,0.0,508.3333
+name,12/1. Sokak,1,0.0149,0.0,508.3333
+name,1201/1. Sokak,1,0.0149,0.0,508.3333
+name,1202. Sodak,1,0.0149,0.0,508.3333
+name,1203/10. Sokak,1,0.0149,0.0,508.3333
+name,1203/11. Sokak,1,0.0149,0.0,508.3333
+name,1206. sodak,1,0.0149,0.0,508.3333
+name,1207 sodak,1,0.0149,0.0,508.3333
+name,1226. Sokak,1,0.0149,0.0,508.3333
+name,124 Sokak,1,0.0149,0.0,508.3333
+name,1245. Sokak,1,0.0149,0.0,508.3333
+name,1250. Sokak,1,0.0149,0.0,508.3333
+name,1251. Sokak,1,0.0149,0.0,508.3333
+name,1273. Sokak,1,0.0149,0.0,508.3333
+name,1274. Sokak,1,0.0149,0.0,508.3333
+name,1276. Sokak,1,0.0149,0.0,508.3333
+name,1282. Sokak,1,0.0149,0.0,508.3333
+name,129. Sk.,1,0.0149,0.0,508.3333
+name,1298. Sokak,1,0.0149,0.0,508.3333
+name,13 Sokak,1,0.0149,0.0,508.3333
+name,130. Sokak,1,0.0149,0.0,508.3333
+name,1301. Sokak,1,0.0149,0.0,508.3333
+name,1304. Sokak,1,0.0149,0.0,508.3333
+name,1305. Sokak,1,0.0149,0.0,508.3333
+name,1309. Sokak,1,0.0149,0.0,508.3333
+name,1313 Sokak,1,0.0149,0.0,508.3333
+name,1376. Sokak,1,0.0149,0.0,508.3333
+name,1381. Sokak,1,0.0149,0.0,508.3333
+name,1383. Sokak,1,0.0149,0.0,508.3333
+name,1387. Sokak,1,0.0149,0.0,508.3333
+name,1392. Sokak,1,0.0149,0.0,508.3333
+name,14. Sokak,1,0.0149,0.0,508.3333
+name,1401/1. Sk.,1,0.0149,0.0,508.3333
+name,1403. Sokak,1,0.0149,0.0,508.3333
+name,1405. Sokak,1,0.0149,0.0,508.3333
+name,1406. Sokak,1,0.0149,0.0,508.3333
+name,1408. Sokak,1,0.0149,0.0,508.3333
+name,1412/2. Sokak,1,0.0149,0.0,508.3333
+name,1413. Sokak,1,0.0149,0.0,508.3333
+name,1418. Sokak,1,0.0149,0.0,508.3333
+name,1422. Sokak,1,0.0149,0.0,508.3333
+name,1428. Sokak,1,0.0149,0.0,508.3333
+name,1434. Sokak,1,0.0149,0.0,508.3333
+name,1436. Sokak,1,0.0149,0.0,508.3333
+name,1441. Sokak,1,0.0149,0.0,508.3333
+name,1443. Sokak,1,0.0149,0.0,508.3333
+name,1449. Sokak,1,0.0149,0.0,508.3333
+name,1458. Sokak,1,0.0149,0.0,508.3333
+name,1479. Sokak,1,0.0149,0.0,508.3333
+name,1480. Sokak,1,0.0149,0.0,508.3333
+name,1494. Sokak,1,0.0149,0.0,508.3333
+name,1497. Sokak,1,0.0149,0.0,508.3333
+name,1499. Sokak,1,0.0149,0.0,508.3333
+name,15. Sokak,1,0.0149,0.0,508.3333
+name,1500. Sokak,1,0.0149,0.0,508.3333
+name,1508. Sokak,1,0.0149,0.0,508.3333
+name,1515. Sokak,1,0.0149,0.0,508.3333
+name,1525. Sokak,1,0.0149,0.0,508.3333
+name,1527/1. Sokak,1,0.0149,0.0,508.3333
+name,153 Sokak,1,0.0149,0.0,508.3333
+name,1530. Sokak,1,0.0149,0.0,508.3333
+name,1532. Sokak,1,0.0149,0.0,508.3333
+name,1534. Sokak,1,0.0149,0.0,508.3333
+name,1540. Sokak,1,0.0149,0.0,508.3333
+name,1545. Sokak,1,0.0149,0.0,508.3333
+name,1546. Sokak,1,0.0149,0.0,508.3333
+name,1565. Sokak,1,0.0149,0.0,508.3333
+name,1568. Sokak,1,0.0149,0.0,508.3333
+name,1572/1. Sokak,1,0.0149,0.0,508.3333
+name,1574. Sokak,1,0.0149,0.0,508.3333
+name,1574/2. Sokak,1,0.0149,0.0,508.3333
+name,1575/1. Sokak,1,0.0149,0.0,508.3333
+name,1582/1. Sokak,1,0.0149,0.0,508.3333
+name,1583/2 Sokak,1,0.0149,0.0,508.3333
+name,1583/3 Sokak,1,0.0149,0.0,508.3333
+name,1586/5. Sokak,1,0.0149,0.0,508.3333
+name,1586/8. Sokak,1,0.0149,0.0,508.3333
+name,1590/20 Sk.,1,0.0149,0.0,508.3333
+name,1593/20. Sokak,1,0.0149,0.0,508.3333
+name,1593/21 Sokak,1,0.0149,0.0,508.3333
+name,1594/10. Sokak,1,0.0149,0.0,508.3333
+name,1594/18. Sokak,1,0.0149,0.0,508.3333
+name,1594/28. Sokak,1,0.0149,0.0,508.3333
+name,1594/5. Sokak,1,0.0149,0.0,508.3333
+name,1594/8. Sokak,1,0.0149,0.0,508.3333
+name,1595 Sokak,1,0.0149,0.0,508.3333
+name,1599. Sokak,1,0.0149,0.0,508.3333
+name,1600. Sokak,1,0.0149,0.0,508.3333
+name,1600/1. Sokak,1,0.0149,0.0,508.3333
+name,1603. Sokak,1,0.0149,0.0,508.3333
+name,1605. Sokak,1,0.0149,0.0,508.3333
+name,1609/2 Sokak,1,0.0149,0.0,508.3333
+name,1615/17. Sokak,1,0.0149,0.0,508.3333
+name,1615/3. Sokak,1,0.0149,0.0,508.3333
+name,1618. Sokak,1,0.0149,0.0,508.3333
+name,1619. Sokak,1,0.0149,0.0,508.3333
+name,1620. Sokak,1,0.0149,0.0,508.3333
+name,1620/10. Sokak,1,0.0149,0.0,508.3333
+name,1620/13. Sokak,1,0.0149,0.0,508.3333
+name,1620/18. Sokak,1,0.0149,0.0,508.3333
+name,1620/2. Sokak,1,0.0149,0.0,508.3333
+name,1620/28. Sokak,1,0.0149,0.0,508.3333
+name,1620/29. Sokak,1,0.0149,0.0,508.3333
+name,1620/4. Sokak,1,0.0149,0.0,508.3333
+name,1620/42. Sokak,1,0.0149,0.0,508.3333
+name,1620/43. Sokak,1,0.0149,0.0,508.3333
+name,1620/9. Sokak,1,0.0149,0.0,508.3333
+name,1622. Sokak,1,0.0149,0.0,508.3333
+name,1626. Sokak,1,0.0149,0.0,508.3333
+name,1627/3 Sokak,1,0.0149,0.0,508.3333
+name,1627/4 Sokak,1,0.0149,0.0,508.3333
+name,1629/3. Sokak,1,0.0149,0.0,508.3333
+name,1637/1 Sokak,1,0.0149,0.0,508.3333
+name,1637/2. Sokak,1,0.0149,0.0,508.3333
+name,1637/9. Sokak,1,0.0149,0.0,508.3333
+name,1643 Sokak,1,0.0149,0.0,508.3333
+name,1643. Sokak,1,0.0149,0.0,508.3333
+name,1643/12. Sokak,1,0.0149,0.0,508.3333
+name,1643/2. Sokak,1,0.0149,0.0,508.3333
+name,1643/23 Sokak,1,0.0149,0.0,508.3333
+name,1643/27. Sokak,1,0.0149,0.0,508.3333
+name,1643/9. Sokak,1,0.0149,0.0,508.3333
+name,1645/19. Sokak,1,0.0149,0.0,508.3333
+name,1645/4. Sokak,1,0.0149,0.0,508.3333
+name,1645/8. Sokak,1,0.0149,0.0,508.3333
+name,1656. Sokak,1,0.0149,0.0,508.3333
+name,1657. Sokak,1,0.0149,0.0,508.3333
+name,1661. Sokak,1,0.0149,0.0,508.3333
+name,1661/2. Sokak,1,0.0149,0.0,508.3333
+name,1664 Sokak,1,0.0149,0.0,508.3333
+name,1671/4 Sokak,1,0.0149,0.0,508.3333
+name,1690/1. Sokak,1,0.0149,0.0,508.3333
+name,1694 Sokak,1,0.0149,0.0,508.3333
+name,1695. Sokak,1,0.0149,0.0,508.3333
+name,1696 Sokak,1,0.0149,0.0,508.3333
+name,17,1,0.0149,0.0,508.3333
+name,170. Sokak,1,0.0149,0.0,508.3333
+name,1701/7 Sokak,1,0.0149,0.0,508.3333
+name,1702. Sokak,1,0.0149,0.0,508.3333
+name,1707 Sokak,1,0.0149,0.0,508.3333
+name,1707/9 Sokak,1,0.0149,0.0,508.3333
+name,171. Sokak,1,0.0149,0.0,508.3333
+name,1710 Sokak,1,0.0149,0.0,508.3333
+name,1710/3. Sokak,1,0.0149,0.0,508.3333
+name,1711/4. Sokak,1,0.0149,0.0,508.3333
+name,1712/5 Sokak,1,0.0149,0.0,508.3333
+name,1713/1. Sokak,1,0.0149,0.0,508.3333
+name,1719 Sokak,1,0.0149,0.0,508.3333
+name,172 Sokak,1,0.0149,0.0,508.3333
+name,1721 Sokak,1,0.0149,0.0,508.3333
+name,1727. Sokak,1,0.0149,0.0,508.3333
+name,1728/4. Sokak,1,0.0149,0.0,508.3333
+name,1728/6. Sokak,1,0.0149,0.0,508.3333
+name,173 Sokak,1,0.0149,0.0,508.3333
+name,173/1 Sokak,1,0.0149,0.0,508.3333
+name,1730/5. Sokak,1,0.0149,0.0,508.3333
+name,1732 Sokak,1,0.0149,0.0,508.3333
+name,1733. Sokak,1,0.0149,0.0,508.3333
+name,17331. Sokak,1,0.0149,0.0,508.3333
+name,1735. Sokak,1,0.0149,0.0,508.3333
+name,1740. Sokak,1,0.0149,0.0,508.3333
+name,1742/1. Sokak,1,0.0149,0.0,508.3333
+name,175/3. Sokak,1,0.0149,0.0,508.3333
+name,175/4 Sokak,1,0.0149,0.0,508.3333
+name,1754. Sokak,1,0.0149,0.0,508.3333
+name,1759 Sokak,1,0.0149,0.0,508.3333
+name,1759/1 Sokak,1,0.0149,0.0,508.3333
+name,1760 Sokak,1,0.0149,0.0,508.3333
+name,1761 Sokak,1,0.0149,0.0,508.3333
+name,1762/1 Sokak,1,0.0149,0.0,508.3333
+name,1764 Sokak,1,0.0149,0.0,508.3333
+name,177/15. Sokak,1,0.0149,0.0,508.3333
+name,177/9. Sokak,1,0.0149,0.0,508.3333
+name,1772. Sokak,1,0.0149,0.0,508.3333
+name,1776/16. Sokak,1,0.0149,0.0,508.3333
+name,1776/21. Sokak,1,0.0149,0.0,508.3333
+name,1776/29. Sokak,1,0.0149,0.0,508.3333
+name,1776/30. Sokak,1,0.0149,0.0,508.3333
+name,1776/7. Sokak,1,0.0149,0.0,508.3333
+name,1777/6 Sokak,1,0.0149,0.0,508.3333
+name,180/1 Sodak,1,0.0149,0.0,508.3333
+name,180/1. Sodak,1,0.0149,0.0,508.3333
+name,1821. Sokak,1,0.0149,0.0,508.3333
+name,1837. Sokak,1,0.0149,0.0,508.3333
+name,1844/1. Sokak,1,0.0149,0.0,508.3333
+name,1844/3. Sokak,1,0.0149,0.0,508.3333
+name,1844/4 Sokak,1,0.0149,0.0,508.3333
+name,1844/4. Sokak,1,0.0149,0.0,508.3333
+name,1844/5. Sokak,1,0.0149,0.0,508.3333
+name,1844/8 Sokak,1,0.0149,0.0,508.3333
+name,1846 Sokak,1,0.0149,0.0,508.3333
+name,1846/1 Sokak,1,0.0149,0.0,508.3333
+name,1846/5 Sokak,1,0.0149,0.0,508.3333
+name,1847/27 Sokak,1,0.0149,0.0,508.3333
+name,1847/5 Sokak,1,0.0149,0.0,508.3333
+name,1848 Sokak,1,0.0149,0.0,508.3333
+name,185. Sokak,1,0.0149,0.0,508.3333
+name,1851/10 Sokak,1,0.0149,0.0,508.3333
+name,1851/12 Sokak,1,0.0149,0.0,508.3333
+name,1856/1 Sokak,1,0.0149,0.0,508.3333
+name,186/1 Sokak,1,0.0149,0.0,508.3333
+name,1862 Sokak,1,0.0149,0.0,508.3333
+name,1863 Sokak,1,0.0149,0.0,508.3333
+name,1865 Sokak,1,0.0149,0.0,508.3333
+name,1870/1 Sokak,1,0.0149,0.0,508.3333
+name,1872 Sokak,1,0.0149,0.0,508.3333
+name,1874. Sokak,1,0.0149,0.0,508.3333
+name,1914 Sokak,1,0.0149,0.0,508.3333
+name,1916 Sokak,1,0.0149,0.0,508.3333
+name,2 Sokak,1,0.0149,0.0,508.3333
+name,2. Hayıt. Sk.,1,0.0149,0.0,508.3333
+name,2/10 Sokak,1,0.0149,0.0,508.3333
+name,2/2 Sokak,1,0.0149,0.0,508.3333
+name,2/5 Sk.,1,0.0149,0.0,508.3333
+name,2006 Sokak,1,0.0149,0.0,508.3333
+name,2013.Sokak,1,0.0149,0.0,508.3333
+name,2014.Sokak,1,0.0149,0.0,508.3333
+name,2022. Sokak,1,0.0149,0.0,508.3333
+name,2032/1. Sokak,1,0.0149,0.0,508.3333
+name,2032/2. Sokak,1,0.0149,0.0,508.3333
+name,2034. Sokak,1,0.0149,0.0,508.3333
+name,2035. Sokak,1,0.0149,0.0,508.3333
+name,2040/2 Sokak,1,0.0149,0.0,508.3333
+name,2043 Sk.,1,0.0149,0.0,508.3333
+name,2065. Sokak,1,0.0149,0.0,508.3333
+name,2082 Sokak,1,0.0149,0.0,508.3333
+name,2084/3. Sokak,1,0.0149,0.0,508.3333
+name,2084/4. Sokak,1,0.0149,0.0,508.3333
+name,2086/6. Sokak,1,0.0149,0.0,508.3333
+name,2087. Sokak,1,0.0149,0.0,508.3333
+name,2091/2. Sokak,1,0.0149,0.0,508.3333
+name,2095 Sokak,1,0.0149,0.0,508.3333
+name,2095. Sokak,1,0.0149,0.0,508.3333
+name,21 Nolu Yeşilyurt Aile Sağlığı Merkezi,1,0.0149,0.0,508.3333
+name,2103. Sokak,1,0.0149,0.0,508.3333
+name,2106. Sokak,1,0.0149,0.0,508.3333
+name,2108/6. Sokak,1,0.0149,0.0,508.3333
+name,2108/7. Sokak,1,0.0149,0.0,508.3333
+name,212. Sokak,1,0.0149,0.0,508.3333
+name,2120. Sokak,1,0.0149,0.0,508.3333
+name,2120/1. Sokak,1,0.0149,0.0,508.3333
+name,2120/2. Sokak,1,0.0149,0.0,508.3333
+name,2120/6. Sokak,1,0.0149,0.0,508.3333
+name,2124/2 Sokak,1,0.0149,0.0,508.3333
+name,213. Sokak,1,0.0149,0.0,508.3333
+name,2131/1. Sokak,1,0.0149,0.0,508.3333
+name,2131/11. Sokak,1,0.0149,0.0,508.3333
+name,2131/12. Sokak,1,0.0149,0.0,508.3333
+name,2131/17. Sokak,1,0.0149,0.0,508.3333
+name,2131/18. Sokak,1,0.0149,0.0,508.3333
+name,2131/2. Sokak,1,0.0149,0.0,508.3333
+name,2132 Sokak,1,0.0149,0.0,508.3333
+name,2136/1 Sokak,1,0.0149,0.0,508.3333
+name,214. Sokak,1,0.0149,0.0,508.3333
+name,2140 Sokak,1,0.0149,0.0,508.3333
+name,2143. Sokak,1,0.0149,0.0,508.3333
+name,215. Sokak,1,0.0149,0.0,508.3333
+name,2162/. Sokak,1,0.0149,0.0,508.3333
+name,2162/1. Sokak,1,0.0149,0.0,508.3333
+name,2165 Sokak,1,0.0149,0.0,508.3333
+name,2166/4. Sokak,1,0.0149,0.0,508.3333
+name,2174. Sokak,1,0.0149,0.0,508.3333
+name,2183. Sokak,1,0.0149,0.0,508.3333
+name,2186. Sokak,1,0.0149,0.0,508.3333
+name,2188/1. Sokak,1,0.0149,0.0,508.3333
+name,2191. Sokak,1,0.0149,0.0,508.3333
+name,220 Sokak,1,0.0149,0.0,508.3333
+name,2201. Sokak,1,0.0149,0.0,508.3333
+name,23,1,0.0149,0.0,508.3333
+name,234. Sokak,1,0.0149,0.0,508.3333
+name,2342. Sokak,1,0.0149,0.0,508.3333
+name,239. Sokak,1,0.0149,0.0,508.3333
+name,247. Sokak,1,0.0149,0.0,508.3333
+name,248,1,0.0149,0.0,508.3333
+name,249/2 Sk.,1,0.0149,0.0,508.3333
+name,25. Sokak,1,0.0149,0.0,508.3333
+name,251. Sokak,1,0.0149,0.0,508.3333
+name,251/2. Sokak,1,0.0149,0.0,508.3333
+name,254 Sokak,1,0.0149,0.0,508.3333
+name,256 . Sokak,1,0.0149,0.0,508.3333
+name,258. Sokak,1,0.0149,0.0,508.3333
+name,262 Sokak,1,0.0149,0.0,508.3333
+name,270/1. Sokak,1,0.0149,0.0,508.3333
+name,270/2. Sokak,1,0.0149,0.0,508.3333
+name,271. Sokak,1,0.0149,0.0,508.3333
+name,271/1. Sokak,1,0.0149,0.0,508.3333
+name,273 Sokak,1,0.0149,0.0,508.3333
+name,273. Sokak,1,0.0149,0.0,508.3333
+name,273/4. Sokak,1,0.0149,0.0,508.3333
+name,274/7. Sokak,1,0.0149,0.0,508.3333
+name,275/10. Sokak,1,0.0149,0.0,508.3333
+name,275/15. Sokak,1,0.0149,0.0,508.3333
+name,275/16. Sokak,1,0.0149,0.0,508.3333
+name,275/22. Sokak,1,0.0149,0.0,508.3333
+name,275/7. Sokak,1,0.0149,0.0,508.3333
+name,280. Sokak,1,0.0149,0.0,508.3333
+name,2805. Sokak,1,0.0149,0.0,508.3333
+name,281. Sokak,1,0.0149,0.0,508.3333
+name,2816. Sokak,1,0.0149,0.0,508.3333
+name,2817. Sokak,1,0.0149,0.0,508.3333
+name,282/2. Sokak,1,0.0149,0.0,508.3333
+name,2822. Sokak,1,0.0149,0.0,508.3333
+name,283/11 Sokak,1,0.0149,0.0,508.3333
+name,283/15. Sokak,1,0.0149,0.0,508.3333
+name,283/6. Sokak,1,0.0149,0.0,508.3333
+name,2839. Sokak,1,0.0149,0.0,508.3333
+name,284/1. Sokak,1,0.0149,0.0,508.3333
+name,2844. Sk.,1,0.0149,0.0,508.3333
+name,286/1. Sokak,1,0.0149,0.0,508.3333
+name,286/3. Sokak,1,0.0149,0.0,508.3333
+name,288/5. Sokak,1,0.0149,0.0,508.3333
+name,288/9. Sokak,1,0.0149,0.0,508.3333
+name,29 Sokak,1,0.0149,0.0,508.3333
+name,290 Sokak,1,0.0149,0.0,508.3333
+name,290/3 Sokak,1,0.0149,0.0,508.3333
+name,290/3 Sokak ,1,0.0149,0.0,508.3333
+name,290/4 Sokak,1,0.0149,0.0,508.3333
+name,296. Sokak,1,0.0149,0.0,508.3333
+name,3,1,0.0149,0.0,508.3333
+name,3 Numara,1,0.0149,0.0,508.3333
+name,3 Sk.,1,0.0149,0.0,508.3333
+name,303. Sokak,1,0.0149,0.0,508.3333
+name,3035. Sokak,1,0.0149,0.0,508.3333
+name,304. Sokak,1,0.0149,0.0,508.3333
+name,3066. Sokak,1,0.0149,0.0,508.3333
+name,3070. Sokak,1,0.0149,0.0,508.3333
+name,3072. Sokak,1,0.0149,0.0,508.3333
+name,308. Sokak,1,0.0149,0.0,508.3333
+name,32 Sokak,1,0.0149,0.0,508.3333
+name,327 Sokak,1,0.0149,0.0,508.3333
+name,331 Sokak,1,0.0149,0.0,508.3333
+name,336. Sokak,1,0.0149,0.0,508.3333
+name,337 Sokak,1,0.0149,0.0,508.3333
+name,34 Sokak,1,0.0149,0.0,508.3333
+name,34. Sokak,1,0.0149,0.0,508.3333
+name,340. Sokak,1,0.0149,0.0,508.3333
+name,340m,1,0.0149,0.0,508.3333
+name,341. Sokak,1,0.0149,0.0,508.3333
+name,343. Sokak,1,0.0149,0.0,508.3333
+name,345. Sokak,1,0.0149,0.0,508.3333
+name,3460. Sokak,1,0.0149,0.0,508.3333
+name,347. Sokak,1,0.0149,0.0,508.3333
+name,349. Sokak,1,0.0149,0.0,508.3333
+name,35,1,0.0149,0.0,508.3333
+name,35 Dürümhane,1,0.0149,0.0,508.3333
+name,350. Sokak,1,0.0149,0.0,508.3333
+name,350/2 Sokak,1,0.0149,0.0,508.3333
+name,351. Sokak,1,0.0149,0.0,508.3333
+name,3541. Sokak,1,0.0149,0.0,508.3333
+name,3561/1. Sokak,1,0.0149,0.0,508.3333
+name,3563. Sokak,1,0.0149,0.0,508.3333
+name,3568. Sokak,1,0.0149,0.0,508.3333
+name,357 Sokak,1,0.0149,0.0,508.3333
+name,358 Sokak,1,0.0149,0.0,508.3333
+name,36 Sokak,1,0.0149,0.0,508.3333
+name,3613. Sokak,1,0.0149,0.0,508.3333
+name,365 Organik,1,0.0149,0.0,508.3333
+name,37 Sokak,1,0.0149,0.0,508.3333
+name,370 Sokak,1,0.0149,0.0,508.3333
+name,372/18 Sokak,1,0.0149,0.0,508.3333
+name,372/2 Sokak,1,0.0149,0.0,508.3333
+name,372/21 Sokak,1,0.0149,0.0,508.3333
+name,372/21. Sokak,1,0.0149,0.0,508.3333
+name,372/6. Sokak,1,0.0149,0.0,508.3333
+name,373/1 Sokak,1,0.0149,0.0,508.3333
+name,387. Sokak,1,0.0149,0.0,508.3333
+name,3946 Sokak,1,0.0149,0.0,508.3333
+name,4. Sanayi Sitesi,1,0.0149,0.0,508.3333
+name,4/3. Sokak,1,0.0149,0.0,508.3333
+name,4/6. Sokak,1,0.0149,0.0,508.3333
+name,4004. Sokak,1,0.0149,0.0,508.3333
+name,4007. Sokak,1,0.0149,0.0,508.3333
+name,4015. Sokak,1,0.0149,0.0,508.3333
+name,402. Sokak,1,0.0149,0.0,508.3333
+name,4023. Sokak,1,0.0149,0.0,508.3333
+name,4025. Sokak,1,0.0149,0.0,508.3333
+name,4029. Sokak,1,0.0149,0.0,508.3333
+name,403. Sokak,1,0.0149,0.0,508.3333
+name,4040. Sokak,1,0.0149,0.0,508.3333
+name,4044. Sokak,1,0.0149,0.0,508.3333
+name,4045. Sokak,1,0.0149,0.0,508.3333
+name,4049. Sokak,1,0.0149,0.0,508.3333
+name,4053. Sokak,1,0.0149,0.0,508.3333
+name,4053/1. Sokak,1,0.0149,0.0,508.3333
+name,4055. Sokak,1,0.0149,0.0,508.3333
+name,4055/2. Sokak,1,0.0149,0.0,508.3333
+name,4072. Sokak,1,0.0149,0.0,508.3333
+name,4076. Sokak,1,0.0149,0.0,508.3333
+name,4103. Sokak,1,0.0149,0.0,508.3333
+name,4111. Sokak,1,0.0149,0.0,508.3333
+name,4139/1. Sokak,1,0.0149,0.0,508.3333
+name,4174/2. Sokak,1,0.0149,0.0,508.3333
+name,4174/3. Sokak,1,0.0149,0.0,508.3333
+name,4174/5. Sokak,1,0.0149,0.0,508.3333
+name,4174/6. Sokak,1,0.0149,0.0,508.3333
+name,4174/7. Sokak,1,0.0149,0.0,508.3333
+name,4174/8. Sokak,1,0.0149,0.0,508.3333
+name,4176/1. Sokak,1,0.0149,0.0,508.3333
+name,4178. Sokak,1,0.0149,0.0,508.3333
+name,4180/2. Sokak,1,0.0149,0.0,508.3333
+name,4182. Sokak,1,0.0149,0.0,508.3333
+name,4183. Sokak,1,0.0149,0.0,508.3333
+name,4184. Sokak,1,0.0149,0.0,508.3333
+name,4184/2. Sokak,1,0.0149,0.0,508.3333
+name,4184/4. Sokak,1,0.0149,0.0,508.3333
+name,4184/5. Sokak,1,0.0149,0.0,508.3333
+name,4184/6. Sokak,1,0.0149,0.0,508.3333
+name,4195. Sokak,1,0.0149,0.0,508.3333
+name,4218/1. Sokak,1,0.0149,0.0,508.3333
+name,4233. Sokak,1,0.0149,0.0,508.3333
+name,4233/2. Sokak,1,0.0149,0.0,508.3333
+name,4234. Sokak,1,0.0149,0.0,508.3333
+name,4236. Sokak,1,0.0149,0.0,508.3333
+name,4252. Sokak,1,0.0149,0.0,508.3333
+name,4277 sokak,1,0.0149,0.0,508.3333
+name,4396/2. Sk.,1,0.0149,0.0,508.3333
+name,45 Sokak,1,0.0149,0.0,508.3333
+name,4504. Sokak,1,0.0149,0.0,508.3333
+name,4512. Sokak,1,0.0149,0.0,508.3333
+name,454 Sokak,1,0.0149,0.0,508.3333
+name,4579. Sokak,1,0.0149,0.0,508.3333
+name,4581. Sokak,1,0.0149,0.0,508.3333
+name,47 Sokak,1,0.0149,0.0,508.3333
+name,47/16 Sokak,1,0.0149,0.0,508.3333
+name,47/18 Sk.,1,0.0149,0.0,508.3333
+name,476/1. Sokak,1,0.0149,0.0,508.3333
+name,477/1. Sokak,1,0.0149,0.0,508.3333
+name,477/2. Sokak,1,0.0149,0.0,508.3333
+name,477/3. Sokak,1,0.0149,0.0,508.3333
+name,478. Sokak,1,0.0149,0.0,508.3333
+name,478/3. Sokak,1,0.0149,0.0,508.3333
+name,478/6. Sokak,1,0.0149,0.0,508.3333
+name,479/1. Sokak,1,0.0149,0.0,508.3333
+name,479/2. Sokak,1,0.0149,0.0,508.3333
+name,48 Sokak,1,0.0149,0.0,508.3333
+name,480. Sokak,1,0.0149,0.0,508.3333
+name,481. Sokak,1,0.0149,0.0,508.3333
+name,481/1. Sokak,1,0.0149,0.0,508.3333
+name,483. Sokak,1,0.0149,0.0,508.3333
+name,484/1. Sokak,1,0.0149,0.0,508.3333
+name,488. Sokak,1,0.0149,0.0,508.3333
+name,491/1. Sokak,1,0.0149,0.0,508.3333
+name,492. Sokak,1,0.0149,0.0,508.3333
+name,495. Sokak,1,0.0149,0.0,508.3333
+name,497. Sokak,1,0.0149,0.0,508.3333
+name,5 Sokak,1,0.0149,0.0,508.3333
+name,50. Yıl Spor Salonu,1,0.0149,0.0,508.3333
+name,5003. Sokak,1,0.0149,0.0,508.3333
+name,5013. Sokak,1,0.0149,0.0,508.3333
+name,5014. Sokak,1,0.0149,0.0,508.3333
+name,5019. Sokak,1,0.0149,0.0,508.3333
+name,502/2 Sokak,1,0.0149,0.0,508.3333
+name,502/3 Sokak,1,0.0149,0.0,508.3333
+name,5021. Sokak,1,0.0149,0.0,508.3333
+name,5024. Sokak,1,0.0149,0.0,508.3333
+name,5025. Sokak,1,0.0149,0.0,508.3333
+name,503. Sokak,1,0.0149,0.0,508.3333
+name,5030. Sokak,1,0.0149,0.0,508.3333
+name,5032. Sokak,1,0.0149,0.0,508.3333
+name,5036. Sokak,1,0.0149,0.0,508.3333
+name,5037. Sokak,1,0.0149,0.0,508.3333
+name,5038 Sokak,1,0.0149,0.0,508.3333
+name,5039. Sokak,1,0.0149,0.0,508.3333
+name,504/1 Sokak,1,0.0149,0.0,508.3333
+name,5042. Sokak,1,0.0149,0.0,508.3333
+name,5048. Sokak,1,0.0149,0.0,508.3333
+name,505 Sokak,1,0.0149,0.0,508.3333
+name,5050. Sokak,1,0.0149,0.0,508.3333
+name,506 Sokak,1,0.0149,0.0,508.3333
+name,5070/1. Sokak,1,0.0149,0.0,508.3333
+name,5075. Sokak,1,0.0149,0.0,508.3333
+name,510. Sokak,1,0.0149,0.0,508.3333
+name,5106. Sokak,1,0.0149,0.0,508.3333
+name,5108. Sokak,1,0.0149,0.0,508.3333
+name,5109. Sokak,1,0.0149,0.0,508.3333
+name,511/1. Sokak,1,0.0149,0.0,508.3333
+name,5112. Sokak,1,0.0149,0.0,508.3333
+name,5118. Sokak,1,0.0149,0.0,508.3333
+name,513/1. Sokak,1,0.0149,0.0,508.3333
+name,513/2. Sokak,1,0.0149,0.0,508.3333
+name,5132. Sokak,1,0.0149,0.0,508.3333
+name,514/1. Sokak,1,0.0149,0.0,508.3333
+name,5149. Sokak,1,0.0149,0.0,508.3333
+name,5153. Sokak,1,0.0149,0.0,508.3333
+name,5163. Sokak,1,0.0149,0.0,508.3333
+name,5170. Sokak,1,0.0149,0.0,508.3333
+name,5180. Sokak,1,0.0149,0.0,508.3333
+name,52/1 Sokak,1,0.0149,0.0,508.3333
+name,52/166. Sokak,1,0.0149,0.0,508.3333
+name,52/169. Sokak,1,0.0149,0.0,508.3333
+name,5218. Sokak,1,0.0149,0.0,508.3333
+name,5223. Sokak,1,0.0149,0.0,508.3333
+name,5228. Sokak,1,0.0149,0.0,508.3333
+name,5232. Sokak,1,0.0149,0.0,508.3333
+name,5236. Sokak,1,0.0149,0.0,508.3333
+name,5238. Sokak,1,0.0149,0.0,508.3333
+name,5239. Sokak,1,0.0149,0.0,508.3333
+name,5248. Sokak,1,0.0149,0.0,508.3333
+name,5253. Sokak,1,0.0149,0.0,508.3333
+name,5254. Sokak,1,0.0149,0.0,508.3333
+name,5257 Sokak,1,0.0149,0.0,508.3333
+name,5302. Sokak,1,0.0149,0.0,508.3333
+name,5308. Sokak,1,0.0149,0.0,508.3333
+name,5322. Sokak,1,0.0149,0.0,508.3333
+name,5358. Sokak,1,0.0149,0.0,508.3333
+name,5360. Sokak,1,0.0149,0.0,508.3333
+name,5361. Sokak,1,0.0149,0.0,508.3333
+name,5363. Sokak,1,0.0149,0.0,508.3333
+name,5367. Sokak,1,0.0149,0.0,508.3333
+name,537. Sk,1,0.0149,0.0,508.3333
+name,5370. Sokak,1,0.0149,0.0,508.3333
+name,539. Sk.,1,0.0149,0.0,508.3333
+name,54 Sokak,1,0.0149,0.0,508.3333
+name,5401. Sokak,1,0.0149,0.0,508.3333
+name,5401/1. Sokak,1,0.0149,0.0,508.3333
+name,5401/2. Sokak,1,0.0149,0.0,508.3333
+name,5409. Sokak,1,0.0149,0.0,508.3333
+name,541. Sk.,1,0.0149,0.0,508.3333
+name,5415. Sokak,1,0.0149,0.0,508.3333
+name,5418. Sokak,1,0.0149,0.0,508.3333
+name,5419. Sokak,1,0.0149,0.0,508.3333
+name,5422. Sokak,1,0.0149,0.0,508.3333
+name,5424. Sokak,1,0.0149,0.0,508.3333
+name,5445. Sokak,1,0.0149,0.0,508.3333
+name,5458. Sokak,1,0.0149,0.0,508.3333
+name,5467. Sokak,1,0.0149,0.0,508.3333
+name,5469. Sokak,1,0.0149,0.0,508.3333
+name,5469/1. Sokak,1,0.0149,0.0,508.3333
+name,55 Sokak,1,0.0149,0.0,508.3333
+name,5506. Sokak,1,0.0149,0.0,508.3333
+name,5508. Sokak,1,0.0149,0.0,508.3333
+name,5513. Sokak,1,0.0149,0.0,508.3333
+name,5518. Sokak,1,0.0149,0.0,508.3333
+name,5548. Sokak,1,0.0149,0.0,508.3333
+name,5607. Sokak,1,0.0149,0.0,508.3333
+name,5611. Sokak,1,0.0149,0.0,508.3333
+name,5615/1. Sokak,1,0.0149,0.0,508.3333
+name,5627. Sokak,1,0.0149,0.0,508.3333
+name,5627/2. Sokak,1,0.0149,0.0,508.3333
+name,5627/3. Sokak,1,0.0149,0.0,508.3333
+name,5628. Sokak,1,0.0149,0.0,508.3333
+name,5637. Sokak,1,0.0149,0.0,508.3333
+name,5640. Sokak,1,0.0149,0.0,508.3333
+name,5645. Sokak,1,0.0149,0.0,508.3333
+name,5648. Sokak,1,0.0149,0.0,508.3333
+name,5651. Sokak,1,0.0149,0.0,508.3333
+name,57. Sokak,1,0.0149,0.0,508.3333
+name,57. Topçu Tugayı Kışlası,1,0.0149,0.0,508.3333
+name,5700 Sokak,1,0.0149,0.0,508.3333
+name,571. Sk.,1,0.0149,0.0,508.3333
+name,571. Sokak,1,0.0149,0.0,508.3333
+name,573. Sk.,1,0.0149,0.0,508.3333
+name,573. Sokak,1,0.0149,0.0,508.3333
+name,5734 Sokak,1,0.0149,0.0,508.3333
+name,575. Sk.,1,0.0149,0.0,508.3333
+name,575. Sokak,1,0.0149,0.0,508.3333
+name,577. Sk.,1,0.0149,0.0,508.3333
+name,577. Sokak,1,0.0149,0.0,508.3333
+name,59. Sokak,1,0.0149,0.0,508.3333
+name,592/22. Sokak,1,0.0149,0.0,508.3333
+name,592/4. Sokak,1,0.0149,0.0,508.3333
+name,60 Sk.,1,0.0149,0.0,508.3333
+name,60. Sokak,1,0.0149,0.0,508.3333
+name,600. Sokak,1,0.0149,0.0,508.3333
+name,6000. Sokak,1,0.0149,0.0,508.3333
+name,6006. Sk,1,0.0149,0.0,508.3333
+name,6008. Sk.,1,0.0149,0.0,508.3333
+name,6017. Sokak,1,0.0149,0.0,508.3333
+name,6062 Sokak,1,0.0149,0.0,508.3333
+name,6067 Sokak,1,0.0149,0.0,508.3333
+name,6067/10 Sokak,1,0.0149,0.0,508.3333
+name,6067/7 Sokak,1,0.0149,0.0,508.3333
+name,6067/9 Sokak,1,0.0149,0.0,508.3333
+name,6071/2 Sokak,1,0.0149,0.0,508.3333
+name,6072 Sokak,1,0.0149,0.0,508.3333
+name,6074 Sokak,1,0.0149,0.0,508.3333
+name,6076/3 Sokak,1,0.0149,0.0,508.3333
+name,6085 Sokak,1,0.0149,0.0,508.3333
+name,6087 sokak,1,0.0149,0.0,508.3333
+name,6098 Sokak,1,0.0149,0.0,508.3333
+name,6200. Sokak,1,0.0149,0.0,508.3333
+name,6211 Sokak,1,0.0149,0.0,508.3333
+name,6214 Sokak,1,0.0149,0.0,508.3333
+name,6219 Sokak,1,0.0149,0.0,508.3333
+name,6220 Sokak,1,0.0149,0.0,508.3333
+name,6221 Sokak,1,0.0149,0.0,508.3333
+name,6221/3. Sokak,1,0.0149,0.0,508.3333
+name,6222. Sokak,1,0.0149,0.0,508.3333
+name,6224 Sokak,1,0.0149,0.0,508.3333
+name,6235. Sokak,1,0.0149,0.0,508.3333
+name,6241. Sokak,1,0.0149,0.0,508.3333
+name,6283. Sokak,1,0.0149,0.0,508.3333
+name,6300. Sokak,1,0.0149,0.0,508.3333
+name,6300/3. Sokak,1,0.0149,0.0,508.3333
+name,6301. Sokak,1,0.0149,0.0,508.3333
+name,6306. Sokak,1,0.0149,0.0,508.3333
+name,6308. Sokak,1,0.0149,0.0,508.3333
+name,6309. Sokak,1,0.0149,0.0,508.3333
+name,6309/1. Sokak,1,0.0149,0.0,508.3333
+name,6313. Sokak,1,0.0149,0.0,508.3333
+name,6316/1. Sokak,1,0.0149,0.0,508.3333
+name,6316/3. Sokak,1,0.0149,0.0,508.3333
+name,6316/4. Sokak,1,0.0149,0.0,508.3333
+name,6323/2. Sokak,1,0.0149,0.0,508.3333
+name,6340. Sokak,1,0.0149,0.0,508.3333
+name,6401/2. Sokak,1,0.0149,0.0,508.3333
+name,6402 Sokak,1,0.0149,0.0,508.3333
+name,6418. Sokak,1,0.0149,0.0,508.3333
+name,6436. Sokak,1,0.0149,0.0,508.3333
+name,6439. Sokak,1,0.0149,0.0,508.3333
+name,6440/4. Sokak,1,0.0149,0.0,508.3333
+name,6441. Sokak,1,0.0149,0.0,508.3333
+name,6441. Sokak No.12,1,0.0149,0.0,508.3333
+name,6442. Sokak,1,0.0149,0.0,508.3333
+name,6446/1. Sokak,1,0.0149,0.0,508.3333
+name,6470/7. Sokak,1,0.0149,0.0,508.3333
+name,6471/7 Sokak,1,0.0149,0.0,508.3333
+name,6471/8. Sokak,1,0.0149,0.0,508.3333
+name,6476/4. Sokak,1,0.0149,0.0,508.3333
+name,6482. Sokak,1,0.0149,0.0,508.3333
+name,6494. Sokak,1,0.0149,0.0,508.3333
+name,65/1. Sokak,1,0.0149,0.0,508.3333
+name,65/7. Sokak,1,0.0149,0.0,508.3333
+name,6501. Sokak,1,0.0149,0.0,508.3333
+name,6502/3. Sokak,1,0.0149,0.0,508.3333
+name,6507/1 Sokak,1,0.0149,0.0,508.3333
+name,6520. Sokak,1,0.0149,0.0,508.3333
+name,6525. Sokak,1,0.0149,0.0,508.3333
+name,6653. Sokak,1,0.0149,0.0,508.3333
+name,6693 Sokak,1,0.0149,0.0,508.3333
+name,6695 Sokak,1,0.0149,0.0,508.3333
+name,6698 Sokak,1,0.0149,0.0,508.3333
+name,6699 Sokak,1,0.0149,0.0,508.3333
+name,67. Sokak,1,0.0149,0.0,508.3333
+name,6753/13 Sokak,1,0.0149,0.0,508.3333
+name,6762/1 Sokak,1,0.0149,0.0,508.3333
+name,6780 Sokak,1,0.0149,0.0,508.3333
+name,6780/1 Sokak,1,0.0149,0.0,508.3333
+name,6794 Sokak,1,0.0149,0.0,508.3333
+name,6795 Sokak,1,0.0149,0.0,508.3333
+name,6843. Sokak,1,0.0149,0.0,508.3333
+name,688. Sokak,1,0.0149,0.0,508.3333
+name,694 Sokak,1,0.0149,0.0,508.3333
+name,7 Sokak,1,0.0149,0.0,508.3333
+name,70 Sokak,1,0.0149,0.0,508.3333
+name,7010 Sokak,1,0.0149,0.0,508.3333
+name,7014/1 Sokak,1,0.0149,0.0,508.3333
+name,7017. Sokak,1,0.0149,0.0,508.3333
+name,702. Sokak,1,0.0149,0.0,508.3333
+name,7020. Sokak,1,0.0149,0.0,508.3333
+name,7020/3 Sokak,1,0.0149,0.0,508.3333
+name,7021 Sokak,1,0.0149,0.0,508.3333
+name,7026 Sokak,1,0.0149,0.0,508.3333
+name,7029 Sokak,1,0.0149,0.0,508.3333
+name,703. Sokak,1,0.0149,0.0,508.3333
+name,7033/3 Sokak,1,0.0149,0.0,508.3333
+name,7048 Sokak,1,0.0149,0.0,508.3333
+name,705. Sokak,1,0.0149,0.0,508.3333
+name,7050 Sokak,1,0.0149,0.0,508.3333
+name,7052/1 Sokak,1,0.0149,0.0,508.3333
+name,7058 Sokak,1,0.0149,0.0,508.3333
+name,706. Sokak,1,0.0149,0.0,508.3333
+name,7061 Sokak,1,0.0149,0.0,508.3333
+name,7062 Sokak,1,0.0149,0.0,508.3333
+name,7064 Sokak,1,0.0149,0.0,508.3333
+name,7066 Sokak,1,0.0149,0.0,508.3333
+name,7066/1 Sokak,1,0.0149,0.0,508.3333
+name,7071 Sokak,1,0.0149,0.0,508.3333
+name,7072 Sokak,1,0.0149,0.0,508.3333
+name,7073 Sokak,1,0.0149,0.0,508.3333
+name,7075 Sokak,1,0.0149,0.0,508.3333
+name,7076 Sokak,1,0.0149,0.0,508.3333
+name,7079 Sokak,1,0.0149,0.0,508.3333
+name,7086 Sokak,1,0.0149,0.0,508.3333
+name,7086/1 Sokak,1,0.0149,0.0,508.3333
+name,709. Sokak,1,0.0149,0.0,508.3333
+name,7092 Sokak,1,0.0149,0.0,508.3333
+name,71 Sokak,1,0.0149,0.0,508.3333
+name,710. Sokak,1,0.0149,0.0,508.3333
+name,7101 Sokak,1,0.0149,0.0,508.3333
+name,7104 Sokak,1,0.0149,0.0,508.3333
+name,7105 Sokak,1,0.0149,0.0,508.3333
+name,711. Sokak,1,0.0149,0.0,508.3333
+name,7117 Sokak,1,0.0149,0.0,508.3333
+name,7119 Sokak,1,0.0149,0.0,508.3333
+name,712. Sokak,1,0.0149,0.0,508.3333
+name,7124 sokak,1,0.0149,0.0,508.3333
+name,713. Sokak,1,0.0149,0.0,508.3333
+name,7130 Sokak,1,0.0149,0.0,508.3333
+name,7131 Sokak,1,0.0149,0.0,508.3333
+name,7132 Sokak,1,0.0149,0.0,508.3333
+name,7133 Sokak,1,0.0149,0.0,508.3333
+name,7133/1 Sokak,1,0.0149,0.0,508.3333
+name,714. Sokak,1,0.0149,0.0,508.3333
+name,716. Sokak,1,0.0149,0.0,508.3333
+name,7164 Sokak,1,0.0149,0.0,508.3333
+name,717. Sokak,1,0.0149,0.0,508.3333
+name,7173 Sokak,1,0.0149,0.0,508.3333
+name,718. Sokak,1,0.0149,0.0,508.3333
+name,719. Sokak,1,0.0149,0.0,508.3333
+name,720. Sokak,1,0.0149,0.0,508.3333
+name,7201 Sokak,1,0.0149,0.0,508.3333
+name,7213 Sokak,1,0.0149,0.0,508.3333
+name,7216 Sokak,1,0.0149,0.0,508.3333
+name,7217 Sokak,1,0.0149,0.0,508.3333
+name,7218 Sokak,1,0.0149,0.0,508.3333
+name,7219. Sokak,1,0.0149,0.0,508.3333
+name,7221 Sokak,1,0.0149,0.0,508.3333
+name,7221. Sokak,1,0.0149,0.0,508.3333
+name,7222 Sokak,1,0.0149,0.0,508.3333
+name,7230 Sokak,1,0.0149,0.0,508.3333
+name,7231 Sokak,1,0.0149,0.0,508.3333
+name,7232 Sokak,1,0.0149,0.0,508.3333
+name,7233 Sokak,1,0.0149,0.0,508.3333
+name,7238 Sokak,1,0.0149,0.0,508.3333
+name,7242 Sokak,1,0.0149,0.0,508.3333
+name,7243 Sokak,1,0.0149,0.0,508.3333
+name,7248/1 Sokak,1,0.0149,0.0,508.3333
+name,725. Sokak,1,0.0149,0.0,508.3333
+name,7257 Sokak,1,0.0149,0.0,508.3333
+name,7259 Sokak,1,0.0149,0.0,508.3333
+name,7260 Sokak,1,0.0149,0.0,508.3333
+name,7262 Sokak,1,0.0149,0.0,508.3333
+name,7263 Sokak,1,0.0149,0.0,508.3333
+name,7267 Sokak,1,0.0149,0.0,508.3333
+name,7268 Sokak,1,0.0149,0.0,508.3333
+name,7269 Sokak,1,0.0149,0.0,508.3333
+name,7277 Sokak,1,0.0149,0.0,508.3333
+name,728. Sokak,1,0.0149,0.0,508.3333
+name,7289 Sokak,1,0.0149,0.0,508.3333
+name,729/1. Sokak,1,0.0149,0.0,508.3333
+name,729/2. Sokak,1,0.0149,0.0,508.3333
+name,7290/1 Sokak,1,0.0149,0.0,508.3333
+name,7291 Sokak,1,0.0149,0.0,508.3333
+name,7292 Sokak,1,0.0149,0.0,508.3333
+name,7293. Sokak,1,0.0149,0.0,508.3333
+name,7294/1. Sokak,1,0.0149,0.0,508.3333
+name,7296 Sokak,1,0.0149,0.0,508.3333
+name,7297/1 Sokak,1,0.0149,0.0,508.3333
+name,7299. Sokak,1,0.0149,0.0,508.3333
+name,7302/2 Sokak,1,0.0149,0.0,508.3333
+name,7303 Sokak,1,0.0149,0.0,508.3333
+name,7303/1 Sokak,1,0.0149,0.0,508.3333
+name,7303/2 Sokak,1,0.0149,0.0,508.3333
+name,7303/3 Sokak,1,0.0149,0.0,508.3333
+name,7305. Sokak,1,0.0149,0.0,508.3333
+name,7308 Sokak,1,0.0149,0.0,508.3333
+name,731. Sokak,1,0.0149,0.0,508.3333
+name,7312 Sokak,1,0.0149,0.0,508.3333
+name,7312/2 Sokak,1,0.0149,0.0,508.3333
+name,7314/2. Sokak,1,0.0149,0.0,508.3333
+name,7318 Sokak,1,0.0149,0.0,508.3333
+name,7321 Sokak,1,0.0149,0.0,508.3333
+name,7322 Sokak,1,0.0149,0.0,508.3333
+name,7323/2 Sokak,1,0.0149,0.0,508.3333
+name,7324 Sokak,1,0.0149,0.0,508.3333
+name,7324/1 Sokak,1,0.0149,0.0,508.3333
+name,7324/2 Sokak,1,0.0149,0.0,508.3333
+name,7324/3 Sokak,1,0.0149,0.0,508.3333
+name,7324/4 Sokak,1,0.0149,0.0,508.3333
+name,7331 Sokak,1,0.0149,0.0,508.3333
+name,7340/1 Sokak,1,0.0149,0.0,508.3333
+name,7345/1 Sokak,1,0.0149,0.0,508.3333
+name,7346/1 Sokak,1,0.0149,0.0,508.3333
+name,7347 Sokak,1,0.0149,0.0,508.3333
+name,7347/1 Sokak,1,0.0149,0.0,508.3333
+name,7349/1 Sokak,1,0.0149,0.0,508.3333
+name,7354 Sokak,1,0.0149,0.0,508.3333
+name,7356. Sokak,1,0.0149,0.0,508.3333
+name,736. Sokak,1,0.0149,0.0,508.3333
+name,7363/1 Sokak,1,0.0149,0.0,508.3333
+name,7364 Sokak,1,0.0149,0.0,508.3333
+name,7367 Sokak,1,0.0149,0.0,508.3333
+name,7368/1 Sokak,1,0.0149,0.0,508.3333
+name,7368/5 Sokak,1,0.0149,0.0,508.3333
+name,7369/1 Sokak,1,0.0149,0.0,508.3333
+name,7369/4 Sokak,1,0.0149,0.0,508.3333
+name,7370 Sokak,1,0.0149,0.0,508.3333
+name,7370/4 Sokak,1,0.0149,0.0,508.3333
+name,7370/8 Sokak,1,0.0149,0.0,508.3333
+name,7371/2 Sokak,1,0.0149,0.0,508.3333
+name,7371/5 Sokak,1,0.0149,0.0,508.3333
+name,7374 Sokak,1,0.0149,0.0,508.3333
+name,7378 Sokak,1,0.0149,0.0,508.3333
+name,738. Sokak,1,0.0149,0.0,508.3333
+name,739. Sokak,1,0.0149,0.0,508.3333
+name,740. Sokak,1,0.0149,0.0,508.3333
+name,7402/7. Sokak,1,0.0149,0.0,508.3333
+name,7404/6. Sokak,1,0.0149,0.0,508.3333
+name,7408/6. Sokak,1,0.0149,0.0,508.3333
+name,741/1. Sokak,1,0.0149,0.0,508.3333
+name,742. Sokak,1,0.0149,0.0,508.3333
+name,742/1. Sokak,1,0.0149,0.0,508.3333
+name,742/4. Sokak,1,0.0149,0.0,508.3333
+name,743. Sokak,1,0.0149,0.0,508.3333
+name,743/1. Sokak,1,0.0149,0.0,508.3333
+name,743/2. Sokak,1,0.0149,0.0,508.3333
+name,743/3. Sokak,1,0.0149,0.0,508.3333
+name,744. Sokak,1,0.0149,0.0,508.3333
+name,746. Sokak,1,0.0149,0.0,508.3333
+name,7465 Sokak,1,0.0149,0.0,508.3333
+name,747. Sokak,1,0.0149,0.0,508.3333
+name,7471 Sokak,1,0.0149,0.0,508.3333
+name,748. Sokak,1,0.0149,0.0,508.3333
+name,7488 Sokak,1,0.0149,0.0,508.3333
+name,749. Sokak,1,0.0149,0.0,508.3333
+name,75.Yıl Parkı,1,0.0149,0.0,508.3333
+name,75.yıl Sistesi,1,0.0149,0.0,508.3333
+name,7500. Sokak,1,0.0149,0.0,508.3333
+name,7501. Sokak,1,0.0149,0.0,508.3333
+name,7502/1. Sokak,1,0.0149,0.0,508.3333
+name,7503. Sokak,1,0.0149,0.0,508.3333
+name,7504. Sokak,1,0.0149,0.0,508.3333
+name,7505. Sokak,1,0.0149,0.0,508.3333
+name,7513/1. Sokak,1,0.0149,0.0,508.3333
+name,752. Sokak,1,0.0149,0.0,508.3333
+name,7520. Sokak,1,0.0149,0.0,508.3333
+name,7521/1. Sokak,1,0.0149,0.0,508.3333
+name,7521/2. Sokak,1,0.0149,0.0,508.3333
+name,7523. Sokak,1,0.0149,0.0,508.3333
+name,7524. Sokak,1,0.0149,0.0,508.3333
+name,7528 Sokak,1,0.0149,0.0,508.3333
+name,753. Sokak,1,0.0149,0.0,508.3333
+name,7532 Sokak,1,0.0149,0.0,508.3333
+name,7552. Sokak,1,0.0149,0.0,508.3333
+name,7553/1 Sokak,1,0.0149,0.0,508.3333
+name,7554. Sokak,1,0.0149,0.0,508.3333
+name,758. Sokak,1,0.0149,0.0,508.3333
+name,760. Sokak,1,0.0149,0.0,508.3333
+name,7610/1 Sokak,1,0.0149,0.0,508.3333
+name,7617 Sokak,1,0.0149,0.0,508.3333
+name,7620 Sokak,1,0.0149,0.0,508.3333
+name,7621 Sokak,1,0.0149,0.0,508.3333
+name,7622 Sokak,1,0.0149,0.0,508.3333
+name,7625 Sokak,1,0.0149,0.0,508.3333
+name,7626 Sokak,1,0.0149,0.0,508.3333
+name,764/1. Sokak,1,0.0149,0.0,508.3333
+name,7659/2 Sokak,1,0.0149,0.0,508.3333
+name,766. Sokak,1,0.0149,0.0,508.3333
+name,7661 Sokak,1,0.0149,0.0,508.3333
+name,7663 Sokak,1,0.0149,0.0,508.3333
+name,7666 Sokak,1,0.0149,0.0,508.3333
+name,769. Sokak,1,0.0149,0.0,508.3333
+name,769/1. Sokak,1,0.0149,0.0,508.3333
+name,77 Sokak,1,0.0149,0.0,508.3333
+name,7720. Sokak,1,0.0149,0.0,508.3333
+name,774. Sokak,1,0.0149,0.0,508.3333
+name,777. Sokak,1,0.0149,0.0,508.3333
+name,782. Sokak,1,0.0149,0.0,508.3333
+name,783. Sokak,1,0.0149,0.0,508.3333
+name,7857. Sokak,1,0.0149,0.0,508.3333
+name,786. Sokak,1,0.0149,0.0,508.3333
+name,787/1. Sokak,1,0.0149,0.0,508.3333
+name,788. Sokak,1,0.0149,0.0,508.3333
+name,789/1. Sokak,1,0.0149,0.0,508.3333
+name,792. Sokak,1,0.0149,0.0,508.3333
+name,795. Sokak,1,0.0149,0.0,508.3333
+name,796. Sokak,1,0.0149,0.0,508.3333
+name,797. Sokak,1,0.0149,0.0,508.3333
+name,798. Sokak,1,0.0149,0.0,508.3333
+name,799. Sokak,1,0.0149,0.0,508.3333
+name,8 Sokak,1,0.0149,0.0,508.3333
+name,80. Sokak,1,0.0149,0.0,508.3333
+name,80. Yıl Küçük Çiğli İ.Ö.O.,1,0.0149,0.0,508.3333
+name,80. Yıl Orhangazi İlköğretim Okulu,1,0.0149,0.0,508.3333
+name,800. Sokak,1,0.0149,0.0,508.3333
+name,8007 Sokak,1,0.0149,0.0,508.3333
+name,8019/14. Sokak,1,0.0149,0.0,508.3333
+name,8019/24. Sokak,1,0.0149,0.0,508.3333
+name,802. Sokak,1,0.0149,0.0,508.3333
+name,8020/3 Sokak,1,0.0149,0.0,508.3333
+name,803/1. Sokak,1,0.0149,0.0,508.3333
+name,806. Sokak,1,0.0149,0.0,508.3333
+name,807. Sokak,1,0.0149,0.0,508.3333
+name,808. Sokak,1,0.0149,0.0,508.3333
+name,8081 Sokak,1,0.0149,0.0,508.3333
+name,8087/14 sokak,1,0.0149,0.0,508.3333
+name,8087/14. Sokak,1,0.0149,0.0,508.3333
+name,8087/17. Sokak,1,0.0149,0.0,508.3333
+name,809. Sokak,1,0.0149,0.0,508.3333
+name,810. Sokak,1,0.0149,0.0,508.3333
+name,812. Sokak,1,0.0149,0.0,508.3333
+name,8122 Sokak,1,0.0149,0.0,508.3333
+name,815/2. Sokak,1,0.0149,0.0,508.3333
+name,815/3. Sokak,1,0.0149,0.0,508.3333
+name,815/5. Sokak,1,0.0149,0.0,508.3333
+name,818. Sokak,1,0.0149,0.0,508.3333
+name,8207 Sokak,1,0.0149,0.0,508.3333
+name,8208 Sokak,1,0.0149,0.0,508.3333
+name,8250 Sokak,1,0.0149,0.0,508.3333
+name,8255 Sokak,1,0.0149,0.0,508.3333
+name,826. Sokak,1,0.0149,0.0,508.3333
+name,8267 Sokak,1,0.0149,0.0,508.3333
+name,827. Sokak,1,0.0149,0.0,508.3333
+name,8270/6 Sokak,1,0.0149,0.0,508.3333
+name,8271/6 Sokak,1,0.0149,0.0,508.3333
+name,8273/1 sokak,1,0.0149,0.0,508.3333
+name,828. Sokak,1,0.0149,0.0,508.3333
+name,8294 Sk.,1,0.0149,0.0,508.3333
+name,8295 Sokak,1,0.0149,0.0,508.3333
+name,83. Sokak,1,0.0149,0.0,508.3333
+name,831. Sokak,1,0.0149,0.0,508.3333
+name,836/1. Sokak,1,0.0149,0.0,508.3333
+name,836/2. Sokak,1,0.0149,0.0,508.3333
+name,84 Sokak,1,0.0149,0.0,508.3333
+name,840. Sk.,1,0.0149,0.0,508.3333
+name,840. Sokak,1,0.0149,0.0,508.3333
+name,848. Sokak,1,0.0149,0.0,508.3333
+name,850. Sokak,1,0.0149,0.0,508.3333
+name,851 Sokak,1,0.0149,0.0,508.3333
+name,855 Sokak,1,0.0149,0.0,508.3333
+name,856. Sokak,1,0.0149,0.0,508.3333
+name,859. Sokak,1,0.0149,0.0,508.3333
+name,861 Sokak,1,0.0149,0.0,508.3333
+name,862 Sokak,1,0.0149,0.0,508.3333
+name,869. Sokak,1,0.0149,0.0,508.3333
+name,870. Sokak,1,0.0149,0.0,508.3333
+name,8711 Sokak,1,0.0149,0.0,508.3333
+name,8713 Sokak,1,0.0149,0.0,508.3333
+name,872. Sokak,1,0.0149,0.0,508.3333
+name,873. Sokak,1,0.0149,0.0,508.3333
+name,874 Sokak,1,0.0149,0.0,508.3333
+name,874. Sokak,1,0.0149,0.0,508.3333
+name,8752 Sokak,1,0.0149,0.0,508.3333
+name,8755 Sokak,1,0.0149,0.0,508.3333
+name,8756 Sokak,1,0.0149,0.0,508.3333
+name,8757 Sokak,1,0.0149,0.0,508.3333
+name,8758 Sokak,1,0.0149,0.0,508.3333
+name,8762 Sokak,1,0.0149,0.0,508.3333
+name,8780/11 Sokak,1,0.0149,0.0,508.3333
+name,8784/1 Sokak,1,0.0149,0.0,508.3333
+name,8785/5 Sokak,1,0.0149,0.0,508.3333
+name,879/1. Sokak,1,0.0149,0.0,508.3333
+name,8790/10 Sokak,1,0.0149,0.0,508.3333
+name,8791 Sokak,1,0.0149,0.0,508.3333
+name,8792 Sokak,1,0.0149,0.0,508.3333
+name,8809/12 Sokak,1,0.0149,0.0,508.3333
+name,884. Sokak,1,0.0149,0.0,508.3333
+name,887. Sokak,1,0.0149,0.0,508.3333
+name,888. Sokak,1,0.0149,0.0,508.3333
+name,889 Sokak,1,0.0149,0.0,508.3333
+name,890. Sokak,1,0.0149,0.0,508.3333
+name,890/1. Sokak,1,0.0149,0.0,508.3333
+name,8904/1 Sokak,1,0.0149,0.0,508.3333
+name,8905 Sokak,1,0.0149,0.0,508.3333
+name,8909/1 Sokak,1,0.0149,0.0,508.3333
+name,8909/2 Sokak,1,0.0149,0.0,508.3333
+name,891. Sokak,1,0.0149,0.0,508.3333
+name,8930/5 Sokak,1,0.0149,0.0,508.3333
+name,894. Sokak,1,0.0149,0.0,508.3333
+name,895. Sokak,1,0.0149,0.0,508.3333
+name,8951 Sokak,1,0.0149,0.0,508.3333
+name,8955 Sokak,1,0.0149,0.0,508.3333
+name,8961 Sokak,1,0.0149,0.0,508.3333
+name,8997 Sokak,1,0.0149,0.0,508.3333
+name,900 Sokak,1,0.0149,0.0,508.3333
+name,900. Sokak,1,0.0149,0.0,508.3333
+name,901 Sokak,1,0.0149,0.0,508.3333
+name,902 Sokak,1,0.0149,0.0,508.3333
+name,9024 Sokak,1,0.0149,0.0,508.3333
+name,904 Sokak,1,0.0149,0.0,508.3333
+name,905 Sokak,1,0.0149,0.0,508.3333
+name,905/1. Sokak,1,0.0149,0.0,508.3333
+name,905/2. Sokak,1,0.0149,0.0,508.3333
+name,906/2. Sokak,1,0.0149,0.0,508.3333
+name,907/2. Sokak,1,0.0149,0.0,508.3333
+name,908. Sokak,1,0.0149,0.0,508.3333
+name,910. Sokak,1,0.0149,0.0,508.3333
+name,9103 Sokak,1,0.0149,0.0,508.3333
+name,9105/11. Sokak,1,0.0149,0.0,508.3333
+name,9105/12. Sokak,1,0.0149,0.0,508.3333
+name,911. Sokak,1,0.0149,0.0,508.3333
+name,912. Sokak,1,0.0149,0.0,508.3333
+name,912/1. Sokak,1,0.0149,0.0,508.3333
+name,9125/2 Sokak,1,0.0149,0.0,508.3333
+name,913. Sokak,1,0.0149,0.0,508.3333
+name,9131/23 Sokak,1,0.0149,0.0,508.3333
+name,914. Sokak,1,0.0149,0.0,508.3333
+name,915/1. Sokak,1,0.0149,0.0,508.3333
+name,915/2 Sokak,1,0.0149,0.0,508.3333
+name,916. Sokak,1,0.0149,0.0,508.3333
+name,916/1. Sokak,1,0.0149,0.0,508.3333
+name,9168/2 Sokak,1,0.0149,0.0,508.3333
+name,9174/1 Sokak,1,0.0149,0.0,508.3333
+name,918/1. Sokak,1,0.0149,0.0,508.3333
+name,9185 Sokak,1,0.0149,0.0,508.3333
+name,919/1 Sokak,1,0.0149,0.0,508.3333
+name,919/2. Sokak,1,0.0149,0.0,508.3333
+name,9193 Sokak,1,0.0149,0.0,508.3333
+name,9195/3 Sokak,1,0.0149,0.0,508.3333
+name,9195/6 Sokak,1,0.0149,0.0,508.3333
+name,920. Sokak,1,0.0149,0.0,508.3333
+name,9209 Sokak,1,0.0149,0.0,508.3333
+name,921. Sokak,1,0.0149,0.0,508.3333
+name,923. Sokak,1,0.0149,0.0,508.3333
+name,924. Sokak,1,0.0149,0.0,508.3333
+name,9242 Sokak,1,0.0149,0.0,508.3333
+name,925/1. Sokak,1,0.0149,0.0,508.3333
+name,925/3. Sokak,1,0.0149,0.0,508.3333
+name,926. Sokak,1,0.0149,0.0,508.3333
+name,927. Sokak,1,0.0149,0.0,508.3333
+name,928. Sokak,1,0.0149,0.0,508.3333
+name,928/1. Sokak,1,0.0149,0.0,508.3333
+name,929. Sokak,1,0.0149,0.0,508.3333
+name,930. Sokak,1,0.0149,0.0,508.3333
+name,934. Sokak,1,0.0149,0.0,508.3333
+name,935. Sokak,1,0.0149,0.0,508.3333
+name,936. Sokak,1,0.0149,0.0,508.3333
+name,937. Sokak,1,0.0149,0.0,508.3333
+name,938. Sokak,1,0.0149,0.0,508.3333
+name,939. Sokak,1,0.0149,0.0,508.3333
+name,940. Sokak,1,0.0149,0.0,508.3333
+name,942. Sokak,1,0.0149,0.0,508.3333
+name,943/2. Sokak,1,0.0149,0.0,508.3333
+name,944. Sokak,1,0.0149,0.0,508.3333
+name,946. Sokak,1,0.0149,0.0,508.3333
+name,947. Sokak,1,0.0149,0.0,508.3333
+name,949. Sokak,1,0.0149,0.0,508.3333
+name,950. Sokak,1,0.0149,0.0,508.3333
+name,951. Sokak,1,0.0149,0.0,508.3333
+name,951/3. Sokak,1,0.0149,0.0,508.3333
+name,951/4. Sokak,1,0.0149,0.0,508.3333
+name,952. Sokak,1,0.0149,0.0,508.3333
+name,953. Sokak,1,0.0149,0.0,508.3333
+name,955. Sokak,1,0.0149,0.0,508.3333
+name,958. Sokak,1,0.0149,0.0,508.3333
+name,967. Sokak,1,0.0149,0.0,508.3333
+name,968. Sokak,1,0.0149,0.0,508.3333
+name,97 Sokak,1,0.0149,0.0,508.3333
+name,970. Sokak,1,0.0149,0.0,508.3333
+name,971. Sokak,1,0.0149,0.0,508.3333
+name,972. Sokak,1,0.0149,0.0,508.3333
+name,974. Sokak,1,0.0149,0.0,508.3333
+name,975. Sokak,1,0.0149,0.0,508.3333
+name,976. Sokak,1,0.0149,0.0,508.3333
+name,977. Sokak,1,0.0149,0.0,508.3333
+name,978. Sokak,1,0.0149,0.0,508.3333
+name,982. Sokak,1,0.0149,0.0,508.3333
+name,983. Sokak,1,0.0149,0.0,508.3333
+name,984. Sokak,1,0.0149,0.0,508.3333
+name,985. Sokak,1,0.0149,0.0,508.3333
+name,986. Sokak,1,0.0149,0.0,508.3333
+name,987. Sokak,1,0.0149,0.0,508.3333
+name,988. Sokak,1,0.0149,0.0,508.3333
+name,989. Sokak,1,0.0149,0.0,508.3333
+name,989. sokak,1,0.0149,0.0,508.3333
+name,990. Sokak,1,0.0149,0.0,508.3333
+name,991. Sokak,1,0.0149,0.0,508.3333
+name,992. Sokak,1,0.0149,0.0,508.3333
+name,993. Sokak,1,0.0149,0.0,508.3333
+name,996/2. Sokak,1,0.0149,0.0,508.3333
+name,997 Sokak,1,0.0149,0.0,508.3333
+name,999. Sokak,1,0.0149,0.0,508.3333
+name,A Blok,1,0.0149,0.0,508.3333
+name,ACEM,1,0.0149,0.0,508.3333
+name,AHMET TANER KIŞLALI Cd.,1,0.0149,0.0,508.3333
+name,ALİ ÖZÜTEMİZ Sk.,1,0.0149,0.0,508.3333
+name,Abanca,1,0.0149,0.0,508.3333
+name,Ada camping Demircili,1,0.0149,0.0,508.3333
+name,Adalet Mahallesi,1,0.0149,0.0,508.3333
+name,Adnan Mazıcı İlkokulu,1,0.0149,0.0,508.3333
+name,Adnan Mazıcı İlkokulu A Blok,1,0.0149,0.0,508.3333
+name,Adnan Mazıcı İlkokulu B Blok,1,0.0149,0.0,508.3333
+name,Adnan Menderes Havalimanı,1,0.0149,0.0,508.3333
+name,Adnan Menderes Havalimanı - İç ve Dış Hatlar,1,0.0149,0.0,508.3333
+name,Adnan Saygun Kültür Merkezi,1,0.0149,0.0,508.3333
+name,Adnan Saygun Sanat Merkezi Durağı,1,0.0149,0.0,508.3333
+name,Agah Efendi İlkokulu,1,0.0149,0.0,508.3333
+name,Agora,1,0.0149,0.0,508.3333
+name,Agora Açık Hava Müzesi,1,0.0149,0.0,508.3333
+name,Ahmet Rasim Sokak,1,0.0149,0.0,508.3333
+name,Ahmet Yesevi Bulvarı,1,0.0149,0.0,508.3333
+name,Ahmet Yildam Apt.,1,0.0149,0.0,508.3333
+name,Aile Birlik Kıraathanesi,1,0.0149,0.0,508.3333
+name,Akbank,1,0.0149,0.0,508.3333
+name,Akdemir Parkı,1,0.0149,0.0,508.3333
+name,Aksoy Sitesi,1,0.0149,0.0,508.3333
+name,Akıncılar Sokak,1,0.0149,0.0,508.3333
+name,Alacalı,1,0.0149,0.0,508.3333
+name,Ali Rıza Efendi Ortaokulu,1,0.0149,0.0,508.3333
+name,Ali Rıza Sk.,1,0.0149,0.0,508.3333
+name,Ali Şir Nevai Caddesi,1,0.0149,0.0,508.3333
+name,Alia Park,1,0.0149,0.0,508.3333
+name,Alin,1,0.0149,0.0,508.3333
+name,Aliye İzzetbegoviç Caddesi,1,0.0149,0.0,508.3333
+name,Aloe Vera,1,0.0149,0.0,508.3333
+name,Alsancak Hocazade Cami,1,0.0149,0.0,508.3333
+name,Alsancak Vapur İskelesi,1,0.0149,0.0,508.3333
+name,Alternatif Bank İzmir Şubesi,1,0.0149,0.0,508.3333
+name,Alternatif Market,1,0.0149,0.0,508.3333
+name,Altunbaşak İnşaat Kapitone,1,0.0149,0.0,508.3333
+name,Altın Park,1,0.0149,0.0,508.3333
+name,Altındağ Yahudi Mezarlığı,1,0.0149,0.0,508.3333
+name,Altındağ İlköğretim Okulu,1,0.0149,0.0,508.3333
+name,Altınvadi Caddesi,1,0.0149,0.0,508.3333
+name,Anafaratlar Caddesi,1,0.0149,0.0,508.3333
+name,Analiz Tibbi Tahlil. Laboratuvari,1,0.0149,0.0,508.3333
+name,Anaokulu,1,0.0149,0.0,508.3333
+name,Anayurt Apt.,1,0.0149,0.0,508.3333
+name,Anemon Hotels Ege Sağlık,1,0.0149,0.0,508.3333
+name,Ankara,1,0.0149,0.0,508.3333
+name,Ankara Cd Yanyolu,1,0.0149,0.0,508.3333
+name,Apartment with a broken roof,1,0.0149,0.0,508.3333
+name,Aqua Park-hotel,1,0.0149,0.0,508.3333
+name,Arda Çetintaş,1,0.0149,0.0,508.3333
+name,Armoni Özel Eğitim ve Rehabilitasyon Merkezi,1,0.0149,0.0,508.3333
+name,Arpa Gıda,1,0.0149,0.0,508.3333
+name,Arzu Büfe,1,0.0149,0.0,508.3333
+name,Arzu Market,1,0.0149,0.0,508.3333
+name,Arzum Apartmanı,1,0.0149,0.0,508.3333
+name,Aslanet Internet Cafe 3,1,0.0149,0.0,508.3333
+name,Aslanlar TM,1,0.0149,0.0,508.3333
+name,Assia,1,0.0149,0.0,508.3333
+name,Ata Cadde,1,0.0149,0.0,508.3333
+name,Ata GSM,1,0.0149,0.0,508.3333
+name,Ata Sanayi İstasyonu,1,0.0149,0.0,508.3333
+name,Ata-Vet Veteriner Kliniği,1,0.0149,0.0,508.3333
+name,Atak Plaza,1,0.0149,0.0,508.3333
+name,Atalay Otomotiv,1,0.0149,0.0,508.3333
+name,Atatürk Araştırma Hastanesi,1,0.0149,0.0,508.3333
+name,Atatürk Açık Hava Tiyatrosu ve Kültür Merkezi,1,0.0149,0.0,508.3333
+name,Atatürk Bulvarı,1,0.0149,0.0,508.3333
+name,Atatürk Mahallesi Camii,1,0.0149,0.0,508.3333
+name,Atatürk Mh. Muhtarlığı,1,0.0149,0.0,508.3333
+name,Atatürk Orman Yolu,1,0.0149,0.0,508.3333
+name,Atatürk Şehit Pilot Yüzbaşı Mehmet İlker KaramanMesleki ve Teknik Anadolu Lisesi,1,0.0149,0.0,508.3333
+name,Ataşehir,1,0.0149,0.0,508.3333
+name,Ater Store,1,0.0149,0.0,508.3333
+name,Atersan Yapı Çözümleri,1,0.0149,0.0,508.3333
+name,Atmos Gallery,1,0.0149,0.0,508.3333
+name,Atılım Ambalaj,1,0.0149,0.0,508.3333
+name,Avcılar Sitesi,1,0.0149,0.0,508.3333
+name,Avos Otomotiv,1,0.0149,0.0,508.3333
+name,Avşar Gölü,1,0.0149,0.0,508.3333
+name,Ayaklıkırı,1,0.0149,0.0,508.3333
+name,Ayakustu Kahve,1,0.0149,0.0,508.3333
+name,Ayan Mustafa Cami,1,0.0149,0.0,508.3333
+name,Ayhan Işık Sokak,1,0.0149,0.0,508.3333
+name,Ayma Gıda,1,0.0149,0.0,508.3333
+name,Aysel Abla Ev Yemekleri,1,0.0149,0.0,508.3333
+name,Aysu Eczanesi,1,0.0149,0.0,508.3333
+name,Azap Gölü,1,0.0149,0.0,508.3333
+name,Aşağı Vişneli Köyü Camii,1,0.0149,0.0,508.3333
+name,Aşağı Vişneli Son Durak,1,0.0149,0.0,508.3333
+name,Aşiyan Sitesi,1,0.0149,0.0,508.3333
+name,Aşık Veysel Sokağı,1,0.0149,0.0,508.3333
+name,Aşıklar Caddesi,1,0.0149,0.0,508.3333
+name,B&G Store,1,0.0149,0.0,508.3333
+name,BAYIR Sk.,1,0.0149,0.0,508.3333
+name,BEGOS 1. Kısım,1,0.0149,0.0,508.3333
+name,BEGOS 2. Kısım,1,0.0149,0.0,508.3333
+name,BEGOS 3. Kısım,1,0.0149,0.0,508.3333
+name,BMC Sitesi,1,0.0149,0.0,508.3333
+name,Bademlik Sokak,1,0.0149,0.0,508.3333
+name,Bahar,1,0.0149,0.0,508.3333
+name,Bahar Ekmek Fırını,1,0.0149,0.0,508.3333
+name,Bahçelievler Türk Telekom Müdürlüğü,1,0.0149,0.0,508.3333
+name,Baks,1,0.0149,0.0,508.3333
+name,Bakırçay Üniversitesi Çiğli Eğitim ve Araştırma Hastanesi,1,0.0149,0.0,508.3333
+name,Balsa Unlu Mamülleri,1,0.0149,0.0,508.3333
+name,Baltacı Demostanis Malikanesi,1,0.0149,0.0,508.3333
+name,Baltalılar Cami,1,0.0149,0.0,508.3333
+name,Balçova Aktarna Merkezi ÖHO Durağı,1,0.0149,0.0,508.3333
+name,Balçova Baraj Gölü,1,0.0149,0.0,508.3333
+name,Balçova Barajı,1,0.0149,0.0,508.3333
+name,Balçova Belediyesi,1,0.0149,0.0,508.3333
+name,Balçova Viyadüğü,1,0.0149,0.0,508.3333
+name,Balıkçı Barınağı,1,0.0149,0.0,508.3333
+name,Barkın,1,0.0149,0.0,508.3333
+name,Barış Parkı,1,0.0149,0.0,508.3333
+name,Barış Piliçmatik,1,0.0149,0.0,508.3333
+name,Basın Birleşik Dağtım,1,0.0149,0.0,508.3333
+name,Batik,1,0.0149,0.0,508.3333
+name,Batı İş Merkezi,1,0.0149,0.0,508.3333
+name,Baydöner,1,0.0149,0.0,508.3333
+name,Bayraklı 15 Nolu İsmet Akman Aile Sağlığı Merkezi,1,0.0149,0.0,508.3333
+name,Bayraklı Belediyesi Temizlik İşleri,1,0.0149,0.0,508.3333
+name,Bayraklı İlçe MEM,1,0.0149,0.0,508.3333
+name,Bayraklı İskele Son Durak,1,0.0149,0.0,508.3333
+name,Başak Sokak,1,0.0149,0.0,508.3333
+name,Başarı Sitesi,1,0.0149,0.0,508.3333
+name,"Başkent Ü. Hastanesi, Zübeyde H. Polikliniği",1,0.0149,0.0,508.3333
+name,Başöğretmen İsmail Özkunt Sokak,1,0.0149,0.0,508.3333
+name,Behçet Uz Parkı,1,0.0149,0.0,508.3333
+name,Bekir Park,1,0.0149,0.0,508.3333
+name,Belediye Evleri,1,0.0149,0.0,508.3333
+name,Belediye Mürdüm Kafe,1,0.0149,0.0,508.3333
+name,Berna Özdoğan Güzel Sanatlar Merkezi,1,0.0149,0.0,508.3333
+name,Beyaz Balon Anaokulu,1,0.0149,0.0,508.3333
+name,Beyaz Konak,1,0.0149,0.0,508.3333
+name,Beymen,1,0.0149,0.0,508.3333
+name,Beşkardeşler,1,0.0149,0.0,508.3333
+name,Bianco Vita,1,0.0149,0.0,508.3333
+name,Bilbay Sitesi,1,0.0149,0.0,508.3333
+name,Bilginer Sk.,1,0.0149,0.0,508.3333
+name,Bilimsev koleji,1,0.0149,0.0,508.3333
+name,Bilkent Sitesi,1,0.0149,0.0,508.3333
+name,Birleşmiş Milletler Caddesi,1,0.0149,0.0,508.3333
+name,Biva Tower Satış Ofisi,1,0.0149,0.0,508.3333
+name,Bizim Hüseyin Parkı,1,0.0149,0.0,508.3333
+name,Blue,1,0.0149,0.0,508.3333
+name,Bolulu Hasan Usta Süt Tatlıları,1,0.0149,0.0,508.3333
+name,Boran Sitesi,1,0.0149,0.0,508.3333
+name,Bornova,1,0.0149,0.0,508.3333
+name,Bornova 25. Mevlana Aile Sağlık Merkezi,1,0.0149,0.0,508.3333
+name,Bornova 38 Nolu Acil Yardım İstasyonu,1,0.0149,0.0,508.3333
+name,Bornova 6 Nolu Atatürk Aile Sağlığı Merkezi,1,0.0149,0.0,508.3333
+name,Bornova 7 Nolu Evka-4 Aile Sağlığı Merkezi,1,0.0149,0.0,508.3333
+name,Bornova Altay Mesleki ve Teknik Anadolu Lisesi,1,0.0149,0.0,508.3333
+name,Bornova Anadolu Lisesi Ahmet Piriştina Kültür Merkezi,1,0.0149,0.0,508.3333
+name,Bornova Anadolu Lisesi Hulusi Ünlüönen Resim Atölyesi,1,0.0149,0.0,508.3333
+name,Bornova Atatürk QuarterTaksi Durağı,1,0.0149,0.0,508.3333
+name,Bornova Buz Sporları Salonu,1,0.0149,0.0,508.3333
+name,Bornova Kredi ve Yurtlar Kurumu Yurtları,1,0.0149,0.0,508.3333
+name,Bornova Kurtuluş Parkı,1,0.0149,0.0,508.3333
+name,Bornova Mahzar Zorlu Mesleki ve Teknik Anadolu Lisesi,1,0.0149,0.0,508.3333
+name,Bornova Meydanı,1,0.0149,0.0,508.3333
+name,Bornova Okulları İmar Yolu,1,0.0149,0.0,508.3333
+name,Bornova İlçe Jandarma Komutanlığı,1,0.0149,0.0,508.3333
+name,Bornova İmam-Hatip Ortaokulu,1,0.0149,0.0,508.3333
+name,Bostanlı Polis Karakolu,1,0.0149,0.0,508.3333
+name,Bostanlı İtfaiye Grubu,1,0.0149,0.0,508.3333
+name,Boyraz Oto Lastik,1,0.0149,0.0,508.3333
+name,Bozyaka TM - Karabağlar TM EİH,1,0.0149,0.0,508.3333
+name,Brew Mood Coffee And Tea,1,0.0149,0.0,508.3333
+name,British American Tobacco Türkiye,1,0.0149,0.0,508.3333
+name,Buca Arena,1,0.0149,0.0,508.3333
+name,Buca Kadın Doğum ve Çocuk Hastanesi,1,0.0149,0.0,508.3333
+name,Buca Koop Mahallesi Pazar Yeri,1,0.0149,0.0,508.3333
+name,Buca Koop. Eczanesi,1,0.0149,0.0,508.3333
+name,Buca Koop. Meydan,1,0.0149,0.0,508.3333
+name,Buca Koop. Taksi,1,0.0149,0.0,508.3333
+name,Buca Kültür Merkezi,1,0.0149,0.0,508.3333
+name,Buca Rehberlik ve Araştırma Merkezi,1,0.0149,0.0,508.3333
+name,Buca Seyfı Demirsoy Eğitim ve Araştırma Hastanesi,1,0.0149,0.0,508.3333
+name,Buca TM - Işıklar TM EİH,1,0.0149,0.0,508.3333
+name,Buca İnci-Özer Tırnaklı Fen Lisesi,1,0.0149,0.0,508.3333
+name,Buca Şehitleri Parkı,1,0.0149,0.0,508.3333
+name,Bucasporlu Balık Pazarı,1,0.0149,0.0,508.3333
+name,Buderus Servisi,1,0.0149,0.0,508.3333
+name,Buffalos Burger,1,0.0149,0.0,508.3333
+name,Burcu Sokak,1,0.0149,0.0,508.3333
+name,Bölge İdare Mahkemesi,1,0.0149,0.0,508.3333
+name,Börklüce Mustafa Sk.,1,0.0149,0.0,508.3333
+name,Bülbüldere,1,0.0149,0.0,508.3333
+name,Bülent Ecevit Bulvarı,1,0.0149,0.0,508.3333
+name,BİZİM Market,1,0.0149,0.0,508.3333
+name,CLASS PETSHOP,1,0.0149,0.0,508.3333
+name,Cadde City,1,0.0149,0.0,508.3333
+name,Cadde Teras,1,0.0149,0.0,508.3333
+name,Cadi Kazani,1,0.0149,0.0,508.3333
+name,Cafe Antik,1,0.0149,0.0,508.3333
+name,Cafe evimm Unlu Mamüller,1,0.0149,0.0,508.3333
+name,Cagdas Pharmacy,1,0.0149,0.0,508.3333
+name,Can Kardeşler Kuruyemiş Güzelyalı,1,0.0149,0.0,508.3333
+name,Can Çerez Kuru Kahve Ve Tekel,1,0.0149,0.0,508.3333
+name,Canan Foto,1,0.0149,0.0,508.3333
+name,Car Park,1,0.0149,0.0,508.3333
+name,Case Cake&Coffee,1,0.0149,0.0,508.3333
+name,Cellini masajkoltugu,1,0.0149,0.0,508.3333
+name,Cem Market,1,0.0149,0.0,508.3333
+name,Cemal Bülbül Sokağı,1,0.0149,0.0,508.3333
+name,Cemal Reşit Bey Sokak,1,0.0149,0.0,508.3333
+name,Cengiz Kocatoros Sokağı,1,0.0149,0.0,508.3333
+name,Cengiz Topel Caddesi,1,0.0149,0.0,508.3333
+name,Cennetçeşme Otlağı ve Gecekondu Yerleşmesi,1,0.0149,0.0,508.3333
+name,Central Hospital,1,0.0149,0.0,508.3333
+name,Cevher,1,0.0149,0.0,508.3333
+name,Ceylan Sk.,1,0.0149,0.0,508.3333
+name,Chicky & Dany,1,0.0149,0.0,508.3333
+name,Cix Club,1,0.0149,0.0,508.3333
+name,Class Erkek Kuaförü,1,0.0149,0.0,508.3333
+name,Collapsed building=========,1,0.0149,0.0,508.3333
+name,Collapsed buildings,1,0.0149,0.0,508.3333
+name,Cool Balık,1,0.0149,0.0,508.3333
+name,Coordinat Suits,1,0.0149,0.0,508.3333
+name,Cumaovası Caddesi,1,0.0149,0.0,508.3333
+name,Cumhurbaşkanlığı İletişim Müdürlüğü/ T.C.Merkez Bankası İzmir Şubesi,1,0.0149,0.0,508.3333
+name,Cumhuriyet Apartmanı,1,0.0149,0.0,508.3333
+name,Cumhuriyet Caddesi,1,0.0149,0.0,508.3333
+name,Cumhuriyet Mahallesi Parkı,1,0.0149,0.0,508.3333
+name,D blok,1,0.0149,0.0,508.3333
+name,D.E.Ü. Tınaztepe Kampüsü,1,0.0149,0.0,508.3333
+name,D550-Karşıyaka Bağlantısı-GÜNEY GİRİŞİ,1,0.0149,0.0,508.3333
+name,DELTA BİLGİSAYAR,1,0.0149,0.0,508.3333
+name,DEÜ Tınaztepe Yerleşkesi Batı Kapısı,1,0.0149,0.0,508.3333
+name,DEÜ Tınaztepe Yerleşkesi Doğu Kapısı,1,0.0149,0.0,508.3333
+name,DEÜ İlahiyat Fakültesi İç Yolu,1,0.0149,0.0,508.3333
+name,DTECH GSM,1,0.0149,0.0,508.3333
+name,Dadaş Sk.,1,0.0149,0.0,508.3333
+name,Dalgın,1,0.0149,0.0,508.3333
+name,Davut Sülari Sokak,1,0.0149,0.0,508.3333
+name,Dedemhan Plaza,1,0.0149,0.0,508.3333
+name,Deep Rock Bar,1,0.0149,0.0,508.3333
+name,Defne Plaza,1,0.0149,0.0,508.3333
+name,Deli's,1,0.0149,0.0,508.3333
+name,Demirci Efe Sk.,1,0.0149,0.0,508.3333
+name,Demirkent Sitesi,1,0.0149,0.0,508.3333
+name,Demirköprü Toprak Sahası,1,0.0149,0.0,508.3333
+name,Deniz Kabuğu,1,0.0149,0.0,508.3333
+name,Denizbank,1,0.0149,0.0,508.3333
+name,Depark,1,0.0149,0.0,508.3333
+name,Digisel,1,0.0149,0.0,508.3333
+name,Dilek Otomotiv,1,0.0149,0.0,508.3333
+name,Diş Hekimi Levent Özbek,1,0.0149,0.0,508.3333
+name,Dokuz Eylül Üniversitesi Buca Eğitim Fakültesi,1,0.0149,0.0,508.3333
+name,Dokuz Eylül Üniversitesi Devlet Konservatuvarı Sabancı Kültür Merkezi,1,0.0149,0.0,508.3333
+name,Dokuz Eylül Üniversitesi Kampı,1,0.0149,0.0,508.3333
+name,Dokuz Eylül Üniversitesi Tınaztepe Yerleşkesi,1,0.0149,0.0,508.3333
+name,Dokuz Eylül Üniversitesi Özel 75. Yıl Eğitim Kurumları,1,0.0149,0.0,508.3333
+name,Dokuz Eylül Üniversitesi İlahiyat Fakültesi,1,0.0149,0.0,508.3333
+name,Dokuzgen Kiosk Noktası,1,0.0149,0.0,508.3333
+name,Dokuzçeşmeler Yerleşkesi A Kapısı,1,0.0149,0.0,508.3333
+name,Dominos,1,0.0149,0.0,508.3333
+name,Dostlar Sk.,1,0.0149,0.0,508.3333
+name,Doğan Seyfi Sk.,1,0.0149,0.0,508.3333
+name,Doğanbey,1,0.0149,0.0,508.3333
+name,Doğancılar Mahallesi Cami,1,0.0149,0.0,508.3333
+name,Doğancılar İlkokulu,1,0.0149,0.0,508.3333
+name,Doğanlar Fatih Camisi,1,0.0149,0.0,508.3333
+name,Doğançay 12 Nolu Aile Sağlığı Merkezi,1,0.0149,0.0,508.3333
+name,Doğuş Apartmanı,1,0.0149,0.0,508.3333
+name,Dr. Tibet Kızılcan Sokak,1,0.0149,0.0,508.3333
+name,Dural Park,1,0.0149,0.0,508.3333
+name,Duvar,1,0.0149,0.0,508.3333
+name,Dördüncü Recep,1,0.0149,0.0,508.3333
+name,Düşler Yakası,1,0.0149,0.0,508.3333
+name,EBSO TM,1,0.0149,0.0,508.3333
+name,EBSO TM - Ataer TM EİH,1,0.0149,0.0,508.3333
+name,EFENDİ,1,0.0149,0.0,508.3333
+name,ESBAŞ,1,0.0149,0.0,508.3333
+name,ESHOT,1,0.0149,0.0,508.3333
+name,Ebruli Manti,1,0.0149,0.0,508.3333
+name,Ecem Otomotiv,1,0.0149,0.0,508.3333
+name,Eczacılık Fakültesi,1,0.0149,0.0,508.3333
+name,Eczane Duygu,1,0.0149,0.0,508.3333
+name,Eczane Efes,1,0.0149,0.0,508.3333
+name,Eda Deniz Eczanesi,1,0.0149,0.0,508.3333
+name,Eda Sokak,1,0.0149,0.0,508.3333
+name,Edebiyat Fakültesi,1,0.0149,0.0,508.3333
+name,Efemme,1,0.0149,0.0,508.3333
+name,Efemçukuru Altın Madeni,1,0.0149,0.0,508.3333
+name,Efemçukuru Yolu,1,0.0149,0.0,508.3333
+name,Ege Demir Tic,1,0.0149,0.0,508.3333
+name,Ege Kuru Temizleme,1,0.0149,0.0,508.3333
+name,Ege Orman Vakfı Pancar Güneş Enerji Santrali,1,0.0149,0.0,508.3333
+name,Ege Palas Business Hotel,1,0.0149,0.0,508.3333
+name,Ege Park,1,0.0149,0.0,508.3333
+name,Ege Serbest Bölgesi,1,0.0149,0.0,508.3333
+name,Ege Üniversitesi Elektrik-Elektronik Mühendisliği,1,0.0149,0.0,508.3333
+name,Ege Üniversitesi Hastanesi Çocuk Bölümü,1,0.0149,0.0,508.3333
+name,Ege Üniversitesi SKSDB ve MEDİKO Binası,1,0.0149,0.0,508.3333
+name,Ege Üniversitesi Tülay Aktaş Onkoloji Hastanesi,1,0.0149,0.0,508.3333
+name,Ege Üniversitesi Yapı İşleri Daire Başkanlığı,1,0.0149,0.0,508.3333
+name,Ege Üniversitesi İnşaat Mühendisliği Bölümü,1,0.0149,0.0,508.3333
+name,Egekent Eshot Otobüs Durağı,1,0.0149,0.0,508.3333
+name,Egekent Minibüs Durağı,1,0.0149,0.0,508.3333
+name,Egem Sitesi,1,0.0149,0.0,508.3333
+name,Ekmekçiler Sokak,1,0.0149,0.0,508.3333
+name,Ekol K:B.B. Hastanesi,1,0.0149,0.0,508.3333
+name,Ela Market,1,0.0149,0.0,508.3333
+name,Elara Hotel,1,0.0149,0.0,508.3333
+name,Elektrik Mühendisleri Odası İzmir Şubesi,1,0.0149,0.0,508.3333
+name,Emek Sitesş,1,0.0149,0.0,508.3333
+name,Emekliler Sokak,1,0.0149,0.0,508.3333
+name,Eminoğlu Plaza,1,0.0149,0.0,508.3333
+name,Emlak Bankası İ.Ö.O.,1,0.0149,0.0,508.3333
+name,Emrullah Efendi İlkokulu,1,0.0149,0.0,508.3333
+name,EnPlus,1,0.0149,0.0,508.3333
+name,Energy Vitamin,1,0.0149,0.0,508.3333
+name,Enra Tekstil,1,0.0149,0.0,508.3333
+name,Ensar Camii,1,0.0149,0.0,508.3333
+name,Enver Paşa Sokak,1,0.0149,0.0,508.3333
+name,Erbil Süel Shoe Store,1,0.0149,0.0,508.3333
+name,Ercan Nakış,1,0.0149,0.0,508.3333
+name,Erdoğan Akkaya Sokağı,1,0.0149,0.0,508.3333
+name,Ermak Elektronik - BEHA,1,0.0149,0.0,508.3333
+name,Errahman Caddesi,1,0.0149,0.0,508.3333
+name,Escan Tur,1,0.0149,0.0,508.3333
+name,Esentepe Cami,1,0.0149,0.0,508.3333
+name,Eserkent Ortaokulu ve İlkokulu,1,0.0149,0.0,508.3333
+name,Eshot Garaj/Akaryakıt İstasyonu,1,0.0149,0.0,508.3333
+name,Eshot KSK Durakları Yolu,1,0.0149,0.0,508.3333
+name,Eskiizmir Eczanesi,1,0.0149,0.0,508.3333
+name,Euphoria Aegean Resort & Spa,1,0.0149,0.0,508.3333
+name,Evden Eve Nakliyat,1,0.0149,0.0,508.3333
+name,Evin Leblebicioğlu İ.Ö.O.,1,0.0149,0.0,508.3333
+name,Evka - 3 10 Nolu Aile Sağlığı Merkezi,1,0.0149,0.0,508.3333
+name,Evka 4 Merkez Taksi,1,0.0149,0.0,508.3333
+name,Evka 4 Son Durak,1,0.0149,0.0,508.3333
+name,Evka-4 Eczanesi,1,0.0149,0.0,508.3333
+name,Evka-4 Yeşiltepe İtfaiye İstasyonu,1,0.0149,0.0,508.3333
+name,Evrenpaşa İlköğretim Okulu,1,0.0149,0.0,508.3333
+name,Evrensel Çocuk Müzesi ve Tema Parkı,1,0.0149,0.0,508.3333
+name,Eylül Köşk,1,0.0149,0.0,508.3333
+name,Ezo Kebap,1,0.0149,0.0,508.3333
+name,Eğitim Destek Ünitesi ve Edebiyat Fakültesi Yemekhanesi,1,0.0149,0.0,508.3333
+name,Eğridere TM,1,0.0149,0.0,508.3333
+name,Eşrefpaşa Anadolu Lisesi,1,0.0149,0.0,508.3333
+name,Eşrefpaşa Belediyesi Hastanesi,1,0.0149,0.0,508.3333
+name,Fabrika caddesi,1,0.0149,0.0,508.3333
+name,Faculty of Science,1,0.0149,0.0,508.3333
+name,Faculty of Science and Faculty of Letters Foyer Area,1,0.0149,0.0,508.3333
+name,Fadıl Sumak Camii,1,0.0149,0.0,508.3333
+name,Fahrettin Altay Aktarma Merkezi,1,0.0149,0.0,508.3333
+name,Fakir Bayburt Sokak,1,0.0149,0.0,508.3333
+name,Fam Örgü-Triko,1,0.0149,0.0,508.3333
+name,Fazıl Paşa Caddesi,1,0.0149,0.0,508.3333
+name,Fensoy Sitesi,1,0.0149,0.0,508.3333
+name,Ferah Eczanesi,1,0.0149,0.0,508.3333
+name,Feribot İskelesi,1,0.0149,0.0,508.3333
+name,Fevzipaşa Cami,1,0.0149,0.0,508.3333
+name,Figen Akın Sokak,1,0.0149,0.0,508.3333
+name,Fikri Altay Futbol Sahası,1,0.0149,0.0,508.3333
+name,Filiz Caddesi,1,0.0149,0.0,508.3333
+name,Filiz Eczanesi,1,0.0149,0.0,508.3333
+name,Finansbank,1,0.0149,0.0,508.3333
+name,Firat,1,0.0149,0.0,508.3333
+name,Forbest,1,0.0149,0.0,508.3333
+name,Ford Otokoç,1,0.0149,0.0,508.3333
+name,Forum Kız Öğrenci Yurdu,1,0.0149,0.0,508.3333
+name,Fuar Yolu,1,0.0149,0.0,508.3333
+name,Fuar İzmir,1,0.0149,0.0,508.3333
+name,Fulya Sokak,1,0.0149,0.0,508.3333
+name,GAZETECİ FEVZİ YILMAZ Sk.,1,0.0149,0.0,508.3333
+name,GNT Tekstil A.Ş,1,0.0149,0.0,508.3333
+name,Gamze Sokak,1,0.0149,0.0,508.3333
+name,Garanti,1,0.0149,0.0,508.3333
+name,Gastro state,1,0.0149,0.0,508.3333
+name,Gazi Caddesi,1,0.0149,0.0,508.3333
+name,Gazi Lisesi,1,0.0149,0.0,508.3333
+name,Gazi Osman Paşa Caddesi,1,0.0149,0.0,508.3333
+name,Gazi Osman Paşa Sk.,1,0.0149,0.0,508.3333
+name,Gazi İlköğretim Okulu,1,0.0149,0.0,508.3333
+name,Gaziemir-Seydiköy Branşı,1,0.0149,0.0,508.3333
+name,Gebekirse Gölü,1,0.0149,0.0,508.3333
+name,Gediz Sk.,1,0.0149,0.0,508.3333
+name,General İzzettin Çalışlar İlköğretim Okulu,1,0.0149,0.0,508.3333
+name,Geçer Eczanesi,1,0.0149,0.0,508.3333
+name,Girne Balıkevi,1,0.0149,0.0,508.3333
+name,Girne Bulvarı,1,0.0149,0.0,508.3333
+name,Gondol Kafe,1,0.0149,0.0,508.3333
+name,Gumus Merdiven,1,0.0149,0.0,508.3333
+name,Göksu,1,0.0149,0.0,508.3333
+name,Göl başı kahvaltı gözleme evi,1,0.0149,0.0,508.3333
+name,Göllüce,1,0.0149,0.0,508.3333
+name,Görkent Sitesi,1,0.0149,0.0,508.3333
+name,Gözde Sitesi,1,0.0149,0.0,508.3333
+name,Göztepe Meslek Lisesi,1,0.0149,0.0,508.3333
+name,Gül Sokak,1,0.0149,0.0,508.3333
+name,Gülsefa Kapancıoğlu Anadolu Lisesi,1,0.0149,0.0,508.3333
+name,Gültepe Parkı,1,0.0149,0.0,508.3333
+name,Gümüşpala Anadolu Ticaret Meslek Lisesi,1,0.0149,0.0,508.3333
+name,Gün Sazak Bulvarı,1,0.0149,0.0,508.3333
+name,Günay Bistro Cafe,1,0.0149,0.0,508.3333
+name,Gündoğdu Camii,1,0.0149,0.0,508.3333
+name,Gürlü Sitesi,1,0.0149,0.0,508.3333
+name,Gürçeşme Güzel İzmir Camii,1,0.0149,0.0,508.3333
+name,Gürçeşme Yeni Camii,1,0.0149,0.0,508.3333
+name,Güven Camii,1,0.0149,0.0,508.3333
+name,Güvenler Tekstil,1,0.0149,0.0,508.3333
+name,Güzel Sanatlar Parkı,1,0.0149,0.0,508.3333
+name,Güzelbahçe Su Arıtma Tesisi,1,0.0149,0.0,508.3333
+name,Güzelyalı Yeni Camii,1,0.0149,0.0,508.3333
+name,Gıda Çarşısı,1,0.0149,0.0,508.3333
+name,H. Arif Küçükdoğan Camii,1,0.0149,0.0,508.3333
+name,HD iskander,1,0.0149,0.0,508.3333
+name,Hacı Ali Gültekin Camii,1,0.0149,0.0,508.3333
+name,Hacı Osman Paşa Camii,1,0.0149,0.0,508.3333
+name,Hacırlarkırı Caddesi,1,0.0149,0.0,508.3333
+name,"Halk Eğitim, Merkezi Müdürlüğü 22 Yaş ve Üstü Engelliler Eğitim Merkezi",1,0.0149,0.0,508.3333
+name,Halk Sk.,1,0.0149,0.0,508.3333
+name,Halk Yatirim,1,0.0149,0.0,508.3333
+name,Hamidiye Camii,1,0.0149,0.0,508.3333
+name,Hansgrohe,1,0.0149,0.0,508.3333
+name,Harmandalı Kapalı Pazar Alanı,1,0.0149,0.0,508.3333
+name,Harun Dağcı Damızlık Koyun ve Kuzu Üretim,1,0.0149,0.0,508.3333
+name,Has Market,1,0.0149,0.0,508.3333
+name,Hasan Efendi Sitesi,1,0.0149,0.0,508.3333
+name,Hasan Efendi Sitesi No:1,1,0.0149,0.0,508.3333
+name,Hasan Tahsin Özel Eğitim Mesleki Eğitim Meslek Okulu,1,0.0149,0.0,508.3333
+name,Hasan Usta Süt Tatlıları,1,0.0149,0.0,508.3333
+name,Hasan Âli Yücel Caddesi,1,0.0149,0.0,508.3333
+name,Hasan İçyer İlköğretim Okulu,1,0.0149,0.0,508.3333
+name,Hasanağa Camii,1,0.0149,0.0,508.3333
+name,Hastane,1,0.0149,0.0,508.3333
+name,Hatice Güzelcan Anadolu Lisesi,1,0.0149,0.0,508.3333
+name,Hava Eğitim Komutanlığı,1,0.0149,0.0,508.3333
+name,Havalimanı,1,0.0149,0.0,508.3333
+name,Havalimanı İç Hatlar Gidiş,1,0.0149,0.0,508.3333
+name,Havra Sokak,1,0.0149,0.0,508.3333
+name,Havra Sokağı,1,0.0149,0.0,508.3333
+name,Havva Özişbakan Anadolu Sağlık Meslek Lisesi,1,0.0149,0.0,508.3333
+name,Hay Hotel Alsancak,1,0.0149,0.0,508.3333
+name,Hayal Dünyası Oyuncak,1,0.0149,0.0,508.3333
+name,Haydar Aliyev Bulvarı,1,0.0149,0.0,508.3333
+name,Hekimoğlu Sitesi,1,0.0149,0.0,508.3333
+name,Helix Işitme Cihazları,1,0.0149,0.0,508.3333
+name,Hemşirelik Fakültesi,1,0.0149,0.0,508.3333
+name,Hidayet Erzeybek Caddesi,1,0.0149,0.0,508.3333
+name,Hilal Necmiye Hüsnü Ataberk Ortaokulu,1,0.0149,0.0,508.3333
+name,Hilltown Karşıyaka,1,0.0149,0.0,508.3333
+name,Hoca Ahmet Yesevi Kız Yurdu,1,0.0149,0.0,508.3333
+name,Hocazade Cami,1,0.0149,0.0,508.3333
+name,House,1,0.0149,0.0,508.3333
+name,Huzur Camii,1,0.0149,0.0,508.3333
+name,Hürol Sitesi,1,0.0149,0.0,508.3333
+name,Hürriyet Bulvarı,1,0.0149,0.0,508.3333
+name,Hüseyinoğulları Piknik Alanı,1,0.0149,0.0,508.3333
+name,Hıfzı Veldet Velidedeoğlu Parkı,1,0.0149,0.0,508.3333
+name,Ilgaz Sokak,1,0.0149,0.0,508.3333
+name,Ilıca,1,0.0149,0.0,508.3333
+name,Inönü Caddesi,1,0.0149,0.0,508.3333
+name,Inönü Kültür Merkezi,1,0.0149,0.0,508.3333
+name,Irmak Sokak,1,0.0149,0.0,508.3333
+name,Itokent Caddesi,1,0.0149,0.0,508.3333
+name,Itokent Cd.,1,0.0149,0.0,508.3333
+name,Izmir,1,0.0149,0.0,508.3333
+name,Izmir Commodity Exchange,1,0.0149,0.0,508.3333
+name,Izmir Il Emniyet Mudurlugu,1,0.0149,0.0,508.3333
+name,Izmir İl Emniyet Müdürlüğü,1,0.0149,0.0,508.3333
+name,Işıklar TM - Hilal TM EİH,1,0.0149,0.0,508.3333
+name,Joker Baby,1,0.0149,0.0,508.3333
+name,KOSGEB İzmir Güney Hizmet Müdürlüğü,1,0.0149,0.0,508.3333
+name,KSK Anıt,1,0.0149,0.0,508.3333
+name,Kaan Sokak,1,0.0149,0.0,508.3333
+name,Kabiller Tarım Ürünleri,1,0.0149,0.0,508.3333
+name,Kadınlar Birliği Parkı,1,0.0149,0.0,508.3333
+name,Kadıovacık,1,0.0149,0.0,508.3333
+name,Kahve,1,0.0149,0.0,508.3333
+name,Kahyaoğlu Plaza,1,0.0149,0.0,508.3333
+name,Kaklıç Havaalanı,1,0.0149,0.0,508.3333
+name,Kamelya Sokak,1,0.0149,0.0,508.3333
+name,Kamil Koc,1,0.0149,0.0,508.3333
+name,Kandemir Kafe,1,0.0149,0.0,508.3333
+name,Kapalı Otopark,1,0.0149,0.0,508.3333
+name,Kapalı Spor Salonu,1,0.0149,0.0,508.3333
+name,Karabağlar 13 Nolu Bahçelievler Aile Sağlığı Merkezi,1,0.0149,0.0,508.3333
+name,Karabağlar Belediyesi,1,0.0149,0.0,508.3333
+name,Karabağlar Cumhuriyet Ticaret Meslek Lisesi,1,0.0149,0.0,508.3333
+name,Karabağlar Müftülüğü Cami ve Külliyesi İnşa Alanı,1,0.0149,0.0,508.3333
+name,Karaca Sokağı,1,0.0149,0.0,508.3333
+name,Karacaağaç-Oğlananası Yolu,1,0.0149,0.0,508.3333
+name,Karafatma Parkı,1,0.0149,0.0,508.3333
+name,Karakedi,1,0.0149,0.0,508.3333
+name,Karakuş Sokak,1,0.0149,0.0,508.3333
+name,Karataş Girişi,1,0.0149,0.0,508.3333
+name,Karataş Lisesi,1,0.0149,0.0,508.3333
+name,Karaçam Cd.,1,0.0149,0.0,508.3333
+name,Kardelen Parkı,1,0.0149,0.0,508.3333
+name,Karel Sk.,1,0.0149,0.0,508.3333
+name,Kars Halil Atilla İlköğretim,1,0.0149,0.0,508.3333
+name,Karsan Otokar Yetkili Bayii,1,0.0149,0.0,508.3333
+name,Kartal Makarna Fabrikasi,1,0.0149,0.0,508.3333
+name,Kartal Otel,1,0.0149,0.0,508.3333
+name,Karşıyaka Adliye Binası,1,0.0149,0.0,508.3333
+name,Karşıyaka Belediyesi Güneş Tarlası,1,0.0149,0.0,508.3333
+name,Karşıyaka Halk Eğitim Merkezi,1,0.0149,0.0,508.3333
+name,Karşıyaka Katlı Pazarı,1,0.0149,0.0,508.3333
+name,Karşıyaka Vapur İskelesi,1,0.0149,0.0,508.3333
+name,Karşıyaka İskele,1,0.0149,0.0,508.3333
+name,Karşıyaka İskele Tramway İstasyonu,1,0.0149,0.0,508.3333
+name,Karşıyaka-Alsancak,1,0.0149,0.0,508.3333
+name,Kasap Döner,1,0.0149,0.0,508.3333
+name,Kasımpatı,1,0.0149,0.0,508.3333
+name,Kauçuk Sokak,1,0.0149,0.0,508.3333
+name,Kavacık,1,0.0149,0.0,508.3333
+name,Kavaflar,1,0.0149,0.0,508.3333
+name,Kavaklıdere Sokak,1,0.0149,0.0,508.3333
+name,Kayadibi Mahallesi,1,0.0149,0.0,508.3333
+name,Kaybedenler kulübü,1,0.0149,0.0,508.3333
+name,Kaymaz Market,1,0.0149,0.0,508.3333
+name,Kaynaklar,1,0.0149,0.0,508.3333
+name,Kemal Usta,1,0.0149,0.0,508.3333
+name,Kemer Tren İstasyonu,1,0.0149,0.0,508.3333
+name,Kemeraltı Otopark,1,0.0149,0.0,508.3333
+name,Kendine Has,1,0.0149,0.0,508.3333
+name,Kent Asem Park Evleri,1,0.0149,0.0,508.3333
+name,Kent Ekmek,1,0.0149,0.0,508.3333
+name,Kent Ekmek Satış Büfesi Evka 4,1,0.0149,0.0,508.3333
+name,Kestelli,1,0.0149,0.0,508.3333
+name,Keykubat Sokak,1,0.0149,0.0,508.3333
+name,Kitapcı Başı,1,0.0149,0.0,508.3333
+name,Kocaçay,1,0.0149,0.0,508.3333
+name,Komatsu - Beşler İş Makinaları,1,0.0149,0.0,508.3333
+name,Komşu Kahve,1,0.0149,0.0,508.3333
+name,Konak Astsubay Orduevi,1,0.0149,0.0,508.3333
+name,Konak Kaymakamlığı,1,0.0149,0.0,508.3333
+name,Konak Mal Müdürlüğü,1,0.0149,0.0,508.3333
+name,Konak Perla Otel,1,0.0149,0.0,508.3333
+name,Konak Vapur İskelesi,1,0.0149,0.0,508.3333
+name,Kordon Döviz,1,0.0149,0.0,508.3333
+name,Kordon Otel Çankaya,1,0.0149,0.0,508.3333
+name,Kordonboyu,1,0.0149,0.0,508.3333
+name,Korku Apt.,1,0.0149,0.0,508.3333
+name,Koruma Orse Tekstil,1,0.0149,0.0,508.3333
+name,Koton,1,0.0149,0.0,508.3333
+name,Koçtaş,1,0.0149,0.0,508.3333
+name,Koşu,1,0.0149,0.0,508.3333
+name,Koşu Yolu,1,0.0149,0.0,508.3333
+name,Kubilay dijital,1,0.0149,0.0,508.3333
+name,Kurban pazarı yolu,1,0.0149,0.0,508.3333
+name,Kurtuluş,1,0.0149,0.0,508.3333
+name,Kurtuluş-İpek İşeri İlköğretim Okulu,1,0.0149,0.0,508.3333
+name,KÇÜ Yabancı Diller,1,0.0149,0.0,508.3333
+name,Köfteci Yusuf,1,0.0149,0.0,508.3333
+name,Köprü Eczanesi,1,0.0149,0.0,508.3333
+name,KörfezEğitim Uygulama Okulu ve İş Eğitim Merkezi,1,0.0149,0.0,508.3333
+name,Küçük Çiğli Deresi,1,0.0149,0.0,508.3333
+name,Kılıç Sk.,1,0.0149,0.0,508.3333
+name,Kıvanç Cd.,1,0.0149,0.0,508.3333
+name,LC Waikiki,1,0.0149,0.0,508.3333
+name,LG Brand Shop,1,0.0149,0.0,508.3333
+name,Laka Caddesi,1,0.0149,0.0,508.3333
+name,Laka Köyü Muhtarlığı,1,0.0149,0.0,508.3333
+name,Laka Köyü Yolu,1,0.0149,0.0,508.3333
+name,Laka Mahallesi Camii,1,0.0149,0.0,508.3333
+name,Laka Sadiye Erdemli İlkokulu,1,0.0149,0.0,508.3333
+name,Lala Tepe Cami,1,0.0149,0.0,508.3333
+name,Laleli,1,0.0149,0.0,508.3333
+name,Latife Hanım Köşkü,1,0.0149,0.0,508.3333
+name,Latife Hanım Sokağı,1,0.0149,0.0,508.3333
+name,Levent Cd.,1,0.0149,0.0,508.3333
+name,Leylak Sokak,1,0.0149,0.0,508.3333
+name,Lilyum Evleri,1,0.0149,0.0,508.3333
+name,Looks like 17 ruined buildings,1,0.0149,0.0,508.3333
+name,Lotus Çiğli Garaj Girişi,1,0.0149,0.0,508.3333
+name,METAŞ,1,0.0149,0.0,508.3333
+name,MRPAN,1,0.0149,0.0,508.3333
+name,Mac Fit,1,0.0149,0.0,508.3333
+name,Madalyon Sokak,1,0.0149,0.0,508.3333
+name,Mado,1,0.0149,0.0,508.3333
+name,Mahzar Zorlu Endüstri meslek Lisesi Öğretmen Eğitim Merkezi,1,0.0149,0.0,508.3333
+name,Manavkuyu Mahallesi Muhtarlığı,1,0.0149,0.0,508.3333
+name,Manolya Sokak,1,0.0149,0.0,508.3333
+name,Maraba Sokak,1,0.0149,0.0,508.3333
+name,Mareşal Fevzi Çakmak Sokağı,1,0.0149,0.0,508.3333
+name,Masaj Salonu,1,0.0149,0.0,508.3333
+name,Mavi,1,0.0149,0.0,508.3333
+name,Mavi Konut Sitesi,1,0.0149,0.0,508.3333
+name,Mavipark,1,0.0149,0.0,508.3333
+name,Mavişehir Tersane Tramvay Hattı,1,0.0149,0.0,508.3333
+name,Mayis Apt.,1,0.0149,0.0,508.3333
+name,Mağfel,1,0.0149,0.0,508.3333
+name,Medicana İzmir Hastanesi,1,0.0149,0.0,508.3333
+name,Megapol Tower,1,0.0149,0.0,508.3333
+name,Mehmet Akif Cami,1,0.0149,0.0,508.3333
+name,Mehmet Akif Ersoy Sosyal Bilimler Lisesi,1,0.0149,0.0,508.3333
+name,Mehmet Fotografcilik,1,0.0149,0.0,508.3333
+name,Meksika Sokak,1,0.0149,0.0,508.3333
+name,Melih Özakat Alsancak Primary School,1,0.0149,0.0,508.3333
+name,Melisa Sokak,1,0.0149,0.0,508.3333
+name,Meltem Sokak,1,0.0149,0.0,508.3333
+name,Menderes Belediyesi,1,0.0149,0.0,508.3333
+name,Menderes Cadde,1,0.0149,0.0,508.3333
+name,Menderes Kaymakamlığı,1,0.0149,0.0,508.3333
+name,Mercan Sk.,1,0.0149,0.0,508.3333
+name,Meresi,1,0.0149,0.0,508.3333
+name,Merkez Kütüphane,1,0.0149,0.0,508.3333
+name,Merna Arıtım,1,0.0149,0.0,508.3333
+name,Mersinli Merkez Camii,1,0.0149,0.0,508.3333
+name,Meshur Tavaci Recepusta 1978,1,0.0149,0.0,508.3333
+name,Metaş,1,0.0149,0.0,508.3333
+name,Mevlana Pide & Döner,1,0.0149,0.0,508.3333
+name,Mevlana Toplum ve Bilim Merkezi,1,0.0149,0.0,508.3333
+name,Mezarlık Ardı,1,0.0149,0.0,508.3333
+name,Mezarlık Başı,1,0.0149,0.0,508.3333
+name,Migros Jet,1,0.0149,0.0,508.3333
+name,Millangaz,1,0.0149,0.0,508.3333
+name,Millî Savunma Bakanlığı İzmir Asker Alma Bölge Başkanlığı,1,0.0149,0.0,508.3333
+name,Mimar Sinan And. Teknik And. Meslek Lisesi,1,0.0149,0.0,508.3333
+name,Mimoza,1,0.0149,0.0,508.3333
+name,Mint,1,0.0149,0.0,508.3333
+name,Miss Buse,1,0.0149,0.0,508.3333
+name,Miss Buse;Berk optik,1,0.0149,0.0,508.3333
+name,Mithatpaşa Parki,1,0.0149,0.0,508.3333
+name,Mogaz,1,0.0149,0.0,508.3333
+name,Moonlight Accesories,1,0.0149,0.0,508.3333
+name,Msd Haır Salon,1,0.0149,0.0,508.3333
+name,Mucibur Rahman Sokağı,1,0.0149,0.0,508.3333
+name,Mudo Store,1,0.0149,0.0,508.3333
+name,Murat Apt.,1,0.0149,0.0,508.3333
+name,Murat Eğitim Kurumları,1,0.0149,0.0,508.3333
+name,Myvia Park 414,1,0.0149,0.0,508.3333
+name,Mülk Apartmanı,1,0.0149,0.0,508.3333
+name,MİRET ÇARŞI KASAP,1,0.0149,0.0,508.3333
+name,NATO Land Command,1,0.0149,0.0,508.3333
+name,NBB,1,0.0149,0.0,508.3333
+name,NEC Oto,1,0.0149,0.0,508.3333
+name,Naime Tömek Lisesi,1,0.0149,0.0,508.3333
+name,Naldöken Mezarlığı,1,0.0149,0.0,508.3333
+name,Namazgah Hamami,1,0.0149,0.0,508.3333
+name,Namık Kemal High School,1,0.0149,0.0,508.3333
+name,Nar Sokak,1,0.0149,0.0,508.3333
+name,Narlıdere Atatürk Kültür Merkezi,1,0.0149,0.0,508.3333
+name,Narlıdere Halk Kütüphanesi,1,0.0149,0.0,508.3333
+name,Narlıdere Kapalı Pazar Alanı,1,0.0149,0.0,508.3333
+name,Naturalinn Restoran,1,0.0149,0.0,508.3333
+name,Naz Cafe,1,0.0149,0.0,508.3333
+name,Nazlıcan Sokak,1,0.0149,0.0,508.3333
+name,Nazım Hikmet Parkı,1,0.0149,0.0,508.3333
+name,Nebahat Alparslan Karadavut Anaokulu,1,0.0149,0.0,508.3333
+name,Nebahat Alparslan Karadavut İlkokulu,1,0.0149,0.0,508.3333
+name,Nebevi Cami,1,0.0149,0.0,508.3333
+name,Necat Hepkon Caddesi,1,0.0149,0.0,508.3333
+name,Nergiz Sokak,1,0.0149,0.0,508.3333
+name,Nihat Dağdelen Sokağı,1,0.0149,0.0,508.3333
+name,Nike,1,0.0149,0.0,508.3333
+name,No:35 Gayrimenkul,1,0.0149,0.0,508.3333
+name,Nükleer Bilimler Enstitüsü,1,0.0149,0.0,508.3333
+name,Okul Lojmanı,1,0.0149,0.0,508.3333
+name,Okul Sokak,1,0.0149,0.0,508.3333
+name,Okur Emlak,1,0.0149,0.0,508.3333
+name,Oleatrium Zeytin ve Zeytinyağı Tarihi Müzesi,1,0.0149,0.0,508.3333
+name,Olga Tırnak Alsancak,1,0.0149,0.0,508.3333
+name,Olimpik Yüzme Havuzu,1,0.0149,0.0,508.3333
+name,Olimpiyat Caddesi,1,0.0149,0.0,508.3333
+name,Ontan Bayraklı,1,0.0149,0.0,508.3333
+name,Onur,1,0.0149,0.0,508.3333
+name,Opet Bayraklı,1,0.0149,0.0,508.3333
+name,Opet Buca,1,0.0149,0.0,508.3333
+name,Opet Konak,1,0.0149,0.0,508.3333
+name,Optimum Outlet,1,0.0149,0.0,508.3333
+name,Orcan Sitesi Yeşil Alan,1,0.0149,0.0,508.3333
+name,Org. Nafiz Gürman Mah. Muhtarlığı,1,0.0149,0.0,508.3333
+name,Orion Eğitim Vakfı Özel Piri Reis İlköğretim Okulu,1,0.0149,0.0,508.3333
+name,Orkide Sokak,1,0.0149,0.0,508.3333
+name,Orkide İlkokulu,1,0.0149,0.0,508.3333
+name,Ortanca Sokak,1,0.0149,0.0,508.3333
+name,Osman Kibar Ortaokulu,1,0.0149,0.0,508.3333
+name,Osman Usta Antalya Borekcisi,1,0.0149,0.0,508.3333
+name,Osmangazi İlkokulu,1,0.0149,0.0,508.3333
+name,Otağ Sitesi,1,0.0149,0.0,508.3333
+name,Otağ Sitesi İç Yolu,1,0.0149,0.0,508.3333
+name,Oto Yıkama,1,0.0149,0.0,508.3333
+name,Otopark,1,0.0149,0.0,508.3333
+name,Ozan Abay Caddesi,1,0.0149,0.0,508.3333
+name,Ozan Sokak,1,0.0149,0.0,508.3333
+name,PTT Evka 4 Şubesi,1,0.0149,0.0,508.3333
+name,Pamukkale,1,0.0149,0.0,508.3333
+name,Pamukkale 9,1,0.0149,0.0,508.3333
+name,Pancar Organize Sanayi Bölgesi,1,0.0149,0.0,508.3333
+name,Pancar TM,1,0.0149,0.0,508.3333
+name,Papatya Çorba Pide Kebap,1,0.0149,0.0,508.3333
+name,Papaya Sokak,1,0.0149,0.0,508.3333
+name,Papaz Okulu,1,0.0149,0.0,508.3333
+name,Park Office Bayraklı,1,0.0149,0.0,508.3333
+name,Park inciraltı,1,0.0149,0.0,508.3333
+name,Park içi yol,1,0.0149,0.0,508.3333
+name,Park İnciraltı,1,0.0149,0.0,508.3333
+name,Park İçi Yol,1,0.0149,0.0,508.3333
+name,Park'en,1,0.0149,0.0,508.3333
+name,Parking Lot,1,0.0149,0.0,508.3333
+name,Parlak Ufuklar Anaokulu,1,0.0149,0.0,508.3333
+name,Pehlivanoğlu,1,0.0149,0.0,508.3333
+name,Penny Tobacco,1,0.0149,0.0,508.3333
+name,Penti,1,0.0149,0.0,508.3333
+name,Pet Shop Zoo Gross,1,0.0149,0.0,508.3333
+name,Pet Store,1,0.0149,0.0,508.3333
+name,Petkim Latife Hanım İlkokulu,1,0.0149,0.0,508.3333
+name,Peugeot,1,0.0149,0.0,508.3333
+name,Philips Siemens,1,0.0149,0.0,508.3333
+name,Pir Sultan Abdal Parkı,1,0.0149,0.0,508.3333
+name,Piyale Fabrikası (Eski),1,0.0149,0.0,508.3333
+name,Platin Sitesi,1,0.0149,0.0,508.3333
+name,Play Box cafe & Oyun Dunyasi,1,0.0149,0.0,508.3333
+name,Point Bornova,1,0.0149,0.0,508.3333
+name,Prestij Evleri,1,0.0149,0.0,508.3333
+name,Prof. Dr. Fazıl Apaydın,1,0.0149,0.0,508.3333
+name,Prof. Dr. Türkan Saylan Cd.,1,0.0149,0.0,508.3333
+name,Psikiyatrist Arzu Erkan Yüce,1,0.0149,0.0,508.3333
+name,Pump Waffle,1,0.0149,0.0,508.3333
+name,Pınar Cd.,1,0.0149,0.0,508.3333
+name,Pınarbaşı Çocuk Mezarlığı,1,0.0149,0.0,508.3333
+name,Pırlanta Sitesi,1,0.0149,0.0,508.3333
+name,R.Lütfü Aksungur Sokak,1,0.0149,0.0,508.3333
+name,Radar Üssü,1,0.0149,0.0,508.3333
+name,Rakım Erkutlu Caddesi,1,0.0149,0.0,508.3333
+name,Rakım Erkutlu Ortaokulu,1,0.0149,0.0,508.3333
+name,Rasime Şeyhoğlu Sokağı,1,0.0149,0.0,508.3333
+name,Real Platin,1,0.0149,0.0,508.3333
+name,Recep Bey Sokak,1,0.0149,0.0,508.3333
+name,Refik Şevket İnce Mahallesi,1,0.0149,0.0,508.3333
+name,Rektörlük,1,0.0149,0.0,508.3333
+name,Rekörlük,1,0.0149,0.0,508.3333
+name,Remzi Bey,1,0.0149,0.0,508.3333
+name,Renault Ermat,1,0.0149,0.0,508.3333
+name,Renault Mais,1,0.0149,0.0,508.3333
+name,Residence,1,0.0149,0.0,508.3333
+name,Road,1,0.0149,0.0,508.3333
+name,Roka Fırın Cafe,1,0.0149,0.0,508.3333
+name,Romanian Consulate,1,0.0149,0.0,508.3333
+name,Rüştü Şardağ Caddesi,1,0.0149,0.0,508.3333
+name,S. Abdullah Eymur Sokak,1,0.0149,0.0,508.3333
+name,SOSYAL HİZMETLER,1,0.0149,0.0,508.3333
+name,Sabri Hakkı Ulukartal Anaokulu,1,0.0149,0.0,508.3333
+name,Sadri Alışık Sokak,1,0.0149,0.0,508.3333
+name,Saffet Baba Sokak,1,0.0149,0.0,508.3333
+name,Sahil Dinlenme Alanı İnşaatı,1,0.0149,0.0,508.3333
+name,Saint Joseph Fransız Lisesi,1,0.0149,0.0,508.3333
+name,Saint Polycarpe Kilisesi,1,0.0149,0.0,508.3333
+name,Saiç Çıkrıkçı Caddesi,1,0.0149,0.0,508.3333
+name,Sakiz Adasi,1,0.0149,0.0,508.3333
+name,Sakıpağa Dönerevi,1,0.0149,0.0,508.3333
+name,Salah Birsel Sokağı,1,0.0149,0.0,508.3333
+name,Salih İşgören İlköğretim Okulu,1,0.0149,0.0,508.3333
+name,Salkım Sk.,1,0.0149,0.0,508.3333
+name,Saltuk Buğra Han Caddesi,1,0.0149,0.0,508.3333
+name,Samibey Pasajı,1,0.0149,0.0,508.3333
+name,Samim Kara,1,0.0149,0.0,508.3333
+name,Sanayi,1,0.0149,0.0,508.3333
+name,Sancak Cami,1,0.0149,0.0,508.3333
+name,Sancak Camii,1,0.0149,0.0,508.3333
+name,Sancaklı,1,0.0149,0.0,508.3333
+name,Saraydamları Camii,1,0.0149,0.0,508.3333
+name,Saraydamı Gözleme Kahvalti Ve Ev Yemekleri,1,0.0149,0.0,508.3333
+name,Sarmaşık,1,0.0149,0.0,508.3333
+name,Sasalı,1,0.0149,0.0,508.3333
+name,Satuk Buğra Han Caddesi,1,0.0149,0.0,508.3333
+name,Sağın Sitesi,1,0.0149,0.0,508.3333
+name,Seda Sokak,1,0.0149,0.0,508.3333
+name,Seferihisar Kabristanı,1,0.0149,0.0,508.3333
+name,Selgeçen İş Merkezi,1,0.0149,0.0,508.3333
+name,Selimiye Camii,1,0.0149,0.0,508.3333
+name,Selma Yiğitalp Lisesi,1,0.0149,0.0,508.3333
+name,Semra Aksu Caddesi,1,0.0149,0.0,508.3333
+name,Semt Garajı,1,0.0149,0.0,508.3333
+name,Sentes-BİR A.Ş.,1,0.0149,0.0,508.3333
+name,Serhat Camii,1,0.0149,0.0,508.3333
+name,Serki,1,0.0149,0.0,508.3333
+name,Servet Fırını,1,0.0149,0.0,508.3333
+name,Servet Sokak,1,0.0149,0.0,508.3333
+name,Serçe Sokak,1,0.0149,0.0,508.3333
+name,Sevimler Kuruyemiş & Market,1,0.0149,0.0,508.3333
+name,Seyfi Demirsoy Eğitim ve Araştırma Hastanesi,1,0.0149,0.0,508.3333
+name,Seyhan Apartmanı,1,0.0149,0.0,508.3333
+name,Seyhankent Sitesi,1,0.0149,0.0,508.3333
+name,Seyidoglu Market,1,0.0149,0.0,508.3333
+name,Seyit Şanlı Anadolu Endüstri Meslek Lisesi,1,0.0149,0.0,508.3333
+name,Seyit Şanlı Endüstri Meslek Lisesi,1,0.0149,0.0,508.3333
+name,Seyit Şanlı Kapalı Pazaryeri,1,0.0149,0.0,508.3333
+name,Seyitoğlu AVM,1,0.0149,0.0,508.3333
+name,Sezen Sitesi,1,0.0149,0.0,508.3333
+name,Shoe Renewal,1,0.0149,0.0,508.3333
+name,Siesta Konutları,1,0.0149,0.0,508.3333
+name,Siesta Konutları Yolu,1,0.0149,0.0,508.3333
+name,Sigacik Kalesi,1,0.0149,0.0,508.3333
+name,Sindibad (Falafelrestaurant),1,0.0149,0.0,508.3333
+name,Site İç Yolu,1,0.0149,0.0,508.3333
+name,Smyrna Park,1,0.0149,0.0,508.3333
+name,Smyrna Sitesi,1,0.0149,0.0,508.3333
+name,Solady,1,0.0149,0.0,508.3333
+name,Soner Camii,1,0.0149,0.0,508.3333
+name,Soobe,1,0.0149,0.0,508.3333
+name,Soral Gayrimenkul,1,0.0149,0.0,508.3333
+name,Sosyal Bilimler Enstitüsü,1,0.0149,0.0,508.3333
+name,Soyak,1,0.0149,0.0,508.3333
+name,Soğucak İÖO,1,0.0149,0.0,508.3333
+name,Soğukkuyu Trafik,1,0.0149,0.0,508.3333
+name,St. John the Evangelist Kilisesi (Anglikan),1,0.0149,0.0,508.3333
+name,Stad,1,0.0149,0.0,508.3333
+name,Star Oyun Aletleri,1,0.0149,0.0,508.3333
+name,Strike Rite,1,0.0149,0.0,508.3333
+name,Su Ürünleri Fakültesi,1,0.0149,0.0,508.3333
+name,Subay Lojmanları,1,0.0149,0.0,508.3333
+name,Sude Market,1,0.0149,0.0,508.3333
+name,Sultaniye,1,0.0149,0.0,508.3333
+name,Sultaniye Köyü Yolu,1,0.0149,0.0,508.3333
+name,Sun Garden Cafe,1,0.0149,0.0,508.3333
+name,Sunucu Plaza,1,0.0149,0.0,508.3333
+name,Söğüt Blok,1,0.0149,0.0,508.3333
+name,Süleyman Bilgen İlköğretim Okulu,1,0.0149,0.0,508.3333
+name,Sümbül,1,0.0149,0.0,508.3333
+name,Sümerbank,1,0.0149,0.0,508.3333
+name,Sürat Kargo,1,0.0149,0.0,508.3333
+name,Süzbeyli köyü yolu,1,0.0149,0.0,508.3333
+name,Sıdıka Rodop Lisesi,1,0.0149,0.0,508.3333
+name,Sığacık,1,0.0149,0.0,508.3333
+name,Sığacık Deniz Hudut Kapısı,1,0.0149,0.0,508.3333
+name,Sığacık Yolu,1,0.0149,0.0,508.3333
+name,T.C. Bayraklı Belediyesi Mustafa Kemal Atatürk Spor Salonu,1,0.0149,0.0,508.3333
+name,TCDD 3. Bölge Bakım Kanalları,1,0.0149,0.0,508.3333
+name,TCDD Hilal TM,1,0.0149,0.0,508.3333
+name,TEB,1,0.0149,0.0,508.3333
+name,TEB Montrö Şubesi,1,0.0149,0.0,508.3333
+name,TEOS,1,0.0149,0.0,508.3333
+name,TPI Kompozit,1,0.0149,0.0,508.3333
+name,Takev Narlidere,1,0.0149,0.0,508.3333
+name,Taksi Durağı,1,0.0149,0.0,508.3333
+name,Tal Dış Tic.,1,0.0149,0.0,508.3333
+name,Tam Otomatik Alsancak Otoparkı,1,0.0149,0.0,508.3333
+name,Tansaş Çaymahallesi,1,0.0149,0.0,508.3333
+name,Tarihi Bornova Tren İstasyonu,1,0.0149,0.0,508.3333
+name,Tarihi Han,1,0.0149,0.0,508.3333
+name,Tarihi Çınaraltı Et Lokantası,1,0.0149,0.0,508.3333
+name,Taştan Kayık,1,0.0149,0.0,508.3333
+name,Taşıtlar Vergi Dairesi Bornova Şubesi,1,0.0149,0.0,508.3333
+name,Tefal,1,0.0149,0.0,508.3333
+name,Tek Ada Temel Lisesi,1,0.0149,0.0,508.3333
+name,Tekeli Sağlık Ocağı,1,0.0149,0.0,508.3333
+name,Teknosa Extra,1,0.0149,0.0,508.3333
+name,Teksif,1,0.0149,0.0,508.3333
+name,Tekzen,1,0.0149,0.0,508.3333
+name,Teleferik Kafe,1,0.0149,0.0,508.3333
+name,Teleferik Kır Bahçesi,1,0.0149,0.0,508.3333
+name,Temizeller Gayrimenkul,1,0.0149,0.0,508.3333
+name,Teos Emlak,1,0.0149,0.0,508.3333
+name,Teos Marina Girişi,1,0.0149,0.0,508.3333
+name,Teos marina,1,0.0149,0.0,508.3333
+name,Teos marina İçyolu,1,0.0149,0.0,508.3333
+name,Terbay,1,0.0149,0.0,508.3333
+name,Tersane Kafe,1,0.0149,0.0,508.3333
+name,There is collapsed buildings,1,0.0149,0.0,508.3333
+name,Toki C10 Blok,1,0.0149,0.0,508.3333
+name,Toki Site içi Otopark,1,0.0149,0.0,508.3333
+name,Toki Site içi Yol,1,0.0149,0.0,508.3333
+name,Toki Site İçi Otopark,1,0.0149,0.0,508.3333
+name,Tolga Sitesi,1,0.0149,0.0,508.3333
+name,Tolga Sokak,1,0.0149,0.0,508.3333
+name,Toplum Sağlığı Merkezi,1,0.0149,0.0,508.3333
+name,Toprak Mahsulleri Ofisi Silosu,1,0.0149,0.0,508.3333
+name,Torbalı Belediyesi,1,0.0149,0.0,508.3333
+name,Torbalı Organize Sanayi Yönetim,1,0.0149,0.0,508.3333
+name,Torbalı Spor Tesisleri,1,0.0149,0.0,508.3333
+name,Torbalı Yaşam Kampüsü,1,0.0149,0.0,508.3333
+name,Toros Parkı,1,0.0149,0.0,508.3333
+name,Trafik Tescil Şube Müdürlüğü ve Trafik Denetleme Şube Müdürlüğü,1,0.0149,0.0,508.3333
+name,Turan Caddesi,1,0.0149,0.0,508.3333
+name,Turkan Saylan,1,0.0149,0.0,508.3333
+name,Turkish-American Association,1,0.0149,0.0,508.3333
+name,Turkuaz Sokak,1,0.0149,0.0,508.3333
+name,Tuti & Hayalgraf Atölye,1,0.0149,0.0,508.3333
+name,Tutku Sitesi,1,0.0149,0.0,508.3333
+name,Tyche Cafe,1,0.0149,0.0,508.3333
+name,TÜVTÜRK Araç Muayene İstasyonu,1,0.0149,0.0,508.3333
+name,Tülay Aktaş Parkı,1,0.0149,0.0,508.3333
+name,Tülay Aktaş İşitme Engelliler İlkokulu,1,0.0149,0.0,508.3333
+name,Türk Dünyası Araştırmaları Enstitüsü,1,0.0149,0.0,508.3333
+name,Türk Telekom Aziz Dostum İletişim,1,0.0149,0.0,508.3333
+name,Türkan Saylan Kız Öğrenci Misafirhanesi,1,0.0149,0.0,508.3333
+name,Türkan Sitesi,1,0.0149,0.0,508.3333
+name,Türker Sokak,1,0.0149,0.0,508.3333
+name,Tınaztepe Galen Hastanesi,1,0.0149,0.0,508.3333
+name,Tınaztepe Hastanesi,1,0.0149,0.0,508.3333
+name,Tınaztepe Sosyal Tesisleri,1,0.0149,0.0,508.3333
+name,Tıp Fakültesi Kütüphane ve Derslikleri,1,0.0149,0.0,508.3333
+name,UNESCO Gençlik Parkı,1,0.0149,0.0,508.3333
+name,UPS,1,0.0149,0.0,508.3333
+name,Ufuk,1,0.0149,0.0,508.3333
+name,Uludağ Petrol,1,0.0149,0.0,508.3333
+name,Univercity Park,1,0.0149,0.0,508.3333
+name,Urla,1,0.0149,0.0,508.3333
+name,Urla TM - Alaçatı TM EİH,1,0.0149,0.0,508.3333
+name,Uslu Loft,1,0.0149,0.0,508.3333
+name,Uzun Hasan Sk.,1,0.0149,0.0,508.3333
+name,Uzundere Mezarlığı,1,0.0149,0.0,508.3333
+name,Uzundere TOKİ Evleri,1,0.0149,0.0,508.3333
+name,Uğur Mumcu Kültür Ve Sanat Merkezi,1,0.0149,0.0,508.3333
+name,Uğurum Eczanesi,1,0.0149,0.0,508.3333
+name,Vadi Sokak,1,0.0149,0.0,508.3333
+name,Vali Namık Kemal Şentürk İlköğretim Okulu,1,0.0149,0.0,508.3333
+name,Vali Rahmi Bey İlkokulu,1,0.0149,0.0,508.3333
+name,Vasıf Çınar Bulvarı,1,0.0149,0.0,508.3333
+name,Vatan Bilgisayar,1,0.0149,0.0,508.3333
+name,Verapol Plaza,1,0.0149,0.0,508.3333
+name,Vilayetler Evi,1,0.0149,0.0,508.3333
+name,Viven Life,1,0.0149,0.0,508.3333
+name,Vizecar,1,0.0149,0.0,508.3333
+name,Vişneli Köyü Yukarı Mah. Cami,1,0.0149,0.0,508.3333
+name,Vişneli İlkokulu,1,0.0149,0.0,508.3333
+name,Volvo,1,0.0149,0.0,508.3333
+name,Waffle'cı Akın,1,0.0149,0.0,508.3333
+name,YENİŞEHİR ECZANESİ,1,0.0149,0.0,508.3333
+name,Yabancı Diller Yüksekokulu,1,0.0149,0.0,508.3333
+name,Yamanlar Hayat Eczanesi,1,0.0149,0.0,508.3333
+name,Yamanlar Viyadüğü,1,0.0149,0.0,508.3333
+name,Yamaç,1,0.0149,0.0,508.3333
+name,Yamaç Yolu,1,0.0149,0.0,508.3333
+name,Yarendede Cd.,1,0.0149,0.0,508.3333
+name,Yatakhane,1,0.0149,0.0,508.3333
+name,Yavuz Et Ürünleri,1,0.0149,0.0,508.3333
+name,Yavuz Selim Ortaokulu,1,0.0149,0.0,508.3333
+name,Yavuz Selim İlkokulu,1,0.0149,0.0,508.3333
+name,Yavuz Selim İlköğretim Okulu,1,0.0149,0.0,508.3333
+name,Yazıbaşı,1,0.0149,0.0,508.3333
+name,Yaşar Aksoy Park,1,0.0149,0.0,508.3333
+name,Yaşar Üniversitesi,1,0.0149,0.0,508.3333
+name,Yeni Aydıner Eczanesi,1,0.0149,0.0,508.3333
+name,Yeni Camii,1,0.0149,0.0,508.3333
+name,Yenidoğan Kent Sitesi,1,0.0149,0.0,508.3333
+name,Yenidoğan Kent Sitesi Otoparkı,1,0.0149,0.0,508.3333
+name,Yenikale Caddesi,1,0.0149,0.0,508.3333
+name,Yenioba,1,0.0149,0.0,508.3333
+name,Yenişehir PTT,1,0.0149,0.0,508.3333
+name,Yenişehir İş Merkezi,1,0.0149,0.0,508.3333
+name,Yetkin Sokak,1,0.0149,0.0,508.3333
+name,Yeşil Cami Sokak,1,0.0149,0.0,508.3333
+name,Yeşildere,1,0.0149,0.0,508.3333
+name,Yeşilkent Sitesi,1,0.0149,0.0,508.3333
+name,Yeşilova Höyüğü,1,0.0149,0.0,508.3333
+name,Yeşilyurt Mezarlığı İç Yolu,1,0.0149,0.0,508.3333
+name,Yeşilçam Eczane,1,0.0149,0.0,508.3333
+name,Yiğit Sokak,1,0.0149,0.0,508.3333
+name,Yonca,1,0.0149,0.0,508.3333
+name,Yonca Sitesi,1,0.0149,0.0,508.3333
+name,Yonca Sokak,1,0.0149,0.0,508.3333
+name,Yosun Sk.,1,0.0149,0.0,508.3333
+name,Yurt İş Merkezi,1,0.0149,0.0,508.3333
+name,Yurtsever Caddesi,1,0.0149,0.0,508.3333
+name,Yusuf Ekinci Sokak,1,0.0149,0.0,508.3333
+name,Yuva Kemal Sitesi,1,0.0149,0.0,508.3333
+name,Yücel Yılmaz Apartmanı,1,0.0149,0.0,508.3333
+name,Yükseliş,1,0.0149,0.0,508.3333
+name,Yüzüncü Yıl İlkokulu,1,0.0149,0.0,508.3333
+name,Yıldırım Beyazıt İlköğretim Okulu,1,0.0149,0.0,508.3333
+name,Yıldırım Kemal Caddesi,1,0.0149,0.0,508.3333
+name,Yıldız Caddesi,1,0.0149,0.0,508.3333
+name,Yıldız Sk.,1,0.0149,0.0,508.3333
+name,Zambak Sokak,1,0.0149,0.0,508.3333
+name,Zara,1,0.0149,0.0,508.3333
+name,Zehra Hoca Hanım İlkokulu,1,0.0149,0.0,508.3333
+name,Zerek Petrol,1,0.0149,0.0,508.3333
+name,Ziegenweg,1,0.0149,0.0,508.3333
+name,Ziraat Fakültesi Lokali,1,0.0149,0.0,508.3333
+name,Ziya Gökalp Bulvarı,1,0.0149,0.0,508.3333
+name,Zübeyde Hanım Caddesi,1,0.0149,0.0,508.3333
+name,Zübeyde Hanım Mahallesi Muhtarlığı,1,0.0149,0.0,508.3333
+name,Zübeyde Hanım Tıp Merkezi,1,0.0149,0.0,508.3333
+name,aliris,1,0.0149,0.0,508.3333
+name,analiz Tibbi Tahlil. Laboratuvari,1,0.0149,0.0,508.3333
+name,antepli hakan usta,1,0.0149,0.0,508.3333
+name,aysa bosnak borekcisi,1,0.0149,0.0,508.3333
+name,babyboom,1,0.0149,0.0,508.3333
+name,baks,1,0.0149,0.0,508.3333
+name,big bus to çeşme,1,0.0149,0.0,508.3333
+name,cocuk parki,1,0.0149,0.0,508.3333
+name,denmar,1,0.0149,0.0,508.3333
+name,eflatun cafe,1,0.0149,0.0,508.3333
+name,gstore,1,0.0149,0.0,508.3333
+name,guna,1,0.0149,0.0,508.3333
+name,gümüldür,1,0.0149,0.0,508.3333
+name,house,1,0.0149,0.0,508.3333
+name,house/home,1,0.0149,0.0,508.3333
+name,"ideEge Teknoloji Geliştirme Bölgesi, inci binasi",1,0.0149,0.0,508.3333
+name,ikkkadın,1,0.0149,0.0,508.3333
+name,izmir Buyuksehir Belediyesi Alet,1,0.0149,0.0,508.3333
+name,izmir city library,1,0.0149,0.0,508.3333
+name,kadioglu Kafe,1,0.0149,0.0,508.3333
+name,kahve diyari,1,0.0149,0.0,508.3333
+name,konak,1,0.0149,0.0,508.3333
+name,m,1,0.0149,0.0,508.3333
+name,mini bus to Çeşme,1,0.0149,0.0,508.3333
+name,otubus duragi,1,0.0149,0.0,508.3333
+name,parlak ufuklar anaokulu,1,0.0149,0.0,508.3333
+name,pehlivanoglu,1,0.0149,0.0,508.3333
+name,penti,1,0.0149,0.0,508.3333
+name,piupizza,1,0.0149,0.0,508.3333
+name,pizza locale,1,0.0149,0.0,508.3333
+name,popcorn,1,0.0149,0.0,508.3333
+name,residental parking,1,0.0149,0.0,508.3333
+name,smart bilgisayar telefon ve güvenlik sistemleri,1,0.0149,0.0,508.3333
+name,tiffany and Co,1,0.0149,0.0,508.3333
+name,tobacco shop gift,1,0.0149,0.0,508.3333
+name,unclassified road,1,0.0149,0.0,508.3333
+name,Âşık Veysel Görme Engelliler İlkokulu ve Ortaokulu,1,0.0149,0.0,508.3333
+name,Âşık Veysel Rekreasyon Alanı,1,0.0149,0.0,508.3333
+name,Çakabey Okulları Sosyal Tesisler Binası,1,0.0149,0.0,508.3333
+name,Çakabey Okulları Yemekhaneleri,1,0.0149,0.0,508.3333
+name,Çakal Gölü,1,0.0149,0.0,508.3333
+name,Çalı Sk.,1,0.0149,0.0,508.3333
+name,Çam Apartmanı,1,0.0149,0.0,508.3333
+name,Çamdibi Sağlık Ocağı,1,0.0149,0.0,508.3333
+name,Çamici Caddesi,1,0.0149,0.0,508.3333
+name,Çamiçi Mahallesi,1,0.0149,0.0,508.3333
+name,Çamkıran Sitesi,1,0.0149,0.0,508.3333
+name,Çamlıkent Evleri,1,0.0149,0.0,508.3333
+name,Çamlıkule,1,0.0149,0.0,508.3333
+name,Çamlıpınar,1,0.0149,0.0,508.3333
+name,Çankaya Katlı Otoparkı ve Çarşısı,1,0.0149,0.0,508.3333
+name,Çarşı Cami,1,0.0149,0.0,508.3333
+name,Çatı Üstü Cemer Kent Ekipmanları Güneş Enerji Santrali,1,0.0149,0.0,508.3333
+name,Çatı Üstü Güneş Enerji Santrali,1,0.0149,0.0,508.3333
+name,Çay Caddesi,1,0.0149,0.0,508.3333
+name,Çaykur,1,0.0149,0.0,508.3333
+name,Çağlayan Market,1,0.0149,0.0,508.3333
+name,Çağlayan Sk.,1,0.0149,0.0,508.3333
+name,Çağlayan Sokak,1,0.0149,0.0,508.3333
+name,Çelik Market,1,0.0149,0.0,508.3333
+name,Çevik Bir Meydanı,1,0.0149,0.0,508.3333
+name,Çilek Sk.,1,0.0149,0.0,508.3333
+name,Çimentaş İzmir Çimento Fabrikası,1,0.0149,0.0,508.3333
+name,Çiğli 2. Ana Jet Üssü,1,0.0149,0.0,508.3333
+name,Çiğli Havaalanı,1,0.0149,0.0,508.3333
+name,Çiğli Hükümet Konağı,1,0.0149,0.0,508.3333
+name,Çiğli Kaymakamlığı,1,0.0149,0.0,508.3333
+name,Çiğli Sosyal Konutlar,1,0.0149,0.0,508.3333
+name,Çobanlar Narenciye,1,0.0149,0.0,508.3333
+name,Çok Amaçlı Spor Salonu,1,0.0149,0.0,508.3333
+name,Çolakoğlu Center,1,0.0149,0.0,508.3333
+name,Çolakoğlu Plaza,1,0.0149,0.0,508.3333
+name,Çukurbahçe Camii,1,0.0149,0.0,508.3333
+name,Çınar Sitesi,1,0.0149,0.0,508.3333
+name,Çınar Sokak,1,0.0149,0.0,508.3333
+name,Ömer Seyfettin Ana Sınıfı,1,0.0149,0.0,508.3333
+name,Ömer Seyfettin İlkokulu,1,0.0149,0.0,508.3333
+name,Ömer Özkan İlkokulu,1,0.0149,0.0,508.3333
+name,Örnekköy Mezarlığı,1,0.0149,0.0,508.3333
+name,Öz Yurt Sever İş Hanı,1,0.0149,0.0,508.3333
+name,Özdilek,1,0.0149,0.0,508.3333
+name,Özel Bizim Melekler anaokulu,1,0.0149,0.0,508.3333
+name,Özel Doğa Koleji,1,0.0149,0.0,508.3333
+name,Özel Emek YaşlıBakım ve Huzurevi,1,0.0149,0.0,508.3333
+name,Özel EntoKBB Cerrahi Tıp Merkezi,1,0.0149,0.0,508.3333
+name,Özel Hedef Akşam Lisesi,1,0.0149,0.0,508.3333
+name,Özel Karataş Hastanesi,1,0.0149,0.0,508.3333
+name,Özel Mavi İnci Anaokulu,1,0.0149,0.0,508.3333
+name,Özel Tevfik Fikret Lisesi,1,0.0149,0.0,508.3333
+name,Özel ÜNTAŞ Çamlık Anaokulu,1,0.0149,0.0,508.3333
+name,Özer Oto Elektrik,1,0.0149,0.0,508.3333
+name,Özgürlük Parkı,1,0.0149,0.0,508.3333
+name,Özkanlar PTT,1,0.0149,0.0,508.3333
+name,Özlem Apt.,1,0.0149,0.0,508.3333
+name,Özsüt,1,0.0149,0.0,508.3333
+name,Öztürk Mermer,1,0.0149,0.0,508.3333
+name,Öğrenci Köyü,1,0.0149,0.0,508.3333
+name,Ücyol,1,0.0149,0.0,508.3333
+name,Üniversite Caddesi,1,0.0149,0.0,508.3333
+name,Üniversite Camii,1,0.0149,0.0,508.3333
+name,Üniversite TM,1,0.0149,0.0,508.3333
+name,Üçkuyular Meydanı,1,0.0149,0.0,508.3333
+name,özkanlar 47,1,0.0149,0.0,508.3333
+name,İLÇE SAĞLIK MÜDÜRLÜĞÜ,1,0.0149,0.0,508.3333
+name,İTOB Organize Sanayi Bölgesi,1,0.0149,0.0,508.3333
+name,İTÜ Geliştirme Vakfı Okulları,1,0.0149,0.0,508.3333
+name,İZSU Su Satış İstasyonu,1,0.0149,0.0,508.3333
+name,İZYUVA,1,0.0149,0.0,508.3333
+name,İbrahim Ethem Caddesi,1,0.0149,0.0,508.3333
+name,İbrahim Galip Cd.,1,0.0149,0.0,508.3333
+name,İhsan Alyanak Kültür Merkezi,1,0.0149,0.0,508.3333
+name,İhsane Tuna Dırvacıoğlu Ortaokulu,1,0.0149,0.0,508.3333
+name,İhsane Tuna Dırvacıoğlu İlkokulu,1,0.0149,0.0,508.3333
+name,İktisadi ve İdari Bilimler Fakültesi (Dokuzçeşmeler Yerleşkesi),1,0.0149,0.0,508.3333
+name,İlahiyat Fakültesi A Blok,1,0.0149,0.0,508.3333
+name,İlahiyat Fakültesi Kafeteryası,1,0.0149,0.0,508.3333
+name,İlahiyat Fakültesi Kütüphanesi,1,0.0149,0.0,508.3333
+name,İmam Hatip Lisesi,1,0.0149,0.0,508.3333
+name,İnceoğlu,1,0.0149,0.0,508.3333
+name,İnciraltı Açık Hava Tiyatrosu,1,0.0149,0.0,508.3333
+name,İnönü Cadde,1,0.0149,0.0,508.3333
+name,İnönü Mah.,1,0.0149,0.0,508.3333
+name,İnönü Pazaryeri,1,0.0149,0.0,508.3333
+name,İsmail Cem Kültür Merkezi,1,0.0149,0.0,508.3333
+name,İsmail Hakkı Tonguç Sokak,1,0.0149,0.0,508.3333
+name,İstasyon Bornova,1,0.0149,0.0,508.3333
+name,İstiklal Caddesi,1,0.0149,0.0,508.3333
+name,İxora Alsancak,1,0.0149,0.0,508.3333
+name,İzban Mavişehir İstasyonu,1,0.0149,0.0,508.3333
+name,İzban Turan,1,0.0149,0.0,508.3333
+name,İzmir 7.Sanayi Sitesi,1,0.0149,0.0,508.3333
+name,İzmir Anadolu İmam Hatip Lisesi,1,0.0149,0.0,508.3333
+name,İzmir Anadolu İmam-Hatip Lisesi,1,0.0149,0.0,508.3333
+name,İzmir Caddesi,1,0.0149,0.0,508.3333
+name,İzmir Dalgakıranı,1,0.0149,0.0,508.3333
+name,İzmir Defterdarlığı,1,0.0149,0.0,508.3333
+name,İzmir Demokrasi Üniversitesi,1,0.0149,0.0,508.3333
+name,İzmir Devlet Tiyatrosu,1,0.0149,0.0,508.3333
+name,İzmir Fransız Kültür Merkezi,1,0.0149,0.0,508.3333
+name,İzmir Fuarı Otoparkı,1,0.0149,0.0,508.3333
+name,İzmir Hisar Anadolu İmam-Hatip Lisesi,1,0.0149,0.0,508.3333
+name,İzmir Katip Çelebi Üniversitesi Atatürk Eğitim ve Araştırma Hastanesi,1,0.0149,0.0,508.3333
+name,İzmir Kavram Yüksekokulu,1,0.0149,0.0,508.3333
+name,İzmir Kız Lisesi,1,0.0149,0.0,508.3333
+name,İzmir Mesleki Eğitim Merkezi,1,0.0149,0.0,508.3333
+name,İzmir Metro,1,0.0149,0.0,508.3333
+name,İzmir Metro İnşaat Şaftı,1,0.0149,0.0,508.3333
+name,İzmir OBM Heliportu,1,0.0149,0.0,508.3333
+name,İzmir Saat Kulesi,1,0.0149,0.0,508.3333
+name,İzmir Seferihisar Yolu,1,0.0149,0.0,508.3333
+name,İzmir Ticaret Odası,1,0.0149,0.0,508.3333
+name,İzmir Valiliği İç yolu,1,0.0149,0.0,508.3333
+name,İzmir İş Sanat Galerisi,1,0.0149,0.0,508.3333
+name,İzmirgaz A.Ş.,1,0.0149,0.0,508.3333
+name,İzsu Arıtma Tesisi,1,0.0149,0.0,508.3333
+name,İzyar,1,0.0149,0.0,508.3333
+name,İğdeli Cami,1,0.0149,0.0,508.3333
+name,İğdeli Sk.,1,0.0149,0.0,508.3333
+name,Şair Baki Sokak,1,0.0149,0.0,508.3333
+name,Şato Konukevi,1,0.0149,0.0,508.3333
+name,Şebboy Sokak,1,0.0149,0.0,508.3333
+name,Şehit Binbaşı Mahmut Şahin Sitesi,1,0.0149,0.0,508.3333
+name,Şehit Erkan Özcan Anadolu Lisesi,1,0.0149,0.0,508.3333
+name,Şehit Erol Olçok Anadolu İmam Hatip Lisesi,1,0.0149,0.0,508.3333
+name,Şehit Fethi Sekin Parkı,1,0.0149,0.0,508.3333
+name,Şehit Hakan Ünal Parkı,1,0.0149,0.0,508.3333
+name,Şehit Halit Taş Ortaokulu,1,0.0149,0.0,508.3333
+name,Şehit Harun Bağlam,1,0.0149,0.0,508.3333
+name,Şehit Mehmet Balıkçı Sokak,1,0.0149,0.0,508.3333
+name,Şehit Murat Aslantürk;Şehit Mustafa Aslantürk,1,0.0149,0.0,508.3333
+name,Şehit Mustafa Aslantürk;Şehit Murat Aslantürk,1,0.0149,0.0,508.3333
+name,Şehit Nevres Bulvarı,1,0.0149,0.0,508.3333
+name,Şehit Polis Kağan Kılıç Parkı,1,0.0149,0.0,508.3333
+name,Şehit Prof.Dr. İlhan Varank Anadolu İmam Hatip Lisesi,1,0.0149,0.0,508.3333
+name,Şehit Talha Carım Cd.,1,0.0149,0.0,508.3333
+name,Şehit Öğretmen Rabia Sevilay Durukan Anaokulu,1,0.0149,0.0,508.3333
+name,Şehit Üsteğmen Yunus Keskin Parkı,1,0.0149,0.0,508.3333
+name,Şehitler Camii,1,0.0149,0.0,508.3333
+name,Şemikler Lisesi,1,0.0149,0.0,508.3333
+name,Şerif Remzi Ortaokulu,1,0.0149,0.0,508.3333
+name,Şht. Piyade. Atğm. Bilal Çakırcalı Parkı,1,0.0149,0.0,508.3333
+name,Şifa Polikliniği,1,0.0149,0.0,508.3333
+name,Şirin Park,1,0.0149,0.0,508.3333
+name,Şirinyer Hipodromu At Bakım ve Barındırma Harası,1,0.0149,0.0,508.3333
+name,Şirinyer Karakol,1,0.0149,0.0,508.3333
+name,Şirinyer İstasyonu,1,0.0149,0.0,508.3333
+name,Şule Apartmanı,1,0.0149,0.0,508.3333
+name,Şükrü Karaduman Caddesi,1,0.0149,0.0,508.3333
+name,Şükrü Saracoğlu Caddesi,1,0.0149,0.0,508.3333
+name,Şükrü Şeher Erdil TML,1,0.0149,0.0,508.3333
+name,Şık Cafe,1,0.0149,0.0,508.3333
+name,Şımarık Meyhane,1,0.0149,0.0,508.3333
+natural,tree,209,47.6082,20800.0,127041.6667
+natural,wood,78,17.7677,7700.0,47350.0
+natural,water,62,14.123,6100.0,37616.6667
+natural,tree_row,42,9.5672,4100.0,25450.0
+natural,coastline,20,4.5558,1900.0,12066.6667
+natural,grassland,13,2.9613,1200.0,7808.3333
+natural,scrub,5,1.139,400.0,2941.6667
+natural,beach,4,0.9112,300.0,2333.3333
+natural,heath,3,0.6834,200.0,1725.0
+natural,cliff,2,0.4556,100.0,1116.6667
+natural,sand,1,0.2278,0.0,508.3333
+source,bing,754,36.5487,75300.0,458583.3333
+source,digitalglobe,453,21.9583,45200.0,275475.0
+source,maxar,233,11.2942,23200.0,141641.6667
+source,GPS,122,5.9137,12100.0,74116.6667
+source,Maxar Premium-Luftbilder (Beta),120,5.8168,11900.0,72900.0
+source,PGS,92,4.4595,9100.0,55866.6667
+source,Yahoo,76,3.684,7500.0,46133.3333
+source,Yahoo hires,59,2.8599,5800.0,35791.6667
+source,Bing,40,1.9389,3900.0,24233.3333
+source,survey,33,1.5996,3200.0,19975.0
+source,yahoo,22,1.0664,2100.0,13283.3333
+source,maxar Premium,13,0.6302,1200.0,7808.3333
+source,Landsat,8,0.3878,700.0,4766.6667
+source,Yellow Pages Türkiye,7,0.3393,600.0,4158.3333
+source,landsat,5,0.2424,400.0,2941.6667
+source,GPS;bing,4,0.1939,300.0,2333.3333
+source,mapbox,4,0.1939,300.0,2333.3333
+source,Landsat; bing,3,0.1454,200.0,1725.0
+source,Maxar,2,0.0969,100.0,1116.6667
+source,Wikipedia,2,0.0969,100.0,1116.6667
+source,www.citicarrental.com,2,0.0969,100.0,1116.6667
+source,Lakewalker / Landsat,1,0.0485,0.0,508.3333
+source,bing;Yahoo,1,0.0485,0.0,508.3333
+source,bing;digitalglobe,1,0.0485,0.0,508.3333
+source,http://kentrehberi.izmir.bel.tr/izmirkentrehberi,1,0.0485,0.0,508.3333
+source,http://www.izmir.bel.tr/Menu.asp?menuID=2035&MenuName=Bornova%20A%FE%FDk%20Veysel%20Rekreasyon%20Alan%FD%20ve%20Buz%20Pisti,1,0.0485,0.0,508.3333
+source,"local knowledge, bing",1,0.0485,0.0,508.3333
+source,local knowledge;http://www.izmirevtasimacilik.net,1,0.0485,0.0,508.3333
+source,wikipedia,1,0.0485,0.0,508.3333
+source,yercizenler,1,0.0485,0.0,508.3333
+surface,asphalt,543,71.0733,54200.0,330225.0
+surface,unpaved,110,14.3979,10900.0,66816.6667
+surface,paved,39,5.1047,3800.0,23625.0
+surface,cobblestone,25,3.2723,2400.0,15108.3333
+surface,paving_stones,23,3.0105,2200.0,13891.6667
+surface,dirt,9,1.178,800.0,5375.0
+surface,concrete,5,0.6545,400.0,2941.6667
+surface,gravel,3,0.3927,200.0,1725.0
+surface,dirt/sand,2,0.2618,100.0,1116.6667
+surface,earth,2,0.2618,100.0,1116.6667
+surface,ground,1,0.1309,0.0,508.3333
+surface,sett,1,0.1309,0.0,508.3333
+surface,stone,1,0.1309,0.0,508.3333
+waterway,stream,56,33.3333,5500.0,33966.6667
+waterway,canal,47,27.9762,4600.0,28491.6667
+waterway,drain,29,17.2619,2800.0,17541.6667
+waterway,river,16,9.5238,1500.0,9633.3333
+waterway,dam,11,6.5476,1000.0,6591.6667
+waterway,ditch,3,1.7857,200.0,1725.0
+waterway,riverbank,3,1.7857,200.0,1725.0
+waterway,boatyard,1,0.5952,0.0,508.3333
+waterway,seaport,1,0.5952,0.0,508.3333
+waterway,yes,1,0.5952,0.0,508.3333

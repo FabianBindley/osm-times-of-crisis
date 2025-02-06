@@ -1,11 +1,17 @@
 #!/bin/bash
 
-#RQ1 - Aggregate Counts
+LOGFILE="Scripts/run-everything.log"
+echo "\n\n" > "$LOGFILE"
+exec > >(tee -a "$LOGFILE") 2>&1  # Redirect stdout and stderr to the log file
+
+echo "Starting script execution at $(date)"
+echo "==================================="
+
 # Function to run a Python script and print its status
 run_script() {
     script_path=$1
-    echo "Running $script_path"
-    /Users/fabian/Documents/GitHub/osm-times-of-crisis/.venv/bin/python  $script_path
+    echo "Running $script_path at $(date)"
+    PYTHONUNBUFFERED=1 /Users/fabian/Documents/GitHub/osm-times-of-crisis/.venv/bin/python "$script_path"
 
     if [ $? -ne 0 ]; then
         echo "Script $script_path failed!"
@@ -14,6 +20,7 @@ run_script() {
     fi
     echo "----------------------------------"
 }
+
 
 # Double check data integrity 
 #run_script "scripts/database/db_bulk_insert.py"
@@ -31,7 +38,7 @@ run_script() {
 
 
 # Overall map count scripts
-#run_script "scripts/research_tools/count_changes/count_changes.py"
+run_script "scripts/research_tools/count_changes/count_changes.py"
 run_script "scripts/research_tools/count_changes/plot_count_changes.py"
 run_script "scripts/research_tools/count_changes/percent_difference.py"
 run_script scripts/"research_tools/count_changes/plot_percent_difference.py"

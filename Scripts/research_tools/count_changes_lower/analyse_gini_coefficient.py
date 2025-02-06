@@ -236,27 +236,28 @@ def plot_gini_coefficients(gini_df, resolution):
     plt.close()
 
 
-def plot_percent_difference_in_gini_coefficients(gini_df, resolution):
+def plot_percent_difference_in_gini_coefficients(gini_df, resolution, total_only):
 
     disaster_labels = gini_df.apply(
         lambda row: f"{row['disaster_area'][0]} ({row['disaster_date'].year})", axis=1
     )
 
-
-    creates_percent_difference_imm = gini_df["gini_count_creates_percent_difference_imm"]
-    edits_percent_difference_imm = gini_df["gini_count_edits_percent_difference_imm"]
-    deletes_percent_difference_imm = gini_df["gini_count_deletes_percent_difference_imm"]
+    if not total_only:
+        creates_percent_difference_imm = gini_df["gini_count_creates_percent_difference_imm"]
+        edits_percent_difference_imm = gini_df["gini_count_edits_percent_difference_imm"]
+        deletes_percent_difference_imm = gini_df["gini_count_deletes_percent_difference_imm"]
     total_percent_difference_imm = gini_df["gini_count_total_percent_difference_imm"]
 
-    creates_percent_difference_post = gini_df["gini_count_creates_percent_difference_post"]
-    edits_percent_difference_post = gini_df["gini_count_edits_percent_difference_post"]
-    deletes_percent_difference_post = gini_df["gini_count_deletes_percent_difference_post"]
+    if not total_only:
+        creates_percent_difference_post = gini_df["gini_count_creates_percent_difference_post"]
+        edits_percent_difference_post = gini_df["gini_count_edits_percent_difference_post"]
+        deletes_percent_difference_post = gini_df["gini_count_deletes_percent_difference_post"]
     total_percent_difference_post = gini_df["gini_count_total_percent_difference_post"]
 
     x = np.arange(len(disaster_labels))  
     width = 0.2  
 
-    fig, axes = plt.subplots(2, 1, figsize=(16, 12), sharex=True)
+    fig, axes = plt.subplots(2, 1, figsize=(12 if total_only else 18, 12), sharex=True)
 
     for axis in axes:
         axis.grid(which='major', color='black', linestyle='-', linewidth=0.5)
@@ -264,10 +265,10 @@ def plot_percent_difference_in_gini_coefficients(gini_df, resolution):
         axis.minorticks_on()
 
 
-
-    axes[0].bar(x - width*1.5, creates_percent_difference_imm, width, label="Creates", zorder=3)
-    axes[0].bar(x - width/2, edits_percent_difference_imm, width, label="Edits", zorder=3)
-    axes[0].bar(x + width/2, deletes_percent_difference_imm, width, label="Deletes", zorder=3)
+    if not total_only:
+        axes[0].bar(x - width*1.5, creates_percent_difference_imm, width, label="Creates", zorder=3)
+        axes[0].bar(x - width/2, edits_percent_difference_imm, width, label="Edits", zorder=3)
+        axes[0].bar(x + width/2, deletes_percent_difference_imm, width, label="Deletes", zorder=3)
     axes[0].bar(x + width*1.5, total_percent_difference_imm, width, label="Total", zorder=3)
 
     axes[0].set_ylabel("% Difference in Gini Coefficient Imm-Disaster")
@@ -275,10 +276,10 @@ def plot_percent_difference_in_gini_coefficients(gini_df, resolution):
     axes[0].tick_params(axis="x", bottom=True, top=False, labelbottom=True, labeltop=False)
 
 
-
-    axes[1].bar(x - width*1.5, creates_percent_difference_post, width, label="Creates", zorder=3)
-    axes[1].bar(x - width/2, edits_percent_difference_post, width, label="Edits", zorder=3)
-    axes[1].bar(x + width/2, deletes_percent_difference_post, width, label="Deletes", zorder=3)
+    if not total_only:
+        axes[1].bar(x - width*1.5, creates_percent_difference_post, width, label="Creates", zorder=3)
+        axes[1].bar(x - width/2, edits_percent_difference_post, width, label="Edits", zorder=3)
+        axes[1].bar(x + width/2, deletes_percent_difference_post, width, label="Deletes", zorder=3)
     axes[1].bar(x + width*1.5, total_percent_difference_post, width, label="Total", zorder=3)
 
     axes[1].set_ylabel("% Difference in Gini Coefficient Post-Disaster")
@@ -299,7 +300,7 @@ def plot_percent_difference_in_gini_coefficients(gini_df, resolution):
 
     # Adjust layout and save
     plt.tight_layout()
-    plt.savefig(f"./Results/ChangeDensityMapping/Summary/charts/gini_coefficients_percent_difference_imm_post_{resolution}.png", dpi=350)
+    plt.savefig(f"./Results/ChangeDensityMapping/Summary/charts/gini_coefficients_percent_difference_imm_post_{resolution}{"_total_only" if total_only else ""}.png", dpi=350)
     plt.close()
 
 
@@ -314,7 +315,7 @@ if __name__ == "__main__":
     gini_coefficients = []
 
     for disaster_day_tuple in disaster_days:
-        for disaster_id in range(1, 11):
+        for disaster_id in range(2, 13):
             for resolution in resolutions:
                 (_, disaster_country, disaster_area, disaster_geojson_encoded, disaster_date, disaster_h3_resolution) = db_utils.get_disaster_with_id(disaster_id)
                 pre_disaster_days, imm_disaster_days, post_disaster_days = disaster_day_tuple
@@ -359,4 +360,5 @@ if __name__ == "__main__":
     gini_df.to_csv("./Results/ChangeDensityMapping/Summary/data/gini_coefficients.csv", index=False)
 
     plot_gini_coefficients(gini_df, resolution)
-    plot_percent_difference_in_gini_coefficients(gini_df, resolution)
+    plot_percent_difference_in_gini_coefficients(gini_df, resolution, total_only=False)
+    plot_percent_difference_in_gini_coefficients(gini_df, resolution, total_only=True)

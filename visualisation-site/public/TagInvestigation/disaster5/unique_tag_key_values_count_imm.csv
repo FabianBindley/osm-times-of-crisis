@@ -1,787 +1,1296 @@
 key,value,count,percent_of_total_changes_for_key,percent_difference_from_pre,percent_difference_from_pre_day
-amenity,school,53,25.8537,5200.0,64383.3333
-amenity,place_of_worship,23,11.2195,2200.0,27883.3333
-amenity,hospital,22,10.7317,2100.0,26666.6667
-amenity,pharmacy,17,8.2927,1600.0,20583.3333
-amenity,money_transfer,13,6.3415,1200.0,15716.6667
-amenity,fuel,9,4.3902,800.0,10850.0
-amenity,clinic,8,3.9024,700.0,9633.3333
-amenity,bench,6,2.9268,500.0,7200.0
-amenity,waste_basket,6,2.9268,500.0,7200.0
-amenity,community_centre,5,2.439,400.0,5983.3333
-amenity,police,5,2.439,400.0,5983.3333
-amenity,parking,4,1.9512,300.0,4766.6667
-amenity,restaurant,4,1.9512,300.0,4766.6667
-amenity,car_rental;fuel,2,0.9756,100.0,2333.3333
-amenity,dentist,2,0.9756,100.0,2333.3333
-amenity,gambling,2,0.9756,100.0,2333.3333
-amenity,nightclub;bar;restaurant,2,0.9756,100.0,2333.3333
-amenity,post_office,2,0.9756,100.0,2333.3333
-amenity,public_building,2,0.9756,100.0,2333.3333
-amenity,refugee_site,2,0.9756,100.0,2333.3333
-amenity,studio,2,0.9756,100.0,2333.3333
-amenity,tap,2,0.9756,100.0,2333.3333
-amenity,townhall,2,0.9756,100.0,2333.3333
-amenity,bank,1,0.4878,0.0,1116.6667
-amenity,bar;restaurant,1,0.4878,0.0,1116.6667
-amenity,bus_station,1,0.4878,0.0,1116.6667
-amenity,canal,1,0.4878,0.0,1116.6667
-amenity,doctors,1,0.4878,0.0,1116.6667
-amenity,hostel,1,0.4878,0.0,1116.6667
-amenity,library,1,0.4878,0.0,1116.6667
-amenity,social_facility,1,0.4878,0.0,1116.6667
-amenity,toilets,1,0.4878,0.0,1116.6667
-amenity,vending_machine,1,0.4878,0.0,1116.6667
-building,yes,129933,99.3136,12993200.0,158085050.0
-building,construction,430,0.3287,42900.0,523066.6667
-building,house,326,0.2492,32500.0,396533.3333
-building,building,38,0.029,3700.0,46133.3333
-building,school,25,0.0191,2400.0,30316.6667
-building,church,12,0.0092,1100.0,14500.0
-building,Building,10,0.0076,900.0,12066.6667
-building,public,7,0.0054,600.0,8416.6667
-building,hospital,6,0.0046,500.0,7200.0
-building,residential,5,0.0038,400.0,5983.3333
-building,building_concrete,4,0.0031,300.0,4766.6667
-building,no,4,0.0031,300.0,4766.6667
-building,service,4,0.0031,300.0,4766.6667
-building,detached,3,0.0023,200.0,3550.0
-building,greenhouse,3,0.0023,200.0,3550.0
-building,roof,3,0.0023,200.0,3550.0
-building,ruins,3,0.0023,200.0,3550.0
-building,commercial,2,0.0015,100.0,2333.3333
-building,hut,2,0.0015,100.0,2333.3333
-building,retail,2,0.0015,100.0,2333.3333
-building,static_caravan,2,0.0015,100.0,2333.3333
-building,abandonet,1,0.0008,0.0,1116.6667
-building,chapel,1,0.0008,0.0,1116.6667
-building,construction3,1,0.0008,0.0,1116.6667
-building,edificio,1,0.0008,0.0,1116.6667
-building,hangar,1,0.0008,0.0,1116.6667
-building,shedq,1,0.0008,0.0,1116.6667
-building,taionyes,1,0.0008,0.0,1116.6667
-emergency,yes,2,66.6667,100.0,2333.3333
-emergency,emergency_ward_entrance,1,33.3333,0.0,1116.6667
-highway,unclassified,2115,39.3342,211400.0,2573150.0
-highway,track,949,17.6492,94800.0,1154516.6667
-highway,residential,888,16.5148,88700.0,1080300.0
-highway,path,870,16.18,86900.0,1058400.0
-highway,tertiary,154,2.8641,15300.0,187266.6667
-highway,service,135,2.5107,13400.0,164150.0
-highway,footway,101,1.8784,10000.0,122783.3333
-highway,secondary,58,1.0787,5700.0,70466.6667
-highway,street_lamp,34,0.6323,3300.0,41266.6667
-highway,primary,27,0.5021,2600.0,32750.0
-highway,road,11,0.2046,1000.0,13283.3333
-highway,steps,9,0.1674,800.0,10850.0
-highway,crossing,8,0.1488,700.0,9633.3333
-highway,bus_stop,4,0.0744,300.0,4766.6667
-highway,pedestrian,3,0.0558,200.0,3550.0
-highway,turning_loop,3,0.0558,200.0,3550.0
-highway,turning_circle,2,0.0372,100.0,2333.3333
-highway,yes,2,0.0372,100.0,2333.3333
-highway,give_way,1,0.0186,0.0,1116.6667
-highway,living_street,1,0.0186,0.0,1116.6667
-highway,motorway_junction,1,0.0186,0.0,1116.6667
-highway,stop,1,0.0186,0.0,1116.6667
-landuse,residential,568,83.2845,56700.0,690966.6667
-landuse,farmland,44,6.4516,4300.0,53433.3333
-landuse,forest,27,3.9589,2600.0,32750.0
-landuse,meadow,8,1.173,700.0,9633.3333
-landuse,cemetery,6,0.8798,500.0,7200.0
-landuse,allotments,4,0.5865,300.0,4766.6667
-landuse,construction,4,0.5865,300.0,4766.6667
-landuse,grass,4,0.5865,300.0,4766.6667
-landuse,industrial,3,0.4399,200.0,3550.0
-landuse,brownfield,2,0.2933,100.0,2333.3333
-landuse,commercial,2,0.2933,100.0,2333.3333
-landuse,grave_yard,2,0.2933,100.0,2333.3333
-landuse,basin,1,0.1466,0.0,1116.6667
-landuse,cultivated,1,0.1466,0.0,1116.6667
-landuse,farmyard,1,0.1466,0.0,1116.6667
-landuse,greenfield,1,0.1466,0.0,1116.6667
-landuse,orchard,1,0.1466,0.0,1116.6667
-landuse,plant_nursery,1,0.1466,0.0,1116.6667
-landuse,religious,1,0.1466,0.0,1116.6667
-landuse,retail,1,0.1466,0.0,1116.6667
-leisure,pitch,8,88.8889,700.0,9633.3333
-leisure,garden,1,11.1111,0.0,1116.6667
-name,Route Nationale # 2,22,2.3784,2100.0,26666.6667
-name,Masseillan,18,1.9459,1700.0,21800.0
-name,Rivière Pins,18,1.9459,1700.0,21800.0
-name,Route Départementale # 202,17,1.8378,1600.0,20583.3333
-name,Fond-des-Negres,15,1.6216,1400.0,18150.0
-name,Rivière Colongesse,14,1.5135,1300.0,16933.3333
-name,Riviere Berzeaud,12,1.2973,1100.0,14500.0
-name,Rivière Froide,11,1.1892,1000.0,13283.3333
-name,Route Départementale # 201,11,1.1892,1000.0,13283.3333
-name,Heberson paradis hotel,10,1.0811,900.0,12066.6667
-name,Rivière Dieujuste,10,1.0811,900.0,12066.6667
-name,Rivière Dose,9,0.973,800.0,10850.0
-name,Rivière Serpente,9,0.973,800.0,10850.0
-name,Route Départamentale,9,0.973,800.0,10850.0
-name,Ravine Desmarais,8,0.8649,700.0,9633.3333
-name,Ravine Sable,8,0.8649,700.0,9633.3333
-name,Route Bellevue,8,0.8649,700.0,9633.3333
-name,Rivière Lhomon,7,0.7568,600.0,8416.6667
-name,Rivière Pascal,7,0.7568,600.0,8416.6667
-name,house,7,0.7568,600.0,8416.6667
-name,Haiti Emergency Detour Road,6,0.6486,500.0,7200.0
-name,Ravine Citronier,6,0.6486,500.0,7200.0
-name,Ravine Darlimèe,6,0.6486,500.0,7200.0
-name,Ravinne Nèrette,6,0.6486,500.0,7200.0
-name,Rivière Mahot,6,0.6486,500.0,7200.0
-name,Riviere Pass Hermance,5,0.5405,400.0,5983.3333
-name,Rivière des Cotes de Fer,5,0.5405,400.0,5983.3333
-name,Route Départementale # 203,5,0.5405,400.0,5983.3333
-name,Route residentielle /Cite des Profeseurs,5,0.5405,400.0,5983.3333
-name,13,4,0.4324,300.0,4766.6667
-name,Bainbrigge Road,4,0.4324,300.0,4766.6667
-name,Commissariat de l'Asile,4,0.4324,300.0,4766.6667
-name,Digicel,4,0.4324,300.0,4766.6667
-name,Earthquake Service Road,4,0.4324,300.0,4766.6667
-name,Haiti highlawn square,4,0.4324,300.0,4766.6667
-name,Klassenraum,4,0.4324,300.0,4766.6667
-name,Plaisance,4,0.4324,300.0,4766.6667
-name,Ravine Dubois,4,0.4324,300.0,4766.6667
-name,Ravine Joucoulou,4,0.4324,300.0,4766.6667
-name,Rivière Bonne Fin,4,0.4324,300.0,4766.6667
-name,Rivière Mombin,4,0.4324,300.0,4766.6667
-name,Route fond Dupuy,4,0.4324,300.0,4766.6667
-name,Rue Bonne stream,4,0.4324,300.0,4766.6667
-name,Santo 14,4,0.4324,300.0,4766.6667
-name,مجیدیه,4,0.4324,300.0,4766.6667
-name,52,3,0.3243,200.0,3550.0
-name,Building,3,0.3243,200.0,3550.0
-name,CAL DE PAILLANT Hopital Notre Dame de la Victoire de Pailland,3,0.3243,200.0,3550.0
-name,De l'Eau Belloteste,3,0.3243,200.0,3550.0
-name,Impasse Sacré-Cœur,3,0.3243,200.0,3550.0
-name,Impasse Saint Louis,3,0.3243,200.0,3550.0
-name,Pa prese hotel,3,0.3243,200.0,3550.0
-name,Ravine Boisneau,3,0.3243,200.0,3550.0
-name,Ravine Mirand,3,0.3243,200.0,3550.0
-name,Ravinn Pascal,3,0.3243,200.0,3550.0
-name,Ravinn Sable,3,0.3243,200.0,3550.0
-name,Rivière Bois D'Orme,3,0.3243,200.0,3550.0
-name,Roro Dépot,3,0.3243,200.0,3550.0
-name,Route Colline à Mangon 63,3,0.3243,200.0,3550.0
-name,Route Nationale # 4,3,0.3243,200.0,3550.0
-name,Route Saint Grégoire,3,0.3243,200.0,3550.0
-name,Rue Dauphine,3,0.3243,200.0,3550.0
-name,Rue Moustapha,3,0.3243,200.0,3550.0
-name,Rue Radou 2,3,0.3243,200.0,3550.0
-name,Ruelle Gilnor Labady,3,0.3243,200.0,3550.0
-name,Santo 9A,3,0.3243,200.0,3550.0
-name,Spital Cord Injury Center,3,0.3243,200.0,3550.0
-name,St Jean Bosco,3,0.3243,200.0,3550.0
-name,casa,3,0.3243,200.0,3550.0
-name,École Nationale de l'Asile,3,0.3243,200.0,3550.0
-name,Îlet Palmier,3,0.3243,200.0,3550.0
-name,21,2,0.2162,100.0,2333.3333
-name,39,2,0.2162,100.0,2333.3333
-name,41,2,0.2162,100.0,2333.3333
-name,42,2,0.2162,100.0,2333.3333
-name,42A,2,0.2162,100.0,2333.3333
-name,44,2,0.2162,100.0,2333.3333
-name,61,2,0.2162,100.0,2333.3333
-name,Aly Studio Beaute,2,0.2162,100.0,2333.3333
-name,Association pour le Devéloppement de L'Asile des Nippes,2,0.2162,100.0,2333.3333
-name,Bois-L'etat,2,0.2162,100.0,2333.3333
-name,Burea Ant8,2,0.2162,100.0,2333.3333
-name,Bureau du Deputé Lemanne de la conscription de L'Asile,2,0.2162,100.0,2333.3333
-name,Centre Medical Jana,2,0.2162,100.0,2333.3333
-name,Depot Dieu Qui Donne,2,0.2162,100.0,2333.3333
-name,Ecole Nationale,2,0.2162,100.0,2333.3333
-name,Eglise de dieu L'Asile,2,0.2162,100.0,2333.3333
-name,Exode Seconday School,2,0.2162,100.0,2333.3333
-name,Gospel Pharma,2,0.2162,100.0,2333.3333
-name,Haiti Amazon Delivery Site,2,0.2162,100.0,2333.3333
-name,Haiti Injury Shelter,2,0.2162,100.0,2333.3333
-name,Haiti Rescue Site,2,0.2162,100.0,2333.3333
-name,High Garth,2,0.2162,100.0,2333.3333
-name,House,2,0.2162,100.0,2333.3333
-name,Hôpital Communautaire de référence de L'Asile,2,0.2162,100.0,2333.3333
-name,Impasse Cantave 2,2,0.2162,100.0,2333.3333
-name,Impasse Cantave 2a,2,0.2162,100.0,2333.3333
-name,Impasse Cantave Prolongee,2,0.2162,100.0,2333.3333
-name,Impasse Grand B,2,0.2162,100.0,2333.3333
-name,Impasse l'Union,2,0.2162,100.0,2333.3333
-name,Institution mixte la Bonne Semence,2,0.2162,100.0,2333.3333
-name,Juniper Close,2,0.2162,100.0,2333.3333
-name,Kafou Bellecia,2,0.2162,100.0,2333.3333
-name,Kafou Dabon,2,0.2162,100.0,2333.3333
-name,Lock House Lane,2,0.2162,100.0,2333.3333
-name,Louloune Market,2,0.2162,100.0,2333.3333
-name,Marie de L'Azile,2,0.2162,100.0,2333.3333
-name,Mecca Bingo,2,0.2162,100.0,2333.3333
-name,RC14-Baptiste,2,0.2162,100.0,2333.3333
-name,Ravine Ca Roche,2,0.2162,100.0,2333.3333
-name,Ravine Citron,2,0.2162,100.0,2333.3333
-name,Ravine Duillan,2,0.2162,100.0,2333.3333
-name,Ravine Morne Aquin,2,0.2162,100.0,2333.3333
-name,Ravine Tapay,2,0.2162,100.0,2333.3333
-name,Rivières des Baradères,2,0.2162,100.0,2333.3333
-name,Road,2,0.2162,100.0,2333.3333
-name,Road near Bernard,2,0.2162,100.0,2333.3333
-name,Roro Boutique,2,0.2162,100.0,2333.3333
-name,Roro Disco,2,0.2162,100.0,2333.3333
-name,Route Degaille,2,0.2162,100.0,2333.3333
-name,Route Milord,2,0.2162,100.0,2333.3333
-name,Rue Argentine,2,0.2162,100.0,2333.3333
-name,Rue Bellevue Palais-Roi,2,0.2162,100.0,2333.3333
-name,Rue Borga,2,0.2162,100.0,2333.3333
-name,Rue Camalla,2,0.2162,100.0,2333.3333
-name,Rue Capen,2,0.2162,100.0,2333.3333
-name,Rue Dorlean,2,0.2162,100.0,2333.3333
-name,Rue Duclesse,2,0.2162,100.0,2333.3333
-name,Rue Lavilette,2,0.2162,100.0,2333.3333
-name,Rue Lepcia Mathurin,2,0.2162,100.0,2333.3333
-name,Rue Louis,2,0.2162,100.0,2333.3333
-name,Rue Mass,2,0.2162,100.0,2333.3333
-name,Rue Nan Tifèy,2,0.2162,100.0,2333.3333
-name,Rue Valcius Bertrand,2,0.2162,100.0,2333.3333
-name,Rue de l'Hôpital,2,0.2162,100.0,2333.3333
-name,Ruelle Samuel,2,0.2162,100.0,2333.3333
-name,Río Dajabón,2,0.2162,100.0,2333.3333
-name,SSPE de Morisseaux,2,0.2162,100.0,2333.3333
-name,Santo 16A,2,0.2162,100.0,2333.3333
-name,Secours auto parts,2,0.2162,100.0,2333.3333
-name,St Joseph,2,0.2162,100.0,2333.3333
-name,St Lukes,2,0.2162,100.0,2333.3333
-name,Total,2,0.2162,100.0,2333.3333
-name,York Community Stadium Car Park,2,0.2162,100.0,2333.3333
-name,deye terrain,2,0.2162,100.0,2333.3333
-name,institut superieur de gestion ( i s g e a ),2,0.2162,100.0,2333.3333
-name,road,2,0.2162,100.0,2333.3333
-name,École Fondamentale d'Application Centre d'Appui Pédagogique de L'Asile,2,0.2162,100.0,2333.3333
-name,Île Picoulet,2,0.2162,100.0,2333.3333
-name,18,1,0.1081,0.0,1116.6667
-name,19,1,0.1081,0.0,1116.6667
-name,1ère-Ruelle St Antoine,1,0.1081,0.0,1116.6667
-name,20,1,0.1081,0.0,1116.6667
-name,22,1,0.1081,0.0,1116.6667
-name,23,1,0.1081,0.0,1116.6667
-name,24 Route Bouzi,1,0.1081,0.0,1116.6667
-name,25,1,0.1081,0.0,1116.6667
-name,27,1,0.1081,0.0,1116.6667
-name,40,1,0.1081,0.0,1116.6667
-name,43,1,0.1081,0.0,1116.6667
-name,45,1,0.1081,0.0,1116.6667
-name,46,1,0.1081,0.0,1116.6667
-name,47,1,0.1081,0.0,1116.6667
-name,48,1,0.1081,0.0,1116.6667
-name,49,1,0.1081,0.0,1116.6667
-name,50,1,0.1081,0.0,1116.6667
-name,51,1,0.1081,0.0,1116.6667
-name,53,1,0.1081,0.0,1116.6667
-name,54,1,0.1081,0.0,1116.6667
-name,56,1,0.1081,0.0,1116.6667
-name,59,1,0.1081,0.0,1116.6667
-name,71,1,0.1081,0.0,1116.6667
-name,Acceso a La Chaine,1,0.1081,0.0,1116.6667
-name,Administration Générale des Douanes,1,0.1081,0.0,1116.6667
-name,Administration Générale des Impôts,1,0.1081,0.0,1116.6667
-name,Air Port Industrial,1,0.1081,0.0,1116.6667
-name,Airport Industrial Park,1,0.1081,0.0,1116.6667
-name,Ambassade de France,1,0.1081,0.0,1116.6667
-name,Ambassade de Taiwan,1,0.1081,0.0,1116.6667
-name,Auberge de Carmagnol,1,0.1081,0.0,1116.6667
-name,Baptiste,1,0.1081,0.0,1116.6667
-name,Baquet,1,0.1081,0.0,1116.6667
-name,Bar/Restaurant,1,0.1081,0.0,1116.6667
-name,Baradères,1,0.1081,0.0,1116.6667
-name,Barwick Road,1,0.1081,0.0,1116.6667
-name,Bas-Camp,1,0.1081,0.0,1116.6667
-name,Beaudouin,1,0.1081,0.0,1116.6667
-name,Bellevue,1,0.1081,0.0,1116.6667
-name,Bentley Lane,1,0.1081,0.0,1116.6667
-name,Biston,1,0.1081,0.0,1116.6667
-name,Bondyela,1,0.1081,0.0,1116.6667
-name,Boulevard de la Liberté,1,0.1081,0.0,1116.6667
-name,Brecks Lane,1,0.1081,0.0,1116.6667
-name,Building 4,1,0.1081,0.0,1116.6667
-name,Building C,1,0.1081,0.0,1116.6667
-name,Building E,1,0.1081,0.0,1116.6667
-name,Bureau Régional Nord du CECI,1,0.1081,0.0,1116.6667
-name,Bélizor Bay Beach,1,0.1081,0.0,1116.6667
-name,CENTRE D'HEBERGEMENT TERRAIN VILLAM BETA,1,0.1081,0.0,1116.6667
-name,CENTRE DE SANTE ST JOSEPH,1,0.1081,0.0,1116.6667
-name,CENTRE MEDICAL DE MASEILLAN,1,0.1081,0.0,1116.6667
-name,CK HARDWARE,1,0.1081,0.0,1116.6667
-name,CLINIQUE MOBILE FHAPROMES,1,0.1081,0.0,1116.6667
-name,COMMUNAUTE DE MORNE BLANC DE PETITE RIVIERE DE NIPPES,1,0.1081,0.0,1116.6667
-name,CTC Mosson MSF Suisse,1,0.1081,0.0,1116.6667
-name,Camp Athletique D'haiti,1,0.1081,0.0,1116.6667
-name,Carrefour 44,1,0.1081,0.0,1116.6667
-name,Carrefour Duverger,1,0.1081,0.0,1116.6667
-name,Carrefour Timé,1,0.1081,0.0,1116.6667
-name,Castera Pharmacies,1,0.1081,0.0,1116.6667
-name,Cayes Sable,1,0.1081,0.0,1116.6667
-name,Centre,1,0.1081,0.0,1116.6667
-name,Centre Refugies Hatiens,1,0.1081,0.0,1116.6667
-name,"Centre de soin Nap Kenbe, MSF",1,0.1081,0.0,1116.6667
-name,Chapelle Saint-Eugene de Mazenod,1,0.1081,0.0,1116.6667
-name,Charpentier,1,0.1081,0.0,1116.6667
-name,City Walls,1,0.1081,0.0,1116.6667
-name,Cleveland Way,1,0.1081,0.0,1116.6667
-name,Clinique Dentaire Carvonis,1,0.1081,0.0,1116.6667
-name,Clinique Médicale de la Vigne,1,0.1081,0.0,1116.6667
-name,Coal Road,1,0.1081,0.0,1116.6667
-name,Cohens Chemist,1,0.1081,0.0,1116.6667
-name,College Classique de Morne Blanc,1,0.1081,0.0,1116.6667
-name,College Mixte Centre du Genie,1,0.1081,0.0,1116.6667
-name,College Mixte Freres Unis,1,0.1081,0.0,1116.6667
-name,College St.Marten,1,0.1081,0.0,1116.6667
-name,Complexe Médical Marguerite Liautaud,1,0.1081,0.0,1116.6667
-name,Contendor De La Pharisee De Fond De Blanc,1,0.1081,0.0,1116.6667
-name,Convent with guest house,1,0.1081,0.0,1116.6667
-name,Corine Pharmacie,1,0.1081,0.0,1116.6667
-name,DESSALINES HOSPITAL DESSALINES CLAIRE HEUREUSE,1,0.1081,0.0,1116.6667
-name,DHL,1,0.1081,0.0,1116.6667
-name,DISPENSAIRE DE JAVEL (FERME),1,0.1081,0.0,1116.6667
-name,Deluxe hotel bar resto,1,0.1081,0.0,1116.6667
-name,Dipson,1,0.1081,0.0,1116.6667
-name,Direction générale des Impôts,1,0.1081,0.0,1116.6667
-name,Dispensaire de Changeux,1,0.1081,0.0,1116.6667
-name,EFACAP de L'Asile,1,0.1081,0.0,1116.6667
-name,Eccles Close,1,0.1081,0.0,1116.6667
-name,Ecole Mixed Frere Passion,1,0.1081,0.0,1116.6667
-name,Ecole Normale D'instituteurs Vision Nouvelle,1,0.1081,0.0,1116.6667
-name,Ecole de la Renaissance,1,0.1081,0.0,1116.6667
-name,Eglise + ecole corp du Christ,1,0.1081,0.0,1116.6667
-name,Eglise Armee du Salut,1,0.1081,0.0,1116.6667
-name,Eglise Bethanie De Maniche,1,0.1081,0.0,1116.6667
-name,Eglise Catholique De Benie,1,0.1081,0.0,1116.6667
-name,Eglise Christiniste de Bidouze - MEC,1,0.1081,0.0,1116.6667
-name,Eglise Ministere Christ Ambassadeur,1,0.1081,0.0,1116.6667
-name,Eglise Wesleyenne Carrefour-Feuilles,1,0.1081,0.0,1116.6667
-name,Eglise de Dieu Sanctifie par la Grace,1,0.1081,0.0,1116.6667
-name,El Shadaï Pharmacie,1,0.1081,0.0,1116.6667
-name,Etang de Miragoane,1,0.1081,0.0,1116.6667
-name,FONDEPH - MARTISSANT,1,0.1081,0.0,1116.6667
-name,FOSREF- J. DE CARREFOUR FEUILLE,1,0.1081,0.0,1116.6667
-name,Faustin,1,0.1081,0.0,1116.6667
-name,Fond Tortue,1,0.1081,0.0,1116.6667
-name,Fondation Connaissance et Liberté (FOKAL),1,0.1081,0.0,1116.6667
-name,Fondation Mesidor,1,0.1081,0.0,1116.6667
-name,Gaslager,1,0.1081,0.0,1116.6667
-name,Grace A l'Eternel Boutique,1,0.1081,0.0,1116.6667
-name,Grande Rivière de Nippes,1,0.1081,0.0,1116.6667
-name,Haiti A,1,0.1081,0.0,1116.6667
-name,Haiti Amazon HR,1,0.1081,0.0,1116.6667
-name,Haiti Amazon Loss Prevention,1,0.1081,0.0,1116.6667
-name,Haiti Amazon Main Location,1,0.1081,0.0,1116.6667
-name,Haiti Amazon Maintance Building,1,0.1081,0.0,1116.6667
-name,Haiti Amazon Manager Building,1,0.1081,0.0,1116.6667
-name,Haiti Amazon Order Department,1,0.1081,0.0,1116.6667
-name,Haiti Amazon Pime Site,1,0.1081,0.0,1116.6667
-name,Haiti Amazon Prime Van Locaion,1,0.1081,0.0,1116.6667
-name,Haiti Amazon Problem Soving Location,1,0.1081,0.0,1116.6667
-name,Haiti Amazon Pud,1,0.1081,0.0,1116.6667
-name,Haiti Amazon Saftey Site,1,0.1081,0.0,1116.6667
-name,Haiti Amazon Self Deliverier Pick up,1,0.1081,0.0,1116.6667
-name,Haiti Amazon Shopper Location,1,0.1081,0.0,1116.6667
-name,Haiti Amazon Site,1,0.1081,0.0,1116.6667
-name,Haiti Amazon Tom Team,1,0.1081,0.0,1116.6667
-name,Haiti Amazon Truck Site,1,0.1081,0.0,1116.6667
-name,Haiti Amazon Worker Site,1,0.1081,0.0,1116.6667
-name,Haiti Burger Hut,1,0.1081,0.0,1116.6667
-name,Haiti Chicken and Wings,1,0.1081,0.0,1116.6667
-name,Haiti Emergency Clinic,1,0.1081,0.0,1116.6667
-name,Haiti Fire Station,1,0.1081,0.0,1116.6667
-name,Haiti Palntation Site,1,0.1081,0.0,1116.6667
-name,Haiti Pizza Hut,1,0.1081,0.0,1116.6667
-name,Haiti Police Station,1,0.1081,0.0,1116.6667
-name,Haiti Taco Shack,1,0.1081,0.0,1116.6667
-name,Haiti Tu Food,1,0.1081,0.0,1116.6667
-name,Hoilday Inn Express,1,0.1081,0.0,1116.6667
-name,Holmsley Lane,1,0.1081,0.0,1116.6667
-name,Hopital Lumière Bonne Fin,1,0.1081,0.0,1116.6667
-name,Horeb Pharmacie,1,0.1081,0.0,1116.6667
-name,House B,1,0.1081,0.0,1116.6667
-name,House C,1,0.1081,0.0,1116.6667
-name,House D,1,0.1081,0.0,1116.6667
-name,Howard Link,1,0.1081,0.0,1116.6667
-name,Hôpital de Petit Trou De Nippes,1,0.1081,0.0,1116.6667
-name,Impasse Amitie,1,0.1081,0.0,1116.6667
-name,Impasse Cantave 2b,1,0.1081,0.0,1116.6667
-name,Impasse Destin,1,0.1081,0.0,1116.6667
-name,Impasse Fontaine,1,0.1081,0.0,1116.6667
-name,Impasse MiKY,1,0.1081,0.0,1116.6667
-name,Impasse la Paix,1,0.1081,0.0,1116.6667
-name,Institut Haïtien de Statistique et d'Informatique (IHSI),1,0.1081,0.0,1116.6667
-name,Institution Mixte Maison De Marthe,1,0.1081,0.0,1116.6667
-name,Institution Rosalvo Bobo,1,0.1081,0.0,1116.6667
-name,Iver Close,1,0.1081,0.0,1116.6667
-name,Jacques 1er,1,0.1081,0.0,1116.6667
-name,Jonc Dodin,1,0.1081,0.0,1116.6667
-name,Joseph Pharmacie,1,0.1081,0.0,1116.6667
-name,Kafou,1,0.1081,0.0,1116.6667
-name,Kantine,1,0.1081,0.0,1116.6667
-name,Klinik Kay Timoun,1,0.1081,0.0,1116.6667
-name,Konak Meze Turkish Restaurant,1,0.1081,0.0,1116.6667
-name,Kvernhusbakken,1,0.1081,0.0,1116.6667
-name,L'eglise de Saint -Louis Roi de France de Cholètte,1,0.1081,0.0,1116.6667
-name,La Marie de Port Au Prince,1,0.1081,0.0,1116.6667
-name,Large house,1,0.1081,0.0,1116.6667
-name,Latibolière,1,0.1081,0.0,1116.6667
-name,Les Anglais,1,0.1081,0.0,1116.6667
-name,Louloune Bar,1,0.1081,0.0,1116.6667
-name,L’Ilet,1,0.1081,0.0,1116.6667
-name,MSF,1,0.1081,0.0,1116.6667
-name,MSPP,1,0.1081,0.0,1116.6667
-name,Magloire Ambroise,1,0.1081,0.0,1116.6667
-name,Man made feature,1,0.1081,0.0,1116.6667
-name,Marapharma,1,0.1081,0.0,1116.6667
-name,Marfranc,1,0.1081,0.0,1116.6667
-name,Mazenod,1,0.1081,0.0,1116.6667
-name,Medical Center,1,0.1081,0.0,1116.6667
-name,Medium House,1,0.1081,0.0,1116.6667
-name,Mexi,1,0.1081,0.0,1116.6667
-name,Monkgate,1,0.1081,0.0,1116.6667
-name,Mulberry Court,1,0.1081,0.0,1116.6667
-name,Mädchenwohnhaus 1,1,0.1081,0.0,1116.6667
-name,Médecins Sans Frontières (MSF),1,0.1081,0.0,1116.6667
-name,Mélinète,1,0.1081,0.0,1116.6667
-name,Métellus,1,0.1081,0.0,1116.6667
-name,Newlands Drive,1,0.1081,0.0,1116.6667
-name,Nouvou College Classique De Maniche,1,0.1081,0.0,1116.6667
-name,Number One,1,0.1081,0.0,1116.6667
-name,Obéissant,1,0.1081,0.0,1116.6667
-name,Office d'Etat Civil,1,0.1081,0.0,1116.6667
-name,Old Mill Lane,1,0.1081,0.0,1116.6667
-name,Palais du Parlement,1,0.1081,0.0,1116.6667
-name,Parking for CK Hardware,1,0.1081,0.0,1116.6667
-name,Paroisse de Bouzi,1,0.1081,0.0,1116.6667
-name,Parque ASCUM,1,0.1081,0.0,1116.6667
-name,Pestel,1,0.1081,0.0,1116.6667
-name,Pharmacie Propharmax,1,0.1081,0.0,1116.6667
-name,Pont Bellevue,1,0.1081,0.0,1116.6667
-name,Post office De Maniche,1,0.1081,0.0,1116.6667
-name,Poste Marchand,1,0.1081,0.0,1116.6667
-name,Primature,1,0.1081,0.0,1116.6667
-name,Primrose Lane,1,0.1081,0.0,1116.6667
-name,"Projet de Sous-station, Tabarre",1,0.1081,0.0,1116.6667
-name,Propriété Birotte,1,0.1081,0.0,1116.6667
-name,Propriété Dérosier,1,0.1081,0.0,1116.6667
-name,Propriété St Juste,1,0.1081,0.0,1116.6667
-name,Propriété W,1,0.1081,0.0,1116.6667
-name,R4,1,0.1081,0.0,1116.6667
-name,Ravin Dabon,1,0.1081,0.0,1116.6667
-name,Ravine,1,0.1081,0.0,1116.6667
-name,Ravine Bon Dos,1,0.1081,0.0,1116.6667
-name,Ravine Bononique,1,0.1081,0.0,1116.6667
-name,Ravine Drian,1,0.1081,0.0,1116.6667
-name,Ravine Masseillan,1,0.1081,0.0,1116.6667
-name,Ravine Salée,1,0.1081,0.0,1116.6667
-name,Ravine Ti Tabe,1,0.1081,0.0,1116.6667
-name,Ravine Tèt Sous,1,0.1081,0.0,1116.6667
-name,Ravinn Tapay,1,0.1081,0.0,1116.6667
-name,Riviere de Saint Louis,1,0.1081,0.0,1116.6667
-name,Rivière Brossard,1,0.1081,0.0,1116.6667
-name,Rivière Fond Gras,1,0.1081,0.0,1116.6667
-name,Rivière Vieux Bourg D'Aquin,1,0.1081,0.0,1116.6667
-name,Rivière de 4e section saint-Marc,1,0.1081,0.0,1116.6667
-name,Rivière des Roseaux,1,0.1081,0.0,1116.6667
-name,Romy family hotel bar resto,1,0.1081,0.0,1116.6667
-name,Ropers Court,1,0.1081,0.0,1116.6667
-name,Roro Complexe,1,0.1081,0.0,1116.6667
-name,Route Bouzi,1,0.1081,0.0,1116.6667
-name,Route Crasée,1,0.1081,0.0,1116.6667
-name,Route Du Christ,1,0.1081,0.0,1116.6667
-name,"Route K-boko, Babeau",1,0.1081,0.0,1116.6667
-name,Route Lon pré,1,0.1081,0.0,1116.6667
-name,Route Modèle-Ticoma,1,0.1081,0.0,1116.6667
-name,Route Mélinette,1,0.1081,0.0,1116.6667
-name,Route Nan Félix,1,0.1081,0.0,1116.6667
-name,Route Nationale # 7,1,0.1081,0.0,1116.6667
-name,Route de Grand Fond,1,0.1081,0.0,1116.6667
-name,Rue Alex Jean,1,0.1081,0.0,1116.6667
-name,Rue André Ville,1,0.1081,0.0,1116.6667
-name,Rue Apela,1,0.1081,0.0,1116.6667
-name,Rue Assé,1,0.1081,0.0,1116.6667
-name,Rue Bonne canal 1,1,0.1081,0.0,1116.6667
-name,Rue Capois,1,0.1081,0.0,1116.6667
-name,Rue Celina,1,0.1081,0.0,1116.6667
-name,Rue Chile,1,0.1081,0.0,1116.6667
-name,Rue Citronelle,1,0.1081,0.0,1116.6667
-name,Rue Coicou,1,0.1081,0.0,1116.6667
-name,Rue Desirette Cadet,1,0.1081,0.0,1116.6667
-name,Rue Dilhomme,1,0.1081,0.0,1116.6667
-name,Rue Félix Desrosin,1,0.1081,0.0,1116.6667
-name,Rue Josue,1,0.1081,0.0,1116.6667
-name,Rue Lavictoire,1,0.1081,0.0,1116.6667
-name,Rue Lucnert,1,0.1081,0.0,1116.6667
-name,Rue Malcom,1,0.1081,0.0,1116.6667
-name,Rue Meliane,1,0.1081,0.0,1116.6667
-name,Rue Mirand 01,1,0.1081,0.0,1116.6667
-name,Rue Mélinette,1,0.1081,0.0,1116.6667
-name,Rue Nicolas 55,1,0.1081,0.0,1116.6667
-name,Rue Pascal Best,1,0.1081,0.0,1116.6667
-name,Rue Perodin,1,0.1081,0.0,1116.6667
-name,Rue Simonet,1,0.1081,0.0,1116.6667
-name,Rue Tapay,1,0.1081,0.0,1116.6667
-name,Rue Thingousse,1,0.1081,0.0,1116.6667
-name,Rue Tifèy 2,1,0.1081,0.0,1116.6667
-name,Rue Toussaint,1,0.1081,0.0,1116.6667
-name,Rue Turling,1,0.1081,0.0,1116.6667
-name,Rue Vernaut,1,0.1081,0.0,1116.6667
-name,Rue du Nazaréen 57,1,0.1081,0.0,1116.6667
-name,Rue du Quai,1,0.1081,0.0,1116.6667
-name,Ruelle A. Ls Jeune,1,0.1081,0.0,1116.6667
-name,Ruelle Cressent Jean Baptiste,1,0.1081,0.0,1116.6667
-name,Ruelle La Paix,1,0.1081,0.0,1116.6667
-name,RuelleJoseph Saget,1,0.1081,0.0,1116.6667
-name,Résidence Dérosier,1,0.1081,0.0,1116.6667
-name,SSPE de L homond,1,0.1081,0.0,1116.6667
-name,Salagnac,1,0.1081,0.0,1116.6667
-name,Santo 12B,1,0.1081,0.0,1116.6667
-name,Savins Mill Way,1,0.1081,0.0,1116.6667
-name,Scotiabank,1,0.1081,0.0,1116.6667
-name,Seldon Road,1,0.1081,0.0,1116.6667
-name,Serafen,1,0.1081,0.0,1116.6667
-name,Sicklinghall Road,1,0.1081,0.0,1116.6667
-name,Simityè Nan Lundi,1,0.1081,0.0,1116.6667
-name,Small Home,1,0.1081,0.0,1116.6667
-name,Small House,1,0.1081,0.0,1116.6667
-name,Sol,1,0.1081,0.0,1116.6667
-name,Sol Babiole,1,0.1081,0.0,1116.6667
-name,Son bussiness,1,0.1081,0.0,1116.6667
-name,St Boniface Warehouse,1,0.1081,0.0,1116.6667
-name,St. Marie Madeine's Guest House,1,0.1081,0.0,1116.6667
-name,Station Total Bicentenaire,1,0.1081,0.0,1116.6667
-name,Station Total Rue Pavee,1,0.1081,0.0,1116.6667
-name,The Parish Church Hall,1,0.1081,0.0,1116.6667
-name,Trinité Collège,1,0.1081,0.0,1116.6667
-name,Télé Soleil,1,0.1081,0.0,1116.6667
-name,Unitransfer,1,0.1081,0.0,1116.6667
-name,Valas,1,0.1081,0.0,1116.6667
-name,Villa Court,1,0.1081,0.0,1116.6667
-name,Village FM,1,0.1081,0.0,1116.6667
-name,Walton Road,1,0.1081,0.0,1116.6667
-name,Waste Tank,1,0.1081,0.0,1116.6667
-name,Witham Drive,1,0.1081,0.0,1116.6667
-name,York Road,1,0.1081,0.0,1116.6667
-name,acceso a La Chaine,1,0.1081,0.0,1116.6667
-name,bellevue inter,1,0.1081,0.0,1116.6667
-name,building,1,0.1081,0.0,1116.6667
-name,cacoune bar boutique,1,0.1081,0.0,1116.6667
-name,college mixte jacques premier de marigot,1,0.1081,0.0,1116.6667
-name,dispensaire de bellevue,1,0.1081,0.0,1116.6667
-name,dispensaire de la croix,1,0.1081,0.0,1116.6667
-name,ecole,1,0.1081,0.0,1116.6667
-name,ecole communautaire de baguette,1,0.1081,0.0,1116.6667
-name,ecole communautaire de bellevue,1,0.1081,0.0,1116.6667
-name,ecole national de la croix,1,0.1081,0.0,1116.6667
-name,ecole nationale,1,0.1081,0.0,1116.6667
-name,ecole nationale de bellevue,1,0.1081,0.0,1116.6667
-name,ecole nationale de cholette,1,0.1081,0.0,1116.6667
-name,ecole normale superiure,1,0.1081,0.0,1116.6667
-name,ecole notre dame de la victoire,1,0.1081,0.0,1116.6667
-name,ecole saint marc,1,0.1081,0.0,1116.6667
-name,edificio,1,0.1081,0.0,1116.6667
-name,efacap,1,0.1081,0.0,1116.6667
-name,egise st dominique de marigot,1,0.1081,0.0,1116.6667
-name,eglise baptiste de sanai,1,0.1081,0.0,1116.6667
-name,eglise la coroix,1,0.1081,0.0,1116.6667
-name,el shadaï,1,0.1081,0.0,1116.6667
-name,hiking trail,1,0.1081,0.0,1116.6667
-name,impasse langloire,1,0.1081,0.0,1116.6667
-name,kafou Madan Thoby,1,0.1081,0.0,1116.6667
-name,msf,1,0.1081,0.0,1116.6667
-name,nicky baber shop,1,0.1081,0.0,1116.6667
-name,notre damme du mon carmel,1,0.1081,0.0,1116.6667
-name,route mineure,1,0.1081,0.0,1116.6667
-name,ruelle bas guerin,1,0.1081,0.0,1116.6667
-name,santo 12a,1,0.1081,0.0,1116.6667
-name,steet,1,0.1081,0.0,1116.6667
-name,unknown name,1,0.1081,0.0,1116.6667
-name,École Communautaire de Ladumette,1,0.1081,0.0,1116.6667
-name,École Fondamentale Complète de l'Asile,1,0.1081,0.0,1116.6667
-name,École Presbytérale,1,0.1081,0.0,1116.6667
-name,Église Baptiste,1,0.1081,0.0,1116.6667
-name,Église Catholique de Pochette,1,0.1081,0.0,1116.6667
-name,Église Saint Pierre des Baradères,1,0.1081,0.0,1116.6667
-natural,tree,182,47.3958,18100.0,221333.3333
-natural,coastline,93,24.2188,9200.0,113050.0
-natural,wood,29,7.5521,2800.0,35183.3333
-natural,water,25,6.5104,2400.0,30316.6667
-natural,scrub,15,3.9062,1400.0,18150.0
-natural,grassland,12,3.125,1100.0,14500.0
-natural,wetland,6,1.5625,500.0,7200.0
-natural,reef,5,1.3021,400.0,5983.3333
-natural,cliff,4,1.0417,300.0,4766.6667
-natural,sand,3,0.7812,200.0,3550.0
-natural,peak,2,0.5208,100.0,2333.3333
-natural,rock,2,0.5208,100.0,2333.3333
-natural,shrub,2,0.5208,100.0,2333.3333
-natural,tree_row,2,0.5208,100.0,2333.3333
-natural,bare_rock,1,0.2604,0.0,1116.6667
-natural,bay,1,0.2604,0.0,1116.6667
-source,bing,1147,34.0862,114600.0,1395416.6667
-source,Bing,304,9.0342,30300.0,369766.6667
-source,digitalglobe,244,7.2511,24300.0,296766.6667
-source,mapbox:ortho,222,6.5973,22100.0,270000.0
-source,Maxar 2021-08-14,157,4.6657,15600.0,190916.6667
-source,GeoEye,147,4.3685,14600.0,178750.0
-source,Mapbox,87,2.5854,8600.0,105750.0
-source,ikonos/geoeye,76,2.2585,7500.0,92366.6667
-source,DigitalGlobe,62,1.8425,6100.0,75333.3333
-source,"Google, 2010-01-21",62,1.8425,6100.0,75333.3333
-source,"Ikonos, GeoEye, 2010-01-15",59,1.7533,5800.0,71683.3333
-source,survey,46,1.367,4500.0,55866.6667
-source,maxar,41,1.2184,4000.0,49783.3333
-source,DMA TLM-50,36,1.0698,3500.0,43700.0
-source,hot_iom_cosmha,35,1.0401,3400.0,42483.3333
-source,"QuickBird, DigitalGlobe, 2006-12-07",34,1.0104,3300.0,41266.6667
-source,"Ikonos, GeoEye, 2010-01-17",28,0.8321,2700.0,33966.6667
-source,mapbox:digitalglobe,27,0.8024,2600.0,32750.0
-source,bing with offset,25,0.7429,2400.0,30316.6667
-source,digitalglobe;GeoEye,23,0.6835,2200.0,27883.3333
-source,Maxar 2021-08-15,21,0.6241,2000.0,25450.0
-source,maps.nypl.org/relief/maps/warp/18,18,0.5349,1700.0,21800.0
-source,"NOAA, 2010-01-20",16,0.4755,1500.0,19366.6667
-source,bing  with offset,16,0.4755,1500.0,19366.6667
-source,CNIGS/OIM/ FOCS,15,0.4458,1400.0,18150.0
-source,CNIGS/OIM/FOCS,15,0.4458,1400.0,18150.0
-source,"WorldView-2, DigitalGlobe, 2010-01-21",14,0.416,1300.0,16933.3333
-source,http://hypercube.telascience.org/tiles/1.0.0/haiti-tlm-50/!/!/!.jpg,14,0.416,1300.0,16933.3333
-source,"NOAA, 2010-01-24",12,0.3566,1100.0,14500.0
-source,landsat;bing,12,0.3566,1100.0,14500.0
-source,landsat,11,0.3269,1000.0,13283.3333
-source,DigialGlobe,10,0.2972,900.0,12066.6667
-source,Haiti 1:50k Topo,10,0.2972,900.0,12066.6667
-source,Ikonos-10-01-17,9,0.2675,800.0,10850.0
-source,digitalglobe;ikonos/geoeye;digitalglobe,9,0.2675,800.0,10850.0
-source,hot_c.osm-ha_iom,9,0.2675,800.0,10850.0
-source,Bing With Offset,8,0.2377,700.0,9633.3333
-source,GeoEye/GeoEye1-2010/01/16,8,0.2377,700.0,9633.3333
-source,mapbox.comdigitalglobeHurricaneMatthew,8,0.2377,700.0,9633.3333
-source,"DigitalGlobe;WorldView-2, DigitalGlobe, 2010-01-20",7,0.208,600.0,8416.6667
-source,Haitii 1:50k topo,7,0.208,600.0,8416.6667
-source,"Ikonos, GeoEye, 2010-01-14",7,0.208,600.0,8416.6667
-source,"WorldView-2, DigitalGlobe, 2010-01-20",7,0.208,600.0,8416.6667
-source,hot _c.osm-ha_iom,7,0.208,600.0,8416.6667
-source,CIA haiti-tlm-50,6,0.1783,500.0,7200.0
-source,"DigitalGlobe, 2010",6,0.1783,500.0,7200.0
-source,haiti best,6,0.1783,500.0,7200.0
-source,haiti best at teleatlas,6,0.1783,500.0,7200.0
-source,http://hypercube.telascience.org/tiles/1.0.0/geoeye-ikonos-20100115-900913/!/!/!.jpg,6,0.1783,500.0,7200.0
-source,iom_cosmha,6,0.1783,500.0,7200.0
-source,DigitalGlobe Premium,5,0.1486,400.0,5983.3333
-source,bing with offset_GPS traces,5,0.1486,400.0,5983.3333
-source,geoeye,5,0.1486,400.0,5983.3333
-source,haiti-tlm-50,5,0.1486,400.0,5983.3333
-source,landsat & Digital Globe,5,0.1486,400.0,5983.3333
-source,Bing Imagery 2016,4,0.1189,300.0,4766.6667
-source,Defense Mapping Agency (United States),4,0.1189,300.0,4766.6667
-source,Digital Globe 2015,4,0.1189,300.0,4766.6667
-source,"Ikonos, GeoEye, date 2010-01-14",4,0.1189,300.0,4766.6667
-source,"NOAA, 2008-01-21",4,0.1189,300.0,4766.6667
-source,"QuickBird, DigitalGlobe, 2006-12-07;Ikonos, GeoEye, 2010-01-17",4,0.1189,300.0,4766.6667
-source,"WorldView-2 and WorldView-3, DigitalGlobe, NextView, 23 Dec 2014 and 05 Jan 2015",4,0.1189,300.0,4766.6667
-source,cosmha_iom,4,0.1189,300.0,4766.6667
-source,geoeye20100116,4,0.1189,300.0,4766.6667
-source,hot_cosma_iom,4,0.1189,300.0,4766.6667
-source,hot_iom_c.osm-ha,4,0.1189,300.0,4766.6667
-source,Bing  with offset,3,0.0892,200.0,3550.0
-source,Bing with offset,3,0.0892,200.0,3550.0
-source,Digital Globe 2015 Saint Christophe Haiti,3,0.0892,200.0,3550.0
-source,GEOINT,3,0.0892,200.0,3550.0
-source,GPS-adjusted Bing,3,0.0892,200.0,3550.0
-source,Ikonos,3,0.0892,200.0,3550.0
-source,Spot5 mosaic,3,0.0892,200.0,3550.0
-source,"WorldBank, 2010-01-22",3,0.0892,200.0,3550.0
-source,WorldView2/DigitalGlobe/2010-01-21,3,0.0892,200.0,3550.0
-source,"digitalglobe, bing withoffset",3,0.0892,200.0,3550.0
-source,hot_cosmha_iom,3,0.0892,200.0,3550.0
-source,survey; Bing,3,0.0892,200.0,3550.0
-source,1:50k topo,2,0.0594,100.0,2333.3333
-source,BestMosaic,2,0.0594,100.0,2333.3333
-source,Bing  with offse,2,0.0594,100.0,2333.3333
-source,Bing;gps,2,0.0594,100.0,2333.3333
-source,Bing;survey,2,0.0594,100.0,2333.3333
-source,CCCM,2,0.0594,100.0,2333.3333
-source,CNIGS/OIM/ FOCS/OSM,2,0.0594,100.0,2333.3333
-source,COSMHA/CNIGS/OIM/FOCS,2,0.0594,100.0,2333.3333
-source,"DigitalGlobe;NOAA, 2010-01-20",2,0.0594,100.0,2333.3333
-source,GeoEye;WorldBank,2,0.0594,100.0,2333.3333
-source,"Ikonos & Digital Globe;ikonos-01-14 , haiti-tlm-50 , Digital Globe;ikonos/geoeye",2,0.0594,100.0,2333.3333
-source,"Ikonos, GeoEye, 2010/01/14",2,0.0594,100.0,2333.3333
-source,"NOAA, 2008-01-24",2,0.0594,100.0,2333.3333
-source,Survey-ARC,2,0.0594,100.0,2333.3333
-source,"WorldBank, 2010-01-24",2,0.0594,100.0,2333.3333
-source,bing:ortho,2,0.0594,100.0,2333.3333
-source,bing;local knowledge,2,0.0594,100.0,2333.3333
-source,bing;survey,2,0.0594,100.0,2333.3333
-source,"digitalglobe, Bing with offset",2,0.0594,100.0,2333.3333
-source,haiti tranasportation map ftp://haiti:Rkjpb7uef@157.150.195.135/Maps/Country%20wide/M2K5MOVV0801HAT40R_60X42.pdf,2,0.0594,100.0,2333.3333
-source,landsat & DigitalGlobe imagery,2,0.0594,100.0,2333.3333
-source,"1:100,000, 1961, The Lionel Pincus and Princess Firyal Map Division",1,0.0297,0.0,1116.6667
-source,"<différent>,UAV,IOM,COSMHA,SIGHA",1,0.0297,0.0,1116.6667
-source,"<différent>,UAV,IOM,COSMHA,SIGHA, Projet Canaan Pi Djanm Survey",1,0.0297,0.0,1116.6667
-source,Bing; DMA TLM-50,1,0.0297,0.0,1116.6667
-source,CIGS/OIM/FOCS,1,0.0297,0.0,1116.6667
-source,DMA Topo Map 50,1,0.0297,0.0,1116.6667
-source,"DigialGlobe, 2010",1,0.0297,0.0,1116.6667
-source,"DigitalGlobe, Bing with offset",1,0.0297,0.0,1116.6667
-source,DigitalGlobe;Bing with offset;bing with offeset,1,0.0297,0.0,1116.6667
-source,"DigitalGlobe;WorldView-2, DigitalGlobe, 2010-01-21",1,0.0297,0.0,1116.6667
-source,GPS-adjusted Bing; survey,1,0.0297,0.0,1116.6667
-source,GeoEye1 2010-01-16,1,0.0297,0.0,1116.6667
-source,GeoEye1 2010/01/16,1,0.0297,0.0,1116.6667
-source,GeoEye;DigitalGlobe,1,0.0297,0.0,1116.6667
-source,Geoeye,1,0.0297,0.0,1116.6667
-source,HOT_IOM_CHE116,1,0.0297,0.0,1116.6667
-source,Haitii 1:50k topo;digitalglobe,1,0.0297,0.0,1116.6667
-source,IOM_COSMHA,1,0.0297,0.0,1116.6667
-source,"Ikonos, GeoEye, 2010-01-14, haiti-tlm-50",1,0.0297,0.0,1116.6667
-source,"Ikonos, GeoEye, date (2010-01-27)",1,0.0297,0.0,1116.6667
-source,Kenol Thys / IDB,1,0.0297,0.0,1116.6667
-source,Maxar,1,0.0297,0.0,1116.6667
-source,NOAA,1,0.0297,0.0,1116.6667
-source,"NOAA, 2010-01-18",1,0.0297,0.0,1116.6667
-source,"NOAA, 2010-01-21",1,0.0297,0.0,1116.6667
-source,OS OpenData StreetView,1,0.0297,0.0,1116.6667
-source,PDCIA,1,0.0297,0.0,1116.6667
-source,"UAV,IOM_COSMHA_SIGHA",1,0.0297,0.0,1116.6667
-source,"WorldBank, 2010-01-2",1,0.0297,0.0,1116.6667
-source,"WorldView-2, 2010-01-17, Digital Globe",1,0.0297,0.0,1116.6667
-source,Yahoo hires,1,0.0297,0.0,1116.6667
-source,Yahoo_wms;bing;landsat;digitalglobe,1,0.0297,0.0,1116.6667
-source,b ing with offset,1,0.0297,0.0,1116.6667
-source,cnigslidar2015,1,0.0297,0.0,1116.6667
-source,cosmha,1,0.0297,0.0,1116.6667
-source,"digitalglobe;NOAA, 2010-01-22",1,0.0297,0.0,1116.6667
-source,"geoeye & WorldBank, 2010-01-22",1,0.0297,0.0,1116.6667
-source,gps,1,0.0297,0.0,1116.6667
-source,hot oim cosmha,1,0.0297,0.0,1116.6667
-source,hot_iom_che_116,1,0.0297,0.0,1116.6667
-source,hot_iom_coshma,1,0.0297,0.0,1116.6667
-source,hot_oim_cosmha,1,0.0297,0.0,1116.6667
-source,http://haiti.sahanafoundation.org/prod/hms/hospital,1,0.0297,0.0,1116.6667
-source,http://www.ambafrance-ht.org/,1,0.0297,0.0,1116.6667
-source,iom_c.osm-ha,1,0.0297,0.0,1116.6667
-source,knowledge,1,0.0297,0.0,1116.6667
-source,landsat & DigitalGlobe & Bing,1,0.0297,0.0,1116.6667
-source,local_knowledge,1,0.0297,0.0,1116.6667
-source,mapbox,1,0.0297,0.0,1116.6667
-source,survey; GPS-adjusted Bing,1,0.0297,0.0,1116.6667
-surface,unpaved,1074,73.8652,107300.0,1306600.0
-surface,ground,91,6.2586,9000.0,110616.6667
-surface,dirt,73,5.0206,7200.0,88716.6667
-surface,gravel,50,3.4388,4900.0,60733.3333
-surface,concrete:plates,39,2.6823,3800.0,47350.0
-surface,paved,39,2.6823,3800.0,47350.0
-surface,asphalt,38,2.6135,3700.0,46133.3333
-surface,compacted,21,1.4443,2000.0,25450.0
-surface,concrete,19,1.3067,1800.0,23016.6667
-surface,paving_stones,4,0.2751,300.0,4766.6667
-surface,mud,3,0.2063,200.0,3550.0
-surface,grass,2,0.1376,100.0,2333.3333
-surface,sand,1,0.0688,0.0,1116.6667
-waterway,stream,539,66.9565,53800.0,655683.3333
-waterway,river,253,31.4286,25200.0,307716.6667
-waterway,canal,5,0.6211,400.0,5983.3333
-waterway,ditch,5,0.6211,400.0,5983.3333
-waterway,drain,3,0.3727,200.0,3550.0
+amenity,school,73,26.259,7200.0,44308.3333
+amenity,place_of_worship,40,14.3885,3900.0,24233.3333
+amenity,hospital,25,8.9928,2400.0,15108.3333
+amenity,pharmacy,20,7.1942,1900.0,12066.6667
+amenity,money_transfer,13,4.6763,1200.0,7808.3333
+amenity,parking,10,3.5971,900.0,5983.3333
+amenity,fuel,9,3.2374,800.0,5375.0
+amenity,clinic,8,2.8777,700.0,4766.6667
+amenity,bench,6,2.1583,500.0,3550.0
+amenity,police,6,2.1583,500.0,3550.0
+amenity,restaurant,6,2.1583,500.0,3550.0
+amenity,waste_basket,6,2.1583,500.0,3550.0
+amenity,community_centre,5,1.7986,400.0,2941.6667
+amenity,bank,4,1.4388,300.0,2333.3333
+amenity,drinking_water,3,1.0791,200.0,1725.0
+amenity,marketplace,3,1.0791,200.0,1725.0
+amenity,public_building,3,1.0791,200.0,1725.0
+amenity,townhall,3,1.0791,200.0,1725.0
+amenity,bus_station,2,0.7194,100.0,1116.6667
+amenity,cafe,2,0.7194,100.0,1116.6667
+amenity,car_rental;fuel,2,0.7194,100.0,1116.6667
+amenity,dentist,2,0.7194,100.0,1116.6667
+amenity,gambling,2,0.7194,100.0,1116.6667
+amenity,nightclub;bar;restaurant,2,0.7194,100.0,1116.6667
+amenity,post_office,2,0.7194,100.0,1116.6667
+amenity,refugee_site,2,0.7194,100.0,1116.6667
+amenity,social_facility,2,0.7194,100.0,1116.6667
+amenity,studio,2,0.7194,100.0,1116.6667
+amenity,tap,2,0.7194,100.0,1116.6667
+amenity,atm,1,0.3597,0.0,508.3333
+amenity,bar;restaurant,1,0.3597,0.0,508.3333
+amenity,canal,1,0.3597,0.0,508.3333
+amenity,doctors,1,0.3597,0.0,508.3333
+amenity,hostel,1,0.3597,0.0,508.3333
+amenity,library,1,0.3597,0.0,508.3333
+amenity,place_of_worship;dentist,1,0.3597,0.0,508.3333
+amenity,shelter,1,0.3597,0.0,508.3333
+amenity,shelter_emergency,1,0.3597,0.0,508.3333
+amenity,toilets,1,0.3597,0.0,508.3333
+amenity,utc,1,0.3597,0.0,508.3333
+amenity,vending_machine,1,0.3597,0.0,508.3333
+amenity,waste_disposal,1,0.3597,0.0,508.3333
+building,yes,204031,99.4153,20403000.0,124118758.3333
+building,construction,529,0.2578,52800.0,321708.3333
+building,house,474,0.231,47300.0,288250.0
+building,building,38,0.0185,3700.0,23016.6667
+building,school,37,0.018,3600.0,22408.3333
+building,church,20,0.0097,1900.0,12066.6667
+building,public,13,0.0063,1200.0,7808.3333
+building,Building,10,0.0049,900.0,5983.3333
+building,building_concrete,8,0.0039,700.0,4766.6667
+building,commercial,8,0.0039,700.0,4766.6667
+building,ruins,8,0.0039,700.0,4766.6667
+building,hospital,7,0.0034,600.0,4158.3333
+building,retail,6,0.0029,500.0,3550.0
+building,service,6,0.0029,500.0,3550.0
+building,residential,5,0.0024,400.0,2941.6667
+building,no,4,0.0019,300.0,2333.3333
+building,roof,4,0.0019,300.0,2333.3333
+building,detached,3,0.0015,200.0,1725.0
+building,greenhouse,3,0.0015,200.0,1725.0
+building,hut,3,0.0015,200.0,1725.0
+building,industrial,2,0.001,100.0,1116.6667
+building,static_caravan,2,0.001,100.0,1116.6667
+building,abandonet,1,0.0005,0.0,508.3333
+building,chapel,1,0.0005,0.0,508.3333
+building,construction3,1,0.0005,0.0,508.3333
+building,edificio,1,0.0005,0.0,508.3333
+building,garage,1,0.0005,0.0,508.3333
+building,hangar,1,0.0005,0.0,508.3333
+building,office,1,0.0005,0.0,508.3333
+building,shed,1,0.0005,0.0,508.3333
+building,shedq,1,0.0005,0.0,508.3333
+building,taionyes,1,0.0005,0.0,508.3333
+emergency,yes,2,66.6667,100.0,1116.6667
+emergency,emergency_ward_entrance,1,33.3333,0.0,508.3333
+highway,unclassified,4156,38.9796,415500.0,2528133.3333
+highway,residential,1901,17.8297,190000.0,1156341.6667
+highway,track,1836,17.22,183500.0,1116800.0
+highway,path,1568,14.7064,156700.0,953766.6667
+highway,tertiary,281,2.6355,28000.0,170841.6667
+highway,footway,275,2.5793,27400.0,167191.6667
+highway,service,257,2.4104,25600.0,156241.6667
+highway,primary,112,1.0505,11100.0,68033.3333
+highway,secondary,104,0.9754,10300.0,63166.6667
+highway,road,50,0.469,4900.0,30316.6667
+highway,crossing,37,0.347,3600.0,22408.3333
+highway,street_lamp,35,0.3283,3400.0,21191.6667
+highway,pedestrian,11,0.1032,1000.0,6591.6667
+highway,steps,9,0.0844,800.0,5375.0
+highway,traffic_signals,6,0.0563,500.0,3550.0
+highway,bus_stop,4,0.0375,300.0,2333.3333
+highway,living_street,4,0.0375,300.0,2333.3333
+highway,give_way,3,0.0281,200.0,1725.0
+highway,turning_loop,3,0.0281,200.0,1725.0
+highway,motorway_junction,2,0.0188,100.0,1116.6667
+highway,turning_circle,2,0.0188,100.0,1116.6667
+highway,yes,2,0.0188,100.0,1116.6667
+highway,Highway,1,0.0094,0.0,508.3333
+highway,mini_roundabout,1,0.0094,0.0,508.3333
+highway,stop,1,0.0094,0.0,508.3333
+highway,toll_gantry,1,0.0094,0.0,508.3333
+landuse,residential,829,83.5685,82800.0,504208.3333
+landuse,farmland,77,7.7621,7600.0,46741.6667
+landuse,forest,34,3.4274,3300.0,20583.3333
+landuse,cemetery,9,0.9073,800.0,5375.0
+landuse,meadow,9,0.9073,800.0,5375.0
+landuse,construction,5,0.504,400.0,2941.6667
+landuse,industrial,5,0.504,400.0,2941.6667
+landuse,allotments,4,0.4032,300.0,2333.3333
+landuse,grass,4,0.4032,300.0,2333.3333
+landuse,commercial,3,0.3024,200.0,1725.0
+landuse,brownfield,2,0.2016,100.0,1116.6667
+landuse,grave_yard,2,0.2016,100.0,1116.6667
+landuse,basin,1,0.1008,0.0,508.3333
+landuse,cultivated,1,0.1008,0.0,508.3333
+landuse,farmyard,1,0.1008,0.0,508.3333
+landuse,greenfield,1,0.1008,0.0,508.3333
+landuse,orchard,1,0.1008,0.0,508.3333
+landuse,plant_nursery,1,0.1008,0.0,508.3333
+landuse,religious,1,0.1008,0.0,508.3333
+landuse,retail,1,0.1008,0.0,508.3333
+landuse,yes,1,0.1008,0.0,508.3333
+leisure,pitch,9,69.2308,800.0,5375.0
+leisure,park,3,23.0769,200.0,1725.0
+leisure,garden,1,7.6923,0.0,508.3333
+name,#DHL-AM #DHL #DHL21 #DHLCO,38,2.2714,3700.0,23016.6667
+name,Route Nationale # 7,36,2.1518,3500.0,21800.0
+name,Route Nationale # 2,33,1.9725,3200.0,19975.0
+name,Route Départementale # 203,20,1.1955,1900.0,12066.6667
+name,Masseillan,19,1.1357,1800.0,11458.3333
+name,Route Départementale # 202,19,1.1357,1800.0,11458.3333
+name,Rivière Pins,18,1.0759,1700.0,10850.0
+name,RC14-Baptiste,16,0.9564,1500.0,9633.3333
+name,Fond-des-Negres,15,0.8966,1400.0,9025.0
+name,#DHL-AM #DHL #DHL21,14,0.8368,1300.0,8416.6667
+name,Rivière Colongesse,14,0.8368,1300.0,8416.6667
+name,Route Nationale # 3,13,0.777,1200.0,7808.3333
+name,Riviere Berzeaud,12,0.7173,1100.0,7200.0
+name,Rivière Des Roseaux II,12,0.7173,1100.0,7200.0
+name,Route Départementale # 201,12,0.7173,1100.0,7200.0
+name,house,12,0.7173,1100.0,7200.0
+name,Ravine Dubois,11,0.6575,1000.0,6591.6667
+name,Rivière Froide,11,0.6575,1000.0,6591.6667
+name,Rivière des Cotes de Fer,11,0.6575,1000.0,6591.6667
+name,Heberson paradis hotel,10,0.5977,900.0,5983.3333
+name,Rivière Dieujuste,10,0.5977,900.0,5983.3333
+name,Route Nationale # 1,10,0.5977,900.0,5983.3333
+name,Rivière Dose,9,0.538,800.0,5375.0
+name,Rivière Serpente,9,0.538,800.0,5375.0
+name,Route Départamentale,9,0.538,800.0,5375.0
+name,Ravine Desmarais,8,0.4782,700.0,4766.6667
+name,Ravine Sable,8,0.4782,700.0,4766.6667
+name,Rivière Glace,8,0.4782,700.0,4766.6667
+name,Route Bellevue,8,0.4782,700.0,4766.6667
+name,Route Nationale # 5,8,0.4782,700.0,4766.6667
+name,Rivière Lhomon,7,0.4184,600.0,4158.3333
+name,Rivière Pascal,7,0.4184,600.0,4158.3333
+name,Route de Bienac,7,0.4184,600.0,4158.3333
+name,Rue Franck Cardozo,7,0.4184,600.0,4158.3333
+name,Haiti Emergency Detour Road,6,0.3586,500.0,3550.0
+name,La Colline,6,0.3586,500.0,3550.0
+name,Ravine Citronier,6,0.3586,500.0,3550.0
+name,Ravine Darlimèe,6,0.3586,500.0,3550.0
+name,Ravinne Nèrette,6,0.3586,500.0,3550.0
+name,Rivière Mahot,6,0.3586,500.0,3550.0
+name,House,5,0.2989,400.0,2941.6667
+name,Riviere Pass Hermance,5,0.2989,400.0,2941.6667
+name,Rivière Djemenin,5,0.2989,400.0,2941.6667
+name,Route Brefete,5,0.2989,400.0,2941.6667
+name,Route residentielle /Cite des Profeseurs,5,0.2989,400.0,2941.6667
+name,Village Lumiere,5,0.2989,400.0,2941.6667
+name,13,4,0.2391,300.0,2333.3333
+name,Bainbrigge Road,4,0.2391,300.0,2333.3333
+name,Bienac 24,4,0.2391,300.0,2333.3333
+name,Building,4,0.2391,300.0,2333.3333
+name,Commissariat de l'Asile,4,0.2391,300.0,2333.3333
+name,Digicel,4,0.2391,300.0,2333.3333
+name,Earthquake Service Road,4,0.2391,300.0,2333.3333
+name,Gebouw,4,0.2391,300.0,2333.3333
+name,Haiti highlawn square,4,0.2391,300.0,2333.3333
+name,Klassenraum,4,0.2391,300.0,2333.3333
+name,Plaisance,4,0.2391,300.0,2333.3333
+name,Ravine Joucoulou,4,0.2391,300.0,2333.3333
+name,Rivière Bonne Fin,4,0.2391,300.0,2333.3333
+name,Rivière Mombin,4,0.2391,300.0,2333.3333
+name,Rivière de Cavaillon,4,0.2391,300.0,2333.3333
+name,Route Milord,4,0.2391,300.0,2333.3333
+name,Route Nationale # 4,4,0.2391,300.0,2333.3333
+name,Route fond Dupuy,4,0.2391,300.0,2333.3333
+name,Rue Bonne stream,4,0.2391,300.0,2333.3333
+name,Rue Normil Nasaire,4,0.2391,300.0,2333.3333
+name,Rue Radou 2,4,0.2391,300.0,2333.3333
+name,Rue Saint Celia Pierre,4,0.2391,300.0,2333.3333
+name,Santo 14,4,0.2391,300.0,2333.3333
+name,road,4,0.2391,300.0,2333.3333
+name,مجیدیه,4,0.2391,300.0,2333.3333
+name,52,3,0.1793,200.0,1725.0
+name,Baptiste,3,0.1793,200.0,1725.0
+name,Boulevard Fils Aimé,3,0.1793,200.0,1725.0
+name,Boulevard Labondans,3,0.1793,200.0,1725.0
+name,Boulevard de L'avenir,3,0.1793,200.0,1725.0
+name,CAL DE PAILLANT Hopital Notre Dame de la Victoire de Pailland,3,0.1793,200.0,1725.0
+name,Canal de Duclos,3,0.1793,200.0,1725.0
+name,Carrefour Baptiste,3,0.1793,200.0,1725.0
+name,Centre Medical Jana,3,0.1793,200.0,1725.0
+name,De l'Eau Belloteste,3,0.1793,200.0,1725.0
+name,Emile Roumer,3,0.1793,200.0,1725.0
+name,Foston Grove,3,0.1793,200.0,1725.0
+name,Impasse Bontemps,3,0.1793,200.0,1725.0
+name,Impasse Sacré-Cœur,3,0.1793,200.0,1725.0
+name,Impasse Saint Louis,3,0.1793,200.0,1725.0
+name,Juniper Close,3,0.1793,200.0,1725.0
+name,Kafou,3,0.1793,200.0,1725.0
+name,Musseau,3,0.1793,200.0,1725.0
+name,Pa prese hotel,3,0.1793,200.0,1725.0
+name,Plage Balanier,3,0.1793,200.0,1725.0
+name,Ravine Boisneau,3,0.1793,200.0,1725.0
+name,Ravine Citron,3,0.1793,200.0,1725.0
+name,Ravine Mirand,3,0.1793,200.0,1725.0
+name,Ravine Saint-Georges,3,0.1793,200.0,1725.0
+name,Ravine Vipiche,3,0.1793,200.0,1725.0
+name,Ravine du Sud,3,0.1793,200.0,1725.0
+name,Ravinn Pascal,3,0.1793,200.0,1725.0
+name,Ravinn Sable,3,0.1793,200.0,1725.0
+name,Rivière Bois D'Orme,3,0.1793,200.0,1725.0
+name,Rivière Gouape,3,0.1793,200.0,1725.0
+name,Rivière de Grand Goâve,3,0.1793,200.0,1725.0
+name,Rivière de l'Artibonite,3,0.1793,200.0,1725.0
+name,Road,3,0.1793,200.0,1725.0
+name,Roro Dépot,3,0.1793,200.0,1725.0
+name,Route Bocco,3,0.1793,200.0,1725.0
+name,Route Colline à Mangon 63,3,0.1793,200.0,1725.0
+name,Route Dessalines-Saint-Michel,3,0.1793,200.0,1725.0
+name,Route Modèle-Ticoma,3,0.1793,200.0,1725.0
+name,Route Saint Grégoire,3,0.1793,200.0,1725.0
+name,Rue Dauphine,3,0.1793,200.0,1725.0
+name,Rue Moustapha,3,0.1793,200.0,1725.0
+name,Rue des Pommes,3,0.1793,200.0,1725.0
+name,Rue des enseignants,3,0.1793,200.0,1725.0
+name,Ruelle Altagracia,3,0.1793,200.0,1725.0
+name,Ruelle Gilnor Labady,3,0.1793,200.0,1725.0
+name,Santo 9A,3,0.1793,200.0,1725.0
+name,Spital Cord Injury Center,3,0.1793,200.0,1725.0
+name,St Jean Bosco,3,0.1793,200.0,1725.0
+name,Woodlands Grove,3,0.1793,200.0,1725.0
+name,casa,3,0.1793,200.0,1725.0
+name,route de k-georges,3,0.1793,200.0,1725.0
+name,rue F Baptiste,3,0.1793,200.0,1725.0
+name,rue Hortensius Etienne,3,0.1793,200.0,1725.0
+name,École Nationale de l'Asile,3,0.1793,200.0,1725.0
+name,Îlet Palmier,3,0.1793,200.0,1725.0
+name,1ère-Ruelle St Antoine,2,0.1195,100.0,1116.6667
+name,21,2,0.1195,100.0,1116.6667
+name,39,2,0.1195,100.0,1116.6667
+name,41,2,0.1195,100.0,1116.6667
+name,42,2,0.1195,100.0,1116.6667
+name,42A,2,0.1195,100.0,1116.6667
+name,44,2,0.1195,100.0,1116.6667
+name,61,2,0.1195,100.0,1116.6667
+name,Aly Studio Beaute,2,0.1195,100.0,1116.6667
+name,Association pour le Devéloppement de L'Asile des Nippes,2,0.1195,100.0,1116.6667
+name,Austhorpe Lane,2,0.1195,100.0,1116.6667
+name,Avenue Baranquilla,2,0.1195,100.0,1116.6667
+name,Avenue des Quatre Chemins,2,0.1195,100.0,1116.6667
+name,Barriere goden,2,0.1195,100.0,1116.6667
+name,Bois-L'etat,2,0.1195,100.0,1116.6667
+name,Burea Ant8,2,0.1195,100.0,1116.6667
+name,Bureau du Deputé Lemanne de la conscription de L'Asile,2,0.1195,100.0,1116.6667
+name,CLAIR DE LUNE MAT. CONST. / QUINCAILLERIE,2,0.1195,100.0,1116.6667
+name,Centale De Sante De Clanard,2,0.1195,100.0,1116.6667
+name,Coal Road,2,0.1195,100.0,1116.6667
+name,Collège Sainte Famille,2,0.1195,100.0,1116.6667
+name,Depot Dieu Qui Donne,2,0.1195,100.0,1116.6667
+name,Ecole Nationale,2,0.1195,100.0,1116.6667
+name,Ecole Nationale Nouvelle,2,0.1195,100.0,1116.6667
+name,Ecole Presbyterale Notre-Dame de la Presentation,2,0.1195,100.0,1116.6667
+name,Eglise Adventiste,2,0.1195,100.0,1116.6667
+name,Eglise de dieu L'Asile,2,0.1195,100.0,1116.6667
+name,Eglise Évangélique D'Haïti de HOSTIN,2,0.1195,100.0,1116.6667
+name,Etang de Miragoane,2,0.1195,100.0,1116.6667
+name,Exode Seconday School,2,0.1195,100.0,1116.6667
+name,Gospel Pharma,2,0.1195,100.0,1116.6667
+name,Grande Ravine,2,0.1195,100.0,1116.6667
+name,Haiti Amazon Delivery Site,2,0.1195,100.0,1116.6667
+name,Haiti Injury Shelter,2,0.1195,100.0,1116.6667
+name,Haiti Rescue Site,2,0.1195,100.0,1116.6667
+name,High Garth,2,0.1195,100.0,1116.6667
+name,Hôpital Communautaire de référence de L'Asile,2,0.1195,100.0,1116.6667
+name,Impasse Cantave 2,2,0.1195,100.0,1116.6667
+name,Impasse Cantave 2a,2,0.1195,100.0,1116.6667
+name,Impasse Cantave Prolongee,2,0.1195,100.0,1116.6667
+name,Impasse Grand B,2,0.1195,100.0,1116.6667
+name,Impasse Yves Cherisca,2,0.1195,100.0,1116.6667
+name,Impasse l'Union,2,0.1195,100.0,1116.6667
+name,Impasse la Paix,2,0.1195,100.0,1116.6667
+name,Institution mixte la Bonne Semence,2,0.1195,100.0,1116.6667
+name,Kafou Bellecia,2,0.1195,100.0,1116.6667
+name,Kafou Dabon,2,0.1195,100.0,1116.6667
+name,Kafou Lozandier,2,0.1195,100.0,1116.6667
+name,La Differance Bank,2,0.1195,100.0,1116.6667
+name,Lock House Lane,2,0.1195,100.0,1116.6667
+name,Louloune Market,2,0.1195,100.0,1116.6667
+name,Madam Doni Morris,2,0.1195,100.0,1116.6667
+name,Marie de L'Azile,2,0.1195,100.0,1116.6667
+name,Mecca Bingo,2,0.1195,100.0,1116.6667
+name,Monkgate,2,0.1195,100.0,1116.6667
+name,ODPG,2,0.1195,100.0,1116.6667
+name,Parc Macaya,2,0.1195,100.0,1116.6667
+name,Plage des Cocotiers,2,0.1195,100.0,1116.6667
+name,Ravine Ca Roche,2,0.1195,100.0,1116.6667
+name,Ravine Casse Cou,2,0.1195,100.0,1116.6667
+name,Ravine Duillan,2,0.1195,100.0,1116.6667
+name,Ravine Morne Aquin,2,0.1195,100.0,1116.6667
+name,Ravine Tapay,2,0.1195,100.0,1116.6667
+name,Ravine Tête de l'Eau,2,0.1195,100.0,1116.6667
+name,Riviere Baret,2,0.1195,100.0,1116.6667
+name,Rivière Amazones,2,0.1195,100.0,1116.6667
+name,Rivière Bananier,2,0.1195,100.0,1116.6667
+name,Rivière Massacre,2,0.1195,100.0,1116.6667
+name,Rivière Opaque,2,0.1195,100.0,1116.6667
+name,Rivière Roucou,2,0.1195,100.0,1116.6667
+name,Rivière des Orangers,2,0.1195,100.0,1116.6667
+name,Rivières des Baradères,2,0.1195,100.0,1116.6667
+name,Road near Bernard,2,0.1195,100.0,1116.6667
+name,Roro Boutique,2,0.1195,100.0,1116.6667
+name,Roro Disco,2,0.1195,100.0,1116.6667
+name,Route Bor de Mer,2,0.1195,100.0,1116.6667
+name,Route Degaille,2,0.1195,100.0,1116.6667
+name,Route Départementale # 402,2,0.1195,100.0,1116.6667
+name,Route Génésté,2,0.1195,100.0,1116.6667
+name,Route Lougou,2,0.1195,100.0,1116.6667
+name,Route Mélinette,2,0.1195,100.0,1116.6667
+name,Route Nan Félix,2,0.1195,100.0,1116.6667
+name,Route Ticoma,2,0.1195,100.0,1116.6667
+name,Route Tirak,2,0.1195,100.0,1116.6667
+name,Route corlle,2,0.1195,100.0,1116.6667
+name,Route de Santo,2,0.1195,100.0,1116.6667
+name,Rue Antenor Firmin,2,0.1195,100.0,1116.6667
+name,Rue Argentine,2,0.1195,100.0,1116.6667
+name,Rue Beatrice,2,0.1195,100.0,1116.6667
+name,Rue Bellevue Palais-Roi,2,0.1195,100.0,1116.6667
+name,Rue Borga,2,0.1195,100.0,1116.6667
+name,Rue Bortesse Sylvain,2,0.1195,100.0,1116.6667
+name,Rue Camalla,2,0.1195,100.0,1116.6667
+name,Rue Capen,2,0.1195,100.0,1116.6667
+name,Rue Capitale,2,0.1195,100.0,1116.6667
+name,Rue Capois,2,0.1195,100.0,1116.6667
+name,Rue Decius,2,0.1195,100.0,1116.6667
+name,Rue Dorlean,2,0.1195,100.0,1116.6667
+name,Rue Duclesse,2,0.1195,100.0,1116.6667
+name,Rue Hyppolite,2,0.1195,100.0,1116.6667
+name,Rue Lavilette,2,0.1195,100.0,1116.6667
+name,Rue Lepcia Mathurin,2,0.1195,100.0,1116.6667
+name,Rue Louis,2,0.1195,100.0,1116.6667
+name,Rue Mass,2,0.1195,100.0,1116.6667
+name,Rue Nan Tifèy,2,0.1195,100.0,1116.6667
+name,Rue Plymouth,2,0.1195,100.0,1116.6667
+name,Rue Toussaint Louverture,2,0.1195,100.0,1116.6667
+name,Rue Valcius Bertrand,2,0.1195,100.0,1116.6667
+name,Rue WIlson Policarpe,2,0.1195,100.0,1116.6667
+name,Rue de l'Hôpital,2,0.1195,100.0,1116.6667
+name,Rue du Café,2,0.1195,100.0,1116.6667
+name,Ruelle A. Ls Jeune,2,0.1195,100.0,1116.6667
+name,Ruelle Samuel,2,0.1195,100.0,1116.6667
+name,Ruelle Thermidor,2,0.1195,100.0,1116.6667
+name,Ruelle Yvon,2,0.1195,100.0,1116.6667
+name,Río Dajabón,2,0.1195,100.0,1116.6667
+name,SSPE de Morisseaux,2,0.1195,100.0,1116.6667
+name,Santo 16A,2,0.1195,100.0,1116.6667
+name,Secours auto parts,2,0.1195,100.0,1116.6667
+name,St Joseph,2,0.1195,100.0,1116.6667
+name,St Lukes,2,0.1195,100.0,1116.6667
+name,Total,2,0.1195,100.0,1116.6667
+name,Troisieme Ruelle Saintilus,2,0.1195,100.0,1116.6667
+name,Village Garth,2,0.1195,100.0,1116.6667
+name,York Community Stadium Car Park,2,0.1195,100.0,1116.6667
+name,York Road,2,0.1195,100.0,1116.6667
+name,building,2,0.1195,100.0,1116.6667
+name,cacoune bar boutique,2,0.1195,100.0,1116.6667
+name,deye terrain,2,0.1195,100.0,1116.6667
+name,ecole nationale de l'estere,2,0.1195,100.0,1116.6667
+name,impasse langloire,2,0.1195,100.0,1116.6667
+name,institut superieur de gestion ( i s g e a ),2,0.1195,100.0,1116.6667
+name,k-douge,2,0.1195,100.0,1116.6667
+name,route mineure,2,0.1195,100.0,1116.6667
+name,rue Rosalie Auguste,2,0.1195,100.0,1116.6667
+name,weg,2,0.1195,100.0,1116.6667
+name,École Fondamentale d'Application Centre d'Appui Pédagogique de L'Asile,2,0.1195,100.0,1116.6667
+name,Île Picoulet,2,0.1195,100.0,1116.6667
+name,(Projet) Commissariat de Beaumont,1,0.0598,0.0,508.3333
+name,18,1,0.0598,0.0,508.3333
+name,19,1,0.0598,0.0,508.3333
+name,1re Ruelle Azor,1,0.0598,0.0,508.3333
+name,20,1,0.0598,0.0,508.3333
+name,22,1,0.0598,0.0,508.3333
+name,23,1,0.0598,0.0,508.3333
+name,24 Route Bouzi,1,0.0598,0.0,508.3333
+name,25,1,0.0598,0.0,508.3333
+name,27,1,0.0598,0.0,508.3333
+name,2e Ruelle Patience,1,0.0598,0.0,508.3333
+name,2ème-St Antoine Ruelle Jn Gongo,1,0.0598,0.0,508.3333
+name,3em Ruelle Sajous,1,0.0598,0.0,508.3333
+name,40,1,0.0598,0.0,508.3333
+name,43,1,0.0598,0.0,508.3333
+name,45,1,0.0598,0.0,508.3333
+name,46,1,0.0598,0.0,508.3333
+name,47,1,0.0598,0.0,508.3333
+name,48,1,0.0598,0.0,508.3333
+name,49,1,0.0598,0.0,508.3333
+name,4e Ruelle Dupiton,1,0.0598,0.0,508.3333
+name,50,1,0.0598,0.0,508.3333
+name,51,1,0.0598,0.0,508.3333
+name,53,1,0.0598,0.0,508.3333
+name,54,1,0.0598,0.0,508.3333
+name,56,1,0.0598,0.0,508.3333
+name,59,1,0.0598,0.0,508.3333
+name,71,1,0.0598,0.0,508.3333
+name,A,1,0.0598,0.0,508.3333
+name,Acceso a La Chaine,1,0.0598,0.0,508.3333
+name,Acul Basse Terre,1,0.0598,0.0,508.3333
+name,Administration Générale des Douanes,1,0.0598,0.0,508.3333
+name,Administration Générale des Impôts,1,0.0598,0.0,508.3333
+name,Air Port Industrial,1,0.0598,0.0,508.3333
+name,Airport Industrial Park,1,0.0598,0.0,508.3333
+name,Alderley Court,1,0.0598,0.0,508.3333
+name,Allerton Grange School,1,0.0598,0.0,508.3333
+name,Aly Studio Beauté,1,0.0598,0.0,508.3333
+name,Ambassade de France,1,0.0598,0.0,508.3333
+name,Ambassade de Taiwan,1,0.0598,0.0,508.3333
+name,Ancienne Route Nationale # 5,1,0.0598,0.0,508.3333
+name,Auberge de Carmagnol,1,0.0598,0.0,508.3333
+name,Avenue Cartgena,1,0.0598,0.0,508.3333
+name,Avenue La Libertè - Route Nationale # 4,1,0.0598,0.0,508.3333
+name,Avenue Michelle B Duvalier,1,0.0598,0.0,508.3333
+name,Avenue Montais,1,0.0598,0.0,508.3333
+name,Avenue Sainte Agnès,1,0.0598,0.0,508.3333
+name,Avenue des Dattes,1,0.0598,0.0,508.3333
+name,Banio,1,0.0598,0.0,508.3333
+name,Baquet,1,0.0598,0.0,508.3333
+name,Bar/Restaurant,1,0.0598,0.0,508.3333
+name,Baradères,1,0.0598,0.0,508.3333
+name,Barwick Road,1,0.0598,0.0,508.3333
+name,Bas-Camp,1,0.0598,0.0,508.3333
+name,Bassin Mahaut,1,0.0598,0.0,508.3333
+name,Beaudouin,1,0.0598,0.0,508.3333
+name,Bellevue,1,0.0598,0.0,508.3333
+name,Bentley Lane,1,0.0598,0.0,508.3333
+name,Biston,1,0.0598,0.0,508.3333
+name,Bois Vital,1,0.0598,0.0,508.3333
+name,Bon Berg Shop,1,0.0598,0.0,508.3333
+name,Bon Jan van Ebenistery,1,0.0598,0.0,508.3333
+name,Bondyela,1,0.0598,0.0,508.3333
+name,Boulevard Francketienne,1,0.0598,0.0,508.3333
+name,Boulevard Jean-Jacques Dessalines,1,0.0598,0.0,508.3333
+name,Boulevard de la Liberté,1,0.0598,0.0,508.3333
+name,Boulongerie,1,0.0598,0.0,508.3333
+name,Boutique Boutique,1,0.0598,0.0,508.3333
+name,Brecks Lane,1,0.0598,0.0,508.3333
+name,Bretagne 6,1,0.0598,0.0,508.3333
+name,Building 4,1,0.0598,0.0,508.3333
+name,Building C,1,0.0598,0.0,508.3333
+name,Building E,1,0.0598,0.0,508.3333
+name,Bureau Régional Nord du CECI,1,0.0598,0.0,508.3333
+name,Bélizor Bay Beach,1,0.0598,0.0,508.3333
+name,CCFPL,1,0.0598,0.0,508.3333
+name,CENTRE D'HEBERGEMENT TERRAIN VILLAM BETA,1,0.0598,0.0,508.3333
+name,CENTRE DE SANTE ST JOSEPH,1,0.0598,0.0,508.3333
+name,CENTRE MEDICAL DE MASEILLAN,1,0.0598,0.0,508.3333
+name,CK HARDWARE,1,0.0598,0.0,508.3333
+name,CLINIQUE MOBILE FHAPROMES,1,0.0598,0.0,508.3333
+name,COMMUNAUTE DE MORNE BLANC DE PETITE RIVIERE DE NIPPES,1,0.0598,0.0,508.3333
+name,COUD Jérémie,1,0.0598,0.0,508.3333
+name,COUD Les Cayes,1,0.0598,0.0,508.3333
+name,CTC Mosson MSF Suisse,1,0.0598,0.0,508.3333
+name,Ca Durand,1,0.0598,0.0,508.3333
+name,Camp Athletique D'haiti,1,0.0598,0.0,508.3333
+name,Cap des Maréchaux Prolongée,1,0.0598,0.0,508.3333
+name,Carrefour 44,1,0.0598,0.0,508.3333
+name,Carrefour Duverger,1,0.0598,0.0,508.3333
+name,Carrefour New York 2,1,0.0598,0.0,508.3333
+name,Carrefour Timé,1,0.0598,0.0,508.3333
+name,Castera Pharmacies,1,0.0598,0.0,508.3333
+name,Cattle Lane,1,0.0598,0.0,508.3333
+name,Cayes Sable,1,0.0598,0.0,508.3333
+name,Centre,1,0.0598,0.0,508.3333
+name,Centre Jhon Blair,1,0.0598,0.0,508.3333
+name,Centre Refugies Hatiens,1,0.0598,0.0,508.3333
+name,"Centre de soin Nap Kenbe, MSF",1,0.0598,0.0,508.3333
+name,Centre de transformation,1,0.0598,0.0,508.3333
+name,Chapelle Saint-Eugene de Mazenod,1,0.0598,0.0,508.3333
+name,Charette,1,0.0598,0.0,508.3333
+name,Charpentier,1,0.0598,0.0,508.3333
+name,Christ Avan Guest House,1,0.0598,0.0,508.3333
+name,City Walls,1,0.0598,0.0,508.3333
+name,Cité Casseus,1,0.0598,0.0,508.3333
+name,Cleveland Way,1,0.0598,0.0,508.3333
+name,Clinique Dentaire Carvonis,1,0.0598,0.0,508.3333
+name,Clinique Médicale de la Vigne,1,0.0598,0.0,508.3333
+name,Cohens Chemist,1,0.0598,0.0,508.3333
+name,College Classique de Morne Blanc,1,0.0598,0.0,508.3333
+name,College Mixte Centre du Genie,1,0.0598,0.0,508.3333
+name,College Mixte Freres Unis,1,0.0598,0.0,508.3333
+name,College Mixte Union Chretienne,1,0.0598,0.0,508.3333
+name,College Modern De Science De Sud Maniche,1,0.0598,0.0,508.3333
+name,College St.Marten,1,0.0598,0.0,508.3333
+name,Collège la Providence,1,0.0598,0.0,508.3333
+name,Complexe Médical Marguerite Liautaud,1,0.0598,0.0,508.3333
+name,Contendor De La Pharisee De Fond De Blanc,1,0.0598,0.0,508.3333
+name,Convent with guest house,1,0.0598,0.0,508.3333
+name,Corine Pharmacie,1,0.0598,0.0,508.3333
+name,Corridor Castelin,1,0.0598,0.0,508.3333
+name,Corridor Noelsius Alexis,1,0.0598,0.0,508.3333
+name,Corridor Zimbabwe,1,0.0598,0.0,508.3333
+name,DESSALINES HOSPITAL DESSALINES CLAIRE HEUREUSE,1,0.0598,0.0,508.3333
+name,DGI,1,0.0598,0.0,508.3333
+name,DHL,1,0.0598,0.0,508.3333
+name,DISPENSAIRE DE JAVEL (FERME),1,0.0598,0.0,508.3333
+name,DPJ,1,0.0598,0.0,508.3333
+name,Dalguise Grove,1,0.0598,0.0,508.3333
+name,Deluxe hotel bar resto,1,0.0598,0.0,508.3333
+name,Deschamps,1,0.0598,0.0,508.3333
+name,Dessources,1,0.0598,0.0,508.3333
+name,Dipson,1,0.0598,0.0,508.3333
+name,Direction générale des Impôts,1,0.0598,0.0,508.3333
+name,Dispensaire de Changeux,1,0.0598,0.0,508.3333
+name,Dmgunlockphone Ou Tèt Ansanm Boutique,1,0.0598,0.0,508.3333
+name,Dmgunlockphone Ou Tèt Ansanm Shopping Mall,1,0.0598,0.0,508.3333
+name,Déchèterie Macédoine Jean Louis,1,0.0598,0.0,508.3333
+name,EFACAP de L'Asile,1,0.0598,0.0,508.3333
+name,Eccles Close,1,0.0598,0.0,508.3333
+name,Ecole A.J.E.D.E.C,1,0.0598,0.0,508.3333
+name,Ecole De Saint,1,0.0598,0.0,508.3333
+name,Ecole Lutherine,1,0.0598,0.0,508.3333
+name,Ecole Mixed Frere Passion,1,0.0598,0.0,508.3333
+name,Ecole Normal De St.Fleurs,1,0.0598,0.0,508.3333
+name,Ecole Normale D'instituteurs Vision Nouvelle,1,0.0598,0.0,508.3333
+name,Ecole Presbyterale Mapou Blaise,1,0.0598,0.0,508.3333
+name,Ecole de la Renaissance,1,0.0598,0.0,508.3333
+name,Eglise + ecole corp du Christ,1,0.0598,0.0,508.3333
+name,Eglise Armee du Salut,1,0.0598,0.0,508.3333
+name,Eglise Baptist De Maniche,1,0.0598,0.0,508.3333
+name,Eglise Baptiste De Maniche,1,0.0598,0.0,508.3333
+name,Eglise Bethanie,1,0.0598,0.0,508.3333
+name,Eglise Bethanie De Maniche,1,0.0598,0.0,508.3333
+name,Eglise Catholique De Benie,1,0.0598,0.0,508.3333
+name,Eglise Christiniste de Bidouze - MEC,1,0.0598,0.0,508.3333
+name,Eglise De Christ De Prestige,1,0.0598,0.0,508.3333
+name,Eglise De Dieu De Clanard,1,0.0598,0.0,508.3333
+name,Eglise De Saint,1,0.0598,0.0,508.3333
+name,Eglise Lutherine,1,0.0598,0.0,508.3333
+name,Eglise Ministere Christ Ambassadeur,1,0.0598,0.0,508.3333
+name,Eglise Par la Foi de Canal,1,0.0598,0.0,508.3333
+name,Eglise Wesleyenne Carrefour-Feuilles,1,0.0598,0.0,508.3333
+name,Eglise de Dieu Sanctifie par la Grace,1,0.0598,0.0,508.3333
+name,El Shadaï Pharmacie,1,0.0598,0.0,508.3333
+name,Electricité d'Haiti,1,0.0598,0.0,508.3333
+name,Enterprise Funeral Sanitiere De Lima,1,0.0598,0.0,508.3333
+name,Entree Bire,1,0.0598,0.0,508.3333
+name,Entree Christiav Ville,1,0.0598,0.0,508.3333
+name,Entrée Momance,1,0.0598,0.0,508.3333
+name,FONDEPH - MARTISSANT,1,0.0598,0.0,508.3333
+name,FOSREF- J. DE CARREFOUR FEUILLE,1,0.0598,0.0,508.3333
+name,Faustin,1,0.0598,0.0,508.3333
+name,Fond Tortue,1,0.0598,0.0,508.3333
+name,Fondation Connaissance et Liberté (FOKAL),1,0.0598,0.0,508.3333
+name,Fondation Mesidor,1,0.0598,0.0,508.3333
+name,Forest,1,0.0598,0.0,508.3333
+name,Gaslager,1,0.0598,0.0,508.3333
+name,Gatereau 19,1,0.0598,0.0,508.3333
+name,Gatereau 9,1,0.0598,0.0,508.3333
+name,Ginoc Bar Resto,1,0.0598,0.0,508.3333
+name,Grace A l'Eternel Boutique,1,0.0598,0.0,508.3333
+name,Grand Lakou Felissaint,1,0.0598,0.0,508.3333
+name,Grande Plaine,1,0.0598,0.0,508.3333
+name,Grande Rivière de Nippes,1,0.0598,0.0,508.3333
+name,Grosse Caye,1,0.0598,0.0,508.3333
+name,Haiti A,1,0.0598,0.0,508.3333
+name,Haiti Amazon HR,1,0.0598,0.0,508.3333
+name,Haiti Amazon Loss Prevention,1,0.0598,0.0,508.3333
+name,Haiti Amazon Main Location,1,0.0598,0.0,508.3333
+name,Haiti Amazon Maintance Building,1,0.0598,0.0,508.3333
+name,Haiti Amazon Manager Building,1,0.0598,0.0,508.3333
+name,Haiti Amazon Order Department,1,0.0598,0.0,508.3333
+name,Haiti Amazon Pime Site,1,0.0598,0.0,508.3333
+name,Haiti Amazon Prime Van Locaion,1,0.0598,0.0,508.3333
+name,Haiti Amazon Problem Soving Location,1,0.0598,0.0,508.3333
+name,Haiti Amazon Pud,1,0.0598,0.0,508.3333
+name,Haiti Amazon Saftey Site,1,0.0598,0.0,508.3333
+name,Haiti Amazon Self Deliverier Pick up,1,0.0598,0.0,508.3333
+name,Haiti Amazon Shopper Location,1,0.0598,0.0,508.3333
+name,Haiti Amazon Site,1,0.0598,0.0,508.3333
+name,Haiti Amazon Tom Team,1,0.0598,0.0,508.3333
+name,Haiti Amazon Truck Site,1,0.0598,0.0,508.3333
+name,Haiti Amazon Worker Site,1,0.0598,0.0,508.3333
+name,Haiti Burger Hut,1,0.0598,0.0,508.3333
+name,Haiti Chicken and Wings,1,0.0598,0.0,508.3333
+name,Haiti Emergency Clinic,1,0.0598,0.0,508.3333
+name,Haiti Fire Station,1,0.0598,0.0,508.3333
+name,Haiti Palntation Site,1,0.0598,0.0,508.3333
+name,Haiti Pizza Hut,1,0.0598,0.0,508.3333
+name,Haiti Police Station,1,0.0598,0.0,508.3333
+name,Haiti Taco Shack,1,0.0598,0.0,508.3333
+name,Haiti Tu Food,1,0.0598,0.0,508.3333
+name,Hall Rise,1,0.0598,0.0,508.3333
+name,Hector Bank,1,0.0598,0.0,508.3333
+name,Hoilday Inn Express,1,0.0598,0.0,508.3333
+name,Holbeck Moor Road,1,0.0598,0.0,508.3333
+name,Holmsley Lane,1,0.0598,0.0,508.3333
+name,Home,1,0.0598,0.0,508.3333
+name,Hopital Lumière Bonne Fin,1,0.0598,0.0,508.3333
+name,Horeb Pharmacie,1,0.0598,0.0,508.3333
+name,Hotel Montana,1,0.0598,0.0,508.3333
+name,House B,1,0.0598,0.0,508.3333
+name,House C,1,0.0598,0.0,508.3333
+name,House D,1,0.0598,0.0,508.3333
+name,Howard Link,1,0.0598,0.0,508.3333
+name,Hôpital de Petit Trou De Nippes,1,0.0598,0.0,508.3333
+name,Imp Labidou,1,0.0598,0.0,508.3333
+name,Imp Pierre Jean,1,0.0598,0.0,508.3333
+name,Impasse Amitie,1,0.0598,0.0,508.3333
+name,Impasse Cantave 2b,1,0.0598,0.0,508.3333
+name,Impasse Cimitère,1,0.0598,0.0,508.3333
+name,Impasse Darguste,1,0.0598,0.0,508.3333
+name,Impasse Destin,1,0.0598,0.0,508.3333
+name,Impasse Fontaine,1,0.0598,0.0,508.3333
+name,Impasse Lasy,1,0.0598,0.0,508.3333
+name,Impasse Lemer,1,0.0598,0.0,508.3333
+name,Impasse Melirome,1,0.0598,0.0,508.3333
+name,Impasse MiKY,1,0.0598,0.0,508.3333
+name,Impasse Surprise,1,0.0598,0.0,508.3333
+name,Impasse monima,1,0.0598,0.0,508.3333
+name,Institut Haïtien de Statistique et d'Informatique (IHSI),1,0.0598,0.0,508.3333
+name,Institution Mixte Maison De Marthe,1,0.0598,0.0,508.3333
+name,Institution Rosalvo Bobo,1,0.0598,0.0,508.3333
+name,Iver Close,1,0.0598,0.0,508.3333
+name,Jack Lane,1,0.0598,0.0,508.3333
+name,Jacques 1er,1,0.0598,0.0,508.3333
+name,Jannin,1,0.0598,0.0,508.3333
+name,Joassaint Adonis,1,0.0598,0.0,508.3333
+name,Jonc Dodin,1,0.0598,0.0,508.3333
+name,Joseph Pharmacie,1,0.0598,0.0,508.3333
+name,Kafou Sinno,1,0.0598,0.0,508.3333
+name,Kantine,1,0.0598,0.0,508.3333
+name,Klinik Kay Timoun,1,0.0598,0.0,508.3333
+name,Konak Meze Turkish Restaurant,1,0.0598,0.0,508.3333
+name,Kvernhusbakken,1,0.0598,0.0,508.3333
+name,L'eglise de Saint -Louis Roi de France de Cholètte,1,0.0598,0.0,508.3333
+name,La Marie de Port Au Prince,1,0.0598,0.0,508.3333
+name,La Saline,1,0.0598,0.0,508.3333
+name,La Unique Super Net,1,0.0598,0.0,508.3333
+name,La faveur ebenistre,1,0.0598,0.0,508.3333
+name,Lamandou;Rue Emmeline C Lemaire,1,0.0598,0.0,508.3333
+name,Large house,1,0.0598,0.0,508.3333
+name,Latibolière,1,0.0598,0.0,508.3333
+name,Le Prêtre,1,0.0598,0.0,508.3333
+name,Le Ron,1,0.0598,0.0,508.3333
+name,Les Anglais,1,0.0598,0.0,508.3333
+name,Les Trois Rivières,1,0.0598,0.0,508.3333
+name,Linton Road,1,0.0598,0.0,508.3333
+name,Losandieu,1,0.0598,0.0,508.3333
+name,Louloune Bar,1,0.0598,0.0,508.3333
+name,Loureau Shop,1,0.0598,0.0,508.3333
+name,L’Ilet,1,0.0598,0.0,508.3333
+name,MSF,1,0.0598,0.0,508.3333
+name,MSPP,1,0.0598,0.0,508.3333
+name,Magloire Ambroise,1,0.0598,0.0,508.3333
+name,Mairie De Maniche,1,0.0598,0.0,508.3333
+name,Mallard Landings,1,0.0598,0.0,508.3333
+name,Man made feature,1,0.0598,0.0,508.3333
+name,Marapharma,1,0.0598,0.0,508.3333
+name,March Street,1,0.0598,0.0,508.3333
+name,Marché Valère,1,0.0598,0.0,508.3333
+name,Marfranc,1,0.0598,0.0,508.3333
+name,Mazenod,1,0.0598,0.0,508.3333
+name,Medical Center,1,0.0598,0.0,508.3333
+name,Medium House,1,0.0598,0.0,508.3333
+name,Mexi,1,0.0598,0.0,508.3333
+name,Mission Evangelique Baptist,1,0.0598,0.0,508.3333
+name,Morne Brûlé,1,0.0598,0.0,508.3333
+name,Morne Oge,1,0.0598,0.0,508.3333
+name,Mulberry Court,1,0.0598,0.0,508.3333
+name,Mädchenwohnhaus 1,1,0.0598,0.0,508.3333
+name,Médecins Sans Frontières (MSF),1,0.0598,0.0,508.3333
+name,Mélinète,1,0.0598,0.0,508.3333
+name,Métellus,1,0.0598,0.0,508.3333
+name,Nan Jean-Pierre,1,0.0598,0.0,508.3333
+name,Nan Perrine,1,0.0598,0.0,508.3333
+name,Natcom,1,0.0598,0.0,508.3333
+name,Nationale No 1 ancienne,1,0.0598,0.0,508.3333
+name,Newlands Drive,1,0.0598,0.0,508.3333
+name,Nouvou College Classique De Maniche,1,0.0598,0.0,508.3333
+name,Number One,1,0.0598,0.0,508.3333
+name,Oak Tree Lane,1,0.0598,0.0,508.3333
+name,Obéissant,1,0.0598,0.0,508.3333
+name,Office d'Etat Civil,1,0.0598,0.0,508.3333
+name,Old Mill Lane,1,0.0598,0.0,508.3333
+name,Orphelinat Men Kontre,1,0.0598,0.0,508.3333
+name,Palais du Parlement,1,0.0598,0.0,508.3333
+name,Parking for CK Hardware,1,0.0598,0.0,508.3333
+name,Paroisse de Bouzi,1,0.0598,0.0,508.3333
+name,Parque ASCUM,1,0.0598,0.0,508.3333
+name,Pelisser,1,0.0598,0.0,508.3333
+name,Pestel,1,0.0598,0.0,508.3333
+name,Pharmacie Propharmax,1,0.0598,0.0,508.3333
+name,Pi Baptiste,1,0.0598,0.0,508.3333
+name,Polo,1,0.0598,0.0,508.3333
+name,Pont Bellevue,1,0.0598,0.0,508.3333
+name,Pont Borno,1,0.0598,0.0,508.3333
+name,Portail la Gosseline,1,0.0598,0.0,508.3333
+name,Post office De Maniche,1,0.0598,0.0,508.3333
+name,Poste Marchand,1,0.0598,0.0,508.3333
+name,Première Impasse Espérance,1,0.0598,0.0,508.3333
+name,Primature,1,0.0598,0.0,508.3333
+name,Primrose Lane,1,0.0598,0.0,508.3333
+name,"Projet de Sous-station, Tabarre",1,0.0598,0.0,508.3333
+name,Propriété Birotte,1,0.0598,0.0,508.3333
+name,Propriété Dérosier,1,0.0598,0.0,508.3333
+name,Propriété St Juste,1,0.0598,0.0,508.3333
+name,Propriété W,1,0.0598,0.0,508.3333
+name,Protestentist,1,0.0598,0.0,508.3333
+name,Prudhomme,1,0.0598,0.0,508.3333
+name,R4,1,0.0598,0.0,508.3333
+name,RV-Technology,1,0.0598,0.0,508.3333
+name,Raheco,1,0.0598,0.0,508.3333
+name,Rameshbabu,1,0.0598,0.0,508.3333
+name,Ramier,1,0.0598,0.0,508.3333
+name,Ravin Dabon,1,0.0598,0.0,508.3333
+name,Ravine,1,0.0598,0.0,508.3333
+name,Ravine Bon Dos,1,0.0598,0.0,508.3333
+name,Ravine Bononique,1,0.0598,0.0,508.3333
+name,Ravine Curtis,1,0.0598,0.0,508.3333
+name,Ravine Dalest,1,0.0598,0.0,508.3333
+name,Ravine Drian,1,0.0598,0.0,508.3333
+name,Ravine Masseillan,1,0.0598,0.0,508.3333
+name,Ravine Papette,1,0.0598,0.0,508.3333
+name,Ravine Raphaël,1,0.0598,0.0,508.3333
+name,Ravine Salée,1,0.0598,0.0,508.3333
+name,Ravine Sèche,1,0.0598,0.0,508.3333
+name,Ravine Ti Tabe,1,0.0598,0.0,508.3333
+name,Ravine Tèt Sous,1,0.0598,0.0,508.3333
+name,Ravinn Tapay,1,0.0598,0.0,508.3333
+name,Ringnin,1,0.0598,0.0,508.3333
+name,Riviere de Saint Louis,1,0.0598,0.0,508.3333
+name,Riviere la Digue,1,0.0598,0.0,508.3333
+name,Rivière Brossard,1,0.0598,0.0,508.3333
+name,Rivière Mancelle,1,0.0598,0.0,508.3333
+name,Rivière Massac,1,0.0598,0.0,508.3333
+name,Rivière Momance,1,0.0598,0.0,508.3333
+name,Rivière Vieux Bourg D'Aquin,1,0.0598,0.0,508.3333
+name,Rivière de 4e section saint-Marc,1,0.0598,0.0,508.3333
+name,Rivière de L'Acul,1,0.0598,0.0,508.3333
+name,Rivière des Roseaux,1,0.0598,0.0,508.3333
+name,Romy family hotel bar resto,1,0.0598,0.0,508.3333
+name,Ropers Court,1,0.0598,0.0,508.3333
+name,Roro Complexe,1,0.0598,0.0,508.3333
+name,Route Bambou,1,0.0598,0.0,508.3333
+name,Route Blokos,1,0.0598,0.0,508.3333
+name,Route Boco,1,0.0598,0.0,508.3333
+name,Route Bouzi,1,0.0598,0.0,508.3333
+name,Route Ca Lafond,1,0.0598,0.0,508.3333
+name,Route Carrefour Sigueneau,1,0.0598,0.0,508.3333
+name,Route Champagne,1,0.0598,0.0,508.3333
+name,Route Chevrau Lambard,1,0.0598,0.0,508.3333
+name,Route Crasée,1,0.0598,0.0,508.3333
+name,Route Du Christ,1,0.0598,0.0,508.3333
+name,"Route K-boko, Babeau",1,0.0598,0.0,508.3333
+name,Route La Coline (Entree Christian Ville),1,0.0598,0.0,508.3333
+name,Route Lachicote,1,0.0598,0.0,508.3333
+name,Route Lon pré,1,0.0598,0.0,508.3333
+name,Route Modèle,1,0.0598,0.0,508.3333
+name,Route Morne Fort,1,0.0598,0.0,508.3333
+name,Route Nan Trankil,1,0.0598,0.0,508.3333
+name,Route Nationale # 1A,1,0.0598,0.0,508.3333
+name,Route Praville,1,0.0598,0.0,508.3333
+name,Route Saint-Francisque,1,0.0598,0.0,508.3333
+name,Route Sintout,1,0.0598,0.0,508.3333
+name,Route Ti Mango,1,0.0598,0.0,508.3333
+name,Route de Grand Fond,1,0.0598,0.0,508.3333
+name,Route de Simon,1,0.0598,0.0,508.3333
+name,Route de l' Eglise Notre-Dame,1,0.0598,0.0,508.3333
+name,Route de l’Aéroport,1,0.0598,0.0,508.3333
+name,Rue Alex Jean,1,0.0598,0.0,508.3333
+name,Rue Alexandre Pétion,1,0.0598,0.0,508.3333
+name,Rue Andral,1,0.0598,0.0,508.3333
+name,Rue André Ville,1,0.0598,0.0,508.3333
+name,Rue Apela,1,0.0598,0.0,508.3333
+name,Rue Artiste,1,0.0598,0.0,508.3333
+name,Rue Assé,1,0.0598,0.0,508.3333
+name,Rue Basse,1,0.0598,0.0,508.3333
+name,Rue Beaudrouin1,1,0.0598,0.0,508.3333
+name,Rue Bonne Esperance,1,0.0598,0.0,508.3333
+name,Rue Bonne canal 1,1,0.0598,0.0,508.3333
+name,Rue Borel Boisrond,1,0.0598,0.0,508.3333
+name,Rue Canal,1,0.0598,0.0,508.3333
+name,Rue Caudio J.M,1,0.0598,0.0,508.3333
+name,Rue Celina,1,0.0598,0.0,508.3333
+name,Rue Centrale,1,0.0598,0.0,508.3333
+name,Rue Chateaudin,1,0.0598,0.0,508.3333
+name,Rue Chile,1,0.0598,0.0,508.3333
+name,Rue Citronelle,1,0.0598,0.0,508.3333
+name,Rue Coicou,1,0.0598,0.0,508.3333
+name,Rue D. Saint Preux,1,0.0598,0.0,508.3333
+name,Rue Decouvertte,1,0.0598,0.0,508.3333
+name,Rue Desirette Cadet,1,0.0598,0.0,508.3333
+name,Rue Dilhomme,1,0.0598,0.0,508.3333
+name,Rue Emmeline C Lemaire,1,0.0598,0.0,508.3333
+name,Rue Ernest Malary,1,0.0598,0.0,508.3333
+name,Rue Etienne Vincent,1,0.0598,0.0,508.3333
+name,Rue Exina Gilles,1,0.0598,0.0,508.3333
+name,Rue Faveau,1,0.0598,0.0,508.3333
+name,Rue Fort Hugo,1,0.0598,0.0,508.3333
+name,Rue Félix Desrosin,1,0.0598,0.0,508.3333
+name,Rue General Marion,1,0.0598,0.0,508.3333
+name,Rue Goman,1,0.0598,0.0,508.3333
+name,Rue Grégoire,1,0.0598,0.0,508.3333
+name,Rue Josue,1,0.0598,0.0,508.3333
+name,Rue Junior,1,0.0598,0.0,508.3333
+name,Rue K-paix,1,0.0598,0.0,508.3333
+name,Rue Lalau,1,0.0598,0.0,508.3333
+name,Rue Lamartinere,1,0.0598,0.0,508.3333
+name,Rue Laurent,1,0.0598,0.0,508.3333
+name,Rue Lavictoire,1,0.0598,0.0,508.3333
+name,Rue Lilavois,1,0.0598,0.0,508.3333
+name,Rue Lucnert,1,0.0598,0.0,508.3333
+name,Rue Lumiere,1,0.0598,0.0,508.3333
+name,Rue Lundi,1,0.0598,0.0,508.3333
+name,Rue Macaya,1,0.0598,0.0,508.3333
+name,Rue Malcom,1,0.0598,0.0,508.3333
+name,Rue Mayard,1,0.0598,0.0,508.3333
+name,Rue Meliane,1,0.0598,0.0,508.3333
+name,Rue Mirand 01,1,0.0598,0.0,508.3333
+name,Rue Modèle,1,0.0598,0.0,508.3333
+name,Rue Monfort,1,0.0598,0.0,508.3333
+name,Rue Myriam 2,1,0.0598,0.0,508.3333
+name,Rue Myrthil,1,0.0598,0.0,508.3333
+name,Rue Mélinette,1,0.0598,0.0,508.3333
+name,Rue Neuf,1,0.0598,0.0,508.3333
+name,Rue Nicolas 55,1,0.0598,0.0,508.3333
+name,Rue Notre-Dame,1,0.0598,0.0,508.3333
+name,Rue Nouvelle Jerusalem,1,0.0598,0.0,508.3333
+name,Rue Pascal Best,1,0.0598,0.0,508.3333
+name,Rue Perodin,1,0.0598,0.0,508.3333
+name,Rue Philip Guerrier,1,0.0598,0.0,508.3333
+name,Rue Renaud,1,0.0598,0.0,508.3333
+name,Rue Robert Geffrard,1,0.0598,0.0,508.3333
+name,Rue SOO,1,0.0598,0.0,508.3333
+name,Rue Sabouce,1,0.0598,0.0,508.3333
+name,Rue Saint-tilus,1,0.0598,0.0,508.3333
+name,Rue Simonet,1,0.0598,0.0,508.3333
+name,Rue Soleil,1,0.0598,0.0,508.3333
+name,Rue Souverain,1,0.0598,0.0,508.3333
+name,Rue Tapay,1,0.0598,0.0,508.3333
+name,Rue Thingousse,1,0.0598,0.0,508.3333
+name,Rue Tifèy 2,1,0.0598,0.0,508.3333
+name,Rue Toussaint,1,0.0598,0.0,508.3333
+name,Rue Trajean,1,0.0598,0.0,508.3333
+name,Rue Turling,1,0.0598,0.0,508.3333
+name,Rue Union,1,0.0598,0.0,508.3333
+name,Rue Vernaut,1,0.0598,0.0,508.3333
+name,Rue Wilson Nazaire,1,0.0598,0.0,508.3333
+name,Rue du Nazaréen 57,1,0.0598,0.0,508.3333
+name,Rue du Quai,1,0.0598,0.0,508.3333
+name,Ruelle Azor,1,0.0598,0.0,508.3333
+name,Ruelle Barthol Prolongée ou Ruelle Berline,1,0.0598,0.0,508.3333
+name,Ruelle Belleville,1,0.0598,0.0,508.3333
+name,Ruelle Bobo,1,0.0598,0.0,508.3333
+name,Ruelle Cressent Jean Baptiste,1,0.0598,0.0,508.3333
+name,Ruelle Douet,1,0.0598,0.0,508.3333
+name,Ruelle Ernso,1,0.0598,0.0,508.3333
+name,Ruelle Free Cool,1,0.0598,0.0,508.3333
+name,Ruelle Harry,1,0.0598,0.0,508.3333
+name,Ruelle J. Martelly,1,0.0598,0.0,508.3333
+name,Ruelle L'union,1,0.0598,0.0,508.3333
+name,Ruelle La Paix,1,0.0598,0.0,508.3333
+name,Ruelle Maxo,1,0.0598,0.0,508.3333
+name,Ruelle Samedi,1,0.0598,0.0,508.3333
+name,Ruelle Sana,1,0.0598,0.0,508.3333
+name,Ruelle Schalom,1,0.0598,0.0,508.3333
+name,RuelleJoseph Saget,1,0.0598,0.0,508.3333
+name,Résidence Dérosier,1,0.0598,0.0,508.3333
+name,S.I.N.E.F.A,1,0.0598,0.0,508.3333
+name,SSPE de L homond,1,0.0598,0.0,508.3333
+name,Salagnac,1,0.0598,0.0,508.3333
+name,Salvo's Salumeria,1,0.0598,0.0,508.3333
+name,Sannois,1,0.0598,0.0,508.3333
+name,Santo 1,1,0.0598,0.0,508.3333
+name,Santo 12A,1,0.0598,0.0,508.3333
+name,Santo 12B,1,0.0598,0.0,508.3333
+name,Santo 13,1,0.0598,0.0,508.3333
+name,Savins Mill Way,1,0.0598,0.0,508.3333
+name,Scotiabank,1,0.0598,0.0,508.3333
+name,Seldon Road,1,0.0598,0.0,508.3333
+name,Senkilòt,1,0.0598,0.0,508.3333
+name,Serafen,1,0.0598,0.0,508.3333
+name,Shop Don De Dieu,1,0.0598,0.0,508.3333
+name,Shop Eternel R Grand,1,0.0598,0.0,508.3333
+name,Sicklinghall Road,1,0.0598,0.0,508.3333
+name,Siloé Sud,1,0.0598,0.0,508.3333
+name,Simityè Nan Lundi,1,0.0598,0.0,508.3333
+name,Skinner Lane,1,0.0598,0.0,508.3333
+name,Small Home,1,0.0598,0.0,508.3333
+name,Small House,1,0.0598,0.0,508.3333
+name,Soisson 1,1,0.0598,0.0,508.3333
+name,Sol,1,0.0598,0.0,508.3333
+name,Sol Babiole,1,0.0598,0.0,508.3333
+name,Son bussiness,1,0.0598,0.0,508.3333
+name,St Boniface Warehouse,1,0.0598,0.0,508.3333
+name,St. Marie Madeine's Guest House,1,0.0598,0.0,508.3333
+name,Station Total Bicentenaire,1,0.0598,0.0,508.3333
+name,Station Total Rue Pavee,1,0.0598,0.0,508.3333
+name,Tayan,1,0.0598,0.0,508.3333
+name,Team Pepsi,1,0.0598,0.0,508.3333
+name,The Parish Church Hall,1,0.0598,0.0,508.3333
+name,Trail,1,0.0598,0.0,508.3333
+name,Trinité Collège,1,0.0598,0.0,508.3333
+name,Télé Soleil,1,0.0598,0.0,508.3333
+name,Unitransfer,1,0.0598,0.0,508.3333
+name,Vaillant 1,1,0.0598,0.0,508.3333
+name,Valas,1,0.0598,0.0,508.3333
+name,Victoria Street,1,0.0598,0.0,508.3333
+name,Villa Court,1,0.0598,0.0,508.3333
+name,Village Espérance,1,0.0598,0.0,508.3333
+name,Village FM,1,0.0598,0.0,508.3333
+name,Village lumiere,1,0.0598,0.0,508.3333
+name,Walton Road,1,0.0598,0.0,508.3333
+name,Waste Tank,1,0.0598,0.0,508.3333
+name,Waterdale Park,1,0.0598,0.0,508.3333
+name,Witham Drive,1,0.0598,0.0,508.3333
+name,Yayie Drive,1,0.0598,0.0,508.3333
+name,acceso a La Chaine,1,0.0598,0.0,508.3333
+name,bellevue inter,1,0.0598,0.0,508.3333
+name,bing,1,0.0598,0.0,508.3333
+name,brabayard,1,0.0598,0.0,508.3333
+name,chretienne de christian ville;clinique,1,0.0598,0.0,508.3333
+name,college mixte jacques premier de marigot,1,0.0598,0.0,508.3333
+name,contours de l'etablissement,1,0.0598,0.0,508.3333
+name,corridor Gaguerre,1,0.0598,0.0,508.3333
+name,despoteaux,1,0.0598,0.0,508.3333
+name,dispensaire de bellevue,1,0.0598,0.0,508.3333
+name,dispensaire de la croix,1,0.0598,0.0,508.3333
+name,ecole,1,0.0598,0.0,508.3333
+name,ecole communautaire de baguette,1,0.0598,0.0,508.3333
+name,ecole communautaire de bellevue,1,0.0598,0.0,508.3333
+name,ecole national de la croix,1,0.0598,0.0,508.3333
+name,ecole nationale,1,0.0598,0.0,508.3333
+name,ecole nationale de bellevue,1,0.0598,0.0,508.3333
+name,ecole nationale de cholette,1,0.0598,0.0,508.3333
+name,ecole nationale lozier,1,0.0598,0.0,508.3333
+name,ecole normale superiure,1,0.0598,0.0,508.3333
+name,ecole notre dame de la victoire,1,0.0598,0.0,508.3333
+name,ecole presbyterale st yves de petit savanne,1,0.0598,0.0,508.3333
+name,ecole saint marc,1,0.0598,0.0,508.3333
+name,edificio,1,0.0598,0.0,508.3333
+name,efacap,1,0.0598,0.0,508.3333
+name,egise st dominique de marigot,1,0.0598,0.0,508.3333
+name,eglise baptiste de sanai,1,0.0598,0.0,508.3333
+name,eglise de dieu reconciliee centre du reveil,1,0.0598,0.0,508.3333
+name,eglise la coroix,1,0.0598,0.0,508.3333
+name,eglise methodiste yacinthe Church,1,0.0598,0.0,508.3333
+name,egs,1,0.0598,0.0,508.3333
+name,el shadaï,1,0.0598,0.0,508.3333
+name,highway,1,0.0598,0.0,508.3333
+name,hiking trail,1,0.0598,0.0,508.3333
+name,huis,1,0.0598,0.0,508.3333
+name,impassa jojo,1,0.0598,0.0,508.3333
+name,impasse mayard,1,0.0598,0.0,508.3333
+name,kafou Madan Thoby,1,0.0598,0.0,508.3333
+name,msf,1,0.0598,0.0,508.3333
+name,nicky baber shop,1,0.0598,0.0,508.3333
+name,notre damme du mon carmel,1,0.0598,0.0,508.3333
+name,pharmacie bon marché,1,0.0598,0.0,508.3333
+name,pharmacie du jourdain,1,0.0598,0.0,508.3333
+name,route chevrolambard,1,0.0598,0.0,508.3333
+name,route de la paix,1,0.0598,0.0,508.3333
+name,route la coupe,1,0.0598,0.0,508.3333
+name,route lamandou,1,0.0598,0.0,508.3333
+name,rue Dieurena-Nazaire,1,0.0598,0.0,508.3333
+name,rue Disciple Jean Pierre,1,0.0598,0.0,508.3333
+name,rue timoune,1,0.0598,0.0,508.3333
+name,ruelle bas guerin,1,0.0598,0.0,508.3333
+name,santo 12a,1,0.0598,0.0,508.3333
+name,sourse vuletse,1,0.0598,0.0,508.3333
+name,steet,1,0.0598,0.0,508.3333
+name,unknown,1,0.0598,0.0,508.3333
+name,unknown name,1,0.0598,0.0,508.3333
+name,volonte de Dieu depot boissons gazeuses,1,0.0598,0.0,508.3333
+name,École Communautaire de Ladumette,1,0.0598,0.0,508.3333
+name,École Fondamentale Complète de l'Asile,1,0.0598,0.0,508.3333
+name,École Presbytérale,1,0.0598,0.0,508.3333
+name,Église Baptiste,1,0.0598,0.0,508.3333
+name,Église Catholique de Pochette,1,0.0598,0.0,508.3333
+name,Église Saint Pierre des Baradères,1,0.0598,0.0,508.3333
+name,Étang Droite,1,0.0598,0.0,508.3333
+name,永田本町一丁目,1,0.0598,0.0,508.3333
+natural,tree,228,47.3029,22700.0,138600.0
+natural,coastline,96,19.917,9500.0,58300.0
+natural,wood,51,10.5809,5000.0,30925.0
+natural,water,44,9.1286,4300.0,26666.6667
+natural,scrub,15,3.112,1400.0,9025.0
+natural,grassland,12,2.4896,1100.0,7200.0
+natural,beach,6,1.2448,500.0,3550.0
+natural,wetland,6,1.2448,500.0,3550.0
+natural,reef,5,1.0373,400.0,2941.6667
+natural,cliff,4,0.8299,300.0,2333.3333
+natural,peak,3,0.6224,200.0,1725.0
+natural,sand,3,0.6224,200.0,1725.0
+natural,rock,2,0.4149,100.0,1116.6667
+natural,shrub,2,0.4149,100.0,1116.6667
+natural,tree_row,2,0.4149,100.0,1116.6667
+natural,bare_rock,1,0.2075,0.0,508.3333
+natural,bay,1,0.2075,0.0,508.3333
+natural,spring,1,0.2075,0.0,508.3333
+source,bing,1472,25.3182,147100.0,895366.6667
+source,Bing,667,11.4723,66600.0,405658.3333
+source,digitalglobe,525,9.0299,52400.0,319275.0
+source,mapbox:ortho,358,6.1576,35700.0,217683.3333
+source,GeoEye,342,5.8824,34100.0,207950.0
+source,Maxar 2021-08-14,157,2.7004,15600.0,95408.3333
+source,DigitalGlobe,126,2.1672,12500.0,76550.0
+source,"Google, 2010-01-21",109,1.8748,10800.0,66208.3333
+source,ikonos/geoeye,109,1.8748,10800.0,66208.3333
+source,survey,89,1.5308,8800.0,54041.6667
+source,Mapbox,88,1.5136,8700.0,53433.3333
+source,"NOAA, 2010-01-24",85,1.462,8400.0,51608.3333
+source,"Ikonos, GeoEye, 2010-01-15",79,1.3588,7800.0,47958.3333
+source,bing:ortho,64,1.1008,6300.0,38833.3333
+source,"WorldView-2, DigitalGlobe, 2010-01-21",50,0.86,4900.0,30316.6667
+source,"U.S. Defense Mapping Agency, 1993",48,0.8256,4700.0,29100.0
+source,hot_iom_cosmha,47,0.8084,4600.0,28491.6667
+source,NOAA,46,0.7912,4500.0,27883.3333
+source,CNIGS/OIM/FOCS,45,0.774,4400.0,27275.0
+source,hot_cosmha_iom,44,0.7568,4300.0,26666.6667
+source,1:50k topo,40,0.688,3900.0,24233.3333
+source,DMA TLM-50,38,0.6536,3700.0,23016.6667
+source,"Ikonos, GeoEye, 2010-01-17",37,0.6364,3600.0,22408.3333
+source,hot-che-116,35,0.602,3400.0,21191.6667
+source,"QuickBird, DigitalGlobe, 2006-12-07",34,0.5848,3300.0,20583.3333
+source,haiti mosaic,31,0.5332,3000.0,18758.3333
+source,GeoEye/GeoEye1-2010/01/16,30,0.516,2900.0,18150.0
+source,digitalglobe;GeoEye,28,0.4816,2700.0,16933.3333
+source,mapbox:digitalglobe,27,0.4644,2600.0,16325.0
+source,AFH_ survey,25,0.43,2400.0,15108.3333
+source,CNIGS/OIM/ FOCS,25,0.43,2400.0,15108.3333
+source,Ikonos 01-17,25,0.43,2400.0,15108.3333
+source,bing with offset,25,0.43,2400.0,15108.3333
+source,Maxar 2021-08-15,21,0.3612,2000.0,12675.0
+source,"WorldView-2, DigitalGlobe, 2010-01-20",21,0.3612,2000.0,12675.0
+source,"WorldView-2, DigitalGlobe, 2010-01-18",20,0.344,1900.0,12066.6667
+source,"NOAA, 2010-01-18",18,0.3096,1700.0,10850.0
+source,maps.nypl.org/relief/maps/warp/18,18,0.3096,1700.0,10850.0
+source,"DigitalGlobe, 2010",17,0.2924,1600.0,10241.6667
+source,GEOINT,17,0.2924,1600.0,10241.6667
+source,NOAA 2010-01-24,17,0.2924,1600.0,10241.6667
+source,haiti best,17,0.2924,1600.0,10241.6667
+source,hot_c.osm-ha_iom,17,0.2924,1600.0,10241.6667
+source,DigialGlobe,16,0.2752,1500.0,9633.3333
+source,"NOAA, 2010-01-20",16,0.2752,1500.0,9633.3333
+source,"NOAA, 2010-01-22",16,0.2752,1500.0,9633.3333
+source,bing  with offset,16,0.2752,1500.0,9633.3333
+source,geoeye,16,0.2752,1500.0,9633.3333
+source,http://hypercube.telascience.org/tiles/1.0.0/haiti-tlm-50/!/!/!.jpg,14,0.2408,1300.0,8416.6667
+source,hot _c.osm-ha_iom,13,0.2236,1200.0,7808.3333
+source,landsat;bing,12,0.2064,1100.0,7200.0
+source,Haiti 1:50k Topo,11,0.1892,1000.0,6591.6667
+source,Ikonos 01-17/GeoEye,11,0.1892,1000.0,6591.6667
+source,geoeye20100116,11,0.1892,1000.0,6591.6667
+source,landsat,11,0.1892,1000.0,6591.6667
+source,WorldView2/DigitalGlobe/2010-01-21,10,0.172,900.0,5983.3333
+source,Bing With Offset,9,0.1548,800.0,5375.0
+source,DigitalGlobe;GeoEye,9,0.1548,800.0,5375.0
+source,Ikonos-10-01-17,9,0.1548,800.0,5375.0
+source,MINUSTAH GIS and UN Cartographic Section,9,0.1548,800.0,5375.0
+source,digitalglobe;ikonos/geoeye;digitalglobe,9,0.1548,800.0,5375.0
+source,CIA haiti-tlm-50,8,0.1376,700.0,4766.6667
+source,haiti best at teleatlas,8,0.1376,700.0,4766.6667
+source,haiti-tlm-50,8,0.1376,700.0,4766.6667
+source,hot_OIM_che116,8,0.1376,700.0,4766.6667
+source,mapbox.comdigitalglobeHurricaneMatthew,8,0.1376,700.0,4766.6667
+source,Bing with offset,7,0.1204,600.0,4158.3333
+source,"DigitalGlobe;WorldView-2, DigitalGlobe, 2010-01-20",7,0.1204,600.0,4158.3333
+source,Haitii 1:50k topo,7,0.1204,600.0,4158.3333
+source,"Ikonos, GeoEye, 2010-01-14",7,0.1204,600.0,4158.3333
+source,"WorldBank, 2010-01-22",7,0.1204,600.0,4158.3333
+source,Defense Mapping Agency (United States),6,0.1032,500.0,3550.0
+source,Digital Globe 2015 Saint Christophe Haiti,6,0.1032,500.0,3550.0
+source,drr:iom,6,0.1032,500.0,3550.0
+source,hot_oim_cosmha,6,0.1032,500.0,3550.0
+source,http://hypercube.telascience.org/tiles/1.0.0/geoeye-ikonos-20100115-900913/!/!/!.jpg,6,0.1032,500.0,3550.0
+source,iom_cosmha,6,0.1032,500.0,3550.0
+source,"1:12,500, Edition 2-DMA, Series E935. U.S. Defense Mapping Agency, 1987",5,0.086,400.0,2941.6667
+source,CIA TLM 50,5,0.086,400.0,2941.6667
+source,DigitalGlobe Premium,5,0.086,400.0,2941.6667
+source,GeoEye;WorldBank,5,0.086,400.0,2941.6667
+source,Haiti 1:50k topo,5,0.086,400.0,2941.6667
+source,"Ikonos, GeoEye, 2010/01/14",5,0.086,400.0,2941.6667
+source,bing with offset_GPS traces,5,0.086,400.0,2941.6667
+source,hot_cosma_iom,5,0.086,400.0,2941.6667
+source,hot_iom_c.osm-ha,5,0.086,400.0,2941.6667
+source,knowledge,5,0.086,400.0,2941.6667
+source,landsat & Digital Globe,5,0.086,400.0,2941.6667
+source,Bing Imagery 2016,4,0.0688,300.0,2333.3333
+source,Bing;survey,4,0.0688,300.0,2333.3333
+source,Digital Globe 2015,4,0.0688,300.0,2333.3333
+source,"Ikonos, GeoEye, date 2010-01-14",4,0.0688,300.0,2333.3333
+source,Mairie de Beaumont,4,0.0688,300.0,2333.3333
+source,Mapbox Satellite,4,0.0688,300.0,2333.3333
+source,Maxar P,4,0.0688,300.0,2333.3333
+source,"NOAA, 2008-01-21",4,0.0688,300.0,2333.3333
+source,"QuickBird, DigitalGlobe, 2006-12-07;Ikonos, GeoEye, 2010-01-17",4,0.0688,300.0,2333.3333
+source,"UAV,IOM_COSMHA_SIGHA",4,0.0688,300.0,2333.3333
+source,"WorldView-2 and WorldView-3, DigitalGlobe, NextView, 23 Dec 2014 and 05 Jan 2015",4,0.0688,300.0,2333.3333
+source,cosmha_iom,4,0.0688,300.0,2333.3333
+source,maxar,4,0.0688,300.0,2333.3333
+source,noaa,4,0.0688,300.0,2333.3333
+source,survey; Bing,4,0.0688,300.0,2333.3333
+source,1:50k topo;digitalglobe,3,0.0516,200.0,1725.0
+source,"<différent>,UAV,IOM,COSMHA,SIGHA",3,0.0516,200.0,1725.0
+source,Bing  with offset,3,0.0516,200.0,1725.0
+source,GPS-adjusted Bing,3,0.0516,200.0,1725.0
+source,"GeoEye1, GeoEye, 2010-01-13",3,0.0516,200.0,1725.0
+source,Ikonos,3,0.0516,200.0,1725.0
+source,NOAA 2010-01-18,3,0.0516,200.0,1725.0
+source,Quickbird_20060618,3,0.0516,200.0,1725.0
+source,Spot5 mosaic,3,0.0516,200.0,1725.0
+source,"WorldBank, 2010-01-2",3,0.0516,200.0,1725.0
+source,bing;Ikonos 01-17,3,0.0516,200.0,1725.0
+source,"digitalglobe, Bing with offset",3,0.0516,200.0,1725.0
+source,"digitalglobe, bing withoffset",3,0.0516,200.0,1725.0
+source,"geoeye & WorldBank, 2010-01-22",3,0.0516,200.0,1725.0
+source,hot-oim-cosmha,3,0.0516,200.0,1725.0
+source,http://hypercube.telascience.org/tiles/1.0.0/noaa-20100124-900913/!/!/!.jpg,3,0.0516,200.0,1725.0
+source,iom_c.osm-ha,3,0.0516,200.0,1725.0
+source,verified from Bing,3,0.0516,200.0,1725.0
+source,AFH_survey,2,0.0344,100.0,1116.6667
+source,BestMosaic,2,0.0344,100.0,1116.6667
+source,Bing  with offse,2,0.0344,100.0,1116.6667
+source,"Bing; DigitalGlobe, 2010",2,0.0344,100.0,1116.6667
+source,Bing; GeoEye,2,0.0344,100.0,1116.6667
+source,Bing; GeoEye;WorldBank,2,0.0344,100.0,1116.6667
+source,Bing;gps,2,0.0344,100.0,1116.6667
+source,CCCM,2,0.0344,100.0,1116.6667
+source,CNIGS/OIM/ FOCS/OSM,2,0.0344,100.0,1116.6667
+source,COSMHA/CNIGS/OIM/FOCS,2,0.0344,100.0,1116.6667
+source,"DigitalGlobe, Bing with offset",2,0.0344,100.0,1116.6667
+source,"DigitalGlobe;NOAA, 2010-01-20",2,0.0344,100.0,1116.6667
+source,DigitalGlobe;hot_cosmha_iom,2,0.0344,100.0,1116.6667
+source,GeoEye 2010-01-16,2,0.0344,100.0,1116.6667
+source,"GeoEye, Bing",2,0.0344,100.0,1116.6667
+source,GeoEye1 2010/01/16,2,0.0344,100.0,1116.6667
+source,"GeoEye1, GeoEye, date 2010-01-16",2,0.0344,100.0,1116.6667
+source,GeoEye;DigitalGlobe,2,0.0344,100.0,1116.6667
+source,GeoEye;ikonos/geoeye,2,0.0344,100.0,1116.6667
+source,HOT_IOM,2,0.0344,100.0,1116.6667
+source,"Ikonos & Digital Globe;ikonos-01-14 , haiti-tlm-50 , Digital Globe;ikonos/geoeye",2,0.0344,100.0,1116.6667
+source,Landsat,2,0.0344,100.0,1116.6667
+source,"NOAA, 2008-01-18",2,0.0344,100.0,1116.6667
+source,"NOAA, 2008-01-24",2,0.0344,100.0,1116.6667
+source,OS7,2,0.0344,100.0,1116.6667
+source,Survey-ARC,2,0.0344,100.0,1116.6667
+source,"U.S. Defense Mapping Agency, 1984",2,0.0344,100.0,1116.6667
+source,"U.S. Defense Mapping Agency, 1993;DigitalGlobe",2,0.0344,100.0,1116.6667
+source,WorldBank,2,0.0344,100.0,1116.6667
+source,WorldBank 2010-01-21 - 2010-01-22,2,0.0344,100.0,1116.6667
+source,"WorldBank, 2010-01-24",2,0.0344,100.0,1116.6667
+source,"WorldView-2, DigitalGlobe, 2010/01/20",2,0.0344,100.0,1116.6667
+source,"WorldView-2, DigitalWorls, 2010-01-21",2,0.0344,100.0,1116.6667
+source,Yahoo,2,0.0344,100.0,1116.6667
+source,b ing with offset,2,0.0344,100.0,1116.6667
+source,bing;local knowledge,2,0.0344,100.0,1116.6667
+source,bing;survey,2,0.0344,100.0,1116.6667
+source,digitalglobe;NOAA 2010-01-24,2,0.0344,100.0,1116.6667
+source,"digitalglobe;NOAA, 2010-01-22",2,0.0344,100.0,1116.6667
+source,haiti tranasportation map ftp://haiti:Rkjpb7uef@157.150.195.135/Maps/Country%20wide/M2K5MOVV0801HAT40R_60X42.pdf,2,0.0344,100.0,1116.6667
+source,"hot_c.osm-ha_iom; NOAA, 2010-01-24",2,0.0344,100.0,1116.6667
+source,hot_oim_che116,2,0.0344,100.0,1116.6667
+source,http://mirror.openstreetmap.nl/haiti/TRACKLOG_PAP_HAITI.gpx,2,0.0344,100.0,1116.6667
+source,ikonos/geoeye;bing,2,0.0344,100.0,1116.6667
+source,ing,2,0.0344,100.0,1116.6667
+source,iom/c.osm-ha,2,0.0344,100.0,1116.6667
+source,landsat & DigitalGlobe imagery,2,0.0344,100.0,1116.6667
+source,survey;Bing,2,0.0344,100.0,1116.6667
+source,"1:100,000, 1961, The Lionel Pincus and Princess Firyal Map Division",1,0.0172,0.0,508.3333
+source,"<différent>,UAV,IOM,COSMHA,SIGHA, Projet Canaan Pi Djanm Survey",1,0.0172,0.0,508.3333
+source,Bing with off set,1,0.0172,0.0,508.3333
+source,Bing; CNIGS/OIM/ FOCS,1,0.0172,0.0,508.3333
+source,Bing; DMA TLM-50,1,0.0172,0.0,508.3333
+source,Bing; DigitalGlobe,1,0.0172,0.0,508.3333
+source,Bing; digitalglobe,1,0.0172,0.0,508.3333
+source,Bing;MINUSTAH GIS and UN Cartographic Section,1,0.0172,0.0,508.3333
+source,Bing_GPS,1,0.0172,0.0,508.3333
+source,CIA maps,1,0.0172,0.0,508.3333
+source,CIGS/OIM/FOCS,1,0.0172,0.0,508.3333
+source,CNIGS/GIS/DTM,1,0.0172,0.0,508.3333
+source,CNIGS/OIM/ FOCS;DigitalGlobe,1,0.0172,0.0,508.3333
+source,DMA Topo Map 50,1,0.0172,0.0,508.3333
+source,"DigialGlobe, 2010",1,0.0172,0.0,508.3333
+source,Digital Globe 2015 Canaan Haiti,1,0.0172,0.0,508.3333
+source,DigitalGlobe;Bing with offset;bing with offeset,1,0.0172,0.0,508.3333
+source,"DigitalGlobe;DigitalGlobe,Bing with offset;bing with offset",1,0.0172,0.0,508.3333
+source,DigitalGlobe;DigitalGlobe;NOAA-2010-01-24;DigitalGlobe;NOAA-2010-01-24;hot_c.osm-ha_iom,1,0.0172,0.0,508.3333
+source,DigitalGlobe;NOAA-2010-01-24,1,0.0172,0.0,508.3333
+source,GPS-adjusted Bing; survey,1,0.0172,0.0,508.3333
+source,GeoEye1 2010-01-16,1,0.0172,0.0,508.3333
+source,GeoEye1 2010-01-16;GeoEye/Ikonos 2010-01-14,1,0.0172,0.0,508.3333
+source,"GeoEye; WorldBank, 2010-01-24",1,0.0172,0.0,508.3333
+source,GeoEye;MINUSTAH GIS and UN Cartographic Section,1,0.0172,0.0,508.3333
+source,Geoeye,1,0.0172,0.0,508.3333
+source,Glissement de terrain,1,0.0172,0.0,508.3333
+source,Google 2010-01-17,1,0.0172,0.0,508.3333
+source,"Google, 2010-01-21;WorldBank, 2010-01-24;digitalglobe",1,0.0172,0.0,508.3333
+source,HOT_IOM_CHE116,1,0.0172,0.0,508.3333
+source,Haitii 1:50k topo;digitalglobe,1,0.0172,0.0,508.3333
+source,IOM_COSMHA,1,0.0172,0.0,508.3333
+source,Ikonis 01-17/ GeoEye,1,0.0172,0.0,508.3333
+source,"Ikonos, GeoEye, 2010-01-14, haiti-tlm-50",1,0.0172,0.0,508.3333
+source,"Ikonos, GeoEye, date (2010-01-27)",1,0.0172,0.0,508.3333
+source,"Ithaca,2010-01-15",1,0.0172,0.0,508.3333
+source,JAXA/ALOS,1,0.0172,0.0,508.3333
+source,Kenol Thys / IDB,1,0.0172,0.0,508.3333
+source,Mairie de Delmas,1,0.0172,0.0,508.3333
+source,Mapnote by Xapitoun,1,0.0172,0.0,508.3333
+source,Maxar,1,0.0172,0.0,508.3333
+source,NOAA 2010/18/01,1,0.0172,0.0,508.3333
+source,"NOAA, 2010-01-21",1,0.0172,0.0,508.3333
+source,OS OpenData StreetView,1,0.0172,0.0,508.3333
+source,OS_OpenData_StreetView,1,0.0172,0.0,508.3333
+source,PDCIA,1,0.0172,0.0,508.3333
+source,PNOA,1,0.0172,0.0,508.3333
+source,Quickbird_20031225,1,0.0172,0.0,508.3333
+source,Survey_Arc,1,0.0172,0.0,508.3333
+source,Tdh,1,0.0172,0.0,508.3333
+source,"U.S. Defense Mapping Agency, 1993;digitalglobe",1,0.0172,0.0,508.3333
+source,"UAV orthomosaic Potentiel 3.0 and SPOT6 imagery Airbus DS, Oct. 2016",1,0.0172,0.0,508.3333
+source,"WorldView-2, 2010-01-17, Digital Globe",1,0.0172,0.0,508.3333
+source,"WorldView-2, DigitalGlobe, 2010/01/18",1,0.0172,0.0,508.3333
+source,Yahoo hires,1,0.0172,0.0,508.3333
+source,Yahoo_wms;bing;landsat;digitalglobe,1,0.0172,0.0,508.3333
+source,bing:ortho;GeoEye,1,0.0172,0.0,508.3333
+source,bing; Tdh,1,0.0172,0.0,508.3333
+source,cnigslidar2015,1,0.0172,0.0,508.3333
+source,cosmha,1,0.0172,0.0,508.3333
+source,cuzk:km,1,0.0172,0.0,508.3333
+source,digitalglobe;MINUSTAH GIS and UN Cartographic Section,1,0.0172,0.0,508.3333
+source,digitalglobe;Yahoo,1,0.0172,0.0,508.3333
+source,extrapolation,1,0.0172,0.0,508.3333
+source,geoeye;DMA TLM-50,1,0.0172,0.0,508.3333
+source,geoeye;WorldBank,1,0.0172,0.0,508.3333
+source,gps,1,0.0172,0.0,508.3333
+source,haiti best at telascience,1,0.0172,0.0,508.3333
+source,hot oim cosmha,1,0.0172,0.0,508.3333
+source,hot--cosmha_oim,1,0.0172,0.0,508.3333
+source,hot_c.osm-ha_iom; digitalglobe,1,0.0172,0.0,508.3333
+source,hot_cosmha,1,0.0172,0.0,508.3333
+source,hot_cosmha; Bing,1,0.0172,0.0,508.3333
+source,"hot_cosmha_iom; 1:12,500, Edition 2-DMA, Series E935. U.S. Defense Mapping Agency, 1987",1,0.0172,0.0,508.3333
+source,hot_cosnha_iom,1,0.0172,0.0,508.3333
+source,hot_iom_che_116,1,0.0172,0.0,508.3333
+source,hot_iom_coshma,1,0.0172,0.0,508.3333
+source,http://haiti.sahanafoundation.org/prod/hms/hospital,1,0.0172,0.0,508.3333
+source,http://www.ambafrance-ht.org/,1,0.0172,0.0,508.3333
+source,interpolation,1,0.0172,0.0,508.3333
+source,landsat & DigitalGlobe & Bing,1,0.0172,0.0,508.3333
+source,local_knowledge,1,0.0172,0.0,508.3333
+source,local_knowlegde,1,0.0172,0.0,508.3333
+source,mapbox,1,0.0172,0.0,508.3333
+source,"survey,Digital Globe 2015 canaan",1,0.0172,0.0,508.3333
+source,survey; GPS-adjusted Bing,1,0.0172,0.0,508.3333
+source,survey; haiti best at teleatlas,1,0.0172,0.0,508.3333
+surface,unpaved,1336,65.139,133500.0,812633.3333
+surface,dirt,179,8.7275,17800.0,108791.6667
+surface,ground,138,6.7284,13700.0,83850.0
+surface,asphalt,94,4.5831,9300.0,57083.3333
+surface,gravel,90,4.3881,8900.0,54650.0
+surface,paved,65,3.1692,6400.0,39441.6667
+surface,compacted,39,1.9015,3800.0,23625.0
+surface,concrete:plates,39,1.9015,3800.0,23625.0
+surface,concrete,28,1.3652,2700.0,16933.3333
+surface,paving_stones,15,0.7314,1400.0,9025.0
+surface,mud,10,0.4876,900.0,5983.3333
+surface,sand,6,0.2925,500.0,3550.0
+surface,grass,3,0.1463,200.0,1725.0
+surface,clay,2,0.0975,100.0,1116.6667
+surface,dirt;sand,2,0.0975,100.0,1116.6667
+surface,earth,2,0.0975,100.0,1116.6667
+surface,1,1,0.0488,0.0,508.3333
+surface,metal,1,0.0488,0.0,508.3333
+surface,yes,1,0.0488,0.0,508.3333
+waterway,stream,727,65.971,72600.0,442158.3333
+waterway,river,342,31.0345,34100.0,207950.0
+waterway,canal,12,1.0889,1100.0,7200.0
+waterway,drain,11,0.9982,1000.0,6591.6667
+waterway,ditch,6,0.5445,500.0,3550.0
+waterway,dam,2,0.1815,100.0,1116.6667
+waterway,riverbank,2,0.1815,100.0,1116.6667

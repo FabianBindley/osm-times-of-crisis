@@ -160,6 +160,7 @@ def plot_counts_specific(disaster_id, disaster_country, disaster_area, disaster_
         except FileNotFoundError:
             raise(Exception(f"Prophet predictions not found for {pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_{str(interval_length)}"))
 
+        # TODO Update this to only show predictions for imm and post disaster periods
         predictions = predictions[(before < pd.to_datetime(predictions['start_date'])) & (pd.to_datetime(predictions['start_date']) < after)]
 
     # Select data based on time_period
@@ -372,7 +373,7 @@ if __name__ == "__main__":
     plot_edit_types_list = [["creates", "edits", "deletes", "total"],["creates"],["edits"],["deletes"],["total"]]
     #plot_edit_types_list = [["deletes"],["total"]]
 
-    disaster_ids = range(1,11)
+    disaster_ids = range(2,13)
     #disaster_ids = [5]
 
     for period in periods:

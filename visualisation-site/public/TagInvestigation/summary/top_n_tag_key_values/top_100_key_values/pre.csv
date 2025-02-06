@@ -1,513 +1,742 @@
 key,value,count,percent_of_total_changes_for_key,percent_difference_from_pre,percent_difference_from_pre_day
-amenity,parking,734,20.8998,0.0,0.0
-amenity,school,660,18.7927,0.0,0.0
-amenity,fast_food,284,8.0866,0.0,0.0
-amenity,restaurant,265,7.5456,0.0,0.0
-amenity,Convenience Store;Gas Station,199,5.6663,0.0,0.0
-amenity,place_of_worship,181,5.1538,0.0,0.0
-amenity,fuel,173,4.926,0.0,0.0
-amenity,grave_yard,159,4.5273,0.0,0.0
-amenity,fountain,80,2.2779,0.0,0.0
-amenity,bench,63,1.7938,0.0,0.0
-amenity,bank,52,1.4806,0.0,0.0
-amenity,pharmacy,45,1.2813,0.0,0.0
-amenity,cafe,45,1.2813,0.0,0.0
-amenity,toilets,44,1.2528,0.0,0.0
-amenity,shelter,36,1.0251,0.0,0.0
-amenity,fire_station,35,0.9966,0.0,0.0
-amenity,hospital,31,0.8827,0.0,0.0
-amenity,drinking_water,30,0.8542,0.0,0.0
-amenity,police,26,0.7403,0.0,0.0
-amenity,Family Restaurant,22,0.6264,0.0,0.0
-amenity,bar,19,0.541,0.0,0.0
-amenity,parking_space,18,0.5125,0.0,0.0
-amenity,community_centre,15,0.4271,0.0,0.0
-amenity,doctors,15,0.4271,0.0,0.0
-amenity,library,15,0.4271,0.0,0.0
-amenity,university,15,0.4271,0.0,0.0
-amenity,clinic,14,0.3986,0.0,0.0
-amenity,dentist,14,0.3986,0.0,0.0
-amenity,prison,14,0.3986,0.0,0.0
-amenity,cinema,14,0.3986,0.0,0.0
-amenity,Furniture Store,13,0.3702,0.0,0.0
-amenity,car_wash,13,0.3702,0.0,0.0
-amenity,Furniture Store;Mattress Store;Bedroom Furniture Store;Children's Furniture Store;Outdoor Furniture Store,12,0.3417,0.0,0.0
-amenity,post_office,12,0.3417,0.0,0.0
-amenity,Family Restaurant;Restaurant;Southern Restaurant (US);Traditional American Restaurant,11,0.3132,0.0,0.0
-amenity,theatre,11,0.3132,0.0,0.0
-amenity,pub,9,0.2563,0.0,0.0
-amenity,courthouse,9,0.2563,0.0,0.0
-amenity,atm,9,0.2563,0.0,0.0
-amenity,car_rental,8,0.2278,0.0,0.0
-amenity,charging_station,6,0.1708,0.0,0.0
-amenity,social_facility,6,0.1708,0.0,0.0
-amenity,bbq,5,0.1424,0.0,0.0
-amenity,college,5,0.1424,0.0,0.0
-amenity,ice_cream,5,0.1424,0.0,0.0
-amenity,marketplace,5,0.1424,0.0,0.0
-amenity,waste_basket,4,0.1139,0.0,0.0
-amenity,Portable Toilet Supplier;Trailer Rental Service;Construction Equipment Supplier;Fence Contractor,4,0.1139,0.0,0.0
-amenity,townhall,4,0.1139,0.0,0.0
-amenity,recycling,4,0.1139,0.0,0.0
-amenity,post_box,3,0.0854,0.0,0.0
-amenity,storage,3,0.0854,0.0,0.0
-amenity,veterinary,3,0.0854,0.0,0.0
-amenity,ferry_terminal,2,0.0569,0.0,0.0
-amenity,ranger_station,2,0.0569,0.0,0.0
-amenity,childcare,2,0.0569,0.0,0.0
-amenity,food_court,2,0.0569,0.0,0.0
-amenity,nightclub,2,0.0569,0.0,0.0
-amenity,parking_entrance,2,0.0569,0.0,0.0
-amenity,bench;drinking_water,1,0.0285,0.0,0.0
-amenity,watering_place,1,0.0285,0.0,0.0
-amenity,arts_centre,1,0.0285,0.0,0.0
-amenity,bicycle_parking,1,0.0285,0.0,0.0
-amenity,bicycle_rental,1,0.0285,0.0,0.0
-amenity,bicycle_repair_station,1,0.0285,0.0,0.0
-amenity,boat_storage,1,0.0285,0.0,0.0
-amenity,bureau_de_change,1,0.0285,0.0,0.0
-amenity,bus_station;parking,1,0.0285,0.0,0.0
-amenity,casino,1,0.0285,0.0,0.0
-amenity,dojo,1,0.0285,0.0,0.0
-amenity,driving_school,1,0.0285,0.0,0.0
-amenity,kindergarten,1,0.0285,0.0,0.0
-amenity,shop,1,0.0285,0.0,0.0
-amenity,shopping,1,0.0285,0.0,0.0
-amenity,swimming_pool,1,0.0285,0.0,0.0
-amenity,nursing_home,1,0.0285,0.0,0.0
-amenity,studio,1,0.0285,0.0,0.0
-amenity,shower,1,0.0285,0.0,0.0
-building,yes,282666,99.0223,0.0,0.0
-building,house,896,0.3139,0.0,0.0
-building,unidentified,474,0.166,0.0,0.0
-building,residential,321,0.1125,0.0,0.0
-building,apartments,192,0.0673,0.0,0.0
-building,school,185,0.0648,0.0,0.0
-building,roof,160,0.0561,0.0,0.0
-building,retail,127,0.0445,0.0,0.0
-building,commercial,94,0.0329,0.0,0.0
-building,industrial,72,0.0252,0.0,0.0
-building,storage_tank,35,0.0123,0.0,0.0
-building,office,27,0.0095,0.0,0.0
-building,warehouse,27,0.0095,0.0,0.0
-building,hotel,24,0.0084,0.0,0.0
-building,shed,18,0.0063,0.0,0.0
-building,church,18,0.0063,0.0,0.0
-building,hospital,16,0.0056,0.0,0.0
-building,garage,11,0.0039,0.0,0.0
-building,service,11,0.0039,0.0,0.0
-building,greenhouse,10,0.0035,0.0,0.0
-building,barn,9,0.0032,0.0,0.0
-building,hut,9,0.0032,0.0,0.0
-building,hangar,8,0.0028,0.0,0.0
-building,university,7,0.0025,0.0,0.0
-building,mosque,6,0.0021,0.0,0.0
-building,construction,4,0.0014,0.0,0.0
-building,public,4,0.0014,0.0,0.0
-building,no,3,0.0011,0.0,0.0
-building,ruins,2,0.0007,0.0,0.0
-building,stable,2,0.0007,0.0,0.0
-building,college,2,0.0007,0.0,0.0
-building,gasometer,2,0.0007,0.0,0.0
-building,structure,2,0.0007,0.0,0.0
-building,unclassified,2,0.0007,0.0,0.0
-building,civic,1,0.0004,0.0,0.0
-building,courthouse,1,0.0004,0.0,0.0
-building,lighthouse,1,0.0004,0.0,0.0
-building,pavilion,1,0.0004,0.0,0.0
-building,prison,1,0.0004,0.0,0.0
-building,shop,1,0.0004,0.0,0.0
-building,supermarket,1,0.0004,0.0,0.0
-building,terminal,1,0.0004,0.0,0.0
-building,tower,1,0.0004,0.0,0.0
-building,transformer_tower,1,0.0004,0.0,0.0
-building,chapel,1,0.0004,0.0,0.0
-emergency,phone,61,66.3043,0.0,0.0
-emergency,fire_hydrant,12,13.0435,0.0,0.0
-emergency,yes,8,8.6957,0.0,0.0
-emergency,destination,7,7.6087,0.0,0.0
-emergency,no,2,2.1739,0.0,0.0
-emergency,ambulance_station,1,1.087,0.0,0.0
-emergency,evacuation contraflow,1,1.087,0.0,0.0
-highway,residential,37002,30.3948,0.0,0.0
-highway,unclassified,23149,19.0154,0.0,0.0
-highway,service,21841,17.941,0.0,0.0
-highway,track,7866,6.4614,0.0,0.0
-highway,secondary,6660,5.4708,0.0,0.0
-highway,footway,4204,3.4533,0.0,0.0
-highway,tertiary,4177,3.4311,0.0,0.0
-highway,primary,2935,2.4109,0.0,0.0
-highway,turning_circle,2513,2.0643,0.0,0.0
-highway,trunk,2150,1.7661,0.0,0.0
-highway,turning_loop,1763,1.4482,0.0,0.0
-highway,secondary_link,1143,0.9389,0.0,0.0
-highway,path,990,0.8132,0.0,0.0
-highway,motorway,958,0.7869,0.0,0.0
-highway,traffic_signals,918,0.7541,0.0,0.0
-highway,cycleway,488,0.4009,0.0,0.0
-highway,motorway_link,444,0.3647,0.0,0.0
-highway,primary_link,406,0.3335,0.0,0.0
-highway,crossing,386,0.3171,0.0,0.0
-highway,tertiary_link,355,0.2916,0.0,0.0
-highway,motorway_junction,216,0.1774,0.0,0.0
-highway,living_street,192,0.1577,0.0,0.0
-highway,trunk_link,164,0.1347,0.0,0.0
-highway,stop,151,0.124,0.0,0.0
-highway,proposed,133,0.1093,0.0,0.0
-highway,construction,122,0.1002,0.0,0.0
-highway,street_lamp,81,0.0665,0.0,0.0
-highway,pedestrian,78,0.0641,0.0,0.0
-highway,passing_place,65,0.0534,0.0,0.0
-highway,road,36,0.0296,0.0,0.0
-highway,give_way,32,0.0263,0.0,0.0
-highway,bus_stop,22,0.0181,0.0,0.0
-highway,milestone,17,0.014,0.0,0.0
-highway,SER,16,0.0131,0.0,0.0
-highway,steps,14,0.0115,0.0,0.0
-highway,corridor,12,0.0099,0.0,0.0
-highway,mini_roundabout,11,0.009,0.0,0.0
-highway,trailhead,9,0.0074,0.0,0.0
-highway,speed_camera,4,0.0033,0.0,0.0
-highway,bridleway,3,0.0025,0.0,0.0
-highway,unclasified,3,0.0025,0.0,0.0
-highway,residentialnn,2,0.0016,0.0,0.0
-highway,yes,2,0.0016,0.0,0.0
-highway,abandoned,1,0.0008,0.0,0.0
-highway,traffic_island,1,0.0008,0.0,0.0
-highway,residentialn,1,0.0008,0.0,0.0
-highway,resn,1,0.0008,0.0,0.0
-highway,services,1,0.0008,0.0,0.0
-landuse,residential,550,25.0455,0.0,0.0
-landuse,grass,431,19.6266,0.0,0.0
-landuse,cemetery,330,15.0273,0.0,0.0
-landuse,retail,188,8.561,0.0,0.0
-landuse,industrial,142,6.4663,0.0,0.0
-landuse,forest,122,5.5556,0.0,0.0
-landuse,farmland,100,4.5537,0.0,0.0
-landuse,commercial,95,4.326,0.0,0.0
-landuse,meadow,48,2.1858,0.0,0.0
-landuse,recreation_ground,24,1.0929,0.0,0.0
-landuse,reservoir,24,1.0929,0.0,0.0
-landuse,basin,23,1.0474,0.0,0.0
-landuse,park,18,0.8197,0.0,0.0
-landuse,orchard,14,0.6375,0.0,0.0
-landuse,construction,14,0.6375,0.0,0.0
-landuse,greenhouse_horticulture,9,0.4098,0.0,0.0
-landuse,brownfield,8,0.3643,0.0,0.0
-landuse,greenfield,8,0.3643,0.0,0.0
-landuse,landfill,7,0.3188,0.0,0.0
-landuse,farmyard,6,0.2732,0.0,0.0
-landuse,military,6,0.2732,0.0,0.0
-landuse,churchyard,5,0.2277,0.0,0.0
-landuse,quarry,3,0.1366,0.0,0.0
-landuse,vineyard,3,0.1366,0.0,0.0
-landuse,civic,2,0.0911,0.0,0.0
-landuse,harbour,2,0.0911,0.0,0.0
-landuse,railway,2,0.0911,0.0,0.0
-landuse,religious,2,0.0911,0.0,0.0
-landuse,school,2,0.0911,0.0,0.0
-landuse,apiary,1,0.0455,0.0,0.0
-landuse,orchards,1,0.0455,0.0,0.0
-landuse,special_use,1,0.0455,0.0,0.0
-landuse,Gazebo,1,0.0455,0.0,0.0
-landuse,mixed,1,0.0455,0.0,0.0
-landuse,plant_nursery,1,0.0455,0.0,0.0
-landuse,pond,1,0.0455,0.0,0.0
-landuse,aquaculture,1,0.0455,0.0,0.0
-leisure,park,803,38.6243,0.0,0.0
-leisure,pitch,543,26.1183,0.0,0.0
-leisure,swimming_pool,308,14.8148,0.0,0.0
-leisure,playground,181,8.7061,0.0,0.0
-leisure,sports_centre,40,1.924,0.0,0.0
-leisure,slipway,27,1.2987,0.0,0.0
-leisure,garden,26,1.2506,0.0,0.0
-leisure,nature_reserve,20,0.962,0.0,0.0
-leisure,golf_course,20,0.962,0.0,0.0
-leisure,fitness_centre,20,0.962,0.0,0.0
-leisure,track,15,0.7215,0.0,0.0
-leisure,stadium,11,0.5291,0.0,0.0
-leisure,dog_park,10,0.481,0.0,0.0
-leisure,bleachers,9,0.4329,0.0,0.0
-leisure,picnic_table,8,0.3848,0.0,0.0
-leisure,marina,7,0.3367,0.0,0.0
-leisure,water_park,5,0.2405,0.0,0.0
-leisure,firepit,4,0.1924,0.0,0.0
-leisure,fishing,3,0.1443,0.0,0.0
-leisure,fitness_station,3,0.1443,0.0,0.0
-leisure,ice_rink,3,0.1443,0.0,0.0
-leisure,common,2,0.0962,0.0,0.0
-leisure,yes,2,0.0962,0.0,0.0
-leisure,summer_camp,1,0.0481,0.0,0.0
-leisure,Tennis_court,1,0.0481,0.0,0.0
-leisure,basket_ball_court,1,0.0481,0.0,0.0
-leisure,dance,1,0.0481,0.0,0.0
-leisure,miniature_golf,1,0.0481,0.0,0.0
-leisure,resort,1,0.0481,0.0,0.0
-leisure,tanning_salon,1,0.0481,0.0,0.0
-leisure,tennis_court,1,0.0481,0.0,0.0
-leisure,walk,1,0.0481,0.0,0.0
-name,Jalan,390,1.0115,0.0,0.0
-name,North Freeway Frontage Road,220,0.5706,0.0,0.0
-name,Northwest Freeway Frontage Road,217,0.5628,0.0,0.0
-name,Corner Store,203,0.5265,0.0,0.0
-name,West Grand Parkway South,198,0.5135,0.0,0.0
-name,Alvin Sugarland Road,176,0.4565,0.0,0.0
-name,Westheimer Road,159,0.4124,0.0,0.0
-name,Eastex Freeway Frontage Road,151,0.3916,0.0,0.0
-name,North Shepherd Drive,141,0.3657,0.0,0.0
-name,Katy Freeway Frontage Road,126,0.3268,0.0,0.0
-name,Main Street,121,0.3138,0.0,0.0
-name,Old Spanish Trail,118,0.306,0.0,0.0
-name,Brays Bayou Greenway,113,0.2931,0.0,0.0
-name,Whataburger,107,0.2775,0.0,0.0
-name,West Little York Road,102,0.2645,0.0,0.0
-name,Southern Pacific Railroad,97,0.2516,0.0,0.0
-name,Hardy Toll Road,92,0.2386,0.0,0.0
-name,Tomball Parkway Frontage Road,91,0.236,0.0,0.0
-name,Union Pacific Railroad,90,0.2334,0.0,0.0
-name,West Sam Houston Parkway North,90,0.2334,0.0,0.0
-name,Jalan Kebonsari Tawaeli,88,0.2282,0.0,0.0
-name,Kingsland Boulevard,87,0.2256,0.0,0.0
-name,North Eldridge Parkway,83,0.2153,0.0,0.0
-name,Angeles Crest Highway,74,0.1919,0.0,0.0
-name,State Highway 35,72,0.1867,0.0,0.0
-name,Greens Road,67,0.1738,0.0,0.0
-name,Jalan Trans Sulawesi,67,0.1738,0.0,0.0
-name,Aldine Westfield Road,66,0.1712,0.0,0.0
-name,Jalan Trans Palu-Donggala,63,0.1634,0.0,0.0
-name,Barker Cypress Road,58,0.1504,0.0,0.0
-name,West 43rd Street,58,0.1504,0.0,0.0
-name,Angleton Subdivision,57,0.1478,0.0,0.0
-name,Fallbrook Drive,57,0.1478,0.0,0.0
-name,Jalan Soekarno-Hatta,56,0.1452,0.0,0.0
-name,Parker Road,55,0.1426,0.0,0.0
-name,Port Terminal Railroad,55,0.1426,0.0,0.0
-name,Northwest Boulevard,54,0.1401,0.0,0.0
-name,James Avery Jewelry,52,0.1349,0.0,0.0
-name,South Padre Island Drive,52,0.1349,0.0,0.0
-name,West Hardy Road,52,0.1349,0.0,0.0
-name,North Sam Houston Parkway West,51,0.1323,0.0,0.0
-name,Richmond Avenue,51,0.1323,0.0,0.0
-name,Road,50,0.1297,0.0,0.0
-name,West Grand Parkway North,49,0.1271,0.0,0.0
-name,Fulton Street,48,0.1245,0.0,0.0
-name,Memorial Drive,48,0.1245,0.0,0.0
-name,Morton Ranch Road,46,0.1193,0.0,0.0
-name,LJ Parkway,45,0.1167,0.0,0.0
-name,Airline Drive,44,0.1141,0.0,0.0
-name,jalan,43,0.1115,0.0,0.0
-name,Kirby Drive,42,0.1089,0.0,0.0
-name,Southwest Freeway HOV,42,0.1089,0.0,0.0
-name,White Oak Bayou Greenway,42,0.1089,0.0,0.0
-name, ,41,0.1063,0.0,0.0
-name,South Staples Street,41,0.1063,0.0,0.0
-name,Southwest Freeway,41,0.1063,0.0,0.0
-name,Southwest Freeway Frontage Road,41,0.1063,0.0,0.0
-name,T C Jester Boulevard,41,0.1063,0.0,0.0
-name,Dow Operations Plant B,40,0.1037,0.0,0.0
-name,Old Humble Road,40,0.1037,0.0,0.0
-name,West Road,40,0.1037,0.0,0.0
-name,Imperial Valley Drive,39,0.1011,0.0,0.0
-name,Jalan Profesor Mohamad Yamin,39,0.1011,0.0,0.0
-name,Jl. Trans Sulawesi - Palu,38,0.0986,0.0,0.0
-name,Katy Freeway,37,0.096,0.0,0.0
-name,Northwest Freeway,37,0.096,0.0,0.0
-name,Bellaire Boulevard,36,0.0934,0.0,0.0
-name,Brays Bayou Hike & Bike Trail,35,0.0908,0.0,0.0
-name,Pinemont Drive,35,0.0908,0.0,0.0
-name,Rankin Road,35,0.0908,0.0,0.0
-name,South Fry Road,34,0.0882,0.0,0.0
-name,South Rice Avenue,34,0.0882,0.0,0.0
-name,Cheddar's Scratch Kitchen,33,0.0856,0.0,0.0
-name,Cypress Creek Parkway,33,0.0856,0.0,0.0
-name,Westpark Drive,32,0.083,0.0,0.0
-name,Yale Street,32,0.083,0.0,0.0
-name,Boudreaux Road,31,0.0804,0.0,0.0
-name,Lafayette Subdivision,31,0.0804,0.0,0.0
-name,West Bellfort Street,31,0.0804,0.0,0.0
-name,Ennis Joslin Road,30,0.0778,0.0,0.0
-name,Fairbanks North Houston Road,30,0.0778,0.0,0.0
-name,Hempstead Highway,30,0.0778,0.0,0.0
-name,North Wayside Drive,30,0.0778,0.0,0.0
-name,West Lake Houston Parkway,30,0.0778,0.0,0.0
-name,Spring Green Boulevard,29,0.0752,0.0,0.0
-name,Tidwell Road,29,0.0752,0.0,0.0
-name,Cinco Ranch Boulevard,28,0.0726,0.0,0.0
-name,Fry Road,28,0.0726,0.0,0.0
-name,Spring Cypress Road,28,0.0726,0.0,0.0
-name,West Airport Boulevard,28,0.0726,0.0,0.0
-name,Jalan Wolter Monginsidi,28,0.0726,0.0,0.0
-name,jalan re martadinata,28,0.0726,0.0,0.0
-name,Antoine Drive,27,0.07,0.0,0.0
-name,Dow Chemical Plant,27,0.07,0.0,0.0
-name,Hammerly Boulevard,27,0.07,0.0,0.0
-name,Sweetwater Boulevard,27,0.07,0.0,0.0
-name,Yorktown Boulevard,27,0.07,0.0,0.0
-name,Ashley HomeStore,26,0.0674,0.0,0.0
-name,North Main Street,26,0.0674,0.0,0.0
-name,University Boulevard,26,0.0674,0.0,0.0
-natural,water,570,25.4124,0.0,0.0
-natural,coastline,440,19.6166,0.0,0.0
-natural,wood,305,13.5979,0.0,0.0
-natural,tree,224,9.9866,0.0,0.0
-natural,sand,190,8.4708,0.0,0.0
-natural,grassland,178,7.9358,0.0,0.0
-natural,peak,93,4.1462,0.0,0.0
-natural,scrub,67,2.9871,0.0,0.0
-natural,spring,46,2.0508,0.0,0.0
-natural,tree_row,30,1.3375,0.0,0.0
-natural,beach,27,1.2037,0.0,0.0
-natural,wetland,18,0.8025,0.0,0.0
-natural,mountain_range,10,0.4458,0.0,0.0
-natural,scree,10,0.4458,0.0,0.0
-natural,grass,9,0.4012,0.0,0.0
-natural,saddle,7,0.3121,0.0,0.0
-natural,ridge,5,0.2229,0.0,0.0
-natural,bare_rock,3,0.1337,0.0,0.0
-natural,valley,2,0.0892,0.0,0.0
-natural,cliff,2,0.0892,0.0,0.0
-natural,land,2,0.0892,0.0,0.0
-natural,riverbank,2,0.0892,0.0,0.0
-natural,cave_entrance,1,0.0446,0.0,0.0
-natural,footway,1,0.0446,0.0,0.0
-natural,glacier,1,0.0446,0.0,0.0
-source,digitalglobe,11699,73.8294,0.0,0.0
-source,Bing,1363,8.6015,0.0,0.0
-source,digitalglobe; local knowledge,297,1.8743,0.0,0.0
-source,bing,185,1.1675,0.0,0.0
-source,"knowledge, survey",174,1.0981,0.0,0.0
-source,NHD,167,1.0539,0.0,0.0
-source,digitalglobe;local knowledge,114,0.7194,0.0,0.0
-source,Mapbox Satellite,109,0.6879,0.0,0.0
-source,DigitalGlobe,105,0.6626,0.0,0.0
-source,"knowledge,survey",104,0.6563,0.0,0.0
-source,TIGER/Line® 2008 Place Shapefiles (http://www.census.gov/geo/www/tiger/),97,0.6121,0.0,0.0
-source,local knowledge,92,0.5806,0.0,0.0
-source,"local knowledge; Maxar, ERSI Imagery; GPS",90,0.568,0.0,0.0
-source,HCAD ShapeFile,82,0.5175,0.0,0.0
-source,Mapbox,73,0.4607,0.0,0.0
-source,mapbox,65,0.4102,0.0,0.0
-source,PGS & bing,63,0.3976,0.0,0.0
-source,digitalglobe;localknowledge,56,0.3534,0.0,0.0
-source,http://www.hctx.net/CmpDocuments/26/Park%20Layouts/BraysBayouHikeBike.pdf,49,0.3092,0.0,0.0
-source,Yahoo,47,0.2966,0.0,0.0
-source,arial survey Bing 25-10-16,45,0.284,0.0,0.0
-source,GPS,38,0.2398,0.0,0.0
-source,USGS Geonames,37,0.2335,0.0,0.0
-source,PGS,37,0.2335,0.0,0.0
-source,"PGS, Bing, non-PGS Landsat",35,0.2209,0.0,0.0
-source,gps,32,0.2019,0.0,0.0
-source,DigitalGlobe-Premium,23,0.1451,0.0,0.0
-source,Landsat,22,0.1388,0.0,0.0
-source,estimated,20,0.1262,0.0,0.0
-source,NAIP; survey,18,0.1136,0.0,0.0
-source,cadastre;yahoo_imagry,17,0.1073,0.0,0.0
-source,http://www.consrv.ca.gov/dlrp/fmmp/products/Pages/DownloadGISdata.aspx,17,0.1073,0.0,0.0
-source,GPS trace,17,0.1073,0.0,0.0
-source,DigitalGlobe-Standard,17,0.1073,0.0,0.0
-source,"Yahoo,TIGER",14,0.0884,0.0,0.0
-source,http://houstonparksboard.org/projects/brays_bayou_trails/,14,0.0884,0.0,0.0
-source,arial survey Bing 2016-10-25,13,0.082,0.0,0.0
-source,local knownledge,13,0.082,0.0,0.0
-source,USGS,12,0.0757,0.0,0.0
-source,2014 NAIP,12,0.0757,0.0,0.0
-source,ourairports.com,12,0.0757,0.0,0.0
-source,digitalglobe;local knownledge,12,0.0757,0.0,0.0
-source,DigitalGlobal Standard Image 08-12-17,12,0.0757,0.0,0.0
-source,caltrans milepost database,11,0.0694,0.0,0.0
-source,Tiger2009,10,0.0631,0.0,0.0
-source,gims.houstontx.gov,10,0.0631,0.0,0.0
-source,"local knowledge; Maxar, ERSI Imagery; GPS; survey",9,0.0568,0.0,0.0
-source,yahoo_imagery;LACDPW,9,0.0568,0.0,0.0
-source,local_knowledge,9,0.0568,0.0,0.0
-source,BIng,9,0.0568,0.0,0.0
-source,Landsat;local_knowledge,9,0.0568,0.0,0.0
-source,"GPX, Satellite imaging",8,0.0505,0.0,0.0
-source,"GPX, Satellite imaging, USGS Topo",8,0.0505,0.0,0.0
-source,wikipedia,8,0.0505,0.0,0.0
-source,http://www.inigis.com/download-peta-dasar-indonesia-dalam-format-shapefile/2550,8,0.0505,0.0,0.0
-source,"Morgan Territory Park map, Strava Heatmap data and USGS Imagery",7,0.0442,0.0,0.0
-source,cadastre; Esri World Imagery,6,0.0379,0.0,0.0
-source,TIGER 2014,6,0.0379,0.0,0.0
-source,http://www.h-gac.com/rds/Map_Book/documents/harris_county_thoroughfare_map.pdf,6,0.0379,0.0,0.0
-source,"USGS Orthoimagery, Topo",5,0.0316,0.0,0.0
-source,Business Owner,5,0.0316,0.0,0.0
-source,MapBox Satellite,5,0.0316,0.0,0.0
-source,California Protected Areas Database (CPAD) – www.calands.org (2018a),4,0.0252,0.0,0.0
-source,Maxar Imagery,4,0.0252,0.0,0.0
-source,"http://www.dot.ca.gov/hq/tsip/gis/datalibrary/gisdatalibrary.html, bing",4,0.0252,0.0,0.0
-source,GNS,4,0.0252,0.0,0.0
-source,Bing;HCAD,4,0.0252,0.0,0.0
-source,NGA-GNS,4,0.0252,0.0,0.0
-source,landsat,4,0.0252,0.0,0.0
-source,localknowledge,4,0.0252,0.0,0.0
-source,(URL) 2015,3,0.0189,0.0,0.0
-source,GPX,3,0.0189,0.0,0.0
-source,cadastre,3,0.0189,0.0,0.0
-source,http://www.dot.ca.gov/hq/traffops/signtech/calnexus/pdf/80.pdf,3,0.0189,0.0,0.0
-source,npe,3,0.0189,0.0,0.0
-source,yahoo_imagery;LACA,3,0.0189,0.0,0.0
-source,GMaps,3,0.0189,0.0,0.0
-source,Gagravarr_Airports,3,0.0189,0.0,0.0
-source,PGS & Bing,3,0.0189,0.0,0.0
-source,Personal knowledge,3,0.0189,0.0,0.0
-source,http://www.h-gac.com/taq/thoroughfare_plan/docs/2012_8-county_thoroughfare_map.pdf,3,0.0189,0.0,0.0
-source,http://www.houstontx.gov/planning/DevelopRegs/mobility/MTFPMap/MTFP_Map11.pdf,3,0.0189,0.0,0.0
-source,local,3,0.0189,0.0,0.0
-source,"GPX, Satellite Imaging",2,0.0126,0.0,0.0
-source,Morgan Territory Park Map,2,0.0126,0.0,0.0
-source,NAIP;survey,2,0.0126,0.0,0.0
-source,USGS Topographic Maps,2,0.0126,0.0,0.0
-source,USGS Topographic map,2,0.0126,0.0,0.0
-source,USGS topographic map,2,0.0126,0.0,0.0
-source,local knowledge; Maxar Imagery; GPS,2,0.0126,0.0,0.0
-source,sitevisit,2,0.0126,0.0,0.0
-source,臺中市消防局,2,0.0126,0.0,0.0
-source,Bing imagery,2,0.0126,0.0,0.0
-source,"Business Owner, Dr. David S. Bright",2,0.0126,0.0,0.0
-source,"Business owner, Dr. David S Bright",2,0.0126,0.0,0.0
-source,Fort Bend County GIS Department,2,0.0126,0.0,0.0
-source,Mapbox; Bing,2,0.0126,0.0,0.0
-source,Spring Branch area resident,2,0.0126,0.0,0.0
-source,Texas Orthophoto,2,0.0126,0.0,0.0
-source,"Yahoo,USGS Geonames",2,0.0126,0.0,0.0
-surface,unpaved,4709,37.9789,0.0,0.0
-surface,asphalt,3190,25.7279,0.0,0.0
-surface,concrete:plates,1743,14.0576,0.0,0.0
-surface,concrete,1233,9.9444,0.0,0.0
-surface,paved,623,5.0246,0.0,0.0
-surface,ground,387,3.1212,0.0,0.0
-surface,dirt,189,1.5243,0.0,0.0
-surface,gravel,87,0.7017,0.0,0.0
-surface,grass,65,0.5242,0.0,0.0
-surface,sand,50,0.4033,0.0,0.0
-surface,concrete:lanes,41,0.3307,0.0,0.0
-surface,fine_gravel,33,0.2662,0.0,0.0
-surface,wood,16,0.129,0.0,0.0
-surface,.,10,0.0807,0.0,0.0
-surface,cobblestone,5,0.0403,0.0,0.0
-surface,paving_stones,4,0.0323,0.0,0.0
-surface,composite,3,0.0242,0.0,0.0
-surface,turf,3,0.0242,0.0,0.0
-surface,decomposed_granite,2,0.0161,0.0,0.0
-surface,"gravel,asphalt",1,0.0081,0.0,0.0
-surface,cconcrete,1,0.0081,0.0,0.0
-surface,clay,1,0.0081,0.0,0.0
-surface,dirt/sand,1,0.0081,0.0,0.0
-surface,rock,1,0.0081,0.0,0.0
-surface,sett,1,0.0081,0.0,0.0
-waterway,river,1550,51.2736,0.0,0.0
-waterway,stream,918,30.3672,0.0,0.0
-waterway,drain,214,7.0791,0.0,0.0
-waterway,ditch,159,5.2597,0.0,0.0
-waterway,canal,86,2.8449,0.0,0.0
-waterway,riverbank,57,1.8855,0.0,0.0
-waterway,dam,14,0.4631,0.0,0.0
-waterway,waterfall,7,0.2316,0.0,0.0
-waterway,dock,6,0.1985,0.0,0.0
-waterway,weir,5,0.1654,0.0,0.0
-waterway,artificial,2,0.0662,0.0,0.0
-waterway,pond,2,0.0662,0.0,0.0
-waterway,boatyard,1,0.0331,0.0,0.0
-waterway,reservoir,1,0.0331,0.0,0.0
-waterway,sanitary_dump_station,1,0.0331,0.0,0.0
+amenity,school,3113,12.7744,0.0,0.0
+amenity,parking,2954,12.122,0.0,0.0
+amenity,place_of_worship,2580,10.5872,0.0,0.0
+amenity,pharmacy,1923,7.8912,0.0,0.0
+amenity,drinking_water,1641,6.734,0.0,0.0
+amenity,restaurant,1348,5.5316,0.0,0.0
+amenity,toilets,937,3.845,0.0,0.0
+amenity,hospital,564,2.3144,0.0,0.0
+amenity,fuel,562,2.3062,0.0,0.0
+amenity,bench,557,2.2857,0.0,0.0
+amenity,fast_food,520,2.1339,0.0,0.0
+amenity,bank,494,2.0272,0.0,0.0
+amenity,cafe,482,1.9779,0.0,0.0
+amenity,gambling,381,1.5635,0.0,0.0
+amenity,bicycle_parking,370,1.5183,0.0,0.0
+amenity,shelter,318,1.3049,0.0,0.0
+amenity,library,293,1.2023,0.0,0.0
+amenity,recycling,292,1.1982,0.0,0.0
+amenity,bar,230,0.9438,0.0,0.0
+amenity,waste_basket,212,0.87,0.0,0.0
+amenity,clinic,199,0.8166,0.0,0.0
+amenity,Convenience Store;Gas Station,199,0.8166,0.0,0.0
+amenity,kindergarten,192,0.7879,0.0,0.0
+amenity,grave_yard,191,0.7838,0.0,0.0
+amenity,college,187,0.7674,0.0,0.0
+amenity,police,186,0.7633,0.0,0.0
+amenity,shower,181,0.7427,0.0,0.0
+amenity,university,157,0.6443,0.0,0.0
+amenity,charging_station,147,0.6032,0.0,0.0
+amenity,atm,139,0.5704,0.0,0.0
+amenity,fountain,125,0.5129,0.0,0.0
+amenity,community_centre,123,0.5047,0.0,0.0
+amenity,marketplace,115,0.4719,0.0,0.0
+amenity,post_office,105,0.4309,0.0,0.0
+amenity,waste_disposal,92,0.3775,0.0,0.0
+amenity,vending_machine,83,0.3406,0.0,0.0
+amenity,public_building,83,0.3406,0.0,0.0
+amenity,parking_space,79,0.3242,0.0,0.0
+amenity,ice_cream,74,0.3037,0.0,0.0
+amenity,dentist,71,0.2914,0.0,0.0
+amenity,bus_station,69,0.2831,0.0,0.0
+amenity,doctors,67,0.2749,0.0,0.0
+amenity,cinema,67,0.2749,0.0,0.0
+amenity,tap,54,0.2216,0.0,0.0
+amenity,pub,52,0.2134,0.0,0.0
+amenity,embassy,50,0.2052,0.0,0.0
+amenity,car_wash,48,0.197,0.0,0.0
+amenity,townhall,48,0.197,0.0,0.0
+amenity,parking_entrance,45,0.1847,0.0,0.0
+amenity,bicycle_repair_station,43,0.1765,0.0,0.0
+amenity,fire_station,43,0.1765,0.0,0.0
+amenity,post_box,42,0.1724,0.0,0.0
+amenity,veterinary,41,0.1682,0.0,0.0
+amenity,social_facility,41,0.1682,0.0,0.0
+amenity,shop,38,0.1559,0.0,0.0
+amenity,motorcycle_parking,34,0.1395,0.0,0.0
+amenity,theatre,33,0.1354,0.0,0.0
+amenity,telephone,29,0.119,0.0,0.0
+amenity,arts_centre,28,0.1149,0.0,0.0
+amenity,bureau_de_change,28,0.1149,0.0,0.0
+amenity,food_court,28,0.1149,0.0,0.0
+amenity,studio,28,0.1149,0.0,0.0
+amenity,water_point,27,0.1108,0.0,0.0
+amenity,utc,27,0.1108,0.0,0.0
+amenity,courthouse,27,0.1108,0.0,0.0
+amenity,car_rental,26,0.1067,0.0,0.0
+amenity,nightclub,26,0.1067,0.0,0.0
+amenity,prison,22,0.0903,0.0,0.0
+amenity,cro,22,0.0903,0.0,0.0
+amenity,Family Restaurant,22,0.0903,0.0,0.0
+amenity,parcel_locker,20,0.0821,0.0,0.0
+amenity,ferry_terminal,20,0.0821,0.0,0.0
+amenity,taxi,20,0.0821,0.0,0.0
+amenity,childcare,18,0.0739,0.0,0.0
+amenity,social_centre,16,0.0657,0.0,0.0
+amenity,bicycle_rental,15,0.0616,0.0,0.0
+amenity,hunting_stand,14,0.0575,0.0,0.0
+amenity,driving_school,14,0.0575,0.0,0.0
+amenity,ctc,13,0.0533,0.0,0.0
+amenity,Furniture Store,13,0.0533,0.0,0.0
+amenity,Furniture Store;Mattress Store;Bedroom Furniture Store;Children's Furniture Store;Outdoor Furniture Store,12,0.0492,0.0,0.0
+amenity,trolley_bay,11,0.0451,0.0,0.0
+amenity,office,11,0.0451,0.0,0.0
+amenity,Family Restaurant;Restaurant;Southern Restaurant (US);Traditional American Restaurant,11,0.0451,0.0,0.0
+amenity,CRO,10,0.041,0.0,0.0
+amenity,no,10,0.041,0.0,0.0
+amenity,money_transfer,9,0.0369,0.0,0.0
+amenity,agrocentre,9,0.0369,0.0,0.0
+amenity,public_bookcase,8,0.0328,0.0,0.0
+amenity,research_institute,8,0.0328,0.0,0.0
+amenity,immigration border,8,0.0328,0.0,0.0
+amenity,meat shop,8,0.0328,0.0,0.0
+amenity,photo_booth,7,0.0287,0.0,0.0
+amenity,vehicle_inspection,7,0.0287,0.0,0.0
+amenity,internet_cafe,7,0.0287,0.0,0.0
+amenity,bbq,7,0.0287,0.0,0.0
+amenity,nursing_home,7,0.0287,0.0,0.0
+amenity,canal,7,0.0287,0.0,0.0
+amenity,food_collection,7,0.0287,0.0,0.0
+amenity,student_accommodation,6,0.0246,0.0,0.0
+building,yes,761852,94.9309,0.0,0.0
+building,construction,13595,1.694,0.0,0.0
+building,house,7900,0.9844,0.0,0.0
+building,residential,5876,0.7322,0.0,0.0
+building,commercial,2957,0.3685,0.0,0.0
+building,apartments,2262,0.2819,0.0,0.0
+building,school,1327,0.1654,0.0,0.0
+building,church,657,0.0819,0.0,0.0
+building,industrial,576,0.0718,0.0,0.0
+building,roof,558,0.0695,0.0,0.0
+building,retail,530,0.066,0.0,0.0
+building,unidentified,474,0.0591,0.0,0.0
+building,hospital,265,0.033,0.0,0.0
+building,storage_tank,256,0.0319,0.0,0.0
+building,office,235,0.0293,0.0,0.0
+building,greenhouse,184,0.0229,0.0,0.0
+building,detached,156,0.0194,0.0,0.0
+building,mosque,156,0.0194,0.0,0.0
+building,service,125,0.0156,0.0,0.0
+building,hotel,108,0.0135,0.0,0.0
+building,warehouse,102,0.0127,0.0,0.0
+building,public,97,0.0121,0.0,0.0
+building,building_concrete,86,0.0107,0.0,0.0
+building,university,82,0.0102,0.0,0.0
+building,Service,79,0.0098,0.0,0.0
+building,shed,78,0.0097,0.0,0.0
+building,shelter,74,0.0092,0.0,0.0
+building,non_waterproof_shelter,72,0.009,0.0,0.0
+building,hut,71,0.0088,0.0,0.0
+building,ruins,68,0.0085,0.0,0.0
+building,tent,64,0.008,0.0,0.0
+building,semidetached_house,60,0.0075,0.0,0.0
+building,collapsed,55,0.0069,0.0,0.0
+building,residentiel1,52,0.0065,0.0,0.0
+building,Tour_Agency,42,0.0052,0.0,0.0
+building,terrace,37,0.0046,0.0,0.0
+building,college,36,0.0045,0.0,0.0
+building,civic,27,0.0034,0.0,0.0
+building,garage,27,0.0034,0.0,0.0
+building,building_wood,27,0.0034,0.0,0.0
+building,Computer_Consultant,27,0.0034,0.0,0.0
+building,Construction,23,0.0029,0.0,0.0
+building,no,22,0.0027,0.0,0.0
+building,building_sheet_metal,22,0.0027,0.0,0.0
+building,temple,22,0.0027,0.0,0.0
+building,grandstand,21,0.0026,0.0,0.0
+building,kiosk,20,0.0025,0.0,0.0
+building,Travel_Agency,20,0.0025,0.0,0.0
+building,farm,19,0.0024,0.0,0.0
+building,kindergarten,18,0.0022,0.0,0.0
+building,Software_Company,18,0.0022,0.0,0.0
+building,hangar,16,0.002,0.0,0.0
+building,clinic,16,0.002,0.0,0.0
+building,chapel,15,0.0019,0.0,0.0
+building,dormitory,15,0.0019,0.0,0.0
+building,Website_Designer,15,0.0019,0.0,0.0
+building,barn,14,0.0017,0.0,0.0
+building,train_station,13,0.0016,0.0,0.0
+building,Advertising_Agency,12,0.0015,0.0,0.0
+building,ys,12,0.0015,0.0,0.0
+building,parking,11,0.0014,0.0,0.0
+building,damaged,11,0.0014,0.0,0.0
+building,building+construction,10,0.0012,0.0,0.0
+building,bunker,9,0.0011,0.0,0.0
+building,Restaurant,9,0.0011,0.0,0.0
+building,Bank,9,0.0011,0.0,0.0
+building,Computers,9,0.0011,0.0,0.0
+building,Educational_Consultant,9,0.0011,0.0,0.0
+building,Non-Profit_Organization,9,0.0011,0.0,0.0
+building,garages,8,0.001,0.0,0.0
+building,cathedral,8,0.001,0.0,0.0
+building,Toilette,8,0.001,0.0,0.0
+building,waterproof_shelter,8,0.001,0.0,0.0
+building,Computer_Training_School,8,0.001,0.0,0.0
+building,static_caravan,7,0.0009,0.0,0.0
+building,Ecole,7,0.0009,0.0,0.0
+building,building=construction,7,0.0009,0.0,0.0
+building,Internet,7,0.0009,0.0,0.0
+building,Internet_Marketing_Service,7,0.0009,0.0,0.0
+building,pavilion,6,0.0007,0.0,0.0
+building,1,6,0.0007,0.0,0.0
+building,Association_or_Organization,6,0.0007,0.0,0.0
+building,Internet_Cafe,6,0.0007,0.0,0.0
+building,N/A,6,0.0007,0.0,0.0
+building,Non-governmental_Organisation,6,0.0007,0.0,0.0
+building,Residential,6,0.0007,0.0,0.0
+building,Shopping_Mall,6,0.0007,0.0,0.0
+building,Web_Hosting_Company,6,0.0007,0.0,0.0
+building,toilets,5,0.0006,0.0,0.0
+building,gasometer,5,0.0006,0.0,0.0
+building,government,5,0.0006,0.0,0.0
+building,services,5,0.0006,0.0,0.0
+building,Clothing_Store,5,0.0006,0.0,0.0
+building,Company,5,0.0006,0.0,0.0
+building,Computer_Repair_Service,5,0.0006,0.0,0.0
+building,Entertainment,5,0.0006,0.0,0.0
+building,Hotel,5,0.0006,0.0,0.0
+building,Office,5,0.0006,0.0,0.0
+building,University,5,0.0006,0.0,0.0
+building,YES,5,0.0006,0.0,0.0
+emergency,fire_hydrant,171,30.4813,0.0,0.0
+emergency,no,157,27.9857,0.0,0.0
+emergency,yes,73,13.0125,0.0,0.0
+emergency,phone,63,11.2299,0.0,0.0
+emergency,defibrillator,33,5.8824,0.0,0.0
+emergency,assembly_point,25,4.4563,0.0,0.0
+emergency,ambulance_station,13,2.3173,0.0,0.0
+emergency,emergency_ward_entrance,9,1.6043,0.0,0.0
+emergency,destination,7,1.2478,0.0,0.0
+emergency,landing_site,3,0.5348,0.0,0.0
+emergency,fire_lookout,3,0.5348,0.0,0.0
+emergency,designated,1,0.1783,0.0,0.0
+emergency,emergency_ward,1,0.1783,0.0,0.0
+emergency,hostel,1,0.1783,0.0,0.0
+emergency,evacuation contraflow,1,0.1783,0.0,0.0
+highway,residential,84213,29.8354,0.0,0.0
+highway,unclassified,40259,14.2631,0.0,0.0
+highway,service,31211,11.0576,0.0,0.0
+highway,track,23809,8.4352,0.0,0.0
+highway,tertiary,14726,5.2172,0.0,0.0
+highway,footway,14187,5.0262,0.0,0.0
+highway,secondary,13103,4.6422,0.0,0.0
+highway,path,11452,4.0573,0.0,0.0
+highway,primary,7656,2.7124,0.0,0.0
+highway,crossing,6072,2.1512,0.0,0.0
+highway,trunk,4835,1.713,0.0,0.0
+highway,bus_stop,4254,1.5071,0.0,0.0
+highway,cycleway,3209,1.1369,0.0,0.0
+highway,turning_circle,2559,0.9066,0.0,0.0
+highway,road,2399,0.8499,0.0,0.0
+highway,platform,2255,0.7989,0.0,0.0
+highway,motorway,1818,0.6441,0.0,0.0
+highway,turning_loop,1770,0.6271,0.0,0.0
+highway,traffic_signals,1685,0.597,0.0,0.0
+highway,living_street,1350,0.4783,0.0,0.0
+highway,secondary_link,1318,0.4669,0.0,0.0
+highway,motorway_link,1200,0.4251,0.0,0.0
+highway,pedestrian,977,0.3461,0.0,0.0
+highway,primary_link,942,0.3337,0.0,0.0
+highway,give_way,773,0.2739,0.0,0.0
+highway,street_lamp,759,0.2689,0.0,0.0
+highway,steps,686,0.243,0.0,0.0
+highway,trunk_link,637,0.2257,0.0,0.0
+highway,tertiary_link,468,0.1658,0.0,0.0
+highway,construction,389,0.1378,0.0,0.0
+highway,motorway_junction,377,0.1336,0.0,0.0
+highway,stop,357,0.1265,0.0,0.0
+highway,proposed,170,0.0602,0.0,0.0
+highway,mini_roundabout,64,0.0227,0.0,0.0
+highway,speed_camera,54,0.0191,0.0,0.0
+highway,busway,43,0.0152,0.0,0.0
+highway,corridor,29,0.0103,0.0,0.0
+highway,raceway,22,0.0078,0.0,0.0
+highway,elevator,18,0.0064,0.0,0.0
+highway,services,17,0.006,0.0,0.0
+highway,SER,16,0.0057,0.0,0.0
+highway,emergency_access_point,13,0.0046,0.0,0.0
+highway,yes,12,0.0043,0.0,0.0
+highway,ford,10,0.0035,0.0,0.0
+highway,passing_place,10,0.0035,0.0,0.0
+highway,bridleway,9,0.0032,0.0,0.0
+highway,trailhead,8,0.0028,0.0,0.0
+highway,rest_area,6,0.0021,0.0,0.0
+highway,unmaintained,6,0.0021,0.0,0.0
+highway,traffic_mirror,5,0.0018,0.0,0.0
+highway,bridge,4,0.0014,0.0,0.0
+highway,pole,4,0.0014,0.0,0.0
+highway,toll_gantry,4,0.0014,0.0,0.0
+highway,milestone,3,0.0011,0.0,0.0
+highway,unclasified,3,0.0011,0.0,0.0
+highway,footpath,2,0.0007,0.0,0.0
+highway,residential;unclassified,2,0.0007,0.0,0.0
+highway,intersection,2,0.0007,0.0,0.0
+highway,residentialnn,2,0.0007,0.0,0.0
+highway,Vicolo Bolognetti,1,0.0004,0.0,0.0
+highway,Residential,1,0.0004,0.0,0.0
+highway,Residentiel,1,0.0004,0.0,0.0
+highway,hole,1,0.0004,0.0,0.0
+highway,araniko,1,0.0004,0.0,0.0
+highway,chwok,1,0.0004,0.0,0.0
+highway,motorway;primary,1,0.0004,0.0,0.0
+highway,motorway;primary;road,1,0.0004,0.0,0.0
+highway,path;residential,1,0.0004,0.0,0.0
+highway,unclassified; residential,1,0.0004,0.0,0.0
+highway,village,1,0.0004,0.0,0.0
+highway,abandoned,1,0.0004,0.0,0.0
+highway,traffic_island,1,0.0004,0.0,0.0
+highway,residentialn,1,0.0004,0.0,0.0
+highway,resn,1,0.0004,0.0,0.0
+highway,escape,1,0.0004,0.0,0.0
+landuse,residential,5729,38.7278,0.0,0.0
+landuse,farmland,2416,16.332,0.0,0.0
+landuse,grass,1325,8.9569,0.0,0.0
+landuse,forest,836,5.6513,0.0,0.0
+landuse,industrial,784,5.2998,0.0,0.0
+landuse,cemetery,581,3.9275,0.0,0.0
+landuse,orchard,525,3.549,0.0,0.0
+landuse,farmyard,297,2.0077,0.0,0.0
+landuse,construction,291,1.9671,0.0,0.0
+landuse,commercial,253,1.7103,0.0,0.0
+landuse,meadow,239,1.6156,0.0,0.0
+landuse,retail,237,1.6021,0.0,0.0
+landuse,salt_pond,148,1.0005,0.0,0.0
+landuse,basin,114,0.7706,0.0,0.0
+landuse,reservoir,110,0.7436,0.0,0.0
+landuse,vineyard,107,0.7233,0.0,0.0
+landuse,landfill,103,0.6963,0.0,0.0
+landuse,farm,97,0.6557,0.0,0.0
+landuse,military,81,0.5476,0.0,0.0
+landuse,quarry,71,0.48,0.0,0.0
+landuse,brownfield,51,0.3448,0.0,0.0
+landuse,recreation_ground,46,0.311,0.0,0.0
+landuse,greenhouse_horticulture,42,0.2839,0.0,0.0
+landuse,yes,39,0.2636,0.0,0.0
+landuse,religious,36,0.2434,0.0,0.0
+landuse,greenfield,28,0.1893,0.0,0.0
+landuse,allotments,25,0.169,0.0,0.0
+landuse,railway,18,0.1217,0.0,0.0
+landuse,park,18,0.1217,0.0,0.0
+landuse,natural,16,0.1082,0.0,0.0
+landuse,plant_nursery,15,0.1014,0.0,0.0
+landuse,flowerbed,13,0.0879,0.0,0.0
+landuse,village_green,12,0.0811,0.0,0.0
+landuse,education,8,0.0541,0.0,0.0
+landuse,aquaculture,8,0.0541,0.0,0.0
+landuse,garages,7,0.0473,0.0,0.0
+landuse,conservation,7,0.0473,0.0,0.0
+landuse,Residentiel,6,0.0406,0.0,0.0
+landuse,churchyard,5,0.0338,0.0,0.0
+landuse,depot,4,0.027,0.0,0.0
+landuse,residental,4,0.027,0.0,0.0
+landuse,school,3,0.0203,0.0,0.0
+landuse,government,3,0.0203,0.0,0.0
+landuse,water well,3,0.0203,0.0,0.0
+landuse,pond,3,0.0203,0.0,0.0
+landuse,research,2,0.0135,0.0,0.0
+landuse,observatory,2,0.0135,0.0,0.0
+landuse,marketplace,2,0.0135,0.0,0.0
+landuse,camp,2,0.0135,0.0,0.0
+landuse,civic,2,0.0135,0.0,0.0
+landuse,harbour,2,0.0135,0.0,0.0
+landuse,planned,1,0.0068,0.0,0.0
+landuse,unknown,1,0.0068,0.0,0.0
+landuse,grave_yard,1,0.0068,0.0,0.0
+landuse,residential ?,1,0.0068,0.0,0.0
+landuse,business_complex,1,0.0068,0.0,0.0
+landuse,landslide,1,0.0068,0.0,0.0
+landuse,mahadev sthan,1,0.0068,0.0,0.0
+landuse,official,1,0.0068,0.0,0.0
+landuse,openspace,1,0.0068,0.0,0.0
+landuse,water suppliers,1,0.0068,0.0,0.0
+landuse,apiary,1,0.0068,0.0,0.0
+landuse,orchards,1,0.0068,0.0,0.0
+landuse,Gazebo,1,0.0068,0.0,0.0
+landuse,mixed,1,0.0068,0.0,0.0
+landuse,logistics,1,0.0068,0.0,0.0
+landuse,mining_site,1,0.0068,0.0,0.0
+landuse,storage_tank,1,0.0068,0.0,0.0
+leisure,swimming_pool,2296,34.2738,0.0,0.0
+leisure,park,1881,28.0788,0.0,0.0
+leisure,pitch,1245,18.5849,0.0,0.0
+leisure,playground,391,5.8367,0.0,0.0
+leisure,garden,181,2.7019,0.0,0.0
+leisure,sports_centre,151,2.2541,0.0,0.0
+leisure,common,120,1.7913,0.0,0.0
+leisure,picnic_table,48,0.7165,0.0,0.0
+leisure,fitness_centre,44,0.6568,0.0,0.0
+leisure,stadium,35,0.5225,0.0,0.0
+leisure,slipway,35,0.5225,0.0,0.0
+leisure,dog_park,34,0.5075,0.0,0.0
+leisure,nature_reserve,31,0.4628,0.0,0.0
+leisure,track,26,0.3881,0.0,0.0
+leisure,golf_course,23,0.3433,0.0,0.0
+leisure,marina,22,0.3284,0.0,0.0
+leisure,sports_hall,18,0.2687,0.0,0.0
+leisure,beach_resort,17,0.2538,0.0,0.0
+leisure,fitness_station,17,0.2538,0.0,0.0
+leisure,bleachers,10,0.1493,0.0,0.0
+leisure,amusement_arcade,9,0.1343,0.0,0.0
+leisure,water_park,7,0.1045,0.0,0.0
+leisure,miniature_golf,6,0.0896,0.0,0.0
+leisure,outdoor_seating,6,0.0896,0.0,0.0
+leisure,dance,5,0.0746,0.0,0.0
+leisure,recreation_ground,5,0.0746,0.0,0.0
+leisure,resort,4,0.0597,0.0,0.0
+leisure,firepit,4,0.0597,0.0,0.0
+leisure,adult_gaming_centre,3,0.0448,0.0,0.0
+leisure,fishing,3,0.0448,0.0,0.0
+leisure,ice_rink,3,0.0448,0.0,0.0
+leisure,horse_riding,2,0.0299,0.0,0.0
+leisure,racetrack,2,0.0299,0.0,0.0
+leisure,Bhata Chour,2,0.0299,0.0,0.0
+leisure,swimming area,2,0.0299,0.0,0.0
+leisure,yes,2,0.0299,0.0,0.0
+leisure,casino,1,0.0149,0.0,0.0
+leisure,natural_tree,1,0.0149,0.0,0.0
+leisure,table_tennis_table,1,0.0149,0.0,0.0
+leisure,summer_camp,1,0.0149,0.0,0.0
+leisure,Tennis_court,1,0.0149,0.0,0.0
+leisure,basket_ball_court,1,0.0149,0.0,0.0
+leisure,tanning_salon,1,0.0149,0.0,0.0
+leisure,tennis_court,1,0.0149,0.0,0.0
+leisure,walk,1,0.0149,0.0,0.0
+name,महेन्द्र राज्मार्ग्,553,0.4448,0.0,0.0
+name,Jalan,392,0.3153,0.0,0.0
+name,North Freeway Frontage Road,220,0.177,0.0,0.0
+name,Northwest Freeway Frontage Road,217,0.1746,0.0,0.0
+name,İzmir Çevre Yolu,214,0.1721,0.0,0.0
+name,Tangenziale di Bologna,206,0.1657,0.0,0.0
+name,Corner Store,203,0.1633,0.0,0.0
+name,West Grand Parkway South,198,0.1593,0.0,0.0
+name,Via Emilia,196,0.1577,0.0,0.0
+name,Rüzgâr Türbini,196,0.1577,0.0,0.0
+name,İzmir-Çeşme Otoyolu,192,0.1544,0.0,0.0
+name,Strada Statale 3 bis Tiberina,177,0.1424,0.0,0.0
+name,Alvin Sugarland Road,176,0.1416,0.0,0.0
+name,Bologna-Firenze (direttissima),171,0.1375,0.0,0.0
+name,Building,164,0.1319,0.0,0.0
+name,Westheimer Road,159,0.1279,0.0,0.0
+name,Route Nationale # 2,158,0.1271,0.0,0.0
+name,building,153,0.1231,0.0,0.0
+name,Mahendra Highway,151,0.1215,0.0,0.0
+name,Eastex Freeway Frontage Road,151,0.1215,0.0,0.0
+name,North Shepherd Drive,141,0.1134,0.0,0.0
+name,Via Aldo Moro,127,0.1022,0.0,0.0
+name,Katy Freeway Frontage Road,126,0.1014,0.0,0.0
+name,Via Emilia Levante,125,0.1005,0.0,0.0
+name,Via Romea Nord,123,0.0989,0.0,0.0
+name,Main Street,123,0.0989,0.0,0.0
+name,Ring Road,122,0.0981,0.0,0.0
+name,Old Spanish Trail,118,0.0949,0.0,0.0
+name,Trasversale di Pianura,116,0.0933,0.0,0.0
+name,Brays Bayou Greenway,113,0.0909,0.0,0.0
+name,Viale Felsina,110,0.0885,0.0,0.0
+name,Whataburger,107,0.0861,0.0,0.0
+name,Cami,107,0.0861,0.0,0.0
+name,Via Toscana,105,0.0845,0.0,0.0
+name,Viale Pietro Pietramellara,105,0.0845,0.0,0.0
+name,Bagmati River (बागमती नदी),104,0.0837,0.0,0.0
+name,West Little York Road,102,0.082,0.0,0.0
+name,Ferrara-Rimini,101,0.0812,0.0,0.0
+name,Via Classicana,101,0.0812,0.0,0.0
+name,Via Marecchiese,100,0.0804,0.0,0.0
+name,Via Augusto Murri,99,0.0796,0.0,0.0
+name,Via Guglielmo Marconi,98,0.0788,0.0,0.0
+name,Southern Pacific Railroad,97,0.078,0.0,0.0
+name,Hardy Toll Road,92,0.074,0.0,0.0
+name,Tomball Parkway Frontage Road,91,0.0732,0.0,0.0
+name,Union Pacific Railroad,90,0.0724,0.0,0.0
+name,West Sam Houston Parkway North,90,0.0724,0.0,0.0
+name,Jalan Kebonsari Tawaeli,89,0.0716,0.0,0.0
+name,Via Casale,87,0.07,0.0,0.0
+name,Kingsland Boulevard,87,0.07,0.0,0.0
+name,Via Andrea Costa,84,0.0676,0.0,0.0
+name,Route Nationale # 7,83,0.0668,0.0,0.0
+name,North Eldridge Parkway,83,0.0668,0.0,0.0
+name,İzmir - Aydın Otoyolu,83,0.0668,0.0,0.0
+name,Route 25,81,0.0652,0.0,0.0
+name,Via Giacomo Matteotti,80,0.0644,0.0,0.0
+name,Pasang Lhamu Highway,79,0.0635,0.0,0.0
+name,Via Roma,78,0.0627,0.0,0.0
+name,Tribhuban Highway,78,0.0627,0.0,0.0
+name,Via Statale Marecchia,76,0.0611,0.0,0.0
+name,AFAD Zayıf Yer Hareketi İstasyonu,73,0.0587,0.0,0.0
+name,Via San Vitale,72,0.0579,0.0,0.0
+name,State Highway 35,72,0.0579,0.0,0.0
+name,Via Emilia Ponente,71,0.0571,0.0,0.0
+name,Via Giuseppe Mazzini,71,0.0571,0.0,0.0
+name,Via San Donato,71,0.0571,0.0,0.0
+name,Trisuli,69,0.0555,0.0,0.0
+name,Jalan Trans Sulawesi,69,0.0555,0.0,0.0
+name,Mavone piccolo,68,0.0547,0.0,0.0
+name,Via Stalingrado,68,0.0547,0.0,0.0
+name,Via del Lavoro,67,0.0539,0.0,0.0
+name,Greens Road,67,0.0539,0.0,0.0
+name,Bologna-Portomaggiore,66,0.0531,0.0,0.0
+name,Via Stradelli Guelfi,66,0.0531,0.0,0.0
+name,Aldine Westfield Road,66,0.0531,0.0,0.0
+name,Jalan Trans Palu-Donggala,66,0.0531,0.0,0.0
+name,Autostrada del Sole,65,0.0523,0.0,0.0
+name,Via Saliceto,62,0.0499,0.0,0.0
+name,Viale Giosuè Carducci,62,0.0499,0.0,0.0
+name,Via Enrico Mattei,61,0.0491,0.0,0.0
+name,Viale Europa,61,0.0491,0.0,0.0
+name,AFAD Kuvvetli Yer Hareketi İstasyonu,61,0.0491,0.0,0.0
+name,Autostrada Adriatica,59,0.0475,0.0,0.0
+name,Via Antonio Zucchi,58,0.0467,0.0,0.0
+name,Dhulikhel Sindhuli Bhittamod Highway,58,0.0467,0.0,0.0
+name,Barker Cypress Road,58,0.0467,0.0,0.0
+name,West 43rd Street,58,0.0467,0.0,0.0
+name,Ankara Caddesi,58,0.0467,0.0,0.0
+name,Angleton Subdivision,57,0.0458,0.0,0.0
+name,Fallbrook Drive,57,0.0458,0.0,0.0
+name,Porta San Vitale,56,0.045,0.0,0.0
+name,Road,56,0.045,0.0,0.0
+name,Jalan Soekarno-Hatta,56,0.045,0.0,0.0
+name,Faenza-Lavezzola,55,0.0442,0.0,0.0
+name,Parker Road,55,0.0442,0.0,0.0
+name,Port Terminal Railroad,55,0.0442,0.0,0.0
+name,İzmir Otogar Bağlantısı,55,0.0442,0.0,0.0
+name,Ferrovia Porrettana,54,0.0434,0.0,0.0
+name,Northwest Boulevard,54,0.0434,0.0,0.0
+name,Via Faentina,53,0.0426,0.0,0.0
+natural,tree,5241,38.9607,0.0,0.0
+natural,water,2399,17.8338,0.0,0.0
+natural,wood,1513,11.2474,0.0,0.0
+natural,coastline,975,7.248,0.0,0.0
+natural,glacier,650,4.832,0.0,0.0
+natural,sand,429,3.1891,0.0,0.0
+natural,peak,411,3.0553,0.0,0.0
+natural,scrub,377,2.8026,0.0,0.0
+natural,tree_row,311,2.3119,0.0,0.0
+natural,grassland,213,1.5834,0.0,0.0
+natural,cliff,142,1.0556,0.0,0.0
+natural,shingle,130,0.9664,0.0,0.0
+natural,ridge,125,0.9292,0.0,0.0
+natural,wetland,118,0.8772,0.0,0.0
+natural,beach,88,0.6542,0.0,0.0
+natural,scree,58,0.4312,0.0,0.0
+natural,spring,56,0.4163,0.0,0.0
+natural,saddle,49,0.3643,0.0,0.0
+natural,shrub,25,0.1858,0.0,0.0
+natural,bare_rock,25,0.1858,0.0,0.0
+natural,grass,15,0.1115,0.0,0.0
+natural,rock,14,0.1041,0.0,0.0
+natural,cave_entrance,13,0.0966,0.0,0.0
+natural,moraine,12,0.0892,0.0,0.0
+natural,riverbed,9,0.0669,0.0,0.0
+natural,mud,9,0.0669,0.0,0.0
+natural,heath,6,0.0446,0.0,0.0
+natural,arete,6,0.0446,0.0,0.0
+natural,valley,5,0.0372,0.0,0.0
+natural,bay,4,0.0297,0.0,0.0
+natural,fell,3,0.0223,0.0,0.0
+natural,land,3,0.0223,0.0,0.0
+natural,hill,3,0.0223,0.0,0.0
+natural,peakb,2,0.0149,0.0,0.0
+natural,mountain_range,2,0.0149,0.0,0.0
+natural,riverbank,2,0.0149,0.0,0.0
+natural,pothole,1,0.0074,0.0,0.0
+natural,stone,1,0.0074,0.0,0.0
+natural,no,1,0.0074,0.0,0.0
+natural,bergschrund,1,0.0074,0.0,0.0
+natural,forest,1,0.0074,0.0,0.0
+natural,natural=wood,1,0.0074,0.0,0.0
+natural,wet_meadow,1,0.0074,0.0,0.0
+natural,footway,1,0.0074,0.0,0.0
+natural,hot_spring,1,0.0074,0.0,0.0
+source,bing,19392,16.0422,0.0,0.0
+source,digitalglobe,15163,12.5437,0.0,0.0
+source,Bing,11079,9.1652,0.0,0.0
+source,Digital Globe 2015 Canaan Haiti,7367,6.0944,0.0,0.0
+source,Survey-ARC,5431,4.4928,0.0,0.0
+source,http://www.tper.it/azienda/tper-open-data,4376,3.6201,0.0,0.0
+source,microsoft/BuildingFootprints,4304,3.5605,0.0,0.0
+source,Regione Emilia Romagna,4208,3.4811,0.0,0.0
+source,"<différent>,UAV,IOM,COSMHA,SIGHA",4120,3.4083,0.0,0.0
+source,maxar Premium,2809,2.3238,0.0,0.0
+source,survey,2273,1.8804,0.0,0.0
+source,Survey_Arc,2228,1.8431,0.0,0.0
+source,Digital Globe 2015 Saint Christophe Haiti,1829,1.5131,0.0,0.0
+source,Survey,1754,1.451,0.0,0.0
+source,GPS,1372,1.135,0.0,0.0
+source,GeoEye,1363,1.1276,0.0,0.0
+source,Digital Globe 2015,1004,0.8306,0.0,0.0
+source,maxar,821,0.6792,0.0,0.0
+source,"UAV,IOM,COSMHA,SIGHA",795,0.6577,0.0,0.0
+source,CNIGS/OIM/FOCS,624,0.5162,0.0,0.0
+source,http://dati.emilia-romagna.it/dato/item/11-11-uso-del-suolo-2008.html,609,0.5038,0.0,0.0
+source,hot_iom_cosmha,564,0.4666,0.0,0.0
+source,BajrabarahiFieldVisit,562,0.4649,0.0,0.0
+source,landsat,535,0.4426,0.0,0.0
+source,Potentiel3.0,533,0.4409,0.0,0.0
+source,"WorldView-2, DigitalGlobe, 2010-01-21",524,0.4335,0.0,0.0
+source,Comune di Bologna,496,0.4103,0.0,0.0
+source,"Survey,ARC",453,0.3747,0.0,0.0
+source,CNIGS/OIM/ FOCS,436,0.3607,0.0,0.0
+source,Digital Globe Canaan 2015,422,0.3491,0.0,0.0
+source,DigitalGlobe,406,0.3359,0.0,0.0
+source,Bing with offset,397,0.3284,0.0,0.0
+source,"Survey,Canaan pi Djanm",395,0.3268,0.0,0.0
+source,"NOAA, 2010-01-20",384,0.3177,0.0,0.0
+source,OpenDRI survey,378,0.3127,0.0,0.0
+source,"UAV,IOM_COSMHA_SIGHA",357,0.2953,0.0,0.0
+source,Mapbox,344,0.2846,0.0,0.0
+source,"Google, 2010-01-21",317,0.2622,0.0,0.0
+source,"Digital Globe 2015, Haiti",310,0.2565,0.0,0.0
+source,digitalglobe; local knowledge,298,0.2465,0.0,0.0
+source,Projet Canaan Pi Djanm Survey,294,0.2432,0.0,0.0
+source,Bing sat,293,0.2424,0.0,0.0
+source,hot_cosmha_iom,286,0.2366,0.0,0.0
+source,Sruvey,276,0.2283,0.0,0.0
+source,Maxar Premium-Luftbilder (Beta),270,0.2234,0.0,0.0
+source,Agriculture and Food Security Mapping,259,0.2143,0.0,0.0
+source,mapbox,240,0.1985,0.0,0.0
+source,hot_oim_che116,230,0.1903,0.0,0.0
+source,bing with offset,216,0.1787,0.0,0.0
+source,"ARC, survey",203,0.1679,0.0,0.0
+source,haiti-tlm-50,203,0.1679,0.0,0.0
+source,haiti best,193,0.1597,0.0,0.0
+source,GDA1,192,0.1588,0.0,0.0
+source,ARC_Tasking Manager,191,0.158,0.0,0.0
+source,Yahoo,189,0.1564,0.0,0.0
+source,ikonos/geoeye,188,0.1555,0.0,0.0
+source,estimated,177,0.1464,0.0,0.0
+source,DigitalGlobal Premium Image 15-12-17,177,0.1464,0.0,0.0
+source,"knowledge, survey",175,0.1448,0.0,0.0
+source,Digital Globe Canaan 2015 Aerial Imagery,170,0.1406,0.0,0.0
+source,hot_c.osm-ha_iom,167,0.1382,0.0,0.0
+source,drr:iom,165,0.1365,0.0,0.0
+source,Digital Globe 2015 canaan Haiti,162,0.134,0.0,0.0
+source,NHD,159,0.1315,0.0,0.0
+source,"ARC,Tasking Manager",148,0.1224,0.0,0.0
+source,BING,148,0.1224,0.0,0.0
+source,"Survery, ARC",147,0.1216,0.0,0.0
+source,maps.nypl.org/relief/maps/warp/18,146,0.1208,0.0,0.0
+source,bing; Survey,144,0.1191,0.0,0.0
+source,"Projet Canaan Pi Djanm,Survey",141,0.1166,0.0,0.0
+source,"Digital Globe 2015 Saint Christophe Haiti,Digitalisation",137,0.1133,0.0,0.0
+source,"Projet Canaan pi Djanm,Survey",131,0.1084,0.0,0.0
+source,CNIGS/GIS/DTM,131,0.1084,0.0,0.0
+source,BingSat,129,0.1067,0.0,0.0
+source,KathmanduLivingLabs Survey,126,0.1042,0.0,0.0
+source,"Digital Globe 2015 Canaan Haiti,survery",123,0.1018,0.0,0.0
+source,bing:ortho,123,0.1018,0.0,0.0
+source,PGS,122,0.1009,0.0,0.0
+source,Bing With Offset,122,0.1009,0.0,0.0
+source,MISE - Ministero Sviluppo Economico,120,0.0993,0.0,0.0
+source,"ARC ,Survey",119,0.0984,0.0,0.0
+source,Survey_ Arc,114,0.0943,0.0,0.0
+source,digitalglobe;local knowledge,114,0.0943,0.0,0.0
+source,gps,113,0.0935,0.0,0.0
+source,"UAV,IOM,COSMHA,SIGHA,TECHO",113,0.0935,0.0,0.0
+source,"NOAA, 2010-01-18",113,0.0935,0.0,0.0
+source,"survey,Digital Globe 2015 Haiti",111,0.0918,0.0,0.0
+source,CCCM,111,0.0918,0.0,0.0
+source,Mapbox Satellite,109,0.0902,0.0,0.0
+source,topomap 1:50K,108,0.0893,0.0,0.0
+source,"knowledge,survey",107,0.0885,0.0,0.0
+source,yahoo,105,0.0869,0.0,0.0
+source,local knowledge,104,0.086,0.0,0.0
+source,hot_OIM_Che116,104,0.086,0.0,0.0
+source,Based on ISTAT data - 2001 Italian Census,103,0.0852,0.0,0.0
+source,"Survery,ARC",99,0.0819,0.0,0.0
+source,GPS2010,99,0.0819,0.0,0.0
+source,"Sruvey,Canaan Pi Djanm",96,0.0794,0.0,0.0
+source,"Google, 2010-01-17",96,0.0794,0.0,0.0
+source,"ARC / Tasking Manager- #1402,Survey",95,0.0786,0.0,0.0
+surface,asphalt,24069,49.0703,0.0,0.0
+surface,unpaved,7436,15.16,0.0,0.0
+surface,ground,5681,11.5821,0.0,0.0
+surface,paved,2810,5.7288,0.0,0.0
+surface,concrete:plates,1752,3.5719,0.0,0.0
+surface,dirt,1610,3.2824,0.0,0.0
+surface,concrete,1532,3.1233,0.0,0.0
+surface,gravel,1002,2.0428,0.0,0.0
+surface,paving_stones,936,1.9083,0.0,0.0
+surface,sett,455,0.9276,0.0,0.0
+surface,unspecified,303,0.6177,0.0,0.0
+surface,compacted,285,0.581,0.0,0.0
+surface,mud,199,0.4057,0.0,0.0
+surface,grass,179,0.3649,0.0,0.0
+surface,fine_gravel,140,0.2854,0.0,0.0
+surface,sand,116,0.2365,0.0,0.0
+surface,dirt/sand,75,0.1529,0.0,0.0
+surface,wood,64,0.1305,0.0,0.0
+surface,cobblestone,53,0.1081,0.0,0.0
+surface,earth,50,0.1019,0.0,0.0
+surface,concrete:lanes,47,0.0958,0.0,0.0
+surface,unhewn_cobblestone,31,0.0632,0.0,0.0
+surface,flagging,23,0.0469,0.0,0.0
+surface,grass_paver,20,0.0408,0.0,0.0
+surface,dirt;sand,18,0.0367,0.0,0.0
+surface,metal,16,0.0326,0.0,0.0
+surface,clay,16,0.0326,0.0,0.0
+surface,pebblestone,15,0.0306,0.0,0.0
+surface,artificial_turf,15,0.0306,0.0,0.0
+surface,.,10,0.0204,0.0,0.0
+surface,soil,9,0.0183,0.0,0.0
+surface,plastic,7,0.0143,0.0,0.0
+surface,"ARC,Tasking Manager",7,0.0143,0.0,0.0
+surface,rock,6,0.0122,0.0,0.0
+surface,asfalto,4,0.0082,0.0,0.0
+surface,"ARC,Tasking Manager,Survery",4,0.0082,0.0,0.0
+surface,marble,3,0.0061,0.0,0.0
+surface,Dirt/Sand;Paved,3,0.0061,0.0,0.0
+surface,composite,3,0.0061,0.0,0.0
+surface,turf,3,0.0061,0.0,0.0
+surface,halı_ve_plastik_muluzlar,3,0.0061,0.0,0.0
+surface,cobblestone:flattened,2,0.0041,0.0,0.0
+surface,woodchips,2,0.0041,0.0,0.0
+surface,grounds,2,0.0041,0.0,0.0
+surface,impassable,2,0.0041,0.0,0.0
+surface,gravel;paved,2,0.0041,0.0,0.0
+surface,Concrete_Block_paved,2,0.0041,0.0,0.0
+surface,Steel,2,0.0041,0.0,0.0
+surface,steel,2,0.0041,0.0,0.0
+surface,decomposed_granite,2,0.0041,0.0,0.0
+surface,cim_saha,2,0.0041,0.0,0.0
+surface,paving stones,1,0.002,0.0,0.0
+surface,paving_stones:30,1,0.002,0.0,0.0
+surface,stepping_stones,1,0.002,0.0,0.0
+surface,"compacted,_unpaved",1,0.002,0.0,0.0
+surface,compacted_unpaved,1,0.002,0.0,0.0
+surface,no,1,0.002,0.0,0.0
+surface,unpaved3,1,0.002,0.0,0.0
+surface,Unspecified,1,0.002,0.0,0.0
+surface,paving_stones;dirt,1,0.002,0.0,0.0
+surface,Paved,1,0.002,0.0,0.0
+surface,pave,1,0.002,0.0,0.0
+surface,track,1,0.002,0.0,0.0
+surface,unpaved;gravel;sand,1,0.002,0.0,0.0
+surface,"gravel,asphalt",1,0.002,0.0,0.0
+surface,cconcrete,1,0.002,0.0,0.0
+surface,Ord._Prof._Dr._Muhiddin_Erel_Cd.,1,0.002,0.0,0.0
+surface,asfalt,1,0.002,0.0,0.0
+surface,"grass, sand",1,0.002,0.0,0.0
+surface,sand;ground,1,0.002,0.0,0.0
+surface,l,1,0.002,0.0,0.0
+waterway,stream,8132,50.9907,0.0,0.0
+waterway,river,5027,31.5212,0.0,0.0
+waterway,drain,1064,6.6717,0.0,0.0
+waterway,canal,638,4.0005,0.0,0.0
+waterway,ditch,557,3.4926,0.0,0.0
+waterway,riverbank,386,2.4204,0.0,0.0
+waterway,dam,62,0.3888,0.0,0.0
+waterway,waterfall,24,0.1505,0.0,0.0
+waterway,weir,22,0.1379,0.0,0.0
+waterway,lock_gate,13,0.0815,0.0,0.0
+waterway,dock,9,0.0564,0.0,0.0
+waterway,sluice_gate,2,0.0125,0.0,0.0
+waterway,artificial,2,0.0125,0.0,0.0
+waterway,pond,2,0.0125,0.0,0.0
+waterway,fuel,1,0.0063,0.0,0.0
+waterway,canal;drain,1,0.0063,0.0,0.0
+waterway,drystream,1,0.0063,0.0,0.0
+waterway,bing,1,0.0063,0.0,0.0
+waterway,water_point,1,0.0063,0.0,0.0
+waterway,boatyard,1,0.0063,0.0,0.0
+waterway,reservoir,1,0.0063,0.0,0.0
+waterway,sanitary_dump_station,1,0.0063,0.0,0.0

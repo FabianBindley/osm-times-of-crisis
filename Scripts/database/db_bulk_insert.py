@@ -140,8 +140,26 @@ if __name__ == "__main__":
         "geojson_path": "Data/Attica/AtticaManuallyDefined.geojson",
     }
 
+    Izmir = {
+        "place": "Izmir",
+        "dates": {"start_date": "2017-10-30", "disaster_date": "2020-10-30", "end_date": "2021-12-30"},
+        "file": "Izmir.osh.pbf",
+        "disaster_id": 11,
+        "filter": False,
+        "geojson_path": "Data/Izmir/IzmirManuallyDefined.geojson",
+    }
+
+    Gaziantep = {
+        "place": "Gaziantep",
+        "dates": {"start_date": "2020-02-06", "disaster_date": "2023-02-06", "end_date": "2024-04-06"},
+        "file": "Gaziantep.osh.pbf",
+        "disaster_id": 12,
+        "filter": False,
+        "geojson_path": "Data/Gaziantep/GaziantepManuallyDefined.geojson",
+    }
+
     #places = [EmiliaRomagna, Broxbourne, Haiti2010, Texas]
-    places = [California]
+    places = [Izmir, Gaziantep]
     # Use multiprocessing to process each disaster in parallel
     with concurrent.futures.ProcessPoolExecutor() as executor:
         futures = {executor.submit(process_disaster, place): place["disaster_id"] for place in places}
