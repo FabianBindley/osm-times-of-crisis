@@ -1,111 +1,111 @@
 key,value,count,percent_of_total_changes_for_key
-amenity,school,27446,16.9168
-amenity,hospital,20436,12.5961
-amenity,parking,16557,10.2052
-amenity,place_of_worship,15092,9.3022
-amenity,restaurant,7288,4.4921
-amenity,drinking_water,6827,4.2079
-amenity,pharmacy,5969,3.6791
-amenity,fuel,4367,2.6917
-amenity,toilets,3903,2.4057
-amenity,bank,3171,1.9545
-building,yes,4996058,93.5336
-building,house,154099,2.885
-building,residential,39413,0.7379
-building,construction,26915,0.5039
-building,school,24209,0.4532
-building,apartments,16549,0.3098
-building,collapsed,9860,0.1846
-building,industrial,6674,0.1249
-building,commercial,6584,0.1233
-building,tent,5435,0.1018
-emergency,yes,927,41.7568
-emergency,fire_hydrant,337,15.1802
-emergency,no,287,12.9279
-emergency,defibrillator,189,8.5135
-emergency,phone,140,6.3063
-emergency,ambulance_station,85,3.8288
-emergency,assembly_point,64,2.8829
-emergency,emergency_ward_entrance,53,2.3874
-emergency,fire_extinguisher,41,1.8468
-emergency,landing_site,18,0.8108
-highway,residential,531803,28.1065
-highway,unclassified,213325,11.2745
-highway,track,212673,11.2401
-highway,service,188416,9.9581
-highway,path,170784,9.0262
-highway,tertiary,102077,5.3949
-highway,secondary,92647,4.8965
-highway,footway,88930,4.7001
-highway,road,46901,2.4788
-highway,primary,45117,2.3845
-landuse,residential,99845,50.8399
-landuse,brownfield,24678,12.5657
-landuse,farmland,22995,11.7088
-landuse,grass,11375,5.792
-landuse,forest,6786,3.4554
-landuse,industrial,3957,2.0149
-landuse,basin,3468,1.7659
-landuse,orchard,3169,1.6136
-landuse,cemetery,2294,1.1681
-landuse,farmyard,2078,1.0581
-leisure,park,10853,28.869
-leisure,pitch,7177,19.0908
-leisure,swimming_pool,6221,16.5479
-leisure,common,4930,13.1138
-leisure,playground,2288,6.0861
-leisure,garden,1566,4.1656
-leisure,sports_centre,927,2.4658
-leisure,picnic_table,726,1.9312
-leisure,stadium,329,0.8751
-leisure,pool,300,0.798
-name,महेन्द्र राज्मार्ग्,1142,0.147
-name,Katy Freeway Frontage Road,1110,0.1429
-name,Westheimer Road,1063,0.1369
-name,Building,1047,0.1348
-name,İzmir Çevre Yolu,909,0.117
-name,Adana-Şanlıurfa Otoyolu,898,0.1156
-name,Eastex Freeway Frontage Road,850,0.1094
-name,Gulf Freeway Frontage Road,837,0.1078
-name,North Freeway Frontage Road,834,0.1074
-name,Nationale No 2,817,0.1052
-natural,tree,83537,55.2976
-natural,wood,18347,12.1449
-natural,water,15656,10.3635
-natural,peak,8534,5.6491
-natural,scrub,5046,3.3402
-natural,coastline,4937,3.2681
-natural,sand,2400,1.5887
-natural,tree_row,2397,1.5867
-natural,grassland,1837,1.216
-natural,shingle,1270,0.8407
-source,microsoft/BuildingFootprints,383569,27.1846
-source,Bing,139431,9.8819
-source,bing,113676,8.0565
-source,maxar,68783,4.8748
-source,digitalglobe,48682,3.4502
-source,GeoEye,44388,3.1459
-source,Regione Emilia Romagna,31295,2.218
-source,"Google, 2010-01-21",25685,1.8204
-source,NHD,20038,1.4201
-source,CNIGS/OIM/ FOCS,18934,1.3419
-surface,asphalt,114931,40.7643
-surface,unpaved,43589,15.4604
-surface,concrete:plates,27152,9.6304
-surface,ground,18376,6.5177
-surface,paved,15816,5.6097
-surface,concrete,15442,5.4771
-surface,dirt,12961,4.5971
-surface,gravel,9966,3.5348
-surface,paving_stones,5103,1.81
-surface,Dirt/Sand,4792,1.6997
-waterway,stream,76175,61.4062
-waterway,river,23591,19.0172
-waterway,drain,8095,6.5255
-waterway,ditch,7135,5.7517
-waterway,canal,4634,3.7356
-waterway,riverbank,2895,2.3337
-waterway,dam,510,0.4111
-waterway,weir,319,0.2572
-waterway,yes,185,0.1491
-waterway,waterfall,124,0.1
+amenity,school,28224,16.5435
+amenity,hospital,20864,12.2294
+amenity,parking,16751,9.8186
+amenity,place_of_worship,16450,9.6422
+amenity,restaurant,7862,4.6083
+amenity,drinking_water,6852,4.0163
+amenity,pharmacy,6167,3.6148
+amenity,fuel,5853,3.4307
+amenity,toilets,4243,2.487
+amenity,bank,3999,2.344
+building,yes,6078091,93.9054
+building,house,173310,2.6776
+building,residential,62183,0.9607
+building,construction,28205,0.4358
+building,school,24435,0.3775
+building,apartments,17185,0.2655
+building,collapsed,9862,0.1524
+building,industrial,7221,0.1116
+building,commercial,6764,0.1045
+building,tent,5436,0.084
+emergency,yes,1220,48.2023
+emergency,fire_hydrant,343,13.552
+emergency,no,290,11.4579
+emergency,defibrillator,189,7.4674
+emergency,phone,140,5.5314
+emergency,ambulance_station,87,3.4374
+emergency,assembly_point,64,2.5286
+emergency,emergency_ward_entrance,53,2.094
+emergency,fire_extinguisher,41,1.6199
+emergency,water_tank,21,0.8297
+highway,residential,709541,30.0917
+highway,unclassified,319253,13.5395
+highway,track,267499,11.3447
+highway,path,214131,9.0813
+highway,service,203917,8.6481
+highway,tertiary,132709,5.6282
+highway,secondary,99821,4.2334
+highway,footway,93541,3.9671
+highway,primary,51966,2.2039
+highway,road,48325,2.0495
+landuse,residential,117250,50.5545
+landuse,farmland,29218,12.5979
+landuse,brownfield,24682,10.6421
+landuse,grass,11637,5.0175
+landuse,orchard,10644,4.5894
+landuse,forest,7645,3.2963
+landuse,industrial,4510,1.9446
+landuse,basin,3984,1.7178
+landuse,cemetery,2450,1.0564
+landuse,farmyard,2339,1.0085
+leisure,park,11186,28.114
+leisure,pitch,7438,18.6941
+leisure,swimming_pool,7385,18.5609
+leisure,common,4949,12.4384
+leisure,playground,2342,5.8862
+leisure,garden,1729,4.3455
+leisure,sports_centre,953,2.3952
+leisure,picnic_table,726,1.8247
+leisure,stadium,344,0.8646
+leisure,pool,300,0.754
+name,महेन्द्र राज्मार्ग्,1142,0.1376
+name,قومی شاہراہ,1141,0.1375
+name,Katy Freeway Frontage Road,1110,0.1337
+name,Building,1076,0.1296
+name,Westheimer Road,1063,0.1281
+name,National Highway,1011,0.1218
+name,İzmir Çevre Yolu,909,0.1095
+name,Adana-Şanlıurfa Otoyolu,898,0.1082
+name,قومی شاہراہ 55,893,0.1076
+name,Eastex Freeway Frontage Road,850,0.1024
+natural,tree,84669,52.155
+natural,water,22231,13.694
+natural,wood,19517,12.0222
+natural,peak,8717,5.3696
+natural,scrub,5404,3.3288
+natural,coastline,5324,3.2795
+natural,tree_row,2663,1.6404
+natural,sand,2438,1.5018
+natural,grassland,2070,1.2751
+natural,wetland,1668,1.0275
+source,microsoft/BuildingFootprints,385177,25.8207
+source,Bing,144179,9.6652
+source,bing,116577,7.8149
+source,maxar,103257,6.9219
+source,digitalglobe,56213,3.7683
+source,GeoEye,44388,2.9756
+source,Regione Emilia Romagna,31295,2.0979
+source,"Google, 2010-01-21",25685,1.7218
+source,NHD,20038,1.3433
+source,CNIGS/OIM/ FOCS,18934,1.2693
+surface,asphalt,131033,38.8044
+surface,unpaved,68931,20.4134
+surface,ground,27228,8.0634
+surface,concrete:plates,27159,8.0429
+surface,paved,17547,5.1964
+surface,concrete,15844,4.6921
+surface,dirt,13853,4.1025
+surface,gravel,10138,3.0023
+surface,paving_stones,5132,1.5198
+surface,Dirt/Sand,4792,1.4191
+waterway,stream,86973,57.5374
+waterway,river,29032,19.2063
+waterway,canal,11682,7.7283
+waterway,drain,9268,6.1313
+waterway,ditch,9105,6.0235
+waterway,riverbank,3130,2.0707
+waterway,dam,649,0.4293
+waterway,weir,505,0.3341
+waterway,yes,189,0.125
+waterway,waterfall,149,0.0986
