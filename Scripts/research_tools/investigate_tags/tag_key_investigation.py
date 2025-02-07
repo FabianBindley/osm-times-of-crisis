@@ -4,6 +4,7 @@ import sys
 import os
 import csv
 import shutil
+import ast
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..', 'database')))
 from db_utils import DB_Utils
@@ -124,7 +125,13 @@ if __name__ == "__main__":
     start_time = datetime.now()
     db_utils = DB_Utils()
     db_utils.db_connect()
-    disaster_ids =  range(2,13)
+    
+    if len(sys.argv) > 1:
+        disaster_ids = ast.literal_eval(sys.argv[1]) 
+        print("Disaster IDs passed:", disaster_ids)
+    else:
+        disaster_ids = range(2,19)
+        print("Disaster IDs defined:", disaster_ids)
 
     print("Getting key counts")
     get_key_counts(pre_disaster_days=365, imm_disaster_days=30, post_diaster_days=365)

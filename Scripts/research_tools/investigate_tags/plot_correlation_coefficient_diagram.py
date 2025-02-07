@@ -2,6 +2,7 @@ import plotly.express as px
 import pandas as pd
 from datetime import datetime, timedelta
 import sys
+import ast
 import os
 import csv
 import shutil
@@ -149,7 +150,13 @@ def generate_plot_kendall_correlation_coefficients(periods, disaster_ids, key_pa
 if __name__ == "__main__":
     db_utils = DB_Utils()
     db_utils.db_connect()
-    disaster_ids = range(2,13)
+
+    if len(sys.argv) > 1:
+        disaster_ids = ast.literal_eval(sys.argv[1]) 
+        print("Disaster IDs passed:", disaster_ids)
+    else:
+        disaster_ids = range(2,19)
+        print("Disaster IDs defined:", disaster_ids)
 
     # Key pairs should aways be alphabetically ordered
     specified_keys = sorted(["building","highway","source","name","surface","amenity","landuse","waterway","natural","leisure","emergency"])

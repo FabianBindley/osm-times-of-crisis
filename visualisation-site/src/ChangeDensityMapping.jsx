@@ -4,16 +4,22 @@ import Map from './Map'
 import "./App.css";
 
 const maps = [
-    { title: "Emilia Romagna Floods | 2023", disaster_id: 2 },
     { title: "Haiti Earthquake | 2010", disaster_id: 3},
+    { title: "Texas Hurricane Harvey | 2017", disaster_id: 8},
+    { title: "California Wildfires | 2020", disaster_id: 7},
     { title: "Haiti Earthquake and Hurricane Grace | 2021", disaster_id: 5},
     { title: "Nepal Earthquake | 2015", disaster_id: 6},
-    { title: "California Wildfires | 2020", disaster_id: 7},
-    { title: "Texas Hurricane Harvey | 2017", disaster_id: 8},
-    { title: "Sulawesi Earthquake and Tsunami | 2018", disaster_id: 9},
-    { title: "Attica Wildfires | 2018", disaster_id: 10},
-    { title: "Izmir Earthquake and Tsunami | 2020", disaster_id: 11},
-    { title: "Gaziantep Earthquake | 2023", disaster_id: 12},
+    { title: "Sulawesi, Indonesia Earthquake and Tsunami | 2018", disaster_id: 9},
+    { title: "Atami, Japan Landslide | 2021", disaster_id: 14},
+    { title: "Pakistan Floods | 2022", disaster_id: 13},
+    { title: "Attica, Greece Wildfires | 2018", disaster_id: 10},
+    { title: "Izmir, Turkey Earthquake and Tsunami | 2020", disaster_id: 11},
+    { title: "Gaziantep, Turkey Earthquake | 2023", disaster_id: 12},
+    { title: "Emilia Romagna Floods | 2023", disaster_id: 2 },
+    { title: "Freetown, Sierra Leone Landslide | 2017", disaster_id: 18},
+    { title: "Derna, Libya Dam Collapse Floods | 2023", disaster_id: 15},
+    { title: "Malawi Hurricane Freddy | 2023", disaster_id: 16},
+    { title: "Morocco Earthquake | 2023", disaster_id: 17},
   ];
 
 const additional_maps = [
@@ -39,10 +45,10 @@ function ChangeDensityMapping() {
       };
 
     const count_change_intervals = [{start:"365", end:"365"},{start:"180", end:"365"},{start:"0", end:"365"},{start:"0", end:"30"},{start:"0", end:"60"}]
-    const count_change_resolutions = ["6", "7", "8"]
+    const count_change_resolutions = ["6", "7", "8", "9"]
 
     const percent_difference_intervals = [{start:"365", end:"365"},{start:"180", end:"365"}]
-    const percent_difference_resolutions = ["6", "7", "8"]
+    const percent_difference_resolutions = ["6", "7", "8", "9"]
       
 
     const handleResolutionChange = (value) => {
@@ -106,36 +112,23 @@ function ChangeDensityMapping() {
 
                     
                 </div>
-                {
-                    mapStyle == "count_changes" ? 
-                    <div style={{marginTop:5,marginBottom:5}}>
-                        <label style={{ marginLeft: 10 }}>Resolution:</label>
-                        <Select
-                            defaultValue={resolution}
-                            value={resolution}
-                            style={{ width: 60, marginLeft: 10 }}
-                            onChange={handleResolutionChange}
-                        >
-                            <Select.Option value="6">6</Select.Option>
-                            <Select.Option value="7">7</Select.Option>
-                            <Select.Option value="8">8</Select.Option>
-                        </Select>
-                    </div> 
-                    : 
-                    <div style={{marginTop:5,marginBottom:5}}>
-                        <label style={{ marginLeft: 10 }}>Resolution:</label>
-                        <Select
-                            defaultValue={resolution}
-                            value={resolution}
-                            style={{ width: 60, marginLeft: 10 }}
-                            onChange={handleResolutionChange}
-                        >
-                            <Select.Option value="6">6</Select.Option>
-                            <Select.Option value="7">7</Select.Option>
-                            <Select.Option value="8">8</Select.Option>
-                        </Select>
-                    </div> 
-                    }
+
+                <div style={{marginTop:5,marginBottom:5}}>
+                    <label style={{ marginLeft: 10 }}>Resolution:</label>
+                    <Select
+                        defaultValue={resolution}
+                        value={resolution}
+                        style={{ width: 60, marginLeft: 10 }}
+                        onChange={handleResolutionChange}
+                    >
+                        <Select.Option value="6">6</Select.Option>
+                        <Select.Option value="7">7</Select.Option>
+                        <Select.Option value="8">8</Select.Option>
+                        <Select.Option value="9">9</Select.Option>
+                    </Select>
+                </div> 
+
+                    
 
                 {
                     mapStyle == "count_changes" ? 
@@ -187,10 +180,13 @@ function ChangeDensityMapping() {
                 <Map index={index} map={map} resolution={resolution} mapStyle={mapStyle} interval={interval} lazyLoading={lazyLoading}/>
             ))}
 
+   
+            {/*
             <h2>Additional Maps</h2>
             {additional_maps.map((map, index) => (
                 <Map index={index} map={map} resolution={resolution} mapStyle={mapStyle} interval={interval} lazyLoading={lazyLoading}/>
             ))}
+                */}
         </>
     );
   }

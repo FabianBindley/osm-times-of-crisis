@@ -1,7 +1,9 @@
 import sys
+import ast
 import os
 from datetime import datetime, timedelta
 from shapely import wkb
+import matplotlib.image as mpimg
 
 import matplotlib.pyplot as plt
 from shapely.geometry import mapping
@@ -17,6 +19,8 @@ import csv
 import pandas as pd
 import numpy as np
 from count_changes_lower import save_hex_counts_to_csv
+
+
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..', 'database')))
 from db_utils import DB_Utils
 
@@ -103,6 +107,14 @@ def compute_gini_coefficients(hex_counts):
     cumulative_sum_counts_total = np.cumsum(np.sort(hex_counts['total_count']))
 
     n = len(hex_counts)
+
+    if n == 0:
+        return pd.DataFrame({
+        "creates": [0],
+        "edits": [0],
+        "deletes": [0],
+        "total": [0]
+         })
 
     gini_index_counts_creates = (n + 1 - 2 * np.sum(cumulative_sum_counts_creates) / cumulative_sum_counts_creates[-1]) / n
     gini_index_counts_edits = (n + 1 - 2 * np.sum(cumulative_sum_counts_edits) / cumulative_sum_counts_edits[-1]) / n
@@ -222,7 +234,6 @@ def plot_gini_coefficients(gini_df, resolution):
     for axis in axes:
         axis.axhline(y=0, color='black', linewidth=0.8, linestyle='--')
         axis.set_yscale('linear') 
-        axis.set_xlabel("Disaster")
         axis.set_xticks(x)
         axis.set_xticklabels(disaster_labels, rotation=45)
         axis.legend()
@@ -234,88 +245,125 @@ def plot_gini_coefficients(gini_df, resolution):
     plt.tight_layout()
     plt.savefig(f"./Results/ChangeDensityMapping/Summary/charts/gini_coefficients_pre_imm_post_{resolution}.png", dpi=350)
     plt.close()
+    
 
 
-def plot_percent_difference_in_gini_coefficients(gini_df, resolution, total_only):
+
+def plot_percent_difference_in_gini_coefficients(gini_df, resolution, total_only, period, common_ylim=None):
+
+    gini_df = gini_df[gini_df["resolution"] == resolution].copy()
+
+    gini_df[f"gini_count_total_percent_difference_{period}"] = gini_df[f"gini_count_total_percent_difference_{period}"].fillna(0)
+
+    gini_df = gini_df.sort_values(by=f"gini_count_total_percent_difference_{period}", ascending=False).reset_index(drop=True)
 
     disaster_labels = gini_df.apply(
-        lambda row: f"{row['disaster_area'][0]} ({row['disaster_date'].year})", axis=1
+        lambda row: f"{', '.join(row['disaster_area']) if isinstance(row['disaster_area'], list) else row['disaster_area']} ({row['disaster_date'].year})", axis=1
     )
 
+    # Extract data for plotting
     if not total_only:
-        creates_percent_difference_imm = gini_df["gini_count_creates_percent_difference_imm"]
-        edits_percent_difference_imm = gini_df["gini_count_edits_percent_difference_imm"]
-        deletes_percent_difference_imm = gini_df["gini_count_deletes_percent_difference_imm"]
-    total_percent_difference_imm = gini_df["gini_count_total_percent_difference_imm"]
+        creates_percent_difference= gini_df[f"gini_count_creates_percent_difference_{period}"]
+        edits_percent_difference = gini_df[f"gini_count_edits_percent_difference_{period}"]
+        deletes_percent_difference = gini_df[f"gini_count_deletes_percent_difference_{period}"]
+    total_percent_difference = gini_df[f"gini_count_total_percent_difference_{period}"]
 
+    x = np.arange(len(disaster_labels))
+
+    # Start plotting
+    width = 0.2
+    #fig, axes = plt.subplots(2, 1, figsize=(12 if total_only else 18, 12), sharex=True)
+    plt.figure(figsize=(12 if total_only else 18, 8))
+
+    # Plot immediate differences
     if not total_only:
-        creates_percent_difference_post = gini_df["gini_count_creates_percent_difference_post"]
-        edits_percent_difference_post = gini_df["gini_count_edits_percent_difference_post"]
-        deletes_percent_difference_post = gini_df["gini_count_deletes_percent_difference_post"]
-    total_percent_difference_post = gini_df["gini_count_total_percent_difference_post"]
+        plt.bar( x - width * 1.5, creates_percent_difference, width, label="Creates", color="blue", zorder=3)
+        plt.bar( x - width / 2, edits_percent_difference, width, label="Edits", color="orange", zorder=3)
+        plt.bar( x + width / 2, deletes_percent_difference, width, label="Deletes", color="green", zorder=3)
+        plt.bar( x + width * 1.5, total_percent_difference, width, label="Total", color="red", zorder=3)
+    else:
+        plt.bar( x, total_percent_difference, width, label="Total", color="red", zorder=3)
 
-    x = np.arange(len(disaster_labels))  
-    width = 0.2  
+    plt.ylabel(f"% Difference in Gini Coefficient ({period}-Disaster)")
+    plt.title(f'% Difference in Gini Coefficients during {"Immediate" if period == "imm" else "Post"} Period | Resolution {resolution}')
+    plt.legend()
 
-    fig, axes = plt.subplots(2, 1, figsize=(12 if total_only else 18, 12), sharex=True)
+    # Set x-axis labels and limits
+    plt.xticks( x, disaster_labels, rotation=45)
 
-    for axis in axes:
-        axis.grid(which='major', color='black', linestyle='-', linewidth=0.5)
-        axis.grid(which='minor', color='gray', linestyle=':', linewidth=0.5)
-        axis.minorticks_on()
+    # Add both major and minor gridlines
+    plt.grid(visible=True, which="major", linestyle="-", linewidth=0.8, color="black", zorder=0)
+    plt.grid(visible=True, which="minor", linestyle=":", linewidth=0.5, color="gray", zorder=0)
+    plt.minorticks_on()  # Enable minor ticks
 
+    # Add a horizontal baseline at y=0
+    plt.axhline(0, color="black", linewidth=0.8, linestyle="--", zorder=1)
 
-    if not total_only:
-        axes[0].bar(x - width*1.5, creates_percent_difference_imm, width, label="Creates", zorder=3)
-        axes[0].bar(x - width/2, edits_percent_difference_imm, width, label="Edits", zorder=3)
-        axes[0].bar(x + width/2, deletes_percent_difference_imm, width, label="Deletes", zorder=3)
-    axes[0].bar(x + width*1.5, total_percent_difference_imm, width, label="Total", zorder=3)
+    if common_ylim:
+        plt.ylim(common_ylim)
 
-    axes[0].set_ylabel("% Difference in Gini Coefficient Imm-Disaster")
-    axes[0].set_title("% Difference in Gini Coefficients during Immediate Period")
-    axes[0].tick_params(axis="x", bottom=True, top=False, labelbottom=True, labeltop=False)
-
-
-    if not total_only:
-        axes[1].bar(x - width*1.5, creates_percent_difference_post, width, label="Creates", zorder=3)
-        axes[1].bar(x - width/2, edits_percent_difference_post, width, label="Edits", zorder=3)
-        axes[1].bar(x + width/2, deletes_percent_difference_post, width, label="Deletes", zorder=3)
-    axes[1].bar(x + width*1.5, total_percent_difference_post, width, label="Total", zorder=3)
-
-    axes[1].set_ylabel("% Difference in Gini Coefficient Post-Disaster")
-    axes[1].set_title("% Difference in Gini Coefficients during Post-Disaster Period")
-
-
-
-    for axis in axes:
-        axis.axhline(y=0, color='black', linewidth=0.8, linestyle='--')
-        axis.set_yscale('linear') 
-        axis.set_xlabel("Disaster")
-        axis.set_xticks(x)
-        axis.set_xticklabels(disaster_labels, rotation=45)
-        axis.legend()
-
-    # Set a shared xlabel
-    axes[1].set_xlabel("Disaster Area")
-
-    # Adjust layout and save
     plt.tight_layout()
-    plt.savefig(f"./Results/ChangeDensityMapping/Summary/charts/gini_coefficients_percent_difference_imm_post_{resolution}{"_total_only" if total_only else ""}.png", dpi=350)
+
+
+    plt.tight_layout()
+    output_path = f"./Results/ChangeDensityMapping/Summary/charts/gini_percent_difference_{resolution}_{period}_{'total_only' if total_only else 'full'}.png"
+    plt.savefig(output_path, dpi=300)
+    plt.close()
+
+    return output_path
+
+def combine_plots(image_path_1, image_path_2, output_path):
+    """
+    Combine two images (plots) into a single figure with subplots.
+
+    Args:
+        image_path_1 (str): Path to the first image.
+        image_path_2 (str): Path to the second image.
+        output_path (str): Path to save the combined figure.
+    """
+    # Load the images
+    img1 = mpimg.imread(image_path_1)
+    img2 = mpimg.imread(image_path_2)
+
+    # Create a figure with two subplots
+    fig, axes = plt.subplots(2, 1, figsize=(10, 12))
+
+    # Display the first image
+    axes[0].imshow(img1)
+    axes[0].axis('off')  # Turn off axes for a cleaner look
+
+    # Display the second image
+    axes[1].imshow(img2)
+    axes[1].axis('off')  # Turn off axes for a cleaner look
+
+    # Adjust layout and save the combined figure
+    plt.tight_layout()
+    plt.savefig(output_path, dpi=300)
     plt.close()
 
 
 # To analyse the gini coefficient - the changes per hexagon for the selected disasters must already have been completed and stored in the change_counts hex_coutn file for the specified resolution
 if __name__ == "__main__":
+
+    if len(sys.argv) > 1:
+        disaster_ids = ast.literal_eval(sys.argv[1]) 
+        print("Disaster IDs passed:", disaster_ids)
+    else:
+        disaster_ids = [2,3,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+        print("Disaster IDs defined:", disaster_ids)
+
+
     start_time = datetime.now()
     db_utils = DB_Utils()
     db_utils.db_connect()
 
+    total_only_bools = [True, False]
     disaster_days = [(365, 60, 365)]
     resolutions = [7,8]
     gini_coefficients = []
 
     for disaster_day_tuple in disaster_days:
-        for disaster_id in range(2, 13):
+        for disaster_id in disaster_ids:
             for resolution in resolutions:
                 (_, disaster_country, disaster_area, disaster_geojson_encoded, disaster_date, disaster_h3_resolution) = db_utils.get_disaster_with_id(disaster_id)
                 pre_disaster_days, imm_disaster_days, post_disaster_days = disaster_day_tuple
@@ -359,6 +407,24 @@ if __name__ == "__main__":
     #print(gini_df)
     gini_df.to_csv("./Results/ChangeDensityMapping/Summary/data/gini_coefficients.csv", index=False)
 
-    plot_gini_coefficients(gini_df, resolution)
-    plot_percent_difference_in_gini_coefficients(gini_df, resolution, total_only=False)
-    plot_percent_difference_in_gini_coefficients(gini_df, resolution, total_only=True)
+    for resolution in resolutions:
+        for total_only in total_only_bools:
+
+            # Calculate common y-axis limits
+            imm_values = gini_df[f"gini_count_total_percent_difference_imm"].fillna(0)
+            post_values = gini_df[f"gini_count_total_percent_difference_post"].fillna(0)
+
+            # Compute the minimum and maximum values across both periods
+            ymin = min(imm_values.min(), post_values.min())
+            ymax = max(imm_values.max(), post_values.max())
+
+            # Add padding to the y-axis range
+            padding = 5  # Adjust padding as needed
+            common_ylim = (ymin - padding, ymax + padding)
+
+            #plot_gini_coefficients(gini_df, resolution)
+            #plot_percent_difference_in_gini_coefficients(gini_df, resolution, total_only=False)
+            imm_path = plot_percent_difference_in_gini_coefficients(gini_df, resolution, total_only, period="imm", common_ylim=common_ylim)
+            post_path = plot_percent_difference_in_gini_coefficients(gini_df, resolution, total_only, period="post",  common_ylim=common_ylim)
+            output_path = f"./Results/ChangeDensityMapping/Summary/charts/gini_percent_difference_{resolution}_{'total_only' if total_only else ''}.png"
+            combine_plots(imm_path, post_path, output_path)

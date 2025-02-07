@@ -32,7 +32,7 @@ const Map = memo(function Map({ index, map, resolution, mapStyle, interval, lazy
   return (
     <>
       <h2>{map.title}</h2>
-      <div key={index} className="iframe-container" ref={mapRef}>
+      <div key={index} className="iframe-container-density" ref={mapRef}>
         {isVisible || !lazyLoading ? (
           <iframe
             src={mapPath}

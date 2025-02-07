@@ -133,7 +133,7 @@ if __name__ == "__main__":
     periods = [("pre","imm"), ("pre","post"), ("imm","post")]
     periods = [("pre","imm"),("pre","post"), ("imm","post")]
 
-    disaster_ids = range(2,13)
+    disaster_ids =  range(2,19)
     top_n = 15
 
     for period in periods:

@@ -1,4 +1,5 @@
 import sys
+import ast
 import os
 from datetime import datetime, timedelta
 from shapely import wkb
@@ -114,11 +115,20 @@ if __name__ == "__main__":
     disaster_days = [(365,365)]
     #disaster_days = [(0,30), (0,60)]
 
-    resolutions = [6,7,8]
+    if len(sys.argv) > 1:
+        disaster_ids = ast.literal_eval(sys.argv[1]) 
+        print("Disaster IDs passed:", disaster_ids)
+    else:
+        disaster_ids = range(13,19)
+        print("Disaster IDs defined:", disaster_ids)
+    
+    resolutions = [6,7,8,9]
     #resolutions = [7]
     for disaster_day_tuple in disaster_days:
-        for disaster_id in range(11,13):
+        for disaster_id in disaster_ids:
             for resolution in resolutions:
+                if resolution == 9 and disaster_id not in [10,14,15,18]:
+                    continue
 
                 (_, disaster_country, disaster_area, disaster_geojson_encoded, disaster_date, disaster_h3_resolution ) = db_utils.get_disaster_with_id(disaster_id)
                 print(f"Generating counts for {disaster_area[0]} {disaster_date.year} | resolution {resolution}")

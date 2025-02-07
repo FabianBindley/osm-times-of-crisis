@@ -1,5 +1,6 @@
 import sys
 import os
+import ast
 from contextlib import contextmanager
 import numpy as np
 from datetime import datetime, timedelta
@@ -158,7 +159,7 @@ def generate_count_by_interval_length(disaster_id, disaster_date, pre_disaster_d
 
         # Train the prophet models for the given interval length and days
         models, caps = train_forecast_prophet(disaster_id, prophet_model_pre_disaster_days, imm_disaster_days, post_disaster_days, interval_length)
-        evaluate_prophet_model_forecasts(models, disaster_id, pre_disaster_days, imm_disaster_days, post_disaster_days, interval_length, caps)
+        evaluate_prophet_model_forecasts(models, disaster_id, pre_disaster_days, imm_disaster_days, post_disaster_days, interval_length, disaster_date, caps)
 
 
 def train_forecast_prophet(disaster_id, pre_disaster_days, imm_disaster_days, post_disaster_days, interval_length):
@@ -178,33 +179,11 @@ def train_forecast_prophet(disaster_id, pre_disaster_days, imm_disaster_days, po
 
     # Filter out major spikes that affect prophet training
     # Dont filter out for California wildfires
-    if disaster_id not in [11, 13]:
+    if disaster_id not in [7, 11]:
         pre_disaster_counts_df = pre_disaster_counts_df[
             ~((covid_start <= pre_disaster_counts_df['ds']) & (pre_disaster_counts_df['ds'] <= covid_end))
         ]
 
-    # Exclude shocks
-    """
-    if disaster_id == 2:   
-        pre_disaster_counts_df = pre_disaster_counts_df[
-            ~(('2020-09-01' <= pre_disaster_counts_df['ds']) & (pre_disaster_counts_df['ds'] <= '2020-12-01'))
-        ]
-
-    if disaster_id == 3:   
-        pre_disaster_counts_df = pre_disaster_counts_df[
-            ~(('2008-12-01' <= pre_disaster_counts_df['ds']) & (pre_disaster_counts_df['ds'] <= '2009-02-01'))
-        ]
-
-    if disaster_id == 4:   
-        pre_disaster_counts_df = pre_disaster_counts_df[
-            ~(('2019-05-01' <= pre_disaster_counts_df['ds']) & (pre_disaster_counts_df['ds'] <= '2019-07-01'))
-        ]
-
-    if disaster_id == 5:   
-        pre_disaster_counts_df = pre_disaster_counts_df[
-            ~(('2019-01-01' <= pre_disaster_counts_df['ds']) & (pre_disaster_counts_df['ds'] <= '2019-05-01'))
-        ]
-    """
 
     # Create a pd dataframe with the start_date renamed to ds and the total renamed to y
     pre_disaster_counts_creates = pre_disaster_counts_df[["ds", "creates"]].rename(columns={"creates": "y"})
@@ -257,51 +236,65 @@ def train_forecast_prophet(disaster_id, pre_disaster_days, imm_disaster_days, po
 
     return (model_creates, model_edits, model_deletes, model_total), caps
 
-def evaluate_prophet_model_forecasts(models,  disaster_id, pre_disaster_days, imm_disaster_days, post_disaster_days, interval_length, caps):
+def evaluate_prophet_model_forecasts(models, disaster_id, pre_disaster_days, imm_disaster_days, post_disaster_days, interval_length, disaster_date, caps):
+    # Load the actual change counts
+    counts_df = pd.read_csv(f"./Results/ChangeCounting/disaster{disaster_id}/data/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_{str(interval_length)}_change_count.csv")
+    
+    # Drop last row if it's empty
+    counts_df = counts_df.dropna(how="all")
 
-    counts_df = pd.read_csv(f"./Results/ChangeCounting/disaster{disaster_id}/data/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_{str(interval_length)}_change_count.csv")[:-1]
-    pre_imm_post_start_dates = counts_df["start_date"]
-    pre_imm_post_future = pd.DataFrame({"ds": pre_imm_post_start_dates})
+    # Ensure start_date is correctly formatted
+    counts_df["start_date"] = pd.to_datetime(counts_df["start_date"], errors="coerce")
+
+    # Ensure valid timestamps
+    counts_df = counts_df[counts_df["start_date"] >= disaster_date].reset_index(drop=True)
+
+    pre_imm_post_future = counts_df[["start_date"]].dropna().rename(columns={"start_date": "ds"}) 
+    pre_imm_post_future = pre_imm_post_future[pre_imm_post_future["ds"] >= disaster_date]
+    
+    print("Future dates being used for prediction:", pre_imm_post_future)
 
     # Add floor and cap columns to the future dataframe
     pre_imm_post_future_creates = pre_imm_post_future.copy()
-    #pre_imm_post_future_creates["floor"] = 0  
-    #pre_imm_post_future_creates["cap"] = caps["creates"]
+    pre_imm_post_future_creates["cap"] = caps["creates"]
 
     pre_imm_post_future_edits = pre_imm_post_future.copy()
-    #pre_imm_post_future_edits["floor"] = 0  
-    #pre_imm_post_future_edits["cap"] = caps["edits"]
+    pre_imm_post_future_edits["cap"] = caps["edits"]
 
     pre_imm_post_future_deletes = pre_imm_post_future.copy()
-    #pre_imm_post_future_deletes["floor"] = 0  
-    #pre_imm_post_future_deletes["cap"] = caps["deletes"]  
+    pre_imm_post_future_deletes["cap"] = caps["deletes"]
 
     pre_imm_post_future_total = pre_imm_post_future.copy()
-    #pre_imm_post_future_total["floor"] = 0  
-    #pre_imm_post_future_total["cap"] = caps["total"]
+    pre_imm_post_future_total["cap"] = caps["total"]
 
+    # Unpack models
     model_creates, model_edits, model_deletes, model_total = models
 
-
-
+    # Make forecasts
     model_creates_prediction = model_creates.predict(pre_imm_post_future_creates)
     model_edits_prediction = model_edits.predict(pre_imm_post_future_edits)
     model_deletes_prediction = model_deletes.predict(pre_imm_post_future_deletes)
     model_total_prediction = model_total.predict(pre_imm_post_future_total)
 
+    # Ensure predictions have valid yhat values
     model_edits_prediction["yhat"] = model_edits_prediction["yhat"].clip(lower=0)
     model_creates_prediction["yhat"] = model_creates_prediction["yhat"].clip(lower=0)
     model_deletes_prediction["yhat"] = model_deletes_prediction["yhat"].clip(lower=0)
     model_total_prediction["yhat"] = model_total_prediction["yhat"].clip(lower=0)
-    #print(model_deletes_prediction["yhat"])
 
-
-    predictions_df = pd.DataFrame({"start_date":pre_imm_post_future['ds'],"creates": model_creates_prediction["yhat"], "edits": model_edits_prediction["yhat"], "deletes": model_deletes_prediction["yhat"], "total": model_total_prediction["yhat"]})
+    # Save predictions with correct timestamps
+    predictions_df = pd.DataFrame({
+        "start_date": pre_imm_post_future['ds'],  # Make sure we use actual dates
+        "creates": model_creates_prediction["yhat"],
+        "edits": model_edits_prediction["yhat"],
+        "deletes": model_deletes_prediction["yhat"],
+        "total": model_total_prediction["yhat"]
+    })
+    
     file_path = f"./Results/ChangeCounting/disaster{disaster_id}/data/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_{str(interval_length)}_change_count_prophet_predictions.csv"
     predictions_df.to_csv(file_path, index=False)
 
     # Compute the mean average error and mean average percentage error
-    # TODO This should only be computed for the post disaster period
     mae = {}
     mape = {}
     for column in ["creates", "edits", "deletes", "total"]:
@@ -351,7 +344,13 @@ if __name__ == "__main__":
     prophet_model_bools = [True, False]
     post_only_bools = [True, False]
 
-    disaster_ids = range(2,13)
+    if len(sys.argv) > 1:
+        disaster_ids = ast.literal_eval(sys.argv[1]) 
+        print("Disaster IDs passed:", disaster_ids)
+    else:
+        disaster_ids = range(2,19)
+        print("Disaster IDs defined:", disaster_ids)
+
     # Use ProcessPoolExecutor to parallelize the disaster_id loop
     with concurrent.futures.ProcessPoolExecutor() as executor:
         # Submit tasks for each disaster_id

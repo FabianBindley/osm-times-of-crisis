@@ -158,8 +158,62 @@ if __name__ == "__main__":
         "geojson_path": "Data/Gaziantep/GaziantepManuallyDefined.geojson",
     }
 
+    Pakistan = {
+        "place": "Pakistan",
+        "dates": {"start_date": "2019-08-25", "disaster_date": "2022-08-25", "end_date": "2023-10-25"},
+        "file": "Pakistan.osh.pbf",
+        "disaster_id": 13,
+        "filter": False,
+        "geojson_path": "Data/Pakistan/PakistanManuallyDefined.geojson",
+    }
+
+    Atami = {
+        "place": "Atami",
+        "dates": {"start_date": "2018-07-03", "disaster_date": "2021-07-03", "end_date": "2022-09-03"},
+        "file": "Atami.osh.pbf",
+        "disaster_id": 14,
+        "filter": False,
+        "geojson_path": "Data/Atami/AtamiManuallyDefined.geojson",
+    }
+
+    Derna = {
+        "place": "Derna",
+        "dates": {"start_date": "2020-09-10", "disaster_date": "2023-09-10", "end_date": "2024-11-10"},
+        "file": "Derna.osh.pbf",
+        "disaster_id": 15,
+        "filter": False,
+        "geojson_path": "Data/Derna/DernaManuallyDefined.geojson",
+    }
+
+    Malawi = {
+        "place": "Malawi",
+        "dates": {"start_date": "2020-03-12", "disaster_date": "2023-03-12", "end_date": "2024-05-12"},
+        "file": "Malawi.osh.pbf",
+        "disaster_id": 16,
+        "filter": False,
+        "geojson_path": "Data/Malawi/MalawiManuallyDefined.geojson",
+    }
+
+    Morocco = {
+        "place": "Morocco",
+        "dates": {"start_date": "2020-09-08", "disaster_date": "2023-09-08", "end_date": "2024-11-08"},
+        "file": "Morocco.osh.pbf",
+        "disaster_id": 17,
+        "filter": False,
+        "geojson_path": "Data/Morocco/MoroccoManuallyDefined.geojson",
+    }
+
+    Freetown = {
+        "place": "Freetown",
+        "dates": {"start_date": "2014-08-14", "disaster_date": "2017-08-14", "end_date": "2018-10-14"},
+        "file": "Freetown.osh.pbf",
+        "disaster_id": 18,
+        "filter": False,
+        "geojson_path": "Data/Freetown/FreetownManuallyDefined.geojson",
+    }
+
     #places = [EmiliaRomagna, Broxbourne, Haiti2010, Texas]
-    places = [Izmir, Gaziantep]
+    places = [Pakistan, Atami, Derna, Malawi, Morocco, Freetown]
     # Use multiprocessing to process each disaster in parallel
     with concurrent.futures.ProcessPoolExecutor() as executor:
         futures = {executor.submit(process_disaster, place): place["disaster_id"] for place in places}

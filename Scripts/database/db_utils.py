@@ -638,7 +638,7 @@ class DB_Utils:
         cursor.close()
         return result
     
-    def get_existing_versions(self, version_list, get_type, three_years_pre):
+    def get_existing_versions(self, version_list, get_type, three_years_pre, disaster_id):
         cursor = self.connection.cursor()
         batch_size = 5000  # Adjust based on your database limits
         result = []
@@ -650,7 +650,7 @@ class DB_Utils:
             
             query = f"""
             SELECT {"element_id, disaster_id, version, element_type" if get_type == "prepare" else "*"}
-            FROM {"changes_3_year_pre" if three_years_pre else "changes"}
+            FROM changes
             WHERE (element_id, disaster_id, version, element_type) IN %s
             """
             cursor.execute(query, (tuple(batch),))
@@ -658,7 +658,7 @@ class DB_Utils:
 
             current_time = datetime.now()
             remaining_time = (current_time-start_time)/(batch_num) * (total_batches - batch_num)
-            print(f"Getting changes | batch: {batch_num}/{total_batches}, estimated time remaining: {remaining_time.seconds} seconds")
+            print(f"Getting changes {disaster_id} | batch: {batch_num}/{total_batches}, estimated time remaining: {remaining_time.seconds} seconds")
             
 
         cursor.close()

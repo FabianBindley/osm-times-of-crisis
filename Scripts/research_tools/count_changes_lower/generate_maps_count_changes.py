@@ -1,4 +1,5 @@
 import sys
+import ast
 import os
 from datetime import datetime, timedelta
 from shapely import wkb
@@ -40,8 +41,12 @@ def plot_hexagons_on_map(m, hex_counts):
     max_opacity = 0.8
 
 
-    # Determine the minimum and maximum counts
     min_count = 0
+    if len(hex_counts) == 0:
+        print("No hexagons with counts")
+        return
+    
+    # Determine the minimum and maximum counts
     max_count = max(count[3] for count in hex_counts.values())
 
     # Avoid division by zero if all counts are the same
@@ -139,11 +144,20 @@ if __name__ == "__main__":
     # Define the periods before and after the disaster we want to count for. Pre-disaster can be negative to only count after disaster
     disaster_days = [(365,365), (365,0),(180,365), (0,30), (0,60)]
     disaster_days = [(365,365)]
-
-    resolutions = [6,7,8]
+    if len(sys.argv) > 1:
+        disaster_ids = ast.literal_eval(sys.argv[1]) 
+        print("Disaster IDs passed:", disaster_ids)
+    else:
+        disaster_ids = range(14,19)
+        print("Disaster IDs defined:", disaster_ids)
+    
+    resolutions = [6,7,8,9]
     for disaster_day_tuple in disaster_days:
-        for disaster_id in range(11,13):
+        for disaster_id in disaster_ids:
             for resolution in resolutions:
+
+                if resolution == 9 and disaster_id not in [ 10, 14, 15, 18]:
+                    continue
 
                 (_, disaster_country, disaster_area, disaster_geojson_encoded, disaster_date, disaster_h3_resolution ) = db_utils.get_disaster_with_id(disaster_id)
                 print(f"Generating map for {disaster_area[0]} {disaster_date.year} | resolution {resolution}")

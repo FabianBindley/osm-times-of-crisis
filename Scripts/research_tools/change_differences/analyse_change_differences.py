@@ -1,7 +1,9 @@
 import pandas as pd
 from datetime import datetime, timedelta
 from geopy.distance import geodesic
+import concurrent.futures
 import sys
+import ast
 import os
 import pickle
 import csv
@@ -26,16 +28,20 @@ class WayHandler(osmium.SimpleHandler):
                 "nodes": nodes,
             } 
 
-def get_changes_and_previous(disaster_id, pre_disaster_days, imm_disaster_days, post_disaster_days):
+def get_changes_and_previous(disaster_id, pre_disaster_days, imm_disaster_days, post_disaster_days, disaster_date, db_utils):
     pre_disaster = timedelta(pre_disaster_days)
     imm_disaster = timedelta(imm_disaster_days)
     post_disaster = timedelta(post_disaster_days)
+
+    sample_size = 1000000
+    sample = False
+    random_sample = False
 
     start_date = disaster_date - pre_disaster
     end_date = disaster_date + imm_disaster + post_disaster + timedelta(days=1)
     headers=["id", "element_id", "element_type", "edit_type",   "timestamp", "disaster_id", "version", "visible", "changeset", "tags", "building", "highway", "coordinates", "uid", "geojson_verified"]
 
-    changes = db_utils.get_sample_changes_for_disaster(disaster_id, sample_size, sample, start_date, end_date, "all", random_sample, three_years_pre= pre_disaster_days > 370)
+    changes = db_utils.get_sample_changes_for_disaster(disaster_id, sample_size, sample, start_date, end_date, "all", random_sample, three_years_pre= False)
     changes_df = pd.DataFrame(changes, columns=headers)
 
     previous_version_query_set = set(
@@ -44,7 +50,7 @@ def get_changes_and_previous(disaster_id, pre_disaster_days, imm_disaster_days, 
     )
     print(len(f"previous version query set length: {len(previous_version_query_set)}"))
 
-    previous_versions = db_utils.get_existing_versions(list(previous_version_query_set), "all", three_years_pre= pre_disaster_days > 370)
+    previous_versions = db_utils.get_existing_versions(list(previous_version_query_set), "all", three_years_pre = False, disaster_id=disaster_id)
     previous_versions_df = pd.DataFrame(previous_versions, columns=headers)
     previous_versions_df["version"] += 1
 
@@ -127,7 +133,7 @@ def diff_changes(curr, prev, way_handler, missing_way_count):
     return diff,  missing_way_count 
 
 
-def compute_changes_diffs(disaster_area, disaster_id, pre_disaster_days, imm_disaster_days, post_disaster_days):
+def compute_changes_diffs(disaster_area, disaster_id, pre_disaster_days, imm_disaster_days, post_disaster_days, disaster_date):
     #previous_edit_types = (len(changes_and_prev[changes_and_prev["edit_type_prev"]=="create"]), len(changes_and_prev[changes_and_prev["edit_type_prev"]=="edit"]), len(changes_and_prev[changes_and_prev["edit_type_prev"]=="delete"]))
     changes_and_prev = pd.read_pickle(f'./Results/ChangeDifferences/disaster{disaster_id}/changes_curr_prev_{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}.pickle')
     way_ids = set(changes_and_prev[changes_and_prev["element_type_curr"]=="way"]["element_id"])
@@ -233,10 +239,18 @@ def analyse_change_diffs(disaster_area, disaster_id,  pre_disaster_days, imm_dis
         all_edited_tags = [key for tags in diffs_tags_edit["tags_edited"] for key in tags]
         all_deleted_tags = [key for tags in diffs_tags_delete["tags_deleted"] for key in tags]
 
-        most_created_key, most_created_key_frequency = Counter(all_created_tags).most_common(1)[0]
-        most_edited_key, most_edited_key_frequency = Counter(all_edited_tags).most_common(1)[0]
-        most_deleted_key, most_deleted_key_frequency = Counter(all_deleted_tags).most_common(1)[0]
-
+        if len(Counter(all_created_tags).most_common(1)) > 0:
+            most_created_key, most_created_key_frequency = Counter(all_created_tags).most_common(1)[0]
+        else:
+            most_created_key, most_created_key_frequency = None, 0
+        if len(Counter(all_deleted_tags).most_common(1)) > 0:
+            most_edited_key, most_edited_key_frequency = Counter(all_edited_tags).most_common(1)[0]
+        else:
+            most_edited_key, most_edited_key_frequency = None, 0
+        if len(Counter(all_deleted_tags).most_common(1)) > 0:
+            most_deleted_key, most_deleted_key_frequency = Counter(all_deleted_tags).most_common(1)[0]
+        else:
+            most_deleted_key, most_deleted_key_frequency = None, 0
         coordinates = diff_df.loc[diff_df["coordinate_distance_change"] != 0, ["element_type","coordinate_distance_change"]]
         coordinates_changed = len(coordinates)
         avg_coordinate_distance_change = coordinates["coordinate_distance_change"].median()
@@ -282,6 +296,27 @@ def analysis_summary(disaster_ids, pre_disaster_days, imm_disaster_days, post_di
     diff_analysis_df.to_csv(f"./Results/ChangeDifferences/summary/all_disaster_analysis_{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_.csv")
 
 
+def process_disaster(disaster_id, periods, generate_merged, generate_diffs):
+    db_utils = DB_Utils()
+    db_utils.db_connect()
+
+    (_, disaster_country, disaster_area, _, disaster_date, _) = db_utils.get_disaster_with_id(disaster_id)
+    
+    for period in periods:
+        pre_disaster_days, imm_disaster_days, post_disaster_days = period
+        
+        if generate_merged:
+            print(f"Getting changes for {disaster_area[0]} {disaster_date.year} {period}")
+            get_changes_and_previous(disaster_id, pre_disaster_days, imm_disaster_days, post_disaster_days, disaster_date, db_utils)
+
+        if generate_diffs:
+            print(f"Computing diffs for {disaster_area[0]} {disaster_date.year} {period}")
+            compute_changes_diffs(disaster_area[0], disaster_id, pre_disaster_days, imm_disaster_days, post_disaster_days, disaster_date)
+
+        print(f"Analysing diffs for {disaster_area[0]} {disaster_date.year} {period}")
+        analyse_change_diffs(disaster_area[0], disaster_id, pre_disaster_days, imm_disaster_days, post_disaster_days)
+
+
 
 # Please make sure to run db_prepare_change_differences.py before running this script, to import missing 
 # previous change versions into the db
@@ -290,34 +325,36 @@ if __name__ == "__main__":
     db_utils = DB_Utils()
     db_utils.db_connect()
 
-    disaster_ids =  range(11,13)
-    sample_size = 1000000
-    sample = False
-    random_sample = False
+    
+    if len(sys.argv) > 1:
+        disaster_ids = ast.literal_eval(sys.argv[1]) 
+        print("Disaster IDs passed:", disaster_ids)
+    else:
+        disaster_ids = range(2,19)
+        print("Disaster IDs defined:", disaster_ids)
 
     generate_merged = True
     generate_diffs = True
 
     #periods = [(1095,60,365),(365,60,365)]
     periods = [(1095,60,365),(365,60,365)]
-    periods = [(1095,60,365),(365,60,365)]
+
     print(f"Getting change differences for disasters: {disaster_ids}")
+
+
     
-    for disaster_id in disaster_ids:
-        (_, disaster_country, disaster_area, _, disaster_date, _ ) = db_utils.get_disaster_with_id(disaster_id)
-        for period in periods:
+    with concurrent.futures.ProcessPoolExecutor() as executor:
+        futures = {executor.submit(process_disaster, disaster_id, periods, generate_merged, generate_diffs): disaster_id for disaster_id in disaster_ids}
+        
+        for future in concurrent.futures.as_completed(futures):
+            disaster_id = futures[future]
+            try:
+                future.result()
+                print(f"Completed processing for disaster_id {disaster_id}")
+            except Exception as e:
+                print(f"Error processing disaster_id {disaster_id}: {e}")
 
-            pre_disaster_days, imm_disaster_days, post_disaster_days = period
-            if generate_merged:
-                print(f"Getting changes for {disaster_area[0]} {disaster_date.year}")
-                get_changes_and_previous(disaster_id, pre_disaster_days, imm_disaster_days, post_disaster_days)
-
-            if generate_diffs:
-                print(f"Computing diffs for {disaster_area[0]} {disaster_date.year}")
-                compute_changes_diffs(disaster_area[0], disaster_id, pre_disaster_days, imm_disaster_days, post_disaster_days)
-
-            print(f"Analysing diffs for {disaster_area[0]} {disaster_date.year}")
-            analyse_change_diffs(disaster_area[0], disaster_id,  pre_disaster_days, imm_disaster_days, post_disaster_days)
     
     # Combine into 1 summary analysis
-    analysis_summary(disaster_ids, pre_disaster_days, imm_disaster_days, post_disaster_days)
+    for period in periods:
+        analysis_summary(disaster_ids, period[0], period[1], period[2])

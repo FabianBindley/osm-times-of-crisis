@@ -11,7 +11,8 @@ To get data ready for use:
 ```
 osmium extract -p Data/{Place}/{Place}ManuallyDefined.geojson Data/{Place}/{place}-internal.osh.pbf -o  Data/{Place}/{Place}.osh.pbf -H --overwrite
 eg: osmium extract -p Data/California/CaliforniaTop10Boundaries.geojson Data/California/california-internal.osh.pbf -o  Data/California/California.osh.pbf -H --overwrite
-osmium extract -p Data/Gaziantep/GaziantepManuallyDefined.geojson Data/Gaziantep/TurkeySyriaMerge.osh.pbf -o  Data/Gaziantep/Gaziantep.osh.pbf -H --overwrite
+
+osmium extract -p Data/Freetown/FreetownManuallyDefined.geojson Data/Freetown/sierra-leone-internal.osh.pbf -o  Data/Freetown/Freetown.osh.pbf -H --overwrite
 ```
 5) Extract only the nodes and ways
 ```

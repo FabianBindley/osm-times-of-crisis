@@ -34,7 +34,7 @@ def get_missing_changes_for_disaster(disaster_id, sample_size, sample, disaster_
     )
     print(len(previous_versions))
 
-    existing_versions = db_utils.get_existing_versions(list(previous_versions), "prepare", three_years_pre = pre_disaster_days > 370)
+    existing_versions = db_utils.get_existing_versions(list(previous_versions), "prepare", three_years_pre = pre_disaster_days > 370, disaster_id=disaster_id)
     existing_versions_set = set((row[1], disaster_id, row[2], row[3]) for row in existing_versions)
 
     missing_versions = previous_versions - existing_versions_set
@@ -95,10 +95,11 @@ def process_disaster(disaster_id, period):
 if __name__ == "__main__":
 
     start_time = datetime.now()
-    disaster_ids = range(8,13)
+    disaster_ids = range(13 ,19)
     periods = [(365, 60, 365), (1095, 60, 365)]
 
     tasks = [(disaster_id, period) for disaster_id in disaster_ids for period in periods]
+    print(tasks)
 
     print(f"Starting multiprocessing for {len(tasks)} disaster-period combinations...")
 

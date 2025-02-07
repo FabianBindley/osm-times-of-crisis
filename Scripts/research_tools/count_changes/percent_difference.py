@@ -1,5 +1,6 @@
 import sys
 import os
+import ast
 import numpy as np
 import pandas as pd
 from datetime import datetime, timedelta
@@ -98,7 +99,14 @@ if __name__ == "__main__":
     #periods = [(365, 30, 365)]
     average_metric = "median" # mean or median
 
-    for disaster_id in range(11,13):
+    if len(sys.argv) > 1:
+        disaster_ids = ast.literal_eval(sys.argv[1]) 
+        print("Disaster IDs passed:", disaster_ids)
+    else:
+        disaster_ids = range(13,19)
+        print("Disaster IDs defined:", disaster_ids)
+
+    for disaster_id in disaster_ids:
 
         for period in periods:
             pre_disaster_days, imm_disaster_days, post_disaster_days = period

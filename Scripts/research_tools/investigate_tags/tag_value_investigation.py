@@ -4,6 +4,7 @@ import sys
 import os
 import csv
 import shutil
+import ast
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..', 'database')))
 
@@ -215,7 +216,13 @@ if __name__ == "__main__":
     get_key_value_counts(specified_keys)
 
     nums = [10, 25, 100, 4000]
-    disaster_ids =  range(2,13)
+    
+    if len(sys.argv) > 1:
+        disaster_ids = ast.literal_eval(sys.argv[1]) 
+        print("Disaster IDs passed:", disaster_ids)
+    else:
+        disaster_ids = range(2,19)
+        print("Disaster IDs defined:", disaster_ids)
 
     for n in nums:
         get_top_n_values_for_keys_all_periods(n)

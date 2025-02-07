@@ -155,7 +155,7 @@ def plot_percent_difference_single(disaster_id, disaster_country, disaster_area,
         raise ValueError("Invalid time_period. Must be 'day', 'week', or 'month'.")
 
     # Plot data
-    plt.figure(figsize=(12, 6))
+    plt.figure(figsize=(12, 7))
     if "creates" in plot_edit_types:
         plt.plot(data['start_date'], data['creates'], label='Creates', marker='.', linestyle='-', color='blue',)
     if "edits" in plot_edit_types:
@@ -165,7 +165,7 @@ def plot_percent_difference_single(disaster_id, disaster_country, disaster_area,
     if "total" in plot_edit_types:
         plt.plot(data['start_date'], data['total'], label='Total', marker='.', linestyle='-', color='red',)
 
-    plt.title(f'{title} Percent Difference in {disaster_country}, {disaster_area} {"(Post only)" if post_only else ""}')
+    plt.title(f'{title} Percent Difference in {disaster_country[0]}, {disaster_area[0]} {"(Post only)" if post_only else ""}')
     plt.xlabel('Date')
     plt.ylabel('% Difference')
     plt.axvline(x=disaster_date, color='purple', linestyle='--', linewidth=1, label='Disaster Date')
@@ -206,10 +206,11 @@ if __name__ == "__main__":
     #periods = [(365, 30, 365)]
     average_metric = "median" # mean or median
     plot_edit_types_list = [["creates", "edits", "deletes", "total"],["creates"],["edits"],["deletes"],["total"]]
+    disaster_ids = range(13,19)
 
     # Loop through disasters and periods
     for post_only in [True, False]:
-        for disaster_id in range(11,13):
+        for disaster_id in disaster_ids:
             _, disaster_country, disaster_area, _, disaster_date, _ = db_utils.get_disaster_with_id(disaster_id)
             print(f"Processing Disaster {disaster_id} - {disaster_area[0]}")
             for plot_edit_types in plot_edit_types_list:
