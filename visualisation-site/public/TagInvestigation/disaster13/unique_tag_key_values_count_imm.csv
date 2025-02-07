@@ -1,0 +1,1551 @@
+key,value,count,percent_of_total_changes_for_key,percent_difference_from_pre,percent_difference_from_pre_day
+amenity,place_of_worship,14,41.1765,1300.0,8416.6667
+amenity,fuel,6,17.6471,500.0,3550.0
+amenity,hospital,4,11.7647,300.0,2333.3333
+amenity,college,2,5.8824,100.0,1116.6667
+amenity,police,2,5.8824,100.0,1116.6667
+amenity,clinic,1,2.9412,0.0,508.3333
+amenity,community_centre,1,2.9412,0.0,508.3333
+amenity,parking,1,2.9412,0.0,508.3333
+amenity,post_office,1,2.9412,0.0,508.3333
+amenity,restaurant,1,2.9412,0.0,508.3333
+amenity,shelter,1,2.9412,0.0,508.3333
+building,yes,80900,99.622,8089900.0,49214066.6667
+building,house,171,0.2106,17000.0,103925.0
+building,ruins,48,0.0591,4700.0,29100.0
+building,industrial,45,0.0554,4400.0,27275.0
+building,construction,34,0.0419,3300.0,20583.3333
+building,roof,2,0.0025,100.0,1116.6667
+building,storage_tank,2,0.0025,100.0,1116.6667
+building,apartments,1,0.0012,0.0,508.3333
+building,bakehouse,1,0.0012,0.0,508.3333
+building,commercial,1,0.0012,0.0,508.3333
+building,razed,1,0.0012,0.0,508.3333
+building,warehouse,1,0.0012,0.0,508.3333
+highway,unclassified,18859,45.7665,1885800.0,11472458.3333
+highway,track,8125,19.7175,812400.0,4942608.3333
+highway,residential,7643,18.5478,764200.0,4649391.6667
+highway,service,3351,8.1321,335000.0,2038425.0
+highway,tertiary,1150,2.7908,114900.0,699483.3333
+highway,path,426,1.0338,42500.0,259050.0
+highway,secondary,421,1.0217,42000.0,256008.3333
+highway,living_street,382,0.927,38100.0,232283.3333
+highway,trunk,331,0.8033,33000.0,201258.3333
+highway,footway,306,0.7426,30500.0,186050.0
+highway,primary,144,0.3495,14300.0,87500.0
+highway,motorway,28,0.0679,2700.0,16933.3333
+highway,trunk_link,12,0.0291,1100.0,7200.0
+highway,road,11,0.0267,1000.0,6591.6667
+highway,planned,10,0.0243,900.0,5983.3333
+highway,construction,4,0.0097,300.0,2333.3333
+highway,turning_circle,2,0.0049,100.0,1116.6667
+highway,motorway_link,1,0.0024,0.0,508.3333
+highway,tertiary_link,1,0.0024,0.0,508.3333
+landuse,residential,832,78.9374,83100.0,506033.3333
+landuse,basin,114,10.8159,11300.0,69250.0
+landuse,farmland,32,3.0361,3100.0,19366.6667
+landuse,industrial,31,2.9412,3000.0,18758.3333
+landuse,cemetery,15,1.4231,1400.0,9025.0
+landuse,reservoir,9,0.8539,800.0,5375.0
+landuse,commercial,8,0.759,700.0,4766.6667
+landuse,grass,3,0.2846,200.0,1725.0
+landuse,water,3,0.2846,200.0,1725.0
+landuse,orchard,2,0.1898,100.0,1116.6667
+landuse,quarry,2,0.1898,100.0,1116.6667
+landuse,farmyard,1,0.0949,0.0,508.3333
+landuse,forest,1,0.0949,0.0,508.3333
+landuse,military,1,0.0949,0.0,508.3333
+leisure,park,2,50.0,100.0,1116.6667
+leisure,common,1,25.0,0.0,508.3333
+leisure,pitch,1,25.0,0.0,508.3333
+name,قومی شاہراہ 55,125,5.7737,12400.0,75941.6667
+name,کوئٹہ - جیکب آباد شاہراہ,105,4.8499,10400.0,63775.0
+name,قومی شاہراہ,36,1.6628,3500.0,21800.0
+name,مُلتان- سكھر موٹروے,28,1.2933,2700.0,16933.3333
+name,Bajwa Road,22,1.0162,2100.0,13283.3333
+name,Chasma Canal,20,0.9238,1900.0,12066.6667
+name,Peer Jaggi Road,19,0.8776,1800.0,11458.3333
+name,ملتان - ڈیرہ غازی خان روڈ,19,0.8776,1800.0,11458.3333
+name,Road,18,0.8314,1700.0,10850.0
+name,Chahma Right Bank Canal Rd,16,0.739,1500.0,9633.3333
+name,Layyah-Kot Addu Road,15,0.6928,1400.0,9025.0
+name,Mehran Highway,15,0.6928,1400.0,9025.0
+name,بیگاری کینال,15,0.6928,1400.0,9025.0
+name,Ratodero - Gwadar Motorway,14,0.6467,1300.0,8416.6667
+name,Munda Road,13,0.6005,1200.0,7808.3333
+name,کراچی۔ لاہور۔ پشاور مین ریلوے لائن,12,0.5543,1100.0,7200.0
+name,Ghalo Mor Rd,11,0.5081,1000.0,6591.6667
+name,Kambar - Ber thori Road,11,0.5081,1000.0,6591.6667
+name,Jacobabad-Shahdadkot Provincial Highway,10,0.4619,900.0,5983.3333
+name,Northwestern Canal,9,0.4157,800.0,5375.0
+name,Tillu Road,9,0.4157,800.0,5375.0
+name,Tando Muhammad Khan-Sujawal Provincial Highway,8,0.3695,700.0,4766.6667
+name,لنک روڈ,8,0.3695,700.0,4766.6667
+name,گاڑھو روڈ,8,0.3695,700.0,4766.6667
+name,Gas Turbine Building,6,0.2771,500.0,3550.0
+name,Heat Recovery Steam Generator,6,0.2771,500.0,3550.0
+name,Layyah-Chowk Azam Road,6,0.2771,500.0,3550.0
+name,روہڑی نہر,6,0.2771,500.0,3550.0
+name,Mubarak Canal,5,0.2309,400.0,2941.6667
+name,کینال روڈ,5,0.2309,400.0,2941.6667
+name,Dallas Branch,4,0.1848,300.0,2333.3333
+name,Ghotki Khanpur Road,4,0.1848,300.0,2333.3333
+name,Indus Highway to Sikander Janobi,4,0.1848,300.0,2333.3333
+name,Kashmore Road,4,0.1848,300.0,2333.3333
+name,Larkana Khairpur Link Road,4,0.1848,300.0,2333.3333
+name,Layyah Bypass Road,4,0.1848,300.0,2333.3333
+name,Panah Odho,4,0.1848,300.0,2333.3333
+name,Village Changlani Road,4,0.1848,300.0,2333.3333
+name,حاجی خان چاچڑ,4,0.1848,300.0,2333.3333
+name,سكر,4,0.1848,300.0,2333.3333
+name,پنجو ڈیرو,4,0.1848,300.0,2333.3333
+name,AH Homes & Hardware,3,0.1386,200.0,1725.0
+name,Barthi Road,3,0.1386,200.0,1725.0
+name,Bechhra Road,3,0.1386,200.0,1725.0
+name,Chashma Right Bank Canal,3,0.1386,200.0,1725.0
+name,Chashma Rt Bank Canal,3,0.1386,200.0,1725.0
+name,Daud Kandhra Road,3,0.1386,200.0,1725.0
+name,Ghaibi Dero Road,3,0.1386,200.0,1725.0
+name,Goth Mir Wahid Bux Khan Bijarani,3,0.1386,200.0,1725.0
+name,Hala-Shahdadpur-Sanghar Provincial Highway,3,0.1386,200.0,1725.0
+name,Hamid Wah,3,0.1386,200.0,1725.0
+name,Hatiari Road,3,0.1386,200.0,1725.0
+name,Kakkar-Gaj Provincial Highway,3,0.1386,200.0,1725.0
+name,Kalri Baghar Feeder,3,0.1386,200.0,1725.0
+name,Kashmor-Saddiqabad Road,3,0.1386,200.0,1725.0
+name,Khuhra Road,3,0.1386,200.0,1725.0
+name,Larkana Road,3,0.1386,200.0,1725.0
+name,Machi Vala,3,0.1386,200.0,1725.0
+name,Mamuri Rd,3,0.1386,200.0,1725.0
+name,Qazi Ahmed Road,3,0.1386,200.0,1725.0
+name,Shikarpur Road,3,0.1386,200.0,1725.0
+name,Station Road,3,0.1386,200.0,1725.0
+name,Steam Turbine Building,3,0.1386,200.0,1725.0
+name,Taial Distributary,3,0.1386,200.0,1725.0
+name,Zahir Pir Road,3,0.1386,200.0,1725.0
+name,آباد,3,0.1386,200.0,1725.0
+name,حاجی عبدﷲ پنہور,3,0.1386,200.0,1725.0
+name,دادو کینال,3,0.1386,200.0,1725.0
+name,رادھن,3,0.1386,200.0,1725.0
+name,نور واہ,3,0.1386,200.0,1725.0
+name,پاکستان ریلوے,3,0.1386,200.0,1725.0
+name,گو گھاری,3,0.1386,200.0,1725.0
+name,Abdul Majeed,2,0.0924,100.0,1116.6667
+name,Abri,2,0.0924,100.0,1116.6667
+name,Ali Murad Brohi,2,0.0924,100.0,1116.6667
+name,Arz Muhammad Jatoi,2,0.0924,100.0,1116.6667
+name,Bado,2,0.0924,100.0,1116.6667
+name,Belab River,2,0.0924,100.0,1116.6667
+name,Bhai Khan Khoso,2,0.0924,100.0,1116.6667
+name,Bux Ali Jakhrani,2,0.0924,100.0,1116.6667
+name,Bypass Stack,2,0.0924,100.0,1116.6667
+name,Control Building,2,0.0924,100.0,1116.6667
+name,Daro,2,0.0924,100.0,1116.6667
+name,Daya,2,0.0924,100.0,1116.6667
+name,Dera Murad Jamali,2,0.0924,100.0,1116.6667
+name,Dino Kotu,2,0.0924,100.0,1116.6667
+name,Dittal Jalbani,2,0.0924,100.0,1116.6667
+name,Ghulam Ali Isran,2,0.0924,100.0,1116.6667
+name,Gol Market,2,0.0924,100.0,1116.6667
+name,Goth Fazil Kalhoro,2,0.0924,100.0,1116.6667
+name,Jaranwala Road,2,0.0924,100.0,1116.6667
+name,Kanhar Minor,2,0.0924,100.0,1116.6667
+name,Khahi,2,0.0924,100.0,1116.6667
+name,Khaipur Canal West,2,0.0924,100.0,1116.6667
+name,Khairpur Road,2,0.0924,100.0,1116.6667
+name,Lahore Sheikhupura Road,2,0.0924,100.0,1116.6667
+name,Lal Bux Thebo,2,0.0924,100.0,1116.6667
+name,Lashari,2,0.0924,100.0,1116.6667
+name,Manka Canal,2,0.0924,100.0,1116.6667
+name,Masu Dero,2,0.0924,100.0,1116.6667
+name,Mirpur Bhutto,2,0.0924,100.0,1116.6667
+name,Mirwah,2,0.0924,100.0,1116.6667
+name,Morio Chacha,2,0.0924,100.0,1116.6667
+name,Moro New Jatoi Road,2,0.0924,100.0,1116.6667
+name,Naseer Jatoi,2,0.0924,100.0,1116.6667
+name,Patni Distributary,2,0.0924,100.0,1116.6667
+name,Phull Road,2,0.0924,100.0,1116.6667
+name,Pir Bharshah Goth Lashari,2,0.0924,100.0,1116.6667
+name,Qadan Machhi,2,0.0924,100.0,1116.6667
+name,Relan,2,0.0924,100.0,1116.6667
+name,Rice Canal,2,0.0924,100.0,1116.6667
+name,Sadhuja,2,0.0924,100.0,1116.6667
+name,Shahdādkot - Qubo Old Rd,2,0.0924,100.0,1116.6667
+name,Steam Turbine Condenser,2,0.0924,100.0,1116.6667
+name,Sultan Hasla,2,0.0924,100.0,1116.6667
+name,Thatta-Sujjawal-Badin Provincial Highway,2,0.0924,100.0,1116.6667
+name,Wali Muhammad Brohi,2,0.0924,100.0,1116.6667
+name,اسٹیشن روڈ,2,0.0924,100.0,1116.6667
+name,بشیر خان جکرانی,2,0.0924,100.0,1116.6667
+name,بھٹا کلہوڑا,2,0.0924,100.0,1116.6667
+name,بیگاری سندھ فیڈر کینال,2,0.0924,100.0,1116.6667
+name,حیدر چوک,2,0.0924,100.0,1116.6667
+name,خیرو بلو,2,0.0924,100.0,1116.6667
+name,دادلوئی,2,0.0924,100.0,1116.6667
+name,دریائے سندھ,2,0.0924,100.0,1116.6667
+name,دنو مہر,2,0.0924,100.0,1116.6667
+name,رحیم داد,2,0.0924,100.0,1116.6667
+name,سلطان کوٹ,2,0.0924,100.0,1116.6667
+name,سولجر بازار,2,0.0924,100.0,1116.6667
+name,شاہ سخیرو,2,0.0924,100.0,1116.6667
+name,صدر روڈ,2,0.0924,100.0,1116.6667
+name,مشوری شریف,2,0.0924,100.0,1116.6667
+name,میاں لال,2,0.0924,100.0,1116.6667
+name,میر گل محمد جکرانی,2,0.0924,100.0,1116.6667
+name,نوڈیرو روڈ,2,0.0924,100.0,1116.6667
+name,پیر میٹھ گوٹھ,2,0.0924,100.0,1116.6667
+name,ڈکن جی وانڈھ,2,0.0924,100.0,1116.6667
+name,ڈی سی ہاؤس,2,0.0924,100.0,1116.6667
+name,ڊڪڻ,2,0.0924,100.0,1116.6667
+name,کوٹ بلو,2,0.0924,100.0,1116.6667
+name,گاڑھی موری,2,0.0924,100.0,1116.6667
+name,گرینڈ ٹرنک روڈ,2,0.0924,100.0,1116.6667
+name,گوٹھ سابن شاہ تھانہریو,2,0.0924,100.0,1116.6667
+name,ﻭﺍﻧدھ علی ﻣﺤﻤﺪ ﻛﺮﭨﻴﻮ,2,0.0924,100.0,1116.6667
+name,AIRPORT ROAD,1,0.0462,0.0,508.3333
+name,APL Shikarpur Terminal,1,0.0462,0.0,508.3333
+name,Aabad,1,0.0462,0.0,508.3333
+name,Aali Khabar,1,0.0462,0.0,508.3333
+name,Abad,1,0.0462,0.0,508.3333
+name,Abbas Ali Shar,1,0.0462,0.0,508.3333
+name,Abdal,1,0.0462,0.0,508.3333
+name,Abdul Rahim Ji Wandh,1,0.0462,0.0,508.3333
+name,Abdul Rahim Kalhoro,1,0.0462,0.0,508.3333
+name,Abdul Rasool Brohi,1,0.0462,0.0,508.3333
+name,Abdul Rehman Shaikh Hockey Stadium,1,0.0462,0.0,508.3333
+name,Abdul Rehman Shar,1,0.0462,0.0,508.3333
+name,Abdul Wahab Katta,1,0.0462,0.0,508.3333
+name,Abdullah Jagirani,1,0.0462,0.0,508.3333
+name,Abdullah Panhwar,1,0.0462,0.0,508.3333
+name,Abeejano,1,0.0462,0.0,508.3333
+name,Abiloi,1,0.0462,0.0,508.3333
+name,Above Ground Installation,1,0.0462,0.0,508.3333
+name,Abraa,1,0.0462,0.0,508.3333
+name,Achar Khan Brohi,1,0.0462,0.0,508.3333
+name,Aerazi Saidki,1,0.0462,0.0,508.3333
+name,Aghamani,1,0.0462,0.0,508.3333
+name,Ahmed Noor Korejo,1,0.0462,0.0,508.3333
+name,Aisha Park,1,0.0462,0.0,508.3333
+name,Aitbar Dahani,1,0.0462,0.0,508.3333
+name,Akil Road,1,0.0462,0.0,508.3333
+name,Akram Wah,1,0.0462,0.0,508.3333
+name,Alam Fakir,1,0.0462,0.0,508.3333
+name,Alam Khan Gopang,1,0.0462,0.0,508.3333
+name,Ali Abad,1,0.0462,0.0,508.3333
+name,Ali Gohar Junejo,1,0.0462,0.0,508.3333
+name,Ali Gul Bugti,1,0.0462,0.0,508.3333
+name,Ali Jatoi,1,0.0462,0.0,508.3333
+name,Ali Ji Wandh,1,0.0462,0.0,508.3333
+name,Ali Khan,1,0.0462,0.0,508.3333
+name,Ali Khan Kanasro,1,0.0462,0.0,508.3333
+name,Ali Khan Mugheri,1,0.0462,0.0,508.3333
+name,Ali Khan Naich,1,0.0462,0.0,508.3333
+name,Ali Muhammad Verikh,1,0.0462,0.0,508.3333
+name,Ali Murad Seelro,1,0.0462,0.0,508.3333
+name,Ali Nawaz Khoso,1,0.0462,0.0,508.3333
+name,Ali Nawaz Rind Wah,1,0.0462,0.0,508.3333
+name,Ali Nawaz Seelro,1,0.0462,0.0,508.3333
+name,Ali Sher,1,0.0462,0.0,508.3333
+name,Ali Sher Metlo,1,0.0462,0.0,508.3333
+name,Alif Khan Khoso,1,0.0462,0.0,508.3333
+name,Allah Abad,1,0.0462,0.0,508.3333
+name,Allah Bux Brohi,1,0.0462,0.0,508.3333
+name,Allah Bux Khan Hakro,1,0.0462,0.0,508.3333
+name,Allah Bux Larik,1,0.0462,0.0,508.3333
+name,Allah Dad Burdi,1,0.0462,0.0,508.3333
+name,Allah Dino Seelro,1,0.0462,0.0,508.3333
+name,Allah Dito Qambrani,1,0.0462,0.0,508.3333
+name,Allah Rakhio Junejo,1,0.0462,0.0,508.3333
+name,Allah Rakhio Mahar,1,0.0462,0.0,508.3333
+name,Allah Warayo Goth,1,0.0462,0.0,508.3333
+name,Allah Warayo Umrani,1,0.0462,0.0,508.3333
+name,Allah Warhayo Buriro,1,0.0462,0.0,508.3333
+name,Allahando Jeho,1,0.0462,0.0,508.3333
+name,Amanullah Khan Baghdar,1,0.0462,0.0,508.3333
+name,Ameer Bux Jeho,1,0.0462,0.0,508.3333
+name,Ameer Khan Mugheri,1,0.0462,0.0,508.3333
+name,Amroti Masjid,1,0.0462,0.0,508.3333
+name,Anbah,1,0.0462,0.0,508.3333
+name,Andal Mahar,1,0.0462,0.0,508.3333
+name,Andal Tunio,1,0.0462,0.0,508.3333
+name,Arab Solangi,1,0.0462,0.0,508.3333
+name,Arain Masso,1,0.0462,0.0,508.3333
+name,Arbab Jhandir,1,0.0462,0.0,508.3333
+name,Arbab Sanjrani,1,0.0462,0.0,508.3333
+name,Areeja,1,0.0462,0.0,508.3333
+name,Arija Pherho,1,0.0462,0.0,508.3333
+name,Asad Raban Malik,1,0.0462,0.0,508.3333
+name,Atar Khan Jagirani,1,0.0462,0.0,508.3333
+name,Attcok Petrol Station,1,0.0462,0.0,508.3333
+name,Autobahn Road,1,0.0462,0.0,508.3333
+name,Aya Jo Goth,1,0.0462,0.0,508.3333
+name,Azabi Kalhoro,1,0.0462,0.0,508.3333
+name,Azmat Mugheri,1,0.0462,0.0,508.3333
+name,Bachal Bhayo,1,0.0462,0.0,508.3333
+name,Bachal Veesar,1,0.0462,0.0,508.3333
+name,Bacho Mugheri,1,0.0462,0.0,508.3333
+name,Bagh Ali Gopang,1,0.0462,0.0,508.3333
+name,Bagh Fateh Ali Shah,1,0.0462,0.0,508.3333
+name,Bago Junejo,1,0.0462,0.0,508.3333
+name,Bago Phulpoto,1,0.0462,0.0,508.3333
+name,Bahar Larik,1,0.0462,0.0,508.3333
+name,Baharo Dero,1,0.0462,0.0,508.3333
+name,Bahawal Khan Kalhoro,1,0.0462,0.0,508.3333
+name,Bahram Khan Mahar,1,0.0462,0.0,508.3333
+name,Bahram Khuhro,1,0.0462,0.0,508.3333
+name,Bahram Mashori,1,0.0462,0.0,508.3333
+name,Bahria Foundation Collage Mehrabpur,1,0.0462,0.0,508.3333
+name,Baig Muhammad Sangha,1,0.0462,0.0,508.3333
+name,Bakhshal Khakhrani,1,0.0462,0.0,508.3333
+name,Bambho Aalmani,1,0.0462,0.0,508.3333
+name,Bamdu Lakha,1,0.0462,0.0,508.3333
+name,Bandai Kalhora,1,0.0462,0.0,508.3333
+name,Bangul Khan Rind,1,0.0462,0.0,508.3333
+name,Banho Jhanjho,1,0.0462,0.0,508.3333
+name,Baqa Muhammad Jakhrani,1,0.0462,0.0,508.3333
+name,Baqar Khan Maree,1,0.0462,0.0,508.3333
+name,Baran,1,0.0462,0.0,508.3333
+name,Barani Mugheri,1,0.0462,0.0,508.3333
+name,Basant Mugheri,1,0.0462,0.0,508.3333
+name,Basit Bhayan,1,0.0462,0.0,508.3333
+name,Basti Chaklal,1,0.0462,0.0,508.3333
+name,Basti Khairullah,1,0.0462,0.0,508.3333
+name,Basti Khudamaan,1,0.0462,0.0,508.3333
+name,Basti Malana,1,0.0462,0.0,508.3333
+name,Basti Moomna,1,0.0462,0.0,508.3333
+name,Basti Noora,1,0.0462,0.0,508.3333
+name,Basti Qaisrani,1,0.0462,0.0,508.3333
+name,Basti Shahferoze,1,0.0462,0.0,508.3333
+name,Basti Sughran,1,0.0462,0.0,508.3333
+name,Batool Shah,1,0.0462,0.0,508.3333
+name,Bego Jakhro,1,0.0462,0.0,508.3333
+name,Behan Ji Wandh,1,0.0462,0.0,508.3333
+name,Behram Hathiun,1,0.0462,0.0,508.3333
+name,Bekhari,1,0.0462,0.0,508.3333
+name,Belo Mugheri,1,0.0462,0.0,508.3333
+name,Ber Sharif,1,0.0462,0.0,508.3333
+name,Betto Jatoi,1,0.0462,0.0,508.3333
+name,Bhai Khan Ghaghro,1,0.0462,0.0,508.3333
+name,Bhai Khan Ghanghro,1,0.0462,0.0,508.3333
+name,Bhai Khan Lakhan,1,0.0462,0.0,508.3333
+name,Bhai Khan Waggan,1,0.0462,0.0,508.3333
+name,Bhale Dino Jafiri,1,0.0462,0.0,508.3333
+name,Bhandki,1,0.0462,0.0,508.3333
+name,Bhangar Aacha,1,0.0462,0.0,508.3333
+name,Bhawan Valmik and Durgan Mata Mandir,1,0.0462,0.0,508.3333
+name,Bheda Goth,1,0.0462,0.0,508.3333
+name,Bhola Kalhora,1,0.0462,0.0,508.3333
+name,Bhopho Khakhrani,1,0.0462,0.0,508.3333
+name,Bhural Pur,1,0.0462,0.0,508.3333
+name,Bilawal Kandhro,1,0.0462,0.0,508.3333
+name,Bilawal Khuhara,1,0.0462,0.0,508.3333
+name,Bilhan,1,0.0462,0.0,508.3333
+name,Board Office,1,0.0462,0.0,508.3333
+name,Bodo,1,0.0462,0.0,508.3333
+name,Bohi Quba,1,0.0462,0.0,508.3333
+name,Booja Napar,1,0.0462,0.0,508.3333
+name,Budho Jhatial,1,0.0462,0.0,508.3333
+name,Buksh o Ujjan,1,0.0462,0.0,508.3333
+name,Buland Ki Wandh,1,0.0462,0.0,508.3333
+name,Burdi,1,0.0462,0.0,508.3333
+name,Burira,1,0.0462,0.0,508.3333
+name,Buthi,1,0.0462,0.0,508.3333
+name,Bux Lakhiar,1,0.0462,0.0,508.3333
+name,Chakar Ali Kahloro,1,0.0462,0.0,508.3333
+name,Chakar Khan Baghdar,1,0.0462,0.0,508.3333
+name,Chakar Khan Marfani,1,0.0462,0.0,508.3333
+name,Chakar Magsi,1,0.0462,0.0,508.3333
+name,Chakar Mako,1,0.0462,0.0,508.3333
+name,Chand,1,0.0462,0.0,508.3333
+name,Chandan Miyani,1,0.0462,0.0,508.3333
+name,Chandmari,1,0.0462,0.0,508.3333
+name,Chandoo Khan Mugheri,1,0.0462,0.0,508.3333
+name,Chango Rahooja,1,0.0462,0.0,508.3333
+name,Channa Goth,1,0.0462,0.0,508.3333
+name,Channe Ji Wandh,1,0.0462,0.0,508.3333
+name,Channi Gondal Road,1,0.0462,0.0,508.3333
+name,Chatto,1,0.0462,0.0,508.3333
+name,Chatto Mangi,1,0.0462,0.0,508.3333
+name,Chebhir Khan Mugheri,1,0.0462,0.0,508.3333
+name,Chechro,1,0.0462,0.0,508.3333
+name,Chenab Gate Road,1,0.0462,0.0,508.3333
+name,Chevron Oil Depot,1,0.0462,0.0,508.3333
+name,Chhahu Labana,1,0.0462,0.0,508.3333
+name,Chhajara,1,0.0462,0.0,508.3333
+name,Chhajra,1,0.0462,0.0,508.3333
+name,Chodiyo Sadhayo,1,0.0462,0.0,508.3333
+name,Choudhary Muhammad Afzal,1,0.0462,0.0,508.3333
+name,Chungha,1,0.0462,0.0,508.3333
+name,Chutti Drib,1,0.0462,0.0,508.3333
+name,Chutto Lakhan,1,0.0462,0.0,508.3333
+name,City Museum,1,0.0462,0.0,508.3333
+name,Civil Line Road,1,0.0462,0.0,508.3333
+name,Compressor Building,1,0.0462,0.0,508.3333
+name,Dad Muhammad Mugheri,1,0.0462,0.0,508.3333
+name,Dadae Sangi,1,0.0462,0.0,508.3333
+name,Dadloo Jatoi,1,0.0462,0.0,508.3333
+name,Daffar,1,0.0462,0.0,508.3333
+name,Dahar,1,0.0462,0.0,508.3333
+name,Daim Mashori,1,0.0462,0.0,508.3333
+name,Dalel Buriro,1,0.0462,0.0,508.3333
+name,Dalwani Pur,1,0.0462,0.0,508.3333
+name,Daphar Jatoi,1,0.0462,0.0,508.3333
+name,Dargha Syed Nathan Bukhari,1,0.0462,0.0,508.3333
+name,Dari,1,0.0462,0.0,508.3333
+name,Datoo Khan Rind,1,0.0462,0.0,508.3333
+name,Daudero,1,0.0462,0.0,508.3333
+name,Daulat Otha,1,0.0462,0.0,508.3333
+name,Dendar,1,0.0462,0.0,508.3333
+name,Dengaro,1,0.0462,0.0,508.3333
+name,Devera,1,0.0462,0.0,508.3333
+name,Dhaman Mugheri,1,0.0462,0.0,508.3333
+name,Dhani Bux Malik,1,0.0462,0.0,508.3333
+name,Dhano Chandio,1,0.0462,0.0,508.3333
+name,Dharani,1,0.0462,0.0,508.3333
+name,Dhareja,1,0.0462,0.0,508.3333
+name,Dilawar Khuhro,1,0.0462,0.0,508.3333
+name,Dilber Budh,1,0.0462,0.0,508.3333
+name,Dilo Faqeer Wighio,1,0.0462,0.0,508.3333
+name,Din Muhammad Bhayo,1,0.0462,0.0,508.3333
+name,Din Pur,1,0.0462,0.0,508.3333
+name,District Jail,1,0.0462,0.0,508.3333
+name,Dodanko,1,0.0462,0.0,508.3333
+name,Dodha,1,0.0462,0.0,508.3333
+name,Dodo Detho,1,0.0462,0.0,508.3333
+name,Dodo Gopang,1,0.0462,0.0,508.3333
+name,Dodo Hullio,1,0.0462,0.0,508.3333
+name,Dodu Bakrar,1,0.0462,0.0,508.3333
+name,Dolat Khokhar,1,0.0462,0.0,508.3333
+name,Dooka Kalhora,1,0.0462,0.0,508.3333
+name,Dooro Behan,1,0.0462,0.0,508.3333
+name,Dost Ali Baloch,1,0.0462,0.0,508.3333
+name,Dost Ali Jakhrani,1,0.0462,0.0,508.3333
+name,Dost Muhammad Mugheri,1,0.0462,0.0,508.3333
+name,Dreha,1,0.0462,0.0,508.3333
+name,Drib Mehar Shah,1,0.0462,0.0,508.3333
+name,Drib Tanwri,1,0.0462,0.0,508.3333
+name,Drighpur,1,0.0462,0.0,508.3333
+name,Duska - Wazirabad Road,1,0.0462,0.0,508.3333
+name,Eidgah Road,1,0.0462,0.0,508.3333
+name,Essa Khel-Mianwali Road,1,0.0462,0.0,508.3333
+name,Esso Tanwri,1,0.0462,0.0,508.3333
+name,Faiz Mohammad Gondal,1,0.0462,0.0,508.3333
+name,Faiz Muhammad Brohi,1,0.0462,0.0,508.3333
+name,Faiz Muhammad Mallano,1,0.0462,0.0,508.3333
+name,Faiz Muhammad Mugheri,1,0.0462,0.0,508.3333
+name,Faizwah,1,0.0462,0.0,508.3333
+name,Faqeer Ghulam Nabi Bugti,1,0.0462,0.0,508.3333
+name,Faqeer Khakhrani,1,0.0462,0.0,508.3333
+name,Faqeer Mohammad Luhar,1,0.0462,0.0,508.3333
+name,Faqeer Muhammad Jakhrani,1,0.0462,0.0,508.3333
+name,Faqeer Pur,1,0.0462,0.0,508.3333
+name,Farash,1,0.0462,0.0,508.3333
+name,Fareed Khan Khokhar,1,0.0462,0.0,508.3333
+name,Fark Pur,1,0.0462,0.0,508.3333
+name,Farooq Steel Industries Pvt Ltd,1,0.0462,0.0,508.3333
+name,Fateh Ali Chandio,1,0.0462,0.0,508.3333
+name,Fatehpur Araian,1,0.0462,0.0,508.3333
+name,Fatehulla Ghumro,1,0.0462,0.0,508.3333
+name,Fazal Hussain Lashari,1,0.0462,0.0,508.3333
+name,Fazil Kalhoro,1,0.0462,0.0,508.3333
+name,Fazl Muhammad Bagrani,1,0.0462,0.0,508.3333
+name,Fezany Madina,1,0.0462,0.0,508.3333
+name,Gaghri,1,0.0462,0.0,508.3333
+name,Gahi Khan Samtio,1,0.0462,0.0,508.3333
+name,Ganga Bai,1,0.0462,0.0,508.3333
+name,Ganwar Goth,1,0.0462,0.0,508.3333
+name,Ganwar Khan Lohar,1,0.0462,0.0,508.3333
+name,Garhi Sahib Khan,1,0.0462,0.0,508.3333
+name,Garhi Yasin Road,1,0.0462,0.0,508.3333
+name,Ghabi Khan Mugheri,1,0.0462,0.0,508.3333
+name,Ghaghra,1,0.0462,0.0,508.3333
+name,Ghanorabad,1,0.0462,0.0,508.3333
+name,Ghatahar,1,0.0462,0.0,508.3333
+name,Ghazi Khan Channa,1,0.0462,0.0,508.3333
+name,Ghazi Khan Khuhawar,1,0.0462,0.0,508.3333
+name,Ghazi Mashori,1,0.0462,0.0,508.3333
+name,Ghohar Goth,1,0.0462,0.0,508.3333
+name,Ghoth Nandha Phull,1,0.0462,0.0,508.3333
+name,Ghous Bux Tunio,1,0.0462,0.0,508.3333
+name,Ghulam Abbas Mugheri,1,0.0462,0.0,508.3333
+name,Ghulam Ali Mashori,1,0.0462,0.0,508.3333
+name,Ghulam Ali Umrani,1,0.0462,0.0,508.3333
+name,Ghulam Ali Unar,1,0.0462,0.0,508.3333
+name,Ghulam Haider Baloch,1,0.0462,0.0,508.3333
+name,Ghulam Haider Khand,1,0.0462,0.0,508.3333
+name,Ghulam Hussain Pathan,1,0.0462,0.0,508.3333
+name,Ghulam Hyder Dera,1,0.0462,0.0,508.3333
+name,Ghulam Khan Mugheri,1,0.0462,0.0,508.3333
+name,Ghulam Muhammad Isran,1,0.0462,0.0,508.3333
+name,Ghulam Mustafa Buriro,1,0.0462,0.0,508.3333
+name,Ghulam Nabi Khan Kalhoro,1,0.0462,0.0,508.3333
+name,Ghulam Qadir Magsi,1,0.0462,0.0,508.3333
+name,Ghulam Rasool,1,0.0462,0.0,508.3333
+name,Ghulam Rasool Jafiri,1,0.0462,0.0,508.3333
+name,Gilsi Waro Bhutto,1,0.0462,0.0,508.3333
+name,Golo Daro,1,0.0462,0.0,508.3333
+name,Golo Mahar,1,0.0462,0.0,508.3333
+name,Goth Ali Muhammad Dad,1,0.0462,0.0,508.3333
+name,Goth Ali Murad Jagirani,1,0.0462,0.0,508.3333
+name,Goth Atta Mohammad Solangi,1,0.0462,0.0,508.3333
+name,Goth Bachal Ghori,1,0.0462,0.0,508.3333
+name,Goth Badhai Machyoon,1,0.0462,0.0,508.3333
+name,Goth Dolat Khuhro,1,0.0462,0.0,508.3333
+name,Goth Eid Lang,1,0.0462,0.0,508.3333
+name,Goth Gul Mahar,1,0.0462,0.0,508.3333
+name,Goth Jano Sharif,1,0.0462,0.0,508.3333
+name,Goth Khaso,1,0.0462,0.0,508.3333
+name,Goth Kotai Bhutto,1,0.0462,0.0,508.3333
+name,Goth Mole Dino Machi,1,0.0462,0.0,508.3333
+name,Goth Muhammad Bhutto,1,0.0462,0.0,508.3333
+name,Goth Murid Sithar,1,0.0462,0.0,508.3333
+name,Goth Nasir Khan Chakrani,1,0.0462,0.0,508.3333
+name,Goth Rojo,1,0.0462,0.0,508.3333
+name,Goth Solangi,1,0.0462,0.0,508.3333
+name,Goth Sultan Jhattial,1,0.0462,0.0,508.3333
+name,Goth Syed Juman Shah,1,0.0462,0.0,508.3333
+name,Goth Udha,1,0.0462,0.0,508.3333
+name,Goth Urul Chachar,1,0.0462,0.0,508.3333
+name,Goth Wada Phul,1,0.0462,0.0,508.3333
+name,Goth Wadhan Chachar,1,0.0462,0.0,508.3333
+name,Guddu Thermal Station,1,0.0462,0.0,508.3333
+name,Guhram Goth,1,0.0462,0.0,508.3333
+name,Gujjo Tanawri,1,0.0462,0.0,508.3333
+name,Gujrani Kalhoro,1,0.0462,0.0,508.3333
+name,Gul Muhammad Chacha,1,0.0462,0.0,508.3333
+name,Gul Muhammad Tunio,1,0.0462,0.0,508.3333
+name,Gul Veesar,1,0.0462,0.0,508.3333
+name,Gulam Mustafa Odho,1,0.0462,0.0,508.3333
+name,Gulan Wari Ghitti,1,0.0462,0.0,508.3333
+name,Gulsher Chandio,1,0.0462,0.0,508.3333
+name,Habib Bughio,1,0.0462,0.0,508.3333
+name,Habib Ji Wandh,1,0.0462,0.0,508.3333
+name,Habib Khan Jakhrani,1,0.0462,0.0,508.3333
+name,Habib Sangharo,1,0.0462,0.0,508.3333
+name,Hadal Shah,1,0.0462,0.0,508.3333
+name,Hadi Khan Jakhrani,1,0.0462,0.0,508.3333
+name,Hafiz Abad,1,0.0462,0.0,508.3333
+name,Hajana,1,0.0462,0.0,508.3333
+name,Haji Abdul Latif Khan Kalwar,1,0.0462,0.0,508.3333
+name,Haji Abdul Sattar Khan Kalwar,1,0.0462,0.0,508.3333
+name,Haji Abdullah Panhwar,1,0.0462,0.0,508.3333
+name,Haji Ahmed Khan Jakhro,1,0.0462,0.0,508.3333
+name,Haji Arbab Ghanghro,1,0.0462,0.0,508.3333
+name,Haji Arbab Jatoi,1,0.0462,0.0,508.3333
+name,Haji Bangul Khan Mugheri,1,0.0462,0.0,508.3333
+name,Haji Dhani Bux Katper,1,0.0462,0.0,508.3333
+name,Haji Doro Khan Jafiri,1,0.0462,0.0,508.3333
+name,Haji Eeso Khan Baghdar,1,0.0462,0.0,508.3333
+name,Haji Ehsan Ali Road,1,0.0462,0.0,508.3333
+name,Haji Ghulam Hyder Khan Kalhoro,1,0.0462,0.0,508.3333
+name,Haji Ghulam Muhammad Mashori,1,0.0462,0.0,508.3333
+name,Haji Ghulam Rasool,1,0.0462,0.0,508.3333
+name,Haji Ghulam Rasool Gabol,1,0.0462,0.0,508.3333
+name,Haji Ghulam Rasool Khan Jagirani,1,0.0462,0.0,508.3333
+name,Haji Gul Muhammad Brohi,1,0.0462,0.0,508.3333
+name,Haji Gul Muhammad Mubejo,1,0.0462,0.0,508.3333
+name,Haji Juma Khan Siyal,1,0.0462,0.0,508.3333
+name,Haji Kamdaar Khan Chandio,1,0.0462,0.0,508.3333
+name,Haji Menhoun Khan,1,0.0462,0.0,508.3333
+name,Haji Mian Ghous Bux Chang,1,0.0462,0.0,508.3333
+name,Haji Muhammad Usman,1,0.0462,0.0,508.3333
+name,Haji Naseer Khan Jakhrani,1,0.0462,0.0,508.3333
+name,Haji Nawab Solangi,1,0.0462,0.0,508.3333
+name,Haji Pir Bux Brohi,1,0.0462,0.0,508.3333
+name,Haji Punhal,1,0.0462,0.0,508.3333
+name,Haji Shahdad Jakhrani,1,0.0462,0.0,508.3333
+name,Haji Sobha Khan Jatoi,1,0.0462,0.0,508.3333
+name,Hakim Ali Jafiri,1,0.0462,0.0,508.3333
+name,Hakra,1,0.0462,0.0,508.3333
+name,Halepota,1,0.0462,0.0,508.3333
+name,Hamza Chacha,1,0.0462,0.0,508.3333
+name,Hamza Mangrio,1,0.0462,0.0,508.3333
+name,Hamzo Dakhan,1,0.0462,0.0,508.3333
+name,Harar Road,1,0.0462,0.0,508.3333
+name,Hascol Company Depot,1,0.0462,0.0,508.3333
+name,Hashim Abad,1,0.0462,0.0,508.3333
+name,Hashim Chawro,1,0.0462,0.0,508.3333
+name,Hasil Khan Talani,1,0.0462,0.0,508.3333
+name,Hassan Ali Zardari,1,0.0462,0.0,508.3333
+name,Hathi Dar,1,0.0462,0.0,508.3333
+name,Hatri Police Station,1,0.0462,0.0,508.3333
+name,Hatti,1,0.0462,0.0,508.3333
+name,Hazar Khan Shar,1,0.0462,0.0,508.3333
+name,Hazar Khan Sher,1,0.0462,0.0,508.3333
+name,Hidan Mugheri,1,0.0462,0.0,508.3333
+name,Highway,1,0.0462,0.0,508.3333
+name,Hot Khan Rind,1,0.0462,0.0,508.3333
+name,Hote Khan Bahrani,1,0.0462,0.0,508.3333
+name,Hothi,1,0.0462,0.0,508.3333
+name,Hullio,1,0.0462,0.0,508.3333
+name,Hussainabad,1,0.0462,0.0,508.3333
+name,Hyder Mangrio,1,0.0462,0.0,508.3333
+name,Hyder Shah,1,0.0462,0.0,508.3333
+name,Hyderi Daud Goth,1,0.0462,0.0,508.3333
+name,Ibrahim Azabi,1,0.0462,0.0,508.3333
+name,Ibrahim Tunio,1,0.0462,0.0,508.3333
+name,Imam Bux Chandio,1,0.0462,0.0,508.3333
+name,Imam Dad Khan Khorkhane Baloch,1,0.0462,0.0,508.3333
+name,Ishaq Dero,1,0.0462,0.0,508.3333
+name,Ismail Khan Sundrani,1,0.0462,0.0,508.3333
+name,Ismail Labano,1,0.0462,0.0,508.3333
+name,Jaalbaaray,1,0.0462,0.0,508.3333
+name,Jaam Noorullah,1,0.0462,0.0,508.3333
+name,Jaan Muhammad Lashari,1,0.0462,0.0,508.3333
+name,Jacobabad-Thul-Kandhkot-(Ghotki-Kandkot Bridge)-Ghotki-Mathelo-Jarwar-Yaro Lund,1,0.0462,0.0,508.3333
+name,Jado Kalhoro,1,0.0462,0.0,508.3333
+name,Jahan Khan Khakhrani,1,0.0462,0.0,508.3333
+name,Jalal Khan Brohi,1,0.0462,0.0,508.3333
+name,Jalbani Mugheri,1,0.0462,0.0,508.3333
+name,Jamal Lashari,1,0.0462,0.0,508.3333
+name,Jamal Pur,1,0.0462,0.0,508.3333
+name,Jamal Ujjan,1,0.0462,0.0,508.3333
+name,Jamal shah,1,0.0462,0.0,508.3333
+name,Jamali Goth,1,0.0462,0.0,508.3333
+name,Jamia Masjid Ataye Mustafa,1,0.0462,0.0,508.3333
+name,Jamia Masjid Noor Muhammad Brohi,1,0.0462,0.0,508.3333
+name,Jan Mohammad Badani,1,0.0462,0.0,508.3333
+name,Jani Buriro,1,0.0462,0.0,508.3333
+name,Jara Wah,1,0.0462,0.0,508.3333
+name,Jaro Khan Jakhrani,1,0.0462,0.0,508.3333
+name,Jati-Ladiun Provincial Highway,1,0.0462,0.0,508.3333
+name,Jatoi Goth,1,0.0462,0.0,508.3333
+name,Jattan Ji Kiri,1,0.0462,0.0,508.3333
+name,Jean Abro,1,0.0462,0.0,508.3333
+name,Jhalogi,1,0.0462,0.0,508.3333
+name,Jhandu Tanwari Tawri,1,0.0462,0.0,508.3333
+name,Jhangal Khan Tunio,1,0.0462,0.0,508.3333
+name,Jhara Drib,1,0.0462,0.0,508.3333
+name,Jindo Dero,1,0.0462,0.0,508.3333
+name,Jiskani,1,0.0462,0.0,508.3333
+name,Jogi,1,0.0462,0.0,508.3333
+name,Jogin Jo Goth,1,0.0462,0.0,508.3333
+name,Jongal Khakhrani,1,0.0462,0.0,508.3333
+name,Jonsal Khan Jafiri,1,0.0462,0.0,508.3333
+name,Juma Khan Brohi,1,0.0462,0.0,508.3333
+name,Juma Khan Chandio,1,0.0462,0.0,508.3333
+name,Juman Tagar,1,0.0462,0.0,508.3333
+name,Jumani Mahar,1,0.0462,0.0,508.3333
+name,Jumma Mahar,1,0.0462,0.0,508.3333
+name,Jumo Nohrio,1,0.0462,0.0,508.3333
+name,Jumo Sangharo,1,0.0462,0.0,508.3333
+name,Jumo Shaikh,1,0.0462,0.0,508.3333
+name,Jung Mahar,1,0.0462,0.0,508.3333
+name,Kalri,1,0.0462,0.0,508.3333
+name,Kamal Khan Khakh,1,0.0462,0.0,508.3333
+name,Kamal Khan Phulpoto,1,0.0462,0.0,508.3333
+name,Kambar  - Miro Khan Rd,1,0.0462,0.0,508.3333
+name,Kamber Wagan Road,1,0.0462,0.0,508.3333
+name,Kamil Kalhoro,1,0.0462,0.0,508.3333
+name,Kandhar,1,0.0462,0.0,508.3333
+name,Kando Wahan,1,0.0462,0.0,508.3333
+name,Kandra,1,0.0462,0.0,508.3333
+name,Kanga,1,0.0462,0.0,508.3333
+name,Kanhar,1,0.0462,0.0,508.3333
+name,Kanjlo Mugheri,1,0.0462,0.0,508.3333
+name,Karam Lashari,1,0.0462,0.0,508.3333
+name,Karamabad,1,0.0462,0.0,508.3333
+name,Kareem Dino Maotlo,1,0.0462,0.0,508.3333
+name,Karim Dino Dahraj,1,0.0462,0.0,508.3333
+name,Karo Muhammad Labano,1,0.0462,0.0,508.3333
+name,Karoocho,1,0.0462,0.0,508.3333
+name,Karor Lal-Bhakkar Road,1,0.0462,0.0,508.3333
+name,Kenchi,1,0.0462,0.0,508.3333
+name,Khabri,1,0.0462,0.0,508.3333
+name,Khahi Meenhoon,1,0.0462,0.0,508.3333
+name,Khair Mohammad Kartio,1,0.0462,0.0,508.3333
+name,Khair Muhammad Khuhawar,1,0.0462,0.0,508.3333
+name,Khair Muhammad Loriro,1,0.0462,0.0,508.3333
+name,Khair Muhammad Metlo,1,0.0462,0.0,508.3333
+name,Khair Muhammad Sanjrani,1,0.0462,0.0,508.3333
+name,Khair-ud-Din Jatoi,1,0.0462,0.0,508.3333
+name,Khairo Deho,1,0.0462,0.0,508.3333
+name,Khakhrani,1,0.0462,0.0,508.3333
+name,Khalifo Ramzan,1,0.0462,0.0,508.3333
+name,Khambhra,1,0.0462,0.0,508.3333
+name,Khamiso Brohi,1,0.0462,0.0,508.3333
+name,Khan Muhammad Bughio,1,0.0462,0.0,508.3333
+name,Khan Wah Jarwar,1,0.0462,0.0,508.3333
+name,Khando Brohi,1,0.0462,0.0,508.3333
+name,Khanpur,1,0.0462,0.0,508.3333
+name,Khanpur Mahar - Thikrato Road,1,0.0462,0.0,508.3333
+name,Kharos,1,0.0462,0.0,508.3333
+name,Khawand Dino Moria,1,0.0462,0.0,508.3333
+name,Khedkar,1,0.0462,0.0,508.3333
+name,Khera,1,0.0462,0.0,508.3333
+name,Khipro,1,0.0462,0.0,508.3333
+name,Khohran Jo Goth,1,0.0462,0.0,508.3333
+name,Khorewah,1,0.0462,0.0,508.3333
+name,Khuda Bux Brohi,1,0.0462,0.0,508.3333
+name,Khuda Bux Denari,1,0.0462,0.0,508.3333
+name,Khuda Bux Kehar,1,0.0462,0.0,508.3333
+name,Khush Muhammad Shah,1,0.0462,0.0,508.3333
+name,Khyber Wahan,1,0.0462,0.0,508.3333
+name,Koreja,1,0.0462,0.0,508.3333
+name,Koro Panhayar,1,0.0462,0.0,508.3333
+name,Kot Banglo,1,0.0462,0.0,508.3333
+name,Kot Darawahan,1,0.0462,0.0,508.3333
+name,Kot Diji Fort,1,0.0462,0.0,508.3333
+name,Kot Mir Muhammad Khan,1,0.0462,0.0,508.3333
+name,Kothi Khokhar,1,0.0462,0.0,508.3333
+name,Kowar Sharif,1,0.0462,0.0,508.3333
+name,Kubro,1,0.0462,0.0,508.3333
+name,Kumbi Sandilo,1,0.0462,0.0,508.3333
+name,Ladho Khan Mahar,1,0.0462,0.0,508.3333
+name,Lal Bakhsh Bugti,1,0.0462,0.0,508.3333
+name,Lal Bakhsh Lund Baloch,1,0.0462,0.0,508.3333
+name,Lal Bux Brohi,1,0.0462,0.0,508.3333
+name,Lal Bux Buriro,1,0.0462,0.0,508.3333
+name,Lal Bux Ji Wandh,1,0.0462,0.0,508.3333
+name,Lal Bux Shaikh,1,0.0462,0.0,508.3333
+name,Lal Bux Taggar,1,0.0462,0.0,508.3333
+name,Lal Dino Bhutto,1,0.0462,0.0,508.3333
+name,Lal Dino Katto,1,0.0462,0.0,508.3333
+name,Lal Khan Ji Wandh,1,0.0462,0.0,508.3333
+name,Lal Khan Wagan Goth Tagar,1,0.0462,0.0,508.3333
+name,Lal Muhammad Jakhrani,1,0.0462,0.0,508.3333
+name,Lal Shah Bukhari,1,0.0462,0.0,508.3333
+name,Langah,1,0.0462,0.0,508.3333
+name,Lani Shan,1,0.0462,0.0,508.3333
+name,Lashari Goth,1,0.0462,0.0,508.3333
+name,Lashkar Ali Shaikh,1,0.0462,0.0,508.3333
+name,Latifabad 8,1,0.0462,0.0,508.3333
+name,Layari,1,0.0462,0.0,508.3333
+name,Layyah Taunsa Bridge,1,0.0462,0.0,508.3333
+name,Liaqat Khuhawar,1,0.0462,0.0,508.3333
+name,Lohi,1,0.0462,0.0,508.3333
+name,Long Khan Arbani,1,0.0462,0.0,508.3333
+name,Long Khan Brohi,1,0.0462,0.0,508.3333
+name,Longani Sharif,1,0.0462,0.0,508.3333
+name,Lords Hotel,1,0.0462,0.0,508.3333
+name,MK HAIR & MAKEUP STUDIO BY MEHRU LAYYAH,1,0.0462,0.0,508.3333
+name,Mad Bahu,1,0.0462,0.0,508.3333
+name,Magsi,1,0.0462,0.0,508.3333
+name,Mahar Patujo,1,0.0462,0.0,508.3333
+name,Mahi,1,0.0462,0.0,508.3333
+name,Mahi Bhutta,1,0.0462,0.0,508.3333
+name,Mahi Khan Jakhrani,1,0.0462,0.0,508.3333
+name,Mahi Khan Shar,1,0.0462,0.0,508.3333
+name,Mahi Lorir,1,0.0462,0.0,508.3333
+name,Mahtani,1,0.0462,0.0,508.3333
+name,Main Road,1,0.0462,0.0,508.3333
+name,Makan Qazi,1,0.0462,0.0,508.3333
+name,Makhan Bello,1,0.0462,0.0,508.3333
+name,Makol,1,0.0462,0.0,508.3333
+name,Malak,1,0.0462,0.0,508.3333
+name,Malook Khuhro,1,0.0462,0.0,508.3333
+name,Malook Korai,1,0.0462,0.0,508.3333
+name,Mamoon Junejo,1,0.0462,0.0,508.3333
+name,Manaf,1,0.0462,0.0,508.3333
+name,Mang Taggar,1,0.0462,0.0,508.3333
+name,Mangharji,1,0.0462,0.0,508.3333
+name,Manghi Khan Dhiloo,1,0.0462,0.0,508.3333
+name,Mangnani,1,0.0462,0.0,508.3333
+name,Manka Rd,1,0.0462,0.0,508.3333
+name,Manthar Road,1,0.0462,0.0,508.3333
+name,Manzoor Jagirani,1,0.0462,0.0,508.3333
+name,Mari,1,0.0462,0.0,508.3333
+name,Maroon Kakepota,1,0.0462,0.0,508.3333
+name,Masoo Khan Kalwar,1,0.0462,0.0,508.3333
+name,Masoom Shah Minara Road,1,0.0462,0.0,508.3333
+name,Massu Hab,1,0.0462,0.0,508.3333
+name,Matanni Shaikh,1,0.0462,0.0,508.3333
+name,Mazar of Zulfikar Ali Bhutto,1,0.0462,0.0,508.3333
+name,Mazari Goth,1,0.0462,0.0,508.3333
+name,Mazarjo,1,0.0462,0.0,508.3333
+name,Meenho Mangi,1,0.0462,0.0,508.3333
+name,Meeraboz,1,0.0462,0.0,508.3333
+name,Mehar Branch,1,0.0462,0.0,508.3333
+name,Mehar Ghanghro,1,0.0462,0.0,508.3333
+name,Mehar Nandro,1,0.0462,0.0,508.3333
+name,Mehrab Bitto,1,0.0462,0.0,508.3333
+name,Mehrab Jinjhin,1,0.0462,0.0,508.3333
+name,Mehrabpur Road,1,0.0462,0.0,508.3333
+name,Merewether Pavilion,1,0.0462,0.0,508.3333
+name,Miamwali Post Office,1,0.0462,0.0,508.3333
+name,Miandad Khakhrani,1,0.0462,0.0,508.3333
+name,Minor Canal RD,1,0.0462,0.0,508.3333
+name,Mir Gul Magsi,1,0.0462,0.0,508.3333
+name,Mir Khan Babar Goth,1,0.0462,0.0,508.3333
+name,Mir Mohammad Kandhro,1,0.0462,0.0,508.3333
+name,Mir Muhammad Marfani,1,0.0462,0.0,508.3333
+name,Mir Qadir Bux Brohi,1,0.0462,0.0,508.3333
+name,Miro Khan Road,1,0.0462,0.0,508.3333
+name,Mirza Abro,1,0.0462,0.0,508.3333
+name,Mirzan Shar,1,0.0462,0.0,508.3333
+name,Mirzanpur,1,0.0462,0.0,508.3333
+name,Misri Wahan,1,0.0462,0.0,508.3333
+name,Mitho Dero,1,0.0462,0.0,508.3333
+name,Mitho Khan Gopang,1,0.0462,0.0,508.3333
+name,Mitho Manjho,1,0.0462,0.0,508.3333
+name,Mitho Mari,1,0.0462,0.0,508.3333
+name,Mithodero,1,0.0462,0.0,508.3333
+name,Mithri,1,0.0462,0.0,508.3333
+name,Miyani,1,0.0462,0.0,508.3333
+name,Moenjo Daro Road,1,0.0462,0.0,508.3333
+name,Mohammad Ali Gurmani,1,0.0462,0.0,508.3333
+name,Mohammad Hassan Khawar,1,0.0462,0.0,508.3333
+name,Mohammad Panah Khokhar,1,0.0462,0.0,508.3333
+name,Mohammad Salih Solangi,1,0.0462,0.0,508.3333
+name,Mohammad Usman Mahar,1,0.0462,0.0,508.3333
+name,Moharna,1,0.0462,0.0,508.3333
+name,Mohil,1,0.0462,0.0,508.3333
+name,Mohram Halepoto,1,0.0462,0.0,508.3333
+name,Mola Bux Mastoi,1,0.0462,0.0,508.3333
+name,Molro,1,0.0462,0.0,508.3333
+name,Momin Wadhio,1,0.0462,0.0,508.3333
+name,Moreja,1,0.0462,0.0,508.3333
+name,Moro-Tharushah-Kandiaro Provincial Highway,1,0.0462,0.0,508.3333
+name,Mound of Bai,1,0.0462,0.0,508.3333
+name,Mud Goth,1,0.0462,0.0,508.3333
+name,Mughal Mahal Hotel,1,0.0462,0.0,508.3333
+name,Muhabbat Katta,1,0.0462,0.0,508.3333
+name,Muhammad Ali Brohi,1,0.0462,0.0,508.3333
+name,Muhammad Ali Jatoi,1,0.0462,0.0,508.3333
+name,Muhammad Ali Mugheri,1,0.0462,0.0,508.3333
+name,Muhammad Ameen Jakhrani,1,0.0462,0.0,508.3333
+name,Muhammad Arab Pahore,1,0.0462,0.0,508.3333
+name,Muhammad Ayoob Hakro,1,0.0462,0.0,508.3333
+name,Muhammad Bachal Thaheem,1,0.0462,0.0,508.3333
+name,Muhammad Bux Brohi,1,0.0462,0.0,508.3333
+name,Muhammad Bux Buriro,1,0.0462,0.0,508.3333
+name,Muhammad Bux Jagirani,1,0.0462,0.0,508.3333
+name,Muhammad Bux Korejo,1,0.0462,0.0,508.3333
+name,Muhammad Chhuttal Mahar Road,1,0.0462,0.0,508.3333
+name,Muhammad Hasan Jagirani,1,0.0462,0.0,508.3333
+name,Muhammad Hassan Channa,1,0.0462,0.0,508.3333
+name,Muhammad Hassan Lolai,1,0.0462,0.0,508.3333
+name,Muhammad Hayat,1,0.0462,0.0,508.3333
+name,Muhammad Juryal Marfani,1,0.0462,0.0,508.3333
+name,Muhammad Khan,1,0.0462,0.0,508.3333
+name,Muhammad Murad Samtio,1,0.0462,0.0,508.3333
+name,Muhammad Paryal Mahar,1,0.0462,0.0,508.3333
+name,Muhammad Qasim Wistro,1,0.0462,0.0,508.3333
+name,Muhammad Ramzan Jakhrani,1,0.0462,0.0,508.3333
+name,Muhammad Salah Buriro,1,0.0462,0.0,508.3333
+name,Muhammad Salah Khakhrani,1,0.0462,0.0,508.3333
+name,Muhammad Siddique Jakhrani,1,0.0462,0.0,508.3333
+name,Muhammad Siddique Katta,1,0.0462,0.0,508.3333
+name,Muhammad Tahir,1,0.0462,0.0,508.3333
+name,Muhammad Uris Solangi,1,0.0462,0.0,508.3333
+name,Muhammad Usman Jeho,1,0.0462,0.0,508.3333
+name,Muhammad Usman Kalhoro,1,0.0462,0.0,508.3333
+name,Muhammad Usman Samtio,1,0.0462,0.0,508.3333
+name,Muhammada Bagh,1,0.0462,0.0,508.3333
+name,Muhammadi Village Lakho Siyal,1,0.0462,0.0,508.3333
+name,Mujawar Lashari,1,0.0462,0.0,508.3333
+name,Mulan Chandio,1,0.0462,0.0,508.3333
+name,Mullah Abra,1,0.0462,0.0,508.3333
+name,Mungrani,1,0.0462,0.0,508.3333
+name,Munshi Abdullah Arain,1,0.0462,0.0,508.3333
+name,Mureed Haider Jalbani,1,0.0462,0.0,508.3333
+name,Mureed Hussain Bhand,1,0.0462,0.0,508.3333
+name,Murid Jo Goth,1,0.0462,0.0,508.3333
+name,Muridke Distributary,1,0.0462,0.0,508.3333
+name,N-20 National Highway,1,0.0462,0.0,508.3333
+name,NADRA Mega Center khairpur,1,0.0462,0.0,508.3333
+name,Nabi Abad,1,0.0462,0.0,508.3333
+name,Nabi Shah Wagan,1,0.0462,0.0,508.3333
+name,Nachan Pur,1,0.0462,0.0,508.3333
+name,Nadir Mahar,1,0.0462,0.0,508.3333
+name,Nadir Sultan,1,0.0462,0.0,508.3333
+name,Nandhi Kalwari,1,0.0462,0.0,508.3333
+name,Nandhi Patni,1,0.0462,0.0,508.3333
+name,Nao Goth,1,0.0462,0.0,508.3333
+name,Nari Sharif,1,0.0462,0.0,508.3333
+name,Nau Abad,1,0.0462,0.0,508.3333
+name,Naushahra,1,0.0462,0.0,508.3333
+name,Naushahro Abro Goth,1,0.0462,0.0,508.3333
+name,Nawaab Jo Phaat,1,0.0462,0.0,508.3333
+name,Nawab Khan Khemtio,1,0.0462,0.0,508.3333
+name,Nawabshah Road,1,0.0462,0.0,508.3333
+name,Nehal Sohu,1,0.0462,0.0,508.3333
+name,New Allah Abad,1,0.0462,0.0,508.3333
+name,New Jatoi Road,1,0.0462,0.0,508.3333
+name,New Khakhrani,1,0.0462,0.0,508.3333
+name,New Tharo Nautharo,1,0.0462,0.0,508.3333
+name,New Trauma Center DHQ,1,0.0462,0.0,508.3333
+name,Nihal Miani,1,0.0462,0.0,508.3333
+name,Nizamani,1,0.0462,0.0,508.3333
+name,Noor DIn Brohi,1,0.0462,0.0,508.3333
+name,Noor Muhammad Shaikh,1,0.0462,0.0,508.3333
+name,Noor Shah Bhitt,1,0.0462,0.0,508.3333
+name,Norang,1,0.0462,0.0,508.3333
+name,Oceans Hafizabad,1,0.0462,0.0,508.3333
+name,Old City,1,0.0462,0.0,508.3333
+name,Orangabad,1,0.0462,0.0,508.3333
+name,PAF Base Shahbaz,1,0.0462,0.0,508.3333
+name,PSO Oil Depot,1,0.0462,0.0,508.3333
+name,Pahlwan Hakro,1,0.0462,0.0,508.3333
+name,Pakko Qilo,1,0.0462,0.0,508.3333
+name,Paleeja Panhwar,1,0.0462,0.0,508.3333
+name,Palio Mastoi,1,0.0462,0.0,508.3333
+name,Pandhi,1,0.0462,0.0,508.3333
+name,Pandhi Gorshani,1,0.0462,0.0,508.3333
+name,Panjal Shah,1,0.0462,0.0,508.3333
+name,Panjo Goth Ghanghro,1,0.0462,0.0,508.3333
+name,Paryal Kamdar,1,0.0462,0.0,508.3333
+name,Paryal Khuhawar,1,0.0462,0.0,508.3333
+name,Paryo Khan Mugheri,1,0.0462,0.0,508.3333
+name,Pathan Khan Jagirani,1,0.0462,0.0,508.3333
+name,Patireji,1,0.0462,0.0,508.3333
+name,Peer Mohammed Lakho,1,0.0462,0.0,508.3333
+name,Peer Sayed Ashiq Ali Shah Geelani,1,0.0462,0.0,508.3333
+name,Peeral Aalmani,1,0.0462,0.0,508.3333
+name,Peroz Shah,1,0.0462,0.0,508.3333
+name,Petroleum Service,1,0.0462,0.0,508.3333
+name,Phato Khan Khaskheli,1,0.0462,0.0,508.3333
+name,Phul Wahan,1,0.0462,0.0,508.3333
+name,Phulpota,1,0.0462,0.0,508.3333
+name,Pipri Gambat,1,0.0462,0.0,508.3333
+name,Pir Bakhsh Khan Wandh,1,0.0462,0.0,508.3333
+name,Pir Bhaker Sabir Khoso,1,0.0462,0.0,508.3333
+name,Pir Bux Jakhrani,1,0.0462,0.0,508.3333
+name,Pir Chandam,1,0.0462,0.0,508.3333
+name,Pir Jan Jakhrani,1,0.0462,0.0,508.3333
+name,Pir Jo Goth Sukkar Link Road,1,0.0462,0.0,508.3333
+name,Pir Mangio,1,0.0462,0.0,508.3333
+name,Pir Masoom Shah Jilani,1,0.0462,0.0,508.3333
+name,Pir Muhammad Metlo,1,0.0462,0.0,508.3333
+name,Pir Nasrullah Shah Rashidi,1,0.0462,0.0,508.3333
+name,Pir Zubair,1,0.0462,0.0,508.3333
+name,Pirano Bhand,1,0.0462,0.0,508.3333
+name,Pitafi,1,0.0462,0.0,508.3333
+name,Piyaro Khan Mugheri,1,0.0462,0.0,508.3333
+name,Piyaro Mugheri,1,0.0462,0.0,508.3333
+name,Police Station,1,0.0462,0.0,508.3333
+name,Punho Khan Chandio,1,0.0462,0.0,508.3333
+name,Punj Shahi,1,0.0462,0.0,508.3333
+name,Pyaro Mirbaher,1,0.0462,0.0,508.3333
+name,Qabil Khanbro,1,0.0462,0.0,508.3333
+name,Qadir Bux Buriro,1,0.0462,0.0,508.3333
+name,Qadir Bux Jatoi,1,0.0462,0.0,508.3333
+name,Qadir Bux Khoso,1,0.0462,0.0,508.3333
+name,Qadir Bux Mengal,1,0.0462,0.0,508.3333
+name,Qadir Bux Saand,1,0.0462,0.0,508.3333
+name,Qaim Khan Mugheri,1,0.0462,0.0,508.3333
+name,Qaiser Khan Brohi,1,0.0462,0.0,508.3333
+name,Qalandar Bux Brohi,1,0.0462,0.0,508.3333
+name,Qalandar Bux Mugheri,1,0.0462,0.0,508.3333
+name,Qambar Road,1,0.0462,0.0,508.3333
+name,Qambar Talab,1,0.0462,0.0,508.3333
+name,Qasim Bahan,1,0.0462,0.0,508.3333
+name,Qasimpur,1,0.0462,0.0,508.3333
+name,Qasmani,1,0.0462,0.0,508.3333
+name,Qazi Wahan,1,0.0462,0.0,508.3333
+name,Qurban Hussain Khoso,1,0.0462,0.0,508.3333
+name,RHC Bangul Dero,1,0.0462,0.0,508.3333
+name,Raban Mahar,1,0.0462,0.0,508.3333
+name,Rabnawaz,1,0.0462,0.0,508.3333
+name,Raheem Dino Solangi,1,0.0462,0.0,508.3333
+name,Rahim Bughio,1,0.0462,0.0,508.3333
+name,Rahooja,1,0.0462,0.0,508.3333
+name,Rahooja Machiyoon,1,0.0462,0.0,508.3333
+name,Rahri,1,0.0462,0.0,508.3333
+name,Rahuja,1,0.0462,0.0,508.3333
+name,Raies Kharos,1,0.0462,0.0,508.3333
+name,Raina,1,0.0462,0.0,508.3333
+name,Rais Hamayoon Khan Mugheri,1,0.0462,0.0,508.3333
+name,Rais Muhammad Paryal Buriro,1,0.0462,0.0,508.3333
+name,Rajo Labani,1,0.0462,0.0,508.3333
+name,Rameja,1,0.0462,0.0,508.3333
+name,Ramzan Kalhoro,1,0.0462,0.0,508.3333
+name,Ranjha Pur,1,0.0462,0.0,508.3333
+name,Ranjhan Shar,1,0.0462,0.0,508.3333
+name,Ranjho Khan Jafiri,1,0.0462,0.0,508.3333
+name,Ranjho Khan Lakhan,1,0.0462,0.0,508.3333
+name,Ranwant Shaikh,1,0.0462,0.0,508.3333
+name,Rasheed Wagan,1,0.0462,0.0,508.3333
+name,Rasool Abad,1,0.0462,0.0,508.3333
+name,Rasool Bux Bhagat,1,0.0462,0.0,508.3333
+name,Rasool Pur,1,0.0462,0.0,508.3333
+name,Ratto Mugheri,1,0.0462,0.0,508.3333
+name,Rawal Maini,1,0.0462,0.0,508.3333
+name,Rawat Abro,1,0.0462,0.0,508.3333
+name,Rawat Khan Khaskheli,1,0.0462,0.0,508.3333
+name,Razi Goth,1,0.0462,0.0,508.3333
+name,Razi Khan Jagirani,1,0.0462,0.0,508.3333
+name,Razidero,1,0.0462,0.0,508.3333
+name,Rehan Faqeer,1,0.0462,0.0,508.3333
+name,Rehmat Pur,1,0.0462,0.0,508.3333
+name,Rohal Khan Bugti,1,0.0462,0.0,508.3333
+name,Rohilo Khan Jafiri,1,0.0462,0.0,508.3333
+name,Roi Dad Turt,1,0.0462,0.0,508.3333
+name,Roshan Ali Khan Isran,1,0.0462,0.0,508.3333
+name,Roshan Khan Kalhoro,1,0.0462,0.0,508.3333
+name,Saadullah Napar V,1,0.0462,0.0,508.3333
+name,Sabhago Mugheri,1,0.0462,0.0,508.3333
+name,Sabhayo,1,0.0462,0.0,508.3333
+name,Sabul Jagirani,1,0.0462,0.0,508.3333
+name,Sachal Mahar Ji Wandh,1,0.0462,0.0,508.3333
+name,Sachi Dino Jalbani,1,0.0462,0.0,508.3333
+name,Sachi Dino Kalhoro,1,0.0462,0.0,508.3333
+name,Sadana,1,0.0462,0.0,508.3333
+name,Sadiq Abad,1,0.0462,0.0,508.3333
+name,Sadiq Jeho,1,0.0462,0.0,508.3333
+name,Saeed Khan Lakho,1,0.0462,0.0,508.3333
+name,Saeed Pur,1,0.0462,0.0,508.3333
+name,Saeedi Moosani,1,0.0462,0.0,508.3333
+name,Sahib Kalhoro,1,0.0462,0.0,508.3333
+name,Sahib Khan Gorar,1,0.0462,0.0,508.3333
+name,Sahib Khan Jatoi,1,0.0462,0.0,508.3333
+name,Sahib Khan Kalhoro,1,0.0462,0.0,508.3333
+name,Sahta,1,0.0462,0.0,508.3333
+name,Saidabad,1,0.0462,0.0,508.3333
+name,Saidi,1,0.0462,0.0,508.3333
+name,Saidudero,1,0.0462,0.0,508.3333
+name,Saifal Khan Kolachi,1,0.0462,0.0,508.3333
+name,Sain Dad Mugheri,1,0.0462,0.0,508.3333
+name,Sain Dino,1,0.0462,0.0,508.3333
+name,Sain Dino Chang,1,0.0462,0.0,508.3333
+name,Sajan Mahesar,1,0.0462,0.0,508.3333
+name,Sajan Sangi,1,0.0462,0.0,508.3333
+name,Sakhi Qalandar Bakhsh Mubejo,1,0.0462,0.0,508.3333
+name,Salah Jatoi,1,0.0462,0.0,508.3333
+name,Salar Distributary,1,0.0462,0.0,508.3333
+name,Salar Jakhro,1,0.0462,0.0,508.3333
+name,Saleh Mangrio,1,0.0462,0.0,508.3333
+name,Samad Khan Bhutto,1,0.0462,0.0,508.3333
+name,Samandar Khan,1,0.0462,0.0,508.3333
+name,Samandar Khan Gopang,1,0.0462,0.0,508.3333
+name,Samo Juneja,1,0.0462,0.0,508.3333
+name,Sanghroo Juneja,1,0.0462,0.0,508.3333
+name,Sanho Khan Mugheri,1,0.0462,0.0,508.3333
+name,Sanwal Jarwar,1,0.0462,0.0,508.3333
+name,Sarang Khuhawar,1,0.0462,0.0,508.3333
+name,Sardar Khan Lund,1,0.0462,0.0,508.3333
+name,Sardar Lutuf Ali Khan Ulro,1,0.0462,0.0,508.3333
+name,Sardar Muhammad Amin Sandilo,1,0.0462,0.0,508.3333
+name,Sardar Sachal Khan Korai,1,0.0462,0.0,508.3333
+name,Satabo,1,0.0462,0.0,508.3333
+name,Sattar Dino Sangi,1,0.0462,0.0,508.3333
+name,Sawan Gopang,1,0.0462,0.0,508.3333
+name,Sawaya Phull,1,0.0462,0.0,508.3333
+name,Sayedpur,1,0.0462,0.0,508.3333
+name,Seeri,1,0.0462,0.0,508.3333
+name,Select Mobile Mart,1,0.0462,0.0,508.3333
+name,Shadan Jatoi,1,0.0462,0.0,508.3333
+name,Shafashah Goth,1,0.0462,0.0,508.3333
+name,Shafi Muhammad Wagan Goth,1,0.0462,0.0,508.3333
+name,Shah Abdul Latif Bhittai Takia,1,0.0462,0.0,508.3333
+name,Shah Ali Ji Wandh,1,0.0462,0.0,508.3333
+name,Shah Ali Lolai,1,0.0462,0.0,508.3333
+name,Shah Ali Mari,1,0.0462,0.0,508.3333
+name,Shah Hussain,1,0.0462,0.0,508.3333
+name,Shah Marfani,1,0.0462,0.0,508.3333
+name,Shah Muhammad Dedar,1,0.0462,0.0,508.3333
+name,Shah Muhammad Mangrio,1,0.0462,0.0,508.3333
+name,Shah Murad Magsi,1,0.0462,0.0,508.3333
+name,Shahan Shar,1,0.0462,0.0,508.3333
+name,Shahdad Brohi,1,0.0462,0.0,508.3333
+name,Shahdad Khan Lund,1,0.0462,0.0,508.3333
+name,Shahdadkot Road,1,0.0462,0.0,508.3333
+name,Shahim Marfani,1,0.0462,0.0,508.3333
+name,Shahmir Junejo,1,0.0462,0.0,508.3333
+name,Shahmir Khan Dahani,1,0.0462,0.0,508.3333
+name,Shahpur,1,0.0462,0.0,508.3333
+name,Shahzado Khan Mahar,1,0.0462,0.0,508.3333
+name,Shaikh Mohalla,1,0.0462,0.0,508.3333
+name,Shaikhan Ji Wandh,1,0.0462,0.0,508.3333
+name,Shamsheer Goth,1,0.0462,0.0,508.3333
+name,Shar Baloch,1,0.0462,0.0,508.3333
+name,Sharifani,1,0.0462,0.0,508.3333
+name,Shell Oil Depot,1,0.0462,0.0,508.3333
+name,Sher Muhammad Badani,1,0.0462,0.0,508.3333
+name,Shoukat Ali Khokhar,1,0.0462,0.0,508.3333
+name,Sial Arcade Sialkot,1,0.0462,0.0,508.3333
+name,Sialkot Airport Road,1,0.0462,0.0,508.3333
+name,Sibbi,1,0.0462,0.0,508.3333
+name,Siddique Joyo Sindhi Butra,1,0.0462,0.0,508.3333
+name,Sikandar Mahar,1,0.0462,0.0,508.3333
+name,Sindhi Butra,1,0.0462,0.0,508.3333
+name,Sirnikot,1,0.0462,0.0,508.3333
+name,Sobho Khan Magsi,1,0.0462,0.0,508.3333
+name,Sohrab Khan Solangi,1,0.0462,0.0,508.3333
+name,Sona Khan,1,0.0462,0.0,508.3333
+name,Sono Jatoi,1,0.0462,0.0,508.3333
+name,Sono Solangi,1,0.0462,0.0,508.3333
+name,Soomar Chandio,1,0.0462,0.0,508.3333
+name,Soomar Goth,1,0.0462,0.0,508.3333
+name,Soomar Khajar,1,0.0462,0.0,508.3333
+name,Soomar Khan Chandio,1,0.0462,0.0,508.3333
+name,Soomar Khan Kalar,1,0.0462,0.0,508.3333
+name,Soomar Mugheri,1,0.0462,0.0,508.3333
+name,Soomra,1,0.0462,0.0,508.3333
+name,Street 1,1,0.0462,0.0,508.3333
+name,Street 6,1,0.0462,0.0,508.3333
+name,Stuart Ganj,1,0.0462,0.0,508.3333
+name,Suba Khan Nuhani,1,0.0462,0.0,508.3333
+name,Subtation Control Building,1,0.0462,0.0,508.3333
+name,Sufi Rafique Ahmed,1,0.0462,0.0,508.3333
+name,Sukkur Road,1,0.0462,0.0,508.3333
+name,Sultan Samtio,1,0.0462,0.0,508.3333
+name,Syed Bhooral Shah,1,0.0462,0.0,508.3333
+name,Syed Ghulam Shah,1,0.0462,0.0,508.3333
+name,Syed Koral Shah,1,0.0462,0.0,508.3333
+name,Tahir Khan Mugheri,1,0.0462,0.0,508.3333
+name,Taj Muhammad Ruk,1,0.0462,0.0,508.3333
+name,Tajmal Abbas Bhutto Otaq,1,0.0462,0.0,508.3333
+name,Tajodero,1,0.0462,0.0,508.3333
+name,Talagang Mianwali Road,1,0.0462,0.0,508.3333
+name,Talbani,1,0.0462,0.0,508.3333
+name,Talhar Kot,1,0.0462,0.0,508.3333
+name,Tando Adam Bypass,1,0.0462,0.0,508.3333
+name,Tando Adam Landhi Road,1,0.0462,0.0,508.3333
+name,Tando Ali Sher Shah,1,0.0462,0.0,508.3333
+name,Tapal,1,0.0462,0.0,508.3333
+name,Tayyab Abro,1,0.0462,0.0,508.3333
+name,Thath Sharif,1,0.0462,0.0,508.3333
+name,Thatta - Makli Bypass,1,0.0462,0.0,508.3333
+name,Thatta Cement Factory,1,0.0462,0.0,508.3333
+name,Theba,1,0.0462,0.0,508.3333
+name,Thehri,1,0.0462,0.0,508.3333
+name,Thorha,1,0.0462,0.0,508.3333
+name,Thorhi Bijar,1,0.0462,0.0,508.3333
+name,Thorhi Sohrab,1,0.0462,0.0,508.3333
+name,Thul Junejo,1,0.0462,0.0,508.3333
+name,Tindo Mahar,1,0.0462,0.0,508.3333
+name,Tourband,1,0.0462,0.0,508.3333
+name,Trimoonh,1,0.0462,0.0,508.3333
+name,Tunia,1,0.0462,0.0,508.3333
+name,Turail Jagirani,1,0.0462,0.0,508.3333
+name,Uch Power Plant,1,0.0462,0.0,508.3333
+name,Unar Goth,1,0.0462,0.0,508.3333
+name,Usman Bhayoo,1,0.0462,0.0,508.3333
+name,Usman Khokher,1,0.0462,0.0,508.3333
+name,Veesar,1,0.0462,0.0,508.3333
+name,Village Chouhdo Ahmed Yar,1,0.0462,0.0,508.3333
+name,Village Chouhdry Ahmed Yar Road,1,0.0462,0.0,508.3333
+name,Village Haji Abdul Sattar Khan Kalwar Road,1,0.0462,0.0,508.3333
+name,Wad Pagya,1,0.0462,0.0,508.3333
+name,Wada Kolachi,1,0.0462,0.0,508.3333
+name,Wada Machyon,1,0.0462,0.0,508.3333
+name,Wadero Fida Hussain Hulia,1,0.0462,0.0,508.3333
+name,Wadero Hussain Bux Bhand,1,0.0462,0.0,508.3333
+name,Wadha,1,0.0462,0.0,508.3333
+name,Wadho,1,0.0462,0.0,508.3333
+name,Wado Wahan,1,0.0462,0.0,508.3333
+name,Wah Burira,1,0.0462,0.0,508.3333
+name,Wah Wara,1,0.0462,0.0,508.3333
+name,Wahan Solangi,1,0.0462,0.0,508.3333
+name,Wahid Bux Aghani,1,0.0462,0.0,508.3333
+name,Wahid Bux Mugheri,1,0.0462,0.0,508.3333
+name,Wakhar,1,0.0462,0.0,508.3333
+name,Wali Dad Mugheri,1,0.0462,0.0,508.3333
+name,Wali Muhammad Buriro,1,0.0462,0.0,508.3333
+name,Wali Muhammad Jeho,1,0.0462,0.0,508.3333
+name,Wari Goth,1,0.0462,0.0,508.3333
+name,Waris Gambhir,1,0.0462,0.0,508.3333
+name,Warner Waka,1,0.0462,0.0,508.3333
+name,Waryam Shar,1,0.0462,0.0,508.3333
+name,Wazeer Ali Shaikh,1,0.0462,0.0,508.3333
+name,Wilayat Ali Channa,1,0.0462,0.0,508.3333
+name,Wisro Wahan,1,0.0462,0.0,508.3333
+name,Yaar Muhammad Jatoi,1,0.0462,0.0,508.3333
+name,Yaar Muhammad Mari,1,0.0462,0.0,508.3333
+name,Yar Muhammad Brohi,1,0.0462,0.0,508.3333
+name,Yar Muhammad Mugheri,1,0.0462,0.0,508.3333
+name,Yasin Mugheri,1,0.0462,0.0,508.3333
+name,Zaman Kaleri,1,0.0462,0.0,508.3333
+name,Zaman Khan Brohi,1,0.0462,0.0,508.3333
+name,Zawar Manjhi Katohar,1,0.0462,0.0,508.3333
+name,highway,1,0.0462,0.0,508.3333
+name,nasarpur,1,0.0462,0.0,508.3333
+name,o,1,0.0462,0.0,508.3333
+name,shooping center,1,0.0462,0.0,508.3333
+name,v,1,0.0462,0.0,508.3333
+name,آباد بھٹو,1,0.0462,0.0,508.3333
+name,آدم خان پنہور,1,0.0462,0.0,508.3333
+name,آرائين,1,0.0462,0.0,508.3333
+name,آزاد خان بروہی,1,0.0462,0.0,508.3333
+name,ابراهيم جتوئي,1,0.0462,0.0,508.3333
+name,احمد پور,1,0.0462,0.0,508.3333
+name,احمد کلوڑ,1,0.0462,0.0,508.3333
+name,اروڑ,1,0.0462,0.0,508.3333
+name,اسوٹ کوٹ,1,0.0462,0.0,508.3333
+name,اسٹریٹ 1,1,0.0462,0.0,508.3333
+name,اسٹریٹ 2,1,0.0462,0.0,508.3333
+name,اسٹریٹ 3,1,0.0462,0.0,508.3333
+name,اسٹریٹ 4,1,0.0462,0.0,508.3333
+name,اسٹریٹ 5,1,0.0462,0.0,508.3333
+name,الطاف,1,0.0462,0.0,508.3333
+name,امام دین مہر,1,0.0462,0.0,508.3333
+name,امروٹ شریف,1,0.0462,0.0,508.3333
+name,اگانی,1,0.0462,0.0,508.3333
+name,ایئر پورٹ روڈ,1,0.0462,0.0,508.3333
+name,ایئرپورٹ روڈ,1,0.0462,0.0,508.3333
+name,بائجی شریف,1,0.0462,0.0,508.3333
+name,بادل کھوڑو,1,0.0462,0.0,508.3333
+name,باقر شاہ,1,0.0462,0.0,508.3333
+name,باقرانی,1,0.0462,0.0,508.3333
+name,بالی شاہ,1,0.0462,0.0,508.3333
+name,باگڑجی,1,0.0462,0.0,508.3333
+name,ببرلوء,1,0.0462,0.0,508.3333
+name,بجلت گوٹھ,1,0.0462,0.0,508.3333
+name,بخش آباد,1,0.0462,0.0,508.3333
+name,بخشو سیلرو,1,0.0462,0.0,508.3333
+name,بستی جوکھیو,1,0.0462,0.0,508.3333
+name,بستی خیرو,1,0.0462,0.0,508.3333
+name,بستی قسران,1,0.0462,0.0,508.3333
+name,بستی نوری,1,0.0462,0.0,508.3333
+name,بستی پنجتن,1,0.0462,0.0,508.3333
+name,بستی ہدایت,1,0.0462,0.0,508.3333
+name,بشام جي وانڊه,1,0.0462,0.0,508.3333
+name,بشام جی وانڈھ,1,0.0462,0.0,508.3333
+name,بقاپور,1,0.0462,0.0,508.3333
+name,بنگل ديرو,1,0.0462,0.0,508.3333
+name,بودلی مھیسر,1,0.0462,0.0,508.3333
+name,بچانجی,1,0.0462,0.0,508.3333
+name,بکری پاکستان آئل ڈپو,1,0.0462,0.0,508.3333
+name,بھان,1,0.0462,0.0,508.3333
+name,بھرکن,1,0.0462,0.0,508.3333
+name,بھریا روڈ,1,0.0462,0.0,508.3333
+name,بھونبھٹ پور,1,0.0462,0.0,508.3333
+name,بھیل جول,1,0.0462,0.0,508.3333
+name,بھﺮﭽﻮﻧڈ,1,0.0462,0.0,508.3333
+name,بیرو چانڈیو,1,0.0462,0.0,508.3333
+name,بیگمانجی,1,0.0462,0.0,508.3333
+name,تاج محمد بروہی,1,0.0462,0.0,508.3333
+name,ترائی,1,0.0462,0.0,508.3333
+name,تماچانی,1,0.0462,0.0,508.3333
+name,جامعہ مسجد پرانا صدر,1,0.0462,0.0,508.3333
+name,جان محمد جتوئی,1,0.0462,0.0,508.3333
+name,جانی دیرو,1,0.0462,0.0,508.3333
+name,جاگن,1,0.0462,0.0,508.3333
+name,جت بھٹا,1,0.0462,0.0,508.3333
+name,جعفر آباد,1,0.0462,0.0,508.3333
+name,جمانیبا,1,0.0462,0.0,508.3333
+name,جمشید,1,0.0462,0.0,508.3333
+name,جمن جو کوٹھ,1,0.0462,0.0,508.3333
+name,جوگی,1,0.0462,0.0,508.3333
+name,جوڳي,1,0.0462,0.0,508.3333
+name,جھلی کلواڑی,1,0.0462,0.0,508.3333
+name,جھکر کا ٹیلہ,1,0.0462,0.0,508.3333
+name,جہان خان,1,0.0462,0.0,508.3333
+name,جیراں مائی,1,0.0462,0.0,508.3333
+name,جیو مہر,1,0.0462,0.0,508.3333
+name,حاجى موٹایو جاگیرانی,1,0.0462,0.0,508.3333
+name,حاجی امام بخش کیهر,1,0.0462,0.0,508.3333
+name,حاجی امام بخش کیهر قبرستان,1,0.0462,0.0,508.3333
+name,حاجی فاضل بروہی,1,0.0462,0.0,508.3333
+name,حاجی فیض محمد بروہی,1,0.0462,0.0,508.3333
+name,حاجی لکھمیر بروہی,1,0.0462,0.0,508.3333
+name,حاجی مغل کلوڑ,1,0.0462,0.0,508.3333
+name,حافظ آباد,1,0.0462,0.0,508.3333
+name,حبیب کوٹ,1,0.0462,0.0,508.3333
+name,حتمو,1,0.0462,0.0,508.3333
+name,حسن گیس فیلڈ,1,0.0462,0.0,508.3333
+name,حسین واہں,1,0.0462,0.0,508.3333
+name,حسین کلواڑ,1,0.0462,0.0,508.3333
+name,حق باہو,1,0.0462,0.0,508.3333
+name,حولیا,1,0.0462,0.0,508.3333
+name,حیدر بروہی,1,0.0462,0.0,508.3333
+name,حیدرآباد,1,0.0462,0.0,508.3333
+name,خان شاہ,1,0.0462,0.0,508.3333
+name,خان کھوسہ,1,0.0462,0.0,508.3333
+name,خانوالا,1,0.0462,0.0,508.3333
+name,خانگڑھ,1,0.0462,0.0,508.3333
+name,خدا بخش بستی,1,0.0462,0.0,508.3333
+name,خدا بخش سیلرو,1,0.0462,0.0,508.3333
+name,خیر بخش ماڑی,1,0.0462,0.0,508.3333
+name,خیراج,1,0.0462,0.0,508.3333
+name,خیرپور جوسو,1,0.0462,0.0,508.3333
+name,خیرپور جوسو جو دڑو,1,0.0462,0.0,508.3333
+name,دائم مھر,1,0.0462,0.0,508.3333
+name,داد محمد بروہی,1,0.0462,0.0,508.3333
+name,درگاہ سائين عبدالطيف شاہ بخاری پنجوديرو,1,0.0462,0.0,508.3333
+name,درگاہ عالیہ نور پور شریف,1,0.0462,0.0,508.3333
+name,درگاہ پیر جان محمد,1,0.0462,0.0,508.3333
+name,دلدار سمیجو,1,0.0462,0.0,508.3333
+name,دلی جان کھکھرانی,1,0.0462,0.0,508.3333
+name,دهامراه,1,0.0462,0.0,508.3333
+name,دودو سنہڑی,1,0.0462,0.0,508.3333
+name,دین محمد بھیو,1,0.0462,0.0,508.3333
+name,دیہ سوہو,1,0.0462,0.0,508.3333
+name,ذیشان خان پنہور,1,0.0462,0.0,508.3333
+name,رسالہ روڈ,1,0.0462,0.0,508.3333
+name,رستم,1,0.0462,0.0,508.3333
+name,رسول بخش شیخ,1,0.0462,0.0,508.3333
+name,روزی خان پنہور,1,0.0462,0.0,508.3333
+name,روشن آباد,1,0.0462,0.0,508.3333
+name,ريحان خان جمالی,1,0.0462,0.0,508.3333
+name,رک,1,0.0462,0.0,508.3333
+name,رہوجا,1,0.0462,0.0,508.3333
+name,رہونڑاں,1,0.0462,0.0,508.3333
+name,زراعت ٹریننگ انسٹی ٹیوٹ جیکب آباد,1,0.0462,0.0,508.3333
+name,زمان گوٹھ,1,0.0462,0.0,508.3333
+name,زوالفقار علی جلبانی,1,0.0462,0.0,508.3333
+name,سائين عبدالطيف شاہ بخاری,1,0.0462,0.0,508.3333
+name,سارنگ خان شر,1,0.0462,0.0,508.3333
+name,سامٹیہ,1,0.0462,0.0,508.3333
+name,سانول بھٹو,1,0.0462,0.0,508.3333
+name,سانگھڑ‎,1,0.0462,0.0,508.3333
+name,ساہکی جی,1,0.0462,0.0,508.3333
+name,ستار دینو سمیجو,1,0.0462,0.0,508.3333
+name,سخی لال,1,0.0462,0.0,508.3333
+name,سرگو,1,0.0462,0.0,508.3333
+name,سلطان پور,1,0.0462,0.0,508.3333
+name,سموں چاچڑ,1,0.0462,0.0,508.3333
+name,سونو مہر,1,0.0462,0.0,508.3333
+name,سچو بخش جاگرانی,1,0.0462,0.0,508.3333
+name,سچیدنو کلوڑ,1,0.0462,0.0,508.3333
+name,سیال,1,0.0462,0.0,508.3333
+name,سیالکوٹ روڈ,1,0.0462,0.0,508.3333
+name,سیری بازو,1,0.0462,0.0,508.3333
+name,شادی خان جھنڈیر,1,0.0462,0.0,508.3333
+name,شاه قلی پور,1,0.0462,0.0,508.3333
+name,شاہ احمد نورانی روڈ,1,0.0462,0.0,508.3333
+name,شاہ جو,1,0.0462,0.0,508.3333
+name,شاہ لدھانی,1,0.0462,0.0,508.3333
+name,شاہ پنجو,1,0.0462,0.0,508.3333
+name,شاہيارو,1,0.0462,0.0,508.3333
+name,شاہی بازار,1,0.0462,0.0,508.3333
+name,شاہی باغ,1,0.0462,0.0,508.3333
+name,شجاع مائی,1,0.0462,0.0,508.3333
+name,شفیع‌آباد,1,0.0462,0.0,508.3333
+name,شَيخُوپُورہ-شرکپور شریف سڑک,1,0.0462,0.0,508.3333
+name,شکر گڑھ تحصیل,1,0.0462,0.0,508.3333
+name,شہید مہر,1,0.0462,0.0,508.3333
+name,شیر خان جتوئی,1,0.0462,0.0,508.3333
+name,شیر محمد,1,0.0462,0.0,508.3333
+name,شیر محمد جمالی,1,0.0462,0.0,508.3333
+name,صادق شاہ,1,0.0462,0.0,508.3333
+name,صالح شیخ,1,0.0462,0.0,508.3333
+name,صالح مہر,1,0.0462,0.0,508.3333
+name,صدر,1,0.0462,0.0,508.3333
+name,صدرجی,1,0.0462,0.0,508.3333
+name,صدرجی بھٹیوں,1,0.0462,0.0,508.3333
+name,طوبی,1,0.0462,0.0,508.3333
+name,عادل پور,1,0.0462,0.0,508.3333
+name,عاقل,1,0.0462,0.0,508.3333
+name,عالم خان جتوئی,1,0.0462,0.0,508.3333
+name,عبد العزیز جتوئی,1,0.0462,0.0,508.3333
+name,عبد النبی جکرانی,1,0.0462,0.0,508.3333
+name,عبدالرحمان جتوئی,1,0.0462,0.0,508.3333
+name,عبدو گوٹھ,1,0.0462,0.0,508.3333
+name,عرب مہر,1,0.0462,0.0,508.3333
+name,عرض محمد جاگرانی,1,0.0462,0.0,508.3333
+name,عزت جی واندھ,1,0.0462,0.0,508.3333
+name,علی مہر,1,0.0462,0.0,508.3333
+name,غازی خان مہر,1,0.0462,0.0,508.3333
+name,غلام رسول جتوئی,1,0.0462,0.0,508.3333
+name,غلام علی مہیسر,1,0.0462,0.0,508.3333
+name,غلام پور,1,0.0462,0.0,508.3333
+name,غلامان,1,0.0462,0.0,508.3333
+name,فاکیو گوٹھ,1,0.0462,0.0,508.3333
+name,فتح خان,1,0.0462,0.0,508.3333
+name,فتح پور,1,0.0462,0.0,508.3333
+name,فروق پتافی,1,0.0462,0.0,508.3333
+name,فرید آباد،,1,0.0462,0.0,508.3333
+name,فضل محمد خارانی,1,0.0462,0.0,508.3333
+name,فقیر,1,0.0462,0.0,508.3333
+name,فیض آباد,1,0.0462,0.0,508.3333
+name,قاسم گوٹھ,1,0.0462,0.0,508.3333
+name,قبا,1,0.0462,0.0,508.3333
+name,قبرستان گاوں نور محمد پٹھان,1,0.0462,0.0,508.3333
+name,قبہ جامی,1,0.0462,0.0,508.3333
+name,لالو رنک,1,0.0462,0.0,508.3333
+name,لاکو لنجاری,1,0.0462,0.0,508.3333
+name,لاکھا روڈ,1,0.0462,0.0,508.3333
+name,لنگھ,1,0.0462,0.0,508.3333
+name,لوڈرا,1,0.0462,0.0,508.3333
+name,لکيدر,1,0.0462,0.0,508.3333
+name,ماتھیلو,1,0.0462,0.0,508.3333
+name,ماسوگنج,1,0.0462,0.0,508.3333
+name,مبارک پور,1,0.0462,0.0,508.3333
+name,مجانی ڈیرا,1,0.0462,0.0,508.3333
+name,محبوب گوٹھ,1,0.0462,0.0,508.3333
+name,محمد ایوب انڑ,1,0.0462,0.0,508.3333
+name,محمد مراد بروہی,1,0.0462,0.0,508.3333
+name,مدد علی,1,0.0462,0.0,508.3333
+name,مدن گوٹھ,1,0.0462,0.0,508.3333
+name,مدیجی,1,0.0462,0.0,508.3333
+name,مدینہ مسجد چوک,1,0.0462,0.0,508.3333
+name,مرزاپور,1,0.0462,0.0,508.3333
+name,مسو ساہڑ,1,0.0462,0.0,508.3333
+name,مغل پلازہ,1,0.0462,0.0,508.3333
+name,مهر وڏا,1,0.0462,0.0,508.3333
+name,مورانی,1,0.0462,0.0,508.3333
+name,مولھن,1,0.0462,0.0,508.3333
+name,موٹن مھر,1,0.0462,0.0,508.3333
+name,ميتلو,1,0.0462,0.0,508.3333
+name,مٹھیانی,1,0.0462,0.0,508.3333
+name,مچر,1,0.0462,0.0,508.3333
+name,مگسی جو بستی,1,0.0462,0.0,508.3333
+name,مہر بخش آباد,1,0.0462,0.0,508.3333
+name,مہران کیهر,1,0.0462,0.0,508.3333
+name,مہیسر,1,0.0462,0.0,508.3333
+name,میانوالی,1,0.0462,0.0,508.3333
+name,میاں صاحب,1,0.0462,0.0,508.3333
+name,میر اصغر علی خان پنہور,1,0.0462,0.0,508.3333
+name,میر خان سوہو,1,0.0462,0.0,508.3333
+name,میر پور برڑو,1,0.0462,0.0,508.3333
+name,نارنگ منڈی,1,0.0462,0.0,508.3333
+name,ناصر آباد,1,0.0462,0.0,508.3333
+name,ناپر گوٹھ,1,0.0462,0.0,508.3333
+name,ناپڑ خان گورچانی,1,0.0462,0.0,508.3333
+name,نمھورو,1,0.0462,0.0,508.3333
+name,نور محمد بروہی,1,0.0462,0.0,508.3333
+name,نور محمد پٹھان,1,0.0462,0.0,508.3333
+name,نوراجا,1,0.0462,0.0,508.3333
+name,نورل چاچڑ,1,0.0462,0.0,508.3333
+name,نٸون گوٹھ,1,0.0462,0.0,508.3333
+name,نیو امروٹ,1,0.0462,0.0,508.3333
+name,نیک محمد,1,0.0462,0.0,508.3333
+name,وحید کلہوڑو,1,0.0462,0.0,508.3333
+name,وزیر آباد,1,0.0462,0.0,508.3333
+name,وسایو جیھو,1,0.0462,0.0,508.3333
+name,وسایو جیہو,1,0.0462,0.0,508.3333
+name,ولو مھر,1,0.0462,0.0,508.3333
+name,ولي محمد وسطڑو,1,0.0462,0.0,508.3333
+name,ونگانی,1,0.0462,0.0,508.3333
+name,وکيا سانگی,1,0.0462,0.0,508.3333
+name,وڪيا سانگي,1,0.0462,0.0,508.3333
+name,ویگن,1,0.0462,0.0,508.3333
+name,ویہوا,1,0.0462,0.0,508.3333
+name,ٹنڈو نذر علی,1,0.0462,0.0,508.3333
+name,ٹھوڑھا,1,0.0462,0.0,508.3333
+name,ٹھٹ گوراہو,1,0.0462,0.0,508.3333
+name,ٹھکراٹو,1,0.0462,0.0,508.3333
+name,ٹھینڈا,1,0.0462,0.0,508.3333
+name,ٺهوف چوسول,1,0.0462,0.0,508.3333
+name,پارکو پاکستان لمیٹڈ,1,0.0462,0.0,508.3333
+name,پاکستان اسٹیٹ آئل,1,0.0462,0.0,508.3333
+name,پرانا جتوئی,1,0.0462,0.0,508.3333
+name,پرانا صدر,1,0.0462,0.0,508.3333
+name,پرانو آباد,1,0.0462,0.0,508.3333
+name,پریالوئی,1,0.0462,0.0,508.3333
+name,پليو خان گوپانگ,1,0.0462,0.0,508.3333
+name,پنجوديرو,1,0.0462,0.0,508.3333
+name,پنہوری,1,0.0462,0.0,508.3333
+name,پهور,1,0.0462,0.0,508.3333
+name,پٹنی,1,0.0462,0.0,508.3333
+name,پکا چانگ,1,0.0462,0.0,508.3333
+name,پھولپوٹو,1,0.0462,0.0,508.3333
+name,پیر بخش مالک,1,0.0462,0.0,508.3333
+name,پیر جان محمد,1,0.0462,0.0,508.3333
+name,پیر جو گوٹھ,1,0.0462,0.0,508.3333
+name,پیر حضوري,1,0.0462,0.0,508.3333
+name,پیچوھا,1,0.0462,0.0,508.3333
+name,چانڈیو,1,0.0462,0.0,508.3333
+name,چنگلاني,1,0.0462,0.0,508.3333
+name,چوہار پور,1,0.0462,0.0,508.3333
+name,چڀڙ خان خاصخيلي,1,0.0462,0.0,508.3333
+name,چکی,1,0.0462,0.0,508.3333
+name,ڈراگو,1,0.0462,0.0,508.3333
+name,ڈکن,1,0.0462,0.0,508.3333
+name,ڈھڈھرو,1,0.0462,0.0,508.3333
+name,ڈیپارجا,1,0.0462,0.0,508.3333
+name,کبالو,1,0.0462,0.0,508.3333
+name,کبڑی,1,0.0462,0.0,508.3333
+name,کبڙي,1,0.0462,0.0,508.3333
+name,کرن,1,0.0462,0.0,508.3333
+name,کریم آباد,1,0.0462,0.0,508.3333
+name,کشی جو گوٹھ,1,0.0462,0.0,508.3333
+name,کمال شاہ,1,0.0462,0.0,508.3333
+name,کنڈو,1,0.0462,0.0,508.3333
+name,کورٹ روڈ,1,0.0462,0.0,508.3333
+name,کوٹ ممتاز,1,0.0462,0.0,508.3333
+name,کوٹ ڈیجی,1,0.0462,0.0,508.3333
+name,کھوڑا,1,0.0462,0.0,508.3333
+name,کھوکھر,1,0.0462,0.0,508.3333
+name,کیہر,1,0.0462,0.0,508.3333
+name,گاہیجا,1,0.0462,0.0,508.3333
+name,گل محمد بلوچ,1,0.0462,0.0,508.3333
+name,گل محمد وسیر,1,0.0462,0.0,508.3333
+name,گنجا,1,0.0462,0.0,508.3333
+name,گوجرانوالہ,1,0.0462,0.0,508.3333
+name,گوسڑجی,1,0.0462,0.0,508.3333
+name,گولا بلوچ,1,0.0462,0.0,508.3333
+name,گوٹھ اعظم,1,0.0462,0.0,508.3333
+name,گوٹھ اللہ وسایو,1,0.0462,0.0,508.3333
+name,گوٹھ بہاول دین آرائیں,1,0.0462,0.0,508.3333
+name,گوٹھ جمن,1,0.0462,0.0,508.3333
+name,گوٹھ جواری شاہ,1,0.0462,0.0,508.3333
+name,گوٹھ حاجامو,1,0.0462,0.0,508.3333
+name,گوٹھ حاصل خان,1,0.0462,0.0,508.3333
+name,گوٹھ عبد المجید,1,0.0462,0.0,508.3333
+name,گوٹھ عبداللہ,1,0.0462,0.0,508.3333
+name,گوٹھ علی شیر چانگ,1,0.0462,0.0,508.3333
+name,گوٹھ میر محمد بھٹو,1,0.0462,0.0,508.3333
+name,گوٹھ گلاب بھٹو,1,0.0462,0.0,508.3333
+name,گڑھی خدا بخش,1,0.0462,0.0,508.3333
+name,گڑھی سید,1,0.0462,0.0,508.3333
+name,گڑھی محراب,1,0.0462,0.0,508.3333
+name,گھمرو گوٹھ,1,0.0462,0.0,508.3333
+name,گھنٹہ گھر,1,0.0462,0.0,508.3333
+name,ڳوٺ حاجي ٻڍو ڀرچونڊ,1,0.0462,0.0,508.3333
+name,ھسپتال روڈ,1,0.0462,0.0,508.3333
+name,ہاشم آباد,1,0.0462,0.0,508.3333
+name,ہاشم گوٹھ,1,0.0462,0.0,508.3333
+name,ہالانی,1,0.0462,0.0,508.3333
+name,ہذیفہ گوٹھ,1,0.0462,0.0,508.3333
+name,ہرون جتوئی,1,0.0462,0.0,508.3333
+name,ہمایوں,1,0.0462,0.0,508.3333
+name,ہنگورو,1,0.0462,0.0,508.3333
+name,ہوت خان جلبانی,1,0.0462,0.0,508.3333
+name,یقوب گوٹھ,1,0.0462,0.0,508.3333
+name,ﷲ رکیو,1,0.0462,0.0,508.3333
+natural,water,1540,93.9597,153900.0,936733.3333
+natural,tree,81,4.942,8000.0,49175.0
+natural,wood,6,0.3661,500.0,3550.0
+natural,tree_row,4,0.2441,300.0,2333.3333
+natural,wetland,3,0.183,200.0,1725.0
+natural,grassland,2,0.122,100.0,1116.6667
+natural,scrub,2,0.122,100.0,1116.6667
+natural,lake,1,0.061,0.0,508.3333
+source,maxar,1980,56.6038,197900.0,1204400.0
+source,Maxar,634,18.1246,63300.0,385583.3333
+source,http://osm.arkemie.org/cgi-bin/tiles/1.0.0/pakistan_250k_mosaic/!/!/!,154,4.4025,15300.0,93583.3333
+source,Bing,145,4.1452,14400.0,88108.3333
+source,digitalglobe,129,3.6878,12800.0,78375.0
+source,Yahoo,103,2.9445,10200.0,62558.3333
+source,bing,68,1.944,6700.0,41266.6667
+source,Bing LoRes,30,0.8576,2900.0,18150.0
+source,SPOT hires PK 2008,26,0.7433,2500.0,15716.6667
+source,NEOC,23,0.6575,2200.0,13891.6667
+source,landsat,21,0.6003,2000.0,12675.0
+source,"Spot, CNES - Spot Image, 2008",18,0.5146,1700.0,10850.0
+source,"satellite, Yahoo, 2006",18,0.5146,1700.0,10850.0
+source,aerial imagery;Maxar Imagery,16,0.4574,1500.0,9633.3333
+source,Landsat,15,0.4288,1400.0,9025.0
+source,"satellite, Yahoo, 2008",14,0.4002,1300.0,8416.6667
+source,"satellite,spot, 2008",14,0.4002,1300.0,8416.6667
+source,Yahoo (hi-res),13,0.3716,1200.0,7808.3333
+source,Yahoo hires,12,0.3431,1100.0,7200.0
+source,"Spot, CNES - Spot Image, 2008;bing;Bing;landsat",10,0.2859,900.0,5983.3333
+source,microsoft/BuildingFootprints,10,0.2859,900.0,5983.3333
+source,SPOT,8,0.2287,700.0,4766.6667
+source,GPS,7,0.2001,600.0,4158.3333
+source,yahoo,6,0.1715,500.0,3550.0
+source,LandSat,5,0.1429,400.0,2941.6667
+source,Yahoo aerial imagery,4,0.1144,300.0,2333.3333
+source,DigitalGlobe-Premium,3,0.0858,200.0,1725.0
+source,Maxar Premium Imagery,3,0.0858,200.0,1725.0
+source,OCHA,2,0.0572,100.0,1116.6667
+source,"DMA map NG 42-2, 1982",1,0.0286,0.0,508.3333
+source,GNS,1,0.0286,0.0,508.3333
+source,GPS;Bing,1,0.0286,0.0,508.3333
+source,Maaxar,1,0.0286,0.0,508.3333
+source,Maxaar,1,0.0286,0.0,508.3333
+source,w,1,0.0286,0.0,508.3333
+source,www.adb.org,1,0.0286,0.0,508.3333
+surface,unpaved,2011,68.5412,201000.0,1223258.3333
+surface,asphalt,468,15.9509,46700.0,284600.0
+surface,compacted,206,7.0211,20500.0,125216.6667
+surface,dirt,92,3.1357,9100.0,55866.6667
+surface,paved,91,3.1016,9000.0,55258.3333
+surface,ground,64,2.1813,6300.0,38833.3333
+surface,concrete,1,0.0341,0.0,508.3333
+surface,gravel,1,0.0341,0.0,508.3333
+waterway,canal,2041,56.0253,204000.0,1241508.3333
+waterway,river,630,17.2934,62900.0,383150.0
+waterway,ditch,418,11.4741,41700.0,254183.3333
+waterway,stream,222,6.0939,22100.0,134950.0
+waterway,drain,180,4.941,17900.0,109400.0
+waterway,weir,118,3.2391,11700.0,71683.3333
+waterway,dam,23,0.6313,2200.0,13891.6667
+waterway,tidal_channel,5,0.1372,400.0,2941.6667
+waterway,milestone,3,0.0823,200.0,1725.0
+waterway,waterfall,2,0.0549,100.0,1116.6667
+waterway,dock,1,0.0274,0.0,508.3333

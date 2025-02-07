@@ -1,0 +1,12 @@
+period1,period2,key,kendall_rank_correlation,kendall_p_value,cosine_similarity,pearson_correlation,pearson_p_value
+imm,post,building,1.0,1.0,0.999,1.0,1.0
+imm,post,highway,0.7143,0.0141369,0.9092,0.7366,0.03714574266358889
+imm,post,source,0.527,0.2065073,0.8842,0.7628,0.13359731369852695
+imm,post,name,0.0,1.0,0.4548,-0.1954,0.7106214799742173
+imm,post,surface,nan,nan,0,0,0
+imm,post,amenity,nan,nan,0.8137,nan,nan
+imm,post,landuse,-1.0,1.0,0.9762,-1.0,1.0
+imm,post,waterway,nan,nan,0,0,0
+imm,post,natural,nan,nan,0.8321,nan,nan
+imm,post,leisure,nan,nan,0,0,0
+imm,post,emergency,nan,nan,0,0,0

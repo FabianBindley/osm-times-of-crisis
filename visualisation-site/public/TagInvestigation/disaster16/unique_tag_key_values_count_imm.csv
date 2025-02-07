@@ -1,0 +1,454 @@
+key,value,count,percent_of_total_changes_for_key,percent_difference_from_pre,percent_difference_from_pre_day
+amenity,kitchen,44,36.6667,4300.0,26666.6667
+amenity,school,19,15.8333,1800.0,11458.3333
+amenity,shower,17,14.1667,1600.0,10241.6667
+amenity,toilets,16,13.3333,1500.0,9633.3333
+amenity,place_of_worship,6,5.0,500.0,3550.0
+amenity,fixme,4,3.3333,300.0,2333.3333
+amenity,police,2,1.6667,100.0,1116.6667
+amenity,studio,2,1.6667,100.0,1116.6667
+amenity,atm,1,0.8333,0.0,508.3333
+amenity,bar,1,0.8333,0.0,508.3333
+amenity,cafe,1,0.8333,0.0,508.3333
+amenity,courthouse,1,0.8333,0.0,508.3333
+amenity,fuel,1,0.8333,0.0,508.3333
+amenity,health_post,1,0.8333,0.0,508.3333
+amenity,marketplace,1,0.8333,0.0,508.3333
+amenity,post_office,1,0.8333,0.0,508.3333
+amenity,restaurant,1,0.8333,0.0,508.3333
+amenity,university,1,0.8333,0.0,508.3333
+building,yes,223779,98.5376,22377800.0,136132125.0
+building,house,2895,1.2748,289400.0,1761025.0
+building,residential,231,0.1017,23000.0,140425.0
+building,construction,113,0.0498,11200.0,68641.6667
+building,school,19,0.0084,1800.0,11458.3333
+building,roof,12,0.0053,1100.0,7200.0
+building,commercial,10,0.0044,900.0,5983.3333
+building,shed,7,0.0031,600.0,4158.3333
+building,hut,5,0.0022,400.0,2941.6667
+building,ruins,4,0.0018,300.0,2333.3333
+building,unfinished_building,4,0.0018,300.0,2333.3333
+building,industrial,3,0.0013,200.0,1725.0
+building,apartments,2,0.0009,100.0,1116.6667
+building,barn,2,0.0009,100.0,1116.6667
+building,church,2,0.0009,100.0,1116.6667
+building,mosque,2,0.0009,100.0,1116.6667
+building,bati,1,0.0004,0.0,508.3333
+building,farm,1,0.0004,0.0,508.3333
+building,farm_auxiliary,1,0.0004,0.0,508.3333
+building,garage,1,0.0004,0.0,508.3333
+building,hospital,1,0.0004,0.0,508.3333
+building,hotel,1,0.0004,0.0,508.3333
+building,maize mill,1,0.0004,0.0,508.3333
+building,stable,1,0.0004,0.0,508.3333
+building,warehouse,1,0.0004,0.0,508.3333
+building,yesq,1,0.0004,0.0,508.3333
+emergency,yes,12,92.3077,1100.0,7200.0
+emergency,no,1,7.6923,0.0,508.3333
+highway,path,4767,35.8556,476600.0,2899825.0
+highway,unclassified,3027,22.768,302600.0,1841325.0
+highway,residential,2135,16.0587,213400.0,1298691.6667
+highway,track,1964,14.7725,196300.0,1194666.6667
+highway,service,538,4.0466,53700.0,327183.3333
+highway,tertiary,427,3.2117,42600.0,259658.3333
+highway,footway,189,1.4216,18800.0,114875.0
+highway,secondary,146,1.0982,14500.0,88716.6667
+highway,trunk,43,0.3234,4200.0,26058.3333
+highway,crossing,32,0.2407,3100.0,19366.6667
+highway,minor/unclassified,14,0.1053,1300.0,8416.6667
+highway,primary,9,0.0677,800.0,5375.0
+highway,ford,1,0.0075,0.0,508.3333
+highway,road,1,0.0075,0.0,508.3333
+highway,turning_circle,1,0.0075,0.0,508.3333
+highway,yes,1,0.0075,0.0,508.3333
+landuse,residential,2219,83.0775,221800.0,1349791.6667
+landuse,house,324,12.1303,32300.0,197000.0
+landuse,farmland,44,1.6473,4300.0,26666.6667
+landuse,yes,13,0.4867,1200.0,7808.3333
+landuse,commercial,9,0.337,800.0,5375.0
+landuse,school,8,0.2995,700.0,4766.6667
+landuse,farmyard,7,0.2621,600.0,4158.3333
+landuse,forest,7,0.2621,600.0,4158.3333
+landuse,meadow,7,0.2621,600.0,4158.3333
+landuse,industrial,6,0.2246,500.0,3550.0
+landuse,conservation,5,0.1872,400.0,2941.6667
+landuse,footpath,3,0.1123,200.0,1725.0
+landuse,path,3,0.1123,200.0,1725.0
+landuse,House,2,0.0749,100.0,1116.6667
+landuse,cemetery,2,0.0749,100.0,1116.6667
+landuse,temporary,2,0.0749,100.0,1116.6667
+landuse,village_green,2,0.0749,100.0,1116.6667
+landuse,Temporary,1,0.0374,0.0,508.3333
+landuse,church,1,0.0374,0.0,508.3333
+landuse,compound,1,0.0374,0.0,508.3333
+landuse,farmlandq,1,0.0374,0.0,508.3333
+landuse,garden,1,0.0374,0.0,508.3333
+landuse,hose,1,0.0374,0.0,508.3333
+landuse,livestock,1,0.0374,0.0,508.3333
+landuse,military,1,0.0374,0.0,508.3333
+leisure,swimming_pool,12,46.1538,1100.0,7200.0
+leisure,pitch,5,19.2308,400.0,2941.6667
+leisure,marina,3,11.5385,200.0,1725.0
+leisure,nature_reserve,3,11.5385,200.0,1725.0
+leisure,park,2,7.6923,100.0,1116.6667
+leisure,playground,1,3.8462,0.0,508.3333
+name,#Aviva #AvivaUK,40,6.0698,3900.0,24233.3333
+name,Batiment,23,3.4901,2200.0,13891.6667
+name,Permanent,23,3.4901,2200.0,13891.6667
+name,house,19,2.8832,1800.0,11458.3333
+name,Mount Mulanje,15,2.2762,1400.0,9025.0
+name,Temporary,15,2.2762,1400.0,9025.0
+name,roof=permanent,15,2.2762,1400.0,9025.0
+name,T414,13,1.9727,1200.0,7808.3333
+name,Phalombe,12,1.8209,1100.0,7200.0
+name,semi permanent,11,1.6692,1000.0,6591.6667
+name,byggnad,10,1.5175,900.0,5983.3333
+name,T411,8,1.214,700.0,4766.6667
+name,Lukhubula,7,1.0622,600.0,4158.3333
+name,Mwamphanzi,7,1.0622,600.0,4158.3333
+name,Mapalera River,6,0.9105,500.0,3550.0
+name,Shire,6,0.9105,500.0,3550.0
+name,footpath,6,0.9105,500.0,3550.0
+name,House,5,0.7587,400.0,2941.6667
+name,Midima Road,5,0.7587,400.0,2941.6667
+name,Mulosa,5,0.7587,400.0,2941.6667
+name,Nagoli,5,0.7587,400.0,2941.6667
+name,Nchalo Illovo Sugar Estate,5,0.7587,400.0,2941.6667
+name,Sombani,5,0.7587,400.0,2941.6667
+name,menne manta,5,0.7587,400.0,2941.6667
+name,Building,4,0.607,300.0,2333.3333
+name,Lisangadzi,4,0.607,300.0,2333.3333
+name,MAPERERA RIVER,4,0.607,300.0,2333.3333
+name,Mangoma,4,0.607,300.0,2333.3333
+name,Mtyala,4,0.607,300.0,2333.3333
+name,Namalani,4,0.607,300.0,2333.3333
+name,S152,4,0.607,300.0,2333.3333
+name,T419,4,0.607,300.0,2333.3333
+name,de sam ter BEEK,4,0.607,300.0,2333.3333
+name,#bobcatyouthmappers,3,0.4552,200.0,1725.0
+name,Baluti,3,0.4552,200.0,1725.0
+name,Chirombo,3,0.4552,200.0,1725.0
+name,Highway,3,0.4552,200.0,1725.0
+name,Khurune,3,0.4552,200.0,1725.0
+name,Malembo,3,0.4552,200.0,1725.0
+name,Monkey Bay,3,0.4552,200.0,1725.0
+name,Mureka,3,0.4552,200.0,1725.0
+name,Mwanza,3,0.4552,200.0,1725.0
+name,Namizimu Forest Reserve,3,0.4552,200.0,1725.0
+name,Nkhulambe 1,3,0.4552,200.0,1725.0
+name,Nkhulambe 2,3,0.4552,200.0,1725.0
+name,Nkhulambe A,3,0.4552,200.0,1725.0
+name,Tuchila Forest Reserve,3,0.4552,200.0,1725.0
+name,kitchen,3,0.4552,200.0,1725.0
+name,temporary,3,0.4552,200.0,1725.0
+name,Bangwe,2,0.3035,100.0,1116.6667
+name,Bodole,2,0.3035,100.0,1116.6667
+name,Chigwirigwidi,2,0.3035,100.0,1116.6667
+name,Chiradzulu Forest Reserve,2,0.3035,100.0,1116.6667
+name,Domasi Aquaculture Center,2,0.3035,100.0,1116.6667
+name,Jonamu,2,0.3035,100.0,1116.6667
+name,Kanjedza,2,0.3035,100.0,1116.6667
+name,Lake Malawi National Park,2,0.3035,100.0,1116.6667
+name,Luchenza R,2,0.3035,100.0,1116.6667
+name,Luchenza river,2,0.3035,100.0,1116.6667
+name,Luwaniwa,2,0.3035,100.0,1116.6667
+name,Madukano,2,0.3035,100.0,1116.6667
+name,Makanga Drive,2,0.3035,100.0,1116.6667
+name,Makuluni (D),2,0.3035,100.0,1116.6667
+name,Mangochi Forest Reserve,2,0.3035,100.0,1116.6667
+name,Manyamba,2,0.3035,100.0,1116.6667
+name,Mbayani,2,0.3035,100.0,1116.6667
+name,Mchese Forest Reserve,2,0.3035,100.0,1116.6667
+name,Misesa,2,0.3035,100.0,1116.6667
+name,Mkwela,2,0.3035,100.0,1116.6667
+name,Msanjere River,2,0.3035,100.0,1116.6667
+name,Mtemankokwe,2,0.3035,100.0,1116.6667
+name,Muhura,2,0.3035,100.0,1116.6667
+name,Muleka,2,0.3035,100.0,1116.6667
+name,Mulelemba,2,0.3035,100.0,1116.6667
+name,Mulera,2,0.3035,100.0,1116.6667
+name,Namahiya,2,0.3035,100.0,1116.6667
+name,Namata,2,0.3035,100.0,1116.6667
+name,Namikalango River,2,0.3035,100.0,1116.6667
+name,Nanyalo,2,0.3035,100.0,1116.6667
+name,Njela Hills,2,0.3035,100.0,1116.6667
+name,Nkhate River,2,0.3035,100.0,1116.6667
+name,Nomanda,2,0.3035,100.0,1116.6667
+name,Nthita,2,0.3035,100.0,1116.6667
+name,PIM Police Office,2,0.3035,100.0,1116.6667
+name,Pensulo,2,0.3035,100.0,1116.6667
+name,Ruo–Ndiza Hydroelectric Power Station,2,0.3035,100.0,1116.6667
+name,T385,2,0.3035,100.0,1116.6667
+name,Unkown road,2,0.3035,100.0,1116.6667
+name,Village Forest Area,2,0.3035,100.0,1116.6667
+name,Yohane,2,0.3035,100.0,1116.6667
+name,access road,2,0.3035,100.0,1116.6667
+name,building,2,0.3035,100.0,1116.6667
+name,foot path,2,0.3035,100.0,1116.6667
+name,path,2,0.3035,100.0,1116.6667
+name,#Flood,1,0.1517,0.0,508.3333
+name,#cancross,1,0.1517,0.0,508.3333
+name,Arrows resstaurant,1,0.1517,0.0,508.3333
+name,BANDA's HOUSE,1,0.1517,0.0,508.3333
+name,Bereu-kalima path,1,0.1517,0.0,508.3333
+name,Bonksville,1,0.1517,0.0,508.3333
+name,Buliding,1,0.1517,0.0,508.3333
+name,Bwanji,1,0.1517,0.0,508.3333
+name,Chiduba,1,0.1517,0.0,508.3333
+name,Chief_chipoka,1,0.1517,0.0,508.3333
+name,Chigwaya Road T409,1,0.1517,0.0,508.3333
+name,Chinyama to Mulanje Boma,1,0.1517,0.0,508.3333
+name,Chiringa Post Office,1,0.1517,0.0,508.3333
+name,Chitawo,1,0.1517,0.0,508.3333
+name,Church,1,0.1517,0.0,508.3333
+name,Crayons Nursery and Pre-School,1,0.1517,0.0,508.3333
+name,Degadega,1,0.1517,0.0,508.3333
+name,Desert graveyard,1,0.1517,0.0,508.3333
+name,Desert ground,1,0.1517,0.0,508.3333
+name,Desrt graveyard,1,0.1517,0.0,508.3333
+name,Dirt Road,1,0.1517,0.0,508.3333
+name,Domasi prison farm,1,0.1517,0.0,508.3333
+name,Dr. Thejopal's Surgery,1,0.1517,0.0,508.3333
+name,Flood,1,0.1517,0.0,508.3333
+name,Flood prone houes,1,0.1517,0.0,508.3333
+name,Guest House,1,0.1517,0.0,508.3333
+name,Guziwa A,1,0.1517,0.0,508.3333
+name,Gwirima,1,0.1517,0.0,508.3333
+name,Home,1,0.1517,0.0,508.3333
+name,House affacted by flods,1,0.1517,0.0,508.3333
+name,House affcated by floods,1,0.1517,0.0,508.3333
+name,House in flood prone aarea,1,0.1517,0.0,508.3333
+name,James,1,0.1517,0.0,508.3333
+name,Janken,1,0.1517,0.0,508.3333
+name,Kamchira,1,0.1517,0.0,508.3333
+name,Kapito,1,0.1517,0.0,508.3333
+name,Katarima,1,0.1517,0.0,508.3333
+name,Khanyepa,1,0.1517,0.0,508.3333
+name,Khulune,1,0.1517,0.0,508.3333
+name,Koche CDSS (Community Day Secondary School),1,0.1517,0.0,508.3333
+name,Koche_CCAP_church_and_Manse,1,0.1517,0.0,508.3333
+name,Kubwalo,1,0.1517,0.0,508.3333
+name,Lalanje,1,0.1517,0.0,508.3333
+name,Likhura,1,0.1517,0.0,508.3333
+name,Likhura A,1,0.1517,0.0,508.3333
+name,Likhura A - Likhura,1,0.1517,0.0,508.3333
+name,Likhuza,1,0.1517,0.0,508.3333
+name,Limbe Market,1,0.1517,0.0,508.3333
+name,Ling'Weng'We,1,0.1517,0.0,508.3333
+name,Liphava,1,0.1517,0.0,508.3333
+name,Livunku River,1,0.1517,0.0,508.3333
+name,Lodge,1,0.1517,0.0,508.3333
+name,Lolo,1,0.1517,0.0,508.3333
+name,Lomoliwa,1,0.1517,0.0,508.3333
+name,Lujeri Estate,1,0.1517,0.0,508.3333
+name,Lunguni,1,0.1517,0.0,508.3333
+name,Lupha,1,0.1517,0.0,508.3333
+name,M1,1,0.1517,0.0,508.3333
+name,MIE,1,0.1517,0.0,508.3333
+name,Machinjiri,1,0.1517,0.0,508.3333
+name,Madeya,1,0.1517,0.0,508.3333
+name,Mafukeni,1,0.1517,0.0,508.3333
+name,Magambe,1,0.1517,0.0,508.3333
+name,Mahatma Gandhi Avenue,1,0.1517,0.0,508.3333
+name,Makande,1,0.1517,0.0,508.3333
+name,Makuluni,1,0.1517,0.0,508.3333
+name,Makuluni (A),1,0.1517,0.0,508.3333
+name,Makuluni (B),1,0.1517,0.0,508.3333
+name,Makumbi 1,1,0.1517,0.0,508.3333
+name,Malambe,1,0.1517,0.0,508.3333
+name,Maldeco Fisheries,1,0.1517,0.0,508.3333
+name,Malunda (A),1,0.1517,0.0,508.3333
+name,Malunda (B),1,0.1517,0.0,508.3333
+name,Malunda (D),1,0.1517,0.0,508.3333
+name,Malunda (E),1,0.1517,0.0,508.3333
+name,Mapanga Industrial Area,1,0.1517,0.0,508.3333
+name,Mapondo,1,0.1517,0.0,508.3333
+name,Maseya,1,0.1517,0.0,508.3333
+name,Mawira,1,0.1517,0.0,508.3333
+name,Mbenderan,1,0.1517,0.0,508.3333
+name,Mberenga,1,0.1517,0.0,508.3333
+name,Mbeza,1,0.1517,0.0,508.3333
+name,Mbilimuno,1,0.1517,0.0,508.3333
+name,Mbwadzulu School,1,0.1517,0.0,508.3333
+name,Mchenga,1,0.1517,0.0,508.3333
+name,Mgele 1,1,0.1517,0.0,508.3333
+name,Mibawa Television Ststion,1,0.1517,0.0,508.3333
+name,Military tank (wreck?),1,0.1517,0.0,508.3333
+name,Misomali,1,0.1517,0.0,508.3333
+name,Mjojo,1,0.1517,0.0,508.3333
+name,Mmora,1,0.1517,0.0,508.3333
+name,Monkey Bay Pvt School,1,0.1517,0.0,508.3333
+name,Mpama Drive,1,0.1517,0.0,508.3333
+name,Mpama Full Primary School,1,0.1517,0.0,508.3333
+name,Msikita,1,0.1517,0.0,508.3333
+name,Mtikhe,1,0.1517,0.0,508.3333
+name,Mudeni,1,0.1517,0.0,508.3333
+name,Mudi,1,0.1517,0.0,508.3333
+name,Mugawanya,1,0.1517,0.0,508.3333
+name,Mukitha,1,0.1517,0.0,508.3333
+name,Mukwiyo,1,0.1517,0.0,508.3333
+name,Mulaviwa,1,0.1517,0.0,508.3333
+name,Mulelemba N,1,0.1517,0.0,508.3333
+name,Mulera B,1,0.1517,0.0,508.3333
+name,Murikere,1,0.1517,0.0,508.3333
+name,Muruwesi,1,0.1517,0.0,508.3333
+name,Musherima,1,0.1517,0.0,508.3333
+name,Mutanga,1,0.1517,0.0,508.3333
+name,Mwalala,1,0.1517,0.0,508.3333
+name,Mwaliwa,1,0.1517,0.0,508.3333
+name,Mwalura,1,0.1517,0.0,508.3333
+name,Mwanakhu,1,0.1517,0.0,508.3333
+name,Mwanamunu,1,0.1517,0.0,508.3333
+name,Mwananjovu 2,1,0.1517,0.0,508.3333
+name,Mwazule,1,0.1517,0.0,508.3333
+name,NAC staff houses,1,0.1517,0.0,508.3333
+name,Nachanje,1,0.1517,0.0,508.3333
+name,Nachima A,1,0.1517,0.0,508.3333
+name,Nachuma,1,0.1517,0.0,508.3333
+name,Nakoma,1,0.1517,0.0,508.3333
+name,Nakonaka,1,0.1517,0.0,508.3333
+name,Nakude,1,0.1517,0.0,508.3333
+name,Nakukhu,1,0.1517,0.0,508.3333
+name,Naliya,1,0.1517,0.0,508.3333
+name,Namadzi,1,0.1517,0.0,508.3333
+name,Namaja,1,0.1517,0.0,508.3333
+name,Nambiri,1,0.1517,0.0,508.3333
+name,Nampinga,1,0.1517,0.0,508.3333
+name,Naperi,1,0.1517,0.0,508.3333
+name,Nazerene PVT Sec Sch,1,0.1517,0.0,508.3333
+name,Ndiza,1,0.1517,0.0,508.3333
+name,Nekete,1,0.1517,0.0,508.3333
+name,Niche 1,1,0.1517,0.0,508.3333
+name,Njovu,1,0.1517,0.0,508.3333
+name,Nkhulambe,1,0.1517,0.0,508.3333
+name,Nkhumbiza RIver,1,0.1517,0.0,508.3333
+name,Norupo,1,0.1517,0.0,508.3333
+name,Not known yet,1,0.1517,0.0,508.3333
+name,Nsiyankhuni,1,0.1517,0.0,508.3333
+name,Ntalava,1,0.1517,0.0,508.3333
+name,Nthowa,1,0.1517,0.0,508.3333
+name,Ntikhe,1,0.1517,0.0,508.3333
+name,Ntikhe 1,1,0.1517,0.0,508.3333
+name,Ntinkhe,1,0.1517,0.0,508.3333
+name,Nyala Road,1,0.1517,0.0,508.3333
+name,Nyambadwe,1,0.1517,0.0,508.3333
+name,Operiwa,1,0.1517,0.0,508.3333
+name,Osiyana Health Center,1,0.1517,0.0,508.3333
+name,Phikilisa,1,0.1517,0.0,508.3333
+name,Phoenix International Primary School,1,0.1517,0.0,508.3333
+name,Phweremwe,1,0.1517,0.0,508.3333
+name,Reaidential erea,1,0.1517,0.0,508.3333
+name,Road,1,0.1517,0.0,508.3333
+name,Romoliwa,1,0.1517,0.0,508.3333
+name,Route,1,0.1517,0.0,508.3333
+name,Ruo,1,0.1517,0.0,508.3333
+name,Ruwaniwa,1,0.1517,0.0,508.3333
+name,SCHOOL,1,0.1517,0.0,508.3333
+name,SDA Church,1,0.1517,0.0,508.3333
+name,ST John Catholic School,1,0.1517,0.0,508.3333
+name,STAFF HOUSE,1,0.1517,0.0,508.3333
+name,Samile,1,0.1517,0.0,508.3333
+name,Sapali,1,0.1517,0.0,508.3333
+name,School Block,1,0.1517,0.0,508.3333
+name,School Hall,1,0.1517,0.0,508.3333
+name,School Kitchen,1,0.1517,0.0,508.3333
+name,Semi Permanent Mosque,1,0.1517,0.0,508.3333
+name,Standi,1,0.1517,0.0,508.3333
+name,Sugarcane market,1,0.1517,0.0,508.3333
+name,Sumbeya,1,0.1517,0.0,508.3333
+name,SwoopAero Country HQ,1,0.1517,0.0,508.3333
+name,TWAHA'S GROUP OF COMPANIES,1,0.1517,0.0,508.3333
+name,Tard,1,0.1517,0.0,508.3333
+name,Thembe,1,0.1517,0.0,508.3333
+name,Thembedza School,1,0.1517,0.0,508.3333
+name,Thomu,1,0.1517,0.0,508.3333
+name,Thuthuwa,1,0.1517,0.0,508.3333
+name,Thyolo Road,1,0.1517,0.0,508.3333
+name,Thyolowani Forest Reserve,1,0.1517,0.0,508.3333
+name,To Kwadyamba,1,0.1517,0.0,508.3333
+name,Top Lodge,1,0.1517,0.0,508.3333
+name,Tuchila,1,0.1517,0.0,508.3333
+name,University of Malawi - Chancellor College Campus,1,0.1517,0.0,508.3333
+name,Veruwa,1,0.1517,0.0,508.3333
+name,Village,1,0.1517,0.0,508.3333
+name,Wela,1,0.1517,0.0,508.3333
+name,Wowo,1,0.1517,0.0,508.3333
+name,Wowo - Thuruwe,1,0.1517,0.0,508.3333
+name,Wowo GVH,1,0.1517,0.0,508.3333
+name,Zomba Road,1,0.1517,0.0,508.3333
+name,batiment,1,0.1517,0.0,508.3333
+name,batî,1,0.1517,0.0,508.3333
+name,bofa,1,0.1517,0.0,508.3333
+name,catchment area,1,0.1517,0.0,508.3333
+name,church,1,0.1517,0.0,508.3333
+name,domasi magistrate court,1,0.1517,0.0,508.3333
+name,guest house,1,0.1517,0.0,508.3333
+name,high way,1,0.1517,0.0,508.3333
+name,highway,1,0.1517,0.0,508.3333
+name,home,1,0.1517,0.0,508.3333
+name,house 2,1,0.1517,0.0,508.3333
+name,luchenza River,1,0.1517,0.0,508.3333
+name,makokola ground,1,0.1517,0.0,508.3333
+name,motorway,1,0.1517,0.0,508.3333
+name,permanent,1,0.1517,0.0,508.3333
+name,plot,1,0.1517,0.0,508.3333
+name,residential house,1,0.1517,0.0,508.3333
+name,roof=permanet,1,0.1517,0.0,508.3333
+name,sana cash and carry,1,0.1517,0.0,508.3333
+name,thatched house,1,0.1517,0.0,508.3333
+name,unknown,1,0.1517,0.0,508.3333
+name,unkown road,1,0.1517,0.0,508.3333
+name,village,1,0.1517,0.0,508.3333
+name,water,1,0.1517,0.0,508.3333
+natural,tree,442,83.0827,44100.0,268783.3333
+natural,water,38,7.1429,3700.0,23016.6667
+natural,wood,33,6.203,3200.0,19975.0
+natural,wetland,7,1.3158,600.0,4158.3333
+natural,tree_row,5,0.9398,400.0,2941.6667
+natural,beach,4,0.7519,300.0,2333.3333
+natural,grassland,1,0.188,0.0,508.3333
+natural,heath,1,0.188,0.0,508.3333
+natural,scrub,1,0.188,0.0,508.3333
+source,survey,150,25.1256,14900.0,91150.0
+source,microsoft/BuildingFootprints,121,20.268,12000.0,73508.3333
+source,Survey,110,18.4255,10900.0,66816.6667
+source,Bing,61,10.2178,6000.0,37008.3333
+source,maxar,39,6.5327,3800.0,23625.0
+source,Mapbox,27,4.5226,2600.0,16325.0
+source,maplibrary.org,21,3.5176,2000.0,12675.0
+source,bing,20,3.3501,1900.0,12066.6667
+source,Maxar,11,1.8425,1000.0,6591.6667
+source,Maxar Imagery,7,1.1725,600.0,4158.3333
+source,OSM Kajamba survey,7,1.1725,600.0,4158.3333
+source,"DigitalGlobe,WV2",6,1.005,500.0,3550.0
+source,Dshpak_landsat_lakes,4,0.67,300.0,2333.3333
+source,"WorldView-2, DigitalGlobe, NextView, 20 July 2014",4,0.67,300.0,2333.3333
+source,Maxar Img,3,0.5025,200.0,1725.0
+source,SURVEY,2,0.335,100.0,1116.6667
+source,https://www.afrik21.africa/en/malawi-gilkes-completes-second-phase-of-ruo-ndiza-hydroelectric-project/,2,0.335,100.0,1116.6667
+source,Maxar  Imagery,1,0.1675,0.0,508.3333
+source,under construction,1,0.1675,0.0,508.3333
+surface,unpaved,1196,66.6667,119500.0,727466.6667
+surface,ground,410,22.854,40900.0,249316.6667
+surface,dirt,79,4.4036,7800.0,47958.3333
+surface,asphalt,35,1.9509,3400.0,21191.6667
+surface,paved,24,1.3378,2300.0,14500.0
+surface,gravel,16,0.8919,1500.0,9633.3333
+surface,grass,11,0.6132,1000.0,6591.6667
+surface,footpath,8,0.4459,700.0,4766.6667
+surface,ongeplaveide,4,0.223,300.0,2333.3333
+surface,mud,3,0.1672,200.0,1725.0
+surface,earth,2,0.1115,100.0,1116.6667
+surface,sand,2,0.1115,100.0,1116.6667
+surface,dirt/sand,1,0.0557,0.0,508.3333
+surface,non,1,0.0557,0.0,508.3333
+surface,residential,1,0.0557,0.0,508.3333
+surface,sett,1,0.0557,0.0,508.3333
+waterway,stream,448,52.093,44700.0,272433.3333
+waterway,river,215,25.0,21400.0,130691.6667
+waterway,canal,77,8.9535,7600.0,46741.6667
+waterway,drystream,48,5.5814,4700.0,29100.0
+waterway,drain,37,4.3023,3600.0,22408.3333
+waterway,ditch,33,3.8372,3200.0,19975.0
+waterway,boatyard,1,0.1163,0.0,508.3333
+waterway,waterfall,1,0.1163,0.0,508.3333

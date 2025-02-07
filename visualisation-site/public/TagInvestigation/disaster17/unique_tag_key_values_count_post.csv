@@ -1,0 +1,803 @@
+key,value,count,percent_of_total_changes_for_key,percent_difference_from_pre,percent_difference_from_pre_day
+amenity,social_facility,51,20.4,5000.0,5000.0
+amenity,place_of_worship,34,13.6,3300.0,3300.0
+amenity,fast_food,23,9.2,2200.0,2200.0
+amenity,fuel,22,8.8,2100.0,2100.0
+amenity,school,21,8.4,2000.0,2000.0
+amenity,cafe,20,8.0,1900.0,1900.0
+amenity,parking,19,7.6,1800.0,1800.0
+amenity,pharmacy,13,5.2,1200.0,1200.0
+amenity,restaurant,7,2.8,600.0,600.0
+amenity,bicycle_parking,6,2.4,500.0,500.0
+amenity,fountain,6,2.4,500.0,500.0
+amenity,marketplace,6,2.4,500.0,500.0
+amenity,shelter,5,2.0,400.0,400.0
+amenity,post_office,4,1.6,300.0,300.0
+amenity,driving_school,3,1.2,200.0,200.0
+amenity,toilets,2,0.8,100.0,100.0
+amenity,bank,1,0.4,0.0,0.0
+amenity,bar,1,0.4,0.0,0.0
+amenity,community_centre,1,0.4,0.0,0.0
+amenity,dentist,1,0.4,0.0,0.0
+amenity,grave_yard,1,0.4,0.0,0.0
+amenity,hospital,1,0.4,0.0,0.0
+amenity,police,1,0.4,0.0,0.0
+amenity,research_institute,1,0.4,0.0,0.0
+building,yes,82739,82.9863,8273800.0,8273800.0
+building,residential,15477,15.5233,1547600.0,1547600.0
+building,house,995,0.998,99400.0,99400.0
+building,apartments,233,0.2337,23200.0,23200.0
+building,construction,83,0.0832,8200.0,8200.0
+building,greenhouse,49,0.0491,4800.0,4800.0
+building,ruins,27,0.0271,2600.0,2600.0
+building,roof,19,0.0191,1800.0,1800.0
+building,shed,12,0.012,1100.0,1100.0
+building,garage,9,0.009,800.0,800.0
+building,school,8,0.008,700.0,700.0
+building,farm_auxiliary,7,0.007,600.0,600.0
+building,cowshed,5,0.005,400.0,400.0
+building,industrial,5,0.005,400.0,400.0
+building,mosque,5,0.005,400.0,400.0
+building,stable,5,0.005,400.0,400.0
+building,hotel,4,0.004,300.0,300.0
+building,barn,3,0.003,200.0,200.0
+building,hangar,3,0.003,200.0,200.0
+building,building,2,0.002,100.0,100.0
+building,detached,2,0.002,100.0,100.0
+building,farm,2,0.002,100.0,100.0
+building,retail,2,0.002,100.0,100.0
+building,bridge,1,0.001,0.0,0.0
+building,commercial,1,0.001,0.0,0.0
+building,golf,1,0.001,0.0,0.0
+building,hut,1,0.001,0.0,0.0
+building,pharmacy.,1,0.001,0.0,0.0
+building,warehouse,1,0.001,0.0,0.0
+highway,track,4693,32.7861,469200.0,469200.0
+highway,residential,3452,24.1162,345100.0,345100.0
+highway,unclassified,2213,15.4604,221200.0,221200.0
+highway,path,1103,7.7057,110200.0,110200.0
+highway,service,647,4.5201,64600.0,64600.0
+highway,bus_stop,555,3.8773,55400.0,55400.0
+highway,footway,520,3.6328,51900.0,51900.0
+highway,tertiary,254,1.7745,25300.0,25300.0
+highway,primary,185,1.2924,18400.0,18400.0
+highway,crossing,152,1.0619,15100.0,15100.0
+highway,secondary,126,0.8803,12500.0,12500.0
+highway,living_street,118,0.8244,11700.0,11700.0
+highway,construction,100,0.6986,9900.0,9900.0
+highway,tack,56,0.3912,5500.0,5500.0
+highway,trunk,54,0.3773,5300.0,5300.0
+highway,pedestrian,24,0.1677,2300.0,2300.0
+highway,tertiary_link,17,0.1188,1600.0,1600.0
+highway,road,8,0.0559,700.0,700.0
+highway,turning_circle,6,0.0419,500.0,500.0
+highway,motorway,5,0.0349,400.0,400.0
+highway,secondary_link,5,0.0349,400.0,400.0
+highway,primary_link,4,0.0279,300.0,300.0
+highway,turning_loop,4,0.0279,300.0,300.0
+highway,motorway_junction,3,0.021,200.0,200.0
+highway,steps,3,0.021,200.0,200.0
+highway,escape,1,0.007,0.0,0.0
+highway,mini_roundabout,1,0.007,0.0,0.0
+highway,motorway_link,1,0.007,0.0,0.0
+highway,raceway,1,0.007,0.0,0.0
+highway,rest_area,1,0.007,0.0,0.0
+highway,services,1,0.007,0.0,0.0
+highway,toll_gantry,1,0.007,0.0,0.0
+landuse,farmland,1585,40.8821,158400.0,158400.0
+landuse,residential,963,24.8388,96200.0,96200.0
+landuse,orchard,803,20.7119,80200.0,80200.0
+landuse,forest,197,5.0812,19600.0,19600.0
+landuse,basin,98,2.5277,9700.0,9700.0
+landuse,farmyard,72,1.8571,7100.0,7100.0
+landuse,reservoir,55,1.4186,5400.0,5400.0
+landuse,construction,28,0.7222,2700.0,2700.0
+landuse,greenhouse_horticulture,19,0.4901,1800.0,1800.0
+landuse,grass,13,0.3353,1200.0,1200.0
+landuse,industrial,13,0.3353,1200.0,1200.0
+landuse,cemetery,5,0.129,400.0,400.0
+landuse,retail,5,0.129,400.0,400.0
+landuse,meadow,4,0.1032,300.0,300.0
+landuse,greenhouse,3,0.0774,200.0,200.0
+landuse,military,3,0.0774,200.0,200.0
+landuse,commercial,2,0.0516,100.0,100.0
+landuse,education,2,0.0516,100.0,100.0
+landuse,vineyard,2,0.0516,100.0,100.0
+landuse,yes,2,0.0516,100.0,100.0
+landuse,plant_nursery,1,0.0258,0.0,0.0
+landuse,recreation_ground,1,0.0258,0.0,0.0
+landuse,village_green,1,0.0258,0.0,0.0
+leisure,swimming_pool,804,84.3652,80300.0,80300.0
+leisure,pitch,51,5.3515,5000.0,5000.0
+leisure,garden,46,4.8269,4500.0,4500.0
+leisure,park,30,3.148,2900.0,2900.0
+leisure,golf_course,8,0.8395,700.0,700.0
+leisure,sports_centre,7,0.7345,600.0,600.0
+leisure,playground,2,0.2099,100.0,100.0
+leisure,bird_hide,1,0.1049,0.0,0.0
+leisure,horse_riding,1,0.1049,0.0,0.0
+leisure,resort,1,0.1049,0.0,0.0
+leisure,stadium,1,0.1049,0.0,0.0
+leisure,track,1,0.1049,0.0,0.0
+name,BASSIN D'IRRIGATION,80,5.5172,7900.0,7900.0
+name,PANNEAUX SOLAIRES,52,3.5862,5100.0,5100.0
+name,building,38,2.6207,3700.0,3700.0
+name,Avenue Essaouira طريق الصويرة,20,1.3793,1900.0,1900.0
+name,وادي سوس,19,1.3103,1800.0,1800.0
+name,Housing,17,1.1724,1600.0,1600.0
+name,Avenue Guemassa,15,1.0345,1400.0,1400.0
+name,Oued Rheraya,13,0.8966,1200.0,1200.0
+name,Tahannaout-Ourika,13,0.8966,1200.0,1200.0
+name,housing,13,0.8966,1200.0,1200.0
+name,Avenue Nakhil شارع النخيل,12,0.8276,1100.0,1100.0
+name,Route du Barrage,12,0.8276,1100.0,1100.0
+name,Tahannaout تحناوت,9,0.6207,800.0,800.0
+name,kitchen kits,9,0.6207,800.0,800.0
+name,RP 2012 Marrakech-Sidi Ghiate-Tamazouzte,8,0.5517,700.0,700.0
+name,Tagadirte تاكاديرت,8,0.5517,700.0,700.0
+name,farmland,8,0.5517,700.0,700.0
+name,house,8,0.5517,700.0,700.0
+name,مولاي ابراهيم,8,0.5517,700.0,700.0
+name,Avenue Omar Khayyam شارع عمر الخيام,7,0.4828,600.0,600.0
+name,Building,7,0.4828,600.0,600.0
+name,Oued Issyl,7,0.4828,600.0,600.0
+name,Oued Nfiss ⴰⵙⵉⴼ ⵏⴼⵉⵙ وادي نفيس,7,0.4828,600.0,600.0
+name,Total Fresh Veg Kits,7,0.4828,600.0,600.0
+name,dry kits,7,0.4828,600.0,600.0
+name,Bassin d'irrigation,6,0.4138,500.0,500.0
+name,Ouneine - Igli road,6,0.4138,500.0,500.0
+name,Road,6,0.4138,500.0,500.0
+name,Shed,6,0.4138,500.0,500.0
+name,طريق أوريكا,6,0.4138,500.0,500.0
+name,RN7 - Ouneine piste,5,0.3448,400.0,400.0
+name,Rond Point Chouiter,5,0.3448,400.0,400.0
+name,Route de Targa,5,0.3448,400.0,400.0
+name,chemin vers m Awlin 3370m,5,0.3448,400.0,400.0
+name,factory building,5,0.3448,400.0,400.0
+name,باروس Barouss,5,0.3448,400.0,400.0
+name,農田,5,0.3448,400.0,400.0
+name,Afriquia أفريقيا,4,0.2759,300.0,300.0
+name,Civilian House,4,0.2759,300.0,300.0
+name,Dar zagora,4,0.2759,300.0,300.0
+name,Marrakech,4,0.2759,300.0,300.0
+name,Oued Souss وادي سوس,4,0.2759,300.0,300.0
+name,Roads,4,0.2759,300.0,300.0
+name,Souk numero jemaa,4,0.2759,300.0,300.0
+name,Souk sebt,4,0.2759,300.0,300.0
+name,Tahnaout Anapec,4,0.2759,300.0,300.0
+name,batiment,4,0.2759,300.0,300.0
+name,grassland,4,0.2759,300.0,300.0
+name,road,4,0.2759,300.0,300.0
+name,Agadir Tassaout,3,0.2069,200.0,200.0
+name,Ait said oucho,3,0.2069,200.0,200.0
+name,Arumd-Sidi Chamarouch-CAF Refuge,3,0.2069,200.0,200.0
+name,Avenue Riddani,3,0.2069,200.0,200.0
+name,Avenue Tafilelt,3,0.2069,200.0,200.0
+name,Azib scom,3,0.2069,200.0,200.0
+name,Caïdat de Aghouatime,3,0.2069,200.0,200.0
+name,Douar Assila,3,0.2069,200.0,200.0
+name,Douar Tayzilt,3,0.2069,200.0,200.0
+name,Douar draoua,3,0.2069,200.0,200.0
+name,Dry kits,3,0.2069,200.0,200.0
+name,Ecole ben yaakoub,3,0.2069,200.0,200.0
+name,Ecole dar sultan,3,0.2069,200.0,200.0
+name,Ecole primaire,3,0.2069,200.0,200.0
+name,Ecoles mourabtine,3,0.2069,200.0,200.0
+name,House,3,0.2069,200.0,200.0
+name,Josh Street,3,0.2069,200.0,200.0
+name,La vie en rose,3,0.2069,200.0,200.0
+name,Lalla Takarkouste,3,0.2069,200.0,200.0
+name,Lycee sad nfis,3,0.2069,200.0,200.0
+name,Mosque Amira,3,0.2069,200.0,200.0
+name,Mosque Ben Aamar,3,0.2069,200.0,200.0
+name,Mosque Mhamid 9,3,0.2069,200.0,200.0
+name,Mosque ait daoud,3,0.2069,200.0,200.0
+name,Mousque jadid,3,0.2069,200.0,200.0
+name,Palais Ghiat,3,0.2069,200.0,200.0
+name,Petrom بتروم,3,0.2069,200.0,200.0
+name,Pharmacie alber,3,0.2069,200.0,200.0
+name,Pharmacie oued issil,3,0.2069,200.0,200.0
+name,Pharmacie radia lehbichat,3,0.2069,200.0,200.0
+name,Pool,3,0.2069,200.0,200.0
+name,ROUTE,3,0.2069,200.0,200.0
+name,Route de Chwitter,3,0.2069,200.0,200.0
+name,Sidi bedhaj,3,0.2069,200.0,200.0
+name,Souk Loudaya,3,0.2069,200.0,200.0
+name,Station zyan,3,0.2069,200.0,200.0
+name,Tagadirte,3,0.2069,200.0,200.0
+name,Tiwili,3,0.2069,200.0,200.0
+name,Tizi-n-Oulaoune piste,3,0.2069,200.0,200.0
+name,Tnin ourika,3,0.2069,200.0,200.0
+name,Toughmirt,3,0.2069,200.0,200.0
+name,douar françois,3,0.2069,200.0,200.0
+name,field,3,0.2069,200.0,200.0
+name,for sale,3,0.2069,200.0,200.0
+name,建物,3,0.2069,200.0,200.0
+name,Aalimia,2,0.1379,100.0,100.0
+name,Afaq,2,0.1379,100.0,100.0
+name,Agadir Tassaout 2,2,0.1379,100.0,100.0
+name,Aghwatim,2,0.1379,100.0,100.0
+name,Ait Ougriz,2,0.1379,100.0,100.0
+name,Ait azzi,2,0.1379,100.0,100.0
+name,Ait bou riah,2,0.1379,100.0,100.0
+name,Ait bouhou,2,0.1379,100.0,100.0
+name,Ait chaikh,2,0.1379,100.0,100.0
+name,Ait daoud,2,0.1379,100.0,100.0
+name,Ait mhawch,2,0.1379,100.0,100.0
+name,Ait my ahmed,2,0.1379,100.0,100.0
+name,Ali boufarss,2,0.1379,100.0,100.0
+name,Aliances,2,0.1379,100.0,100.0
+name,Amizmiz,2,0.1379,100.0,100.0
+name,Ancien Tahannaout,2,0.1379,100.0,100.0
+name,Anciene  terminus Mhamid L12,2,0.1379,100.0,100.0
+name,Aqua parc,2,0.1379,100.0,100.0
+name,Argan Garden Marrakech,2,0.1379,100.0,100.0
+name,Asofid,2,0.1379,100.0,100.0
+name,Association elouafaa,2,0.1379,100.0,100.0
+name,Association nfis,2,0.1379,100.0,100.0
+name,Atlas towers,2,0.1379,100.0,100.0
+name,Auberge Tamslouht,2,0.1379,100.0,100.0
+name,Autoecole lmrabtine,2,0.1379,100.0,100.0
+name,Av. Mohammed V,2,0.1379,100.0,100.0
+name,Avenue Imam Mouslim,2,0.1379,100.0,100.0
+name,Azib 2,2,0.1379,100.0,100.0
+name,Azib felil,2,0.1379,100.0,100.0
+name,BP,2,0.1379,100.0,100.0
+name,Banque populaire,2,0.1379,100.0,100.0
+name,Ben ammar,2,0.1379,100.0,100.0
+name,Ben chaikh,2,0.1379,100.0,100.0
+name,Berraka,2,0.1379,100.0,100.0
+name,Bloc 11,2,0.1379,100.0,100.0
+name,Bouazza,2,0.1379,100.0,100.0
+name,Boulaadam,2,0.1379,100.0,100.0
+name,Boulhlib,2,0.1379,100.0,100.0
+name,Boutique Kadour,2,0.1379,100.0,100.0
+name,Boutique jamal,2,0.1379,100.0,100.0
+name,"Bus #35 to Marrakech (7,5 MAD, May 2024)",2,0.1379,100.0,100.0
+name,CTT,2,0.1379,100.0,100.0
+name,Cafe Btissama,2,0.1379,100.0,100.0
+name,Cafe Zahrat Al Houssna,2,0.1379,100.0,100.0
+name,Cafe bamhaoui,2,0.1379,100.0,100.0
+name,Caidat saada,2,0.1379,100.0,100.0
+name,Centre Amizmiz,2,0.1379,100.0,100.0
+name,Centre oulad ben sbaa,2,0.1379,100.0,100.0
+name,Chkili,2,0.1379,100.0,100.0
+name,Chouiter,2,0.1379,100.0,100.0
+name,Chrifia,2,0.1379,100.0,100.0
+name,Commune Agafay,2,0.1379,100.0,100.0
+name,Compl. Houssna,2,0.1379,100.0,100.0
+name,Coopérative Idraren-Maison de Noyer,2,0.1379,100.0,100.0
+name,Coopérative Issafnoudren- FRIGO D'ASNI,2,0.1379,100.0,100.0
+name,Coopérative agoundiz,2,0.1379,100.0,100.0
+name,Coopérative alOulfa,2,0.1379,100.0,100.0
+name,Coperative baraka,2,0.1379,100.0,100.0
+name,Coprema,2,0.1379,100.0,100.0
+name,Coralia groupe addoha,2,0.1379,100.0,100.0
+name,Corperative de lait,2,0.1379,100.0,100.0
+name,Cos,2,0.1379,100.0,100.0
+name,Cummune Loudaya,2,0.1379,100.0,100.0
+name,Dar Cherif,2,0.1379,100.0,100.0
+name,Dar El ain,2,0.1379,100.0,100.0
+name,Dar bouidar,2,0.1379,100.0,100.0
+name,Dar l'ain,2,0.1379,100.0,100.0
+name,Dar mounira,2,0.1379,100.0,100.0
+name,Dar zoufri,2,0.1379,100.0,100.0
+name,Derb chemch,2,0.1379,100.0,100.0
+name,Derb chemch 2,2,0.1379,100.0,100.0
+name,Direction Guemassa,2,0.1379,100.0,100.0
+name,Doha Centre,2,0.1379,100.0,100.0
+name,Doha mhamid 10,2,0.1379,100.0,100.0
+name,Doha terminus,2,0.1379,100.0,100.0
+name,Domaine graoua,2,0.1379,100.0,100.0
+name,Domaine hanaa,2,0.1379,100.0,100.0
+name,Domaine mdpp,2,0.1379,100.0,100.0
+name,Domaine targa,2,0.1379,100.0,100.0
+name,Douar Jamaa Terminus,2,0.1379,100.0,100.0
+name,Douar bourass,2,0.1379,100.0,100.0
+name,Douar chibani,2,0.1379,100.0,100.0
+name,Douar laadam,2,0.1379,100.0,100.0
+name,Douar laarisa,2,0.1379,100.0,100.0
+name,Douar lhjar 2,2,0.1379,100.0,100.0
+name,Douar rahma,2,0.1379,100.0,100.0
+name,Douar sor,2,0.1379,100.0,100.0
+name,Dr ben sbeaa,2,0.1379,100.0,100.0
+name,Dr chrarda,2,0.1379,100.0,100.0
+name,Dr lbacha,2,0.1379,100.0,100.0
+name,Dr lehnaa,2,0.1379,100.0,100.0
+name,Dr melouan,2,0.1379,100.0,100.0
+name,ENTREE Doha,2,0.1379,100.0,100.0
+name,Ecole Agriculture,2,0.1379,100.0,100.0
+name,Ecole Dar El ain,2,0.1379,100.0,100.0
+name,Ecole alal ben abdllh,2,0.1379,100.0,100.0
+name,Ecole américaine terminus,2,0.1379,100.0,100.0
+name,Ecole hman fetwaki,2,0.1379,100.0,100.0
+name,Ecole houidra,2,0.1379,100.0,100.0
+name,Ecole tassaout,2,0.1379,100.0,100.0
+name,Eden Anadolou,2,0.1379,100.0,100.0
+name,El ferran,2,0.1379,100.0,100.0
+name,El guessab,2,0.1379,100.0,100.0
+name,El hammadia,2,0.1379,100.0,100.0
+name,El kinani show room,2,0.1379,100.0,100.0
+name,Elbadssia,2,0.1379,100.0,100.0
+name,Entree Amizmiz,2,0.1379,100.0,100.0
+name,Entree Doha,2,0.1379,100.0,100.0
+name,Entree Ecole américaine,2,0.1379,100.0,100.0
+name,Entree Mhamid 9,2,0.1379,100.0,100.0
+name,Entree Saada 3 Mhamid,2,0.1379,100.0,100.0
+name,Entree Tamslouht,2,0.1379,100.0,100.0
+name,Entree chouiter,2,0.1379,100.0,100.0
+name,Entree salam,2,0.1379,100.0,100.0
+name,Entree souihla,2,0.1379,100.0,100.0
+name,Equi-Passion Horse Riding School,2,0.1379,100.0,100.0
+name,Ettoualeb,2,0.1379,100.0,100.0
+name,Farmer house,2,0.1379,100.0,100.0
+name,Farmland,2,0.1379,100.0,100.0
+name,Fekhara,2,0.1379,100.0,100.0
+name,Gouverneur du Provence d'El Haouz,2,0.1379,100.0,100.0
+name,Guemassa,2,0.1379,100.0,100.0
+name,HOT MEAL SERVED,2,0.1379,100.0,100.0
+name,Haras regional,2,0.1379,100.0,100.0
+name,Hay sour,2,0.1379,100.0,100.0
+name,Hdidour,2,0.1379,100.0,100.0
+name,Heliconia,2,0.1379,100.0,100.0
+name,Hemmam guermai,2,0.1379,100.0,100.0
+name,Hippodrome De Marrakech,2,0.1379,100.0,100.0
+name,Hopital Ait daoud,2,0.1379,100.0,100.0
+name,Hopital med 5,2,0.1379,100.0,100.0
+name,Hotel nzaha,2,0.1379,100.0,100.0
+name,Houidra,2,0.1379,100.0,100.0
+name,Housing Block,2,0.1379,100.0,100.0
+name,Ibn wennan,2,0.1379,100.0,100.0
+name,Imam Mouslim,2,0.1379,100.0,100.0
+name,Jardins des Orangers,2,0.1379,100.0,100.0
+name,Jardins mansouria,2,0.1379,100.0,100.0
+name,Jenaima,2,0.1379,100.0,100.0
+name,Jnan aicha,2,0.1379,100.0,100.0
+name,Jnan fayza,2,0.1379,100.0,100.0
+name,Jnan my lhaj,2,0.1379,100.0,100.0
+name,Jnane leila,2,0.1379,100.0,100.0
+name,Kasbah Agoumar,2,0.1379,100.0,100.0
+name,Kasbah agafay,2,0.1379,100.0,100.0
+name,Kasbah amezrou,2,0.1379,100.0,100.0
+name,Kenzy Club Agdal Medina,2,0.1379,100.0,100.0
+name,Khouadra,2,0.1379,100.0,100.0
+name,Khouadra 1,2,0.1379,100.0,100.0
+name,Khreyf,2,0.1379,100.0,100.0
+name,Km 19,2,0.1379,100.0,100.0
+name,Km 34,2,0.1379,100.0,100.0
+name,Lbu,2,0.1379,100.0,100.0
+name,Lembrabtin,2,0.1379,100.0,100.0
+name,Les jardins des roses,2,0.1379,100.0,100.0
+name,Les paris d atlas,2,0.1379,100.0,100.0
+name,Lhaj lbaz,2,0.1379,100.0,100.0
+name,Lhanout,2,0.1379,100.0,100.0
+name,Lwad,2,0.1379,100.0,100.0
+name,Lycee ouidane rte ait ourir,2,0.1379,100.0,100.0
+name,Mahal,2,0.1379,100.0,100.0
+name,Maison d'enfance,2,0.1379,100.0,100.0
+name,Mansion,2,0.1379,100.0,100.0
+name,Maradise,2,0.1379,100.0,100.0
+name,Marjane,2,0.1379,100.0,100.0
+name,Master fruit,2,0.1379,100.0,100.0
+name,Mhamid 10,2,0.1379,100.0,100.0
+name,Mimi,2,0.1379,100.0,100.0
+name,Ministre trans div Tahannaout,2,0.1379,100.0,100.0
+name,Mosque chrifia,2,0.1379,100.0,100.0
+name,Mosque mhamid 9,2,0.1379,100.0,100.0
+name,Mosquée Alhosna,2,0.1379,100.0,100.0
+name,Moulay Yazid,2,0.1379,100.0,100.0
+name,Moulay lyamin,2,0.1379,100.0,100.0
+name,Moulin sridi,2,0.1379,100.0,100.0
+name,Mousque lkdim,2,0.1379,100.0,100.0
+name,Multiple Houses,2,0.1379,100.0,100.0
+name,Municipal Amizmiz,2,0.1379,100.0,100.0
+name,Noria golf club,2,0.1379,100.0,100.0
+name,Nwala,2,0.1379,100.0,100.0
+name,O'atlas,2,0.1379,100.0,100.0
+name,Office agriculture,2,0.1379,100.0,100.0
+name,Olive garden,2,0.1379,100.0,100.0
+name,Oued El Faregh,2,0.1379,100.0,100.0
+name,Oued Ghmat ⴰⵙⵉⴼ ⵏ ⵖⵯⵎⴰⵜ,2,0.1379,100.0,100.0
+name,Oued Ibourk ⴰⵙⵙⵉⴼ ⵏ ⵉⴱⵓⵔⴽ وادي إبورك,2,0.1379,100.0,100.0
+name,Oued Igri Ighzrane,2,0.1379,100.0,100.0
+name,Oued Zat ⴰⵙⵉⴼ ⵏ ⵥⴰⵜ,2,0.1379,100.0,100.0
+name,Oulad ben sbaa,2,0.1379,100.0,100.0
+name,Ouled bouzid,2,0.1379,100.0,100.0
+name,Ouled hassoun,2,0.1379,100.0,100.0
+name,Ouled jallal,2,0.1379,100.0,100.0
+name,Ouled lgarn,2,0.1379,100.0,100.0
+name,Ouled mrida,2,0.1379,100.0,100.0
+name,Ouled rahou,2,0.1379,100.0,100.0
+name,Ouled yahya,2,0.1379,100.0,100.0
+name,Oumnass,2,0.1379,100.0,100.0
+name,Ph oued issil,2,0.1379,100.0,100.0
+name,Pharmacie Ait daoud,2,0.1379,100.0,100.0
+name,Pharmacie Al Moustachfa صيدلية المستشفى,2,0.1379,100.0,100.0
+name,Pharmacie malak,2,0.1379,100.0,100.0
+name,Phyto ramzi,2,0.1379,100.0,100.0
+name,Picine Amizmiz,2,0.1379,100.0,100.0
+name,Plage rouge,2,0.1379,100.0,100.0
+name,Plaque djaj,2,0.1379,100.0,100.0
+name,Poste chouiter,2,0.1379,100.0,100.0
+name,Province Tahannaout,2,0.1379,100.0,100.0
+name,Rental weddings taj,2,0.1379,100.0,100.0
+name,Res. Borj Guemassa,2,0.1379,100.0,100.0
+name,Res. Immam Souhili,2,0.1379,100.0,100.0
+name,Restaurant bladna,2,0.1379,100.0,100.0
+name,Riad Amizmiz,2,0.1379,100.0,100.0
+name,Riad les Deux Citronnies,2,0.1379,100.0,100.0
+name,Riad qodwa,2,0.1379,100.0,100.0
+name,Riad sirocco,2,0.1379,100.0,100.0
+name,Rouhi,2,0.1379,100.0,100.0
+name,Royal palm,2,0.1379,100.0,100.0
+name,Royal ranches,2,0.1379,100.0,100.0
+name,Rte Ghmat,2,0.1379,100.0,100.0
+name,Rte mjjat,2,0.1379,100.0,100.0
+name,Rue Oqba Ben Nafaa,2,0.1379,100.0,100.0
+name,Sakka belhssan,2,0.1379,100.0,100.0
+name,Sakka brik,2,0.1379,100.0,100.0
+name,Salle fete berghali,2,0.1379,100.0,100.0
+name,Sebt dar jdida,2,0.1379,100.0,100.0
+name,Selman Marrakech,2,0.1379,100.0,100.0
+name,Shemmoon spa,2,0.1379,100.0,100.0
+name,Sidi Abedllah Ghiat,2,0.1379,100.0,100.0
+name,Sidi Badhaj,2,0.1379,100.0,100.0
+name,Sidi ali raissi,2,0.1379,100.0,100.0
+name,Souk Oudaya,2,0.1379,100.0,100.0
+name,Souk Tahannaout,2,0.1379,100.0,100.0
+name,Souk oued nfis,2,0.1379,100.0,100.0
+name,Sports field,2,0.1379,100.0,100.0
+name,Srayri,2,0.1379,100.0,100.0
+name,Srayri 2,2,0.1379,100.0,100.0
+name,Station baba,2,0.1379,100.0,100.0
+name,Station cmh,2,0.1379,100.0,100.0
+name,Tadart,2,0.1379,100.0,100.0
+name,Tahannaout Terminus,2,0.1379,100.0,100.0
+name,Taj omayma,2,0.1379,100.0,100.0
+name,Tajgalt,2,0.1379,100.0,100.0
+name,Tamast,2,0.1379,100.0,100.0
+name,Targa BP,2,0.1379,100.0,100.0
+name,Terminus Al Baraka,2,0.1379,100.0,100.0
+name,Terminus Souihla,2,0.1379,100.0,100.0
+name,Terminus Tameslouht,2,0.1379,100.0,100.0
+name,The Tony Jackllin Marrakech,2,0.1379,100.0,100.0
+name,Tidrara,2,0.1379,100.0,100.0
+name,Tigenziwine,2,0.1379,100.0,100.0
+name,Tissafine,2,0.1379,100.0,100.0
+name,Tiwili 2,2,0.1379,100.0,100.0
+name,Tlat maghan,2,0.1379,100.0,100.0
+name,Touggana,2,0.1379,100.0,100.0
+name,Toukhribin,2,0.1379,100.0,100.0
+name,Union Nfis pour la valorisation des produits de la ruche,2,0.1379,100.0,100.0
+name,Université Privée de Marrakech,2,0.1379,100.0,100.0
+name,Usine Guemassa,2,0.1379,100.0,100.0
+name,Zaraba,2,0.1379,100.0,100.0
+name,Zaraba rte tahnaout,2,0.1379,100.0,100.0
+name,Zmouma,2,0.1379,100.0,100.0
+name,Zrayb,2,0.1379,100.0,100.0
+name,appliance shop,2,0.1379,100.0,100.0
+name,douar Erragueb,2,0.1379,100.0,100.0
+name,habitant restaurant,2,0.1379,100.0,100.0
+name,kitchen_kits,2,0.1379,100.0,100.0
+name,map outdated as on google,2,0.1379,100.0,100.0
+name,mosqué,2,0.1379,100.0,100.0
+name,mourabitine,2,0.1379,100.0,100.0
+name,road2,2,0.1379,100.0,100.0
+name,road3,2,0.1379,100.0,100.0
+name,z,2,0.1379,100.0,100.0
+name,zone agricole,2,0.1379,100.0,100.0
+name,عمر الخيام,2,0.1379,100.0,100.0
+name,مسجد المكاسم,2,0.1379,100.0,100.0
+name,مسجد دوار مولاي علي بن المسعود,2,0.1379,100.0,100.0
+name,2700 hot meals served,1,0.069,0.0,0.0
+name,312 sandwiches,1,0.069,0.0,0.0
+name,AGRSOUAK أگرسواك,1,0.069,0.0,0.0
+name,ARWA,1,0.069,0.0,0.0
+name,Abderrahim-pizza,1,0.069,0.0,0.0
+name,Abderrahim-pizza à partir de 1️⃣5️⃣dh plus,1,0.069,0.0,0.0
+name,Achbarou أشبارو,1,0.069,0.0,0.0
+name,Addouz,1,0.069,0.0,0.0
+name,Adil guest house,1,0.069,0.0,0.0
+name,Administration,1,0.069,0.0,0.0
+name,Adrar Hadj,1,0.069,0.0,0.0
+name,Afrass أفراس,1,0.069,0.0,0.0
+name,Agadir-n-Tagoundaft,1,0.069,0.0,0.0
+name,Agence de la Poste - Tahanaoute,1,0.069,0.0,0.0
+name,Agricultural seed distribution,1,0.069,0.0,0.0
+name,Ahmed Library Photography Studio,1,0.069,0.0,0.0
+name,Ait Bouloumane أيت بولمان,1,0.069,0.0,0.0
+name,Ait Othmane,1,0.069,0.0,0.0
+name,Ait Sagout أيت سكوت,1,0.069,0.0,0.0
+name,Ait Swal,1,0.069,0.0,0.0
+name,Ait ’Otmane,1,0.069,0.0,0.0
+name,Al Chwiter ⵍⵡⵉⴷⴰⵏ للشويطر,1,0.069,0.0,0.0
+name,Alla N'Mzagheni,1,0.069,0.0,0.0
+name,Anamer أنامر,1,0.069,0.0,0.0
+name,Anisha and Sindhia's Bridge,1,0.069,0.0,0.0
+name,AppartHotel Nzaha,1,0.069,0.0,0.0
+name,Arektou,1,0.069,0.0,0.0
+name,Arghane,1,0.069,0.0,0.0
+name,Assif Nouadil أسيف نواديل,1,0.069,0.0,0.0
+name,Assif n  Nfiss,1,0.069,0.0,0.0
+name,Auberge,1,0.069,0.0,0.0
+name,Auto-école Chabab al Mostkbal,1,0.069,0.0,0.0
+name,Auto-école TISSIR,1,0.069,0.0,0.0
+name,Awaha Mhamid,1,0.069,0.0,0.0
+name,Awftout-n-Oufalla,1,0.069,0.0,0.0
+name,BUILDING,1,0.069,0.0,0.0
+name,BULDING,1,0.069,0.0,0.0
+name,Bakery,1,0.069,0.0,0.0
+name,Bati complex showroom de sanitaire-carrelage-parquet,1,0.069,0.0,0.0
+name,Beldi Marrakech,1,0.069,0.0,0.0
+name,Berradi 2 Mhamid,1,0.069,0.0,0.0
+name,Bureau de Contrôle et Sensibilisation du Refuge de Toubkal,1,0.069,0.0,0.0
+name,Bus stop 25 & 251,1,0.069,0.0,0.0
+name,CAFE VIP FAMILY,1,0.069,0.0,0.0
+name,Cafe Nakhil Loudaya,1,0.069,0.0,0.0
+name,Café Elena,1,0.069,0.0,0.0
+name,Café Jnane Zaytoun,1,0.069,0.0,0.0
+name,Café Yasser,1,0.069,0.0,0.0
+name,Café amir,1,0.069,0.0,0.0
+name,Café grand atlas asni,1,0.069,0.0,0.0
+name,Camp Hodayfa,1,0.069,0.0,0.0
+name,Chehida الشهيدة,1,0.069,0.0,0.0
+name,Cimetière Tagadirte,1,0.069,0.0,0.0
+name,Circuit Moulay Al Hassan,1,0.069,0.0,0.0
+name,Cleminem,1,0.069,0.0,0.0
+name,Cmh,1,0.069,0.0,0.0
+name,Commune Sidi Badhaj,1,0.069,0.0,0.0
+name,Comunne Sidi Badhaj,1,0.069,0.0,0.0
+name,Coopérative Atlas Talatnyacoob pour la valorisation de la pomme,1,0.069,0.0,0.0
+name,Coopérative Imiouardouz,1,0.069,0.0,0.0
+name,Coopérative Tagmat,1,0.069,0.0,0.0
+name,Coopérative Tifaouine pour la valorisation des pommes et vinaigre Anougal,1,0.069,0.0,0.0
+name,Coopérative Tigdelt pour les conserves des olives,1,0.069,0.0,0.0
+name,Coopérative Tiwizi,1,0.069,0.0,0.0
+name,Coopérative Toubkal pour la valorisation du miel Miel Toubkal,1,0.069,0.0,0.0
+name,Coopérative atayssir pour la trituration des olivesTrituration huile d'olive ATAYSSIR,1,0.069,0.0,0.0
+name,Coopératuve Aguerswak,1,0.069,0.0,0.0
+name,Dar Bali,1,0.069,0.0,0.0
+name,Dawar Al-Karba Mosque,1,0.069,0.0,0.0
+name,Distrubution des plats chauds,1,0.069,0.0,0.0
+name,Douar Agadir Chems,1,0.069,0.0,0.0
+name,Douar Al Harakat,1,0.069,0.0,0.0
+name,Douar Azib bel Aoud,1,0.069,0.0,0.0
+name,Douar Bouras,1,0.069,0.0,0.0
+name,Douar N'Khila,1,0.069,0.0,0.0
+name,Douar ben Nasser,1,0.069,0.0,0.0
+name,Douar ben Salem,1,0.069,0.0,0.0
+name,Douar bou Lehmoul,1,0.069,0.0,0.0
+name,Douar bou Rial,1,0.069,0.0,0.0
+name,Douar el Moukhtar,1,0.069,0.0,0.0
+name,Douar el bared Tahannaout دوار البارد تحناوت,1,0.069,0.0,0.0
+name,Douar inaden,1,0.069,0.0,0.0
+name,EL HNAINE,1,0.069,0.0,0.0
+name,El Afaq,1,0.069,0.0,0.0
+name,El Mezouar المزوار,1,0.069,0.0,0.0
+name,Entree Tahannaout,1,0.069,0.0,0.0
+name,Ferme Agafay,1,0.069,0.0,0.0
+name,Freedom of Association roundabout Zimran,1,0.069,0.0,0.0
+name,Gouzwine,1,0.069,0.0,0.0
+name,Hot Meals Served,1,0.069,0.0,0.0
+name,Housing block,1,0.069,0.0,0.0
+name,Housna,1,0.069,0.0,0.0
+name,IGHREM,1,0.069,0.0,0.0
+name,INRA CRRA Marrakech,1,0.069,0.0,0.0
+name,Ijoukak,1,0.069,0.0,0.0
+name,Ijoukak ⵉⵊⵓⴽⴰⴽ إجوكاك,1,0.069,0.0,0.0
+name,Isqalane,1,0.069,0.0,0.0
+name,KITCHEN KITS,1,0.069,0.0,0.0
+name,Kairaouan Primary TAHANNAOUT School,1,0.069,0.0,0.0
+name,Kasbah Angour,1,0.069,0.0,0.0
+name,Kenzi Club Agdal Medina,1,0.069,0.0,0.0
+name,Kettou,1,0.069,0.0,0.0
+name,LUXURY HILLS COMPLEX1,1,0.069,0.0,0.0
+name,La Haute Vue,1,0.069,0.0,0.0
+name,Larb'a-n-Tamtarga,1,0.069,0.0,0.0
+name,Le Reflet D'Imlil,1,0.069,0.0,0.0
+name,Les Etoiles de Toubkal,1,0.069,0.0,0.0
+name,Lmgassem المكاسم,1,0.069,0.0,0.0
+name,Lycee ouidane,1,0.069,0.0,0.0
+name,Lycée Qualifiant Bir Anzarane,1,0.069,0.0,0.0
+name,Maison Boughdira,1,0.069,0.0,0.0
+name,Marokko-Reisen Familie Schatz,1,0.069,0.0,0.0
+name,Mosquée Al-Nour Tagadirte,1,0.069,0.0,0.0
+name,Mosquée Aït Aïssa,1,0.069,0.0,0.0
+name,Mosquée IMAM MALEK,1,0.069,0.0,0.0
+name,Moulay Zidane,1,0.069,0.0,0.0
+name,Méga Store,1,0.069,0.0,0.0
+name,Noria Golf Club,1,0.069,0.0,0.0
+name,Nour Al Atlas,1,0.069,0.0,0.0
+name,Nzala,1,0.069,0.0,0.0
+name,Orangeraie,1,0.069,0.0,0.0
+name,Orchard,1,0.069,0.0,0.0
+name,Oscar,1,0.069,0.0,0.0
+name,Ouad boulkhrass,1,0.069,0.0,0.0
+name,Oued Bouanfir ⴰⵙⵉⴼ ⵏ ⴱⵓⴰⵏⴼⵉⵔ,1,0.069,0.0,0.0
+name,Oued Ibourk ⴰⵙⵙⵉⴼ ⵏ ⵉⴱⵓⵔⴽ واد إبورك,1,0.069,0.0,0.0
+name,Ouirgane ⵡⵉⵔⴳⴰⵏ ويرڭان,1,0.069,0.0,0.0
+name,Oulad Sbah ⵡⵍⴰⴷ ⵙⴱⴰⵃ أولاد صباح,1,0.069,0.0,0.0
+name,Ouneine اوناين,1,0.069,0.0,0.0
+name,Outagheri,1,0.069,0.0,0.0
+name,Park,1,0.069,0.0,0.0
+name,Path,1,0.069,0.0,0.0
+name,Pharmacie Abwab El Afak صيدلية الاَفاق,1,0.069,0.0,0.0
+name,Pharmacie Al Firdaous صيدلية الفردوس,1,0.069,0.0,0.0
+name,Pharmacie Al Karam صيدلية الكرم,1,0.069,0.0,0.0
+name,Pharmacie Ben Sbaa,1,0.069,0.0,0.0
+name,Pharmacie Centrale Tassoultant,1,0.069,0.0,0.0
+name,Pharmacie Chaab صيدلية الشعب,1,0.069,0.0,0.0
+name,Pharmacie El Housna صيدلية الحسنى,1,0.069,0.0,0.0
+name,Pharmacie Fakhara صيدلية فخارة,1,0.069,0.0,0.0
+name,Pharmacie Sami صيدلية سامي,1,0.069,0.0,0.0
+name,Plantation,1,0.069,0.0,0.0
+name,Poste Chouiter,1,0.069,0.0,0.0
+name,RN7 - Ouneine,1,0.069,0.0,0.0
+name,Riad ASLDA,1,0.069,0.0,0.0
+name,Riad Almhamid,1,0.069,0.0,0.0
+name,Riad Jnane Jawhara,1,0.069,0.0,0.0
+name,Ritz Carlton Residence Marakeche,1,0.069,0.0,0.0
+name,"Rivayat, The Oberoi, Marakkech",1,0.069,0.0,0.0
+name,Rue Zakaria,1,0.069,0.0,0.0
+name,Salam Gaz,1,0.069,0.0,0.0
+name,Samanah Country Club,1,0.069,0.0,0.0
+name,Sandwiches Served,1,0.069,0.0,0.0
+name,Sidi Abdallah ou Saïd,1,0.069,0.0,0.0
+name,Sidi moussa,1,0.069,0.0,0.0
+name,Small road,1,0.069,0.0,0.0
+name,Smile Park,1,0.069,0.0,0.0
+name,Souihla ⵙⵡⵉⵀⵍⴰ سويهلة,1,0.069,0.0,0.0
+name,Souk de Tahannaout,1,0.069,0.0,0.0
+name,Souk de Tameslouht,1,0.069,0.0,0.0
+name,Souk oued nfis (Saada),1,0.069,0.0,0.0
+name,Souk oued nfis(Saada),1,0.069,0.0,0.0
+name,Station Service Petrofib,1,0.069,0.0,0.0
+name,Station la nature,1,0.069,0.0,0.0
+name,TARGA,1,0.069,0.0,0.0
+name,TASGHIMOTE,1,0.069,0.0,0.0
+name,TIGMI NOMADE,1,0.069,0.0,0.0
+name,Tagadirte  تاكاديرت,1,0.069,0.0,0.0
+name,Tagadirte تاكديرت,1,0.069,0.0,0.0
+name,Talat N'Yaaqoub ⵜⴰⵍⴰⵜ ⵏ ⵉⵄⵇⵓⴱ تلات نيعقوب,1,0.069,0.0,0.0
+name,Tameslouhte,1,0.069,0.0,0.0
+name,Terre khayr,1,0.069,0.0,0.0
+name,Tfraouten,1,0.069,0.0,0.0
+name,"The Source, Hotel, Music & Spa",1,0.069,0.0,0.0
+name,Tigouga تيݣوݣا,1,0.069,0.0,0.0
+name,Tikht,1,0.069,0.0,0.0
+name,Tizi Oussoul,1,0.069,0.0,0.0
+name,Tizi-n-Oulaoune,1,0.069,0.0,0.0
+name,Tnine Oudaya الأوداية,1,0.069,0.0,0.0
+name,Toubkal Sommet ouest,1,0.069,0.0,0.0
+name,Union Nfis pour la valorisation du miel,1,0.069,0.0,0.0
+name,Waky Marrakesh,1,0.069,0.0,0.0
+name,Zone agricole,1,0.069,0.0,0.0
+name,apartment building,1,0.069,0.0,0.0
+name,baiment,1,0.069,0.0,0.0
+name,bati,1,0.069,0.0,0.0
+name,buildind,1,0.069,0.0,0.0
+name,buildingqq,1,0.069,0.0,0.0
+name,desserted,1,0.069,0.0,0.0
+name,douar Ait Daoud ⴰⵢⵜ ⴷⴰⵡⴷ,1,0.069,0.0,0.0
+name,el hnaine,1,0.069,0.0,0.0
+name,farm building,1,0.069,0.0,0.0
+name,farm land,1,0.069,0.0,0.0
+name,farmhouse?,1,0.069,0.0,0.0
+name,forest,1,0.069,0.0,0.0
+name,fresh veg kits,1,0.069,0.0,0.0
+name,hose,1,0.069,0.0,0.0
+name,housing block,1,0.069,0.0,0.0
+name,housinmg,1,0.069,0.0,0.0
+name,iguer nkourisse,1,0.069,0.0,0.0
+name,imlil,1,0.069,0.0,0.0
+name,kitchen kit,1,0.069,0.0,0.0
+name,lakhouakh,1,0.069,0.0,0.0
+name,massage therapist,1,0.069,0.0,0.0
+name,mecanique building,1,0.069,0.0,0.0
+name,mhamid 2,1,0.069,0.0,0.0
+name,mobile phone shop,1,0.069,0.0,0.0
+name,mosquee douar saltan,1,0.069,0.0,0.0
+name,path,1,0.069,0.0,0.0
+name,path1,1,0.069,0.0,0.0
+name,pharmacie,1,0.069,0.0,0.0
+name,pharmacie hay albahja,1,0.069,0.0,0.0
+name,pharmacie jyramis,1,0.069,0.0,0.0
+name,pool,1,0.069,0.0,0.0
+name,pop,1,0.069,0.0,0.0
+name,reservoir for field,1,0.069,0.0,0.0
+name,road5,1,0.069,0.0,0.0
+name,roads,1,0.069,0.0,0.0
+name,route,1,0.069,0.0,0.0
+name,route fermé,1,0.069,0.0,0.0
+name,sandwiches served,1,0.069,0.0,0.0
+name,sauhail multy service,1,0.069,0.0,0.0
+name,shinto,1,0.069,0.0,0.0
+name,shopping centre,1,0.069,0.0,0.0
+name,tajgalte,1,0.069,0.0,0.0
+name,taliyol,1,0.069,0.0,0.0
+name,tasghimote,1,0.069,0.0,0.0
+name,trees,1,0.069,0.0,0.0
+name,water reservoir,1,0.069,0.0,0.0
+name,École Ibn Zaidoun Tagadirte,1,0.069,0.0,0.0
+name,École Primaire Elmassira Alkhadraa,1,0.069,0.0,0.0
+name,étang,1,0.069,0.0,0.0
+name,إمليل,1,0.069,0.0,0.0
+name,المكاسم,1,0.069,0.0,0.0
+name,ثانوية ابن هيثم,1,0.069,0.0,0.0
+name,قبر الحاخام رافائيل هكوهين زيا,1,0.069,0.0,0.0
+name,مدرسة المزوار,1,0.069,0.0,0.0
+name,مدرسة دوار الشهيدة,1,0.069,0.0,0.0
+name,مركزية دوار أفراس,1,0.069,0.0,0.0
+name,مسجد دوار أشبارو,1,0.069,0.0,0.0
+name,مسجد دوار الشهيدة,1,0.069,0.0,0.0
+name,ⵍⴻⵎⴳⴰⵙⴻⵎ,1,0.069,0.0,0.0
+name,たてもの,1,0.069,0.0,0.0
+name,家,1,0.069,0.0,0.0
+name,木,1,0.069,0.0,0.0
+name,果園,1,0.069,0.0,0.0
+natural,water,944,55.4642,94300.0,94300.0
+natural,wood,300,17.6263,29900.0,29900.0
+natural,tree,219,12.8672,21800.0,21800.0
+natural,grassland,72,4.2303,7100.0,7100.0
+natural,tree_row,71,4.1716,7000.0,7000.0
+natural,scrub,26,1.5276,2500.0,2500.0
+natural,heath,23,1.3514,2200.0,2200.0
+natural,shingle,22,1.2926,2100.0,2100.0
+natural,peak,6,0.3525,500.0,500.0
+natural,shrub,4,0.235,300.0,300.0
+natural,spring,4,0.235,300.0,300.0
+natural,cliff,2,0.1175,100.0,100.0
+natural,saddle,2,0.1175,100.0,100.0
+natural,bare_rock,1,0.0588,0.0,0.0
+natural,cave_entrance,1,0.0588,0.0,0.0
+natural,coastline,1,0.0588,0.0,0.0
+natural,ridge,1,0.0588,0.0,0.0
+natural,termite_mound,1,0.0588,0.0,0.0
+natural,ware,1,0.0588,0.0,0.0
+natural,wetland,1,0.0588,0.0,0.0
+source,Bing,236,38.5621,23500.0,23500.0
+source,Yahoo,182,29.7386,18100.0,18100.0
+source,bing,55,8.9869,5400.0,5400.0
+source,aerial imagery,26,4.2484,2500.0,2500.0
+source,Strava,15,2.451,1400.0,1400.0
+source,+bing,13,2.1242,1200.0,1200.0
+source,maxar,13,2.1242,1200.0,1200.0
+source,Kaart Ground Survey 2018,12,1.9608,1100.0,1100.0
+source,Yahoo;Bing,7,1.1438,600.0,600.0
+source,geometry: strava.com/heatmap 2024-02-24,7,1.1438,600.0,600.0
+source,microsoft/BuildingFootprints,7,1.1438,600.0,600.0
+source,gpx,5,0.817,400.0,400.0
+source,survey,5,0.817,400.0,400.0
+source,data.gov.ma,4,0.6536,300.0,300.0
+source,OSM - OpenCycleMap,3,0.4902,200.0,200.0
+source,aerial imagery;Strava,3,0.4902,200.0,200.0
+source,digitalglobe,3,0.4902,200.0,200.0
+source,gps,3,0.4902,200.0,200.0
+source,GPS,2,0.3268,100.0,100.0
+source,Strava;aerial imagery,2,0.3268,100.0,100.0
+source,esri,2,0.3268,100.0,100.0
+source,geometry: strava.com/heatmap 2024-02-19,2,0.3268,100.0,100.0
+source,geometry: strava.com/heatmap 2024-02-21,2,0.3268,100.0,100.0
+source,OSM - OpenCycleMap;survey;gps,1,0.1634,0.0,0.0
+source,geometry: strava.com/heatmap 2024-02-25,1,0.1634,0.0,0.0
+source,plutoniam;gps,1,0.1634,0.0,0.0
+surface,asphalt,1004,64.1124,100300.0,100300.0
+surface,unpaved,394,25.1596,39300.0,39300.0
+surface,ground,61,3.8953,6000.0,6000.0
+surface,paved,30,1.9157,2900.0,2900.0
+surface,dirt,25,1.5964,2400.0,2400.0
+surface,concrete,18,1.1494,1700.0,1700.0
+surface,gravel,17,1.0856,1600.0,1600.0
+surface,sand,5,0.3193,400.0,400.0
+surface,paving_stones,4,0.2554,300.0,300.0
+surface,compacted,3,0.1916,200.0,200.0
+surface,clay,2,0.1277,100.0,100.0
+surface,sand/gravel/stones,2,0.1277,100.0,100.0
+surface,grass,1,0.0639,0.0,0.0
+waterway,stream,271,65.6174,27000.0,27000.0
+waterway,river,108,26.1501,10700.0,10700.0
+waterway,canal,16,3.8741,1500.0,1500.0
+waterway,ditch,13,3.1477,1200.0,1200.0
+waterway,drain,3,0.7264,200.0,200.0
+waterway,dam,1,0.2421,0.0,0.0
+waterway,yes,1,0.2421,0.0,0.0

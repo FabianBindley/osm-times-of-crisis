@@ -1,0 +1,251 @@
+key,value,count,percent_of_total_changes_for_key,percent_difference_from_pre,percent_difference_from_pre_day
+amenity,fuel,24,27.5862,2300.0,2300.0
+amenity,restaurant,10,11.4943,900.0,900.0
+amenity,cafe,9,10.3448,800.0,800.0
+amenity,place_of_worship,8,9.1954,700.0,700.0
+amenity,school,7,8.046,600.0,600.0
+amenity,parking,6,6.8966,500.0,500.0
+amenity,drinking_water,4,4.5977,300.0,300.0
+amenity,bank,3,3.4483,200.0,200.0
+amenity,pharmacy,3,3.4483,200.0,200.0
+amenity,atm,2,2.2989,100.0,100.0
+amenity,police,2,2.2989,100.0,100.0
+amenity,shelter,2,2.2989,100.0,100.0
+amenity,bar,1,1.1494,0.0,0.0
+amenity,car_wash,1,1.1494,0.0,0.0
+amenity,fast_food,1,1.1494,0.0,0.0
+amenity,research_institute,1,1.1494,0.0,0.0
+amenity,taxi,1,1.1494,0.0,0.0
+amenity,toilets,1,1.1494,0.0,0.0
+amenity,university,1,1.1494,0.0,0.0
+building,yes,275,84.8765,27400.0,27400.0
+building,house,18,5.5556,1700.0,1700.0
+building,roof,14,4.321,1300.0,1300.0
+building,hut,7,2.1605,600.0,600.0
+building,hotel,4,1.2346,300.0,300.0
+building,cowshed,2,0.6173,100.0,100.0
+building,retail,2,0.6173,100.0,100.0
+building,cabin,1,0.3086,0.0,0.0
+building,mosque,1,0.3086,0.0,0.0
+highway,residential,1041,52.3905,104000.0,104000.0
+highway,path,213,10.7197,21200.0,21200.0
+highway,unclassified,182,9.1595,18100.0,18100.0
+highway,track,174,8.7569,17300.0,17300.0
+highway,service,163,8.2033,16200.0,16200.0
+highway,tertiary,51,2.5667,5000.0,5000.0
+highway,primary,50,2.5164,4900.0,4900.0
+highway,secondary,29,1.4595,2800.0,2800.0
+highway,construction,20,1.0065,1900.0,1900.0
+highway,footway,17,0.8556,1600.0,1600.0
+highway,living_street,9,0.4529,800.0,800.0
+highway,trunk,9,0.4529,800.0,800.0
+highway,crossing,7,0.3523,600.0,600.0
+highway,pedestrian,6,0.302,500.0,500.0
+highway,steps,5,0.2516,400.0,400.0
+highway,turning_circle,4,0.2013,300.0,300.0
+highway,trunk_link,3,0.151,200.0,200.0
+highway,tertiary_link,2,0.1007,100.0,100.0
+highway,primary_link,1,0.0503,0.0,0.0
+highway,turning_loop,1,0.0503,0.0,0.0
+landuse,orchard,167,49.5549,16600.0,16600.0
+landuse,residential,82,24.3323,8100.0,8100.0
+landuse,farmland,62,18.3976,6100.0,6100.0
+landuse,construction,7,2.0772,600.0,600.0
+landuse,forest,7,2.0772,600.0,600.0
+landuse,reservoir,5,1.4837,400.0,400.0
+landuse,greenhouse_horticulture,3,0.8902,200.0,200.0
+landuse,grass,1,0.2967,0.0,0.0
+landuse,greenfield,1,0.2967,0.0,0.0
+landuse,industrial,1,0.2967,0.0,0.0
+landuse,vineyard,1,0.2967,0.0,0.0
+leisure,garden,12,44.4444,1100.0,1100.0
+leisure,pitch,5,18.5185,400.0,400.0
+leisure,track,3,11.1111,200.0,200.0
+leisure,golf_course,2,7.4074,100.0,100.0
+leisure,sports_centre,2,7.4074,100.0,100.0
+leisure,park,1,3.7037,0.0,0.0
+leisure,resort,1,3.7037,0.0,0.0
+leisure,swimming_pool,1,3.7037,0.0,0.0
+name,Arumd-Sidi Chamarouch-CAF Refuge,12,4.5113,1100.0,1100.0
+name,Avenue Guemassa,11,4.1353,1000.0,1000.0
+name,chemin verso il M. Tinergwet,10,3.7594,900.0,900.0
+name,Avenue Essaouira طريق الصويرة,9,3.3835,800.0,800.0
+name,chemin vers m Awlin 3370m,8,3.0075,700.0,700.0
+name,طريق أوريكا,8,3.0075,700.0,700.0
+name,percorso fuori sentiero,7,2.6316,600.0,600.0
+name,Refuge CAF du Toubkal,6,2.2556,500.0,500.0
+name,Total طوطال,6,2.2556,500.0,500.0
+name,chemin hors sentiers vers m Tinergwet,6,2.2556,500.0,500.0
+name,Aman Oulili,5,1.8797,400.0,400.0
+name,Refuge Tamsoult,5,1.8797,400.0,400.0
+name,azib,5,1.8797,400.0,400.0
+name,Hotel Solei Imlil,4,1.5038,300.0,300.0
+name,Shell شل,4,1.5038,300.0,300.0
+name,cascade,4,1.5038,300.0,300.0
+name,Azib Awlin,3,1.1278,200.0,200.0
+name,Gite Tizi Oussem,3,1.1278,200.0,200.0
+name,Route du Barrage,3,1.1278,200.0,200.0
+name,chemin hors sentiers vers m Aouline,3,1.1278,200.0,200.0
+name,lac,3,1.1278,200.0,200.0
+name,paroi rocheuse,3,1.1278,200.0,200.0
+name,verso M. Awlin 3370m,3,1.1278,200.0,200.0
+name,Amazigh Familly Riad,2,0.7519,100.0,100.0
+name,Assif n'Ouissadene,2,0.7519,100.0,100.0
+name,Banque populaire,2,0.7519,100.0,100.0
+name,Be Agafay Hideaway Camp,2,0.7519,100.0,100.0
+name,CAF Refuge Lepiney,2,0.7519,100.0,100.0
+name,Camping Auberge Atlas Toubkal,2,0.7519,100.0,100.0
+name,Dar Amadine,2,0.7519,100.0,100.0
+name,Hippodrome De Marrakech,2,0.7519,100.0,100.0
+name,Jbel Awlim,2,0.7519,100.0,100.0
+name,RP 2012 Marrakech-Sidi Ghiate-Tamazouzte,2,0.7519,100.0,100.0
+name,colle 3445m,2,0.7519,100.0,100.0
+name,no chemin. escalade facile,2,0.7519,100.0,100.0
+name,verso M Awlin,2,0.7519,100.0,100.0
+name,verso M Awlin 3370m,2,0.7519,100.0,100.0
+name,مجموعة مدارس إغير - وحدة أكرضا,2,0.7519,100.0,100.0
+name,3445m,1,0.3759,0.0,0.0
+name,Afriquia أفريقيا,1,0.3759,0.0,0.0
+name,Ajiaire tagines,1,0.3759,0.0,0.0
+name,Amasa,1,0.3759,0.0,0.0
+name,Amazigh Family Riad,1,0.3759,0.0,0.0
+name,Apparel store,1,0.3759,0.0,0.0
+name,Atlas Extreme,1,0.3759,0.0,0.0
+name,Atlas Mountain Trekking,1,0.3759,0.0,0.0
+name,Atri اتري,1,0.3759,0.0,0.0
+name,Auberge Matat,1,0.3759,0.0,0.0
+name,Azib,1,0.3759,0.0,0.0
+name,Azib (abitazione estiva),1,0.3759,0.0,0.0
+name,"Banque Populaire, Agence Asni.",1,0.3759,0.0,0.0
+name,Boucherie Boumlik,1,0.3759,0.0,0.0
+name,Boulangerie Pâtisserie Asni,1,0.3759,0.0,0.0
+name,Boutique du lac,1,0.3759,0.0,0.0
+name,Bureau de Controle et sensibilisation de refuge de toubkal,1,0.3759,0.0,0.0
+name,CAFE RESTAURANT AWRIK,1,0.3759,0.0,0.0
+name,Cafe,1,0.3759,0.0,0.0
+name,Café Chamharouch,1,0.3759,0.0,0.0
+name,Café Ouissemeln,1,0.3759,0.0,0.0
+name,Café Pied de Toubkal,1,0.3759,0.0,0.0
+name,Café Restaurant Bab Toubkal,1,0.3759,0.0,0.0
+name,Café grand atlas asni,1,0.3759,0.0,0.0
+name,Camping 4x4 Jnane Baroud,1,0.3759,0.0,0.0
+name,Cascata,1,0.3759,0.0,0.0
+name,Dar Al Oumouma,1,0.3759,0.0,0.0
+name,Guado,1,0.3759,0.0,0.0
+name,INFIRMIER CHEZ VOUS,1,0.3759,0.0,0.0
+name,INRA CRRA Marrakech,1,0.3759,0.0,0.0
+name,Igdat,1,0.3759,0.0,0.0
+name,Isswel,1,0.3759,0.0,0.0
+name,Jbel Tinergwet,1,0.3759,0.0,0.0
+name,Jbel Toubkal,1,0.3759,0.0,0.0
+name,Laghetto,1,0.3759,0.0,0.0
+name,Lezzetli,1,0.3759,0.0,0.0
+name,Mahamid Central Market,1,0.3759,0.0,0.0
+name,Marjane,1,0.3759,0.0,0.0
+name,Marrakech,1,0.3759,0.0,0.0
+name,Matate,1,0.3759,0.0,0.0
+name,Motel Nihal,1,0.3759,0.0,0.0
+name,Noria Golf Club,1,0.3759,0.0,0.0
+name,Oued Bouanfir ⴰⵙⵉⴼ ⵏ ⴱⵓⴰⵏⴼⵉⵔ,1,0.3759,0.0,0.0
+name,Oued Issyl,1,0.3759,0.0,0.0
+name,Oued Rheraya,1,0.3759,0.0,0.0
+name,Oued Souss وادي سوس,1,0.3759,0.0,0.0
+name,Parc National de Toubkal,1,0.3759,0.0,0.0
+name,Petromin Oils,1,0.3759,0.0,0.0
+name,Pharmacie Asni.,1,0.3759,0.0,0.0
+name,Pharmacie IMLIL,1,0.3759,0.0,0.0
+name,Poste 60/22 Kv Igli,1,0.3759,0.0,0.0
+name,Poste 60/22 kv Majjat,1,0.3759,0.0,0.0
+name,Refuge Azib Tamsoult,1,0.3759,0.0,0.0
+name,Refuge Louis Neltner,1,0.3759,0.0,0.0
+name,Refuge Tazaghart,1,0.3759,0.0,0.0
+name,Refuge des Mouflons,1,0.3759,0.0,0.0
+name,Riad Malak,1,0.3759,0.0,0.0
+name,Route de Targa,1,0.3759,0.0,0.0
+name,Royal Palm Golf & Country Club,1,0.3759,0.0,0.0
+name,Rue Abou Hourayra زنقة ابو هريرة,1,0.3759,0.0,0.0
+name,Saida Berber House,1,0.3759,0.0,0.0
+name,Station Grand Taxis,1,0.3759,0.0,0.0
+name,Talaoul Road (not official name),1,0.3759,0.0,0.0
+name,Tassgimout,1,0.3759,0.0,0.0
+name,Tawont n'Tkhssa,1,0.3759,0.0,0.0
+name,The White Camel,1,0.3759,0.0,0.0
+name,Tizi Afella,1,0.3759,0.0,0.0
+name,Tizi n'Aguersioual,1,0.3759,0.0,0.0
+name,Tizi n'Ouanoums,1,0.3759,0.0,0.0
+name,Tizi n'Oudite,1,0.3759,0.0,0.0
+name,Tizi n'Test,1,0.3759,0.0,0.0
+name,Tizi n'Tiraten,1,0.3759,0.0,0.0
+name,Tizi n’Ougane,1,0.3759,0.0,0.0
+name,Tiziane,1,0.3759,0.0,0.0
+name,Toubkal Pizzeria,1,0.3759,0.0,0.0
+name,Toubkal Western Peak,1,0.3759,0.0,0.0
+name,Université Privée de Marrakech,1,0.3759,0.0,0.0
+name,Villaggio di Isswel,1,0.3759,0.0,0.0
+name,arbres à noix,1,0.3759,0.0,0.0
+name,bassin d'eau,1,0.3759,0.0,0.0
+name,cascade intermittente,1,0.3759,0.0,0.0
+name,cascata,1,0.3759,0.0,0.0
+name,chemin hors sentiers,1,0.3759,0.0,0.0
+name,chemin hors séntier,1,0.3759,0.0,0.0
+name,chèvrerie,1,0.3759,0.0,0.0
+name,chémin hors sentier,1,0.3759,0.0,0.0
+name,forêt de chênes,1,0.3759,0.0,0.0
+name,k,1,0.3759,0.0,0.0
+name,petit lac,1,0.3759,0.0,0.0
+name,petit magasin,1,0.3759,0.0,0.0
+name,piccolo lago,1,0.3759,0.0,0.0
+name,poste 60/22kv d'Asni,1,0.3759,0.0,0.0
+name,sentiero verso il M. Tinergwet,1,0.3759,0.0,0.0
+name,verso M. Awlin,1,0.3759,0.0,0.0
+name,أيت أيوب,1,0.3759,0.0,0.0
+name,إنمزال,1,0.3759,0.0,0.0
+name,انكزدم,1,0.3759,0.0,0.0
+name,تݣنتافين,1,0.3759,0.0,0.0
+name,شلال ايغوليدن,1,0.3759,0.0,0.0
+name,مجموعة مدارس إغير - وحدة أيت أيوب,1,0.3759,0.0,0.0
+name,مجموعة مدارس إغير - وحدة إنمزال,1,0.3759,0.0,0.0
+name,مجموعة مدارس إغير - وحدة تغرغيست,1,0.3759,0.0,0.0
+name,مسجد أيت أيوب,1,0.3759,0.0,0.0
+name,مسجد انكزدم,1,0.3759,0.0,0.0
+name,ملعب تݣنتافين,1,0.3759,0.0,0.0
+natural,cliff,36,38.7097,3500.0,3500.0
+natural,water,19,20.4301,1800.0,1800.0
+natural,saddle,9,9.6774,800.0,800.0
+natural,wood,8,8.6022,700.0,700.0
+natural,peak,7,7.5269,600.0,600.0
+natural,cave_entrance,4,4.3011,300.0,300.0
+natural,ridge,3,3.2258,200.0,200.0
+natural,hot_spring,2,2.1505,100.0,100.0
+natural,rock,1,1.0753,0.0,0.0
+natural,scree,1,1.0753,0.0,0.0
+natural,spring,1,1.0753,0.0,0.0
+natural,tree_row,1,1.0753,0.0,0.0
+natural,wetland,1,1.0753,0.0,0.0
+source,Bing,23,20.354,2200.0,2200.0
+source,maxar,20,17.6991,1900.0,1900.0
+source,survey,20,17.6991,1900.0,1900.0
+source,bing,14,12.3894,1300.0,1300.0
+source,Yahoo,11,9.7345,1000.0,1000.0
+source,GPS,8,7.0796,700.0,700.0
+source,gps,6,5.3097,500.0,500.0
+source,Kaart Ground Survey 2018,5,4.4248,400.0,400.0
+source,aerial imagery,2,1.7699,100.0,100.0
+source,geometry: strava.com heatmap,2,1.7699,100.0,100.0
+source,OSM - OpenCycleMap,1,0.885,0.0,0.0
+source,geometry: strava.com heatmap;aerial imagery,1,0.885,0.0,0.0
+surface,asphalt,177,51.3043,17600.0,17600.0
+surface,ground,91,26.3768,9000.0,9000.0
+surface,unpaved,34,9.8551,3300.0,3300.0
+surface,compacted,15,4.3478,1400.0,1400.0
+surface,gravel,7,2.029,600.0,600.0
+surface,rock,7,2.029,600.0,600.0
+surface,dirt,6,1.7391,500.0,500.0
+surface,concrete,3,0.8696,200.0,200.0
+surface,paved,2,0.5797,100.0,100.0
+surface,fine_gravel,1,0.2899,0.0,0.0
+surface,paving_stones,1,0.2899,0.0,0.0
+surface,rocher,1,0.2899,0.0,0.0
+waterway,stream,44,81.4815,4300.0,4300.0
+waterway,river,6,11.1111,500.0,500.0
+waterway,waterfall,4,7.4074,300.0,300.0

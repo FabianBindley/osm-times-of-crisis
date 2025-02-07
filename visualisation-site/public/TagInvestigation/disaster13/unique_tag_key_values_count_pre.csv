@@ -1,0 +1,3642 @@
+key,value,count,percent_of_total_changes_for_key,percent_difference_from_pre,percent_difference_from_pre_day
+amenity,fuel,235,26.644,23400.0,23400.0
+amenity,bank,207,23.4694,20600.0,20600.0
+amenity,place_of_worship,107,12.1315,10600.0,10600.0
+amenity,restaurant,51,5.7823,5000.0,5000.0
+amenity,hospital,30,3.4014,2900.0,2900.0
+amenity,school,30,3.4014,2900.0,2900.0
+amenity,university,30,3.4014,2900.0,2900.0
+amenity,college,21,2.381,2000.0,2000.0
+amenity,police,20,2.2676,1900.0,1900.0
+amenity,marketplace,19,2.1542,1800.0,1800.0
+amenity,grave_yard,18,2.0408,1700.0,1700.0
+amenity,townhall,14,1.5873,1300.0,1300.0
+amenity,bus_station,13,1.4739,1200.0,1200.0
+amenity,pharmacy,12,1.3605,1100.0,1100.0
+amenity,parking,10,1.1338,900.0,900.0
+amenity,fast_food,8,0.907,700.0,700.0
+amenity,cafe,6,0.6803,500.0,500.0
+amenity,events_venue,6,0.6803,500.0,500.0
+amenity,atm,5,0.5669,400.0,400.0
+amenity,community_centre,5,0.5669,400.0,400.0
+amenity,fountain,4,0.4535,300.0,300.0
+amenity,clinic,3,0.3401,200.0,200.0
+amenity,post_office,3,0.3401,200.0,200.0
+amenity,prison,3,0.3401,200.0,200.0
+amenity,veterinary,3,0.3401,200.0,200.0
+amenity,ice_cream,2,0.2268,100.0,100.0
+amenity,money_transfer,2,0.2268,100.0,100.0
+amenity,weighbridge,2,0.2268,100.0,100.0
+amenity,Government Office,1,0.1134,0.0,0.0
+amenity,bureau_de_change,1,0.1134,0.0,0.0
+amenity,car_rental,1,0.1134,0.0,0.0
+amenity,courthouse,1,0.1134,0.0,0.0
+amenity,drinking_water,1,0.1134,0.0,0.0
+amenity,fire_station,1,0.1134,0.0,0.0
+amenity,library,1,0.1134,0.0,0.0
+amenity,monastery,1,0.1134,0.0,0.0
+amenity,parking_space,1,0.1134,0.0,0.0
+amenity,research_institute,1,0.1134,0.0,0.0
+amenity,residential,1,0.1134,0.0,0.0
+amenity,shelter,1,0.1134,0.0,0.0
+amenity,social_centre,1,0.1134,0.0,0.0
+building,yes,649,71.0843,64800.0,64800.0
+building,industrial,91,9.9671,9000.0,9000.0
+building,house,66,7.2289,6500.0,6500.0
+building,residential,23,2.5192,2200.0,2200.0
+building,garage,14,1.5334,1300.0,1300.0
+building,apartments,10,1.0953,900.0,900.0
+building,bunker,10,1.0953,900.0,900.0
+building,hospital,9,0.9858,800.0,800.0
+building,school,8,0.8762,700.0,700.0
+building,mosque,5,0.5476,400.0,400.0
+building,shed,4,0.4381,300.0,300.0
+building,commercial,3,0.3286,200.0,200.0
+building,temple,3,0.3286,200.0,200.0
+building,roof,2,0.2191,100.0,100.0
+building,train_station,2,0.2191,100.0,100.0
+building,university,2,0.2191,100.0,100.0
+building,warehouse,2,0.2191,100.0,100.0
+building,Waqas House,1,0.1095,0.0,0.0
+building,airport_terminal,1,0.1095,0.0,0.0
+building,bungalow,1,0.1095,0.0,0.0
+building,church,1,0.1095,0.0,0.0
+building,college,1,0.1095,0.0,0.0
+building,hangar,1,0.1095,0.0,0.0
+building,no,1,0.1095,0.0,0.0
+building,office,1,0.1095,0.0,0.0
+building,retail,1,0.1095,0.0,0.0
+building,waqas_house,1,0.1095,0.0,0.0
+emergency,yes,5,62.5,400.0,400.0
+emergency,ambulance_station,2,25.0,100.0,100.0
+emergency,no,1,12.5,0.0,0.0
+highway,residential,80591,61.5076,8059000.0,8059000.0
+highway,unclassified,21873,16.6936,2187200.0,2187200.0
+highway,tertiary,16462,12.5639,1646100.0,1646100.0
+highway,track,2295,1.7516,229400.0,229400.0
+highway,service,2056,1.5692,205500.0,205500.0
+highway,secondary,1886,1.4394,188500.0,188500.0
+highway,trunk,1831,1.3974,183000.0,183000.0
+highway,primary,1664,1.27,166300.0,166300.0
+highway,living_street,1286,0.9815,128500.0,128500.0
+highway,motorway,228,0.174,22700.0,22700.0
+highway,path,203,0.1549,20200.0,20200.0
+highway,trunk_link,165,0.1259,16400.0,16400.0
+highway,footway,146,0.1114,14500.0,14500.0
+highway,motorway_link,78,0.0595,7700.0,7700.0
+highway,pedestrian,78,0.0595,7700.0,7700.0
+highway,motorway_junction,33,0.0252,3200.0,3200.0
+highway,primary_link,32,0.0244,3100.0,3100.0
+highway,tertiary_link,28,0.0214,2700.0,2700.0
+highway,crossing,20,0.0153,1900.0,1900.0
+highway,secondary_link,16,0.0122,1500.0,1500.0
+highway,bus_stop,15,0.0114,1400.0,1400.0
+highway,turning_circle,15,0.0114,1400.0,1400.0
+highway,traffic_signals,8,0.0061,700.0,700.0
+highway,construction,7,0.0053,600.0,600.0
+highway,road,6,0.0046,500.0,500.0
+highway,rest_area,2,0.0015,100.0,100.0
+highway,cycleway,1,0.0008,0.0,0.0
+highway,residental,1,0.0008,0.0,0.0
+landuse,residential,483,60.7547,48200.0,48200.0
+landuse,industrial,121,15.2201,12000.0,12000.0
+landuse,grass,55,6.9182,5400.0,5400.0
+landuse,farmland,43,5.4088,4200.0,4200.0
+landuse,cemetery,19,2.3899,1800.0,1800.0
+landuse,commercial,19,2.3899,1800.0,1800.0
+landuse,forest,14,1.761,1300.0,1300.0
+landuse,retail,14,1.761,1300.0,1300.0
+landuse,gated_community,8,1.0063,700.0,700.0
+landuse,military,5,0.6289,400.0,400.0
+landuse,orchard,5,0.6289,400.0,400.0
+landuse,religious,3,0.3774,200.0,200.0
+landuse,farmyard,2,0.2516,100.0,100.0
+landuse,recreation_ground,2,0.2516,100.0,100.0
+landuse,plant_nursery,1,0.1258,0.0,0.0
+landuse,railway,1,0.1258,0.0,0.0
+leisure,park,35,38.8889,3400.0,3400.0
+leisure,fishing,18,20.0,1700.0,1700.0
+leisure,pitch,8,8.8889,700.0,700.0
+leisure,playground,8,8.8889,700.0,700.0
+leisure,track,7,7.7778,600.0,600.0
+leisure,swimming_pool,4,4.4444,300.0,300.0
+leisure,fitness_centre,3,3.3333,200.0,200.0
+leisure,garden,3,3.3333,200.0,200.0
+leisure,sports_centre,2,2.2222,100.0,100.0
+leisure,slipway,1,1.1111,0.0,0.0
+leisure,stadium,1,1.1111,0.0,0.0
+name,قومی شاہراہ,425,4.6827,42400.0,42400.0
+name,قومی شاہراہ 55,307,3.3825,30600.0,30600.0
+name,گرینڈ ٹرنک روڈ,123,1.3552,12200.0,12200.0
+name,پاکستان اسٹیٹ آئل,109,1.201,10800.0,10800.0
+name,کراچی۔ لاہور۔ پشاور مین ریلوے لائن,108,1.19,10700.0,10700.0
+name,مُلتان- سكھر موٹروے,103,1.1349,10200.0,10200.0
+name,گاڑھو روڈ,99,1.0908,9800.0,9800.0
+name,اینٹوں کا بھٹا,80,0.8814,7900.0,7900.0
+name,Road,65,0.7162,6400.0,6400.0
+name,Tando Muhammad Khan-Sujawal Provincial Highway,65,0.7162,6400.0,6400.0
+name,کوئٹہ - جیکب آباد شاہراہ,61,0.6721,6000.0,6000.0
+name,سیالکوٹ روڈ,50,0.5509,4900.0,4900.0
+name,ہکلا - ڈی آئی خان موٹر وے,49,0.5399,4800.0,4800.0
+name,کشمیر روڈ,48,0.5289,4700.0,4700.0
+name,Karor-Bhakkar Road,46,0.5068,4500.0,4500.0
+name,حیدرآباد بائی پاس,46,0.5068,4500.0,4500.0
+name,Mehran Highway,44,0.4848,4300.0,4300.0
+name,حافظ آباد روڈ,44,0.4848,4300.0,4300.0
+name,ٹبی روڈ,44,0.4848,4300.0,4300.0
+name,ملتان - ڈیرہ غازی خان روڈ,41,0.4517,4000.0,4000.0
+name,نوشاہ - سانگھڑ - میرپورخاص صوبائی شاہراہ,39,0.4297,3800.0,3800.0
+name,Qazi Ahmed Road,37,0.4077,3600.0,3600.0
+name,Narowal-Muridke Road,36,0.3967,3500.0,3500.0
+name,Sialkot Road,35,0.3856,3400.0,3400.0
+name,شیل,33,0.3636,3200.0,3200.0
+name,Eminabad Road,32,0.3526,3100.0,3100.0
+name,جے ایس بینک,32,0.3526,3100.0,3100.0
+name,Hyderabad Badin Provincial Highway,31,0.3416,3000.0,3000.0
+name,Wazirabad Road,30,0.3305,2900.0,2900.0
+name,کراچی - حیدرآباد موٹروے,30,0.3305,2900.0,2900.0
+name,Ratodero - Gwadar Motorway,29,0.3195,2800.0,2800.0
+name,دریائے سندھ,29,0.3195,2800.0,2800.0
+name,Pindi Bypass,28,0.3085,2700.0,2700.0
+name,Jacobabad-Shahdadkot Provincial Highway,27,0.2975,2600.0,2600.0
+name,Sakrand Highway,27,0.2975,2600.0,2600.0
+name,یونائیٹڈ بینک لمیٹڈ,27,0.2975,2600.0,2600.0
+name,Hakla - D.I. Khan Motorway,26,0.2865,2500.0,2500.0
+name,Kala Khatai Narang Mandi Road,26,0.2865,2500.0,2500.0
+name,Lahore Sheikhupura Road,26,0.2865,2500.0,2500.0
+name,Qila Dedar Singh Road,26,0.2865,2500.0,2500.0
+name,Sialkot-Wazirabad Road,26,0.2865,2500.0,2500.0
+name,Thatta-Sujjawal-Badin Provincial Highway,26,0.2865,2500.0,2500.0
+name,لنک روڈ,26,0.2865,2500.0,2500.0
+name,Jampur Road,25,0.2755,2400.0,2400.0
+name,Jaranwala Road,25,0.2755,2400.0,2400.0
+name,Rahim Yar Khan Road,25,0.2755,2400.0,2400.0
+name,Daska Road,24,0.2644,2300.0,2300.0
+name,Karor Lal-Bhakkar Road,24,0.2644,2300.0,2300.0
+name,Tando Allahyar-Tando Adam-Shahdadkot Provincial Highway,24,0.2644,2300.0,2300.0
+name,Hafizabad Road,23,0.2534,2200.0,2200.0
+name,Tando Adam-Mehrabpur Branch Line,23,0.2534,2200.0,2200.0
+name,کینال روڈ,23,0.2534,2200.0,2200.0
+name,ایم سی بی بینک,22,0.2424,2100.0,2100.0
+name,ایچ بی ایل پاکستان,22,0.2424,2100.0,2100.0
+name,Gujranwala-Pasrur Road,21,0.2314,2000.0,2000.0
+name,Hyderabad Bypass,21,0.2314,2000.0,2000.0
+name,Jaranwala - Lahore Road,21,0.2314,2000.0,2000.0
+name,Sialkot - Pasrur - Narowal Road,21,0.2314,2000.0,2000.0
+name,Zahir Pir Road,21,0.2314,2000.0,2000.0
+name,Talagang Mianwali Road,20,0.2204,1900.0,1900.0
+name,ائیرپورٹ ایکسیس روڈ,20,0.2204,1900.0,1900.0
+name,Hala-Shahdadpur-Sanghar Provincial Highway,19,0.2093,1800.0,1800.0
+name,Jungshahi-Thatta Branch Line,19,0.2093,1800.0,1800.0
+name,Abdul Qadir Khan Road,18,0.1983,1700.0,1700.0
+name,ایئرپورٹ روڈ,18,0.1983,1700.0,1700.0
+name,پٹرول پمپ,18,0.1983,1700.0,1700.0
+name,Jamshoro Road,17,0.1873,1600.0,1600.0
+name,Moro Bandhi Road,17,0.1873,1600.0,1600.0
+name,عبدالقادر خان روڈ,17,0.1873,1600.0,1600.0
+name,Darya Khan Road,16,0.1763,1500.0,1500.0
+name,Tando Adam Landhi Road,16,0.1763,1500.0,1500.0
+name,VIP Road,16,0.1763,1500.0,1500.0
+name,جیل روڈ,16,0.1763,1500.0,1500.0
+name,علامہ اقبال روڈ,16,0.1763,1500.0,1500.0
+name,نیشنل بینک آف پاکستان,16,0.1763,1500.0,1500.0
+name,Jalalpur Road,15,0.1653,1400.0,1400.0
+name,Rasul Nagar Road,15,0.1653,1400.0,1400.0
+name,Sialkot Bypass,15,0.1653,1400.0,1400.0
+name,Daska-Pasrur Road,14,0.1543,1300.0,1300.0
+name,Gharo – Keti Bunder Road,14,0.1543,1300.0,1300.0
+name,Link Road,14,0.1543,1300.0,1300.0
+name,Qambar Road,14,0.1543,1300.0,1300.0
+name,Rahim Yar Khan-Saddiqabad Road,14,0.1543,1300.0,1300.0
+name,Shahdadkot Road,14,0.1543,1300.0,1300.0
+name,ڈاسکہ روڈ,14,0.1543,1300.0,1300.0
+name,Badiana–Shakargarh Road,13,0.1432,1200.0,1200.0
+name,Gujranwala Road,13,0.1432,1200.0,1200.0
+name,Jhang Bhakkar Road,13,0.1432,1200.0,1200.0
+name,Kacha Shahi Road,13,0.1432,1200.0,1200.0
+name,Kashmore Road,13,0.1432,1200.0,1200.0
+name,Layyah-Chowk Azam Road,13,0.1432,1200.0,1200.0
+name,Tando Jam Bypass,13,0.1432,1200.0,1200.0
+name,Thali Chowk Bypass,13,0.1432,1200.0,1200.0
+name,Ghotki Khanpur Road,12,0.1322,1100.0,1100.0
+name,Gil Wala Road,12,0.1322,1100.0,1100.0
+name,Jail Road,12,0.1322,1100.0,1100.0
+name,Khansar Road,12,0.1322,1100.0,1100.0
+name,Main Road,12,0.1322,1100.0,1100.0
+name,سرکلر روڈ,12,0.1322,1100.0,1100.0
+name,لاہور-سیالکوٹ موٹروے,12,0.1322,1100.0,1100.0
+name,Chaubara Road,11,0.1212,1000.0,1000.0
+name,Chenab Gate Road,11,0.1212,1000.0,1000.0
+name,Defence Road,11,0.1212,1000.0,1000.0
+name,Hyderabad,11,0.1212,1000.0,1000.0
+name,Hyderabad-Shaikh Bhirikio-Tando Ghulam Ali Provincial Highway,11,0.1212,1000.0,1000.0
+name,Jatoi-shah Jamal Road,11,0.1212,1000.0,1000.0
+name,Miro Khan Road,11,0.1212,1000.0,1000.0
+name,National Highway Rohir By Pass,11,0.1212,1000.0,1000.0
+name,Bahadarpur Road,10,0.1102,900.0,900.0
+name,Canal Rd,10,0.1102,900.0,900.0
+name,Chakkian Road,10,0.1102,900.0,900.0
+name,Dadu-Moro Provincial Highway,10,0.1102,900.0,900.0
+name,Kalur Kot - Pabbi Road,10,0.1102,900.0,900.0
+name,Khawaja Safdar Road,10,0.1102,900.0,900.0
+name,Larkana Khairpur Link Road,10,0.1102,900.0,900.0
+name,Main Rd,10,0.1102,900.0,900.0
+name,Mehar Ghulam Rasool Road,10,0.1102,900.0,900.0
+name,Mian Sahib Main Rd/St,10,0.1102,900.0,900.0
+name,N-20 National Highway,10,0.1102,900.0,900.0
+name,Nara Road,10,0.1102,900.0,900.0
+name,Perji Rd,10,0.1102,900.0,900.0
+name,Sajawal Road,10,0.1102,900.0,900.0
+name,Tibbi-Chor Wala Rd,10,0.1102,900.0,900.0
+name,path,10,0.1102,900.0,900.0
+name,سونیری بینک,10,0.1102,900.0,900.0
+name,Airport Access Road,9,0.0992,800.0,800.0
+name,Alluwali Rd,9,0.0992,800.0,800.0
+name,Campus Road,9,0.0992,800.0,800.0
+name,Dadu-Johi-Chinni Provincial Highway,9,0.0992,800.0,800.0
+name,Iqbalabad- Taj Garh Road,9,0.0992,800.0,800.0
+name,Mehar Town,9,0.0992,800.0,800.0
+name,Multan - Dera Ghazi Khan Road,9,0.0992,800.0,800.0
+name,Musa Khel Rd,9,0.0992,800.0,800.0
+name,Naushahro Feroze-Padidan Road,9,0.0992,800.0,800.0
+name,Nawabshah Road,9,0.0992,800.0,800.0
+name,Pasrur Road,9,0.0992,800.0,800.0
+name,Sargodha-Mianwali Road,9,0.0992,800.0,800.0
+name,Shahabpura Road,9,0.0992,800.0,800.0
+name,Sialkot Airport Road,9,0.0992,800.0,800.0
+name,Zahirpir-Khanpur Road,9,0.0992,800.0,800.0
+name,الائیڈ بینک,9,0.0992,800.0,800.0
+name,جناح روڈ,9,0.0992,800.0,800.0
+name,ریلوے روڈ,9,0.0992,800.0,800.0
+name,سندھ بینک,9,0.0992,800.0,800.0
+name,چک غازی روڈ,9,0.0992,800.0,800.0
+name,Canal Bank Road,8,0.0881,700.0,700.0
+name,Distric Courts Road,8,0.0881,700.0,700.0
+name,Dubai City Housing Society,8,0.0881,700.0,700.0
+name,Gularchi Bypass,8,0.0881,700.0,700.0
+name,Johi Link to N-55,8,0.0881,700.0,700.0
+name,Kallur Kot-addi Koi Road,8,0.0881,700.0,700.0
+name,Karim Dad Qurashi-Kot Addu Road,8,0.0881,700.0,700.0
+name,Kashmor-Saddiqabad Road,8,0.0881,700.0,700.0
+name,Khadim Ali Road,8,0.0881,700.0,700.0
+name,Khanpur Road,8,0.0881,700.0,700.0
+name,Khanqa Dogran - Hafizabad Road,8,0.0881,700.0,700.0
+name,M Raheem Rice,8,0.0881,700.0,700.0
+name,Nawashah-Sanghar-Mirpurkhas Provincial Highway,8,0.0881,700.0,700.0
+name,Pindi Bhattian-Chiniot Road,8,0.0881,700.0,700.0
+name,Quetta - Jacobabad Highway,8,0.0881,700.0,700.0
+name,Sakhi Sarwar Road,8,0.0881,700.0,700.0
+name,اسٹیشن روڈ,8,0.0881,700.0,700.0
+name,تھانہ,8,0.0881,700.0,700.0
+name,شَيخُوپُورہ-شرکپور شریف سڑک,8,0.0881,700.0,700.0
+name,مزار,8,0.0881,700.0,700.0
+name,نئے میاں صاحب اسٹریٹ,8,0.0881,700.0,700.0
+name,نہر اپر چناب,8,0.0881,700.0,700.0
+name,کالج روڈ,8,0.0881,700.0,700.0
+name,ہسپتال روڈ,8,0.0881,700.0,700.0
+name,Akil Road,7,0.0771,600.0,600.0
+name,Begowala Road,7,0.0771,600.0,600.0
+name,Chowni Sulehrian Road,7,0.0771,600.0,600.0
+name,Dangahi Minor,7,0.0771,600.0,600.0
+name,Daud Kandhra Road,7,0.0771,600.0,600.0
+name,Duska - Wazirabad Road,7,0.0771,600.0,600.0
+name,Gachero Road,7,0.0771,600.0,600.0
+name,Gondalanwala Road,7,0.0771,600.0,600.0
+name,Gurjakh Road,7,0.0771,600.0,600.0
+name,Hospital rd,7,0.0771,600.0,600.0
+name,Kachehry Road,7,0.0771,600.0,600.0
+name,Kandhar to Rohri Road,7,0.0771,600.0,600.0
+name,Manthar Road,7,0.0771,600.0,600.0
+name,Muridke Distributary,7,0.0771,600.0,600.0
+name,Narowal Murdike Road,7,0.0771,600.0,600.0
+name,Northwestern Canal,7,0.0771,600.0,600.0
+name,Ranikot Fort Road,7,0.0771,600.0,600.0
+name,Sahari Minor,7,0.0771,600.0,600.0
+name,Shikarpur Road,7,0.0771,600.0,600.0
+name,Sialkot to Kingra Road,7,0.0771,600.0,600.0
+name,Sujawal-Chuhar Jamali Provincial Highway,7,0.0771,600.0,600.0
+name,سروس روڈ,7,0.0771,600.0,600.0
+name,شَيخُوپُورہ – حافظ آباد سڑک,7,0.0771,600.0,600.0
+name,نہر سڑک‎,7,0.0771,600.0,600.0
+name,کالج آف ایگریکلچر ڈیرہ غازی خان روڈ,7,0.0771,600.0,600.0
+name,ہوائی اڈا سڑک,7,0.0771,600.0,600.0
+name,Akeran-Abbasian Wala Rd,6,0.0661,500.0,500.0
+name,Aloo Mahar Road,6,0.0661,500.0,500.0
+name,Barrage Road,6,0.0661,500.0,500.0
+name,Capital Road,6,0.0661,500.0,500.0
+name,Dr Saleh Memon Road,6,0.0661,500.0,500.0
+name,Essa Khel-Mianwali Road,6,0.0661,500.0,500.0
+name,Faazal-Darya Khan Road,6,0.0661,500.0,500.0
+name,Gajar Gola Distributary,6,0.0661,500.0,500.0
+name,Ghazi Ghat Qasba Gujrat Rd,6,0.0661,500.0,500.0
+name,Greater Thal Canal Rd,6,0.0661,500.0,500.0
+name,Hamza Jagirdar Road,6,0.0661,500.0,500.0
+name,Head Marala Road,6,0.0661,500.0,500.0
+name,Indus,6,0.0661,500.0,500.0
+name,Indus Heaven Housing Society,6,0.0661,500.0,500.0
+name,Jail Rd,6,0.0661,500.0,500.0
+name,Jurian Road - جوریاں روڑ,6,0.0661,500.0,500.0
+name,Kallur Kot-Piplan Rd,6,0.0661,500.0,500.0
+name,Khayam Road,6,0.0661,500.0,500.0
+name,Labe Mehran Road,6,0.0661,500.0,500.0
+name,Larkana - Nasirabad Road,6,0.0661,500.0,500.0
+name,Layyah-Kot Addu Road,6,0.0661,500.0,500.0
+name,MM Road,6,0.0661,500.0,500.0
+name,Main Boulevard,6,0.0661,500.0,500.0
+name,Marhaba City Housing Society,6,0.0661,500.0,500.0
+name,Mehar Faqir Mohammad Road,6,0.0661,500.0,500.0
+name,Mehar Mohammad Bashir Road,6,0.0661,500.0,500.0
+name,Mehran University of Engineering and Technology Jamshoro,6,0.0661,500.0,500.0
+name,Mirpur Khas-Nawabshah Railway,6,0.0661,500.0,500.0
+name,Mohan Nai,6,0.0661,500.0,500.0
+name,Nangni Rd,6,0.0661,500.0,500.0
+name,Sadhoke Distributary,6,0.0661,500.0,500.0
+name,Sagian Wala Bypass Road,6,0.0661,500.0,500.0
+name,Sakand-Nawabshah,6,0.0661,500.0,500.0
+name,Sehwan-Jhangara-Kai Provincial Highway,6,0.0661,500.0,500.0
+name,Shahdara Distributary Canal,6,0.0661,500.0,500.0
+name,Sohi Distributary,6,0.0661,500.0,500.0
+name,Station Road,6,0.0661,500.0,500.0
+name,Tando Saindad-Tando Fazal Rd,6,0.0661,500.0,500.0
+name,Tatly Ally Road,6,0.0661,500.0,500.0
+name,national highway mirpur khas link road,6,0.0661,500.0,500.0
+name,باغ,6,0.0661,500.0,500.0
+name,بھیڈ نالہ,6,0.0661,500.0,500.0
+name,خانقاہ ڈوگراں - حافظ آباد سڑک,6,0.0661,500.0,500.0
+name,دیگ نالہ,6,0.0661,500.0,500.0
+name,سمٹ بینک,6,0.0661,500.0,500.0
+name,شاہد حسین ہنجرا والا گلہ,6,0.0661,500.0,500.0
+name,شَيخُوپُورہ - حافظ آباد سڑک,6,0.0661,500.0,500.0
+name,علی پور چٹھہ روڈ,6,0.0661,500.0,500.0
+name,پسرور,6,0.0661,500.0,500.0
+name,کالا شاہ کاکو برانچ,6,0.0661,500.0,500.0
+name,Abu Dhabi Road,5,0.0551,400.0,400.0
+name,Al Jannat Road,5,0.0551,400.0,400.0
+name,Alipur Chatha Road,5,0.0551,400.0,400.0
+name,Bakay Link Rd,5,0.0551,400.0,400.0
+name,Bazaar Rd,5,0.0551,400.0,400.0
+name,By Pass Road Karor,5,0.0551,400.0,400.0
+name,Cadet College Petaro Rd,5,0.0551,400.0,400.0
+name,Cemetery,5,0.0551,400.0,400.0
+name,Chuhar Jamali-Ladiun Provincial Highway,5,0.0551,400.0,400.0
+name,D.I. Khan Road,5,0.0551,400.0,400.0
+name,Dera Ismail - Mianwali Road,5,0.0551,400.0,400.0
+name,Dully Wala Canal Road,5,0.0551,400.0,400.0
+name,Fatehpur Distributary,5,0.0551,400.0,400.0
+name,Fruit & Vegetable Market,5,0.0551,400.0,400.0
+name,Gujrat Ring Road,5,0.0551,400.0,400.0
+name,Hafiz Wala-Piplan Rd,5,0.0551,400.0,400.0
+name,Hafizabad Bypass,5,0.0551,400.0,400.0
+name,Hassan Wala Rd,5,0.0551,400.0,400.0
+name,Hyderabad Road,5,0.0551,400.0,400.0
+name,Jalalpur Jattan Road,5,0.0551,400.0,400.0
+name,Jampur Bypass,5,0.0551,400.0,400.0
+name,Jandoki Distributary,5,0.0551,400.0,400.0
+name,Jaranwala Lahore Road,5,0.0551,400.0,400.0
+name,Jati-Ladiun Provincial Highway,5,0.0551,400.0,400.0
+name,Kachhi Canal,5,0.0551,400.0,400.0
+name,Kalluwala Road,5,0.0551,400.0,400.0
+name,Karachi - Hyderabad Motorway,5,0.0551,400.0,400.0
+name,Kasese Road,5,0.0551,400.0,400.0
+name,Khayam Street,5,0.0551,400.0,400.0
+name,Kot Diji -Tajal -Sanghar Provincial Highway,5,0.0551,400.0,400.0
+name,Kot Haibat-DG Khan Bypass Rd,5,0.0551,400.0,400.0
+name,Mahmood Ghaznavi Road,5,0.0551,400.0,400.0
+name,Mehar Afzal Street,5,0.0551,400.0,400.0
+name,Military Road,5,0.0551,400.0,400.0
+name,Mirko Road,5,0.0551,400.0,400.0
+name,Muzaffargrah-kot Addu Road,5,0.0551,400.0,400.0
+name,Nukkar Minor,5,0.0551,400.0,400.0
+name,Old Hindu Temple,5,0.0551,400.0,400.0
+name,Pai Khel Station,5,0.0551,400.0,400.0
+name,Pati Wala Rd,5,0.0551,400.0,400.0
+name,Peer Kot Road,5,0.0551,400.0,400.0
+name,Rail Bazar,5,0.0551,400.0,400.0
+name,Railway Overpass,5,0.0551,400.0,400.0
+name,Rice Canal,5,0.0551,400.0,400.0
+name,Rodhkohi,5,0.0551,400.0,400.0
+name,Sadiqabad Tehsil,5,0.0551,400.0,400.0
+name,Sakrand Distributary,5,0.0551,400.0,400.0
+name,Shahbaz Minor,5,0.0551,400.0,400.0
+name,Shahi Road,5,0.0551,400.0,400.0
+name,Sialkot-Pasrur Road,5,0.0551,400.0,400.0
+name,Tando Adam Bypass,5,0.0551,400.0,400.0
+name,Urdu Bazaar,5,0.0551,400.0,400.0
+name,Zafar Housing Scheme,5,0.0551,400.0,400.0
+name,اسٹریٹ 13,5,0.0551,400.0,400.0
+name,بٹاں والا گلہ,5,0.0551,400.0,400.0
+name,بھولا موسیٰ,5,0.0551,400.0,400.0
+name,بینک اسلامی,5,0.0551,400.0,400.0
+name,روہڑی نہر,5,0.0551,400.0,400.0
+name,نوڈیرو روڈ,5,0.0551,400.0,400.0
+name,ونیکی تارڑ روڈ,5,0.0551,400.0,400.0
+name,پکی گڑھی,5,0.0551,400.0,400.0
+name,کولو تارڑ روڈ,5,0.0551,400.0,400.0
+name,گوجرانوالہ,5,0.0551,400.0,400.0
+name,Abbot Road,4,0.0441,300.0,300.0
+name,Autobahn Road,4,0.0441,300.0,300.0
+name,Badyana Road,4,0.0441,300.0,300.0
+name,Band Road Shahdara Town,4,0.0441,300.0,300.0
+name,Bannu Road,4,0.0441,300.0,300.0
+name,Bhirya Tharushah Road,4,0.0441,300.0,300.0
+name,Bus Stand Chowk,4,0.0441,300.0,300.0
+name,CBC-Track,4,0.0441,300.0,300.0
+name,Chak Pawar,4,0.0441,300.0,300.0
+name,Channa Mohallah,4,0.0441,300.0,300.0
+name,Chor Wala Link Rd,4,0.0441,300.0,300.0
+name,Daniel Saeed Street,4,0.0441,300.0,300.0
+name,Drain Right Bank Road,4,0.0441,300.0,300.0
+name,Drya khan Road,4,0.0441,300.0,300.0
+name,Ghazi Road,4,0.0441,300.0,300.0
+name,Gourmet Bakers & Sweets,4,0.0441,300.0,300.0
+name,Gulistan E Sajjad Road,4,0.0441,300.0,300.0
+name,Haider Road,4,0.0441,300.0,300.0
+name,Haider Street,4,0.0441,300.0,300.0
+name,Hatri Minor,4,0.0441,300.0,300.0
+name,Hyderabad-Khokrapar Branch Line,4,0.0441,300.0,300.0
+name,JS Bank,4,0.0441,300.0,300.0
+name,Jacobabad-Thul-Kandhkot-(Ghotki-Kandkot Bridge)-Ghotki-Mathelo-Jarwar-Yaro Lund,4,0.0441,300.0,300.0
+name,Jic Sports International,4,0.0441,300.0,300.0
+name,Larkana Ring Road,4,0.0441,300.0,300.0
+name,Layyah Taunsa Bridge,4,0.0441,300.0,300.0
+name,MCB,4,0.0441,300.0,300.0
+name,Manka Road,4,0.0441,300.0,300.0
+name,Mehar Asif Street,4,0.0441,300.0,300.0
+name,Mehar Haider Kashaif Road,4,0.0441,300.0,300.0
+name,Mehar Kashif Jamal Street,4,0.0441,300.0,300.0
+name,Mian Zahoor Elahi Street,4,0.0441,300.0,300.0
+name,Moenjo Daro Road,4,0.0441,300.0,300.0
+name,Mohajir Branch Canal Rd,4,0.0441,300.0,300.0
+name,Mohammad Amjad Street,4,0.0441,300.0,300.0
+name,Moro New Jatoi Road,4,0.0441,300.0,300.0
+name,Muhammad Usman Diplai Road,4,0.0441,300.0,300.0
+name,Narowal - Zafarwal Road,4,0.0441,300.0,300.0
+name,Nasarpur Road,4,0.0441,300.0,300.0
+name,Naseem Nagar Road,4,0.0441,300.0,300.0
+name,New Mian Sahib Street,4,0.0441,300.0,300.0
+name,Nim Distributary,4,0.0441,300.0,300.0
+name,Nokhar Branch,4,0.0441,300.0,300.0
+name,PAF Base Shahbaz,4,0.0441,300.0,300.0
+name,Piplan Road,4,0.0441,300.0,300.0
+name,Ratodero Road,4,0.0441,300.0,300.0
+name,Sanawan-Sultan Rd,4,0.0441,300.0,300.0
+name,Sheikh Mahmood Road,4,0.0441,300.0,300.0
+name,Sheikhupura muridke road,4,0.0441,300.0,300.0
+name,Shell Petrol Pump,4,0.0441,300.0,300.0
+name,Sikhanwala Distributary,4,0.0441,300.0,300.0
+name,Sukheke Road,4,0.0441,300.0,300.0
+name,Thane Wala Bazaar,4,0.0441,300.0,300.0
+name,University of Sindh,4,0.0441,300.0,300.0
+name,Wazirabad Bypass,4,0.0441,300.0,300.0
+name,main daska road,4,0.0441,300.0,300.0
+name,اسٹیڈیم روڈ,4,0.0441,300.0,300.0
+name,ایئر پورٹ روڈ,4,0.0441,300.0,300.0
+name,ایم 3 موٹروے,4,0.0441,300.0,300.0
+name,بھاٹی افغاناں روڈ,4,0.0441,300.0,300.0
+name,جام پور روڈ,4,0.0441,300.0,300.0
+name,جامکے روڈ,4,0.0441,300.0,300.0
+name,جناح ایونیو,4,0.0441,300.0,300.0
+name,جگانوالا روڈ,4,0.0441,300.0,300.0
+name,دریائے چناب,4,0.0441,300.0,300.0
+name,سکھر,4,0.0441,300.0,300.0
+name,سیالکوٹ,4,0.0441,300.0,300.0
+name,عاشق کمار والا چوک,4,0.0441,300.0,300.0
+name,غلام جیلانی والا گلہ,4,0.0441,300.0,300.0
+name,فیروز والا روڈ,4,0.0441,300.0,300.0
+name,ماڈل ٹاؤن روڈ,4,0.0441,300.0,300.0
+name,پسرور روڈ,4,0.0441,300.0,300.0
+name,پپلی والہ,4,0.0441,300.0,300.0
+name,چک چٹھہ,4,0.0441,300.0,300.0
+name,ڈسکہ,4,0.0441,300.0,300.0
+name,ڈی سی آفس چوک,4,0.0441,300.0,300.0
+name,ڈیزرٹ پٹ فیڈر کینال,4,0.0441,300.0,300.0
+name,ہوائی اڈے ایونیو,4,0.0441,300.0,300.0
+name,یونیورسٹی روڈ,4,0.0441,300.0,300.0
+name,‎ٹهکرامہے,4,0.0441,300.0,300.0
+name,14 Bridge,3,0.0331,200.0,200.0
+name,220KV NTDC Grid Station Hala Road,3,0.0331,200.0,200.0
+name,Aimenabad Road,3,0.0331,200.0,200.0
+name,Allama Iqbal Road,3,0.0331,200.0,200.0
+name,Allama Mashriqi Road,3,0.0331,200.0,200.0
+name,Amin Rasool Street,3,0.0331,200.0,200.0
+name,Asad Ullah Road,3,0.0331,200.0,200.0
+name,BRB Canal,3,0.0331,200.0,200.0
+name,Bara Dari Road,3,0.0331,200.0,200.0
+name,Basti Rekra Road,3,0.0331,200.0,200.0
+name,Bhakkar Tehsil,3,0.0331,200.0,200.0
+name,Bhoman Batth Road,3,0.0331,200.0,200.0
+name,Canal Road,3,0.0331,200.0,200.0
+name,Canal Road Raja,3,0.0331,200.0,200.0
+name,Channi Gondal Road,3,0.0331,200.0,200.0
+name,Chirag Gaddi Road,3,0.0331,200.0,200.0
+name,Chobara Road,3,0.0331,200.0,200.0
+name,Connecting Rd,3,0.0331,200.0,200.0
+name,Convoy Road,3,0.0331,200.0,200.0
+name,Deen Iqbal Chaudhry Road,3,0.0331,200.0,200.0
+name,Dera Ghazi Khan International Airport,3,0.0331,200.0,200.0
+name,Foujdari Road,3,0.0331,200.0,200.0
+name,Gambat Ranipur Road,3,0.0331,200.0,200.0
+name,Gharri Jhalla,3,0.0331,200.0,200.0
+name,Gojra Road,3,0.0331,200.0,200.0
+name,Gomal University,3,0.0331,200.0,200.0
+name,Goverment Girls Degree College,3,0.0331,200.0,200.0
+name,"Greater Karachi Bulk Water Supply Conduits - GK, K-II, K-III",3,0.0331,200.0,200.0
+name,Gulistan-e-Sajjad,3,0.0331,200.0,200.0
+name,Hingorja Road,3,0.0331,200.0,200.0
+name,Jagatpur Road,3,0.0331,200.0,200.0
+name,Jammu Road,3,0.0331,200.0,200.0
+name,Jamshoro,3,0.0331,200.0,200.0
+name,Jamshoro Thermal Power Plant,3,0.0331,200.0,200.0
+name,Jhang-Bhakkar Road,3,0.0331,200.0,200.0
+name,Jodhay Wali Road,3,0.0331,200.0,200.0
+name,Jurian,3,0.0331,200.0,200.0
+name,Kacha Khiali Road,3,0.0331,200.0,200.0
+name,Kacha Sheikhupura Road,3,0.0331,200.0,200.0
+name,Kakkar-Gaj Provincial Highway,3,0.0331,200.0,200.0
+name,Kala Khatai Minor,3,0.0331,200.0,200.0
+name,KalaBagh-Banu Road,3,0.0331,200.0,200.0
+name,Kalla Kalan Road,3,0.0331,200.0,200.0
+name,Kallur Kot- Hetu Link Rd,3,0.0331,200.0,200.0
+name,Kalri Baghar Feeder,3,0.0331,200.0,200.0
+name,Kambar - Ber thori Road,3,0.0331,200.0,200.0
+name,Kamoke Distributary,3,0.0331,200.0,200.0
+name,Khadhar Distributary,3,0.0331,200.0,200.0
+name,Khairpur Road,3,0.0331,200.0,200.0
+name,Lohianwala Distributary,3,0.0331,200.0,200.0
+name,MCB Bank,3,0.0331,200.0,200.0
+name,Madho Das Minor,3,0.0331,200.0,200.0
+name,Madhora Distributary,3,0.0331,200.0,200.0
+name,Makhdoon Jamil Zaman Road,3,0.0331,200.0,200.0
+name,Manka Canal Road,3,0.0331,200.0,200.0
+name,Masjid Sakina BiBi,3,0.0331,200.0,200.0
+name,Matiari-Lahore HVDC Converter station,3,0.0331,200.0,200.0
+name,Mehar Asghar Street,3,0.0331,200.0,200.0
+name,Mehar Aslam Gaddi Street,3,0.0331,200.0,200.0
+name,Mehar Branch,3,0.0331,200.0,200.0
+name,Mehar Ghulam Rasool Road مہر غلام رسول روڈ,3,0.0331,200.0,200.0
+name,Mehar Khayam Kashaif Road,3,0.0331,200.0,200.0
+name,Mehmood Kot- qasba gujrat Rd,3,0.0331,200.0,200.0
+name,Mian Nadeem Rasool Street,3,0.0331,200.0,200.0
+name,Mian ilm Din Road,3,0.0331,200.0,200.0
+name,Mianwali Air Base,3,0.0331,200.0,200.0
+name,Mirwah,3,0.0331,200.0,200.0
+name,Miān Sāhib,3,0.0331,200.0,200.0
+name,Mujahid Road,3,0.0331,200.0,200.0
+name,Murad Wahan Road,3,0.0331,200.0,200.0
+name,Muridke Road,3,0.0331,200.0,200.0
+name,N65,3,0.0331,200.0,200.0
+name,Narowal Road,3,0.0331,200.0,200.0
+name,Nat Kalan Road,3,0.0331,200.0,200.0
+name,Nawabshah Airport,3,0.0331,200.0,200.0
+name,Nazar Abbas Distributary,3,0.0331,200.0,200.0
+name,New Dadu,3,0.0331,200.0,200.0
+name,New Mian Sahib st,3,0.0331,200.0,200.0
+name,Nowshehra Road,3,0.0331,200.0,200.0
+name,Padiadan-Tharushah,3,0.0331,200.0,200.0
+name,Paris Road,3,0.0331,200.0,200.0
+name,Park Street,3,0.0331,200.0,200.0
+name,Pearl Banquet Latifabad 2,3,0.0331,200.0,200.0
+name,Road kot bhugat,3,0.0331,200.0,200.0
+name,Roras Road,3,0.0331,200.0,200.0
+name,Saeed Rescue 1122 House,3,0.0331,200.0,200.0
+name,Salar Distributary,3,0.0331,200.0,200.0
+name,Saleem Rasool Street,3,0.0331,200.0,200.0
+name,Sarafa Bazaar,3,0.0331,200.0,200.0
+name,Shahab Pura Road,3,0.0331,200.0,200.0
+name,Shaikupura Road,3,0.0331,200.0,200.0
+name,Soneri Bank,3,0.0331,200.0,200.0
+name,Sui Airport,3,0.0331,200.0,200.0
+name,Suny Pull,3,0.0331,200.0,200.0
+name,Tarah Distributary,3,0.0331,200.0,200.0
+name,Thatta - Makli Bypass,3,0.0331,200.0,200.0
+name,Toll Plaza,3,0.0331,200.0,200.0
+name,Veternary Hospital,3,0.0331,200.0,200.0
+name,Wadala Road,3,0.0331,200.0,200.0
+name,Wadhu Wah Road,3,0.0331,200.0,200.0
+name,Welcome Nursery Farm,3,0.0331,200.0,200.0
+name,Zafar Rd,3,0.0331,200.0,200.0
+name,Zainab Heights,3,0.0331,200.0,200.0
+name,darbar path,3,0.0331,200.0,200.0
+name,darbar road,3,0.0331,200.0,200.0
+name,govt girls school,3,0.0331,200.0,200.0
+name,hwli,3,0.0331,200.0,200.0
+name,kot Buland,3,0.0331,200.0,200.0
+name,kot buland,3,0.0331,200.0,200.0
+name,path 1,3,0.0331,200.0,200.0
+name,road,3,0.0331,200.0,200.0
+name,ابو ظبی روڈ,3,0.0331,200.0,200.0
+name,اسلام آباد,3,0.0331,200.0,200.0
+name,اسٹریٹ 29,3,0.0331,200.0,200.0
+name,اسٹریٹ 30,3,0.0331,200.0,200.0
+name,اصغر ہنجرا والا گلہ,3,0.0331,200.0,200.0
+name,حاجی پورہ بازار,3,0.0331,200.0,200.0
+name,حافظ آباد,3,0.0331,200.0,200.0
+name,حسن والی,3,0.0331,200.0,200.0
+name,داجل بائی پاس چوک جام پور,3,0.0331,200.0,200.0
+name,دربار - حضرت میاں جی نیک عالم صابری صاحب (المعروف جی پاک سرکار),3,0.0331,200.0,200.0
+name,دودھا گاؤں,3,0.0331,200.0,200.0
+name,سانگھڑ‎,3,0.0331,200.0,200.0
+name,سرائے خام روڈ,3,0.0331,200.0,200.0
+name,سنڌو درياھ,3,0.0331,200.0,200.0
+name,فارُوق آباد‎ روڈ,3,0.0331,200.0,200.0
+name,فتح پور,3,0.0331,200.0,200.0
+name,قادرآباد بلوکی لنک,3,0.0331,200.0,200.0
+name,قادرآباد بلوکی لنک نہر,3,0.0331,200.0,200.0
+name,لوئر چناب نہر,3,0.0331,200.0,200.0
+name,ماڈل ٹاؤن,3,0.0331,200.0,200.0
+name,مسیحی قبرستان,3,0.0331,200.0,200.0
+name,نواں پنڈ,3,0.0331,200.0,200.0
+name,نہر مرالہ راوی لنک,3,0.0331,200.0,200.0
+name,نیا جنرل بس سٹینڈ، جام پور,3,0.0331,200.0,200.0
+name,وزِيرآباد‎,3,0.0331,200.0,200.0
+name,ٹوٹل,3,0.0331,200.0,200.0
+name,چونڈہ,3,0.0331,200.0,200.0
+name,چک 30,3,0.0331,200.0,200.0
+name,ڈیتھا,3,0.0331,200.0,200.0
+name,کالا شاہ کاکو,3,0.0331,200.0,200.0
+name,کراچی ۔ لاہور ۔ پشاور مین ریلوے لائن,3,0.0331,200.0,200.0
+name,کوٹری,3,0.0331,200.0,200.0
+name,132KV Qasimabad-Rajputana,2,0.022,100.0,100.0
+name,14 UCC چک,2,0.022,100.0,100.0
+name,220KV Jamshoro-Hala Road HT line,2,0.022,100.0,100.0
+name,AC Office,2,0.022,100.0,100.0
+name,Adam Iqbal Chaudhry Road,2,0.022,100.0,100.0
+name,Aga Khan Maternal & Child Care Centre,2,0.022,100.0,100.0
+name,Ahmad Street,2,0.022,100.0,100.0
+name,Ahmadwala Minor,2,0.022,100.0,100.0
+name,Akbari Road,2,0.022,100.0,100.0
+name,Akram Wah,2,0.022,100.0,100.0
+name,Al Baraka Bank,2,0.022,100.0,100.0
+name,Al Makkah CNG,2,0.022,100.0,100.0
+name,Alamdar Road,2,0.022,100.0,100.0
+name,Alipur Tehsil,2,0.022,100.0,100.0
+name,Alipur-Khairpur Road,2,0.022,100.0,100.0
+name,Anmol CNG,2,0.022,100.0,100.0
+name,Aqilpur,2,0.022,100.0,100.0
+name,Asad Ullah Mehar Road,2,0.022,100.0,100.0
+name,Asian Institute of Medical Sciences(AIMS),2,0.022,100.0,100.0
+name,Attock Petrol Pump,2,0.022,100.0,100.0
+name,Awami Road,2,0.022,100.0,100.0
+name,Aziz Bhatti Shaheed Road,2,0.022,100.0,100.0
+name,Back Road,2,0.022,100.0,100.0
+name,Badshah Restaurant,2,0.022,100.0,100.0
+name,Barthi Road,2,0.022,100.0,100.0
+name,Baryar,2,0.022,100.0,100.0
+name,Bazaar Katchay Bartan Wala,2,0.022,100.0,100.0
+name,Bhakkar Road,2,0.022,100.0,100.0
+name,Bharoke Cheema Road,2,0.022,100.0,100.0
+name,Bhutto,2,0.022,100.0,100.0
+name,CHP Colony,2,0.022,100.0,100.0
+name,Carriage Factory Spur,2,0.022,100.0,100.0
+name,Chal No 5-6 ML Road,2,0.022,100.0,100.0
+name,Chandar,2,0.022,100.0,100.0
+name,Channa House,2,0.022,100.0,100.0
+name,Channa Street,2,0.022,100.0,100.0
+name,Chashama Air Strip,2,0.022,100.0,100.0
+name,Chashma Colony,2,0.022,100.0,100.0
+name,Chashnup Colony,2,0.022,100.0,100.0
+name,Chaudhry Akhtar,2,0.022,100.0,100.0
+name,China Chowk,2,0.022,100.0,100.0
+name,Citizen Road,2,0.022,100.0,100.0
+name,Civil Hospital,2,0.022,100.0,100.0
+name,College Road Daska,2,0.022,100.0,100.0
+name,D'Fense Main Road,2,0.022,100.0,100.0
+name,DC Road,2,0.022,100.0,100.0
+name,Dab Balochan Rd,2,0.022,100.0,100.0
+name,Daraban Road,2,0.022,100.0,100.0
+name,Dargha Mian Taj Muhammad,2,0.022,100.0,100.0
+name,Daska Sialkot Interchange,2,0.022,100.0,100.0
+name,Dera Arainya Da,2,0.022,100.0,100.0
+name,Dera Ghazi Khan Tehsil,2,0.022,100.0,100.0
+name,Dholan-Sall Road,2,0.022,100.0,100.0
+name,Diversion,2,0.022,100.0,100.0
+name,Dully Wala Canal Rd,2,0.022,100.0,100.0
+name,EDO Office,2,0.022,100.0,100.0
+name,Farida Raza Street,2,0.022,100.0,100.0
+name,Fateh Garh Road,2,0.022,100.0,100.0
+name,Ferozewala Tehsil,2,0.022,100.0,100.0
+name,Gali Sabzi Wali,2,0.022,100.0,100.0
+name,Gali Sheikh Jhando,2,0.022,100.0,100.0
+name,Garnely Rd,2,0.022,100.0,100.0
+name,Ghalib Road,2,0.022,100.0,100.0
+name,Ghanta Ghar Road,2,0.022,100.0,100.0
+name,Ghoray Shah Road,2,0.022,100.0,100.0
+name,Goth Zahir Barich,2,0.022,100.0,100.0
+name,Grain Market,2,0.022,100.0,100.0
+name,Gujjar Road,2,0.022,100.0,100.0
+name,Gujranwala Flyover,2,0.022,100.0,100.0
+name,Gurmani -Essanwalla Road,2,0.022,100.0,100.0
+name,Guru Nanakpura Road,2,0.022,100.0,100.0
+name,HBL Bank,2,0.022,100.0,100.0
+name,HM Farm Road,2,0.022,100.0,100.0
+name,Hafiz Wala - Hassan Wala Rd,2,0.022,100.0,100.0
+name,Hafizabad Tehsil,2,0.022,100.0,100.0
+name,Haji Keerio,2,0.022,100.0,100.0
+name,Haji Mohammad Ali Road,2,0.022,100.0,100.0
+name,Hala,2,0.022,100.0,100.0
+name,Hala Branch,2,0.022,100.0,100.0
+name,Hamza Garden,2,0.022,100.0,100.0
+name,Hamza Street,2,0.022,100.0,100.0
+name,Harmain Towers,2,0.022,100.0,100.0
+name,Haroon Street,2,0.022,100.0,100.0
+name,Hussain Heights,2,0.022,100.0,100.0
+name,Hyder Chowk,2,0.022,100.0,100.0
+name,Hyderabad Badin Road,2,0.022,100.0,100.0
+name,Hyderabad Shiakh Bhirkio Road,2,0.022,100.0,100.0
+name,IBA Sukkur,2,0.022,100.0,100.0
+name,IVSS,2,0.022,100.0,100.0
+name,Indus Road,2,0.022,100.0,100.0
+name,Isra Village Housing Society,2,0.022,100.0,100.0
+name,JJVL,2,0.022,100.0,100.0
+name,Jagganwala Distributary,2,0.022,100.0,100.0
+name,Jampur City Park,2,0.022,100.0,100.0
+name,Jatoi Tehsil,2,0.022,100.0,100.0
+name,Jhalaran Road,2,0.022,100.0,100.0
+name,Jinnah Bazaar,2,0.022,100.0,100.0
+name,Kalma Chowk,2,0.022,100.0,100.0
+name,Kalur Kot Tehsil,2,0.022,100.0,100.0
+name,KalurKot Chandni Chowk Road,2,0.022,100.0,100.0
+name,KalurKot Road,2,0.022,100.0,100.0
+name,Kararikot Rd,2,0.022,100.0,100.0
+name,Karimpura Road,2,0.022,100.0,100.0
+name,Karir Nallah,2,0.022,100.0,100.0
+name,Karor Lal Esan Tehsil,2,0.022,100.0,100.0
+name,Kashmor Sadiqabad Road,2,0.022,100.0,100.0
+name,Katchery Road,2,0.022,100.0,100.0
+name,Khairpur Special Economic Zone,2,0.022,100.0,100.0
+name,Khan Jajja,2,0.022,100.0,100.0
+name,Khattana Street,2,0.022,100.0,100.0
+name,Khuhra Road,2,0.022,100.0,100.0
+name,Khushboo Raza Street,2,0.022,100.0,100.0
+name,Kilch Distributary,2,0.022,100.0,100.0
+name,Kings Mall Road,2,0.022,100.0,100.0
+name,Kohsar Airport Road,2,0.022,100.0,100.0
+name,Kot Nazir Ahmad Branch,2,0.022,100.0,100.0
+name,Kot Said Muhammad Minory Distributary,2,0.022,100.0,100.0
+name,Kot Sandhuan,2,0.022,100.0,100.0
+name,Kotla Narang Mandi Road,2,0.022,100.0,100.0
+name,Lahore - Sheikhupura Faisalabad Road,2,0.022,100.0,100.0
+name,Lahore Eastern Bypass,2,0.022,100.0,100.0
+name,Larkana Road,2,0.022,100.0,100.0
+name,Layyah Tehsil,2,0.022,100.0,100.0
+name,Liaquat Road,2,0.022,100.0,100.0
+name,Loharanwali,2,0.022,100.0,100.0
+name,Machlion Wali,2,0.022,100.0,100.0
+name,Mahar Mohallah st,2,0.022,100.0,100.0
+name,Main Bazaar,2,0.022,100.0,100.0
+name,Majho Chak Road,2,0.022,100.0,100.0
+name,Mandar Branch,2,0.022,100.0,100.0
+name,Mangrotha Road,2,0.022,100.0,100.0
+name,Manka Canal,2,0.022,100.0,100.0
+name,Manka Rd,2,0.022,100.0,100.0
+name,Matli Bypass,2,0.022,100.0,100.0
+name,Mehar Amin Rasool Street,2,0.022,100.0,100.0
+name,Mehar Basharat Mahmood Street,2,0.022,100.0,100.0
+name,Mehar Haji Khuda Buksh Street,2,0.022,100.0,100.0
+name,Mehar Ihsan Elahi Road,2,0.022,100.0,100.0
+name,Mehar Mohammad Ali Road,2,0.022,100.0,100.0
+name,Mehar Mohammad Amjad Street,2,0.022,100.0,100.0
+name,Mehar Town Road,2,0.022,100.0,100.0
+name,Mehar Usman Basharat Road,2,0.022,100.0,100.0
+name,Mian Yaseen Street,2,0.022,100.0,100.0
+name,Miani Forest Rest House,2,0.022,100.0,100.0
+name,Mianwali Tehsil,2,0.022,100.0,100.0
+name,Mirwah Road,2,0.022,100.0,100.0
+name,Mithiani-Naushahro Link Road,2,0.022,100.0,100.0
+name,Model Bazaar,2,0.022,100.0,100.0
+name,Mohammad Saeed Street,2,0.022,100.0,100.0
+name,Mohammad Safdar Street,2,0.022,100.0,100.0
+name,Moharna,2,0.022,100.0,100.0
+name,Mohen-Jo-Daro,2,0.022,100.0,100.0
+name,Mohenjo-daro Airport,2,0.022,100.0,100.0
+name,Moro Converter Station,2,0.022,100.0,100.0
+name,Moro-Tharushah-Kandiaro Provincial Highway,2,0.022,100.0,100.0
+name,Mumori Road,2,0.022,100.0,100.0
+name,Munda Road,2,0.022,100.0,100.0
+name,Muradia Road,2,0.022,100.0,100.0
+name,Muridke Tehsil,2,0.022,100.0,100.0
+name,NIB Bank,2,0.022,100.0,100.0
+name,NLC TFS Hyderabad,2,0.022,100.0,100.0
+name,NTDC 500KV Grid Station Jamshoro,2,0.022,100.0,100.0
+name,Nala Palkhu,2,0.022,100.0,100.0
+name,Nangal Butcher,2,0.022,100.0,100.0
+name,Naqash Villas Phase II,2,0.022,100.0,100.0
+name,Naudero Road,2,0.022,100.0,100.0
+name,Nawabshah,2,0.022,100.0,100.0
+name,New Food Street,2,0.022,100.0,100.0
+name,New Jatoi Road,2,0.022,100.0,100.0
+name,Nurpur Distributary,2,0.022,100.0,100.0
+name,Odiano Distributory,2,0.022,100.0,100.0
+name,Old National Highway Road,2,0.022,100.0,100.0
+name,Oxygen Muscle Factory Sialkot,2,0.022,100.0,100.0
+name,PAF colony,2,0.022,100.0,100.0
+name,PROLOOK ATHLETIC®,2,0.022,100.0,100.0
+name,PSO,2,0.022,100.0,100.0
+name,Parao Road,2,0.022,100.0,100.0
+name,Pasrur Tehsil,2,0.022,100.0,100.0
+name,Pindi Bhattian Tehsil,2,0.022,100.0,100.0
+name,Pindi Das Road,2,0.022,100.0,100.0
+name,Pinjra Pool Road,2,0.022,100.0,100.0
+name,Piplan Tehsil,2,0.022,100.0,100.0
+name,Police HQ Ground,2,0.022,100.0,100.0
+name,Qadafi Road,2,0.022,100.0,100.0
+name,Qadirabad Balloki Link,2,0.022,100.0,100.0
+name,Qadri Darbar Street,2,0.022,100.0,100.0
+name,Qambar Bypass,2,0.022,100.0,100.0
+name,Qasaban Wala Gala,2,0.022,100.0,100.0
+name,Quaid-e-Azam Road,2,0.022,100.0,100.0
+name,"Quide-e-Awam University of Engineering,Sciences and Technology",2,0.022,100.0,100.0
+name,Qureshi Gas Company,2,0.022,100.0,100.0
+name,RILLS Super Campus,2,0.022,100.0,100.0
+name,Rahim Yar Khan Tehsil,2,0.022,100.0,100.0
+name,Rahwali Gate Road,2,0.022,100.0,100.0
+name,Rajanpur Tehsil,2,0.022,100.0,100.0
+name,Rana,2,0.022,100.0,100.0
+name,Rana House,2,0.022,100.0,100.0
+name,Regional Passport Office,2,0.022,100.0,100.0
+name,Risala Road,2,0.022,100.0,100.0
+name,Rojhan Tehsil,2,0.022,100.0,100.0
+name,S MANZIL STREET,2,0.022,100.0,100.0
+name,Sadiqabad,2,0.022,100.0,100.0
+name,Sagian Moti Fouji Road,2,0.022,100.0,100.0
+name,Saidabad Distributary,2,0.022,100.0,100.0
+name,Sakrand 132KV Grid Station,2,0.022,100.0,100.0
+name,Sakrand Degree College,2,0.022,100.0,100.0
+name,Shah Nawaz Road,2,0.022,100.0,100.0
+name,Shahdadkot Bypass,2,0.022,100.0,100.0
+name,Shahid Rasool Street,2,0.022,100.0,100.0
+name,Shaikh Street,2,0.022,100.0,100.0
+name,Shakargarh Tehsil,2,0.022,100.0,100.0
+name,Shakrani Dam,2,0.022,100.0,100.0
+name,Sheikh Jhando Gali 2,2,0.022,100.0,100.0
+name,Sheikh st,2,0.022,100.0,100.0
+name,Shukar Ullah Road,2,0.022,100.0,100.0
+name,Street 19,2,0.022,100.0,100.0
+name,Street 5,2,0.022,100.0,100.0
+name,Street No. 5,2,0.022,100.0,100.0
+name,Street no 5,2,0.022,100.0,100.0
+name,Sujawal Bypass,2,0.022,100.0,100.0
+name,Sukkur Airport,2,0.022,100.0,100.0
+name,Sukkur Bypass,2,0.022,100.0,100.0
+name,Summit Bank,2,0.022,100.0,100.0
+name,Summit Bank Limited,2,0.022,100.0,100.0
+name,Tando Soomro Bypass,2,0.022,100.0,100.0
+name,Tareen Colony Street No.2,2,0.022,100.0,100.0
+name,Tariq Road,2,0.022,100.0,100.0
+name,Taunsa Tehsil,2,0.022,100.0,100.0
+name,Thandi Sadak,2,0.022,100.0,100.0
+name,Tilak Incline,2,0.022,100.0,100.0
+name,Town Area,2,0.022,100.0,100.0
+name,Toyota Sukkur Motors,2,0.022,100.0,100.0
+name,Traffic Chowk,2,0.022,100.0,100.0
+name,University Substation,2,0.022,100.0,100.0
+name,University of Management and Technology,2,0.022,100.0,100.0
+name,Ura Sadray Wagray Road,2,0.022,100.0,100.0
+name,Usman Basharet Road,2,0.022,100.0,100.0
+name,Usman Road,2,0.022,100.0,100.0
+name,VIP Block,2,0.022,100.0,100.0
+name,WAPDA Colony,2,0.022,100.0,100.0
+name,Wapda Colony,2,0.022,100.0,100.0
+name,Wazirabad Tehsil,2,0.022,100.0,100.0
+name,Yaqoob Street,2,0.022,100.0,100.0
+name,Younis Khosa Road,2,0.022,100.0,100.0
+name,Zeshan Mian Street,2,0.022,100.0,100.0
+name,Zia Road,2,0.022,100.0,100.0
+name,college road,2,0.022,100.0,100.0
+name,kot buland ares 40 houses,2,0.022,100.0,100.0
+name,kotli noonan,2,0.022,100.0,100.0
+name,kotli noonan 296 houses,2,0.022,100.0,100.0
+name,main path,2,0.022,100.0,100.0
+name,path 2,2,0.022,100.0,100.0
+name,patri 1,2,0.022,100.0,100.0
+name,patri 2,2,0.022,100.0,100.0
+name,road kot buland to kot bhugat,2,0.022,100.0,100.0
+name,site for flood,2,0.022,100.0,100.0
+name,ابدالیہ,2,0.022,100.0,100.0
+name,احمد آباد,2,0.022,100.0,100.0
+name,احمد نگر,2,0.022,100.0,100.0
+name,اسحاق ہنجرا والا گلہ,2,0.022,100.0,100.0
+name,اسٹریٹ 2,2,0.022,100.0,100.0
+name,اسٹریٹ 26,2,0.022,100.0,100.0
+name,اسٹریٹ 35,2,0.022,100.0,100.0
+name,اسٹریٹ 40,2,0.022,100.0,100.0
+name,اسٹینڈرڈ چارٹرڈ,2,0.022,100.0,100.0
+name,اکبر مسجد,2,0.022,100.0,100.0
+name,ایم 2 موٹروے,2,0.022,100.0,100.0
+name,ایمن آباد,2,0.022,100.0,100.0
+name,باغ روڈ,2,0.022,100.0,100.0
+name,بدو ملہی,2,0.022,100.0,100.0
+name,بریار,2,0.022,100.0,100.0
+name,بڈھا گوراییہ,2,0.022,100.0,100.0
+name,بہار کالونی,2,0.022,100.0,100.0
+name,بینک الفلاح,2,0.022,100.0,100.0
+name,بیگوالہ,2,0.022,100.0,100.0
+name,تجمل ہنجرا جج اور وڑائچاں والا گلہ,2,0.022,100.0,100.0
+name,تلونڈی موسےٰ خان,2,0.022,100.0,100.0
+name,جنرل بس اسٹیشن,2,0.022,100.0,100.0
+name,جوریاں,2,0.022,100.0,100.0
+name,جگ چک,2,0.022,100.0,100.0
+name,جھاڑیاں والا,2,0.022,100.0,100.0
+name,حیدرآباد,2,0.022,100.0,100.0
+name,حیدرآباد ہوائی اڈا,2,0.022,100.0,100.0
+name,خانپور رسولپور روڈ,2,0.022,100.0,100.0
+name,خواتین گوجرانوالہ سٹی گورنمنٹ کالج,2,0.022,100.0,100.0
+name,دال بازار,2,0.022,100.0,100.0
+name,دلمير راجپوت گوٹھ,2,0.022,100.0,100.0
+name,دھودھی مستی,2,0.022,100.0,100.0
+name,دھونکل,2,0.022,100.0,100.0
+name,رئيس حاجي شفيع محمد نظامانی گوٹھ,2,0.022,100.0,100.0
+name,راجپورہ,2,0.022,100.0,100.0
+name,راشد منہاس روڈ,2,0.022,100.0,100.0
+name,رسول پور روڈ,2,0.022,100.0,100.0
+name,رسول پورہ,2,0.022,100.0,100.0
+name,ریاض ہنجرا والی گلی,2,0.022,100.0,100.0
+name,سائينداد وسان,2,0.022,100.0,100.0
+name,سارنگ پور,2,0.022,100.0,100.0
+name,ساروکی,2,0.022,100.0,100.0
+name,سوؤے والی سڑک,2,0.022,100.0,100.0
+name,سڪرنڊ,2,0.022,100.0,100.0
+name,شاہدره باغ,2,0.022,100.0,100.0
+name,شاہدرہ ٹاؤن,2,0.022,100.0,100.0
+name,شبراتی کشمیری,2,0.022,100.0,100.0
+name,شيخ بھرکيو,2,0.022,100.0,100.0
+name,شیخ رجدا,2,0.022,100.0,100.0
+name,شیخ زید ہسپتال,2,0.022,100.0,100.0
+name,شیر محمد ہنجرا اور مسجد والی گلی,2,0.022,100.0,100.0
+name,صالح پور,2,0.022,100.0,100.0
+name,ظفروال,2,0.022,100.0,100.0
+name,عالم چوک,2,0.022,100.0,100.0
+name,عبدالعزيز نظامانی گوٹھ,2,0.022,100.0,100.0
+name,عبداللہ اسپورٽس ٽاورز,2,0.022,100.0,100.0
+name,عسکری بینک,2,0.022,100.0,100.0
+name,عیدگاہ روڈ,2,0.022,100.0,100.0
+name,غضنفر آباد,2,0.022,100.0,100.0
+name,غلام علی نظامانی گوٹھ,2,0.022,100.0,100.0
+name,فیروزوالا,2,0.022,100.0,100.0
+name,قائم ٻٻر,2,0.022,100.0,100.0
+name,قلعہ باٹھ,2,0.022,100.0,100.0
+name,قلعہ بھٹیاں والا,2,0.022,100.0,100.0
+name,قلعہ میہاں سنگھ,2,0.022,100.0,100.0
+name,قلعہ کالر والہ,2,0.022,100.0,100.0
+name,لالیوالی,2,0.022,100.0,100.0
+name,لوہاراں والا گلہ,2,0.022,100.0,100.0
+name,مال پڑی,2,0.022,100.0,100.0
+name,ماڑی ٹھاکراں,2,0.022,100.0,100.0
+name,متیکے,2,0.022,100.0,100.0
+name,مدن فلاں,2,0.022,100.0,100.0
+name,مریدکے,2,0.022,100.0,100.0
+name,مسلم قبرستان,2,0.022,100.0,100.0
+name,منڈیاں والا,2,0.022,100.0,100.0
+name,موسیٰ اسٹریٹ,2,0.022,100.0,100.0
+name,موچیاں والا گلہ,2,0.022,100.0,100.0
+name,مِيانوالى بنٚگلا,2,0.022,100.0,100.0
+name,میاں صاحب اسٹریٹ,2,0.022,100.0,100.0
+name,میزان بینک,2,0.022,100.0,100.0
+name,میونسپل کمیٹی جام پور,2,0.022,100.0,100.0
+name,میوو اعوان,2,0.022,100.0,100.0
+name,نئے میاں صاحب,2,0.022,100.0,100.0
+name,ناروکے,2,0.022,100.0,100.0
+name,ناظر پکا,2,0.022,100.0,100.0
+name,نت,2,0.022,100.0,100.0
+name,ننگل ساھداں,2,0.022,100.0,100.0
+name,نواز موچی والی گلی,2,0.022,100.0,100.0
+name,نوتھیں,2,0.022,100.0,100.0
+name,نورائی شريف,2,0.022,100.0,100.0
+name,نڈھا,2,0.022,100.0,100.0
+name,نیو ہورائزن اسکول,2,0.022,100.0,100.0
+name,واہ نلہ,2,0.022,100.0,100.0
+name,ورپال چٹھہ,2,0.022,100.0,100.0
+name,ورکاں والی گلی,2,0.022,100.0,100.0
+name,وی آئی پی روڈ,2,0.022,100.0,100.0
+name,ویسٹرن یونین,2,0.022,100.0,100.0
+name,ٹھارو خان لغاری,2,0.022,100.0,100.0
+name,ٹھٹھہ بھٹیاں,2,0.022,100.0,100.0
+name,ٹھٹہ,2,0.022,100.0,100.0
+name,ٹی ایچ کیو ہسپتال,2,0.022,100.0,100.0
+name,پتلی گلی,2,0.022,100.0,100.0
+name,پرانا شہر,2,0.022,100.0,100.0
+name,پنڈوری,2,0.022,100.0,100.0
+name,پولیس لائنز,2,0.022,100.0,100.0
+name,پٹھانکے چیمہ,2,0.022,100.0,100.0
+name,پپلاں,2,0.022,100.0,100.0
+name,پیر کوٹ,2,0.022,100.0,100.0
+name,چنا محلو,2,0.022,100.0,100.0
+name,چندھر,2,0.022,100.0,100.0
+name,چوڑا پنڈ,2,0.022,100.0,100.0
+name,چچکے گل,2,0.022,100.0,100.0
+name,چک بیگ,2,0.022,100.0,100.0
+name,ڈلووالی,2,0.022,100.0,100.0
+name,ڈھـلہ شریف,2,0.022,100.0,100.0
+name,ڈھپئ,2,0.022,100.0,100.0
+name,ڈہلا چٹھہ,2,0.022,100.0,100.0
+name,ڈیرہ اسماعیل خان,2,0.022,100.0,100.0
+name,ڈیرہ سیف ہنجرا والی سڑک,2,0.022,100.0,100.0
+name,ڈیرہ ماسٹر محمد حسین ہنجرا والی سڑک,2,0.022,100.0,100.0
+name,ڈیرہ ماسٹر محمد حسین ہنجرا والی گلی,2,0.022,100.0,100.0
+name,کالا خطائی,2,0.022,100.0,100.0
+name,کالا خطائی اسٹیشن,2,0.022,100.0,100.0
+name,کالا شاہ کاکو انٹرچینج,2,0.022,100.0,100.0
+name,کالکے,2,0.022,100.0,100.0
+name,کامونکی,2,0.022,100.0,100.0
+name,کامونکے,2,0.022,100.0,100.0
+name,کلی والی سڑک,2,0.022,100.0,100.0
+name,کماراں والی گلی,2,0.022,100.0,100.0
+name,کوٹ حنیف,2,0.022,100.0,100.0
+name,کوٹ حیات,2,0.022,100.0,100.0
+name,کوٹ عبد المالک,2,0.022,100.0,100.0
+name,کوٹ قادر بخش,2,0.022,100.0,100.0
+name,کوٹ گھمن,2,0.022,100.0,100.0
+name,کوٹری اسٹیشن روڈ,2,0.022,100.0,100.0
+name,کوٹلی مغلاں,2,0.022,100.0,100.0
+name,کوٹلی نوناں,2,0.022,100.0,100.0
+name,کُجی,2,0.022,100.0,100.0
+name,ککری پور,2,0.022,100.0,100.0
+name,گاڑھو,2,0.022,100.0,100.0
+name,گوٹھ حاجی کرم علی نظامانی,2,0.022,100.0,100.0
+name,گوٹھ نم ليار نظاماٹی,2,0.022,100.0,100.0
+name,گڑھی ڈونگر,2,0.022,100.0,100.0
+name,ھارون ٹنگڑي گوٹھ,2,0.022,100.0,100.0
+name,ھسپتال روڈ,2,0.022,100.0,100.0
+name,ہفت مدر,2,0.022,100.0,100.0
+name,ہیرانوالہ کلان,2,0.022,100.0,100.0
+name,10 چک,1,0.011,0.0,0.0
+name,11 چک,1,0.011,0.0,0.0
+name,12 چک,1,0.011,0.0,0.0
+name,14 چک,1,0.011,0.0,0.0
+name,15 چک,1,0.011,0.0,0.0
+name,500KV Nokhar Grid Station NTDC,1,0.011,0.0,0.0
+name,7-Eleven,1,0.011,0.0,0.0
+name,A Section Police station,1,0.011,0.0,0.0
+name,ADC Building,1,0.011,0.0,0.0
+name,AL-NOOR COLLEGE,1,0.011,0.0,0.0
+name,AL-Noor Marquee,1,0.011,0.0,0.0
+name,APNA Microfinace Bank,1,0.011,0.0,0.0
+name,Aaqi Machhi,1,0.011,0.0,0.0
+name,Abandoned Office,1,0.011,0.0,0.0
+name,Abbasian Wala Rd,1,0.011,0.0,0.0
+name,Abdul Hakeem Road,1,0.011,0.0,0.0
+name,Abdul Razzaq Stadium,1,0.011,0.0,0.0
+name,Abdullah,1,0.011,0.0,0.0
+name,Abdullah Pur,1,0.011,0.0,0.0
+name,Adam Shah Kalhoro,1,0.011,0.0,0.0
+name,Admore Fuel Station,1,0.011,0.0,0.0
+name,Adnan Mian Street,1,0.011,0.0,0.0
+name,Ahmad Market,1,0.011,0.0,0.0
+name,Airport Avenue,1,0.011,0.0,0.0
+name,Ajan Chak Alipur Chatha,1,0.011,0.0,0.0
+name,Akbari Serai,1,0.011,0.0,0.0
+name,Akbarian,1,0.011,0.0,0.0
+name,Akhter Malik Road,1,0.011,0.0,0.0
+name,Al Fateh Street,1,0.011,0.0,0.0
+name,Al Makkhah CNG Station,1,0.011,0.0,0.0
+name,Al Raza Filling Station,1,0.011,0.0,0.0
+name,Al Rehman Edible Oil Industries (Pvt) Ltd,1,0.011,0.0,0.0
+name,Al fateh Street,1,0.011,0.0,0.0
+name,Al-Awan Restaurant & Tikka Shop,1,0.011,0.0,0.0
+name,Al-Fateh Markit,1,0.011,0.0,0.0
+name,Al-Habib Hotel,1,0.011,0.0,0.0
+name,Al-Jannat Foods,1,0.011,0.0,0.0
+name,Al-Karim Baba Restaurant,1,0.011,0.0,0.0
+name,Al-Mashoor Haji Allah Rakha Tikka,1,0.011,0.0,0.0
+name,Al-Mehboob Hotel,1,0.011,0.0,0.0
+name,Al-Muntaha Restaurant & Party Hall,1,0.011,0.0,0.0
+name,Al-Noor Biryani Centre,1,0.011,0.0,0.0
+name,Al-Noor Hotel & Restaurant,1,0.011,0.0,0.0
+name,Al-Raai Road,1,0.011,0.0,0.0
+name,Al-Rehman Hotel,1,0.011,0.0,0.0
+name,Al-Shaikh Pharmacy,1,0.011,0.0,0.0
+name,Al-Yaqoobia Hotel,1,0.011,0.0,0.0
+name,Al.Jannat marriage hall,1,0.011,0.0,0.0
+name,Alalpur,1,0.011,0.0,0.0
+name,Alam bakers,1,0.011,0.0,0.0
+name,Alam chok hafizabad road ( sabar Dogar wala gala ),1,0.011,0.0,0.0
+name,Alfalah Bank (Islamic Banking),1,0.011,0.0,0.0
+name,Ali CNG Station,1,0.011,0.0,0.0
+name,Ali Murad Jamali,1,0.011,0.0,0.0
+name,Ali Raza Autos,1,0.011,0.0,0.0
+name,Alkaray,1,0.011,0.0,0.0
+name,Alla Pur Syedan,1,0.011,0.0,0.0
+name,Allah Rakhio Kanhio,1,0.011,0.0,0.0
+name,Allahabad,1,0.011,0.0,0.0
+name,Allama I.I Qazi,1,0.011,0.0,0.0
+name,Allama I.I Qazi  Central Library,1,0.011,0.0,0.0
+name,Allied Bank Limited,1,0.011,0.0,0.0
+name,Almas CNG Station,1,0.011,0.0,0.0
+name,Alojhna,1,0.011,0.0,0.0
+name,Amin Shah,1,0.011,0.0,0.0
+name,Aminpur,1,0.011,0.0,0.0
+name,Amna hospital,1,0.011,0.0,0.0
+name,Anninala,1,0.011,0.0,0.0
+name,Arki Dogran,1,0.011,0.0,0.0
+name,Aror University,1,0.011,0.0,0.0
+name,Arzu Hotel & Restaurant,1,0.011,0.0,0.0
+name,Asghar Gaddi Street,1,0.011,0.0,0.0
+name,Askari Public Park,1,0.011,0.0,0.0
+name,Aslam Gaddi Street,1,0.011,0.0,0.0
+name,Asmat Gaddi Street,1,0.011,0.0,0.0
+name,Asmat Street,1,0.011,0.0,0.0
+name,Asni,1,0.011,0.0,0.0
+name,Atmaramji Shrine,1,0.011,0.0,0.0
+name,Atta-Ullah Street,1,0.011,0.0,0.0
+name,Attaturk Road,1,0.011,0.0,0.0
+name,Attock Petroleum & CNG,1,0.011,0.0,0.0
+name,Awwal Chhachnar,1,0.011,0.0,0.0
+name,Ayub Gate,1,0.011,0.0,0.0
+name,Ayyapur,1,0.011,0.0,0.0
+name,Azra Masjid,1,0.011,0.0,0.0
+name,B-41,1,0.011,0.0,0.0
+name,B-42,1,0.011,0.0,0.0
+name,BHU New Pind,1,0.011,0.0,0.0
+name,BUWARO JETTY FOR FISHING,1,0.011,0.0,0.0
+name,Baba Ramzani,1,0.011,0.0,0.0
+name,Bachal Khaskheli,1,0.011,0.0,0.0
+name,Bachoo Dahri,1,0.011,0.0,0.0
+name,Bagarji,1,0.011,0.0,0.0
+name,Bagbanpura Police Station,1,0.011,0.0,0.0
+name,Bagh,1,0.011,0.0,0.0
+name,Bago Khan Jamali,1,0.011,0.0,0.0
+name,Bahadurpur,1,0.011,0.0,0.0
+name,Bahram,1,0.011,0.0,0.0
+name,Bairwala,1,0.011,0.0,0.0
+name,Baitullah Road,1,0.011,0.0,0.0
+name,Bajwa Hospital,1,0.011,0.0,0.0
+name,Bajwa Pharmaceuticals Pvt. Ltd,1,0.011,0.0,0.0
+name,Bajwa Road,1,0.011,0.0,0.0
+name,Bakapur,1,0.011,0.0,0.0
+name,Bakhtpur,1,0.011,0.0,0.0
+name,Bakra Piri Road,1,0.011,0.0,0.0
+name,Balaggan,1,0.011,0.0,0.0
+name,Ball Shahaan,1,0.011,0.0,0.0
+name,Baman,1,0.011,0.0,0.0
+name,Banbajwa,1,0.011,0.0,0.0
+name,Banhyal,1,0.011,0.0,0.0
+name,Bank Al Falah,1,0.011,0.0,0.0
+name,Bank Al Habib,1,0.011,0.0,0.0
+name,Bank Islami,1,0.011,0.0,0.0
+name,Bank Square,1,0.011,0.0,0.0
+name,Bano Bazaar,1,0.011,0.0,0.0
+name,Bari Wala,1,0.011,0.0,0.0
+name,Baryar Kohna,1,0.011,0.0,0.0
+name,Basana,1,0.011,0.0,0.0
+name,Basharat Banquet Hall,1,0.011,0.0,0.0
+name,Basi Wala,1,0.011,0.0,0.0
+name,Basir,1,0.011,0.0,0.0
+name,Basra,1,0.011,0.0,0.0
+name,Basti Ameer Shah,1,0.011,0.0,0.0
+name,Basti Budhan,1,0.011,0.0,0.0
+name,Basti Buzdar,1,0.011,0.0,0.0
+name,Basu Panoon,1,0.011,0.0,0.0
+name,Bata,1,0.011,0.0,0.0
+name,Bazaar Kharadan,1,0.011,0.0,0.0
+name,Bazaar Purani Sabzi Mandi,1,0.011,0.0,0.0
+name,Bazaar Shaheedan,1,0.011,0.0,0.0
+name,Bazar Sheikh Jhando,1,0.011,0.0,0.0
+name,Begampur,1,0.011,0.0,0.0
+name,Begowala Ghartal,1,0.011,0.0,0.0
+name,Berwari,1,0.011,0.0,0.0
+name,Bhadal,1,0.011,0.0,0.0
+name,Bhagian,1,0.011,0.0,0.0
+name,Bhago Dayaal,1,0.011,0.0,0.0
+name,Bhakhraywali,1,0.011,0.0,0.0
+name,Bhaloo Khan Jamali,1,0.011,0.0,0.0
+name,Bharar,1,0.011,0.0,0.0
+name,Bharowal,1,0.011,0.0,0.0
+name,Bharthanwala,1,0.011,0.0,0.0
+name,Bharupgarh,1,0.011,0.0,0.0
+name,Bhatha Pind,1,0.011,0.0,0.0
+name,Bhatti Colony;بھٹی کالونی,1,0.011,0.0,0.0
+name,Bhatti Tikka Shop,1,0.011,0.0,0.0
+name,Bhit Shah,1,0.011,0.0,0.0
+name,Bhittai Masjid,1,0.011,0.0,0.0
+name,Bhool Chak,1,0.011,0.0,0.0
+name,Bhopar,1,0.011,0.0,0.0
+name,Bhrain,1,0.011,0.0,0.0
+name,Bhuller,1,0.011,0.0,0.0
+name,Bhundri,1,0.011,0.0,0.0
+name,Bhutta,1,0.011,0.0,0.0
+name,Bhutta Centre,1,0.011,0.0,0.0
+name,Bike Repairing Market,1,0.011,0.0,0.0
+name,Bilal Masjid,1,0.011,0.0,0.0
+name,Binna,1,0.011,0.0,0.0
+name,Bismillah Grand City,1,0.011,0.0,0.0
+name,Blue Lines Bus Terminal,1,0.011,0.0,0.0
+name,Bola Bajwa,1,0.011,0.0,0.0
+name,Boopra Kalan,1,0.011,0.0,0.0
+name,Boopra Khurd,1,0.011,0.0,0.0
+name,Boota Road,1,0.011,0.0,0.0
+name,Border Punjab - Khyber Pukhtun Kha,1,0.011,0.0,0.0
+name,Bouchh,1,0.011,0.0,0.0
+name,Boury Outh,1,0.011,0.0,0.0
+name,Bubak,1,0.011,0.0,0.0
+name,Budhian,1,0.011,0.0,0.0
+name,Budho,1,0.011,0.0,0.0
+name,Bulhar Rohi Wala,1,0.011,0.0,0.0
+name,Bunder Road,1,0.011,0.0,0.0
+name,Buraywali Hanjra,1,0.011,0.0,0.0
+name,Burhanpur,1,0.011,0.0,0.0
+name,Burjdara,1,0.011,0.0,0.0
+name,Bus Stand Road,1,0.011,0.0,0.0
+name,Butt Sweets,1,0.011,0.0,0.0
+name,Buttraan Da Daira,1,0.011,0.0,0.0
+name,C.Path,1,0.011,0.0,0.0
+name,CAPITAL TRACTORS,1,0.011,0.0,0.0
+name,"CDG Boys High School, Factory Area Shahdara",1,0.011,0.0,0.0
+name,CHOUBARI CREEK,1,0.011,0.0,0.0
+name,CNG Station,1,0.011,0.0,0.0
+name,CPC Colony Park,1,0.011,0.0,0.0
+name,Canal Road - Maotra,1,0.011,0.0,0.0
+name,Captain Sher Ali Khan Road,1,0.011,0.0,0.0
+name,Car Repair Workshop,1,0.011,0.0,0.0
+name,Catholic,1,0.011,0.0,0.0
+name,Center for Pure and Applied Geology,1,0.011,0.0,0.0
+name,Central Jail Hyderabad,1,0.011,0.0,0.0
+name,Chabara,1,0.011,0.0,0.0
+name,Chahal Garden,1,0.011,0.0,0.0
+name,Chahiye Wali,1,0.011,0.0,0.0
+name,Chahnasihan,1,0.011,0.0,0.0
+name,Chajjoke,1,0.011,0.0,0.0
+name,Chak 32 ML to Hetu,1,0.011,0.0,0.0
+name,Chak 90 ML,1,0.011,0.0,0.0
+name,Chak Allauddin,1,0.011,0.0,0.0
+name,Chak Bagge Purana,1,0.011,0.0,0.0
+name,Chak No 216P,1,0.011,0.0,0.0
+name,Chak Quraishi,1,0.011,0.0,0.0
+name,Chak Satrah Maghrabi,1,0.011,0.0,0.0
+name,Chakkian Kalan,1,0.011,0.0,0.0
+name,Chakkian Khurd,1,0.011,0.0,0.0
+name,Chakkian Minor,1,0.011,0.0,0.0
+name,Chakrali,1,0.011,0.0,0.0
+name,Chakri,1,0.011,0.0,0.0
+name,Chaman Ice Cream,1,0.011,0.0,0.0
+name,Chand Marriage Hall,1,0.011,0.0,0.0
+name,Chand Marriage Hall Street,1,0.011,0.0,0.0
+name,Chandinagar,1,0.011,0.0,0.0
+name,Chankar,1,0.011,0.0,0.0
+name,Channa St,1,0.011,0.0,0.0
+name,Channi Churera,1,0.011,0.0,0.0
+name,Channi Distributary,1,0.011,0.0,0.0
+name,Channi Jamki,1,0.011,0.0,0.0
+name,Chaora Gujran,1,0.011,0.0,0.0
+name,Charan,1,0.011,0.0,0.0
+name,Charar,1,0.011,0.0,0.0
+name,Chariala,1,0.011,0.0,0.0
+name,Chashma Right Bank Canal,1,0.011,0.0,0.0
+name,Chatta CNG Station,1,0.011,0.0,0.0
+name,Chattha Hospital,1,0.011,0.0,0.0
+name,Chau Chak,1,0.011,0.0,0.0
+name,Chaudary Mohal,1,0.011,0.0,0.0
+name,Chaudhry Ashraf Street,1,0.011,0.0,0.0
+name,Chaudhry Mohammad Ashraf Street,1,0.011,0.0,0.0
+name,Chaura Rajputtan,1,0.011,0.0,0.0
+name,Chenab Rangers Road,1,0.011,0.0,0.0
+name,Cheney Ke,1,0.011,0.0,0.0
+name,Chhachh Dhand,1,0.011,0.0,0.0
+name,Chheena,1,0.011,0.0,0.0
+name,Chhoti Qalam,1,0.011,0.0,0.0
+name,Child First Pediatric Clinic,1,0.011,0.0,0.0
+name,Chohra,1,0.011,0.0,0.0
+name,Chor Munda,1,0.011,0.0,0.0
+name,Chouke Kalan,1,0.011,0.0,0.0
+name,Christian Cemetery,1,0.011,0.0,0.0
+name,Chukhi,1,0.011,0.0,0.0
+name,Church Road,1,0.011,0.0,0.0
+name,Churky,1,0.011,0.0,0.0
+name,Citi Housing Main Office Sialkot,1,0.011,0.0,0.0
+name,Citizen Colony Grid Station,1,0.011,0.0,0.0
+name,Citizen Roundabout,1,0.011,0.0,0.0
+name,City Police station,1,0.011,0.0,0.0
+name,City Thal Canal Bridge,1,0.011,0.0,0.0
+name,City Traffic Police,1,0.011,0.0,0.0
+name,Civil Hospital Hyderabad,1,0.011,0.0,0.0
+name,Civil Hospital Play Area,1,0.011,0.0,0.0
+name,Civil Hospital Thatt,1,0.011,0.0,0.0
+name,Civil Line Road,1,0.011,0.0,0.0
+name,Civil Lines,1,0.011,0.0,0.0
+name,Clinix Pharmacy,1,0.011,0.0,0.0
+name,Clock Tower,1,0.011,0.0,0.0
+name,Club Road,1,0.011,0.0,0.0
+name,College Chowk,1,0.011,0.0,0.0
+name,Combined Military Hospital Hyderabad,1,0.011,0.0,0.0
+name,Company Bagh,1,0.011,0.0,0.0
+name,Concordia College,1,0.011,0.0,0.0
+name,D Type Masjid,1,0.011,0.0,0.0
+name,DANISH LAW ASSOCIATES,1,0.011,0.0,0.0
+name,DC office Hafizabad,1,0.011,0.0,0.0
+name,DCD Saiendad Wassan Jo Goth,1,0.011,0.0,0.0
+name,DHAND CREEK 01,1,0.011,0.0,0.0
+name,DHAND CREEK 02,1,0.011,0.0,0.0
+name,DIsposal Road,1,0.011,0.0,0.0
+name,Dab Tragranwala Rd,1,0.011,0.0,0.0
+name,Dabu Inn Restaurant,1,0.011,0.0,0.0
+name,Dadu Canal,1,0.011,0.0,0.0
+name,Dadu West,1,0.011,0.0,0.0
+name,Dadu-Moro 220KV Line,1,0.011,0.0,0.0
+name,Daewoo Bus Stop,1,0.011,0.0,0.0
+name,Daewoo Gujranwala,1,0.011,0.0,0.0
+name,Daharki,1,0.011,0.0,0.0
+name,Daiwala Sayyedan,1,0.011,0.0,0.0
+name,Dakh Chowki,1,0.011,0.0,0.0
+name,Dala Wahga,1,0.011,0.0,0.0
+name,Dalianwali,1,0.011,0.0,0.0
+name,Daliwala Satrah,1,0.011,0.0,0.0
+name,Dalla Gujran,1,0.011,0.0,0.0
+name,Dallas Branch,1,0.011,0.0,0.0
+name,Dana Mando,1,0.011,0.0,0.0
+name,Dancing Fountain,1,0.011,0.0,0.0
+name,Dandian,1,0.011,0.0,0.0
+name,Dandian Distributary,1,0.011,0.0,0.0
+name,Daniel Street,1,0.011,0.0,0.0
+name,Danish Amjad Street,1,0.011,0.0,0.0
+name,Dar E Arqam Girls College,1,0.011,0.0,0.0
+name,Dara'a Javaid,1,0.011,0.0,0.0
+name,Darbar Baba Lodhi Shaheed,1,0.011,0.0,0.0
+name,Darkali,1,0.011,0.0,0.0
+name,Darya Biddar,1,0.011,0.0,0.0
+name,Darya Khan Talpur,1,0.011,0.0,0.0
+name,Daska Kalan,1,0.011,0.0,0.0
+name,Daska Pasrur Interchange,1,0.011,0.0,0.0
+name,Daska Tehsil,1,0.011,0.0,0.0
+name,Dastagir Khan Filling Station,1,0.011,0.0,0.0
+name,Data Zaad Kaa,1,0.011,0.0,0.0
+name,Daur,1,0.011,0.0,0.0
+name,Dawer Street,1,0.011,0.0,0.0
+name,De Baagh Cafe,1,0.011,0.0,0.0
+name,Deeplai Memon Housing Society,1,0.011,0.0,0.0
+name,Deewana Wala Road,1,0.011,0.0,0.0
+name,Delhi Muslim Housing Society,1,0.011,0.0,0.0
+name,Deokjae Toll Plaza,1,0.011,0.0,0.0
+name,Department of Statistics,1,0.011,0.0,0.0
+name,Department of Zoology,1,0.011,0.0,0.0
+name,Dera Chaudry Qadeer Agrianwala,1,0.011,0.0,0.0
+name,Dera Ismael Khan Road,1,0.011,0.0,0.0
+name,Dera Makkuwala,1,0.011,0.0,0.0
+name,Dera Malkan,1,0.011,0.0,0.0
+name,Dhaka Bhaya Biryani Point,1,0.011,0.0,0.0
+name,Dhalan,1,0.011,0.0,0.0
+name,Dhamian,1,0.011,0.0,0.0
+name,Dhandal Satrah,1,0.011,0.0,0.0
+name,Dhando Minor,1,0.011,0.0,0.0
+name,Dhansar Bala,1,0.011,0.0,0.0
+name,Dharang,1,0.011,0.0,0.0
+name,Dharoke,1,0.011,0.0,0.0
+name,Dheerowali,1,0.011,0.0,0.0
+name,Dhing Distributary,1,0.011,0.0,0.0
+name,Dhoda,1,0.011,0.0,0.0
+name,Dhodhak Rd,1,0.011,0.0,0.0
+name,Dhohatta Distributary,1,0.011,0.0,0.0
+name,Dhohtail,1,0.011,0.0,0.0
+name,Dholan-Sehnsra Road,1,0.011,0.0,0.0
+name,Dholo Chahan,1,0.011,0.0,0.0
+name,Dhoop Sarri,1,0.011,0.0,0.0
+name,Dhudianwala,1,0.011,0.0,0.0
+name,Dingah,1,0.011,0.0,0.0
+name,Dinpur,1,0.011,0.0,0.0
+name,Dirachok,1,0.011,0.0,0.0
+name,District Headquarters Hospital,1,0.011,0.0,0.0
+name,District Manajement Office Road,1,0.011,0.0,0.0
+name,Ditto Kalro,1,0.011,0.0,0.0
+name,Dittuwali,1,0.011,0.0,0.0
+name,Doburji Araian Road,1,0.011,0.0,0.0
+name,Doburji Ram Chand,1,0.011,0.0,0.0
+name,Doctors Colony,1,0.011,0.0,0.0
+name,Dogri Hundlan,1,0.011,0.0,0.0
+name,Dogul,1,0.011,0.0,0.0
+name,Dongry Khurd,1,0.011,0.0,0.0
+name,Dory Bakers and Sweets,1,0.011,0.0,0.0
+name,Dory Bakery,1,0.011,0.0,0.0
+name,Dring Chachar Bago Daho road,1,0.011,0.0,0.0
+name,Dua Restaurant,1,0.011,0.0,0.0
+name,Dudhu Chak,1,0.011,0.0,0.0
+name,Durgapur,1,0.011,0.0,0.0
+name,Dyal Road,1,0.011,0.0,0.0
+name,"EID GAH, Sambrial Road",1,0.011,0.0,0.0
+name,Eazicolor,1,0.011,0.0,0.0
+name,Eid Mosque,1,0.011,0.0,0.0
+name,Eidan Shoro,1,0.011,0.0,0.0
+name,Eiso Ganga,1,0.011,0.0,0.0
+name,Elephant,1,0.011,0.0,0.0
+name,"Emergency Ward, T.H.Q. Hospital",1,0.011,0.0,0.0
+name,English Shoes,1,0.011,0.0,0.0
+name,Engro Energy CCGT Power Plant,1,0.011,0.0,0.0
+name,Essa Chandio,1,0.011,0.0,0.0
+name,FG Boys Public School,1,0.011,0.0,0.0
+name,FPS,1,0.011,0.0,0.0
+name,Faculty (Teachers) Hostel,1,0.011,0.0,0.0
+name,Faisal Zia Road,1,0.011,0.0,0.0
+name,Faizan e Madina Masjid,1,0.011,0.0,0.0
+name,Family Restaurant,1,0.011,0.0,0.0
+name,Faqeeranwali,1,0.011,0.0,0.0
+name,Faqir Noothiani,1,0.011,0.0,0.0
+name,Faran Road,1,0.011,0.0,0.0
+name,Farhadpur,1,0.011,0.0,0.0
+name,Farkhandabad,1,0.011,0.0,0.0
+name,Farooqi Jamia Masjid,1,0.011,0.0,0.0
+name,Fateh Chowk,1,0.011,0.0,0.0
+name,Fateh Chowk Park,1,0.011,0.0,0.0
+name,Fateh Pur Jajja,1,0.011,0.0,0.0
+name,Fatehgarh,1,0.011,0.0,0.0
+name,Fatehpur,1,0.011,0.0,0.0
+name,Fatta,1,0.011,0.0,0.0
+name,Fauji Fertilizer Company,1,0.011,0.0,0.0
+name,Fauji Foundation,1,0.011,0.0,0.0
+name,Fazil Pur Road,1,0.011,0.0,0.0
+name,Ferozewala Police Station,1,0.011,0.0,0.0
+name,Ferozwala Road,1,0.011,0.0,0.0
+name,Ferozwala Tehsil Courts,1,0.011,0.0,0.0
+name,Fire Brigade Shahdara,1,0.011,0.0,0.0
+name,Food And Drink,1,0.011,0.0,0.0
+name,Foundation Power Company,1,0.011,0.0,0.0
+name,Foundation Public School,1,0.011,0.0,0.0
+name,Fruit and Vegetable Market,1,0.011,0.0,0.0
+name,"Fruit, Vegetable & Grain Market",1,0.011,0.0,0.0
+name,Fuel Station,1,0.011,0.0,0.0
+name,G&B,1,0.011,0.0,0.0
+name,GBHS Gabar Masan,1,0.011,0.0,0.0
+name,GIFT University,1,0.011,0.0,0.0
+name,GO CNG Station,1,0.011,0.0,0.0
+name,Gagewali,1,0.011,0.0,0.0
+name,Gakhar Wali,1,0.011,0.0,0.0
+name,Gala Goga Pehlwan Wala Road,1,0.011,0.0,0.0
+name,Gala Jamia Masjid,1,0.011,0.0,0.0
+name,Gambat Station Road,1,0.011,0.0,0.0
+name,Gang,1,0.011,0.0,0.0
+name,Gararh Baryar,1,0.011,0.0,0.0
+name,Garden Haji Laldin,1,0.011,0.0,0.0
+name,Garhi Khuda Bakhsh,1,0.011,0.0,0.0
+name,Garho Road,1,0.011,0.0,0.0
+name,Gas Line CNG,1,0.011,0.0,0.0
+name,Gas Station,1,0.011,0.0,0.0
+name,Ghanoke Jajja,1,0.011,0.0,0.0
+name,Ghanta Ghar,1,0.011,0.0,0.0
+name,Gharyal Kalan,1,0.011,0.0,0.0
+name,Gharyal Khurd,1,0.011,0.0,0.0
+name,Ghayye Wala,1,0.011,0.0,0.0
+name,Ghazali College,1,0.011,0.0,0.0
+name,Ghazi Khan Korai,1,0.011,0.0,0.0
+name,Ghijowali,1,0.011,0.0,0.0
+name,Ghole,1,0.011,0.0,0.0
+name,Ghotana,1,0.011,0.0,0.0
+name,Ghotki Feeder Canal,1,0.011,0.0,0.0
+name,Ghous Abad Road,1,0.011,0.0,0.0
+name,Ghulam Ali Jamali,1,0.011,0.0,0.0
+name,Ghulam Dastgir Fuel Station,1,0.011,0.0,0.0
+name,Ghulam Muhamma Theykedar Street,1,0.011,0.0,0.0
+name,Ghurke,1,0.011,0.0,0.0
+name,Gill Road,1,0.011,0.0,0.0
+name,Glamour Shopping Mall,1,0.011,0.0,0.0
+name,Global Law College,1,0.011,0.0,0.0
+name,Gloria Jean's,1,0.011,0.0,0.0
+name,Godha,1,0.011,0.0,0.0
+name,Gohadpur,1,0.011,0.0,0.0
+name,Gohadpur Road,1,0.011,0.0,0.0
+name,Golaywala Asraanwala Rd,1,0.011,0.0,0.0
+name,Golaywala Rd,1,0.011,0.0,0.0
+name,Gondal Road,1,0.011,0.0,0.0
+name,Gorala,1,0.011,0.0,0.0
+name,Gorali,1,0.011,0.0,0.0
+name,Gospel Homes Colony,1,0.011,0.0,0.0
+name,Goth Hussain Jam Unar,1,0.011,0.0,0.0
+name,Goth Jam Unar,1,0.011,0.0,0.0
+name,Goth Jaro Panhwar,1,0.011,0.0,0.0
+name,Goth Kehar Khan Jamali,1,0.011,0.0,0.0
+name,Goth Piyaro Bihan,1,0.011,0.0,0.0
+name,Gourmet Bakers,1,0.011,0.0,0.0
+name,Government Boys High School,1,0.011,0.0,0.0
+name,Government Boys Higher Secondary School,1,0.011,0.0,0.0
+name,Government Girls Primary School,1,0.011,0.0,0.0
+name,Government Higher Secondary School,1,0.011,0.0,0.0
+name,Government Hospital Sakrand,1,0.011,0.0,0.0
+name,Government Institute of Leather Technology,1,0.011,0.0,0.0
+name,Government Teaching Hospital Shahdara,1,0.011,0.0,0.0
+name,Govt Boys Degree College Thatta,1,0.011,0.0,0.0
+name,Govt Girls High School,1,0.011,0.0,0.0
+name,Govt Pond,1,0.011,0.0,0.0
+name,Govt. Boys Primary School Chhanawan Sialkot,1,0.011,0.0,0.0
+name,Govt. High School Shahdara,1,0.011,0.0,0.0
+name,Govt. Jamia School,1,0.011,0.0,0.0
+name,Govt. Primary School,1,0.011,0.0,0.0
+name,Grain Market Sanjarpur,1,0.011,0.0,0.0
+name,"Grain Market, Railway Road, Sadiqabad",1,0.011,0.0,0.0
+name,Green Building,1,0.011,0.0,0.0
+name,Green Petrol Pump,1,0.011,0.0,0.0
+name,Grid Station,1,0.011,0.0,0.0
+name,Guchally,1,0.011,0.0,0.0
+name,Guddu Road,1,0.011,0.0,0.0
+name,Gujranwala Hafizabad Road,1,0.011,0.0,0.0
+name,Gujranwala Science Foundation High School,1,0.011,0.0,0.0
+name,Gujranwala Tehsil,1,0.011,0.0,0.0
+name,Gujrānwāla District,1,0.011,0.0,0.0
+name,Gujrānwāla Division,1,0.011,0.0,0.0
+name,Gul Muhammad Sathio,1,0.011,0.0,0.0
+name,Gulewali,1,0.011,0.0,0.0
+name,Gulistan e Sarmast Road,1,0.011,0.0,0.0
+name,Gulshan Marriage Hall,1,0.011,0.0,0.0
+name,Gumtali,1,0.011,0.0,0.0
+name,Gunna Aor Raod,1,0.011,0.0,0.0
+name,Gurduwara Sri Guru Nanak Dev Ji,1,0.011,0.0,0.0
+name,Gurdwara Rori Sahib,1,0.011,0.0,0.0
+name,Guzarbadal,1,0.011,0.0,0.0
+name,HARJINIA JETTY FOR FISHING,1,0.011,0.0,0.0
+name,HBL,1,0.011,0.0,0.0
+name,HBL ATM,1,0.011,0.0,0.0
+name,HFC (Hilal Fried Chicks),1,0.011,0.0,0.0
+name,HIRA hospital,1,0.011,0.0,0.0
+name,Habib Bank Jail Road Branch,1,0.011,0.0,0.0
+name,Habib Bank Limited,1,0.011,0.0,0.0
+name,Habib Sugar Mills,1,0.011,0.0,0.0
+name,Hachar,1,0.011,0.0,0.0
+name,Haddayat,1,0.011,0.0,0.0
+name,Haibat Pur,1,0.011,0.0,0.0
+name,Haider Hospital,1,0.011,0.0,0.0
+name,Haidri Road,1,0.011,0.0,0.0
+name,Haji Ehsan Ali Road,1,0.011,0.0,0.0
+name,Haji Hotel,1,0.011,0.0,0.0
+name,Haji Imam Deen Street,1,0.011,0.0,0.0
+name,Haji Ismail Street,1,0.011,0.0,0.0
+name,Haji Khuda Buksh Farmhouse,1,0.011,0.0,0.0
+name,Haji Khuda Buksh Mohalla,1,0.011,0.0,0.0
+name,Haji Khuda Buksh Street,1,0.011,0.0,0.0
+name,Haji Mehar Ismail Street,1,0.011,0.0,0.0
+name,Haji Shah Maqsood,1,0.011,0.0,0.0
+name,Haji ilm Deen Street,1,0.011,0.0,0.0
+name,Hala Station,1,0.011,0.0,0.0
+name,Hali Road,1,0.011,0.0,0.0
+name,Halima marriage hall,1,0.011,0.0,0.0
+name,Hamal Lake,1,0.011,0.0,0.0
+name,Hamboki,1,0.011,0.0,0.0
+name,Hameed Pur,1,0.011,0.0,0.0
+name,Hanjra,1,0.011,0.0,0.0
+name,Happy Homes,1,0.011,0.0,0.0
+name,Harappan Ruins,1,0.011,0.0,0.0
+name,Harar,1,0.011,0.0,0.0
+name,Hardosohal Muslim,1,0.011,0.0,0.0
+name,Haripur Road,1,0.011,0.0,0.0
+name,Haroon Kashif Street,1,0.011,0.0,0.0
+name,Harwanis Pur,1,0.011,0.0,0.0
+name,Hascol Fuelling Station,1,0.011,0.0,0.0
+name,Hashmat School System,1,0.011,0.0,0.0
+name,Hassan Marriage Hall,1,0.011,0.0,0.0
+name,Hatcher,1,0.011,0.0,0.0
+name,Hatri,1,0.011,0.0,0.0
+name,Hatri Police Station,1,0.011,0.0,0.0
+name,Haveli Hazarra,1,0.011,0.0,0.0
+name,Haveli of Seth Dewan Amarnath Chopra,1,0.011,0.0,0.0
+name,Hazrat Ali Road,1,0.011,0.0,0.0
+name,Hazrat Jameel Shah Bukhari R.A,1,0.011,0.0,0.0
+name,Heaven Castle,1,0.011,0.0,0.0
+name,Hichipur Labana,1,0.011,0.0,0.0
+name,Hosh Mohammed Shidi Flyover,1,0.011,0.0,0.0
+name,Hosh Muhammad Shidi,1,0.011,0.0,0.0
+name,Hosh Muhammad Shidi Road,1,0.011,0.0,0.0
+name,"Hostel, RRI",1,0.011,0.0,0.0
+name,Hotel Al Falah,1,0.011,0.0,0.0
+name,Hotel Crown City,1,0.011,0.0,0.0
+name,Hotel Ravi View,1,0.011,0.0,0.0
+name,Hothi Road,1,0.011,0.0,0.0
+name,Hussa Jajja,1,0.011,0.0,0.0
+name,Hussainabad Colony,1,0.011,0.0,0.0
+name,Hyderabad Airport,1,0.011,0.0,0.0
+name,Hyderabad Electric Supply Company,1,0.011,0.0,0.0
+name,INDUS,1,0.011,0.0,0.0
+name,Ibbanwali Road,1,0.011,0.0,0.0
+name,Iffat Saeed Road,1,0.011,0.0,0.0
+name,Iffat Saeed Street,1,0.011,0.0,0.0
+name,Ilyas Pura,1,0.011,0.0,0.0
+name,Imam Bargah,1,0.011,0.0,0.0
+name,Imdadabad,1,0.011,0.0,0.0
+name,Inayat Sweets & Bakers,1,0.011,0.0,0.0
+name,Indus View Road,1,0.011,0.0,0.0
+name,Industrial Area,1,0.011,0.0,0.0
+name,Infinity Motors,1,0.011,0.0,0.0
+name,Instant Burgers,1,0.011,0.0,0.0
+name,Institute of Physics,1,0.011,0.0,0.0
+name,Iqbal Flour Mill,1,0.011,0.0,0.0
+name,Iqbal Medical Store,1,0.011,0.0,0.0
+name,Iqbal Park,1,0.011,0.0,0.0
+name,Isan Minor,1,0.011,0.0,0.0
+name,Ismāīlke,1,0.011,0.0,0.0
+name,Isra Nursing Hostel,1,0.011,0.0,0.0
+name,Isra University,1,0.011,0.0,0.0
+name,Isra University Mosque,1,0.011,0.0,0.0
+name,Isra University Welfare Hospital,1,0.011,0.0,0.0
+name,Italian Pizza,1,0.011,0.0,0.0
+name,Ittehad Chemicals,1,0.011,0.0,0.0
+name,JHOLAY WARO 01,1,0.011,0.0,0.0
+name,JHOR CREEK 01,1,0.011,0.0,0.0
+name,JHOR MALOOK JETTY FOR FISHING,1,0.011,0.0,0.0
+name,Jaboke,1,0.011,0.0,0.0
+name,Jagrawan,1,0.011,0.0,0.0
+name,Jaid Wala,1,0.011,0.0,0.0
+name,Jajjo Gill,1,0.011,0.0,0.0
+name,Jajjo Gill Road,1,0.011,0.0,0.0
+name,Jalal Machi Goth,1,0.011,0.0,0.0
+name,Jalalani Goth,1,0.011,0.0,0.0
+name,Jalalpur,1,0.011,0.0,0.0
+name,Jalapur,1,0.011,0.0,0.0
+name,Jalowali,1,0.011,0.0,0.0
+name,Jam Gill,1,0.011,0.0,0.0
+name,Jam Meher,1,0.011,0.0,0.0
+name,Jama Masjid Hira,1,0.011,0.0,0.0
+name,Jamalpur,1,0.011,0.0,0.0
+name,Jamat-I-Islami,1,0.011,0.0,0.0
+name,Jamia Masjid,1,0.011,0.0,0.0
+name,Jamia Masjid Azeem,1,0.011,0.0,0.0
+name,Jamia Masjid Bilal Ranatown,1,0.011,0.0,0.0
+name,Jamia Masjid Doburji Araian,1,0.011,0.0,0.0
+name,Jamia Masjid Farooqia,1,0.011,0.0,0.0
+name,Jamia Masjid Farooqia Ghosia,1,0.011,0.0,0.0
+name,Jamia Masjid Fatima,1,0.011,0.0,0.0
+name,Jamia Masjid Mehar Town,1,0.011,0.0,0.0
+name,Jamia Masjid Muhammadia Ghousia,1,0.011,0.0,0.0
+name,Jamia Masjid Nimrah Hanfi,1,0.011,0.0,0.0
+name,Jamia Masjid Noori,1,0.011,0.0,0.0
+name,Jamia Masjid Wazir,1,0.011,0.0,0.0
+name,Jamia Masjid Zanib,1,0.011,0.0,0.0
+name,Jamia Mosque,1,0.011,0.0,0.0
+name,Jamia Mosque Imamia,1,0.011,0.0,0.0
+name,Jamia Muhammadi Masjid,1,0.011,0.0,0.0
+name,Jamia Muhammadia Ahl-e-Hadees,1,0.011,0.0,0.0
+name,Jamiya Masjid Siddique,1,0.011,0.0,0.0
+name,Jamkay Dhendsa,1,0.011,0.0,0.0
+name,Jamke Road,1,0.011,0.0,0.0
+name,Jamy Masjid Al Minar,1,0.011,0.0,0.0
+name,Jamya Masjid Umer Islami,1,0.011,0.0,0.0
+name,Jamya Masjid Yaadgar Usman Ghanni,1,0.011,0.0,0.0
+name,Jan Muhammad Jamali,1,0.011,0.0,0.0
+name,Janazah Gah,1,0.011,0.0,0.0
+name,Jandiala Kalsan,1,0.011,0.0,0.0
+name,Jannat Bibi Park,1,0.011,0.0,0.0
+name,Jannat Marriage Palace,1,0.011,0.0,0.0
+name,Jaranwala-Lahore Road,1,0.011,0.0,0.0
+name,Jarian Wala,1,0.011,0.0,0.0
+name,Jarro Khan Chhutto,1,0.011,0.0,0.0
+name,Jasso Wali,1,0.011,0.0,0.0
+name,Jassowali,1,0.011,0.0,0.0
+name,Jatala Road,1,0.011,0.0,0.0
+name,Jatri Ke,1,0.011,0.0,0.0
+name,Javaid Iqbal Chaudhry Farmhouse,1,0.011,0.0,0.0
+name,Javaid Iqbal Chaudhry Road,1,0.011,0.0,0.0
+name,Javed Iqbal Restaurant,1,0.011,0.0,0.0
+name,Jay Singh Wala,1,0.011,0.0,0.0
+name,Jazz/Warid Business Center,1,0.011,0.0,0.0
+name,Jeo Wali,1,0.011,0.0,0.0
+name,Jetogala,1,0.011,0.0,0.0
+name,Jetogala Branch,1,0.011,0.0,0.0
+name,Jhanaas,1,0.011,0.0,0.0
+name,Jhanda,1,0.011,0.0,0.0
+name,Jhangara Bypass,1,0.011,0.0,0.0
+name,Jhangi,1,0.011,0.0,0.0
+name,Jhangi Shah Khaki Syedan,1,0.011,0.0,0.0
+name,Jhangike,1,0.011,0.0,0.0
+name,Jhatanwali,1,0.011,0.0,0.0
+name,Jhatanwali Sharqi,1,0.011,0.0,0.0
+name,Jhatokay,1,0.011,0.0,0.0
+name,Jhok Mehar Shah,1,0.011,0.0,0.0
+name,Jhoke Chak No. 3,1,0.011,0.0,0.0
+name,Jic Way,1,0.011,0.0,0.0
+name,Jinnah Memorial High School,1,0.011,0.0,0.0
+name,Jioke,1,0.011,0.0,0.0
+name,Johad Pur Waraich,1,0.011,0.0,0.0
+name,Jowahar Por,1,0.011,0.0,0.0
+name,Jugna,1,0.011,0.0,0.0
+name,Julki,1,0.011,0.0,0.0
+name,Jungshahi,1,0.011,0.0,0.0
+name,Jungshahi Station,1,0.011,0.0,0.0
+name,K B Shopping Center,1,0.011,0.0,0.0
+name,K-IV Canal,1,0.011,0.0,0.0
+name,KADIRO CREEK 03,1,0.011,0.0,0.0
+name,KCS Bus Station,1,0.011,0.0,0.0
+name,KFC,1,0.011,0.0,0.0
+name,KHARO CHAN 07,1,0.011,0.0,0.0
+name,KHARO CHHAND,1,0.011,0.0,0.0
+name,KMKL02,1,0.011,0.0,0.0
+name,KOT ISHAQ PSO pump,1,0.011,0.0,0.0
+name,KSK CNG Station,1,0.011,0.0,0.0
+name,Kacha Fatomand Road,1,0.011,0.0,0.0
+name,Kacheri Road,1,0.011,0.0,0.0
+name,Kachli,1,0.011,0.0,0.0
+name,Kaka Khail Roosh Restaurant,1,0.011,0.0,0.0
+name,Kakapota,1,0.011,0.0,0.0
+name,Kakhanwali,1,0.011,0.0,0.0
+name,Kala Chak,1,0.011,0.0,0.0
+name,Kala Shah Kaku Railway Station,1,0.011,0.0,0.0
+name,Kalanwali,1,0.011,0.0,0.0
+name,Kalaske Road,1,0.011,0.0,0.0
+name,Kaler,1,0.011,0.0,0.0
+name,Kalla Kalan Canal,1,0.011,0.0,0.0
+name,Kallowali,1,0.011,0.0,0.0
+name,Kallu Kalan,1,0.011,0.0,0.0
+name,Kalluwali,1,0.011,0.0,0.0
+name,Kalri Baghar,1,0.011,0.0,0.0
+name,Kalur Kot - Abassian Wala Rd,1,0.011,0.0,0.0
+name,Kamalpur Chishtian,1,0.011,0.0,0.0
+name,Kamoon Malhi,1,0.011,0.0,0.0
+name,Kandhkot,1,0.011,0.0,0.0
+name,Karachi Bus Stand,1,0.011,0.0,0.0
+name,Karmanwala Family Restaurant,1,0.011,0.0,0.0
+name,Karmanwala Petrol Station (PSO),1,0.011,0.0,0.0
+name,Kasana,1,0.011,0.0,0.0
+name,Kassoke Distributary,1,0.011,0.0,0.0
+name,Keeranwali,1,0.011,0.0,0.0
+name,Khadija Chaudhry Road,1,0.011,0.0,0.0
+name,Khahi Mamon Road,1,0.011,0.0,0.0
+name,Khaiber,1,0.011,0.0,0.0
+name,Khaipur Canal West,1,0.011,0.0,0.0
+name,Khair Deen Road,1,0.011,0.0,0.0
+name,Khairpur Sugar Mill Road,1,0.011,0.0,0.0
+name,Khairpur sugar mill,1,0.011,0.0,0.0
+name,Khan Plaza,1,0.011,0.0,0.0
+name,Khan Qah Rd,1,0.011,0.0,0.0
+name,Khan Street,1,0.011,0.0,0.0
+name,Khaner,1,0.011,0.0,0.0
+name,Khangura,1,0.011,0.0,0.0
+name,Khani Bazigran,1,0.011,0.0,0.0
+name,Khanki Road,1,0.011,0.0,0.0
+name,Khanpur Mahar - Thikrato Road,1,0.011,0.0,0.0
+name,Khapparke,1,0.011,0.0,0.0
+name,Khaprala,1,0.011,0.0,0.0
+name,Kharane,1,0.011,0.0,0.0
+name,Kharay,1,0.011,0.0,0.0
+name,Khari Muhammad Thebo,1,0.011,0.0,0.0
+name,Khawaja Safdar Chowk,1,0.011,0.0,0.0
+name,Khawaja Waqar Street,1,0.011,0.0,0.0
+name,Khawasra,1,0.011,0.0,0.0
+name,Khokhar Bhuddu,1,0.011,0.0,0.0
+name,Khokhewali,1,0.011,0.0,0.0
+name,Khori,1,0.011,0.0,0.0
+name,Khosar,1,0.011,0.0,0.0
+name,Khotray,1,0.011,0.0,0.0
+name,Khunda,1,0.011,0.0,0.0
+name,Khushal Property Adviser,1,0.011,0.0,0.0
+name,Khuthowali,1,0.011,0.0,0.0
+name,Khuwaja Fareed College Road,1,0.011,0.0,0.0
+name,Kilaske Distributary,1,0.011,0.0,0.0
+name,Kingriali Kalan,1,0.011,0.0,0.0
+name,Kingriali Khurd,1,0.011,0.0,0.0
+name,Kirto,1,0.011,0.0,0.0
+name,Kolo Tarar Road,1,0.011,0.0,0.0
+name,Koori Mohallah,1,0.011,0.0,0.0
+name,Koreke,1,0.011,0.0,0.0
+name,Koriwala,1,0.011,0.0,0.0
+name,Kot Abdul Malik Interchange,1,0.011,0.0,0.0
+name,Kot Addu Power Plant,1,0.011,0.0,0.0
+name,Kot Aga Jajja,1,0.011,0.0,0.0
+name,Kot Ahdian,1,0.011,0.0,0.0
+name,Kot Anwar Shah,1,0.011,0.0,0.0
+name,Kot Bagga,1,0.011,0.0,0.0
+name,Kot Bhailan,1,0.011,0.0,0.0
+name,Kot Bhiwani Das,1,0.011,0.0,0.0
+name,Kot Bhugat,1,0.011,0.0,0.0
+name,Kot Dina,1,0.011,0.0,0.0
+name,Kot Ghumman,1,0.011,0.0,0.0
+name,Kot Haibat,1,0.011,0.0,0.0
+name,Kot Kora,1,0.011,0.0,0.0
+name,Kot Maharai,1,0.011,0.0,0.0
+name,Kot Maujdin,1,0.011,0.0,0.0
+name,Kot Metla,1,0.011,0.0,0.0
+name,Kot Mokhai,1,0.011,0.0,0.0
+name,Kot Moman,1,0.011,0.0,0.0
+name,Kot Mubarak,1,0.011,0.0,0.0
+name,Kot Panuan,1,0.011,0.0,0.0
+name,Kot Paroya Road,1,0.011,0.0,0.0
+name,Kot Porian,1,0.011,0.0,0.0
+name,Kot Rasool Purian,1,0.011,0.0,0.0
+name,Kot Roy,1,0.011,0.0,0.0
+name,Kot Ruldu Bara,1,0.011,0.0,0.0
+name,Kot Ruldu Chota,1,0.011,0.0,0.0
+name,Kot Sharafdin,1,0.011,0.0,0.0
+name,Kot Tapa,1,0.011,0.0,0.0
+name,Kotha Rahmat Khan,1,0.011,0.0,0.0
+name,Kothi Jhangi,1,0.011,0.0,0.0
+name,Kotli Aima,1,0.011,0.0,0.0
+name,Kotli Baray Khan,1,0.011,0.0,0.0
+name,Kotli Baryar,1,0.011,0.0,0.0
+name,Kotli Baryar Road,1,0.011,0.0,0.0
+name,Kotli Bawarian,1,0.011,0.0,0.0
+name,Kotli Bhuta,1,0.011,0.0,0.0
+name,Kotli Boharwali,1,0.011,0.0,0.0
+name,Kotli Gul Muhammad,1,0.011,0.0,0.0
+name,Kotli Kahlo,1,0.011,0.0,0.0
+name,Kotli Karotana,1,0.011,0.0,0.0
+name,Kotli Khawaja,1,0.011,0.0,0.0
+name,Kotli Maharan,1,0.011,0.0,0.0
+name,Kotli Mallian,1,0.011,0.0,0.0
+name,Kotli Mooman,1,0.011,0.0,0.0
+name,Kotli Road,1,0.011,0.0,0.0
+name,Kotli Tarkhanandi,1,0.011,0.0,0.0
+name,Kotly Khair,1,0.011,0.0,0.0
+name,Kotri Latifabad Bus Stop,1,0.011,0.0,0.0
+name,Kukkar,1,0.011,0.0,0.0
+name,Kukripur,1,0.011,0.0,0.0
+name,Kulachi Road,1,0.011,0.0,0.0
+name,Kumb Darun,1,0.011,0.0,0.0
+name,Kumhar,1,0.011,0.0,0.0
+name,Kunnar LPG Plant & Oil Field,1,0.011,0.0,0.0
+name,Kuthali Minor,1,0.011,0.0,0.0
+name,Laal Haveli Marriage Garden,1,0.011,0.0,0.0
+name,Ladhe Kay Gharbi,1,0.011,0.0,0.0
+name,Ladhe Kay Sharki,1,0.011,0.0,0.0
+name,Ladho Chandio,1,0.011,0.0,0.0
+name,Lahore - Sheikhupura Faisal Ahbad Road,1,0.011,0.0,0.0
+name,Lajawab Marriage Hall,1,0.011,0.0,0.0
+name,Lakhan Kay,1,0.011,0.0,0.0
+name,Lakhra Coal Power Plant,1,0.011,0.0,0.0
+name,Lal Bakhsh Bhurgri Goth,1,0.011,0.0,0.0
+name,Lal Masjid,1,0.011,0.0,0.0
+name,Laler,1,0.011,0.0,0.0
+name,Lamian Wala,1,0.011,0.0,0.0
+name,Landra,1,0.011,0.0,0.0
+name,Larkana Institute of Nuclear Medicine and Radiotherapy,1,0.011,0.0,0.0
+name,Larkana Naudero Lakhi Highway,1,0.011,0.0,0.0
+name,Larkana Railway Station,1,0.011,0.0,0.0
+name,"Lasani Fast Food,Muridke",1,0.011,0.0,0.0
+name,Latifabad Road,1,0.011,0.0,0.0
+name,Lawairi Wala,1,0.011,0.0,0.0
+name,Layyah Bypass Road,1,0.011,0.0,0.0
+name,Leopards Courier Service,1,0.011,0.0,0.0
+name,Liaqat Civil Line Road,1,0.011,0.0,0.0
+name,Link,1,0.011,0.0,0.0
+name,Lodi Jajja,1,0.011,0.0,0.0
+name,Long Wala,1,0.011,0.0,0.0
+name,Longokey,1,0.011,0.0,0.0
+name,Lurke Liamat,1,0.011,0.0,0.0
+name,M M Shoes,1,0.011,0.0,0.0
+name,M Raheem Rice Processing Mills and exporter,1,0.011,0.0,0.0
+name,M11-M2 انٹرچینج,1,0.011,0.0,0.0
+name,MCB Islamic Bank Limited,1,0.011,0.0,0.0
+name,MD Palace,1,0.011,0.0,0.0
+name,MSZ Graphics,1,0.011,0.0,0.0
+name,MTW Showroom,1,0.011,0.0,0.0
+name,Madni Marriage Hall,1,0.011,0.0,0.0
+name,Madni Pur,1,0.011,0.0,0.0
+name,Madrassah,1,0.011,0.0,0.0
+name,Madrisa,1,0.011,0.0,0.0
+name,Magho Kamman,1,0.011,0.0,0.0
+name,Magnum Granges,1,0.011,0.0,0.0
+name,Mahar Mohallah Street,1,0.011,0.0,0.0
+name,Mahia,1,0.011,0.0,0.0
+name,Mahood Thaheem,1,0.011,0.0,0.0
+name,Main Bazar Hashmi Colony,1,0.011,0.0,0.0
+name,Main Daharki City Road,1,0.011,0.0,0.0
+name,Main Village Rd,1,0.011,0.0,0.0
+name,Makki Mosque,1,0.011,0.0,0.0
+name,Makli CNG Station,1,0.011,0.0,0.0
+name,Makli Fuelling Station,1,0.011,0.0,0.0
+name,Makli Grill Air Conditioned Hotel,1,0.011,0.0,0.0
+name,Makli Sindh Pakistan,1,0.011,0.0,0.0
+name,Malik CNG & Filling Station,1,0.011,0.0,0.0
+name,Malik Ijaz Hussain Awan Road,1,0.011,0.0,0.0
+name,Malik Sammar Abbas Street,1,0.011,0.0,0.0
+name,Maliwala,1,0.011,0.0,0.0
+name,Mallu,1,0.011,0.0,0.0
+name,Mallun Wali,1,0.011,0.0,0.0
+name,Malo Mahi,1,0.011,0.0,0.0
+name,Malokey,1,0.011,0.0,0.0
+name,Mamuri Rd,1,0.011,0.0,0.0
+name,Mana Wala,1,0.011,0.0,0.0
+name,Manawala Qila Harnam Singh,1,0.011,0.0,0.0
+name,Manchar Road Bypass,1,0.011,0.0,0.0
+name,Mandar,1,0.011,0.0,0.0
+name,Mandh,1,0.011,0.0,0.0
+name,Mandhiali,1,0.011,0.0,0.0
+name,Mandiala,1,0.011,0.0,0.0
+name,Manga,1,0.011,0.0,0.0
+name,Mango,1,0.011,0.0,0.0
+name,Mango Tri,1,0.011,0.0,0.0
+name,Mangrotha,1,0.011,0.0,0.0
+name,Manj Gaggar,1,0.011,0.0,0.0
+name,Mankara Road,1,0.011,0.0,0.0
+name,Mansha Tikka Shop,1,0.011,0.0,0.0
+name,Marajke,1,0.011,0.0,0.0
+name,Marhaba City,1,0.011,0.0,0.0
+name,Marhaba Park,1,0.011,0.0,0.0
+name,Marhaba Residents Union Office,1,0.011,0.0,0.0
+name,Marian Hotel,1,0.011,0.0,0.0
+name,Marūfābād,1,0.011,0.0,0.0
+name,MashaAllah Nursary Farm,1,0.011,0.0,0.0
+name,Masjid Ahl e Hadees,1,0.011,0.0,0.0
+name,Masjid Ibne Abbas,1,0.011,0.0,0.0
+name,Masjid Jamnu Wali,1,0.011,0.0,0.0
+name,Masjid Noorani,1,0.011,0.0,0.0
+name,Masjid Quba,1,0.011,0.0,0.0
+name,Masjid Saddiquea,1,0.011,0.0,0.0
+name,Masjid Zul Jalal,1,0.011,0.0,0.0
+name,Massu,1,0.011,0.0,0.0
+name,Masu Bhurgari,1,0.011,0.0,0.0
+name,Matab-E-Hameed,1,0.011,0.0,0.0
+name,Mayoan Da Dera,1,0.011,0.0,0.0
+name,Mayur Jeans,1,0.011,0.0,0.0
+name,Mazar of Zulfikar Ali Bhutto,1,0.011,0.0,0.0
+name,Mc Donalds,1,0.011,0.0,0.0
+name,MediaDoctorz Pvt ltd. Head Office,1,0.011,0.0,0.0
+name,Meer Khan Laghari,1,0.011,0.0,0.0
+name,Meezan Bank,1,0.011,0.0,0.0
+name,Mehar Abdul Razaq House,1,0.011,0.0,0.0
+name,Mehar Asif,1,0.011,0.0,0.0
+name,Mehar Bagoo Street,1,0.011,0.0,0.0
+name,Mehar Basharat Mahmood House,1,0.011,0.0,0.0
+name,Mehar Chirag Deen Road,1,0.011,0.0,0.0
+name,Mehar Faqir Mohammad & Mohammad Bibi Quran School,1,0.011,0.0,0.0
+name,Mehar Ghulam Rasool,1,0.011,0.0,0.0
+name,Mehar Ghulam Rasool Street,1,0.011,0.0,0.0
+name,Mehar Haider Street,1,0.011,0.0,0.0
+name,Mehar Haroon Kashaf Street,1,0.011,0.0,0.0
+name,Mehar Khayam Road,1,0.011,0.0,0.0
+name,Mehar Khayam Street,1,0.011,0.0,0.0
+name,Mehar Market,1,0.011,0.0,0.0
+name,Mehar Market  2,1,0.011,0.0,0.0
+name,Mehar Market 3,1,0.011,0.0,0.0
+name,Mehar Mohammad Asghar Street,1,0.011,0.0,0.0
+name,Mehar Mohammad Basharat Street,1,0.011,0.0,0.0
+name,Mehar Mohammad Saeed Street,1,0.011,0.0,0.0
+name,Mehar Mohammad Safdar Street,1,0.011,0.0,0.0
+name,Mehar Noman Basharat road,1,0.011,0.0,0.0
+name,Mehar Noor Street,1,0.011,0.0,0.0
+name,Mehar Shahid Rasool Street,1,0.011,0.0,0.0
+name,Mehar Subah Din Street,1,0.011,0.0,0.0
+name,Mehar Town Residencies,1,0.011,0.0,0.0
+name,Mehar Usman Basharat,1,0.011,0.0,0.0
+name,Mehar Usman Road,1,0.011,0.0,0.0
+name,Mehar Warris House,1,0.011,0.0,0.0
+name,Mehar Zeshan Basharat Road,1,0.011,0.0,0.0
+name,Mehkary,1,0.011,0.0,0.0
+name,Mehmand Wali,1,0.011,0.0,0.0
+name,Mehmood Garden Marriage Lawn,1,0.011,0.0,0.0
+name,Mehmood Kot Rd,1,0.011,0.0,0.0
+name,Mehmood Pur,1,0.011,0.0,0.0
+name,Mehndi Pur,1,0.011,0.0,0.0
+name,Mehr Sadiq Street,1,0.011,0.0,0.0
+name,Mehrabpur Road,1,0.011,0.0,0.0
+name,Mehran Merkaz,1,0.011,0.0,0.0
+name,Membranwala,1,0.011,0.0,0.0
+name,Mero Bhadiyar,1,0.011,0.0,0.0
+name,Mian CNG Kamoki,1,0.011,0.0,0.0
+name,Mian Mohammad Afzal Street,1,0.011,0.0,0.0
+name,Mian Noor Deen,1,0.011,0.0,0.0
+name,Mian Noor Elahi Road,1,0.011,0.0,0.0
+name,Mian Sansi Road,1,0.011,0.0,0.0
+name,Mian Sb st,1,0.011,0.0,0.0
+name,Mian Shoaib Street,1,0.011,0.0,0.0
+name,Mian Zahoor Elahi Road,1,0.011,0.0,0.0
+name,Mian sb st,1,0.011,0.0,0.0
+name,Miani,1,0.011,0.0,0.0
+name,Miani Forest,1,0.011,0.0,0.0
+name,Miani Kotli,1,0.011,0.0,0.0
+name,Mianwali Road,1,0.011,0.0,0.0
+name,Military Ground,1,0.011,0.0,0.0
+name,Minor Road,1,0.011,0.0,0.0
+name,Mir Hassan Road,1,0.011,0.0,0.0
+name,Mir Muzaffar Road,1,0.011,0.0,0.0
+name,Miran Ja Qubba,1,0.011,0.0,0.0
+name,Mirk Pur,1,0.011,0.0,0.0
+name,Mirowal,1,0.011,0.0,0.0
+name,Mirpur Khas Road,1,0.011,0.0,0.0
+name,Mirpur Mathelo,1,0.011,0.0,0.0
+name,Model Town Link Rd,1,0.011,0.0,0.0
+name,Model Town Road,1,0.011,0.0,0.0
+name,Moenjodaro H. R. area,1,0.011,0.0,0.0
+name,Mohammad Ali Street,1,0.011,0.0,0.0
+name,Mohammad Bibi Street,1,0.011,0.0,0.0
+name,Mohammad Street,1,0.011,0.0,0.0
+name,Mohammadi Restaurant,1,0.011,0.0,0.0
+name,Mohammed Hussain Street,1,0.011,0.0,0.0
+name,Mohanpur,1,0.011,0.0,0.0
+name,Mohar,1,0.011,0.0,0.0
+name,Moharan khad,1,0.011,0.0,0.0
+name,Mohri K,1,0.011,0.0,0.0
+name,Mominpura,1,0.011,0.0,0.0
+name,Mondir,1,0.011,0.0,0.0
+name,Mongna Wala,1,0.011,0.0,0.0
+name,Mosque,1,0.011,0.0,0.0
+name,Mowlvi Kareem Masjid,1,0.011,0.0,0.0
+name,Moza Jair,1,0.011,0.0,0.0
+name,Mubarak Shah Road,1,0.011,0.0,0.0
+name,Muddy Road,1,0.011,0.0,0.0
+name,Mufti Trading Company,1,0.011,0.0,0.0
+name,Muhammadi Masjid,1,0.011,0.0,0.0
+name,Muhammadi Wala,1,0.011,0.0,0.0
+name,Mujahid Town Street,1,0.011,0.0,0.0
+name,Mujahid Town Street 2,1,0.011,0.0,0.0
+name,Mula Buksh Achar,1,0.011,0.0,0.0
+name,Mungar,1,0.011,0.0,0.0
+name,Municipal Corporation Qasimabad,1,0.011,0.0,0.0
+name,Muradpur,1,0.011,0.0,0.0
+name,MuranWali,1,0.011,0.0,0.0
+name,Muridke Grammar School,1,0.011,0.0,0.0
+name,Muridke Medical Store,1,0.011,0.0,0.0
+name,Musaikywali,1,0.011,0.0,0.0
+name,Muslim Bazar Sialkot,1,0.011,0.0,0.0
+name,Muslim Masjid,1,0.011,0.0,0.0
+name,Muslim Road,1,0.011,0.0,0.0
+name,Mutam Shinwari,1,0.011,0.0,0.0
+name,NADRA Office Kamoki,1,0.011,0.0,0.0
+name,NADRA Registration Office,1,0.011,0.0,0.0
+name,NADRA Sreet,1,0.011,0.0,0.0
+name,Naara Jail,1,0.011,0.0,0.0
+name,Naharke,1,0.011,0.0,0.0
+name,Nai Wala,1,0.011,0.0,0.0
+name,Nai Wala Chatha,1,0.011,0.0,0.0
+name,Nalwah,1,0.011,0.0,0.0
+name,Nand Pur,1,0.011,0.0,0.0
+name,Nanga Dunna Singh,1,0.011,0.0,0.0
+name,Nangal Kaswala,1,0.011,0.0,0.0
+name,Nangal Waris Khan,1,0.011,0.0,0.0
+name,Nangli,1,0.011,0.0,0.0
+name,Nanglian,1,0.011,0.0,0.0
+name,Nangre Bhatti,1,0.011,0.0,0.0
+name,Nangre Kalan,1,0.011,0.0,0.0
+name,Nanuana,1,0.011,0.0,0.0
+name,Nanuana East,1,0.011,0.0,0.0
+name,Nanuana West,1,0.011,0.0,0.0
+name,Naqash Villas Phase I,1,0.011,0.0,0.0
+name,Narobagh Road,1,0.011,0.0,0.0
+name,Naroo and company,1,0.011,0.0,0.0
+name,Narowal Sports Complex,1,0.011,0.0,0.0
+name,Narowal Tehsil,1,0.011,0.0,0.0
+name,Narsirpur Distributary,1,0.011,0.0,0.0
+name,Nasir Khan Road,1,0.011,0.0,0.0
+name,Nassuke,1,0.011,0.0,0.0
+name,Nathokey,1,0.011,0.0,0.0
+name,National Bank of Pakistan,1,0.011,0.0,0.0
+name,National CNG,1,0.011,0.0,0.0
+name,National Mart,1,0.011,0.0,0.0
+name,Natt,1,0.011,0.0,0.0
+name,Nawab Road,1,0.011,0.0,0.0
+name,Nawab Zaiqa Resturant,1,0.011,0.0,0.0
+name,Nawan Kot Pheroki Chattha,1,0.011,0.0,0.0
+name,Nawan Pind,1,0.011,0.0,0.0
+name,Nawan Pind kot,1,0.011,0.0,0.0
+name,Nawan Shaher,1,0.011,0.0,0.0
+name,Nawan Shaher Road,1,0.011,0.0,0.0
+name,Nawaz Sharif Cricket Complex,1,0.011,0.0,0.0
+name,Nazam Abad,1,0.011,0.0,0.0
+name,Nazia Sultana Road,1,0.011,0.0,0.0
+name,Nehar Rd,1,0.011,0.0,0.0
+name,New Abadi,1,0.011,0.0,0.0
+name,New Administration Building,1,0.011,0.0,0.0
+name,New Apostolic,1,0.011,0.0,0.0
+name,New Batho,1,0.011,0.0,0.0
+name,New Bun Bajwa,1,0.011,0.0,0.0
+name,New Dheerowali,1,0.011,0.0,0.0
+name,New Mian Sahib,1,0.011,0.0,0.0
+name,New Pind Bridge,1,0.011,0.0,0.0
+name,New Pind Sukkur(Old Railway Depot),1,0.011,0.0,0.0
+name,NewPind Shell pump,1,0.011,0.0,0.0
+name,Nihalu Chak,1,0.011,0.0,0.0
+name,Nisbat Road,1,0.011,0.0,0.0
+name,Nitharke,1,0.011,0.0,0.0
+name,Niwan Chaura,1,0.011,0.0,0.0
+name,Nizamabad,1,0.011,0.0,0.0
+name,Nokarian,1,0.011,0.0,0.0
+name,Noman road,1,0.011,0.0,0.0
+name,Nomania Road,1,0.011,0.0,0.0
+name,Noor,1,0.011,0.0,0.0
+name,Noori CNG Station,1,0.011,0.0,0.0
+name,Noori Filling Station Byco,1,0.011,0.0,0.0
+name,Novex Dry Cleaners,1,0.011,0.0,0.0
+name,Nowshera Kakezai,1,0.011,0.0,0.0
+name,Nowshera Sansi Road,1,0.011,0.0,0.0
+name,Nowshera Virkhan Tehsil,1,0.011,0.0,0.0
+name,Nullah Bhed,1,0.011,0.0,0.0
+name,Nullah Laila,1,0.011,0.0,0.0
+name,Offices,1,0.011,0.0,0.0
+name,Old Bhabhrian Aala Mandir,1,0.011,0.0,0.0
+name,Old Gurdwara Sri Chakki Sahib,1,0.011,0.0,0.0
+name,Old Gurudwara Chaki Sahib,1,0.011,0.0,0.0
+name,Old Partap Mandir,1,0.011,0.0,0.0
+name,Old Samadhi,1,0.011,0.0,0.0
+name,Old Shivalaya,1,0.011,0.0,0.0
+name,Old Sikh Samadhi,1,0.011,0.0,0.0
+name,Old Temple,1,0.011,0.0,0.0
+name,PSO Filling Station,1,0.011,0.0,0.0
+name,PSO Fuelling Station,1,0.011,0.0,0.0
+name,PSO Pump,1,0.011,0.0,0.0
+name,PSO Pump Station,1,0.011,0.0,0.0
+name,PTCL Exchange,1,0.011,0.0,0.0
+name,Pabban Sharif,1,0.011,0.0,0.0
+name,Pahar Khan Jamali,1,0.011,0.0,0.0
+name,Paharpur Road,1,0.011,0.0,0.0
+name,Pakhiala Minor,1,0.011,0.0,0.0
+name,Pakistan Hotel,1,0.011,0.0,0.0
+name,Pakistan Medical Store,1,0.011,0.0,0.0
+name,Pakistan Military Airfield Rahwali,1,0.011,0.0,0.0
+name,Pakistan Post,1,0.011,0.0,0.0
+name,Pakistani Hotel,1,0.011,0.0,0.0
+name,Pakko Qilo,1,0.011,0.0,0.0
+name,Pandori,1,0.011,0.0,0.0
+name,Panga Restaurant,1,0.011,0.0,0.0
+name,Panjgarian,1,0.011,0.0,0.0
+name,Park Pond,1,0.011,0.0,0.0
+name,Parking Plaza Gujranwala,1,0.011,0.0,0.0
+name,Parukhsh,1,0.011,0.0,0.0
+name,Pasrur Bypass,1,0.011,0.0,0.0
+name,Passport Office Regional,1,0.011,0.0,0.0
+name,Pathan Colony Road,1,0.011,0.0,0.0
+name,Pathan Goth,1,0.011,0.0,0.0
+name,Payal Marriage Hall,1,0.011,0.0,0.0
+name,Peer Abdul Nabi Mazar,1,0.011,0.0,0.0
+name,Peer Chambay Wali Hanqah,1,0.011,0.0,0.0
+name,Peer Paryial Shan,1,0.011,0.0,0.0
+name,Peera Thatha,1,0.011,0.0,0.0
+name,Pejooke,1,0.011,0.0,0.0
+name,Phal and Sabz Mandi,1,0.011,0.0,0.0
+name,Pharma Plus,1,0.011,0.0,0.0
+name,Pharmagen Pharmacy,1,0.011,0.0,0.0
+name,Pheleli Canal,1,0.011,0.0,0.0
+name,Phito,1,0.011,0.0,0.0
+name,Phuleli (Gooni) canal,1,0.011,0.0,0.0
+name,Phuleli Canal,1,0.011,0.0,0.0
+name,Piara,1,0.011,0.0,0.0
+name,Pin,1,0.011,0.0,0.0
+name,Pindi Amolak,1,0.011,0.0,0.0
+name,Pindi Khokhar,1,0.011,0.0,0.0
+name,Pindori Dhunda,1,0.011,0.0,0.0
+name,Pinjan Wala,1,0.011,0.0,0.0
+name,Pipli Sahab,1,0.011,0.0,0.0
+name,Pir Jo Goth Sukkar Link Road,1,0.011,0.0,0.0
+name,Plot path,1,0.011,0.0,0.0
+name,Police Station Makli Thatta,1,0.011,0.0,0.0
+name,Police Station Naseem Nagar Choki,1,0.011,0.0,0.0
+name,Poola,1,0.011,0.0,0.0
+name,Pootanwala,1,0.011,0.0,0.0
+name,Post Office Pakistan,1,0.011,0.0,0.0
+name,Post Office Shahdara Bagh,1,0.011,0.0,0.0
+name,Postgraduate Students Hostel,1,0.011,0.0,0.0
+name,Prince Road,1,0.011,0.0,0.0
+name,Public Park Makli,1,0.011,0.0,0.0
+name,Pull Indus canal,1,0.011,0.0,0.0
+name,Punjab College of Commerce,1,0.011,0.0,0.0
+name,Punjab College of Science,1,0.011,0.0,0.0
+name,Punjab Frontier Truck Hotel,1,0.011,0.0,0.0
+name,Punjab Social Security,1,0.011,0.0,0.0
+name,Punjab Tikka,1,0.011,0.0,0.0
+name,QAIM KHANI CENTER,1,0.011,0.0,0.0
+name,Qadirpur Gas Plant,1,0.011,0.0,0.0
+name,Qadirpur-Ghotki Link Road,1,0.011,0.0,0.0
+name,Qasim Road,1,0.011,0.0,0.0
+name,Qasimabad Road Extension,1,0.011,0.0,0.0
+name,Qazi Ahmed By Bass Road,1,0.011,0.0,0.0
+name,Qeharwali,1,0.011,0.0,0.0
+name,Qila Khazana Branch,1,0.011,0.0,0.0
+name,Qila Natha Singh,1,0.011,0.0,0.0
+name,Qila Raogad,1,0.011,0.0,0.0
+name,Qila Tek Singh,1,0.011,0.0,0.0
+name,Quaid e Azam Divisional Public School & College,1,0.011,0.0,0.0
+name,RESCUE,1,0.011,0.0,0.0
+name,RK CNG Station,1,0.011,0.0,0.0
+name,Rachna Polo Ground,1,0.011,0.0,0.0
+name,Raheem Stret,1,0.011,0.0,0.0
+name,Rahim Chalgri,1,0.011,0.0,0.0
+name,Rahmat Abad,1,0.011,0.0,0.0
+name,Railway Area,1,0.011,0.0,0.0
+name,Railway Bypass,1,0.011,0.0,0.0
+name,Railway Carriage Factory,1,0.011,0.0,0.0
+name,Railway Rent A Car,1,0.011,0.0,0.0
+name,Railway Station Jampur,1,0.011,0.0,0.0
+name,Railway officers club park,1,0.011,0.0,0.0
+name,Raipur Road,1,0.011,0.0,0.0
+name,Rajadewali,1,0.011,0.0,0.0
+name,Rajbah Road Raja,1,0.011,0.0,0.0
+name,Rajian,1,0.011,0.0,0.0
+name,Rajian Araian,1,0.011,0.0,0.0
+name,Rajwal,1,0.011,0.0,0.0
+name,Rajwal Jagal,1,0.011,0.0,0.0
+name,Rakh Adhian,1,0.011,0.0,0.0
+name,Rakh Ghulaman Rd,1,0.011,0.0,0.0
+name,Rakhr,1,0.011,0.0,0.0
+name,Ramkay Sandhuan,1,0.011,0.0,0.0
+name,Ran,1,0.011,0.0,0.0
+name,Rana Education Complex,1,0.011,0.0,0.0
+name,Randhawa,1,0.011,0.0,0.0
+name,Rang,1,0.011,0.0,0.0
+name,Rangilian Wala,1,0.011,0.0,0.0
+name,Rangla,1,0.011,0.0,0.0
+name,Rango Chak,1,0.011,0.0,0.0
+name,Ranjan,1,0.011,0.0,0.0
+name,Ranjit Singh Haveli,1,0.011,0.0,0.0
+name,Rasool Pur,1,0.011,0.0,0.0
+name,Ratta Gujran,1,0.011,0.0,0.0
+name,Ratta Jathol,1,0.011,0.0,0.0
+name,Raul,1,0.011,0.0,0.0
+name,Ravi Autos,1,0.011,0.0,0.0
+name,Ravi CNG Station,1,0.011,0.0,0.0
+name,Ravi Truck Hotel,1,0.011,0.0,0.0
+name,Reborn Mensunco,1,0.011,0.0,0.0
+name,Reck Star Restaurant,1,0.011,0.0,0.0
+name,Rehan Colony,1,0.011,0.0,0.0
+name,Rescue 1122,1,0.011,0.0,0.0
+name,Rescue 1122 Sub-Station,1,0.011,0.0,0.0
+name,Resedntial road,1,0.011,0.0,0.0
+name,Riasat Pur,1,0.011,0.0,0.0
+name,Rind Petroleum Station,1,0.011,0.0,0.0
+name,Rohra,1,0.011,0.0,0.0
+name,Rosa,1,0.011,0.0,0.0
+name,Roshni CNG,1,0.011,0.0,0.0
+name,Royal City,1,0.011,0.0,0.0
+name,Royal Marriage Hall,1,0.011,0.0,0.0
+name,Rumal,1,0.011,0.0,0.0
+name,Rupawali,1,0.011,0.0,0.0
+name,Rushna Center,1,0.011,0.0,0.0
+name,Rustam Pur,1,0.011,0.0,0.0
+name,Rustam Road,1,0.011,0.0,0.0
+name,SABRI Battery Service,1,0.011,0.0,0.0
+name,SEO Mars,1,0.011,0.0,0.0
+name,SSGC Gas Plant,1,0.011,0.0,0.0
+name,SZAB Sports Complex,1,0.011,0.0,0.0
+name,Sabalpur,1,0.011,0.0,0.0
+name,Sabu Rahu,1,0.011,0.0,0.0
+name,Sabzi Mandi,1,0.011,0.0,0.0
+name,Sabzi Mandi Bypass,1,0.011,0.0,0.0
+name,Sabzi Mandi Police Station,1,0.011,0.0,0.0
+name,Sabzi Mandi Road,1,0.011,0.0,0.0
+name,Sachyari Shopping Center,1,0.011,0.0,0.0
+name,Sadanwali,1,0.011,0.0,0.0
+name,Sadda,1,0.011,0.0,0.0
+name,Saddar Police Station,1,0.011,0.0,0.0
+name,Sadharwali,1,0.011,0.0,0.0
+name,Sadiq Branch,1,0.011,0.0,0.0
+name,Sadiqabad Bypass,1,0.011,0.0,0.0
+name,Saeed Khan Brohi,1,0.011,0.0,0.0
+name,Safan Faqir Road,1,0.011,0.0,0.0
+name,Safina Foods,1,0.011,0.0,0.0
+name,Sagian Moti Fouji Rd,1,0.011,0.0,0.0
+name,Sahan Gill,1,0.011,0.0,0.0
+name,Said Nagri Bazaar,1,0.011,0.0,0.0
+name,Saidewali,1,0.011,0.0,0.0
+name,Saindad Kaleri,1,0.011,0.0,0.0
+name,Sair Bajway,1,0.011,0.0,0.0
+name,Saiyiduwali Road,1,0.011,0.0,0.0
+name,Sakrand Junction,1,0.011,0.0,0.0
+name,Sakrand-Nawabshah,1,0.011,0.0,0.0
+name,Salarwala Kalan,1,0.011,0.0,0.0
+name,Salimpur,1,0.011,0.0,0.0
+name,Salohpur,1,0.011,0.0,0.0
+name,Sambrial Tehsil,1,0.011,0.0,0.0
+name,Samtia Road,1,0.011,0.0,0.0
+name,Sangeet Banquet Hall,1,0.011,0.0,0.0
+name,Sann Gate,1,0.011,0.0,0.0
+name,Sarfaraz Incline,1,0.011,0.0,0.0
+name,Sarfaraz Road,1,0.011,0.0,0.0
+name,Sarobe,1,0.011,0.0,0.0
+name,Sarwaal,1,0.011,0.0,0.0
+name,Sarwar Road,1,0.011,0.0,0.0
+name,Sattoke,1,0.011,0.0,0.0
+name,Saudagarpur,1,0.011,0.0,0.0
+name,Sayakay,1,0.011,0.0,0.0
+name,Sayyed Street,1,0.011,0.0,0.0
+name,Secretariat Punjab Social Security Hospital,1,0.011,0.0,0.0
+name,Sehlowali,1,0.011,0.0,0.0
+name,Sehnian,1,0.011,0.0,0.0
+name,Service Shoes,1,0.011,0.0,0.0
+name,Servis Shoes,1,0.011,0.0,0.0
+name,Setarja Road,1,0.011,0.0,0.0
+name,Setharja,1,0.011,0.0,0.0
+name,Sewa CNG Station,1,0.011,0.0,0.0
+name,Shadiwal Road,1,0.011,0.0,0.0
+name,Shah Faisal Road,1,0.011,0.0,0.0
+name,Shah Jamal - Rohilnawala Road,1,0.011,0.0,0.0
+name,Shah Jamal Distributary,1,0.011,0.0,0.0
+name,Shah Mir Rahu,1,0.011,0.0,0.0
+name,"Shahab Zain Flour Mill, National Havy 5, Khan Bela",1,0.011,0.0,0.0
+name,Shahdara Police Station,1,0.011,0.0,0.0
+name,Shaheed Naulakhiya,1,0.011,0.0,0.0
+name,Shahjahan Mosque Garden,1,0.011,0.0,0.0
+name,Shahpur,1,0.011,0.0,0.0
+name,Shahwanda,1,0.011,0.0,0.0
+name,Shaikh Zaid Airport,1,0.011,0.0,0.0
+name,Shaikhani Minor,1,0.011,0.0,0.0
+name,Shakar Garh Bypass,1,0.011,0.0,0.0
+name,Shalimar Filling Station,1,0.011,0.0,0.0
+name,Shamirpur,1,0.011,0.0,0.0
+name,Shani Cold Corner,1,0.011,0.0,0.0
+name,Sharak Pur Tehsil,1,0.011,0.0,0.0
+name,Sharif Oxygen Pvt,1,0.011,0.0,0.0
+name,Sharik Pur,1,0.011,0.0,0.0
+name,Shatabgarh,1,0.011,0.0,0.0
+name,Shaukat Khanum Laboratory Collection Centre,1,0.011,0.0,0.0
+name,Shazab Street,1,0.011,0.0,0.0
+name,Sheesh Mahal,1,0.011,0.0,0.0
+name,Sheikh Zaed Children Hospital,1,0.011,0.0,0.0
+name,Sheikh Zaed Women Hospital,1,0.011,0.0,0.0
+name,Sheikhupura Bedad,1,0.011,0.0,0.0
+name,Shell,1,0.011,0.0,0.0
+name,Shell Fuel Station,1,0.011,0.0,0.0
+name,Shell Gas Station,1,0.011,0.0,0.0
+name,Shell Petrol Station,1,0.011,0.0,0.0
+name,Sher Muhammad Bhurgri,1,0.011,0.0,0.0
+name,Shikarpur Bypass,1,0.011,0.0,0.0
+name,Shine Institute of Management Studies,1,0.011,0.0,0.0
+name,Shrine of Sakhi Mahawali,1,0.011,0.0,0.0
+name,Shrine of Shaikh Bhirkio,1,0.011,0.0,0.0
+name,Shukar Ullah Mehar Road,1,0.011,0.0,0.0
+name,Sialkot,1,0.011,0.0,0.0
+name,Sialkot - Gondalpur Road,1,0.011,0.0,0.0
+name,Sialkot Export Processing Zone,1,0.011,0.0,0.0
+name,Sialkot Sweets & Bakers,1,0.011,0.0,0.0
+name,Sialkot To Kingra Road,1,0.011,0.0,0.0
+name,Siddique Sweets And Bakers,1,0.011,0.0,0.0
+name,Sidhariwal,1,0.011,0.0,0.0
+name,Sindh Cooperative Housing Society,1,0.011,0.0,0.0
+name,Sindh Gas,1,0.011,0.0,0.0
+name,Sindh Government Hospital,1,0.011,0.0,0.0
+name,Sindh Textbook Board,1,0.011,0.0,0.0
+name,Sindh University,1,0.011,0.0,0.0
+name,Sindhology Museum,1,0.011,0.0,0.0
+name,Siraj Center,1,0.011,0.0,0.0
+name,Siranwali,1,0.011,0.0,0.0
+name,Sirawan,1,0.011,0.0,0.0
+name,Six Stars Sports Apparel (PVT) LTD,1,0.011,0.0,0.0
+name,Soch Kalar,1,0.011,0.0,0.0
+name,Sodagar Pur,1,0.011,0.0,0.0
+name,Sohawa Dhilwan,1,0.011,0.0,0.0
+name,Solakhanabad,1,0.011,0.0,0.0
+name,Soodan,1,0.011,0.0,0.0
+name,Soomra / Koori,1,0.011,0.0,0.0
+name,Soomra / koori,1,0.011,0.0,0.0
+name,Soomra Shops,1,0.011,0.0,0.0
+name,Soomra shops,1,0.011,0.0,0.0
+name,St.Francis High School,1,0.011,0.0,0.0
+name,Stadium Road,1,0.011,0.0,0.0
+name,Star Ceramics,1,0.011,0.0,0.0
+name,Star Mart,1,0.011,0.0,0.0
+name,"Stars Group Of Colleges, Shahdara",1,0.011,0.0,0.0
+name,Street No. 4,1,0.011,0.0,0.0
+name,Subah Deen Street,1,0.011,0.0,0.0
+name,Sufi Saghir Street,1,0.011,0.0,0.0
+name,Sui Gas Road,1,0.011,0.0,0.0
+name,Sui Southern Gas Company Limited,1,0.011,0.0,0.0
+name,Sukhanwala,1,0.011,0.0,0.0
+name,Sukkur By pass,1,0.011,0.0,0.0
+name,Sukkur Jacobabad Highway Bypass NH 65,1,0.011,0.0,0.0
+name,Sukkur Township,1,0.011,0.0,0.0
+name,Suleman Roshan Medical College,1,0.011,0.0,0.0
+name,Suleman Street,1,0.011,0.0,0.0
+name,Sunday Bazaar,1,0.011,0.0,0.0
+name,Sunview Hotel,1,0.011,0.0,0.0
+name,Super CNG,1,0.011,0.0,0.0
+name,Superior College,1,0.011,0.0,0.0
+name,Surmedani,1,0.011,0.0,0.0
+name,Sweet Shop,1,0.011,0.0,0.0
+name,Syed Asif Hashmi Road,1,0.011,0.0,0.0
+name,Syed Murad Shah Mazaar,1,0.011,0.0,0.0
+name,Syedanwali East Road,1,0.011,0.0,0.0
+name,T.H.Q. Hospital,1,0.011,0.0,0.0
+name,TARKA Restaurant,1,0.011,0.0,0.0
+name,TDA Chowk,1,0.011,0.0,0.0
+name,THANDI SARAK,1,0.011,0.0,0.0
+name,TMA Park,1,0.011,0.0,0.0
+name,TUMI CREEK 01,1,0.011,0.0,0.0
+name,TUMI CREEK 02,1,0.011,0.0,0.0
+name,TUMI CREEK 03,1,0.011,0.0,0.0
+name,TUMI CREEK 04,1,0.011,0.0,0.0
+name,Tahir CNG Station,1,0.011,0.0,0.0
+name,Tahirabad,1,0.011,0.0,0.0
+name,Taial Distributary,1,0.011,0.0,0.0
+name,Tajpur,1,0.011,0.0,0.0
+name,Takhat Pur,1,0.011,0.0,0.0
+name,Talpur House,1,0.011,0.0,0.0
+name,Talwandi Bhindran,1,0.011,0.0,0.0
+name,Talwandi Inayat Khan,1,0.011,0.0,0.0
+name,Talwara Allajh Ditta,1,0.011,0.0,0.0
+name,Tambrah,1,0.011,0.0,0.0
+name,Tamir-a-Millat Road,1,0.011,0.0,0.0
+name,Tando Adam,1,0.011,0.0,0.0
+name,Tando Alam Oil Complex,1,0.011,0.0,0.0
+name,Tandorri Restaurant,1,0.011,0.0,0.0
+name,Tangri Oil Field,1,0.011,0.0,0.0
+name,Tank Road,1,0.011,0.0,0.0
+name,Tapiala Dost Muhammad,1,0.011,0.0,0.0
+name,Tareen Colony Street No.1,1,0.011,0.0,0.0
+name,Tari Khel Rd,1,0.011,0.0,0.0
+name,Tarigri Sharif,1,0.011,0.0,0.0
+name,Tarsikka,1,0.011,0.0,0.0
+name,Tashni,1,0.011,0.0,0.0
+name,Tasty Bites,1,0.011,0.0,0.0
+name,Tatlay,1,0.011,0.0,0.0
+name,Tauleki,1,0.011,0.0,0.0
+name,Taunsa Bar Association,1,0.011,0.0,0.0
+name,Tawarianwala,1,0.011,0.0,0.0
+name,Tayyab Bhuta,1,0.011,0.0,0.0
+name,Tayyaba Masjid,1,0.011,0.0,0.0
+name,Tayyaba Pharmacy,1,0.011,0.0,0.0
+name,TechnologyCell,1,0.011,0.0,0.0
+name,Telenor Franchise,1,0.011,0.0,0.0
+name,Thabul Morr,1,0.011,0.0,0.0
+name,Thali Road,1,0.011,0.0,0.0
+name,Thana Road,1,0.011,0.0,0.0
+name,Thatha Bohka,1,0.011,0.0,0.0
+name,Thatha Khudayar,1,0.011,0.0,0.0
+name,Thatha Markaz Satrah,1,0.011,0.0,0.0
+name,Thatha Rugwan,1,0.011,0.0,0.0
+name,Thatta Cement Depot,1,0.011,0.0,0.0
+name,Thatta Lakhi Kalan,1,0.011,0.0,0.0
+name,Thatta Lakhi Khurd,1,0.011,0.0,0.0
+name,Thatta Raghwala,1,0.011,0.0,0.0
+name,Thatta Rawan,1,0.011,0.0,0.0
+name,Thatta Umra,1,0.011,0.0,0.0
+name,Thatti Siatari,1,0.011,0.0,0.0
+name,The Bank of Punjab,1,0.011,0.0,0.0
+name,The Thistle Hotel & Banquet Hall,1,0.011,0.0,0.0
+name,Tibba Mirassian,1,0.011,0.0,0.0
+name,Tibbah Buchoki Par,1,0.011,0.0,0.0
+name,Tibbah Madhodaas,1,0.011,0.0,0.0
+name,Tikka,1,0.011,0.0,0.0
+name,Tillu Road,1,0.011,0.0,0.0
+name,Tippu Road,1,0.011,0.0,0.0
+name,Tomb of Diwan Sharfa Khan,1,0.011,0.0,0.0
+name,Tomb of Noor Jahan,1,0.011,0.0,0.0
+name,Tong Bucha,1,0.011,0.0,0.0
+name,Too Hot Too Spicy,1,0.011,0.0,0.0
+name,Toor Street,1,0.011,0.0,0.0
+name,Tootanwala,1,0.011,0.0,0.0
+name,Total Petrol pump,1,0.011,0.0,0.0
+name,Traoniyan Juttan,1,0.011,0.0,0.0
+name,Trunk Bazaar,1,0.011,0.0,0.0
+name,Tung,1,0.011,0.0,0.0
+name,Turkey MASJID,1,0.011,0.0,0.0
+name,Twin Lake Drive,1,0.011,0.0,0.0
+name,UBL Regional HQs,1,0.011,0.0,0.0
+name,UET Narowal,1,0.011,0.0,0.0
+name,Uch Power Plant,1,0.011,0.0,0.0
+name,Ucha Jajja,1,0.011,0.0,0.0
+name,Uddo Fattaha,1,0.011,0.0,0.0
+name,Uddo Kay,1,0.011,0.0,0.0
+name,Ufone Franchise,1,0.011,0.0,0.0
+name,Uggowala,1,0.011,0.0,0.0
+name,Ugo Chak,1,0.011,0.0,0.0
+name,Umer Deen Road,1,0.011,0.0,0.0
+name,Uncha Paharang,1,0.011,0.0,0.0
+name,United Bank,1,0.011,0.0,0.0
+name,United Service Filling Station,1,0.011,0.0,0.0
+name,University Car Parking,1,0.011,0.0,0.0
+name,University Point Depot,1,0.011,0.0,0.0
+name,University Road (North),1,0.011,0.0,0.0
+name,University of EAST,1,0.011,0.0,0.0
+name,University of Engineering and Technology UET Narowal Campus,1,0.011,0.0,0.0
+name,Usmania Restaurant,1,0.011,0.0,0.0
+name,VIP Apartments,1,0.011,0.0,0.0
+name,Vanike Distributary,1,0.011,0.0,0.0
+name,Vegetable Market Road,1,0.011,0.0,0.0
+name,Vigor CNG,1,0.011,0.0,0.0
+name,Vigor CNG Station,1,0.011,0.0,0.0
+name,Virtual University of Pakistan,1,0.011,0.0,0.0
+name,WANGHO CREEK,1,0.011,0.0,0.0
+name,WANGHO CREEK 01,1,0.011,0.0,0.0
+name,WAPDA Hospital,1,0.011,0.0,0.0
+name,Waghray,1,0.011,0.0,0.0
+name,Walana Road,1,0.011,0.0,0.0
+name,Wall of tomb complex (not an entrance),1,0.011,0.0,0.0
+name,Waloodabad-Sheedi Muhla-Main Bazar Rd,1,0.011,0.0,0.0
+name,Waqar Butt Street,1,0.011,0.0,0.0
+name,Waqas House,1,0.011,0.0,0.0
+name,Wario Rd,1,0.011,0.0,0.0
+name,Warpal Distributary,1,0.011,0.0,0.0
+name,Wasaya,1,0.011,0.0,0.0
+name,Wazirabad,1,0.011,0.0,0.0
+name,Wazirabad Bypass veroki road,1,0.011,0.0,0.0
+name,Wesleyan Church,1,0.011,0.0,0.0
+name,Western Union,1,0.011,0.0,0.0
+name,Wheat Resesarch Institute,1,0.011,0.0,0.0
+name,Wir Wala,1,0.011,0.0,0.0
+name,Worker Welfare School (Boys) Rana Town,1,0.011,0.0,0.0
+name,Working Women Development Organization (WWDO),1,0.011,0.0,0.0
+name,World Heritage Site of Makli Hills Monument,1,0.011,0.0,0.0
+name,Yaqoob Medical Store,1,0.011,0.0,0.0
+name,Yaqoub Street,1,0.011,0.0,0.0
+name,Zafar Ali Road,1,0.011,0.0,0.0
+name,Zafar Marriage Hall,1,0.011,0.0,0.0
+name,Zafarwal Road,1,0.011,0.0,0.0
+name,Zafarwal Tehsil,1,0.011,0.0,0.0
+name,Zaiqa Darbar Restaurant,1,0.011,0.0,0.0
+name,Zar Kot Road,1,0.011,0.0,0.0
+name,Zara Raza Street,1,0.011,0.0,0.0
+name,Zeshan Road,1,0.011,0.0,0.0
+name,Zong Franchise,1,0.011,0.0,0.0
+name,Zong Franchise Shahdara,1,0.011,0.0,0.0
+name,abudullah mall,1,0.011,0.0,0.0
+name,ali valley,1,0.011,0.0,0.0
+name,aliabad,1,0.011,0.0,0.0
+name,aliza road,1,0.011,0.0,0.0
+name,b1,1,0.011,0.0,0.0
+name,b2,1,0.011,0.0,0.0
+name,b3,1,0.011,0.0,0.0
+name,b4,1,0.011,0.0,0.0
+name,b5,1,0.011,0.0,0.0
+name,b9,1,0.011,0.0,0.0
+name,bana,1,0.011,0.0,0.0
+name,bop atm,1,0.011,0.0,0.0
+name,ch.house,1,0.011,0.0,0.0
+name,chand Marraige hall,1,0.011,0.0,0.0
+name,church,1,0.011,0.0,0.0
+name,college,1,0.011,0.0,0.0
+name,darbar mai da,1,0.011,0.0,0.0
+name,darbar path1,1,0.011,0.0,0.0
+name,factory,1,0.011,0.0,0.0
+name,fahad line,1,0.011,0.0,0.0
+name,farm,1,0.011,0.0,0.0
+name,gadam,1,0.011,0.0,0.0
+name,gol building,1,0.011,0.0,0.0
+name,govt boys school,1,0.011,0.0,0.0
+name,govt.boys.school,1,0.011,0.0,0.0
+name,grassland,1,0.011,0.0,0.0
+name,gujjar house,1,0.011,0.0,0.0
+name,gujjar house  8,1,0.011,0.0,0.0
+name,gujjar house 12,1,0.011,0.0,0.0
+name,hospital,1,0.011,0.0,0.0
+name,industry,1,0.011,0.0,0.0
+name,kalwa wali sarkar darbar,1,0.011,0.0,0.0
+name,kamoke,1,0.011,0.0,0.0
+name,khushi marriage hall,1,0.011,0.0,0.0
+name,kot bhugat,1,0.011,0.0,0.0
+name,kot bhugat 109 house,1,0.011,0.0,0.0
+name,kot buland ares,1,0.011,0.0,0.0
+name,kotli noonan area,1,0.011,0.0,0.0
+name,kotli noonan area 95 houses,1,0.011,0.0,0.0
+name,main path road ot kot buland,1,0.011,0.0,0.0
+name,main path road to kot buland,1,0.011,0.0,0.0
+name,mainpath,1,0.011,0.0,0.0
+name,mosque 2,1,0.011,0.0,0.0
+name,my site,1,0.011,0.0,0.0
+name,old Hindu Shamshan Ghat,1,0.011,0.0,0.0
+name,path ALi,1,0.011,0.0,0.0
+name,pump,1,0.011,0.0,0.0
+name,road kot bhugat,1,0.011,0.0,0.0
+name,s,1,0.011,0.0,0.0
+name,shaller,1,0.011,0.0,0.0
+name,site,1,0.011,0.0,0.0
+name,street 1,1,0.011,0.0,0.0
+name,sulman path,1,0.011,0.0,0.0
+name,sweet shop,1,0.011,0.0,0.0
+name,tertiary road,1,0.011,0.0,0.0
+name,to Sports Complex,1,0.011,0.0,0.0
+name,tree,1,0.011,0.0,0.0
+name,union council khanqa,1,0.011,0.0,0.0
+name,urban area,1,0.011,0.0,0.0
+name,village,1,0.011,0.0,0.0
+name,آدمکے چیمہ,1,0.011,0.0,0.0
+name,آدوکے کلاں,1,0.011,0.0,0.0
+name,آدھیاں,1,0.011,0.0,0.0
+name,آر ڈی بی,1,0.011,0.0,0.0
+name,آمنہ عنایت میڈیکل کالج,1,0.011,0.0,0.0
+name,آمیاں,1,0.011,0.0,0.0
+name,آڑہ,1,0.011,0.0,0.0
+name,آگریاں,1,0.011,0.0,0.0
+name,اجتکے چھٹہ,1,0.011,0.0,0.0
+name,احمد والا,1,0.011,0.0,0.0
+name,احمد پور,1,0.011,0.0,0.0
+name,اخلاص پور روڈ,1,0.011,0.0,0.0
+name,ادوکی,1,0.011,0.0,0.0
+name,ادھوداتہ,1,0.011,0.0,0.0
+name,ادھووالی,1,0.011,0.0,0.0
+name,اسرا,1,0.011,0.0,0.0
+name,اسلام آباد محلہ,1,0.011,0.0,0.0
+name,اسلام گڑھ,1,0.011,0.0,0.0
+name,اسلامیہ پارک,1,0.011,0.0,0.0
+name,اسٹریٹ 1,1,0.011,0.0,0.0
+name,اسٹریٹ 27,1,0.011,0.0,0.0
+name,اسٹریٹ 28,1,0.011,0.0,0.0
+name,اسٹریٹ 31,1,0.011,0.0,0.0
+name,اسٹریٹ 32,1,0.011,0.0,0.0
+name,اسٹریٹ 33,1,0.011,0.0,0.0
+name,اسٹریٹ 34,1,0.011,0.0,0.0
+name,اسٹریٹ 36,1,0.011,0.0,0.0
+name,اسٹریٹ 39,1,0.011,0.0,0.0
+name,اسٹریٹ 5,1,0.011,0.0,0.0
+name,اشتیاق فلنگ اسٹیشن,1,0.011,0.0,0.0
+name,اشرف ہنجرا والی گلی,1,0.011,0.0,0.0
+name,اصغر کالونی,1,0.011,0.0,0.0
+name,اظہار کنکریٹ پرائیوٹ لمیٹڈ,1,0.011,0.0,0.0
+name,اعوان مسلم,1,0.011,0.0,0.0
+name,اعوان مسلم روڈ,1,0.011,0.0,0.0
+name,افتخار نگر چیمہ,1,0.011,0.0,0.0
+name,اقبال پارک,1,0.011,0.0,0.0
+name,الائیڈ بینک لمیٹڈ,1,0.011,0.0,0.0
+name,البرکہ بینک,1,0.011,0.0,0.0
+name,الحمرا روڈ,1,0.011,0.0,0.0
+name,الرحیم ہوٹل,1,0.011,0.0,0.0
+name,اللہ آباد,1,0.011,0.0,0.0
+name,المجیب ٹاؤن,1,0.011,0.0,0.0
+name,الو شاہ دیو,1,0.011,0.0,0.0
+name,الوکے,1,0.011,0.0,0.0
+name,الہڑ,1,0.011,0.0,0.0
+name,امان گڑھ,1,0.011,0.0,0.0
+name,اندرون شہر,1,0.011,0.0,0.0
+name,اونچا پنڈ,1,0.011,0.0,0.0
+name,اونچا کلاں,1,0.011,0.0,0.0
+name,ايوب کنڈرا چوک,1,0.011,0.0,0.0
+name,اڈہ بیگووالا,1,0.011,0.0,0.0
+name,اڏيرو لعل,1,0.011,0.0,0.0
+name,اڑتالہ,1,0.011,0.0,0.0
+name,اکبر پورہ,1,0.011,0.0,0.0
+name,اکبریاں ورکاں,1,0.011,0.0,0.0
+name,اگو چک,1,0.011,0.0,0.0
+name,ایمان مارکی,1,0.011,0.0,0.0
+name,این آئی بی بینک,1,0.011,0.0,0.0
+name,بابا لاہری پیر,1,0.011,0.0,0.0
+name,باجوہ کالونی,1,0.011,0.0,0.0
+name,بازار روڈ,1,0.011,0.0,0.0
+name,باغ یار والا,1,0.011,0.0,0.0
+name,باغیچی والی,1,0.011,0.0,0.0
+name,باقر خان نظاماني,1,0.011,0.0,0.0
+name,باٹا,1,0.011,0.0,0.0
+name,باہیوال,1,0.011,0.0,0.0
+name,بخشو لغاری,1,0.011,0.0,0.0
+name,بخشیش پورہ,1,0.011,0.0,0.0
+name,بدوکی,1,0.011,0.0,0.0
+name,بدوکی سیکھواں,1,0.011,0.0,0.0
+name,بدوکی گوسائیاں,1,0.011,0.0,0.0
+name,بدھو شریف,1,0.011,0.0,0.0
+name,برام  چک,1,0.011,0.0,0.0
+name,برھانے والا,1,0.011,0.0,0.0
+name,برین وے کمپیوٹر,1,0.011,0.0,0.0
+name,بس اسٹینڈ روڈ,1,0.011,0.0,0.0
+name,بستی عبدلغفور میو,1,0.011,0.0,0.0
+name,بستی علی اکبر,1,0.011,0.0,0.0
+name,بسراء,1,0.011,0.0,0.0
+name,بسنتر ندی,1,0.011,0.0,0.0
+name,بلال پور,1,0.011,0.0,0.0
+name,بلگن,1,0.011,0.0,0.0
+name,بمبوہ,1,0.011,0.0,0.0
+name,بن باجوہ,1,0.011,0.0,0.0
+name,بنا,1,0.011,0.0,0.0
+name,بنسی نگر,1,0.011,0.0,0.0
+name,بنکے چیمہ,1,0.011,0.0,0.0
+name,بنگلہ,1,0.011,0.0,0.0
+name,بوتالہ سردار جھنڈا سنگھ,1,0.011,0.0,0.0
+name,بوریاںوالہ,1,0.011,0.0,0.0
+name,بوچھہ چٹھہ,1,0.011,0.0,0.0
+name,بينک الحبيب,1,0.011,0.0,0.0
+name,بُھلّےاندرون,1,0.011,0.0,0.0
+name,بٹالہ شرم سنگھ,1,0.011,0.0,0.0
+name,بٹر ڈوگراں,1,0.011,0.0,0.0
+name,بڈھا ڈھولہ,1,0.011,0.0,0.0
+name,بڈھا گورایہ,1,0.011,0.0,0.0
+name,بڈھنکے,1,0.011,0.0,0.0
+name,بڑا قبرستان,1,0.011,0.0,0.0
+name,بگا,1,0.011,0.0,0.0
+name,بگھا شریف,1,0.011,0.0,0.0
+name,بھائیاں والا خورد,1,0.011,0.0,0.0
+name,بھاول زئونر,1,0.011,0.0,0.0
+name,بھاکرانوالی,1,0.011,0.0,0.0
+name,بھاگوت,1,0.011,0.0,0.0
+name,بھاگووال,1,0.011,0.0,0.0
+name,بھاگے دا کوٹ,1,0.011,0.0,0.0
+name,بھروکے,1,0.011,0.0,0.0
+name,بھلر,1,0.011,0.0,0.0
+name,بھمونوالی,1,0.011,0.0,0.0
+name,بھولیر باجوہ,1,0.011,0.0,0.0
+name,بھولے شاہ,1,0.011,0.0,0.0
+name,بھوماں باٹھ,1,0.011,0.0,0.0
+name,بھون خورد,1,0.011,0.0,0.0
+name,بھون کلاں,1,0.011,0.0,0.0
+name,بھونانوالی,1,0.011,0.0,0.0
+name,بھونگ,1,0.011,0.0,0.0
+name,بھوپالوالہ,1,0.011,0.0,0.0
+name,بھٹی بھنگو,1,0.011,0.0,0.0
+name,بھٹی منصور,1,0.011,0.0,0.0
+name,بھٹی والا,1,0.011,0.0,0.0
+name,بھٹیاں والہ,1,0.011,0.0,0.0
+name,بھچو کی پار,1,0.011,0.0,0.0
+name,بھڑی شاہ رحمن,1,0.011,0.0,0.0
+name,بھکڑیوالی,1,0.011,0.0,0.0
+name,بھگل,1,0.011,0.0,0.0
+name,بھگل شرقی,1,0.011,0.0,0.0
+name,بھگوتی پور,1,0.011,0.0,0.0
+name,بھیلوکی,1,0.011,0.0,0.0
+name,بھینڈو شریف,1,0.011,0.0,0.0
+name,بہاری پور,1,0.011,0.0,0.0
+name,بیرانی,1,0.011,0.0,0.0
+name,بیسک ہیلتھ یونٹ ولیج قائم ببر,1,0.011,0.0,0.0
+name,بیگاری سندھ فیڈر کینال,1,0.011,0.0,0.0
+name,تاج پور,1,0.011,0.0,0.0
+name,تاجوکے چیمہ,1,0.011,0.0,0.0
+name,تارڑ,1,0.011,0.0,0.0
+name,تاری والا,1,0.011,0.0,0.0
+name,تتلے عالی,1,0.011,0.0,0.0
+name,تجمل ہنجرا جج  اور   وڑائچاں والا گلہ,1,0.011,0.0,0.0
+name,تراب علي نظامانی گوٹھ,1,0.011,0.0,0.0
+name,ترگا رومال,1,0.011,0.0,0.0
+name,تریڈیوالی,1,0.011,0.0,0.0
+name,تلونڈی بھنڈراں,1,0.011,0.0,0.0
+name,تلونڈی کلاں,1,0.011,0.0,0.0
+name,تمبولی,1,0.011,0.0,0.0
+name,تنویر ٹاؤن,1,0.011,0.0,0.0
+name,توریا,1,0.011,0.0,0.0
+name,تونسه شريف,1,0.011,0.0,0.0
+name,تپھنالہ,1,0.011,0.0,0.0
+name,تھوئیاں,1,0.011,0.0,0.0
+name,تھکرکے وڑائچ,1,0.011,0.0,0.0
+name,تھیڑی گلاں,1,0.011,0.0,0.0
+name,تیترپور روڈ,1,0.011,0.0,0.0
+name,جاز وارد بزنس سنٹر,1,0.011,0.0,0.0
+name,جالپھانوالی,1,0.011,0.0,0.0
+name,جام نواز علی,1,0.011,0.0,0.0
+name,جام پور,1,0.011,0.0,0.0
+name,جامع مسجد,1,0.011,0.0,0.0
+name,جامع مسجد غوثیہ رضویہ,1,0.011,0.0,0.0
+name,جامعہ الامیر,1,0.011,0.0,0.0
+name,جامعہ مسجد,1,0.011,0.0,0.0
+name,جامعہ مسجد نورانی شریف,1,0.011,0.0,0.0
+name,جامکے چٹھہ,1,0.011,0.0,0.0
+name,جامکے چیمہ,1,0.011,0.0,0.0
+name,جان محمد بروہی,1,0.011,0.0,0.0
+name,جانیوالی,1,0.011,0.0,0.0
+name,جاوید موچی والی گلی,1,0.011,0.0,0.0
+name,جاگو والا,1,0.011,0.0,0.0
+name,جبال,1,0.011,0.0,0.0
+name,جبّوکے,1,0.011,0.0,0.0
+name,جتوئ‎,1,0.011,0.0,0.0
+name,ججوکے,1,0.011,0.0,0.0
+name,ججے,1,0.011,0.0,0.0
+name,جسڑ,1,0.011,0.0,0.0
+name,جلالانی,1,0.011,0.0,0.0
+name,جلالپور بھٹیاں,1,0.011,0.0,0.0
+name,جلووالی,1,0.011,0.0,0.0
+name,جمال پور,1,0.011,0.0,0.0
+name,جموں ڈيرہ,1,0.011,0.0,0.0
+name,جناح باغ,1,0.011,0.0,0.0
+name,جندران شریف,1,0.011,0.0,0.0
+name,جنواں,1,0.011,0.0,0.0
+name,جنڈیالہ باغوالا,1,0.011,0.0,0.0
+name,جواہر پور,1,0.011,0.0,0.0
+name,جوریاں روڑ,1,0.011,0.0,0.0
+name,جھارانوالہ,1,0.011,0.0,0.0
+name,جھام والا,1,0.011,0.0,0.0
+name,جھلن,1,0.011,0.0,0.0
+name,جھن موری,1,0.011,0.0,0.0
+name,جھنڈے والا,1,0.011,0.0,0.0
+name,جھنگ برانچ نہر,1,0.011,0.0,0.0
+name,جھنگی,1,0.011,0.0,0.0
+name,جہانگیر کوٹ,1,0.011,0.0,0.0
+name,جہانیاں,1,0.011,0.0,0.0
+name,جیدکے,1,0.011,0.0,0.0
+name,جیون بھنڈر,1,0.011,0.0,0.0
+name,جیون پورہ,1,0.011,0.0,0.0
+name,جیونوالی,1,0.011,0.0,0.0
+name,جیٹھیکے,1,0.011,0.0,0.0
+name,حاجي اسماعيل نظامانی گوٹھ,1,0.011,0.0,0.0
+name,حاجي پليو کوسو,1,0.011,0.0,0.0
+name,حاجی کمن نظامانی,1,0.011,0.0,0.0
+name,حاجی کیریو,1,0.011,0.0,0.0
+name,حبیب پور,1,0.011,0.0,0.0
+name,حبیبہ بیوٹی سیلون,1,0.011,0.0,0.0
+name,حسن کٹھوڑ,1,0.011,0.0,0.0
+name,حسین پور,1,0.011,0.0,0.0
+name,حميد پورہ,1,0.011,0.0,0.0
+name,حکيم عبدل علی نظامانی گوٹھ,1,0.011,0.0,0.0
+name,حکیم والا,1,0.011,0.0,0.0
+name,حکیم پیر حاجن شاہ,1,0.011,0.0,0.0
+name,حیات پور,1,0.011,0.0,0.0
+name,حیدر جروار,1,0.011,0.0,0.0
+name,حیدرآباد ریلوے اسٹیشن,1,0.011,0.0,0.0
+name,خاص پورہ,1,0.011,0.0,0.0
+name,خان پور,1,0.011,0.0,0.0
+name,خانووال,1,0.011,0.0,0.0
+name,خانہ میانوالی,1,0.011,0.0,0.0
+name,خداداد شہانی,1,0.011,0.0,0.0
+name,خيرپُور‎,1,0.011,0.0,0.0
+name,داؤد,1,0.011,0.0,0.0
+name,داجل بائی پاس,1,0.011,0.0,0.0
+name,دادو,1,0.011,0.0,0.0
+name,دادو والی,1,0.011,0.0,0.0
+name,داراپور,1,0.011,0.0,0.0
+name,درازا شریف,1,0.011,0.0,0.0
+name,درازا شریف روڈ,1,0.011,0.0,0.0
+name,دربار میراں پاک نارنگ,1,0.011,0.0,0.0
+name,درجات,1,0.011,0.0,0.0
+name,درویشکے,1,0.011,0.0,0.0
+name,درگاہی والا,1,0.011,0.0,0.0
+name,دریا بیگ مری,1,0.011,0.0,0.0
+name,دریا خان سولنگی,1,0.011,0.0,0.0
+name,دلاور چیمہ,1,0.011,0.0,0.0
+name,دمکيو ڈاہری,1,0.011,0.0,0.0
+name,دولت آباد,1,0.011,0.0,0.0
+name,دولت پور,1,0.011,0.0,0.0
+name,دونی,1,0.011,0.0,0.0
+name,دوڙ,1,0.011,0.0,0.0
+name,دھارووال کنگ,1,0.011,0.0,0.0
+name,دھامونکے درویشکے,1,0.011,0.0,0.0
+name,دھاپئی,1,0.011,0.0,0.0
+name,دھرم کوٹ چوک,1,0.011,0.0,0.0
+name,دھروڑ مسلم,1,0.011,0.0,0.0
+name,دھرگ میانہ,1,0.011,0.0,0.0
+name,دھول,1,0.011,0.0,0.0
+name,دھینسر,1,0.011,0.0,0.0
+name,دھینسر پائیں,1,0.011,0.0,0.0
+name,دھیڑورکاں,1,0.011,0.0,0.0
+name,دہمتھل,1,0.011,0.0,0.0
+name,دیپوکے,1,0.011,0.0,0.0
+name,ذوالفقار پارک,1,0.011,0.0,0.0
+name,رائل فٹنس جم لاڑکانہ,1,0.011,0.0,0.0
+name,راجن پور,1,0.011,0.0,0.0
+name,راجو نظاماڻي,1,0.011,0.0,0.0
+name,راجومرل,1,0.011,0.0,0.0
+name,راجہ,1,0.011,0.0,0.0
+name,راجہ بھلہ,1,0.011,0.0,0.0
+name,راجہ گھمناں,1,0.011,0.0,0.0
+name,رام گڑھ,1,0.011,0.0,0.0
+name,رامپورہ,1,0.011,0.0,0.0
+name,رانیوال,1,0.011,0.0,0.0
+name,راڌڻ,1,0.011,0.0,0.0
+name,راکھ نورے والا,1,0.011,0.0,0.0
+name,رتہ دھوتھراں,1,0.011,0.0,0.0
+name,رتہ گورایہ,1,0.011,0.0,0.0
+name,رتیاں خورشید,1,0.011,0.0,0.0
+name,رجب چک,1,0.011,0.0,0.0
+name,رحمان سٹی فیز 6,1,0.011,0.0,0.0
+name,رحیم پور,1,0.011,0.0,0.0
+name,رحیم یار خان - صادق آباد سڑک,1,0.011,0.0,0.0
+name,رحیم یار خان ریلوے اسٹیشن,1,0.011,0.0,0.0
+name,رسول پور,1,0.011,0.0,0.0
+name,رسولپور,1,0.011,0.0,0.0
+name,رضي الله عنہ,1,0.011,0.0,0.0
+name,رندھیر موڑ,1,0.011,0.0,0.0
+name,رندھیرباگڑیاں,1,0.011,0.0,0.0
+name,رنسی والی,1,0.011,0.0,0.0
+name,رنگانولہ,1,0.011,0.0,0.0
+name,رنگیاں جھنگیاں,1,0.011,0.0,0.0
+name,رومال,1,0.011,0.0,0.0
+name,روہیلہ,1,0.011,0.0,0.0
+name,رڈالہ,1,0.011,0.0,0.0
+name,رکن پور,1,0.011,0.0,0.0
+name,رکھ بھروکے,1,0.011,0.0,0.0
+name,رکھ جیون,1,0.011,0.0,0.0
+name,ریحانولہ,1,0.011,0.0,0.0
+name,ریلوے کالونی,1,0.011,0.0,0.0
+name,ریلوے گلی,1,0.011,0.0,0.0
+name,زیدی قصبہ,1,0.011,0.0,0.0
+name,سادھاں والی,1,0.011,0.0,0.0
+name,سادھو کی,1,0.011,0.0,0.0
+name,سادھوکے,1,0.011,0.0,0.0
+name,سارنکے,1,0.011,0.0,0.0
+name,سامولانہ,1,0.011,0.0,0.0
+name,ساگر خورد,1,0.011,0.0,0.0
+name,ساگر کلاں,1,0.011,0.0,0.0
+name,ساگو باگو,1,0.011,0.0,0.0
+name,ساہنکے,1,0.011,0.0,0.0
+name,ساہووالہ,1,0.011,0.0,0.0
+name,سب وے,1,0.011,0.0,0.0
+name,ستار والا,1,0.011,0.0,0.0
+name,سجانہ,1,0.011,0.0,0.0
+name,سخی سرور,1,0.011,0.0,0.0
+name,سدھ,1,0.011,0.0,0.0
+name,سرکاری ہائی اسکول 1,1,0.011,0.0,0.0
+name,سعید آباد,1,0.011,0.0,0.0
+name,سعید نگر,1,0.011,0.0,0.0
+name,سكر,1,0.011,0.0,0.0
+name,سلطان پور,1,0.011,0.0,0.0
+name,سلور اسٹار روڈ,1,0.011,0.0,0.0
+name,سمادھی راجہ مہان سنگھ سُکرچکیہ,1,0.011,0.0,0.0
+name,سمبڑیال,1,0.011,0.0,0.0
+name,سناواں,1,0.011,0.0,0.0
+name,سندرانہ,1,0.011,0.0,0.0
+name,سندھ بلوچستان ہوٹل,1,0.011,0.0,0.0
+name,سندھانوالہ,1,0.011,0.0,0.0
+name,سنگووالی,1,0.011,0.0,0.0
+name,سورج,1,0.011,0.0,0.0
+name,سول لائنز,1,0.011,0.0,0.0
+name,سون نالہ روڈ,1,0.011,0.0,0.0
+name,سوہدریکی,1,0.011,0.0,0.0
+name,سوہل کلاں,1,0.011,0.0,0.0
+name,سوے والی سڑک,1,0.011,0.0,0.0
+name,سيري شگر ملز,1,0.011,0.0,0.0
+name,سيرِي,1,0.011,0.0,0.0
+name,سٹی ریلوے اسٹیشن سیالکوٹ,1,0.011,0.0,0.0
+name,سٹی پارک,1,0.011,0.0,0.0
+name,سٹی پلازہ موبائل مارکیٹ جام پور,1,0.011,0.0,0.0
+name,سکرنڈ,1,0.011,0.0,0.0
+name,سکرنڈ شوگر ملز لمیٹڈ,1,0.011,0.0,0.0
+name,سکنررپور,1,0.011,0.0,0.0
+name,سکھانہ باجوہ,1,0.011,0.0,0.0
+name,سکھر نہر,1,0.011,0.0,0.0
+name,سکھوچک روڈ,1,0.011,0.0,0.0
+name,سہارن چٹھہ,1,0.011,0.0,0.0
+name,سہجووال,1,0.011,0.0,0.0
+name,سہنسراں گورایاں,1,0.011,0.0,0.0
+name,سیالکوٹ قلعہ,1,0.011,0.0,0.0
+name,سیالکوٹی گیٹ,1,0.011,0.0,0.0
+name,سیان,1,0.011,0.0,0.0
+name,سیخماں,1,0.011,0.0,0.0
+name,سید پور ہنجلی,1,0.011,0.0,0.0
+name,سیداں والی,1,0.011,0.0,0.0
+name,سیوکے,1,0.011,0.0,0.0
+name,سیٹلائٹ ٹاؤن,1,0.011,0.0,0.0
+name,سیہون,1,0.011,0.0,0.0
+name,سیہون شریف ہوائی اڈا,1,0.011,0.0,0.0
+name,شاه پور,1,0.011,0.0,0.0
+name,شاہ پور رضوی,1,0.011,0.0,0.0
+name,شاہد اسپرے مرکز,1,0.011,0.0,0.0
+name,شاہین آباد,1,0.011,0.0,0.0
+name,شرقپور,1,0.011,0.0,0.0
+name,شرقپور انٹرچینج,1,0.011,0.0,0.0
+name,شمسا,1,0.011,0.0,0.0
+name,شکارپور,1,0.011,0.0,0.0
+name,شکرگڑھ,1,0.011,0.0,0.0
+name,شہید بینظیر پل,1,0.011,0.0,0.0
+name,شیخ اسٹریٹ,1,0.011,0.0,0.0
+name,شیر محمد ہنجرا والا گلہ,1,0.011,0.0,0.0
+name,شیر پور,1,0.011,0.0,0.0
+name,شیرانوالا بارہ دری,1,0.011,0.0,0.0
+name,صابو سرائی,1,0.011,0.0,0.0
+name,صادق آباد,1,0.011,0.0,0.0
+name,صدیق کالونی,1,0.011,0.0,0.0
+name,صغرا مسجد,1,0.011,0.0,0.0
+name,صغیر شہید پارک,1,0.011,0.0,0.0
+name,طور فلنگ اسٹیشن,1,0.011,0.0,0.0
+name,طوطڑه,1,0.011,0.0,0.0
+name,ظاہر پیر,1,0.011,0.0,0.0
+name,عائشہ بی بی پارک,1,0.011,0.0,0.0
+name,عارف کھٹیان,1,0.011,0.0,0.0
+name,عباسیہ ٹاؤن,1,0.011,0.0,0.0
+name,عبدالله خان نظامانی گوٹھ,1,0.011,0.0,0.0
+name,عبدﷲ پور,1,0.011,0.0,0.0
+name,عثمانیہ ریستوران,1,0.011,0.0,0.0
+name,عزیز چک,1,0.011,0.0,0.0
+name,علی آباد,1,0.011,0.0,0.0
+name,علی پور آرائیاں,1,0.011,0.0,0.0
+name,علی کوٹ,1,0.011,0.0,0.0
+name,عمرکے,1,0.011,0.0,0.0
+name,عنه,1,0.011,0.0,0.0
+name,عُمر دی جھگی,1,0.011,0.0,0.0
+name,عہدی پور,1,0.011,0.0,0.0
+name,عیسن,1,0.011,0.0,0.0
+name,غآزی پور,1,0.011,0.0,0.0
+name,غازی چک,1,0.011,0.0,0.0
+name,غریب آباد,1,0.011,0.0,0.0
+name,غلام حسین لنڈ بلوچ,1,0.011,0.0,0.0
+name,غوریاں مغلاں,1,0.011,0.0,0.0
+name,غوطہ فتح گڑھ,1,0.011,0.0,0.0
+name,فاران شگر مِلز,1,0.011,0.0,0.0
+name,فتح والی,1,0.011,0.0,0.0
+name,فتح کی,1,0.011,0.0,0.0
+name,فتووالا,1,0.011,0.0,0.0
+name,فتوہل زرداری,1,0.011,0.0,0.0
+name,فضل کیریو,1,0.011,0.0,0.0
+name,فقیر کھٹیان,1,0.011,0.0,0.0
+name,فیروزپور,1,0.011,0.0,0.0
+name,فیض پور انٹرچینج,1,0.011,0.0,0.0
+name,فیضانِ مدینہ مسجد,1,0.011,0.0,0.0
+name,قادر بخش سولنگی گوٹھ,1,0.011,0.0,0.0
+name,قادرپورہ,1,0.011,0.0,0.0
+name,قاسم آباد,1,0.011,0.0,0.0
+name,قاسم پور,1,0.011,0.0,0.0
+name,قاضي جو گوٹھ,1,0.011,0.0,0.0
+name,قاضی پہاڑنگ,1,0.011,0.0,0.0
+name,قاضی کوٹ,1,0.011,0.0,0.0
+name,قبرستان,1,0.011,0.0,0.0
+name,قریشیاں والا,1,0.011,0.0,0.0
+name,قلاہ,1,0.011,0.0,0.0
+name,قلعہ,1,0.011,0.0,0.0
+name,قلعہ تیک سنگھ,1,0.011,0.0,0.0
+name,قلعہ خزانہ,1,0.011,0.0,0.0
+name,قلعہ دیوان سنگھ,1,0.011,0.0,0.0
+name,قلعہ قمر سنگھ,1,0.011,0.0,0.0
+name,قلعہ لال سنگھ,1,0.011,0.0,0.0
+name,قلعہ مالا سنگھ,1,0.011,0.0,0.0
+name,قلعہ مان سنگھ,1,0.011,0.0,0.0
+name,قلعہ مجا سنگھ,1,0.011,0.0,0.0
+name,قلعہ نوہد سنگھ,1,0.011,0.0,0.0
+name,قومی آٹوموٹو اجزاء,1,0.011,0.0,0.0
+name,كوٹ چهُٹّہ‎,1,0.011,0.0,0.0
+name,لادوے,1,0.011,0.0,0.0
+name,لالیاں,1,0.011,0.0,0.0
+name,لالیاں والا,1,0.011,0.0,0.0
+name,لاڑکانہ,1,0.011,0.0,0.0
+name,لاہوریاںوالی,1,0.011,0.0,0.0
+name,لجہ شریف,1,0.011,0.0,0.0
+name,لدھر,1,0.011,0.0,0.0
+name,لدھونوالہ,1,0.011,0.0,0.0
+name,لدھونوالہ وڑائچ,1,0.011,0.0,0.0
+name,لدھڑ,1,0.011,0.0,0.0
+name,لدھےوالا چیمہ,1,0.011,0.0,0.0
+name,لطِيف آباد,1,0.011,0.0,0.0
+name,لمبرے,1,0.011,0.0,0.0
+name,لنگیاں والی,1,0.011,0.0,0.0
+name,لودھی دور کی مسجد,1,0.011,0.0,0.0
+name,لودھیکے,1,0.011,0.0,0.0
+name,لونکے,1,0.011,0.0,0.0
+name,لوویرے,1,0.011,0.0,0.0
+name,لوویرے خورد,1,0.011,0.0,0.0
+name,لوہارہ,1,0.011,0.0,0.0
+name,ليّہ,1,0.011,0.0,0.0
+name,لیور اسٹیٹ,1,0.011,0.0,0.0
+name,لیڈیز جیل,1,0.011,0.0,0.0
+name,ماجرہ خورد,1,0.011,0.0,0.0
+name,ماجرہ کلاں,1,0.011,0.0,0.0
+name,مادھو خلیل,1,0.011,0.0,0.0
+name,مار فلپس چرچ,1,0.011,0.0,0.0
+name,ماری خورد,1,0.011,0.0,0.0
+name,ماری چوڑا,1,0.011,0.0,0.0
+name,ماری کلاں,1,0.011,0.0,0.0
+name,ماسٹر  ظفراللہ ہنجرا والا گلہ,1,0.011,0.0,0.0
+name,ماسٹر ظفراللہ ہنجرا والا گلہ,1,0.011,0.0,0.0
+name,ماسٹر محمد حسین ہنجرا والی سڑک,1,0.011,0.0,0.0
+name,ماسٹر محمد حسین ہنجرا والی گلی,1,0.011,0.0,0.0
+name,ماسٹر ناصر والا گلہ,1,0.011,0.0,0.0
+name,مالوپتیال,1,0.011,0.0,0.0
+name,مالی والا,1,0.011,0.0,0.0
+name,مالیاں والا,1,0.011,0.0,0.0
+name,مان,1,0.011,0.0,0.0
+name,مانگا,1,0.011,0.0,0.0
+name,مانگٹ اونچا,1,0.011,0.0,0.0
+name,مانگٹ نيچا,1,0.011,0.0,0.0
+name,مانےوالا,1,0.011,0.0,0.0
+name,ماچھیکے,1,0.011,0.0,0.0
+name,ماڈل بازار,1,0.011,0.0,0.0
+name,ماڈل سی این جی,1,0.011,0.0,0.0
+name,ماڈل ٹاؤن پارک,1,0.011,0.0,0.0
+name,ماڑی جلبانی,1,0.011,0.0,0.0
+name,مباره,1,0.011,0.0,0.0
+name,متھراں پور,1,0.011,0.0,0.0
+name,مجید کیریو,1,0.011,0.0,0.0
+name,محراب پور,1,0.011,0.0,0.0
+name,محلہ سید نگری,1,0.011,0.0,0.0
+name,محمد امين نظاماڻی گوٹھ,1,0.011,0.0,0.0
+name,محمد پور,1,0.011,0.0,0.0
+name,مدر,1,0.011,0.0,0.0
+name,مدن چک,1,0.011,0.0,0.0
+name,مدھو داس,1,0.011,0.0,0.0
+name,مدینہ کالونی,1,0.011,0.0,0.0
+name,مرالی والا,1,0.011,0.0,0.0
+name,مرزاپور,1,0.011,0.0,0.0
+name,مریدکے - نارووال انٹرچینج,1,0.011,0.0,0.0
+name,مریم آباد,1,0.011,0.0,0.0
+name,مریم ہاؤس,1,0.011,0.0,0.0
+name,مزار بابا جوئے شاہ,1,0.011,0.0,0.0
+name,مزمل کالونی,1,0.011,0.0,0.0
+name,مسجد,1,0.011,0.0,0.0
+name,مسجد المدینہ,1,0.011,0.0,0.0
+name,مسجد سول ہسپتال,1,0.011,0.0,0.0
+name,مسلم کالج,1,0.011,0.0,0.0
+name,مصرى ميانى,1,0.011,0.0,0.0
+name,مصیجی عبادت گاہ,1,0.011,0.0,0.0
+name,معراج پورہ,1,0.011,0.0,0.0
+name,مغل والا,1,0.011,0.0,0.0
+name,مغل چک کلاں,1,0.011,0.0,0.0
+name,مغلانوالہ,1,0.011,0.0,0.0
+name,مغلاں والا,1,0.011,0.0,0.0
+name,مقبرہ آصف خان,1,0.011,0.0,0.0
+name,مقبرہ سچل سرمست درازا شریف,1,0.011,0.0,0.0
+name,مقبرہ نورجہاں,1,0.011,0.0,0.0
+name,مقبرۂ جہانگیر,1,0.011,0.0,0.0
+name,ملاح ہوٹل,1,0.011,0.0,0.0
+name,ملكهانوالہ,1,0.011,0.0,0.0
+name,ملووال,1,0.011,0.0,0.0
+name,ملووالی,1,0.011,0.0,0.0
+name,ملک پور,1,0.011,0.0,0.0
+name,ملہو,1,0.011,0.0,0.0
+name,منج,1,0.011,0.0,0.0
+name,مندرنوالہ,1,0.011,0.0,0.0
+name,منصوروالی,1,0.011,0.0,0.0
+name,منڈھیالی,1,0.011,0.0,0.0
+name,منڈی فیض آباد,1,0.011,0.0,0.0
+name,منڈیالا میر شکاراں,1,0.011,0.0,0.0
+name,منڈیالہ تیگہ,1,0.011,0.0,0.0
+name,منڈیکی,1,0.011,0.0,0.0
+name,منگل والا.,1,0.011,0.0,0.0
+name,مهابت خان انڈسٹریل پارک,1,0.011,0.0,0.0
+name,موراں والا,1,0.011,0.0,0.0
+name,موری منگر,1,0.011,0.0,0.0
+name,موسی دوگل,1,0.011,0.0,0.0
+name,موسیٰ کھٹیان,1,0.011,0.0,0.0
+name,موضع سرائے,1,0.011,0.0,0.0
+name,مولاں,1,0.011,0.0,0.0
+name,موٹل ان,1,0.011,0.0,0.0
+name,موھیاں والا,1,0.011,0.0,0.0
+name,موہلن,1,0.011,0.0,0.0
+name,موہن دیو,1,0.011,0.0,0.0
+name,مٹو بھائی کے,1,0.011,0.0,0.0
+name,مچھرالہ,1,0.011,0.0,0.0
+name,مڑھ بھنگواں,1,0.011,0.0,0.0
+name,مکتہ,1,0.011,0.0,0.0
+name,مکلی,1,0.011,0.0,0.0
+name,مکلی قبرستان,1,0.011,0.0,0.0
+name,مکلی مندر,1,0.011,0.0,0.0
+name,مکڈونلڈز,1,0.011,0.0,0.0
+name,مھتہ تریڈا,1,0.011,0.0,0.0
+name,مہاج,1,0.011,0.0,0.0
+name,مہتم,1,0.011,0.0,0.0
+name,مہتہ سوجا,1,0.011,0.0,0.0
+name,مہران شوگر ملز,1,0.011,0.0,0.0
+name,مہیس بوبے والی,1,0.011,0.0,0.0
+name,مہیس کلاں,1,0.011,0.0,0.0
+name,میاں صاحب,1,0.011,0.0,0.0
+name,میاں صاحب مین روڈ,1,0.011,0.0,0.0
+name,میر محمد نظامانی,1,0.011,0.0,0.0
+name,میرانی گوٹھ,1,0.011,0.0,0.0
+name,میراں پنڈ,1,0.011,0.0,0.0
+name,میرپور,1,0.011,0.0,0.0
+name,میرپوربٹھورو,1,0.011,0.0,0.0
+name,مین روڈ,1,0.011,0.0,0.0
+name,مینگڑی,1,0.011,0.0,0.0
+name,نارنجانی,1,0.011,0.0,0.0
+name,نارنگ منڈی‎,1,0.011,0.0,0.0
+name,نارووال,1,0.011,0.0,0.0
+name,نارووال روڈ,1,0.011,0.0,0.0
+name,ناصر روڈ,1,0.011,0.0,0.0
+name,نالہ ڈیک,1,0.011,0.0,0.0
+name,نتھو سیویاں,1,0.011,0.0,0.0
+name,نذر ٹاؤن,1,0.011,0.0,0.0
+name,نصرپور,1,0.011,0.0,0.0
+name,نصرپور روڈ,1,0.011,0.0,0.0
+name,نصیر آباد,1,0.011,0.0,0.0
+name,نظام پورہ,1,0.011,0.0,0.0
+name,نظیر لبانا,1,0.011,0.0,0.0
+name,نندگڑھ,1,0.011,0.0,0.0
+name,نندی پور,1,0.011,0.0,0.0
+name,نندی پور تھرمل پاور پروجیکٹ,1,0.011,0.0,0.0
+name,ننگل خورد,1,0.011,0.0,0.0
+name,ننگل کلاں,1,0.011,0.0,0.0
+name,نوابشاہ,1,0.011,0.0,0.0
+name,نواں  مالے  چک,1,0.011,0.0,0.0
+name,نواں لاہور,1,0.011,0.0,0.0
+name,نواں پنڈ ارائیاں,1,0.011,0.0,0.0
+name,نواں کوٹ,1,0.011,0.0,0.0
+name,نور پور,1,0.011,0.0,0.0
+name,نور پورہ,1,0.011,0.0,0.0
+name,نوری آباد,1,0.011,0.0,0.0
+name,نورے والا,1,0.011,0.0,0.0
+name,نونار,1,0.011,0.0,0.0
+name,نوون والا,1,0.011,0.0,0.0
+name,نوکریاں مغلاں,1,0.011,0.0,0.0
+name,نوگراں,1,0.011,0.0,0.0
+name,نٹھرانوالی,1,0.011,0.0,0.0
+name,نٹھو کیریو,1,0.011,0.0,0.0
+name,نڈالا,1,0.011,0.0,0.0
+name,نکا چوک,1,0.011,0.0,0.0
+name,نگرے,1,0.011,0.0,0.0
+name,نیواں اوجلہ,1,0.011,0.0,0.0
+name,واجدآباد,1,0.011,0.0,0.0
+name,واں,1,0.011,0.0,0.0
+name,واہنڈو,1,0.011,0.0,0.0
+name,واہنڈو انٹرچینج,1,0.011,0.0,0.0
+name,واہگا والا,1,0.011,0.0,0.0
+name,وجھواں شریف,1,0.011,0.0,0.0
+name,وجید والی,1,0.011,0.0,0.0
+name,وحدت کالونی,1,0.011,0.0,0.0
+name,وریام,1,0.011,0.0,0.0
+name,وزیر خان رکھ,1,0.011,0.0,0.0
+name,وزیر کے چھٹہ,1,0.011,0.0,0.0
+name,وزیرپور,1,0.011,0.0,0.0
+name,وسنکے,1,0.011,0.0,0.0
+name,ولیکے,1,0.011,0.0,0.0
+name,ونی,1,0.011,0.0,0.0
+name,ونیکی تارڑ,1,0.011,0.0,0.0
+name,وٹالیاں,1,0.011,0.0,0.0
+name,وڈالہ سندھواں,1,0.011,0.0,0.0
+name,وڈالہ چیمہ,1,0.011,0.0,0.0
+name,وڈیرو گلاب میرجت,1,0.011,0.0,0.0
+name,ویرمکے,1,0.011,0.0,0.0
+name,ٹاہلی والا,1,0.011,0.0,0.0
+name,ٹبہ رحمت خان,1,0.011,0.0,0.0
+name,ٹبہ مغلاں,1,0.011,0.0,0.0
+name,ٹبی,1,0.011,0.0,0.0
+name,ٹبی بہادر,1,0.011,0.0,0.0
+name,ٹبی شاہ عنایت,1,0.011,0.0,0.0
+name,ٹنڈو جام,1,0.011,0.0,0.0
+name,ٹنڈو سومرو,1,0.011,0.0,0.0
+name,ٹنڈو عالم مری,1,0.011,0.0,0.0
+name,ٹنڈو فضل,1,0.011,0.0,0.0
+name,ٹنڈو فضل روڈ,1,0.011,0.0,0.0
+name,ٹنڈو قیصر,1,0.011,0.0,0.0
+name,ٹنڈو محمد خان,1,0.011,0.0,0.0
+name,ٹوھر کلاں,1,0.011,0.0,0.0
+name,ٹںڈو حیدر,1,0.011,0.0,0.0
+name,ٹھٹه پیرا,1,0.011,0.0,0.0
+name,ٹھٹھہ,1,0.011,0.0,0.0
+name,ٹھٹھہ بامیاں,1,0.011,0.0,0.0
+name,ٹھٹھہ برامکا,1,0.011,0.0,0.0
+name,ٹھٹھہ حاجی,1,0.011,0.0,0.0
+name,ٹھٹھہ ناظریاں,1,0.011,0.0,0.0
+name,ٹھٹھہ گوندل,1,0.011,0.0,0.0
+name,ٹھٹہ الیاس,1,0.011,0.0,0.0
+name,ٹھٹہ قطبہ,1,0.011,0.0,0.0
+name,ٹھٹہ قطبہ روڈ,1,0.011,0.0,0.0
+name,ٹھٹہ لاہوے,1,0.011,0.0,0.0
+name,ٹھٹہ گلاب,1,0.011,0.0,0.0
+name,ٹھٹہ گورایہ,1,0.011,0.0,0.0
+name,ٹھیٹھروالی,1,0.011,0.0,0.0
+name,ٹھیک ہے موبائل سنٹر,1,0.011,0.0,0.0
+name,ٹھیکریوالا,1,0.011,0.0,0.0
+name,ٹینڈے لادوے,1,0.011,0.0,0.0
+name,ٺٽو,1,0.011,0.0,0.0
+name,پئي ٻيلو,1,0.011,0.0,0.0
+name,پارک,1,0.011,0.0,0.0
+name,پانڈو پور,1,0.011,0.0,0.0
+name,پاکستان ریلوے,1,0.011,0.0,0.0
+name,پاکستانی چوک,1,0.011,0.0,0.0
+name,پتوکی,1,0.011,0.0,0.0
+name,پتیسر,1,0.011,0.0,0.0
+name,پرانا ٹھٹحہ ناظریاں,1,0.011,0.0,0.0
+name,پسرور ریلوے اسٹیشن,1,0.011,0.0,0.0
+name,پسرور چھاؤنی,1,0.011,0.0,0.0
+name,پسیہ,1,0.011,0.0,0.0
+name,پنج گرائیں,1,0.011,0.0,0.0
+name,پنج گرین,1,0.011,0.0,0.0
+name,پنووال,1,0.011,0.0,0.0
+name,پنوں آٹاری,1,0.011,0.0,0.0
+name,پنڈوری چھوٹی,1,0.011,0.0,0.0
+name,پنڈی ماناں,1,0.011,0.0,0.0
+name,پپلی گورایہ,1,0.011,0.0,0.0
+name,پپناکھا,1,0.011,0.0,0.0
+name,پپناکھا موڑ,1,0.011,0.0,0.0
+name,پھانگٹ,1,0.011,0.0,0.0
+name,پھریانوالہ,1,0.011,0.0,0.0
+name,پھلواڑی,1,0.011,0.0,0.0
+name,پہلوان پورہ,1,0.011,0.0,0.0
+name,پیارو لنڈ,1,0.011,0.0,0.0
+name,پیر بھٹی,1,0.011,0.0,0.0
+name,پیر کوٹ ثانی,1,0.011,0.0,0.0
+name,پیروچک,1,0.011,0.0,0.0
+name,پیرکوٹ ثانی جنوب,1,0.011,0.0,0.0
+name,پیزا کلب,1,0.011,0.0,0.0
+name,پیزا ہٹ,1,0.011,0.0,0.0
+name,پینڈ کھولیستان,1,0.011,0.0,0.0
+name,پیپلز کالونی,1,0.011,0.0,0.0
+name,چانگڑیاں,1,0.011,0.0,0.0
+name,چاچکے گل,1,0.011,0.0,0.0
+name,چاہ شادوالا,1,0.011,0.0,0.0
+name,چاہے والا,1,0.011,0.0,0.0
+name,چبہ چیمہ,1,0.011,0.0,0.0
+name,چن دا قلعہ,1,0.011,0.0,0.0
+name,چنا اسٹریٹ,1,0.011,0.0,0.0
+name,چنا ہاؤس,1,0.011,0.0,0.0
+name,چناب کالونی,1,0.011,0.0,0.0
+name,چنيسر زارداري,1,0.011,0.0,0.0
+name,چنگن والی,1,0.011,0.0,0.0
+name,چنیاں والا,1,0.011,0.0,0.0
+name,چوھدری حیات دا ڈیرہ,1,0.011,0.0,0.0
+name,چوہدری پرویز حیدر ملہی ڈیرہ,1,0.011,0.0,0.0
+name,چِٹی گورائیہ,1,0.011,0.0,0.0
+name,چٹھہ داد,1,0.011,0.0,0.0
+name,چک 16,1,0.011,0.0,0.0
+name,چک 17,1,0.011,0.0,0.0
+name,چک 18,1,0.011,0.0,0.0
+name,چک 19,1,0.011,0.0,0.0
+name,چک 2,1,0.011,0.0,0.0
+name,چک 20,1,0.011,0.0,0.0
+name,چک 21,1,0.011,0.0,0.0
+name,چک 22,1,0.011,0.0,0.0
+name,چک 23,1,0.011,0.0,0.0
+name,چک 41,1,0.011,0.0,0.0
+name,چک 42,1,0.011,0.0,0.0
+name,چک 43,1,0.011,0.0,0.0
+name,چک 44,1,0.011,0.0,0.0
+name,چک 45,1,0.011,0.0,0.0
+name,چک 46,1,0.011,0.0,0.0
+name,چک 47,1,0.011,0.0,0.0
+name,چک 48,1,0.011,0.0,0.0
+name,چک اختيار,1,0.011,0.0,0.0
+name,چک بسو,1,0.011,0.0,0.0
+name,چک بھادا,1,0.011,0.0,0.0
+name,چک بھولے,1,0.011,0.0,0.0
+name,چک بہلول,1,0.011,0.0,0.0
+name,چک جوئیہ,1,0.011,0.0,0.0
+name,چک خضر,1,0.011,0.0,0.0
+name,چک خلیل,1,0.011,0.0,0.0
+name,چک دھیدو اولڈ,1,0.011,0.0,0.0
+name,چک دھیدو نیو,1,0.011,0.0,0.0
+name,چک رام داس,1,0.011,0.0,0.0
+name,چک رجادہ,1,0.011,0.0,0.0
+name,چک سنتہ,1,0.011,0.0,0.0
+name,چک مانک,1,0.011,0.0,0.0
+name,چک مسلم,1,0.011,0.0,0.0
+name,چک مغل,1,0.011,0.0,0.0
+name,چک پوار,1,0.011,0.0,0.0
+name,چک چوہدری,1,0.011,0.0,0.0
+name,چک ککہ,1,0.011,0.0,0.0
+name,چکرالہ,1,0.011,0.0,0.0
+name,چھنی گونڈل,1,0.011,0.0,0.0
+name,چھچروالی,1,0.011,0.0,0.0
+name,چہل کلاں,1,0.011,0.0,0.0
+name,چیانوالی,1,0.011,0.0,0.0
+name,چیلہ,1,0.011,0.0,0.0
+name,ڈاھر,1,0.011,0.0,0.0
+name,ڈلیکے,1,0.011,0.0,0.0
+name,ڈومینوز,1,0.011,0.0,0.0
+name,ڈوگرانوالا,1,0.011,0.0,0.0
+name,ڈوگرانوالہ ملہیاں,1,0.011,0.0,0.0
+name,ڈوگراں والا,1,0.011,0.0,0.0
+name,ڈوگری ہریاں,1,0.011,0.0,0.0
+name,ڈگری مسلماناں,1,0.011,0.0,0.0
+name,ڈگری کالج برائے لڑکے,1,0.011,0.0,0.0
+name,ڈگری ہندواں,1,0.011,0.0,0.0
+name,ڈگھ موری,1,0.011,0.0,0.0
+name,ڈھامکے,1,0.011,0.0,0.0
+name,ڈھب والا,1,0.011,0.0,0.0
+name,ڈھب چیمہ,1,0.011,0.0,0.0
+name,ڈھدیاں,1,0.011,0.0,0.0
+name,ڈھولیکے,1,0.011,0.0,0.0
+name,ڈھپئی مہتاب سنگھ,1,0.011,0.0,0.0
+name,ڈھپئی وساکھہ سنگھ,1,0.011,0.0,0.0
+name,ڈھینگاں,1,0.011,0.0,0.0
+name,ڈیرا گجراں,1,0.011,0.0,0.0
+name,ڈیرہ جموں,1,0.011,0.0,0.0
+name,ڈیرہ شاہ جمال,1,0.011,0.0,0.0
+name,ڈیرہ عبد الرحمٰن,1,0.011,0.0,0.0
+name,ڈیرہ غازی خان بین الاقوامی ہوائی اڈا,1,0.011,0.0,0.0
+name,ڈیرہ ملک عبد الخالق,1,0.011,0.0,0.0
+name,ڈیرہ چوریڑہ,1,0.011,0.0,0.0
+name,کالا خطائی انٹرچینج,1,0.011,0.0,0.0
+name,کالا گجر,1,0.011,0.0,0.0
+name,کالج آف ایگریکلچر ڈیرہ غازی خان,1,0.011,0.0,0.0
+name,کالو چیمہ,1,0.011,0.0,0.0
+name,کالوکے شریف,1,0.011,0.0,0.0
+name,کالی صوبہ خاں,1,0.011,0.0,0.0
+name,کالے والا,1,0.011,0.0,0.0
+name,کانبانوالہ,1,0.011,0.0,0.0
+name,کاچھا,1,0.011,0.0,0.0
+name,کاکا کولو,1,0.011,0.0,0.0
+name,کتھڑ,1,0.011,0.0,0.0
+name,کجلا,1,0.011,0.0,0.0
+name,کجلا روڈ,1,0.011,0.0,0.0
+name,کرار خان سولنگی,1,0.011,0.0,0.0
+name,کرتار پور,1,0.011,0.0,0.0
+name,کرسچن گرلز اسکول,1,0.011,0.0,0.0
+name,کرل,1,0.011,0.0,0.0
+name,کرن خان شورو,1,0.011,0.0,0.0
+name,کريالہ,1,0.011,0.0,0.0
+name,کرپالپور,1,0.011,0.0,0.0
+name,کریم بخش نظامانی,1,0.011,0.0,0.0
+name,کریم پورہ,1,0.011,0.0,0.0
+name,کسوکے,1,0.011,0.0,0.0
+name,کشمیر کالونی,1,0.011,0.0,0.0
+name,کشمیری محلہ,1,0.011,0.0,0.0
+name,کشن پورہ,1,0.011,0.0,0.0
+name,کل باجوہ,1,0.011,0.0,0.0
+name,کلاسوالہ,1,0.011,0.0,0.0
+name,کلاسکے,1,0.011,0.0,0.0
+name,کلخانہ,1,0.011,0.0,0.0
+name,کلمہ چوک,1,0.011,0.0,0.0
+name,کلووال,1,0.011,0.0,0.0
+name,کلپیانوالہ,1,0.011,0.0,0.0
+name,کلہ خورد,1,0.011,0.0,0.0
+name,کلہ کلاں,1,0.011,0.0,0.0
+name,کلیانوالا,1,0.011,0.0,0.0
+name,کلیاں ڈیرہ,1,0.011,0.0,0.0
+name,کلیر,1,0.011,0.0,0.0
+name,کلیر اونچا,1,0.011,0.0,0.0
+name,کنجرور,1,0.011,0.0,0.0
+name,کنگ چھیلوکے,1,0.011,0.0,0.0
+name,کو ٹ جیوا,1,0.011,0.0,0.0
+name,کوروٹانا ریسرو فارسٹ,1,0.011,0.0,0.0
+name,کولاری پنڈ,1,0.011,0.0,0.0
+name,کولو تارڑ‎,1,0.011,0.0,0.0
+name,کوٹ آنی سنگھ,1,0.011,0.0,0.0
+name,کوٹ احمد شاہ,1,0.011,0.0,0.0
+name,کوٹ امر سنگھ,1,0.011,0.0,0.0
+name,کوٹ بلال,1,0.011,0.0,0.0
+name,کوٹ بندہ,1,0.011,0.0,0.0
+name,کوٹ بنگش,1,0.011,0.0,0.0
+name,کوٹ بھانہ شاہ,1,0.011,0.0,0.0
+name,کوٹ ثنا الّلہ,1,0.011,0.0,0.0
+name,کوٹ جان محمد,1,0.011,0.0,0.0
+name,کوٹ خدایار,1,0.011,0.0,0.0
+name,کوٹ دھانی,1,0.011,0.0,0.0
+name,کوٹ رسول بخش,1,0.011,0.0,0.0
+name,کوٹ شاہ محمد,1,0.011,0.0,0.0
+name,کوٹ شیرا,1,0.011,0.0,0.0
+name,کوٹ عبد الملک انٹرچینج,1,0.011,0.0,0.0
+name,کوٹ عبدﷲ,1,0.011,0.0,0.0
+name,کوٹ عنایت خان,1,0.011,0.0,0.0
+name,کوٹ فضلا,1,0.011,0.0,0.0
+name,کوٹ فقیر محمد,1,0.011,0.0,0.0
+name,کوٹ قاضی,1,0.011,0.0,0.0
+name,کوٹ لدھا,1,0.011,0.0,0.0
+name,کوٹ محل,1,0.011,0.0,0.0
+name,کوٹ محمود,1,0.011,0.0,0.0
+name,کوٹ مری,1,0.011,0.0,0.0
+name,کوٹ منان,1,0.011,0.0,0.0
+name,کوٹ مول چند,1,0.011,0.0,0.0
+name,کوٹ مٹھن,1,0.011,0.0,0.0
+name,کوٹ نانک,1,0.011,0.0,0.0
+name,کوٹ نزیر احمد,1,0.011,0.0,0.0
+name,کوٹ وارث,1,0.011,0.0,0.0
+name,کوٹ والی محمد,1,0.011,0.0,0.0
+name,کوٹ ورثہ,1,0.011,0.0,0.0
+name,کوٹ پرویا,1,0.011,0.0,0.0
+name,کوٹ پنڈی داس,1,0.011,0.0,0.0
+name,کوٹ چند,1,0.011,0.0,0.0
+name,کوٹ ڈراں,1,0.011,0.0,0.0
+name,کوٹ کالیاں,1,0.011,0.0,0.0
+name,کوٹ گورا,1,0.011,0.0,0.0
+name,کوٹ گوندل,1,0.011,0.0,0.0
+name,کوٹلہ جام,1,0.011,0.0,0.0
+name,کوٹلی,1,0.011,0.0,0.0
+name,کوٹلی بھٹہ,1,0.011,0.0,0.0
+name,کوٹلی تاڑر,1,0.011,0.0,0.0
+name,کوٹلی خورد,1,0.011,0.0,0.0
+name,کوٹلی رام داس,1,0.011,0.0,0.0
+name,کوٹلی رانجھن,1,0.011,0.0,0.0
+name,کوٹلی ریت والی,1,0.011,0.0,0.0
+name,کوٹلی لالہ,1,0.011,0.0,0.0
+name,کوٹلی لکھن,1,0.011,0.0,0.0
+name,کوٹلی میانی,1,0.011,0.0,0.0
+name,کوٹلی نٹکھر کلاں,1,0.011,0.0,0.0
+name,کوٹلی نٹھو ملہی,1,0.011,0.0,0.0
+name,کوٹلی ورکاں,1,0.011,0.0,0.0
+name,کوٹلی پٹھاناں,1,0.011,0.0,0.0
+name,کوٹلی پکی,1,0.011,0.0,0.0
+name,کوٹلی چھنو,1,0.011,0.0,0.0
+name,کوٹلی کپہ,1,0.011,0.0,0.0
+name,کوٹلی گجراں,1,0.011,0.0,0.0
+name,کوٹلی ہیرا,1,0.011,0.0,0.0
+name,کوٹو والا,1,0.011,0.0,0.0
+name,کوٹھا,1,0.011,0.0,0.0
+name,کوٹھا چشتیاں,1,0.011,0.0,0.0
+name,کوٹھیالا ورکاں روڈ,1,0.011,0.0,0.0
+name,کوٹھیالہ,1,0.011,0.0,0.0
+name,کوپرہ,1,0.011,0.0,0.0
+name,کوپرہ کلاں,1,0.011,0.0,0.0
+name,کوہلووالا,1,0.011,0.0,0.0
+name,کٹھور کلاں,1,0.011,0.0,0.0
+name,کھارا,1,0.011,0.0,0.0
+name,کھبیکی,1,0.011,0.0,0.0
+name,کھندووالی,1,0.011,0.0,0.0
+name,کھوکھر,1,0.011,0.0,0.0
+name,کھکھ,1,0.011,0.0,0.0
+name,کھینہ چک,1,0.011,0.0,0.0
+name,کھیووالی,1,0.011,0.0,0.0
+name,کھیڑہ,1,0.011,0.0,0.0
+name,کیرانوالی,1,0.011,0.0,0.0
+name,ڪوٽڙي‎,1,0.011,0.0,0.0
+name,گاجا موری,1,0.011,0.0,0.0
+name,گالو,1,0.011,0.0,0.0
+name,گجرانوالہ,1,0.011,0.0,0.0
+name,گجرپورہ,1,0.011,0.0,0.0
+name,گز,1,0.011,0.0,0.0
+name,گل روڈ,1,0.011,0.0,0.0
+name,گل محمد شورو,1,0.011,0.0,0.0
+name,گل والا,1,0.011,0.0,0.0
+name,گلوریا جینز,1,0.011,0.0,0.0
+name,گلوٹیاں خرد,1,0.011,0.0,0.0
+name,گنڈھووال,1,0.011,0.0,0.0
+name,گنگا پور,1,0.011,0.0,0.0
+name,گنہ کلاں,1,0.011,0.0,0.0
+name,گنیئاں خرد,1,0.011,0.0,0.0
+name,گنیئاں کلاں,1,0.011,0.0,0.0
+name,گنیش پور,1,0.011,0.0,0.0
+name,گنیش پوری دا ڈیڑا,1,0.011,0.0,0.0
+name,گوبند پورہ,1,0.011,0.0,0.0
+name,گوجرانوالہ - حافظ آباد سڑک,1,0.011,0.0,0.0
+name,گورسیال,1,0.011,0.0,0.0
+name,گورنمنٹ اسلامیہ کالج گوجرانوالہ,1,0.011,0.0,0.0
+name,گورنمنٹ انسٹی ٹیوٹ آف لیدر ٹیکنالوجی,1,0.011,0.0,0.0
+name,گورنمنٹ ماڈل ہائی سکول,1,0.011,0.0,0.0
+name,گورنمنٹ کالج حافظ آباد,1,0.011,0.0,0.0
+name,گورنمنٹ گرلز ہائی سکول صغیر شہید پارک,1,0.011,0.0,0.0
+name,گورو چک,1,0.011,0.0,0.0
+name,گولیاں,1,0.011,0.0,0.0
+name,گوناعور,1,0.011,0.0,0.0
+name,گوٹھ بادو خان جتوئی,1,0.011,0.0,0.0
+name,گوٹھ بروہی رحیم بخش,1,0.011,0.0,0.0
+name,گوٹھ حاجی پیر بخش بلوچ,1,0.011,0.0,0.0
+name,گوٹھ شاہ بیگ لنڈ بلوچ,1,0.011,0.0,0.0
+name,گوٹھ غلام محمد نظامانی,1,0.011,0.0,0.0
+name,گوٹھ مصری,1,0.011,0.0,0.0
+name,گوٹھ ورل چانڈیو,1,0.011,0.0,0.0
+name,گوٹھ ﷲ بخش سولنگی,1,0.011,0.0,0.0
+name,گگڑ مغلاں,1,0.011,0.0,0.0
+name,گگڑکے,1,0.011,0.0,0.0
+name,گگے,1,0.011,0.0,0.0
+name,گھارو,1,0.011,0.0,0.0
+name,گھمن والا,1,0.011,0.0,0.0
+name,گھنوکے,1,0.011,0.0,0.0
+name,گھنڈیا,1,0.011,0.0,0.0
+name,گھنگوال,1,0.011,0.0,0.0
+name,گھوٹکی,1,0.011,0.0,0.0
+name,گھٹیالیاں,1,0.011,0.0,0.0
+name,گھڑتل,1,0.011,0.0,0.0
+name,گھکا متر,1,0.011,0.0,0.0
+name,گہرام ماڑی,1,0.011,0.0,0.0
+name,ھرکرن,1,0.011,0.0,0.0
+name,ھٹڑی,1,0.011,0.0,0.0
+name,ھیر,1,0.011,0.0,0.0
+name,ہاردودھے,1,0.011,0.0,0.0
+name,ہاليپوٹو,1,0.011,0.0,0.0
+name,ہالیجی جھیل,1,0.011,0.0,0.0
+name,ہرسیاں,1,0.011,0.0,0.0
+name,ہرلو گوٹھ,1,0.011,0.0,0.0
+name,ہرچوک,1,0.011,0.0,0.0
+name,ہرچوکی,1,0.011,0.0,0.0
+name,ہری پور بینڈ,1,0.011,0.0,0.0
+name,ہمبوکی,1,0.011,0.0,0.0
+name,ہمت سنگھ ریسرو فارسٹ,1,0.011,0.0,0.0
+name,ہموں گکھڑ,1,0.011,0.0,0.0
+name,ہنڈا سروس مرکز,1,0.011,0.0,0.0
+name,ہوئے والی,1,0.011,0.0,0.0
+name,ہوائی اڈے ہوٹل,1,0.011,0.0,0.0
+name,ہوسڑی,1,0.011,0.0,0.0
+name,ہٹڑی,1,0.011,0.0,0.0
+name,ہڈیری جھیل,1,0.011,0.0,0.0
+name,ہیرانوالہ خورد,1,0.011,0.0,0.0
+name,ہیگر,1,0.011,0.0,0.0
+name,یونائیٹڈ بینک,1,0.011,0.0,0.0
+name,یونی لیور,1,0.011,0.0,0.0
+name,ﮨیرا آباد,1,0.011,0.0,0.0
+name,ﷲ دینو ساند,1,0.011,0.0,0.0
+name,ﷲ دینوساند,1,0.011,0.0,0.0
+name,𝗞𝗼𝘁 𝗕𝗮𝘄𝗮,1,0.011,0.0,0.0
+natural,water,101,65.1613,10000.0,10000.0
+natural,wetland,14,9.0323,1300.0,1300.0
+natural,tree,12,7.7419,1100.0,1100.0
+natural,wood,5,3.2258,400.0,400.0
+natural,coastline,4,2.5806,300.0,300.0
+natural,grassland,4,2.5806,300.0,300.0
+natural,scrub,4,2.5806,300.0,300.0
+natural,ridge,3,1.9355,200.0,200.0
+natural,cliff,2,1.2903,100.0,100.0
+natural,earth_bank,2,1.2903,100.0,100.0
+natural,House,1,0.6452,0.0,0.0
+natural,house,1,0.6452,0.0,0.0
+natural,saddle,1,0.6452,0.0,0.0
+natural,yes,1,0.6452,0.0,0.0
+source,maxar,29054,88.7416,2905300.0,2905300.0
+source,Yahoo,699,2.135,69800.0,69800.0
+source,http://osm.arkemie.org/cgi-bin/tiles/1.0.0/pakistan_250k_mosaic/!/!/!,583,1.7807,58200.0,58200.0
+source,Bing,576,1.7593,57500.0,57500.0
+source,digitalglobe,427,1.3042,42600.0,42600.0
+source,microsoft/BuildingFootprints,280,0.8552,27900.0,27900.0
+source,bing,254,0.7758,25300.0,25300.0
+source,Yahoo hires,205,0.6261,20400.0,20400.0
+source,"Spot, CNES - Spot Image, 2008",71,0.2169,7000.0,7000.0
+source,SPOT hires PK 2008,60,0.1833,5900.0,5900.0
+source,"satellite, Yahoo, 2006",60,0.1833,5900.0,5900.0
+source,Landsat,53,0.1619,5200.0,5200.0
+source,"satellite,spot, 2008",45,0.1374,4400.0,4400.0
+source,GPS,40,0.1222,3900.0,3900.0
+source,landsat,35,0.1069,3400.0,3400.0
+source,Bing 2010,28,0.0855,2700.0,2700.0
+source,"Spot, CNES - Spot Image, 2008;bing;Bing;landsat",24,0.0733,2300.0,2300.0
+source,yahoo,24,0.0733,2300.0,2300.0
+source,"satellite, spot,2008",23,0.0703,2200.0,2200.0
+source,"satellite, Yahoo, 2008",22,0.0672,2100.0,2100.0
+source,SPOT,21,0.0641,2000.0,2000.0
+source,"SPOT, 2009",12,0.0367,1100.0,1100.0
+source,Bing LoRes;interpolation,11,0.0336,1000.0,1000.0
+source,LandSat,11,0.0336,1000.0,1000.0
+source,Yahoo aerial imagery,11,0.0336,1000.0,1000.0
+source,wikipedia,9,0.0275,800.0,800.0
+source,maxar;digitalglobe,8,0.0244,700.0,700.0
+source,Maxar,7,0.0214,600.0,600.0
+source,SPOT 2009,7,0.0214,600.0,600.0
+source,binig,6,0.0183,500.0,500.0
+source,Bing;Yahoo,5,0.0153,400.0,400.0
+source,DigitalGlobe-Premium,5,0.0153,400.0,400.0
+source,Hiltorent,5,0.0153,400.0,400.0
+source,Landsat;Yahoo,5,0.0153,400.0,400.0
+source,ourairports.com,5,0.0153,400.0,400.0
+source,EsriWorldImagery,4,0.0122,300.0,300.0
+source,Imagerie Maxar,4,0.0122,300.0,300.0
+source,NEOC,4,0.0122,300.0,300.0
+source,maxar;digitalglobe;,4,0.0122,300.0,300.0
+source,local knowledge,3,0.0092,200.0,200.0
+source,w,3,0.0092,200.0,200.0
+source,BING,2,0.0061,100.0,100.0
+source,GNS,2,0.0061,100.0,100.0
+source,Yahoo + Local Knowledge,2,0.0061,100.0,100.0
+source,Yahoo;Yahoo hires;Yahoo,2,0.0061,100.0,100.0
+source,http://osm.arkemie.org/cgi-bin/tiles/1.0.0/pakistan_250k_mosaic/!/!/!; Landsat; Yahoo,2,0.0061,100.0,100.0
+source,"satellite, Yahoo, 2006, wikipedia",2,0.0061,100.0,100.0
+source,DMA map 1982,1,0.0031,0.0,0.0
+source,"SPOT, EULA, 2008",1,0.0031,0.0,0.0
+source,"Spot, Cnes-Spot Image, 2008;Yahoo",1,0.0031,0.0,0.0
+source,Yahoo; Landsat,1,0.0031,0.0,0.0
+source,Yahoo; Yahoo hires,1,0.0031,0.0,0.0
+source,aerial imagery;Maxar Imagery,1,0.0031,0.0,0.0
+source,bing;Bing,1,0.0031,0.0,0.0
+source,gadm.org,1,0.0031,0.0,0.0
+source,http://osm.arkemie.org/cgi-bin/tiles/1.0.0/pakistan_250k_mosaic/!/!/!;Landsat;Yahoo,1,0.0031,0.0,0.0
+source,http://osm.arkemie.org/cgi-bin/tiles/1.0.0/pakistan_250k_mosaic/!/!/!;Yahoo;Landsat,1,0.0031,0.0,0.0
+source,local knowledge;gps,1,0.0031,0.0,0.0
+source,maxarf,1,0.0031,0.0,0.0
+source,maxat,1,0.0031,0.0,0.0
+source,osm notes,1,0.0031,0.0,0.0
+source,survey;gps,1,0.0031,0.0,0.0
+surface,asphalt,2971,51.9224,297000.0,297000.0
+surface,unpaved,1525,26.6515,152400.0,152400.0
+surface,compacted,775,13.5442,77400.0,77400.0
+surface,paved,186,3.2506,18500.0,18500.0
+surface,dirt,125,2.1846,12400.0,12400.0
+surface,concrete,58,1.0136,5700.0,5700.0
+surface,ground,44,0.769,4300.0,4300.0
+surface,sett,12,0.2097,1100.0,1100.0
+surface,grass,8,0.1398,700.0,700.0
+surface,paving_stones,5,0.0874,400.0,400.0
+surface,o,3,0.0524,200.0,200.0
+surface,blocks,2,0.035,100.0,100.0
+surface,clay,2,0.035,100.0,100.0
+surface,gravel,2,0.035,100.0,100.0
+surface,sand,2,0.035,100.0,100.0
+surface,concrete:lanes,1,0.0175,0.0,0.0
+surface,concrete:plates,1,0.0175,0.0,0.0
+waterway,canal,630,62.8116,62900.0,62900.0
+waterway,river,138,13.7587,13700.0,13700.0
+waterway,drain,100,9.9701,9900.0,9900.0
+waterway,stream,55,5.4835,5400.0,5400.0
+waterway,ditch,53,5.2841,5200.0,5200.0
+waterway,weir,13,1.2961,1200.0,1200.0
+waterway,dam,8,0.7976,700.0,700.0
+waterway,conduit,4,0.3988,300.0,300.0
+waterway,fuel,1,0.0997,0.0,0.0
+waterway,sluice_gate,1,0.0997,0.0,0.0

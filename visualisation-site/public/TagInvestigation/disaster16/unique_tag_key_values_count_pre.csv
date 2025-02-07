@@ -1,0 +1,886 @@
+key,value,count,percent_of_total_changes_for_key,percent_difference_from_pre,percent_difference_from_pre_day
+amenity,school,285,62.5,28400.0,28400.0
+amenity,place_of_worship,35,7.6754,3400.0,3400.0
+amenity,parking,19,4.1667,1800.0,1800.0
+amenity,marketplace,12,2.6316,1100.0,1100.0
+amenity,hospital,10,2.193,900.0,900.0
+amenity,motorcycle_taxi,10,2.193,900.0,900.0
+amenity,taxi,9,1.9737,800.0,800.0
+amenity,toilets,9,1.9737,800.0,800.0
+amenity,bicycle_parking,7,1.5351,600.0,600.0
+amenity,clinic,7,1.5351,600.0,600.0
+amenity,grave_yard,7,1.5351,600.0,600.0
+amenity,bar,6,1.3158,500.0,500.0
+amenity,fuel,5,1.0965,400.0,400.0
+amenity,police,4,0.8772,300.0,300.0
+amenity,college,3,0.6579,200.0,200.0
+amenity,post_office,3,0.6579,200.0,200.0
+amenity,restaurant,3,0.6579,200.0,200.0
+amenity,shelter,3,0.6579,200.0,200.0
+amenity,university,3,0.6579,200.0,200.0
+amenity,cafe,2,0.4386,100.0,100.0
+amenity,townhall,2,0.4386,100.0,100.0
+amenity,bank,1,0.2193,0.0,0.0
+amenity,car_rental,1,0.2193,0.0,0.0
+amenity,childcare,1,0.2193,0.0,0.0
+amenity,community_centre,1,0.2193,0.0,0.0
+amenity,doctors,1,0.2193,0.0,0.0
+amenity,driving_school,1,0.2193,0.0,0.0
+amenity,fast_food,1,0.2193,0.0,0.0
+amenity,library,1,0.2193,0.0,0.0
+amenity,pharmacy,1,0.2193,0.0,0.0
+amenity,public_building,1,0.2193,0.0,0.0
+amenity,shower,1,0.2193,0.0,0.0
+amenity,water_point,1,0.2193,0.0,0.0
+building,yes,91213,97.5582,9121200.0,9121200.0
+building,house,2061,2.2044,206000.0,206000.0
+building,school,64,0.0685,6300.0,6300.0
+building,commercial,50,0.0535,4900.0,4900.0
+building,residential,29,0.031,2800.0,2800.0
+building,church,23,0.0246,2200.0,2200.0
+building,construction,9,0.0096,800.0,800.0
+building,roof,8,0.0086,700.0,700.0
+building,industrial,7,0.0075,600.0,600.0
+building,greenhouse,5,0.0053,400.0,400.0
+building,office,3,0.0032,200.0,200.0
+building,public,3,0.0032,200.0,200.0
+building,farm_auxiliary,2,0.0021,100.0,100.0
+building,retail,2,0.0021,100.0,100.0
+building,stadium,2,0.0021,100.0,100.0
+building,apartments,1,0.0011,0.0,0.0
+building,barn,1,0.0011,0.0,0.0
+building,container,1,0.0011,0.0,0.0
+building,garage,1,0.0011,0.0,0.0
+building,hospital,1,0.0011,0.0,0.0
+building,"house,poytechnic cafetaria",1,0.0011,0.0,0.0
+building,house;public,1,0.0011,0.0,0.0
+building,hut,1,0.0011,0.0,0.0
+building,pool,1,0.0011,0.0,0.0
+building,public;school,1,0.0011,0.0,0.0
+building,ruins,1,0.0011,0.0,0.0
+building,semidetached_house,1,0.0011,0.0,0.0
+building,shed,1,0.0011,0.0,0.0
+building,university,1,0.0011,0.0,0.0
+building,warehouse,1,0.0011,0.0,0.0
+emergency,yes,1,100.0,0.0,0.0
+highway,path,4377,46.6731,437600.0,437600.0
+highway,unclassified,2193,23.3845,219200.0,219200.0
+highway,residential,1396,14.8859,139500.0,139500.0
+highway,footway,444,4.7345,44300.0,44300.0
+highway,track,340,3.6255,33900.0,33900.0
+highway,service,305,3.2523,30400.0,30400.0
+highway,tertiary,137,1.4609,13600.0,13600.0
+highway,trunk,64,0.6824,6300.0,6300.0
+highway,primary,41,0.4372,4000.0,4000.0
+highway,secondary,41,0.4372,4000.0,4000.0
+highway,construction,14,0.1493,1300.0,1300.0
+highway,crossing,11,0.1173,1000.0,1000.0
+highway,bus_stop,7,0.0746,600.0,600.0
+highway,motorway,2,0.0213,100.0,100.0
+highway,motorway_junction,2,0.0213,100.0,100.0
+highway,living_street,1,0.0107,0.0,0.0
+highway,toll_gantry,1,0.0107,0.0,0.0
+highway,traffic_mirror,1,0.0107,0.0,0.0
+highway,turning_circle,1,0.0107,0.0,0.0
+landuse,residential,683,93.8187,68200.0,68200.0
+landuse,farmland,20,2.7473,1900.0,1900.0
+landuse,industrial,6,0.8242,500.0,500.0
+landuse,orchard,4,0.5495,300.0,300.0
+landuse,quarry,4,0.5495,300.0,300.0
+landuse,forest,3,0.4121,200.0,200.0
+landuse,grass,3,0.4121,200.0,200.0
+landuse,cemetery,1,0.1374,0.0,0.0
+landuse,commercial,1,0.1374,0.0,0.0
+landuse,conservation,1,0.1374,0.0,0.0
+landuse,farmyard,1,0.1374,0.0,0.0
+landuse,recreation_ground,1,0.1374,0.0,0.0
+leisure,pitch,19,55.8824,1800.0,1800.0
+leisure,swimming_pool,6,17.6471,500.0,500.0
+leisure,fitness_centre,2,5.8824,100.0,100.0
+leisure,golf_course,2,5.8824,100.0,100.0
+leisure,common,1,2.9412,0.0,0.0
+leisure,nature_reserve,1,2.9412,0.0,0.0
+leisure,slipway,1,2.9412,0.0,0.0
+leisure,stadium,1,2.9412,0.0,0.0
+leisure,track,1,2.9412,0.0,0.0
+name,house,44,4.0553,4300.0,4300.0
+name,Midima Road,33,3.0415,3200.0,3200.0
+name,Zomba Road,33,3.0415,3200.0,3200.0
+name,Ruo,13,1.1982,1200.0,1200.0
+name,T411,13,1.1982,1200.0,1200.0
+name,T419,13,1.1982,1200.0,1200.0
+name,Chinamwali,10,0.9217,900.0,900.0
+name,Staff House,10,0.9217,900.0,900.0
+name,School Block,7,0.6452,600.0,600.0
+name,unclassified road,7,0.6452,600.0,600.0
+name,Makande,6,0.553,500.0,500.0
+name,Malembo,6,0.553,500.0,500.0
+name,Lujeri Estate,5,0.4608,400.0,400.0
+name,Mangoma,5,0.4608,400.0,400.0
+name,STAFF HOUSE,5,0.4608,400.0,400.0
+name,Zomba Central Hospital,5,0.4608,400.0,400.0
+name,CDSS School Block,4,0.3687,300.0,300.0
+name,D345,4,0.3687,300.0,300.0
+name,Malindi Secondary School,4,0.3687,300.0,300.0
+name,Monkey Bay,4,0.3687,300.0,300.0
+name,Njuli Quarry,4,0.3687,300.0,300.0
+name,Nyungwe River,4,0.3687,300.0,300.0
+name,Permanent,4,0.3687,300.0,300.0
+name,Ruo Estate,4,0.3687,300.0,300.0
+name,Sendelera,4,0.3687,300.0,300.0
+name,Splendor Hotel,4,0.3687,300.0,300.0
+name,minor road,4,0.3687,300.0,300.0
+name,Administration Block,3,0.2765,200.0,200.0
+name,Bloomfield Estate,3,0.2765,200.0,200.0
+name,Building,3,0.2765,200.0,200.0
+name,Chileka Road (under construction),3,0.2765,200.0,200.0
+name,Chinyama to Mulanje Boma,3,0.2765,200.0,200.0
+name,Faith Pvt High,3,0.2765,200.0,200.0
+name,Girl Hostel,3,0.2765,200.0,200.0
+name,Maize Mill,3,0.2765,200.0,200.0
+name,Makata Road,3,0.2765,200.0,200.0
+name,Malawi Police Training College,3,0.2765,200.0,200.0
+name,Mbombwe bridge,3,0.2765,200.0,200.0
+name,Ndirande Kachere LEA Primary School,3,0.2765,200.0,200.0
+name,PIM TO NTHUMBWE,3,0.2765,200.0,200.0
+name,St.. Mary's,3,0.2765,200.0,200.0
+name,T406,3,0.2765,200.0,200.0
+name,afganisches dorf 1,3,0.2765,200.0,200.0
+name,haus,3,0.2765,200.0,200.0
+name,likangala,3,0.2765,200.0,200.0
+name,q,3,0.2765,200.0,200.0
+name,school block,3,0.2765,200.0,200.0
+name,Africycle (Five Miles),2,0.1843,100.0,100.0
+name,Auto Parts Connection,2,0.1843,100.0,100.0
+name,Blantyre,2,0.1843,100.0,100.0
+name,Botanic,2,0.1843,100.0,100.0
+name,Brick maker,2,0.1843,100.0,100.0
+name,Chikaveka Bike Taxi Stand,2,0.1843,100.0,100.0
+name,Chinamwali Market,2,0.1843,100.0,100.0
+name,Chinupule,2,0.1843,100.0,100.0
+name,Chisombezi-Malowa Estate,2,0.1843,100.0,100.0
+name,Chowe CDSS,2,0.1843,100.0,100.0
+name,Gen-set Building,2,0.1843,100.0,100.0
+name,Govala Graveyard,2,0.1843,100.0,100.0
+name,Gulani,2,0.1843,100.0,100.0
+name,Hall 4,2,0.1843,100.0,100.0
+name,"James Junction, road to Lambulira",2,0.1843,100.0,100.0
+name,Kalakani,2,0.1843,100.0,100.0
+name,Kasito Rice Mill,2,0.1843,100.0,100.0
+name,L,2,0.1843,100.0,100.0
+name,Lake Malawi National Park,2,0.1843,100.0,100.0
+name,Library,2,0.1843,100.0,100.0
+name,Likhonyowa,2,0.1843,100.0,100.0
+name,Lilangwe,2,0.1843,100.0,100.0
+name,Lunzu,2,0.1843,100.0,100.0
+name,MEHBUB,2,0.1843,100.0,100.0
+name,Madziabango,2,0.1843,100.0,100.0
+name,Matawale Health Center,2,0.1843,100.0,100.0
+name,Maternity Block,2,0.1843,100.0,100.0
+name,Mbomwe river,2,0.1843,100.0,100.0
+name,Meru,2,0.1843,100.0,100.0
+name,Mitawa River,2,0.1843,100.0,100.0
+name,Mlozi,2,0.1843,100.0,100.0
+name,Mlunguzi Prumary School,2,0.1843,100.0,100.0
+name,Mpingwe School,2,0.1843,100.0,100.0
+name,Mr. Paison's Residence,2,0.1843,100.0,100.0
+name,Mtitimira School,2,0.1843,100.0,100.0
+name,Mtonda CDSS,2,0.1843,100.0,100.0
+name,Mulunguzi SDA Church,2,0.1843,100.0,100.0
+name,Namwera Open Day Sec School,2,0.1843,100.0,100.0
+name,Nchalo Golf Course,2,0.1843,100.0,100.0
+name,Ndirande Ring Road,2,0.1843,100.0,100.0
+name,Orama Pvt Seco School,2,0.1843,100.0,100.0
+name,Osman Lodge,2,0.1843,100.0,100.0
+name,PIM Police Office,2,0.1843,100.0,100.0
+name,PIM TRADING CENTRE,2,0.1843,100.0,100.0
+name,Pa dick Trading Center,2,0.1843,100.0,100.0
+name,Paison Masjid,2,0.1843,100.0,100.0
+name,Pamodzi Consulting Limited,2,0.1843,100.0,100.0
+name,Police Staff House,2,0.1843,100.0,100.0
+name,Reserve Bank Car Park,2,0.1843,100.0,100.0
+name,Resource Hostel,2,0.1843,100.0,100.0
+name,Riverside School,2,0.1843,100.0,100.0
+name,Sangadzi 2 School,2,0.1843,100.0,100.0
+name,St AUGUSTINE 3 School,2,0.1843,100.0,100.0
+name,Sunrise,2,0.1843,100.0,100.0
+name,The Catholic University of Malawi (CUNIMA),2,0.1843,100.0,100.0
+name,Toilets,2,0.1843,100.0,100.0
+name,Tukululu,2,0.1843,100.0,100.0
+name,Umodzi Drive,2,0.1843,100.0,100.0
+name,bridge,2,0.1843,100.0,100.0
+name,church,2,0.1843,100.0,100.0
+name,classroom block,2,0.1843,100.0,100.0
+name,lodging facility,2,0.1843,100.0,100.0
+name,lol,2,0.1843,100.0,100.0
+name,mkwakwasi river,2,0.1843,100.0,100.0
+name,poultry farm,2,0.1843,100.0,100.0
+name,river,2,0.1843,100.0,100.0
+name,taliban,2,0.1843,100.0,100.0
+name,#,1,0.0922,0.0,0.0
+name,2 häuser,1,0.0922,0.0,0.0
+name,5 gebäude,1,0.0922,0.0,0.0
+name,6 Mile Market,1,0.0922,0.0,0.0
+name,A,1,0.0922,0.0,0.0
+name,A and Messi,1,0.0922,0.0,0.0
+name,Acker,1,0.0922,0.0,0.0
+name,Admistration Block,1,0.0922,0.0,0.0
+name,Africycle,1,0.0922,0.0,0.0
+name,Africycle (Zomba Town),1,0.0922,0.0,0.0
+name,Aisha Girls Pvt,1,0.0922,0.0,0.0
+name,Alleluya Investment,1,0.0922,0.0,0.0
+name,Alleluya's,1,0.0922,0.0,0.0
+name,Anana Hall,1,0.0922,0.0,0.0
+name,Anna's Lodge,1,0.0922,0.0,0.0
+name,Area 4 Hospital,1,0.0922,0.0,0.0
+name,Area 4 Office,1,0.0922,0.0,0.0
+name,Area 4 Road,1,0.0922,0.0,0.0
+name,Area 8,1,0.0922,0.0,0.0
+name,Area 9,1,0.0922,0.0,0.0
+name,Army Secondary School,1,0.0922,0.0,0.0
+name,Assembly Hall,1,0.0922,0.0,0.0
+name,Aunt Linda,1,0.0922,0.0,0.0
+name,Avis / budget,1,0.0922,0.0,0.0
+name,BAJ HOD office,1,0.0922,0.0,0.0
+name,BCA,1,0.0922,0.0,0.0
+name,BP,1,0.0922,0.0,0.0
+name,BTS Bar,1,0.0922,0.0,0.0
+name,Bakresha Limited,1,0.0922,0.0,0.0
+name,Bangwe Islamic Pvt Sec School,1,0.0922,0.0,0.0
+name,Banja la mtsogolo Clinic,1,0.0922,0.0,0.0
+name,Bauernhof gebäude,1,0.0922,0.0,0.0
+name,Bauernhof haus 2,1,0.0922,0.0,0.0
+name,Baumhaus,1,0.0922,0.0,0.0
+name,Bietmann Primary School,1,0.0922,0.0,0.0
+name,"Biology, Computer And Physics Labs",1,0.0922,0.0,0.0
+name,"Biology, Computer And physics Labs",1,0.0922,0.0,0.0
+name,Blantyre Water Board,1,0.0922,0.0,0.0
+name,Block A,1,0.0922,0.0,0.0
+name,Block B,1,0.0922,0.0,0.0
+name,Block C,1,0.0922,0.0,0.0
+name,Bolera,1,0.0922,0.0,0.0
+name,Borehole,1,0.0922,0.0,0.0
+name,Boy Toilets,1,0.0922,0.0,0.0
+name,Buleya,1,0.0922,0.0,0.0
+name,Bunchanan Road,1,0.0922,0.0,0.0
+name,CC 01,1,0.0922,0.0,0.0
+name,CC 02,1,0.0922,0.0,0.0
+name,CC 03,1,0.0922,0.0,0.0
+name,CC 05,1,0.0922,0.0,0.0
+name,CC 06,1,0.0922,0.0,0.0
+name,CC 07,1,0.0922,0.0,0.0
+name,CC 08,1,0.0922,0.0,0.0
+name,CC 10,1,0.0922,0.0,0.0
+name,CC 13,1,0.0922,0.0,0.0
+name,CC 14,1,0.0922,0.0,0.0
+name,CC 15,1,0.0922,0.0,0.0
+name,CC 16,1,0.0922,0.0,0.0
+name,CC 17,1,0.0922,0.0,0.0
+name,CC 18,1,0.0922,0.0,0.0
+name,CC 19,1,0.0922,0.0,0.0
+name,CC 20,1,0.0922,0.0,0.0
+name,CC 22,1,0.0922,0.0,0.0
+name,CC Llt 02,1,0.0922,0.0,0.0
+name,CC Lt 01,1,0.0922,0.0,0.0
+name,CCAP Church,1,0.0922,0.0,0.0
+name,CCAP Church House,1,0.0922,0.0,0.0
+name,CDSS Administration Block,1,0.0922,0.0,0.0
+name,CDSS Boy Hostel,1,0.0922,0.0,0.0
+name,CDSS Girl Hostel,1,0.0922,0.0,0.0
+name,CDSS Toilets,1,0.0922,0.0,0.0
+name,Cafeteria,1,0.0922,0.0,0.0
+name,Cape Maclear,1,0.0922,0.0,0.0
+name,Chancellor College Clinic,1,0.0922,0.0,0.0
+name,Chaona School,1,0.0922,0.0,0.0
+name,Chawani Bungalow,1,0.0922,0.0,0.0
+name,Chayanika School,1,0.0922,0.0,0.0
+name,Chejusu Road,1,0.0922,0.0,0.0
+name,Chemusa,1,0.0922,0.0,0.0
+name,Chewonga Road,1,0.0922,0.0,0.0
+name,Chibuku Tarven,1,0.0922,0.0,0.0
+name,Chichiri,1,0.0922,0.0,0.0
+name,Chichiri Primary School,1,0.0922,0.0,0.0
+name,Chichiri Sec. School,1,0.0922,0.0,0.0
+name,Chief_chipoka,1,0.0922,0.0,0.0
+name,Chigumula School,1,0.0922,0.0,0.0
+name,Chigwaja,1,0.0922,0.0,0.0
+name,Chikomwe School,1,0.0922,0.0,0.0
+name,Chikumbeni,1,0.0922,0.0,0.0
+name,Chikunda,1,0.0922,0.0,0.0
+name,Chilaweni CDSS,1,0.0922,0.0,0.0
+name,Chileka Road,1,0.0922,0.0,0.0
+name,Chilembwe secondary Hall,1,0.0922,0.0,0.0
+name,Chilole School,1,0.0922,0.0,0.0
+name,Chilumba Primary School,1,0.0922,0.0,0.0
+name,Chilumba School,1,0.0922,0.0,0.0
+name,Chilunga Soccer Field,1,0.0922,0.0,0.0
+name,Chimbende School,1,0.0922,0.0,0.0
+name,Chimbiya School,1,0.0922,0.0,0.0
+name,Chimesya School,1,0.0922,0.0,0.0
+name,Chimwankhunda CDSS,1,0.0922,0.0,0.0
+name,Chinama School,1,0.0922,0.0,0.0
+name,Ching`anda P School,1,0.0922,0.0,0.0
+name,Chinguwo FP School,1,0.0922,0.0,0.0
+name,Chingwenya School,1,0.0922,0.0,0.0
+name,Chinupule 1A,1,0.0922,0.0,0.0
+name,Chinupule 1B,1,0.0922,0.0,0.0
+name,Chinupule 1C,1,0.0922,0.0,0.0
+name,Chinupule 2,1,0.0922,0.0,0.0
+name,Chinyama to Mitawa,1,0.0922,0.0,0.0
+name,Chipalamawamba School,1,0.0922,0.0,0.0
+name,Chipande,1,0.0922,0.0,0.0
+name,Chipeleka School,1,0.0922,0.0,0.0
+name,Chipeta,1,0.0922,0.0,0.0
+name,Chipoka_masjid,1,0.0922,0.0,0.0
+name,Chiponde School,1,0.0922,0.0,0.0
+name,Chipunga School,1,0.0922,0.0,0.0
+name,Chiradzulu Forest Reserve,1,0.0922,0.0,0.0
+name,Chirimba CDSS,1,0.0922,0.0,0.0
+name,Chirimba School,1,0.0922,0.0,0.0
+name,Chiringa CDSS Hall,1,0.0922,0.0,0.0
+name,Chiringa Catholic Parish,1,0.0922,0.0,0.0
+name,Chiringa Catholic Parish Hall,1,0.0922,0.0,0.0
+name,Chiringa Magistrate Court,1,0.0922,0.0,0.0
+name,Chiringa Police Station,1,0.0922,0.0,0.0
+name,Chiringa Post Office,1,0.0922,0.0,0.0
+name,Chiringa Telecenter,1,0.0922,0.0,0.0
+name,Chiringa Ufulu Wathu CBO,1,0.0922,0.0,0.0
+name,Chiringa Youth Club,1,0.0922,0.0,0.0
+name,Chisomo Nursery School,1,0.0922,0.0,0.0
+name,Chisopi School,1,0.0922,0.0,0.0
+name,Chitawira Primary School,1,0.0922,0.0,0.0
+name,Chitete Maleta School,1,0.0922,0.0,0.0
+name,Chitsime,1,0.0922,0.0,0.0
+name,Chitsime CCAP Church,1,0.0922,0.0,0.0
+name,Chitumba,1,0.0922,0.0,0.0
+name,Chiusi JP School,1,0.0922,0.0,0.0
+name,Chiwembe,1,0.0922,0.0,0.0
+name,Chomba,1,0.0922,0.0,0.0
+name,Chowe School,1,0.0922,0.0,0.0
+name,Church of Christ,1,0.0922,0.0,0.0
+name,Chuwalukonji Bicycle Repair Shop,1,0.0922,0.0,0.0
+name,Classroom Blocks,1,0.0922,0.0,0.0
+name,Clinic Administratoion Block,1,0.0922,0.0,0.0
+name,Clinic Block,1,0.0922,0.0,0.0
+name,Clinic Wards,1,0.0922,0.0,0.0
+name,Clubfit,1,0.0922,0.0,0.0
+name,Computer Lab,1,0.0922,0.0,0.0
+name,Covered stand,1,0.0922,0.0,0.0
+name,Daud Motorcycle Spares,1,0.0922,0.0,0.0
+name,Dean of Built Environment office,1,0.0922,0.0,0.0
+name,Delamere Car Park,1,0.0922,0.0,0.0
+name,Dr s Kampondeni,1,0.0922,0.0,0.0
+name,Dunduzu Road,1,0.0922,0.0,0.0
+name,Earth road,1,0.0922,0.0,0.0
+name,Eastern Region Police Headquarters,1,0.0922,0.0,0.0
+name,Emmanuel private secondary school,1,0.0922,0.0,0.0
+name,FDH Bank,1,0.0922,0.0,0.0
+name,Fatsano Drug Store,1,0.0922,0.0,0.0
+name,Federation,1,0.0922,0.0,0.0
+name,Feeding Shelter,1,0.0922,0.0,0.0
+name,Female Toilets,1,0.0922,0.0,0.0
+name,Forest Road,1,0.0922,0.0,0.0
+name,Funwe,1,0.0922,0.0,0.0
+name,Gate House,1,0.0922,0.0,0.0
+name,Girls Hostel,1,0.0922,0.0,0.0
+name,Girls hostels,1,0.0922,0.0,0.0
+name,Globe Computer Systems Limited,1,0.0922,0.0,0.0
+name,Globe Internet Limited,1,0.0922,0.0,0.0
+name,Gogo Nazombe Office,1,0.0922,0.0,0.0
+name,Goleka School,1,0.0922,0.0,0.0
+name,Govala,1,0.0922,0.0,0.0
+name,Gracious Pvt,1,0.0922,0.0,0.0
+name,Green Malata - Childrens Training Village,1,0.0922,0.0,0.0
+name,Greenland,1,0.0922,0.0,0.0
+name,Growing stars Montessori Nursery School,1,0.0922,0.0,0.0
+name,Guard,1,0.0922,0.0,0.0
+name,H,1,0.0922,0.0,0.0
+name,Hall 1,1,0.0922,0.0,0.0
+name,Hall 2,1,0.0922,0.0,0.0
+name,Hall 3,1,0.0922,0.0,0.0
+name,Hall 5,1,0.0922,0.0,0.0
+name,Hall 6,1,0.0922,0.0,0.0
+name,Hall 7,1,0.0922,0.0,0.0
+name,Hall 8,1,0.0922,0.0,0.0
+name,House,1,0.0922,0.0,0.0
+name,House 1,1,0.0922,0.0,0.0
+name,House 2,1,0.0922,0.0,0.0
+name,Independence Drive,1,0.0922,0.0,0.0
+name,Ipani Full Primary School,1,0.0922,0.0,0.0
+name,J3 Motors,1,0.0922,0.0,0.0
+name,JORDAN DAM,1,0.0922,0.0,0.0
+name,Jehovah Witness,1,0.0922,0.0,0.0
+name,Jiramu School,1,0.0922,0.0,0.0
+name,Joshua Pvt Sec School,1,0.0922,0.0,0.0
+name,Joy Pvt Primary School,1,0.0922,0.0,0.0
+name,Kachere Primary School,1,0.0922,0.0,0.0
+name,Kachere School,1,0.0922,0.0,0.0
+name,Kadango FP School,1,0.0922,0.0,0.0
+name,Kaloka School,1,0.0922,0.0,0.0
+name,Kalulu Stadium,1,0.0922,0.0,0.0
+name,Kampala,1,0.0922,0.0,0.0
+name,Kamuzu Stadium,1,0.0922,0.0,0.0
+name,Kango FP School,1,0.0922,0.0,0.0
+name,Kanjedza Forest,1,0.0922,0.0,0.0
+name,Kanjedza Masjid,1,0.0922,0.0,0.0
+name,Kankhande School,1,0.0922,0.0,0.0
+name,Kapeni Demonstration School,1,0.0922,0.0,0.0
+name,Ken Lipenga Bar and Restaurant,1,0.0922,0.0,0.0
+name,Khama,1,0.0922,0.0,0.0
+name,Khama Driving School,1,0.0922,0.0,0.0
+name,Khokwe Hardware,1,0.0922,0.0,0.0
+name,Koche Model School,1,0.0922,0.0,0.0
+name,Kontainer,1,0.0922,0.0,0.0
+name,Kwilembe School,1,0.0922,0.0,0.0
+name,Kwiputi School,1,0.0922,0.0,0.0
+name,Kwisimba School,1,0.0922,0.0,0.0
+name,LUPETERE School,1,0.0922,0.0,0.0
+name,Lake Road Filling Station,1,0.0922,0.0,0.0
+name,Lecture offices,1,0.0922,0.0,0.0
+name,Library of Polytechnic,1,0.0922,0.0,0.0
+name,Lichenya,1,0.0922,0.0,0.0
+name,Lidunde School,1,0.0922,0.0,0.0
+name,Likhubula Free Market,1,0.0922,0.0,0.0
+name,Likubula Secondary School,1,0.0922,0.0,0.0
+name,Lil-Popins Nursey and Primary School,1,0.0922,0.0,0.0
+name,Lilimbe School,1,0.0922,0.0,0.0
+name,Limbe,1,0.0922,0.0,0.0
+name,Limbe Central Hospital,1,0.0922,0.0,0.0
+name,Link Road,1,0.0922,0.0,0.0
+name,Lisangadzi,1,0.0922,0.0,0.0
+name,Lisumbwi Open Sec School,1,0.0922,0.0,0.0
+name,Lisumbwi Sec. School,1,0.0922,0.0,0.0
+name,Litete School,1,0.0922,0.0,0.0
+name,Livingstone Road,1,0.0922,0.0,0.0
+name,Lodging Facility,1,0.0922,0.0,0.0
+name,Luchenza Town Hall,1,0.0922,0.0,0.0
+name,Luchichi,1,0.0922,0.0,0.0
+name,Luchimwa School,1,0.0922,0.0,0.0
+name,Lufalu J. P,1,0.0922,0.0,0.0
+name,Lulanga School,1,0.0922,0.0,0.0
+name,Lumbira CDSS,1,0.0922,0.0,0.0
+name,Lunzu Maone,1,0.0922,0.0,0.0
+name,Lusalumwe School,1,0.0922,0.0,0.0
+name,Luwalika School,1,0.0922,0.0,0.0
+name,Luwi School,1,0.0922,0.0,0.0
+name,Lwanga School,1,0.0922,0.0,0.0
+name,MISSIONARY HOUSE,1,0.0922,0.0,0.0
+name,MLANGO National Headoffice in Malawi,1,0.0922,0.0,0.0
+name,MTO Full Primary School,1,0.0922,0.0,0.0
+name,MUST BASKETBALL COURT,1,0.0922,0.0,0.0
+name,MUST Cafeteria,1,0.0922,0.0,0.0
+name,MUST Clinic,1,0.0922,0.0,0.0
+name,MUST Football Pitch,1,0.0922,0.0,0.0
+name,Ma Flats,1,0.0922,0.0,0.0
+name,Madziabango Health Center,1,0.0922,0.0,0.0
+name,Magomero School,1,0.0922,0.0,0.0
+name,Majuni School,1,0.0922,0.0,0.0
+name,Majuni Sec. School,1,0.0922,0.0,0.0
+name,Makalanga Primary School,1,0.0922,0.0,0.0
+name,Makanjira CDSS,1,0.0922,0.0,0.0
+name,Makata Street,1,0.0922,0.0,0.0
+name,Makawa Bike Repair,1,0.0922,0.0,0.0
+name,Makawa School,1,0.0922,0.0,0.0
+name,Makhetha,1,0.0922,0.0,0.0
+name,Makumba School,1,0.0922,0.0,0.0
+name,Malambe,1,0.0922,0.0,0.0
+name,Malawi University of Science and Technology,1,0.0922,0.0,0.0
+name,Malembo School,1,0.0922,0.0,0.0
+name,Malindi JP School,1,0.0922,0.0,0.0
+name,Malindi School,1,0.0922,0.0,0.0
+name,Malombe Sec. School,1,0.0922,0.0,0.0
+name,Malukula School,1,0.0922,0.0,0.0
+name,Malumba Street,1,0.0922,0.0,0.0
+name,Mama Khadija Girls Pvt,1,0.0922,0.0,0.0
+name,Mama Khadija Pvt,1,0.0922,0.0,0.0
+name,Mama_mia_lodge,1,0.0922,0.0,0.0
+name,Mandimba 1 School,1,0.0922,0.0,0.0
+name,Mandimba 2 School,1,0.0922,0.0,0.0
+name,Mangale School,1,0.0922,0.0,0.0
+name,Mangochi CCAP,1,0.0922,0.0,0.0
+name,Mangochi Sec. School,1,0.0922,0.0,0.0
+name,Mangombo School,1,0.0922,0.0,0.0
+name,Mangulenje CCAP Church,1,0.0922,0.0,0.0
+name,Mangulenje Clinic,1,0.0922,0.0,0.0
+name,Mangulenje Police,1,0.0922,0.0,0.0
+name,Manje,1,0.0922,0.0,0.0
+name,Manjombe,1,0.0922,0.0,0.0
+name,Mapanga Police Unit,1,0.0922,0.0,0.0
+name,Mapareka Elementary School,1,0.0922,0.0,0.0
+name,Mapazi,1,0.0922,0.0,0.0
+name,Mapazi CDSS,1,0.0922,0.0,0.0
+name,Marine Unit School,1,0.0922,0.0,0.0
+name,Masongola 1 School,1,0.0922,0.0,0.0
+name,Masongola 2 School,1,0.0922,0.0,0.0
+name,Masuku CDSS,1,0.0922,0.0,0.0
+name,Masuku School,1,0.0922,0.0,0.0
+name,Matamanda School,1,0.0922,0.0,0.0
+name,Matawale,1,0.0922,0.0,0.0
+name,Matawale Health Center Main Building,1,0.0922,0.0,0.0
+name,Matenjere School,1,0.0922,0.0,0.0
+name,Maternity Wing,1,0.0922,0.0,0.0
+name,Matiya Primary School,1,0.0922,0.0,0.0
+name,Mauni School,1,0.0922,0.0,0.0
+name,Mayera School,1,0.0922,0.0,0.0
+name,Mbale,1,0.0922,0.0,0.0
+name,Mbayani School,1,0.0922,0.0,0.0
+name,Mbombwe School,1,0.0922,0.0,0.0
+name,Mbonechera School,1,0.0922,0.0,0.0
+name,Mbwadzulu School,1,0.0922,0.0,0.0
+name,Mchema School,1,0.0922,0.0,0.0
+name,Mchoka School,1,0.0922,0.0,0.0
+name,Mchokola School,1,0.0922,0.0,0.0
+name,Mdalamakumba School,1,0.0922,0.0,0.0
+name,Mdinde School,1,0.0922,0.0,0.0
+name,Mgwirizano CP School,1,0.0922,0.0,0.0
+name,Michiru School,1,0.0922,0.0,0.0
+name,Michumbene Graveyard,1,0.0922,0.0,0.0
+name,Mikombe School,1,0.0922,0.0,0.0
+name,Mikuyu Turnoff Bycicle Repair Shop,1,0.0922,0.0,0.0
+name,Milambe School,1,0.0922,0.0,0.0
+name,Misanjo Primary School,1,0.0922,0.0,0.0
+name,Misesa,1,0.0922,0.0,0.0
+name,Misesa A,1,0.0922,0.0,0.0
+name,Misesa B,1,0.0922,0.0,0.0
+name,Misesa Quarry,1,0.0922,0.0,0.0
+name,Misikatema,1,0.0922,0.0,0.0
+name,Misolo School,1,0.0922,0.0,0.0
+name,Mitawa Primary School Ground,1,0.0922,0.0,0.0
+name,Mitsidi CDSS,1,0.0922,0.0,0.0
+name,Miwawe School,1,0.0922,0.0,0.0
+name,Mjambe,1,0.0922,0.0,0.0
+name,Mkulimba,1,0.0922,0.0,0.0
+name,Mkumba CDSS,1,0.0922,0.0,0.0
+name,Mkumba School,1,0.0922,0.0,0.0
+name,Mkwera JP,1,0.0922,0.0,0.0
+name,Mlunguzi Primary School,1,0.0922,0.0,0.0
+name,Mninje School,1,0.0922,0.0,0.0
+name,Monkey Bay CDSS,1,0.0922,0.0,0.0
+name,Monkey Bay Open,1,0.0922,0.0,0.0
+name,Monkey Bay Pvt School,1,0.0922,0.0,0.0
+name,Mpamila School,1,0.0922,0.0,0.0
+name,Mpapa LEA School,1,0.0922,0.0,0.0
+name,Mpilipili School,1,0.0922,0.0,0.0
+name,Mpinganjira School,1,0.0922,0.0,0.0
+name,Mpingwe CDSS,1,0.0922,0.0,0.0
+name,Mpingwe Sports Club,1,0.0922,0.0,0.0
+name,Mpita School,1,0.0922,0.0,0.0
+name,Mpondas CDSS,1,0.0922,0.0,0.0
+name,Mpondas School,1,0.0922,0.0,0.0
+name,Mponya School,1,0.0922,0.0,0.0
+name,Mpwakata School,1,0.0922,0.0,0.0
+name,Mpwingwi,1,0.0922,0.0,0.0
+name,Msika Wa Ukulu,1,0.0922,0.0,0.0
+name,Msinjiri School,1,0.0922,0.0,0.0
+name,Mtambuwa School,1,0.0922,0.0,0.0
+name,Mtamila School,1,0.0922,0.0,0.0
+name,Mthawira Primary School,1,0.0922,0.0,0.0
+name,Mtonda,1,0.0922,0.0,0.0
+name,Mtuwa CDSS,1,0.0922,0.0,0.0
+name,Mtuwa School,1,0.0922,0.0,0.0
+name,Mudi Bridge,1,0.0922,0.0,0.0
+name,Mulunguzi,1,0.0922,0.0,0.0
+name,Mulunguzi CDSS,1,0.0922,0.0,0.0
+name,Mulunguzi Community Church,1,0.0922,0.0,0.0
+name,Mulunguzi Secondary School,1,0.0922,0.0,0.0
+name,Muluzi,1,0.0922,0.0,0.0
+name,Musk,1,0.0922,0.0,0.0
+name,Nakanyanja JP School,1,0.0922,0.0,0.0
+name,Nakawale 1 Primary School,1,0.0922,0.0,0.0
+name,Nakawale 2 School,1,0.0922,0.0,0.0
+name,Nakundu School,1,0.0922,0.0,0.0
+name,Nalikolo School,1,0.0922,0.0,0.0
+name,Namadzi,1,0.0922,0.0,0.0
+name,Namadzi Post Office,1,0.0922,0.0,0.0
+name,Namalimwe CDSS,1,0.0922,0.0,0.0
+name,Namalweso Islamic Centre,1,0.0922,0.0,0.0
+name,Namame CDSS,1,0.0922,0.0,0.0
+name,Namame School,1,0.0922,0.0,0.0
+name,Namasayi School,1,0.0922,0.0,0.0
+name,Namasimba 1,1,0.0922,0.0,0.0
+name,Namasimba 2 School,1,0.0922,0.0,0.0
+name,Namaswa School,1,0.0922,0.0,0.0
+name,Namatanda School,1,0.0922,0.0,0.0
+name,Namatete School,1,0.0922,0.0,0.0
+name,Namazizi School,1,0.0922,0.0,0.0
+name,Nambalale,1,0.0922,0.0,0.0
+name,Nambande School,1,0.0922,0.0,0.0
+name,Namikhate School,1,0.0922,0.0,0.0
+name,Namitambo School,1,0.0922,0.0,0.0
+name,Namiwawa CDSS,1,0.0922,0.0,0.0
+name,Namiyango Pvt,1,0.0922,0.0,0.0
+name,Namiyungu,1,0.0922,0.0,0.0
+name,Nampinguja School,1,0.0922,0.0,0.0
+name,Namwanje,1,0.0922,0.0,0.0
+name,Namwera Health Center,1,0.0922,0.0,0.0
+name,Nandembo School,1,0.0922,0.0,0.0
+name,Nangafuwe,1,0.0922,0.0,0.0
+name,Nangalamu,1,0.0922,0.0,0.0
+name,Nangalole J.P School,1,0.0922,0.0,0.0
+name,Nangapoche,1,0.0922,0.0,0.0
+name,Nangwazi School,1,0.0922,0.0,0.0
+name,Nankhwali CDSS,1,0.0922,0.0,0.0
+name,Nankhwali Catholic FP School,1,0.0922,0.0,0.0
+name,Nansato School,1,0.0922,0.0,0.0
+name,Nansenga CDSS,1,0.0922,0.0,0.0
+name,Nanyundo School,1,0.0922,0.0,0.0
+name,Nasawa Football ground,1,0.0922,0.0,0.0
+name,Nasenga JP,1,0.0922,0.0,0.0
+name,Nassawa Football ground,1,0.0922,0.0,0.0
+name,National Bank Car Park,1,0.0922,0.0,0.0
+name,National Data Cente - Blantyre,1,0.0922,0.0,0.0
+name,Nazarene Mission,1,0.0922,0.0,0.0
+name,Nazombe TDC,1,0.0922,0.0,0.0
+name,Nchokera CDSS,1,0.0922,0.0,0.0
+name,Ndangopuma L.E.A. Primary School,1,0.0922,0.0,0.0
+name,Ndengu Primary School,1,0.0922,0.0,0.0
+name,Ndirande Hill LEA Primary School,1,0.0922,0.0,0.0
+name,Ndirande Main Masjid,1,0.0922,0.0,0.0
+name,Ndirande Matope FP Primary School,1,0.0922,0.0,0.0
+name,Ndirande Matope Full Primary School,1,0.0922,0.0,0.0
+name,Ndirande Post Office,1,0.0922,0.0,0.0
+name,Ndiza,1,0.0922,0.0,0.0
+name,Ngabu Rural Hospital,1,0.0922,0.0,0.0
+name,Ngapani LEA School,1,0.0922,0.0,0.0
+name,Ngumbe assemblies of God Church,1,0.0922,0.0,0.0
+name,Ngumbe primary school,1,0.0922,0.0,0.0
+name,Ngundaphiri,1,0.0922,0.0,0.0
+name,Njera School,1,0.0922,0.0,0.0
+name,Njerenje,1,0.0922,0.0,0.0
+name,Njereza School,1,0.0922,0.0,0.0
+name,Njuli CDSS,1,0.0922,0.0,0.0
+name,Nkhukuteni,1,0.0922,0.0,0.0
+name,Nkonangona School,1,0.0922,0.0,0.0
+name,Nkung'Unda,1,0.0922,0.0,0.0
+name,Nsawa School,1,0.0922,0.0,0.0
+name,Nsuwadzi,1,0.0922,0.0,0.0
+name,Ntiya P School,1,0.0922,0.0,0.0
+name,Nyambadwe CDSS,1,0.0922,0.0,0.0
+name,Nyambadwe Pvt Sec School,1,0.0922,0.0,0.0
+name,Nyambadwe School,1,0.0922,0.0,0.0
+name,Nyozani Bottle Store,1,0.0922,0.0,0.0
+name,O,1,0.0922,0.0,0.0
+name,Our Lady Of Lourds Pvt School,1,0.0922,0.0,0.0
+name,P.I.M Health Center,1,0.0922,0.0,0.0
+name,P.I.M Library,1,0.0922,0.0,0.0
+name,P.I.M Main Hall,1,0.0922,0.0,0.0
+name,PACT,1,0.0922,0.0,0.0
+name,PSI Malawi,1,0.0922,0.0,0.0
+name,PUMA filling station,1,0.0922,0.0,0.0
+name,Pa Corner,1,0.0922,0.0,0.0
+name,Pachoko Hardware Shop,1,0.0922,0.0,0.0
+name,Pagovala Bicycle Rank,1,0.0922,0.0,0.0
+name,Palmland Pvt School,1,0.0922,0.0,0.0
+name,Passion Centre of Malawi,1,0.0922,0.0,0.0
+name,Pastors House,1,0.0922,0.0,0.0
+name,Path,1,0.0922,0.0,0.0
+name,Physical Planning HOD office,1,0.0922,0.0,0.0
+name,Premier Bet,1,0.0922,0.0,0.0
+name,Presidential Ceremonial Ground,1,0.0922,0.0,0.0
+name,Presscane,1,0.0922,0.0,0.0
+name,Public Primary School,1,0.0922,0.0,0.0
+name,Pwazi Estate,1,0.0922,0.0,0.0
+name,Railways,1,0.0922,0.0,0.0
+name,Railways Pvt,1,0.0922,0.0,0.0
+name,Resource Center,1,0.0922,0.0,0.0
+name,Resource Hostel Kitchen,1,0.0922,0.0,0.0
+name,Resource Hostels,1,0.0922,0.0,0.0
+name,Rice Mill,1,0.0922,0.0,0.0
+name,River,1,0.0922,0.0,0.0
+name,Riverside,1,0.0922,0.0,0.0
+name,Riverside Primary School,1,0.0922,0.0,0.0
+name,Rukuru Street,1,0.0922,0.0,0.0
+name,Ruo Valley Forest,1,0.0922,0.0,0.0
+name,SChool Maize Mill,1,0.0922,0.0,0.0
+name,SDA Church,1,0.0922,0.0,0.0
+name,ST Augustine 2 FP School,1,0.0922,0.0,0.0
+name,ST Ignatious School,1,0.0922,0.0,0.0
+name,ST John Catholic School,1,0.0922,0.0,0.0
+name,Sadzi Clinic,1,0.0922,0.0,0.0
+name,Safalao Market,1,0.0922,0.0,0.0
+name,Saikonde,1,0.0922,0.0,0.0
+name,Saiti kadzua,1,0.0922,0.0,0.0
+name,Samama School,1,0.0922,0.0,0.0
+name,Sangadzi 1,1,0.0922,0.0,0.0
+name,Sangadzi CDSS,1,0.0922,0.0,0.0
+name,Sanjika ROCK,1,0.0922,0.0,0.0
+name,Sapitwa,1,0.0922,0.0,0.0
+name,Scheune,1,0.0922,0.0,0.0
+name,School Hall,1,0.0922,0.0,0.0
+name,School Kitchen,1,0.0922,0.0,0.0
+name,School Library,1,0.0922,0.0,0.0
+name,School School Block,1,0.0922,0.0,0.0
+name,School storage,1,0.0922,0.0,0.0
+name,Sdazi Seventh-day Adventist Church,1,0.0922,0.0,0.0
+name,Senjere Full Privatw School,1,0.0922,0.0,0.0
+name,Sigerege,1,0.0922,0.0,0.0
+name,Sigerege School,1,0.0922,0.0,0.0
+name,Simbiri LEA School,1,0.0922,0.0,0.0
+name,Sir Harris Assembly Hall,1,0.0922,0.0,0.0
+name,Sir Harris Swimming Pool,1,0.0922,0.0,0.0
+name,Skinny Hippo Lodge,1,0.0922,0.0,0.0
+name,Skinny Hippo Restaurant,1,0.0922,0.0,0.0
+name,Small shopping centre,1,0.0922,0.0,0.0
+name,Soche Hill Secondary School,1,0.0922,0.0,0.0
+name,Somba,1,0.0922,0.0,0.0
+name,South Lunzu CDSS,1,0.0922,0.0,0.0
+name,Splendor,1,0.0922,0.0,0.0
+name,Splendor Hotel Bar,1,0.0922,0.0,0.0
+name,Ssmbammanja,1,0.0922,0.0,0.0
+name,St Anthony Nursering School,1,0.0922,0.0,0.0
+name,St Augustine 1 School,1,0.0922,0.0,0.0
+name,St Joseph F.P School,1,0.0922,0.0,0.0
+name,St Louis School,1,0.0922,0.0,0.0
+name,St Patricks Sec School,1,0.0922,0.0,0.0
+name,St Paul Primary School,1,0.0922,0.0,0.0
+name,St Pauls Seminary,1,0.0922,0.0,0.0
+name,St. Joseph CDSS,1,0.0922,0.0,0.0
+name,St. Kizito CDSS,1,0.0922,0.0,0.0
+name,St. Martins CDSS,1,0.0922,0.0,0.0
+name,St. Michaels Girls Sec. School,1,0.0922,0.0,0.0
+name,St. Monica Girls Sec School,1,0.0922,0.0,0.0
+name,Stadium,1,0.0922,0.0,0.0
+name,Staff Buildings,1,0.0922,0.0,0.0
+name,Steers,1,0.0922,0.0,0.0
+name,Sukali,1,0.0922,0.0,0.0
+name,Summer Hut,1,0.0922,0.0,0.0
+name,Sungeni Cottage,1,0.0922,0.0,0.0
+name,Sungusya JP School,1,0.0922,0.0,0.0
+name,TNM Head Office,1,0.0922,0.0,0.0
+name,Taliya School,1,0.0922,0.0,0.0
+name,Thandizo,1,0.0922,0.0,0.0
+name,Thandizo Bike Repair shop,1,0.0922,0.0,0.0
+name,Thangadzi F. P. School,1,0.0922,0.0,0.0
+name,Thanthwe School,1,0.0922,0.0,0.0
+name,The Thyolo House,1,0.0922,0.0,0.0
+name,Thirsty,1,0.0922,0.0,0.0
+name,Thumu CDSS,1,0.0922,0.0,0.0
+name,Thumu School,1,0.0922,0.0,0.0
+name,Treatment Room,1,0.0922,0.0,0.0
+name,Trinity Anglican Pvt Sec School,1,0.0922,0.0,0.0
+name,Turn off to The Thyolo House,1,0.0922,0.0,0.0
+name,UMAR - AL - FAROOQ,1,0.0922,0.0,0.0
+name,Umar-Farook Education Centre,1,0.0922,0.0,0.0
+name,Unga 1 FP School,1,0.0922,0.0,0.0
+name,Unga School,1,0.0922,0.0,0.0
+name,University of Malawi - Chancellor College Campus,1,0.0922,0.0,0.0
+name,Victoria Road,1,0.0922,0.0,0.0
+name,Wala Pvt Primary School,1,0.0922,0.0,0.0
+name,Wasteadvisers Malawi,1,0.0922,0.0,0.0
+name,Wisiki,1,0.0922,0.0,0.0
+name,Wonder Bakery,1,0.0922,0.0,0.0
+name,Zambo School,1,0.0922,0.0,0.0
+name,Zaone School,1,0.0922,0.0,0.0
+name,Zomba Bakery,1,0.0922,0.0,0.0
+name,Zomba City Planning Office,1,0.0922,0.0,0.0
+name,Zomba Mental Hospital,1,0.0922,0.0,0.0
+name,Zomba Municipality,1,0.0922,0.0,0.0
+name,Zomba Post Office;Zomba post office,1,0.0922,0.0,0.0
+name,Zomba Urban Secondary School,1,0.0922,0.0,0.0
+name,access road,1,0.0922,0.0,0.0
+name,afganisches dorf 2,1,0.0922,0.0,0.0
+name,auch ein haus (hab kein bock neue namen zu erfinden),1,0.0922,0.0,0.0
+name,banks,1,0.0922,0.0,0.0
+name,bauernhof,1,0.0922,0.0,0.0
+name,bauernhof des roten tracktors in afganistan,1,0.0922,0.0,0.0
+name,bauernhof von osama bin laden,1,0.0922,0.0,0.0
+name,baumaffenhaus,1,0.0922,0.0,0.0
+name,bezos,1,0.0922,0.0,0.0
+name,boys quarter,1,0.0922,0.0,0.0
+name,boys quaters,1,0.0922,0.0,0.0
+name,bruh,1,0.0922,0.0,0.0
+name,building\,1,0.0922,0.0,0.0
+name,charcoal market,1,0.0922,0.0,0.0
+name,chonde market,1,0.0922,0.0,0.0
+name,comforz ground,1,0.0922,0.0,0.0
+name,commercial use,1,0.0922,0.0,0.0
+name,cooles Haus,1,0.0922,0.0,0.0
+name,elon,1,0.0922,0.0,0.0
+name,farm,1,0.0922,0.0,0.0
+name,feeding shelter,1,0.0922,0.0,0.0
+name,"glaube dass es ein Haus ist, kann aber auch ein stein sein.qq",1,0.0922,0.0,0.0
+name,hat,1,0.0922,0.0,0.0
+name,haus mit baum,1,0.0922,0.0,0.0
+name,haus mit feld,1,0.0922,0.0,0.0
+name,hausw,1,0.0922,0.0,0.0
+name,hi lukas,1,0.0922,0.0,0.0
+name,"höstwahrscheinlich wohngebiet, sry dass ich es nicht besser erkennen kann",1,0.0922,0.0,0.0
+name,ist vielleicht ein stein,1,0.0922,0.0,0.0
+name,jeff,1,0.0922,0.0,0.0
+name,kadabwako,1,0.0922,0.0,0.0
+name,keine ahnung was das ist,1,0.0922,0.0,0.0
+name,kitchen,1,0.0922,0.0,0.0
+name,lol#,1,0.0922,0.0,0.0
+name,looks weird,1,0.0922,0.0,0.0
+name,luchenza school ground,1,0.0922,0.0,0.0
+name,lungwena School,1,0.0922,0.0,0.0
+name,macadamia nuts farm,1,0.0922,0.0,0.0
+name,madamu,1,0.0922,0.0,0.0
+name,mangunda,1,0.0922,0.0,0.0
+name,maternity block,1,0.0922,0.0,0.0
+name,mini haus,1,0.0922,0.0,0.0
+name,mini ökohaus,1,0.0922,0.0,0.0
+name,nicht so coolen häuser,1,0.0922,0.0,0.0
+name,osama bin ladens haus,1,0.0922,0.0,0.0
+name,osamas 3. haus,1,0.0922,0.0,0.0
+name,osamas badehaus,1,0.0922,0.0,0.0
+name,osamas ferienhaus,1,0.0922,0.0,0.0
+name,pa ngodi,1,0.0922,0.0,0.0
+name,pamudzi_lodge,1,0.0922,0.0,0.0
+name,resident,1,0.0922,0.0,0.0
+name,residential house,1,0.0922,0.0,0.0
+name,residential way,1,0.0922,0.0,0.0
+name,road,1,0.0922,0.0,0.0
+name,school  kitchen,1,0.0922,0.0,0.0
+name,school storage,1,0.0922,0.0,0.0
+name,sewage control,1,0.0922,0.0,0.0
+name,shack,1,0.0922,0.0,0.0
+name,staff House,1,0.0922,0.0,0.0
+name,staff house 1,1,0.0922,0.0,0.0
+name,staff house 2,1,0.0922,0.0,0.0
+name,staff house3,1,0.0922,0.0,0.0
+name,staff house4,1,0.0922,0.0,0.0
+name,studio,1,0.0922,0.0,0.0
+name,taliban dorf,1,0.0922,0.0,0.0
+name,taliban karussel,1,0.0922,0.0,0.0
+name,vieh platz von osama bin laden,1,0.0922,0.0,0.0
+name,war zu klein um zu markieren sind zelte,1,0.0922,0.0,0.0
+name,warehouse,1,0.0922,0.0,0.0
+name,warum ist es weiß,1,0.0922,0.0,0.0
+name,wikinger haus,1,0.0922,0.0,0.0
+name,wolkenkratzer,1,0.0922,0.0,0.0
+natural,tree,34,37.7778,3300.0,3300.0
+natural,water,22,24.4444,2100.0,2100.0
+natural,wood,16,17.7778,1500.0,1500.0
+natural,beach,12,13.3333,1100.0,1100.0
+natural,wetland,3,3.3333,200.0,200.0
+natural,coastline,2,2.2222,100.0,100.0
+natural,volcano,1,1.1111,0.0,0.0
+source,aerial imagery,203,63.6364,20200.0,20200.0
+source,microsoft/BuildingFootprints,35,10.9718,3400.0,3400.0
+source,maxar,29,9.0909,2800.0,2800.0
+source,aerial imagery;Maxar,13,4.0752,1200.0,1200.0
+source,bing,13,4.0752,1200.0,1200.0
+source,maplibrary.org,10,3.1348,900.0,900.0
+source,Bing,6,1.8809,500.0,500.0
+source,http://www.police.gov.mw/branches/eastern-region-profile/,3,0.9404,200.0,200.0
+source,survey,3,0.9404,200.0,200.0
+source,digitalglobe,2,0.627,100.0,100.0
+source,DigitalGlobe Premium Imagery,1,0.3135,0.0,0.0
+source,aerial imagery;q,1,0.3135,0.0,0.0
+surface,unpaved,695,81.6686,69400.0,69400.0
+surface,asphalt,83,9.7532,8200.0,8200.0
+surface,ground,34,3.9953,3300.0,3300.0
+surface,dirt,20,2.3502,1900.0,1900.0
+surface,paved,9,1.0576,800.0,800.0
+surface,concrete,6,0.7051,500.0,500.0
+surface,sand,2,0.235,100.0,100.0
+surface,gravel,1,0.1175,0.0,0.0
+surface,no,1,0.1175,0.0,0.0
+waterway,river,144,48.3221,14300.0,14300.0
+waterway,stream,142,47.651,14100.0,14100.0
+waterway,ditch,5,1.6779,400.0,400.0
+waterway,canal,3,1.0067,200.0,200.0
+waterway,dam,2,0.6711,100.0,100.0
+waterway,waterfall,1,0.3356,0.0,0.0
+waterway,weir,1,0.3356,0.0,0.0

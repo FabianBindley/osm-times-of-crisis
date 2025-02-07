@@ -1,0 +1,42 @@
+key,value,count,percent_of_total_changes_for_key,percent_difference_from_pre,percent_difference_from_pre_day
+amenity,pharmacy,1,50.0,0.0,0.0
+amenity,place_of_worship,1,50.0,0.0,0.0
+building,yes,434,94.1432,43300.0,43300.0
+building,residential,26,5.6399,2500.0,2500.0
+building,roof,1,0.2169,0.0,0.0
+highway,residential,304,48.8746,30300.0,30300.0
+highway,tertiary,86,13.8264,8500.0,8500.0
+highway,service,78,12.5402,7700.0,7700.0
+highway,primary,50,8.0386,4900.0,4900.0
+highway,construction,44,7.074,4300.0,4300.0
+highway,footway,19,3.0547,1800.0,1800.0
+highway,trunk_link,13,2.09,1200.0,1200.0
+highway,trunk,10,1.6077,900.0,900.0
+highway,secondary,6,0.9646,500.0,500.0
+highway,primary_link,4,0.6431,300.0,300.0
+highway,tertiary_link,4,0.6431,300.0,300.0
+highway,unclassified,2,0.3215,100.0,100.0
+highway,secondary_link,1,0.1608,0.0,0.0
+highway,track,1,0.1608,0.0,0.0
+landuse,orchard,3,50.0,200.0,200.0
+landuse,residential,3,50.0,200.0,200.0
+name,درنه-طبرق Darnah-Tobruk,27,36.9863,2600.0,2600.0
+name,شارع المغار,14,19.1781,1300.0,1300.0
+name,شارع الفنار,6,8.2192,500.0,500.0
+name,وادي درنة,5,6.8493,400.0,400.0
+name,درنة-طبرق,4,5.4795,300.0,300.0
+name,درنة,3,4.1096,200.0,200.0
+name,شارع رافع الانصاري,3,4.1096,200.0,200.0
+name,طريق البيضاء-درنة,3,4.1096,200.0,200.0
+name,شارع الجبيلة,2,2.7397,100.0,100.0
+name,شارع الملاهب,2,2.7397,100.0,100.0
+name,درنه-القبه Derna-Al Qubbah,1,1.3699,0.0,0.0
+name,صيدلية وعد,1,1.3699,0.0,0.0
+name,فندق الجبل,1,1.3699,0.0,0.0
+name,مسجد الرشيد,1,1.3699,0.0,0.0
+natural,water,4,80.0,300.0,300.0
+natural,coastline,1,20.0,0.0,0.0
+source,OpenAerialMap,22,100.0,2100.0,2100.0
+surface,asphalt,111,99.1071,11000.0,11000.0
+surface,unpaved,1,0.8929,0.0,0.0
+waterway,river,5,100.0,400.0,400.0

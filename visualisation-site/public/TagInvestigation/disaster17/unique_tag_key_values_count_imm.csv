@@ -1,0 +1,1240 @@
+key,value,count,percent_of_total_changes_for_key,percent_difference_from_pre,percent_difference_from_pre_day
+amenity,place_of_worship,41,28.0822,4000.0,24841.6667
+amenity,school,15,10.274,1400.0,9025.0
+amenity,restaurant,14,9.589,1300.0,8416.6667
+amenity,fuel,13,8.9041,1200.0,7808.3333
+amenity,cafe,9,6.1644,800.0,5375.0
+amenity,bicycle_parking,8,5.4795,700.0,4766.6667
+amenity,hospital,8,5.4795,700.0,4766.6667
+amenity,parking,8,5.4795,700.0,4766.6667
+amenity,pharmacy,7,4.7945,600.0,4158.3333
+amenity,watering_place,5,3.4247,400.0,2941.6667
+amenity,post_office,3,2.0548,200.0,1725.0
+amenity,bank,2,1.3699,100.0,1116.6667
+amenity,college,2,1.3699,100.0,1116.6667
+amenity,bar,1,0.6849,0.0,508.3333
+amenity,bus_station,1,0.6849,0.0,508.3333
+amenity,childcare,1,0.6849,0.0,508.3333
+amenity,clinic,1,0.6849,0.0,508.3333
+amenity,driving_school,1,0.6849,0.0,508.3333
+amenity,fast_food,1,0.6849,0.0,508.3333
+amenity,kindergarten,1,0.6849,0.0,508.3333
+amenity,marketplace,1,0.6849,0.0,508.3333
+amenity,police,1,0.6849,0.0,508.3333
+amenity,social_centre,1,0.6849,0.0,508.3333
+amenity,taxi,1,0.6849,0.0,508.3333
+building,yes,251534,97.9765,25153300.0,153016416.6667
+building,house,3144,1.2246,314300.0,1912500.0
+building,residential,1091,0.425,109000.0,663591.6667
+building,construction,305,0.1188,30400.0,185441.6667
+building,apartments,196,0.0763,19500.0,119133.3333
+building,greenhouse,157,0.0612,15600.0,95408.3333
+building,roof,133,0.0518,13200.0,80808.3333
+building,school,31,0.0121,3000.0,18758.3333
+building,ruins,29,0.0113,2800.0,17541.6667
+building,garage,27,0.0105,2600.0,16325.0
+building,shed,18,0.007,1700.0,10850.0
+building,industrial,10,0.0039,900.0,5983.3333
+building,mosque,10,0.0039,900.0,5983.3333
+building,commercial,9,0.0035,800.0,5375.0
+building,detached,5,0.0019,400.0,2941.6667
+building,hotel,5,0.0019,400.0,2941.6667
+building,barn,4,0.0016,300.0,2333.3333
+building,warehouse,4,0.0016,300.0,2333.3333
+building,farm_auxiliary,3,0.0012,200.0,1725.0
+building,hut,2,0.0008,100.0,1116.6667
+building,outbuilding,2,0.0008,100.0,1116.6667
+building,retail,2,0.0008,100.0,1116.6667
+building,service,2,0.0008,100.0,1116.6667
+building,q,1,0.0004,0.0,508.3333
+building,stable,1,0.0004,0.0,508.3333
+building,tent,1,0.0004,0.0,508.3333
+building,water_tower,1,0.0004,0.0,508.3333
+building,yes-,1,0.0004,0.0,508.3333
+building,yesq,1,0.0004,0.0,508.3333
+emergency,water_tank,1,100.0,0.0,508.3333
+highway,track,13291,36.5007,1329000.0,8085258.3333
+highway,unclassified,9732,26.7267,973100.0,5920200.0
+highway,residential,5968,16.3898,596700.0,3630433.3333
+highway,path,3906,10.7269,390500.0,2376050.0
+highway,service,1524,4.1853,152300.0,927000.0
+highway,tertiary,790,2.1696,78900.0,480483.3333
+highway,living_street,352,0.9667,35100.0,214033.3333
+highway,footway,266,0.7305,26500.0,161716.6667
+highway,secondary,234,0.6426,23300.0,142250.0
+highway,primary,191,0.5245,19000.0,116091.6667
+highway,crossing,33,0.0906,3200.0,19975.0
+highway,road,27,0.0741,2600.0,16325.0
+highway,construction,25,0.0687,2400.0,15108.3333
+highway,trunk,20,0.0549,1900.0,12066.6667
+highway,tertiary_link,8,0.022,700.0,4766.6667
+highway,motorway,7,0.0192,600.0,4158.3333
+highway,primary_link,7,0.0192,600.0,4158.3333
+highway,pedestrian,5,0.0137,400.0,2941.6667
+highway,turning_circle,5,0.0137,400.0,2941.6667
+highway,proposed,4,0.011,300.0,2333.3333
+highway,steps,4,0.011,300.0,2333.3333
+highway,U,3,0.0082,200.0,1725.0
+highway,access,3,0.0082,200.0,1725.0
+highway,secondary_link,3,0.0082,200.0,1725.0
+highway,mini_roundabout,2,0.0055,100.0,1116.6667
+highway,minor,1,0.0027,0.0,508.3333
+highway,passing_place,1,0.0027,0.0,508.3333
+highway,turning_loop,1,0.0027,0.0,508.3333
+landuse,residential,3591,51.8182,359000.0,2184425.0
+landuse,farmland,1389,20.0433,138800.0,844875.0
+landuse,orchard,1002,14.4589,100100.0,609450.0
+landuse,forest,281,4.0548,28000.0,170841.6667
+landuse,basin,202,2.9149,20100.0,122783.3333
+landuse,reservoir,199,2.8716,19800.0,120958.3333
+landuse,farmyard,104,1.5007,10300.0,63166.6667
+landuse,greenhouse_horticulture,52,0.7504,5100.0,31533.3333
+landuse,meadow,18,0.2597,1700.0,10850.0
+landuse,allotments,15,0.2165,1400.0,9025.0
+landuse,industrial,13,0.1876,1200.0,7808.3333
+landuse,grass,12,0.1732,1100.0,7200.0
+landuse,retail,12,0.1732,1100.0,7200.0
+landuse,cemetery,8,0.1154,700.0,4766.6667
+landuse,construction,7,0.101,600.0,4158.3333
+landuse,quarry,7,0.101,600.0,4158.3333
+landuse,commercial,6,0.0866,500.0,3550.0
+landuse,brownfield,2,0.0289,100.0,1116.6667
+landuse,greenfield,2,0.0289,100.0,1116.6667
+landuse,military,2,0.0289,100.0,1116.6667
+landuse,religious,2,0.0289,100.0,1116.6667
+landuse,education,1,0.0144,0.0,508.3333
+landuse,leisure=resort?,1,0.0144,0.0,508.3333
+landuse,recreation_ground,1,0.0144,0.0,508.3333
+landuse,vineyard,1,0.0144,0.0,508.3333
+leisure,swimming_pool,260,71.0383,25900.0,158066.6667
+leisure,pitch,47,12.8415,4600.0,28491.6667
+leisure,park,28,7.6503,2700.0,16933.3333
+leisure,garden,24,6.5574,2300.0,14500.0
+leisure,playground,2,0.5464,100.0,1116.6667
+leisure,fitness_centre,1,0.2732,0.0,508.3333
+leisure,nature_reserve,1,0.2732,0.0,508.3333
+leisure,sports_centre,1,0.2732,0.0,508.3333
+leisure,stadium,1,0.2732,0.0,508.3333
+leisure,water_park,1,0.2732,0.0,508.3333
+name,house,123,6.8985,12200.0,74725.0
+name,建物,49,2.7482,4800.0,29708.3333
+name,Oued Nfiss ⴰⵙⵉⴼ ⵏⴼⵉⵙ وادي نفيس,28,1.5704,2700.0,16933.3333
+name,وادي سوس,23,1.29,2200.0,13891.6667
+name,Oued Nfiss,22,1.2339,2100.0,13283.3333
+name,Oued Rheraya,22,1.2339,2100.0,13283.3333
+name,agriculture land,21,1.1778,2000.0,12675.0
+name,Oued Bouanfir ⴰⵙⵉⴼ ⵏ ⴱⵓⴰⵏⴼⵉⵔ,19,1.0656,1800.0,11458.3333
+name,H,14,0.7852,1300.0,8416.6667
+name,El Afaq,13,0.7291,1200.0,7808.3333
+name,House,13,0.7291,1200.0,7808.3333
+name,building,12,0.673,1100.0,7200.0
+name,RP 2012 Marrakech-Sidi Ghiate-Tamazouzte,10,0.5609,900.0,5983.3333
+name,Tagadirt,10,0.5609,900.0,5983.3333
+name,Building,9,0.5048,800.0,5375.0
+name,Road,9,0.5048,800.0,5375.0
+name,Tawrirt,9,0.5048,800.0,5375.0
+name,Lahan Pertanian (ارض زراعية),8,0.4487,700.0,4766.6667
+name,ⴰⴷⴰⵙⵉⵍ,8,0.4487,700.0,4766.6667
+name,Arumd-Sidi Chamarouch-CAF Refuge,7,0.3926,600.0,4158.3333
+name,Assif n'Ouissadene,7,0.3926,600.0,4158.3333
+name,Avenue Essaouira طريق الصويرة,7,0.3926,600.0,4158.3333
+name,Route de Targa,7,0.3926,600.0,4158.3333
+name,Taddert,7,0.3926,600.0,4158.3333
+name,Oued Souss وادي سوس,6,0.3365,500.0,3550.0
+name,Tinoumrotine,6,0.3365,500.0,3550.0
+name,房屋,6,0.3365,500.0,3550.0
+name,Oued El Faregh,5,0.2804,400.0,2941.6667
+name,Oued Ibourk ⴰⵙⵙⵉⴼ ⵏ ⵉⴱⵓⵔⴽ واد إبورك,5,0.2804,400.0,2941.6667
+name,Piste,5,0.2804,400.0,2941.6667
+name,Tafeghaghte,5,0.2804,400.0,2941.6667
+name,apartment,5,0.2804,400.0,2941.6667
+name,apartments,5,0.2804,400.0,2941.6667
+name,#AMM #CORK,4,0.2243,300.0,2333.3333
+name,Agriculture land,4,0.2243,300.0,2333.3333
+name,Ait Hmid,4,0.2243,300.0,2333.3333
+name,Arg,4,0.2243,300.0,2333.3333
+name,Oued Ghmat ⴰⵙⵉⴼ ⵏ ⵖⵯⵎⴰⵜ,4,0.2243,300.0,2333.3333
+name,Oued Zat ⴰⵙⵉⴼ ⵏ ⵥⴰⵜ,4,0.2243,300.0,2333.3333
+name,Tamsoult,4,0.2243,300.0,2333.3333
+name,Tizgui,4,0.2243,300.0,2333.3333
+name,Touloua,4,0.2243,300.0,2333.3333
+name,edificio,4,0.2243,300.0,2333.3333
+name,unclassifield road,4,0.2243,300.0,2333.3333
+name,اكروال,4,0.2243,300.0,2333.3333
+name,木,4,0.2243,300.0,2333.3333
+name,Addouz,3,0.1683,200.0,1725.0
+name,Agadir,3,0.1683,200.0,1725.0
+name,Ait Ali,3,0.1683,200.0,1725.0
+name,Ait Souka ⴰⵢⵜ ⵙⵓⴽⴰ,3,0.1683,200.0,1725.0
+name,Asselda,3,0.1683,200.0,1725.0
+name,Avenue Tafilelt,3,0.1683,200.0,1725.0
+name,Aït Slimane,3,0.1683,200.0,1725.0
+name,Douar Azib Fras,3,0.1683,200.0,1725.0
+name,Douar Tagadirt N’Trhemchout,3,0.1683,200.0,1725.0
+name,Douar Timicha,3,0.1683,200.0,1725.0
+name,Houses,3,0.1683,200.0,1725.0
+name,Ikis,3,0.1683,200.0,1725.0
+name,Lahan Pertanian,3,0.1683,200.0,1725.0
+name,Oued Ait Maala,3,0.1683,200.0,1725.0
+name,Pharmacie Al AMAL,3,0.1683,200.0,1725.0
+name,Tabya,3,0.1683,200.0,1725.0
+name,Tadchert,3,0.1683,200.0,1725.0
+name,Tanammert,3,0.1683,200.0,1725.0
+name,Terga,3,0.1683,200.0,1725.0
+name,Timsal,3,0.1683,200.0,1725.0
+name,Toukhribine,3,0.1683,200.0,1725.0
+name,Village,3,0.1683,200.0,1725.0
+name,residential area,3,0.1683,200.0,1725.0
+name,taliyol,3,0.1683,200.0,1725.0
+name,ⴰⵙⵉⴼ ⵏ ⵜⵓⵔⵉⵔⵜ,3,0.1683,200.0,1725.0
+name,家,3,0.1683,200.0,1725.0
+name,2335 m,2,0.1122,100.0,1116.6667
+name,Afouzer,2,0.1122,100.0,1116.6667
+name,Agadir Ouazeg,2,0.1122,100.0,1116.6667
+name,Agadirane,2,0.1122,100.0,1116.6667
+name,Aghzane,2,0.1122,100.0,1116.6667
+name,Agouni,2,0.1122,100.0,1116.6667
+name,Aguersafane,2,0.1122,100.0,1116.6667
+name,Ait Ougueriane,2,0.1122,100.0,1116.6667
+name,Ait Zitoun ⴰⵢⵜ ⵣⵉⵜⵓⵏ,2,0.1122,100.0,1116.6667
+name,Al ‘Aïn,2,0.1122,100.0,1116.6667
+name,Algou,2,0.1122,100.0,1116.6667
+name,Allous,2,0.1122,100.0,1116.6667
+name,Alous,2,0.1122,100.0,1116.6667
+name,Amassine,2,0.1122,100.0,1116.6667
+name,Amesdat,2,0.1122,100.0,1116.6667
+name,Amesguen,2,0.1122,100.0,1116.6667
+name,Amizmiz ⴰⵎⵥⵎⵉⵥ أمزميز,2,0.1122,100.0,1116.6667
+name,Ammasennkik,2,0.1122,100.0,1116.6667
+name,Anammer,2,0.1122,100.0,1116.6667
+name,Anebri,2,0.1122,100.0,1116.6667
+name,Areg,2,0.1122,100.0,1116.6667
+name,Arektou,2,0.1122,100.0,1116.6667
+name,Arghane,2,0.1122,100.0,1116.6667
+name,Arguioun,2,0.1122,100.0,1116.6667
+name,Asdim,2,0.1122,100.0,1116.6667
+name,Asloun,2,0.1122,100.0,1116.6667
+name,Asni,2,0.1122,100.0,1116.6667
+name,Asni frigorifique,2,0.1122,100.0,1116.6667
+name,Asni ⴰⵙⵏⵉ أسني,2,0.1122,100.0,1116.6667
+name,Assif Lahlou,2,0.1122,100.0,1116.6667
+name,Assif Tichka,2,0.1122,100.0,1116.6667
+name,Auberge Jeunesse Asni,2,0.1122,100.0,1116.6667
+name,Awdid,2,0.1122,100.0,1116.6667
+name,Awftout-n-Oufalla,2,0.1122,100.0,1116.6667
+name,Ayt Rzine,2,0.1122,100.0,1116.6667
+name,Azilal,2,0.1122,100.0,1116.6667
+name,Aït Brahim,2,0.1122,100.0,1116.6667
+name,Aït Dawd,2,0.1122,100.0,1116.6667
+name,Aït Zemlal,2,0.1122,100.0,1116.6667
+name,Bakery,2,0.1122,100.0,1116.6667
+name,Baragha,2,0.1122,100.0,1116.6667
+name,Barrage Taskourt,2,0.1122,100.0,1116.6667
+name,Ben Idder,2,0.1122,100.0,1116.6667
+name,Big House,2,0.1122,100.0,1116.6667
+name,Boulaabaq,2,0.1122,100.0,1116.6667
+name,Boulsserfane,2,0.1122,100.0,1116.6667
+name,Cimetière Amizmiz,2,0.1122,100.0,1116.6667
+name,Dar Atlas,2,0.1122,100.0,1116.6667
+name,Domaine Malika,2,0.1122,100.0,1116.6667
+name,Douar Agadir Iznaguene,2,0.1122,100.0,1116.6667
+name,Douar Agdour,2,0.1122,100.0,1116.6667
+name,Douar Aguergour,2,0.1122,100.0,1116.6667
+name,Douar Azeflala,2,0.1122,100.0,1116.6667
+name,Douar Aït Amara el Oued,2,0.1122,100.0,1116.6667
+name,Douar Aït Bouali,2,0.1122,100.0,1116.6667
+name,Douar Ben Allal,2,0.1122,100.0,1116.6667
+name,Douar Ezzi,2,0.1122,100.0,1116.6667
+name,Douar Ibaloulen,2,0.1122,100.0,1116.6667
+name,Douar Igoudar,2,0.1122,100.0,1116.6667
+name,Douar Ijaouane,2,0.1122,100.0,1116.6667
+name,Douar Isgane,2,0.1122,100.0,1116.6667
+name,Douar Ouarialt,2,0.1122,100.0,1116.6667
+name,Douar Sidi Bou Naga,2,0.1122,100.0,1116.6667
+name,Douar Souir,2,0.1122,100.0,1116.6667
+name,Douar Taddert,2,0.1122,100.0,1116.6667
+name,Douar Tamazert,2,0.1122,100.0,1116.6667
+name,Douar Tiferouine,2,0.1122,100.0,1116.6667
+name,Douar Tigzit,2,0.1122,100.0,1116.6667
+name,Douar Tisgui,2,0.1122,100.0,1116.6667
+name,Douar larjam,2,0.1122,100.0,1116.6667
+name,El Hanneïn,2,0.1122,100.0,1116.6667
+name,El Rhraïbi,2,0.1122,100.0,1116.6667
+name,Elementary school (seen on Google maps),2,0.1122,100.0,1116.6667
+name,Empang,2,0.1122,100.0,1116.6667
+name,Es Skaykima,2,0.1122,100.0,1116.6667
+name,Farm house,2,0.1122,100.0,1116.6667
+name,Gebäude,2,0.1122,100.0,1116.6667
+name,Gite Bellevue,2,0.1122,100.0,1116.6667
+name,Gite Sunset,2,0.1122,100.0,1116.6667
+name,Haut-Atlas,2,0.1122,100.0,1116.6667
+name,Hotel Gite Bellevue,2,0.1122,100.0,1116.6667
+name,Ichawlidene,2,0.1122,100.0,1116.6667
+name,Igherm,2,0.1122,100.0,1116.6667
+name,Ighermane,2,0.1122,100.0,1116.6667
+name,Ighilmaln,2,0.1122,100.0,1116.6667
+name,Ighir-n-Wadou,2,0.1122,100.0,1116.6667
+name,Iguerwal,2,0.1122,100.0,1116.6667
+name,Imgdal ⵉⵎⴳⴷⴰⵍ إمڭدال,2,0.1122,100.0,1116.6667
+name,Imgouiza,2,0.1122,100.0,1116.6667
+name,Imi Oumessing,2,0.1122,100.0,1116.6667
+name,Imi-n-Ighzer,2,0.1122,100.0,1116.6667
+name,Imidel,2,0.1122,100.0,1116.6667
+name,Imintanoute ⵉⵎⵉ ⵏ ⵜⴰⵏⵓⵜ إيمنتانوت,2,0.1122,100.0,1116.6667
+name,Imlil,2,0.1122,100.0,1116.6667
+name,Imlil ⵉⵎⵍⵉⵍ إمليل,2,0.1122,100.0,1116.6667
+name,Imzayn,2,0.1122,100.0,1116.6667
+name,Inghed,2,0.1122,100.0,1116.6667
+name,Irhilene,2,0.1122,100.0,1116.6667
+name,Irkdou,2,0.1122,100.0,1116.6667
+name,Irz,2,0.1122,100.0,1116.6667
+name,Izrane,2,0.1122,100.0,1116.6667
+name,Kasbah Tagoundaft,2,0.1122,100.0,1116.6667
+name,Koudia d’Asni,2,0.1122,100.0,1116.6667
+name,L'Oliveraie D'Amizmiz,2,0.1122,100.0,1116.6667
+name,Lalla Takarkoust ⵍⴰⵍⵍⴰ ⵜⴰⴽⵔⴽⵓⵙⵜ للا تكركوست,2,0.1122,100.0,1116.6667
+name,Marigha,2,0.1122,100.0,1116.6667
+name,Moulay Brahim ⵎⵓⵍⴰⵢ ⴱⵕⴰⵀⵉⵎ مولاي إبراهيم,2,0.1122,100.0,1116.6667
+name,Orchards,2,0.1122,100.0,1116.6667
+name,Oued Irohalen,2,0.1122,100.0,1116.6667
+name,Oued Targa,2,0.1122,100.0,1116.6667
+name,Path,2,0.1122,100.0,1116.6667
+name,Poste Maroc,2,0.1122,100.0,1116.6667
+name,Sebt des Mzouda,2,0.1122,100.0,1116.6667
+name,Shell شل,2,0.1122,100.0,1116.6667
+name,Sidi Lahsene-Ou-Tiqi,2,0.1122,100.0,1116.6667
+name,Tachakoucht,2,0.1122,100.0,1116.6667
+name,Taddart,2,0.1122,100.0,1116.6667
+name,Tadrorht,2,0.1122,100.0,1116.6667
+name,Tagantane,2,0.1122,100.0,1116.6667
+name,Taguennza,2,0.1122,100.0,1116.6667
+name,Tahannaout تحناوت,2,0.1122,100.0,1116.6667
+name,Tahannaout-Ourika,2,0.1122,100.0,1116.6667
+name,Takhiami,2,0.1122,100.0,1116.6667
+name,Talat Marghene,2,0.1122,100.0,1116.6667
+name,Talazift N’Irkdou,2,0.1122,100.0,1116.6667
+name,Talet Mekkourn,2,0.1122,100.0,1116.6667
+name,Talmodat,2,0.1122,100.0,1116.6667
+name,Talmod’at,2,0.1122,100.0,1116.6667
+name,Tamatert,2,0.1122,100.0,1116.6667
+name,Tamjloucht,2,0.1122,100.0,1116.6667
+name,Tanesmekht,2,0.1122,100.0,1116.6667
+name,Taourirt,2,0.1122,100.0,1116.6667
+name,Targa Oufella,2,0.1122,100.0,1116.6667
+name,Targant,2,0.1122,100.0,1116.6667
+name,Tasseli,2,0.1122,100.0,1116.6667
+name,Timzoughine,2,0.1122,100.0,1116.6667
+name,Tinarghat,2,0.1122,100.0,1116.6667
+name,Tinwaline,2,0.1122,100.0,1116.6667
+name,Tiouli Ou Baki,2,0.1122,100.0,1116.6667
+name,Tirliite,2,0.1122,100.0,1116.6667
+name,Tissili,2,0.1122,100.0,1116.6667
+name,Tizeght,2,0.1122,100.0,1116.6667
+name,Tizi n'Test,2,0.1122,100.0,1116.6667
+name,Tizi n’Ouadou,2,0.1122,100.0,1116.6667
+name,Zaouia Sidi Ahmed Ou Brahim,2,0.1122,100.0,1116.6667
+name,Zawyat Amern,2,0.1122,100.0,1116.6667
+name,Zawyat Astif,2,0.1122,100.0,1116.6667
+name,agricultural land,2,0.1122,100.0,1116.6667
+name,bassin d'eau,2,0.1122,100.0,1116.6667
+name,chemin hors sentiers vers m Tinergwet,2,0.1122,100.0,1116.6667
+name,chemin verso il M. Tinergwet,2,0.1122,100.0,1116.6667
+name,farm,2,0.1122,100.0,1116.6667
+name,farn pound,2,0.1122,100.0,1116.6667
+name,road,2,0.1122,100.0,1116.6667
+name,unknown,2,0.1122,100.0,1116.6667
+name,أمسلان,2,0.1122,100.0,1116.6667
+name,أنرني,2,0.1122,100.0,1116.6667
+name,إمليل,2,0.1122,100.0,1116.6667
+name,إنمزال,2,0.1122,100.0,1116.6667
+name,إيجوكاك,2,0.1122,100.0,1116.6667
+name,اكرنسوق,2,0.1122,100.0,1116.6667
+name,انكزدم,2,0.1122,100.0,1116.6667
+name,ايت شيكار,2,0.1122,100.0,1116.6667
+name,تابيا,2,0.1122,100.0,1116.6667
+name,تاركة,2,0.1122,100.0,1116.6667
+name,تمسال,2,0.1122,100.0,1116.6667
+name,تِخت,2,0.1122,100.0,1116.6667
+name,مولاي ابراهيم,2,0.1122,100.0,1116.6667
+name,ويركان,2,0.1122,100.0,1116.6667
+name,町,2,0.1122,100.0,1116.6667
+name,畑,2,0.1122,100.0,1116.6667
+name,A'ghilas,1,0.0561,0.0,508.3333
+name,Abatane,1,0.0561,0.0,508.3333
+name,Achbarou,1,0.0561,0.0,508.3333
+name,Achdirt,1,0.0561,0.0,508.3333
+name,Acheim,1,0.0561,0.0,508.3333
+name,Adabdil,1,0.0561,0.0,508.3333
+name,Adardour,1,0.0561,0.0,508.3333
+name,Adassil ⴰⴷⴰⵙⵉⵍ أداسيل,1,0.0561,0.0,508.3333
+name,Addar,1,0.0561,0.0,508.3333
+name,Aderdour,1,0.0561,0.0,508.3333
+name,Adghous,1,0.0561,0.0,508.3333
+name,Adiqqi,1,0.0561,0.0,508.3333
+name,Adouz,1,0.0561,0.0,508.3333
+name,Afella,1,0.0561,0.0,508.3333
+name,Affalla-n-Oufra,1,0.0561,0.0,508.3333
+name,Afouzar,1,0.0561,0.0,508.3333
+name,Agadir Ibaraghene,1,0.0561,0.0,508.3333
+name,Agadir Issouel,1,0.0561,0.0,508.3333
+name,Agadir Jamaa,1,0.0561,0.0,508.3333
+name,Agadir Jdid,1,0.0561,0.0,508.3333
+name,Agadir Regraga,1,0.0561,0.0,508.3333
+name,Agadir el Jedid,1,0.0561,0.0,508.3333
+name,Agadir el Makhzene,1,0.0561,0.0,508.3333
+name,Agadir n’ Ouigui,1,0.0561,0.0,508.3333
+name,Agadir ou 'Rab,1,0.0561,0.0,508.3333
+name,Agadir-n- Aït Bourd,1,0.0561,0.0,508.3333
+name,Agadir-n- Aït Brahim,1,0.0561,0.0,508.3333
+name,Agadir-n-Flas,1,0.0561,0.0,508.3333
+name,Agadir-n-Hallouf,1,0.0561,0.0,508.3333
+name,Agadir-n-Oukoun,1,0.0561,0.0,508.3333
+name,Agadir-n-Tagoundaft,1,0.0561,0.0,508.3333
+name,Agadir-n-Çalah,1,0.0561,0.0,508.3333
+name,Agafai,1,0.0561,0.0,508.3333
+name,Agafay,1,0.0561,0.0,508.3333
+name,Agarda,1,0.0561,0.0,508.3333
+name,Agawaz,1,0.0561,0.0,508.3333
+name,Agdal,1,0.0561,0.0,508.3333
+name,Aghbarane,1,0.0561,0.0,508.3333
+name,Aghella,1,0.0561,0.0,508.3333
+name,Aghlane,1,0.0561,0.0,508.3333
+name,Aghraradane,1,0.0561,0.0,508.3333
+name,Aghri,1,0.0561,0.0,508.3333
+name,Agni,1,0.0561,0.0,508.3333
+name,Agni-n-Tanfit,1,0.0561,0.0,508.3333
+name,Agouinane,1,0.0561,0.0,508.3333
+name,Agourouguine,1,0.0561,0.0,508.3333
+name,Agriculture Land,1,0.0561,0.0,508.3333
+name,Aguerd,1,0.0561,0.0,508.3333
+name,Aguerzra,1,0.0561,0.0,508.3333
+name,Ahachi,1,0.0561,0.0,508.3333
+name,Ait 'Alizem,1,0.0561,0.0,508.3333
+name,Ait Abdallah,1,0.0561,0.0,508.3333
+name,Ait Ba 'Azzi,1,0.0561,0.0,508.3333
+name,Ait Halli,1,0.0561,0.0,508.3333
+name,Ait Hammou,1,0.0561,0.0,508.3333
+name,Ait Hassaine,1,0.0561,0.0,508.3333
+name,Ait Iguit,1,0.0561,0.0,508.3333
+name,Ait Mar,1,0.0561,0.0,508.3333
+name,Ait Mchkpouk,1,0.0561,0.0,508.3333
+name,Ait Merri,1,0.0561,0.0,508.3333
+name,Ait Mhand,1,0.0561,0.0,508.3333
+name,Ait Nifi,1,0.0561,0.0,508.3333
+name,Ait Ouguerd,1,0.0561,0.0,508.3333
+name,Ait Ouissadene,1,0.0561,0.0,508.3333
+name,Ait Slimane,1,0.0561,0.0,508.3333
+name,Ait Swal,1,0.0561,0.0,508.3333
+name,Ait Tadarart,1,0.0561,0.0,508.3333
+name,Ait Tamandou,1,0.0561,0.0,508.3333
+name,Ait Wag-Na,1,0.0561,0.0,508.3333
+name,Ait Yahia,1,0.0561,0.0,508.3333
+name,Ait Yahya,1,0.0561,0.0,508.3333
+name,Ait ’Otmane,1,0.0561,0.0,508.3333
+name,Ajmani,1,0.0561,0.0,508.3333
+name,Akhlij,1,0.0561,0.0,508.3333
+name,Al Assakra,1,0.0561,0.0,508.3333
+name,Al Beïda,1,0.0561,0.0,508.3333
+name,Al Borj,1,0.0561,0.0,508.3333
+name,Al Faïda,1,0.0561,0.0,508.3333
+name,Al Haj Mohamed,1,0.0561,0.0,508.3333
+name,Al Haj Mohamed Ou Haddou,1,0.0561,0.0,508.3333
+name,Al Haj S’aid,1,0.0561,0.0,508.3333
+name,Al Jema,1,0.0561,0.0,508.3333
+name,Al K’arna,1,0.0561,0.0,508.3333
+name,Al Maharad,1,0.0561,0.0,508.3333
+name,Al Makhzane,1,0.0561,0.0,508.3333
+name,Al Medinat,1,0.0561,0.0,508.3333
+name,Al Mers,1,0.0561,0.0,508.3333
+name,Al Mgassem,1,0.0561,0.0,508.3333
+name,Al Msid,1,0.0561,0.0,508.3333
+name,Al Mtougui,1,0.0561,0.0,508.3333
+name,Al Oualchat,1,0.0561,0.0,508.3333
+name,Al Ouidane ⵍⵡⵉⴷⴰⵏ الويدان,1,0.0561,0.0,508.3333
+name,Al Qacba Et Tahtaniya,1,0.0561,0.0,508.3333
+name,Algoud,1,0.0561,0.0,508.3333
+name,Alla,1,0.0561,0.0,508.3333
+name,Alla-n-Oumzil,1,0.0561,0.0,508.3333
+name,Amandal,1,0.0561,0.0,508.3333
+name,Amane-n-Oulili,1,0.0561,0.0,508.3333
+name,Amarzgane,1,0.0561,0.0,508.3333
+name,Amaskraghjjane,1,0.0561,0.0,508.3333
+name,Amegdoul,1,0.0561,0.0,508.3333
+name,Ameslane,1,0.0561,0.0,508.3333
+name,Amezzi,1,0.0561,0.0,508.3333
+name,Amgdoul,1,0.0561,0.0,508.3333
+name,Amghras ⵉⵎⵖⵔⴰⵙ أمغراس,1,0.0561,0.0,508.3333
+name,Amguernis,1,0.0561,0.0,508.3333
+name,Amndar,1,0.0561,0.0,508.3333
+name,Amsad,1,0.0561,0.0,508.3333
+name,Amsiwi,1,0.0561,0.0,508.3333
+name,Amskerdad,1,0.0561,0.0,508.3333
+name,Amslouh,1,0.0561,0.0,508.3333
+name,Amtskal,1,0.0561,0.0,508.3333
+name,Amzri,1,0.0561,0.0,508.3333
+name,Anag,1,0.0561,0.0,508.3333
+name,Analghi,1,0.0561,0.0,508.3333
+name,Anamrou,1,0.0561,0.0,508.3333
+name,Anbdour,1,0.0561,0.0,508.3333
+name,Anebdour,1,0.0561,0.0,508.3333
+name,Anefrioun,1,0.0561,0.0,508.3333
+name,Anerni,1,0.0561,0.0,508.3333
+name,Anezdi,1,0.0561,0.0,508.3333
+name,Anfalkou,1,0.0561,0.0,508.3333
+name,Angoukht,1,0.0561,0.0,508.3333
+name,Ankasdam,1,0.0561,0.0,508.3333
+name,Annfarkou,1,0.0561,0.0,508.3333
+name,Anoughal ⴰⵏⵓⵖⴰⵍ,1,0.0561,0.0,508.3333
+name,Ansa,1,0.0561,0.0,508.3333
+name,Anzelfi,1,0.0561,0.0,508.3333
+name,Aouzer,1,0.0561,0.0,508.3333
+name,Apartment,1,0.0561,0.0,508.3333
+name,Apartments,1,0.0561,0.0,508.3333
+name,Aratel n'Ait Sidi Hammou,1,0.0561,0.0,508.3333
+name,Arboriculture,1,0.0561,0.0,508.3333
+name,Ardamane,1,0.0561,0.0,508.3333
+name,Arhbalou,1,0.0561,0.0,508.3333
+name,Arhir,1,0.0561,0.0,508.3333
+name,Arkount,1,0.0561,0.0,508.3333
+name,Asgawr,1,0.0561,0.0,508.3333
+name,Assais,1,0.0561,0.0,508.3333
+name,Assakwi,1,0.0561,0.0,508.3333
+name,Assersif,1,0.0561,0.0,508.3333
+name,Assif -n-Oumsour,1,0.0561,0.0,508.3333
+name,Assif Nfis,1,0.0561,0.0,508.3333
+name,Assif Zagrawari ⴰⵙⵉⴼ ⵣⴳⵔⴰⵡⴰⵔⵉ,1,0.0561,0.0,508.3333
+name,Assif-n-Silmimt,1,0.0561,0.0,508.3333
+name,Assmer,1,0.0561,0.0,508.3333
+name,Association Top Sport,1,0.0561,0.0,508.3333
+name,Assoul,1,0.0561,0.0,508.3333
+name,At Tnine,1,0.0561,0.0,508.3333
+name,Atlas Imoula,1,0.0561,0.0,508.3333
+name,Atlas Mountain Trekking,1,0.0561,0.0,508.3333
+name,Atlas towers,1,0.0561,0.0,508.3333
+name,Auberge Dar Elfatouakia,1,0.0561,0.0,508.3333
+name,Avenue Riddani,1,0.0561,0.0,508.3333
+name,Awfour,1,0.0561,0.0,508.3333
+name,Awftout-n-Izddar,1,0.0561,0.0,508.3333
+name,Awinnas,1,0.0561,0.0,508.3333
+name,Awrir,1,0.0561,0.0,508.3333
+name,Awrir-n-Irk,1,0.0561,0.0,508.3333
+name,Ayt Ajanan,1,0.0561,0.0,508.3333
+name,Ayt Boured,1,0.0561,0.0,508.3333
+name,Ayt Chtia,1,0.0561,0.0,508.3333
+name,Ayt Hamach,1,0.0561,0.0,508.3333
+name,Ayt Mannçour,1,0.0561,0.0,508.3333
+name,Ayt Sidi Ali,1,0.0561,0.0,508.3333
+name,Ayt al ’Awr,1,0.0561,0.0,508.3333
+name,Ayt ’Ali,1,0.0561,0.0,508.3333
+name,Ayt ’Ali Ben Hamida,1,0.0561,0.0,508.3333
+name,Ayt ’Ali ou Bwiha,1,0.0561,0.0,508.3333
+name,Az Zrazra,1,0.0561,0.0,508.3333
+name,Azal,1,0.0561,0.0,508.3333
+name,Azegar Lalla Aziza,1,0.0561,0.0,508.3333
+name,Azegour,1,0.0561,0.0,508.3333
+name,Azerabouk,1,0.0561,0.0,508.3333
+name,Azerfsane,1,0.0561,0.0,508.3333
+name,Azerzou,1,0.0561,0.0,508.3333
+name,Azib Ali ou Hamou,1,0.0561,0.0,508.3333
+name,Azib Assougolor,1,0.0561,0.0,508.3333
+name,Azib Dris,1,0.0561,0.0,508.3333
+name,Azib Ighil Idoughas,1,0.0561,0.0,508.3333
+name,Azib Ijddane,1,0.0561,0.0,508.3333
+name,Azib Imourhlane,1,0.0561,0.0,508.3333
+name,Azib Kaboudene,1,0.0561,0.0,508.3333
+name,Azib Sidi Jaa,1,0.0561,0.0,508.3333
+name,Azib Taskourt,1,0.0561,0.0,508.3333
+name,Azib Tighfist,1,0.0561,0.0,508.3333
+name,Azib el Arej,1,0.0561,0.0,508.3333
+name,Azilal Slimane,1,0.0561,0.0,508.3333
+name,Azmou,1,0.0561,0.0,508.3333
+name,Azrou,1,0.0561,0.0,508.3333
+name,Azrou Melfene,1,0.0561,0.0,508.3333
+name,Azrou-n-Souq,1,0.0561,0.0,508.3333
+name,Aït Abd es Slam,1,0.0561,0.0,508.3333
+name,Aït Abdallah,1,0.0561,0.0,508.3333
+name,Aït Abdallah ou Sous,1,0.0561,0.0,508.3333
+name,Aït Ali,1,0.0561,0.0,508.3333
+name,Aït Arehamane,1,0.0561,0.0,508.3333
+name,Aït Aïssa,1,0.0561,0.0,508.3333
+name,Aït Bajwa,1,0.0561,0.0,508.3333
+name,Aït Berghous,1,0.0561,0.0,508.3333
+name,Aït Birihi,1,0.0561,0.0,508.3333
+name,Aït Bou Haddou,1,0.0561,0.0,508.3333
+name,Aït Bourd,1,0.0561,0.0,508.3333
+name,Aït Bouyoussef,1,0.0561,0.0,508.3333
+name,Aït Charef,1,0.0561,0.0,508.3333
+name,Aït Gassa,1,0.0561,0.0,508.3333
+name,Aït Hamed,1,0.0561,0.0,508.3333
+name,Aït Hassaïne,1,0.0561,0.0,508.3333
+name,Aït Ihla,1,0.0561,0.0,508.3333
+name,Aït Kellouf,1,0.0561,0.0,508.3333
+name,Aït Makraz,1,0.0561,0.0,508.3333
+name,Aït Mellouk,1,0.0561,0.0,508.3333
+name,Aït Merzoug,1,0.0561,0.0,508.3333
+name,Aït Mettat,1,0.0561,0.0,508.3333
+name,Aït Mhand,1,0.0561,0.0,508.3333
+name,Aït Mked,1,0.0561,0.0,508.3333
+name,Aït Moussa,1,0.0561,0.0,508.3333
+name,Aït Othmane,1,0.0561,0.0,508.3333
+name,Aït Ouaougmoute,1,0.0561,0.0,508.3333
+name,Aït Saïd,1,0.0561,0.0,508.3333
+name,Aït Sa’id,1,0.0561,0.0,508.3333
+name,Aït Sidi Ahmed,1,0.0561,0.0,508.3333
+name,Aït Wag- Na,1,0.0561,0.0,508.3333
+name,Aït Wardas,1,0.0561,0.0,508.3333
+name,Aït Youssef,1,0.0561,0.0,508.3333
+name,Aït al Aïn,1,0.0561,0.0,508.3333
+name,Aït el Aaoud,1,0.0561,0.0,508.3333
+name,Banque Populaire,1,0.0561,0.0,508.3333
+name,Barrage Yacoub el Mansour,1,0.0561,0.0,508.3333
+name,Bel Glawi,1,0.0561,0.0,508.3333
+name,Beldi Country Club,1,0.0561,0.0,508.3333
+name,Ben Bwiha,1,0.0561,0.0,508.3333
+name,Berhich,1,0.0561,0.0,508.3333
+name,Birbou,1,0.0561,0.0,508.3333
+name,Bonou,1,0.0561,0.0,508.3333
+name,Bou Ibitess,1,0.0561,0.0,508.3333
+name,Bou Ikhsayne,1,0.0561,0.0,508.3333
+name,Bou Issil,1,0.0561,0.0,508.3333
+name,Bou Ouzgar,1,0.0561,0.0,508.3333
+name,Bou Tagradine,1,0.0561,0.0,508.3333
+name,Bou Zouga,1,0.0561,0.0,508.3333
+name,Bou Zrou,1,0.0561,0.0,508.3333
+name,Bouizl,1,0.0561,0.0,508.3333
+name,Boujerj,1,0.0561,0.0,508.3333
+name,Boukhelf,1,0.0561,0.0,508.3333
+name,Boul'awane,1,0.0561,0.0,508.3333
+name,Boutaghradine,1,0.0561,0.0,508.3333
+name,Bouyigra,1,0.0561,0.0,508.3333
+name,Brait,1,0.0561,0.0,508.3333
+name,Buiding,1,0.0561,0.0,508.3333
+name,Cafe le jardin,1,0.0561,0.0,508.3333
+name,Café Igdelt,1,0.0561,0.0,508.3333
+name,Casa,1,0.0561,0.0,508.3333
+name,Centre Igoudar,1,0.0561,0.0,508.3333
+name,Centre de santé Ouled Berhil,1,0.0561,0.0,508.3333
+name,Chateau d'eau,1,0.0561,0.0,508.3333
+name,Chawi,1,0.0561,0.0,508.3333
+name,Chouaid Azouy,1,0.0561,0.0,508.3333
+name,Cimetière chrétien,1,0.0561,0.0,508.3333
+name,Coiffeur Hamid,1,0.0561,0.0,508.3333
+name,Collège Ibn Nafis,1,0.0561,0.0,508.3333
+name,Commune Talat N'Yaaqoub,1,0.0561,0.0,508.3333
+name,Crops,1,0.0561,0.0,508.3333
+name,Dar Ait Souka,1,0.0561,0.0,508.3333
+name,Dar Akimakh,1,0.0561,0.0,508.3333
+name,Dar Al Jorf,1,0.0561,0.0,508.3333
+name,Dar Al’Askar,1,0.0561,0.0,508.3333
+name,Dar Ayt Lahsene Ou Hsayne,1,0.0561,0.0,508.3333
+name,Dar Aït Ahmed ou Lahsene,1,0.0561,0.0,508.3333
+name,Dar Bel Fatmi,1,0.0561,0.0,508.3333
+name,Dar Bel ’Ayd Ben Lahsene,1,0.0561,0.0,508.3333
+name,Dar Ben Ad Dikouk,1,0.0561,0.0,508.3333
+name,Dar Elmouahidi,1,0.0561,0.0,508.3333
+name,Dar Imizg,1,0.0561,0.0,508.3333
+name,Dar Imlil,1,0.0561,0.0,508.3333
+name,Dar Jamaa ⴷⴰⵕ ⵊⵎⵄⴰ دار جمعة,1,0.0561,0.0,508.3333
+name,Dar Lahsene ou L’arbi,1,0.0561,0.0,508.3333
+name,Dar Moulay ’Ali,1,0.0561,0.0,508.3333
+name,Dar N-Mes,1,0.0561,0.0,508.3333
+name,Dar Ouanaïne,1,0.0561,0.0,508.3333
+name,Dar Ouzguita,1,0.0561,0.0,508.3333
+name,Dehrat,1,0.0561,0.0,508.3333
+name,Denassa,1,0.0561,0.0,508.3333
+name,Domaine de la Roseraie,1,0.0561,0.0,508.3333
+name,Dou Anammer,1,0.0561,0.0,508.3333
+name,Dou Ouzrou,1,0.0561,0.0,508.3333
+name,Douar Asgoum,1,0.0561,0.0,508.3333
+name,Douar Aït Amara,1,0.0561,0.0,508.3333
+name,Douar Aït Amara el Bour,1,0.0561,0.0,508.3333
+name,Douar Larjam,1,0.0561,0.0,508.3333
+name,Douar Tachbibt,1,0.0561,0.0,508.3333
+name,Douar Talat Inoual,1,0.0561,0.0,508.3333
+name,Douar Talet N’Trharast,1,0.0561,0.0,508.3333
+name,Douar el M’ Hamid,1,0.0561,0.0,508.3333
+name,Double Houses,1,0.0561,0.0,508.3333
+name,Dougouj,1,0.0561,0.0,508.3333
+name,Douirhil,1,0.0561,0.0,508.3333
+name,Doutawrirt,1,0.0561,0.0,508.3333
+name,Dwafa,1,0.0561,0.0,508.3333
+name,Ech Chouihia,1,0.0561,0.0,508.3333
+name,Ecole primaire Thungar-Tidli,1,0.0561,0.0,508.3333
+name,Eden Anadolou,1,0.0561,0.0,508.3333
+name,Eden Aquapark,1,0.0561,0.0,508.3333
+name,El Aamri,1,0.0561,0.0,508.3333
+name,El Bour,1,0.0561,0.0,508.3333
+name,El Harch,1,0.0561,0.0,508.3333
+name,El Khemis Bousdig,1,0.0561,0.0,508.3333
+name,Elementary school,1,0.0561,0.0,508.3333
+name,Emeraude camp and tents,1,0.0561,0.0,508.3333
+name,Empty Lot,1,0.0561,0.0,508.3333
+name,Er Rtal Hammou,1,0.0561,0.0,508.3333
+name,Esso,1,0.0561,0.0,508.3333
+name,Establissent Prescolaire Alassas',1,0.0561,0.0,508.3333
+name,Ezzaouit,1,0.0561,0.0,508.3333
+name,Fadet,1,0.0561,0.0,508.3333
+name,Famille Ait Hammou,1,0.0561,0.0,508.3333
+name,Farm,1,0.0561,0.0,508.3333
+name,Farm Building,1,0.0561,0.0,508.3333
+name,Foum Cha’ba,1,0.0561,0.0,508.3333
+name,Foum Mhita,1,0.0561,0.0,508.3333
+name,Foumazir,1,0.0561,0.0,508.3333
+name,Garden,1,0.0561,0.0,508.3333
+name,Gendarmerie Royale,1,0.0561,0.0,508.3333
+name,Ghars ’Abida,1,0.0561,0.0,508.3333
+name,Gite Tizi Oussem,1,0.0561,0.0,508.3333
+name,Gîte Tamatert,1,0.0561,0.0,508.3333
+name,HOUSE,1,0.0561,0.0,508.3333
+name,Hamouk,1,0.0561,0.0,508.3333
+name,Hassi,1,0.0561,0.0,508.3333
+name,Haymed,1,0.0561,0.0,508.3333
+name,Hospital,1,0.0561,0.0,508.3333
+name,Hospital Amizmiz,1,0.0561,0.0,508.3333
+name,Hotel Toudert,1,0.0561,0.0,508.3333
+name,Hotel Vallee Verte Asni,1,0.0561,0.0,508.3333
+name,House pool,1,0.0561,0.0,508.3333
+name,Houses 2,1,0.0561,0.0,508.3333
+name,Houses 3,1,0.0561,0.0,508.3333
+name,IDK if a road,1,0.0561,0.0,508.3333
+name,Iberdatene,1,0.0561,0.0,508.3333
+name,Ibouhassa,1,0.0561,0.0,508.3333
+name,Ida Ou Gailal إدا وڭيلال,1,0.0561,0.0,508.3333
+name,Idaqqi,1,0.0561,0.0,508.3333
+name,Idbibane,1,0.0561,0.0,508.3333
+name,Idni,1,0.0561,0.0,508.3333
+name,Idoughas,1,0.0561,0.0,508.3333
+name,Idrarane,1,0.0561,0.0,508.3333
+name,Ifazd Ad’ane,1,0.0561,0.0,508.3333
+name,Ifennsa,1,0.0561,0.0,508.3333
+name,Iferhane,1,0.0561,0.0,508.3333
+name,Iferras,1,0.0561,0.0,508.3333
+name,Ifghane,1,0.0561,0.0,508.3333
+name,Ifghi,1,0.0561,0.0,508.3333
+name,Ifourir,1,0.0561,0.0,508.3333
+name,Igargar,1,0.0561,0.0,508.3333
+name,Igg,1,0.0561,0.0,508.3333
+name,Ighil,1,0.0561,0.0,508.3333
+name,Ighil ⵉⵖⵉⵍ إغيل,1,0.0561,0.0,508.3333
+name,Ighilane,1,0.0561,0.0,508.3333
+name,Ighir,1,0.0561,0.0,508.3333
+name,Ighrem,1,0.0561,0.0,508.3333
+name,Ighzer,1,0.0561,0.0,508.3333
+name,Igourdane,1,0.0561,0.0,508.3333
+name,Iguelouwane,1,0.0561,0.0,508.3333
+name,Iguer n’Kouris,1,0.0561,0.0,508.3333
+name,Iguer-n-Tiqi,1,0.0561,0.0,508.3333
+name,Iguersouq,1,0.0561,0.0,508.3333
+name,Iguizoulene,1,0.0561,0.0,508.3333
+name,Ijoukak,1,0.0561,0.0,508.3333
+name,Ijoukak ⵉⵊⵓⴽⴰⴽ إجوكاك,1,0.0561,0.0,508.3333
+name,Ikissane,1,0.0561,0.0,508.3333
+name,Ilot1,1,0.0561,0.0,508.3333
+name,Iloudjanene,1,0.0561,0.0,508.3333
+name,Imawane,1,0.0561,0.0,508.3333
+name,Imi N'Tala,1,0.0561,0.0,508.3333
+name,Imi N-Isaffene,1,0.0561,0.0,508.3333
+name,Imi Oughlad,1,0.0561,0.0,508.3333
+name,Imi Ouzerouane,1,0.0561,0.0,508.3333
+name,Imi n’Talat,1,0.0561,0.0,508.3333
+name,Imi-n- Erkha,1,0.0561,0.0,508.3333
+name,Imi-n- Isli,1,0.0561,0.0,508.3333
+name,Imi-n- Ouassif,1,0.0561,0.0,508.3333
+name,Imi-n- Ourmer,1,0.0561,0.0,508.3333
+name,Imi-n- Tala,1,0.0561,0.0,508.3333
+name,Imi-n-Teghli,1,0.0561,0.0,508.3333
+name,Imi-n-Tislit,1,0.0561,0.0,508.3333
+name,Imi-n-Tizgui,1,0.0561,0.0,508.3333
+name,Imigdal,1,0.0561,0.0,508.3333
+name,Imin Irhzer,1,0.0561,0.0,508.3333
+name,Imintanoute,1,0.0561,0.0,508.3333
+name,Imkimine,1,0.0561,0.0,508.3333
+name,Imsouna,1,0.0561,0.0,508.3333
+name,Inafgane,1,0.0561,0.0,508.3333
+name,Ineghed,1,0.0561,0.0,508.3333
+name,Ineghede,1,0.0561,0.0,508.3333
+name,Infag,1,0.0561,0.0,508.3333
+name,Inougal,1,0.0561,0.0,508.3333
+name,Irhzer Izgarene,1,0.0561,0.0,508.3333
+name,Iriq,1,0.0561,0.0,508.3333
+name,Irk-n-Izdar,1,0.0561,0.0,508.3333
+name,Irk-n-Oufalla,1,0.0561,0.0,508.3333
+name,Irkadene,1,0.0561,0.0,508.3333
+name,Irkoubeline,1,0.0561,0.0,508.3333
+name,Isqalane,1,0.0561,0.0,508.3333
+name,Issouqaln,1,0.0561,0.0,508.3333
+name,Iwinghassene,1,0.0561,0.0,508.3333
+name,Iwraghine,1,0.0561,0.0,508.3333
+name,Izalaghene,1,0.0561,0.0,508.3333
+name,Izda,1,0.0561,0.0,508.3333
+name,Izeghri,1,0.0561,0.0,508.3333
+name,Izighi,1,0.0561,0.0,508.3333
+name,Iznouna,1,0.0561,0.0,508.3333
+name,Izoukatene,1,0.0561,0.0,508.3333
+name,Izzilalene,1,0.0561,0.0,508.3333
+name,I’oufine,1,0.0561,0.0,508.3333
+name,Jnane Tahihit,1,0.0561,0.0,508.3333
+name,Kairaouan Primary TAHANNAOUT School,1,0.0561,0.0,508.3333
+name,Kenzy Club Agdal Medina,1,0.0561,0.0,508.3333
+name,Kerni,1,0.0561,0.0,508.3333
+name,Kettou,1,0.0561,0.0,508.3333
+name,L'Office National de l'Electricité,1,0.0561,0.0,508.3333
+name,L'amandier,1,0.0561,0.0,508.3333
+name,Lakhrarib,1,0.0561,0.0,508.3333
+name,Lalla Tensait,1,0.0561,0.0,508.3333
+name,Lamkayt,1,0.0561,0.0,508.3333
+name,Laqcayba,1,0.0561,0.0,508.3333
+name,Larb'a-n-Tamtarga,1,0.0561,0.0,508.3333
+name,Larba Idwirane,1,0.0561,0.0,508.3333
+name,Les Terrasses de l'Atlas,1,0.0561,0.0,508.3333
+name,Lmatmour,1,0.0561,0.0,508.3333
+name,Lmâadene,1,0.0561,0.0,508.3333
+name,Machchadine,1,0.0561,0.0,508.3333
+name,Maghdir,1,0.0561,0.0,508.3333
+name,Mahdijat,1,0.0561,0.0,508.3333
+name,Maison,1,0.0561,0.0,508.3333
+name,Maison Forestière d’Iferhane,1,0.0561,0.0,508.3333
+name,Majjou,1,0.0561,0.0,508.3333
+name,Marché Ouled Berhil,1,0.0561,0.0,508.3333
+name,Masjid Chkili,1,0.0561,0.0,508.3333
+name,Mcafour,1,0.0561,0.0,508.3333
+name,Mejdid,1,0.0561,0.0,508.3333
+name,Middle School Tinmel,1,0.0561,0.0,508.3333
+name,Mizziwt,1,0.0561,0.0,508.3333
+name,Mohadil,1,0.0561,0.0,508.3333
+name,Mohamed Demsiri Cultural Center,1,0.0561,0.0,508.3333
+name,Mohamed ou ’Abd ar Rahmane,1,0.0561,0.0,508.3333
+name,Mosquée Ait Chtia,1,0.0561,0.0,508.3333
+name,Mosquée Ait Souka,1,0.0561,0.0,508.3333
+name,Mosquée Centrale,1,0.0561,0.0,508.3333
+name,Mosqée Tazlida,1,0.0561,0.0,508.3333
+name,Mouldikht,1,0.0561,0.0,508.3333
+name,Multiple Houses,1,0.0561,0.0,508.3333
+name,Mzouzit,1,0.0561,0.0,508.3333
+name,Office National Eau Potable,1,0.0561,0.0,508.3333
+name,Oilibya,1,0.0561,0.0,508.3333
+name,Ouadmast,1,0.0561,0.0,508.3333
+name,Ouaoussalt,1,0.0561,0.0,508.3333
+name,Ouarar,1,0.0561,0.0,508.3333
+name,Ouarourhad,1,0.0561,0.0,508.3333
+name,Ouassentout,1,0.0561,0.0,508.3333
+name,Ouch Filene,1,0.0561,0.0,508.3333
+name,Ouddif,1,0.0561,0.0,508.3333
+name,Oued Ibourk ⴰⵙⵙⵉⴼ ⵏ ⵉⴱⵓⵔⴽ وادي إبورك,1,0.0561,0.0,508.3333
+name,Oued Igri Ighzrane,1,0.0561,0.0,508.3333
+name,Oued Ikidass,1,0.0561,0.0,508.3333
+name,Oued Issyl,1,0.0561,0.0,508.3333
+name,Oued Ougdamt,1,0.0561,0.0,508.3333
+name,Oued-n-Tighissit,1,0.0561,0.0,508.3333
+name,Oufifes,1,0.0561,0.0,508.3333
+name,Ouirgane,1,0.0561,0.0,508.3333
+name,Ouirgane ⵡⵉⵔⴳⴰⵏ ويرڭان,1,0.0561,0.0,508.3333
+name,Oukoun,1,0.0561,0.0,508.3333
+name,Ouksir,1,0.0561,0.0,508.3333
+name,Oulad Berhil ⵡⵍⴰⴷ ⴱⴰⵔⵃⵉⵍ اولاد برحيل,1,0.0561,0.0,508.3333
+name,Oulad Brahim,1,0.0561,0.0,508.3333
+name,Oulad Hassoun ⵡⵍⴰⴷ ⵃⵙⵙⵓⵏ أولاد حسون,1,0.0561,0.0,508.3333
+name,Oulghas,1,0.0561,0.0,508.3333
+name,Oummaset,1,0.0561,0.0,508.3333
+name,Oumwachfal,1,0.0561,0.0,508.3333
+name,Ourmer,1,0.0561,0.0,508.3333
+name,Ourzdine,1,0.0561,0.0,508.3333
+name,Oussoul,1,0.0561,0.0,508.3333
+name,Ouzza,1,0.0561,0.0,508.3333
+name,PARC EZZAOUAK,1,0.0561,0.0,508.3333
+name,PHARMACIE AMIZMIZ CENTRE,1,0.0561,0.0,508.3333
+name,Petrom بتروم,1,0.0561,0.0,508.3333
+name,Pharmacie Abraj El Koutoubia صيدلية أبراج الكتبية,1,0.0561,0.0,508.3333
+name,Pharmacie Aquaparc,1,0.0561,0.0,508.3333
+name,Pharmacie IMLIL,1,0.0561,0.0,508.3333
+name,Play ground,1,0.0561,0.0,508.3333
+name,Princess Castle,1,0.0561,0.0,508.3333
+name,Qaïdat,1,0.0561,0.0,508.3333
+name,Queine Farmacy,1,0.0561,0.0,508.3333
+name,Radio Tower,1,0.0561,0.0,508.3333
+name,Refuge Tamsoult,1,0.0561,0.0,508.3333
+name,Refuge Tazaghart,1,0.0561,0.0,508.3333
+name,Regional Government Office,1,0.0561,0.0,508.3333
+name,Regraga,1,0.0561,0.0,508.3333
+name,Resedential buildings,1,0.0561,0.0,508.3333
+name,Residential Building,1,0.0561,0.0,508.3333
+name,Riad Dar Oussaggou,1,0.0561,0.0,508.3333
+name,Rikt,1,0.0561,0.0,508.3333
+name,Ritz Carlton Residence Marakeche,1,0.0561,0.0,508.3333
+name,River bed,1,0.0561,0.0,508.3333
+name,Road inside village,1,0.0561,0.0,508.3333
+name,Rouhi,1,0.0561,0.0,508.3333
+name,Route de Chwitter,1,0.0561,0.0,508.3333
+name,Saheb,1,0.0561,0.0,508.3333
+name,Salemt,1,0.0561,0.0,508.3333
+name,School Nour Al Atlas,1,0.0561,0.0,508.3333
+name,Sdiw,1,0.0561,0.0,508.3333
+name,Shepherd Shelter,1,0.0561,0.0,508.3333
+name,Sidi 'Ali Ou Brahim,1,0.0561,0.0,508.3333
+name,Sidi Ali Ben Larbi,1,0.0561,0.0,508.3333
+name,Sidi Ali Ou Skri,1,0.0561,0.0,508.3333
+name,Sidi Brahim Ou Ishaq,1,0.0561,0.0,508.3333
+name,Sidi Ghanem,1,0.0561,0.0,508.3333
+name,Sidi Hassine,1,0.0561,0.0,508.3333
+name,Sidi Hssaine,1,0.0561,0.0,508.3333
+name,Sidi Mhand,1,0.0561,0.0,508.3333
+name,Smaguene,1,0.0561,0.0,508.3333
+name,Small house,1,0.0561,0.0,508.3333
+name,Solar pannels,1,0.0561,0.0,508.3333
+name,Souihla ⵙⵡⵉⵀⵍⴰ سويهلة,1,0.0561,0.0,508.3333
+name,Stade du vieux souk Al-Kabir,1,0.0561,0.0,508.3333
+name,Stara,1,0.0561,0.0,508.3333
+name,S’aid ou Taleb,1,0.0561,0.0,508.3333
+name,TIGMI NOMADE,1,0.0561,0.0,508.3333
+name,Ta' richt,1,0.0561,0.0,508.3333
+name,Tabarbout,1,0.0561,0.0,508.3333
+name,Tabenbalout,1,0.0561,0.0,508.3333
+name,Tabou’abdellit,1,0.0561,0.0,508.3333
+name,Tabradjout,1,0.0561,0.0,508.3333
+name,Tachguelt,1,0.0561,0.0,508.3333
+name,Tadafilt,1,0.0561,0.0,508.3333
+name,Tafarghoust,1,0.0561,0.0,508.3333
+name,Tafingoult ⵜⴰⴼⴰⵏⴳⵓⵜ تافنڭولت,1,0.0561,0.0,508.3333
+name,Tafroukht,1,0.0561,0.0,508.3333
+name,Tagadirt n’Bour,1,0.0561,0.0,508.3333
+name,Tagadirt-n-Bahmouch,1,0.0561,0.0,508.3333
+name,Tagadirt-n-Izddar,1,0.0561,0.0,508.3333
+name,Tagadirt-n-Oumius,1,0.0561,0.0,508.3333
+name,Tagandourt,1,0.0561,0.0,508.3333
+name,Tagdit-n-Oufella,1,0.0561,0.0,508.3333
+name,Tagdout,1,0.0561,0.0,508.3333
+name,Tagharghist,1,0.0561,0.0,508.3333
+name,Taghbart,1,0.0561,0.0,508.3333
+name,Taghjajt,1,0.0561,0.0,508.3333
+name,Taghrat,1,0.0561,0.0,508.3333
+name,Tagmout,1,0.0561,0.0,508.3333
+name,Tagnit,1,0.0561,0.0,508.3333
+name,Tagoummat,1,0.0561,0.0,508.3333
+name,Tagoundaft,1,0.0561,0.0,508.3333
+name,Tagounit,1,0.0561,0.0,508.3333
+name,Taguenza,1,0.0561,0.0,508.3333
+name,Tahaliouine,1,0.0561,0.0,508.3333
+name,Tahannaout,1,0.0561,0.0,508.3333
+name,Tahannaout ⵜⴰⵃⵏⴰⵡⵜ تحناوت,1,0.0561,0.0,508.3333
+name,Tahlit,1,0.0561,0.0,508.3333
+name,Tajelt,1,0.0561,0.0,508.3333
+name,Tajgalt,1,0.0561,0.0,508.3333
+name,Takoultimt,1,0.0561,0.0,508.3333
+name,Tal'at Ouqiar,1,0.0561,0.0,508.3333
+name,Taladdamt,1,0.0561,0.0,508.3333
+name,Talat N'Yaaqoub ⵜⴰⵍⴰⵜ ⵏ ⵉⵄⵇⵓⴱ تلات نيعقوب,1,0.0561,0.0,508.3333
+name,Talat Ouldada,1,0.0561,0.0,508.3333
+name,Talat-n-Yassine,1,0.0561,0.0,508.3333
+name,Talat-n-Ya’qoub,1,0.0561,0.0,508.3333
+name,Talatane,1,0.0561,0.0,508.3333
+name,Talborjt,1,0.0561,0.0,508.3333
+name,Talbourt,1,0.0561,0.0,508.3333
+name,Talilit,1,0.0561,0.0,508.3333
+name,Talmadannt,1,0.0561,0.0,508.3333
+name,Taloutimt,1,0.0561,0.0,508.3333
+name,Tal’ at Ihia,1,0.0561,0.0,508.3333
+name,Tal’ at Wareg,1,0.0561,0.0,508.3333
+name,Tal’at Zegwar,1,0.0561,0.0,508.3333
+name,Tamakra,1,0.0561,0.0,508.3333
+name,Tamalout,1,0.0561,0.0,508.3333
+name,Tamarbouhet,1,0.0561,0.0,508.3333
+name,Tamassit ⵜⴰⵎⴰⵙⵙⵉⵜ,1,0.0561,0.0,508.3333
+name,Tamatoust,1,0.0561,0.0,508.3333
+name,Tamazirt,1,0.0561,0.0,508.3333
+name,Tameslouht ⵜⴰⵎⵚⵍⵓⵃⵜ تمصلوحت,1,0.0561,0.0,508.3333
+name,Tamgounsi,1,0.0561,0.0,508.3333
+name,Tamgounsit ⵜⴰⵎⴳⵓⵏⵙⵉⵜ,1,0.0561,0.0,508.3333
+name,Tamismamane,1,0.0561,0.0,508.3333
+name,Tamsaloumt,1,0.0561,0.0,508.3333
+name,Tamzdaght,1,0.0561,0.0,508.3333
+name,Tanammart,1,0.0561,0.0,508.3333
+name,Tanfit,1,0.0561,0.0,508.3333
+name,Tanifguirt,1,0.0561,0.0,508.3333
+name,Tannzat,1,0.0561,0.0,508.3333
+name,Tansghart ⵜⴰⵏⵙⵖⴰⵔⵜ,1,0.0561,0.0,508.3333
+name,Tanzad,1,0.0561,0.0,508.3333
+name,Tanzgourt,1,0.0561,0.0,508.3333
+name,Tanzzat,1,0.0561,0.0,508.3333
+name,Taourirt n'Ait Mizane,1,0.0561,0.0,508.3333
+name,Taqanourt,1,0.0561,0.0,508.3333
+name,Taqourdmi,1,0.0561,0.0,508.3333
+name,Taqsemt,1,0.0561,0.0,508.3333
+name,Targa,1,0.0561,0.0,508.3333
+name,Targa Imoula,1,0.0561,0.0,508.3333
+name,Targa Wouziw,1,0.0561,0.0,508.3333
+name,Targa-n-Izran,1,0.0561,0.0,508.3333
+name,Targa-n-Oufra,1,0.0561,0.0,508.3333
+name,Targhount,1,0.0561,0.0,508.3333
+name,Tarhzout,1,0.0561,0.0,508.3333
+name,Tarroumt,1,0.0561,0.0,508.3333
+name,Taseksout,1,0.0561,0.0,508.3333
+name,Tasga-n-Warg,1,0.0561,0.0,508.3333
+name,Taskourt,1,0.0561,0.0,508.3333
+name,Tasmaïne,1,0.0561,0.0,508.3333
+name,Tassa Ouirgane,1,0.0561,0.0,508.3333
+name,Tassena,1,0.0561,0.0,508.3333
+name,Tassila,1,0.0561,0.0,508.3333
+name,Taswakt,1,0.0561,0.0,508.3333
+name,Tawergh,1,0.0561,0.0,508.3333
+name,Tawnrast,1,0.0561,0.0,508.3333
+name,Tawont n'Tkhssa,1,0.0561,0.0,508.3333
+name,Taws,1,0.0561,0.0,508.3333
+name,Tazagzawt,1,0.0561,0.0,508.3333
+name,Tazalt,1,0.0561,0.0,508.3333
+name,Tazarine,1,0.0561,0.0,508.3333
+name,Tazelt,1,0.0561,0.0,508.3333
+name,Tazgart,1,0.0561,0.0,508.3333
+name,Tazou,1,0.0561,0.0,508.3333
+name,Tazougart,1,0.0561,0.0,508.3333
+name,Tegdoud,1,0.0561,0.0,508.3333
+name,Telas,1,0.0561,0.0,508.3333
+name,Tfraouten,1,0.0561,0.0,508.3333
+name,Tgoudar,1,0.0561,0.0,508.3333
+name,Tibourine,1,0.0561,0.0,508.3333
+name,Tiderguine,1,0.0561,0.0,508.3333
+name,Tidli,1,0.0561,0.0,508.3333
+name,Tifesfas,1,0.0561,0.0,508.3333
+name,Tifirt,1,0.0561,0.0,508.3333
+name,Tifni,1,0.0561,0.0,508.3333
+name,Tifrouine,1,0.0561,0.0,508.3333
+name,Tigammi-n-Lahyoub,1,0.0561,0.0,508.3333
+name,Tigdelt,1,0.0561,0.0,508.3333
+name,Tiggart,1,0.0561,0.0,508.3333
+name,Tighaline,1,0.0561,0.0,508.3333
+name,Tighermine,1,0.0561,0.0,508.3333
+name,Tighist,1,0.0561,0.0,508.3333
+name,Tighzert,1,0.0561,0.0,508.3333
+name,Tigmi N'Tmazirte,1,0.0561,0.0,508.3333
+name,Tignarine,1,0.0561,0.0,508.3333
+name,Tigoudar,1,0.0561,0.0,508.3333
+name,Tigourar,1,0.0561,0.0,508.3333
+name,Tiguema-n-Skrat,1,0.0561,0.0,508.3333
+name,Tiguemi Oumrhar,1,0.0561,0.0,508.3333
+name,Tiguemmi Ou Zeddar,1,0.0561,0.0,508.3333
+name,Tiguenguemine,1,0.0561,0.0,508.3333
+name,Tiguenziouine,1,0.0561,0.0,508.3333
+name,Tiguicht,1,0.0561,0.0,508.3333
+name,Tiguimi Jdid,1,0.0561,0.0,508.3333
+name,Tihanaouine,1,0.0561,0.0,508.3333
+name,Tihouchi,1,0.0561,0.0,508.3333
+name,Tihouna,1,0.0561,0.0,508.3333
+name,Tihouna Imzilene,1,0.0561,0.0,508.3333
+name,Tikarkebt,1,0.0561,0.0,508.3333
+name,Tikht,1,0.0561,0.0,508.3333
+name,Tikiout,1,0.0561,0.0,508.3333
+name,Tiksit,1,0.0561,0.0,508.3333
+name,Tilfitine,1,0.0561,0.0,508.3333
+name,Tiliwa,1,0.0561,0.0,508.3333
+name,Timeskert,1,0.0561,0.0,508.3333
+name,Timilt,1,0.0561,0.0,508.3333
+name,Timlilt,1,0.0561,0.0,508.3333
+name,Timsouriene,1,0.0561,0.0,508.3333
+name,Tindri,1,0.0561,0.0,508.3333
+name,Tinezinine,1,0.0561,0.0,508.3333
+name,Tinezriouine,1,0.0561,0.0,508.3333
+name,Tinifirte,1,0.0561,0.0,508.3333
+name,Tiniskt,1,0.0561,0.0,508.3333
+name,Tinmel ⵜⵉⵏⵎⵍ,1,0.0561,0.0,508.3333
+name,Tinourhar,1,0.0561,0.0,508.3333
+name,Tinsimlal,1,0.0561,0.0,508.3333
+name,Tiourgrine,1,0.0561,0.0,508.3333
+name,Tiqlit,1,0.0561,0.0,508.3333
+name,Tirikht,1,0.0561,0.0,508.3333
+name,Tirmouza,1,0.0561,0.0,508.3333
+name,Tiroula,1,0.0561,0.0,508.3333
+name,Tiskhet,1,0.0561,0.0,508.3333
+name,Tit,1,0.0561,0.0,508.3333
+name,Tiwyaline,1,0.0561,0.0,508.3333
+name,Tizagharine,1,0.0561,0.0,508.3333
+name,Tizat,1,0.0561,0.0,508.3333
+name,Tizegzaoun,1,0.0561,0.0,508.3333
+name,Tizfrit,1,0.0561,0.0,508.3333
+name,Tizga,1,0.0561,0.0,508.3333
+name,Tizguine ⵜⵉⵣⴳⵉⵏ تيزڭين,1,0.0561,0.0,508.3333
+name,Tizi,1,0.0561,0.0,508.3333
+name,Tizi Imlil,1,0.0561,0.0,508.3333
+name,Tizi Oussem,1,0.0561,0.0,508.3333
+name,Tizi Oussoul,1,0.0561,0.0,508.3333
+name,Tizi Warguiwine,1,0.0561,0.0,508.3333
+name,Tizi Zougouart,1,0.0561,0.0,508.3333
+name,Tizi n'Ezrai,1,0.0561,0.0,508.3333
+name,Tizi n'Mzik,1,0.0561,0.0,508.3333
+name,Tizi n'Ouanoums,1,0.0561,0.0,508.3333
+name,Tizi n’Ougane,1,0.0561,0.0,508.3333
+name,Tiziane,1,0.0561,0.0,508.3333
+name,Tlagouns,1,0.0561,0.0,508.3333
+name,Tlat'aînt,1,0.0561,0.0,508.3333
+name,Tlelid,1,0.0561,0.0,508.3333
+name,Tleta Nyacoub,1,0.0561,0.0,508.3333
+name,Tnirt,1,0.0561,0.0,508.3333
+name,Total طوطال,1,0.0561,0.0,508.3333
+name,Toubkal Sommet ouest,1,0.0561,0.0,508.3333
+name,Toudna,1,0.0561,0.0,508.3333
+name,Toufsirine,1,0.0561,0.0,508.3333
+name,Toug Al Kheyr,1,0.0561,0.0,508.3333
+name,Toug el Kheïr,1,0.0561,0.0,508.3333
+name,Toughza,1,0.0561,0.0,508.3333
+name,Touguelkeyr,1,0.0561,0.0,508.3333
+name,Toulkine,1,0.0561,0.0,508.3333
+name,Tounghast ⵜⵓⵏⵖⴰⵙⵜ,1,0.0561,0.0,508.3333
+name,Tourar,1,0.0561,0.0,508.3333
+name,Tourhibine,1,0.0561,0.0,508.3333
+name,Tourit التوريت,1,0.0561,0.0,508.3333
+name,Touzoumtane,1,0.0561,0.0,508.3333
+name,Touzountane,1,0.0561,0.0,508.3333
+name,Touzzert,1,0.0561,0.0,508.3333
+name,Twibia,1,0.0561,0.0,508.3333
+name,Unknown building,1,0.0561,0.0,508.3333
+name,Vacant Lot,1,0.0561,0.0,508.3333
+name,Villa Blossom,1,0.0561,0.0,508.3333
+name,Villa Dar Philia,1,0.0561,0.0,508.3333
+name,Villa El Goute,1,0.0561,0.0,508.3333
+name,Wadaker,1,0.0561,0.0,508.3333
+name,Wahmane,1,0.0561,0.0,508.3333
+name,Widalene,1,0.0561,0.0,508.3333
+name,Wijdane,1,0.0561,0.0,508.3333
+name,Wizammarn,1,0.0561,0.0,508.3333
+name,Zaouia Sidi Rehal,1,0.0561,0.0,508.3333
+name,Zawyat Al Msid,1,0.0561,0.0,508.3333
+name,Zawyat Askar,1,0.0561,0.0,508.3333
+name,Zawyat Ilemti,1,0.0561,0.0,508.3333
+name,Zawyat Sidi Brahim,1,0.0561,0.0,508.3333
+name,Zawyat Tassaft,1,0.0561,0.0,508.3333
+name,Zawyat en Nahliya,1,0.0561,0.0,508.3333
+name,Zawyat-n-Oumslane,1,0.0561,0.0,508.3333
+name,Zgaggma,1,0.0561,0.0,508.3333
+name,Zinebt,1,0.0561,0.0,508.3333
+name,Zinit,1,0.0561,0.0,508.3333
+name,Zit Al Oulja,1,0.0561,0.0,508.3333
+name,Ziz,1,0.0561,0.0,508.3333
+name,Zrit,1,0.0561,0.0,508.3333
+name,Zwalil,1,0.0561,0.0,508.3333
+name,arbres à noix,1,0.0561,0.0,508.3333
+name,arkount,1,0.0561,0.0,508.3333
+name,b1,1,0.0561,0.0,508.3333
+name,b2,1,0.0561,0.0,508.3333
+name,big House,1,0.0561,0.0,508.3333
+name,building2,1,0.0561,0.0,508.3333
+name,buildings,1,0.0561,0.0,508.3333
+name,buildings or settlements,1,0.0561,0.0,508.3333
+name,chemin hors sentiers vers m Aouline,1,0.0561,0.0,508.3333
+name,edificio 2,1,0.0561,0.0,508.3333
+name,edifico,1,0.0561,0.0,508.3333
+name,er,1,0.0561,0.0,508.3333
+name,garden or farm,1,0.0561,0.0,508.3333
+name,hospital,1,0.0561,0.0,508.3333
+name,hou,1,0.0561,0.0,508.3333
+name,houses,1,0.0561,0.0,508.3333
+name,iguidi ⵉⴳⵉⴷⵉ,1,0.0561,0.0,508.3333
+name,imin ouasif School Campus,1,0.0561,0.0,508.3333
+name,imin ouasif امين واسيف School,1,0.0561,0.0,508.3333
+name,no chemin. escalade facile,1,0.0561,0.0,508.3333
+name,normal building,1,0.0561,0.0,508.3333
+name,orchard,1,0.0561,0.0,508.3333
+name,path,1,0.0561,0.0,508.3333
+name,pool,1,0.0561,0.0,508.3333
+name,salle de classe Ait Souka,1,0.0561,0.0,508.3333
+name,shool,1,0.0561,0.0,508.3333
+name,small House,1,0.0561,0.0,508.3333
+name,small house,1,0.0561,0.0,508.3333
+name,storage,1,0.0561,0.0,508.3333
+name,sw,1,0.0561,0.0,508.3333
+name,unknown building,1,0.0561,0.0,508.3333
+name,yard,1,0.0561,0.0,508.3333
+name,école errzagna,1,0.0561,0.0,508.3333
+name,أرمد,1,0.0561,0.0,508.3333
+name,أسني,1,0.0561,0.0,508.3333
+name,أمزميز,1,0.0561,0.0,508.3333
+name,أيت أيوب,1,0.0561,0.0,508.3333
+name,اكي اوكادير,1,0.0561,0.0,508.3333
+name,ام. م. أبي المها جر فرعية ايت دحمان (Elementary school),1,0.0561,0.0,508.3333
+name,امكرنيس,1,0.0561,0.0,508.3333
+name,اوناين,1,0.0561,0.0,508.3333
+name,ايت أجحاد,1,0.0561,0.0,508.3333
+name,ايت مخلص,1,0.0561,0.0,508.3333
+name,تالعينت,1,0.0561,0.0,508.3333
+name,تجكالت,1,0.0561,0.0,508.3333
+name,جبل الشرقي,1,0.0561,0.0,508.3333
+name,دار الأرقام,1,0.0561,0.0,508.3333
+name,سيدي الإمام,1,0.0561,0.0,508.3333
+name,طريق أوريكا,1,0.0561,0.0,508.3333
+name,مسجد إكروال,1,0.0561,0.0,508.3333
+name,مسجد إمسكر,1,0.0561,0.0,508.3333
+name,مسجد السراغنة,1,0.0561,0.0,508.3333
+name,منتزه سيدي الإمام,1,0.0561,0.0,508.3333
+name,’Ali ou Hammou,1,0.0561,0.0,508.3333
+name,たてもの,1,0.0561,0.0,508.3333
+name,住居,1,0.0561,0.0,508.3333
+natural,water,1600,67.6247,159900.0,973233.3333
+natural,wood,362,15.3001,36100.0,220116.6667
+natural,tree_row,112,4.7337,11100.0,68033.3333
+natural,scrub,65,2.7473,6400.0,39441.6667
+natural,grassland,57,2.4091,5600.0,34575.0
+natural,cliff,38,1.6061,3700.0,23016.6667
+natural,tree,33,1.3948,3200.0,19975.0
+natural,shingle,26,1.0989,2500.0,15716.6667
+natural,peak,22,0.9298,2100.0,13283.3333
+natural,heath,19,0.803,1800.0,11458.3333
+natural,ridge,11,0.4649,1000.0,6591.6667
+natural,saddle,10,0.4227,900.0,5983.3333
+natural,bare_rock,6,0.2536,500.0,3550.0
+natural,mountain_range,2,0.0845,100.0,1116.6667
+natural,scree,2,0.0845,100.0,1116.6667
+natural,wetland,1,0.0423,0.0,508.3333
+source,Bing,352,49.2997,35100.0,214033.3333
+source,bing,100,14.0056,9900.0,60733.3333
+source,maxar,99,13.8655,9800.0,60125.0
+source,Yahoo,61,8.5434,6000.0,37008.3333
+source,+bing,19,2.6611,1800.0,11458.3333
+source,gpx,12,1.6807,1100.0,7200.0
+source,digitalglobe,10,1.4006,900.0,5983.3333
+source,aerial imagery,9,1.2605,800.0,5375.0
+source,esri,8,1.1204,700.0,4766.6667
+source,survey,8,1.1204,700.0,4766.6667
+source,geometry: strava.com heatmap,6,0.8403,500.0,3550.0
+source,geometry: strava.com heatmap;aerial imagery,5,0.7003,400.0,2941.6667
+source,gps,5,0.7003,400.0,2941.6667
+source,maplibrary.org,4,0.5602,300.0,2333.3333
+source,ESRI image,3,0.4202,200.0,1725.0
+source,"STRAVA HeatMap ""Run"" / ESRI",2,0.2801,100.0,1116.6667
+source,bing; survey,2,0.2801,100.0,1116.6667
+source,Esri World Imagery,1,0.1401,0.0,508.3333
+source,Kaart Ground Survey 2018,1,0.1401,0.0,508.3333
+source,Seen from road,1,0.1401,0.0,508.3333
+source,bing;survey,1,0.1401,0.0,508.3333
+source,data.gov.ma,1,0.1401,0.0,508.3333
+source,solar,1,0.1401,0.0,508.3333
+source,unclassified,1,0.1401,0.0,508.3333
+source,wikipedia,1,0.1401,0.0,508.3333
+source,yes,1,0.1401,0.0,508.3333
+surface,unpaved,3672,62.269,367100.0,2233700.0
+surface,asphalt,1343,22.7743,134200.0,816891.6667
+surface,ground,560,9.4964,55900.0,340566.6667
+surface,paved,90,1.5262,8900.0,54650.0
+surface,dirt,73,1.2379,7200.0,44308.3333
+surface,gravel,63,1.0683,6200.0,38225.0
+surface,sand,37,0.6274,3600.0,22408.3333
+surface,compacted,14,0.2374,1300.0,8416.6667
+surface,concrete,9,0.1526,800.0,5375.0
+surface,non,9,0.1526,800.0,5375.0
+surface,paving_stones,6,0.1017,500.0,3550.0
+surface,shingle,4,0.0678,300.0,2333.3333
+surface,dirt/sand,3,0.0509,200.0,1725.0
+surface,wood,3,0.0509,200.0,1725.0
+surface,grass,2,0.0339,100.0,1116.6667
+surface,metal,2,0.0339,100.0,1116.6667
+surface,unpvaed,2,0.0339,100.0,1116.6667
+surface,artificial_turf,1,0.017,0.0,508.3333
+surface,fine_gravel,1,0.017,0.0,508.3333
+surface,rocher,1,0.017,0.0,508.3333
+surface,rock,1,0.017,0.0,508.3333
+surface,water,1,0.017,0.0,508.3333
+waterway,stream,3321,80.4311,332000.0,2020175.0
+waterway,river,741,17.9462,74000.0,450675.0
+waterway,ditch,16,0.3875,1500.0,9633.3333
+waterway,weir,14,0.3391,1300.0,8416.6667
+waterway,canal,13,0.3148,1200.0,7808.3333
+waterway,dam,10,0.2422,900.0,5983.3333
+waterway,drain,10,0.2422,900.0,5983.3333
+waterway,brook,2,0.0484,100.0,1116.6667
+waterway,waterfall,2,0.0484,100.0,1116.6667

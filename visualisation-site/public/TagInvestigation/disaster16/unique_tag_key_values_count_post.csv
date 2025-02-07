@@ -1,0 +1,818 @@
+key,value,count,percent_of_total_changes_for_key,percent_difference_from_pre,percent_difference_from_pre_day
+amenity,toilets,106,27.9683,10500.0,10500.0
+amenity,kitchen,60,15.8311,5900.0,5900.0
+amenity,place_of_worship,38,10.0264,3700.0,3700.0
+amenity,school,25,6.5963,2400.0,2400.0
+amenity,shower,23,6.0686,2200.0,2200.0
+amenity,marketplace,18,4.7493,1700.0,1700.0
+amenity,parking,18,4.7493,1700.0,1700.0
+amenity,watering_place,18,4.7493,1700.0,1700.0
+amenity,drinking_water,12,3.1662,1100.0,1100.0
+amenity,hospital,12,3.1662,1100.0,1100.0
+amenity,restaurant,6,1.5831,500.0,500.0
+amenity,post_office,4,1.0554,300.0,300.0
+amenity,bank,3,0.7916,200.0,200.0
+amenity,water_point,3,0.7916,200.0,200.0
+amenity,atm,2,0.5277,100.0,100.0
+amenity,bus_station,2,0.5277,100.0,100.0
+amenity,cafe,2,0.5277,100.0,100.0
+amenity,courthouse,2,0.5277,100.0,100.0
+amenity,gambling,2,0.5277,100.0,100.0
+amenity,police,2,0.5277,100.0,100.0
+amenity,public_building,2,0.5277,100.0,100.0
+amenity,shelter,2,0.5277,100.0,100.0
+amenity,shower;toilets,2,0.5277,100.0,100.0
+amenity,studio,2,0.5277,100.0,100.0
+amenity,university,2,0.5277,100.0,100.0
+amenity,bar,1,0.2639,0.0,0.0
+amenity,bench,1,0.2639,0.0,0.0
+amenity,bicycle_parking,1,0.2639,0.0,0.0
+amenity,childcare,1,0.2639,0.0,0.0
+amenity,doctors,1,0.2639,0.0,0.0
+amenity,fuel,1,0.2639,0.0,0.0
+amenity,parking_space,1,0.2639,0.0,0.0
+amenity,pharmacy,1,0.2639,0.0,0.0
+amenity,prison,1,0.2639,0.0,0.0
+amenity,theatre,1,0.2639,0.0,0.0
+amenity,townhall,1,0.2639,0.0,0.0
+building,yes,229824,98.6323,22982300.0,22982300.0
+building,house,2151,0.9231,215000.0,215000.0
+building,residential,706,0.303,70500.0,70500.0
+building,ruins,129,0.0554,12800.0,12800.0
+building,construction,41,0.0176,4000.0,4000.0
+building,industrial,31,0.0133,3000.0,3000.0
+building,church,15,0.0064,1400.0,1400.0
+building,school,15,0.0064,1400.0,1400.0
+building,train_station,13,0.0056,1200.0,1200.0
+building,apartments,12,0.0051,1100.0,1100.0
+building,commercial,9,0.0039,800.0,800.0
+building,garage,8,0.0034,700.0,700.0
+building,barn,7,0.003,600.0,600.0
+building,hut,7,0.003,600.0,600.0
+building,college,5,0.0021,400.0,400.0
+building,shed,5,0.0021,400.0,400.0
+building,allotment_house,4,0.0017,300.0,300.0
+building,farm_auxiliary,4,0.0017,300.0,300.0
+building,retail,4,0.0017,300.0,300.0
+building,farm,3,0.0013,200.0,200.0
+building,roof,3,0.0013,200.0,200.0
+building,vc house,3,0.0013,200.0,200.0
+building,House,1,0.0004,0.0,0.0
+building,VC's house,1,0.0004,0.0,0.0
+building,footway,1,0.0004,0.0,0.0
+building,hospital,1,0.0004,0.0,0.0
+building,house;yes,1,0.0004,0.0,0.0
+building,kitchen,1,0.0004,0.0,0.0
+building,office,1,0.0004,0.0,0.0
+building,panel_house,1,0.0004,0.0,0.0
+building,q,1,0.0004,0.0,0.0
+building,stable,1,0.0004,0.0,0.0
+building,university,1,0.0004,0.0,0.0
+building,й,1,0.0004,0.0,0.0
+emergency,yes,84,98.8235,8300.0,8300.0
+emergency,fire_hose,1,1.1765,0.0,0.0
+highway,path,17434,41.1383,1743300.0,1743300.0
+highway,unclassified,8752,20.6517,875100.0,875100.0
+highway,residential,8160,19.2548,815900.0,815900.0
+highway,track,3623,8.549,362200.0,362200.0
+highway,footway,1871,4.4149,187000.0,187000.0
+highway,service,1234,2.9118,123300.0,123300.0
+highway,tertiary,423,0.9981,42200.0,42200.0
+highway,trunk,340,0.8023,33900.0,33900.0
+highway,secondary,201,0.4743,20000.0,20000.0
+highway,crossing,124,0.2926,12300.0,12300.0
+highway,primary,43,0.1015,4200.0,4200.0
+highway,motorway,41,0.0967,4000.0,4000.0
+highway,construction,33,0.0779,3200.0,3200.0
+highway,living_street,28,0.0661,2700.0,2700.0
+highway,road,25,0.059,2400.0,2400.0
+highway,motorway_junction,22,0.0519,2100.0,2100.0
+highway,secondary_link,4,0.0094,300.0,300.0
+highway,trunk_link,4,0.0094,300.0,300.0
+highway,cycleway,3,0.0071,200.0,200.0
+highway,pedestrian,3,0.0071,200.0,200.0
+highway,minor/unclassified,2,0.0047,100.0,100.0
+highway,river,2,0.0047,100.0,100.0
+highway,bus_stop,1,0.0024,0.0,0.0
+highway,mini_roundabout,1,0.0024,0.0,0.0
+highway,motorway_link,1,0.0024,0.0,0.0
+highway,tertiary_link,1,0.0024,0.0,0.0
+highway,traffic_signals,1,0.0024,0.0,0.0
+highway,trailhead,1,0.0024,0.0,0.0
+highway,u],1,0.0024,0.0,0.0
+landuse,residential,3840,80.6553,383900.0,383900.0
+landuse,building,259,5.44,25800.0,25800.0
+landuse,farmland,251,5.272,25000.0,25000.0
+landuse,house,170,3.5707,16900.0,16900.0
+landuse,forest,61,1.2812,6000.0,6000.0
+landuse,industrial,37,0.7771,3600.0,3600.0
+landuse,farmyard,21,0.4411,2000.0,2000.0
+landuse,livestock,18,0.3781,1700.0,1700.0
+landuse,meadow,17,0.3571,1600.0,1600.0
+landuse,basin,14,0.2941,1300.0,1300.0
+landuse,House,12,0.252,1100.0,1100.0
+landuse,conservation,12,0.252,1100.0,1100.0
+landuse,orchard,12,0.252,1100.0,1100.0
+landuse,quarry,6,0.126,500.0,500.0
+landuse,yes,5,0.105,400.0,400.0
+landuse,cemetery,4,0.084,300.0,300.0
+landuse,commercial,4,0.084,300.0,300.0
+landuse,education,3,0.063,200.0,200.0
+landuse,reservoir,3,0.063,200.0,200.0
+landuse,Forest,2,0.042,100.0,100.0
+landuse,landfill,2,0.042,100.0,100.0
+landuse,retail,2,0.042,100.0,100.0
+landuse,Compound,1,0.021,0.0,0.0
+landuse,brownfield,1,0.021,0.0,0.0
+landuse,greenfield,1,0.021,0.0,0.0
+landuse,path,1,0.021,0.0,0.0
+landuse,railway,1,0.021,0.0,0.0
+landuse,wetland,1,0.021,0.0,0.0
+leisure,park,22,34.9206,2100.0,2100.0
+leisure,pitch,16,25.3968,1500.0,1500.0
+leisure,swimming_pool,10,15.873,900.0,900.0
+leisure,nature_reserve,5,7.9365,400.0,400.0
+leisure,common,4,6.3492,300.0,300.0
+leisure,golf_course,3,4.7619,200.0,200.0
+leisure,playground,1,1.5873,0.0,0.0
+leisure,resort,1,1.5873,0.0,0.0
+leisure,sports_centre,1,1.5873,0.0,0.0
+name,Shire,60,3.9656,5900.0,5900.0
+name,house,34,2.2472,3300.0,3300.0
+name,Path,27,1.7845,2600.0,2600.0
+name,Bangwe,22,1.4541,2100.0,2100.0
+name,House,21,1.388,2000.0,2000.0
+name,Zomba Road,20,1.3219,1900.0,1900.0
+name,Kapeni Road,19,1.2558,1800.0,1800.0
+name,Machinjiri,19,1.2558,1800.0,1800.0
+name,Nkolokoti Road,19,1.2558,1800.0,1800.0
+name,Nyambadwe,18,1.1897,1700.0,1700.0
+name,Thangadzi,18,1.1897,1700.0,1700.0
+name,Thyolo Road,18,1.1897,1700.0,1700.0
+name,Lalanje,15,0.9914,1400.0,1400.0
+name,Chileka Road,13,0.8592,1200.0,1200.0
+name,Chirimba,13,0.8592,1200.0,1200.0
+name,Churchill Road,13,0.8592,1200.0,1200.0
+name,Mangochi Forest Reserve,12,0.7931,1100.0,1100.0
+name,Chinolo Stream,11,0.727,1000.0,1000.0
+name,Chinzemebe River,11,0.727,1000.0,1000.0
+name,Chitawira,11,0.727,1000.0,1000.0
+name,Kalulu Forest Reserve,11,0.727,1000.0,1000.0
+name,Kamuzu Highway,11,0.727,1000.0,1000.0
+name,kadabwako,11,0.727,1000.0,1000.0
+name,menne manta,11,0.727,1000.0,1000.0
+name,Classroom,10,0.6609,900.0,900.0
+name,Mvabvi Wilderness Area,10,0.6609,900.0,900.0
+name,path,10,0.6609,900.0,900.0
+name,Kameza / Chatha,9,0.5948,800.0,800.0
+name,Nafafa Creek,9,0.5948,800.0,800.0
+name,Naperi,9,0.5948,800.0,800.0
+name,New Chileka Road,9,0.5948,800.0,800.0
+name,Thangazi River,9,0.5948,800.0,800.0
+name,Mazongoza Footpath,8,0.5288,700.0,700.0
+name,Michiru Road,8,0.5288,700.0,700.0
+name,Namizimu Forest Reserve,8,0.5288,700.0,700.0
+name,Pioneer Drive,8,0.5288,700.0,700.0
+name,building,8,0.5288,700.0,700.0
+name,Chabe Path,7,0.4627,600.0,600.0
+name,Dunduzu Road,7,0.4627,600.0,600.0
+name,Foot Path,7,0.4627,600.0,600.0
+name,Kasungu Road,7,0.4627,600.0,600.0
+name,Kenyatta Drive,7,0.4627,600.0,600.0
+name,Livingstone Avenue,7,0.4627,600.0,600.0
+name,Lunzu,7,0.4627,600.0,600.0
+name,Maseya,7,0.4627,600.0,600.0
+name,Midima Road,7,0.4627,600.0,600.0
+name,rd,7,0.4627,600.0,600.0
+name,Adam Path,6,0.3966,500.0,500.0
+name,Kittermaster Avenue,6,0.3966,500.0,500.0
+name,Nansolo,6,0.3966,500.0,500.0
+name,Ndirande Ring Road,6,0.3966,500.0,500.0
+name,Ndirande forest,6,0.3966,500.0,500.0
+name,Sadiki,6,0.3966,500.0,500.0
+name,shire,6,0.3966,500.0,500.0
+name,Building,5,0.3305,400.0,400.0
+name,Chimwankhunda,5,0.3305,400.0,400.0
+name,Chipondi Irrigation Canal,5,0.3305,400.0,400.0
+name,Dalton Road,5,0.3305,400.0,400.0
+name,Joaquim Chissano Road,5,0.3305,400.0,400.0
+name,Kandalandala,5,0.3305,400.0,400.0
+name,Makata Road,5,0.3305,400.0,400.0
+name,Maone Industrial Park,5,0.3305,400.0,400.0
+name,Market Street,5,0.3305,400.0,400.0
+name,Mbayani,5,0.3305,400.0,400.0
+name,Moloseni Road,5,0.3305,400.0,400.0
+name,Msanjere River,5,0.3305,400.0,400.0
+name,Seventh Day Adventist,5,0.3305,400.0,400.0
+name,Soche East Road,5,0.3305,400.0,400.0
+name,Umodzi Drive,5,0.3305,400.0,400.0
+name,chimbwimbwi,5,0.3305,400.0,400.0
+name,hidden?,5,0.3305,400.0,400.0
+name,Chatha,4,0.2644,300.0,300.0
+name,Chindema River,4,0.2644,300.0,300.0
+name,Foot path,4,0.2644,300.0,300.0
+name,Grevillia Avenue,4,0.2644,300.0,300.0
+name,Hostel,4,0.2644,300.0,300.0
+name,Kachere,4,0.2644,300.0,300.0
+name,MANNUHH,4,0.2644,300.0,300.0
+name,Makande,4,0.2644,300.0,300.0
+name,Makanjila,4,0.2644,300.0,300.0
+name,Makhapa Irrigation Scheme,4,0.2644,300.0,300.0
+name,Masauko Chipembere Highway,4,0.2644,300.0,300.0
+name,Mlelemba Road,4,0.2644,300.0,300.0
+name,Osiyana Road,4,0.2644,300.0,300.0
+name,Paths,4,0.2644,300.0,300.0
+name,Pepe River,4,0.2644,300.0,300.0
+name,Smythe Road,4,0.2644,300.0,300.0
+name,To Kwadyamba,4,0.2644,300.0,300.0
+name,fire,4,0.2644,300.0,300.0
+name,seasonal stream,4,0.2644,300.0,300.0
+name,Access road,3,0.1983,200.0,200.0
+name,Baluti,3,0.1983,200.0,200.0
+name,Bande,3,0.1983,200.0,200.0
+name,Brereton Drive,3,0.1983,200.0,200.0
+name,CHirimba Industrial Area,3,0.1983,200.0,200.0
+name,Chileka Road (under construction),3,0.1983,200.0,200.0
+name,Chilobwe,3,0.1983,200.0,200.0
+name,Community Quarry,3,0.1983,200.0,200.0
+name,Edificio,3,0.1983,200.0,200.0
+name,Glyn Jones Road,3,0.1983,200.0,200.0
+name,HOUSE,3,0.1983,200.0,200.0
+name,Independence Drive,3,0.1983,200.0,200.0
+name,Kamarajar Street,3,0.1983,200.0,200.0
+name,Malambalala,3,0.1983,200.0,200.0
+name,Malanga Road,3,0.1983,200.0,200.0
+name,Manase,3,0.1983,200.0,200.0
+name,Masenjere Forest Reserve,3,0.1983,200.0,200.0
+name,Mbayani road,3,0.1983,200.0,200.0
+name,Melemba Road,3,0.1983,200.0,200.0
+name,Mibwazi River,3,0.1983,200.0,200.0
+name,Moi Road,3,0.1983,200.0,200.0
+name,Mwase Road,3,0.1983,200.0,200.0
+name,Nangafuwe,3,0.1983,200.0,200.0
+name,Naperi Road,3,0.1983,200.0,200.0
+name,Ntonda Road,3,0.1983,200.0,200.0
+name,Nugudzi River,3,0.1983,200.0,200.0
+name,Red Route,3,0.1983,200.0,200.0
+name,Ruo,3,0.1983,200.0,200.0
+name,St. Andrews Close,3,0.1983,200.0,200.0
+name,Sunnyside,3,0.1983,200.0,200.0
+name,T411,3,0.1983,200.0,200.0
+name,Thaboni Road,3,0.1983,200.0,200.0
+name,Thyolowani Forest Reserve,3,0.1983,200.0,200.0
+name,common,3,0.1983,200.0,200.0
+name,footpath,3,0.1983,200.0,200.0
+name,likangala,3,0.1983,200.0,200.0
+name,river,3,0.1983,200.0,200.0
+name,831 syamanda ps,2,0.1322,100.0,100.0
+name,Africa Wild Truck camp & lodge,2,0.1322,100.0,100.0
+name,Ali Hassan Mwini Road,2,0.1322,100.0,100.0
+name,Bangula,2,0.1322,100.0,100.0
+name,Blackwood Road,2,0.1322,100.0,100.0
+name,Blantyre,2,0.1322,100.0,100.0
+name,Bloomfield Estate,2,0.1322,100.0,100.0
+name,Bondo 3 Penstock,2,0.1322,100.0,100.0
+name,Central Avenue,2,0.1322,100.0,100.0
+name,Central High School,2,0.1322,100.0,100.0
+name,Centre Road,2,0.1322,100.0,100.0
+name,Changalumi,2,0.1322,100.0,100.0
+name,Charterland Road,2,0.1322,100.0,100.0
+name,Chinekwe Irrigation Project Road,2,0.1322,100.0,100.0
+name,Chinolo Bridge,2,0.1322,100.0,100.0
+name,Chinyonga,2,0.1322,100.0,100.0
+name,Chipondi Irrigation Scheme,2,0.1322,100.0,100.0
+name,Chisambo Primary School,2,0.1322,100.0,100.0
+name,Church of Christ,2,0.1322,100.0,100.0
+name,Cirtona Avenue,2,0.1322,100.0,100.0
+name,Dyeratu Trading Centre,2,0.1322,100.0,100.0
+name,Faith Apostolic Church,2,0.1322,100.0,100.0
+name,Forbes Road,2,0.1322,100.0,100.0
+name,Forest,2,0.1322,100.0,100.0
+name,Gomani Road,2,0.1322,100.0,100.0
+name,Gundani - Sankhulani Village,2,0.1322,100.0,100.0
+name,Hut,2,0.1322,100.0,100.0
+name,Illovo,2,0.1322,100.0,100.0
+name,Intermittent,2,0.1322,100.0,100.0
+name,Kalulu Village,2,0.1322,100.0,100.0
+name,Kanjedza,2,0.1322,100.0,100.0
+name,Kaoshiung Road,2,0.1322,100.0,100.0
+name,Koche Hospital,2,0.1322,100.0,100.0
+name,Kufa Street,2,0.1322,100.0,100.0
+name,Leslie Road,2,0.1322,100.0,100.0
+name,Likhubala Forest Lodge,2,0.1322,100.0,100.0
+name,Limbe,2,0.1322,100.0,100.0
+name,Luchenza river,2,0.1322,100.0,100.0
+name,Lunzu Maone,2,0.1322,100.0,100.0
+name,M'BALUKU TRADING CENTRE,2,0.1322,100.0,100.0
+name,MALAWI UNIVERSITY OF BUSINESS AND APPLIED SCIENCES,2,0.1322,100.0,100.0
+name,Magasa Avenue,2,0.1322,100.0,100.0
+name,Mahatma Gandhi Avenue,2,0.1322,100.0,100.0
+name,Makina,2,0.1322,100.0,100.0
+name,Mambala Stream,2,0.1322,100.0,100.0
+name,Mandala Road,2,0.1322,100.0,100.0
+name,Mapalera River,2,0.1322,100.0,100.0
+name,Mapanga Industrial Area,2,0.1322,100.0,100.0
+name,Mathiya Borehole,2,0.1322,100.0,100.0
+name,Mbayani Road,2,0.1322,100.0,100.0
+name,Mbelwa Street,2,0.1322,100.0,100.0
+name,Mchacha,2,0.1322,100.0,100.0
+name,Mchonya Road,2,0.1322,100.0,100.0
+name,Michiru Forest Reserve,2,0.1322,100.0,100.0
+name,Mombo Road,2,0.1322,100.0,100.0
+name,Mount Soche,2,0.1322,100.0,100.0
+name,Mpama Drive,2,0.1322,100.0,100.0
+name,Mtyala,2,0.1322,100.0,100.0
+name,Mudi,2,0.1322,100.0,100.0
+name,Namikalango River,2,0.1322,100.0,100.0
+name,Nchalo Illovo Sugar Estate,2,0.1322,100.0,100.0
+name,Nchalo Premier Bet,2,0.1322,100.0,100.0
+name,Nchalo TDC,2,0.1322,100.0,100.0
+name,New Nchalo Magistrate court,2,0.1322,100.0,100.0
+name,Njamba,2,0.1322,100.0,100.0
+name,Njereza Cement,2,0.1322,100.0,100.0
+name,Nkhate River,2,0.1322,100.0,100.0
+name,Nkuyu Crescent,2,0.1322,100.0,100.0
+name,Ntayakhasu Stream,2,0.1322,100.0,100.0
+name,Nthondowa-Damiyano Path,2,0.1322,100.0,100.0
+name,Nyni,2,0.1322,100.0,100.0
+name,Oasis life Ministry,2,0.1322,100.0,100.0
+name,Osiyana Path,2,0.1322,100.0,100.0
+name,Pwazi Estate,2,0.1322,100.0,100.0
+name,Riverside School,2,0.1322,100.0,100.0
+name,Riverside flats (Petit Hostels),2,0.1322,100.0,100.0
+name,Road,2,0.1322,100.0,100.0
+name,Route,2,0.1322,100.0,100.0
+name,S152,2,0.1322,100.0,100.0
+name,Seventh Day Adventist Mission,2,0.1322,100.0,100.0
+name,Shop,2,0.1322,100.0,100.0
+name,Skull Rock Tobacco estate,2,0.1322,100.0,100.0
+name,Smallholder Tea,2,0.1322,100.0,100.0
+name,Sokota Road,2,0.1322,100.0,100.0
+name,Stephen Road,2,0.1322,100.0,100.0
+name,Thondwe,2,0.1322,100.0,100.0
+name,Thuchila River,2,0.1322,100.0,100.0
+name,To Chinolo Stream,2,0.1322,100.0,100.0
+name,Tourism Enterprise,2,0.1322,100.0,100.0
+name,Unkwon,2,0.1322,100.0,100.0
+name,Victoria Road,2,0.1322,100.0,100.0
+name,Watani Street,2,0.1322,100.0,100.0
+name,Zomba Central Hospital,2,0.1322,100.0,100.0
+name,abaho joshua,2,0.1322,100.0,100.0
+name,culvet,2,0.1322,100.0,100.0
+name,dense forest,2,0.1322,100.0,100.0
+name,main,2,0.1322,100.0,100.0
+name,minor road,2,0.1322,100.0,100.0
+name,path way,2,0.1322,100.0,100.0
+name,rd bend,2,0.1322,100.0,100.0
+name,surface = ground,2,0.1322,100.0,100.0
+name,#CanCross #DefinityMaps,1,0.0661,0.0,0.0
+name,3,1,0.0661,0.0,0.0
+name,827micheai ps,1,0.0661,0.0,0.0
+name,829 nambiti ps,1,0.0661,0.0,0.0
+name,?,1,0.0661,0.0,0.0
+name,A and Messi,1,0.0661,0.0,0.0
+name,ADMARC ROAD,1,0.0661,0.0,0.0
+name,AGIOS NEKTARIOS,1,0.0661,0.0,0.0
+name,Access route,1,0.0661,0.0,0.0
+name,Admin,1,0.0661,0.0,0.0
+name,African Church,1,0.0661,0.0,0.0
+name,Area 4 Office,1,0.0661,0.0,0.0
+name,Arrows restaurant,1,0.0661,0.0,0.0
+name,B A D gates Division,1,0.0661,0.0,0.0
+name,BE,1,0.0661,0.0,0.0
+name,Bakili Muluzi Highway,1,0.0661,0.0,0.0
+name,Bangula Lagoon,1,0.0661,0.0,0.0
+name,Bangula Secondary School,1,0.0661,0.0,0.0
+name,Bank Street,1,0.0661,0.0,0.0
+name,Baren or Cropland,1,0.0661,0.0,0.0
+name,Barnes Road,1,0.0661,0.0,0.0
+name,Batiment,1,0.0661,0.0,0.0
+name,Bereu-kalima path,1,0.0661,0.0,0.0
+name,Big Pond,1,0.0661,0.0,0.0
+name,Blantyre City Assembly,1,0.0661,0.0,0.0
+name,Blantyre Post Office,1,0.0661,0.0,0.0
+name,Blantyre Sports Club,1,0.0661,0.0,0.0
+name,Blantyre Sports Club Building,1,0.0661,0.0,0.0
+name,Blantyre Train Station,1,0.0661,0.0,0.0
+name,Blantyre Water Board,1,0.0661,0.0,0.0
+name,Bondo 3,1,0.0661,0.0,0.0
+name,Boss man Restraurant,1,0.0661,0.0,0.0
+name,Bread Talk,1,0.0661,0.0,0.0
+name,Buildings,1,0.0661,0.0,0.0
+name,Bunchanan Road,1,0.0661,0.0,0.0
+name,Bungalow,1,0.0661,0.0,0.0
+name,Butterfly,1,0.0661,0.0,0.0
+name,Bvumbwe,1,0.0661,0.0,0.0
+name,COM Sports Complex Car Park,1,0.0661,0.0,0.0
+name,Camino,1,0.0661,0.0,0.0
+name,Canning Factory,1,0.0661,0.0,0.0
+name,Catholic,1,0.0661,0.0,0.0
+name,Chambiluka Borehole,1,0.0661,0.0,0.0
+name,Chambiluka mini trading centre,1,0.0661,0.0,0.0
+name,Chanunka,1,0.0661,0.0,0.0
+name,Chanunka FP School,1,0.0661,0.0,0.0
+name,Chichiri Prison,1,0.0661,0.0,0.0
+name,Chigaru Peak Path,1,0.0661,0.0,0.0
+name,Chigumula,1,0.0661,0.0,0.0
+name,Chigumula Forest Reserve,1,0.0661,0.0,0.0
+name,Chigwaya Road T409,1,0.0661,0.0,0.0
+name,Chikunda,1,0.0661,0.0,0.0
+name,Chilembwe Road,1,0.0661,0.0,0.0
+name,Chilembwe Street,1,0.0661,0.0,0.0
+name,Chimvuu,1,0.0661,0.0,0.0
+name,Chinakanaka,1,0.0661,0.0,0.0
+name,Chinamwali Ground,1,0.0661,0.0,0.0
+name,Chinamwali Market,1,0.0661,0.0,0.0
+name,Chinyama to Mulanje Boma,1,0.0661,0.0,0.0
+name,Chinyanje River,1,0.0661,0.0,0.0
+name,Chipiku Plus,1,0.0661,0.0,0.0
+name,Chipita Drive,1,0.0661,0.0,0.0
+name,Chiromo,1,0.0661,0.0,0.0
+name,Chirwa Road,1,0.0661,0.0,0.0
+name,Chisambo,1,0.0661,0.0,0.0
+name,Chitawira Road,1,0.0661,0.0,0.0
+name,Chitseko Carpentry Shop,1,0.0661,0.0,0.0
+name,Chiuse Mountain,1,0.0661,0.0,0.0
+name,Cholomali Path,1,0.0661,0.0,0.0
+name,Chomboto Irrigation Scheme,1,0.0661,0.0,0.0
+name,Christ Living Church,1,0.0661,0.0,0.0
+name,Church of God,1,0.0661,0.0,0.0
+name,Club Makokola International,1,0.0661,0.0,0.0
+name,Cold Storage,1,0.0661,0.0,0.0
+name,Common,1,0.0661,0.0,0.0
+name,Company Medical Officer office,1,0.0661,0.0,0.0
+name,Company Medical officer office,1,0.0661,0.0,0.0
+name,Concern Universal,1,0.0661,0.0,0.0
+name,Country Club Limbe Golf Club,1,0.0661,0.0,0.0
+name,Cross Life Church,1,0.0661,0.0,0.0
+name,Cultivo,1,0.0661,0.0,0.0
+name,Desha,1,0.0661,0.0,0.0
+name,Diva's Lodge,1,0.0661,0.0,0.0
+name,Drain,1,0.0661,0.0,0.0
+name,Ekhaya farm Foods,1,0.0661,0.0,0.0
+name,Euro African Baptist Church,1,0.0661,0.0,0.0
+name,Evalngelical Church of Malawi,1,0.0661,0.0,0.0
+name,Evangelical Church,1,0.0661,0.0,0.0
+name,FDH bank,1,0.0661,0.0,0.0
+name,Faith in Action Pentecostal Church,1,0.0661,0.0,0.0
+name,Fatima Roman Catholic Church,1,0.0661,0.0,0.0
+name,Fisd weir,1,0.0661,0.0,0.0
+name,Fish Farm,1,0.0661,0.0,0.0
+name,Footpath,1,0.0661,0.0,0.0
+name,Forest Road,1,0.0661,0.0,0.0
+name,GVH Mitawi,1,0.0661,0.0,0.0
+name,GVH Thembedza,1,0.0661,0.0,0.0
+name,Gents Toilet,1,0.0661,0.0,0.0
+name,Graveyard,1,0.0661,0.0,0.0
+name,HOUSRE,1,0.0661,0.0,0.0
+name,Haile Selassie Avenue,1,0.0661,0.0,0.0
+name,Hat,1,0.0661,0.0,0.0
+name,Heatherwick Road,1,0.0661,0.0,0.0
+name,Henderson Street,1,0.0661,0.0,0.0
+name,Hope This Is a Road,1,0.0661,0.0,0.0
+name,House 1,1,0.0661,0.0,0.0
+name,House 2,1,0.0661,0.0,0.0
+name,ILLOVO (TOTAL Filling),1,0.0661,0.0,0.0
+name,Impala Road,1,0.0661,0.0,0.0
+name,Imperial Park,1,0.0661,0.0,0.0
+name,Institution Area,1,0.0661,0.0,0.0
+name,Jackson Road,1,0.0661,0.0,0.0
+name,Jana,1,0.0661,0.0,0.0
+name,Janken,1,0.0661,0.0,0.0
+name,Johnstone Road,1,0.0661,0.0,0.0
+name,Johonere Irrigation Scheme,1,0.0661,0.0,0.0
+name,Jombo,1,0.0661,0.0,0.0
+name,Kabula,1,0.0661,0.0,0.0
+name,Kalua.s Lodge,1,0.0661,0.0,0.0
+name,Kamuzu Stadium Rd,1,0.0661,0.0,0.0
+name,Kapeni Hostel,1,0.0661,0.0,0.0
+name,Kapilinjuchi,1,0.0661,0.0,0.0
+name,Kara O'Mula Country Lodge,1,0.0661,0.0,0.0
+name,Karonga,1,0.0661,0.0,0.0
+name,Kasitu,1,0.0661,0.0,0.0
+name,Kavalo village,1,0.0661,0.0,0.0
+name,Khavala,1,0.0661,0.0,0.0
+name,Khavala - Cholomali path,1,0.0661,0.0,0.0
+name,Khonjeni,1,0.0661,0.0,0.0
+name,Khonjeni River,1,0.0661,0.0,0.0
+name,Kip’s,1,0.0661,0.0,0.0
+name,Kwacibi,1,0.0661,0.0,0.0
+name,Ladies Toilet,1,0.0661,0.0,0.0
+name,Lake Malawi National Park,1,0.0661,0.0,0.0
+name,Lauderdale Market,1,0.0661,0.0,0.0
+name,Livunku River,1,0.0661,0.0,0.0
+name,Lower Mibawa Minbus Station,1,0.0661,0.0,0.0
+name,Luchenza,1,0.0661,0.0,0.0
+name,Luchenza R,1,0.0661,0.0,0.0
+name,MAPERERA RIVER,1,0.0661,0.0,0.0
+name,MUBAS LIBRARY,1,0.0661,0.0,0.0
+name,Mackle Road,1,0.0661,0.0,0.0
+name,Macleod Road,1,0.0661,0.0,0.0
+name,Macsteel,1,0.0661,0.0,0.0
+name,Main road to ILLOVO Estate,1,0.0661,0.0,0.0
+name,Majaua,1,0.0661,0.0,0.0
+name,Makhuvas residential area,1,0.0661,0.0,0.0
+name,Malawi Institute of Education,1,0.0661,0.0,0.0
+name,Maleule,1,0.0661,0.0,0.0
+name,Malikopo,1,0.0661,0.0,0.0
+name,Mama Kadija Islamic Girls Acadamy,1,0.0661,0.0,0.0
+name,Manase Police Post,1,0.0661,0.0,0.0
+name,Mandevu Farm,1,0.0661,0.0,0.0
+name,Manje,1,0.0661,0.0,0.0
+name,Marka,1,0.0661,0.0,0.0
+name,Market,1,0.0661,0.0,0.0
+name,Marshall Road,1,0.0661,0.0,0.0
+name,Mathiya Maize Mill,1,0.0661,0.0,0.0
+name,Maunde Road,1,0.0661,0.0,0.0
+name,Maveya,1,0.0661,0.0,0.0
+name,Maveya Pitch,1,0.0661,0.0,0.0
+name,Mbisa,1,0.0661,0.0,0.0
+name,Mbyia,1,0.0661,0.0,0.0
+name,Mfera Health Center,1,0.0661,0.0,0.0
+name,Mikolongwe Road,1,0.0661,0.0,0.0
+name,Millward Road,1,0.0661,0.0,0.0
+name,Mini Mini Factory,1,0.0661,0.0,0.0
+name,Minibuses to Blantyre,1,0.0661,0.0,0.0
+name,Mitawi,1,0.0661,0.0,0.0
+name,Moloseni,1,0.0661,0.0,0.0
+name,Monkey Bay,1,0.0661,0.0,0.0
+name,Montfort Hospital,1,0.0661,0.0,0.0
+name,Mount Mulanje,1,0.0661,0.0,0.0
+name,Mponya,1,0.0661,0.0,0.0
+name,Msanjere Full Primary School,1,0.0661,0.0,0.0
+name,Msanjere Post Office,1,0.0661,0.0,0.0
+name,Mudi Dam,1,0.0661,0.0,0.0
+name,Mulipa,1,0.0661,0.0,0.0
+name,Mulipa Train Station,1,0.0661,0.0,0.0
+name,Mulonda Primary School,1,0.0661,0.0,0.0
+name,Muloza,1,0.0661,0.0,0.0
+name,Mulunguzi SDA Church,1,0.0661,0.0,0.0
+name,Muona,1,0.0661,0.0,0.0
+name,Mwaiwathu Private Hospital,1,0.0661,0.0,0.0
+name,Mwanza,1,0.0661,0.0,0.0
+name,Mzimu Woyera ndi Moto Church,1,0.0661,0.0,0.0
+name,Mzuni#123,1,0.0661,0.0,0.0
+name,Nakhoru,1,0.0661,0.0,0.0
+name,Nalingula,1,0.0661,0.0,0.0
+name,Nalingula 2,1,0.0661,0.0,0.0
+name,Nalingula FP School,1,0.0661,0.0,0.0
+name,Nalingula Primary School,1,0.0661,0.0,0.0
+name,Namanja,1,0.0661,0.0,0.0
+name,Naminingo,1,0.0661,0.0,0.0
+name,Namiwawa Avenue,1,0.0661,0.0,0.0
+name,Namphimbe,1,0.0661,0.0,0.0
+name,Nansadi,1,0.0661,0.0,0.0
+name,Nansama,1,0.0661,0.0,0.0
+name,Nasolo,1,0.0661,0.0,0.0
+name,National Bank,1,0.0661,0.0,0.0
+name,Nayuchi,1,0.0661,0.0,0.0
+name,Nchalo ESCOM office,1,0.0661,0.0,0.0
+name,Nchalo Golf Course,1,0.0661,0.0,0.0
+name,Nchalo MTL office,1,0.0661,0.0,0.0
+name,Nchalo Medicine Shop,1,0.0661,0.0,0.0
+name,Nchalo Police Station,1,0.0661,0.0,0.0
+name,Nchalo Post Office,1,0.0661,0.0,0.0
+name,Nchalo Post Office ,1,0.0661,0.0,0.0
+name,Nchalo Water,1,0.0661,0.0,0.0
+name,Ndaonetsa,1,0.0661,0.0,0.0
+name,"Ndeule,s",1,0.0661,0.0,0.0
+name,Ndirande Central SDA Children's Chapel,1,0.0661,0.0,0.0
+name,Ndirande Central SDA Church,1,0.0661,0.0,0.0
+name,New Nchalo Magriste court,1,0.0661,0.0,0.0
+name,Ngena,1,0.0661,0.0,0.0
+name,Njela Hills,1,0.0661,0.0,0.0
+name,Njereza Cement Haul road,1,0.0661,0.0,0.0
+name,Nkando Market,1,0.0661,0.0,0.0
+name,Nsangwe,1,0.0661,0.0,0.0
+name,Nsanje Airport,1,0.0661,0.0,0.0
+name,Nsuwadzi,1,0.0661,0.0,0.0
+name,Nyani,1,0.0661,0.0,0.0
+name,Occupational Health (OH) Office - Illovo,1,0.0661,0.0,0.0
+name,Octopus Villa,1,0.0661,0.0,0.0
+name,Open Space or Baren,1,0.0661,0.0,0.0
+name,Open Theatre (OT),1,0.0661,0.0,0.0
+name,Paiwa Dam,1,0.0661,0.0,0.0
+name,Pakachere Backpackers Lodge,1,0.0661,0.0,0.0
+name,Pentecoastal Church,1,0.0661,0.0,0.0
+name,Phalombe Main Mosque,1,0.0661,0.0,0.0
+name,Phambala Road,1,0.0661,0.0,0.0
+name,Pine Street,1,0.0661,0.0,0.0
+name,Pond,1,0.0661,0.0,0.0
+name,Praise plant nursery,1,0.0661,0.0,0.0
+name,Public Health Office,1,0.0661,0.0,0.0
+name,Queen Elizabeth Central Hospital,1,0.0661,0.0,0.0
+name,Queens Park,1,0.0661,0.0,0.0
+name,RTC,1,0.0661,0.0,0.0
+name,Ramal de Vila Nova da Fronteira,1,0.0661,0.0,0.0
+name,Raynor Avenue,1,0.0661,0.0,0.0
+name,Rd AB,1,0.0661,0.0,0.0
+name,Ring Road,1,0.0661,0.0,0.0
+name,River,1,0.0661,0.0,0.0
+name,Robins Road,1,0.0661,0.0,0.0
+name,Ruo Exchange,1,0.0661,0.0,0.0
+name,Río,1,0.0661,0.0,0.0
+name,SC1,1,0.0661,0.0,0.0
+name,SDA,1,0.0661,0.0,0.0
+name,SUCCOMA SACCO,1,0.0661,0.0,0.0
+name,SUCOMA SACCO,1,0.0661,0.0,0.0
+name,Sandama,1,0.0661,0.0,0.0
+name,Sanjika Estate,1,0.0661,0.0,0.0
+name,Sathawa,1,0.0661,0.0,0.0
+name,School hall,1,0.0661,0.0,0.0
+name,Scott Road,1,0.0661,0.0,0.0
+name,Sinclair Avenue,1,0.0661,0.0,0.0
+name,Songwe,1,0.0661,0.0,0.0
+name,Songwe FP School,1,0.0661,0.0,0.0
+name,Songwe Road,1,0.0661,0.0,0.0
+name,Sorgin,1,0.0661,0.0,0.0
+name,Spar Lodge,1,0.0661,0.0,0.0
+name,Special voice 4,1,0.0661,0.0,0.0
+name,Special voice 5,1,0.0661,0.0,0.0
+name,St Andrews CCAP,1,0.0661,0.0,0.0
+name,St Matthews Hospital,1,0.0661,0.0,0.0
+name,St Pius School,1,0.0661,0.0,0.0
+name,St. Andrews CCAP,1,0.0661,0.0,0.0
+name,St. Andrews Primary School,1,0.0661,0.0,0.0
+name,St. Andrews Street,1,0.0661,0.0,0.0
+name,St. Charles Lwangwa Catholic Parish,1,0.0661,0.0,0.0
+name,St. George Street,1,0.0661,0.0,0.0
+name,St. Matthews FP School,1,0.0661,0.0,0.0
+name,St. Matthews Parish,1,0.0661,0.0,0.0
+name,St. Montfort Hospital,1,0.0661,0.0,0.0
+name,Station Limbe,1,0.0661,0.0,0.0
+name,Station Luchenza,1,0.0661,0.0,0.0
+name,Stella Maris Cemetary,1,0.0661,0.0,0.0
+name,Stewart Street,1,0.0661,0.0,0.0
+name,Student Common room,1,0.0661,0.0,0.0
+name,SwoopAero Country HQ,1,0.0661,0.0,0.0
+name,T 417,1,0.0661,0.0,0.0
+name,T385,1,0.0661,0.0,0.0
+name,TNM shop,1,0.0661,0.0,0.0
+name,TPL Canal A lining,1,0.0661,0.0,0.0
+name,Tekerani,1,0.0661,0.0,0.0
+name,Temple Avenue,1,0.0661,0.0,0.0
+name,Tengani,1,0.0661,0.0,0.0
+name,Thanki,1,0.0661,0.0,0.0
+name,The Mixed,1,0.0661,0.0,0.0
+name,Thembedza School,1,0.0661,0.0,0.0
+name,Tondole Market,1,0.0661,0.0,0.0
+name,Trinity Hospital / Nursing and Midwifery Training Centre,1,0.0661,0.0,0.0
+name,True Vine Church,1,0.0661,0.0,0.0
+name,Tsiranana Road,1,0.0661,0.0,0.0
+name,Turn to Masenjere,1,0.0661,0.0,0.0
+name,Underground tank for vegetable growing,1,0.0661,0.0,0.0
+name,University of Malawi - Chancellor College Campus,1,0.0661,0.0,0.0
+name,Unknown,1,0.0661,0.0,0.0
+name,Vasco Malinya Guest House,1,0.0661,0.0,0.0
+name,Villa 9,1,0.0661,0.0,0.0
+name,Village Headman Thedzi,1,0.0661,0.0,0.0
+name,WET BUILDING,1,0.0661,0.0,0.0
+name,Wednesday,1,0.0661,0.0,0.0
+name,Wells of Joy,1,0.0661,0.0,0.0
+name,Zamulire,1,0.0661,0.0,0.0
+name,Zingono,1,0.0661,0.0,0.0
+name,Zingwangwa Newlines,1,0.0661,0.0,0.0
+name,Zingwangwa Road,1,0.0661,0.0,0.0
+name,Zomba,1,0.0661,0.0,0.0
+name,\,1,0.0661,0.0,0.0
+name,access road,1,0.0661,0.0,0.0
+name,buiding,1,0.0661,0.0,0.0
+name,c2,1,0.0661,0.0,0.0
+name,c2 end rd dbcultert,1,0.0661,0.0,0.0
+name,c2 start,1,0.0661,0.0,0.0
+name,c2bd3,1,0.0661,0.0,0.0
+name,c2db2,1,0.0661,0.0,0.0
+name,c2db4culveet,1,0.0661,0.0,0.0
+name,c2dbculvert,1,0.0661,0.0,0.0
+name,canal continue,1,0.0661,0.0,0.0
+name,car park,1,0.0661,0.0,0.0
+name,chipi pillow residence,1,0.0661,0.0,0.0
+name,crossing slab msintenance,1,0.0661,0.0,0.0
+name,culvet new,1,0.0661,0.0,0.0
+name,culvet required,1,0.0661,0.0,0.0
+name,cuvert mc 1 offtake,1,0.0661,0.0,0.0
+name,damaged dyke,1,0.0661,0.0,0.0
+name,danida intake,1,0.0661,0.0,0.0
+name,edificio,1,0.0661,0.0,0.0
+name,end rd,1,0.0661,0.0,0.0
+name,fence,1,0.0661,0.0,0.0
+name,foot path,1,0.0661,0.0,0.0
+name,ginnery cornerindustrial site,1,0.0661,0.0,0.0
+name,h,1,0.0661,0.0,0.0
+name,hat,1,0.0661,0.0,0.0
+name,j,1,0.0661,0.0,0.0
+name,k3 and K4,1,0.0661,0.0,0.0
+name,main canal,1,0.0661,0.0,0.0
+name,mc,1,0.0661,0.0,0.0
+name,molys Lodge machinjiri,1,0.0661,0.0,0.0
+name,molys lodge machinjiri,1,0.0661,0.0,0.0
+name,msewu wam'makwalala,1,0.0661,0.0,0.0
+name,nankumwa,1,0.0661,0.0,0.0
+name,natural wood,1,0.0661,0.0,0.0
+name,new building,1,0.0661,0.0,0.0
+name,nursery sch,1,0.0661,0.0,0.0
+name,pepe river,1,0.0661,0.0,0.0
+name,playing ground,1,0.0661,0.0,0.0
+name,pond,1,0.0661,0.0,0.0
+name,potential military area.,1,0.0661,0.0,0.0
+name,private house,1,0.0661,0.0,0.0
+name,proposed New Weir,1,0.0661,0.0,0.0
+name,rd c1 and b,1,0.0661,0.0,0.0
+name,rd cross,1,0.0661,0.0,0.0
+name,rd end,1,0.0661,0.0,0.0
+name,rd m t juc,1,0.0661,0.0,0.0
+name,road,1,0.0661,0.0,0.0
+name,ruisseau secondaire,1,0.0661,0.0,0.0
+name,s,1,0.0661,0.0,0.0
+name,secondary canal filled with soil,1,0.0661,0.0,0.0
+name,special voice,1,0.0661,0.0,0.0
+name,special voice 1,1,0.0661,0.0,0.0
+name,special voice 2,1,0.0661,0.0,0.0
+name,special voice 3,1,0.0661,0.0,0.0
+name,start of floods canal section,1,0.0661,0.0,0.0
+name,temporaly benchmark,1,0.0661,0.0,0.0
+name,temporary;toilet,1,0.0661,0.0,0.0
+name,wakisa mchalemba residence,1,0.0661,0.0,0.0
+name,wash out,1,0.0661,0.0,0.0
+name,water body,1,0.0661,0.0,0.0
+name,water diversion,1,0.0661,0.0,0.0
+name,waterway,1,0.0661,0.0,0.0
+name,weir existing,1,0.0661,0.0,0.0
+name,|mzuni|charles nyondo,1,0.0661,0.0,0.0
+natural,water,310,37.7588,30900.0,30900.0
+natural,wood,223,27.162,22200.0,22200.0
+natural,wetland,93,11.3276,9200.0,9200.0
+natural,scrub,60,7.3082,5900.0,5900.0
+natural,grassland,50,6.0901,4900.0,4900.0
+natural,peak,31,3.7759,3000.0,3000.0
+natural,tree,19,2.3143,1800.0,1800.0
+natural,heath,9,1.0962,800.0,800.0
+natural,bare_rock,8,0.9744,700.0,700.0
+natural,tree_row,8,0.9744,700.0,700.0
+natural,cliff,6,0.7308,500.0,500.0
+natural,bay,2,0.2436,100.0,100.0
+natural,beach,1,0.1218,0.0,0.0
+natural,mud,1,0.1218,0.0,0.0
+source,survey,1246,30.2207,124500.0,124500.0
+source,microsoft/BuildingFootprints,1060,25.7094,105900.0,105900.0
+source,Survey,382,9.2651,38100.0,38100.0
+source,maxar,344,8.3434,34300.0,34300.0
+source,"WorldView-2, DigitalGlobe, NextView, 04 Apr 2015",313,7.5916,31200.0,31200.0
+source,Esri World Imagery,242,5.8695,24100.0,24100.0
+source,Bing,203,4.9236,20200.0,20200.0
+source,Maxar Premium Imagery,113,2.7407,11200.0,11200.0
+source,"WorldView-2, DigitalGlobe, NextView, 20 July 2014",65,1.5765,6400.0,6400.0
+source,Mapbox,25,0.6064,2400.0,2400.0
+source,bing,23,0.5578,2200.0,2200.0
+source,maplibrary.org,22,0.5336,2100.0,2100.0
+source,"worldview2, Digital Globe",20,0.4851,1900.0,1900.0
+source,"DigitalGlobe,WV2",13,0.3153,1200.0,1200.0
+source,MapBox,8,0.194,700.0,700.0
+source,digitalglobe,7,0.1698,600.0,600.0
+source,Large Scale International Boundary (US DoS/INR/GGI-06/2013),5,0.1213,400.0,400.0
+source,SURVEY,5,0.1213,400.0,400.0
+source,"WorldView-2, DigitalGlobe, NextView, 20 July 2014 or Bing",5,0.1213,400.0,400.0
+source,Survey; Dickson & Triphonia,4,0.097,300.0,300.0
+source,MapboxSatellite,3,0.0728,200.0,200.0
+source,DG,2,0.0485,100.0,100.0
+source,Dshpak_landsat_lakes,2,0.0485,100.0,100.0
+source,Site visit,2,0.0485,100.0,100.0
+source,survey 2014,2,0.0485,100.0,100.0
+source,2014,1,0.0243,0.0,0.0
+source,ESA/Sentinel-2,1,0.0243,0.0,0.0
+source,footway,1,0.0243,0.0,0.0
+source,ourairports.com,1,0.0243,0.0,0.0
+source,s,1,0.0243,0.0,0.0
+source,s;Survey,1,0.0243,0.0,0.0
+source,survey by WV,1,0.0243,0.0,0.0
+surface,unpaved,7478,46.5281,747700.0,747700.0
+surface,ground,6926,43.0936,692500.0,692500.0
+surface,paved,730,4.5421,72900.0,72900.0
+surface,sand,503,3.1297,50200.0,50200.0
+surface,asphalt,230,1.4311,22900.0,22900.0
+surface,dirt,136,0.8462,13500.0,13500.0
+surface,earth,25,0.1556,2400.0,2400.0
+surface,House,5,0.0311,400.0,400.0
+surface,grass,5,0.0311,400.0,400.0
+surface,gravel,5,0.0311,400.0,400.0
+surface,wood,5,0.0311,400.0,400.0
+surface,UNP,4,0.0249,300.0,300.0
+surface,concrete,4,0.0249,300.0,300.0
+surface,ongeplaveide,3,0.0187,200.0,200.0
+surface,footpath,2,0.0124,100.0,100.0
+surface,footway,2,0.0124,100.0,100.0
+surface,irrigation,2,0.0124,100.0,100.0
+surface,non,2,0.0124,100.0,100.0
+surface,building,1,0.0062,0.0,0.0
+surface,dirty,1,0.0062,0.0,0.0
+surface,g,1,0.0062,0.0,0.0
+surface,path,1,0.0062,0.0,0.0
+surface,residential,1,0.0062,0.0,0.0
+waterway,stream,3722,65.8761,372100.0,372100.0
+waterway,river,1720,30.4425,171900.0,171900.0
+waterway,drain,86,1.5221,8500.0,8500.0
+waterway,ditch,70,1.2389,6900.0,6900.0
+waterway,canal,38,0.6726,3700.0,3700.0
+waterway,stream_end,7,0.1239,600.0,600.0
+waterway,dam,5,0.0885,400.0,400.0
+waterway,riverbank,2,0.0354,100.0,100.0
