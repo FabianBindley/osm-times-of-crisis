@@ -42,7 +42,7 @@ export default function Tags() {
       const handleChangeDisasterSelection = (key) => {
         setDisasterSelection(key);
         if (key !== "all") {
-            setPeriodSelection("pre")
+            
         }
       };
 
@@ -92,9 +92,11 @@ export default function Tags() {
                 return `/TagInvestigation/disaster${disasterSelection}/unique_tag_key_values_count_${periodSelection}.csv`
             }
         }
+        
 
 
       }
+      
 
   return (
     <>
@@ -179,8 +181,12 @@ export default function Tags() {
         </div>
         
         <h2>
-        The most frequent tag <span style={{fontWeight:'bold'}}>keys</span> in the changes {disasterSelection === "all" ? "across all disasters" : `for ${map_areas[disasterSelection-1]}`}
-        </h2>
+            The most frequent tag <span style={{ fontWeight: 'bold' }}>keys</span> in the changes 
+            {disasterSelection === "all"
+                ? " across all disasters"
+                : ` for ${map_areas.find(area => String(area.disaster_id) === String(disasterSelection))?.title || "Unknown Disaster"}`}
+            </h2>
+
         {
            tagTypeSelection == "key" ? 
            <TagsDisplayKey csv_source={get_word_cloud_source(disasterSelection, periodSelection, tagTypeSelection)} numTagsShow={numTagsShow} searchTag={searchTag} periodSelection={periodSelection}/> :
