@@ -15,16 +15,22 @@ export default function Tags() {
     const { Search } = Input;
 
     const map_areas = [
-        { title: "Emilia Romagna Floods | 2023", disaster_id: 2 },
         { title: "Haiti Earthquake | 2010", disaster_id: 3},
+        { title: "Texas Hurricane Harvey | 2017", disaster_id: 8},
+        { title: "California Wildfires | 2020", disaster_id: 7},
         { title: "Haiti Earthquake and Hurricane Grace | 2021", disaster_id: 5},
         { title: "Nepal Earthquake | 2015", disaster_id: 6},
-        { title: "California Wildfires | 2020", disaster_id: 7},
-        { title: "Texas Hurricane Harvey | 2017", disaster_id: 8},
-        { title: "Sulawesi Earthquake and Tsunami | 2018", disaster_id: 9},
-        { title: "Attica Wildfires | 2018", disaster_id: 10},
-        { title: "Izmir Earthquake and Tsunami | 2020", disaster_id: 11},
-        { title: "Gaziantep Earthquake | 2023", disaster_id: 12},
+        { title: "Sulawesi, Indonesia Earthquake and Tsunami | 2018", disaster_id: 9},
+        { title: "Atami, Japan Landslide | 2021", disaster_id: 14},
+        { title: "Pakistan Floods | 2022", disaster_id: 13},
+        { title: "Attica, Greece Wildfires | 2018", disaster_id: 10},
+        { title: "Izmir, Turkey Earthquake and Tsunami | 2020", disaster_id: 11},
+        { title: "Gaziantep, Turkey Earthquake | 2023", disaster_id: 12},
+        { title: "Emilia Romagna Floods | 2023", disaster_id: 2 },
+        { title: "Freetown, Sierra Leone Landslide | 2017", disaster_id: 18},
+        { title: "Derna, Libya Dam Collapse Floods | 2023", disaster_id: 15},
+        { title: "Malawi Hurricane Freddy | 2023", disaster_id: 16},
+        { title: "Morocco Earthquake | 2023", disaster_id: 17},
       ];
 
     const keys_for_key_values = ["building","highway","source","name","surface","amenity","landuse","waterway","natural","leisure","emergency"]

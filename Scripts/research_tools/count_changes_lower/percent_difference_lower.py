@@ -191,7 +191,7 @@ if __name__ == "__main__":
         disaster_ids = ast.literal_eval(sys.argv[1]) 
         print("Disaster IDs passed:", disaster_ids)
     else:
-        disaster_ids = range(13,19)
+        disaster_ids = range(13,14)
         print("Disaster IDs defined:", disaster_ids)
 
     for disaster_day_tuple in disaster_days:
