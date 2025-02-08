@@ -308,6 +308,10 @@ def plot_percent_difference_in_gini_coefficients(gini_df, resolution, total_only
     plt.tight_layout()
     output_path = f"./Results/ChangeDensityMapping/Summary/charts/gini_percent_difference_{resolution}_{period}_{'total_only' if total_only else 'full'}.png"
     plt.savefig(output_path, dpi=300)
+
+    os.makedirs('visualisation-site/public/ChangeDensityMapping/Summary/charts/', exist_ok=True)
+    visualisation_site_path = f"visualisation-site/public/ChangeDensityMapping/Summary/charts/gini_percent_difference_{resolution}_{period}_{'total_only' if total_only else 'full'}.png"
+    plt.savefig(visualisation_site_path, dpi=300)
     plt.close()
 
     return output_path
@@ -326,8 +330,10 @@ def combine_plots(image_path_1, image_path_2, output_path):
     img2 = mpimg.imread(image_path_2)
 
     # Create a figure with two subplots
-    fig, axes = plt.subplots(2, 1, figsize=(10, 12))
-
+    if 'total_only' in output_path:
+        fig, axes = plt.subplots(2, 1, figsize=(6, 8))
+    else:
+        fig, axes = plt.subplots(2, 1, figsize=(9, 8))
     # Display the first image
     axes[0].imshow(img1)
     axes[0].axis('off')  # Turn off axes for a cleaner look
@@ -339,6 +345,9 @@ def combine_plots(image_path_1, image_path_2, output_path):
     # Adjust layout and save the combined figure
     plt.tight_layout()
     plt.savefig(output_path, dpi=300)
+
+    visualisation_site_path = f"visualisation-site/public/ChangeDensityMapping/Summary/charts/gini_percent_difference_{resolution}_{'total_only' if total_only else ''}.png"
+    plt.savefig(visualisation_site_path, dpi=300)
     plt.close()
 
 
@@ -350,6 +359,8 @@ if __name__ == "__main__":
         print("Disaster IDs passed:", disaster_ids)
     else:
         disaster_ids = [2,3,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+        # Res 9 ids
+        #disaster_ids = [10,14,15,18]
         print("Disaster IDs defined:", disaster_ids)
 
 

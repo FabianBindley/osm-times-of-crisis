@@ -12,6 +12,7 @@ import TagCorrelation from "./TagCorrelation"
 import About from "./About";
 import GeneralStatistics from "./GeneralSatistics";
 import NotFound from "./NotFound";
+import GiniCoefficient from "./GiniCoefficient";
 
 
 function App() {
@@ -74,6 +75,7 @@ function AppContent() {
         <Menu.Item key="generalStatistics">General Statistics</Menu.Item>
         <Menu.Item key="changeCounting">Change Counting</Menu.Item>
         <Menu.Item key="changeDensityMapping">Change Density Mapping</Menu.Item>
+        <Menu.Item key="giniCoefficient">Change Density Inequality</Menu.Item>
         <Menu.Item key="tagWordCloud">Tag Keys and Values</Menu.Item>
         <Menu.Item key="tagCorrelation">Tag Correlation</Menu.Item>
         <Menu.Item key="about">About</Menu.Item>
@@ -84,6 +86,7 @@ function AppContent() {
         {currentTab === "generalStatistics" && <GeneralStatistics />}
         {currentTab === "changeCounting" && <ChangeCounting />}
         {currentTab === "changeDensityMapping" && <ChangeDensityMapping />}
+        {currentPath === "giniCoefficient" && <GiniCoefficient/>}
         {currentTab === "tagWordCloud" && <Tags />}
         {currentTab === "tagCorrelation" && <TagCorrelation />}
         {currentTab === "about" && <About />}
