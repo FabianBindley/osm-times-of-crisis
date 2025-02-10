@@ -186,7 +186,7 @@ if __name__ == "__main__":
     #resolutions = [7]
 
     # Define the periods before and after the disaster we want to count for. Pre-disaster can be negative to only count after disaster
-    disaster_days = [(365,365)]
+    disaster_days = [(365,60,365)]
     if len(sys.argv) > 1:
         disaster_ids = ast.literal_eval(sys.argv[1]) 
         print("Disaster IDs passed:", disaster_ids)
@@ -204,4 +204,4 @@ if __name__ == "__main__":
                 (_, disaster_country, disaster_area, disaster_geojson_encoded, disaster_date, disaster_h3_resolution ) = db_utils.get_disaster_with_id(disaster_id)
                 print(f"Generating counts for {disaster_area[0]} {disaster_date.year} | resolution {resolution}")
 
-                generate_percentage_difference_for_polygons(disaster_id, disaster_geojson_encoded, resolution, disaster_day_tuple[0], disaster_day_tuple[1])
+                generate_percentage_difference_for_polygons(disaster_id, disaster_geojson_encoded, resolution, disaster_day_tuple[0], disaster_day_tuple[2])

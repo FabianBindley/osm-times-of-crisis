@@ -1,21 +1,35 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import "./App.css";
+import * as d3 from 'd3-fetch';
 import { Image, Select } from 'antd';
 
 export default function GeneralStatistics() {
-      const [interval, setInterval] = useState({start:"365", end:"365"})
+      const [interval, setInterval] = useState({start:"365", imm:"60", end:"365"})
       const intervalMap = {
-        "365-365": { start: "365", end: "365" },
-        "1095-365": { start: "1095", end: "365" },
-        "180-365": { start: "180", end: "365" },
-        "90-365": { start: "90", end: "365" },
-        "90-180": { start: "90", end: "180" },
+        "365-60-365": { start: "365", imm:"60", end: "365" },
+        "1095-60-365": { start: "1095", imm:"60", end: "365" },
       };
       const count_change_intervals = [{start:"365", end:"365"},{start:"1095", end:"365"},{start:"180", end:"365"},{start:"90", end:"365"},{start:"90", end:"180"}]
+      const [generalStats, setGeneralStats] = useState({})
+
       const handleIntervalChange = (key) => {
         // Map the key to the corresponding interval object
         setInterval(intervalMap[key]);
       };
+
+      useEffect(() => {
+        // Load the data from the CSV file
+        const csv_source = `ChangeCounting/summary/data/${interval.start}_${interval.imm}_${interval.end}_full_periods_change_count.csv`
+        console.log(csv_source)
+        d3.csv(csv_source).then((data) => {
+            setGeneralStats(
+               data
+              );
+              console.log(data)
+            });
+        
+      }, []);
+
 
     return (
         <div>
@@ -34,8 +48,22 @@ export default function GeneralStatistics() {
                 </div> 
             </div>
             <p>
-                The following general statistics were computed for the selected period:
+            Some general statistics for the selected period:
             </p>
+            <div>
+                <h2>
+                    {generalStats &&
+                    <div className='generalStatsText'>
+                        <p>
+                        <ul>
+                            <li>{parseInt(generalStats[3]?.total).toLocaleString()} changes across 16 disasters</li>
+                        </ul>
+                        </p>
+                    </div>
+                    }                   
+                </h2>
+            </div>
+            
             <div className="wordcloud-container">
                 <div style={{width: '65%'}}>
                     <h2>Changes by period across all disasters</h2>
@@ -51,6 +79,14 @@ export default function GeneralStatistics() {
                     src={`ChangeCounting/summary/charts/${interval.start}_60_${interval.end}_changes_total_count_pie.png`}
                     />
                 </div>
+            </div>
+
+            <div>
+                <h2>Area and densities of disasters:</h2>
+                <Image
+                    width="100%"
+                    src={`ChangeDensityMapping/Summary/charts/combined_disaster_area_densities.png`}
+                />
             </div>
 
         </div>

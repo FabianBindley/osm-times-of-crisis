@@ -135,3 +135,9 @@ iframe {
   width: 85vw;
   height: 85vh;
 }
+
+.generalStatsText{
+  width: 70vw;
+  text-align: center;
+  font-size: 0.8em;
+}

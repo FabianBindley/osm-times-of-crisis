@@ -492,14 +492,13 @@ if __name__ == "__main__":
         print("Disaster IDs defined:", disaster_ids)
         
    #disaster_ids = range(2,19)
-    generate_specific = True
-    generate_combined = True
+    generate_specific = False
+    generate_combined = False
     #disaster_ids = [5]
 
     for period in periods:
-        #plot_full_periods_change_count(period[0], period[1], period[2])
-        #plot_total_change_counts(period[0], period[1], period[2], disaster_ids)
-        pass
+        plot_full_periods_change_count(period[0], period[1], period[2])
+        plot_total_change_counts(period[0], period[1], period[2], disaster_ids)
         
     
     if generate_specific:

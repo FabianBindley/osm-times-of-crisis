@@ -9,7 +9,7 @@ from prophet import Prophet
 from prophet.serialize import model_to_json, model_from_json
 import pandas as pd
 import concurrent.futures
-
+import shutil 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..', 'database')))
 from db_utils import DB_Utils
 
@@ -29,7 +29,12 @@ def compute_total_number_changes_across_disasters(periods, disaster_ids):
             for i in range(4):
                 total_counts.iloc[i] += counts.iloc[i]
 
-        total_counts.to_csv(f"./Results/ChangeCounting/summary/data/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_full_periods_change_count.csv", index=False)
+        output_file = f"./Results/ChangeCounting/summary/data/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_full_periods_change_count.csv"
+        total_counts.to_csv(output_file, index=False)
+
+        os.makedirs(f"visualisation-site/public/ChangeCounting/summary/data", exist_ok=True)
+        visualisation_file_path = f"visualisation-site/public/ChangeCounting/summary/data/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_full_periods_change_count.csv"
+        total_counts.to_csv(visualisation_file_path, index=False)
     
 
 @contextmanager
@@ -344,33 +349,36 @@ if __name__ == "__main__":
     prophet_model_bools = [True, False]
     post_only_bools = [True, False]
 
+    process_disasters = False
+
     if len(sys.argv) > 1:
         disaster_ids = ast.literal_eval(sys.argv[1]) 
         print("Disaster IDs passed:", disaster_ids)
     else:
-        disaster_ids = range(2,19)
+        disaster_ids = [3,8,7,5,6,9,14,13,10,11,12,2,18,15,16,17]
         print("Disaster IDs defined:", disaster_ids)
 
-    # Use ProcessPoolExecutor to parallelize the disaster_id loop
-    with concurrent.futures.ProcessPoolExecutor() as executor:
-        # Submit tasks for each disaster_id
-        futures = {
-            executor.submit(
-                process_disaster, 
-                disaster_id, 
-                periods, 
-                prophet_model_bools, 
-            ): (disaster_id, period) for period in periods for disaster_id in disaster_ids 
-        }
+    if process_disasters:
+        # Use ProcessPoolExecutor to parallelize the disaster_id loop
+        with concurrent.futures.ProcessPoolExecutor() as executor:
+            # Submit tasks for each disaster_id
+            futures = {
+                executor.submit(
+                    process_disaster, 
+                    disaster_id, 
+                    periods, 
+                    prophet_model_bools, 
+                ): (disaster_id, period) for period in periods for disaster_id in disaster_ids 
+            }
 
-        # Collect results as they complete
-        for future in concurrent.futures.as_completed(futures):
-            disaster_id, period = futures[future]
-            try:
-                result = future.result()
-            except Exception as e:
-                print(f"Error processing disaster_id {disaster_id}: {e}")
+            # Collect results as they complete
+            for future in concurrent.futures.as_completed(futures):
+                disaster_id, period = futures[future]
+                try:
+                    result = future.result()
+                except Exception as e:
+                    print(f"Error processing disaster_id {disaster_id}: {e}")
 
     
-    compute_total_number_changes_across_disasters(periods, disaster_ids=range(2,7))
+    compute_total_number_changes_across_disasters(periods, disaster_ids=[3,8,7,5,6,9,14,13,10,11,12,2,18,15,16,17])
 

@@ -20,12 +20,13 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..',
 from db_utils import DB_Utils
 
 
-def changes_for_interval(disaster_id, disaster_date, pre_disaster_days, post_disaster_days):
+def changes_for_interval(disaster_id, disaster_date, pre_disaster_days, imm_disaster_days, post_disaster_days):
     pre_disaster = timedelta(pre_disaster_days)
+    imm_disaster = timedelta(imm_disaster_days)
     post_disaster = timedelta(post_disaster_days)
 
     interval_start_date = disaster_date - pre_disaster
-    interval_end_date = disaster_date + post_disaster + timedelta(days=1)
+    interval_end_date = disaster_date + imm_disaster + post_disaster + timedelta(days=1)
     
     return db_utils.get_changes_in_interval(interval_start_date, interval_end_date, disaster_id)
 
@@ -111,15 +112,16 @@ if __name__ == "__main__":
     db_utils.db_connect()
 
     # Define the periods before and after the disaster we want to count for. Pre-disaster can be negative to only count after disaster
-    disaster_days = [(365,365), (365,0),(180,365), (0,30), (0,60)]
-    disaster_days = [(365,365)]
+    #disaster_days = [(365,60,365), (365,0),(180,365), (0,30), (0,60)]
+    disaster_days = [(365,60,365)]
+    disaster_days = [(0,0,365)]
     #disaster_days = [(0,30), (0,60)]
 
     if len(sys.argv) > 1:
         disaster_ids = ast.literal_eval(sys.argv[1]) 
         print("Disaster IDs passed:", disaster_ids)
     else:
-        disaster_ids = range(13,14)
+        disaster_ids = range(6,19)
         print("Disaster IDs defined:", disaster_ids)
     
     resolutions = [6,7,8,9]
@@ -132,6 +134,6 @@ if __name__ == "__main__":
 
                 (_, disaster_country, disaster_area, disaster_geojson_encoded, disaster_date, disaster_h3_resolution ) = db_utils.get_disaster_with_id(disaster_id)
                 print(f"Generating counts for {disaster_area[0]} {disaster_date.year} | resolution {resolution}")
-                changes = changes_for_interval(disaster_id, disaster_date, disaster_day_tuple[0], disaster_day_tuple[1])
+                changes = changes_for_interval(disaster_id, disaster_date, disaster_day_tuple[0], disaster_day_tuple[1], disaster_day_tuple[2])
                 
-                generate_counts_for_polygons(changes, disaster_id, disaster_geojson_encoded, resolution, disaster_day_tuple[0], disaster_day_tuple[1])
+                generate_counts_for_polygons(changes, disaster_id, disaster_geojson_encoded, resolution, disaster_day_tuple[0], disaster_day_tuple[2])

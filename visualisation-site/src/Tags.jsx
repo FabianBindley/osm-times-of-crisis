@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Select, Switch, InputNumber, Input, Space } from "antd"; 
+import { Select, Switch, InputNumber, Input, Space, Image } from "antd"; 
 import TagsDisplayKey from "./TagsDisplayKey";
 import TagsDisplayValue from "./TagsDisplayValue";
 
@@ -192,6 +192,19 @@ export default function Tags() {
            <TagsDisplayKey csv_source={get_word_cloud_source(disasterSelection, periodSelection, tagTypeSelection)} numTagsShow={numTagsShow} searchTag={searchTag} periodSelection={periodSelection}/> :
            <TagsDisplayValue csv_source={get_word_cloud_source(disasterSelection, periodSelection, tagTypeSelection)} selectedKey={selectedKey} numTagsShow={numTagsShow} searchTag={searchTag} periodSelection={periodSelection}/>
         }
+
+        <div style={{marginTop:'50px'}}>
+            <h2>Tag Key proportion summary charts:</h2>
+                <Image
+                    width="55%"
+                    src={`TagInvestigation/summary/charts/change_keys_across_phases_all_disasters.png`}
+                />
+
+                <Image
+                    width="100%"
+                    src={`TagInvestigation/summary/charts/change_key_top_12_values_across_phases_all_disasters_sort_${periodSelection == "all" ? "pre" : periodSelection}.png`}
+                />
+        </div>
         
     </>
   );
