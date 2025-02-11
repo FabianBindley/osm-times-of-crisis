@@ -333,8 +333,8 @@ if __name__ == "__main__":
         disaster_ids = range(2,19)
         print("Disaster IDs defined:", disaster_ids)
 
-    generate_merged = True
-    generate_diffs = True
+    generate_merged = False
+    generate_diffs = False
 
     #periods = [(1095,60,365),(365,60,365)]
     periods = [(1095,60,365),(365,60,365)]

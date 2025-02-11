@@ -1,0 +1,4 @@
+period1,period2,kendall_rank_correlation,kendall_p_value,cosine_similarity,pearson_correlation,pearson_p_value
+pre,imm,0.9092,0.0018277,0.9997,0.9996,1.1501360865181955e-10
+pre,post,0.5145,0.0577796,0.8458,0.821,0.006675789263362028
+imm,post,0.5714,0.0610119,0.8472,0.8215,0.012382822988726509
