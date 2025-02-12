@@ -35,3 +35,16 @@ FROM changes
 WHERE tags ?& ARRAY['amenity'] AND disaster_id != 1 LIMIT 10;
 
 
+SELECT 
+    element_type, 
+    edit_type, 
+    disaster_id, 
+    version, 
+    tags
+FROM changes
+WHERE tags @> '{"leisure": "common"}';
+
+SELECT 
+    COUNT(*)
+FROM changes
+WHERE tags @> '{"leisure": "common", "emergency:helipad": "potential"}' AND tags @> '{"leisure": "common"}' AND disaster_id = 6;

@@ -146,7 +146,7 @@ def generate_plot_kendall_correlation_coefficients(periods, disaster_ids, key_pa
     plt.close()
  
 
-#
+
 if __name__ == "__main__":
     db_utils = DB_Utils()
     db_utils.db_connect()
@@ -158,6 +158,9 @@ if __name__ == "__main__":
         disaster_ids = range(2,19)
         print("Disaster IDs defined:", disaster_ids)
 
+    periods = [("pre", "imm"), ("pre", "post"), ("imm", "post")]
+    specified_keys = ["building", "highway", "amenity", "leisure"]
+    
     # Key pairs should aways be alphabetically ordered
     specified_keys = sorted(["building","highway","source","name","surface","amenity","landuse","waterway","natural","leisure","emergency"])
     #specified_keys = sorted(["building","highway","emergency"])
@@ -167,11 +170,11 @@ if __name__ == "__main__":
             key_pairs.append((specified_keys[i], specified_keys[j]))
     
 
-    print(key_pairs)
-    periods = [("pre", "imm"), ("pre", "post"), ("imm", "post")]
 
-    for key_pair in key_pairs:
-        generate_plot_kendall_correlation_coefficients(periods, disaster_ids, key_pair)
-        print(key_pair)
+  
+
+    #for key_pair in key_pairs:
+        #generate_plot_kendall_correlation_coefficients(periods, disaster_ids, key_pair)
+        #print(key_pair)
 
 

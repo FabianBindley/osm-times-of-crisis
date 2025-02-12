@@ -111,3 +111,14 @@ WHERE id IN (
     FROM CTE
     WHERE row_num > 1
 );
+
+-- Get info on changes within a date range
+SELECT  id, 
+    element_id, 
+    element_type, 
+    edit_type, 
+    disaster_id, 
+    timestamp,
+    uid,
+    tags 
+FROM changes WHERE disaster_id = 14 AND timestamp > '2021-10-01' AND timestamp < '2021-12-01' LIMIT 50000;
