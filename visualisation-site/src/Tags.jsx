@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Select, Switch, InputNumber, Input, Space, Image } from "antd"; 
 import TagsDisplayKey from "./TagsDisplayKey";
 import TagsDisplayValue from "./TagsDisplayValue";
+import * as d3 from "d3-fetch";
 
 
 export default function Tags() {
@@ -11,6 +12,8 @@ export default function Tags() {
     const [selectedKey, setSelectedKey] = useState("building");
     const [numTagsShow, setNumTagsShow] = useState(50);
     const [searchTag, setSearchTag] = useState("");
+    const [showTable, setShowTable] = useState(localStorage.getItem("showTable")=="false" ? false : true);
+    const [tagKeysTopValues, setTagKeysTopValues] = useState({});
 
     const { Search } = Input;
 
@@ -34,7 +37,7 @@ export default function Tags() {
       ];
 
     const keys_for_key_values = ["building","highway","source","name","surface","amenity","landuse","waterway","natural","leisure","emergency"]
-    const values_for_key_values = ["hospital"]
+
 
     const handleChangePeriodSelection = (key) => {
         setPeriodSelection(key);
@@ -63,6 +66,11 @@ export default function Tags() {
       const handleChangeSearchTag = (e) => {
         setSearchTag(e.target.value);
       };
+
+      const handleShowTable = (checked) => {
+        setShowTable(checked)
+        localStorage.setItem("showTable", checked)
+    }
 
 
       const get_word_cloud_source = (disasterSelection, periodSelection,  tagTypeSelection) => {
@@ -97,6 +105,24 @@ export default function Tags() {
 
 
       }
+
+      useEffect(() => {
+        // Load JSON file correctly
+        const json_source = `TagInvestigation/summary/tag_keys_top_values.json`;
+        console.log("Fetching:", json_source);
+    
+        d3.json(json_source)
+          .then((data) => {
+            setTagKeysTopValues(data);
+            console.log("Loaded data:", data);
+    
+            // Set first key as default if data exists
+            const firstKey = Object.keys(data)[0] || "";
+            setSelectedKey(firstKey);
+          })
+          .catch((error) => console.error("Error loading JSON:", error))
+      }, []);
+      
       
 
   return (
@@ -177,6 +203,11 @@ export default function Tags() {
                 <label style={{ marginLeft: 20 }}>Search:</label>
                 <Search placeholder="input search text" onChange={handleChangeSearchTag} style={{ marginLeft: 10, width: 150 }} />
             </div>
+
+            <div style={{marginTop:5,marginBottom:5}}>
+                <label style={{ marginLeft: 20, marginRight: 10 }}>Show table:</label>
+                <Switch checked={showTable} onChange={handleShowTable} />
+            </div> 
             
                     
         </div>
@@ -187,31 +218,40 @@ export default function Tags() {
                 ? " across all disasters"
                 : ` for ${map_areas.find(area => String(area.disaster_id) === String(disasterSelection))?.title || "Unknown Disaster"}`}
             </h2>
-
+        
+        { showTable && (
+        <div>
         {
            tagTypeSelection == "key" ? 
            <TagsDisplayKey csv_source={get_word_cloud_source(disasterSelection, periodSelection, tagTypeSelection)} numTagsShow={numTagsShow} searchTag={searchTag} periodSelection={periodSelection}/> :
            <TagsDisplayValue csv_source={get_word_cloud_source(disasterSelection, periodSelection, tagTypeSelection)} selectedKey={selectedKey} numTagsShow={numTagsShow} searchTag={searchTag} periodSelection={periodSelection}/>
+        }
+        </div>
+        )
         }
 
         <div style={{marginTop:"2em"}}>
         {   
                 
             (tagTypeSelection == "key" & keys_for_key_values.includes(searchTag))? 
-          
+                <><h2>Key usage for {searchTag}: </h2> 
+                
                 <Image
-                    width="65%"
-                    src={`TagInvestigation/summary/charts/key_usage_charts/usage_${searchTag}_${periodSelection}.png`}
+                    width="80%"
+                    src={`TagInvestigation/summary/charts/key_usage_charts/usage_${searchTag}.png`}
                 />
-                 : (tagTypeSelection == "value" & values_for_key_values.includes(searchTag)) ?
+                </>
+                 : (tagTypeSelection == "value" && tagKeysTopValues[selectedKey] && tagKeysTopValues[selectedKey].includes(searchTag)) ?
+                 <><h2>Value usage for {selectedKey}={searchTag}: </h2> 
                  <Image
-                    width="65%"
-                    src={`TagInvestigation/summary/charts/value_usage_charts/usage_${searchTag}_${periodSelection}.png`}
+                    width="80%"
+                    src={`TagInvestigation/summary/charts/key_value_usage_charts/usage_${selectedKey}_${searchTag}.png`}
                     />
-                : <> <h2>To see key or value usage, please enter it as the search term, eg:, by entering 'building' and selecting 'Pre-disaster': </h2> 
+                     </>
+                : <> <h2>To see key or value usage, please enter it as the search term, eg:, by entering 'building': </h2> 
                     <Image
-                    width="55%"
-                    src={`TagInvestigation/summary/charts/key_usage_charts/usage_building_pre.png`}
+                    width="80%"
+                    src={`TagInvestigation/summary/charts/key_usage_charts/usage_building.png`}
                     />
                 
                 </>

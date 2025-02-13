@@ -13,6 +13,7 @@ import About from "./About";
 import GeneralStatistics from "./GeneralSatistics";
 import NotFound from "./NotFound";
 import GiniCoefficient from "./GiniCoefficient";
+import TagUsageCharts from "./TagUsageCharts";
 
 
 function App() {
@@ -36,6 +37,7 @@ function AppContent() {
     "changeDensityMapping",
     "changeDensityInequality",
     "tagKeysValues",
+    "tagUsageCharts",
     "tagCorrelation",
     "about",
   ];
@@ -78,6 +80,7 @@ function AppContent() {
         <Menu.Item key="changeDensityMapping">Change Density Mapping</Menu.Item>
         <Menu.Item key="changeDensityInequality">Change Density Inequality</Menu.Item>
         <Menu.Item key="tagKeysValues">Tag Keys and Values</Menu.Item>
+        <Menu.Item key="tagUsageCharts">Tag Usage Charts</Menu.Item>
         <Menu.Item key="tagCorrelation">Tag Correlation</Menu.Item>
         <Menu.Item key="about">About</Menu.Item>
       </Menu>
@@ -89,6 +92,7 @@ function AppContent() {
         {currentTab === "changeDensityMapping" && <ChangeDensityMapping />}
         {currentTab === "changeDensityInequality" && <GiniCoefficient/>}
         {currentTab === "tagKeysValues" && <Tags />}
+        {currentTab === "tagUsageCharts" && <TagUsageCharts />}
         {currentTab === "tagCorrelation" && <TagCorrelation />}
         {currentTab === "about" && <About />}
         {currentTab === "404" && <NotFound />}
