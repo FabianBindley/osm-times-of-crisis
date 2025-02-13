@@ -34,6 +34,7 @@ export default function Tags() {
       ];
 
     const keys_for_key_values = ["building","highway","source","name","surface","amenity","landuse","waterway","natural","leisure","emergency"]
+    const values_for_key_values = ["hospital"]
 
     const handleChangePeriodSelection = (key) => {
         setPeriodSelection(key);
@@ -192,6 +193,31 @@ export default function Tags() {
            <TagsDisplayKey csv_source={get_word_cloud_source(disasterSelection, periodSelection, tagTypeSelection)} numTagsShow={numTagsShow} searchTag={searchTag} periodSelection={periodSelection}/> :
            <TagsDisplayValue csv_source={get_word_cloud_source(disasterSelection, periodSelection, tagTypeSelection)} selectedKey={selectedKey} numTagsShow={numTagsShow} searchTag={searchTag} periodSelection={periodSelection}/>
         }
+
+        <div style={{marginTop:"2em"}}>
+        {   
+                
+            (tagTypeSelection == "key" & keys_for_key_values.includes(searchTag))? 
+          
+                <Image
+                    width="65%"
+                    src={`TagInvestigation/summary/charts/key_usage_charts/usage_${searchTag}_${periodSelection}.png`}
+                />
+                 : (tagTypeSelection == "value" & values_for_key_values.includes(searchTag)) ?
+                 <Image
+                    width="65%"
+                    src={`TagInvestigation/summary/charts/value_usage_charts/usage_${searchTag}_${periodSelection}.png`}
+                    />
+                : <> <h2>To see key or value usage, please enter it as the search term, eg:, by entering 'building' and selecting 'Pre-disaster': </h2> 
+                    <Image
+                    width="55%"
+                    src={`TagInvestigation/summary/charts/key_usage_charts/usage_building_pre.png`}
+                    />
+                
+                </>
+            
+        }
+        </div>
 
         <div style={{marginTop:'50px'}}>
             <h2>Tag Key proportion summary charts:</h2>

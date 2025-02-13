@@ -107,7 +107,7 @@ class DB_Utils:
 
     def insert_disasters(self, disaster_list, connection):
         insert_query = """
-            INSERT INTO public.disasters (id, country, area, area_geometry, date, h3_resolution)
+            INSERT INTO public.disasters (id, country, area, area_geometry, date, h3_resolution, disaster_type)
             VALUES %s
             ON CONFLICT (id)
             DO NOTHING;
@@ -121,7 +121,8 @@ class DB_Utils:
                 disaster["area"],  # Ensure this matches the column type (likely TEXT[] or JSON)
                 disaster["geometry"].wkt,  # Convert Shapely geometry to WKT
                 disaster["date"],  # This is already a UNIX timestamp
-                disaster["h3_resolution"]
+                disaster["h3_resolution"],
+                disaster["disaster_type"]
             )
             for disaster in disaster_list
         ]
@@ -137,7 +138,7 @@ class DB_Utils:
                 cursor,
                 insert_query,
                 data_to_insert,
-                template="(%s, %s, %s, ST_SetSRID(ST_GeomFromText(%s), 4326), to_timestamp(%s), %s)"
+                template="(%s, %s, %s, ST_SetSRID(ST_GeomFromText(%s), 4326), to_timestamp(%s), %s, %s)"
             )
 
             # Commit the transaction

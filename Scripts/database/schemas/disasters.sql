@@ -4,7 +4,8 @@ CREATE TABLE disasters (
     area VARCHAR(50)[],                         -- Area(s) within a country where the disaster took place
     area_geometry GEOMETRY(MULTIPOLYGON, 4326), -- Multipolygon to store geometry of area(s) under investigation
     date TIMESTAMP,                              -- Date of the disaster
-    h3_resolution SMALLINT
+    h3_resolution SMALLINT,
+    disaster_type VARCHAR(50)
 );
 
 -- To Query the disasters
@@ -14,7 +15,8 @@ SELECT
     area, 
     LEFT(ST_AsText(area_geometry), 100) || '...' AS truncated_geometry, 
     date, 
-    h3_resolution
+    h3_resolution,
+    disaster_type
 FROM disasters 
 ORDER BY id;
 

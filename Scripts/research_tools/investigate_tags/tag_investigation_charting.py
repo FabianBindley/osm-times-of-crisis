@@ -4,6 +4,10 @@ import numpy as np
 import math
 import os
 import shutil
+import sys
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..', 'database')))
+from db_utils import DB_Utils
 
 def plot_chart_percent_of_total_changes_period_for_keys(keys):
     # Load CSV files
@@ -173,13 +177,114 @@ def plot_chart_percent_of_total_changes_period_for_values(keys, n, sort_by):
 
     plt.close()
 
+def plot_usage_charts_key(disaster_ids, key, period):
+    key_usage_df = pd.DataFrame(columns=["disaster_id", "key", "percent_of_total_changes","disaster_label"])
+    db_utils = DB_Utils()
+    db_utils.db_connect()
+
+    for disaster_id in disaster_ids:
+        key_usage_for_disaster = pd.read_csv(f"Results/TagInvestigation/disaster{disaster_id}/unique_tag_keys_count_{period}.csv")
+        key_usage_for_disaster = key_usage_for_disaster[key_usage_for_disaster["key"] == key]
+        print(f"{period} {disaster_id}")
+
+        if not key_usage_for_disaster.empty:
+            percent_of_total_changes = key_usage_for_disaster["percent_of_total_changes"].values[0]
+        else:
+            percent_of_total_changes = 0  # Assign a default value when the key is missing
+        
+        (_, _, disaster_area, _, disaster_date, _, disaster_type) = db_utils.get_disaster_with_id(disaster_id)
+        disaster_label = f"{disaster_area[0]} {disaster_date.year} | {disaster_type}"
+        
+        key_usage_df.loc[len(key_usage_df)] = {
+            "disaster_id": int(disaster_id),
+            "key": key,
+            "percent_of_total_changes": percent_of_total_changes,
+            "disaster_label": disaster_label
+        }
+
+    # Sort by percentage of total changes
+    key_usage_df = key_usage_df.sort_values(by="percent_of_total_changes", ascending=False)
+
+    # Plotting
+    plt.figure(figsize=(12, 6))
+    bars = plt.bar(key_usage_df["disaster_label"], key_usage_df["percent_of_total_changes"], color='firebrick', alpha=0.8)
+
+    
+    # Add labels on top of bars
+    for bar in bars:
+        height = bar.get_height()
+
+        if height > 5:
+            multiplier = 0.005
+        elif height > 1:
+            multiplier = 0.01
+        else:
+            multiplier = 0.05
+
+        plt.text(
+            bar.get_x() + bar.get_width() / 2,
+            height + height * multiplier,  # Offset above the bar
+            f"{height:,.2f}%",  # Format with percentage
+            ha="center",
+            fontsize=8,
+            fontweight="bold"
+        )
+    
+    
+    plt.ylabel("% of Total Changes")
+    plt.title(f"Percentage of Total Changes for Key '{key}' in '{period}' Period")
+    plt.xticks(rotation=90, fontsize=10)
+    plt.grid(axis='y', linestyle='--', alpha=0.7)
+
+    # Save the plot
+    os.makedirs("Results/TagInvestigation/summary/charts/key_usage_charts", exist_ok=True)
+    file_path = f"Results/TagInvestigation/summary/charts/key_usage_charts/usage_{key}_{period}.png"
+    plt.savefig(file_path, dpi=350, bbox_inches="tight")
+    print(f"Saved: {file_path}")
+
+    visualisation_file_path = f"visualisation-site/public/TagInvestigation/summary/charts/key_usage_charts/usage_{key}_{period}.png"
+    os.makedirs("visualisation-site/public/TagInvestigation/summary/charts/key_usage_charts", exist_ok=True)
+    shutil.copyfile(file_path, visualisation_file_path)
+    print(f"Copied to: {visualisation_file_path}")
+
+    plt.close()
+
+def plot_usage_charts_values_for_key(disaster_ids, key, period, n):
+    value_usage_df = pd.DataFrame(columns=["disaster_id", "key", "value", "percent_of_total_changes","disaster_label"])
+    for disaster_id in disaster_ids:
+        value_usage_for_disaster = pd.read_csv(f"Results/TagInvestigation/disaster{disaster_id}/unique_tag_key_values_count_{period}.csv")
+        value_usage_for_disaster = value_usage_for_disaster[value_usage_for_disaster["key"] == key]
+
+        # For building frop yes row because its boring
+        if key == "building":
+            value_usage_for_disaster = value_usage_for_disaster[value_usage_for_disaster["value"] != "yes"]
+
+        value_usage_for_disaster = value_usage_for_disaster[:n]
+        for index, row in value_usage_for_disaster.iterrows():
+            value_usage_df.loc[len(value_usage_df)] = {"disaster_id": disaster_id, "key": key, "value": value_usage_for_disaster["value"], "percent_of_total_changes_for_key": value_usage_for_disaster["percent_of_total_changes_for_key"],}
+
+    print(value_usage_df)
 
 if __name__ == "__main__":
-    keys = ["building", "highway", "amenity", "leisure"]
+    #keys = ["building", "highway", "amenity", "leisure"]
     #keys = ["building","highway","source","name","surface","amenity","landuse","waterway","natural","leisure","emergency"]
-    plot_chart_percent_of_total_changes_period_for_keys(keys)
-    n = 12
-    plot_chart_percent_of_total_changes_period_for_values(keys, n, sort_by="pre")
-    plot_chart_percent_of_total_changes_period_for_values(keys, n, sort_by="imm")
-    plot_chart_percent_of_total_changes_period_for_values(keys, n, sort_by="post")
+    keys = ["building"]
+    compare_percent_of_changes_period = False
+    generate_charts_usage_by_disaster = True
+
+    if compare_percent_of_changes_period:
+
+        plot_chart_percent_of_total_changes_period_for_keys(keys)
+        n = 12
+        plot_chart_percent_of_total_changes_period_for_values(keys, n, sort_by="pre")
+        plot_chart_percent_of_total_changes_period_for_values(keys, n, sort_by="imm")
+        plot_chart_percent_of_total_changes_period_for_values(keys, n, sort_by="post")
     
+    disaster_ids = range(2,19)
+    disaster_ids = range(2,6)
+    periods = ["pre","imm","post"]
+    if generate_charts_usage_by_disaster:
+        for key in keys:
+            for period in periods:
+                #plot_usage_charts_key(disaster_ids, key, period)
+                plot_usage_charts_values_for_key(disaster_ids, key, period, n=15)

@@ -149,5 +149,3 @@ if __name__ == "__main__":
         for n in nums:
             top_n_tag_keys_for_period(n, period, disaster_ids, 365, 60, 365)
 
-
-    # 
