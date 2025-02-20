@@ -264,7 +264,7 @@ def plot_usage_charts_key_legacy(disaster_ids, key, period):
 
     plt.close()
 
-def plot_usage_charts_for_key(disaster_ids, key, sort_by):
+def plot_usage_charts_for_key(disaster_ids, key, sort_by, disaster_ids_type):
     
 
     tag_keys = pd.read_csv("Results/TagInvestigation/summary/unique_tag_keys_count_all.csv")
@@ -341,12 +341,12 @@ def plot_usage_charts_for_key(disaster_ids, key, sort_by):
 
     # Save the plot
     os.makedirs("Results/TagInvestigation/summary/charts/key_usage_charts", exist_ok=True)
-    file_path = f"Results/TagInvestigation/summary/charts/key_usage_charts/usage_{key}.png"
+    file_path = f"Results/TagInvestigation/summary/charts/key_usage_charts/usage_{key}_{disaster_ids_type}.png"
     plt.savefig(file_path, dpi=350, bbox_inches="tight")
     print(f"Saved: {file_path}")
 
     os.makedirs("visualisation-site/public/TagInvestigation/summary/charts/key_usage_charts", exist_ok=True)
-    visualisation_file_path = f"visualisation-site/public/TagInvestigation/summary/charts/key_usage_charts/usage_{key}.png"
+    visualisation_file_path = f"visualisation-site/public/TagInvestigation/summary/charts/key_usage_charts/usage_{key}_{disaster_ids_type}.png"
     shutil.copyfile(file_path, visualisation_file_path)
     print(f"Copied to: {visualisation_file_path}")
 
@@ -356,7 +356,7 @@ def sanitize_filename(value):
     return re.sub(r'[\/:*?"<>|]', '_', value)  
 
 
-def plot_usage_charts_values_for_key(disaster_ids, key, n, sort_by):
+def plot_usage_charts_values_for_key(disaster_ids, key, n, sort_by, disaster_ids_type):
     
 
     tag_key_values = pd.read_csv("Results/TagInvestigation/summary/tag_key_values_count_all.csv")
@@ -439,12 +439,12 @@ def plot_usage_charts_values_for_key(disaster_ids, key, n, sort_by):
 
         # Save the plot
         os.makedirs("Results/TagInvestigation/summary/charts/key_value_usage_charts", exist_ok=True)
-        file_path = f"Results/TagInvestigation/summary/charts/key_value_usage_charts/usage_{key}_{sanitize_filename(value)}.png"
+        file_path = f"Results/TagInvestigation/summary/charts/key_value_usage_charts/usage_{key}_{sanitize_filename(value)}_{disaster_ids_type}.png"
         plt.savefig(file_path, dpi=350, bbox_inches="tight")
         print(f"Saved: {file_path}")
 
         os.makedirs("visualisation-site/public/TagInvestigation/summary/charts/key_value_usage_charts", exist_ok=True)
-        visualisation_file_path = f"visualisation-site/public/TagInvestigation/summary/charts/key_value_usage_charts/usage_{key}_{sanitize_filename(value)}.png"
+        visualisation_file_path = f"visualisation-site/public/TagInvestigation/summary/charts/key_value_usage_charts/usage_{key}_{sanitize_filename(value)}_{disaster_ids_type}.png"
         shutil.copyfile(file_path, visualisation_file_path)
         print(f"Copied to: {visualisation_file_path}")
 
@@ -484,7 +484,7 @@ if __name__ == "__main__":
 
     keys = ["building", "highway", "amenity", "leisure"]
 
-    compare_percent_of_changes_period = True
+    compare_percent_of_changes_period = False
     generate_charts_usage_by_disaster = True
 
     db_utils = DB_Utils()
@@ -500,7 +500,15 @@ if __name__ == "__main__":
     
     
     keys = ["building","highway","amenity","leisure","surface","landuse","waterway","natural","leisure","emergency"]
-    disaster_ids = [3,8,7,5,6,9,14,13,10,11,12,2,18,15,16,17]
+    disaster_ids_region =   [3,8,7,5,6,9,14,13,10,11,12,2,18,15,16,17] # Geographic region
+    disaster_ids_disaster = [3,6,11,5,12,17,8,9,13,2,15,16,10,7,18,14] # Disaster Type
+    disaster_ids_type = "region" # "region", "type"
+
+    if disaster_ids_type == "region":
+        disaster_ids = disaster_ids_region
+    else:
+        disaster_ids = disaster_ids_disaster
+
     periods = ["pre","imm","post"]
 
     n = 20 
@@ -509,5 +517,12 @@ if __name__ == "__main__":
     if generate_charts_usage_by_disaster:
         generate_top_n_keys_values_json(keys, n)
         for key in keys:
-            plot_usage_charts_for_key(disaster_ids, key, sort_by)
-            plot_usage_charts_values_for_key(disaster_ids, key, n, sort_by)
+            for disaster_ids_type in ["type", "region"]:
+                if disaster_ids_type == "region":
+                    disaster_ids = disaster_ids_region
+                else:
+                    disaster_ids = disaster_ids_disaster
+                    
+                print(f"plotting for {disaster_ids_type}")
+                plot_usage_charts_for_key(disaster_ids, key, sort_by, disaster_ids_type)
+                plot_usage_charts_values_for_key(disaster_ids, key, n, sort_by, disaster_ids_type)

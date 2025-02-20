@@ -8,6 +8,7 @@ export default function TagUsageCharts() {
     localStorage.getItem("tagTypeSelection") || "key"
   );
   const [selectedKey, setSelectedKey] = useState("");
+  const [disasterIdsSortType, setDisasterIdsSortType] = useState("type");
   const [tagKeysTopValues, setTagKeysTopValues] = useState({});
   const [loading, setLoading] = useState(true);
 
@@ -28,6 +29,7 @@ export default function TagUsageCharts() {
       .catch((error) => console.error("Error loading JSON:", error))
       .finally(() => setLoading(false));
   }, []);
+
 
   return (
     <div>
@@ -65,6 +67,22 @@ export default function TagUsageCharts() {
             </Select>
           </div>
         )}
+
+        <div style={{ marginTop: 5, marginBottom: 5 }}>
+          <label style={{ marginLeft: 20 }}>Sort by:</label>
+          <Select
+            value={disasterIdsSortType}
+            style={{ width: 150, marginLeft: 10 }}
+            onChange={(key) => {
+              setDisasterIdsSortType(key);
+            }}
+          >
+            <Select.Option value="region">Disaster region</Select.Option>
+            <Select.Option value="type">Disaster type</Select.Option>
+          </Select>
+        </div>
+
+
       </div>
 
       <p>Tag usage charts</p>
@@ -74,13 +92,14 @@ export default function TagUsageCharts() {
 
       {tagTypeSelection === "key" && (
             <>
+            
                 <h3>Usage charts for features:</h3>
                 {Object.keys(tagKeysTopValues).map((key) => (
                 <div key={key} className="chart">
                     <h3>{key}</h3>
                     <Image
                     width="80%"
-                    src={`TagInvestigation/summary/charts/key_usage_charts/usage_${key}.png`} 
+                    src={`TagInvestigation/summary/charts/key_usage_charts/usage_${key}_${disasterIdsSortType}.png`} 
                     alt={`Usage chart for ${key}`}
                     />
                 </div>
@@ -99,7 +118,7 @@ export default function TagUsageCharts() {
                 <h3>{value}</h3>
                   <Image
                     width="80%"
-                    src={`TagInvestigation/summary/charts/key_value_usage_charts/usage_${selectedKey}_${value}.png`} 
+                    src={`TagInvestigation/summary/charts/key_value_usage_charts/usage_${selectedKey}_${value}_${disasterIdsSortType}.png`} 
                     alt={`Usage chart for ${selectedKey} - ${value}`}
                   />
                 </div>
