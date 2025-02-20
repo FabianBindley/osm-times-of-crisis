@@ -332,7 +332,7 @@ def plot_total_change_counts(pre_disaster_days, imm_disaster_days, post_disaster
     for disaster_id in disaster_ids:
         data = pd.read_csv(f"./Results/ChangeCounting/disaster{disaster_id}/data/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_full_periods_change_count.csv")
         total = data.iloc[-1]["total"]
-        _, _, disaster_area, _, disaster_date, _  = db_utils.get_disaster_with_id(disaster_id)
+        _, _, disaster_area, _, disaster_date, _, _  = db_utils.get_disaster_with_id(disaster_id)
 
         total_counts = pd.concat(
             [total_counts, pd.DataFrame({"disaster_id": [disaster_id], "disaster_title": [f"{disaster_area[0]} | {disaster_date.year}"], "total": [total]})],
@@ -357,7 +357,7 @@ def plot_total_change_counts(pre_disaster_days, imm_disaster_days, post_disaster
 
     plt.close()
 
-def plot_change_counts_all_disasters(disaster_ids, prophet_model, post_only, plot_edit_types, period, interval_length, columns):
+def plot_change_counts_all_disasters(disaster_ids, prophet_model, post_only, plot_edit_types, period, interval_length, columns, disaster_ids_type):
 
     time_period = "day" if interval_length == 1 else "week" if interval_length == 7 else "month"
 
@@ -391,13 +391,13 @@ def plot_change_counts_all_disasters(disaster_ids, prophet_model, post_only, plo
 
     # Save the final combined figure
     os.makedirs(f"./Results/ChangeCounting/combined/charts/", exist_ok=True)
-    output_path = f'./Results/ChangeCounting/combined/charts/{period[0]}_{period[1]}_{period[2]}_{time_period}_counts{"_prophet_forecast" if prophet_model else ""}{"" if len(plot_edit_types) == 4 else "_"+"_".join(plot_edit_types)}{"_post_only" if post_only else ""}_grid.png'
+    output_path = f'./Results/ChangeCounting/combined/charts/{period[0]}_{period[1]}_{period[2]}_{time_period}_counts{"_prophet_forecast" if prophet_model else ""}{"" if len(plot_edit_types) == 4 else "_"+"_".join(plot_edit_types)}{"_post_only" if post_only else ""}_grid_{disaster_ids_type}.png'
     plt.savefig(output_path, dpi=200, bbox_inches='tight', pad_inches=0)
 
     print(f"Saved: {output_path}")
 
     os.makedirs(f"visualisation-site/public/ChangeCounting/combined/charts", exist_ok=True)
-    visualisation_file_path = f'visualisation-site/public/ChangeCounting/combined/charts/{period[0]}_{period[1]}_{period[2]}_{time_period}_counts{"_prophet_forecast" if prophet_model else ""}{"" if len(plot_edit_types) == 4 else "_"+"_".join(plot_edit_types)}{"_post_only" if post_only else ""}_grid.png'
+    visualisation_file_path = f'visualisation-site/public/ChangeCounting/combined/charts/{period[0]}_{period[1]}_{period[2]}_{time_period}_counts{"_prophet_forecast" if prophet_model else ""}{"" if len(plot_edit_types) == 4 else "_"+"_".join(plot_edit_types)}{"_post_only" if post_only else ""}_grid_{disaster_ids_type}.png'
     shutil.copyfile(output_path, visualisation_file_path)
 
     print(f"Saved: {visualisation_file_path}")
@@ -412,7 +412,7 @@ def process_disaster(disaster_id, periods, prophet_model_bools, post_only_bools,
     db_utils.db_connect()
 
     # Get disaster details
-    _, disaster_country, disaster_area, _, disaster_date, _ = db_utils.get_disaster_with_id(disaster_id)
+    _, disaster_country, disaster_area, _, disaster_date, _, _ = db_utils.get_disaster_with_id(disaster_id)
     
     for prophet_model in prophet_model_bools:
         for post_only in post_only_bools:
@@ -451,7 +451,7 @@ def process_disaster(disaster_id, periods, prophet_model_bools, post_only_bools,
                         )
     return f"Completed disaster_id: {disaster_id}"
     
-def process_combined_disaster_plots(disaster_ids, plot_edit_types_list, period, prophet_model_bools, post_only_bools, interval_lengths, columns):
+def process_combined_disaster_plots(disaster_ids, plot_edit_types_list, period, prophet_model_bools, post_only_bools, interval_lengths, columns, disaster_ids_type):
     for plot_edit_types in plot_edit_types_list:
         for prophet_model in prophet_model_bools:
             for post_only in post_only_bools:
@@ -465,6 +465,7 @@ def process_combined_disaster_plots(disaster_ids, plot_edit_types_list, period, 
                         period=period,
                         interval_length=interval_length,
                         columns=columns,
+                        disaster_ids_type=disaster_ids_type,
                     )
 
 
@@ -493,7 +494,7 @@ if __name__ == "__main__":
         
    #disaster_ids = range(2,19)
     generate_specific = False
-    generate_combined = False
+    generate_combined = True
     #disaster_ids = [5]
 
     for period in periods:
@@ -526,26 +527,40 @@ if __name__ == "__main__":
                     print(f"Error processing disaster_id {disaster_id}: {e}")
 
     if generate_combined:
-        # Use ProcessPoolExecutor for multiprocessing
-        with concurrent.futures.ProcessPoolExecutor() as executor:
-            futures = {
-                executor.submit(
-                    process_combined_disaster_plots, 
-                    disaster_ids, 
-                    plot_edit_types_list, 
-                    period, 
-                    prophet_model_bools, 
-                    post_only_bools, 
-                    interval_lengths, 
-                    columns=4
-                ): (period) for period in periods
-            }
+        disaster_ids_region =   [3,8,7,5,6,9,14,13,10,11,12,2,18,15,16,17] # Geographic region
+        disaster_ids_disaster = [3,6,11,5,12,17,8,9,13,2,15,16,10,7,18,14] # Disaster Type
 
-            # Collect results as tasks complete
-            for future in concurrent.futures.as_completed(futures):
-                task_details = futures[future]
-                try:
-                    result = future.result()
-                    print(result)
-                except Exception as e:
-                    print(f"Plotting failed for {task_details}: {e}")
+        disaster_ids_types = ["type","region"] # "region", "type"
+
+        for disaster_ids_type in disaster_ids_types:
+
+            if disaster_ids_type == "region":
+                disaster_ids = disaster_ids_region
+            else:
+                disaster_ids = disaster_ids_disaster
+
+
+            # Use ProcessPoolExecutor for multiprocessing
+            with concurrent.futures.ProcessPoolExecutor() as executor:
+                futures = {
+                    executor.submit(
+                        process_combined_disaster_plots, 
+                        disaster_ids, 
+                        plot_edit_types_list, 
+                        period, 
+                        prophet_model_bools, 
+                        post_only_bools, 
+                        interval_lengths, 
+                        columns=4,
+                        disaster_ids_type=disaster_ids_type
+                    ): (period) for period in periods
+                }
+
+                # Collect results as tasks complete
+                for future in concurrent.futures.as_completed(futures):
+                    task_details = futures[future]
+                    try:
+                        result = future.result()
+                        print(result)
+                    except Exception as e:
+                        print(f"Plotting failed for {task_details}: {e}")

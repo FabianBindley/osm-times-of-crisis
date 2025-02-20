@@ -12,6 +12,8 @@ function ChangeCounting() {
   const [periodLength, setPeriodLength] = useState(localStorage.getItem("period") ? localStorage.getItem("period") : "week")
   const [postOnly, setPostOnly] = useState(localStorage.getItem("postOnly")=="true" ? true : false);
   const [prophetForecast, setProphetForecast] = useState(localStorage.getItem("prophetForecast")=="true" ? true : false);
+    const [disasterIdsSortType, setDisasterIdsSortType] = useState("type");
+  
   
   const intervalMap = {
     "365-30-365": { start: "365", imm:"30", end: "365" },
@@ -174,6 +176,21 @@ const additional_graphs = [
 
 
                 </>}
+
+                <div style={{ marginTop: 5, marginBottom: 5 }}>
+                          <label style={{ marginLeft: 20 }}>Combined sort by:</label>
+                          <Select
+                            value={disasterIdsSortType}
+                            style={{ width: 150, marginLeft: 10 }}
+                            onChange={(key) => {
+                              setDisasterIdsSortType(key);
+                            }}
+                          >
+                            <Select.Option value="region">Disaster region</Select.Option>
+                            <Select.Option value="type">Disaster type</Select.Option>
+                          </Select>
+                        </div>
+
                 { (graphStyle == "counts" || graphStyle == "avg_days_between_edits") && 
                 <div style={{marginTop:5,marginBottom:5}}>
                       <label style={{ marginLeft: 10, marginRight: 10 }}>Prophet Forecast:</label>
@@ -195,7 +212,7 @@ const additional_graphs = [
             </div>
 
             {graphs.map((graph, index) => (
-                <Graph index={index} graph={graph}  graphStyle={graphStyle} interval={interval} periodLength={periodLength} postOnly={postOnly} prophetForecast={prophetForecast} edit_type={editType}/>
+                <Graph index={index} graph={graph}  graphStyle={graphStyle} interval={interval} periodLength={periodLength} postOnly={postOnly} prophetForecast={prophetForecast} edit_type={editType} disasterIdsSortType={disasterIdsSortType}/>
             ))}
           {/*
             <h2>Additional Graphs</h2>

@@ -219,7 +219,7 @@ def plot_average_time_between_edits(intervals_df, pre_disaster_days, imm_disaste
     # Close the plot to free memory
     plt.close()
 
-def plot_average_time_between_edits_all_disasters(disaster_ids, prophet_model, post_only, period, interval_length, columns):
+def plot_average_time_between_edits_all_disasters(disaster_ids, prophet_model, post_only, period, interval_length, columns, disaster_ids_type):
 
     num_disasters = len(disaster_ids)
     rows = math.ceil(num_disasters / columns)
@@ -251,13 +251,13 @@ def plot_average_time_between_edits_all_disasters(disaster_ids, prophet_model, p
 
     # Save the final combined figure
     os.makedirs(f"./Results/ChangeDifferences/combined/days_between_edits/charts/", exist_ok=True)
-    output_path = f'./Results/ChangeDifferences/combined/days_between_edits/charts/{period[0]}_{period[1]}_{period[2]}_{interval_length}_avg_days_between_edits{"_prophet_forecast" if prophet_model else ""}{"_post_only" if post_only else ""}_grid.png'
+    output_path = f'./Results/ChangeDifferences/combined/days_between_edits/charts/{period[0]}_{period[1]}_{period[2]}_{interval_length}_avg_days_between_edits{"_prophet_forecast" if prophet_model else ""}{"_post_only" if post_only else ""}_grid_{disaster_ids_type}.png'
     plt.savefig(output_path, dpi=200, bbox_inches='tight', pad_inches=0)
 
     print(f"Saved: {output_path}")
 
     os.makedirs(f"visualisation-site/public/ChangeDifferences/combined/days_between_edits/charts", exist_ok=True)
-    visualisation_file_path = f'visualisation-site/public/ChangeDifferences/combined/days_between_edits/charts/{period[0]}_{period[1]}_{period[2]}_{interval_length}_avg_days_between_edits{"_prophet_forecast" if prophet_model else ""}{"_post_only" if post_only else ""}_grid.png'
+    visualisation_file_path = f'visualisation-site/public/ChangeDifferences/combined/days_between_edits/charts/{period[0]}_{period[1]}_{period[2]}_{interval_length}_avg_days_between_edits{"_prophet_forecast" if prophet_model else ""}{"_post_only" if post_only else ""}_grid_{disaster_ids_type}.png'
     shutil.copyfile(output_path, visualisation_file_path)
 
     print(f"Saved: {visualisation_file_path}")
@@ -277,11 +277,11 @@ def process_disaster(disaster_id, periods, prophet_model_bools,  post_only_bools
                 generate_average_by_interval_length(disaster_id, disaster_area, disaster_country, disaster_date, pre_disaster_days, imm_disaster_days, post_disaster_days,  prophet_model,  post_only, interval_length=7)
                 generate_average_by_interval_length(disaster_id, disaster_area, disaster_country, disaster_date, pre_disaster_days, imm_disaster_days, post_disaster_days, prophet_model,  post_only, interval_length=30)
 
-def process_time_between_edits_all_disasters(period, disaster_ids, prophet_model_bools, post_only_bools, interval_lengths):
+def process_time_between_edits_all_disasters(period, disaster_ids, prophet_model_bools, post_only_bools, interval_lengths, disaster_ids_type):
     for post_only in post_only_bools:
         for prophet_model in prophet_model_bools:
             for interval_length in interval_lengths:
-                plot_average_time_between_edits_all_disasters(disaster_ids, prophet_model, post_only, period, interval_length, columns=4)
+                plot_average_time_between_edits_all_disasters(disaster_ids, prophet_model, post_only, period, interval_length, columns=4, disaster_ids_type=disaster_ids_type)
 
 
 # Ensure that you have already run analyse_change_differences for the specified disaster and period
@@ -301,7 +301,7 @@ if __name__ == "__main__":
         disaster_ids = [3,8,7,5,6,9,14,13,10,11,12,2,18,15,16,17]
         print("Disaster IDs defined:", disaster_ids)
 
-    generate_specific = True
+    generate_specific = False
     generate_combined = True
 
     if generate_specific: 
@@ -328,26 +328,38 @@ if __name__ == "__main__":
 
     
     if generate_combined:
+        disaster_ids_region =   [3,8,7,5,6,9,14,13,10,11,12,2,18,15,16,17] # Geographic region
+        disaster_ids_disaster = [3,6,11,5,12,17,8,9,13,2,15,16,10,7,18,14] # Disaster Type
 
-        with concurrent.futures.ProcessPoolExecutor() as executor:
-            # Submit tasks for each disaster_id
-            futures = {
-                executor.submit(
-                    process_time_between_edits_all_disasters, 
-                    period, 
-                    disaster_ids, 
-                    prophet_model_bools, 
-                    post_only_bools, 
-                    interval_lengths,
-                ): (period, prophet_model_bool) for period in periods for prophet_model_bool in prophet_model_bools
-            }
+        disaster_ids_types = ["type","region"] # "region", "type"
 
-            # Collect results as they complete
-            for future in concurrent.futures.as_completed(futures):
-                disaster_id = futures[future]
-                try:
-                    result = future.result()
-                    print(result)
-                except Exception as e:
-                    print(f"Error processing disaster_id {disaster_id}: {e}")
+        for disaster_ids_type in disaster_ids_types:
+
+            if disaster_ids_type == "region":
+                disaster_ids = disaster_ids_region
+            else:
+                disaster_ids = disaster_ids_disaster
+
+            with concurrent.futures.ProcessPoolExecutor() as executor:
+                # Submit tasks for each disaster_id
+                futures = {
+                    executor.submit(
+                        process_time_between_edits_all_disasters, 
+                        period, 
+                        disaster_ids, 
+                        prophet_model_bools, 
+                        post_only_bools, 
+                        interval_lengths,
+                        disaster_ids_type,
+                    ): (period, prophet_model_bool) for period in periods for prophet_model_bool in prophet_model_bools
+                }
+
+                # Collect results as they complete
+                for future in concurrent.futures.as_completed(futures):
+                    disaster_id = futures[future]
+                    try:
+                        result = future.result()
+                        print(result)
+                    except Exception as e:
+                        print(f"Error processing disaster_id {disaster_id}: {e}")
 
