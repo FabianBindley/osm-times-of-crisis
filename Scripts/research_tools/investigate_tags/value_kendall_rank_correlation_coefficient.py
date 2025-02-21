@@ -122,6 +122,103 @@ def periods_compute_correlation_metrics(period1, period2, period1_data, period2_
     return results
 
 
+
+def compute_kendall_rank_statistics(periods, disaster_ids, specified_keys):
+    all_correlations = []
+
+    # Load and combine the correlation data for each period and disaster
+    for period in periods:
+        period1, period2 = period
+
+        # For "all" disaster case, assign disaster_id as "all"
+        all_disaster_df = pd.read_csv(f"./Results/TagInvestigation/summary/key_value_correlation_rank_analysis/{period1}_{period2}.csv")
+        all_disasters_correlations = all_disaster_df[all_disaster_df['key'].isin(specified_keys)]
+        all_disasters_correlations['disaster_id'] = 'all'  # Explicitly add the 'disaster_id' column
+        all_disasters_correlations['period1'] = period1
+        all_disasters_correlations['period2'] = period2
+        all_correlations.append(all_disasters_correlations)
+        
+        # Then, for each disaster, get the individual disaster correlation data
+        for disaster_id in disaster_ids:
+            disaster_df = pd.read_csv(
+                f"./Results/TagInvestigation/disaster{disaster_id}/key_value_correlation_rank_analysis/{period1}_{period2}.csv"
+            )
+            disaster_correlations = disaster_df[disaster_df['key'].isin(specified_keys)]
+            disaster_correlations['disaster_id'] = disaster_id  # Add disaster_id to track which disaster the data belongs to
+            disaster_correlations['period1'] = period1
+            disaster_correlations['period2'] = period2
+            all_correlations.append(disaster_correlations)
+
+    # Combine all correlation data into one DataFrame
+    all_correlations_df = pd.concat(all_correlations, ignore_index=True)
+
+    # Now, generate summary statistics for each key and each period for all disasters and the "all" disaster
+    summary_stats = []
+
+    for period in periods:
+        period1, period2 = period
+
+        # Filter the data for this period (both "all" disaster and individual disasters)
+        period_data = all_correlations_df[
+            (all_correlations_df['period1'] == period1) & (all_correlations_df['period2'] == period2)
+        ]
+
+        for key in specified_keys:
+            key_data = period_data[period_data['key'] == key]
+
+            # Compute the statistics for Kendall Rank Correlation
+            summary = {
+                "period1": period1,
+                "period2": period2,
+                "key": key,
+                "kendall_min": round(key_data["kendall_rank_correlation"].min(), 3),
+                "kendall_max": round(key_data["kendall_rank_correlation"].max(), 3),
+                "kendall_range": round(key_data["kendall_rank_correlation"].max() - key_data["kendall_rank_correlation"].min(), 3),
+                "kendall_q1": round(key_data["kendall_rank_correlation"].quantile(0.25), 3),
+                "kendall_median": round(key_data["kendall_rank_correlation"].median(), 3),
+                "kendall_q3": round(key_data["kendall_rank_correlation"].quantile(0.75), 3),
+                "kendall_iqr": round(key_data["kendall_rank_correlation"].quantile(0.75) - key_data["kendall_rank_correlation"].quantile(0.25), 3),
+            }
+            summary_stats.append(summary)
+
+    # Convert the list of summary stats to a DataFrame for better visualization
+    summary_df = pd.DataFrame(summary_stats)
+
+    # Add summary row for each key across all periods
+    summary_rows = []
+    for key in specified_keys:
+        key_data = period_data[period_data['key'] == key]
+        # Compute the summary statistics for Kendall Rank Correlation
+        summary = {
+            "period1": "All",
+            "period2": "All",
+            "key": key,
+            "kendall_min": round(key_data["kendall_rank_correlation"].min(), 3),
+            "kendall_max": round(key_data["kendall_rank_correlation"].max(), 3),
+            "kendall_range": round(key_data["kendall_rank_correlation"].max() - key_data["kendall_rank_correlation"].min(), 3),
+            "kendall_q1": round(key_data["kendall_rank_correlation"].quantile(0.25), 3),
+            "kendall_median": round(key_data["kendall_rank_correlation"].median(), 3),
+            "kendall_q3": round(key_data["kendall_rank_correlation"].quantile(0.75), 3),
+            "kendall_iqr": round(key_data["kendall_rank_correlation"].quantile(0.75) - key_data["kendall_rank_correlation"].quantile(0.25), 3),
+        }
+        summary_rows.append(summary)
+
+    # Create a DataFrame for the summary rows and append to the original DataFrame
+    summary_df_all = pd.DataFrame(summary_rows)
+    summary_df = pd.concat([summary_df, summary_df_all], ignore_index=True)
+
+    summary_df.sort_values(by=["key"], inplace=True)
+
+    # Save to CSV
+    summary_df.to_csv(f"./Results/TagInvestigation/summary/kendall_rank_statistics_summary.csv", index=False)
+    print(f"Saved: ./Results/TagInvestigation/summary/kendall_rank_statistics_summary.csv")
+
+    print(summary_df)
+    return summary_df
+
+       
+
+
 # Please emsure tag value investigation has been run first, as the csvs generated are necessary
 if __name__ == "__main__":
     start_time = datetime.now()
@@ -130,19 +227,30 @@ if __name__ == "__main__":
 
     # Get the values for the specified keys
     specified_keys = ["building","highway","source","name","surface","amenity","landuse","waterway","natural","leisure","emergency"]
+
+    specified_keys = ["building","highway","amenity","leisure"]
     periods = [("pre","imm"), ("pre","post"), ("imm","post")]
     periods = [("pre","imm"),("pre","post"), ("imm","post")]
 
     disaster_ids =  range(2,19)
     top_n = 15
 
-    for period in periods:
-        print(period)
-        print("Getting all disaster correlation metrics")
-        compute_key_value_correlation_metrics(top_n, specified_keys, period, "all")
+    generate_kendall_correlations = False
+    compute_statistics = True
+
+    if generate_kendall_correlations:
+        for period in periods:
+            print(period)
+            print("Getting all disaster correlation metrics")
+            compute_key_value_correlation_metrics(top_n, specified_keys, period, "all")
+            
+            for disaster_id in disaster_ids:
+                    (_, disaster_country, disaster_area, _, disaster_date, _ ) = db_utils.get_disaster_with_id(disaster_id)
+                    print(f"Generating correlation metrics for {disaster_area[0]} {disaster_date.year}")
+                    compute_key_value_correlation_metrics(top_n, specified_keys, period, disaster_id)
+
+    # Generate summary table - for each key, get the relevant average, range, standard deviation, min max, quartiles etc
+    if compute_statistics:
+        compute_kendall_rank_statistics(periods, disaster_ids, specified_keys)
+
         
-        for disaster_id in disaster_ids:
-                (_, disaster_country, disaster_area, _, disaster_date, _ ) = db_utils.get_disaster_with_id(disaster_id)
-                print(f"Generating correlation metrics for {disaster_area[0]} {disaster_date.year}")
-                compute_key_value_correlation_metrics(top_n, specified_keys, period, disaster_id)
-    

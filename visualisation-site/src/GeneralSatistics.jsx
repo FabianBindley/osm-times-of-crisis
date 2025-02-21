@@ -87,6 +87,15 @@ export default function GeneralStatistics() {
                     width="100%"
                     src={`ChangeDensityMapping/Summary/charts/combined_disaster_area_densities.png`}
                 />
+                <h2>Percent difference in change density between Pre-Imm and Pre-Post periods:</h2>
+                <Image
+                    width="90%"
+                    src={`ChangeDensityMapping/Summary/charts/percent_difference_density_region.png`}
+                />   
+                <Image
+                    width="90%"
+                    src={`ChangeDensityMapping/Summary/charts/percent_difference_density_type.png`}
+                />      
             </div>
 
         </div>

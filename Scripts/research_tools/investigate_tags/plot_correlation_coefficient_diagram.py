@@ -46,7 +46,7 @@ def generate_plot_3d_correlation_diagram(period, disaster_ids):
         if disaster_id == "all":
             row['disaster_title'] = "All Disasters"
         else:
-            (_, disaster_country, disaster_area, _, disaster_date, _ ) = db_utils.get_disaster_with_id(disaster_id)
+            (_, disaster_country, disaster_area, _, disaster_date, _, _ ) = db_utils.get_disaster_with_id(disaster_id)
             row['disaster_title'] = f"{disaster_area[0]} {disaster_date.year}"
         df.loc[len(df)] = row
 
@@ -90,7 +90,7 @@ def generate_plot_kendall_correlation_coefficients(periods, disaster_ids, key_pa
             disaster_df = pd.read_csv(f"./Results/TagInvestigation/disaster{disaster_id}/key_value_correlation_rank_analysis/{period1}_{period2}.csv")
             disaster_df['disaster_id'] = disaster_id 
 
-            (_, _, disaster_area, _, disaster_date, _ ) = db_utils.get_disaster_with_id(disaster_id)
+            (_, _, disaster_area, _, disaster_date, _ , _) = db_utils.get_disaster_with_id(disaster_id)
             disaster_df['disaster_title'] = f"{disaster_area[0]} {disaster_date.year}"
 
             disaster_df = disaster_df[disaster_df["key"].isin(key_pair)]
@@ -168,13 +168,10 @@ if __name__ == "__main__":
     for i in range(len(specified_keys)-1):
         for j in range(i+1, len(specified_keys)):
             key_pairs.append((specified_keys[i], specified_keys[j]))
-    
-
-
   
 
-    #for key_pair in key_pairs:
-        #generate_plot_kendall_correlation_coefficients(periods, disaster_ids, key_pair)
-        #print(key_pair)
+    for key_pair in key_pairs:
+        generate_plot_kendall_correlation_coefficients(periods, disaster_ids, key_pair)
+        print(key_pair)
 
 

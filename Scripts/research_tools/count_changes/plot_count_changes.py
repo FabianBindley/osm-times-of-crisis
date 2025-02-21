@@ -277,50 +277,68 @@ def plot_counts_specific(disaster_id, disaster_country, disaster_area, disaster_
     
     plt.close()
 
-def  plot_full_periods_change_count(pre_disaster_days, imm_disaster_days, post_disaster_days):
+def plot_full_periods_change_count(pre_disaster_days, imm_disaster_days, post_disaster_days, show_percent):
     
-    try:
-        summary_data = pd.read_csv(f"./Results/ChangeCounting/summary/data/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_full_periods_change_count.csv")
-    except:
-        raise(FileNotFoundError(f"File ./Results/ChangeCounting/summary/data/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_full_periods_change_count.csv does not exist"))
-    
-    db_utils = DB_Utils()
+    file_path = f"./Results/ChangeCounting/summary/data/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_full_periods_change_count.csv"
+    if not os.path.exists(file_path):
+        raise FileNotFoundError(f"File {file_path} does not exist")
+
+    summary_data = pd.read_csv(file_path)
 
     periods = ['Pre', 'Imm', 'Post']
-    creates = summary_data['creates'][:3]
-    edits = summary_data['edits'][:3]
-    deletes = summary_data['deletes'][:3]
+    creates = summary_data['creates'][:3].values
+    edits = summary_data['edits'][:3].values
+    deletes = summary_data['deletes'][:3].values
+    total_changes = creates + edits + deletes  # Compute total for each period
+
+    if show_percent:
+        # Convert to percentage of total changes for each period
+        creates = (creates / total_changes) * 100
+        edits = (edits / total_changes) * 100
+        deletes = (deletes / total_changes) * 100
 
     # Stacked bar chart for detailed breakdown
-    plt.figure(figsize=(12, 6))
+    plt.figure(figsize=(8, 6))
     width = 0.6
     x = np.arange(len(periods))  # Use np.arange for proper alignment
 
     plt.grid(which='major', color='black', linestyle='-', linewidth=0.5, zorder=0)
     plt.grid(which='minor', color='gray', linestyle=':', linewidth=0.5, zorder=0)
     plt.minorticks_on()
+    
     alpha = 0.8
     plt.bar(x, creates, width, label='Creates', color='blue', zorder=2, alpha=alpha)
     plt.bar(x, edits, width, bottom=creates, label='Edits', color='orange', zorder=2, alpha=alpha)
     plt.bar(x, deletes, width, bottom=creates + edits, label='Deletes', color='green', zorder=2, alpha=alpha)
 
-    plt.gca().yaxis.set_major_formatter(ticker.FuncFormatter(lambda x, _: f'{int(x / 1e6)}M'))
+    # Format y-axis labels
+    if show_percent:
+        plt.gca().yaxis.set_major_formatter(ticker.PercentFormatter())
+        plt.ylabel("Percentage of Changes")
+        title = "Proportion of Change Types by Period"
+    else:
+        plt.gca().yaxis.set_major_formatter(ticker.FuncFormatter(lambda x, _: f'{int(x / 1e6)}M'))
+        plt.ylabel("Number of Changes")
+        title = "Total Change Counts by Period"
 
+    # Configure axis labels and title
     plt.xticks(x, periods)
-    plt.title('Summary of change counts by period')
+    plt.title(title)
     plt.xlabel('Period')
-    plt.ylabel('Number of changes')
-    
     plt.legend()
 
-
-    os.makedirs(f"Results/ChangeCounting/summary/charts", exist_ok=True)
-    file_path = f'./Results/ChangeCounting/summary/charts/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_changes_count_stacked_bar.png'
+    # Save the plot
+    output_dir = "./Results/ChangeCounting/summary/charts"
+    os.makedirs(output_dir, exist_ok=True)
+    percent_suffix = "_percent" if show_percent else ""
+    file_path = f'./Results/ChangeCounting/summary/charts/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_changes_count_stacked_bar{percent_suffix}.png'
     plt.savefig(file_path, dpi=350)
 
-    os.makedirs(f"visualisation-site/public/ChangeCounting/summary/charts", exist_ok=True)
-    visualisation_file_path = f"visualisation-site/public/ChangeCounting/summary/charts/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_changes_count_stacked_bar.png"
-    shutil.copyfile(file_path, visualisation_file_path)
+    # Copy to visualization site
+    vis_output_dir = "visualisation-site/public/ChangeCounting/summary/charts"
+    os.makedirs(vis_output_dir, exist_ok=True)
+    vis_output_path = f"{vis_output_dir}/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_changes_count_stacked_bar{percent_suffix}.png"
+    shutil.copyfile(file_path, vis_output_path)
 
     plt.close()
 
@@ -494,11 +512,12 @@ if __name__ == "__main__":
         
    #disaster_ids = range(2,19)
     generate_specific = False
-    generate_combined = True
+    generate_combined = False
     #disaster_ids = [5]
 
     for period in periods:
-        plot_full_periods_change_count(period[0], period[1], period[2])
+        plot_full_periods_change_count(period[0], period[1], period[2], False)
+        plot_full_periods_change_count(period[0], period[1], period[2], True)
         plot_total_change_counts(period[0], period[1], period[2], disaster_ids)
         
     

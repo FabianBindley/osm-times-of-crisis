@@ -205,6 +205,128 @@ def combine_plots_disaster_area_densities(disaster_ids, periods):
 
     plt.close()
 
+def plot_percent_difference_density(disaster_ids, disaster_ids_type):
+
+    pre_df = pd.read_csv(
+        "Results/ChangeDensityMapping/Summary/data/disaster_area_densities_365_0_0.csv"
+    )[["disaster_id", "change_density"]].rename(columns={"change_density": "pre_density"})
+
+    imm_df = pd.read_csv(
+        "Results/ChangeDensityMapping/Summary/data/disaster_area_densities_0_60_0.csv"
+    )[["disaster_id", "change_density"]].rename(columns={"change_density": "imm_density"})
+
+    post_df = pd.read_csv(
+        "Results/ChangeDensityMapping/Summary/data/disaster_area_densities_0_0_365.csv"
+    )[["disaster_id", "change_density"]].rename(columns={"change_density": "post_density"})
+
+
+    merged = pre_df.merge(imm_df, on="disaster_id", how="outer").merge(post_df, on="disaster_id", how="outer")
+
+
+    merged = merged[merged["disaster_id"].isin(disaster_ids)]
+
+
+    merged["sort_order"] = merged["disaster_id"].apply(lambda x: disaster_ids.index(x))
+    merged.sort_values(by="sort_order", inplace=True)
+    merged.drop(columns=["sort_order"], inplace=True) 
+
+
+    merged["pre_imm_percent_diff"] = (
+        (merged["imm_density"] - merged["pre_density"]) / merged["pre_density"] * 100
+    )
+    merged["pre_post_percent_diff"] = (
+        (merged["post_density"] - merged["pre_density"]) / merged["pre_density"] * 100
+    )
+
+
+    disaster_labels = [
+        f"{disaster_area[0]} ({disaster_date.year})"
+        for disaster_id in disaster_ids
+        for _, _, disaster_area, _, disaster_date, _, _ in [db_utils.get_disaster_with_id(disaster_id)]
+    ]
+    
+     # Extract sorted lists for plotting
+    x_labels = disaster_labels
+    pre_imm_percent_diff = merged["pre_imm_percent_diff"].tolist()
+    pre_post_percent_diff = merged["pre_post_percent_diff"].tolist()
+
+    # Create bar chart
+    fig, ax = plt.subplots(figsize=(12, 8))  # Wider figure to fit all labels
+
+    x = range(len(x_labels))
+    width = 0.4
+
+    # Pre → Imm bars
+    bars_pre_imm = ax.bar(
+        [v - width/2 for v in x],
+        pre_imm_percent_diff,
+        width=width,
+        color="dodgerblue",
+        label="Pre → Imm"
+    )
+
+    # Pre → Post bars
+    bars_pre_post = ax.bar(
+        [v + width/2 for v in x],
+        pre_post_percent_diff,
+        width=width,
+        color="orange",
+        label="Pre → Post"
+    )
+
+    # Add bar labels
+    for bar in bars_pre_imm:
+        height = bar.get_height()
+        ax.text(
+            bar.get_x() + bar.get_width()/2,
+            height,
+            f"{height:0.1f}%",
+            ha='center', va='bottom', fontsize=8
+        )
+
+    for bar in bars_pre_post:
+        height = bar.get_height()
+        ax.text(
+            bar.get_x() + bar.get_width()/2,
+            height,
+            f"{height:0.1f}%",
+            ha='center', va='bottom', fontsize=8
+        )
+
+    ax.set_yscale("symlog", linthresh=10)
+
+
+
+    # Format plot
+    ax.axhline(0, color='black', linewidth=1)
+    ax.set_xticks(list(x))
+    ax.set_xticklabels(x_labels, rotation=90)
+    ax.set_ylabel("Percent difference in density (%)")
+    ax.set_title(f'Change in mapping density between Pre-Imm and Pre-Post disaster periods, sorted by {"region" if disaster_ids_type == "region" else "disaster type"}')
+    ax.legend()
+
+
+    # Add major and minor grid lines
+    ax.grid(which='major', color='black', linestyle='--', linewidth=0.5)
+    ax.grid(which='minor', color='gray', linestyle=':', linewidth=0.5)
+    ax.minorticks_on()  # Ensures minor grid lines appear
+
+    plt.tight_layout()
+
+    # Save plot
+    output_dir = "Results/ChangeDensityMapping/Summary/charts"
+    os.makedirs(output_dir, exist_ok=True)
+    output_path = f"Results/ChangeDensityMapping/Summary/charts/percent_difference_density_{disaster_ids_type}.png"
+    plt.savefig(output_path, dpi=300, bbox_inches="tight")
+    print(f"Saved plot: {output_path}")
+
+    # Copy to visualization site
+    vis_path = f"visualisation-site/public/ChangeDensityMapping/Summary/charts/percent_difference_density_{disaster_ids_type}.png"
+    shutil.copyfile(output_path, vis_path)
+
+    # Show plot
+    plt.show()
+    plt.close()
 
 
 if __name__ == "__main__":
@@ -216,7 +338,12 @@ if __name__ == "__main__":
     prophet_model_bools = [True, False]
     post_only_bools = [True, False]
     periods = [(365,60,365),(365,0,0),(0,60,0),(0,0,365),]
-    process_disasters = True
+    compute_disaster_densities = False
+    plot_disaster_densities_single_period = False
+    plot_change_disaster_densities = True
+
+    db_utils = DB_Utils()
+    db_utils.db_connect()
 
 
     if len(sys.argv) > 1:
@@ -226,15 +353,40 @@ if __name__ == "__main__":
         disaster_ids = [3,8,7,5,6,9,14,13,10,11,12,2,18,15,16,17]
         print("Disaster IDs defined:", disaster_ids)
 
-
-    if process_disasters:
-        #compute_disaster_areas(disaster_ids)
+    if compute_disaster_densities:
+        compute_disaster_areas(disaster_ids)
         for period in periods:
             print(f"Computing Densities for {period}")
-            #compute_disaster_area_densities(disaster_ids, period)
+            compute_disaster_area_densities(disaster_ids, period)
+
+    if plot_disaster_densities_single_period:
+        for period in periods:
+            print(f"Computing Densities for {period}")
             plot_all_disaster_area_densities(disaster_ids, period)
 
-    combine_plots_disaster_area_densities(disaster_ids, periods)
+        combine_plots_disaster_area_densities(disaster_ids, periods)
+
+    if plot_change_disaster_densities:
+        disaster_ids_region =   [3,8,7,5,6,9,14,13,10,11,12,2,18,15,16,17] # Geographic region
+        disaster_ids_disaster = [3,6,11,5,12,17,8,9,13,2,15,16,10,7,18,14] # Disaster Type
+
+        disaster_ids_types = ["type","region"] # "region", "type"
+
+        exclude_derna = True
+     
+
+        for disaster_ids_type in disaster_ids_types:
+
+            if disaster_ids_type == "region":
+                disaster_ids = disaster_ids_region
+            else:
+                disaster_ids = disaster_ids_disaster
+
+            if exclude_derna and 15 in disaster_ids:
+                disaster_ids.remove(15)
+
+            plot_percent_difference_density(disaster_ids, disaster_ids_type)
+
 
     
     
