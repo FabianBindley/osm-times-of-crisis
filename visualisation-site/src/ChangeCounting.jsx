@@ -12,7 +12,7 @@ function ChangeCounting() {
   const [periodLength, setPeriodLength] = useState(localStorage.getItem("period") ? localStorage.getItem("period") : "week")
   const [postOnly, setPostOnly] = useState(localStorage.getItem("postOnly")=="true" ? true : false);
   const [prophetForecast, setProphetForecast] = useState(localStorage.getItem("prophetForecast")=="true" ? true : false);
-    const [disasterIdsSortType, setDisasterIdsSortType] = useState("type");
+  const [disasterIdsSortType, setDisasterIdsSortType] = useState("type");
   
   
   const intervalMap = {
@@ -117,6 +117,7 @@ const additional_graphs = [
                         <Select.Option value="counts">Change count</Select.Option>
                         <Select.Option value="percent_difference_time_series">Change % difference</Select.Option>
                         <Select.Option value="avg_days_between_edits">Avg days between changes</Select.Option>
+                        <Select.Option value="tag_changes">Tag edit types</Select.Option>
 
                     </Select>
 
@@ -132,7 +133,7 @@ const additional_graphs = [
                         style={{ width: 250, marginLeft: 10 }}
                         onChange={handleIntervalChange}
                     >
-                      <Select.Option value="365-30-365">365 Pre - 30 Imm - 365 Post</Select.Option>
+                      {/* <Select.Option value="365-30-365">365 Pre - 30 Imm - 365 Post</Select.Option> */}
                         <Select.Option value="365-60-365">365 Pre - 60 Imm - 365 Post</Select.Option>
                         <Select.Option value="1095-60-365">1095 Pre - 60 Imm - 365 Post</Select.Option>
                     </Select>
@@ -155,7 +156,7 @@ const additional_graphs = [
                 </Select>
                 </div>
 
-                { (graphStyle == "counts" || graphStyle == "percent_difference_time_series" ) && 
+                { (graphStyle == "counts" || graphStyle == "percent_difference_time_series" || graphStyle == "tag_changes" ) && 
                 <>
                     <div style={{marginTop:5,marginBottom:5}}>
                       <label style={{ marginLeft: 10 }}>Edit Type:</label>
@@ -191,7 +192,7 @@ const additional_graphs = [
                           </Select>
                         </div>
 
-                { (graphStyle == "counts" || graphStyle == "avg_days_between_edits") && 
+                { (graphStyle == "counts" || graphStyle == "avg_days_between_edits" || graphStyle == "tag_changes") && 
                 <div style={{marginTop:5,marginBottom:5}}>
                       <label style={{ marginLeft: 10, marginRight: 10 }}>Prophet Forecast:</label>
                       <Switch checked={prophetForecast} onChange={handleChangeProphetForecast} />

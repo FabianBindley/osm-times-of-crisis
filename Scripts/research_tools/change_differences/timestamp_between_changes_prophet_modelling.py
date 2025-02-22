@@ -272,7 +272,7 @@ def process_disaster(disaster_id, periods, prophet_model_bools,  post_only_bools
             for period in periods:
                 pre_disaster_days, imm_disaster_days, post_disaster_days = period
 
-                (_, disaster_country, disaster_area, _, disaster_date, _ ) = db_utils.get_disaster_with_id(disaster_id)
+                (_, disaster_country, disaster_area, _, disaster_date, _, _ ) = db_utils.get_disaster_with_id(disaster_id)
                 generate_average_by_interval_length(disaster_id, disaster_area, disaster_country, disaster_date, pre_disaster_days, imm_disaster_days, post_disaster_days,  prophet_model,  post_only, interval_length=1)
                 generate_average_by_interval_length(disaster_id, disaster_area, disaster_country, disaster_date, pre_disaster_days, imm_disaster_days, post_disaster_days,  prophet_model,  post_only, interval_length=7)
                 generate_average_by_interval_length(disaster_id, disaster_area, disaster_country, disaster_date, pre_disaster_days, imm_disaster_days, post_disaster_days, prophet_model,  post_only, interval_length=30)
