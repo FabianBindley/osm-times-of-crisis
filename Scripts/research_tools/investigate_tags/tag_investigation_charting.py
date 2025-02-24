@@ -65,7 +65,10 @@ def plot_chart_percent_of_total_changes_period_for_keys(keys):
     ax.set_xlabel("Time Period")
     ax.set_ylabel(f"% of Total Changes")
 
-    ax.legend(loc="upper left", bbox_to_anchor=(1, 1.02), title="Feature", frameon=True)
+    # Reverse the legend order
+    handles, labels = ax.get_legend_handles_labels()
+    ax.legend(handles[::-1], labels[::-1], loc="upper left", bbox_to_anchor=(1, 1.02), title="Feature key", frameon=True)
+
     plt.subplots_adjust(left=0.1, right=0.82, top=0.9, bottom=0.1)  # More space on the right
 
     # Show the plot
@@ -159,16 +162,16 @@ def plot_chart_percent_of_total_changes_period_for_values(keys, n, sort_by):
         ax.set_title(f"{key.capitalize()}")
         ax.set_xlabel("Time Period")
         ax.set_ylabel("Percent of Total Changes")
-         # Move legend outside each subplot
-        ax.legend(
-            loc="upper left",
-            bbox_to_anchor=(1.03, 1.02),
-            title="Value",
-            fontsize=8,
-            frameon=True,
-            framealpha=0.8,
-            borderpad=0.5
-        )
+         # Move legend outside each subplot and reverse the legend order so that it lines up with the actual plot
+        handles, labels = ax.get_legend_handles_labels()
+        ax.legend(handles[::-1], labels[::-1], 
+                  loc="upper left", 
+                  bbox_to_anchor=(1.03, 1.02), 
+                  title="Value", 
+                  fontsize=8, 
+                  frameon=True, 
+                  framealpha=0.8,
+                  borderpad=0.5)
 
 
     # Hide any empty subplots (if `len(keys)` is not exactly `nrows * ncols`)
@@ -484,8 +487,8 @@ if __name__ == "__main__":
 
     keys = ["building", "highway", "amenity", "leisure"]
 
-    compare_percent_of_changes_period = False
-    generate_charts_usage_by_disaster = True
+    compare_percent_of_changes_period = True
+    generate_charts_usage_by_disaster = False
 
     db_utils = DB_Utils()
     db_utils.db_connect()

@@ -101,7 +101,7 @@ export default function GeneralStatistics() {
             <div>
                 <h2>Changes to tags across periods</h2>
                 <Image
-                    width="50%"
+                    width="5U0%"
                     src={`ChangeDifferences/summary/most_x_key_analysis_365_60_365.png`}
                 />
                
