@@ -15,26 +15,47 @@ from db_utils import DB_Utils
 
 
 def compute_total_number_changes_across_disasters(periods, disaster_ids):
+    db_utils = DB_Utils()
+    db_utils.db_connect()
 
-    # Load the counts from the full periods file for each disaster, and compoute an aggregate total for pre, imm, post across all disasters
-    # Create a df with header headers = ["creates", "edits", "deletes", "total"]
+    # Define headers for total counts and combined dataset
     headers_total_counts = ["creates", "edits", "deletes", "total"]
 
     for period in periods:
-        total_counts = pd.DataFrame(columns=headers_total_counts, data=np.zeros((4, 4)))
-        pre_disaster_days ,imm_disaster_days, post_disaster_days = period
+        total_counts = pd.DataFrame(columns=headers_total_counts, data=np.zeros((4, 4)))  # Only 3 rows (pre, imm, post)
+        combined_counts = pd.DataFrame(columns=["disaster_id","disaster_label", "pre", "imm", "post", "total"])
+
+        pre_disaster_days, imm_disaster_days, post_disaster_days = period
+
         for disaster_id in disaster_ids:
             file_path = f"./Results/ChangeCounting/disaster{disaster_id}/data/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_full_periods_change_count.csv"
+            
+            # Read the CSV and only keep the first three rows (pre, imm, post)
             counts = pd.read_csv(file_path)
-            for i in range(4):
-                total_counts.iloc[i] += counts.iloc[i]
 
+            # Append to combined_counts with disaster_id and period
+            (_, _, disaster_area, _, disaster_date, _, _) = db_utils.get_disaster_with_id(disaster_id)
+            new_row = {"disaster_id": disaster_id, "disaster_label": f"{disaster_area[0]} ({disaster_date.year})", "pre": counts.iloc[0]["total"], "imm": counts.iloc[1]["total"], "post": counts.iloc[2]["total"], "total": counts.iloc[3]["total"]}
+            combined_counts = pd.concat([combined_counts, pd.DataFrame([new_row])], ignore_index=True)
+
+
+            counts = pd.read_csv(file_path)
+
+            # Aggregate counts across disasters
+            total_counts += counts[headers_total_counts].values
+
+        # Save total counts summary
         output_file = f"./Results/ChangeCounting/summary/data/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_full_periods_change_count.csv"
         total_counts.to_csv(output_file, index=False)
 
-        os.makedirs(f"visualisation-site/public/ChangeCounting/summary/data", exist_ok=True)
-        visualisation_file_path = f"visualisation-site/public/ChangeCounting/summary/data/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_full_periods_change_count.csv"
-        total_counts.to_csv(visualisation_file_path, index=False)
+        # Save combined counts with disaster IDs and periods
+        combined_output_file = f"./Results/ChangeCounting/summary/data/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_full_periods_combined_change_count.csv"
+        combined_counts.to_csv(combined_output_file, index=False)
+
+        # Ensure visualisation directory exists and save files there as well
+        os.makedirs("visualisation-site/public/ChangeCounting/summary/data", exist_ok=True)
+        visualisation_file_path = f"visualisation-site/public/ChangeCounting/summary/data/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_full_periods_combined_change_count.csv"
+        combined_counts.to_csv(visualisation_file_path, index=False)
     
 
 @contextmanager

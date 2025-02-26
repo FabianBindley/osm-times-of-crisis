@@ -147,7 +147,7 @@ def generate_full_periods_plot_for_all_disasters_by_tag_edit_type(pre_disaster_d
 
     # Configure axis labels and title
     plt.xticks(x, ['Pre', 'Immediate', 'Post'])
-    plt.title('Proportion of Tag Changes by Change Type Across All Disasters')
+    plt.title('Proportion of tag changes by type across all disasters' if show_percent else 'Total tag changes by change type across all disasters')
     plt.xlabel('Period')
     plt.legend()
 
