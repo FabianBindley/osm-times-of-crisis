@@ -233,7 +233,7 @@ if __name__ == "__main__":
     periods = [("pre","imm"),("pre","post"), ("imm","post")]
 
     disaster_ids =  range(2,19)
-    top_n = 15
+    top_n = 12
 
     generate_kendall_correlations = False
     compute_statistics = True

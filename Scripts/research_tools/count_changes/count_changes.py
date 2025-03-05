@@ -324,8 +324,8 @@ def evaluate_prophet_model_forecasts(models, disaster_id, pre_disaster_days, imm
     mae = {}
     mape = {}
     for column in ["creates", "edits", "deletes", "total"]:
-        mae[column] = np.mean(np.abs(predictions_df[column] - counts_df[column]))
-        mape[column] = np.mean(np.abs((predictions_df[column] - counts_df[column]) / counts_df[column].replace(0, 1))) * 100
+        mae[column] = np.mean(predictions_df[column] - counts_df[column])
+        mape[column] = np.mean((predictions_df[column] - counts_df[column]) / counts_df[column].replace(0, 1)) * 100
 
     mae_row = pd.DataFrame(mae, index=["mae"])
     mape_row = pd.DataFrame(mape, index=["mape"])

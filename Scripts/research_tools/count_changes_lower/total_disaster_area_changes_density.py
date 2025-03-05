@@ -36,7 +36,7 @@ def compute_disaster_areas(disaster_ids):
             area = h3.cell_area(row["h3_index"], unit='km^2')
             accumulated_area += area
 
-        areas.loc[len(areas)] = {"disaster_id": int(disaster_id), "resolution": int(resolution), "num_hexes": int(len(hex_count)), "area": int(accumulated_area)}
+        areas.loc[len(areas)] = {"disaster_id": int(disaster_id), "resolution": int(resolution), "num_hexes": int(len(hex_count)), "area": round(accumulated_area,2)}
 
     areas.to_csv("Results/ChangeDensityMapping/Summary/data/disaster_areas.csv", index=False)
 
@@ -86,7 +86,7 @@ def plot_all_disaster_area_densities(disaster_ids, period):
     disaster_labels = [
         f"{disaster_area[0]} ({disaster_date.year})"
         for disaster_id in area_densitys["disaster_id"].tolist()
-        for _, _, disaster_area, _, disaster_date, _ in [db_utils.get_disaster_with_id(disaster_id)]
+        for _, _, disaster_area, _, disaster_date, _, _ in [db_utils.get_disaster_with_id(disaster_id)]
     ]
 
    # Create the figure and axis
@@ -301,14 +301,14 @@ def plot_percent_difference_density(disaster_ids, disaster_ids_type):
     ax.axhline(0, color='black', linewidth=1)
     ax.set_xticks(list(x))
     ax.set_xticklabels(x_labels, rotation=90)
-    ax.set_ylabel("Percent difference in density (%)")
-    ax.set_title(f'Change in mapping density between Pre-Imm and Pre-Post disaster periods, sorted by {"region" if disaster_ids_type == "region" else "disaster type"}')
+    ax.set_ylabel("Percent difference in change counts (%)")
+    ax.set_title(f'Change in mapping counts between Pre-Imm and Pre-Post disaster periods, sorted by {"region" if disaster_ids_type == "region" else "disaster type"}')
     ax.legend()
 
 
     # Add major and minor grid lines
-    ax.grid(which='major', color='black', linestyle='--', linewidth=0.5)
-    ax.grid(which='minor', color='gray', linestyle=':', linewidth=0.5)
+    ax.grid(which='major', color='black', linestyle='--', linewidth=0.5, zorder=0)
+    ax.grid(which='minor', color='gray', linestyle=':', linewidth=0.5, zorder=0)
     ax.minorticks_on()  # Ensures minor grid lines appear
 
     plt.tight_layout()

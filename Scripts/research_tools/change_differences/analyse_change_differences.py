@@ -316,6 +316,65 @@ def process_disaster(disaster_id, periods, generate_merged, generate_diffs):
         print(f"Analysing diffs for {disaster_area[0]} {disaster_date.year} {period}")
         analyse_change_diffs(disaster_area[0], disaster_id, pre_disaster_days, imm_disaster_days, post_disaster_days)
 
+def analysis_all_periods(disaster_ids, period):
+    pre_disaster_days, imm_disaster_days, post_disaster_days = period
+
+    analysis_df = pd.read_csv(
+        f"./Results/ChangeDifferences/summary/all_disaster_analysis_{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_.csv"
+    )
+
+    total_edits = analysis_df["total_changes"].sum()
+
+    total_tag_changes = analysis_df["tags_created"].sum() + analysis_df["tags_edited"].sum() + analysis_df["tags_deleted"].sum()
+    percent_tag_changes = (total_tag_changes / total_edits) * 100
+
+    total_coordinate_changes = analysis_df["coordinates_changed"].sum()
+    percent_coordinate_changes = (total_coordinate_changes / total_edits) * 100
+
+    total_way_geometry_changes = analysis_df["way_geometry_changed"].sum()
+    percent_way_geometry_changes = (total_way_geometry_changes / total_edits) * 100 if total_edits > 0 else 0
+
+
+    total_reverts = analysis_df["made_visible"].sum()
+    percent_reverts = (total_reverts / total_edits) * 100 
+
+    total_node_changes = analysis_df["nodes_changed"].sum()
+    percent_node_changes = (total_node_changes / total_edits) * 100 
+
+    total_way_changes = analysis_df["ways_changed"].sum()
+    percent_way_changes = (total_way_changes / total_edits) * 100 
+
+    mean_coordinate_distance_change = analysis_df["median_coordinate_distance_change"].mean()
+
+
+    print(f"Total number of edits across all disasters: {total_edits}")
+    print(f"Percentage of changes to nodes: {percent_node_changes:.2f}%")
+    print(f"Percentage of changes to ways: {percent_way_changes:.2f}%")
+
+    print(f"Percentage of edits involving tag changes: {percent_tag_changes:.2f}%")
+    print(f"Percentage of edits involving node coordinate changes: {percent_coordinate_changes:.2f}%")
+    print(f"Mean coordinate distance change: {mean_coordinate_distance_change:.4f} meters")
+    print(f"Percentage of edits involving way geometry changes: {percent_way_geometry_changes:.2f}%")
+    print(f"Percentage of edits that were reverting deletes: {percent_reverts:.2f}%")
+
+       # Save summary statistics
+    summary_data = {
+        "Total Edits": [total_edits],
+        "Tag Changes (%)": [percent_tag_changes],
+        "Coordinate Changes (%)": [percent_coordinate_changes],
+        "Way Geometry Changes (%)": [percent_way_geometry_changes],
+        "Reverting Deletes (%)": [percent_reverts],
+        "Node Changes (%)": [percent_node_changes],
+        "Way Changes (%)": [percent_way_changes],
+        "Mean of median Coordinate Distance Changes (m)": [mean_coordinate_distance_change]
+    }
+    summary_df = pd.DataFrame(summary_data)
+    summary_df.to_csv(
+        f"./Results/ChangeDifferences/summary/summary_metrics_{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}.csv",
+        index=False
+    )
+
+    return summary_df
 
 
 # Please make sure to run db_prepare_change_differences.py before running this script, to import missing 
@@ -357,4 +416,8 @@ if __name__ == "__main__":
     
     # Combine into 1 summary analysis
     for period in periods:
-        analysis_summary(disaster_ids, period[0], period[1], period[2])
+        #analysis_summary(disaster_ids, period[0], period[1], period[2])
+        pass
+
+    # Analysis by period for all disasters
+    analysis_all_periods(disaster_ids, (365,60,365))

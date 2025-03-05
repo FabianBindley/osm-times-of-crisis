@@ -61,8 +61,8 @@ def plot_chart_percent_of_total_changes_period_for_keys(keys):
     ax.set_yscale('linear')
 
     # Labels & Formatting
-    ax.set_title("Change in feature keys in phases across all disasters")
-    ax.set_xlabel("Time Period")
+    ax.set_title(f"Variation in % of total changes for feature keys in disaster periods across all disasters")
+    ax.set_xlabel("Disaster Period")
     ax.set_ylabel(f"% of Total Changes")
 
     # Reverse the legend order

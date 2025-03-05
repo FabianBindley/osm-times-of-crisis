@@ -124,7 +124,7 @@ def generate_full_periods_plot_for_all_disasters_by_tag_edit_type(pre_disaster_d
         tags_deleted = (np.array(tags_deleted) / total_changes) * 100
 
     # Create a stacked bar chart
-    plt.figure(figsize=(10, 6))
+    plt.figure(figsize=(8, 6))
     width = 0.6
     x = np.arange(len(periods))  # Use np.arange for proper alignment
 

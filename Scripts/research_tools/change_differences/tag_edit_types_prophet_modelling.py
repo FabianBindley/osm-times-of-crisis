@@ -266,7 +266,8 @@ def plot_tag_changes(disaster_id, disaster_area, disaster_country, disaster_date
     
     for change_type in plot_edit_types:
         plt.plot(tag_changes_df["start_date"], tag_changes_df[f"num_tag_{change_type}"], 
-                 label=f"{change_type.capitalize()}", linestyle="-", marker="o", color=color_map[change_type])
+                 label=f"{change_type.capitalize()}", linestyle="-", marker=".", color=color_map[change_type])
+
 
     # Plot Prophet predictions if enabled
     if prophet_model:
@@ -434,7 +435,7 @@ if __name__ == "__main__":
         print("Disaster IDs defined:", disaster_ids)
 
     compute_specific_bool = False
-    generate_specific_plot_bool = False
+    generate_specific_plot_bool = True
     generate_combined = True
 
     #disaster_ids = [2]
