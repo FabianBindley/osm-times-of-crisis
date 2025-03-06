@@ -44,7 +44,7 @@ def save_hex_counts_to_csv(hex_counts, file_path):
     print(f"Hex counts saved to {file_path}")
 
 
-def generate_counts_for_polygons(changes, disaster_id, disaster_geojson_encoded, resolution, pre_disaster_days, post_disaster_days):
+def generate_counts_for_polygons(changes, disaster_id, disaster_geojson_encoded, resolution, pre_disaster_days, imm_disaster_days, post_disaster_days):
     disaster_multipolygon = wkb.loads(disaster_geojson_encoded)
 
     hex_counts = {}
@@ -136,4 +136,4 @@ if __name__ == "__main__":
                 print(f"Generating counts for {disaster_area[0]} {disaster_date.year} | resolution {resolution}")
                 changes = changes_for_interval(disaster_id, disaster_date, disaster_day_tuple[0], disaster_day_tuple[1], disaster_day_tuple[2])
                 
-                generate_counts_for_polygons(changes, disaster_id, disaster_geojson_encoded, resolution, disaster_day_tuple[0], disaster_day_tuple[2])
+                generate_counts_for_polygons(changes, disaster_id, disaster_geojson_encoded, resolution, disaster_day_tuple[0], disaster_day_tuple[1], disaster_day_tuple[2])

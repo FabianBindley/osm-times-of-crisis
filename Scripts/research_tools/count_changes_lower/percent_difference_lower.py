@@ -109,7 +109,7 @@ def compute_percent_diff(pre, post, to_percent_multiplier):
 
 
 
-def generate_percentage_difference_for_polygons(disaster_id, disaster_geojson_encoded, resolution, pre_disaster_days, post_disaster_days):
+def generate_percentage_difference_for_polygons(disaster_id, disaster_geojson_encoded, resolution, pre_disaster_days, imm_disaster_days, post_disaster_days):
     
     # First, need to either load in the existing CSV files or create them
     file_path_pre = f"./Results/ChangeDensityMapping/disaster{disaster_id}/data/{pre_disaster_days}_0_{resolution}_hex_count.csv"
@@ -187,6 +187,7 @@ if __name__ == "__main__":
 
     # Define the periods before and after the disaster we want to count for. Pre-disaster can be negative to only count after disaster
     disaster_days = [(365,60,365)]
+    disaster_days = [(365,60,0)]
     if len(sys.argv) > 1:
         disaster_ids = ast.literal_eval(sys.argv[1]) 
         print("Disaster IDs passed:", disaster_ids)
@@ -204,4 +205,4 @@ if __name__ == "__main__":
                 (_, disaster_country, disaster_area, disaster_geojson_encoded, disaster_date, disaster_h3_resolution ) = db_utils.get_disaster_with_id(disaster_id)
                 print(f"Generating counts for {disaster_area[0]} {disaster_date.year} | resolution {resolution}")
 
-                generate_percentage_difference_for_polygons(disaster_id, disaster_geojson_encoded, resolution, disaster_day_tuple[0], disaster_day_tuple[2])
+                generate_percentage_difference_for_polygons(disaster_id, disaster_geojson_encoded, resolution, disaster_day_tuple[0],  disaster_day_tuple[1], disaster_day_tuple[2])

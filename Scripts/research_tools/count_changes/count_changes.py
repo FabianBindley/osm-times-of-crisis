@@ -324,8 +324,8 @@ def evaluate_prophet_model_forecasts(models, disaster_id, pre_disaster_days, imm
     mae = {}
     mape = {}
     for column in ["creates", "edits", "deletes", "total"]:
-        mae[column] = np.mean(predictions_df[column] - counts_df[column])
-        mape[column] = np.mean((predictions_df[column] - counts_df[column]) / counts_df[column].replace(0, 1)) * 100
+        mae[column] = np.mean(np.abs(predictions_df[column] - counts_df[column]))
+        mape[column] = np.mean(np.abs((predictions_df[column] - counts_df[column]) / counts_df[column].replace(0, 1))) * 100
 
     mae_row = pd.DataFrame(mae, index=["mae"])
     mape_row = pd.DataFrame(mape, index=["mape"])
@@ -342,7 +342,7 @@ def process_disaster(disaster_id, periods, prophet_model_bools):
     for prophet_model in prophet_model_bools: # Currently unused
         for period in periods:
 
-            (_, disaster_country, disaster_area, _, disaster_date, _ ) = db_utils.get_disaster_with_id(disaster_id)
+            (_, disaster_country, disaster_area, _, disaster_date, _, _ ) = db_utils.get_disaster_with_id(disaster_id)
 
             # For each disaster, count the aggregate count in each time period - pre, imm, post, and as before count the number of changes in each period
             # File system, generate 1 folder for each disaster, and output the aggregate total in each period for each type, as well as pretty much the same file we had before

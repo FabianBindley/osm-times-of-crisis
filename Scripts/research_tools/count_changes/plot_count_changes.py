@@ -511,7 +511,7 @@ if __name__ == "__main__":
         print("Disaster IDs defined:", disaster_ids)
         
    #disaster_ids = range(2,19)
-    generate_specific = False
+    generate_specific = True
     generate_combined = False
     #disaster_ids = [5]
 
