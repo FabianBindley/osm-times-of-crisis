@@ -469,15 +469,14 @@ def process_disaster(disaster_id, periods, prophet_model_bools, post_only_bools,
                         )
     return f"Completed disaster_id: {disaster_id}"
     
-def process_combined_disaster_plots(disaster_ids, plot_edit_types_list, period, prophet_model_bools, post_only_bools, interval_lengths, columns, disaster_ids_type):
+def process_combined_disaster_plots(disaster_ids, plot_edit_types_list, period, prophet_model_bool, post_only_bools, interval_lengths, columns, disaster_ids_type):
     for plot_edit_types in plot_edit_types_list:
-        for prophet_model in prophet_model_bools:
             for post_only in post_only_bools:
                 for interval_length in interval_lengths:
     
                     plot_change_counts_all_disasters(
                         disaster_ids=disaster_ids,
-                        prophet_model=prophet_model,
+                        prophet_model=prophet_model_bool,
                         post_only=post_only,
                         plot_edit_types=plot_edit_types,
                         period=period,
@@ -548,6 +547,7 @@ if __name__ == "__main__":
     if generate_combined:
         disaster_ids_region =   [3,8,7,5,6,9,14,13,10,11,12,2,18,15,16,17] # Geographic region
         disaster_ids_disaster = [3,6,11,5,12,17,8,9,13,2,15,16,10,7,18,14] # Disaster Type
+        periods = (365,60,365)
 
         disaster_ids_types = ["type","region"] # "region", "type"
 
@@ -567,12 +567,12 @@ if __name__ == "__main__":
                         disaster_ids, 
                         plot_edit_types_list, 
                         period, 
-                        prophet_model_bools, 
+                        prophet_model_bool, 
                         post_only_bools, 
                         interval_lengths, 
                         columns=4,
                         disaster_ids_type=disaster_ids_type
-                    ): (period) for period in periods
+                    ): (period, prophet_model_bool) for period in periods for prophet_model_bool in prophet_model_bools
                 }
 
                 # Collect results as tasks complete

@@ -370,13 +370,13 @@ if __name__ == "__main__":
 
     total_only_bools = [True, False]
     disaster_days = [(365, 60, 365)]
-    resolutions = [7,8]
+    resolutions = [8]
     gini_coefficients = []
 
     for disaster_day_tuple in disaster_days:
         for disaster_id in disaster_ids:
             for resolution in resolutions:
-                (_, disaster_country, disaster_area, disaster_geojson_encoded, disaster_date, disaster_h3_resolution) = db_utils.get_disaster_with_id(disaster_id)
+                (_, disaster_country, disaster_area, disaster_geojson_encoded, disaster_date, disaster_h3_resolution, _) = db_utils.get_disaster_with_id(disaster_id)
                 pre_disaster_days, imm_disaster_days, post_disaster_days = disaster_day_tuple
                 print(f"Computing gini coefficients for {disaster_area[0]} {disaster_date.year} | resolution {resolution}")
 

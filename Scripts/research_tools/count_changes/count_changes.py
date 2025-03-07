@@ -194,7 +194,7 @@ def train_forecast_prophet(disaster_id, pre_disaster_days, imm_disaster_days, po
     counts = pd.read_csv(f"./Results/ChangeCounting/disaster{disaster_id}/data/{pre_disaster_days}_{0}_{0}_{str(interval_length)}_change_count.csv")
     # Offset the training away from the disaster by a set number of days, to reduce likelihood that changes in run up to disaster skew model
 
-    disaster_day_offset = 58
+    disaster_day_offset = 60
     pre_disaster_counts = counts.iloc[:(pre_disaster_days - disaster_day_offset)// interval_length]
     pre_disaster_counts_df = pre_disaster_counts.rename(columns={"start_date": "ds"})
 
