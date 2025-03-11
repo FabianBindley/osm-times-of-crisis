@@ -115,7 +115,7 @@ def generate_map(disaster_id, disaster_geojson_encoded, resolution, pre_disaster
     # Save the charts
     if not os.path.exists(f"Results/ChangeDensityMapping/disaster{disaster_id}/charts"):
         os.makedirs(f"Results/ChangeDensityMapping/disaster{disaster_id}/charts")
-        
+
     save_file_path = f"Results/ChangeDensityMapping/disaster{disaster_id}/charts/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_{resolution}_{disaster_period_tuple[0]}_{disaster_period_tuple[1]}_percent_difference.html"
     m.save(save_file_path)
     print(f"Generated map: {save_file_path}")
@@ -143,7 +143,7 @@ if __name__ == "__main__":
         print("Disaster IDs passed:", disaster_ids)
     else:
         disaster_ids = range(13,14)
-        disaster_ids = [2]
+        disaster_ids = [2,3,4,5]
         print("Disaster IDs defined:", disaster_ids)
 
     resolutions = [6,7,8,9]
