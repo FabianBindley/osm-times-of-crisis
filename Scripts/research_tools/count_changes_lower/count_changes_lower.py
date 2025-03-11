@@ -20,13 +20,17 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..',
 from db_utils import DB_Utils
 
 
-def changes_for_interval(disaster_id, disaster_date, pre_disaster_days, imm_disaster_days, post_disaster_days):
+def changes_for_interval(disaster_id, disaster_date, pre_disaster_days, imm_disaster_days, post_disaster_days, post_only):
     pre_disaster = timedelta(pre_disaster_days)
     imm_disaster = timedelta(imm_disaster_days)
     post_disaster = timedelta(post_disaster_days)
 
-    interval_start_date = disaster_date - pre_disaster
-    interval_end_date = disaster_date + imm_disaster + post_disaster + timedelta(days=1)
+    if post_only:
+        interval_start_date = disaster_date + imm_disaster
+        interval_end_date = disaster_date + imm_disaster + post_disaster + timedelta(days=1)
+    else:
+        interval_start_date = disaster_date - pre_disaster
+        interval_end_date = disaster_date + imm_disaster + post_disaster + timedelta(days=1)
     
     return db_utils.get_changes_in_interval(interval_start_date, interval_end_date, disaster_id)
 
@@ -44,7 +48,7 @@ def save_hex_counts_to_csv(hex_counts, file_path):
     print(f"Hex counts saved to {file_path}")
 
 
-def generate_counts_for_polygons(changes, disaster_id, disaster_geojson_encoded, resolution, pre_disaster_days, imm_disaster_days, post_disaster_days):
+def generate_counts_for_polygons(changes, disaster_id, disaster_geojson_encoded, resolution, pre_disaster_days, imm_disaster_days, post_disaster_days, post_only):
     disaster_multipolygon = wkb.loads(disaster_geojson_encoded)
 
     hex_counts = {}
@@ -102,7 +106,7 @@ def generate_counts_for_polygons(changes, disaster_id, disaster_geojson_encoded,
     if not os.path.exists(f"Results/ChangeDensityMapping/disaster{disaster_id}/data"):
         os.makedirs(f"Results/ChangeDensityMapping/disaster{disaster_id}/data")
 
-    file_path = f"./Results/ChangeDensityMapping/disaster{disaster_id}/data/{pre_disaster_days}_{post_disaster_days}_{resolution}_hex_count.csv"
+    file_path = f"./Results/ChangeDensityMapping/disaster{disaster_id}/data/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_{resolution}_hex_count{'_post_only' if post_only else ''}.csv"
     save_hex_counts_to_csv(hex_counts, file_path)
 
 if __name__ == "__main__":
@@ -114,7 +118,8 @@ if __name__ == "__main__":
     # Define the periods before and after the disaster we want to count for. Pre-disaster can be negative to only count after disaster
     #disaster_days = [(365,60,365), (365,0),(180,365), (0,30), (0,60)]
     disaster_days = [(365,60,365)]
-    disaster_days = [(0,0,365)]
+    disaster_days = [(365,60,365),(365,0,0),(0,60,0),(0,60,365)]
+    post_only_bools = [False, False, True]
     #disaster_days = [(0,30), (0,60)]
 
     if len(sys.argv) > 1:
@@ -122,18 +127,19 @@ if __name__ == "__main__":
         print("Disaster IDs passed:", disaster_ids)
     else:
         disaster_ids = range(6,19)
+        disaster_ids = [2]
         print("Disaster IDs defined:", disaster_ids)
     
     resolutions = [6,7,8,9]
     #resolutions = [7]
-    for disaster_day_tuple in disaster_days:
+    for disaster_day_tuple, post_only in zip(disaster_days, post_only_bools):
         for disaster_id in disaster_ids:
             for resolution in resolutions:
                 if resolution == 9 and disaster_id not in [10,14,15,18]:
                     continue
 
-                (_, disaster_country, disaster_area, disaster_geojson_encoded, disaster_date, disaster_h3_resolution ) = db_utils.get_disaster_with_id(disaster_id)
+                (_, disaster_country, disaster_area, disaster_geojson_encoded, disaster_date, disaster_h3_resolution, _ ) = db_utils.get_disaster_with_id(disaster_id)
                 print(f"Generating counts for {disaster_area[0]} {disaster_date.year} | resolution {resolution}")
-                changes = changes_for_interval(disaster_id, disaster_date, disaster_day_tuple[0], disaster_day_tuple[1], disaster_day_tuple[2])
+                changes = changes_for_interval(disaster_id, disaster_date, disaster_day_tuple[0], disaster_day_tuple[1], disaster_day_tuple[2], post_only)
                 
-                generate_counts_for_polygons(changes, disaster_id, disaster_geojson_encoded, resolution, disaster_day_tuple[0], disaster_day_tuple[1], disaster_day_tuple[2])
+                generate_counts_for_polygons(changes, disaster_id, disaster_geojson_encoded, resolution, disaster_day_tuple[0], disaster_day_tuple[1], disaster_day_tuple[2], post_only)

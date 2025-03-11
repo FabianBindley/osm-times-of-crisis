@@ -19,14 +19,18 @@ import csv
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..', 'database')))
 from db_utils import DB_Utils
 
-def changes_for_interval(disaster_id, disaster_date, pre_disaster_days, post_disaster_days):
+def changes_for_interval(disaster_id, disaster_date, pre_disaster_days, imm_disaster_days, post_disaster_days, post_only):
     pre_disaster = timedelta(pre_disaster_days)
+    imm_disaster = timedelta(imm_disaster_days)
     post_disaster = timedelta(post_disaster_days)
 
-    interval_start_date = disaster_date - pre_disaster
-    interval_end_date = disaster_date + post_disaster + timedelta(days=1)
+    if post_only:
+        interval_start_date = disaster_date + imm_disaster
+        interval_end_date = disaster_date + imm_disaster + post_disaster + timedelta(days=1)
+    else:
+        interval_start_date = disaster_date - pre_disaster
+        interval_end_date = disaster_date + imm_disaster + post_disaster + timedelta(days=1)
     
-
     return db_utils.get_changes_in_interval(interval_start_date, interval_end_date, disaster_id)
 
 
@@ -42,7 +46,7 @@ def save_hex_counts_to_csv(hex_counts, file_path):
             writer.writerow([h3_index, *counts])
     print(f"Hex counts saved to {file_path}")
 
-def generate_counts_for_polygons(changes, disaster_id, disaster_geojson_encoded, resolution, pre_disaster_days, post_disaster_days):
+def generate_counts_for_polygons(changes, disaster_id, disaster_geojson_encoded, resolution, pre_disaster_days, imm_disaster_days, post_disaster_days, post_only):
     disaster_multipolygon = wkb.loads(disaster_geojson_encoded)
 
     hex_counts = {}
@@ -100,7 +104,7 @@ def generate_counts_for_polygons(changes, disaster_id, disaster_geojson_encoded,
     if not os.path.exists(f"Results/ChangeDensityMapping/disaster{disaster_id}/data"):
         os.makedirs(f"Results/ChangeDensityMapping/disaster{disaster_id}/data")
 
-    file_path = f"./Results/ChangeDensityMapping/disaster{disaster_id}/data/{pre_disaster_days}_{post_disaster_days}_{resolution}_hex_count.csv"
+    file_path = f"./Results/ChangeDensityMapping/disaster{disaster_id}/data/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_{resolution}_hex_count{'_post_only' if post_only else ''}.csv"
     save_hex_counts_to_csv(hex_counts, file_path)
 
 def compute_percent_diff(pre, post, to_percent_multiplier):
@@ -112,24 +116,34 @@ def compute_percent_diff(pre, post, to_percent_multiplier):
 def generate_percentage_difference_for_polygons(disaster_id, disaster_geojson_encoded, resolution, pre_disaster_days, imm_disaster_days, post_disaster_days):
     
     # First, need to either load in the existing CSV files or create them
-    file_path_pre = f"./Results/ChangeDensityMapping/disaster{disaster_id}/data/{pre_disaster_days}_0_{resolution}_hex_count.csv"
-    file_path_post = f"./Results/ChangeDensityMapping/disaster{disaster_id}/data/0_{post_disaster_days}_{resolution}_hex_count.csv"
+    file_path_pre = f"./Results/ChangeDensityMapping/disaster{disaster_id}/data/{pre_disaster_days}_0_0_{resolution}_hex_count.csv"
+    file_path_imm = f"./Results/ChangeDensityMapping/disaster{disaster_id}/data/0_{imm_disaster_days}_0_{resolution}_hex_count.csv"
+    file_path_post = f"./Results/ChangeDensityMapping/disaster{disaster_id}/data/0_60_{post_disaster_days}_{resolution}_hex_count_post_only.csv"
+    
     print(file_path_pre)
+    print(file_path_imm)
     print(file_path_post)
+    
     if not os.path.exists(file_path_pre):
-        print(f"Generating {pre_disaster_days} 0")
-        changes = changes_for_interval(disaster_id, disaster_date, pre_disaster_days, 0)
-        generate_counts_for_polygons(changes, disaster_id, disaster_geojson_encoded, resolution, pre_disaster_days, 0)
+        print(f"Generating {pre_disaster_days} 0 0")
+        changes = changes_for_interval(disaster_id, disaster_date, pre_disaster_days, 0, 0, False)
+        generate_counts_for_polygons(changes, disaster_id, disaster_geojson_encoded, resolution, pre_disaster_days, 0, 0, False)
+
+    if not os.path.exists(file_path_imm):
+        print(f"Generating 0 {imm_disaster_days} 0")
+        changes = changes_for_interval(disaster_id, disaster_date, 0, imm_disaster_days, 0, False)
+        generate_counts_for_polygons(changes, disaster_id, disaster_geojson_encoded, resolution, 0, imm_disaster_days, 0, False)
 
     if not os.path.exists(file_path_post):
-        print(f"Generating 0 {post_disaster_days}")
-        changes = changes_for_interval(disaster_id, disaster_date, 0, post_disaster_days)
-        generate_counts_for_polygons(changes, disaster_id, disaster_geojson_encoded, resolution, 0, post_disaster_days)
+        print(f"Generating 0 {imm_disaster_days} {post_disaster_days} post_only")
+        changes = changes_for_interval(disaster_id, disaster_date, 0, imm_disaster_days, post_disaster_days, True)
+        generate_counts_for_polygons(changes, disaster_id, disaster_geojson_encoded, resolution, 0, imm_disaster_days, post_disaster_days, True)
 
-    print(f"Got files for {pre_disaster_days} {post_disaster_days}")
+    print(f"Got files for {pre_disaster_days} {imm_disaster_days} {post_disaster_days}")
     
     # For each hexagon, compute the pre_disaster_changes_per_day, then use to compute the post_disaster_changes_per_day -
     data_pre = pd.read_csv(file_path_pre)
+    data_imm = pd.read_csv(file_path_imm)
     data_post = pd.read_csv(file_path_post)
 
     to_percent_multiplier = 100
@@ -140,11 +154,49 @@ def generate_percentage_difference_for_polygons(disaster_id, disaster_geojson_en
     data_pre["deletes_per_day"] = data_pre["delete_count"] / pre_disaster_days
     data_pre["total_per_day"] = data_pre["total_count"] / pre_disaster_days
 
+    data_imm["creates_per_day"] = data_imm["create_count"] / pre_disaster_days
+    data_imm["edits_per_day"] = data_imm["edit_count"] / pre_disaster_days
+    data_imm["deletes_per_day"] = data_imm["delete_count"] / pre_disaster_days
+    data_imm["total_per_day"] = data_imm["total_count"] / pre_disaster_days
+
     data_post["creates_per_day"] = data_post["create_count"] / pre_disaster_days
     data_post["edits_per_day"] = data_post["edit_count"] / pre_disaster_days
     data_post["deletes_per_day"] = data_post["delete_count"] / pre_disaster_days
     data_post["total_per_day"] = data_post["total_count"] / pre_disaster_days
 
+    # Pre/Imm percent difference
+    counter = 0
+    percent_difference_changes_per_day = []
+    for _, imm_row in data_imm.iterrows():
+        hex_id = imm_row["h3_index"]
+        pre_row = data_pre[data_pre["h3_index"] == hex_id].iloc[0]
+
+        creates = compute_percent_diff(pre_row["creates_per_day"], imm_row["creates_per_day"], to_percent_multiplier)
+        edits = compute_percent_diff(pre_row["edits_per_day"], imm_row["edits_per_day"], to_percent_multiplier)
+        deletes = compute_percent_diff(pre_row["deletes_per_day"], imm_row["deletes_per_day"], to_percent_multiplier)
+        total = compute_percent_diff(pre_row["total_per_day"], imm_row["total_per_day"], to_percent_multiplier)
+
+        percent_diff = {
+            "h3_index": hex_id,
+            "creates_percent_difference": round(creates,2),
+            "edits_percent_difference": round(edits, 2),
+            "deletes_percent_difference": round(deletes, 2),
+            "total_percent_difference": round(total, 2)
+        }
+
+        percent_difference_changes_per_day.append(percent_diff)
+
+    # Write the results to CSV
+    percent_difference_imm_changes_per_day_file_path = f"./Results/ChangeDensityMapping/disaster{disaster_id}/data/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_{resolution}_pre_imm_percent_difference.csv"
+    headers = ["h3_index", "creates_percent_difference", "edits_percent_difference", "deletes_percent_difference","total_percent_difference"]
+    with open(percent_difference_imm_changes_per_day_file_path, mode="w", newline='', encoding="utf-8") as csv_file:
+        writer = csv.DictWriter(csv_file, fieldnames=headers)
+        writer.writeheader()
+        writer.writerows(percent_difference_changes_per_day)
+
+    print(f"saved: {percent_difference_imm_changes_per_day_file_path}")
+
+    # Pre/Post percent difference
     counter = 0
     percent_difference_changes_per_day = []
     for _, post_row in data_post.iterrows():
@@ -167,13 +219,13 @@ def generate_percentage_difference_for_polygons(disaster_id, disaster_geojson_en
         percent_difference_changes_per_day.append(percent_diff)
 
     # Write the results to CSV
-    percent_difference_changes_per_day_file_path = f"./Results/ChangeDensityMapping/disaster{disaster_id}/data/{pre_disaster_days}_{post_disaster_days}_{resolution}_percent_difference.csv"
+    percent_difference_post_changes_per_day_file_path = f"./Results/ChangeDensityMapping/disaster{disaster_id}/data/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_{resolution}_pre_post_percent_difference.csv"
     headers = ["h3_index", "creates_percent_difference", "edits_percent_difference", "deletes_percent_difference","total_percent_difference"]
-    with open(percent_difference_changes_per_day_file_path, mode="w", newline='', encoding="utf-8") as csv_file:
+    with open(percent_difference_post_changes_per_day_file_path, mode="w", newline='', encoding="utf-8") as csv_file:
         writer = csv.DictWriter(csv_file, fieldnames=headers)
         writer.writeheader()
         writer.writerows(percent_difference_changes_per_day)
-
+    print(f"saved: {percent_difference_post_changes_per_day_file_path}")
 
 if __name__ == "__main__":
 
@@ -187,12 +239,13 @@ if __name__ == "__main__":
 
     # Define the periods before and after the disaster we want to count for. Pre-disaster can be negative to only count after disaster
     disaster_days = [(365,60,365)]
-    disaster_days = [(365,60,0)]
+
     if len(sys.argv) > 1:
         disaster_ids = ast.literal_eval(sys.argv[1]) 
         print("Disaster IDs passed:", disaster_ids)
     else:
         disaster_ids = range(13,14)
+        disaster_ids = [2]
         print("Disaster IDs defined:", disaster_ids)
 
     for disaster_day_tuple in disaster_days:
@@ -202,7 +255,7 @@ if __name__ == "__main__":
                 if resolution == 9 and disaster_id not in [ 10, 14, 15, 18]:
                     continue
 
-                (_, disaster_country, disaster_area, disaster_geojson_encoded, disaster_date, disaster_h3_resolution ) = db_utils.get_disaster_with_id(disaster_id)
+                _, disaster_country, disaster_area, disaster_geojson_encoded, disaster_date, disaster_h3_resolution, _  = db_utils.get_disaster_with_id(disaster_id)
                 print(f"Generating counts for {disaster_area[0]} {disaster_date.year} | resolution {resolution}")
 
                 generate_percentage_difference_for_polygons(disaster_id, disaster_geojson_encoded, resolution, disaster_day_tuple[0],  disaster_day_tuple[1], disaster_day_tuple[2])

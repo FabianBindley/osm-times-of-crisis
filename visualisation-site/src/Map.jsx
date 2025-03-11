@@ -25,8 +25,26 @@ const Map = memo(function Map({ index, map, resolution, mapStyle, interval, lazy
     };
   }, []);
 
-  // Construct the map path
-  const mapPath = `ChangeDensityMapping/disaster${map.disaster_id}/charts/${interval.start}_${interval.end}_${resolution}_${mapStyle}.html`;
+  var mapPath = "HELLO";
+  if (mapStyle === "count_changes")
+  {
+      // Construct the map path
+    mapPath = `ChangeDensityMapping/disaster${map.disaster_id}/charts/${interval.start}_${interval.imm}_${interval.end}_${resolution}_${mapStyle}.html`;
+  }
+
+  else
+  {
+      // Construct the map path
+      if (interval.imm == "60" && interval.end == "0" && interval.post_only == false)
+      {
+        mapPath = `ChangeDensityMapping/disaster${map.disaster_id}/charts/365_60_365_${resolution}_pre_imm_${mapStyle}.html`;
+      } else {
+        mapPath = `ChangeDensityMapping/disaster${map.disaster_id}/charts/365_60_365_${resolution}_pre_post_${mapStyle}.html`;
+      }
+  
+  }
+
+  console.log(mapPath);
 
   // Render the map or a placeholder
   return (

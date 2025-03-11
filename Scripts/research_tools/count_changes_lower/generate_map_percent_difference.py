@@ -81,7 +81,7 @@ def plot_hexagons_on_map(m, percent_differences):
 
 
 
-def generate_map(disaster_id, disaster_geojson_encoded, resolution, pre_disaster_days, post_disaster_days):
+def generate_map(disaster_id, disaster_geojson_encoded, resolution, pre_disaster_days, imm_disaster_days, post_disaster_days, disaster_period_tuple):
     disaster_multipolygon = wkb.loads(disaster_geojson_encoded)
 
     centroid = disaster_multipolygon.centroid
@@ -103,7 +103,7 @@ def generate_map(disaster_id, disaster_geojson_encoded, resolution, pre_disaster
     ).add_to(m)
 
     # Add the hexagons
-    file_path = f"Results/ChangeDensityMapping/disaster{disaster_id}/data/{pre_disaster_days}_{post_disaster_days}_{resolution}_percent_difference.csv"
+    file_path = f"Results/ChangeDensityMapping/disaster{disaster_id}/data/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_{resolution}_{disaster_period_tuple[0]}_{disaster_period_tuple[1]}_percent_difference.csv"
     percent_differences = load_percent_differences_from_csv(file_path)
 
     plot_hexagons_on_map(m, percent_differences)
@@ -115,14 +115,16 @@ def generate_map(disaster_id, disaster_geojson_encoded, resolution, pre_disaster
     # Save the charts
     if not os.path.exists(f"Results/ChangeDensityMapping/disaster{disaster_id}/charts"):
         os.makedirs(f"Results/ChangeDensityMapping/disaster{disaster_id}/charts")
+        
+    save_file_path = f"Results/ChangeDensityMapping/disaster{disaster_id}/charts/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_{resolution}_{disaster_period_tuple[0]}_{disaster_period_tuple[1]}_percent_difference.html"
+    m.save(save_file_path)
+    print(f"Generated map: {save_file_path}")
 
-    m.save(f"Results/ChangeDensityMapping/disaster{disaster_id}/charts/{pre_disaster_days}_{post_disaster_days}_{resolution}_percent_difference.html")
-    
     # Save the charts
     if not os.path.exists(f"visualisation-site/public/ChangeDensityMapping/disaster{disaster_id}/charts"):
         os.makedirs(f"visualisation-site/public/ChangeDensityMapping/disaster{disaster_id}/charts")
     
-    m.save(f"visualisation-site/public/ChangeDensityMapping/disaster{disaster_id}/charts/{pre_disaster_days}_{post_disaster_days}_{resolution}_percent_difference.html")
+    m.save(f"visualisation-site/public/ChangeDensityMapping/disaster{disaster_id}/charts/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_{resolution}_{disaster_period_tuple[0]}_{disaster_period_tuple[1]}_percent_difference.html")
     
 
 
@@ -133,24 +135,27 @@ if __name__ == "__main__":
     db_utils.db_connect()
 
     # Define the periods before and after the disaster we want to count for. Pre-disaster can be negative to only count after disaster
-    disaster_days = [(365,365)]
+    disaster_days = [(365,60,365)]
+    disaster_periods = [("pre","imm"),("pre","post")]
     
     if len(sys.argv) > 1:
         disaster_ids = ast.literal_eval(sys.argv[1]) 
         print("Disaster IDs passed:", disaster_ids)
     else:
         disaster_ids = range(13,14)
+        disaster_ids = [2]
         print("Disaster IDs defined:", disaster_ids)
 
     resolutions = [6,7,8,9]
 
     for disaster_day_tuple in disaster_days:
-        for disaster_id in disaster_ids:
-            for resolution in resolutions:
+        for disaster_period_tuple in disaster_periods:
+            for disaster_id in disaster_ids:
+                for resolution in resolutions:
 
-                if resolution == 9 and disaster_id not in [ 10, 14, 15, 18]:
-                    continue
+                    if resolution == 9 and disaster_id not in [ 10, 14, 15, 18]:
+                        continue
 
-                (_, disaster_country, disaster_area, disaster_geojson_encoded, disaster_date, disaster_h3_resolution ) = db_utils.get_disaster_with_id(disaster_id)
-                print(f"Generating map for {disaster_area[0]} {disaster_date.year} | resolution {resolution}")
-                generate_map(disaster_id, disaster_geojson_encoded, resolution, disaster_day_tuple[0], disaster_day_tuple[1])
+                    (_, disaster_country, disaster_area, disaster_geojson_encoded, disaster_date, disaster_h3_resolution,_ ) = db_utils.get_disaster_with_id(disaster_id)
+                    print(f"Generating map for {disaster_area[0]} {disaster_date.year} | resolution {resolution}")
+                    generate_map(disaster_id, disaster_geojson_encoded, resolution, disaster_day_tuple[0], disaster_day_tuple[1], disaster_day_tuple[2], disaster_period_tuple)
