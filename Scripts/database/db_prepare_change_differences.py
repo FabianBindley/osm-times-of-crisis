@@ -82,7 +82,7 @@ def process_disaster(disaster_id, period):
     print(db_utils)
 
     pre_disaster_days, imm_disaster_days, post_disaster_days = period
-    (_, disaster_country, disaster_area, _, disaster_date, _) = db_utils.get_disaster_with_id(disaster_id)
+    (_, disaster_country, disaster_area, _, disaster_date, _,_) = db_utils.get_disaster_with_id(disaster_id)
 
     print(f"Processing Disaster {disaster_id} - {disaster_area[0]} {disaster_date.year} {period}")
 
@@ -95,7 +95,7 @@ def process_disaster(disaster_id, period):
 if __name__ == "__main__":
 
     start_time = datetime.now()
-    disaster_ids = range(13 ,19)
+    disaster_ids = [3,8,7,5,6,9,14,13,10,11,12,2,18,15,16,17]
     periods = [(365, 60, 365), (1095, 60, 365)]
 
     tasks = [(disaster_id, period) for disaster_id in disaster_ids for period in periods]

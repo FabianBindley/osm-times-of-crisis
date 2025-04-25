@@ -127,7 +127,7 @@ if __name__ == "__main__":
         print("Disaster IDs passed:", disaster_ids)
     else:
         disaster_ids = range(6,19)
-        disaster_ids = range(11,19)
+        disaster_ids = [3,8,7,5,6,9,14,13,10,11,12,2,18,15,16,17]
         print("Disaster IDs defined:", disaster_ids)
     
     resolutions = [6,7,8,9]

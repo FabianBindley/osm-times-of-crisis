@@ -64,7 +64,7 @@ def remove_import_changeset(possible_import, counter, num_imports, start_time):
     print(f"removing changes in changeset: {changeset}")
 
     db_utils.copy_to_deleted_changes_table(changeset)
-    db_utils.remove_changes_from_changeset(changeset)
+    num_removed = db_utils.remove_changes_from_changeset(changeset)
     
 
     elapsed_time = datetime.now().timestamp() - start_time.timestamp()
@@ -80,12 +80,14 @@ def remove_import_changeset(possible_import, counter, num_imports, start_time):
     print(f"Estimated time remaining: {minutes}m {seconds}s")
 
     counter+=1
+    return num_removed
 
 def run_filtering_with_params(n, minutes, ratio, remove_imports):
     get_changesets(n)
     with open(f"./Results/BulkImportDetection/changesets_more_than_{n}.pkl", "rb") as f:
         possible_imports = pickle.load(f)
-
+    
+    total_removed = 0
     print(possible_imports)
     print(len(possible_imports))
     #print(sum([row[3] for row in possible_imports]))
@@ -98,25 +100,20 @@ def run_filtering_with_params(n, minutes, ratio, remove_imports):
             changes = db_utils.get_changes_in_changeset(changeset)
 
             if check_possible_import_timestamp_range(changeset, changes, minutes) and check_number_of_creates(changeset, changes, ratio):
-                remove_import_changeset(possible_import, counter, num_imports=len(possible_imports), start_time=start_time)
+                total_removed += remove_import_changeset(possible_import, counter, num_imports=len(possible_imports), start_time=start_time)
             counter+= 1
 
+    return total_removed
 
 
 if __name__ == "__main__":
     db_utils = DB_Utils()
     db_utils.db_connect()
 
-    remove_imports = False
 
-    n = 5000
-    minutes = 30
-    ratio = 0.95
+    total_removed = 0
+    total_removed += run_filtering_with_params(n=5000, minutes=30, ratio=0.95, remove_imports=True)
+    total_removed += run_filtering_with_params(n=3000, minutes=1, ratio=0.95, remove_imports=True)
 
-    run_filtering_with_params(n=5000, minutes=30, ratio=0.95,remove_imports = True)
-    run_filtering_with_params(n=3000, minutes=1, ratio=0.95, remove_imports =True)
-    #run_filtering_with_params(n=1000, minutes=0.5, ratio=0.95, remove_imports =True)
-    # What is a bulk import?
-    # 1) More than n changes in a changeset
-    # 2) 95% or more creates
-    # 3) Within 30 mins
+    with open("./Results/BulkImportDetection/total_removed_bulk_import_filtering.txt", "w") as f:
+        f.write(str(total_removed))

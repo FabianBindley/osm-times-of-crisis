@@ -48,6 +48,18 @@ def compute_total_number_changes_across_disasters(periods, disaster_ids):
         output_file = f"./Results/ChangeCounting/summary/data/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_full_periods_change_count.csv"
         total_counts.to_csv(output_file, index=False)
 
+        # Add total row to combined_counts
+        total_row = {
+            "disaster_id": "—",
+            "disaster_label": "Total",
+            "pre": combined_counts["pre"].sum(),
+            "imm": combined_counts["imm"].sum(),
+            "post": combined_counts["post"].sum(),
+            "total": combined_counts["total"].sum()
+        }
+        combined_counts = pd.concat([combined_counts, pd.DataFrame([total_row])], ignore_index=True)
+
+
         # Save combined counts with disaster IDs and periods
         combined_output_file = f"./Results/ChangeCounting/summary/data/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_full_periods_combined_change_count.csv"
         combined_counts.to_csv(combined_output_file, index=False)
@@ -354,7 +366,7 @@ def process_disaster(disaster_id, periods, prophet_model_bools):
             imm_disaster_days = period[1]
             post_disaster_days = period[2]
 
-            count_full_periods(disaster_id, disaster_date, pre_disaster_days, imm_disaster_days, post_disaster_days, db_utils)
+            #count_full_periods(disaster_id, disaster_date, pre_disaster_days, imm_disaster_days, post_disaster_days, db_utils)
             generate_count_by_interval_length(disaster_id, disaster_date, pre_disaster_days, imm_disaster_days, post_disaster_days,  prophet_model, db_utils, interval_length=1)
             generate_count_by_interval_length(disaster_id, disaster_date, pre_disaster_days, imm_disaster_days, post_disaster_days,  prophet_model, db_utils, interval_length=7)
             generate_count_by_interval_length(disaster_id, disaster_date, pre_disaster_days, imm_disaster_days, post_disaster_days, prophet_model, db_utils, interval_length=30)
@@ -365,8 +377,8 @@ if __name__ == "__main__":
     # Define the period lengths
     periods = [(365, 30, 365), (180, 30, 365), (365, 60, 335), ]
     periods = [(1095, 30, 365),  (365, 60, 335), (1095, 60, 365),(180,60,365),]
-    #periods = [(1095, 30, 365)]
-    periods = [(365,60,365),(1095,60,365)]
+    #periods = [(365,60,365),(1095, 30, 365)]
+    periods = [(1095, 60, 365), (365,60,365)]
     prophet_model_bools = [True, False]
     post_only_bools = [True, False]
 

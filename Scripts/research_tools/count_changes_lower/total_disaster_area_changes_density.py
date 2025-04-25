@@ -338,9 +338,10 @@ if __name__ == "__main__":
     prophet_model_bools = [True, False]
     post_only_bools = [True, False]
     periods = [(365,60,365),(365,0,0),(0,60,0),(0,0,365),]
-    compute_disaster_densities = False
+    periods = [(365,60,365)]
+    compute_disaster_densities = True
     plot_disaster_densities_single_period = False
-    plot_change_disaster_densities = True
+    plot_change_disaster_densities = False
 
     db_utils = DB_Utils()
     db_utils.db_connect()
@@ -354,7 +355,7 @@ if __name__ == "__main__":
         print("Disaster IDs defined:", disaster_ids)
 
     if compute_disaster_densities:
-        compute_disaster_areas(disaster_ids)
+        #compute_disaster_areas(disaster_ids)
         for period in periods:
             print(f"Computing Densities for {period}")
             compute_disaster_area_densities(disaster_ids, period)

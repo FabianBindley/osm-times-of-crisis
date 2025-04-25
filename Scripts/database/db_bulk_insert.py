@@ -213,7 +213,8 @@ if __name__ == "__main__":
     }
 
     #places = [EmiliaRomagna, Broxbourne, Haiti2010, Texas]
-    places = [Pakistan, Atami, Derna, Malawi, Morocco, Freetown]
+    places = [EmiliaRomagna, Haiti2010, Haiti2021, Nepal, California, Texas, Sulawesi, 
+              Attica, Izmir, Gaziantep, Pakistan, Atami, Derna, Malawi, Morocco, Freetown]
     # Use multiprocessing to process each disaster in parallel
     with concurrent.futures.ProcessPoolExecutor() as executor:
         futures = {executor.submit(process_disaster, place): place["disaster_id"] for place in places}

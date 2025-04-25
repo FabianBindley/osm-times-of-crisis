@@ -410,6 +410,8 @@ class DB_Utils:
 
         print(f"Deleting changes for changeset: {changeset}")
         cursor.execute(delete_query)
+        deleted_count = cursor.rowcount  # Capture how many rows were deleted
+
         self.connection.commit()  
 
        # delete_query = f"""
@@ -421,6 +423,7 @@ class DB_Utils:
         self.connection.commit()  
 
         cursor.close()
+        return deleted_count
 
 
     def verify_changes_geojson(self, disaster_id):
