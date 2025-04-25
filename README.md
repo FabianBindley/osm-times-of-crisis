@@ -23,7 +23,7 @@ eg: osmium tags-filter Data/Texas/Texas.osh.pbf n/ w/ -o Data/Texas/TexasNodesWa
 6) Set up the Postgresql database running locally on your device
 6) Create changes and disaster tables according to their schemas
 6) Import the data into the Postgresql database by running the db_bulk_insert.py script
-7) Start analysing!
+7) Start analysing!!
 
 
 To combine 2 osh files:
