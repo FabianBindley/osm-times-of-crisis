@@ -192,7 +192,7 @@ def plot_counts_specific(disaster_id, disaster_country, disaster_area, disaster_
         raise ValueError("Invalid time_period. Choose from 'day', 'week', or 'month'.")
 
     # Plot data
-    plt.figure(figsize=(12, 7))
+    plt.figure(figsize=(12, 8))
 
     if "creates" in plot_edit_types:
         plt.plot(data['start_date'], data['creates'], label='Creates', marker='.', linestyle='-', color='blue')
@@ -240,6 +240,17 @@ def plot_counts_specific(disaster_id, disaster_country, disaster_area, disaster_
     plt.gca().xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m'))
     plt.xticks(rotation=90 if pre_disaster_days > 365 else 45)
 
+    plt.rcParams.update({
+        'font.size': 16,         # Bigger base font
+        'axes.titlesize': 18,    # Title font size
+        'axes.labelsize': 16,    # Axes label size
+        'xtick.labelsize': 15,   # X-axis tick label size
+        'ytick.labelsize': 15,   # Y-axis tick label size
+        'legend.fontsize': 12.5,   # Legend font size
+        'figure.titlesize': 25,  # Overall figure title size
+    })
+
+
     if post_only:
         post_disaster_data = data[data['start_date'] >= disaster_date + timedelta(days=imm_disaster_days)]
 
@@ -266,6 +277,11 @@ def plot_counts_specific(disaster_id, disaster_country, disaster_area, disaster_
     # Save the figure
     if not os.path.exists(f"Results/ChangeCounting/disaster{disaster_id}/charts"):
         os.makedirs(f"Results/ChangeCounting/disaster{disaster_id}/charts")
+
+
+    plt.tight_layout()
+    plt.subplots_adjust(bottom=0.14, top=0.95) 
+
 
     file_path = f'./Results/ChangeCounting/disaster{disaster_id}/charts/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_{time_period}_counts{"_prophet_forecast" if prophet_model else ""}{"" if len(plot_edit_types) == 4 else "_"+"_".join(plot_edit_types)}{"_post_only" if post_only else ""}.png'
     plt.savefig(file_path, dpi=350)
@@ -499,6 +515,11 @@ if __name__ == "__main__":
     plot_edit_types_list = [["creates", "edits", "deletes", "total"],["creates"],["edits"],["deletes"],["total"]]
     #plot_edit_types_list = [["deletes"],["total"]]
 
+    #######
+    plot_edit_types_list = [["creates", "edits", "deletes", "total"]]
+    periods = [(365,60,365)]
+    interval_lengths = [7]
+
     # Sorted by geographic region
     if len(sys.argv) > 1:
         disaster_ids = ast.literal_eval(sys.argv[1]) 
@@ -506,13 +527,12 @@ if __name__ == "__main__":
     else:
         disaster_ids = [2,3,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
         disaster_ids = [3,8,7,5,6,9,14,13,10,11,12,2,18,15,16,17]
-        #disaster_ids = [3]
+
         print("Disaster IDs defined:", disaster_ids)
         
-   #disaster_ids = range(2,19)
     generate_specific = True
-    generate_combined = False
-    #disaster_ids = [5]
+    generate_combined = True
+
 
     for period in periods:
         plot_full_periods_change_count(period[0], period[1], period[2], False)
