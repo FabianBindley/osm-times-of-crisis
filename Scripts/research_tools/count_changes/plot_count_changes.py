@@ -513,12 +513,6 @@ if __name__ == "__main__":
     post_only_bools = [True, False]
     interval_lengths = [1,7,30]
     plot_edit_types_list = [["creates", "edits", "deletes", "total"],["creates"],["edits"],["deletes"],["total"]]
-    #plot_edit_types_list = [["deletes"],["total"]]
-
-    #######
-    plot_edit_types_list = [["creates", "edits", "deletes", "total"]]
-    periods = [(365,60,365)]
-    interval_lengths = [7]
 
     # Sorted by geographic region
     if len(sys.argv) > 1:
@@ -567,7 +561,7 @@ if __name__ == "__main__":
     if generate_combined:
         disaster_ids_region =   [3,8,7,5,6,9,14,13,10,11,12,2,18,15,16,17] # Geographic region
         disaster_ids_disaster = [3,6,11,5,12,17,8,9,13,2,15,16,10,7,18,14] # Disaster Type
-        periods = (365,60,365)
+        periods = [(365,60,365)]
 
         disaster_ids_types = ["type","region"] # "region", "type"
 

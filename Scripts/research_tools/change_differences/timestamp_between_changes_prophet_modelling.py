@@ -165,7 +165,7 @@ def plot_average_time_between_edits(intervals_df, pre_disaster_days, imm_disaste
     intervals_df = intervals_df[(before < pd.to_datetime(intervals_df['start_date'])) & (pd.to_datetime(intervals_df['start_date']) < after)]   
 
     # Plot the data
-    plt.figure(figsize=(12, 7))
+    plt.figure(figsize=(12, 8))
     plt.plot(intervals_df["start_date"], intervals_df["avg_days_between_edits"], label="Median Number of Days Between Changes", marker='o', linestyle='-', color='red')
 
     if prophet_model:
@@ -188,6 +188,16 @@ def plot_average_time_between_edits(intervals_df, pre_disaster_days, imm_disaste
     plt.gca().xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m'))
     plt.xticks(rotation=45)
 
+    plt.rcParams.update({
+        'font.size': 16,         # Bigger base font
+        'axes.titlesize': 18,    # Title font size
+        'axes.labelsize': 16,    # Axes label size
+        'xtick.labelsize': 15,   # X-axis tick label size
+        'ytick.labelsize': 15,   # Y-axis tick label size
+        'legend.fontsize': 12.5,   # Legend font size
+        'figure.titlesize': 25,  # Overall figure title size
+    })
+
     if post_only:
         post_disaster_data = intervals_df[intervals_df['start_date'] >= disaster_date + timedelta(days=imm_disaster_days)]
 
@@ -206,7 +216,8 @@ def plot_average_time_between_edits(intervals_df, pre_disaster_days, imm_disaste
             plt.ylim(0, y_max)
 
     plt.legend()
-
+    plt.tight_layout()
+    plt.subplots_adjust(bottom=0.14, top=0.95) 
     # Save the plot
     os.makedirs(f"./Results/ChangeDifferences/disaster{disaster_id}/days_between_edits/charts", exist_ok=True)
     file_path =  f'./Results/ChangeDifferences/disaster{disaster_id}/days_between_edits/charts/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_{interval_length}_avg_days_between_edits{"_prophet_forecast" if prophet_model else ""}{"_post_only" if post_only else ""}.png'
@@ -301,7 +312,7 @@ if __name__ == "__main__":
         disaster_ids = [3,8,7,5,6,9,14,13,10,11,12,2,18,15,16,17]
         print("Disaster IDs defined:", disaster_ids)
 
-    generate_specific = False
+    generate_specific = True
     generate_combined = True
 
     if generate_specific: 

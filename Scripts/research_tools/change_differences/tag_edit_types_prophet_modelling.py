@@ -259,7 +259,7 @@ def plot_tag_changes(disaster_id, disaster_area, disaster_country, disaster_date
 
 
     # Plot setup
-    plt.figure(figsize=(12, 7))
+    plt.figure(figsize=(12, 8))
 
     # Plot actual tag changes
     color_map = {"creates": "blue", "edits": "orange", "deletes": "green", "total": "red"}
@@ -308,7 +308,19 @@ def plot_tag_changes(disaster_id, disaster_area, disaster_country, disaster_date
     plt.gca().xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m'))
     plt.xticks(rotation=90 if pre_disaster_days > 365 else 45)
 
+    plt.rcParams.update({
+        'font.size': 16,         # Bigger base font
+        'axes.titlesize': 18,    # Title font size
+        'axes.labelsize': 16,    # Axes label size
+        'xtick.labelsize': 15,   # X-axis tick label size
+        'ytick.labelsize': 15,   # Y-axis tick label size
+        'legend.fontsize': 12.5,   # Legend font size
+        'figure.titlesize': 25,  # Overall figure title size
+    })
+
    
+    plt.legend()
+    plt.tight_layout()
     # Save the plot
     os.makedirs(f"./Results/ChangeDifferences/disaster{disaster_id}/tag_changes/charts", exist_ok=True)
     file_path = f"./Results/ChangeDifferences/disaster{disaster_id}/tag_changes/charts/{pre_disaster_days}_{imm_disaster_days}_{post_disaster_days}_{time_period}_tag_changes{'_prophet_forecast' if prophet_model else ''}{'' if len(plot_edit_types) == 4 else '_'+'_'.join(plot_edit_types)}{'_post_only' if post_only else ''}.png"
@@ -442,6 +454,10 @@ if __name__ == "__main__":
 
     plot_edit_types_list = [["creates", "edits", "deletes", "total"],["creates"],["edits"],["deletes"],["total"]]
     #plot_edit_types_list = [["creates", "edits", "deletes", "total"],]
+
+    plot_edit_types_list = [["creates", "edits", "deletes", "total"]]
+    periods = [(365,60,365)]
+    interval_lengths = [7]
 
     if compute_specific_bool: 
 
