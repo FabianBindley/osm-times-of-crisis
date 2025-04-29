@@ -18,9 +18,7 @@ export default function About() {
           <a href="https://download.geofabrik.de/" target="_blank" rel="noopener noreferrer" className="about-link">
             Geofabrik
           </a> platform. OSM history data is used, which Geofabrik accesses from the OSM internal server, containing personally identifiable information. 
-          All data that may be accessed on <a href="https://osm.fbindley.com/" target="_blank" rel="noopener noreferrer" className="about-link">
-            osm.fbindley.com
-          </a> is fully aggregated and anonymised: it is not possible to view individual changes and personally identifiable information.
+          All data that may be accessed on this site is fully aggregated and anonymised: it is not possible to view individual changes and personally identifiable information.
         </p>
       </div>
 
