@@ -109,13 +109,14 @@ export default function About() {
           </ul>
         </p>
       </div>
-
+      {/*
       <div className="about-section">
         <h3>Authors</h3>
         <p>
           Fabian Bindley; supervised by Professor Licia Capra
         </p>
       </div>
+      */}
 
     </div>
 
