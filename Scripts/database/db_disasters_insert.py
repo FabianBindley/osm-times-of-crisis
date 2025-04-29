@@ -30,7 +30,6 @@ if __name__ == "__main__":
     cursor = connection.cursor()
 
     disasters = [
-        {"id": 1, "country": ["UnitedKingdom"], "area": ["Broxbourne"], "geometry": load_geometry_manually_defined("Broxbourne", "2024"), "date": datetime.strptime("2024-08-15", "%Y-%m-%d").timestamp(), "h3_resolution":8, "disaster_type":"None"},
         {"id": 2, "country": ["Italy"], "area": ["EmiliaRomagna"], "geometry": load_geometry_manually_defined("EmiliaRomagna","2023"), "date": datetime.strptime("2023-05-02", "%Y-%m-%d").timestamp(), "h3_resolution":7, "disaster_type":"Flood"},
         {"id": 3, "country": ["Haiti"], "area": ["Haiti"], "geometry": load_geometry_manually_defined("Haiti", "2010"), "date": datetime.strptime("2010-01-12", "%Y-%m-%d").timestamp(), "h3_resolution":6, "disaster_type":"Earthquake"},
         {"id": 4, "country": ["Haiti"], "area": ["Haiti"], "geometry": load_geometry_manually_defined("Haiti", "2016"), "date": datetime.strptime("2016-10-09", "%Y-%m-%d").timestamp(), "h3_resolution":6, "disaster_type":"Storm"},

@@ -10,8 +10,6 @@ if __name__ == "__main__":
     cursor = connection.cursor()
 
     places = [{"place":"EmiliaRomagna", "dates":{"start_date": "2022-05-02","end_date":"2024-05-02"},"file":"EmiliaRomagnaNodesWays.osh.pbf", "disaster_id": 2}]
-    #places = [{"place": "Broxbourne", "dates":{"start_date": "2024-06-01","end_date":"2024-10-30"}, "file":"BroxbourneNodesWays.osh.pbf", "disaster_id": 1}]
-    #places = [{"place":"Haiti", "dates":{"start_date": "2009-01-12","end_date":"2011-01-12"},"file":"HaitiNodesWays.osh.pbf", "disaster_id": 3},{"place":"Haiti", "dates":{"start_date": "2020-08-12","end_date":"2022-08-14"},"file":"HaitiNodesWays.osh.pbf", "disaster_id": 4}]
     column_to_update = "uid"
 
     for place in places:

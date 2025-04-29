@@ -47,7 +47,7 @@ function ChangeDensityMapping() {
     const count_change_intervals = [{ start: "365", imm:"0", end: "0" },{ start: "365", imm:"0", end: "0" },{ start: "365", imm:"0", end: "0" },{start:"365", imm:"60", end:"365"}]
     const count_change_resolutions = ["6", "7", "8", "9"]
 
-    const percent_difference_intervals = [{start:"365", imm:"60", end:"365"}]
+    const percent_difference_intervals = [{start:"0", imm:"60", end:"0"},{start:"0", imm:"60", end:"365"}]
     const percent_difference_resolutions = ["6", "7", "8", "9"]
       
 
