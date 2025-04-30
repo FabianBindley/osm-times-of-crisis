@@ -1,31 +1,69 @@
-# OSM During Times of Crisis Research
-## Fabian Bindley, Supervised by Prof Licia Capra
+# OSM During Times of Crisis
 
-## Data
 
-To get data ready for use:
-1)  Create a folder for the data in /Data
-2) Download and paste in the .osh.pbf file for the area
-3) Define a geocoded boundary for the area at https://geojson.io/
-4) Extract the area using osmium extract and the defined geojson with:
+This project investigates crowd-worker mapping behaviour on [OpenStreetMap (OSM)](https://www.openstreetmap.org/) during natural disasters, focusing on changes in mapping frequency, content, and geographic distribution across pre, imm, and post-disaster periods.
+
+---
+
+## Project Structure
+
+- `/Scripts/`: Python scripts for data processing, database insertion, and analysis
+- `/Data/`: Input OSM data and GeoJSON boundaries
+- `/Results/`: Computed results and visualisation charts
+- `/visualisation-site/`: Frontend React dashboard for visualising results
+
+---
+
+## Dataset Preparation
+
+### Prerequisites
+To apply the methodologies used in this project, ensure the following tools are installed:
+- [`osmium-tool`](https://osmcode.org/osmium-tool/) for processing `.osh.pbf` files.
+- [PostgreSQL](https://www.postgresql.org/) with the [PostGIS](https://postgis.net/) extension for spatial data storage and analysis.
+
+---
+
+### 1. Set Up Data Folder  
+Create a subfolder for each disaster under `/Data/` and place the corresponding `.osh.pbf` file (with full history) inside it.
+
+### 2. Define Geographical Boundary  
+Use [geojson.io](https://geojson.io/) to draw the boundary of the disaster-affected area. Export and save it as a `.geojson` file.
+
+### 3. Extract Area Using `osmium`  
+Run the following command to crop the dataset to your defined region:
+
+```bash
+osmium extract -p Data/{Place}/{Place}Boundary.geojson Data/{Place}/{place}-internal.osh.pbf \
+-o Data/{Place}/{Place}.osh.pbf -H --overwrite
 ```
-osmium extract -p Data/{Place}/{Place}ManuallyDefined.geojson Data/{Place}/{place}-internal.osh.pbf -o  Data/{Place}/{Place}.osh.pbf -H --overwrite
-eg: osmium extract -p Data/California/CaliforniaTop10Boundaries.geojson Data/California/california-internal.osh.pbf -o  Data/California/California.osh.pbf -H --overwrite
 
-osmium extract -p Data/Freetown/FreetownManuallyDefined.geojson Data/Freetown/sierra-leone-internal.osh.pbf -o  Data/Freetown/Freetown.osh.pbf -H --overwrite
-```
-5) Extract only the nodes and ways
-```
-osmium tags-filter Data/{place}/{place}.osh.pbf n/ w/ -o Data/{place}/{place}NodesWays.osh.pbf
-eg: osmium tags-filter Data/Texas/Texas.osh.pbf n/ w/ -o Data/Texas/TexasNodesWays.osh.pbf
+## 4. Filter for Nodes and Ways Only
+
+To reduce file size and focus on meaningful edits, filter the `.osh.pbf` file to include only nodes and ways (skip relations):
+
+```bash
+osmium tags-filter Data/{Place}/{Place}.osh.pbf n/ w/ -o Data/{Place}/{Place}NodesWays.osh.pbf
 ```
 
-6) Set up the Postgresql database running locally on your device
-6) Create changes and disaster tables according to their schemas
-6) Import the data into the Postgresql database by running the db_bulk_insert.py script
-7) Start analysing!!
+## 5. Create changes and disasters database tables
 
+Use the SQL schema files located in `/Scripts/database/schemas/` to create the required tables:
 
-To combine 2 osh files:
-osmium merge input_file1.osm input_file2.osm -o output_combined.osm
-osmium merge Data/TurkeySyia/syria-internal.osh.pbf Data/TurkeySyia/turkey-internal.osh.pbf -o Data/TurkeySyia/TurkeySyriaMerge.osh.pbf --with-history --overwrite
+- `disasters`
+- `changes`
+
+## 6. Install Libraries
+
+Install the required Python dependencies by running:
+
+```bash
+pip3 install -r Scripts/requirements.txt
+```
+
+## 7. Insert the Data
+
+Run the bulk insert script to load processed OSM data into your database:
+
+```bash
+python3 Scripts/database/db_bulk_insert.py
+```
