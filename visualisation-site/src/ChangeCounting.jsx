@@ -115,7 +115,7 @@ const additional_graphs = [
                         onChange={handleGraphStyleChange}
                     >
                         <Select.Option value="counts">Change count</Select.Option>
-                        <Select.Option value="percent_difference_time_series">Change % difference</Select.Option>
+                        {/*<Select.Option value="percent_difference_time_series">Change % difference</Select.Option>*/}
                         <Select.Option value="avg_days_between_edits">Interval between changes</Select.Option>
                         <Select.Option value="tag_changes">Tag edit types</Select.Option>
 
