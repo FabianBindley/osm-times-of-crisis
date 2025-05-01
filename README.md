@@ -1,7 +1,9 @@
-# OSM During Times of Crisis
+# Investigating Crowd-Worker Mapping Behaviour on OpenStreetMap During Times of crisis
 
 
-This project investigates crowd-worker mapping behaviour on [OpenStreetMap (OSM)](https://www.openstreetmap.org/) during natural disasters, focusing on changes in mapping frequency, content, and geographic distribution across pre, imm, and post-disaster periods.
+This project investigates crowd-worker mapping behaviour on [OpenStreetMap (OSM)](https://www.openstreetmap.org/) during natural disasters, focusing on changes in mapping frequency, content, and geographic distribution across pre, imm, and post-disaster periods. 
+
+The results can be viewed on the [Interactive Dashboard](https://osm-times-of-crisis.netlify.app/)
 
 ---
 
@@ -15,9 +17,10 @@ This project investigates crowd-worker mapping behaviour on [OpenStreetMap (OSM)
 ---
 
 ## Dataset Preparation
+To apply the methodologies used in this project, please follow the following steps:
 
 ### Prerequisites
-To apply the methodologies used in this project, ensure the following tools are installed:
+Please ensure the following tools are installed:
 - [`osmium-tool`](https://osmcode.org/osmium-tool/) for processing `.osh.pbf` files.
 - [PostgreSQL](https://www.postgresql.org/) with the [PostGIS](https://postgis.net/) extension for spatial data storage and analysis.
 
@@ -67,3 +70,7 @@ Run the bulk insert script to load processed OSM data into your database:
 ```bash
 python3 Scripts/database/db_bulk_insert.py
 ```
+
+## 8. Run experiments
+
+Run the experiment python scripts found in `Scripts/research_tools`.
