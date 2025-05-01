@@ -49,8 +49,8 @@ osmium tags-filter Data/{Place}/{Place}.osh.pbf n/ w/ -o Data/{Place}/{Place}Nod
 
 Use the SQL schema files located in `/Scripts/database/schemas/` to create the required tables:
 
-- `disasters`
 - `changes`
+- `disasters`
 
 ## 6. Install Libraries
 
