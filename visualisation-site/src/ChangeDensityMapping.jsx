@@ -46,7 +46,7 @@ function ChangeDensityMapping() {
     const [mapStyle, setMapStyle] = useState(validMapStyleParams[urlMapStyleParam] || "count_changes");
 
 
-    const [interval, setInterval] = useState({start:"365", imm:"60", end:"365"})
+    const [interval, setInterval] = useState(mapStyle == "count_changes" ? {start:"365", imm:"60", end:"365", post_only: false} : { start: "0", imm:"60", end: "0", post_only: false })
     const [lazyLoading, setLazyLoading] = useState(localStorage.getItem("lazyLoading")=="false" ? false : true);
 
     const intervalMap = {
