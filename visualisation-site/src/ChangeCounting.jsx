@@ -7,8 +7,19 @@ import { Select, Switch } from "antd";
 function ChangeCounting() {
   
   const [interval, setInterval] = useState({start:"365",imm:"60", end:"365"})
-  const [editType, setEditType] = useState("all")
-  const [graphStyle, setGraphStyle] = useState("counts")
+
+  const urlParams = new URLSearchParams(window.location.search);
+  const validGraphStyles = ["counts", "avg_days_between_edits", "tag_changes"];
+  const urlGraphStyle = urlParams.get("style");
+  const initialGraphStyle = validGraphStyles.includes(urlGraphStyle) ? urlGraphStyle : "counts";
+  const [graphStyle, setGraphStyle] = useState(initialGraphStyle);
+
+  const validEditTypes = ["creates", "edits", "deletes", "total", "all"];
+  const urlEditType = urlParams.get("type");
+  const initialEditType = validEditTypes.includes(urlEditType) ? urlEditType : "all";
+  const [editType, setEditType] = useState(initialEditType);
+
+
   const [periodLength, setPeriodLength] = useState(localStorage.getItem("period") ? localStorage.getItem("period") : "week")
   const [postOnly, setPostOnly] = useState(localStorage.getItem("postOnly")=="true" ? true : false);
   const [prophetForecast, setProphetForecast] = useState(localStorage.getItem("prophetForecast")=="true" ? true : false);

@@ -32,8 +32,20 @@ const additional_maps = [
 
 function ChangeDensityMapping() {
 
-    const [resolution, setResolution] = useState("7")
-    const [mapStyle, setMapStyle] = useState("count_changes")
+    const urlParams = new URLSearchParams(window.location.search);
+    const validResolutions = ["6", "7", "8", "9"];
+    const urlResolution = urlParams.get("res");
+    const [resolution, setResolution] = useState(validResolutions.includes(urlResolution) ? urlResolution : "7");
+
+
+    const validMapStyleParams = {
+    count: "count_changes",
+    percent: "percent_difference",
+    };
+    const urlMapStyleParam = urlParams.get("style");
+    const [mapStyle, setMapStyle] = useState(validMapStyleParams[urlMapStyleParam] || "count_changes");
+
+
     const [interval, setInterval] = useState({start:"365", imm:"60", end:"365"})
     const [lazyLoading, setLazyLoading] = useState(localStorage.getItem("lazyLoading")=="false" ? false : true);
 
