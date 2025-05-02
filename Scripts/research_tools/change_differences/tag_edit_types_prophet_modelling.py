@@ -455,9 +455,9 @@ if __name__ == "__main__":
     plot_edit_types_list = [["creates", "edits", "deletes", "total"],["creates"],["edits"],["deletes"],["total"]]
     #plot_edit_types_list = [["creates", "edits", "deletes", "total"],]
 
-    plot_edit_types_list = [["creates", "edits", "deletes", "total"]]
-    periods = [(365,60,365)]
-    interval_lengths = [7]
+    #plot_edit_types_list = [["creates", "edits", "deletes", "total"]]
+    #periods = [(365,60,365)]
+    #interval_lengths = [7]
 
     if compute_specific_bool: 
 
