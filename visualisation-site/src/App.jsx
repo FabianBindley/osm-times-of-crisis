@@ -65,7 +65,7 @@ function AppContent() {
   return (
     <div className="app">
       <h1 style={{ margin: "0.5em" }}>
-        Visualising OSM crowdsourcing behaviour during natural disasters
+      Investigating Crowd-Worker Mapping Behaviour on OpenStreetMap During Times of Crisis
       </h1>
       
 
